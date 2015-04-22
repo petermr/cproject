@@ -1,6 +1,8 @@
-package org.xmlcml.files;
+package org.xmlcml.cmine.files;
 
 import java.io.File;
+
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +17,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.args.DefaultArgProcessor;
+import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlP;
 import org.xmlcml.xml.XMLUtil;

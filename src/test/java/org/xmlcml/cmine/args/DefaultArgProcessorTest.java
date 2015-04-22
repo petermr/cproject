@@ -1,10 +1,10 @@
-package org.xmlcml.args;
+package org.xmlcml.cmine.args;
 
 import junit.framework.Assert;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
-import org.xmlcml.args.DefaultArgProcessor;
+import org.xmlcml.cmine.args.DefaultArgProcessor;
 
 public class DefaultArgProcessorTest {
 

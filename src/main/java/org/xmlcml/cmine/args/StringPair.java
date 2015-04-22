@@ -1,4 +1,4 @@
-package org.xmlcml.args;
+package org.xmlcml.cmine.args;
 
 /** a pair of strings.
  * 

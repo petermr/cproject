@@ -1,4 +1,4 @@
-package org.xmlcml.files;
+package org.xmlcml.cmine.files;
 
 public class DefaultSearcher {
 

@@ -1,6 +1,7 @@
-package org.xmlcml.files;
+package org.xmlcml.cmine.files;
 
 import java.io.FileInputStream;
+
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URL;

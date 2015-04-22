@@ -1,12 +1,10 @@
-package org.xmlcml.files;
-
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
+package org.xmlcml.cmine.files;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
-import nu.xom.Node;
-import nu.xom.ParentNode;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 /** a container for a "result" from an action on a CMDir.
  * 

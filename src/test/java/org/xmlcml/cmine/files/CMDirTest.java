@@ -1,12 +1,12 @@
-package org.xmlcml.files;
+package org.xmlcml.cmine.files;
 
 import java.io.File;
 
-import junit.framework.Assert;
-
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
+
 
 public class CMDirTest {
 

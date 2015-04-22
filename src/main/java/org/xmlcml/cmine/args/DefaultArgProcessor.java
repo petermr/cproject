@@ -1,4 +1,4 @@
-package org.xmlcml.args;
+package org.xmlcml.cmine.args;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -20,9 +20,9 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.files.CMDir;
-import org.xmlcml.files.CMDirList;
-import org.xmlcml.files.DefaultSearcher;
+import org.xmlcml.cmine.files.CMDir;
+import org.xmlcml.cmine.files.CMDirList;
+import org.xmlcml.cmine.files.DefaultSearcher;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.xml.XMLUtil;
@@ -41,7 +41,7 @@ public class DefaultArgProcessor {
 	public final static String HELP = "--help";
 	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
 
-	private static String RESOURCE_NAME_TOP = "/org/xmlcml/args";
+	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cmine/args";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+"args.xml";
 	
 	private static final Pattern INTEGER_RANGE_PATTERN = Pattern.compile("(\\d+):(\\d+)");
@@ -732,7 +732,7 @@ public class DefaultArgProcessor {
 		return htmlElement;
 	}
 
-	public String getPDFTXTContent(CMDir cmDir) {
+	public static String getPDFTXTContent(CMDir cmDir) {
 		String content = null;
 		File pdftxtFile = CMDir.getExistingFulltextPDFTXT(cmDir);
 		if (pdftxtFile != null) {
