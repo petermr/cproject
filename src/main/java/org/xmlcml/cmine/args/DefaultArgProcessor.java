@@ -22,13 +22,13 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.files.CMDir;
 import org.xmlcml.cmine.files.CMDirList;
+import org.xmlcml.cmine.files.ContentProcessor;
 import org.xmlcml.cmine.files.DefaultSearcher;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.xml.XMLUtil;
 
 public class DefaultArgProcessor {
-
 	
 	private static final Logger LOG = Logger.getLogger(DefaultArgProcessor.class);
 	static {
@@ -66,21 +66,27 @@ public class DefaultArgProcessor {
 		return chosenTokens;
 	}
 
+	// arg values
 	protected String output;
 	protected List<String> extensionList = null;
 	private boolean recursive = false;
 	protected List<String> inputList;
+	public String update;
+	
 	public List<ArgumentOption> argumentOptionList;
 	public List<ArgumentOption> chosenArgumentOptionList;
+	
 	protected CMDirList cmDirList;
 	// change protection later
 	public CMDir currentCMDir;
 	protected String summaryFileName;
+	// variable processing
 	protected Map<String, String> variableByNameMap;
 	private VariableProcessor variableProcessor;
-	public String update;
-	protected List<DefaultSearcher> searcherList;
-	protected HashMap<String, DefaultSearcher> searcherByNameMap;
+	// searching
+	protected List<DefaultSearcher> searcherList; // req
+	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
+//	protected ContentProcessor currentContentProcessor; // req
 	
 	
 	
@@ -668,6 +674,7 @@ public class DefaultArgProcessor {
 		}
 		for (int i = 0; i < cmDirList.size(); i++) {
 			currentCMDir = cmDirList.get(i);
+			LOG.trace("running dir: "+currentCMDir.getDirectory());
 			currentCMDir.ensureContentProcessor(this);
 			runInitMethodsOnChosenArgOptions();
 			runRunMethodsOnChosenArgOptions();
@@ -712,6 +719,15 @@ public class DefaultArgProcessor {
 	public List<DefaultSearcher> getSearcherList() {
 		return searcherList;
 	}
+
+//	protected ContentProcessor getOrCreateContentProcessor() {
+//		if (currentContentProcessor == null) {
+//			if (currentCMDir != null) {
+//				currentContentProcessor = new ContentProcessor(currentCMDir);
+//			}
+//		}
+//		return currentContentProcessor;
+//	}
 
 	/** gets the HtmlElement for ScholarlyHtml.
 	 * 

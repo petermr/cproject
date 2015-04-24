@@ -1,8 +1,6 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -716,6 +714,29 @@ public class CMDir {
 	public List<String> extractWordsFromPDFTXT() {
 		String value = DefaultArgProcessor.getPDFTXTContent(this);
 		return value == null ? new ArrayList<String>() :  new ArrayList<String>(Arrays.asList(value.trim().split("\\s+")));
+	}
+
+	// ======= delegates to ContentProcessor ========
+	public void putInContentProcessor(String name, ResultsElement resultsElement) {
+		ensureContentProcessor(argProcessor);
+		contentProcessor.put(name, resultsElement);
+	}
+
+	public void clearResultsElementList() {
+		ensureContentProcessor(argProcessor);
+		contentProcessor.clearResultsElementList();
+	}
+
+	public void add(ResultsElement resultsElement) {
+		ensureContentProcessor(argProcessor);
+		contentProcessor.addResultsElement(resultsElement);
+	}
+
+	public ContentProcessor getOrCreateContentProcessor() {
+		if (contentProcessor == null) {
+			contentProcessor = new ContentProcessor(this);
+		}
+		return contentProcessor;
 	}
 
 }

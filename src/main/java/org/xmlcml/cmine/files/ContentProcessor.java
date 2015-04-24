@@ -1,8 +1,6 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,6 +12,7 @@ import nu.xom.Element;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.apache.xerces.impl.xpath.regex.REUtil;
 import org.xmlcml.cmine.args.ArgumentOption;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.xml.XMLUtil;
@@ -53,14 +52,16 @@ public class ContentProcessor {
 		}
 	}
 
-	public void addResultsElement(ResultsElement resultsElement0) {
-		this.ensureResultsElementList();
-		String title = resultsElement0.getTitle();
-		if (title == null) {
-			throw new RuntimeException("Results Element must have title");
+	public void addResultsElement(ResultsElement resultsElement) {
+		if (resultsElement != null) {
+			this.ensureResultsElementList();
+			String title = resultsElement.getTitle();
+			if (title == null) {
+				throw new RuntimeException("Results Element must have title");
+			}
+			checkNoDuplicatedTitle(title);
+			resultsElementList.add(resultsElement);
 		}
-		checkNoDuplicatedTitle(title);
-		resultsElementList.add(resultsElement0);
 	}
 
 	private void checkNoDuplicatedTitle(String title) {
@@ -79,6 +80,7 @@ public class ContentProcessor {
 	
 	public void outputResultElements(ArgumentOption option, DefaultArgProcessor argProcessor ) {
 		resultsElementList = new ResultsElementList();
+		ensureResultsBySearcherNameMap();
 		for (DefaultSearcher optionSearcher : argProcessor.getSearcherList()) {
 			String name = optionSearcher.getName();
 			ResultsElement resultsElement = resultsBySearcherNameMap.get(name);
@@ -88,7 +90,7 @@ public class ContentProcessor {
 			}
 		}
 		this.createResultsDirectoriesAndOutputResultsElement(
-				option, resultsElementList, CMDir.RESULTS_XML);
+				option, CMDir.RESULTS_XML);
 	}
 
 	public void writeResults(String resultsFileName, String results) throws Exception {
@@ -125,8 +127,7 @@ public class ContentProcessor {
 	 * @param resultsElementList
 	 * @param resultsDirectoryName
 	 */
-	public List<File> createResultsDirectoriesAndOutputResultsElement(
-			ArgumentOption option, ResultsElementList resultsElementList, String resultsDirectoryName) {
+	public List<File> createResultsDirectoriesAndOutputResultsElement(ArgumentOption option, String resultsDirectoryName) {
 		File optionDirectory = new File(cmDir.getResultsDirectory(), option.getName());
 		List<File> outputDirectoryList = new ArrayList<File>();
 		for (ResultsElement resultsElement : resultsElementList) {
@@ -176,12 +177,31 @@ public class ContentProcessor {
 		this.cmDir = cmDir;
 	}
 
-	public ResultsElementList getResultsElementList() {
+	public ResultsElementList getOrCreateResultsElementList() {
+		if (resultsElementList == null) {
+			resultsElementList = new ResultsElementList();
+		}
 		return resultsElementList;
 	}
 
 	public void setResultsElementList(ResultsElementList resultsElementList) {
 		this.resultsElementList = resultsElementList;
+	}
+
+	public void put(String name, ResultsElement resultsElement) {
+		ensureResultsBySearcherNameMap();
+		resultsBySearcherNameMap.put(name, resultsElement);
+	}
+
+	private void ensureResultsBySearcherNameMap() {
+		if (resultsBySearcherNameMap == null) {
+			resultsBySearcherNameMap = new HashMap<String, ResultsElement>();
+		}
+	}
+
+	public ContentProcessor clearResultsElementList() {
+		this.resultsElementList = new ResultsElementList();
+		return this;
 	}
 	
 	
