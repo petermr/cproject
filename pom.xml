@@ -13,11 +13,11 @@
 -->
 
 	<groupId>org.xml-cml</groupId>
-	<artifactId>contentmine</artifactId>
+	<artifactId>cmine</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>contentmine</name>
-	<description>A Java library for processing arguments</description>
+	<name>cmine</name>
+	<description>A Java library for processing arguments and managing contentmine directories</description>
 
 	<licenses>
 		<license>
