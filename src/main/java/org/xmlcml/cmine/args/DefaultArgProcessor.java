@@ -28,6 +28,61 @@ import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.xml.XMLUtil;
 
+/** base class for all arg processing. Also contains the workflow logic:
+ * 
+ * the list of CMDirs is created in 
+ * 
+ * parseArgs(String[]) or
+ * parseArgs(String)
+ * 
+ * calls 
+ * 	protected void addArgumentOptionsAndRunParseMethods(ArgIterator argIterator, String arg) throws Exception {
+ * 		which iterates through the args, loking for init* and parse* methods 
+			for (ArgumentOption option : argumentOptionList) {
+				if (option.matches(arg)) {
+					LOG.trace("OPTION>> "+option);
+					String initMethodName = option.getInitMethodName();
+					if (initMethodName != null) {
+						runInitMethod(option, initMethodName);
+					}
+					String parseMethodName = option.getParseMethodName();
+					if (parseMethodName != null) {
+						runParseMethod(argIterator, option, parseMethodName);
+					}
+					processed = true;
+					chosenArgumentOptionList.add(option);
+					break;
+				}
+			}
+		}
+	}
+	
+	this will generate CMDirList 
+	after that 
+
+ * 
+ * 
+ * runAndOutput() iterates through each CMDir
+ * 
+		for (int i = 0; i < cmDirList.size(); i++) {
+			currentCMDir = cmDirList.get(i);
+			// each CMDir has a ContentProcessor
+			currentCMDir.ensureContentProcessor(this);
+			// possible initFooOption
+			runInitMethodsOnChosenArgOptions();
+			// possible runFooOption
+			runRunMethodsOnChosenArgOptions();
+			// possible outputFooOptions
+			runOutputMethodsOnChosenArgOptions();
+		}
+		// a "reduce" or "gather" method to run overe many CMDirs (e.g summaries)
+		runFinalMethodsOnChosenArgOptions();
+	}
+
+ * 
+ * @author pm286
+ *
+ */
 public class DefaultArgProcessor {
 	
 	private static final Logger LOG = Logger.getLogger(DefaultArgProcessor.class);
@@ -46,6 +101,7 @@ public class DefaultArgProcessor {
 	
 	private static final Pattern INTEGER_RANGE_PATTERN = Pattern.compile("(\\d+):(\\d+)");
 	protected static final String ARGS_XML = "args.xml";
+	public static final String WHITESPACE = "\\s+";
 	public static Pattern GENERAL_PATTERN = Pattern.compile("\\{([^\\}]*)\\}");
 	
 	/** creates a list of tokens that are found in an allowed list.
