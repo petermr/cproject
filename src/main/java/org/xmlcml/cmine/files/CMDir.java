@@ -13,6 +13,7 @@ import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.io.filefilter.IOFileFilter;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
@@ -106,13 +107,26 @@ public class CMDir {
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	private static final String CIF      = "cif";
+	private static final String CSV      = "csv";
+	private static final String DOC      = "doc";
 	private static final String DOCX     = "docx";
 	private static final String EPUB     = "epub";
+	private static final String GIF      = "gif";
 	private static final String HTML     = "html";
+	private static final String JPG      = "jpg";
 	private static final String PDF      = "pdf";
 	private static final String PDF_TXT  = "pdf.txt";
+	private static final String PNG      = "png";
+	private static final String PPT      = "ppt";
+	private static final String PPTX     = "pptx";
+	private static final String SVG      = "svg";
+	private static final String TEX      = "tex";
+	private static final String TIF      = "tif";
 	private static final String TXT      = "txt";
 	private static final String TXT_HTML = "txt.html";
+	private static final String XLS      = "xls";
+	private static final String XLSX     = "xlsx";
 	private static final String XML      = "xml";
 
 	public static final String ABSTRACT_HTML      = "abstract.html";
@@ -142,7 +156,9 @@ public class CMDir {
 					SCHOLARLY_HTML
 			});
 	}
-	
+	/** directories must end with slash.
+	 * 
+	 */
 	public static final String IMAGE_DIR         = "image/";
 	public static final String PDF_DIR           = "pdf/";
 	public static final String RESULTS_DIR       = "results/";
@@ -160,11 +176,40 @@ public class CMDir {
 			});
 	}
 	
+	
+	public final static boolean isImageSuffix(String suffix) {
+		return (
+            GIF.equals(suffix) ||
+            JPG.equals(suffix) ||
+            PNG.equals(suffix) ||
+            TIF.equals(suffix)
+				);
+	}
+	
+	public final static boolean isSupplementalSuffix(String suffix) {
+		return (
+            CIF.equals(suffix) ||
+            CSV.equals(suffix) ||
+            DOC.equals(suffix) ||
+            DOCX.equals(suffix) ||
+            PPT.equals(suffix) ||
+            PPTX.equals(suffix) ||
+            TEX.equals(suffix) ||
+            XLS.equals(suffix) ||
+            XLSX.equals(suffix)
+				);
+	}
+	
+	public final static boolean isSVG(String suffix) {
+		return (
+            SVG.equals(suffix)
+				);
+	}
+
 	public final static Map<String, String> RESERVED_FILES_BY_EXTENSION = new HashMap<String, String>();
 	private static final String RESULTS_DIRECTORY_NAME = "results";
 	static {
 		RESERVED_FILES_BY_EXTENSION.put(DOCX, FULLTEXT_DOCX);
-//		RESERVED_FILES_BY_EXTENSION.put(EPUB, FULLTEXT_EPUB);
 		RESERVED_FILES_BY_EXTENSION.put(HTML, FULLTEXT_HTML);
 		RESERVED_FILES_BY_EXTENSION.put(PDF, FULLTEXT_PDF);
 		RESERVED_FILES_BY_EXTENSION.put(PDF_TXT, FULLTEXT_PDF_TXT);
@@ -174,8 +219,19 @@ public class CMDir {
 	public static boolean isReservedFilename(String name) {
 		return RESERVED_FILE_NAMES.contains(name);
 	}
+
+	/** traps names such as "image/foo1.png".
+	 * 
+	 * @param name
+	 * @return true if one "/" and first compenet is reserved directory
+	 */
+	public static boolean hasReservedParentDirectory(String name) {
+		String[] fileStrings = name.split("/");
+		return fileStrings.length == 2 && RESERVED_DIR_NAMES.contains(fileStrings[0]+"/");
+	}
 	
 	public static boolean isReservedDirectory(String name) {
+		if (!name.endsWith("/")) name += "/";
 		return RESERVED_DIR_NAMES.contains(name);
 	}
 	
@@ -276,8 +332,30 @@ public class CMDir {
 		return false;
 	}
 	
+	public static boolean containsNoReservedDirectories(File dir) {
+
+		if (dir == null || !dir.isDirectory()) return false;
+		File[] files = dir.listFiles();
+		if (files == null) return true; // no files at all
+		for (File file : files) {
+			if (file.isDirectory()) {
+				if (!file.isHidden()) {
+					String name = FilenameUtils.getName(file.getAbsolutePath());
+					if (isReservedDirectory(name)) {
+						return false;
+					}
+				}
+			}
+		}
+		return true;
+	}
+	
 	public boolean containsNoReservedFilenames() {
 		return CMDir.containsNoReservedFilenames(directory);
+	}
+	
+	public boolean containsNoReservedDirectories() {
+		return CMDir.containsNoReservedDirectories(directory);
 	}
 	
 	public void createDirectory(File dir, boolean delete) {
@@ -532,10 +610,6 @@ public class CMDir {
 	}
 	
 	/**
-	 * checks that CMDir exists and has child fulltext.pdf
-	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.pdf
 	 */
 	public static File getExistingResultsDir(CMDir cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingResultsDir();
@@ -549,10 +623,43 @@ public class CMDir {
 		return getExistingReservedFile(RESULTS_DIR);
 	}
 
+	// ---
+	public boolean hasImageDir() {
+		return getExistingImageDir() != null;
+	}
 	
+	/**
+	 */
+	public static File getExistingImageDir(CMDir cmdir) {
+		return (cmdir == null) ? null : cmdir.getExistingImageDir();
+	}
+	
+	public static File getExistingImageDir(File cmdirFile) {
+		return new CMDir(cmdirFile).getExistingImageDir();
+	}
+
+	public File getExistingImageDir() {
+		return getExistingReservedDirectory(IMAGE_DIR);
+	}
+
+	public File getExistingImageFile(String filename) {
+		File imageFile = null;
+		File imageDir = getExistingImageDir();
+		if (imageDir != null) {
+			imageFile = new File(imageDir, filename);
+		}
+		return isExistingFile(imageFile) ? imageFile : null;
+	}
+
+
 	// ---
 	public File getReservedFile(String reservedName) {
 		File file = (!isReservedFilename(reservedName) || directory == null) ? null : new File(directory, reservedName);
+		return file;
+	}
+
+	public File getReservedDirectory(String reservedName) {
+		File file = (!isReservedDirectory(reservedName) || directory == null) ? null : new File(directory, reservedName);
 		return file;
 	}
 
@@ -562,9 +669,22 @@ public class CMDir {
 	}
 
 	public File getExistingReservedDirectory(String reservedName) {
-		File file = getReservedFile(reservedName);
-		return file == null || !isExistingDirectory(file) ? null : file;
+		File file = getReservedDirectory(reservedName);
+		if (file != null) {
+			boolean exists = isExistingDirectory(file);
+			if (!exists) file = null;
+		}
+		return file;
 	}
+	
+	public File getExistingFileWithReservedParentDirectory(String inputName) {
+		File file = null;
+		if (CMDir.hasReservedParentDirectory(inputName)) {
+			file = new File(directory, inputName);
+		}
+		return file;
+	}
+	
 
 	@Override
 	public String toString() {
@@ -614,6 +734,12 @@ public class CMDir {
 			// no type
 		} else if (PDF.equals(extension)) {
 			filename = FULLTEXT_PDF;
+		} else if (isImageSuffix(extension)) {
+			filename = IMAGE_DIR;
+		} else if (isSupplementalSuffix(extension)) {
+			filename = SUPPLEMENTAL_DIR;
+		} else if (SVG.equals(extension)) {
+			filename = SVG_DIR;
 		} else if (XML.equals(extension)) {
 			filename = FULLTEXT_XML;
 		} else if (HTML.equals(extension)) {
@@ -629,9 +755,10 @@ public class CMDir {
 	}
 
 	public static boolean isNonEmptyNonReservedInputList(List<String> inputList) {
-		return inputList != null &&
-			(inputList.size() != 1 ||
-			!CMDir.isReservedFilename(inputList.get(0)));
+		if (inputList == null || inputList.size() != 1) return false;
+		if (CMDir.hasReservedParentDirectory(inputList.get(0))) return false;
+		if (CMDir.isReservedFilename(inputList.get(0))) return false;
+		return true;
 	}
 
 	public void copyTo(File destDir, boolean overwrite) throws IOException {
@@ -665,6 +792,11 @@ public class CMDir {
 	File getResultsDirectory() {
 		File resultsDirectory = new File(getDirectory(), RESULTS_DIRECTORY_NAME);
 		return resultsDirectory;
+	}
+
+	File getImageDirectory() {
+		File imageDirectory = new File(getDirectory(), IMAGE_DIR);
+		return imageDirectory;
 	}
 
 	public ResultsElement getResultsElement(String pluginName, String methodName) {

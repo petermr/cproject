@@ -287,7 +287,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputMethod(ArgumentOption option) {
-		LOG.error("outputMethod NYI");
+		LOG.error("outputMethod needs overwriting");
 	}
 
 	// =====================================
@@ -311,7 +311,7 @@ public class DefaultArgProcessor {
 				continue;
 			}
 			CMDir cmDir = new CMDir(qDirectoryName);
-			if (cmDir.containsNoReservedFilenames()) {
+			if (cmDir.containsNoReservedFilenames() && cmDir.containsNoReservedDirectories()) {
 				List<File> childFiles = new ArrayList<File>(Arrays.asList(qDirectory.listFiles(directoryFilter)));
 				List<String> childFilenames = new ArrayList<String>();
 				for (File childFile : childFiles) {
@@ -527,7 +527,7 @@ public class DefaultArgProcessor {
 	public void runRunMethodsOnChosenArgOptions() {
 		for (ArgumentOption option : chosenArgumentOptionList) {
 			String runMethodName = option.getRunMethodName();
-			LOG.trace("Method: "+runMethodName);
+			LOG.trace("runMethod: "+runMethodName);
 			if (runMethodName != null) {
 				LOG.trace("Method " + runMethodName);
 				try {
@@ -723,6 +723,9 @@ public class DefaultArgProcessor {
 		return sb.toString();
 	}
 
+	/** MAIN CONTROL LOOP
+	 * 
+	 */
 	public void runAndOutput() {
 		ensureCMDirList();
 		if (cmDirList.size() == 0) {
