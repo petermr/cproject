@@ -529,7 +529,7 @@ public class DefaultArgProcessor {
 			String runMethodName = option.getRunMethodName();
 			LOG.trace("runMethod: "+runMethodName);
 			if (runMethodName != null) {
-				LOG.trace("Method " + runMethodName);
+				LOG.debug("Method " + runMethodName);
 				try {
 					runRunMethod(option);
 				} catch (Exception e) {
@@ -545,6 +545,7 @@ public class DefaultArgProcessor {
 			String outputMethodName = option.getOutputMethodName();
 			LOG.trace("OUTPUT "+outputMethodName);
 			if (outputMethodName != null) {
+				LOG.debug("OUTPUT "+outputMethodName);
 				try {
 					runOutputMethod(option);
 				} catch (Exception e) {
@@ -733,7 +734,7 @@ public class DefaultArgProcessor {
 		}
 		for (int i = 0; i < cmDirList.size(); i++) {
 			currentCMDir = cmDirList.get(i);
-			LOG.trace("running dir: "+currentCMDir.getDirectory());
+			LOG.debug("running dir: "+currentCMDir.getDirectory());
 			currentCMDir.ensureContentProcessor(this);
 			runInitMethodsOnChosenArgOptions();
 			runRunMethodsOnChosenArgOptions();
