@@ -639,7 +639,11 @@ public class CMDir {
 	}
 
 	public File getExistingImageDir() {
-		return getExistingReservedDirectory(IMAGE_DIR);
+		return getExistingReservedDirectory(IMAGE_DIR, false);
+	}
+
+	public File getOrCreateExistingImageDir() {
+		return getExistingReservedDirectory(IMAGE_DIR, true);
 	}
 
 	public File getExistingImageFile(String filename) {
@@ -668,11 +672,17 @@ public class CMDir {
 		return file == null || !isExistingFile(file) ? null : file;
 	}
 
-	public File getExistingReservedDirectory(String reservedName) {
+	public File getExistingReservedDirectory(String reservedName, boolean forceCreate) {
 		File file = getReservedDirectory(reservedName);
 		if (file != null) {
 			boolean exists = isExistingDirectory(file);
-			if (!exists) file = null;
+			if (!exists) {
+				if (forceCreate) {
+					file.mkdirs();
+				} else {
+					file = null;
+				}
+			}
 		}
 		return file;
 	}

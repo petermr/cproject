@@ -300,6 +300,7 @@ public class DefaultArgProcessor {
 		};
 
 		cmDirList = new CMDirList();
+		LOG.trace("creating CMDIRList from: "+qDirectoryNames);
 		for (String qDirectoryName : qDirectoryNames) {
 			File qDirectory = new File(qDirectoryName);
 			if (!qDirectory.exists()) {
@@ -311,7 +312,9 @@ public class DefaultArgProcessor {
 				continue;
 			}
 			CMDir cmDir = new CMDir(qDirectoryName);
+			LOG.trace("...creating CMDIR from: "+qDirectoryName);
 			if (cmDir.containsNoReservedFilenames() && cmDir.containsNoReservedDirectories()) {
+				LOG.debug("... No reserved files or directories: "+cmDir);
 				List<File> childFiles = new ArrayList<File>(Arrays.asList(qDirectory.listFiles(directoryFilter)));
 				List<String> childFilenames = new ArrayList<String>();
 				for (File childFile : childFiles) {
@@ -321,10 +324,17 @@ public class DefaultArgProcessor {
 				}
 				LOG.trace(childFilenames);
 				// recurse (no mixed directory structures)
+				// FIXME 
+				LOG.warn("Recursing CMDIRs is probably  a BUG");
 				createCMDirList(childFilenames);
 			} else {
 				cmDirList.add(cmDir);
 			}
+		}
+		LOG.trace("CMDIRList: "+cmDirList.size());
+		for (CMDir cmdir : cmDirList) {
+			LOG.trace("CMDir: "+cmdir);
+			
 		}
 	}
 
@@ -449,7 +459,7 @@ public class DefaultArgProcessor {
 		for (String input : inputList) {
 			File file = new File(input);
 			if (file.isDirectory()) {
-				LOG.debug("DIR: "+file.getAbsolutePath()+"; "+file.isDirectory());
+				LOG.trace("DIR: "+file.getAbsolutePath()+"; "+file.isDirectory());
 				addDirectoryFiles(inputList0, file);
 			} else {
 				inputList0.add(input);
@@ -529,7 +539,7 @@ public class DefaultArgProcessor {
 			String runMethodName = option.getRunMethodName();
 			LOG.trace("runMethod: "+runMethodName);
 			if (runMethodName != null) {
-				LOG.debug("Method " + runMethodName);
+				LOG.trace("Method " + runMethodName+"; on: "+currentCMDir.getDirectory());
 				try {
 					runRunMethod(option);
 				} catch (Exception e) {
@@ -545,7 +555,7 @@ public class DefaultArgProcessor {
 			String outputMethodName = option.getOutputMethodName();
 			LOG.trace("OUTPUT "+outputMethodName);
 			if (outputMethodName != null) {
-				LOG.debug("OUTPUT "+outputMethodName);
+				LOG.trace("OUTPUT "+outputMethodName);
 				try {
 					runOutputMethod(option);
 				} catch (Exception e) {
@@ -734,7 +744,7 @@ public class DefaultArgProcessor {
 		}
 		for (int i = 0; i < cmDirList.size(); i++) {
 			currentCMDir = cmDirList.get(i);
-			LOG.debug("running dir: "+currentCMDir.getDirectory());
+			LOG.trace("running dir: "+currentCMDir.getDirectory());
 			currentCMDir.ensureContentProcessor(this);
 			runInitMethodsOnChosenArgOptions();
 			runRunMethodsOnChosenArgOptions();
@@ -779,15 +789,6 @@ public class DefaultArgProcessor {
 	public List<DefaultSearcher> getSearcherList() {
 		return searcherList;
 	}
-
-//	protected ContentProcessor getOrCreateContentProcessor() {
-//		if (currentContentProcessor == null) {
-//			if (currentCMDir != null) {
-//				currentContentProcessor = new ContentProcessor(currentCMDir);
-//			}
-//		}
-//		return currentContentProcessor;
-//	}
 
 	/** gets the HtmlElement for ScholarlyHtml.
 	 * 
