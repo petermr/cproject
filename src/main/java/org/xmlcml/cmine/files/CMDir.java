@@ -363,7 +363,7 @@ public class CMDir {
 		if (dir == null) {
 			throw new RuntimeException("Null directory");
 		}
-		if (delete) {
+		if (delete && dir.exists()) {
 			try {
 				FileUtils.forceDelete(dir);
 			} catch (IOException e) {
@@ -771,6 +771,19 @@ public class CMDir {
 		return true;
 	}
 
+	public void writeReservedFile(File originalFile, String reservedFilename, boolean delete) throws Exception {
+		File reservedFile = this.getReservedFile(reservedFilename);
+		if (reservedFile.exists()) {
+			if (delete) {
+				FileUtils.forceDelete(reservedFile);
+			} else {
+				LOG.error("File exists ("+reservedFile.getAbsolutePath()+"), not overwritten");
+				return;
+			}
+		}
+		FileUtils.copyFile(originalFile, reservedFile);
+	}
+	
 	public void copyTo(File destDir, boolean overwrite) throws IOException {
 		if (destDir == null) {
 			throw new RuntimeException("Null destination file in copyTo()");

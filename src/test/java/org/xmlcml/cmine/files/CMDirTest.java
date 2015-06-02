@@ -1,11 +1,14 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
+import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
+import org.xmlcml.cmine.args.DefaultArgProcessor;
 
 
 public class CMDirTest {
@@ -27,19 +30,34 @@ public class CMDirTest {
 		Assert.assertTrue("XML", cmDir.hasExistingFulltextXML());
 	}
 	
-//	@Test
-//	// FIXME
-//	public void testCMDir() throws IOException {
-//		File container0115884 = new File("target/plosone/0115884/");
-//		// copy so we don't write back into test area
-//		FileUtils.copyDirectory(Fixtures.TEST_PLOSONE_0115884_DIR, container0115884);
-//		String[] args = {
-//			"-q", container0115884.toString(),
-//		};
-//		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
-//		argProcessor.parseArgs(args);
-//		CMDirList cmDirList = argProcessor.getCMDirList();
-//		Assert.assertEquals(1,  cmDirList.size());
-//		LOG.trace(cmDirList.get(0).toString());
-//	}
+	@Test
+	/** creates a new CMDir for a PDF.
+	 * 
+	 */
+	public void testCreateCMDir() throws IOException {
+		File cmDirectory = new File("target/testcreate/src_test_resources_org_xmlcml_files_misc_test_pdf_1471_2148_14_70_pdf");
+		if (cmDirectory.exists()) FileUtils.forceDelete(cmDirectory);
+		String args = "-i src/test/resources/org/xmlcml/files/misc/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --cmdir";
+		new DefaultArgProcessor().parseArgs(args);
+		Assert.assertTrue(cmDirectory.exists());
+		CMDir cmDir = new CMDir(cmDirectory); 
+		File fulltext_pdf = cmDir.getExistingFulltextPDF();
+		Assert.assertTrue(fulltext_pdf.exists());
+	}
+	
+	@Test
+	/** creates new CMDirs for list of PDF.
+	 * 
+	 */
+	public void testCreateCMDirs() throws IOException {
+//		File cmDirectory = new File("target/testcreate/src_test_resources_org_xmlcml_files_misc_test_pdf_1471_2148_14_70_pdf");
+//		if (cmDirectory.exists()) FileUtils.forceDelete(cmDirectory);
+		String args = "-i src/test/resources/org/xmlcml/files/misc/theses/ -e pdf -o target/testcreate/theses/ --cmdir";
+		new DefaultArgProcessor().parseArgs(args);
+//		Assert.assertTrue(cmDirectory.exists());
+//		CMDir cmDir = new CMDir(cmDirectory); 
+//		File fulltext_pdf = cmDir.getExistingFulltextPDF();
+//		Assert.assertTrue(fulltext_pdf.exists());
+	}
+	
 }

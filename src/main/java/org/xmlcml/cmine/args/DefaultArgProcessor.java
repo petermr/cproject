@@ -17,6 +17,7 @@ import nu.xom.Builder;
 import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -258,10 +259,45 @@ public class DefaultArgProcessor {
 		setExtensions(extensions);
 	}
 
+	public void parseQSNorma(ArgumentOption option, ArgIterator argIterator) {
+		LOG.warn("OBSOLETE, use --cmdir instead");
+		parseCMDir(option, argIterator);
+	}
 
 	public void parseCMDir(ArgumentOption option, ArgIterator argIterator) {
 		List<String> cmDirNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		createCMDirList(cmDirNames);
+		if (cmDirNames.size() == 0) {
+			if (inputList == null || inputList.size() == 0) {
+				LOG.error("Must give inputList before --cmdir");
+			} else if (output == null) {
+				LOG.error("Must give output before --cmdir");
+			} else {
+				finalizeInputList();
+//				generateFilenamesFromInputDirectory();
+				createCMDirListFromInput();
+			}
+		} else {
+			createCMDirList(cmDirNames);
+		}
+	}
+
+	private void createCMDirListFromInput() {
+		File outputDir = output == null ? null : new File(output);
+		for (String filename : inputList) {
+			File infile = new File(filename);
+			if (!infile.isDirectory()) {
+				File cmdirParent = output == null ? infile.getParentFile() : outputDir;
+				String cmName = filename.replaceAll("\\p{Punct}", "_")+"/";
+				File directory = new File(cmdirParent, cmName);
+				CMDir cmDir = new CMDir(directory, true);
+				String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
+				try {
+					cmDir.writeReservedFile(infile, reservedFilename, true);
+				} catch (Exception e) {
+					throw new RuntimeException("Cannot create/write: "+filename, e);
+				}
+			}
+		}
 	}
 
 	public void printHelp(ArgumentOption option, ArgIterator argIterator) {
