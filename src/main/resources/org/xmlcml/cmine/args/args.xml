@@ -133,10 +133,10 @@
 		long="--recursive"
 		args=""
 		class="java.lang.Boolean"
-		default="false"
 		countRange="{1,1}"
 		parseMethod="parseRecursive"
 		>
+<!-- default ="false"  -->
 		<help>
 			RECURSIVE
 			input directories

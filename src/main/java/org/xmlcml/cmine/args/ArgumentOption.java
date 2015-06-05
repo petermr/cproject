@@ -37,11 +37,11 @@ public class ArgumentOption {
 	private static final String DEFAULT = "default";
 	private static final String COUNT_RANGE = "countRange";
 	private static final String VALUE_RANGE = "valueRange";
-	private static final String FINAL_METHOD = "finalMethod";
-	private static final String INIT_METHOD = "initMethod";
-	private static final String OUTPUT_METHOD = "outputMethod";
-	private static final String PARSE_METHOD = "parseMethod";
-	private static final String RUN_METHOD = "runMethod";
+	static final String FINAL_METHOD = "finalMethod";
+	static final String INIT_METHOD = "initMethod";
+	static final String OUTPUT_METHOD = "outputMethod";
+	static final String PARSE_METHOD = "parseMethod";
+	static final String RUN_METHOD = "runMethod";
 	// these may be obsolete
 	private static final String FORBIDDEN = "forbidden";
 	private static final String REQUIRED = "required";
@@ -429,6 +429,21 @@ public class ArgumentOption {
 		return outputMethodName;
 	}
 
+	public String getMethodName(String methodType) {
+		String methodName = null;
+		if (methodType == null) {
+		} else if (INIT_METHOD.equals(methodType)) {
+			methodName = initMethodName;
+		} else if (RUN_METHOD.equals(methodType)) {
+			methodName = runMethodName;
+		} else if (OUTPUT_METHOD.equals(methodType)) {
+			methodName = outputMethodName;
+		} else if (FINAL_METHOD.equals(methodType)) {
+			methodName = finalMethodName;
+		}
+		return methodName;
+	}
+
 	public void setOutputMethod(String outputMethodName) {
 		if (outputMethodName != null) {
 			try {
@@ -444,9 +459,7 @@ public class ArgumentOption {
 	public void setInitMethod(String initMethodName) {
 		if (initMethodName != null) {
 			try {
-				LOG.trace("INIT METHODNAME "+initMethodName);
 				Method method = argProcessorClass.getMethod(initMethodName, ArgumentOption.class);
-				LOG.trace("INIT METHOD "+method);
 				this.initMethodName = initMethodName;
 			} catch (NoSuchMethodException e) {
 				throw new RuntimeException("Non-existent initMethod "+argProcessorClass+"; "+initMethodName+" (edit ArgProcessor)", e);

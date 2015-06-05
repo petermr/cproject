@@ -13,12 +13,10 @@ import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
-import org.apache.commons.io.filefilter.IOFileFilter;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.html.HtmlElement;
-import org.xmlcml.html.HtmlP;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultimap;
@@ -125,6 +123,7 @@ public class CMDir {
 	private static final String TIF      = "tif";
 	private static final String TXT      = "txt";
 	private static final String TXT_HTML = "txt.html";
+	private static final String XHTML    = "xhtml";
 	private static final String XLS      = "xls";
 	private static final String XLSX     = "xlsx";
 	private static final String XML      = "xml";
@@ -136,6 +135,7 @@ public class CMDir {
 	public static final String FULLTEXT_PDF_TXT   = "fulltext.pdf.txt";
 	public static final String FULLTEXT_TXT       = "fulltext.txt";
 	public static final String FULLTEXT_TXT_HTML  = "fulltext.txt.html";
+	public static final String FULLTEXT_XHTML     = "fulltext.xhtml";
 	public static final String FULLTEXT_XML       = "fulltext.xml";
 	public static final String RESULTS_JSON       = "results.json";
 	public static final String RESULTS_XML        = "results.xml";
@@ -150,6 +150,7 @@ public class CMDir {
 					FULLTEXT_HTML,
 					FULLTEXT_PDF,
 					FULLTEXT_PDF_TXT,
+					FULLTEXT_XHTML,
 					FULLTEXT_XML,
 					RESULTS_JSON,
 					RESULTS_XML,
@@ -244,6 +245,8 @@ public class CMDir {
 //	public ResultsElementList resultsElementList;
 	private DefaultArgProcessor argProcessor;
 	private ContentProcessor contentProcessor;
+	public HtmlElement htmlElement;
+	private List<Element> sectionElementList;
 
 	public CMDir() {
 		
@@ -471,10 +474,10 @@ public class CMDir {
 	}
 	
 	/**
-	 * checks that CMDir exists and has child fulltext.xml
+	 * checks that CMDir exists and has child fulltext.html
 	 * 
 	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.xml
+	 * @return true if cmdir exists and has child fulltext.html
 	 */
 	public static File getExistingFulltextHTML(CMDir cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingFulltextHTML();
@@ -486,6 +489,30 @@ public class CMDir {
 
 	public File getExistingFulltextHTML() {
 		return getExistingReservedFile(FULLTEXT_HTML);
+	}
+
+	// ----
+
+	public boolean hasFulltextXHTML() {
+		return hasExistingDirectory() && isExistingFile(getExistingFulltextXHTML());
+	}
+	
+	/**
+	 * checks that CMDir exists and has child fulltext.html
+	 * 
+	 * @param cmdir
+	 * @return true if cmdir exists and has child fulltext.html
+	 */
+	public static File getExistingFulltextXHTML(CMDir cmdir) {
+		return (cmdir == null) ? null : cmdir.getExistingFulltextXHTML();
+	}
+
+	public static File getExistingFulltextXHTML(File cmdirFile) {
+		return new CMDir(cmdirFile).getExistingFulltextXHTML();
+	}
+
+	public File getExistingFulltextXHTML() {
+		return getExistingReservedFile(FULLTEXT_XHTML);
 	}
 
 	// ---
@@ -754,6 +781,8 @@ public class CMDir {
 			filename = FULLTEXT_XML;
 		} else if (HTML.equals(extension)) {
 			filename = FULLTEXT_HTML;
+		} else if (XHTML.equals(extension)) {
+			filename = FULLTEXT_XHTML;
 		}
 		return filename;
 	}
@@ -855,15 +884,21 @@ public class CMDir {
 	}
 
 	public List<String> extractWordsFromScholarlyHtml() {
-		HtmlElement htmlElement = DefaultArgProcessor.getScholarlyHtmlElement(this);
+		ensureScholarlyHtmlElement();
 		String value = htmlElement == null ? null : htmlElement.getValue();
 		return value == null ? new ArrayList<String>() :  new ArrayList<String>(Arrays.asList(value.split("\\s+")));
 	}
 
-	public List<HtmlP> extractPElements() {
-		HtmlElement htmlElement = DefaultArgProcessor.getScholarlyHtmlElement(this);
-		List<HtmlP> pElements = HtmlP.extractSelfAndDescendantIs(htmlElement);
-		return pElements;
+	public List<Element> extractSectionsFromScholarlyHtml(String xpath) {
+		ensureScholarlyHtmlElement();
+		sectionElementList = XMLUtil.getQueryElements(getHtmlElement(), xpath);
+		return sectionElementList;
+	}
+
+	public void ensureScholarlyHtmlElement() {
+		if (htmlElement == null) {
+			htmlElement = DefaultArgProcessor.getScholarlyHtmlElement(this);
+		}
 	}
 
 	public List<String> extractWordsFromPDFTXT() {
@@ -893,5 +928,10 @@ public class CMDir {
 		}
 		return contentProcessor;
 	}
+
+	public HtmlElement getHtmlElement() {
+		return htmlElement;
+	}
+
 
 }

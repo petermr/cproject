@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 import nu.xom.Element;
 
-import org.xmlcml.html.HtmlP;
+import org.xmlcml.html.HtmlElement;
 import org.xmlcml.xml.XPathGenerator;
 
 public class DefaultSearcher {
@@ -18,11 +18,11 @@ public class DefaultSearcher {
 		return name;
 	}
 
-	public ResultsElement search(List<HtmlP> pElements) {
+	public ResultsElement search(List<? extends Element> elements) {
 		ResultsElement resultsElement = new ResultsElement();
-		for (HtmlP pElement : pElements) {
-			String xpath = new XPathGenerator(pElement).getXPath();
-			ResultsElement subResultsElement = this.searchXomElement(pElement);
+		for (Element element : elements) {
+			String xpath = new XPathGenerator(element).getXPath();
+			ResultsElement subResultsElement = this.searchXomElement(element);
 			if (subResultsElement.size() > 0) {
 				subResultsElement.setXPath(xpath);
 				resultsElement.transferResultElements(subResultsElement);

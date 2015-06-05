@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,16 +18,15 @@ import nu.xom.Builder;
 import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.files.CMDir;
 import org.xmlcml.cmine.files.CMDirList;
-import org.xmlcml.cmine.files.ContentProcessor;
 import org.xmlcml.cmine.files.DefaultSearcher;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
+import org.xmlcml.html.HtmlP;
 import org.xmlcml.xml.XMLUtil;
 
 /** base class for all arg processing. Also contains the workflow logic:
@@ -526,6 +526,7 @@ public class DefaultArgProcessor {
 		StringBuilder sb = new StringBuilder();
 		for (ArgumentOption option : argumentOptionList) {
 			String defalt = String.valueOf(option.getDefault());
+			LOG.trace("default: "+defalt);
 			if (defalt != null && defalt.toString().trim().length() > 0) {
 				String command = getBriefOrVerboseCommand(option);
 				sb.append(command+" "+option.getDefault()+" ");
@@ -555,67 +556,49 @@ public class DefaultArgProcessor {
 	}
 	
 	public void runInitMethodsOnChosenArgOptions() {
-		for (ArgumentOption option : chosenArgumentOptionList) {
-			String initMethodName = option.getInitMethodName();
-			LOG.trace("Method: "+initMethodName);
-			if (initMethodName != null) {
-				LOG.trace("Method " + initMethodName);
-				try {
-					runInitMethod(option);
-				} catch (Exception e) {
-					e.printStackTrace();
-					throw new RuntimeException("cannot process argument: "+option.getVerbose()+" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
-				}
-			}
-		}
+		runMethodsOfType(ArgumentOption.INIT_METHOD);
 	}
 	
 	public void runRunMethodsOnChosenArgOptions() {
-		for (ArgumentOption option : chosenArgumentOptionList) {
-			String runMethodName = option.getRunMethodName();
-			LOG.trace("runMethod: "+runMethodName);
-			if (runMethodName != null) {
-				LOG.trace("Method " + runMethodName+"; on: "+currentCMDir.getDirectory());
-				try {
-					runRunMethod(option);
-				} catch (Exception e) {
-					e.printStackTrace();
-					throw new RuntimeException("cannot process argument: "+option.getVerbose()+" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
-				}
-			}
-		}
+		runMethodsOfType(ArgumentOption.RUN_METHOD);
 	}
-	
+
 	public void runOutputMethodsOnChosenArgOptions() {
-		for (ArgumentOption option : chosenArgumentOptionList) {
-			String outputMethodName = option.getOutputMethodName();
-			LOG.trace("OUTPUT "+outputMethodName);
-			if (outputMethodName != null) {
-				LOG.trace("OUTPUT "+outputMethodName);
-				try {
-					runOutputMethod(option);
-				} catch (Exception e) {
-					e.printStackTrace();
-					throw new RuntimeException("cannot process argument: "+option.getVerbose()+" ("+ExceptionUtils.getRootCauseMessage(e)+")");
+		runMethodsOfType(ArgumentOption.OUTPUT_METHOD);
+	}
+
+	public void runFinalMethodsOnChosenArgOptions() {
+		runMethodsOfType(ArgumentOption.FINAL_METHOD);
+	}
+
+	protected void runMethodsOfType(String methodNameType) {
+		List<ArgumentOption> optionList = getOptionsWithMethod(methodNameType);
+		for (ArgumentOption option : optionList) {
+			LOG.trace("option "+option+" "+this.getClass());
+			try {
+				String methodName = option.getMethodName(methodNameType);
+				if (methodName != null) {
+					instantiateAndRunMethod(option, methodName);
 				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				throw new RuntimeException("cannot process argument: "+option.getVerbose()+" ("+ExceptionUtils.getRootCauseMessage(e)+")");
 			}
 		}
 	}
 
-	public void runFinalMethodsOnChosenArgOptions() {
-		ensureChosenArgumentList();
+	private List<ArgumentOption> getOptionsWithMethod(String methodName) {
+		List<ArgumentOption> optionList0 = new ArrayList<ArgumentOption>();
 		for (ArgumentOption option : chosenArgumentOptionList) {
-			String finalMethodName = option.getFinalMethodName();
-			if (finalMethodName != null) {
-				try {
-					runFinalMethod(option);
-				} catch (Exception e) {
-					e.printStackTrace();
-					throw new RuntimeException("cannot process argument: "+option.getVerbose()+" ("+ExceptionUtils.getRootCauseMessage(e)+")");
-				}
+			LOG.trace("run "+option.getRunMethodName());
+			if (option.getMethodName(methodName) != null) {
+				LOG.trace("added run "+option.getRunMethodName());
+				optionList0.add(option);
 			}
 		}
+		return optionList0;
 	}
+
 
 	protected void addArgumentOptionsAndRunParseMethods(ArgIterator argIterator, String arg) throws Exception {
 		ensureChosenArgumentList();
@@ -628,11 +611,11 @@ public class DefaultArgProcessor {
 					LOG.trace("OPTION>> "+option);
 					String initMethodName = option.getInitMethodName();
 					if (initMethodName != null) {
-						runInitMethod(option, initMethodName);
+						runInitMethod1(option, initMethodName);
 					}
 					String parseMethodName = option.getParseMethodName();
 					if (parseMethodName != null) {
-						runParseMethod(argIterator, option, parseMethodName);
+						runParseMethod1(argIterator, option, parseMethodName);
 					}
 					processed = true;
 					chosenArgumentOptionList.add(option);
@@ -645,11 +628,11 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void runInitMethod(ArgumentOption option, String initMethodName) {
+	private void runInitMethod1(ArgumentOption option, String initMethodName) {
 		runMethod(null, option, initMethodName);
 	}
 
-	private void runParseMethod(ArgIterator argIterator, ArgumentOption option, String parseMethodName) {
+	private void runParseMethod1(ArgIterator argIterator, ArgumentOption option, String parseMethodName) {
 		runMethod(argIterator, option, parseMethodName);
 	}
 
@@ -686,61 +669,33 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	protected void runInitMethod(ArgumentOption option) throws Exception {
-		String initMethodName = option.getInitMethodName();
-		if (initMethodName != null) {
-			LOG.trace("running "+initMethodName);
-			Method initMethod = null;
-			try {
-				initMethod = this.getClass().getMethod(initMethodName, option.getClass()); 
-			} catch (NoSuchMethodException nsme) {
-				throw new RuntimeException(initMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
-			}
-			initMethod.setAccessible(true);
-			initMethod.invoke(this, option);
-		}
-	}
+//	protected void runInitMethod(ArgumentOption option, String methodName) throws Exception {
+//		instantiateAndRunMethod(option, methodName);
+//	}
+//
+//	protected void runRunMethod(ArgumentOption option, String methodName) throws Exception {
+//		instantiateAndRunMethod(option, methodName);
+//	}
+//
+//	protected void runFinalMethod(ArgumentOption option, String methodName) throws Exception {
+//		instantiateAndRunMethod(option, methodName);
+//	}
 
-	protected void runRunMethod(ArgumentOption option) throws Exception {
-		String runMethodName = option.getRunMethodName();
-		if (runMethodName != null) {
-			LOG.trace("running "+runMethodName);
-			Method runMethod = null;
+	private void instantiateAndRunMethod(ArgumentOption option, String methodName)
+			throws IllegalAccessException, InvocationTargetException {
+		if (methodName != null) {
+			Method method = null;
 			try {
-				runMethod = this.getClass().getMethod(runMethodName, option.getClass()); 
+				method = this.getClass().getMethod(methodName, option.getClass()); 
 			} catch (NoSuchMethodException nsme) {
-				throw new RuntimeException(runMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
+				throw new RuntimeException(methodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
 			}
-			runMethod.setAccessible(true);
-			runMethod.invoke(this, option);
-		}
-	}
-
-	protected void runOutputMethod(ArgumentOption option) throws Exception {
-		String outputMethodName = option.getOutputMethodName();
-		if (outputMethodName != null) {
-			Method outputMethod = null;
 			try {
-				outputMethod = this.getClass().getMethod(outputMethodName, option.getClass()); 
-			} catch (NoSuchMethodException nsme) {
-				throw new RuntimeException(outputMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
+				method.setAccessible(true);
+ 				method.invoke(this, option);
+			} catch (Exception ee) {
+				throw new RuntimeException("invoke "+methodName+" fails", ee);
 			}
-			outputMethod.setAccessible(true);
-			outputMethod.invoke(this, option);
-		}
-	}
-
-	protected void runFinalMethod(ArgumentOption option) throws Exception {
-		String finalMethodName = option.getFinalMethodName();
-		if (finalMethodName != null) {
-			Method finalMethod = null;
-			try {
-				finalMethod = this.getClass().getMethod(finalMethodName, option.getClass()); 
-			} catch (NoSuchMethodException nsme) {
-				throw new RuntimeException(finalMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
-			}
-			finalMethod.setAccessible(true);
-			finalMethod.invoke(this, option);
 		}
 	}
 
@@ -789,6 +744,7 @@ public class DefaultArgProcessor {
 		runFinalMethodsOnChosenArgOptions();
 	}
 
+
 	protected void addVariableAndExpandReferences(String name, String value) {
 		ensureVariableProcessor();
 		try {
@@ -824,6 +780,12 @@ public class DefaultArgProcessor {
 	
 	public List<DefaultSearcher> getSearcherList() {
 		return searcherList;
+	}
+
+	public List<? extends Element> extractPSectionElements(CMDir cmDir) {
+		cmDir.ensureScholarlyHtmlElement();
+		List<? extends Element> elements = HtmlP.extractSelfAndDescendantIs(cmDir.htmlElement);
+		return elements;
 	}
 
 	/** gets the HtmlElement for ScholarlyHtml.
