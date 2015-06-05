@@ -26,7 +26,7 @@ import com.google.common.collect.Multimap;
 
 
 /** collection of files within the ContentMine system.
- * 
+ *
  * The structure of scholarly articles often requires many constituent articles. For example an article may have a PDF, an HTML abstract, several GIFs for images, some tables in HTML, some DOCX files, CIFs for crystallography, etc.. These all need keeping together...
 
 Note that the Catalog (from CottageLabs) primarily holds metadata. [It's possible to hold some of the HTML content, but it soon starts to degrade performance]. We therefore have metadata in the Catalog and contentFiles on disk. These files and Open and can, in principle, be used independently of the Catalog.
@@ -58,7 +58,7 @@ suppdata.pdf ? // supplemental data
 
 and more
 
-only results.json is mandatory. However there will normally be at least one fulltext.* file and probably at least one *.html file 
+only results.json is mandatory. However there will normally be at least one fulltext.* file and probably at least one *.html file
 (as the landing page must be in HTML). Since quickscrape can extract data without fulltext it might also be deployed against a site with data files.
 
 There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also contain the same images as some exposed *.png.
@@ -96,7 +96,7 @@ regex.crystal.results.xml, regex.farm.results.xml, regex.clinical_trials.results
 
 The results file include the regexes used and other metadata (more needed!). Again we can update results.json. We may also wish to delete temporary files such as the *.svg in PDF2SVG....
 
- * 
+ *
  * @author pm286
  *
  */
@@ -137,6 +137,7 @@ public class CMDir {
 	public static final String FULLTEXT_TXT       = "fulltext.txt";
 	public static final String FULLTEXT_TXT_HTML  = "fulltext.txt.html";
 	public static final String FULLTEXT_XML       = "fulltext.xml";
+	public static final String FULLTEXT_TEX       = "fulltext.tex";
 	public static final String RESULTS_JSON       = "results.json";
 	public static final String RESULTS_XML        = "results.xml";
 	public static final String RESULTS_HTML       = "results.html";
@@ -151,13 +152,14 @@ public class CMDir {
 					FULLTEXT_PDF,
 					FULLTEXT_PDF_TXT,
 					FULLTEXT_XML,
+					FULLTEXT_TEX,
 					RESULTS_JSON,
 					RESULTS_XML,
 					SCHOLARLY_HTML
 			});
 	}
 	/** directories must end with slash.
-	 * 
+	 *
 	 */
 	public static final String IMAGE_DIR         = "image/";
 	public static final String PDF_DIR           = "pdf/";
@@ -175,8 +177,8 @@ public class CMDir {
 					SVG_DIR,
 			});
 	}
-	
-	
+
+
 	public final static boolean isImageSuffix(String suffix) {
 		return (
             GIF.equals(suffix) ||
@@ -185,7 +187,7 @@ public class CMDir {
             TIF.equals(suffix)
 				);
 	}
-	
+
 	public final static boolean isSupplementalSuffix(String suffix) {
 		return (
             CIF.equals(suffix) ||
@@ -199,7 +201,7 @@ public class CMDir {
             XLSX.equals(suffix)
 				);
 	}
-	
+
 	public final static boolean isSVG(String suffix) {
 		return (
             SVG.equals(suffix)
@@ -214,14 +216,15 @@ public class CMDir {
 		RESERVED_FILES_BY_EXTENSION.put(PDF, FULLTEXT_PDF);
 		RESERVED_FILES_BY_EXTENSION.put(PDF_TXT, FULLTEXT_PDF_TXT);
 		RESERVED_FILES_BY_EXTENSION.put(XML, FULLTEXT_XML);
+		RESERVED_FILES_BY_EXTENSION.put(TEX, FULLTEXT_TEX);
 	}
-	
+
 	public static boolean isReservedFilename(String name) {
 		return RESERVED_FILE_NAMES.contains(name);
 	}
 
 	/** traps names such as "image/foo1.png".
-	 * 
+	 *
 	 * @param name
 	 * @return true if one "/" and first compenet is reserved directory
 	 */
@@ -229,12 +232,12 @@ public class CMDir {
 		String[] fileStrings = name.split("/");
 		return fileStrings.length == 2 && RESERVED_DIR_NAMES.contains(fileStrings[0]+"/");
 	}
-	
+
 	public static boolean isReservedDirectory(String name) {
 		if (!name.endsWith("/")) name += "/";
 		return RESERVED_DIR_NAMES.contains(name);
 	}
-	
+
 	private File directory;
 	private List<File> reservedFileList;
 	private List<File> nonReservedFileList;
@@ -246,19 +249,19 @@ public class CMDir {
 	private ContentProcessor contentProcessor;
 
 	public CMDir() {
-		
+
 	}
-	
+
 	/** creates CMDir object but does not alter filestore.
-	 * 
+	 *
 	 * @param directory
 	 */
 	public CMDir(File directory) {
 		this.directory = directory;
 	}
-	
+
 	/** ensures filestore matches a CMDir structure.
-	 * 
+	 *
 	 * @param directory
 	 * @param delete
 	 */
@@ -266,9 +269,9 @@ public class CMDir {
 		this(directory);
 		this.createDirectory(directory, delete);
 	}
-	
+
 	public CMDir(String filename) {
-		this(new File(filename), false); 
+		this(new File(filename), false);
 	}
 
 	public void ensureReservedFilenames() {
@@ -295,27 +298,27 @@ public class CMDir {
 			}
 		}
 	}
-	
+
 	public List<File> getReservedDirectoryList() {
 		ensureReservedFilenames();
 		return reservedDirList;
 	}
-	
+
 	public List<File> getReservedFileList() {
 		ensureReservedFilenames();
 		return reservedFileList;
 	}
-	
+
 	public List<File> getNonReservedDirectoryList() {
 		ensureReservedFilenames();
 		return nonReservedDirList;
 	}
-	
+
 	public List<File> getNonReservedFileList() {
 		ensureReservedFilenames();
 		return nonReservedFileList;
 	}
-	
+
 	public static boolean containsNoReservedFilenames(File dir) {
 		if (dir != null && dir.isDirectory()) {
 			List<File> files = new ArrayList<File>(FileUtils.listFiles(dir, null, false));
@@ -331,7 +334,7 @@ public class CMDir {
 		}
 		return false;
 	}
-	
+
 	public static boolean containsNoReservedDirectories(File dir) {
 
 		if (dir == null || !dir.isDirectory()) return false;
@@ -349,15 +352,15 @@ public class CMDir {
 		}
 		return true;
 	}
-	
+
 	public boolean containsNoReservedFilenames() {
 		return CMDir.containsNoReservedFilenames(directory);
 	}
-	
+
 	public boolean containsNoReservedDirectories() {
 		return CMDir.containsNoReservedDirectories(directory);
 	}
-	
+
 	public void createDirectory(File dir, boolean delete) {
 		this.directory = dir;
 		if (dir == null) {
@@ -374,23 +377,23 @@ public class CMDir {
 			FileUtils.forceMkdir(dir);
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot make directory: "+dir+" already exists");
-		} // maybe 
+		} // maybe
 	}
 
 	public void readDirectory(File dir) {
 		this.directory = dir;
 		Multimap<String, File> map = HashMultimap.create();
-		
+
 		requireDirectoryExists(dir);
 		checkRequiredCMFiles();
 	}
 
 	/** checks that this CMDir object is an existing directory.
-	 * 
+	 *
 	 * @return true if getDirectory() refers to an existing directory
 	 */
 	public boolean hasExistingDirectory() {
-		return isExistingDirectory(this.directory); 
+		return isExistingDirectory(this.directory);
 
 	}
 
@@ -417,7 +420,7 @@ public class CMDir {
 			throw new RuntimeException("File: "+dir+" is not a directory");
 		}
 	}
-	
+
 	private void requireExistingNonEmptyFile(File file) {
 		if (file == null) {
 			throw new RuntimeException("Null file");
@@ -436,10 +439,10 @@ public class CMDir {
 	public boolean isFileOfExistingCMDir(String fileType) {
 		return directory != null && isExistingFile(new File(directory, fileType));
 	}
-	
+
 	// ---
-	/** checks that this 
-	 * 
+	/** checks that this
+	 *
 	 * @return
 	 */
 	public boolean hasExistingFulltextXML() {
@@ -448,7 +451,7 @@ public class CMDir {
 
 	/**
 	 * checks that CMDir exists and has child fulltext.xml
-	 * 
+	 *
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.xml
 	 */
@@ -463,16 +466,16 @@ public class CMDir {
 	public File getExistingFulltextXML() {
 		return getExistingReservedFile(FULLTEXT_XML);
 	}
-	
+
 	// ----
 
 	public boolean hasFulltextHTML() {
 		return hasExistingDirectory() && isExistingFile(getExistingFulltextHTML());
 	}
-	
+
 	/**
 	 * checks that CMDir exists and has child fulltext.xml
-	 * 
+	 *
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.xml
 	 */
@@ -492,17 +495,17 @@ public class CMDir {
 	public boolean hasResultsJSON() {
 		return isExistingFile(new File(directory, RESULTS_JSON));
 	}
-	
+
 	/**
 	 * checks that CMDir exists and has child fulltext.xml
-	 * 
+	 *
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.xml
 	 */
 	public static File getExistingResultsJSON(CMDir cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingResultsJSON();
 	}
-	
+
 	public static File getExistingResultsJSON(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingResultsJSON();
 	}
@@ -515,17 +518,17 @@ public class CMDir {
 	public boolean hasScholarlyHTML() {
 		return getExistingScholarlyHTML() != null;
 	}
-	
+
 	/**
 	 * checks that CMDir exists and has child scholarly.html
-	 * 
+	 *
 	 * @param cmdir
 	 * @return true if cmdir exists and has child scholarly.html
 	 */
 	public static File getExistingScholarlyHTML(CMDir cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingScholarlyHTML();
 	}
-	
+
 	public static File getExistingScholarlyHTML(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingScholarlyHTML();
 	}
@@ -533,22 +536,22 @@ public class CMDir {
 	public File getExistingScholarlyHTML() {
 		return getExistingReservedFile(SCHOLARLY_HTML);
 	}
-	
+
 	// ---
 	public boolean hasFulltextPDF() {
 		return getExistingFulltextPDF() != null;
 	}
-	
+
 	/**
 	 * checks that CMDir exists and has child fulltext.pdf
-	 * 
+	 *
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.pdf
 	 */
 	public static File getExistingFulltextPDF(CMDir cmdir) {
 		return cmdir == null ? null :  cmdir.getExistingFulltextPDF();
 	}
-	
+
 	public static File getExistingFulltextPDF(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingFulltextPDF();
 	}
@@ -564,14 +567,14 @@ public class CMDir {
 
 	/**
 	 * checks that CMDir exists and has child fulltext.pdf.txt
-	 * 
+	 *
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.pdf.txt
 	 */
 	public static File getExistingFulltextPDFTXT(CMDir cmdir) {
 		return cmdir == null ? null :  cmdir.getExistingFulltextPDFTXT();
 	}
-	
+
 	public static File getExistingFulltextPDFTXT(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingFulltextPDFTXT();
 	}
@@ -581,21 +584,21 @@ public class CMDir {
 	}
 
 	// ---
-	
+
 	public boolean hasFulltextDOCX() {
 		return getExistingFulltextDOCX() != null;
 	}
-	
+
 	/**
 	 * checks that CMDir exists and has child fulltext.docx
-	 * 
+	 *
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.docx
 	 */
 	public static File getExistingFulltextDOCX(CMDir cmdir) {
 		return cmdir == null ? null :  cmdir.getExistingFulltextDOCX();
 	}
-	
+
 	public static File getExistingFulltextDOCX(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingFulltextDOCX();
 	}
@@ -608,13 +611,13 @@ public class CMDir {
 	public boolean hasResultsDir() {
 		return getExistingResultsDir() != null;
 	}
-	
+
 	/**
 	 */
 	public static File getExistingResultsDir(CMDir cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingResultsDir();
 	}
-	
+
 	public static File getExistingResultsDir(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingResultsDir();
 	}
@@ -627,13 +630,13 @@ public class CMDir {
 	public boolean hasImageDir() {
 		return getExistingImageDir() != null;
 	}
-	
+
 	/**
 	 */
 	public static File getExistingImageDir(CMDir cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingImageDir();
 	}
-	
+
 	public static File getExistingImageDir(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingImageDir();
 	}
@@ -686,7 +689,7 @@ public class CMDir {
 		}
 		return file;
 	}
-	
+
 	public File getExistingFileWithReservedParentDirectory(String inputName) {
 		File file = null;
 		if (CMDir.hasReservedParentDirectory(inputName)) {
@@ -694,7 +697,7 @@ public class CMDir {
 		}
 		return file;
 	}
-	
+
 
 	@Override
 	public String toString() {
@@ -783,7 +786,7 @@ public class CMDir {
 		}
 		FileUtils.copyFile(originalFile, reservedFile);
 	}
-	
+
 	public void copyTo(File destDir, boolean overwrite) throws IOException {
 		if (destDir == null) {
 			throw new RuntimeException("Null destination file in copyTo()");

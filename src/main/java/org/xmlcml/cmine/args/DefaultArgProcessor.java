@@ -30,15 +30,15 @@ import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.xml.XMLUtil;
 
 /** base class for all arg processing. Also contains the workflow logic:
- * 
- * the list of CMDirs is created in 
- * 
+ *
+ * the list of CMDirs is created in
+ *
  * parseArgs(String[]) or
  * parseArgs(String)
- * 
- * calls 
+ *
+ * calls
  * 	protected void addArgumentOptionsAndRunParseMethods(ArgIterator argIterator, String arg) throws Exception {
- * 		which iterates through the args, loking for init* and parse* methods 
+ * 		which iterates through the args, loking for init* and parse* methods
 			for (ArgumentOption option : argumentOptionList) {
 				if (option.matches(arg)) {
 					LOG.trace("OPTION>> "+option);
@@ -57,14 +57,14 @@ import org.xmlcml.xml.XMLUtil;
 			}
 		}
 	}
-	
-	this will generate CMDirList 
-	after that 
 
- * 
- * 
+	this will generate CMDirList
+	after that
+
+ *
+ *
  * runAndOutput() iterates through each CMDir
- * 
+ *
 		for (int i = 0; i < cmDirList.size(); i++) {
 			currentCMDir = cmDirList.get(i);
 			// each CMDir has a ContentProcessor
@@ -80,33 +80,33 @@ import org.xmlcml.xml.XMLUtil;
 		runFinalMethodsOnChosenArgOptions();
 	}
 
- * 
+ *
  * @author pm286
  *
  */
 public class DefaultArgProcessor {
-	
+
 	private static final Logger LOG = Logger.getLogger(DefaultArgProcessor.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
-	
+
 	public static final String MINUS = "-";
-	public static final String[] DEFAULT_EXTENSIONS = {"html", "xml", "pdf"};
+	public static final String[] DEFAULT_EXTENSIONS = {"html", "xml", "pdf", "tex"};
 	public final static String H = "-h";
 	public final static String HELP = "--help";
 	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
 
 	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cmine/args";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+"args.xml";
-	
+
 	private static final Pattern INTEGER_RANGE_PATTERN = Pattern.compile("(\\d+):(\\d+)");
 	protected static final String ARGS_XML = "args.xml";
 	public static final String WHITESPACE = "\\s+";
 	public static Pattern GENERAL_PATTERN = Pattern.compile("\\{([^\\}]*)\\}");
-	
+
 	/** creates a list of tokens that are found in an allowed list.
-	 * 
+	 *
 	 * @param allowed
 	 * @param tokens
 	 * @return list of allowed tokens
@@ -129,10 +129,10 @@ public class DefaultArgProcessor {
 	private boolean recursive = false;
 	protected List<String> inputList;
 	public String update;
-	
+
 	public List<ArgumentOption> argumentOptionList;
 	public List<ArgumentOption> chosenArgumentOptionList;
-	
+
 	protected CMDirList cmDirList;
 	// change protection later
 	public CMDir currentCMDir;
@@ -144,9 +144,9 @@ public class DefaultArgProcessor {
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
 //	protected ContentProcessor currentContentProcessor; // req
-	
-	
-	
+
+
+
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
 	}
@@ -154,12 +154,12 @@ public class DefaultArgProcessor {
 	public DefaultArgProcessor() {
 		readArgumentOptions(ARGS_RESOURCE);
 	}
-	
+
 	public DefaultArgProcessor(String resourceName) {
 		this();
 		readArgumentOptions(resourceName);
 	}
-	
+
 	public void readArgumentOptions(String resourceName) {
 		ensureArgumentOptionList();
 		try {
@@ -178,7 +178,7 @@ public class DefaultArgProcessor {
 			throw new RuntimeException("Cannot read/process args file "+resourceName, e);
 		}
 	}
-	
+
 	private void ensureArgumentOptionList() {
 		if (this.argumentOptionList == null) {
 			this.argumentOptionList = new ArrayList<ArgumentOption>();
@@ -188,7 +188,7 @@ public class DefaultArgProcessor {
 	public void expandWildcardsExhaustively() {
 		while (expandWildcardsOnce());
 	}
-	
+
 	public boolean expandWildcardsOnce() {
 		boolean change = false;
 		ensureInputList();
@@ -204,13 +204,13 @@ public class DefaultArgProcessor {
 
 
 	/** expand expressions/wildcards in input.
-	 * 
+	 *
 	 * @param input
 	 * @return
 	 */
 	private List<String> expandWildcardsOnce(String input) {
 		Matcher matcher = GENERAL_PATTERN.matcher(input);
-		List<String> inputs = new ArrayList<String>(); 
+		List<String> inputs = new ArrayList<String>();
 		if (matcher.find()) {
 			String content = matcher.group(1);
 			String pre = input.substring(0, matcher.start());
@@ -218,7 +218,7 @@ public class DefaultArgProcessor {
 			inputs = expandIntegerMatch(content, pre, post);
 			if (inputs.size() == 0) {
 				inputs = expandStrings(content, pre, post);
-			} 
+			}
 			if (inputs.size() == 0) {
 				LOG.error("Cannot expand "+content);
 			}
@@ -248,7 +248,7 @@ public class DefaultArgProcessor {
 		for (String var : vars) {
 			newStringList.add(pre + var + post);
 		}
-		
+
 		return newStringList;
 	}
 
@@ -327,7 +327,7 @@ public class DefaultArgProcessor {
 	}
 
 	// =====================================
-	
+
 	private void createCMDirList(List<String> qDirectoryNames) {
 		FileFilter directoryFilter = new FileFilter() {
 			public boolean accept(File file) {
@@ -360,7 +360,7 @@ public class DefaultArgProcessor {
 				}
 				LOG.trace(childFilenames);
 				// recurse (no mixed directory structures)
-				// FIXME 
+				// FIXME
 				LOG.warn("Recursing CMDIRs is probably  a BUG");
 				createCMDirList(childFilenames);
 			} else {
@@ -370,7 +370,7 @@ public class DefaultArgProcessor {
 		LOG.trace("CMDIRList: "+cmDirList.size());
 		for (CMDir cmdir : cmDirList) {
 			LOG.trace("CMDir: "+cmdir);
-			
+
 		}
 	}
 
@@ -382,9 +382,9 @@ public class DefaultArgProcessor {
 		}
 		return inputList;
 	}
-	
+
 	/** expand expressions/wildcards in input.
-	 * 
+	 *
 	 * @param input
 	 * @return
 	 */
@@ -450,10 +450,10 @@ public class DefaultArgProcessor {
 			cmDirList = new CMDirList();
 		}
 	}
-	
+
 
 	// --------------------------------
-	
+
 	public void parseArgs(String[] commandLineArgs) {
 		if (commandLineArgs == null || commandLineArgs.length == 0) {
 			printHelp();
@@ -473,7 +473,7 @@ public class DefaultArgProcessor {
 			finalizeArgs();
 		}
 	}
-	
+
 	public void parseArgs(String args) {
 		parseArgs(args.split("\\s+"));
 	}
@@ -553,7 +553,7 @@ public class DefaultArgProcessor {
 			extensionList = new ArrayList<String>();
 		}
 	}
-	
+
 	public void runInitMethodsOnChosenArgOptions() {
 		for (ArgumentOption option : chosenArgumentOptionList) {
 			String initMethodName = option.getInitMethodName();
@@ -569,7 +569,7 @@ public class DefaultArgProcessor {
 			}
 		}
 	}
-	
+
 	public void runRunMethodsOnChosenArgOptions() {
 		for (ArgumentOption option : chosenArgumentOptionList) {
 			String runMethodName = option.getRunMethodName();
@@ -585,7 +585,7 @@ public class DefaultArgProcessor {
 			}
 		}
 	}
-	
+
 	public void runOutputMethodsOnChosenArgOptions() {
 		for (ArgumentOption option : chosenArgumentOptionList) {
 			String outputMethodName = option.getOutputMethodName();
@@ -692,7 +692,7 @@ public class DefaultArgProcessor {
 			LOG.trace("running "+initMethodName);
 			Method initMethod = null;
 			try {
-				initMethod = this.getClass().getMethod(initMethodName, option.getClass()); 
+				initMethod = this.getClass().getMethod(initMethodName, option.getClass());
 			} catch (NoSuchMethodException nsme) {
 				throw new RuntimeException(initMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
 			}
@@ -707,7 +707,7 @@ public class DefaultArgProcessor {
 			LOG.trace("running "+runMethodName);
 			Method runMethod = null;
 			try {
-				runMethod = this.getClass().getMethod(runMethodName, option.getClass()); 
+				runMethod = this.getClass().getMethod(runMethodName, option.getClass());
 			} catch (NoSuchMethodException nsme) {
 				throw new RuntimeException(runMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
 			}
@@ -721,7 +721,7 @@ public class DefaultArgProcessor {
 		if (outputMethodName != null) {
 			Method outputMethod = null;
 			try {
-				outputMethod = this.getClass().getMethod(outputMethodName, option.getClass()); 
+				outputMethod = this.getClass().getMethod(outputMethodName, option.getClass());
 			} catch (NoSuchMethodException nsme) {
 				throw new RuntimeException(outputMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
 			}
@@ -735,7 +735,7 @@ public class DefaultArgProcessor {
 		if (finalMethodName != null) {
 			Method finalMethod = null;
 			try {
-				finalMethod = this.getClass().getMethod(finalMethodName, option.getClass()); 
+				finalMethod = this.getClass().getMethod(finalMethodName, option.getClass());
 			} catch (NoSuchMethodException nsme) {
 				throw new RuntimeException(finalMethodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
 			}
@@ -755,12 +755,12 @@ public class DefaultArgProcessor {
 			System.err.println(option.getHelp());
 		}
 	}
-	
+
 	public List<ArgumentOption> getChosenArgumentList() {
 		ensureChosenArgumentList();
 		return chosenArgumentOptionList;
 	}
-	
+
 	public String createDebugString() {
 		StringBuilder sb = new StringBuilder();
 		getChosenArgumentList();
@@ -771,7 +771,7 @@ public class DefaultArgProcessor {
 	}
 
 	/** MAIN CONTROL LOOP
-	 * 
+	 *
 	 */
 	public void runAndOutput() {
 		ensureCMDirList();
@@ -821,14 +821,14 @@ public class DefaultArgProcessor {
 			searcherList = new ArrayList<DefaultSearcher>();
 		}
 	}
-	
+
 	public List<DefaultSearcher> getSearcherList() {
 		return searcherList;
 	}
 
 	/** gets the HtmlElement for ScholarlyHtml.
-	 * 
-	 * 
+	 *
+	 *
 	 * @return
 	 */
 	public static HtmlElement getScholarlyHtmlElement(CMDir cmDir) {
