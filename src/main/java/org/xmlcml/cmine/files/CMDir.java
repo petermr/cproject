@@ -133,6 +133,8 @@ public class CMDir {
 	public static final String FULLTEXT_HTML      = "fulltext.html";
 	public static final String FULLTEXT_PDF       = "fulltext.pdf";
 	public static final String FULLTEXT_PDF_TXT   = "fulltext.pdf.txt";
+	public static final String FULLTEXT_TEX       = "fulltext.tex";
+	public static final String FULLTEXT_TEX_HTML  = "fulltext.tex.html";
 	public static final String FULLTEXT_TXT       = "fulltext.txt";
 	public static final String FULLTEXT_TXT_HTML  = "fulltext.txt.html";
 	public static final String FULLTEXT_XHTML     = "fulltext.xhtml";
@@ -150,6 +152,8 @@ public class CMDir {
 					FULLTEXT_HTML,
 					FULLTEXT_PDF,
 					FULLTEXT_PDF_TXT,
+					FULLTEXT_TEX,
+					FULLTEXT_TXT,
 					FULLTEXT_XHTML,
 					FULLTEXT_XML,
 					RESULTS_JSON,
@@ -473,15 +477,15 @@ public class CMDir {
 		return hasExistingDirectory() && isExistingFile(getExistingFulltextHTML());
 	}
 	
-	/**
-	 * checks that CMDir exists and has child fulltext.html
-	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.html
-	 */
-	public static File getExistingFulltextHTML(CMDir cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingFulltextHTML();
-	}
+//	/**
+//	 * checks that CMDir exists and has child fulltext.html
+//	 * 
+//	 * @param cmdir
+//	 * @return true if cmdir exists and has child fulltext.html
+//	 */
+//	public static File getExistingFulltextHTML(CMDir cmdir) {
+//		return (cmdir == null) ? null : cmdir.getExistingFulltextHTML();
+//	}
 
 	public static File getExistingFulltextHTML(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingFulltextHTML();
@@ -566,15 +570,15 @@ public class CMDir {
 		return getExistingFulltextPDF() != null;
 	}
 	
-	/**
-	 * checks that CMDir exists and has child fulltext.pdf
-	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.pdf
-	 */
-	public static File getExistingFulltextPDF(CMDir cmdir) {
-		return cmdir == null ? null :  cmdir.getExistingFulltextPDF();
-	}
+//	/**
+//	 * checks that CMDir exists and has child fulltext.pdf
+//	 * 
+//	 * @param cmdir
+//	 * @return true if cmdir exists and has child fulltext.pdf
+//	 */
+//	public static File getExistingFulltextPDF(CMDir cmdir) {
+//		return cmdir == null ? null :  cmdir.getExistingFulltextPDF();
+//	}
 	
 	public static File getExistingFulltextPDF(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingFulltextPDF();
@@ -589,15 +593,15 @@ public class CMDir {
 		return getExistingFulltextPDFTXT() != null;
 	}
 
-	/**
-	 * checks that CMDir exists and has child fulltext.pdf.txt
-	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.pdf.txt
-	 */
-	public static File getExistingFulltextPDFTXT(CMDir cmdir) {
-		return cmdir == null ? null :  cmdir.getExistingFulltextPDFTXT();
-	}
+//	/**
+//	 * checks that CMDir exists and has child fulltext.pdf.txt
+//	 * 
+//	 * @param cmdir
+//	 * @return true if cmdir exists and has child fulltext.pdf.txt
+//	 */
+//	public static File getExistingFulltextPDFTXT(CMDir cmdir) {
+//		return cmdir == null ? null :  cmdir.getExistingFulltextPDFTXT();
+//	}
 	
 	public static File getExistingFulltextPDFTXT(File cmdirFile) {
 		return new CMDir(cmdirFile).getExistingFulltextPDFTXT();
@@ -611,16 +615,6 @@ public class CMDir {
 	
 	public boolean hasFulltextDOCX() {
 		return getExistingFulltextDOCX() != null;
-	}
-	
-	/**
-	 * checks that CMDir exists and has child fulltext.docx
-	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.docx
-	 */
-	public static File getExistingFulltextDOCX(CMDir cmdir) {
-		return cmdir == null ? null :  cmdir.getExistingFulltextDOCX();
 	}
 	
 	public static File getExistingFulltextDOCX(File cmdirFile) {
@@ -902,10 +896,23 @@ public class CMDir {
 	}
 
 	public List<String> extractWordsFromPDFTXT() {
-		String value = DefaultArgProcessor.getPDFTXTContent(this);
+		String value = this.readFileQuietly(this.getExistingFulltextPDFTXT());
 		return value == null ? new ArrayList<String>() :  new ArrayList<String>(Arrays.asList(value.trim().split("\\s+")));
 	}
 
+	private String readFileQuietly(File file) {
+		try {
+			return file == null ? null : FileUtils.readFileToString(file);
+		} catch (IOException e) {
+//			throw new RuntimeException("Cannot read file: "+pdfTxt, e);
+			return null;
+		}
+	}
+	
+	public String readFulltextTex() {
+		return readFileQuietly(getReservedFile(FULLTEXT_TEX));
+	}
+	
 	// ======= delegates to ContentProcessor ========
 	public void putInContentProcessor(String name, ResultsElement resultsElement) {
 		ensureContentProcessor(argProcessor);

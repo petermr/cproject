@@ -807,18 +807,18 @@ public class DefaultArgProcessor {
 		return htmlElement;
 	}
 
-	public static String getPDFTXTContent(CMDir cmDir) {
-		String content = null;
-		File pdftxtFile = CMDir.getExistingFulltextPDFTXT(cmDir);
-		if (pdftxtFile != null) {
-			try {
-				content = FileUtils.readFileToString(pdftxtFile);
-			} catch (IOException e) {
-				throw new RuntimeException("Cannot read fulltext.pdf.txt "+e);
-			}
-		}
-		return content;
-	}
+//	public static String getPDFTXTContent(CMDir cmDir) {
+//		String content = null;
+//		File pdftxtFile = CMDir.getExistingFulltextPDFTXT(cmDir);
+//		if (pdftxtFile != null) {
+//			try {
+//				content = FileUtils.readFileToString(pdftxtFile);
+//			} catch (IOException e) {
+//				throw new RuntimeException("Cannot read fulltext.pdf.txt "+e);
+//			}
+//		}
+//		return content;
+//	}
 
 
 
