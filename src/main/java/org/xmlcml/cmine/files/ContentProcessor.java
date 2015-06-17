@@ -107,7 +107,9 @@ public class ContentProcessor {
 	}
 
 	public void writeResults(String resultsFileName, Element resultsXML) {
-		writeResults(new File(cmDir.getDirectory(), resultsFileName), resultsXML);
+		File resultsFile = new File(cmDir.getDirectory(), resultsFileName);
+		LOG.debug("results file: "+resultsFile);
+		writeResults(resultsFile, resultsXML);
 	}
 	
 	/** creates a subdirectory of results/ and writes each result file to its own directory.

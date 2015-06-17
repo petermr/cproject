@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,13 +26,20 @@ import com.google.common.collect.Multimap;
 
 /** collection of files within the ContentMine system.
  * 
- * The structure of scholarly articles often requires many constituent articles. For example an article may have a PDF, an HTML abstract, several GIFs for images, some tables in HTML, some DOCX files, CIFs for crystallography, etc.. These all need keeping together...
+ * The structure of scholarly articles often requires many constituent articles. For example an article may 
+ * have a PDF, an HTML abstract, several GIFs for images, some tables in HTML, some DOCX files, CIFs for 
+ * crystallography, etc.. These all need keeping together...
 
-Note that the Catalog (from CottageLabs) primarily holds metadata. [It's possible to hold some of the HTML content, but it soon starts to degrade performance]. We therefore have metadata in the Catalog and contentFiles on disk. These files and Open and can, in principle, be used independently of the Catalog.
+Note that the Catalog (from CottageLabs) primarily holds metadata. [It's possible to hold some of the HTML 
+content, but it soon starts to degrade performance]. We therefore have metadata in the Catalog and 
+contentFiles on disk. These files and Open and can, in principle, be used independently of the Catalog.
 
-I am designing a "CMDir" which passes the bundle down the pipeline. This should be independent of what language [Python , JS, Java...] is used to create or read them. We believe that a normal filing system is satisfactory (at least at present while we develop the technology).
+I am designing a "CMDir" which passes the bundle down the pipeline. This should be independent of what 
+language [Python , JS, Java...] is used to create or read them. We believe that a normal filing system 
+is satisfactory (at least at present while we develop the technology).
 
-A typical pass for one DOI (e.g. journal.pone.0115884 ) through the pipeline (mandatory files are marked *, optional ?) might look like:
+A typical pass for one DOI (e.g. journal.pone.0115884 ) through the pipeline (mandatory files 
+are marked *, optional ?) might look like:
 
 DOI --> Quickscrape -->
 
@@ -940,5 +948,12 @@ public class CMDir {
 		return htmlElement;
 	}
 
-
+	public void readFulltextPDF(File file) {
+		
+		try {
+			FileUtils.copyFile(file, this.getReservedFile(FULLTEXT_PDF));
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot read PDF", e);
+		}
+	}
 }
