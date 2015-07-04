@@ -108,7 +108,7 @@ public class ContentProcessor {
 
 	public void writeResults(String resultsFileName, Element resultsXML) {
 		File resultsFile = new File(cmDir.getDirectory(), resultsFileName);
-		LOG.debug("results file: "+resultsFile);
+		LOG.trace("results file: "+resultsFile);
 		writeResults(resultsFile, resultsXML);
 	}
 	
@@ -158,7 +158,7 @@ public class ContentProcessor {
 			resultsSubDirectory.mkdirs();
 			File resultsFile = new File(resultsSubDirectory, CMDir.RESULTS_XML);
 			writeResults(resultsFile, resultsElement);
-			LOG.debug("Wrote "+resultsFile.getAbsolutePath());
+			LOG.trace("Wrote "+resultsFile.getAbsolutePath());
 		}
 		return resultsSubDirectory;
 	}
