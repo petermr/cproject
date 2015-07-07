@@ -1,9 +1,12 @@
 package org.xmlcml.cmine.args;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileFilter;
-import java.io.IOException;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -14,6 +17,11 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
+
 import nu.xom.Builder;
 import nu.xom.Element;
 
@@ -21,6 +29,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xml.sax.InputSource;
 import org.xmlcml.cmine.files.CMDir;
 import org.xmlcml.cmine.files.CMDirList;
 import org.xmlcml.cmine.files.DefaultSearcher;
@@ -92,6 +101,8 @@ public class DefaultArgProcessor {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
+	private static final String ARGS2HTML_XSL = "/org/xmlcml/cmine/args/args2html.xsl";
+	private static final File MAIN_RESOURCES = new File("src/main/resources");
 	public static final String MINUS = "-";
 	public static final String[] DEFAULT_EXTENSIONS = {"html", "xml", "pdf"};
 	public final static String H = "-h";
@@ -99,10 +110,12 @@ public class DefaultArgProcessor {
 	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
 
 	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cmine/args";
-	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+"args.xml";
+	protected static final String ARGS_XML = "args.xml";
+	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+ARGS_XML;
+	private static final String NAME = "name";
+	private static final String VERSION = "version";
 	
 	private static final Pattern INTEGER_RANGE_PATTERN = Pattern.compile("(\\d+):(\\d+)");
-	protected static final String ARGS_XML = "args.xml";
 	public static final String WHITESPACE = "\\s+";
 	public static Pattern GENERAL_PATTERN = Pattern.compile("\\{([^\\}]*)\\}");
 	
@@ -144,7 +157,9 @@ public class DefaultArgProcessor {
 	// searching
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
-//	protected ContentProcessor currentContentProcessor; // req
+	// these are private so each level can have its own version and name
+	private String name;
+	private String version;
 	
 	
 	
@@ -153,12 +168,16 @@ public class DefaultArgProcessor {
 	}
 
 	public DefaultArgProcessor() {
-		readArgumentOptions(ARGS_RESOURCE);
+		readArgumentOptions(getArgsResource());
 	}
 	
 	public DefaultArgProcessor(String resourceName) {
 		this();
 		readArgumentOptions(resourceName);
+	}
+	
+	private String getArgsResource() {
+		return ARGS_RESOURCE;
 	}
 	
 	public void readArgumentOptions(String resourceName) {
@@ -169,14 +188,24 @@ public class DefaultArgProcessor {
 				throw new RuntimeException("Cannot read/find input resource stream: "+resourceName);
 			}
 			Element argElement = new Builder().build(is).getRootElement();
-			List<Element> elementList = XMLUtil.getQueryElements(argElement, "/*/*[local-name()='arg']");
-			for (Element element : elementList) {
-				ArgumentOption argOption = ArgumentOption.createOption(this.getClass(), element);
-				LOG.trace("created ArgumentOption: "+argOption);
-				argumentOptionList.add(argOption);
-			}
+			createNameAndVersion(argElement);
+			createArgumentOptions(argElement);
 		} catch (Exception e) {
 			throw new RuntimeException("Cannot read/process args file "+resourceName, e);
+		}
+	}
+
+	private void createNameAndVersion(Element argElement) {
+		setName(argElement.getAttributeValue(NAME));
+		setVersion(argElement.getAttributeValue(VERSION));
+	}
+
+	private void createArgumentOptions(Element argElement) {
+		List<Element> elementList = XMLUtil.getQueryElements(argElement, "/*/*[local-name()='arg']");
+		for (Element element : elementList) {
+			ArgumentOption argOption = ArgumentOption.createOption(this.getClass(), element);
+			LOG.trace("created ArgumentOption: "+argOption);
+			argumentOptionList.add(argOption);
 		}
 	}
 	
@@ -255,6 +284,11 @@ public class DefaultArgProcessor {
 
 	// ============ METHODS ===============
 
+	public void parseVersion(ArgumentOption option, ArgIterator argIterator) {
+		List<String> extensions = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		printVersion();
+	}
+
 	public void parseExtensions(ArgumentOption option, ArgIterator argIterator) {
 		List<String> extensions = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		setExtensions(extensions);
@@ -323,12 +357,21 @@ public class DefaultArgProcessor {
 		summaryFileName = argIterator.getString(option);
 	}
 
+	public void runMakeDocs(ArgumentOption option) {
+		transformArgs2html();
+	}
+
 	public void outputMethod(ArgumentOption option) {
 		LOG.error("outputMethod needs overwriting");
 	}
 
 	// =====================================
 	
+	protected void printVersion() {
+		System.err.println(this.name+": "+this.version);
+	}
+
+
 	private void createCMDirList(List<String> qDirectoryNames) {
 		FileFilter directoryFilter = new FileFilter() {
 			public boolean accept(File file) {
@@ -406,6 +449,52 @@ public class DefaultArgProcessor {
 		}
 		LOG.trace("inputs: "+inputs);
 		return inputs;
+	}
+
+	private void transformArgs2html() {
+		InputStream transformStream = getArgsXml2HtmlXsl();
+		if (transformStream == null) {
+			throw new RuntimeException("Cannot find argsXml2Html file");
+		}
+		List<File> argsList = getArgs2HtmlList();
+		for (File argsXmlFile : argsList) {
+			File argsHtmlFile = getHtmlFromXML(argsXmlFile);
+			try {
+				String xmlString = transformArgsXml2Html(new FileInputStream(argsXmlFile), transformStream);
+				FileUtils.writeStringToFile(argsHtmlFile, xmlString);
+			} catch (Exception e) {
+				throw new RuntimeException("Cannot transform "+argsXmlFile, e);
+			}
+		}
+	}
+
+	private String transformArgsXml2Html(InputStream argsXmlIs, InputStream argsXml2HtmlXslIs) throws Exception {
+		TransformerFactory tfactory = TransformerFactory.newInstance();
+	    Transformer javaxTransformer = tfactory.newTransformer(new StreamSource(argsXml2HtmlXslIs));
+		OutputStream baos = new ByteArrayOutputStream();
+		javaxTransformer.transform(new StreamSource(argsXmlIs),  new StreamResult(baos));
+		return baos.toString();
+	}
+
+	private InputStream getArgsXml2HtmlXsl() {
+		return this.getClass().getResourceAsStream(ARGS2HTML_XSL);
+	}
+
+	private File getHtmlFromXML(File argsXml) {
+		String xmlPath = argsXml.getPath();
+		String htmlPath = xmlPath.replaceAll("\\.xml", ".html");
+		return new File(htmlPath);
+	}
+
+	private List<File> getArgs2HtmlList() {
+		List<File> argsList = new ArrayList<File>(FileUtils.listFiles(MAIN_RESOURCES, new String[]{"xml"}, true));
+		for (int i = argsList.size() - 1; i >= 0; i--) {
+			File file = argsList.get(i);
+			if (!(ARGS_XML.equals(file.getName()))) {
+				argsList.remove(i);
+			}
+		}
+		return argsList;
 	}
 
 	// =====================================
@@ -575,7 +664,7 @@ public class DefaultArgProcessor {
 	protected void runMethodsOfType(String methodNameType) {
 		List<ArgumentOption> optionList = getOptionsWithMethod(methodNameType);
 		for (ArgumentOption option : optionList) {
-			LOG.trace("option "+option+" "+this.getClass());
+			LOG.debug("option "+option+" "+this.getClass());
 			try {
 				String methodName = option.getMethodName(methodNameType);
 				if (methodName != null) {
@@ -732,15 +821,17 @@ public class DefaultArgProcessor {
 	public void runAndOutput() {
 		ensureCMDirList();
 		if (cmDirList.size() == 0) {
-			LOG.warn("Could not find list of CMdirs; possible error");
-		}
-		for (int i = 0; i < cmDirList.size(); i++) {
-			currentCMDir = cmDirList.get(i);
-			LOG.trace("running dir: "+currentCMDir.getDirectory());
-			currentCMDir.ensureContentProcessor(this);
-			runInitMethodsOnChosenArgOptions();
+			LOG.info("Could not find list of CMdirs; run other methods");
 			runRunMethodsOnChosenArgOptions();
-			runOutputMethodsOnChosenArgOptions();
+		} else {
+			for (int i = 0; i < cmDirList.size(); i++) {
+				currentCMDir = cmDirList.get(i);
+				LOG.trace("running dir: "+currentCMDir.getDirectory());
+				currentCMDir.ensureContentProcessor(this);
+				runInitMethodsOnChosenArgOptions();
+				runRunMethodsOnChosenArgOptions();
+				runOutputMethodsOnChosenArgOptions();
+			}
 		}
 		runFinalMethodsOnChosenArgOptions();
 	}
@@ -808,20 +899,9 @@ public class DefaultArgProcessor {
 		return htmlElement;
 	}
 
-//	public static String getPDFTXTContent(CMDir cmDir) {
-//		String content = null;
-//		File pdftxtFile = CMDir.getExistingFulltextPDFTXT(cmDir);
-//		if (pdftxtFile != null) {
-//			try {
-//				content = FileUtils.readFileToString(pdftxtFile);
-//			} catch (IOException e) {
-//				throw new RuntimeException("Cannot read fulltext.pdf.txt "+e);
-//			}
-//		}
-//		return content;
-//	}
-
-
-
+	public String getName() {return name;	}
+	protected void setName(String name) {this.name = name;}
+	public String getVersion() {return version;}
+	protected void setVersion(String version) {this.version = version;}
 
 }

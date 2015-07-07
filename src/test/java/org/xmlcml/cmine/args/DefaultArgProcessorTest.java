@@ -74,4 +74,18 @@ public class DefaultArgProcessorTest {
 					e.getMessage());
 		}
 	}
+	
+	@Test
+	public void testArgs2Html() {
+		String args = "--args2html";
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+	}
+	
+	@Test
+	public void testVersion() {
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs("--version");
+	}
 }
