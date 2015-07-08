@@ -76,8 +76,8 @@ public class DefaultArgProcessorTest {
 	}
 	
 	@Test
-	public void testArgs2Html() {
-		String args = "--args2html";
+	public void testMakeDocs() {
+		String args = "--makedocs";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();

@@ -1,76 +1,203 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:output method="html"/>
-    
+	<xsl:output method="html" />
+
 	<xsl:template match="/">
-	  <html>
-		<xsl:apply-templates select="argList"/>
-	  </html>
+		<html>
+			<head>
+				<style>
+					* {
+					bold : bold;
+					}
+					code {
+					font-family : courier;
+					font-weight :
+					bold;
+					font-size : 14pt;
+					}
+				</style>
+			</head>
+			<body>
+				<xsl:apply-templates select="argList" />
+			</body>
+		</html>
 	</xsl:template>
 
 	<xsl:template match="argList">
-	  <div>
-	    <h1><tt><xsl:value-of select="@name"/> (<xsl:value-of select="@version"/>)</tt></h1>
-		<xsl:apply-templates select="arg"/>
-	  </div>
+		<div>
+			<h1>
+				<tt>
+					<xsl:value-of select="@name" />
+					(
+					<xsl:value-of select="@version" />
+					)
+				</tt>
+			</h1>
+			<h2>Arguments</h2>
+			<ul>
+				<xsl:apply-templates select="arg" />
+			</ul>
+			<xsl:apply-templates select="help" />
+			<xsl:apply-templates select="examples" />
+
+			<xsl:if test="value">
+				<h3>Name-values</h3>
+				<ul>
+					<xsl:apply-templates select="value" />
+				</ul>
+			</xsl:if>
+		</div>
 	</xsl:template>
 
 	<xsl:template match="arg">
-	<!-- 
-		if (BRIEF.equals(namex)) {
-			this.setBrief(value);
-		} else if (LONG.equals(namex)) {
-			this.setLong(value);
-		} else if (NAME.equals(namex)) {
-			this.setName(value);
-		} else if (HELP.equals(namex)) {
-			this.setHelp(value);
-		} else if (ARGS.equals(namex)) {
-			this.setArgs(value);
-		} else if (CLASS_TYPE.equals(namex)) {
-			this.setClassType(value);
-		} else if (DEFAULT.equals(namex)) {
-			this.setDefault(value);
-		} else if (COUNT_RANGE.equals(namex)) {
-			this.setCountRange(value);
-		} else if (FORBIDDEN.equals(namex)) {
-			this.setForbiddenString(value);
-		} else if (REQUIRED.equals(namex)) {
-			this.setRequiredString(value);
-		} else if (FINAL_METHOD.equals(namex)) {
-			this.setFinalMethod(value);
-		} else if (INIT_METHOD.equals(namex)) {
-			this.setInitMethod(value);
-		} else if (OUTPUT_METHOD.equals(namex)) {
-			this.setOutputMethod(value);
-		} else if (PARSE_METHOD.equals(namex)) {
-			this.setParseMethod(value);
-		} else if (PATTERN.equals(namex)) {
-			this.setPatternString(value);
-		} else if (RUN_METHOD.equals(namex)) {
-			this.setRunMethod(value);
-		} else if (VALUE_RANGE.equals(namex)) {
-			this.setValueRange(value);
-		} else {
-			throw new RuntimeException("Unknown attribute on <arg name='"+name+"'>: "+namex+"='"+value+"'");
-		}
-	 -->
-		<h2>argument <tt><xsl:value-of select="@name"/></tt></h2>
-		<code><xsl:value-of select="@long"/><xsl:text> </xsl:text><xsl:value-of select="@args"/><xsl:value-of select="@countRange"/></code><br/>
-		<xsl:if test="@pattern or @valueRange">
-		  <code>Constraints: <xsl:text> </xsl:text><xsl:value-of select="@pattern or @valueRange"/</code>
-		</xsl:if>
-		<xsl:if test="@default">
-		  <code>Default: <xsl:text> </xsl:text><xsl:value-of select="@default"/</code>
-		</xsl:if>
-		<em>b: <xsl:value-of select="@brief"/> h: <xsl:value-of select="@help"/>  c: <xsl:value-of select="@help"/></em>
-		<xsl:apply-templates select="help"/>
+		<li>
+			<h2>
+				<tt>
+					<xsl:value-of select="@name" />
+				</tt>
+			</h2>
+			<code>
+				<xsl:value-of select="@long" />
+				<xsl:text> </xsl:text>
+				<xsl:value-of select="@args" />
+				<xsl:value-of select="@countRange" />
+			</code>
+			<br />
+			<xsl:if test="@pattern or @valueRange">
+				<code>
+					Constraints:
+					<xsl:text> </xsl:text>
+					<xsl:value-of select="@pattern or @valueRange" />
+				</code>
+			</xsl:if>
+			<xsl:if test="@default">
+				<code>
+					Default:
+					<xsl:text> </xsl:text>
+					<xsl:value-of select="@default" />
+				</code>
+			</xsl:if>
+			<xsl:if
+				test="@finalMethod or @initMethod or @outputMethod or @parseMethod or @runMethod">
+				<em>Methods: </em>
+				<xsl:if test="@initMethod">
+					<xsl:text> init: </xsl:text>
+					<xsl:value-of select="@initMethod" />
+				</xsl:if>
+				<xsl:if test="@parseMethod">
+					<xsl:text> parse: </xsl:text>
+					<xsl:value-of select="@parseMethod" />
+				</xsl:if>
+				<xsl:if test="@runMethod">
+					<xsl:text> run: </xsl:text>
+					<xsl:value-of select="@runMethod" />
+				</xsl:if>
+				<xsl:if test="@outputMethod">
+					<xsl:text> output: </xsl:text>
+					<xsl:value-of select="@outputMethod" />
+				</xsl:if>
+				<xsl:if test="@finalMethod">
+					<xsl:text> final: </xsl:text>
+					<xsl:value-of select="@finalMethod" />
+				</xsl:if>
+				<br />
+			</xsl:if>
+			<xsl:if test="@brief or @class">
+				<br />
+				<em>
+					<xsl:text>  b: </xsl:text>
+				</em>
+				<code>
+					<xsl:value-of select="@brief" />
+				</code>
+				<em>
+					<xsl:text>  c: </xsl:text>
+				</em>
+				<code>
+					<xsl:value-of select="@class" />
+				</code>
+			</xsl:if>
+			<p>
+				<xsl:apply-templates select="help" />
+			</p>
+
+		</li>
+	</xsl:template>
+
+	<!-- } else if (FORBIDDEN.equals(namex)) { } else if (REQUIRED.equals(namex)) 
+		{ -->
+
+	<xsl:template match="examples">
+		<xsl:apply-templates select="p[@class='note']" />
+		<h3>Examples</h3>
+		<ul>
+			<xsl:apply-templates select="example" />
+		</ul>
+	</xsl:template>
+
+	<xsl:template match="example">
+		<li>
+			<p>
+				<xsl:apply-templates select="input" />
+				<xsl:text>;    </xsl:text>
+				<xsl:apply-templates select="output" />
+			</p>
+			<xsl:apply-templates select="desc" />
+			<xsl:apply-templates select="command" />
+		</li>
+	</xsl:template>
+
+	<xsl:template match="input">
+		<span class="bold">Input: </span>
+		<code>
+			<xsl:copy-of select="node()" />
+		</code>
+	</xsl:template>
+
+	<xsl:template match="output">
+		<span class="bold">Output: </span>
+		<code>
+			<xsl:copy-of select="node()" />
+		</code>
+	</xsl:template>
+
+	<xsl:template match="desc">
+		<p>
+			<span class="desc">
+				<xsl:copy-of select="node()" />
+			</span>
+		</p>
+	</xsl:template>
+
+	<xsl:template match="command">
+		<p>
+			<code>
+				<xsl:copy-of select="node()" />
+			</code>
+		</p>
+	</xsl:template>
+
+	<xsl:template match="p[@class='note']">
+		<p>
+			NOTE:
+			<xsl:copy-of select="." />
+		</p>
+	</xsl:template>
+
+	<xsl:template match="value">
+		<li>
+			Name:
+			<xsl:copy-of select="@name" />
+			value:
+			<xsl:copy-of select="@value" />
+		</li>
+		li>
 	</xsl:template>
 
 	<xsl:template match="help">
-	  <h2>Description</h2>
-	  <xsl:copy-of select="."/>
+		<h3>Description</h3>
+		<xsl:copy-of select="." />
 	</xsl:template>
-	
+
 </xsl:stylesheet>

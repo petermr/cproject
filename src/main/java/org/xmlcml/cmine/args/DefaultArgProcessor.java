@@ -158,8 +158,8 @@ public class DefaultArgProcessor {
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
 	// these are private so each level can have its own version and name
-	private String name;
-	private String version;
+	private static String name;
+	private static String version;
 	
 	
 	
@@ -665,14 +665,16 @@ public class DefaultArgProcessor {
 		List<ArgumentOption> optionList = getOptionsWithMethod(methodNameType);
 		for (ArgumentOption option : optionList) {
 			LOG.debug("option "+option+" "+this.getClass());
+			String methodName = null;
 			try {
-				String methodName = option.getMethodName(methodNameType);
+				methodName = option.getMethodName(methodNameType);
 				if (methodName != null) {
 					instantiateAndRunMethod(option, methodName);
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
-				throw new RuntimeException("cannot process argument: "+option.getVerbose()+" ("+ExceptionUtils.getRootCauseMessage(e)+")");
+				throw new RuntimeException("cannot run ["+methodName+"] in "+option.getVerbose()+
+						" ("+ExceptionUtils.getRootCauseMessage(e)+")");
 			}
 		}
 	}
@@ -900,7 +902,9 @@ public class DefaultArgProcessor {
 	}
 
 	public String getName() {return name;	}
-	protected void setName(String name) {this.name = name;}
+	protected void setName(String name) {
+		this.name = name;
+	}
 	public String getVersion() {return version;}
 	protected void setVersion(String version) {this.version = version;}
 

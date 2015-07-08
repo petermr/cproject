@@ -3,12 +3,16 @@
 <h1>
 <tt>cmine (0.1.1)</tt>
 </h1>
-<h2>argument <tt>input</tt>
+<h2>Arguments</h2>
+<ul>
+<li>
+<h2>
+<tt>input</tt>
 </h2>
 <code>--input [file(s)_and/or_url(s)]{1,*}</code>
 <br>
-<em>b: -i h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: parseInput<em>b: -i h:   c: </em>
+<h3>Description</h3>
 <help>
 		  
 <p>
@@ -44,12 +48,15 @@
 </p>	  
 		
 </help>
-<h2>argument <tt>cmdir</tt>
+</li>
+<li>
+<h2>
+<tt>cmdir</tt>
 </h2>
 <code>--cmdir director(ies){0,*}</code>
 <br>
-<em>b: -q h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: parseCMDir<em>b: -q h:   c: </em>
+<h3>Description</h3>
 <help>
 		NOTE WAS quickscrapeNorma
 			FILE_CONTAINER:
@@ -80,12 +87,15 @@
 			There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also 
 			contain the same images as some exposed *.png.
 		</help>
-<h2>argument <tt>qsNorma</tt>
+</li>
+<li>
+<h2>
+<tt>qsNorma</tt>
 </h2>
 <code>--quickscrapeNorma director(ies){1,*}</code>
 <br>
-<em>b: -q h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: parseQSNorma<em>b: -q h:   c: </em>
+<h3>Description</h3>
 <help>
 		OBSOLETE // use --cmdir instead
 			FILE_CONTAINER:
@@ -116,12 +126,15 @@
 			There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also 
 			contain the same images as some exposed *.png.
 		</help>
-<h2>argument <tt>output</tt>
+</li>
+<li>
+<h2>
+<tt>output</tt>
 </h2>
 <code>--output file_or_directory{1,1}</code>
 <br>
-<em>b: -o h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: outputMethod final: parseOutput<em>b: -o h:   c: </em>
+<h3>Description</h3>
 <help>
 			OUTPUT
 			 Output is to local filestore ATM. If there is only one input
@@ -129,12 +142,31 @@
 			will do her best to create filenames derived from the input names. Directory structures will not be preserved
 			See also --recursive and --extensions",
 		</help>
-<h2>argument <tt>recursive</tt>
+</li>
+<li>
+<h2>
+<tt>version</tt>
+</h2>
+<code>--version  {0,0}</code>
+<br>
+<code>Methods: </code> final: parseVersion<em>b: -v h:   c: </em>
+<h3>Description</h3>
+<help>
+			OUTPUT
+			 Output is to local filestore ATM. If there is only one input
+			after wildcard expansion then a filename can be given. Else the argument must be a writeable directory; Norma
+			will do her best to create filenames derived from the input names. Directory structures will not be preserved
+			See also --recursive and --extensions",
+		</help>
+</li>
+<li>
+<h2>
+<tt>recursive</tt>
 </h2>
 <code>--recursive {1,1}</code>
 <br>
-<em>b: -r h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: parseRecursive<em>b: -r h:   c: </em>
+<h3>Description</h3>
 <help>
 			RECURSIVE
 			input directories
@@ -142,51 +174,65 @@
 			if the --recursive flag is set then all files in the directory tree may be input
 			See also --extensions
 		</help>
-<h2>argument <tt>extensions</tt>
+</li>
+<li>
+<h2>
+<tt>extensions</tt>
 </h2>
 <code>--extensions ext1 [ext2...]{1,*}</code>
 <br>
-<em>b: -e h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: parseExtensions<em>b: -e h:   c: </em>
+<h3>Description</h3>
 <help>
 			EXTENSIONS
 				When a directory or directories are searched then all files are input by default
 				It is possible to limit the search by using only certain extensions
 				See also --recursive.
 		</help>
-<h2>argument <tt>summaryfile</tt>
+</li>
+<li>
+<h2>
+<tt>summaryfile</tt>
 </h2>
 <code>--summaryfile summaryfile{1,1}</code>
 <br>
-<em>b:  h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: parseSummaryFile<em>b:  h:   c: </em>
+<h3>Description</h3>
 <help>
 		SUMMARY FILE
 		Directory to write summaries to.
 		</help>
-<h2>argument <tt>help</tt>
+</li>
+<li>
+<h2>
+<tt>help</tt>
 </h2>
 <code>--help  {0,0}</code>
 <br>
-<em>b: -h h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: printHelp<em>b: -h h:   c: </em>
+<h3>Description</h3>
 <help>
 			HELP
 				outputs help for all options, including superclass DefaultArgProcessor
 		</help>
-<h2>argument <tt>args2html</tt>
+</li>
+<li>
+<h2>
+<tt>makedocs</tt>
 </h2>
-<code>--args2html  {0,0}</code>
+<code>--makedocs  {0,0}</code>
 <br>
-<em>b:  h:   c: </em>
-<h2>Description</h2>
+<code>Methods: </code> final: runMakeDocs<em>b:  h:   c: </em>
+<h3>Description</h3>
 <help>
 	      
 <p>Create HTML version of all args.xml file for inclusion in documentation</p>
 	      
-<p>Iterates over <tt>src/main/resources</tt> diretory to find all <tt>args.xml</tt> files
+<p>Iterates over <tt>src/main/resources</tt> directory to find all <tt>args.xml</tt> files
 	      and creates a sister <tt>args.html</tt> file.</p>
 	    
 </help>
+</li>
+</ul>
 </div>
 </html>
