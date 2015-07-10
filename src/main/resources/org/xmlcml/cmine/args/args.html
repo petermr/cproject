@@ -1,7 +1,26 @@
 <html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+					* {
+					bold : bold;
+					}
+					code {
+					font-family : courier;
+					font-weight :
+					bold;
+					font-size : 14pt;
+					}
+				</style>
+</head>
+<body>
 <div>
 <h1>
-<tt>cmine (0.1.1)</tt>
+<tt>cmine
+					(
+					0.1.1
+					)
+				</tt>
 </h1>
 <h2>Arguments</h2>
 <ul>
@@ -11,7 +30,10 @@
 </h2>
 <code>--input [file(s)_and/or_url(s)]{1,*}</code>
 <br>
-<code>Methods: </code> final: parseInput<em>b: -i h:   c: </em>
+<em>Methods: </em> parse: parseInput<br>
+<br>
+<em>  b: </em><code>-i</code><em>  c: </em><code></code>
+<p>
 <h3>Description</h3>
 <help>
 		  
@@ -48,6 +70,7 @@
 </p>	  
 		
 </help>
+</p>
 </li>
 <li>
 <h2>
@@ -55,7 +78,10 @@
 </h2>
 <code>--cmdir director(ies){0,*}</code>
 <br>
-<code>Methods: </code> final: parseCMDir<em>b: -q h:   c: </em>
+<em>Methods: </em> parse: parseCMDir<br>
+<br>
+<em>  b: </em><code>-q</code><em>  c: </em><code>org.xmlcml.cmine.files.CMDir</code>
+<p>
 <h3>Description</h3>
 <help>
 		NOTE WAS quickscrapeNorma
@@ -87,6 +113,7 @@
 			There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also 
 			contain the same images as some exposed *.png.
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -94,7 +121,10 @@
 </h2>
 <code>--quickscrapeNorma director(ies){1,*}</code>
 <br>
-<code>Methods: </code> final: parseQSNorma<em>b: -q h:   c: </em>
+<em>Methods: </em> parse: parseQSNorma<br>
+<br>
+<em>  b: </em><code>-q</code><em>  c: </em><code>org.xmlcml.cmine.files.CMDir</code>
+<p>
 <h3>Description</h3>
 <help>
 		OBSOLETE // use --cmdir instead
@@ -126,6 +156,7 @@
 			There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also 
 			contain the same images as some exposed *.png.
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -133,7 +164,10 @@
 </h2>
 <code>--output file_or_directory{1,1}</code>
 <br>
-<code>Methods: </code> final: outputMethod final: parseOutput<em>b: -o h:   c: </em>
+<em>Methods: </em> parse: parseOutput output: outputMethod<br>
+<br>
+<em>  b: </em><code>-o</code><em>  c: </em><code></code>
+<p>
 <h3>Description</h3>
 <help>
 			OUTPUT
@@ -142,6 +176,7 @@
 			will do her best to create filenames derived from the input names. Directory structures will not be preserved
 			See also --recursive and --extensions",
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -149,7 +184,10 @@
 </h2>
 <code>--version  {0,0}</code>
 <br>
-<code>Methods: </code> final: parseVersion<em>b: -v h:   c: </em>
+<em>Methods: </em> parse: parseVersion<br>
+<br>
+<em>  b: </em><code>-v</code><em>  c: </em><code></code>
+<p>
 <h3>Description</h3>
 <help>
 			OUTPUT
@@ -158,6 +196,7 @@
 			will do her best to create filenames derived from the input names. Directory structures will not be preserved
 			See also --recursive and --extensions",
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -165,7 +204,10 @@
 </h2>
 <code>--recursive {1,1}</code>
 <br>
-<code>Methods: </code> final: parseRecursive<em>b: -r h:   c: </em>
+<em>Methods: </em> parse: parseRecursive<br>
+<br>
+<em>  b: </em><code>-r</code><em>  c: </em><code>java.lang.Boolean</code>
+<p>
 <h3>Description</h3>
 <help>
 			RECURSIVE
@@ -174,6 +216,7 @@
 			if the --recursive flag is set then all files in the directory tree may be input
 			See also --extensions
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -181,7 +224,10 @@
 </h2>
 <code>--extensions ext1 [ext2...]{1,*}</code>
 <br>
-<code>Methods: </code> final: parseExtensions<em>b: -e h:   c: </em>
+<em>Methods: </em> parse: parseExtensions<br>
+<br>
+<em>  b: </em><code>-e</code><em>  c: </em><code></code>
+<p>
 <h3>Description</h3>
 <help>
 			EXTENSIONS
@@ -189,6 +235,7 @@
 				It is possible to limit the search by using only certain extensions
 				See also --recursive.
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -196,12 +243,14 @@
 </h2>
 <code>--summaryfile summaryfile{1,1}</code>
 <br>
-<code>Methods: </code> final: parseSummaryFile<em>b:  h:   c: </em>
+<em>Methods: </em> parse: parseSummaryFile<br>
+<p>
 <h3>Description</h3>
 <help>
 		SUMMARY FILE
 		Directory to write summaries to.
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -209,12 +258,16 @@
 </h2>
 <code>--help  {0,0}</code>
 <br>
-<code>Methods: </code> final: printHelp<em>b: -h h:   c: </em>
+<em>Methods: </em> parse: printHelp<br>
+<br>
+<em>  b: </em><code>-h</code><em>  c: </em><code></code>
+<p>
 <h3>Description</h3>
 <help>
 			HELP
 				outputs help for all options, including superclass DefaultArgProcessor
 		</help>
+</p>
 </li>
 <li>
 <h2>
@@ -222,7 +275,8 @@
 </h2>
 <code>--makedocs  {0,0}</code>
 <br>
-<code>Methods: </code> final: runMakeDocs<em>b:  h:   c: </em>
+<em>Methods: </em> run: runMakeDocs<br>
+<p>
 <h3>Description</h3>
 <help>
 	      
@@ -232,7 +286,9 @@
 	      and creates a sister <tt>args.html</tt> file.</p>
 	    
 </help>
+</p>
 </li>
 </ul>
 </div>
+</body>
 </html>

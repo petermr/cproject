@@ -7,10 +7,17 @@ import java.util.regex.Pattern;
 
 import nu.xom.Element;
 
-import org.xmlcml.html.HtmlElement;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 import org.xmlcml.xml.XPathGenerator;
 
 public class DefaultSearcher {
+
+	public static final Logger LOG = Logger.getLogger(DefaultSearcher.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
+
 
 	protected String name;
 
@@ -22,6 +29,7 @@ public class DefaultSearcher {
 		ResultsElement resultsElement = new ResultsElement();
 		for (Element element : elements) {
 			String xpath = new XPathGenerator(element).getXPath();
+			LOG.debug("xpath: "+xpath);
 			ResultsElement subResultsElement = this.searchXomElement(element);
 			if (subResultsElement.size() > 0) {
 				subResultsElement.setXPath(xpath);

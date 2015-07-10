@@ -823,7 +823,7 @@ public class DefaultArgProcessor {
 	public void runAndOutput() {
 		ensureCMDirList();
 		if (cmDirList.size() == 0) {
-			LOG.info("Could not find list of CMdirs; run other methods");
+			LOG.debug("Could not find CMdirs; treating as CMDir creation");
 			runRunMethodsOnChosenArgOptions();
 		} else {
 			for (int i = 0; i < cmDirList.size(); i++) {

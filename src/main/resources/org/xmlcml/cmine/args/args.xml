@@ -1,4 +1,5 @@
 <argList name="cmine" version="0.1.1">
+
 	<arg name="input" 
 		brief="-i"
 		long="--input"
@@ -7,12 +8,12 @@
 		parseMethod="parseInput"
 		>
 		<help>
-		  <p>
-			Input stream (Files, directories, URLs), Norma tries to guess reasonable actions. 
-				also expands some simple wildcards. The argument can either be a single object, or a list. Within objects
+		  <p class="brief">Input stream (Files, directories, URLs)</p> 
+			<p>Norma tries to guess reasonable actions and
+				also expand some simple wildcards. The argument can either be a single object, or a list. Within objects
 				the content of curly brackets {...} is expanded as wildcards (cannot recurse). There can be multiple {...}
 				within an object and all are expanded (but be sensible - this could generate the known universe and crash the
-				system. (If this is misused it will be withdrawn). Objects (URLs, files) can be mixed but it's probably a
+				system. If this is misused it will be withdrawn). Objects (URLs, files) can be mixed but it's probably a
 				poor idea.
 			</p>	
 			<p>The logic is: 
@@ -26,51 +27,57 @@
 
 				<p>			
 				Current wildcards:
-				  <pre>
-	  {n1:n2} n1,n2 integers: generate n1 ... n2 inclusive
-	  {foo,bar,plugh} list of strings
-				  </pre>
+				  <ul>
+	  <li><code>{n1:n2}</code> n1,n2 are integers: generate n1 ... n2 inclusive</li>
+	  <li><code>{foo,bar,plugh}</code> list of strings</li>
+				  </ul>
+				</p>
+				<p class="note">Undergoing continuing development. Often the filenames are redundant 
+				(e.g. <code>fulltext.pdf</code> for <code>--transform pdf2txt</code>) and we are trying to make
+				these implicit. The mechanisms for creating <em><code>ctree</code></em>s from isolated files will
+				probably be altered. 
 				</p>	  
 		</help>
 	</arg>	
 	
-	<arg name="cmdir" 
+	<arg name="ctree" 
 		brief="-q"
-		long="--cmdir"
+		long="--ctree"
 		args="director(ies)"
 		class="org.xmlcml.cmine.files.CMDir"
 		countRange="{0,*}"
 		parseMethod="parseCMDir"
 		>
 		<help>
-		NOTE WAS quickscrapeNorma
-			FILE_CONTAINER:
-			create directory  contentmine/some/where/journal.pone.0115884/. It may contain
+		<p class="note">NOTE WAS quickscrapeNorma and cmDir</p>
+		<p class="brief">create or use $ctree directory.</p>
+		<p>A ContentTree (ctree) may contain
+			<ul>
+			<li>results.json * // a listing of scraped files</li>
 			
-			results.json * // a listing of scraped files
+			<li>fulltext.xml ? // publishers XML</li>
+			<li>fulltext.pdf ? // publishers PDF</li>
+			<li>fulltext.html ? // raw HTML</li>
+			<li>provisional.pdf ? // provisional PDF (often disappears)</li>
 			
-			fulltext.xml ? // publishers XML
-			fulltext.pdf ? // publishers PDF
-			fulltext.html ? // raw HTML
-			provisional.pdf ? // provisional PDF (often disappears)
+			<li>foo12345.docx ? // data files numbered by publisher/author</li>
+			<li>bar54321.docx ?</li>
+			<li>ah1234.cif ? // crystallographic data</li>
+			<li>pqr987.cml ? // chemistry file</li>
+			<li>mmm.csv ? // table</li>
+			<li>pic5656.png ? // images</li>
+			<li>pic5657.gif ? // image</li>
+			<li>suppdata.pdf ? // supplemental data</li>
+		</ul>			
+			and more.</p>
 			
-			foo12345.docx ? // data files numbered by publisher/author
-			bar54321.docx ?
-			ah1234.cif ? // crystallographic data
-			pqr987.cml ? // chemistry file
-			mmm.csv ? // table
-			pic5656.png ? // images
-			pic5657.gif ? // image
-			suppdata.pdf ? // supplemental data
-			
-			and more
-			
-			only results.json is mandatory. However there will normally be at least one fulltext.* file and probably at 
+			<p>only results.json is mandatory. However there will normally be at least one fulltext.* file and probably at 
 			least one *.html file (as the landing page must be in HTML). Since quickscrape can extract data without 
 			fulltext it might also be deployed against a site with data files.
+			</p>
 			
-			There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also 
-			contain the same images as some exposed *.png.
+			<p>There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also 
+			contain the same images as some exposed *.png.</p>
 		</help>
 	</arg>	
 	
@@ -84,34 +91,20 @@
 		parseMethod="parseQSNorma"
 		>
 		<help>
-		OBSOLETE // use --cmdir instead
-			FILE_CONTAINER:
-			create directory  contentmine/some/where/journal.pone.0115884/. It may contain
-			
-			results.json * // a listing of scraped files
-			
-			fulltext.xml ? // publishers XML
-			fulltext.pdf ? // publishers PDF
-			fulltext.html ? // raw HTML
-			provisional.pdf ? // provisional PDF (often disappears)
-			
-			foo12345.docx ? // data files numbered by publisher/author
-			bar54321.docx ?
-			ah1234.cif ? // crystallographic data
-			pqr987.cml ? // chemistry file
-			mmm.csv ? // table
-			pic5656.png ? // images
-			pic5657.gif ? // image
-			suppdata.pdf ? // supplemental data
-			
-			and more
-			
-			only results.json is mandatory. However there will normally be at least one fulltext.* file and probably at 
-			least one *.html file (as the landing page must be in HTML). Since quickscrape can extract data without 
-			fulltext it might also be deployed against a site with data files.
-			
-			There may be some redundancy - *.xml may be transformable into *.html and *.pdf into *.html. The PDF may also 
-			contain the same images as some exposed *.png.
+		OBSOLETE // use --ctree instead
+		</help>
+	</arg>	
+	
+	<arg name="cmdir" 
+		brief="-q"
+		long="--quickscrapeNorma"
+		args="director(ies)"
+		class="org.xmlcml.cmine.files.CMDir"
+		countRange="{1,*}"
+		parseMethod="parseQSNorma"
+		>
+		<help>
+		OBSOLETE // use --ctree instead
 		</help>
 	</arg>	
 	
@@ -124,11 +117,12 @@
 		outputMethod="outputMethod"
 		>
 		<help>
-			OUTPUT
-			 Output is to local filestore ATM. If there is only one input
-			after wildcard expansion then a filename can be given. Else the argument must be a writeable directory; Norma
-			will do her best to create filenames derived from the input names. Directory structures will not be preserved
-			See also --recursive and --extensions",
+			<p class="brief">Output to local filestore, normally within <em><code>ctree</code></em>.
+			If there is only one input
+			after wildcard expansion then a filename can be given. If the argument must be a writeable directory; Norma
+			will do her best to create filenames derived from the input names. Directory structures will not be preserved.
+			</p>
+			<p class="note">At present users have to know the </p>
 		</help>
 	</arg>	
 			
@@ -140,11 +134,8 @@
 		parseMethod="parseVersion"
 		>
 		<help>
-			OUTPUT
-			 Output is to local filestore ATM. If there is only one input
-			after wildcard expansion then a filename can be given. Else the argument must be a writeable directory; Norma
-			will do her best to create filenames derived from the input names. Directory structures will not be preserved
-			See also --recursive and --extensions",
+		<p>Prints version number.</p>
+		<p class="note">Future versions will print the versions of ancestors.</p>
 		</help>
 	</arg>	
 	<arg name="recursive"			
@@ -157,11 +148,10 @@
 		>
 <!-- default ="false"  -->
 		<help>
-			RECURSIVE
-			input directories
 			If the input is a directory then by default only the first level is searched
 			if the --recursive flag is set then all files in the directory tree may be input
 			See also --extensions
+			<p class="note">probably obsolete</p>
 		</help>
 	</arg>	
 	
@@ -173,10 +163,10 @@
 		parseMethod="parseExtensions"
 		>
 		<help>
-			EXTENSIONS
-				When a directory or directories are searched then all files are input by default
-				It is possible to limit the search by using only certain extensions
-				See also --recursive.
+			<p>When a directory or directories are searched then all files are input by default.
+			It is possible to limit the search by using only certain extensions.
+			</p>
+			<p class="note">The 'dot' is NOT included (so <code>xml png</code> not <code>.xml .png</code>)</p>
 		</help>
 	</arg>
 		
@@ -187,8 +177,8 @@
 		parseMethod="parseSummaryFile"
 		>
 		<help>
-		SUMMARY FILE
-		Directory to write summaries to.
+			<p>Directory to write summaries to.</p>
+			<p class="note">Not fully developed.</p>
 		</help>
 	</arg>
 		
@@ -200,8 +190,7 @@
 		parseMethod="printHelp"
 		>
 		<help>
-			HELP
-				outputs help for all options, including superclass DefaultArgProcessor
+			<p>output help for all options, including superclass DefaultArgProcessor.</p>
 		</help>
 	</arg>	
 	
@@ -213,8 +202,8 @@
 	    >
 	    <help>
 	      <p>Create HTML version of all args.xml file for inclusion in documentation</p>
-	      <p>Iterates over <tt>src/main/resources</tt> directory to find all <tt>args.xml</tt> files
-	      and creates a sister <tt>args.html</tt> file.</p>
+	      <p>Iterates over <code>src/main/resources</code> directory to find all <code>args.xml</code> files
+	      and creates a sister <code>args.html</code> file.</p>
 	    </help>
 	    </arg>
 </argList>

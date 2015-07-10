@@ -1,9 +1,10 @@
 package org.xmlcml.cmine.files;
 
+import java.io.IOException;
 import java.util.ArrayList;
-
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -12,6 +13,7 @@ import nu.xom.Text;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.lookup.AbstractLookup;
 import org.xmlcml.xml.XMLUtil;
 
 /** a container for ResultElement's.
@@ -32,7 +34,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	public static final String TITLE = "title";
 	
 	protected List<ResultElement> resultElementList;
-	public List<String> nameList;
+	public List<String> matchList;
 
 	public ResultsElement() {
 		super(TAG);
@@ -158,14 +160,30 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 
 	public List<String> getExactList() {
-		if (nameList == null) {
-			nameList = new ArrayList<String>();
+		if (matchList == null) {
+			matchList = new ArrayList<String>();
 			for (ResultElement resultElement : this) {
 				String name = resultElement.getExact();
-				nameList.add(name);
+				matchList.add(name);
 			}
 		}
-		return nameList;
+		return matchList;
 	}
 
+	public void lookup(Map<String, AbstractLookup> lookupInstanceByName, List<String> lookupNames) {
+		if (lookupInstanceByName != null) {
+			for (String lookupName : lookupNames) {
+				AbstractLookup abstractLookup = lookupInstanceByName.get(lookupName);
+				for (ResultElement element : resultElementList) {
+					String exact = element.getExact();
+					try {
+						String lookupId = abstractLookup.lookup(exact);
+						element.setId(lookupName, lookupId);
+					} catch (IOException e) {
+						LOG.debug("lookup failed", e);
+					}
+					}
+				}
+			}
+	}
 }
