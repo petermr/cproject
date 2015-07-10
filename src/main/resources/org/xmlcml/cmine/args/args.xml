@@ -87,7 +87,7 @@
 		long="--quickscrapeNorma"
 		args="director(ies)"
 		class="org.xmlcml.cmine.files.CMDir"
-		countRange="{1,*}"
+		countRange="{0,*}"
 		parseMethod="parseQSNorma"
 		>
 		<help>
@@ -97,10 +97,10 @@
 	
 	<arg name="cmdir" 
 		brief="-q"
-		long="--quickscrapeNorma"
+		long="--cmdir"
 		args="director(ies)"
 		class="org.xmlcml.cmine.files.CMDir"
-		countRange="{1,*}"
+		countRange="{0,*}"
 		parseMethod="parseQSNorma"
 		>
 		<help>

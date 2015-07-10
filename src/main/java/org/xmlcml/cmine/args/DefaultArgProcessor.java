@@ -295,7 +295,6 @@ public class DefaultArgProcessor {
 	}
 
 	public void parseQSNorma(ArgumentOption option, ArgIterator argIterator) {
-		LOG.warn("OBSOLETE, use --cmdir instead");
 		parseCMDir(option, argIterator);
 	}
 

@@ -38,7 +38,9 @@ public class CMDirTest {
 		File cmDirectory = new File("target/testcreate/src_test_resources_org_xmlcml_files_misc_test_pdf_1471_2148_14_70_pdf");
 		if (cmDirectory.exists()) FileUtils.forceDelete(cmDirectory);
 		String args = "-i src/test/resources/org/xmlcml/files/misc/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --cmdir";
-		new DefaultArgProcessor().parseArgs(args);
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
 		Assert.assertTrue(cmDirectory.exists());
 		CMDir cmDir = new CMDir(cmDirectory); 
 		File fulltext_pdf = cmDir.getExistingFulltextPDF();
