@@ -28,10 +28,12 @@ public class ValueElement extends Element {
 	
 	public static final String CLASS_NAME_ATT = "className";
 	public static final String FIELDS_ATT = "fields";
-	public static final String NAME_ATT   = "name";
 	public static final String INPUT_ATT   = "input";
+	public static final String LOOKUP_ATT   = "lookup";
+	public static final String NAME_ATT   = "name";
 	public static final String OUTPUT_ATT   = "output";
 	public static final String URL_ATT    = "url";
+
 	public static final String TEXT_CHILD = "#text";
 	
 	public static final List<String> ATT_NAMES;
@@ -41,8 +43,9 @@ public class ValueElement extends Element {
 		ATT_NAMES.add(CLASS_NAME_ATT);
 		ATT_NAMES.add(FIELDS_ATT);
 		ATT_NAMES.add(INPUT_ATT);
-		ATT_NAMES.add(OUTPUT_ATT);
+		ATT_NAMES.add(LOOKUP_ATT);
 		ATT_NAMES.add(NAME_ATT);
+		ATT_NAMES.add(OUTPUT_ATT);
 		ATT_NAMES.add(URL_ATT);
 		
 		CHILD_NAMES = new ArrayList<String>();
@@ -74,12 +77,20 @@ public class ValueElement extends Element {
 		return this.getAttributeValue(INPUT_ATT);
 	}
 
-	public String getOutput() {
-		return this.getAttributeValue(OUTPUT_ATT);
+	public String getLookup() {
+		return this.getAttributeValue(LOOKUP_ATT);
 	}
 
 	public String getName() {
 		return this.getAttributeValue(NAME_ATT);
+	}
+
+	public String getOutput() {
+		return this.getAttributeValue(OUTPUT_ATT);
+	}
+
+	public String getUrl() {
+		return this.getAttributeValue(URL_ATT);
 	}
 
 }

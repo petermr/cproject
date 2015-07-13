@@ -823,8 +823,17 @@ public class DefaultArgProcessor {
 	 */
 	public void runAndOutput() {
 		ensureCMDirList();
-		if (cmDirList.size() == 0 || project != null) {
-			LOG.debug("Could not find CMdirs; treating as CMDir creation under project "+project);
+		if (cmDirList.size() == 0) {
+			if (project != null) {
+				output = project;
+			} else if (output != null) {
+				LOG.warn("please replace --output with --project");
+				project = output;
+			} else {
+				LOG.error("Cannot create output: --project or --output must be given");
+				return;
+			}
+			LOG.debug("treating as CMDir creation under project "+project);
 			runRunMethodsOnChosenArgOptions();
 		} else {
 			for (int i = 0; i < cmDirList.size(); i++) {
