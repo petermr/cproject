@@ -88,4 +88,18 @@ public class DefaultArgProcessorTest {
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs("--version");
 	}
+	
+	@Test
+	public void testProject() {
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		try {
+			argProcessor.parseArgs("--project");
+			Assert.fail("should trap zero arguments");
+		} catch (Exception e) {
+			// OK
+		}
+		
+		argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs("--project foo");
+	}
 }

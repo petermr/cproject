@@ -159,6 +159,7 @@ public class DefaultArgProcessor {
 	// searching
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
+	protected String project;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -343,6 +344,10 @@ public class DefaultArgProcessor {
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
 		output = argIterator.getString(option);
+	}
+
+	public void parseProject(ArgumentOption option, ArgIterator argIterator) {
+		project = argIterator.getString(option);
 	}
 
 	public void parseRecursive(ArgumentOption option, ArgIterator argIterator) {
@@ -818,8 +823,8 @@ public class DefaultArgProcessor {
 	 */
 	public void runAndOutput() {
 		ensureCMDirList();
-		if (cmDirList.size() == 0) {
-			LOG.debug("Could not find CMdirs; treating as CMDir creation");
+		if (cmDirList.size() == 0 || project != null) {
+			LOG.debug("Could not find CMdirs; treating as CMDir creation under project "+project);
 			runRunMethodsOnChosenArgOptions();
 		} else {
 			for (int i = 0; i < cmDirList.size(); i++) {

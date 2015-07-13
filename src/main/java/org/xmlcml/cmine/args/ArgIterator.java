@@ -90,7 +90,8 @@ public class ArgIterator {
 			String next = this.next();
 			Character next1 = next.length() <= 1 ? null : next.charAt(1);
 			// flag is -letter... or --
-			if (next.charAt(0) == MINUS && (Character.isLetter(next1) || next1 == MINUS)) {
+			if (next.trim().length() == 0 
+					|| next.charAt(0) == MINUS && (Character.isLetter(next1) || next1 == MINUS)) {
 				this.previous();
 				break;
 			}

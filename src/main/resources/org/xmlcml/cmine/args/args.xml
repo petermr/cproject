@@ -182,6 +182,18 @@
 		</help>
 	</arg>
 		
+	<arg name="project"
+		long="--project"
+		args="projectFile"
+		countRange="{1,1}"
+		parseMethod="parseProject"
+		>
+		<help>
+			<p>Toplevel directory with only CTree children</p>
+			<p class="note">Not fully developed.</p>
+		</help>
+	</arg>
+		
 	<arg name="help"
 		brief="-h"
 		long="--help"
@@ -206,4 +218,6 @@
 	      and creates a sister <code>args.html</code> file.</p>
 	    </help>
 	    </arg>
+	    
+	    
 </argList>
