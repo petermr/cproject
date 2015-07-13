@@ -1,4 +1,4 @@
-<argList name="cmine" version="0.1.1">
+<argList name="cmine" version="0.1.2">
 
 	<arg name="input" 
 		brief="-i"
