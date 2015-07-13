@@ -51,8 +51,6 @@ public class ArgumentOption {
 	private static final Pattern INT_RANGE = Pattern.compile("\\{(\\*|\\-?\\d+),(\\-?\\d*|\\*)\\}");
 	private static final Pattern DOUBLE_RANGE = Pattern.compile("\\{(\\-?\\+?\\d+\\.?\\d*|\\*),(\\-?\\+?\\d+\\.?\\d*|\\*)\\}");
 
-	public static String CLASSNAME = "className";
-
 	private static final Logger LOG = Logger.getLogger(ArgumentOption.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -123,7 +121,7 @@ public class ArgumentOption {
 	private String initMethodName;
 	
 	private Class<? extends DefaultArgProcessor> argProcessorClass;
-	private List<Element> valueNodes;
+	private List<ValueElement> valueElements;
 	private List<Element> helpNodes;
 	private Element element;
 	
@@ -160,7 +158,7 @@ public class ArgumentOption {
 		}
 		argumentOption.getDefaults(optionalAttributes);
 		argumentOption.getOrCreateHelpNodes();
-		argumentOption.getOrCreateValues();
+		argumentOption.getOrCreateValueElements();
 		return argumentOption;
 	}
 
@@ -189,12 +187,17 @@ public class ArgumentOption {
 		return helpNodes;
 	}
 
-	public List<Element> getOrCreateValues() {
-		if (valueNodes == null) {
-			valueNodes = XMLUtil.getQueryElements(element, "./*[local-name()='"+VALUE+"']");
+	public List<ValueElement> getOrCreateValueElements() {
+		if (valueElements == null) {
+			List<Element> vElements = XMLUtil.getQueryElements(element, "./*[local-name()='"+VALUE+"']");
+			valueElements = new ArrayList<ValueElement>();
+			for (Element vElement : vElements) {
+				ValueElement valueElement = ValueElement.createValueElement(vElement);
+				valueElements.add(valueElement);
+			}
 		}
-		LOG.trace("VALUES: "+valueNodes);
-		return valueNodes;
+		LOG.trace("VALUES: "+valueElements);
+		return valueElements;
 	}
 
 	private static void lookForKnownAttributes(Element element,
@@ -872,6 +875,10 @@ public class ArgumentOption {
 	private static List<String> getWhitespaceSeparatedArguments(String strings) {
 		return (strings == null) ? new ArrayList<String>() :
 			new ArrayList<String>(Arrays.asList(strings.split("\\s+")));
+	}
+
+	public List<ValueElement> getValueElements() {
+		return valueElements;
 	}
 
 

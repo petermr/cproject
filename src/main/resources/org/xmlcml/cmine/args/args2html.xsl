@@ -188,9 +188,9 @@
 	<xsl:template match="value">
 		<li>
 			Name:
-			<xsl:copy-of select="@name" />
+			<xsl:value-of select="@name" />
 			value:
-			<xsl:copy-of select="@value" />
+			<xsl:value-of select="@value" />
 		</li>
 		li>
 	</xsl:template>

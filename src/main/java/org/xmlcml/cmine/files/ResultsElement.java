@@ -171,7 +171,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 
 	public void lookup(Map<String, AbstractLookup> lookupInstanceByName, List<String> lookupNames) {
-		if (lookupInstanceByName != null) {
+		if (lookupInstanceByName != null && lookupNames != null) {
 			for (String lookupName : lookupNames) {
 				AbstractLookup abstractLookup = lookupInstanceByName.get(lookupName);
 				for (ResultElement element : resultElementList) {

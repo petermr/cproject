@@ -119,6 +119,8 @@ public class DefaultArgProcessor {
 	public static final String WHITESPACE = "\\s+";
 	public static Pattern GENERAL_PATTERN = Pattern.compile("\\{([^\\}]*)\\}");
 	
+	public static final VersionManager DEFAULT_VERSION_MANAGER = new VersionManager();
+	
 	/** creates a list of tokens that are found in an allowed list.
 	 * 
 	 * @param allowed
@@ -149,7 +151,7 @@ public class DefaultArgProcessor {
 	
 	protected CMDirList cmDirList;
 	// change protection later
-	public CMDir currentCMDir;
+	protected CMDir currentCMDir;
 	protected String summaryFileName;
 	// variable processing
 	protected Map<String, String> variableByNameMap;
@@ -157,11 +159,6 @@ public class DefaultArgProcessor {
 	// searching
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
-	// these are private so each level can have its own version and name
-	private static String name;
-	private static String version;
-	
-	
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -171,10 +168,15 @@ public class DefaultArgProcessor {
 		readArgumentOptions(getArgsResource());
 	}
 	
-	public DefaultArgProcessor(String resourceName) {
-		this();
-		readArgumentOptions(resourceName);
+	protected static VersionManager getVersionManager() {
+//		LOG.debug("VM Default "+DEFAULT_VERSION_MANAGER.hashCode()+" "+DEFAULT_VERSION_MANAGER.getName()+";"+DEFAULT_VERSION_MANAGER.getVersion());
+		return DEFAULT_VERSION_MANAGER;
 	}
+	
+//	public DefaultArgProcessor(String resourceName) {
+//		this();
+//		readArgumentOptions(resourceName);
+//	}
 	
 	private String getArgsResource() {
 		return ARGS_RESOURCE;
@@ -187,17 +189,12 @@ public class DefaultArgProcessor {
 			if (is == null) {
 				throw new RuntimeException("Cannot read/find input resource stream: "+resourceName);
 			}
-			Element argElement = new Builder().build(is).getRootElement();
-			createNameAndVersion(argElement);
-			createArgumentOptions(argElement);
+			Element argListElement = new Builder().build(is).getRootElement();
+			getVersionManager().readNameVersion(argListElement);
+			createArgumentOptions(argListElement);
 		} catch (Exception e) {
 			throw new RuntimeException("Cannot read/process args file "+resourceName, e);
 		}
-	}
-
-	private void createNameAndVersion(Element argElement) {
-		setName(argElement.getAttributeValue(NAME));
-		setVersion(argElement.getAttributeValue(VERSION));
 	}
 
 	private void createArgumentOptions(Element argElement) {
@@ -367,7 +364,7 @@ public class DefaultArgProcessor {
 	// =====================================
 	
 	protected void printVersion() {
-		System.err.println(this.name+": "+this.version);
+		DefaultArgProcessor.getVersionManager().printVersion();
 	}
 
 
@@ -404,7 +401,7 @@ public class DefaultArgProcessor {
 				LOG.trace(childFilenames);
 				// recurse (no mixed directory structures)
 				// FIXME 
-				LOG.warn("Recursing CMDIRs is probably  a BUG");
+				LOG.trace("Recursing CMDIRs is probably  a BUG");
 				createCMDirList(childFilenames);
 			} else {
 				cmDirList.add(cmDir);
@@ -663,7 +660,7 @@ public class DefaultArgProcessor {
 	protected void runMethodsOfType(String methodNameType) {
 		List<ArgumentOption> optionList = getOptionsWithMethod(methodNameType);
 		for (ArgumentOption option : optionList) {
-			LOG.debug("option "+option+" "+this.getClass());
+			LOG.trace("option "+option+" "+this.getClass());
 			String methodName = null;
 			try {
 				methodName = option.getMethodName(methodNameType);
@@ -876,8 +873,11 @@ public class DefaultArgProcessor {
 	}
 
 	public List<? extends Element> extractPSectionElements(CMDir cmDir) {
-		cmDir.ensureScholarlyHtmlElement();
-		List<? extends Element> elements = HtmlP.extractSelfAndDescendantIs(cmDir.htmlElement);
+		List<? extends Element> elements = null;
+		if (cmDir != null) {
+			cmDir.ensureScholarlyHtmlElement();
+			elements = HtmlP.extractSelfAndDescendantIs(cmDir.htmlElement);
+		}
 		return elements;
 	}
 
@@ -899,12 +899,5 @@ public class DefaultArgProcessor {
 		}
 		return htmlElement;
 	}
-
-	public String getName() {return name;	}
-	protected void setName(String name) {
-		this.name = name;
-	}
-	public String getVersion() {return version;}
-	protected void setVersion(String version) {this.version = version;}
 
 }

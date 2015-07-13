@@ -29,7 +29,7 @@ public class DefaultSearcher {
 		ResultsElement resultsElement = new ResultsElement();
 		for (Element element : elements) {
 			String xpath = new XPathGenerator(element).getXPath();
-			LOG.debug("xpath: "+xpath);
+			LOG.trace("xpath: "+xpath);
 			ResultsElement subResultsElement = this.searchXomElement(element);
 			if (subResultsElement.size() > 0) {
 				subResultsElement.setXPath(xpath);
