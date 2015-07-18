@@ -748,7 +748,7 @@ public class CMDir {
 		}
 		if (content != null) {
 			try {
-				FileUtils.write(file, content);
+				FileUtils.write(file, content, "UTF-8");
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot write file: ", e);
 			}
