@@ -32,7 +32,7 @@ public class DefaultSearcher {
 
 			if (subResultsElement.size() > 0) {
 				String xpath = new XPathGenerator(element).getXPath();
-				LOG.debug("XPATH :"+xpath+"; "+element.toXML());
+				LOG.trace("XPATH :"+xpath+"; "+element.toXML());
 				subResultsElement.setXPath(xpath);
 				resultsElement.transferResultElements(subResultsElement);
 			}
