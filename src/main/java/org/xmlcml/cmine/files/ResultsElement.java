@@ -63,7 +63,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	 * @param element
 	 * @return
 	 */
-	public static ResultsElement createResults(Element element) {
+	public static ResultsElement createResultsElement(Element element) {
 		return (ResultsElement) createResults0(element);
 	}
 	
@@ -105,7 +105,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 		}
 	}
 
-	protected List<ResultElement> getOrCreateResultElementList() {
+	public List<ResultElement> getOrCreateResultElementList() {
 		resultElementList = new ArrayList<ResultElement>();
 		List<Element> resultChildren = XMLUtil.getQueryElements(this, "./*[local-name()='"+ResultElement.TAG+"']");
 		for (Element resultElement : resultChildren) {
@@ -186,4 +186,5 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 				}
 			}
 	}
+
 }

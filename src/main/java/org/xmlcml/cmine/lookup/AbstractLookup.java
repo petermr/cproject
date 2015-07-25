@@ -16,6 +16,9 @@ import org.xmlcml.euclid.IntArray;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.jayway.jsonpath.JsonPath;
+import com.jayway.jsonpath.ReadContext;
 
 public abstract class AbstractLookup {
 	
@@ -44,8 +47,8 @@ public abstract class AbstractLookup {
 		return intArray;
 	}
 
-	public Element getXML(URL url) throws IOException {
-		String content = this.getString(url);
+	public Element getResponseXML(URL url) throws IOException {
+		String content = this.getResponse(url);
 		Element element = org.xmlcml.xml.XMLUtil.parseXML(content);
 		return element;
 	}
@@ -56,7 +59,7 @@ public abstract class AbstractLookup {
 	 * @return
 	 * @throws IOException
 	 */
-    protected String getString(URL url) throws IOException {
+    protected String getResponse(URL url) throws IOException {
     	
         URLConnection urlc = url.openConnection();
         //use post mode
@@ -74,6 +77,12 @@ public abstract class AbstractLookup {
 
 	public String getName() {
 		return name;
+	}
+
+	public String getStringForJsonPath(String json, String jsonPath) {
+		ReadContext ctx = JsonPath.parse(json);
+		String result = ctx.read(jsonPath);
+		return result;
 	}
 
 		

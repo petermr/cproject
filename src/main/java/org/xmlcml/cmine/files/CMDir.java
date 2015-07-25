@@ -864,7 +864,7 @@ public class CMDir {
 					File resultsXML = new File(methodDir, CMDir.RESULTS_XML);
 					if (CMDir.isExistingFile(resultsXML)) {
 						Document resultsDoc = XMLUtil.parseQuietlyToDocument(resultsXML);
-						resultsElement = ResultsElement.createResults(resultsDoc.getRootElement());
+						resultsElement = ResultsElement.createResultsElement(resultsDoc.getRootElement());
 					}
 				}
 			}
@@ -897,10 +897,11 @@ public class CMDir {
 		return sectionElementList;
 	}
 
-	public void ensureScholarlyHtmlElement() {
+	public HtmlElement ensureScholarlyHtmlElement() {
 		if (htmlElement == null) {
 			htmlElement = DefaultArgProcessor.getScholarlyHtmlElement(this);
 		}
+		return htmlElement;
 	}
 
 	public List<String> extractWordsFromPDFTXT() {

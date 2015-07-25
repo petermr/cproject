@@ -32,6 +32,7 @@ public class DefaultSearcher {
 			LOG.trace("xpath: "+xpath);
 			ResultsElement subResultsElement = this.searchXomElement(element);
 			if (subResultsElement.size() > 0) {
+				LOG.debug("XPATH :"+element.toXML());
 				subResultsElement.setXPath(xpath);
 				resultsElement.transferResultElements(subResultsElement);
 			}

@@ -14,7 +14,6 @@ import org.apache.log4j.Logger;
  *
  */
 public class ResultElement extends Element {
-
 	
 	private static final Logger LOG = Logger.getLogger(ResultElement.class);
 	static {
@@ -87,13 +86,17 @@ public class ResultElement extends Element {
 		setValue(POST, value);
 	}
 	
+	public void setXPath(String xpath) {
+		this.addAttribute(new Attribute(XPATH, xpath));
+	}
+
+	public String getXPath() {
+		return this.getAttributeValue(XPATH);
+	}
+
 	public void setValue(String name, String value) {
 		Attribute attribute = new Attribute(name, value);
 		this.addAttribute(attribute);
-	}
-
-	public void setXPath(String xpath) {
-		this.addAttribute(new Attribute(XPATH, xpath));
 	}
 
 	public void setId(String lookupName, String lookupId) {
