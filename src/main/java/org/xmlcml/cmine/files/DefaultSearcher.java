@@ -28,11 +28,11 @@ public class DefaultSearcher {
 	public ResultsElement search(List<? extends Element> elements) {
 		ResultsElement resultsElement = new ResultsElement();
 		for (Element element : elements) {
-			String xpath = new XPathGenerator(element).getXPath();
-			LOG.trace("xpath: "+xpath);
 			ResultsElement subResultsElement = this.searchXomElement(element);
+
 			if (subResultsElement.size() > 0) {
-				LOG.debug("XPATH :"+element.toXML());
+				String xpath = new XPathGenerator(element).getXPath();
+				LOG.debug("XPATH :"+xpath+"; "+element.toXML());
 				subResultsElement.setXPath(xpath);
 				resultsElement.transferResultElements(subResultsElement);
 			}
