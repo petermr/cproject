@@ -1,10 +1,13 @@
 package org.xmlcml.cmine.args;
 
+import java.io.File;
+import java.io.IOException;
+
 import junit.framework.Assert;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.Test;
-import org.xmlcml.cmine.args.DefaultArgProcessor;
 
 public class DefaultArgProcessorTest {
 
@@ -102,4 +105,16 @@ public class DefaultArgProcessorTest {
 		argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs("--project foo");
 	}
+	
+	@Test
+	public void testLog() throws IOException {
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		File targetFile = new File("target/test/log/");
+		targetFile.mkdirs();
+		// dummy file
+		FileUtils.write(new File(targetFile, "fulltext.txt"), "fulltext");
+		argProcessor.parseArgs("-q "+targetFile+" -i fulltext.txt  --c.test --log");
+		argProcessor.runAndOutput();
+	}
+	
 }

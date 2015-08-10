@@ -107,10 +107,11 @@ public class ArgIterator {
 
 	public String getString(ArgumentOption option) {
 		List<String> tokens = createTokenListUpToNextNonDigitMinus(option);
-		if (tokens.size() != 1) {
-			throw new RuntimeException("Expected only 1 argument; found: "+tokens.size());
+		if (tokens.size() == 1) {
+			return tokens.get(0);
+		} else {
+			throw new RuntimeException("wrong number of arguments; found: "+tokens.size());
 		}
-		return tokens.get(0);
 	}
 
 	// BOOLEAN

@@ -30,6 +30,7 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xml.sax.InputSource;
+import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.files.CMDir;
 import org.xmlcml.cmine.files.CMDirList;
 import org.xmlcml.cmine.files.DefaultSearcher;
@@ -77,6 +78,8 @@ import org.xmlcml.xml.XMLUtil;
  * 
 		for (int i = 0; i < cmDirList.size(); i++) {
 			currentCMDir = cmDirList.get(i);
+			// generateLogFile here
+			currentCMDir.getOrCreateLog();
 			// each CMDir has a ContentProcessor
 			currentCMDir.ensureContentProcessor(this);
 			// possible initFooOption
@@ -120,6 +123,7 @@ public class DefaultArgProcessor {
 	public static Pattern GENERAL_PATTERN = Pattern.compile("\\{([^\\}]*)\\}");
 	
 	public static final VersionManager DEFAULT_VERSION_MANAGER = new VersionManager();
+	public static final String LOGFILE = "target/log.xml";
 	
 	/** creates a list of tokens that are found in an allowed list.
 	 * 
@@ -144,6 +148,7 @@ public class DefaultArgProcessor {
 	protected List<String> extensionList = null;
 	private boolean recursive = false;
 	protected List<String> inputList;
+	protected String logfileName;
 	public String update;
 	
 	public List<ArgumentOption> argumentOptionList;
@@ -160,6 +165,8 @@ public class DefaultArgProcessor {
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
 	protected String project;
+	protected CMineLog cTreeLog;
+	protected CMineLog initLog;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -191,6 +198,7 @@ public class DefaultArgProcessor {
 				throw new RuntimeException("Cannot read/find input resource stream: "+resourceName);
 			}
 			Element argListElement = new Builder().build(is).getRootElement();
+			initLog = this.getOrCreateLog(logfileName);
 			getVersionManager().readNameVersion(argListElement);
 			createArgumentOptions(argListElement);
 		} catch (Exception e) {
@@ -279,11 +287,22 @@ public class DefaultArgProcessor {
 		
 		return newStringList;
 	}
+	
+	public CMineLog getOrCreateLog(String logfileName) {
+		CMineLog cMineLog = null;
+		if (logfileName == null) {
+			logfileName = DefaultArgProcessor.LOGFILE;
+		}
+		File file = new File(logfileName);
+		cMineLog = new CMineLog(file);
+		return cMineLog;
+	}
+	
 
 	// ============ METHODS ===============
 
 	public void parseVersion(ArgumentOption option, ArgIterator argIterator) {
-		List<String> extensions = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		argIterator.createTokenListUpToNextNonDigitMinus(option);
 		printVersion();
 	}
 
@@ -313,34 +332,15 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void createCMDirListFromInput() {
-		File outputDir = output == null ? null : new File(output);
-		for (String filename : inputList) {
-			File infile = new File(filename);
-			if (!infile.isDirectory()) {
-				File cmdirParent = output == null ? infile.getParentFile() : outputDir;
-				String cmName = filename.replaceAll("\\p{Punct}", "_")+"/";
-				File directory = new File(cmdirParent, cmName);
-				CMDir cmDir = new CMDir(directory, true);
-				String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
-				try {
-					cmDir.writeReservedFile(infile, reservedFilename, true);
-				} catch (Exception e) {
-					throw new RuntimeException("Cannot create/write: "+filename, e);
-				}
-			}
-		}
-	}
-
-	public void printHelp(ArgumentOption option, ArgIterator argIterator) {
-		printHelp();
-	}
-
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		inputList = expandAllWildcards(inputs);
 	}
 
+	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
+		List<String> strings = argIterator.getStrings(option);
+		logfileName = (strings.size() == 0) ? CMDir.LOGFILE : strings.get(0);
+	}
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
 		output = argIterator.getString(option);
@@ -362,12 +362,42 @@ public class DefaultArgProcessor {
 		transformArgs2html();
 	}
 
+	public void runTest(ArgumentOption option) {
+		String name = new Object(){}.getClass().getEnclosingMethod().getName();
+		cTreeLog.info("testing");
+	}
+
 	public void outputMethod(ArgumentOption option) {
 		LOG.error("outputMethod needs overwriting");
 	}
 
 	// =====================================
+
+
+	public void printHelp(ArgumentOption option, ArgIterator argIterator) {
+		printHelp();
+	}
 	
+	private void createCMDirListFromInput() {
+		File outputDir = output == null ? null : new File(output);
+		for (String filename : inputList) {
+			File infile = new File(filename);
+			if (!infile.isDirectory()) {
+				File cmdirParent = output == null ? infile.getParentFile() : outputDir;
+				String cmName = filename.replaceAll("\\p{Punct}", "_")+"/";
+				File directory = new File(cmdirParent, cmName);
+				CMDir cmDir = new CMDir(directory, true);
+				String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
+				try {
+					cmDir.writeReservedFile(infile, reservedFilename, true);
+				} catch (Exception e) {
+					throw new RuntimeException("Cannot create/write: "+filename, e);
+				}
+			}
+		}
+	}
+	
+
 	protected void printVersion() {
 		DefaultArgProcessor.getVersionManager().printVersion();
 	}
@@ -566,7 +596,7 @@ public class DefaultArgProcessor {
 	}
 	
 	public void parseArgs(String args) {
-		parseArgs(args.split("\\s+"));
+		parseArgs(args.trim().split("\\s+"));
 	}
 
 	private void finalizeArgs() {
@@ -665,7 +695,7 @@ public class DefaultArgProcessor {
 	protected void runMethodsOfType(String methodNameType) {
 		List<ArgumentOption> optionList = getOptionsWithMethod(methodNameType);
 		for (ArgumentOption option : optionList) {
-			LOG.trace("option "+option+" "+this.getClass());
+			LOG.debug("option "+option+" "+this.getClass());
 			String methodName = null;
 			try {
 				methodName = option.getMethodName(methodNameType);
@@ -839,6 +869,7 @@ public class DefaultArgProcessor {
 			for (int i = 0; i < cmDirList.size(); i++) {
 				currentCMDir = cmDirList.get(i);
 				LOG.trace("running dir: "+currentCMDir.getDirectory());
+				cTreeLog = currentCMDir.getOrCreateCTreeLog(this, logfileName);
 				currentCMDir.ensureContentProcessor(this);
 				runInitMethodsOnChosenArgOptions();
 				runRunMethodsOnChosenArgOptions();
@@ -846,8 +877,18 @@ public class DefaultArgProcessor {
 			}
 		}
 		runFinalMethodsOnChosenArgOptions();
+		writeLog();
 	}
 
+
+	private void writeLog() {
+		if (initLog != null) {
+			initLog.writeLog();
+		}
+		if (cTreeLog != null) {
+			cTreeLog.writeLog();
+		}
+	}
 
 	protected void addVariableAndExpandReferences(String name, String value) {
 		ensureVariableProcessor();
@@ -864,13 +905,6 @@ public class DefaultArgProcessor {
 		}
 		return variableProcessor;
 	}
-
-//	public void addResultsElement(ResultsElement element) {
-//		if (currentCMDir == null) {
-//			throw new RuntimeException("CurrentCMDir should not be null");
-//		}
-//		currentCMDir.addResultsElement(element);
-//	}
 
 	public String getUpdate() {
 		return update;

@@ -1,7 +1,6 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,6 +16,7 @@ import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
+import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.xml.XMLUtil;
 
@@ -147,6 +147,7 @@ public class CMDir {
 	public static final String FULLTEXT_TXT_HTML  = "fulltext.txt.html";
 	public static final String FULLTEXT_XHTML     = "fulltext.xhtml";
 	public static final String FULLTEXT_XML       = "fulltext.xml";
+	public static final String LOGFILE            = "log.xml";
 	public static final String RESULTS_JSON       = "results.json";
 	public static final String RESULTS_XML        = "results.xml";
 	public static final String RESULTS_HTML       = "results.html";
@@ -164,6 +165,7 @@ public class CMDir {
 					FULLTEXT_TXT,
 					FULLTEXT_XHTML,
 					FULLTEXT_XML,
+					LOGFILE,
 					RESULTS_JSON,
 					RESULTS_XML,
 					SCHOLARLY_HTML
@@ -684,6 +686,33 @@ public class CMDir {
 		return isExistingFile(imageFile) ? imageFile : null;
 	}
 
+// ---
+	/** checks that this 
+	 * 
+	 * @return
+	 */
+	public boolean hasExistingLogfile() {
+		return getExistingLogfile() != null;
+	}
+	
+	/**
+	 * checks that CMDir exists and has child fulltext.xml
+	 * 
+	 * @param cmdir
+	 * @return true if cmdir exists and has child fulltext.xml
+	 */
+	public static File getExistingLogfile(CMDir cmdir) {
+		return (cmdir == null) ? null : cmdir.getExistingLogfile();
+	}
+	
+	public static File getExistingLogfile(File cmdirFile) {
+		return new CMDir(cmdirFile).getExistingLogfile();
+	}
+	
+	public File getExistingLogfile() {
+		return getExistingReservedFile(LOGFILE);
+	}
+
 
 	// ---
 	public File getReservedFile(String reservedName) {
@@ -956,5 +985,22 @@ public class CMDir {
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read PDF", e);
 		}
+	}
+
+	public File createLogfile() {
+		return null;
+	}
+
+	public CMineLog getOrCreateCTreeLog(DefaultArgProcessor argProcessor, String logfileName) {
+		CMineLog cTreeLog = null;
+		if (CMDir.LOGFILE.equals(logfileName)) {
+			File file = CMDir.getExistingLogfile(this);
+			if (file == null) {
+				file = this.getReservedFile(CMDir.LOGFILE);
+			}
+			LOG.trace("file "+file);
+			cTreeLog = new CMineLog(file);
+		}
+		return cTreeLog;
 	}
 }

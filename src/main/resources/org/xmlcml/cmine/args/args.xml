@@ -1,4 +1,5 @@
-<argList name="cmine" version="0.1.3">
+<argList name="cmine" version="0.1.4">
+  <p>20150807: added logfile</p>
 
 	<arg name="input" 
 		brief="-i"
@@ -218,6 +219,35 @@
 	      and creates a sister <code>args.html</code> file.</p>
 	    </help>
 	    </arg>
+	    
+	    	
+	<arg name="log"
+	    long="--log"
+		args=" logfile"
+	    countRange="{0,1}"
+	    parseMethod="parseLogfile"
+	    >
+	    <help>
+	      <p>Write expected logging output to XML file</p>
+	      <p>Defaults to [CTree]/log.xml</p>
+	      <p>Still under development. This logfile is separate from the Log4J or other logger. It is the formal record of the analysis and can be used for metrics, archiving, 
+	      re-use and guiding re-runs (and more). Each CTree will has a log.xml which records all operations and is extensible. 
+	      Subdirectories of the Ctree
+	      may also have <code>log.xml</code> files (referenced in the toplevel <code>log.xml</code>)</p>
+	    </help>
+    </arg>
+	    
+	<arg name="c.text"
+	    long="--c.test"
+		args=" "
+	    countRange="{0,0}"
+	    runMethod="runTest"
+	    >
+	    <help>
+	      <p>Test method to support debugging of workflow</p>
+	      <p>Does very little</p>
+	    </help>
+    </arg>
 	    
 	    
 </argList>
