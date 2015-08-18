@@ -60,7 +60,7 @@ public abstract class AbstractLookup {
 	 * @throws IOException
 	 */
     protected String getResponse(URL url) throws IOException {
-    	
+    	LOG.debug("url: "+url);
         URLConnection urlc = url.openConnection();
         //use post mode
         urlc.setDoOutput(true);
