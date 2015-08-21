@@ -172,18 +172,28 @@ public class DefaultArgProcessor {
 	}
 
 	public DefaultArgProcessor() {
+		ensureDefaultLogFiles();
 		readArgumentOptions(getArgsResource());
 	}
 	
+	private void ensureDefaultLogFiles() {
+		createCTreeLog(new File("target/defaultCTreeLog.xml"));
+		createInitLog(new File("target/defaultInitLog.xml"));
+	}
+
+	public void createCTreeLog(File logFile) {
+		cTreeLog = new CMineLog(logFile);
+	}
+
+	public void createInitLog(File logFile) {
+		initLog = new CMineLog(logFile);
+	}
+
 	protected static VersionManager getVersionManager() {
 //		LOG.debug("VM Default "+DEFAULT_VERSION_MANAGER.hashCode()+" "+DEFAULT_VERSION_MANAGER.getName()+";"+DEFAULT_VERSION_MANAGER.getVersion());
 		return DEFAULT_VERSION_MANAGER;
 	}
 	
-//	public DefaultArgProcessor(String resourceName) {
-//		this();
-//		readArgumentOptions(resourceName);
-//	}
 	
 	private String getArgsResource() {
 		return ARGS_RESOURCE;
