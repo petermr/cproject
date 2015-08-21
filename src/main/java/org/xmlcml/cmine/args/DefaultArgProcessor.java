@@ -164,8 +164,8 @@ public class DefaultArgProcessor {
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
 	protected String project;
-	protected AbstractLogElement cTreeLog;
-	protected AbstractLogElement initLog;
+	private AbstractLogElement cTreeLog;
+	private AbstractLogElement initLog;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -177,8 +177,22 @@ public class DefaultArgProcessor {
 	}
 	
 	private void ensureDefaultLogFiles() {
-		createCTreeLog(new File("target/defaultCTreeLog.xml"));
-		createInitLog(new File("target/defaultInitLog.xml"));
+		ensureCTreeLog();
+		ensureInitLog();
+	}
+
+	public AbstractLogElement ensureInitLog() {
+		if (initLog == null) {
+			createInitLog(new File("target/defaultInitLog.xml"));
+		}
+		return initLog;
+	}
+
+	public AbstractLogElement ensureCTreeLog() {
+		if (cTreeLog == null) {
+			createCTreeLog(new File("target/defaultCTreeLog.xml"));
+		}
+		return cTreeLog;
 	}
 
 	public void createCTreeLog(File logFile) {
