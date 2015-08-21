@@ -16,6 +16,7 @@ import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
+import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.xml.XMLUtil;
@@ -991,8 +992,8 @@ public class CMDir {
 		return null;
 	}
 
-	public CMineLog getOrCreateCTreeLog(DefaultArgProcessor argProcessor, String logfileName) {
-		CMineLog cTreeLog = null;
+	public AbstractLogElement getOrCreateCTreeLog(DefaultArgProcessor argProcessor, String logfileName) {
+		AbstractLogElement cTreeLog = null;
 		if (CMDir.LOGFILE.equals(logfileName)) {
 			File file = CMDir.getExistingLogfile(this);
 			if (file == null) {

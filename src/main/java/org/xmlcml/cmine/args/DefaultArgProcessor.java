@@ -4,7 +4,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
@@ -29,7 +28,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xml.sax.InputSource;
+import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.files.CMDir;
 import org.xmlcml.cmine.files.CMDirList;
@@ -165,8 +164,8 @@ public class DefaultArgProcessor {
 	protected List<DefaultSearcher> searcherList; // req
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
 	protected String project;
-	protected CMineLog cTreeLog;
-	protected CMineLog initLog;
+	protected AbstractLogElement cTreeLog;
+	protected AbstractLogElement initLog;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -288,8 +287,8 @@ public class DefaultArgProcessor {
 		return newStringList;
 	}
 	
-	public CMineLog getOrCreateLog(String logfileName) {
-		CMineLog cMineLog = null;
+	public AbstractLogElement getOrCreateLog(String logfileName) {
+		AbstractLogElement cMineLog = null;
 		if (logfileName == null) {
 			logfileName = DefaultArgProcessor.LOGFILE;
 		}
@@ -874,6 +873,10 @@ public class DefaultArgProcessor {
 				runInitMethodsOnChosenArgOptions();
 				runRunMethodsOnChosenArgOptions();
 				runOutputMethodsOnChosenArgOptions();
+				
+				if (cTreeLog != null) {
+					cTreeLog.writeLog();
+				}
 			}
 		}
 		runFinalMethodsOnChosenArgOptions();
@@ -884,9 +887,6 @@ public class DefaultArgProcessor {
 	private void writeLog() {
 		if (initLog != null) {
 			initLog.writeLog();
-		}
-		if (cTreeLog != null) {
-			cTreeLog.writeLog();
 		}
 	}
 
