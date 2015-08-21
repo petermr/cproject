@@ -3,6 +3,8 @@ package org.xmlcml.cmine.args.log;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import nu.xom.Attribute;
@@ -23,13 +25,30 @@ public class AbstractLogElement extends Element {
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
+
+	public enum LogLevel {
+		ERROR(4),
+		WARN(3),
+		INFO(2),
+		DEBUG(1),
+		TRACE(0);
+		private int levelNumber;
+
+		private LogLevel(int level) {
+			this.levelNumber = level;
+		}
+		
+		public int getLevelNumber() {
+			return levelNumber;
+		}
+		
+	}
 	
-//	public List<String> levels = new ArrayList<String>() 
-			
 	public static final String MSG = "message";
 	public static final String DATE = "date";
 	public static final String METHOD = "method";
 	protected File file;
+	protected LogLevel currentLevel = LogLevel.DEBUG;
 	
 	protected AbstractLogElement(String tag) {
 		super(tag);
@@ -116,23 +135,33 @@ public class AbstractLogElement extends Element {
 	}
 
 	public void error(String message) {
-		addMethodNameAddMessageAndAppend(new ErrorElement(), message);
+		if (LogLevel.ERROR.getLevelNumber() >= currentLevel.getLevelNumber()) {
+			addMethodNameAddMessageAndAppend(new ErrorElement(), message);
+		}
 	}
 
 	public void warn(String message) {
-		addMethodNameAddMessageAndAppend(new WarnElement(), message);
+		if (LogLevel.WARN.getLevelNumber() >= currentLevel.getLevelNumber()) {
+			addMethodNameAddMessageAndAppend(new WarnElement(), message);
+		}
 	}
 
 	public void info(String message) {
-		addMethodNameAddMessageAndAppend(new InfoElement(), message);
+		if (LogLevel.INFO.getLevelNumber() >= currentLevel.getLevelNumber()) {
+			addMethodNameAddMessageAndAppend(new InfoElement(), message);
+		}
 	}
 
 	public void debug(String message) {
-		addMethodNameAddMessageAndAppend(new DebugElement(), message);
+		if (LogLevel.DEBUG.getLevelNumber() >= currentLevel.getLevelNumber()) {
+			addMethodNameAddMessageAndAppend(new DebugElement(), message);
+		}
 	}
 
 	public void trace(String message) {
-		addMethodNameAddMessageAndAppend(new TraceElement(), message);
+		if (LogLevel.TRACE.getLevelNumber() >= currentLevel.getLevelNumber()) {
+			addMethodNameAddMessageAndAppend(new TraceElement(), message);
+		}
 	}
 
 	public void writeLog() {
@@ -161,4 +190,18 @@ public class AbstractLogElement extends Element {
 			childElement.removeAttribute(childElement.getAttribute(DATE));
 		}
 	}
+	
+	public boolean isGreaterThanOrEqualToCurrent(LogLevel level) {
+		return level.getLevelNumber() >= currentLevel.getLevelNumber(); 
+	}
+	
+	public LogLevel getCurrentLevel() {
+		return currentLevel;
+	}
+
+	public void setLevel(LogLevel currentLevel) {
+		this.currentLevel = currentLevel;
+	}
+
+
 }
