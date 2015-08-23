@@ -177,7 +177,7 @@ public class DefaultArgProcessor {
 	}
 	
 	private void ensureDefaultLogFiles() {
-		ensureCTreeLog();
+		TREE_LOG();
 		ensureInitLog();
 	}
 
@@ -188,7 +188,7 @@ public class DefaultArgProcessor {
 		return initLog;
 	}
 
-	public AbstractLogElement ensureCTreeLog() {
+	public AbstractLogElement TREE_LOG() {
 		if (cTreeLog == null) {
 			createCTreeLog(new File("target/defaultCTreeLog.xml"));
 		}
