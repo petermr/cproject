@@ -50,7 +50,7 @@ public class AbstractLogElement extends Element {
 	protected File file;
 	protected LogLevel currentLevel = LogLevel.DEBUG;
 	
-	protected AbstractLogElement(String tag) {
+	public AbstractLogElement(String tag) {
 		super(tag);
 		setDateTime(new DateTime());
 	}
@@ -185,9 +185,13 @@ public class AbstractLogElement extends Element {
 			DateTime childDateTime = new DateTime(childElement.getDateTimeString());
 			AbstractLogElement parentElement = (AbstractLogElement) child.getParent();
 			DateTime parentDateTime = new DateTime(parentElement.getDateTimeString());
-			Interval interval = new Interval(parentDateTime, childDateTime);
-			childElement.setInterval(interval.toDurationMillis());
-			childElement.removeAttribute(childElement.getAttribute(DATE));
+			try {
+				Interval interval = new Interval(parentDateTime, childDateTime);
+				childElement.setInterval(interval.toDurationMillis());
+				childElement.removeAttribute(childElement.getAttribute(DATE));
+			} catch (Exception e) {
+				// probably can't create intervals
+			}
 		}
 	}
 	

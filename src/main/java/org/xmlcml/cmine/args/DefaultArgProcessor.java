@@ -165,7 +165,7 @@ public class DefaultArgProcessor {
 	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
 	protected String project;
 	private AbstractLogElement cTreeLog;
-	private AbstractLogElement initLog;
+	private AbstractLogElement coreLog;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -178,14 +178,14 @@ public class DefaultArgProcessor {
 	
 	private void ensureDefaultLogFiles() {
 		TREE_LOG();
-		ensureInitLog();
+		CORE_LOG();
 	}
 
-	public AbstractLogElement ensureInitLog() {
-		if (initLog == null) {
+	public AbstractLogElement CORE_LOG() {
+		if (coreLog == null) {
 			createInitLog(new File("target/defaultInitLog.xml"));
 		}
-		return initLog;
+		return coreLog;
 	}
 
 	public AbstractLogElement TREE_LOG() {
@@ -200,7 +200,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void createInitLog(File logFile) {
-		initLog = new CMineLog(logFile);
+		coreLog = new CMineLog(logFile);
 	}
 
 	protected static VersionManager getVersionManager() {
@@ -221,7 +221,7 @@ public class DefaultArgProcessor {
 				throw new RuntimeException("Cannot read/find input resource stream: "+resourceName);
 			}
 			Element argListElement = new Builder().build(is).getRootElement();
-			initLog = this.getOrCreateLog(logfileName);
+			coreLog = this.getOrCreateLog(logfileName);
 			getVersionManager().readNameVersion(argListElement);
 			createArgumentOptions(argListElement);
 		} catch (Exception e) {
@@ -815,18 +815,6 @@ public class DefaultArgProcessor {
 		}
 	}
 
-//	protected void runInitMethod(ArgumentOption option, String methodName) throws Exception {
-//		instantiateAndRunMethod(option, methodName);
-//	}
-//
-//	protected void runRunMethod(ArgumentOption option, String methodName) throws Exception {
-//		instantiateAndRunMethod(option, methodName);
-//	}
-//
-//	protected void runFinalMethod(ArgumentOption option, String methodName) throws Exception {
-//		instantiateAndRunMethod(option, methodName);
-//	}
-
 	private void instantiateAndRunMethod(ArgumentOption option, String methodName)
 			throws IllegalAccessException, InvocationTargetException {
 		if (methodName != null) {
@@ -891,17 +879,23 @@ public class DefaultArgProcessor {
 		} else {
 			for (int i = 0; i < cmDirList.size(); i++) {
 				currentCMDir = cmDirList.get(i);
-				LOG.trace("running dir: "+currentCMDir.getDirectory());
+				coreLog.info("running: "+currentCMDir.getDirectory());
 				cTreeLog = currentCMDir.getOrCreateCTreeLog(this, logfileName);
 				currentCMDir.ensureContentProcessor(this);
-				runInitMethodsOnChosenArgOptions();
-				runRunMethodsOnChosenArgOptions();
-				runOutputMethodsOnChosenArgOptions();
-				
-				if (cTreeLog != null) {
-					cTreeLog.writeLog();
+				try {
+					runInitMethodsOnChosenArgOptions();
+					runRunMethodsOnChosenArgOptions();
+					runOutputMethodsOnChosenArgOptions();
+					if (cTreeLog != null) {
+						cTreeLog.writeLog();
+					}
+				} catch (Exception e) {
+					coreLog.error("error in running, terminated: "+e);
+					continue;
 				}
+				LOG.debug(coreLog.toXML());
 			}
+			
 		}
 		runFinalMethodsOnChosenArgOptions();
 		writeLog();
@@ -909,8 +903,8 @@ public class DefaultArgProcessor {
 
 
 	private void writeLog() {
-		if (initLog != null) {
-			initLog.writeLog();
+		if (coreLog != null) {
+			coreLog.writeLog();
 		}
 	}
 
