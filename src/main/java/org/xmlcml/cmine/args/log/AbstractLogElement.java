@@ -3,12 +3,11 @@ package org.xmlcml.cmine.args.log;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
+import nu.xom.Node;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
@@ -50,7 +49,7 @@ public class AbstractLogElement extends Element {
 	protected File file;
 	protected LogLevel currentLevel = LogLevel.DEBUG;
 	
-	public AbstractLogElement(String tag) {
+	protected AbstractLogElement(String tag) {
 		super(tag);
 		setDateTime(new DateTime());
 	}
@@ -207,5 +206,53 @@ public class AbstractLogElement extends Element {
 		this.currentLevel = currentLevel;
 	}
 
+	public static AbstractLogElement readAndCreateElement(Element element) {
+		AbstractLogElement newElement = null;
+		String tag = element.getLocalName();
+		if (tag == null || tag.equals("")) {
+			throw new RuntimeException("no tag");
+		} else if (tag.equals(LogElement.TAG)) {
+			newElement = new LogElement();
+		} else if (tag.equals(ErrorElement.TAG)) {
+			newElement = new ErrorElement();
+		} else if (tag.equals(WarnElement.TAG)) {
+			newElement = new WarnElement();
+		} else if (tag.equals(InfoElement.TAG)) {
+			newElement = new InfoElement();
+		} else if (tag.equals(DebugElement.TAG)) {
+			newElement = new DebugElement();
+		} else if (tag.equals(TraceElement.TAG)) {
+			newElement = new TraceElement();
+		} else {
+			LOG.debug("unsupported LogElement: "+tag);
+		}
+		copyAttributesAndProcessDescendants(element, newElement);
+        return newElement;
+
+	}
+	
+	private static void copyAttributesAndProcessDescendants(Element element, AbstractLogElement newElement) {
+		if (newElement != null) {
+			XMLUtil.copyAttributes(element, newElement);
+			for (int i = 0; i < element.getChildCount(); i++) {
+				Node child = element.getChild(i);
+				if (child instanceof Element) {
+					AbstractLogElement newChild = AbstractLogElement.readAndCreateElement((Element)child);
+					newElement.appendChild(newChild);
+				} else {
+					newElement.appendChild(child.copy());
+				}
+			}
+		}
+	}
+	
+
+
+	public String getMessageCount(String messageType) {
+		List<Element> elements = XMLUtil.getQueryElements(this, "//*[@message='"+messageType+"']");
+		LOG.trace(messageType+": "+elements.size());
+		return elements.size() == 0 ? null : elements.get(0).getValue();
+	}
+	
 
 }

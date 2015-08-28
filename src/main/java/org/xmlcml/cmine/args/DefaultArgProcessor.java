@@ -893,7 +893,7 @@ public class DefaultArgProcessor {
 					coreLog.error("error in running, terminated: "+e);
 					continue;
 				}
-				LOG.debug(coreLog.toXML());
+				LOG.trace(coreLog.toXML());
 			}
 			
 		}
