@@ -3,7 +3,9 @@ package org.xmlcml.cmine.lookup;
 import java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import nu.xom.Element;
@@ -16,7 +18,6 @@ import org.xmlcml.euclid.IntArray;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
 
@@ -45,6 +46,17 @@ public abstract class AbstractLookup {
 			intArray.addElement(((JsonElement)itemsArray.get(i)).getAsInt());
 		}
 		return intArray;
+	}
+
+	protected List<Integer> getIdentifierList(JsonElement jsonElement, String arrayName) {
+		JsonObject jsonObject = jsonElement.getAsJsonObject();
+		JsonArray itemsArray = jsonObject.getAsJsonArray(arrayName);
+		int size = itemsArray.size();
+		List<Integer> intList = new ArrayList<Integer>();
+		for (int i = 0; i < size; i++) {
+			intList.add(((JsonElement)itemsArray.get(i)).getAsInt());
+		}
+		return intList;
 	}
 
 	public Element getResponseXML(URL url) throws IOException {
@@ -79,7 +91,14 @@ public abstract class AbstractLookup {
 		return name;
 	}
 
-	public String getStringForJsonPath(String json, String jsonPath) {
+	public static Object getObjectForJsonPath(String json, String jsonPath) {
+		ReadContext ctx = JsonPath.parse(json);
+		Object result = ctx.read(jsonPath);
+		LOG.debug(result);
+		return result;
+	}
+
+	public static String getStringForJsonPath(String json, String jsonPath) {
 		ReadContext ctx = JsonPath.parse(json);
 		String result = ctx.read(jsonPath);
 		return result;
