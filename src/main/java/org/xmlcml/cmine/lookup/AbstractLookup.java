@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.lookup;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
@@ -30,6 +31,10 @@ public abstract class AbstractLookup {
 
 	private HashMap<String, String> lookupRefByMatch;
 	private String name = "MUST_SET_THIS";
+	protected String outputFormat;
+	protected URL url;
+	protected String urlString;
+	private String outputType;
 	
 	public AbstractLookup() {
 		
@@ -71,13 +76,28 @@ public abstract class AbstractLookup {
 	 * @return
 	 * @throws IOException
 	 */
+    protected String getResponse() throws IOException {
+		createUrl();
+		return getResponse(url);
+    }
+
+	/** gets content of URL as a string.
+	 * 
+	 * @param url
+	 * @return
+	 * @throws IOException
+	 */
     protected String getResponse(URL url) throws IOException {
-    	LOG.debug("url: "+url);
-        URLConnection urlc = url.openConnection();
-        //use post mode
-        urlc.setDoOutput(true);
-        urlc.setAllowUserInteraction(false);
-        return IOUtils.toString(urlc.getInputStream());
+    	if (url != null) {
+	    	LOG.debug("url: "+url);
+	        URLConnection urlc = url.openConnection();
+	        //use post mode
+	        urlc.setDoOutput(true);
+	        urlc.setAllowUserInteraction(false);
+	        return IOUtils.toString(urlc.getInputStream());
+    	} else {
+    		return null;
+    	}
     }
 
 	public Map<String, String> getOrCreateLookupRefByMatch() {
@@ -89,6 +109,33 @@ public abstract class AbstractLookup {
 
 	public String getName() {
 		return name;
+	}
+
+	public void setOutputFormat(String format) {
+		this.outputFormat = format;
+	}
+
+	public void setOutputType(String type) {
+		this.outputType = type;
+	}
+
+	protected URL createUrl() {
+		url = null;
+		if (urlString != null) {
+			String urlStringFull = urlString;
+			if (outputFormat != null) {
+				urlStringFull += outputFormat;
+			}
+			if (outputType != null) {
+				urlStringFull += outputType;
+			}
+			try {
+				this.url = new URL(urlStringFull);
+			} catch (MalformedURLException mule) {
+				LOG.error("Malformed URL: "+urlStringFull);
+			}
+		}
+		return url;
 	}
 
 	public static Object getObjectForJsonPath(String json, String jsonPath) {

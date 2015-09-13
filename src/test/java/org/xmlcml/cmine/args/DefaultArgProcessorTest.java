@@ -13,7 +13,9 @@ public class DefaultArgProcessorTest {
 
 	
 	private static final Logger LOG = Logger.getLogger(DefaultArgProcessorTest.class);
-	static {LOG.setLevel(org.apache.log4j.Level.DEBUG);}
+	static {
+		LOG.setLevel(org.apache.log4j.Level.DEBUG);
+	}
 
 	@Test
 	public void testArgs() {
