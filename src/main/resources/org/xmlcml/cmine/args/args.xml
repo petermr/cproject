@@ -1,4 +1,4 @@
-<argList name="cmine" version="0.1.4">
+<argList name="cmine" version="0.1.5">
   <p>20150807: added logfile</p>
 
 	<arg name="input" 
