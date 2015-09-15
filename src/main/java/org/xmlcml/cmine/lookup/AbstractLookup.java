@@ -89,7 +89,7 @@ public abstract class AbstractLookup {
 	 */
     protected String getResponse(URL url) throws IOException {
     	if (url != null) {
-	    	LOG.debug("url: "+url);
+	    	LOG.trace("url: "+url);
 	        URLConnection urlc = url.openConnection();
 	        //use post mode
 	        urlc.setDoOutput(true);

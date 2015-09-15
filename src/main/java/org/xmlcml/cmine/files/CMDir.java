@@ -833,8 +833,13 @@ public class CMDir {
 	}
 
 	public void writeReservedFile(File originalFile, String reservedFilename, boolean delete) throws Exception {
+		if (reservedFilename == null) {
+			throw new RuntimeException("reservedFilename is null: for "+originalFile);
+		}
 		File reservedFile = this.getReservedFile(reservedFilename);
-		if (reservedFile.exists()) {
+		if (reservedFile == null) {
+			throw new RuntimeException("Cannot create/find CTree reserved file: "+reservedFilename);
+		} else if (reservedFile.exists()) {
 			if (delete) {
 				FileUtils.forceDelete(reservedFile);
 			} else {

@@ -192,6 +192,9 @@
 		<help>
 			<p>Toplevel directory with only CTree children</p>
 			<p class="note">Not fully developed.</p>
+			<p>A project has subdirectories which are assumed to be CTrees. These are all aggregated in the 
+			initMethod into a List which is processed in the main program loop. 
+			</p>
 		</help>
 	</arg>
 		

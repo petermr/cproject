@@ -25,6 +25,7 @@ import nu.xom.Builder;
 import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.DirectoryFileFilter;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -334,6 +335,7 @@ public class DefaultArgProcessor {
 		setExtensions(extensions);
 	}
 
+	/** obsolete name */
 	public void parseQSNorma(ArgumentOption option, ArgIterator argIterator) {
 		parseCMDir(option, argIterator);
 	}
@@ -371,6 +373,9 @@ public class DefaultArgProcessor {
 
 	public void parseProject(ArgumentOption option, ArgIterator argIterator) {
 		project = argIterator.getString(option);
+		if (project != null) {
+			createCMDirListFromProject();
+		}
 	}
 
 	public void parseRecursive(ArgumentOption option, ArgIterator argIterator) {
@@ -401,8 +406,29 @@ public class DefaultArgProcessor {
 		printHelp();
 	}
 	
+	private void createCMDirListFromProject() {
+		if (project != null) {
+			File projectFile = new File(project);
+			if (!projectFile.exists() || projectFile.isFile()) {
+				LOG.error("project directory: "+project+" does not exist or is not a directory");
+			} else {
+				cmDirList = new CMDirList();
+				List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
+					public boolean accept(File file) {
+						return file != null && file.isDirectory();
+					}}));
+				for (File subDirectory : subdirectories) {
+					CMDir cmdir = new CMDir(subDirectory);
+					cmDirList.add(cmdir);
+				}
+				LOG.trace("cmdirs: "+cmDirList.size());
+			}
+		}
+	}
+
 	private void createCMDirListFromInput() {
 		File outputDir = output == null ? null : new File(output);
+		cmDirList = new CMDirList();
 		for (String filename : inputList) {
 			File infile = new File(filename);
 			if (!infile.isDirectory()) {
@@ -413,6 +439,7 @@ public class DefaultArgProcessor {
 				String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
 				try {
 					cmDir.writeReservedFile(infile, reservedFilename, true);
+					cmDirList.add(cmDir);
 				} catch (Exception e) {
 					throw new RuntimeException("Cannot create/write: "+filename, e);
 				}
