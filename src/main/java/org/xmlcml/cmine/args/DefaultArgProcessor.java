@@ -25,7 +25,6 @@ import nu.xom.Builder;
 import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.filefilter.DirectoryFileFilter;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -93,6 +92,7 @@ import org.xmlcml.xml.XMLUtil;
 		runFinalMethodsOnChosenArgOptions();
 	}
 
+ * NOTE: changed all *internal* CMDir-type names to CTree. 2015-09-15
  * 
  * @author pm286
  *
@@ -154,9 +154,9 @@ public class DefaultArgProcessor {
 	public List<ArgumentOption> argumentOptionList;
 	public List<ArgumentOption> chosenArgumentOptionList;
 	
-	protected CMDirList cmDirList;
+	protected CMDirList cTreeList;
 	// change protection later
-	protected CMDir currentCMDir;
+	protected CMDir currentCTree;
 	protected String summaryFileName;
 	// variable processing
 	protected Map<String, String> variableByNameMap;
@@ -167,6 +167,7 @@ public class DefaultArgProcessor {
 	protected String project;
 	private AbstractLogElement cTreeLog;
 	private AbstractLogElement coreLog;
+	private File projectFile;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -336,25 +337,25 @@ public class DefaultArgProcessor {
 	}
 
 	/** obsolete name */
+	@Deprecated
 	public void parseQSNorma(ArgumentOption option, ArgIterator argIterator) {
 		parseCMDir(option, argIterator);
 	}
 
+	/** create a CTreeList from --ctree argument
+	 */
+	public void parseCTree(ArgumentOption option, ArgIterator argIterator) {
+		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		createCTreeListFrom(cTreeNames);
+	}
+
+	/** create a CTreeList from --ctree argument
+	 * 
+	 * @Deprecated // old name
+	 */
 	public void parseCMDir(ArgumentOption option, ArgIterator argIterator) {
-		List<String> cmDirNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		if (cmDirNames.size() == 0) {
-			if (inputList == null || inputList.size() == 0) {
-				LOG.error("Must give inputList before --cmdir");
-			} else if (output == null) {
-				LOG.error("Must give output before --cmdir");
-			} else {
-				finalizeInputList();
-//				generateFilenamesFromInputDirectory();
-				createCMDirListFromInput();
-			}
-		} else {
-			createCMDirList(cmDirNames);
-		}
+		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		createCTreeListFrom(cTreeNames);
 	}
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
@@ -373,9 +374,7 @@ public class DefaultArgProcessor {
 
 	public void parseProject(ArgumentOption option, ArgIterator argIterator) {
 		project = argIterator.getString(option);
-		if (project != null) {
-			createCMDirListFromProject();
-		}
+		createCTreeListFromProject();
 	}
 
 	public void parseRecursive(ArgumentOption option, ArgIterator argIterator) {
@@ -406,45 +405,124 @@ public class DefaultArgProcessor {
 		printHelp();
 	}
 	
-	private void createCMDirListFromProject() {
-		if (project != null) {
-			File projectFile = new File(project);
-			if (!projectFile.exists() || projectFile.isFile()) {
-				LOG.error("project directory: "+project+" does not exist or is not a directory");
+	private void createCTreeListFrom(List<String> cTreeNames) {
+		if (cTreeNames.size() == 0) {
+			if (inputList == null || inputList.size() == 0) {
+				LOG.error("Must give inputList before --cmdir or --ctree");
+			} else if (output == null) {
+				LOG.error("Must give output before --cmdir or --ctree");
 			} else {
-				cmDirList = new CMDirList();
+				finalizeInputList();
+//				generateFilenamesFromInputDirectory();
+				createCTreeFromOutput();
+			}
+		} else {
+			createCTreeList(cTreeNames);
+		}
+	}
+
+	/** create CTrees EITHER from *.PDF/HTML/XML etc  
+	 * OR from subdirectories which will be CTrees
+	 * 
+	 * LOGIC:
+	 *  (a) if "project" exists and is a directory then assume directory children are 
+	 *    already valid CTrees
+	 *  (b) is "project" does NOT exist but "input" does and is directory:
+	 *    list all files (files) of given extension(s) (-e foo bar) under "input" and create
+	 *    project as directory, then create NEW directories under "project"
+	 *    using names of "files" and creating "fulltext.foo" "fulltext.bar"
+	 *  
+	 *    
+	 */
+	private void createCTreeListFromProject() {
+		if (project != null) {
+			projectFile = new File(project);
+			if (projectFile.isDirectory()) {
+				cTreeList = new CMDirList();
 				List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
 					public boolean accept(File file) {
 						return file != null && file.isDirectory();
 					}}));
 				for (File subDirectory : subdirectories) {
-					CMDir cmdir = new CMDir(subDirectory);
-					cmDirList.add(cmdir);
+					CMDir cTree = new CMDir(subDirectory);
+					cTreeList.add(cTree);
 				}
-				LOG.trace("cmdirs: "+cmDirList.size());
+				LOG.trace("cTrees: "+cTreeList.size());
+			} else if (projectFile.isFile()) {
+				LOG.error("project file must be a directory: "+projectFile);
+			} else if (!projectFile.exists()) {
+				createCTreesFromInputFiles();
+			} else {
+				LOG.error("Unacceptable project option, probable BUG");
 			}
 		}
 	}
 
-	private void createCMDirListFromInput() {
-		File outputDir = output == null ? null : new File(output);
-		cmDirList = new CMDirList();
-		for (String filename : inputList) {
-			File infile = new File(filename);
-			if (!infile.isDirectory()) {
-				File cmdirParent = output == null ? infile.getParentFile() : outputDir;
-				String cmName = filename.replaceAll("\\p{Punct}", "_")+"/";
-				File directory = new File(cmdirParent, cmName);
-				CMDir cmDir = new CMDir(directory, true);
-				String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
-				try {
-					cmDir.writeReservedFile(infile, reservedFilename, true);
-					cmDirList.add(cmDir);
-				} catch (Exception e) {
-					throw new RuntimeException("Cannot create/write: "+filename, e);
+	private void createCTreesFromInputFiles() {
+		if (inputList == null || inputList.size() == 0 ) {
+			LOG.error("no input files to create under project");
+//		} else if (extensionList == null || extensionList.size() == 0) {
+//			LOG.error("no extensions given to filter input files");
+		} else {
+			// don't worry about extensions?
+			LOG.info(projectFile+" does not exist, creating project and populating it");
+			projectFile.mkdirs();
+			for (String filename : inputList) {
+				File file = new File(filename);
+				if (file.isDirectory()) {
+					File[] files = file.listFiles();
+					if (files != null) {
+						for (File file0 : files) {
+							createCTreeFromFilenameAndWriteReservedFile(projectFile, file0);
+						}
+					}
+				} else {
+					createCTreeFromFilenameAndWriteReservedFile(projectFile, file);
 				}
 			}
 		}
+	}
+
+	private void createCTreeFromOutput() {
+		File newCTree = output == null ? null : new File(output);
+		if (newCTree != null) {
+			createCTreeFromFile(newCTree);
+		}
+	}
+
+	private void createCTreeFromFile(File cTree) {
+		cTreeList = new CMDirList();
+		for (String filename : inputList) {
+			createCTreeFromFilenameAndWriteReservedFile(cTree, new File(filename));
+		}
+	}
+
+//	private void createCTreeFromFilenameAndWriteReservedFile(File cTreeDir, File file) {
+//		
+//	}
+
+	private void createCTreeFromFilenameAndWriteReservedFile(File cTreeDir, File infile) {
+		String filename = infile.getName();
+		if (!infile.isDirectory()) {
+			ensureCTreeList();
+//			File cmdirParent = output == null ? infile.getParentFile() : cTreeDir;
+			File cmdirParent = cTreeDir == null ? infile.getParentFile() : cTreeDir;
+			String cmName = createUnderscoredFilename(filename);
+			File directory = new File(cmdirParent, cmName);
+			CMDir cTree = new CMDir(directory, true);
+			String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
+			try {
+				cTree.writeReservedFile(infile, reservedFilename, true);
+				cTreeList.add(cTree);
+			} catch (Exception e) {
+				throw new RuntimeException("Cannot create/write: "+filename, e);
+			}
+		}
+	}
+
+	private String createUnderscoredFilename(String filename) {
+		String cmName = filename.replaceAll("\\p{Punct}", "_")+"/";
+		return cmName;
 	}
 	
 
@@ -453,14 +531,14 @@ public class DefaultArgProcessor {
 	}
 
 
-	private void createCMDirList(List<String> qDirectoryNames) {
+	private void createCTreeList(List<String> qDirectoryNames) {
 		FileFilter directoryFilter = new FileFilter() {
 			public boolean accept(File file) {
 				return file.isDirectory();
 			}
 		};
 
-		cmDirList = new CMDirList();
+		cTreeList = new CMDirList();
 		LOG.trace("creating CMDIRList from: "+qDirectoryNames);
 		for (String qDirectoryName : qDirectoryNames) {
 			File qDirectory = new File(qDirectoryName);
@@ -472,10 +550,10 @@ public class DefaultArgProcessor {
 				LOG.error("Not a directory: "+qDirectory.getAbsolutePath());
 				continue;
 			}
-			CMDir cmDir = new CMDir(qDirectoryName);
-			LOG.trace("...creating CMDIR from: "+qDirectoryName);
-			if (cmDir.containsNoReservedFilenames() && cmDir.containsNoReservedDirectories()) {
-				LOG.debug("... No reserved files or directories: "+cmDir);
+			CMDir cTree = new CMDir(qDirectoryName);
+			LOG.trace("...creating CTree from: "+qDirectoryName);
+			if (cTree.containsNoReservedFilenames() && cTree.containsNoReservedDirectories()) {
+				LOG.debug("... No reserved files or directories: "+cTree);
 				List<File> childFiles = new ArrayList<File>(Arrays.asList(qDirectory.listFiles(directoryFilter)));
 				List<String> childFilenames = new ArrayList<String>();
 				for (File childFile : childFiles) {
@@ -486,15 +564,15 @@ public class DefaultArgProcessor {
 				LOG.trace(childFilenames);
 				// recurse (no mixed directory structures)
 				// FIXME 
-				LOG.trace("Recursing CMDIRs is probably  a BUG");
-				createCMDirList(childFilenames);
+				LOG.trace("Recursing CTrees is probably  a BUG");
+				createCTreeList(childFilenames);
 			} else {
-				cmDirList.add(cmDir);
+				cTreeList.add(cTree);
 			}
 		}
-		LOG.trace("CMDIRList: "+cmDirList.size());
-		for (CMDir cmdir : cmDirList) {
-			LOG.trace("CMDir: "+cmdir);
+		LOG.trace("CTreeList: "+cTreeList.size());
+		for (CMDir cmdir : cTreeList) {
+			LOG.trace("CTree: "+cmdir);
 			
 		}
 	}
@@ -612,13 +690,13 @@ public class DefaultArgProcessor {
 	}
 
 	public CMDirList getCMDirList() {
-		ensureCMDirList();
-		return cmDirList;
+		ensureCTreeList();
+		return cTreeList;
 	}
 
-	protected void ensureCMDirList() {
-		if (cmDirList == null) {
-			cmDirList = new CMDirList();
+	protected void ensureCTreeList() {
+		if (cTreeList == null) {
+			cTreeList = new CMDirList();
 		}
 	}
 	
@@ -890,8 +968,8 @@ public class DefaultArgProcessor {
 	 * 
 	 */
 	public void runAndOutput() {
-		ensureCMDirList();
-		if (cmDirList.size() == 0) {
+		ensureCTreeList();
+		if (cTreeList.size() == 0) {
 			if (project != null) {
 				output = project;
 			} else if (output != null) {
@@ -901,14 +979,14 @@ public class DefaultArgProcessor {
 				LOG.error("Cannot create output: --project or --output must be given");
 				return;
 			}
-			LOG.debug("treating as CMDir creation under project "+project);
+			LOG.debug("treating as CTree creation under project "+project);
 			runRunMethodsOnChosenArgOptions();
 		} else {
-			for (int i = 0; i < cmDirList.size(); i++) {
-				currentCMDir = cmDirList.get(i);
-				coreLog.info("running: "+currentCMDir.getDirectory());
-				cTreeLog = currentCMDir.getOrCreateCTreeLog(this, logfileName);
-				currentCMDir.ensureContentProcessor(this);
+			for (int i = 0; i < cTreeList.size(); i++) {
+				currentCTree = cTreeList.get(i);
+				coreLog.info("running: "+currentCTree.getDirectory());
+				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
+				currentCTree.ensureContentProcessor(this);
 				try {
 					runInitMethodsOnChosenArgOptions();
 					runRunMethodsOnChosenArgOptions();
@@ -965,11 +1043,11 @@ public class DefaultArgProcessor {
 		return searcherList;
 	}
 
-	public List<? extends Element> extractPSectionElements(CMDir cmDir) {
+	public List<? extends Element> extractPSectionElements(CMDir cTree) {
 		List<? extends Element> elements = null;
-		if (cmDir != null) {
-			cmDir.ensureScholarlyHtmlElement();
-			elements = HtmlP.extractSelfAndDescendantIs(cmDir.htmlElement);
+		if (cTree != null) {
+			cTree.ensureScholarlyHtmlElement();
+			elements = HtmlP.extractSelfAndDescendantIs(cTree.htmlElement);
 		}
 		return elements;
 	}
@@ -979,10 +1057,10 @@ public class DefaultArgProcessor {
 	 * 
 	 * @return
 	 */
-	public static HtmlElement getScholarlyHtmlElement(CMDir cmDir) {
+	public static HtmlElement getScholarlyHtmlElement(CMDir cTree) {
 		HtmlElement htmlElement = null;
-		if (cmDir != null && cmDir.hasScholarlyHTML()) {
-			File scholarlyHtmlFile = cmDir.getExistingScholarlyHTML();
+		if (cTree != null && cTree.hasScholarlyHTML()) {
+			File scholarlyHtmlFile = cTree.getExistingScholarlyHTML();
 			try {
 				Element xml = XMLUtil.parseQuietlyToDocument(scholarlyHtmlFile).getRootElement();
 				htmlElement = new HtmlFactory().parse(scholarlyHtmlFile);
