@@ -354,8 +354,9 @@ public class DefaultArgProcessor {
 	 * @Deprecated // old name
 	 */
 	public void parseCMDir(ArgumentOption option, ArgIterator argIterator) {
-		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		createCTreeListFrom(cTreeNames);
+		parseCTree(option, argIterator);
+//		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
+//		createCTreeListFrom(cTreeNames);
 	}
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
@@ -553,7 +554,7 @@ public class DefaultArgProcessor {
 			CMDir cTree = new CMDir(qDirectoryName);
 			LOG.trace("...creating CTree from: "+qDirectoryName);
 			if (cTree.containsNoReservedFilenames() && cTree.containsNoReservedDirectories()) {
-				LOG.debug("... No reserved files or directories: "+cTree);
+				LOG.trace("... No reserved files or directories: "+cTree);
 				List<File> childFiles = new ArrayList<File>(Arrays.asList(qDirectory.listFiles(directoryFilter)));
 				List<String> childFilenames = new ArrayList<String>();
 				for (File childFile : childFiles) {
