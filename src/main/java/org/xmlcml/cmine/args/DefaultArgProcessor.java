@@ -396,7 +396,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputMethod(ArgumentOption option) {
-		LOG.error("outputMethod needs overwriting");
+		//LOG.error("outputMethod needs overwriting");
 	}
 
 	// =====================================
