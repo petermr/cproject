@@ -27,13 +27,8 @@ public class VersionManager {
 	}
 
 	private void setNameVersion(String name, String version) {
-		// only set the first time
-//		if (this.name == null) {
-			this.name = name;
-//		}
-//		if (this.version == null) {
-			this.version = version;
-//		}
+		this.name = name;
+		this.version = version;
 	}
 
 	public String getName() {
@@ -48,10 +43,13 @@ public class VersionManager {
 		setNameVersion(
 				argListElement.getAttributeValue(NAME), 
 				argListElement.getAttributeValue(VERSION));
-//		LOG.debug(this.hashCode()+" "+name+" "+version);
 	}
 
 	public void printVersion() {
-		System.err.println(""+name + "("+version+")");
+		System.err.println(getVersionString());
+	}
+
+	protected String getVersionString() {
+		return ""+name + "("+version+")";
 	}
 }

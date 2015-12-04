@@ -106,11 +106,14 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 
 	public List<ResultElement> getOrCreateResultElementList() {
-		resultElementList = new ArrayList<ResultElement>();
-		List<Element> resultChildren = XMLUtil.getQueryElements(this, "./*[local-name()='"+ResultElement.TAG+"']");
-		for (Element resultElement : resultChildren) {
-			resultElementList.add((ResultElement) resultElement);
-		}
+		// always create 
+//		if (resultElementList == null) {
+			resultElementList = new ArrayList<ResultElement>();
+			List<Element> resultChildren = XMLUtil.getQueryElements(this, "./*[local-name()='"+ResultElement.TAG+"']");
+			for (Element resultElement : resultChildren) {
+				resultElementList.add((ResultElement) resultElement);
+			}
+//		}
 		return resultElementList;
 	}
 
@@ -182,9 +185,9 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 					} catch (IOException e) {
 						LOG.debug("lookup failed", e);
 					}
-					}
 				}
 			}
+		}
 	}
 
 }
