@@ -41,7 +41,7 @@ public class CTreeTest {
 	public void testCreateCTree() throws IOException {
 		File cTreeDirectory = new File(TEST_CREATE+"/test_pdf_1471_2148_14_70_pdf");
 		if (cTreeDirectory.exists()) FileUtils.forceDelete(cTreeDirectory);
-		String args = "-i "+CMineFixtures.MISC_DIR+"/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --cmdir";
+		String args = "-i "+CMineFixtures.MISC_DIR+"/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --ctree";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();

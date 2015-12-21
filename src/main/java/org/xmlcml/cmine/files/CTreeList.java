@@ -22,36 +22,36 @@ public class CTreeList implements Iterable<CTree> {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	private List<CTree> cmDirList;
+	private List<CTree> cmTreeList;
 	
 	public CTreeList() {
 		ensureCTreeList();
 	}
 
 	private void ensureCTreeList() {
-		if (cmDirList == null) {
-			cmDirList = new ArrayList<CTree>();
+		if (cmTreeList == null) {
+			cmTreeList = new ArrayList<CTree>();
 		}
 	}
 
 	public int size() {
 		ensureCTreeList();
-		return cmDirList.size();
+		return cmTreeList.size();
 	}
 
 	public Iterator<CTree> iterator() {
 		ensureCTreeList();
-		return cmDirList.iterator();
+		return cmTreeList.iterator();
 	}
 	
 	public CTree get(int i) {
 		ensureCTreeList();
-		return cmDirList.get(i);
+		return cmTreeList.get(i);
 	}
 	
-	public void add(CTree cmDir) {
+	public void add(CTree cmTree) {
 		ensureCTreeList();
-		cmDirList.add(cmDir);
+		cmTreeList.add(cmTree);
 	}
 	
 }

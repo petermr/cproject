@@ -38,13 +38,13 @@ public class ContentProcessor {
 	private static final String MERGE = "merge";
 
 
-	private CTree cmDir;
+	private CTree cmTree;
 	private ResultsElementList resultsElementList;
 	private HashMap<String, ResultsElement> resultsBySearcherNameMap;
 	private String duplicates = OVERWRITE;
 	
-	public ContentProcessor(CTree cmDir) {
-		this.cmDir = cmDir;
+	public ContentProcessor(CTree cmTree) {
+		this.cmTree = cmTree;
 	}
 	
 	private void ensureResultsElementList() {
@@ -95,7 +95,7 @@ public class ContentProcessor {
 	}
 
 	public void writeResults(String resultsFileName, String results) throws Exception {
-		File resultsFile = new File(cmDir.getDirectory(), resultsFileName);
+		File resultsFile = new File(cmTree.getDirectory(), resultsFileName);
 		FileUtils.writeStringToFile(resultsFile, results, Charset.forName("UTF-8"));
 	}
 
@@ -108,7 +108,7 @@ public class ContentProcessor {
 	}
 
 	public void writeResults(String resultsFileName, Element resultsXML) {
-		File resultsFile = new File(cmDir.getDirectory(), resultsFileName);
+		File resultsFile = new File(cmTree.getDirectory(), resultsFileName);
 		LOG.trace("results file: "+resultsFile);
 		writeResults(resultsFile, resultsXML);
 	}
@@ -116,7 +116,7 @@ public class ContentProcessor {
 	/** creates a subdirectory of results/ and writes each result file to its own directory.
 	 * 
 	 * Example:
-	 * 		cmdir1_2_3/
+	 * 		ctree1_2_3/
 	 * 			results/
 	 * 				words/
 	 * 					frequencies/
@@ -131,7 +131,7 @@ public class ContentProcessor {
 	 * @param resultsDirectoryName
 	 */
 	public List<File> createResultsDirectoriesAndOutputResultsElement(ArgumentOption option, String resultsDirectoryName) {
-		File optionDirectory = new File(cmDir.getResultsDirectory(), option.getName());
+		File optionDirectory = new File(cmTree.getResultsDirectory(), option.getName());
 		List<File> outputDirectoryList = new ArrayList<File>();
 		for (ResultsElement resultsElement : resultsElementList) {
 			File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
@@ -143,7 +143,7 @@ public class ContentProcessor {
 
 	public File createResultsDirectoryAndOutputResultsElement(
 			ArgumentOption option, ResultsElement resultsElement, String resultsDirectoryName) {
-		File optionDirectory = new File(cmDir.getResultsDirectory(), option.getName());
+		File optionDirectory = new File(cmTree.getResultsDirectory(), option.getName());
 		File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
 		return outputDirectory;
 		
@@ -172,12 +172,12 @@ public class ContentProcessor {
 		this.duplicates = duplicates;
 	}
 
-	public CTree getCmDir() {
-		return cmDir;
+	public CTree getCmTree() {
+		return cmTree;
 	}
 
-	public void setCmDir(CTree cmDir) {
-		this.cmDir = cmDir;
+	public void setCmTree(CTree cmTree) {
+		this.cmTree = cmTree;
 	}
 
 	public ResultsElementList getOrCreateResultsElementList() {

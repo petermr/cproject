@@ -498,15 +498,15 @@ public class CTree extends CContainer {
 	/**
 	 * checks that CTree exists and has child fulltext.xml
 	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.xml
+	 * @param ctree
+	 * @return true if ctree exists and has child fulltext.xml
 	 */
-	public static File getExistingFulltextXML(CTree cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingFulltextXML();
+	public static File getExistingFulltextXML(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingFulltextXML();
 	}
 
-	public static File getExistingFulltextXML(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingFulltextXML();
+	public static File getExistingFulltextXML(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingFulltextXML();
 	}
 
 	public File getExistingFulltextXML() {
@@ -522,15 +522,15 @@ public class CTree extends CContainer {
 //	/**
 //	 * checks that CTree exists and has child fulltext.html
 //	 * 
-//	 * @param cmdir
-//	 * @return true if cmdir exists and has child fulltext.html
+//	 * @param ctree
+//	 * @return true if ctree exists and has child fulltext.html
 //	 */
-//	public static File getExistingFulltextHTML(CTree cmdir) {
-//		return (cmdir == null) ? null : cmdir.getExistingFulltextHTML();
+//	public static File getExistingFulltextHTML(CTree ctree) {
+//		return (ctree == null) ? null : ctree.getExistingFulltextHTML();
 //	}
 
-	public static File getExistingFulltextHTML(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingFulltextHTML();
+	public static File getExistingFulltextHTML(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingFulltextHTML();
 	}
 
 	public File getExistingFulltextHTML() {
@@ -546,15 +546,15 @@ public class CTree extends CContainer {
 	/**
 	 * checks that CTree exists and has child fulltext.html
 	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.html
+	 * @param ctree
+	 * @return true if ctree exists and has child fulltext.html
 	 */
-	public static File getExistingFulltextXHTML(CTree cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingFulltextXHTML();
+	public static File getExistingFulltextXHTML(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingFulltextXHTML();
 	}
 
-	public static File getExistingFulltextXHTML(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingFulltextXHTML();
+	public static File getExistingFulltextXHTML(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingFulltextXHTML();
 	}
 
 	public File getExistingFulltextXHTML() {
@@ -569,15 +569,15 @@ public class CTree extends CContainer {
 	/**
 	 * checks that CTree exists and has child fulltext.xml
 	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.xml
+	 * @param ctree
+	 * @return true if ctree exists and has child fulltext.xml
 	 */
-	public static File getExistingResultsJSON(CTree cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingResultsJSON();
+	public static File getExistingResultsJSON(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingResultsJSON();
 	}
 	
-	public static File getExistingResultsJSON(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingResultsJSON();
+	public static File getExistingResultsJSON(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingResultsJSON();
 	}
 
 	public File getExistingResultsJSON() {
@@ -592,15 +592,15 @@ public class CTree extends CContainer {
 	/**
 	 * checks that CTree exists and has child scholarly.html
 	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child scholarly.html
+	 * @param ctree
+	 * @return true if ctree exists and has child scholarly.html
 	 */
-	public static File getExistingScholarlyHTML(CTree cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingScholarlyHTML();
+	public static File getExistingScholarlyHTML(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingScholarlyHTML();
 	}
 	
-	public static File getExistingScholarlyHTML(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingScholarlyHTML();
+	public static File getExistingScholarlyHTML(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingScholarlyHTML();
 	}
 
 	public File getExistingScholarlyHTML() {
@@ -615,15 +615,15 @@ public class CTree extends CContainer {
 //	/**
 //	 * checks that CTree exists and has child fulltext.pdf
 //	 * 
-//	 * @param cmdir
-//	 * @return true if cmdir exists and has child fulltext.pdf
+//	 * @param ctree
+//	 * @return true if ctree exists and has child fulltext.pdf
 //	 */
-//	public static File getExistingFulltextPDF(CTree cmdir) {
-//		return cmdir == null ? null :  cmdir.getExistingFulltextPDF();
+//	public static File getExistingFulltextPDF(CTree ctree) {
+//		return ctree == null ? null :  ctree.getExistingFulltextPDF();
 //	}
 	
-	public static File getExistingFulltextPDF(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingFulltextPDF();
+	public static File getExistingFulltextPDF(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingFulltextPDF();
 	}
 
 	public File getExistingFulltextPDF() {
@@ -638,15 +638,15 @@ public class CTree extends CContainer {
 //	/**
 //	 * checks that CTree exists and has child fulltext.pdf.txt
 //	 * 
-//	 * @param cmdir
-//	 * @return true if cmdir exists and has child fulltext.pdf.txt
+//	 * @param ctree
+//	 * @return true if ctree exists and has child fulltext.pdf.txt
 //	 */
-//	public static File getExistingFulltextPDFTXT(CTree cmdir) {
-//		return cmdir == null ? null :  cmdir.getExistingFulltextPDFTXT();
+//	public static File getExistingFulltextPDFTXT(CTree ctree) {
+//		return ctree == null ? null :  ctree.getExistingFulltextPDFTXT();
 //	}
 	
-	public static File getExistingFulltextPDFTXT(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingFulltextPDFTXT();
+	public static File getExistingFulltextPDFTXT(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingFulltextPDFTXT();
 	}
 
 	public File getExistingFulltextPDFTXT() {
@@ -659,8 +659,8 @@ public class CTree extends CContainer {
 		return getExistingFulltextDOCX() != null;
 	}
 	
-	public static File getExistingFulltextDOCX(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingFulltextDOCX();
+	public static File getExistingFulltextDOCX(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingFulltextDOCX();
 	}
 
 	public File getExistingFulltextDOCX() {
@@ -674,12 +674,12 @@ public class CTree extends CContainer {
 	
 	/**
 	 */
-	public static File getExistingResultsDir(CTree cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingResultsDir();
+	public static File getExistingResultsDir(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingResultsDir();
 	}
 	
-	public static File getExistingResultsDir(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingResultsDir();
+	public static File getExistingResultsDir(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingResultsDir();
 	}
 
 	public File getExistingResultsDir() {
@@ -693,12 +693,12 @@ public class CTree extends CContainer {
 	
 	/**
 	 */
-	public static File getExistingImageDir(CTree cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingImageDir();
+	public static File getExistingImageDir(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingImageDir();
 	}
 	
-	public static File getExistingImageDir(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingImageDir();
+	public static File getExistingImageDir(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingImageDir();
 	}
 
 	public File getExistingImageDir() {
@@ -730,15 +730,15 @@ public class CTree extends CContainer {
 	/**
 	 * checks that CTree exists and has child fulltext.xml
 	 * 
-	 * @param cmdir
-	 * @return true if cmdir exists and has child fulltext.xml
+	 * @param ctree
+	 * @return true if ctree exists and has child fulltext.xml
 	 */
-	public static File getExistingLogfile(CTree cmdir) {
-		return (cmdir == null) ? null : cmdir.getExistingLogfile();
+	public static File getExistingLogfile(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingLogfile();
 	}
 	
-	public static File getExistingLogfile(File cmdirFile) {
-		return new CTree(cmdirFile).getExistingLogfile();
+	public static File getExistingLogfile(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingLogfile();
 	}
 	
 	public File getExistingLogfile() {
@@ -853,7 +853,7 @@ public class CTree extends CContainer {
 	}
 
 	public Element getMetadataElement() {
-		Element metadata = new Element("cmDir");
+		Element metadata = new Element("cTree");
 		metadata.appendChild(this.toString());
 		return metadata;
 	}
