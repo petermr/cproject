@@ -3,6 +3,7 @@ package org.xmlcml.cmine.files;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -19,7 +20,7 @@ import org.xmlcml.xml.XMLUtil;
 
 /** manages the processing by Norma or AMI.
  * 
- * important components are the CMDir being processed and the ResultsElementList.
+ * important components are the CTree being processed and the ResultsElementList.
  * 
  * @author pm286
  *
@@ -37,12 +38,12 @@ public class ContentProcessor {
 	private static final String MERGE = "merge";
 
 
-	private CMDir cmDir;
+	private CTree cmDir;
 	private ResultsElementList resultsElementList;
 	private HashMap<String, ResultsElement> resultsBySearcherNameMap;
 	private String duplicates = OVERWRITE;
 	
-	public ContentProcessor(CMDir cmDir) {
+	public ContentProcessor(CTree cmDir) {
 		this.cmDir = cmDir;
 	}
 	
@@ -90,12 +91,12 @@ public class ContentProcessor {
 			}
 		}
 		this.createResultsDirectoriesAndOutputResultsElement(
-				option, CMDir.RESULTS_XML);
+				option, CTree.RESULTS_XML);
 	}
 
 	public void writeResults(String resultsFileName, String results) throws Exception {
 		File resultsFile = new File(cmDir.getDirectory(), resultsFileName);
-		FileUtils.writeStringToFile(resultsFile, results);
+		FileUtils.writeStringToFile(resultsFile, results, Charset.forName("UTF-8"));
 	}
 
 	public void writeResults(File resultsFile, Element resultsXML) {
@@ -156,7 +157,7 @@ public class ContentProcessor {
 		} else {
 			resultsSubDirectory = new File(optionDirectory, title);
 			resultsSubDirectory.mkdirs();
-			File resultsFile = new File(resultsSubDirectory, CMDir.RESULTS_XML);
+			File resultsFile = new File(resultsSubDirectory, CTree.RESULTS_XML);
 			writeResults(resultsFile, resultsElement);
 			LOG.trace("Wrote "+resultsFile.getAbsolutePath());
 		}
@@ -171,11 +172,11 @@ public class ContentProcessor {
 		this.duplicates = duplicates;
 	}
 
-	public CMDir getCmDir() {
+	public CTree getCmDir() {
 		return cmDir;
 	}
 
-	public void setCmDir(CMDir cmDir) {
+	public void setCmDir(CTree cmDir) {
 		this.cmDir = cmDir;
 	}
 

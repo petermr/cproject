@@ -8,6 +8,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -30,8 +31,8 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
-import org.xmlcml.cmine.files.CMDir;
-import org.xmlcml.cmine.files.CMDirList;
+import org.xmlcml.cmine.files.CTree;
+import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.files.DefaultSearcher;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
@@ -41,7 +42,7 @@ import org.xmlcml.xml.XMLUtil;
 
 /** base class for all arg processing. Also contains the workflow logic:
  * 
- * the list of CMDirs is created in 
+ * the list of CTrees is created in 
  * 
  * parseArgs(String[]) or
  * parseArgs(String)
@@ -68,19 +69,19 @@ import org.xmlcml.xml.XMLUtil;
 		}
 	}
 	
-	this will generate CMDirList 
+	this will generate CTreeList 
 	after that 
 
  * 
  * 
- * runAndOutput() iterates through each CMDir
+ * runAndOutput() iterates through each CTree
  * 
-		for (int i = 0; i < cmDirList.size(); i++) {
-			currentCMDir = cmDirList.get(i);
+		for (int i = 0; i < CTreeList.size(); i++) {
+			currentCTree = CTreeList.get(i);
 			// generateLogFile here
-			currentCMDir.getOrCreateLog();
-			// each CMDir has a ContentProcessor
-			currentCMDir.ensureContentProcessor(this);
+			currentCTree.getOrCreateLog();
+			// each CTree has a ContentProcessor
+			currentCTree.ensureContentProcessor(this);
 			// possible initFooOption
 			runInitMethodsOnChosenArgOptions();
 			// possible runFooOption
@@ -88,11 +89,11 @@ import org.xmlcml.xml.XMLUtil;
 			// possible outputFooOptions
 			runOutputMethodsOnChosenArgOptions();
 		}
-		// a "reduce" or "gather" method to run overe many CMDirs (e.g summaries)
+		// a "reduce" or "gather" method to run overe many CTrees (e.g summaries)
 		runFinalMethodsOnChosenArgOptions();
 	}
 
- * NOTE: changed all *internal* CMDir-type names to CTree. 2015-09-15
+ * NOTE: changed all *internal* CTree-type names to CTree. 2015-09-15
  * 
  * @author pm286
  *
@@ -154,9 +155,9 @@ public class DefaultArgProcessor {
 	public List<ArgumentOption> argumentOptionList;
 	public List<ArgumentOption> chosenArgumentOptionList;
 	
-	protected CMDirList cTreeList;
+	protected CTreeList cTreeList;
 	// change protection later
-	protected CMDir currentCTree;
+	protected CTree currentCTree;
 	protected String summaryFileName;
 	// variable processing
 	protected Map<String, String> variableByNameMap;
@@ -339,7 +340,7 @@ public class DefaultArgProcessor {
 	/** obsolete name */
 	@Deprecated
 	public void parseQSNorma(ArgumentOption option, ArgIterator argIterator) {
-		parseCMDir(option, argIterator);
+		parseCTree(option, argIterator);
 	}
 
 	/** create a CTreeList from --ctree argument
@@ -366,7 +367,7 @@ public class DefaultArgProcessor {
 
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
 		List<String> strings = argIterator.getStrings(option);
-		logfileName = (strings.size() == 0) ? CMDir.LOGFILE : strings.get(0);
+		logfileName = (strings.size() == 0) ? CTree.LOGFILE : strings.get(0);
 	}
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
@@ -409,9 +410,9 @@ public class DefaultArgProcessor {
 	private void createCTreeListFrom(List<String> cTreeNames) {
 		if (cTreeNames.size() == 0) {
 			if (inputList == null || inputList.size() == 0) {
-				LOG.error("Must give inputList before --cmdir or --ctree");
+				LOG.error("Must give inputList before --CTree or --ctree");
 			} else if (output == null) {
-				LOG.error("Must give output before --cmdir or --ctree");
+				LOG.error("Must give output before --CTree or --ctree");
 			} else {
 				finalizeInputList();
 //				generateFilenamesFromInputDirectory();
@@ -439,13 +440,13 @@ public class DefaultArgProcessor {
 		if (project != null) {
 			projectFile = new File(project);
 			if (projectFile.isDirectory()) {
-				cTreeList = new CMDirList();
+				cTreeList = new CTreeList();
 				List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
 					public boolean accept(File file) {
 						return file != null && file.isDirectory();
 					}}));
 				for (File subDirectory : subdirectories) {
-					CMDir cTree = new CMDir(subDirectory);
+					CTree cTree = new CTree(subDirectory);
 					cTreeList.add(cTree);
 				}
 				LOG.trace("cTrees: "+cTreeList.size());
@@ -492,7 +493,7 @@ public class DefaultArgProcessor {
 	}
 
 	private void createCTreeFromFile(File cTree) {
-		cTreeList = new CMDirList();
+		cTreeList = new CTreeList();
 		for (String filename : inputList) {
 			createCTreeFromFilenameAndWriteReservedFile(cTree, new File(filename));
 		}
@@ -506,12 +507,12 @@ public class DefaultArgProcessor {
 		String filename = infile.getName();
 		if (!infile.isDirectory()) {
 			ensureCTreeList();
-//			File cmdirParent = output == null ? infile.getParentFile() : cTreeDir;
-			File cmdirParent = cTreeDir == null ? infile.getParentFile() : cTreeDir;
+//			File CTreeParent = output == null ? infile.getParentFile() : cTreeDir;
+			File CTreeParent = cTreeDir == null ? infile.getParentFile() : cTreeDir;
 			String cmName = createUnderscoredFilename(filename);
-			File directory = new File(cmdirParent, cmName);
-			CMDir cTree = new CMDir(directory, true);
-			String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
+			File directory = new File(CTreeParent, cmName);
+			CTree cTree = new CTree(directory, true);
+			String reservedFilename = CTree.getCTreeReservedFilenameForExtension(filename);
 			try {
 				cTree.writeReservedFile(infile, reservedFilename, true);
 				cTreeList.add(cTree);
@@ -539,8 +540,8 @@ public class DefaultArgProcessor {
 			}
 		};
 
-		cTreeList = new CMDirList();
-		LOG.trace("creating CMDIRList from: "+qDirectoryNames);
+		cTreeList = new CTreeList();
+		LOG.trace("creating CTreeList from: "+qDirectoryNames);
 		for (String qDirectoryName : qDirectoryNames) {
 			File qDirectory = new File(qDirectoryName);
 			if (!qDirectory.exists()) {
@@ -551,7 +552,7 @@ public class DefaultArgProcessor {
 				LOG.error("Not a directory: "+qDirectory.getAbsolutePath());
 				continue;
 			}
-			CMDir cTree = new CMDir(qDirectoryName);
+			CTree cTree = new CTree(qDirectoryName);
 			LOG.trace("...creating CTree from: "+qDirectoryName);
 			if (cTree.containsNoReservedFilenames() && cTree.containsNoReservedDirectories()) {
 				LOG.trace("... No reserved files or directories: "+cTree);
@@ -572,8 +573,8 @@ public class DefaultArgProcessor {
 			}
 		}
 		LOG.trace("CTreeList: "+cTreeList.size());
-		for (CMDir cmdir : cTreeList) {
-			LOG.trace("CTree: "+cmdir);
+		for (CTree CTree : cTreeList) {
+			LOG.trace("CTree: "+CTree);
 			
 		}
 	}
@@ -621,7 +622,7 @@ public class DefaultArgProcessor {
 			File argsHtmlFile = getHtmlFromXML(argsXmlFile);
 			try {
 				String xmlString = transformArgsXml2Html(new FileInputStream(argsXmlFile), transformStream);
-				FileUtils.writeStringToFile(argsHtmlFile, xmlString);
+				FileUtils.writeStringToFile(argsHtmlFile, xmlString, Charset.forName("UTF-8"));
 			} catch (Exception e) {
 				throw new RuntimeException("Cannot transform "+argsXmlFile, e);
 			}
@@ -690,14 +691,14 @@ public class DefaultArgProcessor {
 		return summaryFileName;
 	}
 
-	public CMDirList getCMDirList() {
+	public CTreeList getCTreeList() {
 		ensureCTreeList();
 		return cTreeList;
 	}
 
 	protected void ensureCTreeList() {
 		if (cTreeList == null) {
-			cTreeList = new CMDirList();
+			cTreeList = new CTreeList();
 		}
 	}
 	
@@ -1044,7 +1045,7 @@ public class DefaultArgProcessor {
 		return searcherList;
 	}
 
-	public List<? extends Element> extractPSectionElements(CMDir cTree) {
+	public List<? extends Element> extractPSectionElements(CTree cTree) {
 		List<? extends Element> elements = null;
 		if (cTree != null) {
 			cTree.ensureScholarlyHtmlElement();
@@ -1058,7 +1059,7 @@ public class DefaultArgProcessor {
 	 * 
 	 * @return
 	 */
-	public static HtmlElement getScholarlyHtmlElement(CMDir cTree) {
+	public static HtmlElement getScholarlyHtmlElement(CTree cTree) {
 		HtmlElement htmlElement = null;
 		if (cTree != null && cTree.hasScholarlyHTML()) {
 			File scholarlyHtmlFile = cTree.getExistingScholarlyHTML();

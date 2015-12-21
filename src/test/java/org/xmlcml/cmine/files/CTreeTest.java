@@ -14,38 +14,39 @@ import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 
 
-public class CMDirTest {
+public class CTreeTest {
 
-	
-	private static final Logger LOG = Logger.getLogger(CMDirTest.class);
+	private static final String TEST_CREATE = "target/testcreate";
+	private static final String TARGET_THESES = TEST_CREATE+"/theses/";
+	private static final Logger LOG = Logger.getLogger(CTreeTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	public final static File CM_DIR = new File("src/test/resources/org/xmlcml/files/");
-	public final static File PLOS0115884_DIR = new File(CM_DIR, "journal.pone.0115884");
+//	public final static File CM_DIR = new File("src/test/resources/org/xmlcml/files/");
+	public final static File PLOS0115884_DIR = new File(CMineFixtures.CMINE_DIR, "journal.pone.0115884");
 	
 	@Test
 	public void testReadCTree() {
-		CMDir cTree = new CMDir();
+		CTree cTree = new CTree();
 		cTree.readDirectory(PLOS0115884_DIR);
 		Assert.assertEquals("fileCount", 4, cTree.getReservedFileList().size());
 		Assert.assertTrue("XML", cTree.hasExistingFulltextXML());
 	}
 	
 	@Test
-	/** creates a new CMDir for a PDF.
+	/** creates a new CTree for a PDF.
 	 * 
 	 */
 	public void testCreateCTree() throws IOException {
-		File cTreeDirectory = new File("target/testcreate/test_pdf_1471_2148_14_70_pdf");
+		File cTreeDirectory = new File(TEST_CREATE+"/test_pdf_1471_2148_14_70_pdf");
 		if (cTreeDirectory.exists()) FileUtils.forceDelete(cTreeDirectory);
-		String args = "-i src/test/resources/org/xmlcml/files/misc/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --cmdir";
+		String args = "-i "+CMineFixtures.MISC_DIR+"/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --cmdir";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		Assert.assertTrue(cTreeDirectory.exists());
-		CMDir cTree = new CMDir(cTreeDirectory); 
+		CTree cTree = new CTree(cTreeDirectory); 
 		File fulltext_pdf = cTree.getExistingFulltextPDF();
 		Assert.assertTrue(fulltext_pdf.exists());
 	}
@@ -58,13 +59,13 @@ public class CMDirTest {
 		String args = " --project "+targetProject1;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
-		CMDirList cTreeList = argProcessor.getCMDirList();
+		CTreeList cTreeList = argProcessor.getCTreeList();
 		Assert.assertEquals("ctrees", 2, cTreeList.size());
 		
 	}
 
 	@Test
-	/** creates new CMDirs for list of PDF.
+	/** creates new CTrees for list of PDF.
 	 * 
 	 * SHOWCASE
 	 * 
@@ -73,7 +74,7 @@ public class CMDirTest {
 	 */
 	public void testCreateCTreesUsingCTreeCommand() throws IOException {
 		File inputDir = new File(CMineFixtures.MISC_DIR, "theses/");
-		File outputDir = new File("target/testcreate/theses/");
+		File outputDir = new File(TARGET_THESES);
 		if (outputDir.exists()) FileUtils.forceDelete(outputDir);
 		Assert.assertFalse(outputDir.exists());
 		
@@ -84,16 +85,17 @@ public class CMDirTest {
 		File[] files = outputDir.listFiles();
 		Arrays.sort(files);
 		Assert.assertEquals(3, files.length);
-		Assert.assertEquals("target/testcreate/theses/HalThesis1_pdf", files[0].getPath());
+		Assert.assertEquals("target:"+TARGET_THESES+"HalThesis1_pdf", 
+				TARGET_THESES+"HalThesis1_pdf", files[0].getPath());
 		File[] childFiles = files[0].listFiles();
 		Assert.assertEquals(1, childFiles.length);
 		Assert.assertEquals("fulltext.pdf", childFiles[0].getName());
-		CMDirList ctreeList = argProcessor.getCMDirList();
+		CTreeList ctreeList = argProcessor.getCTreeList();
 		Assert.assertEquals("ctrees", 3, ctreeList.size());
 	}
 	
 	@Test
-	/** creates new CMDirs for list of PDF.
+	/** creates new CTrees for list of PDF.
 	 * 
 	 * SHOWCASE
 	 * 
@@ -102,7 +104,7 @@ public class CMDirTest {
 	 */
 	public void testCreateCTreesUsingProject() throws IOException {
 		File inputDir = new File(CMineFixtures.MISC_DIR, "theses/");
-		File projectDir = new File("target/project/theses1/");
+		File projectDir = new File(TARGET_THESES);
 		if (projectDir.exists()) FileUtils.forceDelete(projectDir);
 		Assert.assertFalse(projectDir.exists());
 		
@@ -117,8 +119,21 @@ public class CMDirTest {
 		File[] childFiles = files[0].listFiles();
 		Assert.assertEquals(1, childFiles.length);
 		Assert.assertEquals("fulltext.pdf", childFiles[0].getName());
-		CMDirList ctreeList = argProcessor.getCMDirList();
+		CTreeList ctreeList = argProcessor.getCTreeList();
 		Assert.assertEquals("ctrees", 3, ctreeList.size());
 	}
 	
+	@Test
+	public void testCTreeContent1() {
+		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project1"));
+		List<CTree> cTreeList = cProject.getCTreeList();
+		CTree cTree1 = cTreeList.get(0);
+		cTree1.getOrCreateFilesDirectoryCTreeLists();
+		List<File> allChildDirectoryList = cTree1.getAllChildDirectoryList();
+		Assert.assertEquals("all child dir", 0, allChildDirectoryList.size());
+		List<File> allChildFileList = cTree1.getAllChildFileList();
+		Assert.assertEquals("all child file", 1, allChildFileList.size());
+
+	}
+
 }

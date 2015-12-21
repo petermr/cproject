@@ -3,6 +3,7 @@ package org.xmlcml.cmine.args.log;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.List;
 
 import nu.xom.Attribute;
@@ -170,7 +171,7 @@ public class AbstractLogElement extends Element {
 				ByteArrayOutputStream baos = new ByteArrayOutputStream();
 				XMLUtil.debug(this, baos, 1);
 				LOG.trace(">>"+this.toXML());
-				FileUtils.write(file, baos.toString());
+				FileUtils.write(file, baos.toString(), Charset.forName("UTF-8"));
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot write LOG: ", e);
 			}

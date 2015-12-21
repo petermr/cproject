@@ -45,9 +45,9 @@
 		brief="-q"
 		long="--ctree"
 		args="director(ies)"
-		class="org.xmlcml.cmine.files.CMDir"
+		class="org.xmlcml.cmine.files.CTree"
 		countRange="{0,*}"
-		parseMethod="parseCMDir"
+		parseMethod="parseCTree"
 		>
 		<help>
 		<p class="note">NOTE WAS quickscrapeNorma and cmDir</p>
@@ -87,7 +87,7 @@
 		brief="-q"
 		long="--quickscrapeNorma"
 		args="director(ies)"
-		class="org.xmlcml.cmine.files.CMDir"
+		class="org.xmlcml.cmine.files.CTree"
 		countRange="{0,*}"
 		parseMethod="parseQSNorma"
 		>
@@ -100,7 +100,7 @@
 		brief="-q"
 		long="--cmdir"
 		args="director(ies)"
-		class="org.xmlcml.cmine.files.CMDir"
+		class="org.xmlcml.cmine.files.CTree"
 		countRange="{0,*}"
 		parseMethod="parseQSNorma"
 		>

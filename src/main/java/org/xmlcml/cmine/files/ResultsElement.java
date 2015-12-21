@@ -1,5 +1,6 @@
 package org.xmlcml.cmine.files;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import nu.xom.Attribute;
+import nu.xom.Document;
 import nu.xom.Element;
 import nu.xom.Node;
 import nu.xom.Text;
@@ -23,7 +25,6 @@ import org.xmlcml.xml.XMLUtil;
  */
 
 public class ResultsElement extends Element implements Iterable<ResultElement> {
-
 	
 	private static final Logger LOG = Logger.getLogger(ResultsElement.class);
 	static {
@@ -188,6 +189,17 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 				}
 			}
 		}
+	}
+
+	public static boolean isEmpty(File xmlFile) {
+		Document document = XMLUtil.parseQuietlyToDocument(xmlFile);
+		if (document != null) {
+			List<Element> results = XMLUtil.getQueryElements(document, "*/"+ResultElement.TAG);
+			if (results.size() == 0) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 }

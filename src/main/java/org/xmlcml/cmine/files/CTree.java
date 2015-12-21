@@ -2,11 +2,15 @@ package org.xmlcml.cmine.files;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 import nu.xom.Document;
 import nu.xom.Element;
@@ -35,7 +39,7 @@ Note that the Catalog (from CottageLabs) primarily holds metadata. [It's possibl
 content, but it soon starts to degrade performance]. We therefore have metadata in the Catalog and 
 contentFiles on disk. These files and Open and can, in principle, be used independently of the Catalog.
 
-I am designing a "CMDir" which passes the bundle down the pipeline. This should be independent of what 
+I am designing a "CTree" which passes the bundle down the pipeline. This should be independent of what 
 language [Python , JS, Java...] is used to create or read them. We believe that a normal filing system 
 is satisfactory (at least at present while we develop the technology).
 
@@ -107,9 +111,9 @@ The results file include the regexes used and other metadata (more needed!). Aga
  * @author pm286
  *
  */
-public class CMDir {
+public class CTree extends CContainer {
 
-	private static final Logger LOG = Logger.getLogger(CMDir.class);
+	private static final Logger LOG = Logger.getLogger(CTree.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -232,6 +236,34 @@ public class CMDir {
 		RESERVED_FILES_BY_EXTENSION.put(XML, FULLTEXT_XML);
 	}
 	
+	public final static String EXPECTED = "expected";
+	public final static String IMAGES = "images";
+	public final static String SUPP_DATA = "suppData";
+	
+	public final static Pattern FULLTEXT_STAR = Pattern.compile("fulltext.*");
+	
+	protected static final String[] ALLOWED_FILE_NAMES = new String[] {
+		LOG_XML,
+		MANIFEST_XML,
+		RESULTS_JSON,
+		SCHOLARLY_HTML,
+	};
+	
+	protected static final Pattern[] ALLOWED_FILE_PATTERNS = new Pattern[] {
+		FULLTEXT_STAR,
+	};
+	
+	protected static final String[] ALLOWED_DIR_NAMES = new String[] {
+		EXPECTED,
+		IMAGES,
+		RESULTS,
+		SUPP_DATA,
+	};
+	
+	protected static final Pattern[] ALLOWED_DIR_PATTERNS = new Pattern[] {
+	};
+	
+	
 	public static boolean isReservedFilename(String name) {
 		return RESERVED_FILE_NAMES.contains(name);
 	}
@@ -251,41 +283,40 @@ public class CMDir {
 		return RESERVED_DIR_NAMES.contains(name);
 	}
 	
-	private File directory;
 	private List<File> reservedFileList;
 	private List<File> nonReservedFileList;
 	private List<File> reservedDirList;
 	private List<File> nonReservedDirList;
-	// store results as processing proceeds
-//	public ResultsElementList resultsElementList;
 	private DefaultArgProcessor argProcessor;
 	private ContentProcessor contentProcessor;
 	public HtmlElement htmlElement;
 	private List<Element> sectionElementList;
+	private CContainer cProject;
 
-	public CMDir() {
+	public CTree() {
+		super();
 		
 	}
 	
-	/** creates CMDir object but does not alter filestore.
+	/** creates CTree object but does not alter filestore.
 	 * 
 	 * @param directory
 	 */
-	public CMDir(File directory) {
+	public CTree(File directory) {
 		this.directory = directory;
 	}
 	
-	/** ensures filestore matches a CMDir structure.
+	/** ensures filestore matches a CTree structure.
 	 * 
 	 * @param directory
 	 * @param delete
 	 */
-	public CMDir(File directory, boolean delete) {
+	public CTree(File directory, boolean delete) {
 		this(directory);
 		this.createDirectory(directory, delete);
 	}
 	
-	public CMDir(String filename) {
+	public CTree(String filename) {
 		this(new File(filename), false); 
 	}
 
@@ -369,11 +400,11 @@ public class CMDir {
 	}
 	
 	public boolean containsNoReservedFilenames() {
-		return CMDir.containsNoReservedFilenames(directory);
+		return CTree.containsNoReservedFilenames(directory);
 	}
 	
 	public boolean containsNoReservedDirectories() {
-		return CMDir.containsNoReservedDirectories(directory);
+		return CTree.containsNoReservedDirectories(directory);
 	}
 	
 	public void createDirectory(File dir, boolean delete) {
@@ -403,7 +434,7 @@ public class CMDir {
 		checkRequiredCMFiles();
 	}
 
-	/** checks that this CMDir object is an existing directory.
+	/** checks that this CTree object is an existing directory.
 	 * 
 	 * @return true if getDirectory() refers to an existing directory
 	 */
@@ -451,7 +482,7 @@ public class CMDir {
 		}
 	}
 
-	public boolean isFileOfExistingCMDir(String fileType) {
+	public boolean isFileOfExistingCTree(String fileType) {
 		return directory != null && isExistingFile(new File(directory, fileType));
 	}
 	
@@ -465,17 +496,17 @@ public class CMDir {
 	}
 
 	/**
-	 * checks that CMDir exists and has child fulltext.xml
+	 * checks that CTree exists and has child fulltext.xml
 	 * 
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.xml
 	 */
-	public static File getExistingFulltextXML(CMDir cmdir) {
+	public static File getExistingFulltextXML(CTree cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingFulltextXML();
 	}
 
 	public static File getExistingFulltextXML(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingFulltextXML();
+		return new CTree(cmdirFile).getExistingFulltextXML();
 	}
 
 	public File getExistingFulltextXML() {
@@ -489,17 +520,17 @@ public class CMDir {
 	}
 	
 //	/**
-//	 * checks that CMDir exists and has child fulltext.html
+//	 * checks that CTree exists and has child fulltext.html
 //	 * 
 //	 * @param cmdir
 //	 * @return true if cmdir exists and has child fulltext.html
 //	 */
-//	public static File getExistingFulltextHTML(CMDir cmdir) {
+//	public static File getExistingFulltextHTML(CTree cmdir) {
 //		return (cmdir == null) ? null : cmdir.getExistingFulltextHTML();
 //	}
 
 	public static File getExistingFulltextHTML(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingFulltextHTML();
+		return new CTree(cmdirFile).getExistingFulltextHTML();
 	}
 
 	public File getExistingFulltextHTML() {
@@ -513,17 +544,17 @@ public class CMDir {
 	}
 	
 	/**
-	 * checks that CMDir exists and has child fulltext.html
+	 * checks that CTree exists and has child fulltext.html
 	 * 
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.html
 	 */
-	public static File getExistingFulltextXHTML(CMDir cmdir) {
+	public static File getExistingFulltextXHTML(CTree cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingFulltextXHTML();
 	}
 
 	public static File getExistingFulltextXHTML(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingFulltextXHTML();
+		return new CTree(cmdirFile).getExistingFulltextXHTML();
 	}
 
 	public File getExistingFulltextXHTML() {
@@ -536,17 +567,17 @@ public class CMDir {
 	}
 	
 	/**
-	 * checks that CMDir exists and has child fulltext.xml
+	 * checks that CTree exists and has child fulltext.xml
 	 * 
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.xml
 	 */
-	public static File getExistingResultsJSON(CMDir cmdir) {
+	public static File getExistingResultsJSON(CTree cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingResultsJSON();
 	}
 	
 	public static File getExistingResultsJSON(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingResultsJSON();
+		return new CTree(cmdirFile).getExistingResultsJSON();
 	}
 
 	public File getExistingResultsJSON() {
@@ -559,17 +590,17 @@ public class CMDir {
 	}
 	
 	/**
-	 * checks that CMDir exists and has child scholarly.html
+	 * checks that CTree exists and has child scholarly.html
 	 * 
 	 * @param cmdir
 	 * @return true if cmdir exists and has child scholarly.html
 	 */
-	public static File getExistingScholarlyHTML(CMDir cmdir) {
+	public static File getExistingScholarlyHTML(CTree cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingScholarlyHTML();
 	}
 	
 	public static File getExistingScholarlyHTML(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingScholarlyHTML();
+		return new CTree(cmdirFile).getExistingScholarlyHTML();
 	}
 
 	public File getExistingScholarlyHTML() {
@@ -582,17 +613,17 @@ public class CMDir {
 	}
 	
 //	/**
-//	 * checks that CMDir exists and has child fulltext.pdf
+//	 * checks that CTree exists and has child fulltext.pdf
 //	 * 
 //	 * @param cmdir
 //	 * @return true if cmdir exists and has child fulltext.pdf
 //	 */
-//	public static File getExistingFulltextPDF(CMDir cmdir) {
+//	public static File getExistingFulltextPDF(CTree cmdir) {
 //		return cmdir == null ? null :  cmdir.getExistingFulltextPDF();
 //	}
 	
 	public static File getExistingFulltextPDF(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingFulltextPDF();
+		return new CTree(cmdirFile).getExistingFulltextPDF();
 	}
 
 	public File getExistingFulltextPDF() {
@@ -605,17 +636,17 @@ public class CMDir {
 	}
 
 //	/**
-//	 * checks that CMDir exists and has child fulltext.pdf.txt
+//	 * checks that CTree exists and has child fulltext.pdf.txt
 //	 * 
 //	 * @param cmdir
 //	 * @return true if cmdir exists and has child fulltext.pdf.txt
 //	 */
-//	public static File getExistingFulltextPDFTXT(CMDir cmdir) {
+//	public static File getExistingFulltextPDFTXT(CTree cmdir) {
 //		return cmdir == null ? null :  cmdir.getExistingFulltextPDFTXT();
 //	}
 	
 	public static File getExistingFulltextPDFTXT(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingFulltextPDFTXT();
+		return new CTree(cmdirFile).getExistingFulltextPDFTXT();
 	}
 
 	public File getExistingFulltextPDFTXT() {
@@ -629,7 +660,7 @@ public class CMDir {
 	}
 	
 	public static File getExistingFulltextDOCX(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingFulltextDOCX();
+		return new CTree(cmdirFile).getExistingFulltextDOCX();
 	}
 
 	public File getExistingFulltextDOCX() {
@@ -643,12 +674,12 @@ public class CMDir {
 	
 	/**
 	 */
-	public static File getExistingResultsDir(CMDir cmdir) {
+	public static File getExistingResultsDir(CTree cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingResultsDir();
 	}
 	
 	public static File getExistingResultsDir(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingResultsDir();
+		return new CTree(cmdirFile).getExistingResultsDir();
 	}
 
 	public File getExistingResultsDir() {
@@ -662,12 +693,12 @@ public class CMDir {
 	
 	/**
 	 */
-	public static File getExistingImageDir(CMDir cmdir) {
+	public static File getExistingImageDir(CTree cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingImageDir();
 	}
 	
 	public static File getExistingImageDir(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingImageDir();
+		return new CTree(cmdirFile).getExistingImageDir();
 	}
 
 	public File getExistingImageDir() {
@@ -697,17 +728,17 @@ public class CMDir {
 	}
 	
 	/**
-	 * checks that CMDir exists and has child fulltext.xml
+	 * checks that CTree exists and has child fulltext.xml
 	 * 
 	 * @param cmdir
 	 * @return true if cmdir exists and has child fulltext.xml
 	 */
-	public static File getExistingLogfile(CMDir cmdir) {
+	public static File getExistingLogfile(CTree cmdir) {
 		return (cmdir == null) ? null : cmdir.getExistingLogfile();
 	}
 	
 	public static File getExistingLogfile(File cmdirFile) {
-		return new CMDir(cmdirFile).getExistingLogfile();
+		return new CTree(cmdirFile).getExistingLogfile();
 	}
 	
 	public File getExistingLogfile() {
@@ -748,7 +779,7 @@ public class CMDir {
 	
 	public File getExistingFileWithReservedParentDirectory(String inputName) {
 		File file = null;
-		if (CMDir.hasReservedParentDirectory(inputName)) {
+		if (CTree.hasReservedParentDirectory(inputName)) {
 			file = new File(directory, inputName);
 		}
 		return file;
@@ -778,7 +809,8 @@ public class CMDir {
 		}
 		if (content != null) {
 			try {
-				FileUtils.write(file, content, "UTF-8");
+				LOG.trace("writing file: "+file);
+				FileUtils.write(file, content, Charset.forName("UTF-8"));
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot write file: ", e);
 			}
@@ -788,6 +820,7 @@ public class CMDir {
 	}
 
 	public File getDirectory() {
+		LOG.trace("Directory "+directory+" .. "+directory.isDirectory());
 		return directory;
 	}
 
@@ -796,7 +829,7 @@ public class CMDir {
 		return files;
 	}
 
-	public static String getCMDirReservedFilenameForExtension(String name) {
+	public static String getCTreeReservedFilenameForExtension(String name) {
 		String filename = null;
 		String extension = FilenameUtils.getExtension(name);
 		if (extension.equals("")) {
@@ -827,8 +860,8 @@ public class CMDir {
 
 	public static boolean isNonEmptyNonReservedInputList(List<String> inputList) {
 		if (inputList == null || inputList.size() != 1) return false;
-		if (CMDir.hasReservedParentDirectory(inputList.get(0))) return false;
-		if (CMDir.isReservedFilename(inputList.get(0))) return false;
+		if (CTree.hasReservedParentDirectory(inputList.get(0))) return false;
+		if (CTree.isReservedFilename(inputList.get(0))) return false;
 		return true;
 	}
 
@@ -891,13 +924,13 @@ public class CMDir {
 	public ResultsElement getResultsElement(String pluginName, String methodName) {
 		File resultsDir = getExistingResultsDir();
 		ResultsElement resultsElement = null;
-		if (CMDir.isExistingDirectory(resultsDir)) {
+		if (CTree.isExistingDirectory(resultsDir)) {
 			File pluginDir = new File(resultsDir, pluginName);
-			if (CMDir.isExistingDirectory(pluginDir)) {
+			if (CTree.isExistingDirectory(pluginDir)) {
 				File methodDir = new File(pluginDir, methodName);
-				if (CMDir.isExistingDirectory(methodDir)) {
-					File resultsXML = new File(methodDir, CMDir.RESULTS_XML);
-					if (CMDir.isExistingFile(resultsXML)) {
+				if (CTree.isExistingDirectory(methodDir)) {
+					File resultsXML = new File(methodDir, CTree.RESULTS_XML);
+					if (CTree.isExistingFile(resultsXML)) {
 						Document resultsDoc = XMLUtil.parseQuietlyToDocument(resultsXML);
 						resultsElement = ResultsElement.createResultsElement(resultsDoc.getRootElement());
 					}
@@ -999,14 +1032,75 @@ public class CMDir {
 
 	public AbstractLogElement getOrCreateCTreeLog(DefaultArgProcessor argProcessor, String logfileName) {
 		AbstractLogElement cTreeLog = null;
-		if (CMDir.LOGFILE.equals(logfileName)) {
-			File file = CMDir.getExistingLogfile(this);
+		if (CTree.LOGFILE.equals(logfileName)) {
+			File file = CTree.getExistingLogfile(this);
 			if (file == null) {
-				file = this.getReservedFile(CMDir.LOGFILE);
+				file = this.getReservedFile(CTree.LOGFILE);
 			}
 			LOG.trace("file "+file);
 			cTreeLog = new CMineLog(file);
 		}
 		return cTreeLog;
 	}
+
+	@Override
+	protected CManifest createManifest() {
+		manifest = new CTreeManifest(this);
+		return manifest;
+	}
+	
+	public void setProject(CContainer cProject) {
+		this.cProject = cProject;
+	}
+	
+	@Override
+	public void updateManifest() {
+		this.getOrCreateManifest();
+	}
+
+	@Override
+	protected void getAllowedAndUnknownDirectories() {
+		for (File directory : allChildDirectoryList) {
+			if (false) {
+			} else if (
+				isAllowedFile(directory, ALLOWED_DIR_PATTERNS) ||
+				isAllowedFileName(directory, ALLOWED_DIR_NAMES)) {
+				allowedChildDirectoryList.add(directory);
+			} else {
+				unknownChildDirectoryList.add(directory);
+			}
+		}
+	}
+
+	@Override
+	protected void getAllowedAndUnknownFiles() {
+		for (File file : allChildFileList) {
+			if (false) {
+			} else if (
+				isAllowedFile(file, ALLOWED_FILE_PATTERNS) ||
+				isAllowedFileName(file, ALLOWED_FILE_NAMES)) {
+				allowedChildFileList.add(file);
+			} else {
+				unknownChildFileList.add(file);
+				LOG.trace("Unknown file in project");
+			}
+		}
+	}
+
+	public List<File> getResultsXMLFileList() {
+		List<File> resultsXMLFileList = new ArrayList<File>();
+		File resultsDir = getResultsDirectory();
+		if (resultsDir != null && resultsDir.isDirectory()) {
+			Collection<File> collection = FileUtils.listFiles(resultsDir, new String[]{XML}, true);
+			Iterator<File> fileIterator = collection.iterator();
+			while (fileIterator.hasNext()) {
+				File f = fileIterator.next();
+				if (f.getName().equals(RESULTS_XML)) {
+					resultsXMLFileList.add(f);
+				}
+			}
+		}
+		return resultsXMLFileList;
+	}
+	
 }

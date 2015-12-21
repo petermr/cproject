@@ -8,49 +8,49 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
-/** list of CMDir objects.
+/** list of CTree objects.
  * 
  * @author pm286
  *
  */
-public class CMDirList implements Iterable<CMDir> {
+public class CTreeList implements Iterable<CTree> {
 
 	
 	private static final Logger LOG = Logger
-			.getLogger(CMDirList.class);
+			.getLogger(CTreeList.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	private List<CMDir> cmDirList;
+	private List<CTree> cmDirList;
 	
-	public CMDirList() {
-		ensureCMDirList();
+	public CTreeList() {
+		ensureCTreeList();
 	}
 
-	private void ensureCMDirList() {
+	private void ensureCTreeList() {
 		if (cmDirList == null) {
-			cmDirList = new ArrayList<CMDir>();
+			cmDirList = new ArrayList<CTree>();
 		}
 	}
 
 	public int size() {
-		ensureCMDirList();
+		ensureCTreeList();
 		return cmDirList.size();
 	}
 
-	public Iterator<CMDir> iterator() {
-		ensureCMDirList();
+	public Iterator<CTree> iterator() {
+		ensureCTreeList();
 		return cmDirList.iterator();
 	}
 	
-	public CMDir get(int i) {
-		ensureCMDirList();
+	public CTree get(int i) {
+		ensureCTreeList();
 		return cmDirList.get(i);
 	}
 	
-	public void add(CMDir cmDir) {
-		ensureCMDirList();
+	public void add(CTree cmDir) {
+		ensureCTreeList();
 		cmDirList.add(cmDir);
 	}
 	

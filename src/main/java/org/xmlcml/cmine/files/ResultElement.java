@@ -6,7 +6,7 @@ import nu.xom.Element;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
-/** a container for a "result" from an action on a CMDir.
+/** a container for a "result" from an action on a CTree.
  * 
  * Normally output to the "results" directory
  * 
