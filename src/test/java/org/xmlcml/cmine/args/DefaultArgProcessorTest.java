@@ -3,14 +3,13 @@ package org.xmlcml.cmine.args;
 import java.io.File;
 import java.io.IOException;
 
-import junit.framework.Assert;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
-public class DefaultArgProcessorTest {
+import junit.framework.Assert;
 
+public class DefaultArgProcessorTest {
 	
 	private static final Logger LOG = Logger.getLogger(DefaultArgProcessorTest.class);
 	static {
@@ -107,6 +106,7 @@ public class DefaultArgProcessorTest {
 		argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs("--project foo");
 	}
+	
 	
 	@Test
 	public void testLog() throws IOException {

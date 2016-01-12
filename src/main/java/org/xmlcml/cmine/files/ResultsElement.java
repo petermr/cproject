@@ -52,7 +52,9 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 
 	public void setTitle(String title) {
-		this.addAttribute(new Attribute(TITLE, title));
+		if (title != null) {
+			this.addAttribute(new Attribute(TITLE, title));
+		}
 	}
 
 	public String getTitle() {

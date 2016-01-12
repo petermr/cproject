@@ -1,10 +1,10 @@
 package org.xmlcml.cmine.files;
 
 import java.io.FileInputStream;
-
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URL;
+import java.util.Map;
 
 import org.apache.commons.io.FilenameUtils;
 import org.xmlcml.euclid.Euclid;
@@ -69,6 +69,32 @@ public class EuclidSource {
 			}
 		}
 		return is;
+	}
+
+
+	/** heuristic ducktype to get input stream;
+	 * 
+	 * first looks to see if name is a key in sourceByName. If so, takes the 
+	 * result and passes it to getInputStream(String name); if not, passes the
+	 * original name
+	 * 
+	 * e.g. getInputStream("abc", map) might resolve to http://foo.org/abc.xml
+	 * which is then resolved to a stream. 
+	 * 
+	 * e.g. getInputStream("http://bar.org/bar.xml", map) will not resolve in map
+	 * and will be opened as a URL.
+	 * 
+	 * 
+	 * @param name (of resource, URL, or filename)
+	 * @param sourceByName map of names to sourceNames
+	 * @return Opened stream, or null if not found
+	 */
+	public static InputStream getInputStream(String name, Map<String, String> sourceByName) {
+		if (name == null || sourceByName == null) {
+			throw new RuntimeException("Null parameters in EuclidSource.getInputStream()");
+		}
+		String sourceName = sourceByName.get(name);
+		return EuclidSource.getInputStream(((sourceName == null) ? name : sourceName));
 	}
 
 

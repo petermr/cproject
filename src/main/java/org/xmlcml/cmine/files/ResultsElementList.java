@@ -22,7 +22,6 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 	protected List<ResultsElement> resultsElementList;
 	
 	public ResultsElementList() {
-		
 	}
 
 	public void add(ResultsElement resultsElement) {
@@ -49,5 +48,10 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 	public ResultsElement get(int i) {
 		ensureResultsElementList();
 		return resultsElementList.get(i);
+	}
+	
+	public List<ResultsElement> getResultsElementList() {
+		ensureResultsElementList();
+		return resultsElementList;
 	}
 }

@@ -139,6 +139,7 @@
 		<p class="note">Future versions will print the versions of ancestors.</p>
 		</help>
 	</arg>	
+	
 	<arg name="recursive"			
 		brief="-r"
 		long="--recursive"
@@ -147,6 +148,7 @@
 		countRange="{1,1}"
 		parseMethod="parseRecursive"
 		>
+		
 <!-- default ="false"  -->
 		<help>
 			If the input is a directory then by default only the first level is searched
@@ -239,6 +241,43 @@
 	      may also have <code>log.xml</code> files (referenced in the toplevel <code>log.xml</code>)</p>
 	    </help>
     </arg>
+
+	<arg name="unzip"
+		long="--unzip"
+		args="??"
+		countRange="{1,1}"
+		parseMethod="parseUnzip"
+		>
+		<help>
+			<p class="brief">unzip files into proto-<em><code>ctree</code></em>s.
+			</p>
+			<p>At present only acts on *.zip or *.ZIP</p>
+			<p>The extracted files may need renaming</p>
+		</help>
+	</arg>	
+	    
+	<arg name="include"
+		long="--include"
+		args="??"
+		countRange="{1,1}"
+		parseMethod="parseInclude"
+		>
+		<help>
+			<p class="brief">only include files whose patterns match this regex</p>
+		</help>
+	</arg>	
+	    
+	<arg name="rename"
+		long="--rename"
+		args="??"
+		countRange="{2,*}"
+		parseMethod="parseRename"
+		>
+		<help>
+			<p class="brief">renames files in ctree</p>
+			<p>pairs of strings for renaming. <code>.*\\.XML fulltext\\.xml</code> will rename *.XML to fulltext.xml.</p>
+		</help>
+	</arg>	
 	    
 	<arg name="c.text"
 	    long="--c.test"
@@ -252,5 +291,17 @@
 	    </help>
     </arg>
 	    
+	<arg name="dictionary"
+	    long="--c.dictionary"
+	    args="source [source]"
+	    parseMethod="parseDictionary"
+	    countRange="{1,*}"
+	    >
+	    <help>
+	    <p>Dictionaries for lookup. sources follow EuclidSource and can be resources, files, or URLs.
+	    in some cases they may also be symbolic.</p>
+	    </help>
+	</arg>
+	
 	    
 </argList>

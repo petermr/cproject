@@ -4,6 +4,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
@@ -11,33 +12,40 @@ import java.lang.reflect.Method;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipException;
+import java.util.zip.ZipFile;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-import nu.xom.Builder;
-import nu.xom.Element;
-
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
+import org.xmlcml.cmine.files.AbstractSearcher;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeList;
-import org.xmlcml.cmine.files.DefaultSearcher;
+import org.xmlcml.cmine.files.EuclidSource;
+import org.xmlcml.cmine.files.Unzipper;
+import org.xmlcml.cmine.lookup.AbstractDictionary;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.HtmlP;
 import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Builder;
+import nu.xom.Element;
 
 
 /** base class for all arg processing. Also contains the workflow logic:
@@ -162,13 +170,15 @@ public class DefaultArgProcessor {
 	// variable processing
 	protected Map<String, String> variableByNameMap;
 	private VariableProcessor variableProcessor;
-	// searching
-	protected List<DefaultSearcher> searcherList; // req
-	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
 	protected String project;
 	private AbstractLogElement cTreeLog;
 	private AbstractLogElement coreLog;
 	private File projectFile;
+	private String includePatternString;
+	private boolean unzip = false;
+	private List<List<String>> renamePairs;
+	private String zipRootName;
+	protected List<AbstractDictionary> dictionaryList;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -387,6 +397,45 @@ public class DefaultArgProcessor {
 		summaryFileName = argIterator.getString(option);
 	}
 
+	public void parseUnzip(ArgumentOption option, ArgIterator argIterator) {
+		setUnzip(true);
+	}
+
+	public void parseInclude(ArgumentOption option, ArgIterator argIterator) {
+		setIncludePatternString(option, argIterator);
+	}
+
+	public void parseRename(ArgumentOption option, ArgIterator argIterator) {
+		setRenamePairs(option, argIterator);
+	}
+
+	public void parseDictionary(ArgumentOption option, ArgIterator argIterator) {
+		List<String> dictionarySources = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		createAndAddDictionaries(dictionarySources);
+	}
+
+	public void createAndAddDictionaries(List<String> dictionarySources) {
+		ensureDictionaryList();
+		for (String dictionarySource : dictionarySources) {
+			
+			InputStream is = EuclidSource.getInputStream(dictionarySource);
+			if (is == null) {
+				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
+			}
+			AbstractDictionary dictionary = AbstractDictionary.createDictionary(dictionarySource, is);
+			if (dictionary == null) {
+				throw new RuntimeException("cannot read/create dictionary: "+dictionarySource);
+			}
+			dictionaryList.add(dictionary);
+		}
+	}
+
+	protected void ensureDictionaryList() {
+		if (dictionaryList == null) {
+			dictionaryList = new ArrayList<AbstractDictionary>();
+		}
+	}
+
 	public void runMakeDocs(ArgumentOption option) {
 		transformArgs2html();
 	}
@@ -422,6 +471,27 @@ public class DefaultArgProcessor {
 			createCTreeList(cTreeNames);
 		}
 	}
+	
+	private void setIncludePatternString(ArgumentOption option, ArgIterator argIterator) {
+		List<String> includeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
+	}
+
+	private void setRenamePairs(ArgumentOption option, ArgIterator argIterator) {
+		List<String> renameStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		if (renameStrings != null && renameStrings.size() %2 == 0) {
+			renamePairs = new ArrayList<List<String>>();
+			for (int i = 0; i < renameStrings.size(); i += 2) {
+				List<String> stringPair = new ArrayList<String>();
+				stringPair.add(renameStrings.get(i));
+				stringPair.add(renameStrings.get(i+1));
+				renamePairs.add(stringPair);
+			}
+		} else {
+			LOG.warn("--rename requires an even number of arguments");
+		}
+	}
+
 
 	/** create CTrees EITHER from *.PDF/HTML/XML etc  
 	 * OR from subdirectories which will be CTrees
@@ -440,16 +510,7 @@ public class DefaultArgProcessor {
 		if (project != null) {
 			projectFile = new File(project);
 			if (projectFile.isDirectory()) {
-				cTreeList = new CTreeList();
-				List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
-					public boolean accept(File file) {
-						return file != null && file.isDirectory();
-					}}));
-				for (File subDirectory : subdirectories) {
-					CTree cTree = new CTree(subDirectory);
-					cTreeList.add(cTree);
-				}
-				LOG.trace("cTrees: "+cTreeList.size());
+				createCTreesFromDirectories();
 			} else if (projectFile.isFile()) {
 				LOG.error("project file must be a directory: "+projectFile);
 			} else if (!projectFile.exists()) {
@@ -457,6 +518,36 @@ public class DefaultArgProcessor {
 			} else {
 				LOG.error("Unacceptable project option, probable BUG");
 			}
+		}
+	}
+
+	private void createCTreesFromDirectories() {
+		cTreeList = new CTreeList();
+		extractDirectoriesToCTrees();
+		extractZipFilesToCTrees();
+		LOG.trace("cTrees: "+cTreeList.size());
+	}
+
+	private void extractZipFilesToCTrees() {
+		List<File> zipFiles = Arrays.asList(projectFile.listFiles(new FileFilter() {
+			public boolean accept(File file) {
+				return file != null && isZipFile(file);
+			}}));
+		for (File zipFile : zipFiles) {
+			createTreeFromZipFile(projectFile, zipFile);
+			CTree cTree = new CTree(zipFile);
+			cTreeList.add(cTree);
+		}
+	}
+
+	private void extractDirectoriesToCTrees() {
+		List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
+			public boolean accept(File file) {
+				return file != null && file.isDirectory();
+			}}));
+		for (File subDirectory : subdirectories) {
+			CTree cTree = new CTree(subDirectory);
+			cTreeList.add(cTree);
 		}
 	}
 
@@ -478,6 +569,8 @@ public class DefaultArgProcessor {
 							createCTreeFromFilenameAndWriteReservedFile(projectFile, file0);
 						}
 					}
+				} else if (isZipFile(file)){
+					createTreeFromZipFile(projectFile, file);
 				} else {
 					createCTreeFromFilenameAndWriteReservedFile(projectFile, file);
 				}
@@ -485,6 +578,63 @@ public class DefaultArgProcessor {
 		}
 	}
 
+	private void createTreeFromZipFile(File projectFile, File file) {
+		Unzipper unZipper = new Unzipper();
+		unZipper.setZipFile(file);
+		unZipper.setOutDir(projectFile);
+		unZipper.setIncludePatternString(includePatternString);
+		try {
+			unZipper.extractZip();
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot unzip file: "+e);
+		}
+		zipRootName = unZipper.getZipRootName();
+		if (zipRootName == null) {
+			LOG.debug("No zipRoot "+file);
+		} else {
+			renameFiles(new File(projectFile, zipRootName));
+		}
+	}
+
+	private boolean isZipFile(File file) {
+		boolean isZip = false;
+		if (FilenameUtils.getExtension(file.toString()).toLowerCase().equals("zip")) {
+			ZipFile zf;
+			try {
+				zf = new ZipFile(file);
+				Enumeration<? extends ZipEntry> zipEntries = zf.entries();
+				isZip = zipEntries.hasMoreElements();
+			} catch (ZipException ze) {
+				isZip = false;
+			} catch (IOException e) {
+				isZip = false;
+			}
+		}
+		return isZip;
+		
+	}
+	
+	private void renameFiles(File rootFile) {
+		if (renamePairs != null && rootFile != null) {
+			if (!rootFile.isDirectory()) {
+				throw new RuntimeException("rootFile is not a directory: "+rootFile);
+			}
+			List<File> files = new ArrayList<File>(FileUtils.listFiles(rootFile, null, true));
+			for (List<String> renamePair : renamePairs) {
+				for (File file : files) {
+					if (file.getName().matches(renamePair.get(0))) {
+					    File newNameFile = new File(rootFile, renamePair.get(1));
+//						LOG.debug("F0 "+file+" => "+newNameFile);
+					    boolean isMoved = file.renameTo(newNameFile);
+					    if (!isMoved) {
+					        throw new RuntimeException("cannot rename: "+file.getName());
+					    }					
+					}
+				}
+			}
+		}
+	}
+	
 	private void createCTreeFromOutput() {
 		File newCTree = output == null ? null : new File(output);
 		if (newCTree != null) {
@@ -663,6 +813,9 @@ public class DefaultArgProcessor {
 		this.extensionList = extensions;
 	}
 
+	public void setInputPatternString(String includePatternString) {
+		this.includePatternString = includePatternString;
+	}
 
 	public List<String> getInputList() {
 		ensureInputList();
@@ -702,7 +855,6 @@ public class DefaultArgProcessor {
 		}
 	}
 	
-
 	// --------------------------------
 	
 	public void parseArgs(String[] commandLineArgs) {
@@ -806,6 +958,10 @@ public class DefaultArgProcessor {
 		}
 	}
 	
+	public void setUnzip(boolean b) {
+		this.unzip  = b;
+	}
+
 	public void runInitMethodsOnChosenArgOptions() {
 		runMethodsOfType(ArgumentOption.INIT_METHOD);
 	}
@@ -1000,6 +1156,7 @@ public class DefaultArgProcessor {
 					coreLog.error("error in running, terminated: "+e);
 					continue;
 				}
+				if (i % 10 == 0) System.out.print(".");
 				LOG.trace(coreLog.toXML());
 			}
 			
@@ -1035,14 +1192,8 @@ public class DefaultArgProcessor {
 		return update;
 	}
 
-	protected void ensureSearcherList() {
-		if (searcherList == null) {
-			searcherList = new ArrayList<DefaultSearcher>();
-		}
-	}
-	
-	public List<DefaultSearcher> getSearcherList() {
-		return searcherList;
+	public List<AbstractDictionary> getDictionaryList() {
+		return dictionaryList;
 	}
 
 	public List<? extends Element> extractPSectionElements(CTree cTree) {
@@ -1071,6 +1222,11 @@ public class DefaultArgProcessor {
 			}
 		}
 		return htmlElement;
+	}
+
+	// HORRIBLE, REFACTOR
+	public List<? extends AbstractSearcher> getSearcherList() {
+		throw new RuntimeException("Can Only be used by sublassses of DefaultArgProcessor ");
 	}
 
 }

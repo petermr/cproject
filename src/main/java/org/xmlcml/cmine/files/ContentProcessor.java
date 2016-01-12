@@ -79,10 +79,10 @@ public class ContentProcessor {
 			}
 	}
 	
-	public void outputResultElements(ArgumentOption option, DefaultArgProcessor argProcessor ) {
+	public void outputResultElements(String namex, DefaultArgProcessor argProcessor ) {
 		resultsElementList = new ResultsElementList();
 		ensureResultsBySearcherNameMap();
-		for (DefaultSearcher optionSearcher : argProcessor.getSearcherList()) {
+		for (AbstractSearcher optionSearcher : argProcessor.getSearcherList()) {
 			String name = optionSearcher.getName();
 			ResultsElement resultsElement = resultsBySearcherNameMap.get(name);
 			if (resultsElement != null) {
@@ -90,8 +90,7 @@ public class ContentProcessor {
 				resultsElementList.add(resultsElement);
 			}
 		}
-		this.createResultsDirectoriesAndOutputResultsElement(
-				option, CTree.RESULTS_XML);
+		this.createResultsDirectoriesAndOutputResultsElement(namex);
 	}
 
 	public void writeResults(String resultsFileName, String results) throws Exception {
@@ -130,8 +129,8 @@ public class ContentProcessor {
 	 * @param resultsElementList
 	 * @param resultsDirectoryName
 	 */
-	public List<File> createResultsDirectoriesAndOutputResultsElement(ArgumentOption option, String resultsDirectoryName) {
-		File optionDirectory = new File(cmTree.getResultsDirectory(), option.getName());
+	public List<File> createResultsDirectoriesAndOutputResultsElement(String name) {
+		File optionDirectory = new File(cmTree.getResultsDirectory(), name);
 		List<File> outputDirectoryList = new ArrayList<File>();
 		for (ResultsElement resultsElement : resultsElementList) {
 			File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
@@ -142,7 +141,7 @@ public class ContentProcessor {
 	}
 
 	public File createResultsDirectoryAndOutputResultsElement(
-			ArgumentOption option, ResultsElement resultsElement, String resultsDirectoryName) {
+			ArgumentOption option, ResultsElement resultsElement/*, String resultsDirectoryName*/) {
 		File optionDirectory = new File(cmTree.getResultsDirectory(), option.getName());
 		File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
 		return outputDirectory;
@@ -157,7 +156,8 @@ public class ContentProcessor {
 		} else {
 			resultsSubDirectory = new File(optionDirectory, title);
 			resultsSubDirectory.mkdirs();
-			File resultsFile = new File(resultsSubDirectory, CTree.RESULTS_XML);
+			String resultsFileName = resultsElement.getChildElements().size() == 0 ? CTree.EMPTY_XML :  CTree.RESULTS_XML;
+			File resultsFile = new File(resultsSubDirectory, resultsFileName);
 			writeResults(resultsFile, resultsElement);
 			LOG.trace("Wrote "+resultsFile.getAbsolutePath());
 		}

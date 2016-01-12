@@ -18,6 +18,7 @@ public class CTreeTest {
 
 	private static final String TEST_CREATE = "target/testcreate";
 	private static final String TARGET_THESES = TEST_CREATE+"/theses/";
+	
 	private static final Logger LOG = Logger.getLogger(CTreeTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);

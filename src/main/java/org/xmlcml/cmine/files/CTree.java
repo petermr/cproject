@@ -142,6 +142,7 @@ public class CTree extends CContainer {
 	private static final String XML      = "xml";
 
 	public static final String ABSTRACT_HTML      = "abstract.html";
+	public static final String EMPTY_XML          = "empty.xml";
 	public static final String FULLTEXT_DOCX      = "fulltext.docx";
 	public static final String FULLTEXT_HTML      = "fulltext.html";
 	public static final String FULLTEXT_PDF       = "fulltext.pdf";

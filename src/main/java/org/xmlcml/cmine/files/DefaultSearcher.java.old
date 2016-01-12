@@ -1,0 +1,264 @@
+package org.xmlcml.cmine.files;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.xmlcml.cmine.args.DefaultArgProcessor;
+import org.xmlcml.cmine.lookup.AbstractDictionary;
+import org.xmlcml.xml.XPathGenerator;
+
+import nu.xom.Attribute;
+import nu.xom.Element;
+
+public class DefaultSearcher {
+
+	public static final Logger LOG = Logger.getLogger(DefaultSearcher.class);
+	public static final String POST = "post";
+	public static final String EXACT = "exact";
+	public static final String PRE = "pre";
+	public static int DEFAULT_PRE_WORD_COUNT = 10;
+	public static int DEFAULT_POST_WORD_COUNT = 10;
+	
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
+
+
+	protected String name;
+	protected Integer[] contextCounts;
+	public Pattern pattern;
+	protected AbstractDictionary dictionary;
+	public List<String> stringList;
+	public int maxPreWordCount = DEFAULT_PRE_WORD_COUNT;
+	public int maxPostWordCount = DEFAULT_POST_WORD_COUNT;
+	protected DefaultArgProcessor argProcessor;
+
+	public DefaultSearcher(DefaultArgProcessor argProcessor2) {
+		this.argProcessor = argProcessor;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public ResultsElement search(List<? extends Element> elements) {
+		ResultsElement resultsElement = new ResultsElement();
+		for (Element element : elements) {
+			ResultsElement subResultsElement = this.searchXomElement(element);
+
+			if (subResultsElement.size() > 0) {
+				String xpath = new XPathGenerator(element).getXPath();
+				LOG.trace("XPATH :"+xpath+"; "+element.toXML());
+				subResultsElement.setXPath(xpath);
+				resultsElement.transferResultElements(subResultsElement);
+			}
+		}
+		return resultsElement;
+	}
+
+	/** create resultsElement.
+	 * 
+	 * May be empty if no hits
+	 * 
+	 * @param xomElement
+	 * @return
+	 */
+	public ResultsElement searchXomElement(Element xomElement) {
+		ResultsElement resultsElement = new ResultsElement();
+		String value = getValue(xomElement);
+		List<ResultElement> resultElementList = search(value); // crude to start with
+		for (ResultElement resultElement : resultElementList) {
+			resultsElement.appendChild(resultElement);
+		}
+		return resultsElement;
+	}
+
+	/** flatten all tags.
+	 * 
+	 * @param xomElement
+	 * @return
+	 */
+	public String getValue(Element xomElement) {
+		return xomElement.getValue();
+	}
+
+	public List<ResultElement> search(String value) {
+		List<ResultElement> resultElementList = null;
+		if (getDictionary() != null) {
+			resultElementList = searchWithDictionary(value);
+		} else if (getPattern() != null) {
+			resultElementList = searchWithPattern(value);
+		}
+		return resultElementList;
+	}
+
+	private List<ResultElement> searchWithDictionary(String value) {
+		List<ResultElement> resultElementList = new ArrayList<ResultElement>();
+		List<String> stringList = argProcessor.ensureWordCollectionFactory();
+//		createWordList
+//		makeStrings();
+		for (String string : stringList) {
+			if (true) throw new RuntimeException("NYI");
+			//CHECK THIS
+			ResultElement resultElement = createResultElement(value, dictionary);
+			resultElementList.add(resultElement);
+		}
+		return resultElementList;
+	}
+
+	private List<ResultElement> searchWithPattern(String value) {
+		List<ResultElement> resultElementList = new ArrayList<ResultElement>();
+		Matcher matcher = getPattern().matcher(value);
+		int start = 0;
+		while (matcher.find(start)) {
+			ResultElement resultElement = createResultElement(value, matcher);
+			resultElementList.add(resultElement);
+			start = matcher.end();
+		}
+		return resultElementList;
+	}
+	
+	protected Pattern getPattern() {
+//		throw new RuntimeException("Must overload getPattern()");
+		return null;
+	}
+	
+	protected ResultElement createResultElement(String value, Matcher Matcher) {
+		throw new RuntimeException("Must overload createResultElement(String value, Matcher Matcher))");
+	}
+
+	protected ResultElement createResultElement(String value, AbstractDictionary dictionary) {
+		junk();
+	}
+
+	protected ResultElement createResultElement() {
+		throw new RuntimeException("Must override createResultElement()");
+	}
+
+	public void setDictionary(AbstractDictionary dictionary) {
+		this.dictionary = dictionary;
+	}
+
+	public AbstractDictionary getDictionary() {
+		return dictionary;
+	}
+
+	public ResultsElement searchWithDictionary(List<String> strings) {
+		ResultsElement resultsElement = new ResultsElement();
+		for (int pos = 0; pos < strings.size(); pos++) {
+			String firstword = strings.get(pos);
+			List<List<String>> trailingListList = dictionary.getTrailingWords(firstword);
+			if (trailingListList != null) {
+				int trailingOffset = canFitTrailing(trailingListList, strings, pos);
+				if (trailingOffset != -1) {
+					ResultElement resultElement = createResultElement(strings, pos, trailingOffset);
+					resultsElement.appendChild(resultElement);
+				}
+			}
+		}
+		return resultsElement;
+	}
+
+	/**
+	 * 
+	 * iterates over lists of lists of possible trailing words looking for first possible match of all words in order
+	 * currently no proximity matching, 
+	 * 
+	 * [[mental,health,study],[mental,health]] matches "mental health study" but 
+	 * [[mental,health],[mental,health,study]] matches "mental health" but 
+	 * 
+	 * [[health,study]] matches "health study" but not "health and safety study"
+	 * 
+	 *  This should ultimately work with stemming and lowercasing
+	 * 
+	 * @param trailingListList List of Lists of trailing strings
+	 * @param strings tokens to match
+	 * @param pos index of firstword
+	 * @return
+	 */
+	public int canFitTrailing(List<List<String>> trailingListList, List<String> strings, int pos) {
+		for (List<String> trailingList : trailingListList) {
+			LOG.trace("match: "+strings.get(pos));
+			boolean matched = true;
+			int offset;
+			for (offset = 0; offset < trailingList.size(); offset++) {
+				int stringPos = pos + 1 + offset;
+				if (stringPos >= strings.size()) {
+					matched = false;
+				} else if (!matchIncludingTrailingPunctuation(strings.get(stringPos), trailingList.get(offset))) {
+					matched = false;
+				}
+				if (!matched) {
+					LOG.trace(">> "+strings.get(stringPos));
+					break;
+				}
+			}
+			if (matched) {
+				return offset;
+			}
+		}
+		return -1;
+	}
+
+	public boolean matchIncludingTrailingPunctuation(String raw, String term) {
+		int difflength = raw.length() - term.length();
+		if (difflength < 0 || difflength > 1) {
+			return false;
+		} else if (raw.equals(term)) {
+			return true;
+		}
+		// ignore trailing punctuation
+		if (difflength == 1 && raw.startsWith(term)) {
+			char c = raw.charAt(raw.length() - 1);
+			return c == ';' || c == ',' || c == '.' || c == '!' || c== '?';
+		}
+		return false;
+	}
+
+	public ResultElement createResultElement(List<String> strings, int pos, int offset) {
+		this.stringList = strings;
+		ResultElement resultElement = new ResultElement();
+		resultElement.addAttribute(new Attribute(PRE, StringUtils.join(createPreStringList(pos).iterator(), " ")));
+		resultElement.addAttribute(new Attribute(EXACT, StringUtils.join(createExactStringList(pos, offset).iterator(), " ")));
+		resultElement.addAttribute(new Attribute(POST, StringUtils.join(createPostStringList(pos + offset).iterator(), " ")));
+		return resultElement;
+	}
+
+	public List<String> createPreStringList(int pos) {
+		List<String> preStringList = new ArrayList<String>();
+		for (int i = Math.max(0, pos - getMaxPreWordCount()); i < pos; i++) {
+			preStringList.add(stringList.get(i));
+		}
+		return preStringList;
+	}
+
+	public List<String> createExactStringList(int pos, int offset) {
+		List<String> exactStringList = new ArrayList<String>();
+		for (int i = pos; i <= pos + offset; i++) {
+			exactStringList.add(stringList.get(i));
+		}
+		return exactStringList;
+	}
+
+	public List<String> createPostStringList(int pos) {
+		List<String> postStringList = new ArrayList<String>();
+		for (int i = pos + 1; i < Math.min(stringList.size(), pos + getMaxPostWordCount()); i++) {
+			postStringList.add(stringList.get(i));
+		}
+		return postStringList;
+	}
+
+	public int getMaxPreWordCount() {
+		return maxPreWordCount;
+	}
+
+	public int getMaxPostWordCount() {
+		return maxPostWordCount;
+	}
+
+}
