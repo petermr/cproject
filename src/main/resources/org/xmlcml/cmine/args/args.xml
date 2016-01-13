@@ -1,5 +1,5 @@
 <argList name="cmine" version="0.2.0">
-  <p>20160112<: refactoring to transfer some classes to AMI</p>
+  <p>20160112: refactoring to transfer some classes such as searchers to AMI</p>
   <p>20150807: added logfile</p>
 
 	<arg name="input" 
