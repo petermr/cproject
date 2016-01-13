@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.files;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 	}
 
 	protected List<ResultsElement> resultsElementList;
+	private List<String> titles;
 	
 	public ResultsElementList() {
 	}
@@ -53,5 +55,60 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 	public List<ResultsElement> getResultsElementList() {
 		ensureResultsElementList();
 		return resultsElementList;
+	}
+
+	/** sorts list by title attribute
+	 * 
+	 */
+	public void sortByTitle() {
+		titles = getTitles();
+		Collections.sort(titles);
+		if (!checkTitles()) {
+			LOG.warn("non-unique title list");
+			return;
+		}
+		List<ResultsElement> newResultsElementList = new ArrayList<ResultsElement>();
+		for (String title : titles) {
+			for (ResultsElement resultsElement : resultsElementList) {
+				String resultsTitle = resultsElement.getTitle();
+				if (title.equals(resultsTitle)) {
+					newResultsElementList.add(resultsElement);
+					break;
+				}
+			}
+		}
+		if (newResultsElementList.size() != this.size()) {
+			throw new RuntimeException("Some resultsElement/s do not have titles");
+		} 
+		this.resultsElementList = newResultsElementList;
+	}
+
+/** checks that sorted titles are all non-null/non-empty and there are no duplicates
+ * 
+ * @return
+ */
+	private boolean checkTitles() {
+		boolean ok = true;
+		for (int i = 0 ; i < titles.size(); i++) {
+			String title = titles.get(i);
+			if (title == null || title.trim().equals("")) {
+				LOG.warn("Missing title on resultsList");
+				ok = false;
+				continue;
+			}
+			if (i > 0 && titles.get(i-1).equals(title)) {
+				LOG.warn("Duplicate title on resultsList: "+title);
+				ok = false;
+			}
+		}
+		return ok;
+	}
+
+	private List<String> getTitles() {
+		titles = new ArrayList<String>();
+		for (ResultsElement resultsElement : resultsElementList) {
+			titles.add(resultsElement.getTitle());
+		}
+		return titles;
 	}
 }
