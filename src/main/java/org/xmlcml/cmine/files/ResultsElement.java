@@ -101,8 +101,8 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	 * @param subResultsElement source of ResultElement's
 	 */
 	public void transferResultElements(ResultsElement subResultsElement) {
-		List<ResultElement> subResults = subResultsElement.getOrCreateResultElementList();
-		for (ResultElement subResult : subResults) {
+//		List<ResultElement> subResults = subResultsElement.getOrCreateResultElementList();
+		for (ResultElement subResult : subResultsElement) {
 			subResult.detach();
 			this.appendChild(subResult);
 		}

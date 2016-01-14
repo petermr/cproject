@@ -1085,7 +1085,7 @@ public class DefaultArgProcessor {
 			try {
 				method = this.getClass().getMethod(methodName, option.getClass()); 
 			} catch (NoSuchMethodException nsme) {
-				throw new RuntimeException(methodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
+				throw new RuntimeException(methodName+"; "+this.getClass()+"; "+option.getClass()+"; \nmethod not implemented: ", nsme);
 			}
 			try {
 				method.setAccessible(true);
