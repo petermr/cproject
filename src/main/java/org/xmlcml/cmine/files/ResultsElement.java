@@ -203,5 +203,15 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 		}
 		return false;
 	}
+	
+	public ResultElement get(int i) {
+		return resultElementList == null || resultElementList.size() <= i ? null : resultElementList.get(i); 
+	}
+
+	public void remove(int i) {
+		if (resultElementList != null && resultElementList.size() > i) {
+			resultElementList.remove(i); 
+		}
+	}
 
 }

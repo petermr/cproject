@@ -106,8 +106,10 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 
 	private List<String> getTitles() {
 		titles = new ArrayList<String>();
-		for (ResultsElement resultsElement : resultsElementList) {
-			titles.add(resultsElement.getTitle());
+		if (resultsElementList != null) {
+			for (ResultsElement resultsElement : resultsElementList) {
+				titles.add(resultsElement.getTitle());
+			}
 		}
 		return titles;
 	}
