@@ -1,16 +1,15 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import nu.xom.Element;
-
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+
+import nu.xom.Element;
 
 public class CProject extends CContainer {
 

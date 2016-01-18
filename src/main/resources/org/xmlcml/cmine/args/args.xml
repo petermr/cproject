@@ -1,4 +1,5 @@
-<argList name="cmine" version="0.2.2">
+<argList name="cmine" version="0.2.3">
+  <p>20160118: dictionary enhancement</p>
   <p>20160118: dictionary enhancement</p>
   <p>20160114: changed List ResultElement to ResultsElement</p>
   <p>20160112: refactoring to transfer some classes such as searchers to AMI</p>

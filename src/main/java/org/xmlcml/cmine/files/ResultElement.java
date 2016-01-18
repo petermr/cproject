@@ -1,10 +1,11 @@
 package org.xmlcml.cmine.files;
 
-import nu.xom.Attribute;
-import nu.xom.Element;
-
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.lookup.AbstractDictionary;
+
+import nu.xom.Attribute;
+import nu.xom.Element;
 
 /** a container for a "result" from an action on a CTree.
  * 
@@ -29,6 +30,8 @@ public class ResultElement extends Element {
 	public  static final String TAG    = "result";
 	public  static final String TITLE  = "title";
 	private static final String XPATH  = "xpath";
+	private static final String DICTIONARY = "dictionary";
+	private static final String DICTIONARY_CHECK = "dictionaryCheck";
 
 	public ResultElement() {
 		super(TAG);
@@ -103,6 +106,20 @@ public class ResultElement extends Element {
 		if (lookupName != null && lookupId != null) {
 			this.addAttribute(new Attribute("_LOOKUP_"+lookupName, lookupId));
 		}
+	}
+
+	/** creates attribute of form:
+	 * 
+	 * dictionary="my/dictionary" dictionaryCheck="false" (or "true")
+	 * 
+	 * doesn't really work for multiple dictionaries
+	 * 
+	 * @param dictionary
+	 * @param checked
+	 */
+	public void setDictionaryCheck(AbstractDictionary dictionary, boolean checked) {
+		this.addAttribute(new Attribute(DICTIONARY, dictionary.toString()));
+		this.addAttribute(new Attribute(DICTIONARY_CHECK, String.valueOf(checked)));
 	}
 
 	

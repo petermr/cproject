@@ -8,15 +8,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import nu.xom.Element;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.xerces.impl.xpath.regex.REUtil;
 import org.xmlcml.cmine.args.ArgumentOption;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Element;
 
 /** manages the processing by Norma or AMI.
  * 

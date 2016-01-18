@@ -12,9 +12,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-import nu.xom.Document;
-import nu.xom.Element;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
@@ -27,6 +24,9 @@ import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
+
+import nu.xom.Document;
+import nu.xom.Element;
 
 
 /** collection of files within the ContentMine system.
