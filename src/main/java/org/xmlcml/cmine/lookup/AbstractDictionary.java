@@ -48,7 +48,7 @@ public abstract class AbstractDictionary {
 //			File file = new File(dictionaryName);
 			dictionary = new StringDictionary();
 			try {
-				dictionary.readFile(dictionarySource, is);
+				dictionary.setInputStream(dictionarySource, is);
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot read dictionary File: "+dictionarySource, e);
 			}
@@ -56,7 +56,7 @@ public abstract class AbstractDictionary {
 		return dictionary;
 	}
 
-	protected abstract void readFile(String dictionarySource, InputStream is) throws IOException;
+	protected abstract void setInputStream(String dictionarySource, InputStream is) throws IOException;
 
 	public Map<String, List<List<String>>> getTrailingWordsByLeadWord() {
 		return trailingWordsByLeadWord;

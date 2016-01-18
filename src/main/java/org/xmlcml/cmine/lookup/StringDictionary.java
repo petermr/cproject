@@ -23,7 +23,7 @@ public class StringDictionary extends AbstractDictionary {
 		
 	}
 
-	public void readFile(String name, InputStream is) throws IOException {
+	public void setInputStream(String name, InputStream is) throws IOException {
 		Element dictionaryElement = XMLUtil.parseQuietlyToDocument(is).getRootElement();
 		title = dictionaryElement.getAttributeValue("title");
 		List<Element> entryList = XMLUtil.getQueryElements(dictionaryElement, "entry");
