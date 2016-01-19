@@ -118,8 +118,11 @@ public class ResultElement extends Element {
 	 * @param checked
 	 */
 	public void setDictionaryCheck(AbstractDictionary dictionary, boolean checked) {
-		this.addAttribute(new Attribute(DICTIONARY, dictionary.toString()));
-		this.addAttribute(new Attribute(DICTIONARY_CHECK, String.valueOf(checked)));
+		String title = dictionary.getTitle();
+		if (title != null) {
+			this.addAttribute(new Attribute(DICTIONARY, title));
+			this.addAttribute(new Attribute(DICTIONARY_CHECK, String.valueOf(checked)));
+		}
 	}
 
 	
