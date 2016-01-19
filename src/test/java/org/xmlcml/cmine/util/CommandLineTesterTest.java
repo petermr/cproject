@@ -1,8 +1,9 @@
 package org.xmlcml.cmine.util;
 
-import junit.framework.Assert;
-
+import org.junit.Ignore;
 import org.junit.Test;
+
+import junit.framework.Assert;
 
 /** tests CommandLineTester.
  * 
@@ -12,6 +13,7 @@ import org.junit.Test;
 public class CommandLineTesterTest {
 
 	@Test
+	@Ignore // pwd is not consistent for different users
 	public void testPwd() throws Exception {
 		CommandLineTester tester = new CommandLineTester();
 		tester.setCommand("pwd");
