@@ -1,4 +1,4 @@
 <dictionary title="dummy">
-  <entry>foo</entry>
-  <entry>bar</entry>
+  <entry term="foo"/>
+  <entry term="bar"/>
 </dictionary>

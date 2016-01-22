@@ -38,7 +38,8 @@ import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.files.EuclidSource;
 import org.xmlcml.cmine.files.Unzipper;
-import org.xmlcml.cmine.lookup.AbstractDictionary;
+import org.xmlcml.cmine.files.XMLSnippets;
+import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.HtmlP;
@@ -178,7 +179,8 @@ public class DefaultArgProcessor {
 	private boolean unzip = false;
 	private List<List<String>> renamePairs;
 	private String zipRootName;
-	protected List<AbstractDictionary> dictionaryList;
+	protected List<DefaultStringDictionary> dictionaryList;
+	private String searchExpression;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -408,6 +410,10 @@ public class DefaultArgProcessor {
 	public void parseRename(ArgumentOption option, ArgIterator argIterator) {
 		setRenamePairs(option, argIterator);
 	}
+	
+	public void parseSearch(ArgumentOption option, ArgIterator argIterator) {
+		setSearch(option, argIterator);
+	}
 
 	public void parseDictionary(ArgumentOption option, ArgIterator argIterator) {
 		List<String> dictionarySources = argIterator.createTokenListUpToNextNonDigitMinus(option);
@@ -422,7 +428,7 @@ public class DefaultArgProcessor {
 			if (is == null) {
 				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
 			}
-			AbstractDictionary dictionary = AbstractDictionary.createDictionary(dictionarySource, is);
+			DefaultStringDictionary dictionary = DefaultStringDictionary.createDictionary(dictionarySource, is);
 			if (dictionary == null) {
 				throw new RuntimeException("cannot read/create dictionary: "+dictionarySource);
 			}
@@ -432,12 +438,18 @@ public class DefaultArgProcessor {
 
 	protected void ensureDictionaryList() {
 		if (dictionaryList == null) {
-			dictionaryList = new ArrayList<AbstractDictionary>();
+			dictionaryList = new ArrayList<DefaultStringDictionary>();
 		}
 	}
 
 	public void runMakeDocs(ArgumentOption option) {
 		transformArgs2html();
+	}
+
+	public void runSearch(ArgumentOption option) {
+		// maybe need this for CProject as well
+		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
+		fileXPathSearcher.search();
 	}
 
 	public void runTest(ArgumentOption option) {
@@ -446,7 +458,17 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputMethod(ArgumentOption option) {
-		//LOG.error("outputMethod needs overwriting");
+		String output = getOutput();
+		if (cTreeList != null && output != null) {
+			Element snippetsListElement = currentCTree.getSnippetsListElement();
+			if (snippetsListElement != null) {
+				try {
+					XMLUtil.debug(snippetsListElement, new File(currentCTree.getDirectory(), output), 1);
+				} catch (IOException e) {
+					throw new RuntimeException("Cannot output snippets", e);
+				}
+			}
+		}
 	}
 
 	// =====================================
@@ -475,6 +497,15 @@ public class DefaultArgProcessor {
 	private void setIncludePatternString(ArgumentOption option, ArgIterator argIterator) {
 		List<String> includeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
+	}
+
+	private void setSearch(ArgumentOption option, ArgIterator argIterator) {
+		List<String> searchStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		if (searchStrings != null && searchStrings.size() == 1) {
+			searchExpression = searchStrings.get(0);
+		} else {
+			LOG.error("--search requires 1 expression");
+		}
 	}
 
 	private void setRenamePairs(ArgumentOption option, ArgIterator argIterator) {
@@ -691,7 +722,7 @@ public class DefaultArgProcessor {
 		};
 
 		cTreeList = new CTreeList();
-		LOG.trace("creating CTreeList from: "+qDirectoryNames);
+		LOG.debug("creating CTreeList from: "+qDirectoryNames);
 		for (String qDirectoryName : qDirectoryNames) {
 			File qDirectory = new File(qDirectoryName);
 			if (!qDirectory.exists()) {
@@ -1192,7 +1223,7 @@ public class DefaultArgProcessor {
 		return update;
 	}
 
-	public List<AbstractDictionary> getDictionaryList() {
+	public List<DefaultStringDictionary> getDictionaryList() {
 		return dictionaryList;
 	}
 

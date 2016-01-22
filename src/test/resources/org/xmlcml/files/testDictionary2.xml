@@ -1,8 +1,8 @@
 <dictionary title="dummy2">
-  <entry>foo2</entry>
-  <entry>foo2 plugh2</entry>
-  <entry>bar2</entry>
-  <entry>bar2 a</entry>
-  <entry>bar2 b c</entry>
-  <entry>jumbo</entry>
+  <entry term="foo2"/>
+  <entry term="foo2 plugh2"/>
+  <entry term="bar2"/>
+  <entry term="bar2 a"/>
+  <entry term="bar2 b c"/>
+  <entry term="jumbo"/>
 </dictionary>

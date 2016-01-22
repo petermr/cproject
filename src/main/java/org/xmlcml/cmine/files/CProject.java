@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -42,7 +43,7 @@ public class CProject extends CContainer {
 	
 	private Element projectTemplateElement;
 	private Element treeTemplateElement;
-	private List<CTree> cTreeList;
+	private CTreeList cTreeList;
 	private List<Pattern> allowedFilePatterns;
 	
 	public CProject(File cProjectDir) {
@@ -60,7 +61,7 @@ public class CProject extends CContainer {
 	
 	@Override
 	protected void getAllowedAndUnknownDirectories() {
-		cTreeList = new ArrayList<CTree>();
+		cTreeList = new CTreeList();
 		for (File directory : allChildDirectoryList) {
 			if (false) {
 			} else if (
@@ -109,7 +110,7 @@ public class CProject extends CContainer {
 				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_NAMES);
 	}
 
-	public List<CTree> getCTreeList() {
+	public CTreeList getCTreeList() {
 		this.getOrCreateFilesDirectoryCTreeLists();
 		return cTreeList;
 	}
@@ -176,4 +177,31 @@ public class CProject extends CContainer {
 		return pathName;
 	}
 
+	public List<CTreeFiles> listCTreeFiles(String glob) {
+		List<CTreeFiles> cTreeFilesList = new ArrayList<CTreeFiles>();
+		CTreeList cTreeList = this.getCTreeList();
+		for (CTree cTree : cTreeList) {
+			List<File> fileList = cTree.extractFiles(glob);
+			cTreeFilesList.add(new CTreeFiles(fileList));
+		}
+		return cTreeFilesList;
+	}
+
+	/** get list of matched Elements from CTrees in project.
+	 * 
+	 * @param glob
+	 * @param xpath
+	 * @return
+	 */
+	public List<List<XMLSnippets>> getXPathSnippetsListList(String glob, String xpath) {
+		List<List<XMLSnippets>> elementListListList = new ArrayList<List<XMLSnippets>>();
+		CTreeList cTreeList = this.getCTreeList();
+		for (CTree cTree : cTreeList) {
+			List<XMLSnippets> elementListList = cTree.extractXPathSnippetsList(glob, xpath);
+			if (elementListList.size() > 0) {
+				elementListListList.add(new ArrayList<XMLSnippets>(elementListList));
+			}
+		}
+		return elementListListList;
+	}
 }

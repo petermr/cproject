@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 import nu.xom.Element;
@@ -10,6 +11,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
+import org.xmlcml.cmine.util.CMineTestFixtures;
 import org.xmlcml.html.HtmlElement;
 
 public class CProjectTest {
@@ -55,12 +57,11 @@ public class CProjectTest {
 	@Test
 	public void testGetCTreeList() {
 		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project1"));
-//		cProject.getOrCreateAllowedAndCTreeLists();
 		List<File> allChildDirectoryList = cProject.getAllChildDirectoryList();
 		Assert.assertEquals("all child dir", 2, allChildDirectoryList.size());
 		List<File> allChildFileList = cProject.getAllChildFileList();
 		Assert.assertEquals("all child file", 1, allChildFileList.size());
-		List<CTree> cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getCTreeList();
 		Assert.assertEquals("trees", 2, cTreeList.size());
 	}
 	
@@ -77,7 +78,7 @@ public class CProjectTest {
 		Assert.assertEquals("allowed child dir", 0, allowedChildDirectoryList.size());
 		List<File> unknownChildDirectoryList = cProject.getUnknownChildDirectoryList();
 		Assert.assertEquals("unknown child dir", 0, unknownChildDirectoryList.size());
-		List<CTree> cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getCTreeList();
 		Assert.assertEquals("all child dir", 3, cTreeList.size());
 		
 		List<File> allChildFileList = cProject.getAllChildFileList();
@@ -105,7 +106,7 @@ public class CProjectTest {
 		Assert.assertEquals("allowed child dir", 0, allowedChildDirectoryList.size());
 		List<File> unknownChildDirectoryList = cProject.getUnknownChildDirectoryList();
 		Assert.assertEquals("unknown child dir", 1, unknownChildDirectoryList.size());
-		List<CTree> cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getCTreeList();
 		Assert.assertEquals("all child dir", 2, cTreeList.size());
 		
 		List<File> allChildFileList = cProject.getAllChildFileList();
@@ -151,19 +152,19 @@ public class CProjectTest {
 	public void testRelativeProjectPath() {
 		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project3"));
 		String relativePath = cProject.getRelativeProjectPath(cProject.getResultsXMLFileList().get(0));
-		Assert.assertEquals("relpath", "ctree1/results/word/frequencies/results.xml", relativePath);
+		Assert.assertEquals("relpath", "ctree1/results/sequence/dnaprimer/results.xml", relativePath);
 	}
 
 	@Test
 	public void testResultsXML() {
 		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project3"));
 		List<File> resultsXMLFileList = cProject.getResultsXMLFileList();
-		Assert.assertEquals("all results.xml", 1, resultsXMLFileList.size());
+		Assert.assertEquals("all results.xml", 2, resultsXMLFileList.size());
 		cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "regex10"));
 		List<File> resultsXMLFiles = cProject.getResultsXMLFileList();
 		Assert.assertEquals("all results.xml", 10, resultsXMLFiles.size());
 		Assert.assertEquals("all results.xml", 9, cProject.getResultsXMLFileList(CProject.OMIT_EMPTY).size());
-		List<String> relativePaths = cProject.getRelativeProjectPaths(resultsXMLFiles);
+//		List<String> relativePaths = cProject.getRelativeProjectPaths(resultsXMLFiles);
 		/** possible unpredictable order
 		Assert.assertEquals("relative paths", 
 				"["
@@ -186,5 +187,103 @@ public class CProjectTest {
 	public void testUnzip() {
 		
 	}
+	
+	
+	@Test
+	public void testGlobFileListHuge() {
+		File patentFile = new File("../patents");
+		if (!patentFile.exists()) return; // only for PMR
+		CProject cProject = new CProject(new File(patentFile, "US08979"));
+		List<CTreeFiles> fileListList = cProject.listCTreeFiles("**/*");
+		Assert.assertEquals(995,  fileListList.size());
+		Assert.assertEquals(13,  fileListList.get(0).size());
+	}
+
+	
+	@Test
+	public void testGlobFileListHugeResults() {
+		File patentFile = new File("../patents");
+		if (!patentFile.exists()) return; // only for PMR
+		CProject cProject = new CProject(new File(patentFile, "US08979"));
+		List<CTreeFiles> fileListList = cProject.listCTreeFiles("**/results.xml");
+		Assert.assertEquals(995,  fileListList.size());
+		Assert.assertEquals(1,  fileListList.get(0).size());
+		Assert.assertEquals("../patents/US08979/US08979000-20150317/results/word/frequencies/results.xml",  
+				fileListList.get(0).get(0).toString());
+	}
+
+	/** files for project2 are:
+	 * /Users/pm286/workspace/cmine/src/test/resources/org/xmlcml/files/projects
+	 * 
+$ tree project2
+project2
+├── PMC4417228
+│   ├── fulltext.pdf
+│   └── fulltext.xml
+├── PMC4521097
+│   ├── fulltext.pdf
+│   └── fulltext.xml
+├── PMC4632522
+│   ├── fulltext.pdf
+│   └── fulltext.xml
+├── eupmc_results.json
+└── log.xml
+
+	 * 
+	 */
+	@Test
+	public void testGlobFileList() {
+		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project2"));
+		List<CTreeFiles> fileListList = cProject.listCTreeFiles("**/*");
+		// 3 CTrees of form PMCddddddd
+		Assert.assertEquals(3,  fileListList.size());
+		// the first one has two child files (fulltext.pdf and fulltext.xml)
+		Assert.assertEquals(2,  fileListList.get(0).size());
+		Assert.assertEquals("src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.pdf",  
+				fileListList.get(0).get(0).toString());
+		Assert.assertEquals("src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.xml",  
+				fileListList.get(0).get(1).toString());
+	}
+
+	@Test
+	public void testGlobFileListAndXPathSearch() throws IOException {
+		File targetDir = new File("target/glob/project2/ctree1");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
+		CProject cProject = new CProject(targetDir);
+		List<List<XMLSnippets>> snippetsListList = cProject.getXPathSnippetsListList("**/fulltext.xml", "//title[starts-with(.,'Data')]");
+		Assert.assertEquals(2, snippetsListList.size());
+		List<XMLSnippets> snippetsList0 = snippetsListList.get(0);
+		Assert.assertEquals(1, snippetsList0.size());
+		XMLSnippets elementList0 = snippetsList0.get(0);
+		Assert.assertEquals(2, elementList0.size());
+		Assert.assertEquals("Data collection", elementList0.getValue(0));
+		Assert.assertEquals("Data analysis", elementList0.getValue(1));
+		List<XMLSnippets> snippetsList1 = snippetsListList.get(1);
+		Assert.assertEquals(1, snippetsList1.size());
+		XMLSnippets snippets1 = snippetsList1.get(0);
+		Assert.assertEquals(1, snippets1.size());
+		Assert.assertEquals("Data accessibility", snippets1.get(0).getValue());
+	}
+	
+	@Test
+	public void testGlobFileListAndXPathSearchCommand() throws IOException {
+		File targetDir = new File("target/glob/project2/ctree1");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
+		CProject cProject = new CProject(targetDir);
+		List<List<XMLSnippets>> snippetsListList = cProject.getXPathSnippetsListList("**/fulltext.xml", "//title[starts-with(.,'Data')]");
+		Assert.assertEquals(2, snippetsListList.size());
+		List<XMLSnippets> elementListList0 = snippetsListList.get(0);
+		Assert.assertEquals(1, elementListList0.size());
+		XMLSnippets snippets0 = elementListList0.get(0);
+		Assert.assertEquals(2, snippets0.size());
+		Assert.assertEquals("Data collection", snippets0.get(0).getValue());
+		Assert.assertEquals("Data analysis", snippets0.get(1).getValue());
+		List<XMLSnippets> snippetsList1 = snippetsListList.get(1);
+		Assert.assertEquals(1, snippetsList1.size());
+		XMLSnippets snippets1 = snippetsList1.get(0);
+		Assert.assertEquals(1, snippets1.size());
+		Assert.assertEquals("Data accessibility", snippets1.get(0).getValue());
+	}
+	
 
 }

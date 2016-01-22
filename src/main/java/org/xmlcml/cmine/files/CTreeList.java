@@ -28,6 +28,13 @@ public class CTreeList implements Iterable<CTree> {
 		ensureCTreeList();
 	}
 
+	public CTreeList(List<CTree> cTrees) {
+		ensureCTreeList();
+		for (CTree cTree : cTrees) {
+			cmTreeList.add(cTree);
+		}
+	}
+
 	private void ensureCTreeList() {
 		if (cmTreeList == null) {
 			cmTreeList = new ArrayList<CTree>();

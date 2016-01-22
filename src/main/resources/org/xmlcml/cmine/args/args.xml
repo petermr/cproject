@@ -1,4 +1,5 @@
-<argList name="cmine" version="0.2.5">
+<argList name="cmine" version="0.2.6">
+  <p>20160122: added search paths and globbing</p>
   <p>20160118: minor syncs with ami</p>
   <p>20160118: dictionary enhancement</p>
   <p>20160118: dictionary enhancement</p>
@@ -186,7 +187,7 @@
 		>
 		<help>
 			<p>Directory to write summaries to.</p>
-			<p class="note">Not fully developed.</p>
+			<p class="note">Not fully developed. Some functions provided by --search</p>
 		</help>
 	</arg>
 		
@@ -305,6 +306,24 @@
 	    <help>
 	    <p>Dictionaries for lookup. sources follow EuclidSource and can be resources, files, or URLs.
 	    in some cases they may also be symbolic.</p>
+	    </help>
+	</arg>
+	    
+	<arg name="search"
+	    long="--search"
+	    args="searchExpression"
+	    parseMethod="parseSearch"
+	    runMethod="runSearch"
+	    countRange="{1,1}"
+	    >
+	    <help>
+	    <p>Searches files with glob, and XML documents with Xpath.</p>
+	    <p>The search expression is of the form:<code>
+	    file(glob-expression)[.xpath(xpath-expression)[.file() ...]]</code>.
+	    The result is either a list of files or an list of Xpath snippets, depending on the final
+	    search component. The result is held in an XML file. We try to record both the files and the 
+	    snippets and extract the hierarchy. Still being developed.
+	    </p>
 	    </help>
 	</arg>
 	

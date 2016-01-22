@@ -12,6 +12,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
+import org.xmlcml.cmine.util.CMineTestFixtures;
 
 
 public class CTreeTest {
@@ -127,7 +128,7 @@ public class CTreeTest {
 	@Test
 	public void testCTreeContent1() {
 		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project1"));
-		List<CTree> cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getCTreeList();
 		CTree cTree1 = cTreeList.get(0);
 		cTree1.getOrCreateFilesDirectoryCTreeLists();
 		List<File> allChildDirectoryList = cTree1.getAllChildDirectoryList();
@@ -136,5 +137,80 @@ public class CTreeTest {
 		Assert.assertEquals("all child file", 1, allChildFileList.size());
 
 	}
+	
+	@Test
+	public void testGlobFileList() {
+		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228/");
+		CTree cTree = new CTree(pmc4417228);
+		// NOTE: The "**" is required
+		List<File> fileList = cTree.extractFiles("**/fulltext.*");
+		Assert.assertEquals(2,  fileList.size());
+		Assert.assertEquals("src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.pdf",  
+				fileList.get(0).toString());
+		Assert.assertEquals("src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.xml",  
+				fileList.get(1).toString());
+	}
+	
+	
+	@Test
+	public void testGlobFileListAndXML() {
+		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228/");
+		CTree cTree = new CTree(pmc4417228);
+		List<XMLSnippets> xpathSnippetsList = cTree.extractXPathSnippetsList("**/fulltext.xml", "//kwd");
+		Assert.assertEquals(1, xpathSnippetsList.size());
+		XMLSnippets snippets0 = xpathSnippetsList.get(0);
+		Assert.assertEquals(10, snippets0.size());
+		Assert.assertEquals("Central Europe", snippets0.getValue(0));
+		Assert.assertEquals("Habitats", snippets0.getValue(4));
+		Assert.assertEquals("Sustainability", snippets0.getValue(9));
+	}
+	
+	@Test
+	public void testGlobFileAndXpathCommand() throws IOException {
+		File targetDir = new File("target/glob/pmc4417228");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228"), targetDir);
+		String output = "snippets.xml";
+		String args = " -q " + targetDir+" --search file(**/fulltext.xml)xpath(//kwd) -o "+output;
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		for (CTree cTree : argProcessor.getCTreeList()) {
+			List<XMLSnippets> snippetsList = cTree.getSnippetsList();
+			LOG.debug("SNIPx "+snippetsList);
+		}
+	}
+
+	@Test
+	public void testGlobResultsAndXpathCommand() throws IOException {
+		File targetDir = new File("target/glob/project3/ctree1");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project3/ctree1"), targetDir);
+		String output = "snippets.xml";
+		String args = " -q " + targetDir+" --search file(**/results.xml)xpath(//result) -o "+output;
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		for (CTree cTree : argProcessor.getCTreeList()) {
+			List<XMLSnippets> snippetsList = cTree.getSnippetsList();
+			LOG.debug("SNIPy "+snippetsList);
+		}
+	}
+
+//	Not working - use CProject
+//	@Test
+//	public void testGlobFilesAndXpathCommand() {
+//		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228");
+//		File pmc4521097 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4521097");
+//		File pmc4632522 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4632522");
+//		String output = "../../project2/snippets.xml";
+//		String args = " -q " + pmc4417228 + " " + pmc4521097 + " " + pmc4632522 + " --search file(**/fulltext.xml)xpath(//kwd) -o "+output;
+//		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+//		argProcessor.parseArgs(args);
+//		argProcessor.runAndOutput();
+//		for (CTree cTree : argProcessor.getCTreeList()) {
+//			List<XMLSnippets> snippetsList = cTree.getSnippetsList();
+//			LOG.debug("SNIPz "+snippetsList);
+//		}
+//	}
+
 
 }

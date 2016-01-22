@@ -8,7 +8,7 @@ import java.util.Map;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.Test;
-import org.xmlcml.cmine.lookup.AbstractDictionary;
+import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 
 import junit.framework.Assert;
 
@@ -29,13 +29,13 @@ public class DictionaryTest {
 		argProcessor.parseArgs("-q "+targetFile+" -i fulltext.txt  "
 				+ "--c.dictionary src/test/resources/org/xmlcml/files/testDictionary.xml "
 				+ "               /org/xmlcml/files/testDictionary2.xml");
-		List<AbstractDictionary> dictionaryList = argProcessor.getDictionaryList();
+		List<DefaultStringDictionary> dictionaryList = argProcessor.getDictionaryList();
 		Assert.assertEquals("dictionaries", 2, dictionaryList.size());
-		AbstractDictionary dictionary0 = dictionaryList.get(0);
+		DefaultStringDictionary dictionary0 = dictionaryList.get(0);
 		Map<String, List<List<String>>> listsByWord0 = dictionary0.getTrailingWordsByLeadWord();
 		Assert.assertEquals("list0", 2, listsByWord0.size());
 		Assert.assertEquals("single", "[[]]", listsByWord0.get("bar").toString());
-		AbstractDictionary dictionary1 = dictionaryList.get(1);
+		DefaultStringDictionary dictionary1 = dictionaryList.get(1);
 		Map<String, List<List<String>>> listsByWord1 = dictionary1.getTrailingWordsByLeadWord();
 		Assert.assertEquals("list0", 3, listsByWord1.size());
 		Assert.assertEquals("single", "[[], [a], [b, c]]", listsByWord1.get("bar2").toString());

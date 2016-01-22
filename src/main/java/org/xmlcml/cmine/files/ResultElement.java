@@ -2,7 +2,7 @@ package org.xmlcml.cmine.files;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.cmine.lookup.AbstractDictionary;
+import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -117,7 +117,7 @@ public class ResultElement extends Element {
 	 * @param dictionary
 	 * @param checked
 	 */
-	public void setDictionaryCheck(AbstractDictionary dictionary, boolean checked) {
+	public void setDictionaryCheck(DefaultStringDictionary dictionary, boolean checked) {
 		String title = dictionary.getTitle();
 		if (title != null) {
 			this.addAttribute(new Attribute(DICTIONARY, title));
