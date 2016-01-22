@@ -15,7 +15,7 @@ import nu.xom.Element;
  * @author pm286
  *
  */
-public class CTreeFiles implements Iterable<File> {
+public class CTreeFiles implements Iterable<File>/* , Comparable<CTreeFiles>*/ {
 
 	private static final Logger LOG = Logger.getLogger(XMLSnippets.class);
 	static {
@@ -45,6 +45,16 @@ public class CTreeFiles implements Iterable<File> {
 		return this.fileList == null || i >= fileList.size() || i < 0 
 				? null : fileList.get(i);
 	}
+
+//	public int compareTo(CTreeFiles o) {
+//		int result = this.fileList.size() - o.fileList.size();
+//		if (result == 0) {
+//			for (int i = 0; i < this.size(); i++) {
+//				int j = this.fileList.gt
+//			}
+//		}
+//		return 0;
+//	}
 
 
 }
