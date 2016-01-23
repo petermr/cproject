@@ -309,6 +309,7 @@ project2
 </projectSnippetsTree>
 */		
 		ProjectSnippetsTree projectSnippetsTree = argProcessor.getProjectSnippetsTree();
+		LOG.debug(projectSnippetsTree);
 		Assert.assertEquals("snippetsTrees", 2, projectSnippetsTree.size());
 		SnippetsTree snippetsTree0 = projectSnippetsTree.get(0);
 		Assert.assertEquals("snippet", 1, snippetsTree0.size());
