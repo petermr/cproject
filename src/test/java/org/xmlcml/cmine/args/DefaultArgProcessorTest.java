@@ -40,16 +40,16 @@ public class DefaultArgProcessorTest {
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		Assert.assertEquals("input", 2, argProcessor.getInputList().size());
-		Assert.assertEquals("input", "foo{1:3}bof", argProcessor.getInputList().get(0));
-		Assert.assertEquals("input", "bar{a|b|zzz}plugh", argProcessor.getInputList().get(1));
+		Assert.assertEquals("input", "foo{1:3}bof", argProcessor.getInputList().get(1));
+		Assert.assertEquals("input", "bar{a|b|zzz}plugh", argProcessor.getInputList().get(0));
 		argProcessor.expandWildcardsExhaustively();
 		Assert.assertEquals("input", 6, argProcessor.getInputList().size());
-		Assert.assertEquals("input", "foo1bof", argProcessor.getInputList().get(0));
-		Assert.assertEquals("input", "foo2bof", argProcessor.getInputList().get(1));
-		Assert.assertEquals("input", "foo3bof", argProcessor.getInputList().get(2));
-		Assert.assertEquals("input", "baraplugh", argProcessor.getInputList().get(3));
-		Assert.assertEquals("input", "barbplugh", argProcessor.getInputList().get(4));
-		Assert.assertEquals("input", "barzzzplugh", argProcessor.getInputList().get(5));
+		Assert.assertEquals("input", "baraplugh", argProcessor.getInputList().get(0));
+		Assert.assertEquals("input", "barbplugh", argProcessor.getInputList().get(1));
+		Assert.assertEquals("input", "barzzzplugh", argProcessor.getInputList().get(2));
+		Assert.assertEquals("input", "foo1bof", argProcessor.getInputList().get(3));
+		Assert.assertEquals("input", "foo2bof", argProcessor.getInputList().get(4));
+		Assert.assertEquals("input", "foo3bof", argProcessor.getInputList().get(5));
 	}
 	
 	
