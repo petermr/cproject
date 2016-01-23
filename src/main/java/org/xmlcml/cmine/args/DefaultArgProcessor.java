@@ -993,6 +993,8 @@ public class DefaultArgProcessor {
 			}
 		}
 		inputList = inputList0;
+		Collections.sort(inputList);
+		LOG.debug("sorted: "+inputList);
 	}
 
 	/** will return a sorted list
@@ -1008,6 +1010,7 @@ public class DefaultArgProcessor {
 			inputList0.add(file0.toString());
 		}
 		Collections.sort(inputList0);
+		LOG.debug("sort: "+inputList0);
 	}
 
 	private String[] addDefaultsAndParsedArgs(String[] commandLineArgs) {
