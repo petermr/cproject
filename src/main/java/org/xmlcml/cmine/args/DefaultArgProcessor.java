@@ -13,6 +13,7 @@ import java.lang.reflect.Method;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
@@ -994,6 +995,11 @@ public class DefaultArgProcessor {
 		inputList = inputList0;
 	}
 
+	/** will return a sorted list
+	 * 
+	 * @param inputList0
+	 * @param file
+	 */
 	private void addDirectoryFiles(List<String> inputList0, File file) {
 		String[] extensions = getExtensions().toArray(new String[0]);
 		List<File> files = new ArrayList<File>(
@@ -1001,6 +1007,7 @@ public class DefaultArgProcessor {
 		for (File file0 : files) {
 			inputList0.add(file0.toString());
 		}
+		Collections.sort(inputList0);
 	}
 
 	private String[] addDefaultsAndParsedArgs(String[] commandLineArgs) {
