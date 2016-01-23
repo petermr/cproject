@@ -1,7 +1,6 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -9,6 +8,7 @@ import java.util.regex.Pattern;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.args.FileXPathSearcher;
 
 import nu.xom.Element;
 
@@ -45,6 +45,7 @@ public class CProject extends CContainer {
 	private Element treeTemplateElement;
 	private CTreeList cTreeList;
 	private List<Pattern> allowedFilePatterns;
+	private ProjectSnippetsTree projectSnippetsTree;
 	
 	public CProject(File cProjectDir) {
 		super();
@@ -193,15 +194,33 @@ public class CProject extends CContainer {
 	 * @param xpath
 	 * @return
 	 */
-	public List<List<XMLSnippets>> getXPathSnippetsListList(String glob, String xpath) {
-		List<List<XMLSnippets>> elementListListList = new ArrayList<List<XMLSnippets>>();
+	public ProjectSnippetsTree extractProjectSnippetsTree(String glob, String xpath) {
+		projectSnippetsTree = new ProjectSnippetsTree();
 		CTreeList cTreeList = this.getCTreeList();
 		for (CTree cTree : cTreeList) {
-			List<XMLSnippets> elementListList = cTree.extractXPathSnippetsList(glob, xpath);
-			if (elementListList.size() > 0) {
-				elementListListList.add(new ArrayList<XMLSnippets>(elementListList));
+			SnippetsTree snippetsTree = cTree.extractXPathSnippetsTree(glob, xpath);
+			if (snippetsTree.size() > 0) {
+				projectSnippetsTree.add(snippetsTree);
 			}
 		}
-		return elementListListList;
+		return projectSnippetsTree;
+	}
+	
+	/** get list of matched Elements from CTrees in project.
+	 * 
+	 * @param glob
+	 * @param xpath
+	 * @return
+	 */
+	public ProjectSnippetsTree extractProjectSnippetsTree(String searchExpression) {
+		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(searchExpression);
+		String glob = fileXPathSearcher.getCurrentGlob();
+		String xpath = fileXPathSearcher.getCurrentXPath();
+		projectSnippetsTree = extractProjectSnippetsTree(glob, xpath);
+		return projectSnippetsTree;
+	}
+
+	public ProjectSnippetsTree getProjectSnippetsTree() {
+		return projectSnippetsTree;
 	}
 }

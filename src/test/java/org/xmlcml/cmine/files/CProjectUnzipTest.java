@@ -25,7 +25,7 @@ public class CProjectUnzipTest {
 	public void testUnzip() throws IOException {
 		copyToAndCleanOutDir(new File(CMineFixtures.MISC_DIR, "zips"));
 		String args = "-i fulltext.xml -o scholarly.html --project "+targetZips;
-		LOG.debug(args);
+		LOG.trace(args);
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -35,7 +35,7 @@ public class CProjectUnzipTest {
 	public void testUnzipWithArgs() throws IOException {
 		copyToAndCleanOutDir(new File(CMineFixtures.MISC_DIR, "zips"));
 		String args = "-i fulltext.xml --unzip --include .*\\.XML --rename .*\\.XML fulltext.xml --project "+targetZips;
-		LOG.debug(args);
+		LOG.trace(args);
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();

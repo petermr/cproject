@@ -10,6 +10,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
+import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.util.CMineTestFixtures;
 import org.xmlcml.html.HtmlElement;
 
@@ -46,7 +47,7 @@ public class CProjectTest {
 		CContainer cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project1"));
 		CProjectManifest manifest = (CProjectManifest) cProject.getOrCreateManifest();
 		HtmlElement docElement = manifest.getDocHtml();
-		LOG.debug(docElement);
+		LOG.trace(docElement);
 	}
 
 	@Test
@@ -255,39 +256,86 @@ project2
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
 		CProject cProject = new CProject(targetDir);
-		List<List<XMLSnippets>> snippetsListList = cProject.getXPathSnippetsListList("**/fulltext.xml", "//title[starts-with(.,'Data')]");
-		Assert.assertEquals("a", 2, snippetsListList.size());
-		List<XMLSnippets> snippetsList0 = snippetsListList.get(0);
-		Assert.assertEquals("b", 1, snippetsList0.size());
-		XMLSnippets elementList0 = snippetsList0.get(0);
-//		Assert.assertEquals("c", 2, elementList0.size());
-//		Assert.assertEquals("d", "Data collection", elementList0.getValue(0));
-//		Assert.assertEquals("e", "Data analysis", elementList0.getValue(1));
-//		List<XMLSnippets> snippetsList1 = snippetsListList.get(1);
-//		Assert.assertEquals("f", 1, snippetsList1.size());
-//		XMLSnippets snippets1 = snippetsList1.get(0);
-//		Assert.assertEquals("g", 1, snippets1.size());
-//		Assert.assertEquals("h", "Data accessibility", snippets1.get(0).getValue());
+		ProjectSnippetsTree projectSnippetsTree = cProject.extractProjectSnippetsTree("**/fulltext.xml", "//title[starts-with(.,'Data')]");
+		/**
+<projectSnippetsTree>
+  <snippetsTree>
+    <snippets file="target/glob/project2/ctree1/PMC4417228/fulltext.xml">
+	  <title>Data collection</title>
+	  <title>Data analysis</title>
+	</snippets>
+  </snippetsTree>
+  <snippetsTree>
+    <snippets file="target/glob/project2/ctree1/PMC4632522/fulltext.xml">
+	  <title>Data accessibility</title>
+	</snippets>
+  </snippetsTree>
+</projectSnippetsTree>
+*/		
+		Assert.assertEquals("snippetsTrees", 2, projectSnippetsTree.size());
+		SnippetsTree snippetsTree0 = projectSnippetsTree.get(0);
+		Assert.assertEquals("snippet", 1, snippetsTree0.size());
+		XMLSnippets snippets0 = snippetsTree0.get(0);
+		Assert.assertEquals("snippets0", ""
+				+ "<snippets file=\"target/glob/project2/ctree1/PMC4417228/fulltext.xml\">"
+				+ "<title>Data collection</title><title>Data analysis</title>"
+				+ "</snippets>",
+				snippets0.toXML());
 	}
 	
+
 	@Test
 	public void testGlobFileListAndXPathSearchCommand() throws IOException {
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
-		CProject cProject = new CProject(targetDir);
-		List<List<XMLSnippets>> snippetsListList = cProject.getXPathSnippetsListList("**/fulltext.xml", "//title[starts-with(.,'Data')]");
-		Assert.assertEquals("a", 2, snippetsListList.size());
-		List<XMLSnippets> elementListList0 = snippetsListList.get(0);
-		Assert.assertEquals("b", 1, elementListList0.size());
-		XMLSnippets snippets0 = elementListList0.get(0);
-//		Assert.assertEquals("c", 2, snippets0.size());
-//		Assert.assertEquals("d", "Data collection", snippets0.get(0).getValue());
-//		Assert.assertEquals("e", "Data analysis", snippets0.get(1).getValue());
-//		List<XMLSnippets> snippetsList1 = snippetsListList.get(1);
-//		Assert.assertEquals("f", 1, snippetsList1.size());
-//		XMLSnippets snippets1 = snippetsList1.get(0);
-//		Assert.assertEquals("g", 1, snippets1.size());
-//		Assert.assertEquals("h", "Data accessibility", snippets1.get(0).getValue());
+		String output = "snippets.xml";
+		String args = " --project " + targetDir+" --search file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')]) -o "+output;
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		/**
+<projectSnippetsTree>
+  <snippetsTree>
+    <snippets file="target/glob/project2/ctree1/PMC4417228/fulltext.xml">
+	  <title>Data collection</title>
+	  <title>Data analysis</title>
+	</snippets>
+  </snippetsTree>
+  <snippetsTree>
+    <snippets file="target/glob/project2/ctree1/PMC4632522/fulltext.xml">
+	  <title>Data accessibility</title>
+	</snippets>
+  </snippetsTree>
+</projectSnippetsTree>
+*/		
+		ProjectSnippetsTree projectSnippetsTree = argProcessor.getProjectSnippetsTree();
+		Assert.assertEquals("snippetsTrees", 2, projectSnippetsTree.size());
+		SnippetsTree snippetsTree0 = projectSnippetsTree.get(0);
+		Assert.assertEquals("snippet", 1, snippetsTree0.size());
+		XMLSnippets snippets0 = snippetsTree0.get(0);
+		Assert.assertEquals("snippets0", ""
+				+ "<snippets file=\"target/glob/project2/ctree1/PMC4417228/fulltext.xml\">"
+				+ "<title>Data collection</title><title>Data analysis</title>"
+				+ "</snippets>",
+				snippets0.toXML());
+	}
+	
+
+	
+	@Test
+	public void testGlobFileListAndXPathSearchCommandResults() throws IOException {
+		File targetDir = new File("target/glob/project2/ctree1");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
+		String output = "snippets.xml";
+		String args = " --project " + targetDir+" --search file(**/results.xml)xpath(//result) -o "+output;
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		Assert.assertEquals("trees", 3,  argProcessor.getCTreeList().size());
+//		for (CTree cTree : argProcessor.getCTreeList()) {
+//			SnippetsTree snippetsTree = cTree.getSnippetsTree();
+//			LOG.debug("SNIPz "+snippetsTree);
+//		}
 	}
 	
 

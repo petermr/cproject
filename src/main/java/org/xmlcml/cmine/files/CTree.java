@@ -296,7 +296,7 @@ public class CTree extends CContainer {
 	private List<Element> sectionElementList;
 	private CContainer cProject;
 	private XMLSnippets snippets;
-	private List<XMLSnippets> snippetsList;
+	private SnippetsTree snippetsTree;
 
 	public CTree() {
 		super();
@@ -1120,18 +1120,18 @@ public class CTree extends CContainer {
 		return files;
 	}
 
-	public List<XMLSnippets> extractXPathSnippetsList(String glob, String xpath) {
-		snippetsList = new ArrayList<XMLSnippets>();
+	public SnippetsTree extractXPathSnippetsTree(String glob, String xpath) {
+		snippetsTree = new SnippetsTree();
 		List<File> files = extractFiles(glob);
 		for (File file : files) {
 			XMLSnippets snippets = extractXMLSnippets(xpath, file);
 			if (snippets.size() > 0) {
 				snippets.addFile(file);
-				snippetsList.add(snippets);
+				snippetsTree.add(snippets);
 			}
-			LOG.trace(snippets.getSnippetsElement().toXML());
+			LOG.trace(snippets.toXML());
 		}
-		return snippetsList;
+		return snippetsTree;
 	}
 
 	public XMLSnippets extractXMLSnippets(String xpath, File file) {
@@ -1147,23 +1147,12 @@ public class CTree extends CContainer {
 		
 	}
 
-	public List<XMLSnippets> getSnippetsList() {
-		return snippetsList;
+	public SnippetsTree getSnippetsTree() {
+		return snippetsTree;
 	}
 
-	public void setSnippetsList(List<XMLSnippets> snippetsList) {
-		this.snippetsList = snippetsList;
-	}
-
-	public Element getSnippetsListElement() {
-		Element snippetsListElement = null;
-		if (snippetsList != null) {
-			snippetsListElement = new Element("snippetsList");
-			for (XMLSnippets snippets : snippetsList) {
-				snippetsListElement.appendChild(snippets.getSnippetsElement());
-			}
-		}
-		return snippetsListElement;
+	public void setSnippetsTree(SnippetsTree snippetsTree) {
+		this.snippetsTree = snippetsTree;
 	}
 
 	

@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.args;
 
 import java.io.ByteArrayOutputStream;
+
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
@@ -34,11 +35,13 @@ import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.files.AbstractSearcher;
+import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.files.EuclidSource;
+import org.xmlcml.cmine.files.ProjectSnippetsTree;
+import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.cmine.files.Unzipper;
-import org.xmlcml.cmine.files.XMLSnippets;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
@@ -171,9 +174,9 @@ public class DefaultArgProcessor {
 	// variable processing
 	protected Map<String, String> variableByNameMap;
 	private VariableProcessor variableProcessor;
-	protected String project;
 	private AbstractLogElement cTreeLog;
 	private AbstractLogElement coreLog;
+	protected String projectDirString;
 	private File projectFile;
 	private String includePatternString;
 	private boolean unzip = false;
@@ -181,6 +184,10 @@ public class DefaultArgProcessor {
 	private String zipRootName;
 	protected List<DefaultStringDictionary> dictionaryList;
 	private String searchExpression;
+	private File outputFile;
+	private CProject cProject;
+	private ProjectSnippetsTree projectSnippetsTree;
+	private boolean createdProjectDir;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -387,7 +394,8 @@ public class DefaultArgProcessor {
 	}
 
 	public void parseProject(ArgumentOption option, ArgIterator argIterator) {
-		project = argIterator.getString(option);
+		projectDirString = argIterator.getString(option);
+		createProject();
 		createCTreeListFromProject();
 	}
 
@@ -448,8 +456,18 @@ public class DefaultArgProcessor {
 
 	public void runSearch(ArgumentOption option) {
 		// maybe need this for CProject as well
-		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
-		fileXPathSearcher.search();
+		searchProjectOrTree();
+	}
+
+	private void searchProjectOrTree() {
+		if (cProject != null) {
+			cProject.extractProjectSnippetsTree(searchExpression);
+		} else if (currentCTree != null) {
+			FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
+			fileXPathSearcher.search();
+		} else {
+			throw new RuntimeException("Must give --ctree or --cproject");
+		}
 	}
 
 	public void runTest(ArgumentOption option) {
@@ -459,14 +477,33 @@ public class DefaultArgProcessor {
 
 	public void outputMethod(ArgumentOption option) {
 		String output = getOutput();
-		if (cTreeList != null && output != null) {
-			Element snippetsListElement = currentCTree.getSnippetsListElement();
-			if (snippetsListElement != null) {
-				try {
-					XMLUtil.debug(snippetsListElement, new File(currentCTree.getDirectory(), output), 1);
-				} catch (IOException e) {
-					throw new RuntimeException("Cannot output snippets", e);
-				}
+		if (cProject != null) {
+			outputFile = output == null ? null : new File(cProject.getDirectory(), output);
+			getProjectSnippetsTree();
+			if (getProjectSnippetsTree() != null) {
+				outputProjectSnippets(outputFile);
+			}
+		} else if (cTreeList != null) {
+			outputFile = output == null ? null : new File(currentCTree.getDirectory(), output);
+			outputXMLSnippets(outputFile);
+		}
+	}
+
+	private void outputProjectSnippets(File outputFile) {
+		try {
+			XMLUtil.debug(projectSnippetsTree, outputFile, 1);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot output projectSnippetsTree", e);
+		}
+	}
+
+	private void outputXMLSnippets(File outputFile) {
+		SnippetsTree snippetsTree = currentCTree.getSnippetsTree();
+		if (snippetsTree != null && outputFile != null) {
+			try {
+				XMLUtil.debug(snippetsTree, outputFile, 1);
+			} catch (IOException e) {
+				throw new RuntimeException("Cannot output snippets", e);
 			}
 		}
 	}
@@ -493,7 +530,31 @@ public class DefaultArgProcessor {
 			createCTreeList(cTreeNames);
 		}
 	}
-	
+
+	private void createProject() {
+		createdProjectDir = false;
+		if (projectDirString != null) {
+			projectFile = new File(projectDirString);
+			if (projectFile.exists()) {
+				if (projectFile.isDirectory()) {
+					cProject = new CProject(projectFile);
+				} else {
+					throw new RuntimeException("project file must be dicrectory: "+projectFile);
+				}
+			} else {
+				// not sure this will work as CTree's should be children
+				String extension = FilenameUtils.getExtension(projectFile.toString());
+				if (extension != null && !extension.trim().equals("")) {
+					throw new RuntimeException("Project file cannot have extensions");
+				}
+				cProject = new CProject(projectFile);
+				LOG.info(projectFile+" does not exist, creating project and populating it");
+				projectFile.mkdirs();
+				createdProjectDir = true;
+			}
+		}
+	}
+
 	private void setIncludePatternString(ArgumentOption option, ArgIterator argIterator) {
 		List<String> includeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
@@ -538,17 +599,15 @@ public class DefaultArgProcessor {
 	 *    
 	 */
 	private void createCTreeListFromProject() {
-		if (project != null) {
-			projectFile = new File(project);
-			if (projectFile.isDirectory()) {
-				createCTreesFromDirectories();
-			} else if (projectFile.isFile()) {
-				LOG.error("project file must be a directory: "+projectFile);
-			} else if (!projectFile.exists()) {
-				createCTreesFromInputFiles();
-			} else {
-				LOG.error("Unacceptable project option, probable BUG");
-			}
+		if (false) {
+		} else if (!projectFile.exists() || createdProjectDir) {
+			createProjectAndCTreesFromInputFiles();
+		} else if (cProject != null) {
+			createCTreesFromDirectories();
+		} else if (projectFile.isFile()) {
+			LOG.error("project file must be a directory: "+projectFile);
+		} else {
+			LOG.error("Unacceptable project option, probable BUG");
 		}
 	}
 
@@ -558,7 +617,7 @@ public class DefaultArgProcessor {
 		extractZipFilesToCTrees();
 		LOG.trace("cTrees: "+cTreeList.size());
 	}
-
+	
 	private void extractZipFilesToCTrees() {
 		List<File> zipFiles = Arrays.asList(projectFile.listFiles(new FileFilter() {
 			public boolean accept(File file) {
@@ -582,15 +641,10 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void createCTreesFromInputFiles() {
+	private void createProjectAndCTreesFromInputFiles() {
 		if (inputList == null || inputList.size() == 0 ) {
 			LOG.error("no input files to create under project");
-//		} else if (extensionList == null || extensionList.size() == 0) {
-//			LOG.error("no extensions given to filter input files");
 		} else {
-			// don't worry about extensions?
-			LOG.info(projectFile+" does not exist, creating project and populating it");
-			projectFile.mkdirs();
 			for (String filename : inputList) {
 				File file = new File(filename);
 				if (file.isDirectory()) {
@@ -680,10 +734,6 @@ public class DefaultArgProcessor {
 		}
 	}
 
-//	private void createCTreeFromFilenameAndWriteReservedFile(File cTreeDir, File file) {
-//		
-//	}
-
 	private void createCTreeFromFilenameAndWriteReservedFile(File cTreeDir, File infile) {
 		String filename = infile.getName();
 		if (!infile.isDirectory()) {
@@ -714,6 +764,7 @@ public class DefaultArgProcessor {
 	}
 
 
+	// not sure this is a good idea any more; we should use projects
 	private void createCTreeList(List<String> qDirectoryNames) {
 		FileFilter directoryFilter = new FileFilter() {
 			public boolean accept(File file) {
@@ -722,7 +773,7 @@ public class DefaultArgProcessor {
 		};
 
 		cTreeList = new CTreeList();
-		LOG.debug("creating CTreeList from: "+qDirectoryNames);
+		LOG.trace("creating CTreeList from: "+qDirectoryNames);
 		for (String qDirectoryName : qDirectoryNames) {
 			File qDirectory = new File(qDirectoryName);
 			if (!qDirectory.exists()) {
@@ -764,7 +815,8 @@ public class DefaultArgProcessor {
 	private List<String> expandAllWildcards(List<String> inputs) {
 		inputList = new ArrayList<String>();
 		for (String input : inputs) {
-			inputList.addAll(expandWildcards(input));
+			List<String> expandedInputs = expandWildcards(input);
+			inputList.addAll(expandedInputs);
 		}
 		return inputList;
 	}
@@ -867,6 +919,10 @@ public class DefaultArgProcessor {
 		return output;
 	}
 
+	public File getOutputFile() {
+		return outputFile;
+	}
+
 	public boolean isRecursive() {
 		return recursive;
 	}
@@ -929,7 +985,7 @@ public class DefaultArgProcessor {
 		for (String input : inputList) {
 			File file = new File(input);
 			if (file.isDirectory()) {
-				LOG.trace("DIR: "+file.getAbsolutePath()+"; "+file.isDirectory());
+				LOG.trace("DIR: "+file.getAbsolutePath()+"; isDir "+file.isDirectory()+"; Exist "+file.exists()+"; "+file.getAbsolutePath());
 				addDirectoryFiles(inputList0, file);
 			} else {
 				inputList0.add(input);
@@ -1159,16 +1215,16 @@ public class DefaultArgProcessor {
 	public void runAndOutput() {
 		ensureCTreeList();
 		if (cTreeList.size() == 0) {
-			if (project != null) {
-				output = project;
+			if (projectDirString != null) {
+				output = projectDirString;
 			} else if (output != null) {
 				LOG.warn("please replace --output with --project");
-				project = output;
+				projectDirString = output;
 			} else {
 				LOG.error("Cannot create output: --project or --output must be given");
 				return;
 			}
-			LOG.debug("treating as CTree creation under project "+project);
+			LOG.trace("treating as CTree creation under project "+projectDirString);
 			runRunMethodsOnChosenArgOptions();
 		} else {
 			for (int i = 0; i < cTreeList.size(); i++) {
@@ -1258,6 +1314,20 @@ public class DefaultArgProcessor {
 	// HORRIBLE, REFACTOR
 	public List<? extends AbstractSearcher> getSearcherList() {
 		throw new RuntimeException("Can Only be used by sublassses of DefaultArgProcessor ");
+	}
+
+	public CTree getCTree() {
+		return currentCTree != null ? currentCTree : 
+			(cTreeList != null && cTreeList.size() == 1) ? cTreeList.get(0) : null;
+	}
+	
+	public CProject getCProject() {
+		return cProject;
+	}
+
+	public ProjectSnippetsTree getProjectSnippetsTree() {
+		projectSnippetsTree = cProject == null ? null : cProject.getProjectSnippetsTree();
+		return projectSnippetsTree;
 	}
 
 }

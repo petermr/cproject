@@ -47,7 +47,7 @@ public class UnZipTest {
 		unZipper.setOutDir(outDir);
 		unZipper.extractZip();
 		String zipRoot = unZipper.getZipRootName();
-		LOG.debug(zipRoot);
+		LOG.trace(zipRoot);
 		Assert.assertEquals(5, FileUtils.listFiles(outDir, new String[] {"TIF"}, true).size());
 		Assert.assertEquals(1, FileUtils.listFiles(outDir, new String[] {"XML"}, true).size());
 	}

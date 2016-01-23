@@ -13,6 +13,9 @@ import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.util.CMineTestFixtures;
+import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Element;
 
 
 public class CTreeTest {
@@ -157,9 +160,9 @@ public class CTreeTest {
 	public void testGlobFileListAndXML() {
 		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228/");
 		CTree cTree = new CTree(pmc4417228);
-		List<XMLSnippets> xpathSnippetsList = cTree.extractXPathSnippetsList("**/fulltext.xml", "//kwd");
-		Assert.assertEquals(1, xpathSnippetsList.size());
-		XMLSnippets snippets0 = xpathSnippetsList.get(0);
+		SnippetsTree xpathSnippetsTree = cTree.extractXPathSnippetsTree("**/fulltext.xml", "//kwd");
+		Assert.assertEquals(1, xpathSnippetsTree.size());
+		XMLSnippets snippets0 = xpathSnippetsTree.get(0);
 		Assert.assertEquals(10, snippets0.size());
 		Assert.assertEquals("Central Europe", snippets0.getValue(0));
 		Assert.assertEquals("Habitats", snippets0.getValue(4));
@@ -167,6 +170,9 @@ public class CTreeTest {
 	}
 	
 	@Test
+	/** this also creates an output file (--o)
+	 * 
+	 */
 	public void testGlobFileAndXpathCommand() throws IOException {
 		File targetDir = new File("target/glob/pmc4417228");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228"), targetDir);
@@ -175,10 +181,36 @@ public class CTreeTest {
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
-		for (CTree cTree : argProcessor.getCTreeList()) {
-			List<XMLSnippets> snippetsList = cTree.getSnippetsList();
-			LOG.debug("SNIPx "+snippetsList);
-		}
+		File snippetsFile = argProcessor.getOutputFile();
+		Assert.assertTrue("snippets", snippetsFile.exists());
+		Element element = XMLUtil.parseQuietlyToDocument(snippetsFile).getRootElement();
+		String elementXML = element.toXML().replaceAll("\\n", "");
+		Assert.assertTrue(elementXML.startsWith("<snippetsTree> <snippets file=\"target/glob/pmc4417228/fulltext.xml\">  <kwd>Central Europe</kwd>"));
+		/**
+<snippetsList>
+ <snippets file="/Users/pm286/workspace/cmine/target/glob/pmc4417228/fulltext.xml">
+  <kwd>Central Europe</kwd>
+  <kwd>DPSIR framework</kwd>
+  <kwd>Ecosystem functions</kwd>
+  <kwd>Ecosystem regeneration</kwd>
+  <kwd>Habitats</kwd>
+  <kwd>Resource management</kwd>
+  <kwd>Traditional ecological knowledge</kwd>
+  <kwd>Village laws</kwd>
+  <kwd>16-19
+   <sup>th</sup> centuries
+  </kwd>
+  <kwd>Sustainability</kwd>
+ </snippets>
+</snippetsList>
+*/
+		Element snippets = XMLUtil.getSingleElement(element, XMLSnippets.SNIPPETS);
+		String fileString = snippets.getAttributeValue(XMLSnippets.FILE);
+		Assert.assertNotNull("file att", fileString);
+		Assert.assertTrue("snippets file: "+fileString, 
+				fileString.endsWith("target/glob/pmc4417228/fulltext.xml"));
+		List<Element> kwdList = XMLUtil.getQueryElements(element, "snippets/kwd");
+		Assert.assertEquals("snippets content", 10, kwdList.size());
 	}
 
 	@Test
@@ -190,28 +222,12 @@ public class CTreeTest {
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
-		for (CTree cTree : argProcessor.getCTreeList()) {
-			List<XMLSnippets> snippetsList = cTree.getSnippetsList();
-			LOG.debug("SNIPy "+snippetsList);
-		}
+		CTree cTree = argProcessor.getCTree();
+		Assert.assertNotNull("ctree", cTree);
+		// there are two results.xml
+		SnippetsTree snippetsTree = cTree.getSnippetsTree();
+		Assert.assertEquals("snippets", 2, snippetsTree.size());
 	}
-
-//	Not working - use CProject
-//	@Test
-//	public void testGlobFilesAndXpathCommand() {
-//		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228");
-//		File pmc4521097 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4521097");
-//		File pmc4632522 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4632522");
-//		String output = "../../project2/snippets.xml";
-//		String args = " -q " + pmc4417228 + " " + pmc4521097 + " " + pmc4632522 + " --search file(**/fulltext.xml)xpath(//kwd) -o "+output;
-//		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
-//		argProcessor.parseArgs(args);
-//		argProcessor.runAndOutput();
-//		for (CTree cTree : argProcessor.getCTreeList()) {
-//			List<XMLSnippets> snippetsList = cTree.getSnippetsList();
-//			LOG.debug("SNIPz "+snippetsList);
-//		}
-//	}
 
 
 }

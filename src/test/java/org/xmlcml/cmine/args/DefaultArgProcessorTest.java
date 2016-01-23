@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import junit.framework.Assert;
@@ -17,9 +18,10 @@ public class DefaultArgProcessorTest {
 	}
 
 	@Test
+	@Ignore // side-effects creates files
 	public void testArgs() {
 		String[] args = {
-			"-i", "foo", "bar", 
+			"-i", "foo", "bar",
 			"-o", "plugh",
 		};
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
