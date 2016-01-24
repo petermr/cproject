@@ -1,4 +1,5 @@
-<argList name="cmine" version="0.2.8">
+<argList name="cmine" version="0.2.9">
+  <p>20160124: fixed bug in ProjectTreeFactory</p>
   <p>20160123: fixed test bugs</p>
   <p>20160122: tested globbing, snippets</p>
   <p>20160122: added search paths and globbing</p>

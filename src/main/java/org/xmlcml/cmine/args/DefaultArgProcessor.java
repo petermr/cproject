@@ -3,7 +3,6 @@ package org.xmlcml.cmine.args;
 import java.io.ByteArrayOutputStream;
 
 import java.io.File;
-import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,14 +13,10 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipException;
-import java.util.zip.ZipFile;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
@@ -29,7 +24,6 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -42,7 +36,6 @@ import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.files.EuclidSource;
 import org.xmlcml.cmine.files.ProjectSnippetsTree;
 import org.xmlcml.cmine.files.SnippetsTree;
-import org.xmlcml.cmine.files.Unzipper;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
@@ -177,18 +170,16 @@ public class DefaultArgProcessor {
 	private VariableProcessor variableProcessor;
 	private AbstractLogElement cTreeLog;
 	private AbstractLogElement coreLog;
-	protected String projectDirString;
-	private File projectFile;
-	private String includePatternString;
 	private boolean unzip = false;
 	private List<List<String>> renamePairs;
-	private String zipRootName;
 	protected List<DefaultStringDictionary> dictionaryList;
 	private String searchExpression;
 	private File outputFile;
-	private CProject cProject;
+	CProject cProject;
 	private ProjectSnippetsTree projectSnippetsTree;
-	private boolean createdProjectDir;
+	private ProjectAndTreeFactory projectAndTreeFactory;
+	protected String projectDirString;
+	private String includePatternString;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -367,17 +358,15 @@ public class DefaultArgProcessor {
 	 */
 	public void parseCTree(ArgumentOption option, ArgIterator argIterator) {
 		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		createCTreeListFrom(cTreeNames);
+		ensureProjectAndTreeFactory();
+		projectAndTreeFactory.createCTreeListFrom(cTreeNames);
 	}
 
 	/** create a CTreeList from --ctree argument
-	 * 
-	 * @Deprecated // old name
-	 */
+	 */ 
+	 @Deprecated // old name
 	public void parseCMDir(ArgumentOption option, ArgIterator argIterator) {
 		parseCTree(option, argIterator);
-//		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
-//		createCTreeListFrom(cTreeNames);
 	}
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
@@ -396,8 +385,8 @@ public class DefaultArgProcessor {
 
 	public void parseProject(ArgumentOption option, ArgIterator argIterator) {
 		projectDirString = argIterator.getString(option);
-		createProject();
-		createCTreeListFromProject();
+		ensureProjectAndTreeFactory().createProject();
+		ensureProjectAndTreeFactory().createCTreeListFromProject();
 	}
 
 	public void parseRecursive(ArgumentOption option, ArgIterator argIterator) {
@@ -429,28 +418,6 @@ public class DefaultArgProcessor {
 		createAndAddDictionaries(dictionarySources);
 	}
 
-	public void createAndAddDictionaries(List<String> dictionarySources) {
-		ensureDictionaryList();
-		for (String dictionarySource : dictionarySources) {
-			
-			InputStream is = EuclidSource.getInputStream(dictionarySource);
-			if (is == null) {
-				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
-			}
-			DefaultStringDictionary dictionary = DefaultStringDictionary.createDictionary(dictionarySource, is);
-			if (dictionary == null) {
-				throw new RuntimeException("cannot read/create dictionary: "+dictionarySource);
-			}
-			dictionaryList.add(dictionary);
-		}
-	}
-
-	protected void ensureDictionaryList() {
-		if (dictionaryList == null) {
-			dictionaryList = new ArrayList<DefaultStringDictionary>();
-		}
-	}
-
 	public void runMakeDocs(ArgumentOption option) {
 		transformArgs2html();
 	}
@@ -458,17 +425,6 @@ public class DefaultArgProcessor {
 	public void runSearch(ArgumentOption option) {
 		// maybe need this for CProject as well
 		searchProjectOrTree();
-	}
-
-	private void searchProjectOrTree() {
-		if (cProject != null) {
-			cProject.extractProjectSnippetsTree(searchExpression);
-		} else if (currentCTree != null) {
-			FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
-			fileXPathSearcher.search();
-		} else {
-			throw new RuntimeException("Must give --ctree or --cproject");
-		}
 	}
 
 	public void runTest(ArgumentOption option) {
@@ -516,46 +472,13 @@ public class DefaultArgProcessor {
 		printHelp();
 	}
 	
-	private void createCTreeListFrom(List<String> cTreeNames) {
-		if (cTreeNames.size() == 0) {
-			if (inputList == null || inputList.size() == 0) {
-				LOG.error("Must give inputList before --CTree or --ctree");
-			} else if (output == null) {
-				LOG.error("Must give output before --CTree or --ctree");
-			} else {
-				finalizeInputList();
-//				generateFilenamesFromInputDirectory();
-				createCTreeFromOutput();
-			}
-		} else {
-			createCTreeList(cTreeNames);
+	private ProjectAndTreeFactory ensureProjectAndTreeFactory() {
+		if (projectAndTreeFactory == null) {
+			projectAndTreeFactory = new ProjectAndTreeFactory(this);
 		}
+		return projectAndTreeFactory;
 	}
-
-	private void createProject() {
-		createdProjectDir = false;
-		if (projectDirString != null) {
-			projectFile = new File(projectDirString);
-			if (projectFile.exists()) {
-				if (projectFile.isDirectory()) {
-					cProject = new CProject(projectFile);
-				} else {
-					throw new RuntimeException("project file must be dicrectory: "+projectFile);
-				}
-			} else {
-				// not sure this will work as CTree's should be children
-				String extension = FilenameUtils.getExtension(projectFile.toString());
-				if (extension != null && !extension.trim().equals("")) {
-					throw new RuntimeException("Project file cannot have extensions");
-				}
-				cProject = new CProject(projectFile);
-				LOG.info(projectFile+" does not exist, creating project and populating it");
-				projectFile.mkdirs();
-				createdProjectDir = true;
-			}
-		}
-	}
-
+	
 	private void setIncludePatternString(ArgumentOption option, ArgIterator argIterator) {
 		List<String> includeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
@@ -585,231 +508,43 @@ public class DefaultArgProcessor {
 		}
 	}
 
-
-	/** create CTrees EITHER from *.PDF/HTML/XML etc  
-	 * OR from subdirectories which will be CTrees
-	 * 
-	 * LOGIC:
-	 *  (a) if "project" exists and is a directory then assume directory children are 
-	 *    already valid CTrees
-	 *  (b) is "project" does NOT exist but "input" does and is directory:
-	 *    list all files (files) of given extension(s) (-e foo bar) under "input" and create
-	 *    project as directory, then create NEW directories under "project"
-	 *    using names of "files" and creating "fulltext.foo" "fulltext.bar"
-	 *  
-	 *    
-	 */
-	private void createCTreeListFromProject() {
-		if (false) {
-		} else if (!projectFile.exists() || createdProjectDir) {
-			createProjectAndCTreesFromInputFiles();
-		} else if (cProject != null) {
-			createCTreesFromDirectories();
-		} else if (projectFile.isFile()) {
-			LOG.error("project file must be a directory: "+projectFile);
+	private void searchProjectOrTree() {
+		if (cProject != null) {
+			cProject.extractProjectSnippetsTree(searchExpression);
+		} else if (currentCTree != null) {
+			FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
+			fileXPathSearcher.search();
 		} else {
-			LOG.error("Unacceptable project option, probable BUG");
+			throw new RuntimeException("Must give --ctree or --cproject");
 		}
 	}
 
-	private void createCTreesFromDirectories() {
-		cTreeList = new CTreeList();
-		extractDirectoriesToCTrees();
-		extractZipFilesToCTrees();
-		LOG.trace("cTrees: "+cTreeList.size());
-	}
-	
-	private void extractZipFilesToCTrees() {
-		List<File> zipFiles = Arrays.asList(projectFile.listFiles(new FileFilter() {
-			public boolean accept(File file) {
-				return file != null && isZipFile(file);
-			}}));
-		for (File zipFile : zipFiles) {
-			createTreeFromZipFile(projectFile, zipFile);
-			CTree cTree = new CTree(zipFile);
-			cTreeList.add(cTree);
-		}
-	}
 
-	private void extractDirectoriesToCTrees() {
-		List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
-			public boolean accept(File file) {
-				return file != null && file.isDirectory();
-			}}));
-		for (File subDirectory : subdirectories) {
-			CTree cTree = new CTree(subDirectory);
-			cTreeList.add(cTree);
-		}
-	}
-
-	private void createProjectAndCTreesFromInputFiles() {
-		if (inputList == null || inputList.size() == 0 ) {
-			LOG.error("no input files to create under project");
-		} else {
-			for (String filename : inputList) {
-				File file = new File(filename);
-				if (file.isDirectory()) {
-					File[] files = file.listFiles();
-					if (files != null) {
-						for (File file0 : files) {
-							createCTreeFromFilenameAndWriteReservedFile(projectFile, file0);
-						}
-					}
-				} else if (isZipFile(file)){
-					createTreeFromZipFile(projectFile, file);
-				} else {
-					createCTreeFromFilenameAndWriteReservedFile(projectFile, file);
-				}
+	public void createAndAddDictionaries(List<String> dictionarySources) {
+		ensureDictionaryList();
+		for (String dictionarySource : dictionarySources) {
+			
+			InputStream is = EuclidSource.getInputStream(dictionarySource);
+			if (is == null) {
+				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
 			}
-		}
-	}
-
-	private void createTreeFromZipFile(File projectFile, File file) {
-		Unzipper unZipper = new Unzipper();
-		unZipper.setZipFile(file);
-		unZipper.setOutDir(projectFile);
-		unZipper.setIncludePatternString(includePatternString);
-		try {
-			unZipper.extractZip();
-		} catch (IOException e) {
-			throw new RuntimeException("Cannot unzip file: "+e);
-		}
-		zipRootName = unZipper.getZipRootName();
-		if (zipRootName == null) {
-			LOG.debug("No zipRoot "+file);
-		} else {
-			renameFiles(new File(projectFile, zipRootName));
-		}
-	}
-
-	private boolean isZipFile(File file) {
-		boolean isZip = false;
-		if (FilenameUtils.getExtension(file.toString()).toLowerCase().equals("zip")) {
-			ZipFile zf;
-			try {
-				zf = new ZipFile(file);
-				Enumeration<? extends ZipEntry> zipEntries = zf.entries();
-				isZip = zipEntries.hasMoreElements();
-			} catch (ZipException ze) {
-				isZip = false;
-			} catch (IOException e) {
-				isZip = false;
+			DefaultStringDictionary dictionary = DefaultStringDictionary.createDictionary(dictionarySource, is);
+			if (dictionary == null) {
+				throw new RuntimeException("cannot read/create dictionary: "+dictionarySource);
 			}
-		}
-		return isZip;
-		
-	}
-	
-	private void renameFiles(File rootFile) {
-		if (renamePairs != null && rootFile != null) {
-			if (!rootFile.isDirectory()) {
-				throw new RuntimeException("rootFile is not a directory: "+rootFile);
-			}
-			List<File> files = new ArrayList<File>(FileUtils.listFiles(rootFile, null, true));
-			for (List<String> renamePair : renamePairs) {
-				for (File file : files) {
-					if (file.getName().matches(renamePair.get(0))) {
-					    File newNameFile = new File(rootFile, renamePair.get(1));
-//						LOG.debug("F0 "+file+" => "+newNameFile);
-					    boolean isMoved = file.renameTo(newNameFile);
-					    if (!isMoved) {
-					        throw new RuntimeException("cannot rename: "+file.getName());
-					    }					
-					}
-				}
-			}
-		}
-	}
-	
-	private void createCTreeFromOutput() {
-		File newCTree = output == null ? null : new File(output);
-		if (newCTree != null) {
-			createCTreeFromFile(newCTree);
+			dictionaryList.add(dictionary);
 		}
 	}
 
-	private void createCTreeFromFile(File cTree) {
-		cTreeList = new CTreeList();
-		for (String filename : inputList) {
-			createCTreeFromFilenameAndWriteReservedFile(cTree, new File(filename));
+	protected void ensureDictionaryList() {
+		if (dictionaryList == null) {
+			dictionaryList = new ArrayList<DefaultStringDictionary>();
 		}
 	}
 
-	private void createCTreeFromFilenameAndWriteReservedFile(File cTreeDir, File infile) {
-		String filename = infile.getName();
-		if (!infile.isDirectory()) {
-			ensureCTreeList();
-//			File CTreeParent = output == null ? infile.getParentFile() : cTreeDir;
-			File CTreeParent = cTreeDir == null ? infile.getParentFile() : cTreeDir;
-			String cmName = createUnderscoredFilename(filename);
-			File directory = new File(CTreeParent, cmName);
-			CTree cTree = new CTree(directory, true);
-			String reservedFilename = CTree.getCTreeReservedFilenameForExtension(filename);
-			try {
-				cTree.writeReservedFile(infile, reservedFilename, true);
-				cTreeList.add(cTree);
-			} catch (Exception e) {
-				throw new RuntimeException("Cannot create/write: "+filename, e);
-			}
-		}
-	}
-
-	private String createUnderscoredFilename(String filename) {
-		String cmName = filename.replaceAll("\\p{Punct}", "_")+"/";
-		return cmName;
-	}
-	
 
 	protected void printVersion() {
 		DefaultArgProcessor.getVersionManager().printVersion();
-	}
-
-
-	// not sure this is a good idea any more; we should use projects
-	private void createCTreeList(List<String> qDirectoryNames) {
-		FileFilter directoryFilter = new FileFilter() {
-			public boolean accept(File file) {
-				return file.isDirectory();
-			}
-		};
-
-		cTreeList = new CTreeList();
-		LOG.trace("creating CTreeList from: "+qDirectoryNames);
-		for (String qDirectoryName : qDirectoryNames) {
-			File qDirectory = new File(qDirectoryName);
-			if (!qDirectory.exists()) {
-				LOG.error("File does not exist: "+qDirectory.getAbsolutePath());
-				continue;
-			}
-			if (!qDirectory.isDirectory()) {
-				LOG.error("Not a directory: "+qDirectory.getAbsolutePath());
-				continue;
-			}
-			CTree cTree = new CTree(qDirectoryName);
-			LOG.trace("...creating CTree from: "+qDirectoryName);
-			if (cTree.containsNoReservedFilenames() && cTree.containsNoReservedDirectories()) {
-				LOG.trace("... No reserved files or directories: "+cTree);
-				List<File> childFiles = new ArrayList<File>(Arrays.asList(qDirectory.listFiles(directoryFilter)));
-				List<String> childFilenames = new ArrayList<String>();
-				for (File childFile : childFiles) {
-					if (childFile.isDirectory()) {
-						childFilenames.add(childFile.toString());
-					}
-				}
-				LOG.trace(childFilenames);
-				// recurse (no mixed directory structures)
-				// FIXME 
-				LOG.trace("Recursing CTrees is probably  a BUG");
-				createCTreeList(childFilenames);
-			} else {
-				cTreeList.add(cTree);
-			}
-		}
-		LOG.trace("CTreeList: "+cTreeList.size());
-		for (CTree CTree : cTreeList) {
-			LOG.trace("CTree: "+CTree);
-			
-		}
 	}
 
 
@@ -980,7 +715,7 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void finalizeInputList() {
+	void finalizeInputList() {
 		List<String> inputList0 = new ArrayList<String>();
 		ensureInputList();
 		for (String input : inputList) {
@@ -994,7 +729,7 @@ public class DefaultArgProcessor {
 		}
 		inputList = inputList0;
 		Collections.sort(inputList);
-		LOG.debug("sorted: "+inputList);
+		LOG.trace("sorted: "+inputList);
 	}
 
 	/** will return a sorted list
@@ -1010,7 +745,7 @@ public class DefaultArgProcessor {
 			inputList0.add(file0.toString());
 		}
 		Collections.sort(inputList0);
-		LOG.debug("sort: "+inputList0);
+		LOG.trace("sort: "+inputList0);
 	}
 
 	private String[] addDefaultsAndParsedArgs(String[] commandLineArgs) {
@@ -1338,6 +1073,34 @@ public class DefaultArgProcessor {
 	public ProjectSnippetsTree getProjectSnippetsTree() {
 		projectSnippetsTree = cProject == null ? null : cProject.getProjectSnippetsTree();
 		return projectSnippetsTree;
+	}
+
+	public String getProjectDirString() {
+		return projectDirString;
+	}
+
+	void renameFiles(File rootFile) {
+			if (renamePairs != null && rootFile != null) {
+				if (!rootFile.isDirectory()) {
+					throw new RuntimeException("rootFile is not a directory: "+rootFile);
+				}
+				List<File> files = new ArrayList<File>(FileUtils.listFiles(rootFile, null, true));
+				for (List<String> renamePair : renamePairs) {
+					for (File file : files) {
+						if (file.getName().matches(renamePair.get(0))) {
+						    File newNameFile = new File(rootFile, renamePair.get(1));
+						    boolean isMoved = file.renameTo(newNameFile);
+						    if (!isMoved) {
+						        throw new RuntimeException("cannot rename: "+file.getName());
+						    }					
+						}
+					}
+				}
+			}
+		}
+
+	public String getIncludePatternString() {
+		return includePatternString;
 	}
 
 }
