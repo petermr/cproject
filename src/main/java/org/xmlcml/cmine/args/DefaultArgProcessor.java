@@ -1,7 +1,6 @@
 package org.xmlcml.cmine.args;
 
 import java.io.ByteArrayOutputStream;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,8 +14,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
@@ -117,18 +114,13 @@ public class DefaultArgProcessor {
 	public static final String[] DEFAULT_EXTENSIONS = {"html", "xml", "pdf"};
 	public final static String H = "-h";
 	public final static String HELP = "--help";
-	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
-
 	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cmine/args";
 	protected static final String ARGS_XML = "args.xml";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+ARGS_XML;
 	private static final String NAME = "name";
 	private static final String VERSION = "version";
 	
-	private static final Pattern INTEGER_RANGE_PATTERN = Pattern.compile("(\\d+):(\\d+)");
 	public static final String WHITESPACE = "\\s+";
-	public static Pattern GENERAL_PATTERN = Pattern.compile("\\{([^\\}]*)\\}");
-	
 	public static final VersionManager DEFAULT_VERSION_MANAGER = new VersionManager();
 	public static final String LOGFILE = "target/log.xml";
 	
@@ -154,7 +146,7 @@ public class DefaultArgProcessor {
 	protected String output;
 	protected List<String> extensionList = null;
 	private boolean recursive = false;
-	protected List<String> inputList;
+	public List<String> inputList;
 	protected String logfileName;
 	public String update;
 	
@@ -180,6 +172,7 @@ public class DefaultArgProcessor {
 	private ProjectAndTreeFactory projectAndTreeFactory;
 	protected String projectDirString;
 	private String includePatternString;
+	private ArgumentExpander argumentExpander;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -258,73 +251,6 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	public void expandWildcardsExhaustively() {
-		while (expandWildcardsOnce());
-	}
-	
-	public boolean expandWildcardsOnce() {
-		boolean change = false;
-		ensureInputList();
-		List<String> newInputList = new ArrayList<String>();
-		for (String input : inputList) {
-			List<String> expanded = expandWildcardsOnce(input);
-			newInputList.addAll(expanded);
-			change |= (expanded.size() > 1 || !expanded.get(0).equals(input));
-		}
-		inputList = newInputList;
-		return change;
-	}
-
-
-	/** expand expressions/wildcards in input.
-	 * 
-	 * @param input
-	 * @return
-	 */
-	private List<String> expandWildcardsOnce(String input) {
-		Matcher matcher = GENERAL_PATTERN.matcher(input);
-		List<String> inputs = new ArrayList<String>(); 
-		if (matcher.find()) {
-			String content = matcher.group(1);
-			String pre = input.substring(0, matcher.start());
-			String post = input.substring(matcher.end());
-			inputs = expandIntegerMatch(content, pre, post);
-			if (inputs.size() == 0) {
-				inputs = expandStrings(content, pre, post);
-			} 
-			if (inputs.size() == 0) {
-				LOG.error("Cannot expand "+content);
-			}
-		} else {
-			inputs.add(input);
-		}
-		return inputs;
-	}
-
-	private List<String> expandIntegerMatch(String content, String pre, String post) {
-		List<String> stringList = new ArrayList<String>();
-		Matcher matcher = INTEGER_RANGE_PATTERN.matcher(content);
-		if (matcher.find()) {
-			int start = Integer.parseInt(matcher.group(1));
-			int end = Integer.parseInt(matcher.group(2));
-			for (int i = start; i <= end; i++) {
-				String s = pre + i + post;
-				stringList.add(s);
-			}
-		}
-		return stringList;
-	}
-
-	private List<String> expandStrings(String content, String pre, String post) {
-		List<String> newStringList = new ArrayList<String>();
-		List<String> vars = Arrays.asList(content.split("\\|"));
-		for (String var : vars) {
-			newStringList.add(pre + var + post);
-		}
-		
-		return newStringList;
-	}
-	
 	public AbstractLogElement getOrCreateLog(String logfileName) {
 		AbstractLogElement cMineLog = null;
 		if (logfileName == null) {
@@ -371,7 +297,7 @@ public class DefaultArgProcessor {
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		inputList = expandAllWildcards(inputs);
+		inputList = ensureArgumentExpander().expandAllWildcards(inputs);
 	}
 
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
@@ -548,39 +474,6 @@ public class DefaultArgProcessor {
 	}
 
 
-	private List<String> expandAllWildcards(List<String> inputs) {
-		inputList = new ArrayList<String>();
-		for (String input : inputs) {
-			List<String> expandedInputs = expandWildcards(input);
-			inputList.addAll(expandedInputs);
-		}
-		return inputList;
-	}
-	
-	/** expand expressions/wildcards in input.
-	 * 
-	 * @param input
-	 * @return
-	 */
-	private List<String> expandWildcards(String input) {
-		Matcher matcher = INTEGER_RANGE.matcher(input);
-		List<String> inputs = new ArrayList<String>();
-		if (matcher.matches()) {
-			int start = Integer.parseInt(matcher.group(2));
-			int end = Integer.parseInt(matcher.group(3));
-			if (start <= end) {
-				for (int i = start; i <= end; i++) {
-					String input0 = matcher.group(1)+i+matcher.group(4);
-					inputs.add(input0);
-				}
-			}
-		} else {
-			inputs.add(input);
-		}
-		LOG.trace("inputs: "+inputs);
-		return inputs;
-	}
-
 	private void transformArgs2html() {
 		InputStream transformStream = getArgsXml2HtmlXsl();
 		if (transformStream == null) {
@@ -645,7 +538,7 @@ public class DefaultArgProcessor {
 		ensureInputList();
 		return (inputList.size() != 1) ? null : inputList.get(0);
 	}
-	private void ensureInputList() {
+	void ensureInputList() {
 		if (inputList == null) {
 			inputList = new ArrayList<String>();
 		}
@@ -1013,6 +906,13 @@ public class DefaultArgProcessor {
 		}
 	}
 
+	public ArgumentExpander ensureArgumentExpander() {
+		if (this.argumentExpander == null) {
+			argumentExpander = new ArgumentExpander(this);
+		}
+		return argumentExpander;
+	}
+
 	public VariableProcessor ensureVariableProcessor() {
 		if (variableProcessor == null) {
 			variableProcessor = new VariableProcessor();
@@ -1101,6 +1001,10 @@ public class DefaultArgProcessor {
 
 	public String getIncludePatternString() {
 		return includePatternString;
+	}
+
+	public void expandWildcardsExhaustively() {
+		ensureArgumentExpander().expandWildcardsExhaustively();
 	}
 
 }
