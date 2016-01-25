@@ -241,7 +241,7 @@ public class CProjectTest {
 	public void testGlobFileListSmallCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979small");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979small"), targetDir);
-		String args = "-i scholarly.html --search file(**/*) --project "+targetDir+" --output cTreeList.xml";
+		String args = "-i scholarly.html --analyze file(**/*) --project "+targetDir+" --output cTreeList.xml";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -275,42 +275,29 @@ public class CProjectTest {
 	public void testGlobFileXPathSmallCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979small");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979small"), targetDir);
-		String args = "-i scholarly.html --search file(**/*)xpath(//country) --project "+targetDir+" --output country.xml";
+		String args = "--analyze file(**/fulltext.xml)xpath(//country) --project "+targetDir+" --output country.xml";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
+		File outputFile = new File(targetDir, "country.xml");
+		Assert.assertTrue("output file", outputFile.exists());
 		CProject cProject = argProcessor.getCProject();
-		ProjectFilesTree treeFilesList = cProject.extractProjectFilesTree("**/{empty,results,fulltext,scholarly}.{xml,html}, ");
-		
-		Assert.assertEquals(5,  treeFilesList.size());
-		CTreeFiles treeFiles0 = treeFilesList.get(0);
-		Assert.assertTrue("xmlfiles: "+treeFiles0.size(), treeFiles0.size() >= 13 && treeFiles0.size() <= 14);
-		treeFiles0.sort();
-		Assert.assertEquals("treeFiles",  
-				"<cTreeFiles cTree=\"target/patents/US08979small/US08979000-20150317\">"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/fulltext.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/gene/hgnc/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/consort0/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/plasmid/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/synbio/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/hgnc/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/synbio/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/synbioPhrases/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/species/binomial/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/species/genus/empty.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/word/frequencies/results.html\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/word/frequencies/results.xml\" />"
-				+ "<file name=\"target/patents/US08979small/US08979000-20150317/scholarly.html\" /></cTreeFiles>",
-				treeFiles0.toString()
-				);
-	}
+		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
+		Assert.assertEquals("trees",  5, projectFilesTree.size());
+		CTreeFiles treeFiles0 = projectFilesTree.get(0);
+		LOG.debug(treeFiles0);
+		Assert.assertEquals("treefiles0",  
+		"<cTreeFiles cTree=\"target/patents/US08979small/US08979000-20150317\"><file name=\"target/patents/US08979small/US08979000-20150317/fulltext.xml\" /></cTreeFiles>",
+		treeFiles0.toString()
+		);
 
+	}
 
 	@Test
 	public void testGlobFileListMediumCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979"), targetDir);
-		String args = "-i scholarly.html --search file(**/*) --project "+targetDir;
+		String args = "--analyze file(**/*) --project "+targetDir;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -429,40 +416,53 @@ project2
 	
 
 	@Test
+	/**
+	 * SHOWCASE
+	 * 
+	 */
 	public void testGlobFileListAndXPathSearchCommand() throws IOException {
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
 		String output = "snippets.xml";
-		String args = " --project " + targetDir+" --search file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')]) -o "+output;
+		String args = " --project " + targetDir+" --analyze file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')]) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
-		/**
-<projectSnippetsTree>
-  <snippetsTree>
-    <snippets file="target/glob/project2/ctree1/PMC4417228/fulltext.xml">
-	  <title>Data collection</title>
-	  <title>Data analysis</title>
-	</snippets>
-  </snippetsTree>
-  <snippetsTree>
-    <snippets file="target/glob/project2/ctree1/PMC4632522/fulltext.xml">
-	  <title>Data accessibility</title>
-	</snippets>
-  </snippetsTree>
-</projectSnippetsTree>
-*/		
+		
 		ProjectSnippetsTree projectSnippetsTree = argProcessor.getProjectSnippetsTree();
+		Assert.assertNotNull("projectSnippetsTree not null", projectSnippetsTree);
 		Assert.assertEquals("snippetsTrees", 2, projectSnippetsTree.size());
-		// needs sorting
-//		SnippetsTree snippetsTree0 = projectSnippetsTree.get(0);
-//		Assert.assertEquals("snippet", 1, snippetsTree0.size());
-//		XMLSnippets snippets0 = snippetsTree0.get(0);
-//		Assert.assertEquals("snippets0", ""
-//				+ "<snippets file=\"target/glob/project2/ctree1/PMC4417228/fulltext.xml\">"
-//				+ "<title>Data collection</title><title>Data analysis</title>"
-//				+ "</snippets>",
-//				snippets0.toXML());
+		Assert.assertEquals("snippets",
+		"<projectSnippetsTree>"
+		+ "<snippetsTree>"
+		+   "<snippets file=\"target/glob/project2/ctree1/PMC4417228/fulltext.xml\">"
+		+     "<title>Data collection</title>"
+		+     "<title>Data analysis</title>"
+		+   "</snippets>"
+		+  "</snippetsTree>"
+		+  "<snippetsTree>"
+		+    "<snippets file=\"target/glob/project2/ctree1/PMC4632522/fulltext.xml\">"
+		+      "<title>Data accessibility</title>"
+		+    "</snippets>"
+		+  "</snippetsTree>"
+		+ "</projectSnippetsTree>",
+		projectSnippetsTree.toString()
+		);
+
+		// this is not wriiten, because projectsFile takes precedence
+		ProjectFilesTree projectFilesTree = argProcessor.getProjectFilesTree();
+		Assert.assertEquals("filesTrees", 2, projectFilesTree.size());
+		Assert.assertEquals("files",
+			"<cTreeFilesTree project=\"target/glob/project2/ctree1\">"
+			+ "<cTreeFiles cTree=\"target/glob/project2/ctree1/PMC4417228\">"
+			+   "<file name=\"target/glob/project2/ctree1/PMC4417228/fulltext.xml\" />"
+			+  "</cTreeFiles>"
+			+  "<cTreeFiles cTree=\"target/glob/project2/ctree1/PMC4632522\">"
+			+    "<file name=\"target/glob/project2/ctree1/PMC4632522/fulltext.xml\" />"
+			+  "</cTreeFiles>"
+			+ "</cTreeFilesTree>",
+			projectFilesTree.toString()
+			);
 	}
 	
 
@@ -472,7 +472,7 @@ project2
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
 		String output = "snippets.xml";
-		String args = " --project " + targetDir+" --search file(**/results.xml)xpath(//result) -o "+output;
+		String args = " --project " + targetDir+" --analyze file(**/results.xml)xpath(//result) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();

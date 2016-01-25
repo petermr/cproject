@@ -1,4 +1,5 @@
-<argList name="cmine" version="0.2.10">
+<argList name="cmine" version="0.2.11">
+  <p>20160125: fixed immediate bugs</p>
   <p>20160124: implemented filesTree and snippetesTree</p>
   <p>20160124: separated ArgumentExpander</p>
   <p>20160124: fixed bug in ProjectTreeFactory</p>
@@ -314,13 +315,13 @@
 	    </help>
 	</arg>
 	    
-	<arg name="search"
-	    long="--search"
-	    args="searchExpression"
-	    parseMethod="parseSearch"
-	    runMethod="runSearch"
-	    outputMethod="outputMethod"
-	    finalMethod="finalSearch"
+	<arg name="analysis"
+	    long="--analyze"
+	    args="analysisExpression"
+	    parseMethod="parseAnalysis"
+	    runMethod="runAnalysis"
+	    outputMethod="outputAnalysis"
+	    finalMethod="finalAnalysis"
 	    countRange="{1,1}"
 	    >
 	    <help>

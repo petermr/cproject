@@ -43,7 +43,10 @@ public class ProjectFilesTree extends Element {
 	}
 	
 	public void add(CTreeFiles cTreeFiles) {
-		this.appendChild(cTreeFiles);
+		// dont add empty trees
+		if (cTreeFiles.size() > 0) {
+			this.appendChild(cTreeFiles);
+		}
 		childCTreeElements = null;
 	}
 
@@ -63,4 +66,7 @@ public class ProjectFilesTree extends Element {
 		}
 	}
 	
+	public String toString() {
+		return this.toXML();
+	}
 }

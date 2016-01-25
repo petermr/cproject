@@ -167,7 +167,7 @@ public class DefaultArgProcessor {
 	private boolean unzip = false;
 	private List<List<String>> renamePairs;
 	protected List<DefaultStringDictionary> dictionaryList;
-	private String searchExpression;
+	private String analysisExpression;
 	private File outputFile;
 	CProject cProject;
 	
@@ -340,8 +340,8 @@ public class DefaultArgProcessor {
 		setRenamePairs(option, argIterator);
 	}
 	
-	public void parseSearch(ArgumentOption option, ArgIterator argIterator) {
-		setSearch(option, argIterator);
+	public void parseAnalysis(ArgumentOption option, ArgIterator argIterator) {
+		setAnalysis(option, argIterator);
 	}
 
 	public void parseDictionary(ArgumentOption option, ArgIterator argIterator) {
@@ -353,8 +353,8 @@ public class DefaultArgProcessor {
 		transformArgs2html();
 	}
 
-	public void runSearch(ArgumentOption option) {
-		searchCTree();
+	public void runAnalysis(ArgumentOption option) {
+		analyzeCTree();
 	}
 
 	public void runTest(ArgumentOption option) {
@@ -363,6 +363,10 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputMethod(ArgumentOption option) {
+		LOG.trace("output method");
+	}
+
+	public void outputAnalysis(ArgumentOption option) {
 		String output = getOutput();
 		if (currentCTree != null) {
 			outputFile = output == null ? null : new File(currentCTree.getDirectory(), output);
@@ -371,19 +375,32 @@ public class DefaultArgProcessor {
 			} else if (currentCTree.getCTreeFiles() != null) {
 				outputCTreeFiles(outputFile);
 			} else {
-				LOG.debug("NO OUTPUT method");
+				LOG.debug("Analysis: No snippets or files to output");
 			}
 		}
 	}
 
-	public void finalSearch(ArgumentOption option) {
-		finalSearch();
-		LOG.debug("FINAL SEARCH");
+	public void finalAnalysis(ArgumentOption option) {
+		finalAnalysisRoutine();
+		LOG.trace("FINAL ANALYSIS");
 	}
 
 
-	private void finalSearch() {
-		File outputFile = new File(cProject.getDirectory(), getOutput());
+	private void finalAnalysisRoutine() {
+		if (cProject == null) {
+			LOG.debug("no project to analyze");
+			return;
+		}
+		File directory = cProject.getDirectory();
+		if (directory == null) {
+			LOG.debug("no directory to analyze");
+			return;
+		}
+		if (output == null) {
+			LOG.debug("no output file given");
+			return;
+		}
+		File outputFile = new File(directory, getOutput());
 		ProjectSnippetsTree projectSnippetsTree = cProject.getProjectSnippetsTree();
 		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
 		if (projectSnippetsTree != null) {
@@ -393,21 +410,21 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void outputProjectSnippets(File outputFile) {
-		try {
-			XMLUtil.debug(projectSnippetsTree, outputFile, 1);
-		} catch (IOException e) {
-			throw new RuntimeException("Cannot output projectSnippetsTree", e);
-		}
-	}
-
-	private void outputProjectFilesTree(File outputFile) {
-		try {
-			XMLUtil.debug(projectFilesTree, outputFile, 1);
-		} catch (IOException e) {
-			throw new RuntimeException("Cannot output projectFilesTree", e);
-		}
-	}
+//	private void outputProjectSnippets(File outputFile) {
+//		try {
+//			XMLUtil.debug(projectSnippetsTree, outputFile, 1);
+//		} catch (IOException e) {
+//			throw new RuntimeException("Cannot output projectSnippetsTree", e);
+//		}
+//	}
+//
+//	private void outputProjectFilesTree(File outputFile) {
+//		try {
+//			XMLUtil.debug(projectFilesTree, outputFile, 1);
+//		} catch (IOException e) {
+//			throw new RuntimeException("Cannot output projectFilesTree", e);
+//		}
+//	}
 
 	private void outputSnippetsTree(File outputFile) {
 		SnippetsTree snippetsTree = currentCTree.getSnippetsTree();
@@ -450,12 +467,12 @@ public class DefaultArgProcessor {
 		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
 	}
 
-	private void setSearch(ArgumentOption option, ArgIterator argIterator) {
-		List<String> searchStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		if (searchStrings != null && searchStrings.size() == 1) {
-			searchExpression = searchStrings.get(0);
+	private void setAnalysis(ArgumentOption option, ArgIterator argIterator) {
+		List<String> analyzeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		if (analyzeStrings != null && analyzeStrings.size() == 1) {
+			analysisExpression = analyzeStrings.get(0);
 		} else {
-			LOG.error("--search requires 1 expression");
+			LOG.error("--analyze requires 1 expression");
 		}
 	}
 
@@ -477,12 +494,12 @@ public class DefaultArgProcessor {
 	/** this called once per CTree and write the output.
 	 * 
 	 */
-	private void searchCTree() {
-		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(searchExpression);
+	private void analyzeCTree() {
+		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(analysisExpression);
 		String glob = fileXPathSearcher.getCurrentGlob();
 		String xpath = fileXPathSearcher.getCurrentXPath();
 		if (currentCTree != null) {
-			fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
+			fileXPathSearcher = new FileXPathSearcher(currentCTree, analysisExpression);
 			fileXPathSearcher.search();
 			CTreeFiles cTreeFiles = fileXPathSearcher.getCTreeFiles();
 			if (cProject != null) {

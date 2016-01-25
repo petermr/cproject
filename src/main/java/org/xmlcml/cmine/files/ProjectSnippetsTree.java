@@ -31,7 +31,10 @@ public class ProjectSnippetsTree extends Element {
 	}
 
 	public void add(SnippetsTree snippetsTree) {
-		this.appendChild(snippetsTree.copy());
+		// don't add empty trees
+		if (snippetsTree.size() > 0) {
+			this.appendChild(snippetsTree.copy());
+		}
 		projectSnippetsTreeList = null;
 	}
 

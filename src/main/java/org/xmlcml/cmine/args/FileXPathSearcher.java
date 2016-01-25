@@ -122,7 +122,7 @@ public class FileXPathSearcher {
 						filesWithSnippets.add(currentFile);
 						snippetsTree.add(snippets);
 					} else {
-						LOG.info("empty: "+currentFile);
+						LOG.trace("empty: "+currentFile);
 					}
 					LOG.trace("Snip: "+snippets.toXML());
 				}
