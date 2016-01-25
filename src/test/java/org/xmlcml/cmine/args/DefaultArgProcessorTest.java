@@ -40,9 +40,9 @@ public class DefaultArgProcessorTest {
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		// correct
-//		Assert.assertEquals("input", 2, argProcessor.getInputList().size());
+		Assert.assertEquals("input", 2, argProcessor.getInputList().size());
 		// deliberate mistake
-		Assert.assertEquals("input", 22, argProcessor.getInputList().size());
+//		Assert.assertEquals("input", 22, argProcessor.getInputList().size());
 		Assert.assertEquals("input", "foo{1:3}bof", argProcessor.getInputList().get(1));
 		Assert.assertEquals("input", "bar{a|b|zzz}plugh", argProcessor.getInputList().get(0));
 		argProcessor.expandWildcardsExhaustively();
