@@ -94,8 +94,9 @@ import nu.xom.Element;
 			// possible outputFooOptions
 			runOutputMethodsOnChosenArgOptions();
 		}
-		// a "reduce" or "gather" method to run overe many CTrees (e.g summaries)
+		// a "reduce" or "gather" method to run over many CTrees (e.g summaries)
 		runFinalMethodsOnChosenArgOptions();
+		// includes the finalAnalysis (--analyze) 
 	}
 
  * NOTE: changed all *internal* CTree-type names to CTree. 2015-09-15
@@ -165,7 +166,7 @@ public class DefaultArgProcessor {
 	private AbstractLogElement cTreeLog;
 	private AbstractLogElement coreLog;
 	private boolean unzip = false;
-	private List<List<String>> renamePairs;
+	List<List<String>> renamePairs;
 	protected List<DefaultStringDictionary> dictionaryList;
 	private String analysisExpression;
 	private File outputFile;
@@ -341,7 +342,8 @@ public class DefaultArgProcessor {
 	}
 	
 	public void parseAnalysis(ArgumentOption option, ArgIterator argIterator) {
-		setAnalysis(option, argIterator);
+		List<String> analyzeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		setAnalysis(analyzeStrings);
 	}
 
 	public void parseDictionary(ArgumentOption option, ArgIterator argIterator) {
@@ -363,7 +365,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputMethod(ArgumentOption option) {
-		LOG.trace("output method");
+		LOG.trace("output method not written");
 	}
 
 	public void outputAnalysis(ArgumentOption option) {
@@ -410,22 +412,6 @@ public class DefaultArgProcessor {
 		}
 	}
 
-//	private void outputProjectSnippets(File outputFile) {
-//		try {
-//			XMLUtil.debug(projectSnippetsTree, outputFile, 1);
-//		} catch (IOException e) {
-//			throw new RuntimeException("Cannot output projectSnippetsTree", e);
-//		}
-//	}
-//
-//	private void outputProjectFilesTree(File outputFile) {
-//		try {
-//			XMLUtil.debug(projectFilesTree, outputFile, 1);
-//		} catch (IOException e) {
-//			throw new RuntimeException("Cannot output projectFilesTree", e);
-//		}
-//	}
-
 	private void outputSnippetsTree(File outputFile) {
 		SnippetsTree snippetsTree = currentCTree.getSnippetsTree();
 		if (snippetsTree != null && outputFile != null) {
@@ -467,8 +453,7 @@ public class DefaultArgProcessor {
 		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
 	}
 
-	private void setAnalysis(ArgumentOption option, ArgIterator argIterator) {
-		List<String> analyzeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+	private void setAnalysis(List<String> analyzeStrings) {
 		if (analyzeStrings != null && analyzeStrings.size() == 1) {
 			analysisExpression = analyzeStrings.get(0);
 		} else {
@@ -496,7 +481,7 @@ public class DefaultArgProcessor {
 	 */
 	private void analyzeCTree() {
 		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(analysisExpression);
-		String glob = fileXPathSearcher.getCurrentGlob();
+//		String glob = fileXPathSearcher.getCurrentGlob();
 		String xpath = fileXPathSearcher.getCurrentXPath();
 		if (currentCTree != null) {
 			fileXPathSearcher = new FileXPathSearcher(currentCTree, analysisExpression);
@@ -544,7 +529,7 @@ public class DefaultArgProcessor {
 
 
 	private void transformArgs2html() {
-		InputStream transformStream = getArgsXml2HtmlXsl();
+		InputStream transformStream = this.getClass().getResourceAsStream(ARGS2HTML_XSL);
 		if (transformStream == null) {
 			throw new RuntimeException("Cannot find argsXml2Html file");
 		}
@@ -566,10 +551,6 @@ public class DefaultArgProcessor {
 		OutputStream baos = new ByteArrayOutputStream();
 		javaxTransformer.transform(new StreamSource(argsXmlIs),  new StreamResult(baos));
 		return baos.toString();
-	}
-
-	private InputStream getArgsXml2HtmlXsl() {
-		return this.getClass().getResourceAsStream(ARGS2HTML_XSL);
 	}
 
 	private File getHtmlFromXML(File argsXml) {
@@ -711,7 +692,6 @@ public class DefaultArgProcessor {
 	}
 
 	private String[] addDefaultsAndParsedArgs(String[] commandLineArgs) {
-		String[] defaultArgs = createDefaultArgumentStrings();
 		List<String> totalArgList = new ArrayList<String>(Arrays.asList(createDefaultArgumentStrings()));
 		List<String> commandArgList = Arrays.asList(commandLineArgs);
 		totalArgList.addAll(commandArgList);
@@ -1051,26 +1031,6 @@ public class DefaultArgProcessor {
 
 	public String getProjectDirString() {
 		return projectDirString;
-	}
-
-	void renameFiles(File rootFile) {
-		if (renamePairs != null && rootFile != null) {
-			if (!rootFile.isDirectory()) {
-				throw new RuntimeException("rootFile is not a directory: "+rootFile);
-			}
-			List<File> files = new ArrayList<File>(FileUtils.listFiles(rootFile, null, true));
-			for (List<String> renamePair : renamePairs) {
-				for (File file : files) {
-					if (file.getName().matches(renamePair.get(0))) {
-					    File newNameFile = new File(rootFile, renamePair.get(1));
-					    boolean isMoved = file.renameTo(newNameFile);
-					    if (!isMoved) {
-					        throw new RuntimeException("cannot rename: "+file.getName());
-					    }					
-					}
-				}
-			}
-		}
 	}
 
 	public String getIncludePatternString() {

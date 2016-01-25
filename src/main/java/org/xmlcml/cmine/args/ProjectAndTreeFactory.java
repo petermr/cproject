@@ -11,6 +11,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.math.ArgumentOutsideDomainException;
 import org.apache.log4j.Level;
@@ -262,7 +263,7 @@ public class ProjectAndTreeFactory {
 		if (zipRootName == null) {
 			LOG.debug("No zipRoot "+file);
 		} else {
-			argProcessor.renameFiles(new File(projectFile, zipRootName));
+			this.renameFiles(new File(projectFile, zipRootName));
 		}
 	}
 
@@ -282,6 +283,26 @@ public class ProjectAndTreeFactory {
 		}
 		return isZip;
 		
+	}
+
+	void renameFiles(File rootFile) {
+		if (argProcessor.renamePairs != null && rootFile != null) {
+			if (!rootFile.isDirectory()) {
+				throw new RuntimeException("rootFile is not a directory: "+rootFile);
+			}
+			List<File> files = new ArrayList<File>(FileUtils.listFiles(rootFile, null, true));
+			for (List<String> renamePair : argProcessor.renamePairs) {
+				for (File file : files) {
+					if (file.getName().matches(renamePair.get(0))) {
+					    File newNameFile = new File(rootFile, renamePair.get(1));
+					    boolean isMoved = file.renameTo(newNameFile);
+					    if (!isMoved) {
+					        throw new RuntimeException("cannot rename: "+file.getName());
+					    }					
+					}
+				}
+			}
+		}
 	}
 	
 
