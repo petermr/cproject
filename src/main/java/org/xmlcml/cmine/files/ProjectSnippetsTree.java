@@ -10,9 +10,12 @@ public class ProjectSnippetsTree extends Element {
 	public static final String PROJECT_SNIPPETS_TREE = "projectSnippetsTree";
 
 	private List<Element> projectSnippetsTreeList;
+
+	private CProject cProject;
 	
-	public ProjectSnippetsTree() {
+	public ProjectSnippetsTree(CProject cProject) {
 		super(PROJECT_SNIPPETS_TREE);
+		this.cProject = cProject;
 	}
 
 	public Iterator<Element> iterator() {

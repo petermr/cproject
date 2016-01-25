@@ -197,9 +197,148 @@ public class CProjectTest {
 		File patentFile = new File("../patents");
 		if (!patentFile.exists()) return; // only for PMR
 		CProject cProject = new CProject(new File(patentFile, "US08979"));
-		List<CTreeFiles> fileListList = cProject.listCTreeFiles("**/*");
-		Assert.assertEquals(995,  fileListList.size());
-		Assert.assertEquals(13,  fileListList.get(0).size());
+		ProjectFilesTree projectFilesTree = cProject.extractProjectFilesTree("**/*");
+		Assert.assertEquals(995,  projectFilesTree.size());
+		Assert.assertEquals(13,  projectFilesTree.get(0).size());
+	}
+
+	
+	@Test
+	public void testGlobFileListMedium() throws IOException {
+		File targetDir = new File("target/patents/US08979");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979"), targetDir);
+		String args = "-i scholarly.html --project "+targetDir;
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		CProject cProject = argProcessor.getCProject();
+		ProjectFilesTree treeFilesList = cProject.extractProjectFilesTree("**/*");
+		Assert.assertEquals(71,  treeFilesList.size());
+		CTreeFiles treeFiles0 = treeFilesList.get(0);
+		Assert.assertEquals(13,  treeFiles0.size());
+		treeFiles0.sort();
+		Assert.assertEquals("treeFiles",  ""
+				+"<cTreeFiles cTree=\"target/patents/US08979/US08979000-20150317\">"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/fulltext.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/gene/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/consort0/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/plasmid/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbioPhrases/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/binomial/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/genus/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.html\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/scholarly.html\" />"
+				+ "</cTreeFiles>",				
+				treeFiles0.toString()
+				);
+	}
+
+	@Test
+	public void testGlobFileListSmallCommand() throws IOException {
+		File targetDir = new File("target/patents/US08979small");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979small"), targetDir);
+		String args = "-i scholarly.html --search file(**/*) --project "+targetDir+" --output cTreeList.xml";
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		CProject cProject = argProcessor.getCProject();
+		ProjectFilesTree treeFilesList = cProject.extractProjectFilesTree("**/{empty,results,fulltext,scholarly}.{xml,html}");
+		
+		Assert.assertEquals(5,  treeFilesList.size());
+		CTreeFiles treeFiles0 = treeFilesList.get(0);
+		Assert.assertTrue("xmlfiles", treeFiles0.size() >= 13 && treeFiles0.size() <= 14);
+		treeFiles0.sort();
+		Assert.assertEquals("treeFiles",  
+				"<cTreeFiles cTree=\"target/patents/US08979small/US08979000-20150317\">"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/fulltext.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/gene/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/consort0/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/plasmid/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/synbioPhrases/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/species/binomial/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/species/genus/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/word/frequencies/results.html\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/word/frequencies/results.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/scholarly.html\" /></cTreeFiles>",
+				treeFiles0.toString()
+				);
+	}
+
+	@Test
+	public void testGlobFileXPathSmallCommand() throws IOException {
+		File targetDir = new File("target/patents/US08979small");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979small"), targetDir);
+		String args = "-i scholarly.html --search file(**/*)xpath(//country) --project "+targetDir+" --output country.xml";
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		CProject cProject = argProcessor.getCProject();
+		ProjectFilesTree treeFilesList = cProject.extractProjectFilesTree("**/{empty,results,fulltext,scholarly}.{xml,html}, ");
+		
+		Assert.assertEquals(5,  treeFilesList.size());
+		CTreeFiles treeFiles0 = treeFilesList.get(0);
+		Assert.assertTrue("xmlfiles: "+treeFiles0.size(), treeFiles0.size() >= 13 && treeFiles0.size() <= 14);
+		treeFiles0.sort();
+		Assert.assertEquals("treeFiles",  
+				"<cTreeFiles cTree=\"target/patents/US08979small/US08979000-20150317\">"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/fulltext.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/gene/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/consort0/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/plasmid/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/regex/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/search/synbioPhrases/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/species/binomial/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/species/genus/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/word/frequencies/results.html\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/results/word/frequencies/results.xml\" />"
+				+ "<file name=\"target/patents/US08979small/US08979000-20150317/scholarly.html\" /></cTreeFiles>",
+				treeFiles0.toString()
+				);
+	}
+
+
+	@Test
+	public void testGlobFileListMediumCommand() throws IOException {
+		File targetDir = new File("target/patents/US08979");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979"), targetDir);
+		String args = "-i scholarly.html --search file(**/*) --project "+targetDir;
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		CProject cProject = argProcessor.getCProject();
+		ProjectFilesTree treeFilesList = cProject.extractProjectFilesTree("**/*");
+		
+		Assert.assertEquals(71,  treeFilesList.size());
+		CTreeFiles treeFiles0 = treeFilesList.get(0);
+		Assert.assertEquals(13,  treeFiles0.size());
+		treeFiles0.sort();
+		Assert.assertEquals("treeFiles",  ""
+				+"<cTreeFiles cTree=\"target/patents/US08979/US08979000-20150317\">"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/fulltext.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/gene/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/consort0/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/plasmid/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbioPhrases/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/binomial/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/genus/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.html\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/scholarly.html\" />"
+				+ "</cTreeFiles>",				
+				treeFiles0.toString()
+				);
 	}
 
 	
@@ -209,7 +348,7 @@ public class CProjectTest {
 		File patentFile = new File("../patents");
 		if (!patentFile.exists()) return; // only for PMR
 		CProject cProject = new CProject(new File(patentFile, "US08979"));
-		List<CTreeFiles> fileListList = cProject.listCTreeFiles("**/results.xml");
+		ProjectFilesTree fileListList = cProject.extractProjectFilesTree("**/results.xml");
 		Assert.assertEquals(995,  fileListList.size());
 		Assert.assertEquals(1,  fileListList.get(0).size());
 		Assert.assertEquals("../patents/US08979/US08979000-20150317/results/word/frequencies/results.xml",  
@@ -238,12 +377,15 @@ project2
 	@Test
 	public void testGlobFileList() {
 		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project2"));
-		List<CTreeFiles> fileListList = cProject.listCTreeFiles("**/*");
+		ProjectFilesTree projectFilesTree = cProject.extractProjectFilesTree("**/*");
 		// 3 CTrees of form PMCddddddd
-		Assert.assertEquals("a", 3,  fileListList.size());
+		Assert.assertEquals("a", 3,  projectFilesTree.size());
 		// the first one has two child files (fulltext.pdf and fulltext.xml)
-		Assert.assertEquals("b", 2,  fileListList.get(0).size());
+		CTreeFiles cTreeFiles = projectFilesTree.get(0);
+		Assert.assertNotNull("files", cTreeFiles);
+		Assert.assertEquals("b", 2,  cTreeFiles.size());
 		// fails on unsorted lists
+		LOG.debug("xx "+cProject.getProjectFilesTree());
 		
 //		Assert.assertEquals("c", "src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.pdf",  
 //				fileListList.get(0).get(0).toString());

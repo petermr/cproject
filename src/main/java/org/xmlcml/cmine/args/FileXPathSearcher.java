@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.files.CTree;
+import org.xmlcml.cmine.files.CTreeFiles;
 import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.cmine.files.XMLSnippets;
 
@@ -35,8 +36,7 @@ public class FileXPathSearcher {
 	private StringBuilder sb;
 	private List<String> chunkList;
 	private CTree cTree;
-	private List<File> currentFiles;
-	private List<File> extractedFileList;
+	private CTreeFiles cTreeFiles;
 	private SnippetsTree snippetsTree;
 	private String currentGlob;
 	private String currentXPath;
@@ -110,13 +110,14 @@ public class FileXPathSearcher {
 		for (int i = 0; i < chunkList.size(); i++) {
 			if (i %2 == 0) {
 				currentGlob = chunkList.get(i);
-				currentFiles = extractFiles(currentGlob);
+				cTreeFiles = cTree.extractCTreeFiles(currentGlob);
 			} else {
-				List<File> filesWithSnippets = new ArrayList<File>();
+				CTreeFiles filesWithSnippets = new CTreeFiles(cTree);
 				snippetsTree = new SnippetsTree();
 				currentXPath = chunkList.get(i);
-				for (File currentFile : currentFiles) {
-					XMLSnippets snippets = extractSnippets(currentFile, currentXPath);
+				for (File currentFile : cTreeFiles) {
+					XMLSnippets snippets1 = cTree.extractXMLSnippets(currentXPath, currentFile);
+					XMLSnippets snippets = snippets1;
 					if (snippets.size() != 0) {
 						filesWithSnippets.add(currentFile);
 						snippetsTree.add(snippets);
@@ -125,25 +126,19 @@ public class FileXPathSearcher {
 					}
 					LOG.trace("Snip: "+snippets.toXML());
 				}
-				currentFiles = filesWithSnippets;
+				cTreeFiles = filesWithSnippets;
 			}
 		}
-		cTree.setSearchFiles(currentFiles);
+		cTree.setCTreeFiles(cTreeFiles);
 		cTree.setSnippetsTree(snippetsTree);
 	}
 
-	private XMLSnippets extractSnippets(File file, String xpath) {
-		XMLSnippets snippets = cTree.extractXMLSnippets(xpath, file);
-		return snippets;
+	public SnippetsTree getSnippetsTree() {
+		return snippetsTree;
 	}
 
-	private List<File> extractFiles(String fileGlob) {
-		extractedFileList = cTree.extractFiles(fileGlob);
-		return extractedFileList;
-	}
-	
-	public List<File> getExtractedFiles() {
-		return extractedFileList;
+	public CTreeFiles getCTreeFiles() {
+		return cTreeFiles;
 	}
 
 	public void output(String output) {

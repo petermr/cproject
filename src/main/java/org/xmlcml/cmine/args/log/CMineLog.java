@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import nu.xom.Attribute;
+import nu.xom.Document;
 import nu.xom.Element;
 import nu.xom.Elements;
 import nu.xom.Node;
@@ -16,6 +17,7 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.util.XMLUtils;
 import org.xmlcml.xml.XMLUtil;
 
 /** tool to log events and data from CTree.
@@ -94,7 +96,8 @@ public class CMineLog extends AbstractLogElement {
 	}
 
 	public void mergeLogFile(File logXmlFile, File dir, String... xpathList) {
-		Element logXmlElement = XMLUtil.parseQuietlyToDocument(logXmlFile).getRootElement();
+//		Element logXmlElement = XMLUtil.parseQuietlyToDocument(logXmlFile).getRootElement();
+		Element logXmlElement = XMLUtils.parseWithoutDTD(file).getRootElement();
 		AbstractLogElement logElement = new AbstractLogElement(LOG_ELEMENT);
 		XMLUtil.copyAttributes(logXmlElement, logElement);
 		logElement.addAttribute(new Attribute(FILE_NAME, dir.toString()));

@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -9,6 +10,7 @@ import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.FileXPathSearcher;
+import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
 
@@ -44,8 +46,8 @@ public class CProject extends CContainer {
 	private Element projectTemplateElement;
 	private Element treeTemplateElement;
 	private CTreeList cTreeList;
-	private List<Pattern> allowedFilePatterns;
 	private ProjectSnippetsTree projectSnippetsTree;
+	private ProjectFilesTree projectFilesTree;
 	
 	public CProject(File cProjectDir) {
 		super();
@@ -178,14 +180,15 @@ public class CProject extends CContainer {
 		return pathName;
 	}
 
-	public List<CTreeFiles> listCTreeFiles(String glob) {
+	public ProjectFilesTree extractProjectFilesTree(String glob) {
+		ProjectFilesTree projectFilesTree = new ProjectFilesTree(this);
 		List<CTreeFiles> cTreeFilesList = new ArrayList<CTreeFiles>();
 		CTreeList cTreeList = this.getCTreeList();
 		for (CTree cTree : cTreeList) {
-			List<File> fileList = cTree.extractFiles(glob);
-			cTreeFilesList.add(new CTreeFiles(fileList));
+			CTreeFiles cTreeFiles = cTree.extractCTreeFiles(glob);
+			projectFilesTree.add(cTreeFiles);
 		}
-		return cTreeFilesList;
+		return projectFilesTree;
 	}
 
 	/** get list of matched Elements from CTrees in project.
@@ -195,7 +198,7 @@ public class CProject extends CContainer {
 	 * @return
 	 */
 	public ProjectSnippetsTree extractProjectSnippetsTree(String glob, String xpath) {
-		projectSnippetsTree = new ProjectSnippetsTree();
+		projectSnippetsTree = new ProjectSnippetsTree(this);
 		CTreeList cTreeList = this.getCTreeList();
 		for (CTree cTree : cTreeList) {
 			SnippetsTree snippetsTree = cTree.extractXPathSnippetsTree(glob, xpath);
@@ -222,5 +225,49 @@ public class CProject extends CContainer {
 
 	public ProjectSnippetsTree getProjectSnippetsTree() {
 		return projectSnippetsTree;
+	}
+	
+	public ProjectFilesTree getProjectFilesTree() {
+		return projectFilesTree;
+	}
+
+	public void add(CTreeFiles cTreeFiles) {
+		ensureProjectFilesTree();
+		projectFilesTree.add(cTreeFiles);
+	}
+
+	private void ensureProjectFilesTree() {
+		if (projectFilesTree == null) {
+			projectFilesTree = new ProjectFilesTree(this);
+		}
+	}
+
+	public void add(SnippetsTree snippetsTree) {
+		ensureProjectSnippetsTree();
+		projectSnippetsTree.add(snippetsTree);
+	}
+
+	private void ensureProjectSnippetsTree() {
+		if (projectSnippetsTree == null) {
+			projectSnippetsTree = new ProjectSnippetsTree(this);
+		}
+	}
+
+	public void outputProjectSnippetsTree(File outputFile) {
+		outputTreeFile(projectSnippetsTree, outputFile);
+	}
+
+	public void outputProjectFilesTree(File outputFile) {
+		outputTreeFile(projectFilesTree, outputFile);
+	}
+
+	private void outputTreeFile(Element tree, File outputFile)  {
+		if (tree != null) {
+			try {
+				XMLUtil.debug(tree, outputFile, 1);
+			} catch (IOException e) {
+				throw new RuntimeException("Cannot write output: ", e);
+			}
+		}
 	}
 }

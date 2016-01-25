@@ -29,8 +29,10 @@ import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.files.AbstractSearcher;
 import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
+import org.xmlcml.cmine.files.CTreeFiles;
 import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.files.EuclidSource;
+import org.xmlcml.cmine.files.ProjectFilesTree;
 import org.xmlcml.cmine.files.ProjectSnippetsTree;
 import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
@@ -168,11 +170,14 @@ public class DefaultArgProcessor {
 	private String searchExpression;
 	private File outputFile;
 	CProject cProject;
+	
 	private ProjectSnippetsTree projectSnippetsTree;
+	private ProjectFilesTree projectFilesTree;
 	private ProjectAndTreeFactory projectAndTreeFactory;
 	protected String projectDirString;
 	private String includePatternString;
 	private ArgumentExpander argumentExpander;
+	private CTreeFiles cTreeFiles;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -349,8 +354,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void runSearch(ArgumentOption option) {
-		// maybe need this for CProject as well
-		searchProjectOrTree();
+		searchCTree();
 	}
 
 	public void runTest(ArgumentOption option) {
@@ -360,15 +364,32 @@ public class DefaultArgProcessor {
 
 	public void outputMethod(ArgumentOption option) {
 		String output = getOutput();
-		if (cProject != null) {
-			outputFile = output == null ? null : new File(cProject.getDirectory(), output);
-			getProjectSnippetsTree();
-			if (getProjectSnippetsTree() != null) {
-				outputProjectSnippets(outputFile);
-			}
-		} else if (cTreeList != null) {
+		if (currentCTree != null) {
 			outputFile = output == null ? null : new File(currentCTree.getDirectory(), output);
-			outputXMLSnippets(outputFile);
+			if (currentCTree.getSnippetsTree() != null) {
+				outputSnippetsTree(outputFile);
+			} else if (currentCTree.getCTreeFiles() != null) {
+				outputCTreeFiles(outputFile);
+			} else {
+				LOG.debug("NO OUTPUT method");
+			}
+		}
+	}
+
+	public void finalSearch(ArgumentOption option) {
+		finalSearch();
+		LOG.debug("FINAL SEARCH");
+	}
+
+
+	private void finalSearch() {
+		File outputFile = new File(cProject.getDirectory(), getOutput());
+		ProjectSnippetsTree projectSnippetsTree = cProject.getProjectSnippetsTree();
+		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
+		if (projectSnippetsTree != null) {
+			cProject.outputProjectSnippetsTree(outputFile);
+		} else if (projectFilesTree != null) {
+			cProject.outputProjectFilesTree(outputFile);
 		}
 	}
 
@@ -380,13 +401,32 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void outputXMLSnippets(File outputFile) {
+	private void outputProjectFilesTree(File outputFile) {
+		try {
+			XMLUtil.debug(projectFilesTree, outputFile, 1);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot output projectFilesTree", e);
+		}
+	}
+
+	private void outputSnippetsTree(File outputFile) {
 		SnippetsTree snippetsTree = currentCTree.getSnippetsTree();
 		if (snippetsTree != null && outputFile != null) {
 			try {
 				XMLUtil.debug(snippetsTree, outputFile, 1);
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot output snippets", e);
+			}
+		}
+	}
+
+	private void outputCTreeFiles(File outputFile) {
+		CTreeFiles cTreeFiles = currentCTree.getCTreeFiles();
+		if (cTreeFiles != null && outputFile != null) {
+			try {
+				XMLUtil.debug(cTreeFiles, outputFile, 1);
+			} catch (IOException e) {
+				throw new RuntimeException("Cannot output cTreeFiles", e);
 			}
 		}
 	}
@@ -434,14 +474,26 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void searchProjectOrTree() {
-		if (cProject != null) {
-			cProject.extractProjectSnippetsTree(searchExpression);
-		} else if (currentCTree != null) {
-			FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
+	/** this called once per CTree and write the output.
+	 * 
+	 */
+	private void searchCTree() {
+		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(searchExpression);
+		String glob = fileXPathSearcher.getCurrentGlob();
+		String xpath = fileXPathSearcher.getCurrentXPath();
+		if (currentCTree != null) {
+			fileXPathSearcher = new FileXPathSearcher(currentCTree, searchExpression);
 			fileXPathSearcher.search();
-		} else {
-			throw new RuntimeException("Must give --ctree or --cproject");
+			CTreeFiles cTreeFiles = fileXPathSearcher.getCTreeFiles();
+			if (cProject != null) {
+				cProject.add(cTreeFiles);
+			}
+			if (xpath != null) {
+				SnippetsTree snippetsTree = fileXPathSearcher.getSnippetsTree();
+				if (cProject != null) {
+					cProject.add(snippetsTree);
+				}
+			}
 		}
 	}
 
@@ -975,29 +1027,34 @@ public class DefaultArgProcessor {
 		return projectSnippetsTree;
 	}
 
+	public ProjectFilesTree getProjectFilesTree() {
+		projectFilesTree = cProject == null ? null : cProject.getProjectFilesTree();
+		return projectFilesTree;
+	}
+
 	public String getProjectDirString() {
 		return projectDirString;
 	}
 
 	void renameFiles(File rootFile) {
-			if (renamePairs != null && rootFile != null) {
-				if (!rootFile.isDirectory()) {
-					throw new RuntimeException("rootFile is not a directory: "+rootFile);
-				}
-				List<File> files = new ArrayList<File>(FileUtils.listFiles(rootFile, null, true));
-				for (List<String> renamePair : renamePairs) {
-					for (File file : files) {
-						if (file.getName().matches(renamePair.get(0))) {
-						    File newNameFile = new File(rootFile, renamePair.get(1));
-						    boolean isMoved = file.renameTo(newNameFile);
-						    if (!isMoved) {
-						        throw new RuntimeException("cannot rename: "+file.getName());
-						    }					
-						}
+		if (renamePairs != null && rootFile != null) {
+			if (!rootFile.isDirectory()) {
+				throw new RuntimeException("rootFile is not a directory: "+rootFile);
+			}
+			List<File> files = new ArrayList<File>(FileUtils.listFiles(rootFile, null, true));
+			for (List<String> renamePair : renamePairs) {
+				for (File file : files) {
+					if (file.getName().matches(renamePair.get(0))) {
+					    File newNameFile = new File(rootFile, renamePair.get(1));
+					    boolean isMoved = file.renameTo(newNameFile);
+					    if (!isMoved) {
+					        throw new RuntimeException("cannot rename: "+file.getName());
+					    }					
 					}
 				}
 			}
 		}
+	}
 
 	public String getIncludePatternString() {
 		return includePatternString;

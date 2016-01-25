@@ -1,7 +1,6 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
@@ -21,6 +20,7 @@ import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.util.CMineGlobber;
+import org.xmlcml.cmine.util.XMLUtils;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.xml.XMLUtil;
 
@@ -297,6 +297,8 @@ public class CTree extends CContainer {
 	private CContainer cProject;
 	private XMLSnippets snippets;
 	private SnippetsTree snippetsTree;
+	private CTreeFiles cTreeFiles;
+	private ProjectFilesTree filesTree;
 
 	public CTree() {
 		super();
@@ -825,7 +827,6 @@ public class CTree extends CContainer {
 	}
 
 	public File getDirectory() {
-		LOG.trace("Directory "+directory+" .. "+directory.isDirectory());
 		return directory;
 	}
 
@@ -1108,43 +1109,50 @@ public class CTree extends CContainer {
 		return resultsXMLFileList;
 	}
 
-	public List<File> extractFiles(String glob) {
+	public CTreeFiles extractCTreeFiles(String glob) {
 		List<File> files = new ArrayList<File>();
-		File dir = this.getDirectory();
 		try {
 			CMineGlobber globber = new CMineGlobber(glob, this.getDirectory());
 			files = globber.listFiles();
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot glob files, ", e);
 		}
-		return files;
+		this.cTreeFiles = new CTreeFiles(this, files);
+		return cTreeFiles;
 	}
-
+	
 	public SnippetsTree extractXPathSnippetsTree(String glob, String xpath) {
 		snippetsTree = new SnippetsTree();
-		List<File> files = extractFiles(glob);
-		for (File file : files) {
-			XMLSnippets snippets = extractXMLSnippets(xpath, file);
-			if (snippets.size() > 0) {
-				snippets.addFile(file);
-				snippetsTree.add(snippets);
+		extractCTreeFiles(glob);
+		if (xpath != null) {
+			for (File file : cTreeFiles) {
+				XMLSnippets snippets = extractXMLSnippets(xpath, file);
+				if (snippets.size() > 0) {
+					snippets.addFile(file);
+					snippetsTree.add(snippets);
+				}
 			}
-			LOG.trace(snippets.toXML());
 		}
 		return snippetsTree;
 	}
 
 	public XMLSnippets extractXMLSnippets(String xpath, File file) {
-		Document doc = XMLUtil.parseQuietlyToDocument(file);
+		if (xpath == null) {
+			throw new RuntimeException("Null xpath");
+		}
+//		Document doc = XMLUtil.parseQuietlyToDocument(file);
+		Document doc = XMLUtils.parseWithoutDTD(file);
 		List<Element> elementList = XMLUtil.getQueryElements(doc, xpath);
 		snippets = new XMLSnippets(elementList, file);
 		return snippets;
 	}
 	
-
-	public void setSearchFiles(List<File> currentFiles) {
-		// TODO Auto-generated method stub
-		
+	public void setCTreeFiles(CTreeFiles cTreeFiles) {
+		this.cTreeFiles = cTreeFiles;
+	}
+	
+	public CTreeFiles getCTreeFiles() {
+		return cTreeFiles;
 	}
 
 	public SnippetsTree getSnippetsTree() {

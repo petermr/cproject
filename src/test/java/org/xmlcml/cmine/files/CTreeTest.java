@@ -146,8 +146,8 @@ public class CTreeTest {
 		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228/");
 		CTree cTree = new CTree(pmc4417228);
 		// NOTE: The "**" is required
-		List<File> fileList = cTree.extractFiles("**/fulltext.*");
-		Assert.assertEquals(2,  fileList.size());
+		CTreeFiles cTreeFiles = cTree.extractCTreeFiles("**/fulltext.*");
+		Assert.assertEquals(2,  cTreeFiles.size());
 		// sorting problem
 //		Assert.assertEquals("src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.pdf",  
 //				fileList.get(0).toString());
@@ -228,6 +228,62 @@ public class CTreeTest {
 		SnippetsTree snippetsTree = cTree.getSnippetsTree();
 		Assert.assertEquals("snippets", 2, snippetsTree.size());
 	}
+	
+	@Test
+	public void testGlobFileListMediumCommand() throws IOException {
+		File targetDir = new File("target/patents/US08979/US08979000-20150317/");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979/US08979000-20150317/"), targetDir);
+		String args = "-i scholarly.html --search file(**/*) --ctree "+targetDir+" -o files.xml";
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+		CTree cTree = argProcessor.getCTree();
+		CTreeFiles cTreeFiles = cTree.getCTreeFiles();
+		Assert.assertNotNull(cTreeFiles);
+		Assert.assertEquals(13,  cTreeFiles.size());
+		Assert.assertEquals("treeFiles", 
+				"<cTreeFiles cTree=\"target/patents/US08979/US08979000-20150317\">"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/fulltext.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/gene/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/consort0/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/plasmid/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbioPhrases/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/binomial/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/genus/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.html\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/scholarly.html\" />"
+				+ "</cTreeFiles>",
+				
+				cTreeFiles.toString()
+				);
+
+		cTreeFiles.sort();
+		Assert.assertEquals("treeFiles", 
+				"<cTreeFiles cTree=\"target/patents/US08979/US08979000-20150317\">"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/fulltext.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/gene/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/consort0/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/plasmid/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/regex/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/hgnc/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbio/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/search/synbioPhrases/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/binomial/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/species/genus/empty.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.html\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/results/word/frequencies/results.xml\" />"
+				+ "<file name=\"target/patents/US08979/US08979000-20150317/scholarly.html\" />"
+				+ "</cTreeFiles>",
+				
+				cTreeFiles.toString()
+				);
+	}
+
+
 
 
 }
