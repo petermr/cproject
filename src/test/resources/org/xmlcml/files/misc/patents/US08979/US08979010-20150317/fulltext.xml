@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979010-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979010</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13643403</doc-number>
+<date>20110420</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>DE</country>
+<doc-number>20 2010 006 078 U</doc-number>
+<date>20100425</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>161</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>18</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>14</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>18</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>145</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>2018</main-group>
+<subgroup>188</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>241294</main-classification>
+</classification-national>
+<invention-title id="d2e71">Comb tooth holder</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>4946109</doc-number>
+<kind>A</kind>
+<name>Lewis</name>
+<date>19900800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>7938350</doc-number>
+<kind>B2</kind>
+<name>Doppstadt</name>
+<date>20110500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2007/0194161</doc-number>
+<kind>A1</kind>
+<name>Doppstadt et al.</name>
+<date>20070800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>241294</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>DE</country>
+<doc-number>9409707</doc-number>
+<date>19941000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>DE</country>
+<doc-number>20201236</doc-number>
+<date>20021000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>DE</country>
+<doc-number>20310251</doc-number>
+<date>20041100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>WO</country>
+<doc-number>94/14540</doc-number>
+<date>19940700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>WO</country>
+<doc-number>2007/010563</doc-number>
+<date>20070100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>28</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>241294</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>2</number-of-drawing-sheets>
+<number-of-figures>10</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130037642</doc-number>
+<kind>A1</kind>
+<date>20130214</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Doppstadt</last-name>
+<first-name>Johann</first-name>
+<address>
+<city>Velbert</city>
+<country>DE</country>
+</address>
+</addressbook>
+<residence>
+<country>DE</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Berger</last-name>
+<first-name>Horst</first-name>
+<address>
+<city>Calbe</city>
+<country>DE</country>
+</address>
+</addressbook>
+<residence>
+<country>DE</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Doppstadt</last-name>
+<first-name>Johann</first-name>
+<address>
+<city>Velbert</city>
+<country>DE</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Berger</last-name>
+<first-name>Horst</first-name>
+<address>
+<city>Calbe</city>
+<country>DE</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Jacobson Holman, PLLC.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Doppstadt Familienholding GmbH</orgname>
+<role>03</role>
+<address>
+<city>Velbert</city>
+<country>DE</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Rosenbaum</last-name>
+<first-name>Mark</first-name>
+<department>3725</department>
+</primary-examiner>
+</examiners>
+<pct-or-regional-filing-data>
+<document-id>
+<country>WO</country>
+<doc-number>PCT/EP2011/002001</doc-number>
+<kind>00</kind>
+<date>20110420</date>
+</document-id>
+<us-371c124-date>
+<date>20121025</date>
+</us-371c124-date>
+</pct-or-regional-filing-data>
+<pct-or-regional-publishing-data>
+<document-id>
+<country>WO</country>
+<doc-number>WO2011/134616</doc-number>
+<kind>A </kind>
+<date>20111103</date>
+</document-id>
+</pct-or-regional-publishing-data>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">The invention relates to a comb tooth holder, especially for comminution devices having cutting teeth disposed on comminution rolls, said cutting teeth interacting with comb teeth arranged on at least one mating holder or cage for comminuting the material to be comminuted. Said comb tooth holder consists of at least one comb tooth body and at least one comb tooth. The comb tooth can be fastened to the comb tooth body by means of a first positively locking portion, at least one additional positively locking portion being provided on the comb tooth holder for fastening the comb tooth to the comb tooth body. The invention is characterized in that a web surface connecting the two positively locking faces extends in the center of or centrally in the recess.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="85.68mm" wi="72.47mm" file="US08979010-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="239.10mm" wi="175.60mm" orientation="landscape" file="US08979010-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="242.99mm" wi="179.83mm" orientation="landscape" file="US08979010-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<p id="p-0002" num="0001">This is a national stage of PCT/EP11/002001 filed Apr. 20, 2011 and published in German, which has a priority of German no. 20 2010 006 078.8 filed Apr. 25, 2010, hereby incorporated by reference.</p>
+<p id="p-0003" num="0002">The invention refers to a comb tooth holder, in particular for comminution devices having cutting teeth disposed on comminution rolls interacting with comb teeth arranged on at least one mating holder or cage for comminuting the material to be comminuted, consisting of at least one comb tooth body and at least one comb tooth, wherein the comb tooth can be fastened to the comb tooth body by means of a first positively locking portion. The invention also refers to a comminution device or comminution machine with a comb tooth holder of this kind.</p>
+<p id="p-0004" num="0003">Comb tooth holders of this kind are known in the state of the art. They are employed in comminution devices or machines serving for very different comminution tasks. In particular, in the field of waste comminution plants these devices are used. Because of the different material to be comminuted, also the requirements concerning in particular the comminution tools, such as knives or teeth are different, so that often a change is required when other material has to be comminuted. The comminution tools are also prone to a high wear, so that also for this reason a frequent change is necessary. This goes in particular also for the teeth disposed on mating holders or cages of the comminution device. They interact with knives or teeth arranged on a comminution roll. They will be referred to in the following as comb teeth. The necessary change of the comb teeth because of wear or change of comminution material is very time-consuming, and thus causes large costs. The teeth provided as wear parts are rather expensive also because of the rather high portion of material.</p>
+<p id="p-0005" num="0004">In the prior application of the applicant DE 20 2005 009 859 U1, in the state of the art a knife body is known characterized by a positively locking arrangement of the knife at a knife or tooth body. This knife carrier is provided here for the arrangement on a comminution cylinder of the device. However, here also the material portion of the knife in the entire required material for knife and knife body is rather high.</p>
+<p id="p-0006" num="0005">Therefore, it is a problem of the invention to suggest a knife or comb tooth holder that allows a quick and simple change also of the comb teeth of a comminution device, and that reduces further the material portion of the tooth or knife in the entire required material.</p>
+<p id="p-0007" num="0006">The problem is solved by a comb tooth holder, in particular for comminution devices with cutting teeth disposed on comminution rolls, the cutting teeth interacting with comb teeth arranged on at least one mating holder or cage for comminuting the material to be comminuted, consisting of at least one comb tooth body and at least one comb tooth, wherein the comb tooth can be fastened to the comb tooth body by a first positively locking portion, that is characterized in that at the comb tooth holder at least one other positively locking portion is provided for fastening the comb tooth to the comb tooth body, and in the center or centrally in the recess, a web surface connecting the two positively locking surfaces extends.</p>
+<p id="p-0008" num="0007">When at least one other positively locking portion is provided between comb tooth and the comb tooth body, first, a required change is successfully made simpler and quicker. However, when another positively locking portion is provided, the material portion of the comb tooth is reduced compared with the entire required material. Thus also the cost portion of the comb tooth is less than with the devices known from the state of the art. The disadvantages of the state of the art are removed by this configuration. Additionally, now also the use of a tooth holder or knife carrier is possible at the so-called comb teeth or counter teeth of a comminution device, what has been solved so far in the state of the art in another way, in particular more expensively. The before-described comb tooth holders are furthermore characterized, according to the invention, in that in the center or centrally in the recess a web surface extends connecting the two positively locking surfaces. This also serves for further improving the positively locking portion and the already described advantageous effects connected with it. The first positively locking portion is here preferably, according to the invention, arranged at the end, in front in cutting direction, of the comb tooth body.</p>
+<p id="p-0009" num="0008">As described before, a comb tooth holder, according to an advantageous development, is characterized in that the comb tooth holder and the comb tooth have corresponding shape on the sides facing each other in assembly position for producing the positively locking portion/s. This is necessary for guaranteeing an exact attachment and, in particular, a low wear operation during the intended use. It also makes the change of the comb tooth considerably easier.</p>
+<p id="p-0010" num="0009">As described before, the comb tooth holder employs here as first positively locking portion, the positively locking portion known from DE 20 2005 009 859 U1 configured as recess that has, seen from the side, the shape of a &#x201c;J&#x201d;. Therefore, in particular in the lower area of the comb tooth holder, the comb tooth can be inserted simply and securely and is, by this configuration, supported there suitably.</p>
+<p id="p-0011" num="0010">Furthermore, this before described comb tooth holder is also characterized in that the recess has wedge-like or conical, preferably configured ending at the outside, positively locking surfaces. They further improve the supporting and thus wear-reducing effects of the first positively locking portion.</p>
+<p id="p-0012" num="0011">In an embodiment, the comb tooth holder according to one of the before described embodiments or modifications is characterized in that in the end of the comb tooth body, seen in front in cutting direction, a nose is provided forming the front end of the recess and being configured preferably cylinder-like. In the interior of the comb tooth body, this generates the already described recess.</p>
+<p id="p-0013" num="0012">The invention suggests here furthermore that at the nose in cutting direction, a nose front face and a nose end are provided forming the front nose curve. This serves for reducing the wear at the front side of the comb tooth body.</p>
+<p id="p-0014" num="0013">Another aspect of the invention is the fact that at or in the comb tooth body a second positively locking portion is linked to the first positively locking portion. First of all, this improves self-centering of the comb tooth at the comb tooth body. Furthermore, thus the material portion of the comb tooth is reduced successfully as this second positively locking portion has a corresponding effect on the shape of the comb tooth.</p>
+<p id="p-0015" num="0014">According to the invention, the comb tooth holder as described before is characterized in that the second positively locking portion is provided as cross support for the comb tooth. In addition to the material reduction, this configuration effects a cross support and/or cross centering of the comb tooth at the comb tooth body. It can be seen in the drawing that this cross support serves also for material reduction of the comb tooth.</p>
+<p id="p-0016" num="0015">The principle of the surfaces supporting the comb tooth is also consequently realized in the second positively locking portion. Accordingly, the comb tooth holder is characterized, according to an embodiment of the invention, in that the second positively locking portion comprises a first and a second cross support surface that are, relatively to the positively locking surfaces, deflected, preferably deflected declining in cutting direction.</p>
+<p id="p-0017" num="0016">At the comb tooth holder, as described before, also at the second positively locking portion, a cross support surface web is provided connecting the two cross support surfaces.</p>
+<p id="p-0018" num="0017">Furthermore, the second positively locking portion is formed by at least one upper cross surface linked to the cross support surface web and the two cross support surfaces. This also improves the self-centering and supporting effect of the arrangement of the comb tooth at the comb tooth body.</p>
+<p id="p-0019" num="0018">Furthermore, the comb tooth holder according to the invention is characterized in that the upper cross surface is deflected in opposite direction, that is in opposite direction of the cutting direction, relatively to the cross support surface web and the two cross support surfaces. Also in this embodiment, the upper cross surface and the two cross support surfaces are configured wedge-like or conical, preferably ending at the outside.</p>
+<p id="p-0020" num="0019">A preferred modification of the comb tooth holder according to the invention provides that a part of the comb tooth body is configured a support body. According to the invention, at this support body the third positively locking portion is provided and formed, respectively. This particular configuration of the support body defines that the supporting qualities of the comb tooth body are further improved. The wear at the comb tooth body is reduced, and a quick change or exchange of the comb tooth is possible. Of course, this configuration serves in particular also for material reduction of the comb tooth.</p>
+<p id="p-0021" num="0020">A comb tooth holder according to one or more of the previously described embodiments is characterized in that the support body extends almost to a flight circle defined by the cutting edge of the comb tooth, or exterior radius of the comb tooth holder. The supporting effect is thus excellently supported further.</p>
+<p id="p-0022" num="0021">The invention suggests furthermore that the comb tooth engages in the support body of the comb tooth body. This serves also for realizing the third positively locking portion with the improvement of the support, self-centering and material reduction at the comb tooth.</p>
+<p id="p-0023" num="0022">Furthermore, it has been found according to the invention to be an advantage when the third positively locking portion is formed V-shaped, seen in opposite direction of the cutting direction, and ends at the outside while forming a recess. The recess/es is/are formed here preferably by at least one, in particular preferably two, receiving pockets. The seat and the receiving pockets, respectively, extend here in an advantageous development on the side of a center web.</p>
+<p id="p-0024" num="0023">The comb tooth holder according to the invention is here furthermore characterized in that a web front serves as front end of the recess. The receiving pockets are advantageously each time formed by a web side, a rest and a back support surface. The overall concept of the invention, that is low wear, supporting influence of the arrangement, rest and fastening, respectively, of the comb tooth in the comb tooth body, while, at the same time, the material portion is reduced, is here also realized consequently.</p>
+<p id="p-0025" num="0024">An advantageous modification of the comb tooth body, as described before, is also characterized here in that the support body has on its back end, seen in cutting direction, a slot separating the support body there. The material removal of the comminuted material is influenced positively by this.</p>
+<p id="p-0026" num="0025">The invention provides here that the comb tooth body can be arranged on, in particular fastened to, the mating holder or cage of the comminution device. Such a configuration has not yet become known in the state of the art in this way. It allows an economic arrangement, can be serviced easily for a comb tooth change, and serves additionally for the reduction of the material portion of the comb tooth.</p>
+<p id="p-0027" num="0026">A comb tooth holder according to one or more of the preceding embodiments is characterized in that at the underside or at the side facing the mating holder or cage, the comb tooth holder has a centering device for centering on the mating holder or cage. A fast and exact arrangement at or on the mating holder or cage is thus favored.</p>
+<p id="p-0028" num="0027">It has been found here to be convenient when the centering device of the comb tooth holder is configured as groove, in particular as cross groove or tongue interacting correspondingly and positively locking with a tongue or groove provided on the comminution roll. Furthermore, it is an advantage when the centering device has, seen from the side, the shape of a triangle, in particular a triangle with one tip pointing upwards.</p>
+<p id="p-0029" num="0028">A particular aspect of the invention suggests a comb tooth holder according to one or more of the previously described embodiments, modifications and developments, respectively, that is characterized in that at the comb tooth at the side facing the comb tooth body in assembling position at least two positively locking portions, preferably three positively locking portions are configured correspondingly with the shape of the previously described embodiments, modifications and examples, respectively. This is, of course, necessary to reach the before-described advantages compared with the state of the art. Accordingly, the configuration of the comb tooth body includes the configuration of the comb tooth in order to reach the comb tooth holder according to the invention.</p>
+<p id="p-0030" num="0029">According to the invention, it is furthermore provided that comb tooth body and comb tooth have fastening means by means of which they can be connected to each other detachably fixedly. The fastening means is, for example, at least one screw connection that is guided through bore holes in the comb tooth body and in the comb tooth.</p>
+<p id="p-0031" num="0030">The screw is guided through correspondingly arranged bore holes in comb tooth and comb tooth body, the nut being arranged at the en, in the back seen in the cutting direction, of the comb tooth body. It is protected there safely against wear or damage.</p>
+<p id="p-0032" num="0031">Furthermore, it is preferred when the comb tooth body and/or the comb tooth is produced of metal, preferably cast iron. This allows an economic production with relatively low costs.</p>
+<p id="p-0033" num="0032">In an advantageous development, the comb tooth holder is characterized in that the side faces of the comb tooth end diagonally upwards, taper or end at the exterior radius, and/or the comb tooth is designed narrower in the direction opposite the cutting direction than at the cutting edge. Thus, the comminution process is not impeded, and there are no unintended jammings that would require stopping the comminution process, in particular when the material is sticky or moist and adhesive.</p>
+<p id="p-0034" num="0033">The comb tooth holder according to the invention also provides that the positively locking portion/s is/are designed such that comb teeth having different exterior shapes, for example triangular, rectangular or polygonal comb teeth can be inserted or attached. The comb teeth are configured analogously here each time on the side facing the comb tooth body, that is correspondingly to it, and only the tooth shape on the cutting side differing to it depending on the respective tooth form. This increases considerably the universal function for a different use according to the purpose.</p>
+<p id="p-0035" num="0034">As already mentioned before, the positively locking portion/s is/are configured such that a self-centering is executed by the positively locking portion/s during fastening of the comb tooth at or on the comb tooth body.</p>
+<p id="p-0036" num="0035">It is an advantage here when the comb tooth at the side pointing towards the cutting edge has a concave deflection or curve, and/or is designed concavely. Furthermore, the comb tooth holder is characterized according to a development in that the comb tooth has a superimposed cutting edge as edge that is formed preferably of hard metal, preferably the size of the comb tooth being able to be adjusted because of different comminution tasks.</p>
+<p id="p-0037" num="0036">It is a particular advantage when the comb tooth is provided at the edges of the comb tooth pointing in cutting direction each time a chamfer, and/or has there at least one hardened area, wherein preferably the hardened area/s has/have been generated by hard facing or welding.</p>
+<p id="p-0038" num="0037">The invention also suggests a comminution device with at least one comb tooth holder according to one or more of the previously described embodiments or modifications. This comminution device is characterized by being extremely universal with respect to the material to be comminuted, a quick change of the cutting tools, and reduced material for the cutting tools, previously described as comb teeth.</p>
+<p id="p-0039" num="0038">A comminution device as described before is here characterized by a plurality of comb tooth holders disposed on the mating holder or cage. They interact with knives or teeth arranged on the comminution roll during the rotational movement of the comminution roll, the knives or teeth being arranged in spaces or staggered to the comb teeth.</p>
+<p id="p-0040" num="0039">However, the invention is not restricted to the arrangement of the comb tooth holder at the mating holder or cage. A configuration of the comminution device according to the invention is rather characterized by a plurality of comb tooth holders that are arranged on a comminution roll, in particular staggered to one another.</p>
+<p id="p-0041" num="0040">In the following, the invention will be described by means of an embodiment.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<p id="p-0042" num="0041">In the figures:</p>
+<p id="p-0043" num="0042"><figref idref="DRAWINGS">FIGS. 1</figref><i>a </i>to <b>1</b><i>e </i>Different views of a comb tooth according to the invention,</p>
+<p id="p-0044" num="0043"><figref idref="DRAWINGS">FIGS. 2</figref><i>a </i>to <b>2</b><i>e </i>different views of a comb tooth body according to the invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="p-0045" num="0044">In the figures, identical features each are described by identical reference numbers so that a new presentation is done without, if this is not necessary for understanding.</p>
+<p id="p-0046" num="0045">As the characteristics of the positively locking portions <b>3</b>, <b>4</b>, and <b>5</b> are shown in more detail at the comb tooth holder <b>1</b>, the first to be described will be <figref idref="DRAWINGS">FIG. 2</figref>. The comb tooth holder <b>1</b> is shown in five different views. <figref idref="DRAWINGS">FIG. 2</figref><i>a </i>shows here the comb tooth holder <b>1</b> in a three-dimensional representation transversely from the front, that is in opposite direction of the cutting direction A indicated by an arrow. <figref idref="DRAWINGS">FIG. 2</figref><i>b </i>shows the comb tooth body <b>1</b> transversely from the back. <figref idref="DRAWINGS">FIGS. 2</figref><i>c </i>to <b>2</b><i>e </i>show top view, side view and bottom view. A first positively locking portion <b>3</b> at the comb tooth body <b>1</b> is indicated schematically by an arrow. This is formed by a J-shaped recess <b>30</b>. The front end is here formed by a nose <b>34</b> having a nose front face <b>35</b> as well as a nose end <b>36</b> at the side pointing in cutting direction A. The nose <b>34</b> has lateral flattenings <b>37</b>. The recess <b>30</b> has a first positively locking surface <b>31</b> and a second positively locking surface <b>32</b> extending on both sides from a centrally arranged web surface <b>33</b>. The first positively locking surface <b>31</b> and the second positively locking surface <b>32</b> are provided conically or declining deflected from the inside to the outside.</p>
+<p id="p-0047" num="0046">The second positively locking portion <b>4</b> is linked, seen in assembling position upwards, to the first positively locking portion <b>3</b>, forms a cross support, and is also indicated schematically by an arrow at the reference number. The second positively locking portion <b>4</b> is formed, for example, by a first cross support surface <b>40</b>, a second cross support surface <b>41</b>, a cross support surface web <b>42</b> that are deflected in the direction of the cutting direction A relatively to the first positively locking portion <b>3</b>. The two cross support surfaces <b>40</b> and <b>41</b> are also again provided deflected or conically declining outwards. Part of the second positively locking portion is furthermore the upper cross surface <b>43</b>, that is then deflected in opposite direction to the cutting direction. This effects another support and centering of the comb tooth <b>2</b> at the comb tooth body <b>1</b>. The material reduction at the comb tooth <b>2</b> (see <figref idref="DRAWINGS">FIG. 1</figref>) is a result of the fact that the second positively locking portion <b>4</b> extends in the body of the comb tooth <b>2</b> in a centering opening that is provided there correspondingly and not described in detail. In the area of the upper cross section <b>43</b> a bore hole <b>8</b> is provided receiving a not-shown screw for connecting comb tooth body <b>1</b> and comb tooth <b>2</b>.</p>
+<p id="p-0048" num="0047">On top in assembly position, a support body <b>500</b> is provided at the comb tooth body <b>1</b>. At this support body <b>500</b>, the third positively locking portion <b>5</b> is provided that is again indicated by an arrow at the reference number. The third positively locking portion <b>5</b> is formed by a V-shaped provided seat <b>50</b>. This is formed by the receiving pockets <b>50</b>/<b>1</b> and <b>50</b>/<b>2</b> extending on the side of a center web <b>51</b>. The front end of the seat <b>50</b> is formed by a web front <b>52</b>. The receiving pockets <b>50</b>/<b>1</b> and <b>50</b>/<b>2</b> are again formed by a web side <b>53</b>, <b>56</b>, rests <b>54</b>, <b>57</b>, and back support surfaces <b>55</b>, <b>58</b> each. The recess, necessary by the center web <b>51</b> in the comb tooth <b>2</b>, leads to material reduction at the comb tooth <b>2</b>. The embodiment shown in the figures is altogether also suited for reducing the wear at the comb tooth body, and, in particular, for improving the fastening and the exchange of the comb tooth <b>2</b>. The self-centering effects of such a design are excellent. Seen in cutting direction, at the comb tooth body <b>1</b> a slot <b>7</b> is provided. This also serves for saving material (here at the comb tooth body <b>1</b>), and in particular for an improved material removal after the comminution process. In <figref idref="DRAWINGS">FIGS. 2</figref><i>a </i>and <b>2</b><i>b </i>a centering device <b>6</b> can be seen very clearly, that has, seen from the side, the shape of a triangle with a tip pointing upwards. This serves for centering the comb tooth body <b>1</b> at the mating holder or cage of the comminution device.</p>
+<p id="p-0049" num="0048"><figref idref="DRAWINGS">FIGS. 1</figref> a to <b>1</b> e show the comb tooth <b>2</b> belonging to the comb tooth holder in different views&#x2014;three-dimensional presentation transversely from the front and from the back, as well as top view, side view and bottom view. The characteristics of the positively locking portions <b>3</b>, <b>4</b> and <b>5</b> are each time a result, analogously to the embodiment described in comb tooth body <b>1</b>, by a corresponding shaping. The comb tooth <b>2</b> has a cutting edge <b>20</b>. At the side of the comb tooth <b>2</b> facing in cutting direction A, a concavely configured deflection or curve is provided. At the side edges of the comb tooth <b>2</b> facing in cutting direction A, chamfers <b>21</b> are designed that have either hardened areas or that form an additional cutting edge and/or reinforcement of the comb tooth <b>2</b> by hard facing or welding. The comb tooth <b>2</b> tapers from the bottom to the top at its side surfaces <b>22</b> and <b>23</b>. As it can be seen in particular also in <figref idref="DRAWINGS">FIG. 1</figref><i>e</i>, such a tapering of the entire comb tooth <b>2</b> is also provided in opposite direction of the cutting direction A.</p>
+<p id="p-0050" num="0049">The figures are only intended for a better understanding of the already in the description presented way of function. Therefore, the already described functions and effects are not repeated again here.</p>
+<p id="p-0051" num="0050">The invention has been described before by means of an embodiment by several figures. The claims filed now and along with the application later on are attempts for formulating without prejudice for obtaining a broader protection.</p>
+<p id="p-0052" num="0051">References in the depending claims refer to the further configuration of the subject matter of the main claim by the characteristics of the respective sub-claim. However, they are not to be understood as a waiver for obtaining an independent, subjective protection for the characteristics of the referred sub-claims.</p>
+<p id="p-0053" num="0052">Characteristics only disclosed in the description so far can be claimed, in the course of proceedings, as being of inventive relevance, for example to distinguish from the state of the art.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A comb tooth assembly for comminution devices having cutting teeth disposed on comminution rolls interacting with comb teeth arranged on at least one mating assembly or cage for comminuting the material to be comminuted, consisting of at least one comb tooth body and at least one comb tooth, wherein the comb tooth is fastened to the comb tooth body by means of a first positively locking portion, the locking portion have two positively locking surfaces, wherein at the comb tooth body a second positively locking portion is provided for fastening the comb tooth to the comb tooth body, wherein at or in the comb tooth body the second positively locking portion is connected to the first positively locking portion and a web surface connecting the two positively locking surfaces extends in the center or centrally in a recess, wherein the second positively locking portion comprises at least one upper cross surface and the upper cross surface is angled relatively to a cross support surface web and two cross support surfaces are provided in opposite direction, that is in opposite direction of cutting and/or the upper cross surface and the two cross support surfaces are configured a wedge shape or a conical shape.</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the comb tooth body and the comb tooth have on the sides facing one another in assembling position a corresponding shape for producing the positively locking portions.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first positively locking portion is configured as recess and the recess has a wedge shape or conical positively locking surfaces configured ending at the outside.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The comb tooth assembly according to <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein the first positively locking portion is arranged at the end of the comb tooth body that is in front in the direction of cutting.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein at the end of the comb tooth body, a nose is provided forming the front end of a recess of the first positively locking portion, and at the nose in the direction of cutting a nose front face and a nose end are provided forming a front curve of the nose.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the second positively locking portion is provided as cross support for the comb tooth.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein angled declining in the direction of cutting and/or the second positively locking portion has a cross support surface web connecting the two cross support surfaces to one another, the second positively locking portion is furthermore formed by at least one upper cross surface connected to the cross support surface web and the two cross support surfaces.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein a part of the comb tooth body is designed as support body.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The comb tooth assembly according to <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the support body extends almost to a flight circle defined by a cutting edge of the comb tooth.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the comb tooth engages in a support body of the comb tooth body.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein a third positively locking portion is provided and configured, respectively, at a support body as part of the comb tooth body.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The comb tooth assembly according to <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the third positively locking portion ends towards the outside, seen in opposite direction of the cutting direction, V-shaped, forming a seat and/or the seat is formed by at least one seat pockets.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein a seat of the comb tooth body is provided and the seat and seat pockets, respectively, extend on the side of the center web, a web front serves as front end of the seat.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The comb tooth assembly according to <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein seat pockets as part of the seat are provided, each are formed by a web side, a rest and a back support surface and/or a support body is provided and the support body has at its back end, seen in the direction of cutting, a slot separating the support body.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the comb tooth assembly is arranged on a mating assembly or cage of the comminution device and/or the comb tooth assembly has on its underside of its side facing the mating assembly or cage, a centering device for centering on the mating assembly or cage, the centering device of the comb tooth assembly is configured as groove interacting correspondingly and positively locking with a tongue or groove provided on the comminution roll.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein a centering device is provided on the comb tooth assembly and the centering device, seen from the side, has the shape of a triangle.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The comb tooth assembly according to <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein a tip of a triangle points upwards or at the comb tooth at the side pointing at the comb tooth body in the position of assembling.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein comb tooth body and comb tooth have fastening means by means of which they can be connected to one another detachably fixedly, and/or the fastening means is determined by at least one screw connection that is guided through bore holes in the comb tooth body and the comb tooth.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The comb tooth assembly according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein the comb tooth body or the comb tooth is made of metal.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein side surfaces of the comb tooth are provided and the side surfaces of the comb tooth end diagonally upwards, taper or end at the outer radius, and/or the comb tooth is configured in opposite direction of the cutting direction narrower than at the cutting edge and/or on the side pointing in the cutting direction towards the cutting edge, the comb tooth has a concave deflection or rounding, and/or is configured concavely.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the positively locking portions are designed such that comb teeth with differing shapes, can be inserted or fastened and/or the positively locking portions are configured such that a self-centering is performed by the positively locking portions when the comb tooth is fastened.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text>22. The comb tooth assembly according to <claim-ref idref="CLM-00021">claim 21</claim-ref>, wherein the comb teeth has a triangular, rectangular or polygonal shape.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text>23. The comb tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the comb tooth has a superimposed cutting edge and/or the size of the comb tooth can be adapted because of different comminution tasks and/or the comb tooth at the edges pointing in the direction of cutting each time a chamfer is provided, and/or has there at least one hardened area, and/or the hardened area/s has/have been created by hard facing or welding.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text>24. The comb tooth assembly according to <claim-ref idref="CLM-00023">claim 23</claim-ref>, wherein the edge is made of hard metal.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text>25. The tooth assembly according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first positively locking portion is configured as recess having a J-shape when seen from the side.</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text>26. A comminution device with at least one comb tooth holder for comminution devices having cutting teeth disposed on comminution rolls interacting with comb teeth arranged on at least one mating holder or cage for comminuting the material to be comminuted, consisting of at least one comb tooth body and at least one comb tooth, wherein the comb tooth can be fastened to the comb tooth body by means of a first positively locking portion, the locking portion have two positively locking surfaces, wherein at the comb tooth holder a second positively locking portion is provided for fastening the comb tooth to the comb tooth body, wherein at or in the comb tooth body the second positively locking portion is connected to the first positively locking portion and a web surface connecting the two positively locking surfaces extends in the center or centrally in a recess, wherein the second positively locking portion comprises at least one upper cross surface and the upper cross surface is angled relatively to the cross support surface web and two cross support surfaces are provided in opposite direction, that is in opposite direction of cutting and/or the upper cross surface and the two cross support surfaces are configured a wedge shape or a conical shape.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text>27. The comminution device according to <claim-ref idref="CLM-00026">claim 26</claim-ref>, wherein a plurality of comb tooth holders arranged on the mating holder or cage.</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text>28. The comminution device according to <claim-ref idref="CLM-00026">claim 26</claim-ref>, wherein a plurality of comb tooth holders arranged on a comminution roll staggered to one another. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

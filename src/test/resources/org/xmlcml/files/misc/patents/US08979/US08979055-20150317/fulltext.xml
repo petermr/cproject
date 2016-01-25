@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979055-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979055</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13932210</doc-number>
+<date>20130701</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>TW</country>
+<doc-number>101147759 A</doc-number>
+<date>20121217</date>
+</priority-claim>
+</priority-claims>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>F</subclass>
+<main-group>5</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>14</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>14</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>2200</main-group>
+<subgroup>022</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>24828831</main-classification>
+<further-classification>24828851</further-classification>
+<further-classification>2481771</further-classification>
+<further-classification>2481781</further-classification>
+<further-classification>2481811</further-classification>
+<further-classification>2482781</further-classification>
+<further-classification>248514</further-classification>
+</classification-national>
+<invention-title id="d2e61">Tripod head</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2739780</doc-number>
+<kind>A</kind>
+<name>Richards</name>
+<date>19560300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248324</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>5899167</doc-number>
+<kind>A</kind>
+<name>Furman</name>
+<date>19990500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>116173</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>6328270</doc-number>
+<kind>B1</kind>
+<name>Elberbaum</name>
+<date>20011200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>24828831</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>7100881</doc-number>
+<kind>B2</kind>
+<name>Worrall</name>
+<date>20060900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2482781</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>7278620</doc-number>
+<kind>B2</kind>
+<name>Blateri</name>
+<date>20071000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248343</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>7591446</doc-number>
+<kind>B2</kind>
+<name>Istas et al.</name>
+<date>20090900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>24828811</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>2002/0000503</doc-number>
+<kind>A1</kind>
+<name>Fidler</name>
+<date>20020100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>24828851</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>2482051</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482781</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481771</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481781</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481811</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24828831</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24828851</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248514</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248515</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248516</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403115</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403122</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403143</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>4</number-of-drawing-sheets>
+<number-of-figures>4</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140166831</doc-number>
+<kind>A1</kind>
+<date>20140619</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Hon Hai Precision Industry Co., Ltd.</orgname>
+<address>
+<city>New Taipei</city>
+<country>TW</country>
+</address>
+</addressbook>
+<residence>
+<country>TW</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Chu</last-name>
+<first-name>Chih-Hao</first-name>
+<address>
+<city>New Taipei</city>
+<country>TW</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Novak Druce Connolly Bove + Quigg LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Hon Hai Precision Industry Co., Ltd.</orgname>
+<role>03</role>
+<address>
+<city>New Taipei</city>
+<country>TW</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Epps</last-name>
+<first-name>Todd M</first-name>
+<department>3632</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A tripod head includes a shell, an adjusting member, a supporting member, and a locking member. The shell defines a receiving space and an adjusting opening communicating with the receiving space. The adjusting member includes a spherical adjusting portion and a connecting portion connected to the adjusting portion. The adjusting portion is received in the receiving space, and the connecting portion passes out of the shell through the adjusting opening. The adjusting portion adjusts a position and angle of the connecting portion relative to the shell by rotating in the receiving space. The supporting member supports the adjusting portion in the receiving space. The locking member locks the adjusting portion between the supporting member and the shell.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="223.94mm" wi="276.52mm" file="US08979055-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="246.89mm" wi="153.75mm" file="US08979055-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="256.12mm" wi="150.28mm" file="US08979055-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="215.31mm" wi="160.78mm" file="US08979055-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="214.12mm" wi="163.66mm" file="US08979055-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND</heading>
+<p id="p-0002" num="0001">1. Technical Field</p>
+<p id="p-0003" num="0002">The present disclosure relates to cameras, and particularly to a low cost tripod head for supporting cameras.</p>
+<p id="p-0004" num="0003">2. Description of Related Art</p>
+<p id="p-0005" num="0004">Tripods are used for supporting cameras to allow steady shooting of the cameras and include a tripod head, which allows a user to adjust a shoot angle of the camera. At present, the tripod head generally has a complicated adjusting structure, increasing cost of the tripod head.</p>
+<p id="p-0006" num="0005">What is needed therefore is a tripod head addressing the limitations described.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0002" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0007" num="0006">The components of the drawings are not necessarily drawn to scale, the emphasis instead being placed upon clearly illustrating the principles of the embodiments of the present disclosure. Moreover, in the drawings, like reference numerals designate corresponding parts throughout several views.</p>
+<p id="p-0008" num="0007"><figref idref="DRAWINGS">FIG. 1</figref> is an exploded view of a tripod head according to an exemplary embodiment of the present disclosure.</p>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 2</figref> is similar to <figref idref="DRAWINGS">FIG. 1</figref>, but showing the tripod head from another angle.</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 3</figref> is an assembled view of the tripod head of <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 4</figref> is a cross-sectional view of the tripod head of <figref idref="DRAWINGS">FIG. 3</figref>, taken along line IV-IV.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0003" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIGS. 1-2</figref> show a tripod head <b>100</b> according to an exemplary embodiment. The tripod head <b>100</b> includes a shell <b>10</b>, an adjusting member <b>20</b>, a supporting member <b>30</b>, and a locking member <b>40</b>.</p>
+<p id="p-0013" num="0012">The shell <b>10</b> is substantially a hollow cylinder. The shell <b>10</b> includes a sidewall <b>11</b> and an upper plate <b>12</b> connected to an end of the sidewall <b>11</b>. The sidewall <b>11</b> and the upper plate <b>12</b> cooperatively define a receiving space <b>101</b>. The sidewall <b>11</b> includes a substantially ring-shaped flange portion <b>14</b> protruding from an end away from the upper plate <b>12</b>. In this embodiment, the flange portion <b>14</b> is a continuous ring. Alternatively, the flange portion <b>14</b> can be comprised of a number of protruding blocks annularly arranged and spaced from each other. The upper plate <b>12</b> defines a first adjusting opening <b>121</b> communicating with the receiving space <b>101</b>. The first adjusting opening <b>121</b> is substantially round.</p>
+<p id="p-0014" num="0013">The shell <b>10</b> further defines a second adjusting opening <b>102</b> communicating with the first adjusting opening <b>121</b>. The second adjusting opening <b>102</b> extends from the first adjusting opening <b>121</b> perpendicularly away from the upper plate <b>12</b> into the sidewall <b>11</b>. In another embodiment, the second adjusting opening <b>102</b> helically extends away from the upper plate <b>12</b>.</p>
+<p id="p-0015" num="0014">The adjusting member <b>20</b> includes an adjusting portion <b>21</b> and a connecting portion <b>22</b> connected to the adjusting portion <b>21</b>. The adjusting portion <b>21</b> adjusts a position and angle of the connecting portion <b>22</b> relative to the shell <b>10</b>. The adjusting portion <b>21</b> is substantially spherical. An end of the connecting portion <b>22</b> is fixedly connected to the adjusting portion <b>21</b>. The end of the connecting portion <b>22</b> away from the adjusting portion <b>21</b> connects to a camera (not shown) by a suitable connection means.</p>
+<p id="p-0016" num="0015">The supporting member <b>30</b> includes a threaded portion <b>31</b> and a supporting portion <b>32</b> connected to the threaded portion <b>31</b>. The threaded portion <b>31</b> is substantially cylindrical. The threaded portion <b>31</b> defines a connecting hole <b>311</b> defined in an end away from the supporting portion <b>32</b>. The connecting hole <b>311</b> connects to a tripod (not shown). The connecting hole <b>311</b> is an internally threaded hole. The supporting portion <b>32</b> is fixedly connected to an end of the threaded portion <b>31</b>. The supporting portion <b>32</b> includes a supporting surface <b>321</b> away from the threaded portion <b>31</b>. The supporting surface <b>321</b> is concave and is conformed to the shape of the adjusting portion <b>21</b>.</p>
+<p id="p-0017" num="0016">The locking member <b>40</b> locks the adjusting member <b>20</b> in the shell <b>10</b>. The locking member <b>40</b> includes a first plate <b>41</b> and a second plate <b>42</b>. The first plate <b>41</b> defines a threaded hole <b>411</b> in its center. The threaded hole <b>411</b> receives the threaded portion <b>31</b> of the supporting member <b>30</b> so as to firmly connect the supporting member <b>30</b> to the locking member <b>40</b>. A thickness of the central portion of the first plate <b>41</b> is larger that of a peripheral portion of the first plate <b>41</b> surrounding the central portion, thus to elongate an axial length of the threaded hole <b>411</b>. Therefore, a steady connection between the supporting member <b>30</b> and the locking member <b>40</b> can be ensured. The first plate <b>41</b> is substantially circular. Alternatively, the first plate <b>41</b> can be polygonal-shaped, such as a rectangular, triangular, or the like. The first plate <b>41</b> includes a protrusion portion <b>412</b> around its periphery. The protrusion portion <b>412</b> protrudes along a direction substantially parallel to a central axis of the threaded hole <b>411</b>. The protrusion portion <b>412</b> is a continuous ring around the periphery of the first plate <b>41</b>. Alternatively, the protrusion portion <b>412</b> can be comprised of a number of protrusions spaced apart. The first plate <b>41</b> defines a number of first connecting holes <b>413</b> around the threaded hole <b>411</b>. The first connecting holes <b>413</b> are threaded holes.</p>
+<p id="p-0018" num="0017">The second plate <b>42</b> defines a substantially circular through hole <b>421</b> in its center. The size of the through hole <b>421</b> allows the shell <b>10</b>, but not the flange portion <b>14</b>, to pass through. In this embodiment, the through hole <b>421</b> is substantially circular-shaped, and a diameter of the through hole <b>421</b> is larger than an outer diameter of the sidewall <b>11</b> and less than an outer diameter of the flange portion <b>14</b>. The second plate <b>42</b> defines a recess portion <b>422</b> surrounding the through hole <b>421</b>. A size and shape of the recess portion <b>422</b> accommodate a size and shape of the flange portion <b>14</b>. A shape of the second plate <b>42</b> accommodates a shape of an inner side surface of the protrusion portion <b>412</b>. The second plate <b>42</b> defines a number of second connecting holes <b>423</b> corresponding to the first connecting holes <b>413</b>.</p>
+<p id="p-0019" num="0018">The first plate <b>41</b> and the second plate <b>42</b> are fixedly connected to each other by fixing members (not shown), such as bolts or rivets. In this embodiment, the fixing members are bolts. The fixing members pass through the second connecting holes <b>423</b> into the corresponding first connecting holes <b>413</b>.</p>
+<p id="p-0020" num="0019">The tripod head <b>100</b> further includes a pad <b>50</b>. The pad <b>50</b> is substantially ring-shaped, and the pad <b>50</b> has a truncated conical outer side surface. The pad <b>50</b> defines an opening <b>51</b> corresponding to the second adjusting opening <b>102</b>. In this embodiment, the pad <b>50</b> is made of rubber.</p>
+<p id="p-0021" num="0020">Referring to <figref idref="DRAWINGS">FIGS. 3-4</figref>, in assembly, the adjusting member <b>20</b> is received in the receiving space <b>101</b>, the connecting portion <b>22</b> passes out of the shell <b>10</b> through the first adjusting opening <b>121</b> or the second adjusting opening <b>102</b>, and the pad <b>50</b> is positioned between the adjusting portion <b>21</b> and an inner surface of the shell <b>10</b>. The opening <b>51</b> is aligned with the second adjusting opening <b>102</b>. An end of the shell <b>10</b> with the upper plate <b>12</b> passes through the through hole <b>421</b> so that the flange portion <b>14</b> abuts against the recess portion <b>422</b>. The threaded portion <b>31</b> of the supporting member <b>30</b> screws into the threaded hole <b>411</b>. The first plate <b>41</b> and the second plate <b>42</b> are fixed to each other so that the flange portion <b>14</b> is sandwiched between them. The supporting portion <b>32</b> inserts into the receiving space <b>101</b> of the shell <b>10</b>, and the supporting surface <b>321</b> supports the adjusting portion <b>21</b>. The locking member <b>40</b> is rotatably connected to the supporting member <b>30</b>, such that when the locking member <b>40</b> is rotated relative to the supporting member <b>30</b>, the locking member <b>40</b> locks or unlocks the adjusting portion <b>21</b> in the receiving space <b>101</b>. In this embodiment, when the locking member <b>40</b> is rotated along a clockwise direction, the locking member <b>40</b> moves toward the supporting portion <b>32</b>; when the locking member <b>40</b> is rotated along a counterclockwise direction, the locking member <b>40</b> moves away from the supporting portion <b>32</b>.</p>
+<p id="p-0022" num="0021">In use, the tripod head <b>100</b> is fixed on the tripod (not shown), and a camera (not shown) is fixedly connected to the connecting portion <b>22</b> of the adjusting member <b>20</b>. Before shooting, the adjusting portion <b>21</b> is unlocked in the receiving space <b>101</b>, and a position and shooting angle of the camera is adjusted. The position and shooting angle of the camera is adjusted by moving the connecting portion <b>22</b> in the first adjusting opening <b>121</b> and/or the second adjusting opening <b>102</b>. The second adjusting opening <b>102</b> allows the camera to be adjusted vertically or horizontally.</p>
+<p id="p-0023" num="0022">When a satisfied position and shooting angle is adjusted, the locking member <b>40</b> is rotated to lock the adjusting member <b>20</b> between the supporting member <b>30</b> and the upper plate <b>12</b>. The pad <b>50</b> provides a frictional force on the adjusting member <b>20</b> when the adjusting member <b>20</b> is locked to ensure a steady support for the camera.</p>
+<p id="p-0024" num="0023">It is believed that the present embodiments and their advantages will be understood from the foregoing description, and it will be apparent that various changes may be made thereto without departing from the spirit and scope of the disclosure or sacrificing all of its material advantages, the examples hereinbefore described merely being exemplary embodiments of the disclosure.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A tripod head, comprising:
+<claim-text>a shell, the shell defining a receiving space and a first adjusting opening communicating with the receiving space, the shell comprising a sidewall and an upper plate connected to the sidewall, the sidewall and the upper plate cooperatively defining the receiving space therebetween, and the first adjusting opening defined in the upper plate;</claim-text>
+<claim-text>an adjusting member comprising a spherical-shaped adjusting portion and a connecting portion connected to the adjusting portion, the adjusting portion being received in the receiving space, the connecting portion passing out of the shell through the first adjusting opening, the adjusting portion adjusting a position and angle of the connecting portion relative to the shell by rotating in the receiving space relative to the shell;</claim-text>
+<claim-text>a supporting member supporting the adjusting portion in the receiving space, the supporting member comprising a threaded portion and a supporting portion connected to the threaded portion, the supporting portion inserting into the receiving space and supporting the adjusting portion in the receiving space, and the threaded portion screwed into the locking member; and</claim-text>
+<claim-text>a locking member configured for locking the adjusting portion between the supporting member and the shell, the locking member comprising a first plate and a second plate connected to the first plate, and an end of the shell away from the upper plate fixedly restricted between the first plate and the second plate.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The tripod head of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the shell defines a second adjusting opening communicating with the first adjusting opening, the second adjusting opening extends from the first opening into the sidewall.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The tripod head of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the second adjusting opening in the sidewall extends along a direction perpendicularly away from the upper plate.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The tripod head of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the second adjusting opening in the sidewall helically extends away from the upper plate.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The tripod head of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the tripod head comprises a pad positioned between the adjusting portion and an inner surface of the shell.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The tripod head of <claim-ref idref="CLM-00005">claim 5</claim-ref>, wherein the pad defines an opening spatially corresponding to the second adjusting opening.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The tripod head of <claim-ref idref="CLM-00005">claim 5</claim-ref>, wherein an outer side surface of the pad is substantially truncated conical-shaped.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The tripod head of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the supporting portion comprises a supporting surface facing away from the threaded portion, the supporting surface is a concave surface, and a shape of the supporting surface is accommodated with an outer surface of the adjusting portion.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The tripod head of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first plate defines a threaded hole in a central portion thereof, the threaded hole accommodates the threaded portion of the supporting member, and the threaded portion screws into the threaded hole.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The tripod head of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein a thickness of the central portion of the first plate is larger a thickness of a peripheral portion of the first plate surrounding the central portion.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The tripod head of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the first plate comprises a protrusion portion at the peripheral portion, and a shape of the second plate is accommodated with an inner side surface of the protrusion portion.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The tripod head of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the sidewall comprises a flange portion on an end away from the upper plate, the flange portion radically protrudes from the sidewall, the second plate defines a through hole and a recess portion surrounding the through hole, the flange portion is received in the recess portion and directly sandwiched between the first and second plates, and the sidewall passes through the through hole of the second plate.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. A tripod head comprising:
+<claim-text>a shell comprising a sidewall and an upper plate connected to the sidewall, the sidewall and the upper plate cooperatively defining a receiving space therebetween, the upper plate defining a first adjusting opening communicating with the receiving space;</claim-text>
+<claim-text>an adjusting member comprising a spherical-shaped adjusting portion and a connecting portion connected to the adjusting portion, the adjusting portion being received in the receiving space, the connecting portion passing out of the shell through the first adjusting opening, the adjusting portion adjusting a position and angle of the connecting portion relative to the shell by rotating in the receiving space relative to the shell;</claim-text>
+<claim-text>a supporting member supporting the adjusting portion in the receiving space; and</claim-text>
+<claim-text>a locking member configured for locking the adjusting portion between the supporting member and the shell, the locking member comprising a first plate and a second plate connected to the first plate, and an end of the shell away from the upper plate fixedly restricted between the first plate and the second plate.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The tripod head of <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein the shell defines a second adjusting opening communicating with the first adjusting opening, the second adjusting opening extends from the first opening into the sidewall.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The tripod head of <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the second adjusting opening in the sidewall extends along a direction perpendicularly away from the upper plate.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The tripod head of <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the second adjusting opening in the sidewall helically extends away from the upper plate.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The tripod head of <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the tripod head comprises a pad positioned between the adjusting portion and an inner surface of the shell.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The tripod head of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein the pad defines an opening spatially corresponding to the second adjusting opening.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The tripod head of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein an outer side surface of the pad is substantially truncated conical-shaped.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The tripod head of <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein the supporting member comprises a threaded portion and a supporting portion connected to the threaded portion, the supporting portion inserts into the receiving space and supports the adjusting portion in the receiving space, and the threaded portion is screwed into the locking member. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

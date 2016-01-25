@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979027-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979027</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13485720</doc-number>
+<date>20120531</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>44</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>1</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classification-national>
+<country>US</country>
+<main-classification>244119</main-classification>
+</classification-national>
+<invention-title id="d2e53">Wall installation system and method</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>1940969</doc-number>
+<kind>A</kind>
+<name>Randall</name>
+<date>19331200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52511</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>1942119</doc-number>
+<kind>A</kind>
+<name>Place</name>
+<date>19340100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 29 911</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>1948462</doc-number>
+<kind>A</kind>
+<name>Le Page</name>
+<date>19340200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 2458111</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>1965520</doc-number>
+<kind>A</kind>
+<name>Boden</name>
+<date>19340700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 2458111</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>2070839</doc-number>
+<kind>A</kind>
+<name>Place</name>
+<date>19370200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52177</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2925050</doc-number>
+<kind>A</kind>
+<name>Candlin, Jr. et al.</name>
+<date>19600200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>3752553</doc-number>
+<kind>A</kind>
+<name>Bildahl et al.</name>
+<date>19730800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>3122651</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5202172</doc-number>
+<kind>A</kind>
+<name>Graf</name>
+<date>19930400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>428100</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>5458521</doc-number>
+<kind>A</kind>
+<name>Todd</name>
+<date>19951000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>446 73</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>6224339</doc-number>
+<kind>B1</kind>
+<name>Rhodes et al.</name>
+<date>20010500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>416224</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>6701678</doc-number>
+<kind>B1</kind>
+<name>Skov et al.</name>
+<date>20040300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52 799</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>7527223</doc-number>
+<kind>B2</kind>
+<name>Ebner et al.</name>
+<date>20090500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244131</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>7658044</doc-number>
+<kind>B2</kind>
+<name>Roth</name>
+<date>20100200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 5239604</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>2004/0190985</doc-number>
+<kind>A1</kind>
+<name>Aigner et al.</name>
+<date>20040900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>403329</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>2009/0026318</doc-number>
+<kind>A1</kind>
+<name>Gross et al.</name>
+<date>20090100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244131</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>DE</country>
+<doc-number>3528316</doc-number>
+<kind>A1</kind>
+<date>19870100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>EP</country>
+<doc-number>0279620</doc-number>
+<kind>B1</kind>
+<date>19930600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>EP</country>
+<doc-number>0761905</doc-number>
+<kind>A1</kind>
+<date>19970300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>EP</country>
+<doc-number>1172500</doc-number>
+<kind>A1</kind>
+<date>20020100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>EP</country>
+<doc-number>1338719</doc-number>
+<kind>A1</kind>
+<date>20030800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>EP</country>
+<doc-number>1468907</doc-number>
+<kind>B1</kind>
+<date>20080700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>11</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>2441185</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244119</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244121</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244131</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244132</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 52474</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 52476</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 524831</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 524891</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 524892</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403326</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403329</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24289</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24292</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24458</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 2458111</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248551</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>12</number-of-drawing-sheets>
+<number-of-figures>19</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130320140</doc-number>
+<kind>A1</kind>
+<date>20131205</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Cheung</last-name>
+<first-name>W. Kwun-Wing</first-name>
+<address>
+<city>Shoreline</city>
+<state>WA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Cloud</last-name>
+<first-name>Mark</first-name>
+<address>
+<city>Seattle</city>
+<state>WA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="003" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Schwitters</last-name>
+<first-name>Christopher L</first-name>
+<address>
+<city>Bothell</city>
+<state>WA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Cheung</last-name>
+<first-name>W. Kwun-Wing</first-name>
+<address>
+<city>Shoreline</city>
+<state>WA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Cloud</last-name>
+<first-name>Mark</first-name>
+<address>
+<city>Seattle</city>
+<state>WA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Schwitters</last-name>
+<first-name>Christopher L</first-name>
+<address>
+<city>Bothell</city>
+<state>WA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Parsons Behle &#x26; Latimer</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>The Boeing Company</orgname>
+<role>02</role>
+<address>
+<city>Chicago</city>
+<state>IL</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>O'Hara</last-name>
+<first-name>Brian M</first-name>
+<department>3644</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Wong</last-name>
+<first-name>Jessica</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A system for attaching a wall panel includes a wall panel and a lock strip. The wall panel has a back and a tab extending from the back. The lock strip is moveably attached to a wall frame member, and has a three-position locking slot, including a receiving portion configured to receive the tab, a locking portion configured to lock the tab with respect to the frame member, and a release portion configured to release the tab. The wall panel is removably attachable to the frame member by inserting the tab into the receiving portion and linearly moving the lock strip to lock the tab in the locking portion. The system can be used for attaching interior sidewall panels in an aircraft.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="99.57mm" wi="145.63mm" file="US08979027-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="221.23mm" wi="155.02mm" file="US08979027-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="192.11mm" wi="175.60mm" file="US08979027-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="225.64mm" wi="163.75mm" file="US08979027-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="249.68mm" wi="171.53mm" file="US08979027-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="261.28mm" wi="162.64mm" file="US08979027-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="250.78mm" wi="173.14mm" file="US08979027-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="253.07mm" wi="160.95mm" file="US08979027-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="182.29mm" wi="138.60mm" file="US08979027-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="244.35mm" wi="166.37mm" file="US08979027-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="258.83mm" wi="157.14mm" file="US08979027-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="240.11mm" wi="142.66mm" file="US08979027-20150317-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="180.85mm" wi="180.17mm" file="US08979027-20150317-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">FIELD</heading>
+<p id="p-0002" num="0001">The present disclosure relates to wall installation systems, such as for aircraft interior sidewalls. More particularly, the present disclosure relates to a system and method for installing wall panels that is quick and secure and requires minimal tools, and which also facilitates later removal of wall sections while minimizing damage to the wall structure.</p>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">The statements in this section merely provide background information related to the present disclosure and may not constitute prior art.</p>
+<p id="p-0004" num="0003">Modern commercial aircraft typically include a fuselage having a series of curved transverse ribs and longitudinal stringers. The exterior of the ribs and stringers are covered with a skin of aluminum, carbon fiber composite or other suitable material. The interior of the aircraft includes a series of curved sidewall panels that are attached to the inside of the ribs, typically by screws or other fasteners. The wall panels are typically of polymer material, and can include window frames and other structure that forms a part of the finished aircraft. Once wiring, insulation and other internal wall components are installed between the ribs and inside the skin, the interior wall panels are attached to cover the insulation and other internal wall components, such as environmental components, with a durable covering that provides a pleasing appearance.</p>
+<p id="p-0005" num="0004">Typical aircraft sidewall panels require specialized tooling and hardware for installation, such as special screws, washers, screw drivers, panel installation support aids, shims, etc. In one common arrangement, a sidewall installation involves eight fasteners that attach to their respective frame mounting brackets. Some sidewall systems include mounting hardware (e.g. screws) that is shared between adjacent panels. Other sidewall systems avoid screws and fasteners by using keyways, slotted brackets and the like.</p>
+<p id="p-0006" num="0005">With all of the elements of a typical sidewall installation, it can be a challenge to get the sidewall properly aligned rotationally, vertically and horizontally and then install all of the fasteners. For example, it is desirable to accurately adjust for the proper sidewall-to-center-of-window alignment, which may involve individually adjusting each one of multiple frame brackets, and centering the sidewall panel to align with the window before final fastening of each mounting screw. Even systems that include keyholes and brackets can involve individual adjustment of multiple brackets during installation. Consequently, typical sidewall installations involve more than one skilled worker and a significant amount of time to properly adjust the sidewall and install all of the fasteners. Adjusting and fastening several parts by hand is time-consuming. The work can present ergonomic an ergonomic environment that is less than desired. Moreover, even after such installations there can be issues with gaps, wrinkles and puckers in the panel, due to internal stresses induced during the installation process and other irregularities.</p>
+<p id="p-0007" num="0006">Typical sidewall installations can also present challenges when removal of panels is desired. Certain aircraft maintenance and repair operations can involve the removal of one or more sidewall panels in an aircraft, in order to allow access to electrical, mechanical and other components inside the wall. With typical fastener-attached wall panels, removal of an existing panel presents a higher than desired chance of damage to the panel (perhaps resulting in costly replacement), and a higher than desired likelihood of misalignment or other defect when the panel is replaced. Panel systems that have shared fasteners between adjacent panels present other possible problems.</p>
+<p id="p-0008" num="0007">The present disclosure is directed toward one or more of the above-mentioned issues.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0009" num="0008">In one embodiment, the present disclosure provides a system for attaching a wall panel, including a wall panel, and a lock strip. The wall panel has a back and a tab extending from the back. The lock strip is moveably attached to a wall frame member, and has a three-position locking slot, including a receiving portion configured to receive the tab, a locking portion configured to lock the tab with respect to the frame member, and a release portion configured to release the tab. The wall panel is removably attachable to the frame member by inserting the tab into the receiving portion and linearly moving the lock strip to lock the tab in the locking portion.</p>
+<p id="p-0010" num="0009">In one specific embodiment, the wall panel is an aircraft interior panel, and the frame member is a rib of an aircraft fuselage.</p>
+<p id="p-0011" num="0010">In another specific embodiment, the tab comprises a substantially rigid, upstanding member having a distal bulb end configured to engage the receiving portion of the locking slot in a friction fit.</p>
+<p id="p-0012" num="0011">In another specific embodiment, a spline having a channel is fixedly attached to the frame member, and the lock strip is moveably disposed in the channel.</p>
+<p id="p-0013" num="0012">In another specific embodiment, the wall panel is removable from the frame by linearly moving the lock strip to align the release portion with the tab.</p>
+<p id="p-0014" num="0013">In accordance with another embodiment, the present disclosure provides an aircraft having an airframe and a fuselage with a plurality of substantially parallel frame members, a spline, fixedly attached to the frame members, an interior wall panel, and a lock strip, linearly moveably disposed in the spline. The wall panel has a back, with a plurality of tabs extending from the back. The lock strip has a plurality of three-position locking slots. Each locking slot includes a receiving portion, configured to receive a tab, a locking portion, configured to positionally lock the tab with respect to the frame member, and a release portion, configured to allow removal of the tab from the slot. The wall panel is removably attachable to the frame by inserting the plurality of tabs into the corresponding receiving portions, and linearly moving the lock strip to lock the tabs in the locking portions.</p>
+<p id="p-0015" num="0014">In accordance with yet another embodiment, the present disclosure provides a method for installing a wall panel in an aircraft fuselage interior. The method includes inserting a plurality of tabs extending from a back of a wall panel into receiving portions of three-position moveable lock strips associated with at least two frame members of the fuselage, and linearly pulling the lock strips to align a locking portion of the locking slot of the lock strip with the tabs, thereby fixing the position of the wall panel with respect to the frame members.</p>
+<p id="p-0016" num="0015">The features, functions and advantages that have been discussed can be achieved independently in various embodiments or may be combined in yet other embodiments, further details of which can be seen with reference to the following description and drawings.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0017" num="0016">The drawings described herein are for illustration purposes only and are not intended to limit the scope of the present disclosure in any way.</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 1A</figref> is a perspective view of the back side of an embodiment of a sidewall panel configured for use in a wall installation system as described herein;</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 1B</figref> is a perspective view of an embodiment of a wall installation system showing the sidewall panel of <figref idref="DRAWINGS">FIG. 1A</figref> positioned near an aircraft interior frame;</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 2</figref> is a close-up perspective view of an aircraft interior frame member of <figref idref="DRAWINGS">FIG. 1</figref>, with a wall installation spline attached thereto;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 3</figref> is an exploded perspective view of an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 4</figref> is a perspective view of an upper alignment tab for attachment of a wall panel in accordance with an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 5</figref> is a perspective view of an end of another embodiment of an attachment spline for a wall installation system as disclosed herein;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 6</figref> is a perspective, partial sectional view of an embodiment of a lower index retainer assembly and wall panel in accordance with an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 7A</figref> is a perspective view of another embodiment of a lower index retainer assembly in accordance with an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 7B</figref> is a partially sectional, perspective view of the lower index retainer assembly of <figref idref="DRAWINGS">FIG. 7A</figref>;</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 8A</figref> is a close-up view of an embodiment of a snap-in wedge;</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 8B</figref> is a close-up perspective view of an embodiment of the bumpers of the lock strip slot frame;</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 9</figref> is a perspective view of an embodiment of a reset stop positioned at the top of the lock strip channel of the spline;</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 10</figref> is an exploded view of a spline track, lock strip and wall panel tab in accordance with an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 11</figref> is a close-up, perspective and partial cross-sectional view of a wall panel tab locked within the locking portion of a lock strip of an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 12</figref> is a rear perspective view of a tab inserted into the receiving portion of a lock strip of an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 13</figref> is a rear perspective view of a tab locked in the locking portion of a lock strip of an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 14</figref> is a rear perspective view of a tab inserted into the release portion of a lock strip of an embodiment of a wall installation system as disclosed herein;</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 15</figref> is a flow diagram of an aircraft sidewall installation method in accordance with the present disclosure; and</p>
+<p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 16</figref> is a block diagram of an aircraft.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0037" num="0036">Illustrative embodiments are described below as they might be employed in a wall installation system. In the interest of clarity, not all features of an actual implementation are described in this specification. It will of course be appreciated that in the development of any such actual embodiment, numerous implementation-specific decisions must be made to achieve the developers' specific goals, such as compliance with system-related and business-related constraints, which will vary from one implementation to another. Moreover, it will be appreciated that such a development effort might be complex and time-consuming, but would nevertheless be a routine undertaking for those of ordinary skill in the art having the benefit of this disclosure.</p>
+<p id="p-0038" num="0037">Further aspects and advantages of the various embodiments will become apparent from consideration of the following description and drawings. These embodiments are described in sufficient detail to enable those skilled in the art to practice the invention, and it is to be understood that modifications to the various disclosed embodiments can be made, and other embodiments can be utilized, without departing from the spirit and scope of the present invention. The following detailed description is, therefore, not to be taken in a limiting sense.</p>
+<p id="p-0039" num="0038">Shown in <figref idref="DRAWINGS">FIGS. 1A and 1B</figref> is an aircraft sidewall panel <b>10</b> that is ready to be installed in the interior of an aircraft. Aircraft sidewall panels are frequently honeycomb core or crush-core polymer panels, though other materials can also be used, such as aluminum, and it is to be understood that the system disclosed herein is not limited to these materials. Viewing <figref idref="DRAWINGS">FIG. 1A</figref>, this sidewall panel embodiment includes a back surface <b>14</b>, to which window frames <b>16</b> are attached and positioned to align with exterior structural windows <b>18</b> in the outer skin of the aircraft. The sidewall panel <b>10</b> has a top edge <b>20</b>, a bottom edge <b>22</b>, a right edge <b>24</b>, and a left edge <b>26</b> (though these edges appear reversed in the rear view of <figref idref="DRAWINGS">FIG. 1A</figref>). Adjacent sidewall panels <b>28</b> are also visible in <figref idref="DRAWINGS">FIG. 1B</figref>. The bottom edge <b>22</b> of the wall panel and the bottom edges <b>30</b> of the adjacent wall panels are intended to generally align along line <b>32</b>, which can be parallel with what is called the water line of the aircraft.</p>
+<p id="p-0040" num="0039">In the embodiment shown in <figref idref="DRAWINGS">FIG. 1B</figref>, below the water line <b>32</b> are a series of ventilation panels <b>34</b>, which extend from the water line down to the aircraft cabin floor <b>36</b>, and are part of the aircraft ventilation system. These lower panels are sometimes referred to as decompression air grills, and in one embodiment extend about 15&#x2033; above the floor. These can be installed after the respective sidewall panels above them are installed, as discussed in more detail below.</p>
+<p id="p-0041" num="0040">Extending from the back <b>14</b> of the sidewall panel <b>10</b> are a plurality of tabs <b>38</b>. These tabs are configured to interlock with a spline structure <b>40</b> that is attached to the frame <b>12</b> as part of the wall installation system <b>8</b> described herein.</p>
+<p id="p-0042" num="0041">Shown in <figref idref="DRAWINGS">FIG. 1B</figref> is a perspective view of an embodiment of a sidewall installation system <b>8</b>. This figure shows the aircraft interior sidewall panel <b>10</b> positioned near an aircraft interior frame having multiple parallel frame members <b>12</b>. In this embodiment the frame members <b>12</b> are generally upright, curved ribs of an aircraft fuselage, with a wall installation spline <b>40</b> attached to at least some of the frame members. It is to be understood that the wall installation system <b>8</b> and method disclosed herein can be used with frame members that are curved or straight, and with frame members that are vertical, horizontal, or at any other angle. Where the frame members <b>12</b> are curved, the curvature of the wall panel <b>10</b> can generally match the curvature of the frame members, though the system and method disclosed herein can apply to wall panels that are not curved. In an aircraft application, the frame members <b>12</b> are likely to be of aluminum or composite material (e.g. reinforced carbon fiber). However the wall installation system <b>8</b> disclosed herein is useful with frame members of many other materials, such as metal, polymer or composite, wood, etc.</p>
+<p id="p-0043" num="0042">Viewing <figref idref="DRAWINGS">FIG. 2</figref>, some of the tabs <b>38</b> are visible in more detail. The tabs can be of strong, resilient polymer material, such as Ultem&#xae; (polyetherimide) or PEEK (polyetheretherketone). Other materials can also be used. Visible in <figref idref="DRAWINGS">FIGS. 1B and 2</figref> is the wall installation spline <b>40</b> that is attached to the frame members <b>12</b>. The spline <b>40</b> includes a plurality of insert slots <b>48</b> for receiving the tabs <b>38</b> of the wall panel <b>10</b>, and a pull tab <b>98</b> for locking the tabs to the spline and thus to the frame <b>12</b>. A lower index retainer <b>70</b> is also attached to the frame <b>12</b> below the bottom end of the spline <b>40</b>, and is discussed in more detail below.</p>
+<p id="p-0044" num="0043">An exploded perspective view of this embodiment of a wall installation system <b>8</b> is provided in <figref idref="DRAWINGS">FIG. 3</figref>. The view of <figref idref="DRAWINGS">FIG. 3</figref> is looking down at the top <b>45</b> of the channel <b>56</b> and spline <b>40</b>. In the embodiment shown in <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, the spline <b>40</b> is a &#x201c;T&#x201d; section structural member having a web <b>42</b> and a flange <b>44</b>. The web of the spline is fixedly attachable to the frame member <b>12</b>, such as via production shock mounts (not shown) located near the top end <b>45</b> and bottom end (<b>47</b> in <figref idref="DRAWINGS">FIGS. 5 and 6</figref>) of the spline <b>40</b>, supporting the structural spline like a bridge. Shock mounts are well known in the aircraft industry, and those of skill in the art will be able to select and use suitable shock mounts to attach the spline <b>40</b> to the aircraft frame member <b>12</b>. In other embodiments, the spline <b>40</b> can be attached to the frame <b>12</b> at more than two connection locations. Different numbers of connectors can also be used. Using only two connectors helps to reduce the transmission of mechanical noise energy and vibration to the spline by virtue of having fewer mechanical connection points through which vibration can be transmitted, and also reduces weight (since there are fewer connectors), installation time, and the part count of the installation. Alternatively, more connectors can increase the strength of the connection. As with the tabs <b>38</b>, the spline <b>40</b> can be of polymer material, such as Ultem&#xae; or PEEK, or it can be of metal, such as aluminum.</p>
+<p id="p-0045" num="0044">As shown in <figref idref="DRAWINGS">FIG. 3</figref>, the interior face <b>46</b> of the flange <b>44</b> of the spline <b>40</b> includes two series' of insert slots <b>48</b> on opposing flanges <b>44</b>, which correspond to positions of tabs <b>38</b> on two adjacent wall panels <b>10</b>, to allow passage of each tab <b>38</b> into a respective locking slot, as discussed below. This allows two adjacent wall panels to attach to a single spline. The tabs <b>38</b> are substantially rigid, upstanding members with a distal bulb end <b>54</b> configured to engage the receiving portion of a locking slot in a friction or snap-in fit, as discussed below. The tabs <b>38</b> generally include a base <b>50</b>, which is attached to the wall panel <b>10</b> (e.g. via adhesive or other attachment method), an upright stem <b>52</b> that extends generally perpendicularly from the base <b>50</b>, and a distal bulb portion <b>54</b>, that is intended to pass through a respective insert slot <b>48</b> and into a locking slot of a lock strip, as described below. A variety of configurations for the tabs <b>38</b> have been considered and tested, and the wall installation system <b>8</b> disclosed herein is not limited to the configuration shown in the drawings. For example, tabs having a bulb top <b>54</b> with a gap or slot (not shown) for providing spring-like performance upon insertion have been tested. Other configurations can also be used.</p>
+<p id="p-0046" num="0045">Disposed on the back of the flange <b>44</b> (i.e. the side away from the interior of the aircraft, <b>202</b> in <figref idref="DRAWINGS">FIG. 16</figref>) of the spline <b>40</b> is a channel member <b>56</b>. As shown most clearly in <figref idref="DRAWINGS">FIGS. 10 and 11</figref>, the channel member <b>56</b> includes sidewalls <b>57</b> that wrap around a linear central channel floor <b>59</b>. The channel <b>56</b> is configured to hold a lock strip <b>58</b> that can linearly slide on the floor <b>59</b> within the channel <b>56</b> for locking and unlocking the tabs <b>38</b> of the wall panel <b>10</b>, as described in more detail below. The channel <b>56</b> can be of metal (e.g. aluminum), composite material, or polymer material, such as Ultem&#xae; or PEEK. It is to be understood that <figref idref="DRAWINGS">FIG. 3</figref> is an exploded view, and shows the channel <b>56</b> separated from the spline <b>40</b>, and the lock strip <b>58</b> outside of the channel <b>56</b>, though in actual use these elements will be connected and operate together.</p>
+<p id="p-0047" num="0046">The channel <b>56</b> can be a separate member that is fixedly attached to the spline <b>40</b>, as shown in <figref idref="DRAWINGS">FIG. 3</figref>. Alternatively, the channel <b>56</b> can be integrally formed as part of the spline <b>40</b>. An embodiment of a spline <b>140</b> having an integrally formed channel <b>156</b> is shown in <figref idref="DRAWINGS">FIG. 5</figref>. As shown in the other spline embodiment described above, the spline <b>140</b> is a &#x201c;T&#x201d; section structural member having a web <b>142</b> and a pair of flanges <b>144</b><i>a, b</i>. The web <b>142</b> of the spline is designed to be fixedly attached to the frame member <b>12</b> of the aircraft, such as by production shock mounts, as discussed above. The back side of each flange <b>144</b> includes an integral channel <b>156</b> for carrying a lock strip, as discussed above. The central floor <b>159</b> of the channel <b>156</b> has side walls <b>157</b> that are configured to wrap around and hold the edges of the lock strip <b>58</b>, allowing it to linearly slide within the channel <b>156</b> for locking and unlocking the tabs <b>38</b> of the wall panel <b>10</b>, as described in more detail below. The interior face <b>146</b> of each of the flanges <b>144</b> of the spline <b>140</b> includes a series of insert slots <b>148</b> that correspond to positions of locking slots in the lock strip <b>58</b> for each channel <b>156</b>, to allow locking tabs <b>38</b> from two adjacent wall panels <b>10</b> to insert into the respective slots for locking, as discussed below. As with the other embodiment discussed above, the spline <b>140</b> with the integral channel <b>156</b> can be of polymer, metal, or other suitable materials.</p>
+<p id="p-0048" num="0047">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, the lock strip <b>58</b> has a plurality of three-position locking slots <b>60</b>. Each locking slot <b>60</b> is positioned to generally align with one of the insert slots <b>48</b> of the spline, as discussed above. The locking slot <b>60</b> has three different sections or portions that vary in width, and is configured to receive the tabs <b>38</b> that are mounted on the back side of the sidewall panels. In one embodiment, the lock strip <b>58</b> is of 4-6 ply fiberglass phenolic material, which is tough and resilient, and interlocks well with the polymer tabs <b>38</b>. Other materials can also be used.</p>
+<p id="p-0049" num="0048">Various views of the channel <b>56</b> and lock strip <b>58</b> are shown in <figref idref="DRAWINGS">FIGS. 10-14</figref>. The lock strip <b>58</b> is linearly moveable in the channel <b>56</b>, as indicated by double arrow <b>61</b> in <figref idref="DRAWINGS">FIGS. 6</figref>, <b>7</b>B, <b>9</b> and <b>12</b>-<b>14</b>. Each locking slot <b>60</b> includes a receiving portion <b>62</b> which is the lowest portion of the locking slot <b>60</b>, a locking portion <b>64</b> in the middle, and a release portion <b>66</b> at the upper end of the locking slot. The locking portion <b>64</b> is the narrowest, while the release portion <b>66</b> is the widest, and the receiving portion <b>62</b> is between the two with respect to width.</p>
+<p id="p-0050" num="0049">The receiving portion <b>62</b> is configured to receive the tab <b>38</b> in a friction fit or &#x201c;snap&#x201d; fit. Both the tabs <b>38</b> and the lock strip <b>58</b> can be of resilient polymer material, which is somewhat flexible and pliable. Other materials can also be used. The receiving portion <b>62</b> has a width that is slightly narrower than the distal bulb <b>54</b> of the tab <b>38</b>. This allows the distal bulb <b>54</b> to be pushed into the receiving portion <b>62</b> in a press fit that can hold the wall panel <b>10</b> in rough position, before it is locked into place. This allows the position of the wall panel <b>10</b> to be adjusted slightly after it is initially attached to the wall frame members <b>12</b>. The channel <b>56</b> can be slightly wider than the lock strip <b>58</b> (e.g. by about 0.125&#x2033;), so that the lock strip not only slides up and down in the channel <b>56</b>, but is also allowed to flow side to side a small amount within the central floor <b>59</b> of the channel. The amount of lateral play allowed between the side walls <b>57</b> of the channel and the lock strip <b>58</b> can be adjusted to provide more adjustability of the lock strip position, if desired. Consequently, slight up-down and fore-aft adjustment of the position of the tabs <b>38</b> (and hence of the wall panel <b>10</b>) is possible after the tab <b>38</b> is inserted into the receiving portion <b>62</b>. This allows the sidewall <b>10</b> to be snapped in, holding it in place without being fully constrained, so that the sidewall <b>10</b> can be adjusted to align with adjacent structure (e.g. window structure <b>18</b> in <figref idref="DRAWINGS">FIG. 1B</figref>, adjacent sidewall panels <b>28</b> in <figref idref="DRAWINGS">FIG. 1B</figref>, etc.). As described below, the lock strip <b>58</b> is then pulled down to a locked position (shown in <figref idref="DRAWINGS">FIGS. 6</figref>, <b>7</b>A-B and <b>13</b>) once sidewall alignment has been achieved.</p>
+<p id="p-0051" num="0050">The press-fit configuration of the tabs <b>38</b> and the receiving portion <b>62</b> allows any of the tabs <b>38</b> to be pulled back out of their respective receiving portions <b>62</b> if desired, such as for repositioning of the wall panel, etc., without damaging the wall panel, tabs or splines <b>40</b>. However, the tabs are more easily removed if the lock strip <b>58</b> is pulled to its release position, as shown in <figref idref="DRAWINGS">FIG. 14</figref> and described below. The size and configuration of the tabs <b>38</b> and bulbs <b>54</b> with respect to the receiving portions <b>62</b> are selected to make insertion easy, but extraction not as easy. This helps prevent the wall panel <b>10</b> from falling away from the frame <b>12</b> after initial insertion of the tabs <b>38</b>. This feature is provided in part by the configuration of the lock strip <b>58</b> and the channel <b>56</b>. When a tab <b>38</b> is inserted into the receiving portion <b>62</b>, the force pushing the tab can temporarily deform the lock strip <b>58</b> away from the channel (since the lock strip is flexible), thus allowing the rounded distal surface of the bulb <b>54</b> of the tab <b>38</b> to deform the receiving portion <b>62</b> and allow entrance of the tab. However, once the tab enters the receiving portion <b>62</b> and the lock strip <b>58</b> has snapped back to its undeformed configuration, the back side of the bulb <b>54</b> (which is not as rounded as the distal end of the bulb) is not as capable of deforming and pushing back through the receiving portion <b>62</b>. Moreover, the lock strip is directly supported against force in the opposite direction by the floor <b>59</b> of the channel <b>56</b>, and by the spline <b>40</b>. This dramatically reduces the degree of flexibility of the lock strip, <b>58</b> making it more difficult to remove a tab <b>38</b> from the receiving portion <b>62</b> than it is to insert the tab in the first place.</p>
+<p id="p-0052" num="0051">When attaching a wall panel <b>10</b> to the frame members <b>12</b>, the top edge <b>20</b> of the panel can first be inserted into structure for aligning the top edge <b>20</b> of the panel <b>10</b>, before snapping the tabs <b>38</b> into the receiving portions <b>62</b>. Shown in <figref idref="DRAWINGS">FIG. 4</figref> is a perspective view of an embodiment of an upper alignment device <b>68</b> for receiving the top edge <b>20</b> of a wall panel <b>10</b>. The upper alignment device <b>68</b> can be a separate channel device attached to the frame <b>12</b>, or it can be, for example, a strong back of an overhead stowage bin <b>67</b>, which can include an elongate slot <b>69</b> that is configured to perform the same function. One upper alignment device <b>68</b> can be shared to receive the top edges <b>20</b> of two or more adjacent sidewall panels <b>10</b>. Indeed, a substantially continuous upper alignment device <b>68</b> can extend for a long distance between a row of overhead storage bins <b>67</b> and the adjacent side frame structure <b>12</b> of an aircraft, providing an alignment reference for a series of adjacent wall panels <b>10</b>.</p>
+<p id="p-0053" num="0052">The snap-in retaining feature of the receiving portion <b>62</b> of the lock strip <b>58</b> does not merely perform a snap-in and snap-out function. Snap-in and snap-out devices can tend to break or become damaged with even limited usage, and the likelihood of damage increases depending on the strength of the fit. For an aircraft sidewall application, it is desirable that a snap-in and snap-out device have strength comparable to a traditional screw fastener. This is difficult to achieve without producing a configuration that is highly susceptible to damage.</p>
+<p id="p-0054" num="0053">The snap-in attachment system disclosed herein provides easy engagement of the panel <b>10</b> to its mating part&#x2014;the locking slot <b>60</b>. Because the lock strip <b>58</b> is linearly slidable, the locking slot <b>60</b> is not stationary, and moves when the lock strip <b>58</b> is pulled down (or pushed up, as discussed below) as indicated by arrow <b>61</b>. When a worker begins installation of a wall panel <b>10</b>, the worker can first get the top two tabs <b>38</b> (e.g. one at upper left and one at upper right of the panel <b>10</b>) to snap into their respective receiving portions <b>62</b>. This becomes a primary installation index. This initial engagement will keep the sidewall panel loosely attached (i.e. hanging in place) on the spline <b>40</b>, and thereby upon the frame members <b>12</b>. The rest of the tabs <b>38</b> can then be blind-pushed into their corresponding receiving portions <b>62</b> without interference. In this way, all tabs <b>38</b> of a given wall panel <b>10</b> can be snapped into their respective locking slots <b>60</b> and initially kept in place, before they are locked. In one embodiment, there are eight snap-in tabs <b>38</b> per sidewall panel <b>10</b>, though other numbers of tabs can be used. Under non-locking status, the sidewall panel <b>10</b> is allowed to have a level of adjustment for window alignment. With all attachments set, adjusting window alignment or other alignment aspects of the panel is greatly simplified.</p>
+<p id="p-0055" num="0054">When a worker slides the top edge <b>20</b> of the sidewall panel <b>10</b> up into the upper alignment device <b>68</b> during installation, the top edge <b>20</b> of the panel will be caught in place, and stopped from further advancement or moving upward. This guides the installer to place the sidewall <b>10</b> in an appropriate position before the next step. At this point, the sidewall <b>10</b> can be moved or adjusted, as desired, to find access for the top left and right tabs <b>38</b> to snap into their receiving portions <b>62</b>, as discussed above. Once engaged, the upper alignment device <b>68</b> becomes a retainer, keeping the top edge <b>20</b> of the sidewall from moving inboard or outboard.</p>
+<p id="p-0056" num="0055">Initial attachment and alignment of a wall panel <b>10</b> is also facilitated by a lower index retainer assembly (<b>70</b> in <figref idref="DRAWINGS">FIGS. 2</figref>, <b>6</b>, <b>80</b> in <figref idref="DRAWINGS">FIGS. 7A</figref>, B) associated with the lower end of the panel <b>10</b>. The lower index retainer assembly essentially provides a pin connection at the lower left and right sides of the panel <b>10</b> for facilitating initial placement of the panel. A perspective/sectional view of an embodiment of a lower index retainer assembly <b>70</b> is shown in <figref idref="DRAWINGS">FIG. 6</figref>, and two views of another embodiment of a lower index retainer assembly <b>80</b> are provided in <figref idref="DRAWINGS">FIGS. 7 and 8</figref>. The lower index retainer functions to set the bottom edge <b>22</b> of the sidewall <b>10</b> at the designated water line level (<b>32</b> in <figref idref="DRAWINGS">FIGS. 1B and 6</figref>) during initial wall placement, so as to give a general right height and position of the panel <b>10</b>, and to help provide an initial attachment of the wall before the lock strip <b>58</b> is locked.</p>
+<p id="p-0057" num="0056">The first type of lower index retainer <b>70</b>, shown in <figref idref="DRAWINGS">FIG. 6</figref>, includes a retainer clip <b>72</b>, which is attached to the air frame <b>12</b>, such as via a production shock mount. A snap-in wedge <b>76</b> is attached to the wall panel <b>10</b>. As shown in <figref idref="DRAWINGS">FIG. 1A</figref>, an individual wall panel <b>10</b> can have two snap-in wedges attached near the bottom edge <b>22</b>. The lock strip <b>58</b>, channel <b>56</b> and spline <b>40</b> of the wall attachment system <b>8</b> are also visible in the view of <figref idref="DRAWINGS">FIG. 6</figref>. The lower index retainer assembly <b>70</b> is a passive, one-piece retainer device that is configured to capture the snap-in wedge <b>76</b> from the lower region of the sidewall panel <b>10</b>. In this assembly, the lock strip <b>58</b> includes a vertical slot <b>78</b> that allows the snap-in wedge <b>76</b> to pass through the lock strip to reach the retainer clip <b>72</b>. A close-up view of one embodiment of a snap-in wedge <b>76</b> is shown in <figref idref="DRAWINGS">FIG. 8A</figref>. The snap in wedge <b>76</b> generally includes a pointed distal end <b>77</b>, a bottom edge <b>79</b>, and an upper slot <b>74</b>. Viewing <figref idref="DRAWINGS">FIG. 6</figref>, the retainer clip <b>72</b> includes a resilient upper clip member <b>73</b>, which snaps into the upper slot <b>74</b> of the wedge <b>76</b> when the wedge is inserted into the clip. The clip <b>72</b> also includes a lower support shelf <b>75</b>, which supports the bottom <b>79</b> of the wedge <b>76</b>, thereby supporting the wall panel <b>10</b> when the wedge is inserted.</p>
+<p id="p-0058" num="0057">When the wedge <b>76</b> is inserted into the clip <b>72</b>, vertical, fore and aft and other adjustments of the wall panel are still possible, though the panel <b>10</b> is supported substantially at the waterline level <b>32</b>. As with the tabs <b>38</b>, discussed above, once the wedge <b>76</b> is initially engaged in the retainer clip <b>72</b>, but before pulling the lock strip <b>58</b> to lock the system, the sidewall <b>10</b> is not completely constrained. It is allowed to move around within slightly to allow window alignment. With this type of lower index retainer <b>70</b>, removing the wedge <b>76</b> from the retainer clip <b>72</b> simply requires pulling on the bottom <b>22</b> of the wall panel <b>10</b> to withdraw the wedge <b>76</b> from the clip <b>72</b>, after the lock strip <b>58</b> is released, as discussed below.</p>
+<p id="p-0059" num="0058">A second type of lower index retainer assembly <b>80</b> is shown in <figref idref="DRAWINGS">FIGS. 7A and 7B</figref>. It is to be understood that the lower index retainer configurations of either <figref idref="DRAWINGS">FIG. 6</figref> or <figref idref="DRAWINGS">FIGS. 7A-B</figref> can be used with the wall panel attachment system <b>8</b> shown and described herein. Other configurations can also be used. The embodiment shown in <figref idref="DRAWINGS">FIGS. 7A and 7B</figref> includes an index retainer body <b>82</b> that is designed to be attached to the airframe <b>12</b> below the bottom edge of the spline (<b>40</b> in <figref idref="DRAWINGS">FIG. 6</figref>), at a similar position and orientation as the lower index retainer embodiment <b>72</b> shown in <figref idref="DRAWINGS">FIG. 6</figref> and discussed above. The index retainer body <b>82</b> includes a forward slot for receiving the snap-in wedge <b>76</b>, an upper clip member <b>83</b> that interlocks with the wedge <b>76</b>, in the manner discussed above, and a spring-loaded slide block <b>84</b> disposed below the snap-in wedge <b>76</b>. As with the configuration shown in <figref idref="DRAWINGS">FIG. 6</figref> and discussed above, in the embodiment of <figref idref="DRAWINGS">FIGS. 7A and 7B</figref> the lock strip <b>58</b> includes a slot <b>78</b> for allowing passage of the wedge <b>76</b>, and also includes a slot frame <b>85</b> having slot edge bumpers <b>86</b> that extend outward from the slot frame <b>85</b>. A close-up view of these bumpers is shown in <figref idref="DRAWINGS">FIG. 7B</figref>. The bumpers <b>86</b> are positioned alongside the central extent of the slot <b>78</b>, and are designed to contact the top surface of the slide block <b>84</b> when the lock strip <b>58</b> is at the locking position. This stops the lock strip <b>58</b> from moving further down, keeping it at full locking position, but without going beyond that position.</p>
+<p id="p-0060" num="0059">The snap-in wedge <b>76</b> and the slot edge bumpers <b>86</b> can also be configured to provide additional interlocking structure to hold the wall panel in place. As shown in <figref idref="DRAWINGS">FIG. 7A</figref>, the body of the snap-in wedge <b>76</b> can include vertical ridges <b>81</b>. While only one side of the snap-in wedge <b>76</b> is shown in <figref idref="DRAWINGS">FIG. 7A</figref>, similar ridges can be provided on the opposite side, also. These ridges <b>81</b> can be configured to interlock with similar vertical ridges <b>83</b> that are provided on the interior faces of the lock strip slot edge frame bumpers <b>86</b>, as shown in <figref idref="DRAWINGS">FIG. 7B</figref>. When the lock strip <b>58</b> is pulled down to the locking position, as shown in <figref idref="DRAWINGS">FIG. 7A</figref>, the ridges <b>83</b> on the inside of the bumpers <b>86</b> will intermesh with the ridges <b>81</b> on the outside of the snap-in wedge <b>76</b>, thus providing additional locking force to hold the wall panel <b>10</b> in place. The snap-in wedges <b>76</b> and bumpers <b>86</b>, with the ridges <b>81</b> and <b>83</b>, can thus be viewed as a slightly different and larger version of the interlocking tabs <b>38</b> and their associated locking structure. These elements provide structure that completes the fastening of the lower portion of the wall panel <b>10</b> to the spline <b>40</b> and thus to the frame <b>12</b>.</p>
+<p id="p-0061" num="0060">The slide block <b>84</b> also includes a downwardly extending release tab <b>87</b> at its rear extremity, and a sloped surface <b>88</b> on the underside of its forward end. The release tab <b>87</b> is used to push the slide block back, away from the lock strip <b>58</b>, thereby withdrawing the forward portion of the slide block from contacting the bumpers <b>86</b>, thereby allowing the lock strip <b>58</b> to be drawn downward for releasing the wall panel <b>10</b>, in the manner discussed below. The backwardly extended position of the slide block <b>84</b> is shown in dashed lines at <b>89</b> in <figref idref="DRAWINGS">FIG. 7B</figref>. Biasing of the slide block toward the forward locking position can be accomplished with a spring element <b>90</b>, which can be metal, polymer or other suitable material, and can be configured in various ways. The sloped bottom surface <b>88</b> of the slide block <b>84</b> provides a wedge surface to allow the bumper <b>86</b> to push the slide block aside (against the biasing force upon the slide block) when the lock strip <b>58</b> is pushed upwardly, similar to the way a door latch is naturally pushed aside when the angled and/or curved latch face contacts a strike plate when a door is closed.</p>
+<p id="p-0062" num="0061">As shown in <figref idref="DRAWINGS">FIG. 7B</figref>, the length of the slot <b>78</b> allows the lock strip <b>58</b> to be in an upper position, shown in dashed lines at <b>92</b>, when the snap-in wedge <b>76</b> is first inserted. This position can correspond to the alignment of the receiving portions <b>62</b> with the spline insert slots <b>48</b> for initial insertion of the tabs <b>38</b> (see <figref idref="DRAWINGS">FIG. 12</figref>). The lock strip <b>58</b> will be in the position shown in <figref idref="DRAWINGS">FIG. 7B</figref> when the lock strip is pulled downward to the locking position, which can correspond to the lock strip <b>58</b> having the locking portion <b>64</b> aligned with the tabs <b>38</b> to lock the wall panel <b>10</b> in place (see <figref idref="DRAWINGS">FIG. 13</figref>).</p>
+<p id="p-0063" num="0062">Finally, the lock strip <b>58</b> can be pulled to the fully down release position, shown at <b>93</b> in <figref idref="DRAWINGS">FIG. 7B</figref>, after the slide block <b>84</b> is withdrawn, to align the release portion <b>66</b> with the spline insert slot <b>48</b> and allow removal of the tabs <b>38</b> and the wall panel <b>10</b> (see <figref idref="DRAWINGS">FIG. 14</figref>). Contact of the top inside surface of the slot <b>78</b> with the top edge of the snap-in wedge <b>76</b> can serve to define the maximum downward extent of travel of the lock strip. In this way, the lower index retainer <b>80</b> and the lock strip <b>58</b> with the slot frame <b>85</b> and bumpers <b>86</b> create a mechanical stop for the locking position of the lock strip through contact of the bumpers <b>86</b> with the slide block <b>84</b>, and the extent of the slot <b>78</b> and position of the snap-in wedge <b>76</b> define the release position of the lock strip.</p>
+<p id="p-0064" num="0063">It will be apparent that there is no structure shown in <figref idref="DRAWINGS">FIGS. 7A and 7B</figref> that governs or restricts the upper position (shown at <b>92</b> in <figref idref="DRAWINGS">FIG. 7B</figref>) of the lower lock strip slot <b>78</b> when there is no snap-in wedge <b>76</b> inserted through that slot and received in the lower index retainer <b>80</b>. As shown in <figref idref="DRAWINGS">FIG. 9</figref>, which shows the top end <b>45</b> of the channel <b>56</b>, this upper position can be governed by a reset stop <b>94</b> positioned at the top of the lock strip channel <b>56</b>. The reset stop <b>94</b> in this embodiment includes an end wall <b>95</b> and a stop tab <b>96</b> that is biased downward to contact or nearly contact (e.g. 0.03&#x2033; above) the floor <b>59</b> of the channel <b>56</b>. The stop tab <b>96</b> includes a tab face <b>97</b> that is positioned to contact and receive a boss or ridge <b>99</b> on the upper end of the lock strip <b>58</b> when it is pushed to this upper position. After the lock strip <b>58</b> has been pulled down to the release position and the panel <b>10</b> removed, the lock strip <b>58</b> can then be pushed fully upward to the reset position, at which point the top edge of lock strip <b>58</b> will bump against face <b>95</b> and stop. During this upward movement, the ridge <b>99</b> of the lock strip <b>58</b> will contact the tab face <b>97</b> and push the stop tab <b>96</b> upward, allowing the ridge <b>99</b> to pass under and beyond the tab and then be held in place by the tab <b>96</b> as it springs back to its biased position, as shown in <figref idref="DRAWINGS">FIG. 9</figref>. In this position the receiving portions <b>62</b> of the lock strip <b>58</b> will again be aligned with the insert slots <b>48</b> of the spline <b>40</b>, ready for insertion of the tabs <b>38</b>.</p>
+<p id="p-0065" num="0064">Initial engagement of the sidewall <b>10</b> occurs when the receiving portions <b>62</b> of the lock strip <b>58</b> are aligned with the spline insert slots <b>48</b>, the top tabs <b>38</b>, are snapped into their respective receiving portions <b>62</b>. In this position the tops tabs <b>38</b> act like a pilot attachment. The remaining tabs <b>38</b> will then be self-aligned and can be pushed to snap into their respective insert slots <b>48</b>. The low profile snap-in wedges <b>76</b> can then be snapped into the associated lower index retainers <b>70</b>, <b>80</b>. At this point, the sidewall panel <b>10</b> is generally held in place by the tabs <b>38</b> and the snap-in wedges <b>76</b>. The lower index retainers keep the sidewall panel <b>10</b> at the designated water line <b>32</b>, and restrict the attached sidewall panel <b>10</b> from moving inboard. A small amount of lateral movement will still be possible, since the lock strip <b>58</b> is slightly narrower than the channel <b>56</b>, as discussed above, and because the entry opening of the lower index retainer (<b>70</b>, <b>80</b> in <figref idref="DRAWINGS">FIGS. 6-8</figref>) is slightly wider than the snap-in wedge <b>76</b>. The lower index retainers <b>70</b>, <b>80</b> and tabs <b>38</b> thus operate together to provide a &#x201c;blind touch operation&#x201d; for the sidewall installation.</p>
+<p id="p-0066" num="0065">At this point, the sidewall panel <b>10</b> will be generally kept in place but not securely locked in a finished position. It can be shifted around a bit for window alignment, or removed from the frame <b>12</b> by pulling the lock strip <b>58</b> all the way down, if desired. As with the tabs <b>38</b> in the receiving portions <b>62</b>, the lower index retainers <b>70</b>, <b>80</b> also allow a certain degree of left-right and up-down sidewall movements for window alignment.</p>
+<p id="p-0067" num="0066">Referring to <figref idref="DRAWINGS">FIGS. 10-14</figref>, after the tabs <b>38</b> are inserted into the respective receiving portions <b>62</b> and the wall panel <b>10</b> is positionally adjusted and aligned as desired (i.e. window alignment is completed), the wall panel <b>10</b> is held in place while the lock strip <b>58</b> is drawn down within the channel <b>56</b>, so that the locking portion <b>64</b> of the locking slot <b>60</b> draws down around the tab <b>38</b> to lock the tab (and hence the wall panel <b>10</b>) with respect to the frame member <b>12</b>. With the lower index retainer <b>80</b> of <figref idref="DRAWINGS">FIGS. 7A and 7B</figref>, pulling the lock strip <b>58</b> down to the locking position will bring the lower ends of the slot frame bumpers <b>86</b> into contact with the top of the slide block <b>84</b>, and thereby provide a mechanical block to further motion. This provides a positive signal to a worker that the lock strip <b>58</b> has been moved to the fully locked position. Once the lock strip <b>58</b> is pulled to the locked position, the locked sidewall panel <b>10</b> cannot be removed except by forcing it off and presumably damaging the attachment or the sidewall panel <b>10</b>.</p>
+<p id="p-0068" num="0067">It will be apparent that with the wall panel <b>10</b> in rough position, and the lock strip <b>58</b> disposed on the back side of the spline <b>40</b>, the lock strip will be substantially hidden from view or access. However, the lock strip <b>58</b> includes a pull tab <b>98</b> at its lower extremity, which extends below the bottom edge <b>22</b> of the wall panel <b>10</b>. A user can grasp this pull tab <b>98</b> (visible in <figref idref="DRAWINGS">FIGS. 2</figref>, <b>3</b> and <b>6</b>) either manually or with a tool, and pull downwardly, so that the lock strip <b>58</b> slides downwardly in its channel <b>56</b>. This draws the respective receiving portion <b>62</b> of the lock strip downward so that the respective tab <b>38</b> slides into the adjacent locking portion <b>64</b> of the lock strip. As shown in the aircraft implementation depicted in the figures, the region below the bottom edges <b>22</b> of the wall panels <b>10</b> can be configured to be covered by removable ventilation panels <b>34</b>, which cover the pull tabs <b>98</b> of the lock strips <b>58</b> after the installation of the wall panels <b>10</b>.</p>
+<p id="p-0069" num="0068">The progression of the locking slot <b>60</b> moving with respect to the tab <b>38</b> from the receiving portion <b>62</b> into the locking portion <b>64</b> is apparent by viewing <figref idref="DRAWINGS">FIGS. 12 and 13</figref>. The locking portion <b>64</b> of the lock strip <b>58</b> includes wedge surfaces that are configured to lock the tab <b>38</b> in the locking portion <b>64</b> in two dimensions. Specifically, as shown in <figref idref="DRAWINGS">FIGS. 11-14</figref>, the locking portion <b>64</b> includes side walls <b>100</b>, which draw laterally close together, like a pair of wedges, in order to bear against opposing sides of the stem portion <b>52</b> of the tab <b>38</b>. This helps to positionally lock the tab with respect to the frame member <b>12</b> in the lateral direction (lateral relative to the orientation of the tab <b>38</b>, fore and aft with respect to the aircraft). The locking portion <b>64</b> also includes a pair of uprising rims <b>102</b> on opposing sides of the locking slot <b>60</b>, which bear against the underside of the distal bulb portion <b>54</b> of the tab, and thus provide wedge action that applies axial tension on the tab <b>38</b>, tending to pull it further through the insert slot <b>48</b>, thus drawing the wall panel <b>10</b> snugly against the spline <b>40</b> and positionally locking the tab <b>38</b> and the wall panel <b>10</b> to the spline <b>40</b> and thus to the frame member <b>12</b> in a friction lock. This secures the wall panel against the frame members <b>12</b>.</p>
+<p id="p-0070" num="0069">When it is desired to remove a wall panel <b>10</b> from the frame <b>12</b> and spline <b>40</b>, if the locking lower index retainer <b>80</b> of <figref idref="DRAWINGS">FIGS. 7A</figref>, B is used, a worker can reach under the bottom edge <b>22</b> of the panel and push the release tab <b>87</b> of the lower index retainer <b>80</b> to withdraw the slide block <b>84</b> from below the bumpers <b>86</b>, and then pull the lock strip <b>58</b> further down within the channel <b>56</b> of the spline <b>40</b>, so that the release portion <b>66</b> draws down around the tab <b>38</b>. As can be seen in the <figref idref="DRAWINGS">FIGS. 10-14</figref>, the rims <b>102</b> end before the release portion <b>66</b> begins, thus releasing axial tension on the tab <b>38</b> as the lock strip <b>58</b> is drawn down. If the lower index retainer <b>70</b> of <figref idref="DRAWINGS">FIG. 6</figref> is used, the lower index retainer does not have a release tab, and the worker can simply pull the lock strip <b>58</b> down to begin the removal process.</p>
+<p id="p-0071" num="0070">The release portion <b>66</b> of the lock strip is wider than the receiving portion <b>62</b>, and does not hold the bulb <b>54</b> in a press fit or friction fit. Instead, because of the size of the release portion <b>66</b>, the tab <b>38</b> merely rests loosely in the release portion, allowing the wall panel <b>10</b> to be easily removed from the frame members <b>12</b> when the lock strip is at this position. At the same time, the tabs <b>38</b> within the release portions <b>66</b>, though loose, will still support the wall panel vertically, and thus prevent the wall panel from simply falling from the frame. This configuration of the locking slot <b>60</b> allows free removal of the tabs <b>38</b> from the release portion <b>66</b>, allowing a worker to easily remove the wall panel from the frame, in a controlled and safe manner. The top edge <b>20</b> of the panel <b>10</b> will also be held in the upper alignment device <b>68</b>, which will also help prevent the panel from falling away from the frame <b>12</b> when the lock strip <b>58</b> is pulled to the release position.</p>
+<p id="p-0072" num="0071">When the lock strip <b>58</b> is drawn down to the release position, the ridges <b>81</b> on the snap-in wedge <b>76</b> and the corresponding ridges <b>83</b> on the inside of the frame bumpers <b>86</b> (shown in <figref idref="DRAWINGS">FIGS. 8A</figref>, <b>8</b>B) will also disengage, so that the snap-in wedge <b>76</b> can be snapped out of the lower index retainer <b>70</b>, <b>80</b>. At this point the snap-in wedges <b>76</b> will still be held in the lower index retainers <b>70</b>, <b>80</b> by the upper clip members <b>73</b>, <b>83</b>. To finally remove the wall panel <b>10</b> from the frame members <b>12</b>, each of the wedge elements <b>76</b> are removed from their respective lower index retainers <b>70</b>, <b>80</b>. This involves pulling the wall panel <b>10</b> away from the spline <b>40</b> and frame members <b>12</b>, causing the upper slot <b>74</b> of the wedge elements to snap out of the upper clip members <b>73</b>, <b>83</b> of the respective retainer clips. The lower index retainers <b>70</b>, <b>80</b> thus help to horizontally and vertically support the wall panel <b>10</b> in position after all tabs <b>38</b> have been released, allowing a single worker to easily remove the entire panel <b>10</b>, while preventing the panel from simply falling away from the wall frame <b>12</b> when the tabs have been released. After a wall panel <b>10</b> has been removed, it can be easily reattached in the manner discussed above, without damage to the wall panel <b>10</b> or other structure, and without compromising the strength of the connection.</p>
+<p id="p-0073" num="0072">To reset the lock strip <b>58</b> to the proper position for reattaching a wall panel <b>10</b> following removal, a worker can push the lock strip <b>58</b> upward (e.g. from the bottom) until it stops against the reset stop <b>94</b>, as discussed above with respect to <figref idref="DRAWINGS">FIG. 9</figref>. While the lock strip <b>58</b> is relatively flexible and may not ordinarily function under axial compression, it can be pushed because it is laterally constrained within the channel <b>56</b> of the spline <b>40</b>. Viewing <figref idref="DRAWINGS">FIG. 7B</figref>, as the bumpers <b>86</b> move upward and pass through the lower index retainer <b>80</b> during this action, the bumpers <b>86</b> will contact the sloped bottom surface <b>88</b> of the spring-loaded slide block <b>84</b> while moving up, and push the slide block <b>84</b> aside. Once the bumpers <b>86</b> pass the slide block <b>84</b>, the slide block <b>84</b> will snap back to its forward position, producing an audible click sound. This click, in combination with the mechanical stop and hold provided by the reset stop <b>94</b>, can confirm the reset to the worker. At this position, the receiving portions <b>62</b> of the locking slots <b>60</b> will be aligned with the insert slots <b>48</b> of the spline <b>40</b>, and thus will be in position for snap-in reinsertion and attachment of the wall panel <b>10</b> in the manner explained above.</p>
+<p id="p-0074" num="0073">Embodiments of the disclosure may be described in the context of an aircraft sidewall installation method <b>200</b> as shown in <figref idref="DRAWINGS">FIG. 15</figref> and an aircraft <b>202</b> as shown in <figref idref="DRAWINGS">FIG. 16</figref>. During production, maintenance or refurbishment of an aircraft <b>202</b>, exemplary method <b>200</b> may include moving the lock strip to the receiving (or fully up) position <b>204</b> to prepare for receipt of a wall panel, and then inserting the top tabs <b>206</b>. With reference to FIGS. <b>10</b> and <b>12</b>-<b>14</b>, the term &#x201c;receiving position&#x201d; is used herein to denote the position of the lock strip <b>58</b> at which the receiving portion <b>62</b> of the locking slot <b>60</b> is aligned with the insert slot <b>48</b> of the spline <b>40</b>, and is ready to receive the tabs <b>38</b>. Referring back to the diagram of <figref idref="DRAWINGS">FIG. 15</figref>, the remaining tabs can be pushed into place <b>208</b>, after which the snap-in wedges can then be inserted into their respective lower index retainers <b>210</b>.</p>
+<p id="p-0075" num="0074">Steps <b>206</b>-<b>210</b> taken together constitute the overall step of inserting a plurality of tabs extending from the back of a wall panel into receiving portions of a three-position moveable lock strip. At this point, the worker can adjust the position of the wall panel <b>212</b>, such as to center the window structure, etc., and then pull the lock strip to the locking position <b>214</b>. With reference to FIGS. <b>10</b> and <b>12</b>-<b>14</b>, this involves linearly pulling the lock strip <b>58</b> to align the locking portion <b>64</b> of the lock strip with the tabs <b>38</b>, thereby fixing the position of the wall panel with respect to the aircraft frame members. The term &#x201c;locking position&#x201d; is used herein to denote the position of the lock strip <b>58</b> at which the locking portion <b>64</b> of the locking slot <b>60</b> is aligned with the tab <b>38</b>. At this point, the wall panel is locked in place.</p>
+<p id="p-0076" num="0075">The exemplary method <b>200</b> shown in <figref idref="DRAWINGS">FIG. 15</figref> also shows the steps in removing a wall panel. A worker first releases the lower index retainer <b>216</b>, and then pulls the lock strip fully down to the release position <b>218</b>. Again with reference to FIGS. <b>10</b> and <b>12</b>-<b>14</b>, the term &#x201c;release position&#x201d; is used herein to denote the position of the lock strip <b>58</b> at which the release portion <b>66</b> of the locking slot <b>60</b> is aligned with the tab <b>38</b>. At this point, the worker can remove the wall panel <b>220</b> from the structure. To prepare for future reinstallation of the wall panel, the worker can then return to the first step and adjust the lock strip to the receiving position <b>204</b>.</p>
+<p id="p-0077" num="0076">Each of the processes of method <b>200</b> may be performed or carried out by a system integrator, a third party, and/or an operator (e.g., a customer). For the purposes of this description, a system integrator may include without limitation any number of aircraft manufacturers and major-system subcontractors; a third party may include without limitation any number of venders, subcontractors, and suppliers; and an operator may be an airline, leasing company, military entity, service organization, and so on.</p>
+<p id="p-0078" num="0077">As shown in <figref idref="DRAWINGS">FIG. 16</figref>, the aircraft <b>202</b> produced by exemplary method <b>200</b> may include an airframe <b>222</b>, including a fuselage, with a plurality of systems <b>224</b> and an interior <b>226</b>. Examples of high-level systems <b>224</b> include one or more of a propulsion system <b>228</b>, an electrical system <b>230</b>, a hydraulic system <b>232</b>, and an environmental system <b>234</b>. Any number of other systems may be included. Although an aerospace example is shown, the principles of the invention may be applied to other industries, such as the automotive industry.</p>
+<p id="p-0079" num="0078">Within the interior <b>226</b> of the aircraft, the wall panel installation system includes multiple splines <b>236</b>, which are attached to the fuselage frame, with lock strips <b>238</b> slidably attached to the splines <b>236</b>. As discussed above, the lock strips <b>238</b> each include a three-position locking slot <b>240</b>, including a receiving portion <b>242</b>, a locking portion <b>244</b> and a release portion <b>246</b>. Also included in the interior <b>226</b> are wall panels <b>248</b> that include tabs <b>250</b>, these tabs being configured to insert into the receiving portion <b>242</b> of the locking slot <b>240</b>, and be locked into place by movement of the lock strip <b>238</b>, as discussed above.</p>
+<p id="p-0080" num="0079">Apparatus and methods embodied herein may be employed during any one or more of the stages of the sidewall installation method <b>200</b>. For example, components or subassemblies corresponding to method <b>200</b> may be fabricated or manufactured in a manner similar to components or subassemblies produced while the aircraft <b>202</b> is in service. Also, one or more apparatus embodiments, method embodiments, or a combination thereof may be utilized during production, for example, by substantially expediting assembly of or reducing the cost of an aircraft <b>202</b>. Similarly, one or more of apparatus embodiments, method embodiments, or a combination thereof may be utilized while the aircraft <b>202</b> is in service, for example and without limitation, during maintenance and service.</p>
+<p id="p-0081" num="0080">The system and method disclosed herein addresses aircraft sidewall installation and positioning issues using a snap-in attachment approach that does not involve screws or tooling during installation. This wall panel attachment system <b>8</b> provides a simple, snap-in design, which allows sidewall panels <b>10</b> to push in and snap, keeping the sidewall panel in place without initially being locked. Before final locking of the sidewall panels, the worker can make appropriate adjustments for window alignment, etc. To lock the panels in place, the worker pulls the lock strip <b>58</b> down to lock at once all attaching devices that are associated with a single lock strip, without the need for additional hardware or tooling. Once the panels are locked in place, their position is securely fixed without the need for screws, washers, other fasteners.</p>
+<p id="p-0082" num="0081">Advantageously, installation and removal of these wall panels <b>10</b> can be accomplished by a single worker, without additional parts, fasteners or tooling. The installation and removal process is also very quick. It has been found that installation or removal of a sidewall according to this design can be routinely accomplished in half a minute or less. More specifically, it has been found that installation of a sidewall panel can be accomplished in about <b>20</b> seconds or less by a single worker without significant risk or expectation of system deformation or gaps. The steps of attaching or removing a wall panel have each been found to take about <b>10</b> seconds or less using this system. When attaching the wall panel, alignment with adjacent panels and adjustment and centering of the sidewall to a structural window can add another <b>10</b> seconds to the process.</p>
+<p id="p-0083" num="0082">This system and method thus offers a simple and secure sidewall installation. In one embodiment it reduces the number of structural attachments to the airframe from eight to three, and reduces the use of shock-mount brackets and related spacers. It can help speed sidewall installation and improve aircraft production rates during manufacture. It also saves time and expense for aircraft users by reducing the time and labor that is typically involved in regular airplane mandatory checks and maintenance procedures that involve sidewall removal, and helps reduce damage and wear to panels that can often result from removal and reinstallation.</p>
+<p id="p-0084" num="0083">It should also be appreciated that the wall panel installation system <b>8</b> disclosed herein is not limited to use in aircraft. For example, a wall panel installation system and method as disclosed herein can be used for room dividers, where removable panels are desired. This system and method could also be used for automotive interiors and cabinetry, for example, where it is desirable to hide equipment behind a panel, and yet be able to remove the panel for maintenance, if desired. Those of skill in the art will recognize that other applications are also possible.</p>
+<p id="p-0085" num="0084">Although the wall installation system and method disclosed herein has been described in terms of certain specific embodiments, it is to be understood that other embodiments that are apparent to those of ordinary skill in the art, including embodiments that do not provide all of the features set forth herein, are also within the scope of this disclosure. Those skilled in the art will recognize that the teachings contained herein can be practiced with various modifications within the scope of the claims. Accordingly, the scope of the present disclosure is defined only by reference to the appended claims and equivalents thereof.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A system for attaching a wall panel, comprising: a wall panel, having a back and a tab extending from the back; and a lock strip, moveably attached to a wall frame member, having a three-position locking slot, the lock strip including: a receiving portion configured to receive the tab; a locking portion configured to lock the tab with respect to the frame member; and a release portion configured to release the tab, the locking portion being disposed between the receiving portion and the release portion, wherein the receiving portion, the locking portion, and the release portion are substantially linearly aligned; the wall panel being removably attachable to the frame member by inserting the tab into the receiving portion and linearly moving the lock strip to a locking position to lock the tab in the locking portion.</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. A system in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a spline, having a channel, fixedly attached to the frame member, the lock strip being moveably disposed in the channel.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. A system in accordance with <claim-ref idref="CLM-00002">claim 2</claim-ref>, further comprising an insert slot, disposed in the spline, corresponding to a position of the locking slot, to allow passage of the tab into the locking slot.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. A system in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the tab comprises a substantially rigid, upstanding member having a distal bulb end configured to engage the receiving portion of the locking slot in a friction fit.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. A system in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the locking portion includes wedge surfaces oriented to lock the tab in the slot in two dimensions.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. A system in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the wall panel is an aircraft interior panel, and the frame member is a rib of an aircraft fuselage.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. A system in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>a wedge, extending from the back of the wall panel; and</claim-text>
+<claim-text>an index retainer, attached to the frame member, configured to releasably receive and support the panel via the wedge upon initial attachment of the panel to the frame.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. A system in accordance with <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the index retainer provides a mechanical stop for the lock strip when at the locking position.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. A system in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the wall panel is removable from the frame by linearly moving the lock strip to align the release portion with the tab.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A system in accordance with <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the release portion has a largest size, and the locking portion has a smallest size of the three-position locking slot.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. An aircraft, comprising:
+<claim-text>an airframe fuselage having a plurality of substantially parallel frame members;</claim-text>
+<claim-text>a spline, fixedly attached to the frame members;</claim-text>
+<claim-text>an interior wall panel, having a back and a plurality of tabs extending from the back; and</claim-text>
+<claim-text>a lock strip, linearly moveably disposed in the spline, having a plurality of three-position locking slots, each locking slot extending through a thickness of the lock strip, the lock strip including:
+<claim-text>a receiving portion configured to receive one of the plurality of tabs;</claim-text>
+<claim-text>a locking position having a locking portion of the slot configured to positionally lock the one of the plurality of tabs with respect to the frame member; and</claim-text>
+<claim-text>a release portion configured to allow removal of the one of the plurality of tabs from the slot, the locking portion being disposed between the receiving portion and the release portion, the receiving portion, the locking portion and the release portion being substantially linearly aligned.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. An aircraft in accordance with <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the interior wall panel is removable from the frame by linearly moving the lock strip to align the release portion with the one of the plurality of tabs.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. An aircraft in accordance with <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the one of the plurality of tabs comprises a substantially rigid, upstanding member having a distal bulb end configured to engage the receiving portion of the locking slot in a friction fit.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. An aircraft in accordance with <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the release portion has a largest size, and the locking portion has a smallest size of the three-position locking slot.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. An aircraft in accordance with <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the locking portion includes wedge surfaces oriented to lock the one of the plurality of tabs in the slot in two dimensions.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. A method for installing a wall panel in an aircraft fuselage interior, the method comprising: inserting a plurality of tabs extending from a back of a wall panel into receiving portions of three-position moveable lock strips respectively associated with at least two frame members of the fuselage, the three-position moveable lock strips further including locking portions and release portions substantially linearly aligned with the receiving portions; the locking portions being disposed between the receiving portions and the release portions; and linearly pulling the lock strips with respect to the wall panel and the respective frame member, to align the locking portions of the lock strips with the tabs, thereby establishing a fixed position of the wall panel with respect to the frame members.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. A method in accordance with <claim-ref idref="CLM-00016">claim 16</claim-ref>, further comprising adjusting a position of the wall panel prior to linearly pulling the lock strips to lock the wall panel into the fixed position.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. A method in accordance with <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein linearly pulling the lock strips comprises pulling the lock strips downwardly with respect to the wall panel and the frame members.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. A method in accordance with <claim-ref idref="CLM-00016">claim 16</claim-ref>, further comprising:
+<claim-text>linearly pulling the lock strips to align the release portions of the lock strips with the tabs; and</claim-text>
+<claim-text>drawing the tabs out of the release portions while drawing the wall panel away from the frame members, to remove the wall panel from the frame members.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. A method in accordance with <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein linearly pulling the lock strips comprises pulling the lock strips downwardly with respect to the wall panel and the frame members.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

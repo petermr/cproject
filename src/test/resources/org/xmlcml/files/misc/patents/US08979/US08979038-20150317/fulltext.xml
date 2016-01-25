@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979038-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979038</doc-number>
+<kind>B1</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13692953</doc-number>
+<date>20121203</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>L</subclass>
+<main-group>3</main-group>
+<subgroup>10</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>L</subclass>
+<main-group>3</main-group>
+<subgroup>24</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>L</subclass>
+<main-group>3</main-group>
+<subgroup>24</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>248 62</main-classification>
+<further-classification>248 741</further-classification>
+<further-classification>2482306</further-classification>
+</classification-national>
+<invention-title id="d2e43">Strut clamp</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2676680</doc-number>
+<kind>A</kind>
+<name>Kindorf</name>
+<date>19540400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>403 22</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>3053355</doc-number>
+<kind>A</kind>
+<name>Attwood</name>
+<date>19620900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>403 22</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>3463428</doc-number>
+<kind>A</kind>
+<name>Kindorf et al.</name>
+<date>19690800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 72</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>3522921</doc-number>
+<kind>A</kind>
+<name>Lytle</name>
+<date>19700800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 62</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>3527432</doc-number>
+<kind>A</kind>
+<name>Lytle</name>
+<date>19700900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 62</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>4408922</doc-number>
+<kind>A</kind>
+<name>D'Alessio</name>
+<date>19831000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>403 12</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>4408928</doc-number>
+<kind>A</kind>
+<name>Steinke</name>
+<date>19831000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>403320</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>4770378</doc-number>
+<kind>A</kind>
+<name>Onishi et al.</name>
+<date>19880900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 681</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>5590504</doc-number>
+<kind>A</kind>
+<name>Heard et al.</name>
+<date>19970100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52836</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>5799907</doc-number>
+<kind>A</kind>
+<name>Andronica</name>
+<date>19980900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 62</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>5893538</doc-number>
+<kind>A</kind>
+<name>Onishi et al.</name>
+<date>19990400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 65</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>6572057</doc-number>
+<kind>B1</kind>
+<name>Roth</name>
+<date>20030600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 58</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>2006/0284027</doc-number>
+<kind>A1</kind>
+<name>Smith et al.</name>
+<date>20061200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 65</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>2012/0012715</doc-number>
+<kind>A1</kind>
+<name>Andersen et al.</name>
+<date>20120100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 741</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>JP</country>
+<doc-number>07127765</doc-number>
+<kind>A</kind>
+<date>19950500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>JP</country>
+<doc-number>07224972</doc-number>
+<kind>A</kind>
+<date>19950800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>F16L 3/24</classification-cpc-text>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>JP</country>
+<doc-number>07317966</doc-number>
+<kind>A</kind>
+<date>19951200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>F16L 3/24</classification-cpc-text>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>JP</country>
+<doc-number>10210636</doc-number>
+<kind>A</kind>
+<date>19980800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H02G 3/26</classification-cpc-text>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>JP</country>
+<doc-number>2003222269</doc-number>
+<kind>A</kind>
+<date>20030800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>F16L 3/24</classification-cpc-text>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>JP</country>
+<doc-number>2008281176</doc-number>
+<kind>A</kind>
+<date>20081100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>24</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>248 58</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 62</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 63</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 65</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 675</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 681</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 70</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 72</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 73</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 741</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 743</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 744</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 745</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24822341</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24822461</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24822521</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482301</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482306</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482307</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482308</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482309</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2483161</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248340</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403385</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403386</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403387</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403400</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403373</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403397</main-classification>
+</classification-national>
+<classification-cpc-text>F16L 3/00</classification-cpc-text>
+<classification-cpc-text>F16L 3/10</classification-cpc-text>
+<classification-cpc-text>F16L 3/24</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>14</number-of-drawing-sheets>
+<number-of-figures>20</number-of-figures>
+</figures>
+<us-related-documents>
+<division>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>12256407</doc-number>
+<date>20081022</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>8322661</doc-number>
+</document-id>
+</parent-grant-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>13692953</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</division>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Oh</last-name>
+<first-name>Kwang</first-name>
+<address>
+<city>La Crescenta</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Oh</last-name>
+<first-name>Kwang</first-name>
+<address>
+<city>La Crescenta</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<last-name>Cohen</last-name>
+<first-name>Lawrence S.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<last-name>Cohen</last-name>
+<first-name>Lawrence S.</first-name>
+<role>04</role>
+<address>
+<city>Los Angeles</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+<assignee>
+<addressbook>
+<last-name>Oh</last-name>
+<first-name>Kwang J.</first-name>
+<role>04</role>
+<address>
+<city>Los Angeles</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>McKinnon</last-name>
+<first-name>Terrell</first-name>
+<department>3632</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>McNichols</last-name>
+<first-name>Eret</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A method for applying a clamp for a construction strut that allows a pipe to be clamped to the construction strut in which the clamp has a fastener that is not exposed above the clamp curvature and in which the fastener head is easily accessible. Also the clamp has a retaining tab and a neck portion such that it can be installed by straight-in insertion at the top of a construction strut. Also, the method has an embodiment in that the clamp can be installed either on the open side of the construction strut or on the closed side using slots in the closed side by straight-in passing the retaining tab past the inturned flanges on the top of the construction strut and by a rotation at the bottom of the construction strut.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="190.16mm" wi="291.25mm" file="US08979038-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="121.07mm" wi="97.79mm" file="US08979038-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="146.98mm" wi="205.57mm" file="US08979038-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="127.08mm" wi="205.74mm" file="US08979038-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="247.90mm" wi="178.73mm" orientation="landscape" file="US08979038-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="143.51mm" wi="169.59mm" file="US08979038-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="208.62mm" wi="128.02mm" file="US08979038-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="169.33mm" wi="148.08mm" orientation="landscape" file="US08979038-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="152.32mm" wi="152.57mm" file="US08979038-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="232.58mm" wi="130.81mm" orientation="landscape" file="US08979038-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="187.11mm" wi="145.46mm" orientation="landscape" file="US08979038-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="201.68mm" wi="149.27mm" orientation="landscape" file="US08979038-20150317-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="200.41mm" wi="145.03mm" file="US08979038-20150317-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="203.54mm" wi="195.83mm" orientation="landscape" file="US08979038-20150317-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00014" num="00014">
+<img id="EMI-D00014" he="116.76mm" wi="186.10mm" file="US08979038-20150317-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">This is a divisional application of application Ser. No. 12/256,407 filed on Oct. 22, 2008.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">FIELD OF THE INVENTION</heading>
+<p id="p-0003" num="0002">The invention relates to clamps that are used for clamping pipes and conduits to construction struts.</p>
+<heading id="h-0003" level="1">BACKGROUND</heading>
+<p id="p-0004" num="0003">Construction struts (they are also called channels and framing channels) are well known and ubiquitous in construction, especially in commercial buildings. One of their purposes is to enable pipes and conduits to be installed by being clamped to the construction struts.</p>
+<p id="p-0005" num="0004">A good reference for construction struts as well as accessories for use with them can be found in the catalogue of ERICO International Corporation of Solon, Ohio, and their website ERICO.com. One of the most commonly used accessories with construction struts are clamps for clamping pipes and conduits to the construction strut. Several of these can be found in the ERICO catalogue including a design that is also described in U.S. Pat. No. 4,429,440 the content of which is incorporated by reference herein.</p>
+<p id="p-0006" num="0005">Another good reference to these products is Thomas&#x26;Betts Corporation of Memphis Tenn.</p>
+<p id="p-0007" num="0006"><figref idref="DRAWINGS">FIG. 1</figref> shows in cross-section a typical construction strut (taken from the catalogue of Thomas &#x26; Betts). These are made by the various manufacturers to dimensions which are either the same or sufficiently substantially the same that accessories will fit on those made by the various manufacturers as shown on <figref idref="DRAWINGS">FIG. 1</figref> but varying in height. Therefore a standard configuration of the top and inturned flanges and width is adopted by the industry which enables the use of various accessories regardless of the manufacturer of the construction strut. There are other standardized features one of which is providing slots on the bottom of the construction strut. Using the slots, some accessories can be attached to both the top and the bottom of the construction strut. A typical accessory is the clamp which is the subject of the present invention.</p>
+<p id="p-0008" num="0007"><figref idref="DRAWINGS">FIG. 2</figref> shows three common types of pipe clamps of the prior art designated E<b>1</b>, E<b>2</b> and E<b>3</b>. Pipe clamp E<b>1</b> features separate sides <b>20</b><i>a </i>and <b>20</b><i>b </i>which are held in the construction strut <b>10</b>. A perspective drawing of type E<b>1</b> is shown in the ERICO catalogue at page 78. Type E<b>1</b> is installed by fitting the separate sides <b>20</b><i>a </i>and <b>20</b><i>b </i>into the construction channel with the pipe between them, and then fastening them together with the threaded fastener and nut <b>22</b>. Type E<b>1</b> has the disadvantages of having four parts (including the nut), most inconveniently, the clamping sides <b>20</b><i>a </i>and <b>20</b><i>b </i>being separate. It is difficult to install when there are several pipes to be installed close to each other because a screwdriver cannot be used and they have to be manipulated to be held in position as the screw is inserted to keep them assembled. Notably, often installation of pipes and conduits has to be done in very tight and crowded spaces.</p>
+<p id="p-0009" num="0008">Type E<b>2</b> in <figref idref="DRAWINGS">FIG. 2</figref> is made to improve type E<b>1</b> by allowing easier access to the fastener head but it too has disadvantages; when the fastener is tightened it tends to move to a more vertical position exposing the head and putting uneven pressure on the pipe.</p>
+<p id="p-0010" num="0009">Type E<b>3</b> is shown in the Erico catalogue on page 80 and it is shown in U.S. Pat. No. 4,429,440. It has the disadvantage that it does not wrap around the pipe so the pipe is not firmly gripped and is subject to twisting. Also, if the fastener is tightened too much the pipe can be crushed; therefore, this type cannot be used on heavy duty work requirements.</p>
+<p id="p-0011" num="0010">All three of these illustrated fasteners has the additional disadvantage that there is a portion exposed allowing injuries to workers who pass under them as shown in <figref idref="DRAWINGS">FIG. 2</figref> and also injury to hands and arms when trying to work in a crowded space. One of the problems in this work is that it is often done in tight and crowded spaces and with a lot of adjacent pipes and conduits.</p>
+<p id="p-0012" num="0011">There is a need for a clamp that is easy to install, does not expose a fastener head, allows ready access for tightening and has a clamping surface to keep it firmly in place.</p>
+<p id="p-0013" num="0012">Also there is often a need to clamp a pipe or conduit to the opposite bottom side of the construction strut, where there are slots; a versatile clamp that will work on both sides of the construction strut is very desirable Also, there is a need not only for such a versatile clamp, but one that in accomplishing that versatility also is easy to install.</p>
+<p id="p-0014" num="0013">In construction it is often the case that construction struts will be stacked. This is shown in <figref idref="DRAWINGS">FIG. 2</figref><i>b</i>. In the figure stacked construction struts are shown. For illustrative purposes, in between struts <b>10</b> and <b>10</b><i>a </i>there are clamps of the type E<b>1</b>, E<b>2</b> (as in <figref idref="DRAWINGS">FIG. 2</figref><i>a</i>) and between struts <b>10</b> and <b>10</b><i>b </i>there are clamps of the type E<b>3</b> (as in <figref idref="DRAWINGS">FIG. 2</figref><i>a</i>). The problem with both of these clamp types lies in the dimension N, between the struts. The present invention recognizes the desirability of reducing that distance.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 1</figref> is a section of a typical construction strut.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 2</figref><i>a </i>shows some prior art clamps.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 2</figref><i>b </i>shows stacked construction struts with prior art clamps</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIGS. 3</figref><i>a</i>, <b>3</b><i>b </i>and <b>3</b><i>c </i>are views of an exemplary strip member of the clamp of the invention.</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 3</figref><i>d </i>shows an alternative structure for the clamp neck.</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIGS. 4</figref><i>a </i>and <b>4</b><i>b </i>are a top and side view respectively of an exemplary nut of the invention.</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 5</figref> is a perspective exploded view of an exemplary clamp of the invention.</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 6</figref> is a perspective view of an exemplary clamp of the invention installed on a construction strut shown partially cut-away.</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 7</figref> is a side view of an exemplary clamp of the invention installed on a construction strut.</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 8</figref> is a view showing an exemplary clamp inserted and hooked under an inturned flange on the open side of a construction strut.</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 9</figref> is a view showing the installation and clamping of a pipe using an exemplary clamp on the open side of a construction strut.</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 10</figref> shows the beginning of installation of the clamp to the bottom side of a construction strut.</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 11</figref> shows the clamp installed on the bottom side of a construction strut.</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 12</figref> is a view looking into the construction strut for the installation as shown in <figref idref="DRAWINGS">FIG. 11</figref>.</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 13</figref> is another view looking into the construction strut for the installation as shown in <figref idref="DRAWINGS">FIG. 11</figref>.</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 14</figref> is a view showing the invention as used to mount a pipe below and above a construction strut as well as mounting an additional pipe on the clamp of the first pipe and also showing a stacked construction strut.</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 15</figref> is a view showing the head of the fastener below the maximum curvature of the strut clamp.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0032" num="0031">The present invention is a strut clamp that is an improvement over prior designs in several aspects. One improvement is that the fastener head is easily available for tightening, in particular, with a screw driver, and also is not exposed above the top of the pipe and does not extend horizontally. Another improvement is that the same clamp can be used on the top (open) side of a construction strut, or on the bottom (closed) slotted side (that is, it has a series of short spaced-apart slots). Another improvement is that the clamp can be inserted straight-in between the inturned flanges of a construction strut; that is without an angled or twist maneuver. Another improvement for some embodiments is that it is easy to install because the parts can be all assembled into a single unit away from the strut and then be installed together. Another improvement is that there is always a good range of wrap-around to keep the pipe from moving. Another improvement is that stacked construction struts can be closer together than with other clamps. All of these improvements and others will be seen and further explained in the following description.</p>
+<p id="p-0033" num="0032">The invention is used in combination with a construction strut to clamp pipes (for convenience the term &#x201c;pipe(s)&#x201d; will be used to include all circular members, including pipes and conduits) that are to be clamped to a construction strut. Construction strut configurations are known and are available from many sources but with the same configurations and substantially the same dimensions, for installing a clamp. It is in combination with construction struts that the present invention is advantageous.</p>
+<p id="p-0034" num="0033">Referring first to <figref idref="DRAWINGS">FIG. 1</figref> there is shown a typical construction strut exemplary of use with the clamp of the present invention in which the construction strut <b>10</b> in the form of a channel is defined by a bottom wall <b>12</b>, side walls <b>14</b> and <b>16</b> and a top <b>18</b> having inturned flanges <b>20</b> extending from the side walls <b>14</b> and <b>16</b> respectively defining a space <b>22</b> between them, also called a slot or channel, extending the length of the construction strut, and an inside distance D between the side walls <b>14</b> and <b>16</b>. The bottom wall <b>12</b> can have a series of spaced apart slots <b>24</b> (see <figref idref="DRAWINGS">FIGS. 10-13</figref>) which are available in a variety of lengths and spacing. Construction struts are sold by a number of manufacturers, and are of generally standardized dimensions in which the height of the side walls <b>14</b> and <b>16</b> may vary, but the dimensions defining the width of the strut, the top inturned flanges <b>20</b>, the slot <b>22</b> and the inside distance D are sufficiently substantially similar that accessories such as the present clamp will fit on the construction struts made by a number of manufacturers. As shown in <figref idref="DRAWINGS">FIG. 1</figref> the width of the space <b>22</b> is nominally &#x215e; inch and the total width of the strut is nominally 1&#x215d; inch. The inside width D depends on the thickness (12 an 14 gauge are common) of the strut material and is not typically given in manufacturers' catalogues, however for purposes of the present description a dimension of about 1&#xbd; inch is taken as applicable. As for the slots in the bottom wall <b>12</b>, a series of slots on 2 inch centers and having dimensions of 1&#x215b; inch long and 9/16 inch wide is common. While the present invention can be dimensioned for various dimensions of the slots, a width of 9/16 and length of 1&#x215b; inch is a selected preferred slot width and length for which the present invention can be configured and it is a very common slotting.</p>
+<p id="p-0035" num="0034">Referring to <figref idref="DRAWINGS">FIGS. 3</figref><i>a</i>-<i>d</i>, <b>4</b><i>a</i>-<i>b </i>and <b>5</b>, in one embodiment the clamp <b>30</b> of the present invention comprises three parts which are, a clamp strip <b>32</b>, a nut <b>34</b> and a bolt or machine screw <b>36</b>. These are used in conjunction with an industry standard construction strut <b>10</b> holding in place a pipe P. Pipes come in different sizes, such as from &#xbd; inch to 5 inch. They also come in different types such as EMT and RIGID. In general, a clamp is configured for each pipe size. That is, the length of the strip <b>32</b> and its curvature are specific for a pipe size. Pipe sizes are specified for their inside diameter (ID) and the outside diameter will depend on the thickness of the pipe. Therefore the strip curvature will be specific for that outside diameter. There are some cases in which a clamp can fit more than one pipe because different pipe types allow this. For example in some prior art clamps a single clamp can be used for a &#xbe; inch EMT and a &#xbd; inch RIGID pipe. Nevertheless, commonly, within the size range for a given pipe type, there is a clamp configured to fit each pipe size. In particular the length of the strip and its curvature are made to fit. However in the present invention the retaining tab and the neck portions (as described below) are configured for the dimensions of the industry standard construction strut and therefore will be the same for all sized clamps. In this description the term &#x201c;engage&#x201d; refers to the curvature of the strip fitting to the curvature of the pipe. The term &#x201c;pipe&#x201d; is intended to mean any of the circular items that the present strut clamp is used for, including pipes, conduits and other circular items.</p>
+<p id="p-0036" num="0035">The clamp strip <b>32</b> has an intermediate portion <b>38</b> that has a curved portion or curvature for extending around the pipe to be clamped. The strip <b>32</b> terminates at a first end <b>40</b> which will also be referred to as the gripping end; and, extending into a flat shelf portion <b>42</b>, it terminates at a second end <b>44</b> which will also be referred to as the fastening end; the flat shelf portion <b>42</b> having a hole <b>43</b>. The clamp strip <b>32</b> has a first longitudinal side <b>46</b> and a second longitudinal side <b>48</b> which define a width of the strip. As will be explained, an exemplary width is 1 inch. At the first end <b>40</b> is a retaining tab <b>50</b> that is attached to the intermediate portion <b>38</b> by a narrow neck <b>52</b>. The neck <b>52</b> can be formed in a number of ways. As will be seen the dimensional relationship of the neck <b>52</b> and the retaining tab <b>50</b> to each other and to the dimensions of the construction strut are important to the advantageous functioning of the new clamp.</p>
+<p id="p-0037" num="0036">Below the neck <b>52</b>, the retaining tab <b>50</b> has a width W. It extends from each side of the neck <b>52</b> to a first side <b>53</b> and a second side <b>55</b>. At least one of the sides <b>53</b> and <b>55</b> has a hook <b>60</b>.</p>
+<p id="p-0038" num="0037">In a preferred embodiment, as described below the first side <b>53</b> has an upward facing edge <b>58</b> and the second side <b>55</b> has an upward facing hook <b>60</b> such that the upward facing edge <b>58</b> and the top of the hook <b>60</b> are aligned.</p>
+<p id="p-0039" num="0038">In a preferred embodiment the width W is less than the nominal &#x215e; inch dimension of the opening <b>22</b> in the common construction strut <b>10</b> (see <figref idref="DRAWINGS">FIG. 1</figref>); sufficiently less that the retaining tab <b>50</b> can be inserted straight down (called straight-in insertion) between the inturned flanges <b>20</b> without the need for a twist or angled insertion maneuver. Typically but not necessarily, the width of the retaining tab <b>50</b> will be narrower than the width of the intermediate portion <b>38</b> such as when the width of the intermediate portion is 1 inch as mentioned above. The width W of the retaining tab is less than the width of the opening <b>22</b>, preferably in the range of about 13/16 to &#x215d; inch.</p>
+<p id="h-0006" num="0000">If straight-in insertion is not desired, the width W can exceed the width of the opening <b>22</b> so long as it will fit inside the construction strut.</p>
+<p id="p-0040" num="0039">In general the neck portion width will be less than the width of the intermediate portion <b>48</b>; preferably by a reduction in width on each side. One way for forming the neck <b>52</b> is by notches in the strip above the retaining tab <b>50</b>. This is shown in <figref idref="DRAWINGS">FIG. 3</figref><i>c</i>. In the first longitudinal side <b>46</b>, near the first end <b>40</b> there is a first notch <b>54</b> and in the second longitudinal side <b>48</b>, near the first end <b>40</b> there is a second notch <b>56</b>. The bottom of the first notch <b>54</b> is defined by an upward facing edge <b>58</b> which is not hooked while the bottom of the second notch <b>56</b> is defined by an upward facing hook <b>60</b>. The notches can be reversed since there is no required left-right orientation. As noted in <figref idref="DRAWINGS">FIG. 3</figref><i>c </i>in this embodiment, the upward facing edge <b>58</b> is preferably aligned with the top of the hook <b>60</b> the purpose for which will be explained below.</p>
+<p id="p-0041" num="0040">Referring to <figref idref="DRAWINGS">FIG. 3</figref><i>d </i>there is shown an alternative structure for forming the neck <b>52</b>. In this form the neck <b>52</b> is formed by tapers <b>66</b> and <b>68</b> along the first side <b>46</b> and the second side <b>48</b>, respectively.</p>
+<p id="p-0042" num="0041">In the embodiment shown, the width W of the retaining tab <b>50</b> is made less than the space <b>22</b> between the inturned flanges <b>20</b> by being shorter at its first side <b>53</b> relative to the first side <b>46</b> as shown by space X while the second side <b>55</b> where the hook <b>60</b> is, is aligned with the second side <b>48</b>. This alignment allows extra distance for the hook <b>60</b>, on the second side <b>55</b> of the retaining tab <b>50</b>. However this alignment while preferred is not essential. For example, each of the side <b>53</b> and the side <b>55</b> can be not aligned with their respective sides <b>46</b> and <b>48</b> of the intermediate portion <b>38</b>. For example, the neck portion <b>52</b> and the retaining tab <b>50</b> could be located independently with respect to the width of the intermediate portion <b>38</b>, extending for example from the center a selected distance to each side. Also, if the neck <b>52</b> is reduced in width added distance is available for the lateral extension of the respective sides of the retaining tab <b>50</b>. This will allow more space from the neck <b>52</b> to the hook <b>60</b> which can be needed to account for variations in the dimensions of the inturned flanges <b>20</b>. The essential shape and dimensions of the retaining tab <b>50</b> and the width of the neck <b>52</b> is such that the hook <b>60</b> extends sufficiently laterally away from the neck <b>52</b> that it can fit under the inturned flange (see <figref idref="DRAWINGS">FIGS. 6 and 8</figref>) and the edge <b>58</b> extends sufficiently laterally away from the neck <b>52</b> that it will extend beyond the edge of the slot <b>24</b> as shown in <figref idref="DRAWINGS">FIGS. 11 and 12</figref>; the total width of the retaining tab <b>50</b> for the embodiment for straight-in insertion, always being less than the opening <b>22</b> in the construction strut and the width of the neck <b>52</b> being less than the width of the space <b>22</b> and of the width of the slot <b>24</b> which thereby allows the hook <b>60</b> of the second side <b>55</b> to be captured under the inturned flanges <b>20</b> and both the first side <b>53</b> and the second side <b>55</b> to be captured and under the bottom <b>12</b> on each side of the slot <b>24</b>.</p>
+<p id="p-0043" num="0042">The clamp strip <b>32</b> is preferably formed with a ridge <b>64</b> over most of its length in order to add stability against twisting or other unwanted bending.</p>
+<p id="p-0044" num="0043"><figref idref="DRAWINGS">FIGS. 4</figref><i>a </i>and <b>4</b><i>b </i>show the nut <b>34</b> which is preferably formed from a plate, having a top <b>80</b> with a threaded hole <b>82</b> located centrally and sides <b>84</b><i>a </i>and <b>84</b><i>b </i>at the ends of which extend hook pairs <b>86</b><i>a</i>-<b>86</b><i>b </i>and <b>88</b><i>a</i>-<b>88</b><i>b</i>. The hook pairs are bent toward (convergently) each other, which makes installation easier. The convergent bending is preferably symmetrical, which allows the most convenient use. Each hook has an upward facing curved surface <b>90</b> which, as will be seen, fits under the inturned flanges <b>20</b> on a construction strut <b>10</b>. Any configuration at the ends of the nut that provides spaced apart curved members to fit under the inturned flanges will broadly be within this concept. While this new nut is advantageous for the purpose of enhancing ease of installation of the clamp, nuts already known can also be used in the combination with the clamp strip <b>32</b> and the bolt or screw <b>36</b>. The nut <b>34</b> is preferably smaller in width than the width of the slot <b>24</b>, preferably smaller than the 9/16 inch width of the common slot described above and shorter than the 1&#x215b; inch length of the slot, the symmetrically convergent hook pairs allowing easy passage through the slot <b>24</b>. In this way, with the nut <b>34</b> threaded on the screw <b>36</b>, the entire clamp can be assembled and installed in a single operation in which the nut is passed through the slot <b>24</b> or between the inturned flanges <b>20</b> and then rotated into the cross-wise position.</p>
+<p id="p-0045" num="0044">In use the new clamp allows for clamping a pipe to a construction strut on its top, or on its bottom. Construction struts are well known, and for purposes of the present explanation of use of the new clamp, the description above will be used. <figref idref="DRAWINGS">FIGS. 6-9</figref> show how the new clamp <b>30</b> is used to fix a pipe P to the top of a construction strut <b>10</b>.</p>
+<p id="p-0046" num="0045">Although in the figures the clamp <b>30</b> and pipe P are shown on top of the construction strut <b>10</b>, as is well known, the assembly may also be in inverted position, that is, with the construction strut inverted with the pipe suspended below it.</p>
+<p id="p-0047" num="0046">The clamp may be applied to a pipe already in place or the clamp can be put in place loosely, and the pipe inserted under it; then the clamp is tightened. With the clamp in place the hook <b>60</b> is captured under the adjacent inturned flange <b>20</b> on the strut <b>10</b>. The width of the retaining tab <b>50</b> is small enough that it readily fits in the space <b>22</b> between the inturned flanges <b>20</b> without the need for angled or twist insertion, that is, by straight-in insertion without the need for putting it in at an angle as would be the case if the width was greater than the space <b>22</b>. The space <b>22</b> is conventionally nominally &#x215e; inch. A width of the retaining tab <b>50</b> from about 1/16 inch smaller than the opening <b>22</b> works well. A range from 13/16 to &#x215d; inch is preferred. If straight-in insertion is not desired, the width of the retaining tab <b>50</b> can exceed the width <b>22</b> so long as it fits readily inside the construction strut.</p>
+<p id="p-0048" num="0047">Referring to <figref idref="DRAWINGS">FIGS. 6-9</figref>, the clamp <b>30</b> is shown installed on a strut <b>10</b>. The hook <b>60</b> is captured under the inturned flange <b>20</b> while the opposite side <b>53</b> of the retaining tab is not captured by the adjacent inturned flange <b>20</b> (<figref idref="DRAWINGS">FIG. 8</figref>) and does not extend to interfere with the opposite inturned flange. A good way to achieve this is to make the second side <b>55</b> extend beyond the neck <b>52</b> more than does the first side <b>53</b>. That allows for variation in the capture of the hook <b>60</b> under the inturned flange <b>20</b> on one side while avoiding the first side <b>53</b> hitting the other inturned flange <b>20</b> as can be appreciated by <figref idref="DRAWINGS">FIG. 8</figref>. Of course, in the case where the total width W of the retaining tab <b>50</b> is less than the width <b>22</b> between the inturned flanges <b>20</b>, this is automatically accommodated since the first side <b>53</b> cannot interfere with the proximate inturned flange when the hook <b>60</b> is under the other inturned flange.</p>
+<p id="p-0049" num="0048">The nut <b>34</b> is captured under the inturned flanges <b>20</b> by contact of the curved surfaces <b>90</b>. The bolt <b>36</b> is tightened to the nut <b>34</b> holding the pipe P firmly in place. The head of the bolt <b>36</b> is presented upright from the strut and below the pipe P; it can be easily tightened by a screwdriver or a wrench (for hex head bolts), but it does not present a risk of injury, or the need to avoid injury because it is below the curvature <b>38</b> of the clamp <b>30</b> (see also <figref idref="DRAWINGS">FIGS. 14 and 15</figref>). Also, adjacent clamps do not interfere with each other. Further, as seen in <figref idref="DRAWINGS">FIG. 14</figref>, stacked struts can be more closely stacked. The bolt can have a hex head and a screwdriver slot, or any other type of head that is available, but preferably for tightening with a blade screwdriver or a Philips screwdriver.</p>
+<p id="p-0050" num="0049">The clamp can also be used to clamp a pipe on the bottom <b>12</b> of the strut <b>10</b> when it is provided with slots <b>24</b>, which is a common feature available on construction struts. This is shown in <figref idref="DRAWINGS">FIGS. 10-13</figref>. First the clamp strip <b>30</b> is inserted sideways into the slot <b>24</b> (<figref idref="DRAWINGS">FIG. 10</figref>) sufficiently that the retaining tab <b>50</b> is inside the strut <b>10</b> and the neck <b>52</b> is aligned with the slot <b>24</b>. Then it is turned into the cross-wise or straddle position so that the retaining tab <b>50</b> will be captured under the bottom <b>12</b> with the hook <b>60</b> and the flat edge <b>58</b> extending on each side of the slot <b>24</b> in contact with the interior surface of the bottom wall <b>12</b>. The flat portion <b>42</b> of the second end <b>44</b> of the strip <b>32</b> is now above another slot <b>24</b><i>b </i>along the length of the strut <b>10</b>. As described above, although not shown in <figref idref="DRAWINGS">FIG. 10</figref>, the screw <b>36</b> and the nut <b>34</b> can be assembled to the strip <b>32</b> and the nut guided into the adjacent slot <b>24</b><i>b </i>and rotated into the cross-wise position as shown in <figref idref="DRAWINGS">FIGS. 11 and 13</figref>. It can be appreciated that by having one side of the strip <b>32</b> having a hook <b>56</b>, there is a positive connection to the inturned flange <b>20</b> when installed in the top of the strut and by having a flat edge <b>54</b> on the opposite side, there is a clamping on both sides of the slot <b>24</b> in that configuration, the flat edge <b>54</b> providing added strength for the clamping action.</p>
+<p id="p-0051" num="0050"><figref idref="DRAWINGS">FIG. 14</figref> shows the versatility provided by the invention. One clamp <b>30</b> is positioned on the top of a strut <b>10</b> clamping a first pipe P<b>1</b> and using a bracket clamp <b>94</b> a second pipe P<b>2</b> is clamped above it. Under the strut <b>10</b> another pipe P<b>3</b> is clamped in place with a clamp <b>30</b> on the bottom wall <b>12</b>.</p>
+<p id="p-0052" num="0051"><figref idref="DRAWINGS">FIG. 14</figref> also shows the advantage of the invention in reducing the distance between stacked construction struts. In this respect, comparison is made to the distance between stacked construction struts which distance is dictated by the configuration of the clamps E<b>1</b>, E<b>2</b> and E<b>3</b> in <figref idref="DRAWINGS">FIG. 2</figref>. However with the present clamp, the stacked construction struts shown in <figref idref="DRAWINGS">FIG. 14</figref> are able to be closer together.</p>
+<p id="p-0053" num="0052"><figref idref="DRAWINGS">FIG. 15</figref> illustrates the requisite configuration for the head of a fastener to be below the maximum curvature (the maximum distance from the construction strut) of the intermediate portion of the strut clamp. The dimension M from the maximum curvature of the intermediate portion <b>38</b> to the flat shelf portion <b>42</b> must be more than the height of the head <b>37</b> of the fastener <b>36</b>. In most applications the fastener head height is about 5/32 in. for a hex head or about 3/16 in. for a round head. Therefore, the distance M is preferably at least about &#xbc; in. Also, that dimension should be less than the radius of the curvature so that it will not be lower than half way to the strut <b>10</b>.</p>
+<p id="p-0054" num="0053">The clamp can be made in a range of sizes each size made to accommodate a pipe size. As noted above the dimensions of the construction strut are standardized, so the relationship of the parts of the clamp that interact and interengage with the construction strut can be determined in that context. The size variables for different pipes are the width, length and degree of curvature of the intermediate portion <b>38</b>. The exemplary version given above has a width of 1 inch for the intermediate portion <b>38</b>; wider and thinner dimensions may be applicable although a single width is preferred for all sizes. The length of the intermediate portion <b>38</b> is selected so that the head of the screw <b>36</b> can be below the upper reach of the curvature as described above.</p>
+<p id="p-0055" num="0054">The foregoing Detailed Description of exemplary and preferred embodiments is presented for purposes of illustration and disclosure in accordance with the requirements of the law. It is not intended to be exhaustive or to limit the invention to the precise form or forms described, but only to enable others skilled in the art to understand how the invention may be suited for a particular use or implementation. The possibility of modifications and variations will be apparent to practitioners skilled in the art. No limitation is intended by the description of exemplary embodiments which may have included tolerances, feature dimensions, specific operating conditions, engineering specifications, or the like, and which may vary between implementations or with changes to the state of the art, and no limitation should be implied therefrom. This disclosure has been made with respect to the current state of the art, but also contemplates advancements and that adaptations in the future may take into consideration of those advancements, namely in accordance with the then current state of the art. It is intended that the scope of the invention be defined by the Claims as written and equivalents as applicable. Reference to a claim element in the singular is not intended to mean &#x201c;one and only one&#x201d; unless explicitly so stated. Moreover, no element, component, nor method or process step in this disclosure is intended to be dedicated to the public regardless of whether the element, component, or step is explicitly recited in the Claims. No claim element herein is to be construed under the provisions of 35 U.S.C. Sec. 112, sixth paragraph, unless the element is expressly recited using the phrase &#x201c;means for . . . &#x201d; and no method or process step herein is to be construed under those provisions unless the step, or steps, are expressly recited using the phrase &#x201c;comprising step(s) for . . . &#x201d;</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A method for clamping a pipe or conduit or similar circular item to a standard construction strut of the type having a top side with a longitudinal space defining an opening having a width dimension defined by spaced apart inturned flanges comprising:
+<claim-text>providing a strut clamp comprising;
+<claim-text>a metal strip having a first end and a second end, near the first end having a neck portion that has a width that is less than the width dimension of the longitudinal space of the standard construction strut and a retaining tab below the neck portion, the retaining tab having a first and second side each extending outwardly on opposite sides of the neck portion, and the first side having an upward facing edge and the second side having an upward extending hook the upward facing edge and the top of the hook being aligned parallel to the inturned flanges the retaining tab having a width that is less than the width dimension of the longitudinal space of the construction strut and the metal strip near the second end being adapted for passing a fastener through it and an intermediate portion extending between the first and second ends having a curvature portion;</claim-text>
+</claim-text>
+<claim-text>attaching the first end of the metal strip to a construction strut by passing the tab allowably by straight-in insertion through the opening whereby attaching the clamp to the construction strut can be done with the clamp aligned longitudinally of the construction strut and the hook on the second side of the retaining tab engaging an inturned flange of the construction strut either before placing a pipe or conduit or similar circular item under its curved portion or after that item is in place, placing it over the item such that the curvature engages the item;</claim-text>
+<claim-text>providing a nut having opposite ends defining a length dimension that is long enough to span the inturned flanges each of the ends being formed as a pair of outwardly extending spaced apart hooks each hook having an upward facing curved element and the hooks being spaced apart to define a width dimension that is less than the opening width and a central portion extending from the pairs of hooks and having a threaded hole substantially midway of the central portion the distance between the hooks being such that the hooks will engage the inturned flanges of the construction strut when the nut is placed under them;</claim-text>
+<claim-text>passing the nut through the opening and turning it to allow the hooks to engage under the inturned flanges of the construction strut;</claim-text>
+<claim-text>fixing the strut clamp in place to secure the pipe or conduit or similar circular item in place by tightening a fastener extending from the second end of the strip to the nut.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the nut is formed as a channel in which the central portion has sides extending downwardly from a face surface and the pairs of spaced apart hooks are formed as ends of the sides extending beyond the face surface.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The method of <claim-ref idref="CLM-00002">claim 2</claim-ref> wherein each of the pairs of spaced apart hooks extend symmetrically convergently beyond the face surface.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref> further wherein the nut is first loosely threaded to the fastener and then passed through the opening and is then tightened.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the second end has a bend across its width to define a flat area in which the hole is positioned and the curvature portion extends lengthwise from the bend to a straight portion that ends at the neck portion whereby the head of a selected fastener is below maximum curvature point relative to the construction strut of the curvature of the intermediate portion.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The method of <claim-ref idref="CLM-00005">claim 5</claim-ref> wherein the flat area is at least &#xbc; inch below the maximum curvature point of the intermediate portion so that a head of a selected fastener will not extend above the top of the curvature.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the width of the retaining tab does not exceed about 13/16 inch.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The method of <claim-ref idref="CLM-00007">claim 7</claim-ref> wherein the second side of the retaining tab extends outwardly beyond the neck portion by not less than about 3/16 inch.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the width of the neck portion does not exceed about &#xbd; inch.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The method of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the second side of the retaining tab extends beyond the neck portion more than the first side of the retaining tab.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. A method for clamping a pipe or conduit or similar circular item to a standard construction strut of the type having a top side with a longitudinal space defining an opening having a width dimension defined by spaced apart inturned flanges and having a bottom side having an inside surface and that has longitudinally spaced apart slots the slots having a width dimension and a length dimension that is greater than the width dimension comprising:
+<claim-text>providing a strut clamp comprising;
+<claim-text>a metal strip having a first end and a second end, near the first end having a neck portion that has a width that is less than the width dimension of the longitudinal space and less than the length and width dimensions of the slots of the standard construction strut and a retaining tab below the neck portion, the retaining tab having a first and second side each extending outwardly on opposite sides of the neck portion, and the first side having an upward facing edge and the second side having an upward extending hook the upward facing edge and the top of the hook being aligned perpendicular to the metal strip and the retaining tab having a width that is less than the width dimension of the longitudinal space and of the length of the slots and greater than the width of the slots of the construction strut and the neck portion having a width that is less than the width dimension of the slot and the metal strip near the second end being adapted for passing a fastener through it and an intermediate portion extending between the first and second ends having a curvature portion;</claim-text>
+</claim-text>
+<claim-text>attaching one or more of the strut clamps selectively;</claim-text>
+<claim-text>(a) to the top of the construction strut by passing the retaining tab allowably by straight-in insertion through the opening whereby attaching the clamp to the construction strut can be done with the clamp aligned longitudinally of the construction strut and the hook on the second side of the retaining tab engaging an inturned flange of the construction strut either before placing a pipe or conduit or similar circular item under its curved portion or after that item is in place, placing it over the item such that the curvature engages the item; providing a nut having opposite ends each of the ends being formed as a pair of spaced apart hooks each hook having an upward facing curved element and a central portion extending from the pairs of hooks and having a threaded hole substantially midway of the central portion adapted for engaging the fastener;</claim-text>
+<claim-text>placing the nut under the inturned flanges of the construction strut;</claim-text>
+<claim-text>fixing the strut clamp in place to secure the pipe or conduit or similar circular item in place by tightening a fastener extending from the second end of the strip to the nut; or</claim-text>
+<claim-text>(b) to the bottom of the construction strut by inserting the retaining tab of the strut clamp through a selected one of the slots at an angle that allows it to pass through the slot and rotating the strut clamp allowing the upward facing edge of the first side of the retaining tab and the top of the hook of the second side of the retaining tab to engage the inside surface of the bottom side of the construction strut on each side respectively of the slot;</claim-text>
+<claim-text>providing a pipe or conduit having a diameter;</claim-text>
+<claim-text>capturing the pipe or conduit under the intermediate portion of the strut clamp;</claim-text>
+<claim-text>tightening the fastener to a nut that is inside the construction strut and accessible at a slot such that the fastener passes through the slot and engages the nut for tightening.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> wherein the second end has a bend across its width to define a flat area in which a hole is positioned and the curvature portion extends lengthwise from the bend to a straight portion that ends at the neck portion.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The method of <claim-ref idref="CLM-00012">claim 12</claim-ref> the curvature portion defining a maximum curvature point with respect to the construction strut and wherein the flat area is below the maximum curvature point.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The method of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the flat area is at least about &#xbc; inch below the maximum curvature point.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> further wherein the nut has a width dimension which is less than the opening width and a length dimension that is long enough to span the inturned flanges wherein for attaching a strut clamp to the top of the construction strut the nut is passed through the opening and turned to allow it to engage under the inturned flanges; and
+<claim-text>the nut having a length dimension that is long enough so that the nut will span across the width dimension of the slots to engage the bottom of the construction strut thereby attaching the strut clamp to the bottom of the construction strut; and</claim-text>
+<claim-text>tightening the fastener to the nut so as to hold in place the pipe or conduit or the like.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> wherein the nut is formed as a channel in which the central portion has sides extending downwardly from a face surface and the pairs of spaced apart hooks are formed as ends of the sides extending from the face surface.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The method of <claim-ref idref="CLM-00016">claim 16</claim-ref> wherein each of the pairs of spaced apart hooks extend symmetrically convergently beyond the face surface.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> wherein the width of the retaining tab does not exceed about 13/16 inch.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The method of <claim-ref idref="CLM-00018">claim 18</claim-ref> wherein the second side of the retaining tab extends outwardly beyond the neck portion by not less than about 3/16 inch.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> wherein the second side of the retaining tab extends beyond the neck portion more than the first side of the retaining tab.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> wherein the width of the neck portion does not exceed about &#xbd; inch.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text>22. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> further comprising a pipe or conduit or similar item having a selected diameter and the curvature had a diameter to engage around it.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text>23. The method of <claim-ref idref="CLM-00011">claim 11</claim-ref> wherein the strip has opposite sides defining a width of the strip and the neck portion is formed by a narrowing the width of the strip on each of the opposite sides.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text>24. A method for clamping a pipe or conduit or similar circular item to a standard construction strut of the type having a top side with a longitudinal space defining an opening having a width dimension defined by spaced apart inturned flanges and having a bottom side having an inside surface and that has longitudinally spaced apart slots the slots having a width dimension and a length dimension that is greater than the width dimension comprising:
+<claim-text>providing a strut clamp comprising;
+<claim-text>a metal strip having a first end and a second end, near the first end having a neck portion that has a width that is less than the width dimension of the longitudinal space and less than the length and width dimensions of the slots of the standard construction strut and a retaining tab below the neck portion, the retaining tab having a first and second side each extending outwardly on opposite sides of the neck portion, and the first side having an upward facing edge and the second side having an upward extending hook the upward facing edge and the top of the hook being aligned perpendicular to the metal strip and the retaining tab having a width that is less than the width dimension of the longitudinal space and of the length of the slots and greater than the width of the slots of the construction strut t and the metal strip near the second end being adapted for passing a fastener through it and an intermediate portion extending between the first and second ends having a curvature portion;</claim-text>
+</claim-text>
+<claim-text>attaching one or more of the strut clamps selectively;</claim-text>
+<claim-text>(a) to the top of the construction strut by passing the retaining tab allowably by straight-in insertion through the opening whereby attaching the clamp to the construction strut can be done with the clamp aligned longitudinally of the construction strut and the hook on the second side of the retaining tab engaging an inturned flange of the construction strut either before placing a pipe or conduit or similar circular item under its curved portion or after that item is in place, placing it over the item such that the curvature engages the item;</claim-text>
+<claim-text>providing a nut having opposite ends each of the ends being formed as a pair of spaced apart hooks each hook having an upward facing curved element and a central portion extending from the pairs of hooks and having a threaded hole substantially midway of the central portion adapted for engaging the fastener;</claim-text>
+<claim-text>placing a nut under the inturned flanges of the construction strut;</claim-text>
+<claim-text>fixing the strut clamp in place to secure the pipe or conduit or similar circular item in place by tightening a fastener extending from the second end of the strip to the nut;</claim-text>
+</claim-text>
+<claim-text>or
+<claim-text>(b) to the bottom of the construction strut by inserting the retaining tab of the strut clamp through a selected one of the slots at an angle that allows it to pass through the slot and rotating the strut clamp allowing the upward facing edge of the first side of the retaining tab and the top of the hook of the second side of the retaining tab to engage the inside surface of the bottom side of the construction strut on each side respectively of the slot;</claim-text>
+<claim-text>providing a pipe or conduit having a diameter;</claim-text>
+<claim-text>capturing the pipe or conduit under the intermediate portion of the strut clamp;</claim-text>
+<claim-text>tightening the fastener to a nut that is inside the construction strut and accessible at a slot such that the fastener passes through the slot and engages the nut for tightening. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

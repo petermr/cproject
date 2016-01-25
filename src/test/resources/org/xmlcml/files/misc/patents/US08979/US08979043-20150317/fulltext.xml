@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979043-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979043</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13886532</doc-number>
+<date>20130503</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>F</subclass>
+<main-group>5</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>H</subclass>
+<main-group>1</main-group>
+<subgroup>10</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>21</class>
+<subclass>V</subclass>
+<main-group>19</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>21</class>
+<subclass>V</subclass>
+<main-group>21</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>23</class>
+<subclass>P</subclass>
+<main-group>19</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>23</class>
+<subclass>P</subclass>
+<main-group>15</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>21</class>
+<subclass>V</subclass>
+<main-group>21</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>23</class>
+<subclass>P</subclass>
+<main-group>19</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>23</class>
+<subclass>P</subclass>
+<main-group>15</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>248200</main-classification>
+<further-classification>248247</further-classification>
+<further-classification>248248</further-classification>
+<further-classification>248237</further-classification>
+<further-classification>2482181</further-classification>
+<further-classification>2482184</further-classification>
+<further-classification>248539</further-classification>
+<further-classification>248538</further-classification>
+<further-classification>248520</further-classification>
+<further-classification>248534</further-classification>
+<further-classification>248518</further-classification>
+<further-classification>248519</further-classification>
+<further-classification>248152</further-classification>
+<further-classification>248536</further-classification>
+<further-classification>248174</further-classification>
+<further-classification>248300</further-classification>
+<further-classification>362382</further-classification>
+<further-classification>362431</further-classification>
+<further-classification>362457</further-classification>
+</classification-national>
+<invention-title id="d2e43">Multiple-use bracket for lighting device installation</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2208358</doc-number>
+<kind>A</kind>
+<name>Chandler</name>
+<date>19400700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248540</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2855107</doc-number>
+<kind>A</kind>
+<name>Roth</name>
+<date>19581000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>211 706</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>3754636</doc-number>
+<kind>A</kind>
+<name>Boy</name>
+<date>19730800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>198850</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>4644728</doc-number>
+<kind>A</kind>
+<name>Stauss et al.</name>
+<date>19870200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52710</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>4734830</doc-number>
+<kind>A</kind>
+<name>Cristian</name>
+<date>19880300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>4856616</doc-number>
+<kind>A</kind>
+<name>Anderson</name>
+<date>19890800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182113</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5406448</doc-number>
+<kind>A</kind>
+<name>Anderson et al.</name>
+<date>19950400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>361600</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5913787</doc-number>
+<kind>A</kind>
+<name>Edwards</name>
+<date>19990600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 522207</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6158180</doc-number>
+<kind>A</kind>
+<name>Edwards</name>
+<date>20001200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 522207</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>7017947</doc-number>
+<kind>B1</kind>
+<name>Diggle, III</name>
+<date>20060300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>285 61</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>7278240</doc-number>
+<kind>B2</kind>
+<name>Burkart</name>
+<date>20071000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>7988320</doc-number>
+<kind>B2</kind>
+<name>Brumels</name>
+<date>20110800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>8027092</doc-number>
+<kind>B1</kind>
+<name>Huff</name>
+<date>20110900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>8190301</doc-number>
+<kind>B2</kind>
+<name>Voysey</name>
+<date>20120500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>12</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>248200</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248247</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248248</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248237</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482181</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482184</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248539</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248538</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248520</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248534</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248518</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248519</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248152</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 72</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248536</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248174</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248300</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>362382</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>362431</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>362457</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>11</number-of-drawing-sheets>
+<number-of-figures>11</number-of-figures>
+</figures>
+<us-related-documents>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61801580</doc-number>
+<date>20130315</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130240690</doc-number>
+<kind>A1</kind>
+<date>20130919</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Florman</last-name>
+<first-name>Steven</first-name>
+<address>
+<city>San Diego</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Florman</last-name>
+<first-name>Steven</first-name>
+<address>
+<city>San Diego</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>TJSL Patent Clinic</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+<agent sequence="02" rep-type="attorney">
+<addressbook>
+<last-name>Hackmann</last-name>
+<first-name>Peter</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<examiners>
+<primary-examiner>
+<last-name>Garft</last-name>
+<first-name>Christopher</first-name>
+<department>3632</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">This application discloses a bracket device used for mounting outdoor solar lighting on various types of surfaces, including but not limited to block walls, chain link fences, wooden fences and flat walls or for holding outdoor solar lighting devices as stand-alone fixtures.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="217.59mm" wi="163.58mm" file="US08979043-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="233.26mm" wi="164.59mm" file="US08979043-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="235.29mm" wi="180.17mm" file="US08979043-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="204.05mm" wi="174.58mm" file="US08979043-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="215.98mm" wi="198.12mm" file="US08979043-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="252.56mm" wi="174.58mm" file="US08979043-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="158.75mm" wi="121.92mm" file="US08979043-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="231.99mm" wi="171.20mm" file="US08979043-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="253.83mm" wi="178.22mm" file="US08979043-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="242.57mm" wi="167.22mm" file="US08979043-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="279.40mm" wi="215.90mm" orientation="landscape" file="US08979043-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="204.72mm" wi="114.13mm" file="US08979043-20150317-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">PRIORITY CLAIM</heading>
+<p id="p-0002" num="0001">This application claims the benefit of priority from U.S. Provisional Patent Application Ser. No. 61/801,580, entitled &#x201c;Multi-Use Bracket for Multiple-Device Installation&#x201d; and filed Mar. 15, 2013, which is fully incorporated herein by reference for all purposes.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">1. Field of the Application</p>
+<p id="p-0004" num="0003">This disclosure is directed to the mounting of lighting, among other devices, and more specifically to brackets used for mounting outdoor solar lighting devices on various types of surfaces, including but not limited to block walls, chain link fences, wooden fences and flat walls or holding outdoor solar lighting devices as stand-alone fixtures.</p>
+<p id="p-0005" num="0004">2. Background of the Disclosure</p>
+<p id="p-0006" num="0005">Outdoor lighting is not only useful for illuminating a home, but also for adding security and beauty. Exterior lighting is available in low-voltage, solar models that are both attractive and easy to install. Solar lighting is environmentally friendly and nearly cost-free to operate. Solar-powered models absorb energy from sunlight, convert it into electrical energy, and store it in rechargeable solar batteries. At dusk, a small photo-cell fixture turns the lights on. The lights remain illuminated for a specific amount of time, until the batteries run out of charge or the sensor detects sufficient daylight to turn them off. When the sun comes up, the batteries are recharged. Thus, solar lighting must be placed in an area that allows the built-in solar panel to collect and convert sunlight into electric power, while the pre-installed rechargeable battery stores the energy to power the light at night.</p>
+<p id="p-0007" num="0006">Stand-alone, outdoor solar lights are generally installed using holding posts for insertion into the ground, for example along an outdoor walking path or around an outdoor patio area. These commercially-available holding posts can have a diameter that is variable, but typically is about one inch and a quarter or less and they can be up to many feet in length, depending on how high off the ground someone may want the solar light. However, typically the holding posts are around one to two feet in length. One end of the holding post may be fitted with an adapter for attaching the solar light (e.g., possibly something similar to a camera tripod attachment for a camera) and the other end of the holding post is usually pointed to facility an easier insertion into the ground.</p>
+<p id="p-0008" num="0007">As can be seen, the solar lights with holding posts are limited to being installed by inserting them into the ground. However, this installation method is not always desired or desirable, and is even impossible in some situations. Therefore, what is needed is a bracket or fixture that facilitates installation of the outdoor, solar lights (with or without the holding posts) in a multitude of locations, including stand-alone uses.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0009" num="0008">In certain embodiments, an apparatus for mounting a solar light post to any one of a plurality of objects includes: a main support structure, the main support structure having a substantially flat main shape, a main upper end and a main lower end; a top, the top having a substantially flat top shape, a top front end and a top back end, the top back end being connected to the main upper end by an approximate ninety degree angle in a forward direction approximately perpendicular to a main plane of the substantially flat main shape; a top face, the top face having a substantially flat top face shape and a top face upper, the top face upper end being connected to the top front end by an approximate ninety degree angle in a downward direction approximately perpendicular to a top plane of the substantially flat top shape; a bottom, the bottom having a substantially flat bottom shape, a bottom front end and a bottom back end, the bottom back end being connected to the main lower end by an approximate ninety degree angle in a forward direction approximately perpendicular to the main plane of the substantially flat main shape; a bottom face, the bottom face having a substantially flat bottom face shape, a bottom face upper end and a bottom face lower end, the bottom face lower end being connected to the bottom front end by an approximate ninety degree angle in a upward direction approximately perpendicular to a bottom plane of the substantially flat bottom shape; and a bottom lip, the bottom lip having a substantially flat bottom lip shape and a bottom lip front end, the bottom lip front end being connected to the bottom face upper end by an approximate ninety degree angle in a backward direction approximately perpendicular to a bottom face plane of the substantially flat shape.</p>
+<p id="p-0010" num="0009">In certain embodiments, a method for making a bracket includes producing one or more basic bracket shapes, making a plurality of detailed shapes on the one or more basic bracket shapes, forming the bracket from the one or more basic bracket shapes, and finishing the bracket.</p>
+<p id="p-0011" num="0010">In certain embodiments, an apparatus for mounting a solar light post to any one of a plurality of objects includes means for producing one or more basic bracket shapes, means for making a plurality of detailed shapes on the one or more basic bracket shapes, means for forming the bracket from the one or more basic bracket shapes, and means for finishing the bracket.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0012" num="0011">The accompanying drawings, which are incorporated in and constitute a part of this specification, illustrate various embodiments of the present disclosure:</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 1</figref> illustrates an exemplary front isometric view of the bracketing device as viewed from a top right angle according to certain embodiments;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 2</figref> illustrates an exemplary rear isometric view of the bracketing device according to certain embodiments;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 3</figref> illustrates an exemplary bottom-view of the bracketing device according to certain embodiments;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 4</figref> illustrates an exemplary top-view of the bracketing device according to certain embodiments;</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 5</figref> illustrates an exemplary front-view of the bracketing device according to certain embodiments;</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an exemplary front-view of the bracketing device according to certain embodiments;</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 7</figref> illustrates an exemplary rear-view of the bracketing device according to certain embodiments;</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 8</figref> illustrates an exemplary right-side view of the bracketing device according to certain embodiments;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 9</figref> illustrates an exemplary left-side view of the bracketing device according to certain embodiments;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 10</figref> illustrates exemplary installation uses for the bracketing device according to certain embodiments; and</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 11</figref> illustrates an exemplary flowchart for making/manufacturing the bracketing device according to certain embodiments.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0024" num="0023">Before describing in detail certain embodiments of the disclosure, it should be observed that the embodiments reside using a lighting system and device and methods thereof. Accordingly, the system and device and methods thereof have been represented, where appropriate, by conventional symbols in the drawings, showing only those specific details that are pertinent to understanding the embodiments of the present disclosure so as not to obscure the disclosure with details that will be readily apparent of those of ordinary skill in the art having the benefit of description herein.</p>
+<p id="p-0025" num="0024">In this document, relational terms, such as first and second, top and bottom, and the like, may be used to distinguish one view, entity or action, without necessarily requiring or implying any actual such relationship or order between such views, entities or actions. The terms &#x201c;comprises,&#x201d; &#x201c;comprising,&#x201d; &#x201c;has,&#x201d; &#x201c;having,&#x201d; &#x201c;includes,&#x201d; &#x201c;including&#x201d; or any other variations thereof, are intended to cover a non-exclusive inclusion, such that a process, method, article, or apparatus that comprises a list of elements that does not include only those elements, but may include other elements not expressly listed or inherent to such process, method, article or apparatus. An element proceeded by &#x201c;comprises . . . a&#x201d; does not, without more constraints, preclude the existence of additional identical elements in the process, method, article, or apparatus that comprises the element.</p>
+<p id="p-0026" num="0025">The following detailed description is directed to certain sample embodiments. However, the disclosure can be embodied in a multitude of different ways as defined and covered by the claims and equivalents thereof. In this description, reference is made to the drawings wherein like parts are designated with like reference numerals throughout.</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 1</figref> illustrates an exemplary front isometric view of a bracketing device <b>100</b> as viewed from a top right angle according to certain embodiments. Bracketing device <b>100</b> embodied in <figref idref="DRAWINGS">FIG. 1</figref> is generally in the shape of the letter &#x201c;G&#x201d; or an inverted &#x201c;G&#x201d; (i.e., depending on the viewing angle), consisting of an outside top face <b>150</b>, an outside top <b>160</b>, a main inside support structure <b>110</b>, an inside bottom <b>120</b>, an outside bottom face <b>130</b>, and a bottom lip <b>140</b>. Each piece just listed is connected at approximately a ninety-degree angle to its adjacent or adjoining piece. At the angled joints or corners of bracketing device <b>100</b>, facing inward is a pair of reinforcing gusset rib dents <b>115</b> (e.g., at the intersection of main inside support structure <b>110</b> and inside bottom <b>120</b>); there also is a pair of accessory attachment slot shaped openings <b>135</b> (e.g., at the intersection of outside bottom face <b>130</b> and bottom lip <b>140</b>). Note that similar gusset rib dents <b>115</b> and similar accessory attachment slot shaped openings <b>135</b> may or may not be needed or designed in at every angled joint or corner of bracketing device <b>100</b> in all embodiments. As shown, accessory attachment slot shaped openings similar to accessory attachment slot shaped openings <b>135</b> are also cut into bracketing device <b>100</b> at the intersection of faces <b>110</b> and <b>120</b>, <b>120</b> and <b>130</b>, <b>110</b> and <b>160</b>, and <b>150</b> and <b>160</b>. Gusset rib dents similar to gusset rib dents <b>135</b> are also cut into the bracketing device at the intersection of faces <b>120</b> and <b>130</b>, and <b>110</b> and <b>160</b>.</p>
+<p id="p-0028" num="0027">Outside bottom face <b>130</b> is connected to bottom lip <b>140</b> by approximately a ninety-degree angle. Outside bottom face <b>130</b> provides an approximately flat, flush surface where outside top <b>140</b> and outside top face <b>150</b> is used in the embodiment of the bracketing device mounted on a wooden fence. An anti-rotation opening <b>130</b><i>a </i>is provided, for example, for the bottom of a flag pole, lighting device post, or other structure to rest in and provide and an anchoring point when a device is inserted through the lighting or flag post hole <b>110</b><i>c. </i></p>
+<p id="p-0029" num="0028">Inside main support structure <b>110</b> is connected to both inside bottom <b>120</b> and outside top <b>160</b> by approximately ninety-degree angles. A small light post or flag post hole <b>110</b><i>c </i>approximately one half the width of the support bracket is located approximately in the bottom one-third of the support structure as a means to insert a flag post, or the post of a lighting or other device. If the post of the flag, lighting, or other device is larger in diameter than small light or flag post opening <b>110</b><i>c</i>, a punch out ring <b>110</b><i>f </i>is provided as a concentric opening cutout that can be removed to allow for a larger post to be inserted into the opening. As shown, small hole <b>110</b><i>c </i>is approximately 0.88 inches in diameter and with punch out ring <b>110</b><i>f </i>removed, the larger hole is approximately 1.32 inches in diameter. Note that variations of the size and shape of these holes and the punch out are intended to be within the scope of this application.</p>
+<p id="p-0030" num="0029">The inside main support structure <b>110</b> is connected to the outside top <b>160</b> by approximately a ninety-degree angle. Outside top face <b>150</b> is connected at approximately a ninety-degree angle from outside top <b>160</b>. There is at least one set of peg board hook holes on the face of outside top <b>150</b>. Outside top <b>160</b> is longer in length than inside bottom <b>120</b> to allow the bracketing device to be mounted horizontally along the long edge of <b>110</b> on a structure such as a block wall.</p>
+<p id="p-0031" num="0030">In certain embodiments, bracketing device <b>100</b> can have the following general dimensions. Main inside support structure <b>110</b> can have a main length of approximately 11.63 inches, a main upper end width of approximately 1.75 inches and a main lower end width of approximately 3.75 inches. Outside top <b>160</b> can have a top length of approximately 4.38 inches, a top front end width of approximately 2.50 inches and a top back end width of approximately 1.75 inches. Top face <b>150</b> can have a top face length of approximately 0.88 inches and a top face width of approximately 2.50 inches. Inside bottom <b>120</b> can have a bottom length of approximately 3.50 inches, a bottom front end width of approximately 2.75 inches and a bottom back end width of approximately 3.75 inches. Outside bottom face <b>130</b> face can have a bottom face length of approximately 2.63 inches, a bottom face lower end width of approximately 2.75 inches and a bottom face upper end width of approximately 3.25 inches. Bottom lip <b>140</b> can have a bottom lip length of approximately 0.50 inches and a bottom lip width of approximately 3.25 inches. It is intended at least one of these dimensions can be altered a little or a lot and still be within the scope of the application. For example, such alterations might account for manufacturing tolerances, might account for differences between inside and outside measurements, given the material used, or simply might be a design choice.</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 2</figref> illustrates an exemplary rear isometric view of bracketing device <b>100</b> according to certain embodiments. Bottom lip <b>140</b> is connected to the inside bottom face <b>230</b> by approximately a ninety-degree angle. Inside bottom face <b>230</b> is connected by approximately a ninety-degree angle to inside bottom <b>120</b>. Inside bottom <b>120</b> is connected to the outside main support structure <b>210</b> by approximately a ninety-degree angle. Outside main support structure <b>210</b> is connected to outside top <b>160</b> by approximately a ninety-degree angle. The inside top face <b>250</b> is connected to outside top <b>160</b> by approximately a ninety-degree angle.</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 3</figref> illustrates an exemplary bottom-view of bracketing device <b>100</b> according to certain embodiments. Outside bottom <b>310</b> (which is the side opposite from inside bottom <b>120</b> as previously illustrated) provides an approximately flat, flush surface that can rest, for example, on top of a shelf as in an embodiment of bracketing device <b>100</b> mounted on a shelf. As shown, outside bottom <b>310</b> has a slightly tapered dimensionality, with a top (as illustrated) edge being approximately 3.75 inches long and a bottom (as illustrated) edge being approximately 2.75 inches long. As with all dimensions in this disclosure, variations are expected and meant to be included within the scope of this application.</p>
+<p id="p-0034" num="0033">Approximately centered in outside bottom <b>310</b> is anti-rotation opening <b>120</b><i>a </i>provided, for example, for the bottom of a flag pole, lighting device post, or other structure to rest in and provide an anchoring point when a device is inserted through the lighting or flag post hole <b>160</b><i>c </i>(not shown). There are also two cut-outs in a shape such as a circle and at a distance from each other to allow, for example, peg board hooks, screws, or some other attachment point to be inserted to secure the bracketing device to wall, fence, peg board, or other structure.</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 4</figref> illustrates an exemplary top-view of bracketing device <b>100</b> according to certain embodiments. A small light or flag post hole <b>160</b><i>c</i>, approximately the same size as hole <b>110</b><i>c </i>discussed with reference to <figref idref="DRAWINGS">FIG. 1</figref>, is used as a means to insert a flag post, or the post of a lighting or other device. However, the shape and size of this hole may be different from that of hole <b>110</b><i>c</i>. If the post of the flag, lighting, or other device is larger in diameter than small light or flag post opening <b>160</b><i>c</i>, punch-out <b>160</b><i>f </i>is provided as a concentric opening cutout that can be removed to allow for a larger post to be inserted into the opening. As shown, bracketing device <b>100</b> top-view has a slightly tapered dimensionality, with a top (as illustrated) edge being approximately 1.75 inches long and a bottom (as illustrated) edge being approximately 2.50 inches long. As with all dimensions in this disclosure, variations are expected and meant to be included within the scope of this application.</p>
+<p id="p-0036" num="0035">Centered on <b>160</b><i>c </i>and centered in inside bottom <b>120</b> is anti-rotation opening <b>120</b><i>a </i>provided for the bottom of a flag pole, lighting device post, or other structure to rest in and provide and an anchoring point when a device is inserted through the lighting or flag post hole <b>160</b><i>c</i>. There are also two cut-outs in a shape such as a circle at a distance from each other to allow for peg board hooks, screws, or some other attachment point to be inserted to secure the bracketing device to wall, fence, peg board, or other structure.</p>
+<p id="p-0037" num="0036">In approximately the distal one-third of the face are two notches, a notch for the right side of a chain link fence attachment <b>160</b><i>a </i>and a left side of a chain link fence attachment <b>160</b><i>b</i>. Each notch <b>160</b><i>a </i>and <b>160</b><i>b </i>are approximately 0.375 inches wide and approximately 0.25 inches long. The notches are offset from one another in such a way to allow outside top <b>160</b>, when placed on the top of a chain link fence, to rest horizontally and in balance with the chain link fence. The outside top opening <b>160</b><i>c </i>is further to the inside of the bracketing device such that the post from the lighting device can be placed through the opening when notches <b>160</b><i>a </i>and <b>160</b><i>b </i>are resting on or in the top of a chain link fence.</p>
+<p id="p-0038" num="0037">The distal portion of inside bottom <b>120</b> is visible showing that the distal end is larger than the attachment to inside main support structure <b>110</b> allowing the bottom of the bracketing device to rest on a shelf, but also providing symmetrical top and bottom of the device to fit in a metal sheet for manufacturing.</p>
+<p id="p-0039" num="0038"><figref idref="DRAWINGS">FIG. 5</figref> illustrates an exemplary front-view of bracketing device <b>100</b> according to certain embodiments. As shown, inside main support structure <b>110</b> has a slightly tapered dimensionality, with a top (as illustrated) edge being approximately 1.75 inches long and a bottom (as illustrated) edge being approximately 3.75 inches long. As with all dimensions in this disclosure, variations are expected and meant to be included within the scope of this application.</p>
+<p id="p-0040" num="0039">A small light or flag post hole <b>110</b><i>c </i>approximately half the width of the support bracket is located approximately in the bottom one-third of the support structure as a means to insert a flag post, or the post of a lighting, or other device. An anti-rotation opening <b>130</b><i>a </i>is provided for the bottom of a flag pole, lighting device, or other structure to rest in and provide and an anchoring point when a device is inserted through the lighting or flag post hole <b>110</b><i>c. </i></p>
+<p id="p-0041" num="0040">An attachment and shipping opening <b>110</b><i>a </i>is located approximately in the center of inside main support structure <b>110</b> for use in shipping, accessory attachment, or other reasons as practical. There are also one or more pairs of cut-outs in a shape such as a circle equidistant from each other to allow for peg board hooks, screws, or some other attachment point to be inserted to secure the bracketing device to wall, fence, peg board, or other structure. A pair or more leveling and attaching notches <b>110</b><i>d </i>is provided along the left and right side of inside main support structure <b>110</b> to allow for mounting, attaching, leveling or other uses as practical. The notches are used for leveling by drawing a line and can be utilized as anti-slide notches if a plastic, strap, or wire tie is used to attach them to, for example, a branch or post. The notches are directly across from each other to provide balance.</p>
+<p id="p-0042" num="0041">Centered on attachment and shipping opening <b>110</b><i>a </i>are four attachment slots in the shape of an elongated vertical rectangle. The slots are for future attachments such as sconces or other support accessories made from sheet metal.</p>
+<p id="p-0043" num="0042"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an exemplary front-view of bracketing device <b>100</b> according to certain embodiments. The dimensions in this view can be similar to those as illustrated in <figref idref="DRAWINGS">FIG. 5</figref>. A small light or flag post hole <b>110</b><i>c </i>approximately half the width of the support bracket is located approximately in the bottom one-third of the support structure as a means to insert a flag post, or the post of a lighting, or other device. An anti-rotation opening <b>130</b><i>a </i>is provided for the bottom of a flag pole, lighting device, or other structure to rest in and provide and an anchoring point when a device is inserted through the lighting or flag post hole <b>110</b><i>c</i>. A pair or more leveling and attaching notches <b>110</b><i>d </i>is provided along the left and right side of inside main support structure <b>110</b> to allow for mounting, attaching, leveling or other uses as practical. The notches are directly across from each other to provide balance.</p>
+<p id="p-0044" num="0043"><figref idref="DRAWINGS">FIG. 7</figref> illustrates an exemplary rear-view of bracketing device <b>100</b> according to certain embodiments. The dimensions in this view can be similar to those as illustrated in <figref idref="DRAWINGS">FIG. 5</figref> and/or <figref idref="DRAWINGS">FIG. 6</figref>. A small light or flag post hole <b>110</b><i>c </i>approximately half the width of the support bracket is located approximately in the bottom one-third of the support structure as a means to insert a flag post, or the post of a lighting, or other device. If the post of the flag, lighting, or other device is larger in diameter than small light or flag post opening <b>110</b><i>c</i>, <b>110</b><i>f </i>is provided as a concentric opening cutout that can be removed to allow for a larger post to be inserted into the opening.</p>
+<p id="p-0045" num="0044">An anti-rotation opening <b>130</b><i>a </i>is provided for the bottom of a flag pole, lighting device, or other structure to rest in and provide and an anchoring point when a device is inserted through the lighting or flag post hole <b>110</b><i>c</i>. An attachment and shipping opening <b>110</b><i>a </i>is located approximately in the center of inside main support structure <b>110</b> for use in shipping, accessory attachment, or other reasons as practical. There are also one or more pairs of cut-outs in a shape such as a circle equidistant from each other to allow for peg board hooks, screws, or some other attachment point to be inserted to secure the bracketing device to wall, fence, peg board, or other structure. A plurality of leveling and attaching notches <b>110</b><i>d </i>is provided along the left and right edges of inside main support structure <b>110</b> to allow for mounting, attaching, leveling or other uses as practical. The notches are directly across from each other to provide balance, allowing the bracketing device to remain in a standing and upright position.</p>
+<p id="p-0046" num="0045"><figref idref="DRAWINGS">FIG. 8</figref> illustrates an exemplary right-side view of bracketing device <b>100</b> according to certain embodiments. As shown in <figref idref="DRAWINGS">FIG. 8</figref>, outside top face <b>150</b> has a length of approximately 0.88 inches, outside top <b>160</b> has a length of approximately 4.38 inches, main inside support structure <b>110</b> has a length of approximately 11.63 inches, inside bottom <b>120</b> has a length of approximately 3.50 inches, outside bottom face <b>130</b> has a length of approximately 2.63 inches and bottom lip <b>140</b> has a length of approximately 0.50 inches. As with all dimensions in this disclosure, variations are expected and meant to be included within the scope of this application.</p>
+<p id="p-0047" num="0046">Bottom lip <b>140</b> forms the support structure for the bracketing device to rest vertically oriented, such as, but not limited to sitting on top of a block wall. Bottom lip <b>140</b> will set flush with the horizontal aspect of the wall providing the force necessary to keep the bracketing device in place. The gusset rib dents used to reinforce the bracketing device are visible at the intersection of inside faces <b>130</b> and <b>120</b>, <b>120</b> and <b>110</b>, and <b>110</b> and <b>260</b>. The smaller concentric post hole circle cut outs <b>110</b><i>c </i>and <b>160</b><i>c </i>are also visible in their respective inside faces.</p>
+<p id="p-0048" num="0047"><figref idref="DRAWINGS">FIG. 9</figref> illustrates an exemplary left-side view of bracketing device <b>100</b> according to certain embodiments. The dimensions in this view can be similar to those as illustrated in <figref idref="DRAWINGS">FIG. 8</figref>. A wood fence offset <b>980</b> is the offset between top face <b>150</b> and outside bottom face <b>130</b>. Wood fence offset <b>980</b> provides the spacing necessary for an inside top <b>260</b> to sit on top of a wooden fence or other wall like structure and can be approximately 0.75 inches of spacing. Of course this dimension can be adjusted for various thickness of wooden fencing or other wall like structures. A block wall offset <b>990</b> is the offset between a plane perpendicular to the bottom or end of top face <b>150</b> and a line extending from the end of bottom lip <b>140</b>. Block wall offset <b>990</b> provides the spacing necessary for the bracketing device to be used horizontally to sit on a thicker concrete or other type of wall or fence and can be approximately 8.13 inches of spacing. Of course other &#x201c;thick&#x201d; walls, such as brick, rock, and the like can be facilitated by designing block wall offset with the appropriate dimension. As with all dimensions in this disclosure, variations are expected and meant to be included within the scope of this application.</p>
+<p id="p-0049" num="0048"><figref idref="DRAWINGS">FIG. 10</figref> illustrates exemplary installation uses for bracketing device <b>100</b> according to certain embodiments. A bracketing device mounted on a wooden fence <b>1001</b> illustrates an embodiment of bracketing device <b>100</b> resting on a wooden fence. A bracketing device setting vertically or stand-alone on a shelf <b>1002</b> illustrates an embodiment of bracketing device <b>100</b> resting on a shelf and without other support. A bracketing device mounted on a block wall <b>1003</b> illustrates an embodiment of bracketing device <b>100</b> resting horizontally on a block wall. A bracketing device mounted horizontally in a block wall <b>1004</b> illustrates an embodiment of bracketing device <b>100</b> resting horizontally in a block wall. A bracketing device mounted on a chain link fence <b>1005</b> illustrates an embodiment of bracketing device <b>100</b> resting on a chain link fence. Each of the installations also illustrates a solar lighting device, including an lighting post, being used with bracketing device <b>100</b>.</p>
+<p id="p-0050" num="0049"><figref idref="DRAWINGS">FIG. 11</figref> illustrates an exemplary flowchart for making or manufacturing bracketing device <b>100</b> according to certain embodiments. Generally, bottom lip <b>140</b>, outside bottom face <b>130</b>, inside bottom <b>120</b>, inside main support structure <b>110</b>, outside top <b>160</b>, and outside top face <b>150</b> or a combination thereof can start as a single integrated structure that ultimately forms bracketing device <b>100</b>. This can be formed by one sheet being folded into the structure. Alternatively, at least a portion of the structure can be separate components that are mechanically connected, such as, but not limited to, a nut and bolt connection, connected via a welded connection, connected via another suitable type of connection, or a combination thereof, to form a portion or portions of bracketing device <b>100</b>.</p>
+<p id="p-0051" num="0050">At <b>1101</b>, a relatively flat piece of metal, either in sheet form or in roll form, can be used to produce one or more basic bracket shapes. In certain embodiments, a roll form of metal can be used. Alternatively or additionally, the bracket can be made of one or more metals including but not limited to iron, copper, steel, aluminum, tin, or any similar materials brush coated with aluminum or any other water/rust resistant material. According to certain embodiments, the bracketing device can be formed of plastic, rubber, or coated with a water resistant material.</p>
+<p id="p-0052" num="0051">At <b>1101</b>, the basic bracket shape or the general outline of the bracket can be cut from the metal sheet or roll. This basic shape can be as if bracket device <b>100</b> as shown in <figref idref="DRAWINGS">FIG. 1</figref> or <b>2</b> were flattened out into a single plane. The basic bracket shape can be cut using a drill, saw, stamping mechanism, laser, chemical etching, or high-pressure water among other methods or combinations thereof.</p>
+<p id="p-0053" num="0052">According to certain embodiments, the bracketing device may alternatively be constructed through injection molding or any other similar material molding process including, but not limited to extrusion blow molding, injection blow molding, stretch blow molding, compression molding, extrusion molding, matrix molding, or thermoforming and molded into the desired shape suitable for the bracketing device. According to certain embodiments, the one or more basic bracket shapes includes multiple surfaces that can be joined together at a later stage in the manufacturing or assembly process.</p>
+<p id="p-0054" num="0053">At <b>1102</b>, the plurality of detailed shapes on the one or more basic bracket shapes is made. These detailed shapes can be made using, for example, a drill, saw, stamping mechanism, laser, chemical etching, or high-pressure water among other methods or combinations thereof. According to certain embodiments, the plurality of detailed shapes includes, for example, numerous holes, numerous slots and numerous notches within and around the basic bracket shape or shapes. These holes, slots and notches (as most were previously described), can include: accessory attachment slot shaped openings <b>135</b>, lighting or flag post hole <b>110</b><i>c</i>, lighting or flag post hold <b>160</b><i>c</i>, anti-rotation opening <b>130</b><i>a</i>, peg board hook holes, anti-rotation opening <b>120</b><i>a</i>, notch for the right side of a chain link fence attachment <b>160</b><i>a</i>, notch for the left side of the chain link fence attachment <b>160</b><i>b</i>, attachment and shipping opening <b>110</b><i>a</i>, leveling and attaching notches <b>110</b><i>d </i>and attachment slots.</p>
+<p id="p-0055" num="0054">Both concentric opening cutout <b>110</b><i>f </i>and concentric opening cutout <b>160</b><i>f </i>will merely consist of indentations in the bracketing device. This is so that the openings do not necessarily have to be made in the bracketing device to support a smaller in circumference flag post or lighting device to be inserted. If the user is installing a thicker flag post or light post, they can merely use the indentation to remove cutouts <b>110</b><i>f </i>and/or <b>110</b><i>c </i>to allow installation of the post that is larger in circumference and will not fit within <b>110</b><i>c </i>and <b>110</b><i>f. </i></p>
+<p id="p-0056" num="0055">At <b>1103</b>, the bracket can be formed form the one or more basic bracket shapes. In certain embodiments, forming the bracket includes denting the single bracket shape along lines that will eventually become the approximate ninety-degree angles of the bracketing device. The folds are located at the intersection of outside top face <b>150</b> and outside top <b>160</b>, outside top <b>160</b> and main inside support structure <b>110</b>, main inside support structure <b>110</b> and inside bottom <b>120</b>, inside bottom <b>120</b> and outside bottom face <b>130</b>, and outside bottom face <b>130</b> and outside top <b>140</b>. Alternatively, at least a portion of the structure can be separate components that are mechanically connected by a nut and bolt connection, a welded connection, another suitable type of connection, or a combination thereof.</p>
+<p id="p-0057" num="0056">At <b>1103</b>, the basic bracket shape is folded for form the final bracketing device shape, having multiple approximately ninety-degree angles as embodied elsewhere in this disclosure. The folds are located at the intersection of outside top face <b>150</b> and outside top <b>160</b>, outside top <b>160</b> and main inside support structure <b>110</b>, main inside support structure <b>110</b> and inside bottom <b>120</b>, inside bottom <b>120</b> and outside bottom face <b>130</b>, and outside bottom face <b>130</b> and outside top <b>140</b>.</p>
+<p id="p-0058" num="0057">At <b>1104</b>, the final bracket shape can go through one or more finishing processes. These can include making the gusset rib dents in at least some, if not all, of the ninety-degree angle folds to reinforce the folds of the bracketing device. In certain embodiments, the gusset rib dents are located at the intersection of outside top face <b>150</b> and outside top <b>160</b>, outside top <b>160</b> and main inside support structure <b>110</b>, main inside support structure <b>110</b> and inside bottom <b>120</b>, inside bottom <b>120</b> and outside bottom face <b>130</b>, and outside bottom face <b>130</b> and outside top <b>140</b>. The gusset rib dents can be made by a drill or punch or some other method to make dents or small openings in each fold of the bracketing device.</p>
+<p id="p-0059" num="0058">Additionally at <b>1104</b>, as needed, other finish process can be performed, such as: deburring or smoothing the edges of the bracket; waterproofing or rustproofing the bracket; powder-coating the bracket, sanding and painting the bracket, packaging the bracket for sale and for transport, and similar final steps in a manufacturing process.</p>
+<p id="p-0060" num="0059">It should be appreciated by those skilled in the art that any dimensions provided herein are for exemplary purposes only, and that bracketing device <b>100</b> is not limited to those dimensions. Alternatively, bracketing device <b>100</b> can be used for other applications besides outdoor solar lighting, wherein bracketing device <b>100</b> is subjected to a flag pole, a device used on billboards, signs, or the like. Each of the alternatives, including variations in dimensions, variations in size and shape of surfaces, variations in size and shape of cutouts and/or variations in methods of making, is intended to be within the scope of this application and the claims listed below.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. An apparatus for mounting a solar light post to any one of a plurality of objects, comprising:
+<claim-text>a main support structure having a substantially flat main shape, a main upper end and a main lower end;</claim-text>
+<claim-text>a top having a substantially flat top shape, a top front end and a top back end, the top back end being connected to the main upper end by an approximate ninety degree angle in a forward direction approximately perpendicular to a main plane of the substantially flat main shape, wherein the top defines a first notch and a second notch disposed in a substantially offset and opposite relationship;</claim-text>
+<claim-text>a top face having a substantially flat top face shape and a top face upper end, the top face upper end being connected to the top front end by an approximate ninety degree angle in a downward direction approximately perpendicular to a top plane of the substantially flat top shape;</claim-text>
+<claim-text>a bottom having a substantially flat bottom shape, a bottom front end and a bottom back end, the bottom back end being connected to the main lower end by an approximate ninety degree angle in a forward direction approximately perpendicular to the main plane of the substantially flat main shape;</claim-text>
+<claim-text>a bottom face having a substantially flat bottom face shape, a bottom face upper end and a bottom face lower end, the bottom face lower end being connected to the bottom front end by an approximate ninety degree angle in an upward direction approximately perpendicular to a bottom plane of the substantially flat bottom shape; and</claim-text>
+<claim-text>a bottom lip having a substantially flat bottom lip shape and a bottom lip front end, the bottom lip front end being connected to the bottom face upper end by an approximate ninety degree angle in a backward direction approximately perpendicular to a bottom face plane of the substantially flat shape.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the main support structure has a main support structure length of approximately 11.63 inches long, a main upper end width of approximately 1.75 inches and a main lower end width of approximately 3.75 inches.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the top has a top length of approximately 4.38 inches, a top front end width of approximately 2.50 inches and a top back end width of approximately 1.75 inches.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the top face has a top face length of approximately 0.88 inches and a top face width of approximately 2.50 inches.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the bottom has a bottom length of approximately 3.50 inches, a bottom front end width of approximately 2.75inches and a bottom back end width of approximately 3.75 inches.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the bottom face has a bottom face length of approximately 2.63 inches, a bottom face lower end width of approximately 2.75 inches and a bottom face upper end width of approximately 3.25 inches.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first notch and the second notch are disposed in a distal one third of the top and proximate the top front end.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the main support structure defines a first opening and the top defines a second opening.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The apparatus of <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the first opening defines a first concentric opening punch-out ring and the second opening defines a second concentric opening punch-out ring.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The apparatus of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the first and the second concentric opening punch-out rings are removable.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the bottom defines a first anti-rotation opening and the bottom face defines a second anti-rotation opening.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The apparatus of <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the first and the second anti-rotation openings are substantially cross-shaped. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

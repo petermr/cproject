@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979034-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979034</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13312984</doc-number>
+<date>20111206</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>575</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>25</class>
+<subclass>J</subclass>
+<main-group>18</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>25</class>
+<subclass>J</subclass>
+<main-group>9</main-group>
+<subgroup>16</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>25</class>
+<subclass>J</subclass>
+<main-group>15</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>1</main-group>
+<subgroup>64</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>4</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>25</class>
+<subclass>J</subclass>
+<main-group>18</main-group>
+<subgroup>025</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>25</class>
+<subclass>J</subclass>
+<main-group>9</main-group>
+<subgroup>1612</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>25</class>
+<subclass>J</subclass>
+<main-group>15</main-group>
+<subgroup>0052</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>1</main-group>
+<subgroup>646</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>4</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>2441726</main-classification>
+</classification-national>
+<invention-title id="d2e53">Sticky boom non-cooperative capture device</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>4259876</doc-number>
+<kind>A</kind>
+<name>Belyanin et al.</name>
+<date>19810400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 74469</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4657211</doc-number>
+<kind>A</kind>
+<name>Fuldner et al.</name>
+<date>19870400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4865514</doc-number>
+<kind>A</kind>
+<name>Tsuchihashi et al.</name>
+<date>19890900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>414736</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>4964062</doc-number>
+<kind>A</kind>
+<name>Ubhayakar et al.</name>
+<date>19901000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>700249</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>5145130</doc-number>
+<kind>A</kind>
+<name>Purves</name>
+<date>19920900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>5390288</doc-number>
+<kind>A</kind>
+<name>Toda et al.</name>
+<date>19950200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>700258</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5509707</doc-number>
+<kind>A</kind>
+<name>Schauer</name>
+<date>19960400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6523784</doc-number>
+<kind>B2</kind>
+<name>Steinsiek et al.</name>
+<date>20030200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441724</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6845303</doc-number>
+<kind>B1</kind>
+<name>Byler</name>
+<date>20050100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>7168660</doc-number>
+<kind>B2</kind>
+<name>Bischof et al.</name>
+<date>20070100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441582</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>7479198</doc-number>
+<kind>B2</kind>
+<name>Guffrey et al.</name>
+<date>20090100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>7551419</doc-number>
+<kind>B2</kind>
+<name>Pelrine et al.</name>
+<date>20090600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>7686255</doc-number>
+<kind>B2</kind>
+<name>Harris</name>
+<date>20100300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>7773363</doc-number>
+<kind>B2</kind>
+<name>Pelrine et al.</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>2003/0229420</doc-number>
+<kind>A1</kind>
+<name>Buckingham et al.</name>
+<date>20031200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>2005/0097833</doc-number>
+<kind>A1</kind>
+<name>Campbell et al.</name>
+<date>20050500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52118</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>2006/0237126</doc-number>
+<kind>A1</kind>
+<name>Guffrey et al.</name>
+<date>20061000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>2007/0040067</doc-number>
+<kind>A1</kind>
+<name>D'Ausilio et al.</name>
+<date>20070200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>2007/0063375</doc-number>
+<kind>A1</kind>
+<name>Tuma</name>
+<date>20070300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>2007/0164164</doc-number>
+<kind>A1</kind>
+<name>Cepollina et al.</name>
+<date>20070700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441581</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>2008/0169003</doc-number>
+<kind>A1</kind>
+<name>Curtis</name>
+<date>20080700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>134  1</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>2008/0237400</doc-number>
+<kind>A1</kind>
+<name>Gryniewski et al.</name>
+<date>20081000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441722</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>2009/0166476</doc-number>
+<kind>A1</kind>
+<name>Termini</name>
+<date>20090700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441586</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>2010/0193640</doc-number>
+<kind>A1</kind>
+<name>Atmur et al.</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>2012/0205492</doc-number>
+<kind>A1</kind>
+<name>Gelon</name>
+<date>20120800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441718</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<nplcit num="00026">
+<othercit>Directional adhesion for climbing: theoretical and practical considerations. Sangbae Kim et al. Aug. 8, 2007.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<nplcit num="00027">
+<othercit>Compliant robotic devices, and electroadhesion, G. J. Monkman, Robotics research unit, Department of electronic engineering, University of Hull, Hull H46 7RX (UK), published in Robotica 1992, vol. 10, pp. 183-185, received in final form Feb. 18, 1991, downloaded Sep. 28, 2011.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00028">
+<othercit>Tilted Janus polymer pillars, Myoung-Woon Moon, Tae-GonCha, Kwang-Ryeol Lee, Ashkan Vaziri, and Ho-Young Kim, www.rsc.org/softmatter.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00029">
+<othercit>Book: Force Control of Robotic Systems, 1997, Dmitri Gorinevsky, Alexander Formalsky, and Anatoli Schneider, CRC Press.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00030">
+<othercit>Smooth vertical surface climbing with directional adhesion, Sangbae Kim, Matthew Spenko, Salomon Trujillo, Barrett Heyneman, Daniel Santos, Mark R. Cutkosky, IEEE Transactions on robotics, vol. 24 No. 1, Feb. 2008.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00031">
+<othercit>Directional adhesion for climbing: theoretical and practical considerations, Daniel Santos, Matthew Spenko, Aaron Parness, Sangbae Kim, and Mark R. Cutkosky, Center for design and research, Stanford University, Stanford, California, 94305-2232, received in final form Aug. 8, 2007.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00032">
+<othercit>Climbing rough vertical surfaces with hierarchical directional adhesion, Alan Asbeck, Sanjay Dastoor, Aaron Parness, Laurel Fullerton, Noe Esparza, Daniel Soto, Barrett Heyneman, Mark Cutkosky, Stanford University, Stanford , California, 94305.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00033">
+<othercit>Hierarchically branched Gecko-like structures imprinted using porous alumina templates, A. Y. Y. Ho, I. Rodriguez, Y. C. Lam, Institute of materials research and engineering, Agency for Science, Technology and research (A*STAR), 3 Research Link, Singapore 117602, School of mechanical and aerospace engineering, Nanyang technological university, NSTI-Nanotech 2010, www.nsti.org, ISBN 978-1-4398-3402-2 vol. 2, 2010.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00034">
+<othercit>Flexible carbon-nanofiber connectors with Anisotropic adhesion properties, Hyunhyub Ko, Zhenxing Zhang, Johnny C. Ho, Kuniharu Takei, Rehan Kapadia, Yu-Lun Chueh, Weizhen Cao, Brett A. Cruden, Ali Javey, Wiley Interscience, www.small-journal.com, Small 2009, Oct. 2, 2009, 2009 Wiley-VCH Verlag GmBH &#x26; Co., KGaA, Weinheim.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00035">
+<othercit>Hybrid core-multishell nanowire forests for electrical connector applications, Rehan Kapadia, Hyunhyub Ko, Yu-Lun Chueh, Johnny C. Ho, Toshitake Takahashi, Zhenxing Zhang, Ali Javey, Department of electrical engineering and computer sciences, University of California at Berkeley, Published Jul. 1, 2009, Applied Physics Letters 94, 263110 (2009), 2009 American Institute of Physics.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00036">
+<othercit>Wet and dry adhesion properties of self-selective anoware connectors, Hyunhyub Ko, Zhenxing Zhang, Yu-Lun Chueh, Johnny C. Ho, Jongho Lee, Ronald S. Fearing, Ali Javey, Advanced functional Materials 2009, Published Aug. 25, 2009, 19, 3098-3 102, www.afm-journal.de, Wiley Interscience, 2009 Wiley-VCH Verlag GmBH &#x26; Co, KGaA, Weinheim.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00037">
+<othercit>Engineering issues for all major modes of in-situ space debris capture, Marshall H. Kaplan, Bradley Boone, Robert Brown, Thomas B. Criss, Edward W. Tunstel, John Hopkins University Applied Physics Laboratory, Laurel, Maryland, 20732, AIAA 2010-8863, AIAA Space 2010 Conference and Exposition, Aug. 30-Sep. 2, 2010, Anaheim, California.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00038">
+<othercit>Book: Introduction to robotics: Mechanics and Control (3rd Edition), 2005, John J. Craig, Pearson/Prentice Hall.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00039">
+<othercit>Book: Robot Force Control, 1999, Bruno Siciliano and Luigi Villani, Kluwer Academic Press.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00040">
+<othercit>Official Action for U.S. Appl. No. 13/706,956, mailed Nov. 20, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>2441726</main-classification>
+</classification-national>
+<classification-cpc-text>B64G 1/222</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>16</number-of-drawing-sheets>
+<number-of-figures>21</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20120076629</doc-number>
+<kind>A1</kind>
+<date>20120329</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Goff</last-name>
+<first-name>Jonathan Andrew</first-name>
+<address>
+<city>Lafayette</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Judson, Jr.</last-name>
+<first-name>Michael Ivan</first-name>
+<address>
+<city>Logan</city>
+<state>UT</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="003" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Bolton</last-name>
+<first-name>William George</first-name>
+<address>
+<city>Longmont</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="004" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Hoyt</last-name>
+<first-name>Steven Wendell</first-name>
+<address>
+<city>Louisville</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="005" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Ryan</last-name>
+<first-name>Forrest Peter</first-name>
+<address>
+<city>Boulder</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Goff</last-name>
+<first-name>Jonathan Andrew</first-name>
+<address>
+<city>Lafayette</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Judson, Jr.</last-name>
+<first-name>Michael Ivan</first-name>
+<address>
+<city>Logan</city>
+<state>UT</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Bolton</last-name>
+<first-name>William George</first-name>
+<address>
+<city>Longmont</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="004" designation="us-only">
+<addressbook>
+<last-name>Hoyt</last-name>
+<first-name>Steven Wendell</first-name>
+<address>
+<city>Louisville</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="005" designation="us-only">
+<addressbook>
+<last-name>Ryan</last-name>
+<first-name>Forrest Peter</first-name>
+<address>
+<city>Boulder</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<last-name>Lavan</last-name>
+<first-name>Thomas J.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Altius Space Machines</orgname>
+<role>02</role>
+<address>
+<city>Broomfield</city>
+<state>CO</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Benedik</last-name>
+<first-name>Justin</first-name>
+<department>3647</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A device for non-cooperatively capturing an object is provided. The device includes a boom having a fixed end coupled to a structure and a free end. The boom also includes boom deployers for moving the fixed end of the boom relative to the structure. The device also includes a capture head, coupled to the free end of the boom, and a control apparatus. The control apparatus controls the boom deployers and capture head to move the capture head in close proximity to the object. The control apparatus moves the capture head in closer proximity to the object if the capture head is not close enough to the object to capture the object. The control apparatus minimizes forces applied to the object, and activates a non-cooperative capture device. The non-cooperative capture device makes initial contact with the object, establishes intimate contact with the object, and captures the object.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="108.20mm" wi="175.01mm" file="US08979034-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="238.34mm" wi="185.00mm" file="US08979034-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="251.97mm" wi="185.67mm" file="US08979034-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="236.56mm" wi="186.01mm" file="US08979034-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="247.99mm" wi="184.23mm" file="US08979034-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="227.25mm" wi="183.73mm" file="US08979034-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="206.16mm" wi="179.15mm" file="US08979034-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="218.78mm" wi="183.81mm" file="US08979034-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="236.81mm" wi="185.76mm" file="US08979034-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="157.31mm" wi="182.37mm" file="US08979034-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="219.12mm" wi="182.96mm" file="US08979034-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="249.00mm" wi="183.13mm" file="US08979034-20150317-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="129.37mm" wi="181.02mm" file="US08979034-20150317-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="230.29mm" wi="182.88mm" file="US08979034-20150317-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00014" num="00014">
+<img id="EMI-D00014" he="212.77mm" wi="186.86mm" file="US08979034-20150317-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00015" num="00015">
+<img id="EMI-D00015" he="237.57mm" wi="188.64mm" file="US08979034-20150317-D00015.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00016" num="00016">
+<img id="EMI-D00016" he="220.30mm" wi="186.18mm" file="US08979034-20150317-D00016.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">FIELD</heading>
+<p id="p-0002" num="0001">The present invention is directed to object capture. In particular, the present invention is directed to methods and apparatuses for non-cooperatively capturing objects in low or zero gravity environments as well as terrestrial environments.</p>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">Robotic arms have been in existence for several decades. Many industries utilize robotic arms to speed production, improve product assembly quality, and manipulate hazardous objects and materials. Most robotic arms in the world are designed for heavy, repetitive manufacturing work, and handle tasks that are difficult, dangerous, or boring to human beings.</p>
+<p id="p-0004" num="0003">A typical robotic arm is controlled by a computer by activating individual step motors or actuators connected at each joint. At a minimum, a robotic arm has a single segment and a joint at each end. Larger robotic arms often use hydraulics or pneumatics to control arm motion. Robotic arms often use motion sensors to regulate movement in precise increments.</p>
+<p id="p-0005" num="0004">A robotic arm, called the Shuttle Remote Manipulator System (SRMS) or Canadarm, was used on the Space Shuttle to maneuver a payload from the payload bay of the orbiter to a deployment position and then release the payload. The SRMS is also able to grapple certain payloads, maneuver it to the payload bay of the orbiter, and berth it. SRMS was first used on the second Space Shuttle mission launched Nov. 13, 1981. The SRMS robotic arm is 15.2 meters (50 feet, 3 inches) long and 38 centimeters (15 inches) in diameter, and has six degrees of freedom. It weighs 410 kilograms (905 pounds). Although the original SRMS was capable of deploying or retrieving payloads weighing up to 32.5 tons, the system was later upgraded to increase payload capacity up to 293 tons in order to support space station assembly operations.</p>
+<p id="p-0006" num="0005">A later robotic arm, the Mobile Servicing System (MSS) or Canadarm2, is used on the International Space Station (ISS). Launched to the ISS in 2001, it plays a key role in station assembly and maintenance. The MSS moves equipment and supplies around the station, supports astronauts working in space, and services instruments and payloads attached to the ISS. The MSS is self-relocatable, and can move end-over-end to reach many parts of the ISS. The ISS is planned to also utilize other robotic arms such as the Japanese Experimental Module Remote Manipulator System (JEM-RMS) and the European Robotic Arm (ERA).</p>
+<p id="p-0007" num="0006">Current technology robotic arms utilize capture heads incorporating mechanical grippers, where mechanical force between two or more surfaces are used to positively capture and move objects. Mechanical grippers are suitable to capture known objects of predictable size, shape, and orientation and having robust attachment surfaces.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0008" num="0007">The present invention is directed to solving disadvantages of the prior art. In accordance with embodiments of the present invention, a device for non-cooperatively capturing an object is provided. The device includes a boom, where the boom includes a fixed end coupled to a structure, and a free end. The free end is able to move relative to the structure. The boom also includes one or more boom deployers for moving the fixed end of the boom relative to the structure. The device for non-cooperatively capturing an object also includes a capture head, coupled to the free end of the boom, and a control apparatus. The capture head includes a non-cooperative capture device. The control apparatus controls the one or more boom deployers and the capture head to move the capture head in proximity to the object. The control apparatus determines if the capture head is close enough to the object to capture the object, and moves the capture head in closer proximity to the object if the capture apparatus determines the capture head is not close enough to the object to capture the object. The control apparatus minimizes relative velocity between the capture head and the object, and activates a non-cooperative capture device in the capture head after the non-cooperative capture device makes initial contact with the object. The non-cooperative capture device establishes intimate contact between the capture head and the object, and the capture head arrests the object motion.</p>
+<p id="p-0009" num="0008">In accordance with another embodiment of the present invention, a method for non-cooperatively capturing an object is provided. The method includes utilizing a control apparatus to move a capture apparatus into close proximity to the object. The capture apparatus includes a boom, where the boom includes a fixed end attached to a structure, and a free end. The free end is able to move relative to the structure. The capture apparatus also includes a boom deployer for moving the free end of the boom; and a capture head, coupled to the free end of the boom. The capture head includes a non-cooperative capture device. The method also includes determining if the capture head is close enough to the object to capture the object. If the capture head is not close enough to the object to capture the object, the control apparatus moves the capture head closer to the object. If the capture head is close enough to the object to capture the object, the method provides minimizing relative velocity, by the control apparatus, between the capture head and the object, preparing the capture head to make contact with the object, making initial contact between the non-cooperative capture device and the object, activating the non-cooperative capture device, making initial contact between the non-cooperative capture device and the object, establishing intimate contact between the capture head and the object, and arresting the object motion. The control apparatus is able to move the object after the object motion has been arrested.</p>
+<p id="p-0010" num="0009">In accordance with a further embodiment of the present invention, an apparatus for non-cooperatively capturing an object in space is provided. The apparatus includes a boom. The boom includes a fixed end coupled to a structure, and a free end. The structure is a satellite, a space station, a space suited astronaut, or a spacecraft. The free end is able to move relative to the structure. The boom is expandable and retractable between the fixed and free end. The apparatus also includes a capture head, coupled to the free end of the boom, and a control apparatus for controlling movement of the capture head relative to the structure and engagement between the capture head and the object. The capture head also includes a non-cooperative capture device. The non-cooperative capture device includes one or more capture device pads utilizing a resettable adhesive to establish intimate contact between the capture head and the object. The control apparatus directs movement of the boom and capture head to move the capture head in proximity to the object, and determines if the capture head is close enough to the object to capture the object. The control apparatus moves the capture head in closer proximity to the object if the control apparatus determines the capture head is not close enough to the object to capture the object. The control apparatus minimizes relative velocity between the capture head and the object, and includes one or more articulated support members including one or more capture head actuators that control the position and orientation of the one or more articulated support members. The one or more articulated support members determine the position and orientation of the one or more non-cooperative capture device pads, and one or more sensors of the control apparatus determine the shape, topography, and/or texture of the object. In response, the control apparatus directs the capture head actuators to conform to the shape, topography, and/or texture of the object prior to the non-cooperative capture device making initial contact with the object. The non-cooperative capture device makes initial contact with the object, and activates a non-cooperative capture device in the capture head. The non-cooperative capture device establishes intimate contact between the capture head and the object, and the control apparatus arrests object motion. Finally, the control apparatus directs movement of the boom and capture head to move the object in space.</p>
+<p id="p-0011" num="0010">An advantage of the present invention is that it provides a method for capturing and controlling an unpredictably sized and shaped object. The object is not required to have any standard attachment points. This allows the present invention to be used for recovering objects smaller than or larger than the capture head size. Also, objects having rough, smooth, or complex shapes may be recovered, including non man-made objects including space debris or asteroids.</p>
+<p id="p-0012" num="0011">Yet another advantage of the present invention is it provides the ability to recover objects faster than with mechanical grippers. The present invention does not depend on the same degree of fine control as many types of mechanical grippers. All that is required is positioning a non-cooperative capture device in close enough proximity to an object being recovered such that activating the non-cooperative capture device will bring the non-cooperative capture device into contact with the object. Depending on the degree of fine control associated with a mechanical gripper, it may take many attempts to recover an object, and each attempt may take a long period of time if fine control motions are performed at a relatively slow speed.</p>
+<p id="p-0013" num="0012">A further advantage of the present invention is minimizing damage to sensitive outer coverings or electronics on recoverable payloads. Many existing spacecraft, satellites, and space stations are covered in Multi-Layer Insulation (MLI). MLI is relatively fragile, and easily damaged by mechanical grippers. The present invention utilizes low force per unit area in the capture process, reducing the likelihood of damaging fragile MLI or sensitive electronics.</p>
+<p id="p-0014" num="0013">Additional features and advantages of embodiments of the present invention will become more readily apparent from the following description, particularly when taken together with the accompanying drawings.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 1</figref><i>a </i>is a diagram illustrating a single segment sticky boom in accordance with embodiments of the present invention.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 1</figref><i>b </i>is a diagram illustrating a multiple segment sticky boom in accordance with embodiments of the present invention.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 2</figref><i>a </i>is a diagram illustrating a single segment extendable/retractable sticky boom in accordance with embodiments of the present invention.</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 2</figref><i>b </i>is a diagram illustrating a multiple segment extendable/retractable sticky boom in accordance with embodiments of the present invention.</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 3</figref><i>a </i>is an illustration depicting a rear oblique view of a general-purpose capture head in accordance with embodiments of the present invention.</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 3</figref><i>b </i>is an illustration depicting a rear view of a general-purpose capture head in accordance with embodiments of the present invention.</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 3</figref><i>c </i>is an illustration depicting a general purpose non-cooperative capture device in accordance with embodiments of the present invention.</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 4</figref><i>a </i>is an illustration depicting a rear oblique view of an axisymmetric capture head in accordance with embodiments of the present invention.</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 4</figref><i>b </i>is an illustration depicting a rear view of an axisymmetric capture head in accordance with embodiments of the present invention.</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 4</figref><i>c </i>is an illustration depicting an axisymmetric non-cooperative capture device in accordance with embodiments of the present invention.</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 5</figref> is a block diagram illustrating capture head components in accordance with embodiments of the present invention.</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 6</figref><i>a </i>is a block diagram illustrating a first embodiment of a capture head controller in accordance with the present invention.</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 6</figref><i>b </i>is a block diagram illustrating a second embodiment of a capture head controller in accordance with the present invention.</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 6</figref><i>c </i>is a block diagram illustrating a third embodiment of a capture head controller in accordance with the present invention.</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 6</figref><i>d </i>is a block diagram illustrating a fourth embodiment of a capture head controller in accordance with the present invention.</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 7</figref> is a block diagram illustrating a capture head control module in accordance with embodiments the present invention.</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 8</figref><i>a </i>is a block diagram illustrating a control apparatus in accordance with a first embodiment of the present invention.</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 8</figref><i>b </i>is a block diagram illustrating a control apparatus in accordance with a second embodiment of the present invention.</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 9</figref> is a flowchart illustrating an object capture process with a simple capture head in accordance with a first embodiment of the present invention.</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 10</figref> is a flowchart illustrating an object capture passive process in accordance with a second embodiment of the present invention.</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 11</figref> is a flowchart illustrating an object capture active process in accordance with a third embodiment of the present invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0036" num="0035">Robotic arms have been used for many tasks involving capture and moving objects. Typically, robotic arms are terminated in mechanical hands or grippers designed to emulate grasping motions associated with human hands or mechanical tools&#x2014;such as pliers or certain types of wrenches. Mechanical grippers are suitable for capturing many types of payloads, where the payload is within the mechanical specifications of the mechanical grippers, and able to not be damaged by the mechanical grippers.</p>
+<p id="p-0037" num="0036">One such specification for a mechanical gripper is the amount by which the gripper may fully open. Related to this are angular relationships between each of the gripper elements, or fingers. These specifications will largely determine the maximum size of the payload which may be captured, or the size and orientation of an attachment point on the payload that the gripper may capture.</p>
+<p id="p-0038" num="0037">Another such specification is the number and flexibility of gripping services provided by the mechanical gripper. For example, simple grippers may have a fixed finger in conjunction with an actuated finger, where the actuated finger is able to open and close relative to the fixed finger. And other gripper may have two actuated fingers that oppose each other, where each of the actuated fingers is able to open and close relative to the other finger. More complex grippers may have three or more actuated fingers that oppose each other. Furthermore, each finger may have multiple articulation points such as joints or knuckles as present in human fingers. Although more complex grippers may be capable of capture a greater variety of payloads and/or attachment points, the additional complexity comes at the expense of higher cost, weight, training, and lower reliability due to higher mechanical and control software complexity.</p>
+<p id="p-0039" num="0038">Yet another such specification for a mechanical gripper is the type of gripping surface provided on the fingers of the gripper. For example, a ridged surface such as provided on the jaws of pliers may provide a more secure purchase on payloads and/or attachment points, but at the expense of potentially damaging more fragile payloads. As another example, a rough surface such used by course sandpaper or a smooth surface may be provided. Depending on the payload, a more course surface or a smooth surface may be preferred.</p>
+<p id="p-0040" num="0039">Finally, a mechanical gripper is ultimately controlled by a control system utilizing autonomous or human control. Depending on the design of the mechanical gripper control system, fine control of gripper position and gripper manipulation may be difficult if not impossible. This may result in very lengthy payload recovery operations, perhaps increasing cost and likelihood of damage to the payload.</p>
+<p id="p-0041" num="0040">Referring now to <figref idref="DRAWINGS">FIG. 1</figref><i>a</i>, a diagram illustrating a single segment sticky boom in accordance with embodiments of the present invention is shown. The sticky boom is generally configured as a boom <b>104</b>, with a boom fixed end <b>112</b><i>a </i>attached to a fixed surface <b>100</b>, or structure, and an opposite boom free end <b>112</b><i>b </i>free to move. An object <b>124</b> is captured and recovered by the sticky boom. In one embodiment, the sticky boom moves the object <b>124</b> in a predetermined direction. In another embodiment, the sticky boom attaches a structure to the object <b>124</b> so that other booms <b>104</b>, machines, or human operators may grab or move the object <b>124</b> at a later time.</p>
+<p id="p-0042" num="0041">The sticky boom has a fixed end <b>112</b><i>a </i>and a free end <b>112</b><i>b</i>. The boom fixed end <b>112</b><i>a </i>is coupled to a fixed surface <b>100</b>. The fixed surface <b>100</b> provides a relative reference point for the boom free end <b>112</b><i>b</i>. In one embodiment, the fixed surface <b>100</b> is an exterior surface of a spacecraft or satellite. In another embodiment, the fixed surface <b>100</b> is an exterior surface of a terrestrial or space vehicle, or a space station. In yet another embodiment, the fixed surface <b>100</b> is a surface of a spacesuit or apparatus coupled to a spacesuit and controlled by an astronaut or human operator in the spacesuit. It should be noted that embodiments of the sticky boom are suitable for use in either terrestrial or space applications.</p>
+<p id="p-0043" num="0042">The sticky boom includes one or more boom deployers <b>108</b>. The boom deployer <b>108</b> includes one or more boom actuators <b>144</b> that move the boom <b>104</b> in some fashion. In one embodiment, the boom deployer <b>108</b> controls boom actuators <b>144</b> at the boom free end <b>112</b><i>b</i>. In another embodiment, the boom deployer <b>108</b> controls boom actuators <b>144</b> at the boom fixed end <b>112</b><i>a</i>. In yet another embodiment, the boom deployer <b>108</b> controls boom actuators <b>144</b> at both the boom fixed end <b>112</b><i>a </i>and the boom free end <b>112</b><i>b</i>. The boom deployer <b>108</b> may optionally include one or more sensors <b>132</b> to provide feedback on boom <b>104</b> position, object <b>124</b> position, boom <b>104</b> forces, or boom actuator <b>144</b> state within boom deployer <b>108</b>. Sensors <b>132</b> may also be capable of performing detailed surface mapping of the object <b>124</b>, in order to increase the likelihood of successful object <b>124</b> capture by the sticky boom.</p>
+<p id="p-0044" num="0043">The sticky boom also includes a capture head <b>116</b>. The capture head <b>116</b> is coupled to the boom free end <b>112</b><i>b</i>, and provides the support structures and capture apparatuses for capturing the object <b>124</b>. The coupling between the capture head <b>116</b> and boom free end <b>112</b><i>b </i>may be a fixed coupling that maintains consistent orientation between the capture head <b>116</b> in the boom free end <b>112</b><i>b</i>. The coupling may also be an articulated coupling providing some degree of motion between capture head <b>116</b> and boom free end <b>112</b><i>b</i>. Articulated couplings include rotational couplings, hinges, swivels, gimbals, and any other type of mechanical coupling capable of providing predictable movement of the capture head <b>116</b> relative to the boom free end <b>112</b><i>b</i>. Articulated couplings may also use one or more springs to passively control movement between the capture head <b>116</b> and the boom free end <b>112</b><i>b</i>. In some embodiments, the articulated couplings include electromechanical devices such as step motors, solenoids, or servos to control capture head <b>116</b> movement remotely.</p>
+<p id="p-0045" num="0044">In some embodiments, the coupling between the capture head <b>116</b> and boom free end <b>112</b><i>b </i>provides temporary or permanent separation between the capture head <b>116</b> and the boom free end <b>112</b><i>b</i>. This may be useful in applications where it is desirable to provide a predictable attachment point on an object <b>124</b> not having predictable attachment points. A capture head <b>116</b> used as a predictable attachment point may allow a mechanical gripper or another boom <b>104</b> to capture and move the object <b>124</b> at a later time.</p>
+<p id="p-0046" num="0045">The capture head <b>116</b> includes a non-cooperative capture device <b>120</b>. The non-cooperative capture device <b>120</b> is used in conjunction with the recovery process steps illustrated in <figref idref="DRAWINGS">FIGS. 9-11</figref> to attach, capture, and move object <b>124</b>. Examples of the non-cooperative capture device <b>120</b> of the present invention are illustrated and described in more detail in <figref idref="DRAWINGS">FIGS. 3 and 4</figref>.</p>
+<p id="p-0047" num="0046">The sticky boom includes a control apparatus <b>128</b>. The control apparatus <b>128</b> controls the position, orientation, and operation of the sticky boom. Specifically, the control apparatus <b>128</b> controls one or more boom deployers <b>108</b>, the capture head <b>116</b> and the non-cooperative capture device <b>120</b>. In the preferred embodiment of the present invention, the control apparatus <b>128</b> is associated with the fixed surface <b>100</b>, and includes controls, indicators, displays, and other user interface elements to allow a human operator to control the sticky boom. In alternate embodiments, the control apparatus operates totally autonomously under computer control, or remotely using telerobotic control. The control apparatus <b>128</b> also includes one or more sensors <b>132</b> to provide current information regarding object <b>124</b> and capture head <b>116</b> size, velocity, shape, and/or texture. Sensors <b>132</b> may include one or more cameras, radar devices, LIDAR, or optical devices. In some embodiments, the control apparatus <b>128</b> is associated with the fixed surface <b>100</b>, and includes one or more computers and associated software to receive sensor <b>132</b> inputs and in response control boom deployers <b>108</b> and the capture head <b>116</b>. In yet other embodiments, the control apparatus <b>128</b> is associated with the boom <b>104</b> and/or capture head <b>116</b> and includes one or more computers and associated software within the sticky boom to receive sensor <b>132</b> inputs, and in response, control boom deployers <b>108</b> and the capture head <b>116</b>. In such an embodiment, a computer or human operator associated with the fixed surface <b>100</b> may direct the sticky boom to recover an object <b>124</b>. Computers, sensors <b>132</b>, and software in the sticky boom may then control the boom deployers <b>108</b> and capture head <b>116</b> to capture the object <b>124</b>.</p>
+<p id="p-0048" num="0047">Object <b>124</b> may be stationary, or alternatively, may be in motion. If object <b>124</b> is in motion, then object <b>124</b> has object velocity <b>140</b>. Object velocity <b>140</b> has a speed component and a direction component. As part of the non-cooperative capture processes of <figref idref="DRAWINGS">FIGS. 9-11</figref>, it is necessary to move the capture head <b>116</b> into proximity with the object <b>124</b> in order to capture the object <b>124</b>. Since object <b>124</b> has object velocity <b>140</b>, it is necessary during the capture process to match capture head velocity <b>136</b> to object velocity <b>140</b>.</p>
+<p id="p-0049" num="0048">Referring now to <figref idref="DRAWINGS">FIG. 1</figref><i>b</i>, a diagram illustrating a multiple segment sticky boom in accordance with embodiments of the present invention is shown. The multiple segment sticky boom includes a plurality of boom <b>104</b> segments, including at least boom segment <b>104</b><i>a </i>and boom segment <b>104</b><i>b</i>. In other embodiments, the multiple segment sticky boom has more than two boom segments <b>104</b>. Each boom segment <b>104</b> includes a boom deployer <b>108</b>, with boom deployer <b>108</b><i>a </i>in boom segment <b>104</b><i>a </i>and boom deployer <b>108</b><i>b </i>in boom segment <b>104</b><i>b</i>. Although not shown in <figref idref="DRAWINGS">FIG. 1</figref><i>b </i>or later figures, it should be understood that all boom deployers <b>108</b> has associated with it one or more boom actuators <b>144</b>. Each boom segment <b>104</b> is able to move independently of any other boom segment <b>104</b>.</p>
+<p id="p-0050" num="0049">Each boom segment <b>104</b> is coupled to a fixed surface <b>100</b>, another boom segment <b>104</b>, or a capture head <b>116</b>. Each of the couplings may be the same or a different type, as described with respect to <figref idref="DRAWINGS">FIG. 1</figref><i>a</i>. In some embodiments, the couplings provide a similar degree of articulation as another form of robotic arm, or even a human arm (e.g. shoulder, elbow, wrist).</p>
+<p id="p-0051" num="0050">Referring now to <figref idref="DRAWINGS">FIG. 2</figref><i>a</i>, a diagram illustrating a single segment extendable/retractable sticky boom in accordance with embodiments of the present invention is shown. The single segment extendable/retractable sticky boom in one embodiment includes two or more fixed length boom segments <b>204</b>, where each boom segment <b>204</b> has a different diameter&#x2014;allowing boom segments <b>204</b> to collapse within the length of the longest boom segment <b>204</b>. Such an arrangement provides the ability to telescope between a minimum length corresponding to the longest boom segment <b>204</b>, and a maximum length corresponding to the sum of the boom segment lengths <b>204</b>. In the illustration of <figref idref="DRAWINGS">FIG. 2</figref><i>a</i>, boom <b>104</b> includes three boom segments: boom segment <b>1</b>-<b>1</b> <b>204</b><i>a</i>, boom segment <b>1</b>-<b>2</b> <b>204</b><i>b</i>, and boom segment <b>1</b>-<b>3</b> <b>204</b><i>c. </i></p>
+<p id="p-0052" num="0051">In some embodiments, individual boom segments <b>204</b> may have limited degrees of freedom relative to other boom segments <b>204</b> in the same boom <b>104</b>. For example, in the case of telescoping boom segments <b>204</b>, boom segment <b>1</b>-<b>2</b> <b>204</b><i>b </i>may rotate relative to boom segment <b>1</b>-<b>1</b> <b>204</b><i>a </i>on the same axis. Additionally, boom segment <b>1</b>-<b>3</b> <b>204</b><i>c </i>may rotate relative to boom segment <b>1</b>-<b>2</b> <b>204</b><i>b </i>on the same axis. In other embodiments, the boom <b>104</b> may be extendable or retractable without requiring telescoping boom segments <b>204</b>.</p>
+<p id="p-0053" num="0052">Referring now to <figref idref="DRAWINGS">FIG. 2</figref><i>b</i>, a diagram illustrating a multiple segment extendable/retractable sticky boom in accordance with embodiments of the present invention is shown. The multiple segment extendable/retractable sticky boom is similar to the single segment extendable/retractable sticky boom of <figref idref="DRAWINGS">FIG. 2</figref><i>a</i>. However, the multiple segment extended/retractable sticky boom of <figref idref="DRAWINGS">FIG. 2</figref><i>b </i>has three boom segments <b>204</b>, <b>208</b>, <b>212</b> instead of the single boom segment <b>204</b> of <figref idref="DRAWINGS">FIG. 2</figref><i>a</i>. Boom segment <b>204</b> includes boom segment <b>1</b>-<b>1</b> <b>204</b><i>a</i>, boom segment <b>1</b>-<b>2</b> <b>204</b><i>b</i>, and boom segment <b>1</b>-<b>3</b> <b>204</b><i>c</i>. Boom segment <b>208</b> includes boom segment <b>2</b>-<b>1</b> <b>208</b><i>a</i>, boom segment <b>2</b>-<b>2</b> <b>208</b><i>b</i>, and boom segment <b>2</b>-<b>3</b> <b>208</b><i>c</i>. Boom segment <b>212</b> includes boom segment <b>3</b>-<b>1</b> <b>212</b><i>a</i>, boom segment <b>3</b>-<b>2</b> <b>212</b><i>b</i>, and boom segment <b>3</b>-<b>3</b> <b>212</b><i>c. </i></p>
+<p id="p-0054" num="0053">Such a structure as illustrated in <figref idref="DRAWINGS">FIG. 2</figref><i>b </i>allows each boom segment <b>204</b>, <b>208</b>, <b>212</b> to have an independent and variable length. This flexibility permits the capture head <b>116</b> to be moved into a position where object <b>124</b> may be more easily captured. As with <figref idref="DRAWINGS">FIG. 2</figref><i>a</i>, the boom <b>104</b> may be extendable or retractable without requiring telescoping boom segments <b>204</b>, <b>208</b>, <b>212</b>. Similarly, boom segments may be utilized that require only a single boom deployer <b>108</b> per boom segment <b>204</b>, <b>208</b>, <b>212</b>, or multiple boom deployers <b>108</b> per boom segment <b>204</b>, <b>208</b>, <b>212</b>.</p>
+<p id="p-0055" num="0054">Although various booms <b>104</b> are illustrated in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, the present invention applies as well to booms <b>104</b> where the boom fixed end <b>112</b><i>a </i>and/or boom free and <b>112</b><i>b </i>are able to be moved or relocated to another point on the fixed surface <b>100</b> in order to relocate the sticky boom.</p>
+<p id="p-0056" num="0055">Referring now to <figref idref="DRAWINGS">FIG. 3</figref><i>a</i>, an illustration depicting a rear oblique view of a general-purpose capture head <b>116</b> in accordance with embodiments of the present invention is shown. The general-purpose capture head <b>116</b> includes mechanical elements that provide articulation and support for a non-cooperative capture device <b>120</b>. In some embodiments, the mechanical elements are not externally controlled and are able to independently move when the capture head <b>116</b> makes contact with an object <b>124</b>. Simple hinges, sometimes in cooperation with springs, allow independent movement for portions of the non-cooperative capture device <b>120</b>, as illustrated in <figref idref="DRAWINGS">FIG. 3</figref><i>c</i>. In other embodiments, the mechanical elements are externally controlled and move using solenoids, motors, or other forms of capture head actuators in response to stimulus from a human operator or computer. The embodiment illustrated in <figref idref="DRAWINGS">FIG. 3</figref> is representative of the former embodiment, while the embodiment illustrated in <figref idref="DRAWINGS">FIG. 4</figref> is representative of the latter embodiment.</p>
+<p id="p-0057" num="0056">The general-purpose capture head <b>116</b> includes a capture head support axis <b>304</b> incorporated within a coupling to the boom free end <b>112</b><i>b</i>. The capture head support axis <b>304</b> provides mechanical and electrical connections to the boom <b>104</b>. For example, the capture head support axis <b>304</b> may include one or more articulated or non-articulated connections to the boom free end <b>112</b><i>b</i>. Electrical connections may include power, sensor inputs <b>132</b> from the capture head <b>116</b> to the boom <b>104</b>, sensor inputs <b>132</b> from the boom <b>104</b> to the capture head <b>116</b>, control signals from the capture head <b>116</b> to the boom <b>104</b>, and control signals from the boom <b>104</b> to the capture head <b>116</b>.</p>
+<p id="p-0058" num="0057">The general-purpose capture head <b>116</b> includes a capture head main support member <b>308</b> which provides main support between the capture head support axis <b>304</b> and three capture head second support members <b>312</b>. In the preferred embodiment, the capture head main support member <b>308</b> has a rigid connection to the capture head support axis <b>304</b> and a pivoting or hinging connection to each of three capture head second support members <b>312</b>.</p>
+<p id="p-0059" num="0058">Each of three capture head second support members <b>312</b> at one end connect to a capture head third support member <b>316</b>, and at the other end connect to a capture head fifth support member <b>324</b>. In the preferred embodiment, the capture head second support members <b>312</b> have a pivoting or hinged connection to the capture head third support members <b>316</b> and the capture head fifth support members <b>324</b>.</p>
+<p id="p-0060" num="0059">Each of three capture head third support members <b>316</b> at one end connect to a capture head fourth support member <b>320</b>, and at the other end connect to a non-cooperative capture device rear pad surface <b>332</b>. In the preferred embodiment, the capture head third support members <b>316</b> have a pivoting connection to the capture head fourth support members <b>320</b> and the non-cooperative capture device rear pad surfaces <b>332</b>.</p>
+<p id="p-0061" num="0060">Each of three capture head fourth support members <b>320</b> at each end connect to a different non-cooperative capture device rear pad surface <b>332</b>. In the preferred embodiment, the capture head fourth support members <b>320</b> have a pivoting or hinged connection to each of the non-cooperative capture device rear pad surfaces <b>332</b>.</p>
+<p id="p-0062" num="0061">Each of three capture head fifth support members <b>324</b> at each end connect to a different non-cooperative capture device rear pad surface <b>332</b>. In the preferred embodiment, the capture head fifth support members <b>320</b> have a pivoting or hinged connection to each of the non-cooperative capture device rear pad surfaces <b>332</b>.</p>
+<p id="p-0063" num="0062">Each of three capture head sixth support members <b>328</b> at one end connect to a capture head fifth support member <b>324</b>, and at the other end connect to a non-cooperative capture device rear pad surface <b>332</b>. In the preferred embodiment, the capture head sixth support members <b>328</b> have a pivoting or hinged connection to each of the capture head fifth support members <b>324</b> and the non-cooperative capture device rear pad surfaces <b>332</b>.</p>
+<p id="p-0064" num="0063">The support members <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b> for general-purpose capture head <b>116</b> are oriented in order to provide a connection <b>340</b> to each of 18 non-cooperative capture device rear pad surfaces <b>332</b>. In a preferred embodiment, the connections <b>340</b> are center-loaded. However, in other embodiments the connections <b>340</b> are edge-loaded or have some other form of loading. In other embodiments, there may be fewer than 18 or more than 18 non-cooperative capture device rear pad surfaces <b>332</b>. Each of the connections <b>340</b> may optionally provide power and control signals to the non-cooperative capture device rear pad surfaces <b>332</b>, and may possibly receive various sensor inputs from the non-cooperative capture device rear pad surfaces <b>332</b>.</p>
+<p id="p-0065" num="0064">The front surface of the non-cooperative capture device <b>120</b> of <figref idref="DRAWINGS">FIG. 3</figref><i>c </i>includes 18 non-cooperative capture device pads <b>344</b>. Each of the non-cooperative capture device pads <b>344</b> includes a non-cooperative capture device conformal surface <b>336</b>, which provides a resilient surface that makes direct contact with the object <b>124</b> during the capture process illustrated in <figref idref="DRAWINGS">FIG. 9-11</figref>. The non-cooperative capture device conformal surface <b>336</b> also provides either resettable or non-resettable adhesion for the non-cooperative capture device <b>120</b>. Resettable adhesives provide an adhesion property which may be activated or inactivated under control of the control apparatus <b>128</b>. Examples of resettable adhesives include, but are not limited to, electrostatic attraction, gecko adhesion, electromagnets, and some forms of Velcro. Examples of non-resettable adhesives include, but are not limited to, glues, other forms of Velcro, low-temperature alloys or solder compounds, and permanent magnets. Non-resettable adhesives such as provide an adhesion property which may be only activated, but not inactivated, under control of the control apparatus <b>128</b>, by moving the non-cooperative capture device <b>120</b> into contact with the object <b>124</b>.</p>
+<p id="p-0066" num="0065">Referring now to <figref idref="DRAWINGS">FIG. 3</figref><i>b</i>, an illustration depicting a rear view of a general-purpose capture head <b>116</b> in accordance with embodiments of the present invention is shown. <figref idref="DRAWINGS">FIG. 3</figref><i>b </i>includes the same elements shown in <figref idref="DRAWINGS">FIG. 3</figref><i>a</i>, but provides a view more clearly illustrating connections to each of the non-cooperative capture device rear pad surfaces <b>332</b>.</p>
+<p id="p-0067" num="0066">In a preferred embodiment, each of the pivots or hinges of each of the capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b> includes a brake device <b>348</b>. The brake devices <b>348</b> are controlled by control apparatus <b>128</b>. When inactivated, brake devices <b>348</b> allow each pivot or hinge to move within the allowed range of the pivot or hinge, subject to the influence of external forces, including contact with an object <b>124</b> or forces imposed by springs attached to support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b>. When activated, brake devices <b>348</b> provide a locking torque to each of the pivots or hinges in the current position each pivot or hinge is in, and prevent movement by any hinged pair of capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b>.</p>
+<p id="p-0068" num="0067">Referring now to <figref idref="DRAWINGS">FIG. 3</figref><i>c</i>, an illustration depicting a general-purpose non-cooperative capture device <b>120</b> in accordance with embodiments of the present invention is shown. The general-purpose non-cooperative capture device <b>120</b> forms the front surface of the capture head <b>116</b>, and provides the surfaces that make contact with and capture the object <b>124</b>. In the embodiment illustrated in <figref idref="DRAWINGS">FIG. 3</figref><i>c, </i>18 pads <b>344</b> are provided and coupled to support members <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b> of capture head <b>116</b> through capture head support attachments <b>340</b>. Each pad <b>344</b> includes a non cooperative capture device rear pad surface <b>332</b> and a non-cooperative capture device conformal surface <b>336</b>. Capture head support attachments <b>340</b> may be any rigid attachment between the pads <b>344</b> and support members <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b>, including rivets, screws, glue, or any other suitable attachment method.</p>
+<p id="p-0069" num="0068">Each of the pads <b>344</b> has a non-cooperative capture device conformal surface <b>336</b>. The non-cooperative capture device conformal surface <b>336</b> is on the front surface of each pad <b>344</b>, and is resiliently configured to conform to the shape, topography, and/or texture of the portion of object <b>124</b> in contact with each of the non-cooperative capture device conformal surfaces <b>336</b>.</p>
+<p id="p-0070" num="0069">Instead of a mechanical grabber, the general-purpose non-cooperative capture device <b>120</b> utilizes one of several technologies to capture and control the object <b>124</b>. In a preferred embodiment, electrostatic attraction is utilized in the pads, and a resilient material forms the non-cooperative capture device conformal surface <b>336</b>. In another embodiment, gecko adhesion technology is utilized. In yet another embodiment, Velcro technology is utilized. In yet another embodiment, glue is utilized. In a further embodiment, a low-temperature melt alloy is used. In a final embodiment, magnets or electromagnets are used.</p>
+<p id="p-0071" num="0070">Electrostatic attraction and gecko adhesion technologies are preferred due to strength of capture force, resettability, and the ability to provide variable adhesion force on different pads or even areas of the same pad. However, Velcro and permanent magnets are not preferred due to difficulty associated with letting go of a captured object <b>124</b>, and glues and possibly low-temperature melt alloys are not preferred due to loss of adhesion properties with continued use.</p>
+<p id="p-0072" num="0071">Referring now to <figref idref="DRAWINGS">FIG. 4</figref><i>a</i>, an illustration depicting a rear oblique view of an axisymmetric capture head <b>116</b> in accordance with embodiments of the present invention is shown. The axisymmetric capture head <b>116</b> provides a simpler mechanical support structure than the general-purpose capture head <b>116</b> of <figref idref="DRAWINGS">FIG. 3</figref>. In the axisymmetric capture head <b>116</b> embodiment illustrated, four sets of pads are used. The embodiment illustrated in <figref idref="DRAWINGS">FIG. 4</figref> is generally representative of embodiments where the mechanical elements are externally controlled by control apparatus <b>128</b> and move using solenoids, motors, or other forms of capture head actuators in response to stimulus from a human operator or computer.</p>
+<p id="p-0073" num="0072">The axisymmetric capture head <b>116</b> includes a capture head coupling <b>404</b>, which attaches to the boom free end <b>112</b><i>b</i>. The capture head coupling <b>404</b> includes comparable mechanical and electrical functionality as the capture head support axis <b>304</b> described with reference to <figref idref="DRAWINGS">FIG. 3</figref><i>a. </i></p>
+<p id="p-0074" num="0073">The support structure for the axisymmetric capture head <b>116</b> is simpler than the general-purpose capture head <b>116</b>, and includes two types of support members instead of six. The axisymmetric capture head <b>116</b> includes a capture head main support member <b>408</b>, which attaches to the capture head coupling <b>404</b> and each of four capture head second support members <b>412</b>. A rigid attachment is provided to the capture head coupling <b>404</b> and a pivoting attachment is provided to each of the four capture head second support members <b>412</b>.</p>
+<p id="p-0075" num="0074">Each of four capture head second support members <b>412</b> is pivotally attached to the capture head main support member <b>408</b>. One end of each capture head second support member <b>412</b> is attached to a capture head minor non-cooperative capture device rear surface <b>420</b>, and the other end of each capture head second support member <b>412</b> is attached to a capture head major non-cooperative capture device rear surface <b>416</b>.</p>
+<p id="p-0076" num="0075">The support members <b>408</b>, <b>412</b> for the axisymmetric capture head <b>116</b> are oriented in order to provide a connection to each of 8 major non-cooperative capture device rear surfaces <b>416</b> and 8 minor non-cooperative capture device rear surfaces <b>420</b>. In other embodiments, there may be fewer than 8 or more than 8 non-cooperative capture device rear surfaces <b>416</b>, <b>420</b>. Each of the connections may optionally provide power and control signals to the non-cooperative capture device rear surfaces <b>416</b>, <b>420</b>, and may possibly receive various sensor inputs from the non-cooperative capture device rear surfaces <b>416</b>, <b>420</b>.</p>
+<p id="p-0077" num="0076">Referring now to <figref idref="DRAWINGS">FIG. 4</figref><i>b</i>, an illustration depicting a rear view of an axisymmetric capture head <b>116</b> in accordance with embodiments of the present invention is shown. <figref idref="DRAWINGS">FIG. 4</figref><i>b </i>includes the same elements shown in <figref idref="DRAWINGS">FIG. 4</figref><i>a</i>, but provides a view more clearly illustrating connections to each of the non-cooperative capture device rear surfaces <b>416</b>, <b>420</b>.</p>
+<p id="p-0078" num="0077">The axisymmetric capture head <b>116</b> includes capture head actuators <b>444</b> at each pivot or hinge connection. The capture head actuators <b>444</b> are individually controlled by the control apparatus <b>128</b>, and in the preferred embodiment of <figref idref="DRAWINGS">FIG. 11</figref> are pre-loaded by the control apparatus <b>128</b> in response to sensor <b>132</b> inputs in order to conform to the shape, topography, and/or texture of the object <b>124</b> prior to making initial contact between the non-cooperative capture device <b>120</b> and the object <b>124</b>.</p>
+<p id="p-0079" num="0078">In a preferred embodiment, the capture head major support attachments <b>432</b> and capture head minor support attachments <b>436</b> are center-loaded. However, in other embodiments the attachments <b>432</b>, <b>436</b> are edge-loaded or have some other form of loading.</p>
+<p id="p-0080" num="0079">Referring now to <figref idref="DRAWINGS">FIG. 4</figref><i>c</i>, an illustration depicting an axisymmetric non-cooperative capture device <b>120</b> in accordance with embodiments of the present invention is shown. The axisymmetric non-cooperative capture device <b>120</b> forms the front surface of the axisymmetric capture head <b>116</b>, and provides the surfaces that make contact with, and capture, the object <b>124</b>. In the embodiment illustrated in <figref idref="DRAWINGS">FIG. 4</figref><i>c</i>, eight pads <b>440</b> are provided and coupled to support members <b>408</b>, <b>412</b> of axisymmetric capture head <b>116</b> through capture head major support attachments <b>432</b> and capture head minor support attachments <b>436</b>. Each major pad <b>440</b> includes a major non cooperative capture device rear surface <b>416</b> and a major non-cooperative capture device conformal surface <b>424</b>. Each minor pad <b>440</b> includes a minor non cooperative capture device rear surface <b>420</b> and a minor non-cooperative capture device conformal surface <b>428</b>. The axisymmetric non-cooperative capture device <b>120</b> has a pad orientation of larger major pads <b>440</b> toward the outside and smaller minor pads <b>440</b> on the inside. However, other arrangements with fewer or more pads <b>440</b>, or smaller or larger pads <b>440</b>, may be utilized without deviating from the present invention.</p>
+<p id="p-0081" num="0080">Capture head major support attachments <b>432</b> and capture head minor support attachments <b>436</b> may be any rigid attachment between the pads <b>440</b> and support members <b>408</b>, <b>412</b>, including rivets, screws, glue, or any other suitable attachment method.</p>
+<p id="p-0082" num="0081">Instead of a mechanical grabber, the axisymmetric non-cooperative capture device <b>120</b> utilizes one of several technologies to capture and control the object <b>124</b>. In a preferred embodiment, a resettable adhesive technology is utilized, and a resilient material forms the non-cooperative capture device conformal surfaces <b>424</b>, <b>428</b>. In another embodiment, a non-resettable adhesive adhesion technology is utilized.</p>
+<p id="p-0083" num="0082">Electrostatic attraction and gecko adhesion technologies are preferred due to strength of capture force, resettability, and the ability to provide variable adhesion force on different pads <b>440</b> or even areas of the same pad <b>440</b>. However, Velcro and permanent magnets are not preferred due to difficulty associated with letting go of a captured object <b>124</b>, and glues and possibly low-temperature melt alloys are not preferred due to loss of adhesion properties with continued use. In the preferred embodiment, each of the conformal surfaces <b>424</b>, <b>428</b> includes a resettable adhesive on each pad <b>448</b>.</p>
+<p id="p-0084" num="0083">The examples provided in <figref idref="DRAWINGS">FIGS. 3 and 4</figref> should be understood to only be examples of certain types of non-cooperative capture devices <b>120</b>, and do not limit the scope of the invention. Therefore, the capture head <b>116</b> and non-cooperative capture device <b>120</b> may have any combination or presence/absence of fixed or articulated capture heads, springs, number of pads, resettable or non-resettable adhesives, sensors, brakes, actuators, springs, and materials.</p>
+<p id="p-0085" num="0084">Referring now to <figref idref="DRAWINGS">FIG. 5</figref>, a block diagram illustrating components of a capture head <b>116</b> in accordance with embodiments of the present invention is shown.</p>
+<p id="p-0086" num="0085">Capture head <b>116</b> includes one or more capture head actuators <b>444</b>. Actuators <b>444</b> include motors, servos, solenoids, and other forms of electromechanical devices able to move structural support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, <b>328</b>, <b>408</b>, or <b>412</b>. The actuators <b>444</b> are able to modify the pad <b>344</b>, <b>440</b> shape and orientation of non-cooperative capture device <b>120</b> to better conform to the shape of object <b>124</b>.</p>
+<p id="p-0087" num="0086">Capture head <b>116</b> also includes a conformal surface for non-cooperative capture device <b>512</b>. The conformal surface for non-cooperative capture device <b>512</b> includes non-cooperative capture device conformal surface <b>336</b>, major non-cooperative capture device conformal surface <b>424</b>, and minor non-cooperative capture device conformal surface <b>428</b>. In embodiments utilizing electrostatic attraction or gecko adhesion technologies, adhesion properties of the conformal surface are controlled by control apparatus <b>128</b>.</p>
+<p id="p-0088" num="0087">Capture head <b>116</b> also includes a capture head controller <b>516</b>. Capture head controller <b>516</b> in some embodiments controls actuators for non-cooperative capture device <b>444</b> and conformal surface for non-cooperative capture device <b>512</b>, and receives inputs from both. For example, actuators for non-cooperative capture device <b>444</b> may provide servo feedback signals that capture head controller <b>516</b> receives in order to determine the position of each individual actuator <b>444</b>. Similarly, capture head controller <b>516</b> is able to receive force feedback from conformal surface for non-cooperative capture device <b>512</b>, in order to determine if the object <b>124</b> is securely captured.</p>
+<p id="p-0089" num="0088">In an optional embodiment, capture head <b>116</b> includes an actuator for the boom free end <b>504</b>. Actuator <b>504</b> allows the capture head <b>116</b> to move or pivot in relation to the boom free end <b>112</b><i>b</i>. An actuator <b>504</b> would not be present in sticky boom configurations having a rigidly attached capture head <b>116</b> to boom <b>104</b>, or configurations where the capture head <b>116</b> was movable and actuators <b>504</b> were instead included in the boom free end <b>112</b><i>b. </i></p>
+<p id="p-0090" num="0089">Capture head <b>116</b> may also contain in optional embodiments one or more positional sensors <b>520</b>. Positional sensors <b>520</b> include cameras, radar devices, optical sensors, lasers, and other devices. Positional sensors <b>520</b> provide feedback to capture head controller <b>516</b> from which the position and orientation of capture head <b>116</b> relative to the object <b>124</b> and the fixed surface <b>100</b> may be determined. In other embodiments, position sensors <b>520</b> are not present in capture head <b>116</b>, and are instead present in one or more portions of boom <b>104</b> or fixed surface <b>100</b>, such as sensors <b>132</b>.</p>
+<p id="p-0091" num="0090">Referring now to <figref idref="DRAWINGS">FIG. 6</figref><i>a</i>, a block diagram illustrating a first embodiment of a capture head controller <b>516</b> in accordance with the present invention is shown. The embodiment of <figref idref="DRAWINGS">FIG. 6</figref><i>a </i>is a simple embodiment whereby the capture head <b>116</b> includes no or limited inherent processing resources or other computer intelligence of its own, and depends on resources provided through the boom <b>104</b>.</p>
+<p id="p-0092" num="0091">Capture head controller <b>516</b> includes a boom free end coupling <b>604</b>. The boom free end coupling <b>604</b> provides mechanical and electrical connection between the boom free end <b>112</b><i>b </i>in the capture head <b>116</b>.</p>
+<p id="p-0093" num="0092">The boom free end coupling <b>604</b> passes through power <b>608</b> from the boom <b>104</b> to the capture head <b>116</b> and the non-cooperative capture device <b>120</b>. Power <b>608</b> is used by actuators, sensors, and any electrical needs of the non-cooperative capture device <b>120</b>, including conformal surface control. Power <b>608</b> may include various DC voltages, DC ground, AC voltages, and AC ground, depending on power needs. In some embodiments, power <b>608</b> is not provided through the boom <b>104</b>, and is instead provided from one or more power sources on the capture head <b>116</b>, including but not limited to solar cells, batteries, fuel cells, electromagnetic energy harvesting, or nuclear power sources.</p>
+<p id="p-0094" num="0093">The boom free end coupling <b>604</b> passes through boom free end actuator control/feedback signals <b>612</b>. The boom free end actuator control/feedback signals <b>612</b> are optional, depending on whether the control head <b>116</b> is movable relative to the boom free end <b>112</b><i>b</i>. If the control head <b>116</b> is movable relative to the boom free end <b>112</b><i>b</i>, if the actuators controlling movement are in the control head <b>116</b>, boom free end actuator control/feedback <b>612</b> controls such actuators. If instead the actuators controlling movement are in the boom free end <b>112</b><i>b</i>, then boom free end actuator control/feedback <b>612</b> would not be present.</p>
+<p id="p-0095" num="0094">Boom free end coupling <b>604</b> also passes through actuator control/feedback for capture head <b>616</b>. The number of actuator control signals <b>616</b> provided depends on the number and presence of actuators <b>444</b> in the capture head <b>116</b>. Capture head actuators <b>444</b> control capture head support members including support members <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, <b>328</b>, <b>408</b>, and <b>412</b>. Control signals <b>616</b> include those signals required to cause each actuator <b>444</b> to move in each supported direction, including rotation, directional movement, extending/retracting, and any other sort of movement. In some embodiments, actuators <b>444</b> provide feedback signals <b>616</b> to indicate the degree to which an actuator has moved. For example, step motors and servos sometimes supply signals indicating angular or other position information. Control apparatus <b>128</b> utilizes feedback signals <b>616</b> to accurately determine capture head <b>116</b> position and orientation relative to the object <b>124</b>. Feedback signals <b>612</b> may also include capture head <b>116</b> camera or other sensor signals.</p>
+<p id="p-0096" num="0095">Boom free end coupling <b>604</b> also passes through conformal surface control/feedback for non-cooperative capture device <b>620</b>. Control signals for the non-cooperative capture device <b>620</b> include voltages or control signals for non-cooperative capture devices <b>120</b> utilizing resettable adhesive technology. Depending on the number of control signals <b>620</b> required to control the non-cooperative capture device <b>120</b>, conformal surface control/feedback for non-cooperative capture device <b>620</b> may utilize various forms of multiplexing including serial to parallel data conversion in the boom free end coupling <b>604</b>. Multiplexing may be used with any and all other control or feedback signals between the boom <b>104</b> or fixed surface <b>100</b> and capture head <b>116</b>. It is recognized that some non-cooperative capture devices <b>120</b> may provide force or position feedback signals <b>620</b> which the control apparatus <b>128</b> will use to make fine adjustments in conformal surface control signals <b>620</b> when capturing the object <b>124</b>.</p>
+<p id="p-0097" num="0096">Referring now to <figref idref="DRAWINGS">FIG. 6</figref><i>b</i>, a block diagram illustrating a second embodiment of a capture head controller <b>516</b> in accordance with the present invention is shown. The embodiment illustrated in <figref idref="DRAWINGS">FIG. 6</figref><i>b </i>provides a limited or great amount of computer intelligence within the capture head <b>116</b>. The advantage of such an embodiment is reducing communication load between the fixed surface <b>100</b> and capture head <b>116</b>, and processing required by the control apparatus <b>128</b>, by offloading many low-level processing tasks.</p>
+<p id="p-0098" num="0097">The capture head controller <b>516</b> includes a boom free end coupling <b>604</b>. The boom free end coupling <b>604</b> provides power <b>608</b> to a capture head control module <b>624</b>, and other electrical assemblies in the capture head <b>116</b>. The other electrical assemblies in the capture head <b>116</b> include actuators, cameras, sensors, and the non-cooperative capture device <b>120</b>. In some embodiments, power <b>608</b> is not provided through boom <b>104</b> and boom free end coupling <b>604</b>, but is instead provided from one or more local power sources on the capture head <b>116</b>, as previously described.</p>
+<p id="p-0099" num="0098">The boom free and coupling <b>604</b> provides commands <b>628</b> to the capture head control module <b>624</b>. In a preferred embodiment, the commands <b>628</b> are transferred between the boom free end coupling <b>604</b> in the capture head control module <b>624</b> over a high-speed serial bus, including MIL-STD-1553, RS-422, or Ethernet. Commands <b>628</b> include high-level commands such as make initial contact between non-cooperative capture device <b>120</b> and the object <b>124</b>, or move captured object <b>124</b> to a specific location.</p>
+<p id="p-0100" num="0099">In some embodiments, the boom free end coupling <b>604</b> receives feedback <b>632</b> from the capture head control module <b>624</b>, and passes the feedback data through the boom <b>104</b>. Feedback <b>632</b> includes macro-level feedback such as non-cooperative capture device <b>120</b> made initial contact with the object <b>124</b>, non-cooperative capture device <b>120</b> is in intimate contact with the object <b>124</b>, or the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b>.</p>
+<p id="p-0101" num="0100">The capture head control module <b>624</b> controls actuators <b>444</b> within the control head <b>116</b> and the non-cooperative capture device <b>120</b>, and receives feedback from actuators, cameras, and sensors. Actuator control/feedback for capture head <b>616</b>, boom free end actuator control/feedback <b>612</b>, and conformal surface control/feedback for non-cooperative capture device <b>620</b> were discussed relative to <figref idref="DRAWINGS">FIG. 6</figref><i>a. </i></p>
+<p id="p-0102" num="0101">In some embodiments, the capture head control module <b>624</b> receives object and position sense data <b>636</b>. Object and position sense data <b>636</b> is data from various position sensors that may be present on the control head <b>116</b>. Object and position sensors include magnetic sensors, optical sensors, radiation sensors, and radio wave sensors.</p>
+<p id="p-0103" num="0102">Referring now to <figref idref="DRAWINGS">FIG. 6</figref><i>c</i>, a block diagram illustrating a third embodiment of a capture head controller <b>516</b> in accordance with the present invention is shown. The embodiment illustrated in <figref idref="DRAWINGS">FIG. 6</figref><i>c </i>is similar to the embodiment illustrated in <figref idref="DRAWINGS">FIG. 6</figref><i>a</i>, but utilizes wireless communication technology to communicate between the capture head <b>116</b> and the fixed surface <b>100</b>. The advantage of such an embodiment is reducing cabling and connector complexity throughout the boom <b>104</b>, including the boom free end coupling <b>604</b>.</p>
+<p id="p-0104" num="0103">The boom free end coupling <b>604</b> provides power <b>608</b> to a capture head wireless transceiver <b>640</b> and to other electrical assemblies in the capture head <b>116</b>. In some embodiments, power <b>608</b> is not provided through boom <b>104</b> and boom free end coupling <b>604</b>, but is instead provided from one or more local power sources in the capture head <b>116</b>, as previously described.</p>
+<p id="p-0105" num="0104">All control and feedback data in <figref idref="DRAWINGS">FIG. 6</figref><i>c </i>passes through a capture head wireless transceiver <b>640</b>. The capture head wireless transceiver <b>640</b> utilizes any suitable wireless communication technology, including optical data transfer, microwaves, or other forms radiated data transmission and reception. The capture head wireless transceiver <b>640</b> in one embodiment receives power <b>608</b> through boom free end coupling <b>604</b>, and in other embodiments receives power <b>608</b> from one or more local power sources in capture head <b>116</b>, as previously described.</p>
+<p id="p-0106" num="0105">Actuator control/feedback for capture head <b>616</b>, boom free end actuator control/feedback <b>612</b>, and conformal surface control/feedback for non-cooperative capture device <b>620</b> were discussed relative to <figref idref="DRAWINGS">FIG. 6</figref><i>a. </i></p>
+<p id="p-0107" num="0106">Referring now to <figref idref="DRAWINGS">FIG. 6</figref><i>d</i>, a block diagram illustrating a fourth embodiment of a capture head controller <b>516</b> in accordance with the present invention is shown. The embodiment illustrated in <figref idref="DRAWINGS">FIG. 6</figref><i>d </i>is similar to the embodiment illustrated in <figref idref="DRAWINGS">FIG. 6</figref><i>b</i>, but utilizes wireless communication technology to communicate between the capture head <b>116</b> and the fixed surface <b>100</b>. The advantage of such an embodiment is reducing cabling and connector complexity throughout the boom <b>104</b>, including the boom free end coupling <b>604</b>.</p>
+<p id="p-0108" num="0107">The boom free end coupling <b>604</b> provides power <b>608</b> to a capture head wireless transceiver <b>640</b>, a capture head control module <b>624</b>, and to other electrical assemblies in the capture head <b>116</b>. In some embodiments, power <b>608</b> is not provided through boom <b>104</b> and boom free end coupling <b>604</b>, but is instead provided from one or more local power sources in the capture head <b>116</b>, as previously described.</p>
+<p id="p-0109" num="0108">The other functionality illustrated in <figref idref="DRAWINGS">FIG. 6</figref><i>d </i>was described with reference to <figref idref="DRAWINGS">FIGS. 6</figref><i>a</i>-<b>6</b><i>c. </i></p>
+<p id="p-0110" num="0109">Referring now to <figref idref="DRAWINGS">FIG. 7</figref>, a block diagram illustrating a capture head control module <b>624</b> in accordance with embodiments the present invention is shown.</p>
+<p id="p-0111" num="0110">The capture head control module <b>624</b> includes a processor <b>704</b>. The processor <b>704</b> executes stored programs to control micro operation of the capture head <b>116</b> and non-cooperative capture device <b>120</b>. In a preferred embodiment, processor <b>704</b> is a low-power embedded processor such as a processor from the ARM, PowerPC, X86, or RISC processor families.</p>
+<p id="p-0112" num="0111">Processor <b>704</b> communicates with memory <b>708</b>. Memory <b>708</b> may include any combination of volatile and non-volatile memories, and stores programs executed by processor <b>704</b>. Memory <b>708</b> also provides temporary storage for feedback data from actuators, cameras, or sensors, and temporary storage required by processor <b>704</b>. Memory <b>708</b> includes ROM, RAM, flash memory, SD memory, disk drives, and NV RAM. In some embodiments, the memory <b>708</b> and/or the processor <b>704</b> are battery backed in the event of power <b>608</b> loss.</p>
+<p id="p-0113" num="0112">Capture head control module <b>624</b> also includes capture head control/feedback interfaces <b>712</b>. The capture head control/feedback interfaces <b>712</b> provides suitable interfaces between the processor <b>704</b> and the actuator control/feedback for capture head <b>616</b>, boom free end actuator control/feedback <b>612</b>, and conformal surface control/feedback for non-cooperative capture device <b>620</b>. In a preferred embodiment, capture head control/feedback interfaces <b>712</b> interfaces with the processor <b>704</b> using a high-speed serial communication bus such as MIL-STD-1553 bus, RS-422, Ethernet, USB, or FireWire.</p>
+<p id="p-0114" num="0113">Capture head control module <b>624</b> also includes spacecraft control/feedback interfaces <b>716</b>, which provides commands <b>628</b> to the processor <b>704</b> and receives optional feedback <b>632</b> from the processor <b>704</b>. The spacecraft control/feedback interfaces <b>716</b> interfaces with either the boom free end coupling <b>604</b> or the capture head wireless transceiver <b>640</b>, as described with reference to <figref idref="DRAWINGS">FIGS. 6</figref><i>a</i>-<b>6</b><i>d. </i></p>
+<p id="p-0115" num="0114">Referring now to <figref idref="DRAWINGS">FIG. 8</figref><i>a</i>, a block diagram illustrating a control apparatus <b>128</b> in accordance with a first embodiment of the present invention is shown. In the first embodiment shown in <figref idref="DRAWINGS">FIG. 8</figref><i>a</i>, most control information is provided to and received from the capture head <b>116</b> through the boom <b>104</b>, as illustrated in <figref idref="DRAWINGS">FIGS. 6</figref><i>a </i>and <b>6</b><i>b. </i></p>
+<p id="p-0116" num="0115">Control apparatus <b>128</b> includes a boom fixed end coupling <b>808</b>, which provides electrical connection between the fixed surface <b>100</b> and the boom <b>104</b>. The boom fixed end coupling <b>808</b> receives power <b>608</b> from a power source associated with the fixed surface <b>100</b>. However in other embodiments, power <b>608</b> is not provided through the boom fixed end coupling <b>808</b> and instead the capture head <b>116</b> and non-cooperative capture device <b>120</b> are powered through one or local power sources in capture head <b>116</b>, as previously described. Local power sources include, but are not limited to, solar cells, nuclear power sources, fuel cells, and batteries.</p>
+<p id="p-0117" num="0116">Control apparatus <b>128</b> also includes a user interface <b>804</b>, through which one or more human users control operation of the sticky boom. In a preferred embodiment, user interface <b>804</b> utilizes a graphical user interface for efficient communication with the human operators. User interface <b>804</b> generates commands <b>628</b> to the boom fixed end coupling <b>808</b>, and in some cases receives feedback <b>632</b> from the boom fixed end coupling <b>808</b>. The boom <b>104</b> conveys commands <b>628</b> and feedback <b>632</b> between the boom fixed end coupling <b>808</b> and the boom free end coupling <b>604</b>.</p>
+<p id="p-0118" num="0117">In some embodiments, control apparatus <b>128</b> includes various sensors <b>132</b> associated with the fixed surface <b>100</b>. Sensors <b>132</b> provide object and position sense data <b>636</b> to the user interface <b>804</b>, allowing one or more human users to precisely control the capture head <b>116</b>, non-cooperative capture device <b>120</b>, and the object <b>124</b>.</p>
+<p id="p-0119" num="0118">Referring now to <figref idref="DRAWINGS">FIG. 8</figref><i>b</i>, a block diagram illustrating a control apparatus <b>128</b> in accordance with a second embodiment of the present invention is shown. In the second embodiment shown in <figref idref="DRAWINGS">FIG. 8</figref><i>b</i>, most control information is provided to and received from the capture head <b>116</b> through the capture head wireless transceiver <b>640</b>, as illustrated in <figref idref="DRAWINGS">FIGS. 6</figref><i>c </i>and <b>6</b><i>d. </i></p>
+<p id="p-0120" num="0119">Control apparatus <b>128</b> includes a boom fixed end coupling <b>808</b>, which provides electrical connection between the fixed surface <b>100</b> and the boom <b>104</b>. The boom fixed end coupling <b>808</b> receives power <b>608</b> from a power source associated with the fixed surface <b>100</b>. However in other embodiments, power <b>608</b> is not provided through the boom fixed end coupling <b>808</b> and instead the capture head <b>116</b> and non-cooperative capture device <b>120</b> are powered through one or more local power sources in capture head <b>116</b>, as previously described.</p>
+<p id="p-0121" num="0120">Control apparatus <b>128</b> also includes a user interface <b>804</b>, through which one or more human users control operation of the sticky boom. In a preferred embodiment, user interface <b>804</b> utilizes a graphical user interface for efficient communication with the human operators. User interface <b>804</b> generates commands <b>628</b> to a control apparatus wireless transceiver <b>820</b>, and in some cases receives feedback <b>632</b> from the control apparatus wireless transceiver <b>820</b>. The control apparatus wireless transceiver <b>820</b> conveys commands <b>628</b> and feedback <b>632</b> between the fixed surface <b>100</b> and the capture head wireless transceiver <b>640</b>.</p>
+<p id="p-0122" num="0121">In some embodiments, control apparatus <b>128</b> includes various sensors <b>132</b> associated with the fixed surface <b>100</b>. Sensors <b>132</b> provide object and position sense data <b>636</b> to the user interface <b>804</b>, allowing one or more human users or computers to precisely control the capture head <b>116</b>, non-cooperative capture device <b>120</b>, and the object <b>124</b>.</p>
+<p id="p-0123" num="0122">Referring now to <figref idref="DRAWINGS">FIG. 9</figref>, a flowchart illustrating an object <b>124</b> capture process with a simple capture head <b>116</b> in accordance with a first embodiment of the present invention is shown. Flow begins at block <b>904</b>.</p>
+<p id="p-0124" num="0123">At block <b>904</b>, the control apparatus <b>128</b> moves a capture apparatus into proximity to the object <b>124</b>. The capture apparatus includes a boom <b>104</b> and a capture head <b>116</b>, where the capture head <b>116</b> includes a non-cooperative capture device <b>120</b>. Proximity depends on the technology used for the non-cooperative capture device <b>120</b>, based on the distance at which adhesive forces will be effective to initiate contact with the object <b>124</b>.</p>
+<p id="p-0125" num="0124">In the case of electrostatic attraction technology, proximity depends on the number and strength of electrodes in the non-cooperative capture device <b>120</b> and the ability of the conformal surface of the non-cooperative capture device <b>336</b>, <b>424</b>, <b>428</b> to make intimate contact with the object <b>124</b> when the electrodes are energized.</p>
+<p id="p-0126" num="0125">In the case of gecko adhesion technology, proximity depends on the number, density, and configuration of nanofibrillar structures on the conformal surface of the non-cooperative capture device <b>336</b>, <b>424</b>, <b>428</b>, and the ability of the nanofibrillar structures to make intimate contact with the object <b>124</b> when the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is energized.</p>
+<p id="p-0127" num="0126">In the case of Velcro technology, proximity depends on the length of the Velcro nap and requires the Velcro nap to be barely touching the object <b>124</b>. Initial contact in the case of Velcro then requires additional force to be exerted by the non-cooperative capture device <b>120</b> such that the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is directly pushing against the object <b>124</b>.</p>
+<p id="p-0128" num="0127">In the case of glue technology, proximity requires the glue to be barely touching the object <b>124</b>. Initial contact in the case of glue then requires additional force to be exerted by the non-cooperative capture device <b>120</b> such that the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is directly pushing against the object <b>124</b>.</p>
+<p id="p-0129" num="0128">In the case of magnet or electromagnet technology, proximity requires sufficient distance between the non-cooperative capture device <b>120</b> and the object <b>124</b> in order for the non-cooperative capture device <b>120</b> to exert enough attraction force to cause the capture head <b>116</b> to move toward the object <b>124</b>. Flow proceeds to decision block <b>908</b>.</p>
+<p id="p-0130" num="0129">At decision block <b>908</b>, the control apparatus <b>128</b> determines if the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b>. In the embodiments illustrated in <figref idref="DRAWINGS">FIGS. 6</figref><i>b </i>and <b>6</b><i>d</i>, the capture head control module <b>624</b> instead of the control apparatus <b>128</b> may determine if the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b>. If the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b> then flow proceeds to block <b>916</b>. If the capture head <b>116</b> is not close enough to the object <b>124</b> to capture the object <b>124</b>, flow instead proceeds to block <b>912</b>.</p>
+<p id="p-0131" num="0130">At block <b>912</b>, the control apparatus <b>128</b> (or capture head control module <b>624</b>) moves the capture apparatus into closer proximity to the object <b>124</b>. In some cases, it will be required to move the boom <b>104</b> in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. In other cases, it will be required to move the capture head <b>116</b> relative to the boom <b>104</b> in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. In yet other cases, it will be required to cause capture head actuators <b>444</b> in the capture head <b>116</b> itself to move in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. Flow proceeds to decision block <b>908</b>.</p>
+<p id="p-0132" num="0131">At block <b>916</b>, the control apparatus <b>128</b> minimizes relative velocity between the capture head <b>116</b> and the object <b>124</b>. It is important to minimize relative velocity between the capture head <b>116</b> and the object <b>124</b> in order to minimize relative forces between the capture head <b>116</b> and the object <b>124</b>, and maximize the amount of time the non-cooperative capture device <b>120</b> is close to the object <b>124</b>. At this time, the object <b>124</b> is not yet captured. Therefore, the boom <b>104</b> and capture head <b>116</b> are moved to match the current speed and direction of the object <b>124</b>. Flow proceeds to blocks <b>920</b> and <b>924</b>.</p>
+<p id="p-0133" num="0132">At block <b>920</b>, the non-cooperative capture device <b>120</b> makes initial contact with the object <b>124</b>. At this point, the conformal surface of the non-cooperative capture device <b>336</b>, <b>424</b>, <b>428</b> is exerting initial force against the object <b>124</b>. Flow proceeds to block <b>928</b>.</p>
+<p id="p-0134" num="0133">At block <b>924</b>, the control apparatus <b>128</b> minimizes forces applied by the capture head <b>116</b> to the object <b>124</b>. Forces are minimized in order to reduce the chance of the object <b>124</b> bouncing off the capture head <b>116</b> after initial contact is made. Sensors <b>132</b> in the capture head <b>116</b> can monitor the capture head <b>116</b> for forces imposed by the object <b>124</b>. In response to the observed forces during initial contact, the control apparatus <b>128</b> provides commands to boom actuators <b>144</b>, capture head actuators <b>444</b>, and the capture head coupling <b>304</b>, <b>404</b> to impart equal and opposite forces on the object <b>124</b>. Such force feedback should be applied to the object <b>124</b> as fast as possible to minimize the chance of the object <b>124</b> bouncing off the capture head <b>116</b>. Flow proceeds to block <b>928</b>.</p>
+<p id="p-0135" num="0134">At block <b>928</b>, the control apparatus <b>128</b> activates the non-cooperative capture device <b>120</b> in the capture head <b>116</b>. In the case of electrostatic attraction and gecko adhesion technologies, activating the non-cooperative capture device <b>120</b> means energizing electrodes and/or nanofibrillar structures, respectively, in the non-cooperative capture device <b>120</b>. In the case of Velcro, permanent magnets, and glues, activating the non-cooperative capture device <b>120</b> means slowly moving the conformal surface <b>336</b>, <b>424</b>, <b>428</b> toward the object <b>124</b>. In the case of electromagnets, activating the non-cooperative capture device <b>120</b> means activating the electromagnet to induce attraction between the non-cooperative capture device <b>120</b> in the object <b>124</b>. Flow proceeds to block <b>932</b>.</p>
+<p id="p-0136" num="0135">At block <b>932</b>, the non-cooperative capture device <b>120</b> establishes intimate contact with the object <b>124</b>. With the non-cooperative capture device <b>120</b> activated, the conformal surface <b>336</b>, <b>424</b>, <b>428</b> continues to press against the object <b>124</b> and resiliently conforms to the object <b>124</b> shape, orientation, and/or texture. By resiliently conforming to the object <b>124</b> shape, orientation, and/or texture, the non-cooperative capture device <b>120</b> maximizes surface contact with the object <b>124</b> and thereby captures the object <b>124</b>. Flow proceeds to block <b>936</b>.</p>
+<p id="p-0137" num="0136">At block <b>936</b>, the control apparatus <b>128</b> arrests the object <b>124</b> motion. Arresting the object <b>124</b> motion includes imparting forces through the boom <b>104</b> and capture head <b>116</b> to reduce the velocity of the object <b>124</b> such that the object <b>124</b> is moving at a desirable speed and direction, or not moving. Flow proceeds to blocks <b>940</b> and <b>944</b>.</p>
+<p id="p-0138" num="0137">At block <b>940</b>, the control apparatus <b>128</b> moves the object <b>124</b>. The object <b>124</b> is able to be moved into a position relative to the fixed surface <b>100</b> based on the size, complexity, and flexibility of the boom <b>104</b> and capture head <b>116</b>. Flow ends at block <b>940</b>.</p>
+<p id="p-0139" num="0138">At block <b>944</b>, the control apparatus <b>128</b> disengages the boom <b>104</b> from the capture head <b>116</b>. The coupling between the boom <b>104</b> and the capture head <b>116</b> allows separation between the boom free end <b>112</b><i>b </i>and the capture head <b>116</b>. Since the capture head <b>116</b> is rigidly captured to the object <b>124</b>, the capture head <b>116</b> remains attached to the object <b>124</b> after the boom free end <b>112</b><i>b </i>is separated from the capture head <b>116</b>. This then allows another boom <b>104</b> or other device to engage the capture head <b>116</b> at some time in the future. It should be noted that active electrical devices in the non-cooperative capture device <b>120</b> of the capture head <b>116</b> must continue to be activated after the boom <b>104</b> is separated from the capture head <b>116</b>. Therefore, a power source suitable of powering the non-cooperative capture device <b>120</b> in the absence of power <b>608</b> from the boom <b>104</b> must be provided in the capture head <b>116</b>, as previously discussed. Flow ends at block <b>944</b>.</p>
+<p id="p-0140" num="0139">Referring now to <figref idref="DRAWINGS">FIG. 10</figref>, a flowchart illustrating an object <b>124</b> capture passive process in accordance with a second embodiment of the present invention is shown. Flow begins at block <b>1004</b>.</p>
+<p id="p-0141" num="0140">At block <b>1004</b>, the control apparatus <b>128</b> moves a capture apparatus into proximity to the object <b>124</b>. The capture apparatus includes a boom <b>104</b> and a capture head <b>116</b>, where the capture head <b>116</b> includes a non-cooperative capture device <b>120</b>. Proximity depends on the technology used for the non-cooperative capture device <b>120</b>, based on the distance at which adhesive forces will be effective to initiate contact with the object <b>124</b>.</p>
+<p id="p-0142" num="0141">In the case of electrostatic attraction technology, proximity depends on the number and strength of electrodes in the non-cooperative capture device <b>120</b> and the ability of the conformal surface <b>336</b>, <b>424</b>, <b>428</b> to make intimate contact with the object <b>124</b> when the electrodes are energized.</p>
+<p id="p-0143" num="0142">In the case of gecko adhesion technology, proximity depends on the number, density, and configuration of nanofibrillar structures on the conformal surface of the non-cooperative capture device <b>336</b>, <b>424</b>, <b>428</b>, and the ability of the nanofibrillar structures to make intimate contact with the object <b>124</b> when the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is energized.</p>
+<p id="p-0144" num="0143">In the case of Velcro technology, proximity depends on the length of the Velcro nap and requires the Velcro nap to be barely touching the object <b>124</b>. Initial contact in the case of Velcro then requires additional force to be exerted by the non-cooperative capture device <b>120</b> such that the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is directly pushing against the object <b>124</b>.</p>
+<p id="p-0145" num="0144">In the case of glue technology, proximity requires the glue to be barely touching the object <b>124</b>. Initial contact in the case of glue then requires additional force to be exerted by the non-cooperative capture device <b>120</b> such that the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is directly pushing against the object <b>124</b>.</p>
+<p id="p-0146" num="0145">In the case of magnet or electromagnet technology, proximity requires sufficient distance between the non-cooperative capture device <b>120</b> and the object <b>124</b> in order for the non-cooperative capture device <b>120</b> to exert enough attraction force to cause the capture head <b>116</b> to move toward the object <b>124</b>. Flow proceeds to decision block <b>1008</b>.</p>
+<p id="p-0147" num="0146">At decision block <b>1008</b>, the control apparatus <b>128</b> determines if the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b>. In the embodiments illustrated in <figref idref="DRAWINGS">FIGS. 6</figref><i>b </i>and <b>6</b><i>d</i>, the capture head control module <b>624</b> instead of the control apparatus <b>128</b> may determine if the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b>. If the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b> then flow proceeds to block <b>1016</b>. If the capture head <b>116</b> is not close enough to the object <b>124</b> to capture the object <b>124</b>, then flow instead proceeds to block <b>1012</b>.</p>
+<p id="p-0148" num="0147">At block <b>1012</b>, the control apparatus <b>128</b> (or capture head control module <b>624</b>) moves the capture apparatus into closer proximity to the object <b>124</b>. In some cases, it will be required to move the boom <b>104</b> in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. In other cases, it will be required to move the capture head <b>116</b> relative to the boom <b>104</b> in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. In yet other cases, it will be required to cause capture head actuators <b>444</b> in the capture head <b>116</b> itself to move in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. Flow proceeds to decision block <b>1008</b>.</p>
+<p id="p-0149" num="0148">At block <b>1016</b>, the control apparatus <b>128</b> minimizes relative velocity between the capture head <b>116</b> and the object <b>124</b>. It is important to minimize relative velocity between the capture head <b>116</b> and the object <b>124</b> in order to minimize relative forces between the capture head <b>116</b> and the object <b>124</b>, and maximize the amount of time the non-cooperative capture device <b>120</b> is close to the object <b>124</b>. At this time, the object <b>124</b> is not yet captured. Therefore, the boom <b>104</b> and capture head <b>116</b> are moved to match the current speed and direction of the object <b>124</b>. Flow proceeds to block <b>1020</b>.</p>
+<p id="p-0150" num="0149">At block <b>1020</b>, the control apparatus <b>128</b> releases brakes <b>348</b> on capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b>. Releasing brakes <b>348</b> on capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b> allows each of the non-cooperative capture device pads <b>344</b> to move freely within the movement capabilities of capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b>. For example, hinged joints between any of capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b> allows free movement up to the limitations of each hinged joint. Flow proceeds to blocks <b>1024</b> and <b>1028</b>.</p>
+<p id="p-0151" num="0150">At block <b>1024</b>, the non-cooperative capture device <b>120</b> makes initial contact with the object <b>124</b>. At this point, the conformal surface of the non-cooperative capture device <b>336</b>, <b>424</b>, <b>428</b> is exerting initial force against the object <b>124</b>. Flow proceeds to block <b>1032</b>.</p>
+<p id="p-0152" num="0151">At block <b>1028</b>, the control apparatus <b>128</b> minimizes forces applied by the capture head <b>116</b> to the object <b>124</b>. Forces are minimized in order to reduce the chance of the object <b>124</b> bouncing off the capture head <b>116</b> after initial contact is made. Sensors <b>132</b> in the capture head <b>116</b> can monitor the capture head <b>116</b> for forces imposed by the object <b>124</b>. In response to the observed forces during initial contact, the control apparatus <b>128</b> provides commands to boom actuators <b>144</b>, capture head actuators <b>444</b>, and the capture head coupling <b>304</b>, <b>404</b> to impart equal and opposite forces on the object <b>124</b>. Such force feedback should be applied to the object <b>124</b> as fast as possible to minimize the chance of the object <b>124</b> bouncing off the capture head <b>116</b>. Flow proceeds to block <b>1032</b>.</p>
+<p id="p-0153" num="0152">At block <b>1032</b>, the control apparatus <b>128</b> activates a non-cooperative capture device <b>120</b> in the capture head <b>116</b>. In the case of electrostatic attraction and gecko adhesion technologies, activating the non-cooperative capture device <b>120</b> means energizing electrodes or nanofibrillar structures, respectively, in the non-cooperative capture device <b>120</b>. In the case of Velcro, permanent magnets, and glues, activating the non-cooperative capture device <b>120</b> means slowly moving the conformal surface <b>336</b>, <b>424</b>, <b>428</b> toward the object <b>124</b>. In the case of electromagnets, activating the noncooperative capture device <b>120</b> means energizing the electromagnets. Flow proceeds to block <b>1036</b>.</p>
+<p id="p-0154" num="0153">At block <b>1036</b>, the non-cooperative capture device <b>120</b> establishes intimate contact with the object <b>124</b>. With the non-cooperative capture device <b>120</b> activated, the conformal surface <b>336</b>, <b>424</b>, <b>428</b> continues to press against the object <b>124</b> and resiliently conforms to the object <b>124</b> shape, orientation, and/or texture. By resiliently conforming to the object <b>124</b> shape, orientation, and/or texture, the non-cooperative capture device <b>120</b> maximizes surface contact with the object <b>124</b> and thereby captures the object <b>124</b>. Flow proceeds to block <b>1040</b>.</p>
+<p id="p-0155" num="0154">At block <b>1040</b>, the control apparatus <b>128</b> activates brakes <b>348</b> on capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b>. Activating brakes <b>348</b> on capture head support members <b>308</b>, <b>312</b>, <b>316</b>, <b>320</b>, <b>324</b>, and <b>328</b> locks each of the non-cooperative capture device pads <b>344</b> into the current position and orientation. Each of the non-cooperative capture device pads <b>344</b> conforms to the shape of the object <b>124</b> when the control apparatus <b>128</b> activated the non-cooperative capture device <b>120</b> in block <b>1028</b>. Activating the brakes <b>348</b> preserves the current conformed position and orientation of the non-cooperative capture device pads <b>344</b>, and ensures that the intimate contact established in step <b>1032</b> will be preserved. Flow proceeds to block <b>1044</b>.</p>
+<p id="p-0156" num="0155">At block <b>1044</b>, the control apparatus <b>128</b> arrests the object <b>124</b> motion. Arresting the object <b>124</b> motion includes imparting forces through the boom <b>104</b> and capture head <b>116</b> to reduce the velocity of the object <b>124</b> such that the object <b>124</b> is moving at a desirable speed and direction, or not moving. Flow proceeds to blocks <b>1048</b> and <b>1052</b>.</p>
+<p id="p-0157" num="0156">At block <b>1048</b>, the control apparatus <b>128</b> moves the object <b>124</b>. The object <b>124</b> is able to be moved into a position relative to the fixed surface <b>100</b> based on the size, complexity, and flexibility of the boom <b>104</b> and capture head <b>116</b>. Flow ends at block <b>1048</b>.</p>
+<p id="p-0158" num="0157">At block <b>1052</b>, the control apparatus <b>128</b> disengages the boom <b>104</b> from the capture head <b>116</b>. The coupling between the boom <b>104</b> and the capture head <b>116</b> allows separation between the boom free end <b>112</b><i>b </i>and the capture head <b>116</b>. Since the capture head <b>116</b> is rigidly captured to the object <b>124</b>, the capture head <b>116</b> remains attached to the object <b>124</b> after the boom free end <b>112</b><i>b </i>is separated from the capture head <b>116</b>. This then allows another boom <b>104</b> or other device to engage the capture head <b>116</b> at some time in the future. It should be noted that active electrical devices in the non-cooperative capture device <b>120</b> of the capture head <b>116</b> must continue to be activated after the boom <b>104</b> is separated from the capture head <b>116</b>. Therefore, a power source suitable of powering the non-cooperative capture device <b>120</b> in the absence of power <b>608</b> from the boom <b>104</b> must be provided in the capture head <b>116</b>. Flow ends at block <b>1052</b>.</p>
+<p id="p-0159" num="0158">Referring now to <figref idref="DRAWINGS">FIG. 11</figref>, a flowchart illustrating an object <b>124</b> capture active process in accordance with a third embodiment of the present invention is shown. Flow begins at block <b>1104</b>.</p>
+<p id="p-0160" num="0159">At block <b>1104</b>, the control apparatus <b>128</b> moves a capture apparatus into proximity to the object <b>124</b>. The capture apparatus includes a boom <b>104</b> and a capture head <b>116</b>, where the capture head <b>116</b> includes a non-cooperative capture device <b>120</b>. Proximity depends on the technology used for the non-cooperative capture device <b>120</b>, based on the distance at which adhesive forces will be effective to initiate contact with the object <b>124</b>.</p>
+<p id="p-0161" num="0160">In the case of electrostatic attraction technology, proximity depends on the number of electrodes in the non-cooperative capture device <b>120</b> and the ability of the conformal surface <b>336</b>, <b>424</b>, <b>428</b> to make intimate contact with the object <b>124</b> when the electrodes are energized.</p>
+<p id="p-0162" num="0161">In the case of gecko adhesion technology, proximity depends on the number, density, and configuration of nanofibrillar structures on the conformal surface of the non-cooperative capture device <b>336</b>, <b>424</b>, <b>428</b>, and the ability of the nanofibrillar structures to make intimate contact with the object <b>124</b> when the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is energized.</p>
+<p id="p-0163" num="0162">In the case of Velcro technology, proximity depends on the length of the Velcro nap and requires the Velcro nap to be barely touching the object <b>124</b>. Initial contact in the case of Velcro then requires additional force to be exerted by the non-cooperative capture device <b>120</b> such that the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is directly pushing against the object <b>124</b>.</p>
+<p id="p-0164" num="0163">In the case of glue technology, proximity requires the glue to be barely touching the object <b>124</b>. Initial contact in the case of glue then requires additional force to be exerted by the non-cooperative capture device <b>120</b> such that the conformal surface <b>336</b>, <b>424</b>, <b>428</b> is directly pushing against the object <b>124</b>.</p>
+<p id="p-0165" num="0164">In the case of magnet or electromagnet technology, proximity requires sufficient distance between the non-cooperative capture device <b>120</b> and the object <b>124</b> in order for the non-cooperative capture device <b>120</b> to exert enough attraction force to cause the capture head <b>116</b> to move toward the object <b>124</b>. Flow proceeds to decision block <b>1108</b>.</p>
+<p id="p-0166" num="0165">At decision block <b>1108</b>, the control apparatus <b>128</b> determines if the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b>. In the embodiments illustrated in <figref idref="DRAWINGS">FIGS. 6</figref><i>b </i>and <b>6</b><i>d</i>, the capture head control module <b>624</b> instead of the control apparatus <b>128</b> may determine if the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b>. If the capture head <b>116</b> is close enough to the object <b>124</b> to capture the object <b>124</b> then flow proceeds to block <b>1116</b>. If the capture head <b>116</b> is not close enough to the object <b>124</b> to capture the object <b>124</b>, then flow instead proceeds to block <b>1112</b>.</p>
+<p id="p-0167" num="0166">At block <b>1112</b>, the control apparatus <b>128</b> (or capture head control module <b>624</b>) moves the capture apparatus into closer proximity to the object <b>124</b>. In some cases, it will be required to move the boom <b>104</b> in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. In other cases, it will be required to move the capture head <b>116</b> relative to the boom <b>104</b> in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. In yet other cases, it will be required to cause capture head actuators <b>444</b> in the capture head <b>116</b> itself to move in order to move the capture head <b>116</b> close enough to the object <b>124</b> to capture the object <b>124</b>. Flow proceeds to decision block <b>1108</b>.</p>
+<p id="p-0168" num="0167">At block <b>1116</b>, the control apparatus <b>128</b> minimizes relative velocity between the capture head <b>116</b> and the object <b>124</b>. It is important to minimize relative velocity between the capture head <b>116</b> and the object <b>124</b> in order to minimize relative forces between the capture head <b>116</b> and the object <b>124</b>, and maximize the amount of time the non-cooperative capture device <b>120</b> is close to the object <b>124</b>. At this time, the object <b>124</b> is not yet captured. Therefore, the boom <b>104</b> and capture head <b>116</b> are moved to match the current speed and direction of the object <b>124</b>. Flow proceeds to blocks <b>1132</b> and <b>1136</b>.</p>
+<p id="p-0169" num="0168">At block <b>1120</b>, the control apparatus <b>128</b> determines the shape, topography, and/or texture of the object <b>124</b>. The control apparatus <b>128</b> uses one or more sensors <b>132</b> to identify the shape, topography, and/or texture of the object <b>124</b>. The sensors <b>132</b> may be any combination of cameras, LIDAR devices, radar devices, or optical devices. By determining the shape, topography, and/or texture of the object <b>124</b>, the control apparatus <b>128</b> is able to optimize the non-cooperative capture device <b>120</b> for capturing the object <b>124</b>. Flow proceeds to block <b>1124</b>.</p>
+<p id="p-0170" num="0169">At block <b>1124</b>, the control apparatus <b>128</b> sends commands to the capture head <b>116</b> to adjust capture head actuators <b>444</b> to conform to the object <b>124</b> shape, topography, and/or texture as identified by sensors <b>132</b> in block <b>1120</b>. Flow proceeds to block <b>1128</b>.</p>
+<p id="p-0171" num="0170">At block <b>1128</b>, the capture head <b>116</b> adjust the capture head actuators <b>444</b> to conform to the object <b>124</b> shape, topography, and/or texture. At this point, the non-cooperative capture device pads <b>440</b> are preloaded in order to closely approximate the shape, topography, and/or texture of the object <b>124</b> in closest proximity to the non-cooperative capture device <b>120</b>. Flow proceeds to blocks <b>1132</b> and <b>1136</b>.</p>
+<p id="p-0172" num="0171">At block <b>1132</b>, the non-cooperative capture device <b>120</b> makes initial contact with the object <b>124</b>. At this point, the conformal surface of the non-cooperative capture device <b>336</b>, <b>424</b>, <b>428</b> is exerting initial force against the object <b>124</b>. Flow proceeds to block <b>1140</b>.</p>
+<p id="p-0173" num="0172">At block <b>1136</b>, the control apparatus <b>128</b> minimizes forces applied by the capture head <b>116</b> to the object <b>124</b>. Forces are minimized in order to reduce the chance of the object <b>124</b> bouncing off the capture head <b>116</b> after initial contact is made. Sensors <b>132</b> in the capture head <b>116</b> can monitor the capture head <b>116</b> for forces imposed by the object <b>124</b>. In response to the observed forces during initial contact, the control apparatus <b>128</b> provides commands to boom actuators <b>144</b>, capture head actuators <b>444</b>, and the capture head coupling <b>304</b>, <b>404</b> to impart equal and opposite forces on the object <b>124</b>. Such force feedback should be applied to the object <b>124</b> as fast as possible to minimize the chance of the object <b>124</b> bouncing off the capture head <b>116</b>. Flow proceeds to block <b>1140</b>.</p>
+<p id="p-0174" num="0173">At block <b>1140</b>, the control apparatus <b>128</b> activates a non-cooperative capture device <b>120</b> in the capture head <b>116</b>. In the case of electrostatic attraction and gecko adhesion technologies, activating the non-cooperative capture device <b>120</b> means energizing electrodes or nanofibrillar structures, respectively, in the non-cooperative capture device <b>120</b>. In the case of Velcro, permanent magnets, and glues, activating the non-cooperative capture device <b>120</b> means slowly moving the conformal surface <b>336</b>, <b>424</b>, <b>428</b> toward the object <b>124</b>. In the case of electromagnets, activating the non-cooperative capture device <b>120</b> means energizing electromagnets in the non-cooperative capture device <b>120</b>. Flow proceeds to block <b>1144</b>.</p>
+<p id="p-0175" num="0174">At block <b>1144</b>, the non-cooperative capture device <b>120</b> establishes intimate contact with the object <b>124</b>. With the non-cooperative capture device <b>120</b> activated, the conformal surface <b>336</b>, <b>424</b>, <b>428</b> continues to press against the object <b>124</b> and resiliently conforms to the object <b>124</b> shape, orientation, and/or texture. By resiliently conforming to the object <b>124</b> shape, orientation, and/or texture, the non-cooperative capture device <b>120</b> maximizes surface contact with the object <b>124</b> and thereby captures the object <b>124</b>. Flow proceeds to block <b>1148</b>.</p>
+<p id="p-0176" num="0175">At block <b>1148</b>, the control apparatus <b>128</b> arrests the object <b>124</b> motion. Arresting the object <b>124</b> motion includes imparting forces through the boom <b>104</b> and capture head <b>116</b> to reduce the velocity of the object <b>124</b> such that the object <b>124</b> is moving at a desirable speed and direction, or not moving. Flow proceeds to blocks <b>1152</b> and <b>1156</b>.</p>
+<p id="p-0177" num="0176">At block <b>1152</b>, the control apparatus <b>128</b> moves the object <b>124</b>. The object <b>124</b> is able to be moved into a position relative to the fixed surface <b>100</b> based on the size, complexity, and flexibility of the boom <b>104</b> and capture head <b>116</b>. Flow ends at block <b>1152</b>.</p>
+<p id="p-0178" num="0177">At block <b>1156</b>, the control apparatus <b>128</b> disengages the boom <b>104</b> from the capture head <b>116</b>. The coupling between the boom <b>104</b> and the capture head <b>116</b> allows separation between the boom free end <b>112</b><i>b </i>and the capture head <b>116</b>. Since the capture head <b>116</b> is rigidly captured to the object <b>124</b>, the capture head <b>116</b> remains attached to the object <b>124</b> after the boom free end <b>112</b><i>b </i>is separated from the capture head <b>116</b>. This then allows another boom <b>104</b> or other device to engage the capture head <b>116</b> at some time in the future. It should be noted that active electrical devices in the non-cooperative capture device <b>120</b> of the capture head <b>116</b> must continue to be activated after the boom <b>104</b> is separated from the capture head <b>116</b>. Therefore, a power source suitable of powering the non-cooperative capture device <b>120</b> in the absence of power <b>608</b> from the boom <b>104</b> must be provided in the capture head <b>116</b>, as previously discussed. Flow ends at block <b>1156</b>.</p>
+<p id="p-0179" num="0178">Finally, those skilled in the art should appreciate that they can readily use the disclosed conception and specific embodiments as a basis for designing or modifying other structures for carrying out the same purposes of the present invention without departing from the spirit and scope of the invention as defined by the appended claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>We claim:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A device for non-cooperatively capturing an object, comprising:
+<claim-text>a boom, comprising:
+<claim-text>a fixed end coupled to a structure;</claim-text>
+<claim-text>a free end, wherein the free end is able to move relative to the structure; and</claim-text>
+<claim-text>one or more boom deployers for moving the free end of the boom relative to the structure;</claim-text>
+</claim-text>
+<claim-text>a capture head, coupled to the free end of the boom, comprising a non-cooperative capture device, wherein the non-cooperative capture device comprises one or more pads utilizing at least one of electrostatic attraction, gecko adhesion, Velcro, glue, low-temperature melt alloys and polymers, electromagnets, and magnets on the one or more pads to establish intimate contact between the capture head and the object, wherein the non-cooperative capture device does not incorporate a mechanical gripper; and</claim-text>
+<claim-text>a control apparatus,</claim-text>
+<claim-text>wherein the control apparatus controls the one or more boom deployers and capture head to move the capture head in proximity to the object, wherein the control apparatus determines if the capture head is close enough to the object to capture the object, wherein the control apparatus moves the capture head in closer proximity to the object if the control apparatus determines the capture head is not close enough to the object to capture the object, wherein the control apparatus minimizes relative velocity between the capture head and the object, capture, wherein the non-cooperative capture device makes initial contact with the object, wherein the control apparatus activates the non-cooperative capture device, wherein the non-cooperative capture device establishes intimate contact between the capture head and the object, wherein the device for non-cooperatively capturing an object arrests the object motion.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00001">claim 1</claim-ref>, the boom comprising a plurality of linearly coupled segments, wherein each linearly coupled segment is able to move independently of other linearly coupled segments.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00001">claim 1</claim-ref>, the boom comprising one or more linearly coupled segments, wherein the length of at least one linearly coupled segment is extendable and retractable, wherein the boom deployer comprises at least one boom actuator in each of the one or more linearly coupled segments.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the capture head comprises one or more articulated support members that control the position and orientation of the non-cooperative capture device pads, wherein the one or more articulated support members comprises one or more brakes that freeze the position of the one or more articulated support members when activated and when inactivated allow the non-cooperative capture device pads to conform to the shape of the object when in contact with the object, wherein the control apparatus inactivates the one or more brakes prior to the non-cooperative capture device making initial contact with the object.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein when the one or more brakes are inactivated, each of the one or more articulated support members moves within the range of motion of the each of the one or more articulated support members subject to external forces including at least one of contact with the object or spring forces from one or more springs attached to each of the one or more articulated support members.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the capture head comprises one or more articulated support members comprising one or more capture head actuators that control the position and orientation of the one or more articulated support members, wherein the one or more articulated support members determine the position and orientation of the one or more non-cooperative capture device pads, wherein one or more sensors of the control apparatus determine the shape and topography of the object, and in response direct the capture head actuators to conform to the shape and topography of the object prior to the non-cooperative capture device making initial contact with the object.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the capture head is decoupled from the free end of the boom after the non-cooperative capture device establishes intimate contact between the capture head and the object.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00001">claim 1</claim-ref>, the non-cooperative capture device comprising a conformal surface that makes direct contact with the object, wherein the control apparatus causes the conformal surface to conform to at least one of shape, topography, and texture of the object.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein one or more actuators in the capture head move the conformal surface to conform to at least one of the shape, topography, and texture of the object.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The device for non-cooperatively capturing an object of <claim-ref idref="CLM-00001">claim 1</claim-ref>, the structure comprising one of a spacecraft, a space station, a space suited astronaut, and a satellite.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. A method for non-cooperatively capturing an object, comprising:
+<claim-text>utilizing a control apparatus to move a capture apparatus into close proximity to the object, the capture apparatus comprising:
+<claim-text>a boom, comprising:
+<claim-text>a fixed end attached to a structure;</claim-text>
+<claim-text>a free end, wherein the free end is able to move relative to the structure; and</claim-text>
+<claim-text>a boom deployer for moving the free end of the boom; and</claim-text>
+</claim-text>
+<claim-text>a capture head, coupled to the free end of the boom comprising a non-cooperative capture device, wherein the non-cooperative capture device comprises one or more pads utilizing at least one of electrostatic attraction, gecko adhesion, Velcro, glue, low-temperature melt alloys and polymers, electromagnets, and magnets on the one or more of pads to establish intimate contact between the capture head and the object, wherein the non-cooperative capture device does not incorporate a mechanical gripper;</claim-text>
+</claim-text>
+<claim-text>determining if the capture head is close enough to the object to capture the object;
+<claim-text>if the capture head is not close enough to the object to capture the object, moving the capture head closer to the object with the control apparatus; and</claim-text>
+<claim-text>if the capture head is close enough to the object to capture the object:
+<claim-text>minimizing relative velocity, by the control apparatus, between the capture head and the object;</claim-text>
+<claim-text>preparing the capture head to make contact with the object;</claim-text>
+<claim-text>making initial contact between the non-cooperative capture device and the object; and</claim-text>
+<claim-text>activating the non-cooperative capture device, by the control apparatus;</claim-text>
+<claim-text>establishing intimate contact between the capture head and the object, by the control apparatus; and</claim-text>
+<claim-text>arresting the object motion, by the control and capture apparatus, wherein the control apparatus is able to move the object after the object motion is arrested.</claim-text>
+</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The method for non-cooperatively capturing the object of <claim-ref idref="CLM-00011">claim 11</claim-ref>, the boom comprising a plurality of linearly coupled segments, wherein each segment is able to move independently of other segments.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The method for non-cooperatively capturing the object of <claim-ref idref="CLM-00011">claim 11</claim-ref>, the boom comprising one or more linearly coupled segments, wherein the length of at least one linearly coupled segment is extendable and retractable, wherein the boom deployer comprises at least one actuator in each of the one or more linearly coupled segments.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The method for non-cooperatively capturing an object of <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein preparing the capture head to make contact with the object comprises:
+<claim-text>allowing the non-cooperative capture device pads to conform to the shape of the object when one or more brakes in one or more articulated support members are inactivated, wherein the control apparatus inactivates the one or more brakes prior to the non-cooperative capture device making initial contact with the object; and</claim-text>
+<claim-text>freezing the position of the one or more articulated support members when the one or more brakes in the one or more articulated support members is activated; wherein the control apparatus activates the brakes after establishing intimate contact between the capture head and the object,</claim-text>
+<claim-text>wherein the capture head comprises the one or more articulated support members that control the position and orientation of the non-cooperative capture device pads.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The method for non-cooperatively capturing an object of <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein preparing the capture head to make contact with the object comprises:
+<claim-text>determining, by one or more sensors of the control apparatus, the shape and topography of the object, and in response:</claim-text>
+<claim-text>directing capture head actuators to conform to the shape and topography of the object prior to the non-cooperative capture device making initial contact with the object,</claim-text>
+<claim-text>wherein the capture head comprises one or more articulated support members comprising one or more capture head actuators that control the position and orientation of the one or more articulated support members, wherein the one or more articulated support members determine the position and orientation of the one or more non-cooperative capture device pads.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The method for non-cooperatively capturing the object of <claim-ref idref="CLM-00011">claim 11</claim-ref>, further comprising the control apparatus decoupling the capture head from the free end of the boom after arresting the object motion.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The method for non-cooperatively capturing the object of <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein the separated capture head comprises an attachment point for the same or a different boom to capture the capture head and object at a later time.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The method for non-cooperatively capturing the object of <claim-ref idref="CLM-00011">claim 11</claim-ref>, the non-cooperative capture device comprising a conformal surface that makes direct contact with the object, the control apparatus causes the conformal surface to conform to at least one of the shape, topography, and texture of the object.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The method for non-cooperatively capturing the object of <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein one or more capture head actuators move the conformal surface to conform to at least one of the shape, topography, and texture of the object.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. An apparatus for non-cooperatively capturing an object in space, comprising:
+<claim-text>a boom, comprising:
+<claim-text>a fixed end coupled to a structure, wherein the structure is one of a spacecraft, a satellite, a space station, or a space suited astronaut; and</claim-text>
+<claim-text>a free end, wherein the free end is able to move relative to the structure,</claim-text>
+<claim-text>wherein the boom is expandable and retractable between the fixed and free end; and</claim-text>
+</claim-text>
+<claim-text>a capture head, coupled to the free end of the boom, comprising a non-cooperative capture device, the non-cooperative capture device comprising one or more pads utilizing a resettable adhesive to establish intimate contact between the capture head and the object; and</claim-text>
+<claim-text>a control apparatus for controlling movement of the capture head relative to the structure and engagement between the capture head and the object,</claim-text>
+<claim-text>wherein the control apparatus directs movement of the boom and capture head to move the capture head in proximity to the object, wherein the control apparatus determines if the capture head is close enough to the object to capture the object, wherein the control apparatus moves the capture head in closer proximity to the object if the capture apparatus determines the capture head is not close enough to the object to capture the object, wherein the control apparatus minimizes relative velocity between the capture head and the object, wherein the capture head comprises one or more articulated support members comprising one or more capture head actuators that control the position and orientation of the one or more articulated support members, wherein the one or more articulated support members determine the position and orientation of the one or more capture device pads, wherein one or more sensors of the control apparatus determine the shape and topography of the object, and in response direct the capture head actuators to conform to the shape and topography of the object prior to the non-cooperative capture device making initial contact with the object, wherein the non-cooperative capture device makes initial contact with the object, wherein the control apparatus activates a non-cooperative capture device in the capture head, wherein the non-cooperative capture device establishes intimate contact between the capture head and the object, wherein the apparatus for non-cooperatively capturing an object in space arrests object motion, wherein the control apparatus directs movement of the boom and capture head to move the object in space. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

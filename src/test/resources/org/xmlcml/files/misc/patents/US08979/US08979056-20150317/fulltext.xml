@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979056-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979056</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13901825</doc-number>
+<date>20130524</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>60</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>F</subclass>
+<main-group>5</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>27</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>13</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>13</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>13</main-group>
+<subgroup>02</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>13</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>2483091</main-classification>
+<further-classification>248200</further-classification>
+<further-classification>248300</further-classification>
+<further-classification>248674</further-classification>
+<further-classification>244 54</further-classification>
+</classification-national>
+<invention-title id="d2e53">Cabin air compressor support bracket</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2883135</doc-number>
+<kind>A</kind>
+<name>Smalley</name>
+<date>19590400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2482305</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>5439189</doc-number>
+<kind>A</kind>
+<name>Wiley et al.</name>
+<date>19950800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5954309</doc-number>
+<kind>A</kind>
+<name>Kato et al.</name>
+<date>19990900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248636</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>6270051</doc-number>
+<kind>B1</kind>
+<name>Power</name>
+<date>20010800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248638</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>7134252</doc-number>
+<kind>B2</kind>
+<name>Thompson</name>
+<date>20061100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52712</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>7516621</doc-number>
+<kind>B2</kind>
+<name>Suttie et al.</name>
+<date>20090400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 60796</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>7637521</doc-number>
+<kind>B2</kind>
+<name>Grant</name>
+<date>20091200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>280279</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>7810295</doc-number>
+<kind>B2</kind>
+<name>Thompson</name>
+<date>20101000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 52511</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>7909286</doc-number>
+<kind>B2</kind>
+<name>Martinez Rueda et al.</name>
+<date>20110300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 58</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>8028671</doc-number>
+<kind>B1</kind>
+<name>Grozich</name>
+<date>20111000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>8813457</doc-number>
+<kind>B2</kind>
+<name>Underkofler et al.</name>
+<date>20140800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>2014/0151518</doc-number>
+<kind>A1</kind>
+<name>Vignali et al.</name>
+<date>20140600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2482194</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>2483091</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248200</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248300</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248639</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248674</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 54</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>6</number-of-drawing-sheets>
+<number-of-figures>7</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140346301</doc-number>
+<kind>A1</kind>
+<date>20141127</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Hamilton Sundstrand Corporation</orgname>
+<address>
+<city>Windsor Locks</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Mayo</last-name>
+<first-name>Luke J.</first-name>
+<address>
+<city>Coventry</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Patel</last-name>
+<first-name>Alpesh</first-name>
+<address>
+<city>Simsbury</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Cantor Colburn LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Hamilton Sundstrand Corporation</orgname>
+<role>02</role>
+<address>
+<city>Windsor Locks</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>King</last-name>
+<first-name>Anita M</first-name>
+<department>3632</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A support bracket for a cabin air compressor (CAC) assembly includes a CAC mounting portion formed substantially orthogonal to an access portion and a structural support portion. A cross-support bracket mounting portion is formed at an angle relative to the access portion. An upper lug portion is formed at an angle relative to the access portion and substantially orthogonal to an upper lug. A plurality of CAC mounting holes is formed in the CAC mounting portion. A plurality of lower slotted holes and an upper slotted hole are formed in the cross-support bracket mounting portion. A ratio of a length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length of lateral offset between a center of at least one of the lower slotted holes and the upper slotted hole is between 2.47 and 2.91.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="143.00mm" wi="279.48mm" file="US08979056-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="140.55mm" wi="147.91mm" orientation="landscape" file="US08979056-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="141.31mm" wi="179.58mm" orientation="landscape" file="US08979056-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="140.55mm" wi="107.95mm" orientation="landscape" file="US08979056-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="133.01mm" wi="161.97mm" orientation="landscape" file="US08979056-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="141.56mm" wi="135.81mm" orientation="landscape" file="US08979056-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="233.85mm" wi="184.49mm" orientation="landscape" file="US08979056-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">The subject matter disclosed herein relates to aircraft environmental control. More specifically, the subject disclosure relates to a support bracket of a cabin air compressor for an aircraft environmental control system.</p>
+<p id="p-0003" num="0002">Environmental control systems (ECSs) are utilized on various types of aircraft for several purposes, such as in cooling systems for the aircraft. For example, components of an ECS may be utilized to remove heat from various aircraft lubrication and electrical systems and/or used to condition aircraft cabin air. A cabin air conditioning and temperature control system (CACTCS) is an example of an aircraft ECS that includes air cycle packs supplied with pressurized outside (fresh) air from electric motor-driven cabin air compressors (CACs) which condition fresh air for cabin heating and cooling. The CACTCS provides flow control for modulation of cooling pack air flow, recirculation fans to circulate cabin air, and associated valves and sensors used for system control.</p>
+<p id="p-0004" num="0003">The CACTCS may also include a trim air system to provide individual cabin zone temperature control. This includes trim temperature control valves, trim duct heaters and associated sensors. As one example, a CACTCS may provide control of six baseline passenger zones and a flight deck zone. Additional zones, such as a forward cargo zone, a crew zone and/or an attendant zone may be controlled by other ECSs. Recirculation fans may also be provided for additional air flow to the passenger cabin and to ensure that flow at an air distribution nozzle remains constant.</p>
+<p id="p-0005" num="0004">Various elements of aircraft ECSs can experience harsh environments including a wide range of temperatures, pressures, and vibrations. Elements of aircraft ECSs must also fit within a compact space and minimize weight while providing adequate strength to handle typical and peak stresses over the anticipated life of the elements.</p>
+<heading id="h-0002" level="1">BRIEF DESCRIPTION OF THE INVENTION</heading>
+<p id="p-0006" num="0005">According to one aspect, a support bracket for a cabin air compressor assembly is provided. The support bracket includes a cabin air compressor mounting portion formed substantially orthogonal to an access portion and a structural support portion. A cross-support bracket mounting portion is formed at an angle relative to the access portion. An upper lug portion is formed at an angle relative to the access portion and substantially orthogonal to an upper lug. A plurality of cabin air compressor mounting holes is formed in the cabin air compressor mounting portion. The cabin air compressor mounting holes are distributed in an arc configuration along a cabin air compressor mounting hole circle radius. A plurality of lower slotted holes and an upper slotted hole are formed in the cross-support bracket mounting portion. A ratio of a length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length of lateral offset between a center of at least one of the lower slotted holes and the upper slotted hole is between 2.47 and 2.91.</p>
+<p id="p-0007" num="0006">According to another aspect, a cabin air compressor support assembly is provided. The cabin air compressor support assembly includes a left-hand cabin air compressor support bracket coupled to a cabin air compressor assembly, a cross-support bracket, and an upper three-way mount. The cabin air compressor support assembly also includes a right-hand cabin air compressor support bracket coupled to the cabin air compressor assembly, the cross-support bracket, and a lower three-way mount. The right-hand cabin air compressor support bracket includes a cabin air compressor mounting portion formed substantially orthogonal to an access portion and a structural support portion. A cross-support bracket mounting portion is formed at an angle relative to the access portion. An upper lug portion is formed at an angle relative to the access portion and substantially orthogonal to an upper lug. A plurality of cabin air compressor mounting holes is formed in the cabin air compressor mounting portion. The cabin air compressor mounting holes are distributed in an arc configuration along a cabin air compressor mounting hole circle radius. A plurality of lower slotted holes and an upper slotted hole are formed in the cross-support bracket mounting portion. A ratio of a length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length of lateral offset between a center of at least one of the lower slotted holes and the upper slotted hole is between 2.47 and 2.91.</p>
+<p id="p-0008" num="0007">According to a further aspect, a method of installing a support bracket in a cabin air conditioning and temperature control system is provided. An upper lug of the support bracket is coupled to a mount of the cabin air conditioning and temperature control system. A cabin air compressor mounting portion of the support bracket is coupled to a cabin air compressor assembly of the cabin air conditioning and temperature control system. A cross-support bracket mounting portion of the support bracket is coupled to a cross-support bracket. The support bracket includes the cabin air compressor mounting portion formed substantially orthogonal to an access portion and a structural support portion. The cross-support bracket mounting portion is formed at an angle relative to the access portion. An upper lug portion is formed at an angle relative to the access portion and substantially orthogonal to the upper lug. A plurality of cabin air compressor mounting holes is formed in the cabin air compressor mounting portion. The cabin air compressor mounting holes are distributed in an arc configuration along a cabin air compressor mounting hole circle radius. A plurality of lower slotted holes and an upper slotted hole are formed in the cross-support bracket mounting portion. A ratio of a length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length of lateral offset between a center of at least one of the lower slotted holes and the upper slotted hole is between 2.47 and 2.91.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 1</figref> is a partial perspective view of a cabin air conditioning and temperature control system;</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 2</figref> is another partial perspective view of the cabin air conditioning and temperature control system of <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 3</figref> is a perspective view of a cabin air compressor support bracket;</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 4</figref> is another view of the cabin air compressor support bracket of <figref idref="DRAWINGS">FIG. 3</figref>;</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 5</figref> is a detailed view of a cabin air compressor mounting portion of the cabin air compressor support bracket of <figref idref="DRAWINGS">FIG. 3</figref>;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 6</figref> is another view of the cabin air compressor support bracket of <figref idref="DRAWINGS">FIG. 3</figref>; and</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 7</figref> is detailed view of a portion of a cross-support bracket mounting portion of the cabin air compressor support bracket of <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE INVENTION</heading>
+<p id="p-0016" num="0015">Shown in <figref idref="DRAWINGS">FIGS. 1 and 2</figref> are partial perspective views of a cabin air conditioning and temperature control system (CACTCS) <b>100</b>. The CACTCS <b>100</b> includes an upper three-way mount <b>102</b> with coupling points <b>104</b><i>a </i>and <b>104</b><i>b</i>. The upper three-way mount <b>102</b> may also be coupled to one or more vibration isolators <b>106</b>. The coupling point <b>104</b><i>a </i>is coupled to a first cabin air compressor (CAC) support bracket <b>108</b>. The first CAC support bracket <b>108</b> is coupled to a CAC <b>110</b> and a cross-support bracket <b>112</b>. The cross-support bracket <b>112</b> is coupled to a second CAC support bracket <b>114</b>. The second CAC support bracket <b>114</b> is coupled to the CAC <b>110</b> and a coupling point <b>116</b><i>a </i>of a lower three-way mount <b>118</b> as best viewed in <figref idref="DRAWINGS">FIG. 2</figref>. Similar to the upper three-way mount <b>102</b>, the lower three-way mount <b>118</b> includes a pair of coupling points <b>116</b><i>a </i>and <b>116</b><i>b</i>. The first CAC support bracket <b>108</b>, the cross-support bracket <b>112</b>, and the second CAC support bracket <b>114</b> collectively form a CAC support assembly <b>120</b>. The first CAC support bracket <b>108</b> may also be referred to as a left-hand CAC support bracket, and the second CAC support bracket <b>114</b> may be referred to as a right-hand CAC support bracket. The coupling points <b>104</b><i>b </i>and <b>116</b><i>b </i>may be used to support a second CAC (not depicted), where the CAC <b>110</b> may be referred to as an outer CAC and the second CAC (not depicted) may be referred to as an inner CAC. The three-way mounts <b>102</b> and <b>118</b> limit CAC movement in three directions (X-Y-Z).</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 3</figref> is a perspective view of the second CAC support bracket <b>114</b> of <figref idref="DRAWINGS">FIGS. 1 and 2</figref>. The second CAC support bracket <b>114</b> includes a CAC mounting portion <b>350</b>, an access portion <b>352</b>, a cross-support bracket mounting portion <b>354</b>, an upper lug portion <b>356</b>, and an upper lug <b>358</b>. The second CAC support bracket <b>114</b> also includes a structural support portion <b>360</b> as best viewed in <figref idref="DRAWINGS">FIG. 4</figref>. The CAC mounting portion <b>350</b> includes a first CAC mounting hole <b>362</b>, a second CAC mounting hole <b>364</b>, and a third CAC mounting hole <b>366</b> distributed in an arc configuration. The CAC mounting holes <b>362</b> and <b>366</b> are also referred to as the outermost CAC mounting holes <b>362</b> and <b>366</b> relative to the CAC mounting hole <b>364</b>. The CAC mounting portion <b>350</b> also includes a substantially triangular shaped lightening region <b>368</b>. The access portion <b>352</b> includes a substantially circular access aperture <b>370</b>. The cross-support bracket mounting portion <b>354</b> includes three slotted holes <b>372</b>, <b>374</b>, and <b>376</b>, which are also referred to as lower slotted holes <b>372</b>,<b>374</b> and upper slotted hole <b>376</b>. The upper lug <b>358</b> includes a coupling hole <b>378</b>.</p>
+<p id="p-0018" num="0017">The CAC mounting portion <b>350</b> is formed substantially orthogonal to the access portion <b>352</b> and the structural support portion <b>360</b> of <figref idref="DRAWINGS">FIG. 4</figref>. The cross-support bracket mounting portion <b>354</b> is formed at an angle relative to the access portion <b>352</b>, and the upper lug portion <b>356</b> is formed at an angle relative to the access portion <b>352</b>. The upper lug <b>358</b> is formed substantially orthogonal to the upper lug portion <b>356</b>.</p>
+<p id="p-0019" num="0018">The CAC mounting holes <b>362</b>-<b>366</b> are configured to mate the second CAC support bracket <b>114</b> to the CAC <b>110</b> of <figref idref="DRAWINGS">FIG. 1</figref>. The slotted holes <b>372</b>-<b>376</b> are configured to mate the second CAC support bracket <b>114</b> with the cross-support bracket <b>112</b> of <figref idref="DRAWINGS">FIG. 1</figref>. The coupling hole <b>378</b> is configured to mate the second CAC support bracket <b>114</b> with the coupling point <b>116</b><i>a </i>of <figref idref="DRAWINGS">FIG. 1</figref>. Various fastener apparatuses (not depicted), such as bolts, can be used to perform mating of various components.</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 4</figref> is another view of the CAC support bracket <b>114</b> depicting the structural support portion <b>360</b> and side views of the CAC mounting portion <b>350</b>, the access portion <b>352</b>, the cross-support bracket mounting portion <b>354</b>, the upper lug portion <b>356</b>, and the upper lug <b>358</b>. A datum A defines a reference on the CAC mounting portion <b>350</b>, and centerline B (CLB) defines a centerline through CAC mounting hole <b>362</b>. Datum A is defined on a CAC side <b>375</b> of the CAC mounting portion <b>350</b> that is in closer proximity to the CAC <b>110</b> upon coupling the CAC support bracket <b>114</b> to the CAC <b>110</b>. A first angle (&#x3b8;1) of about 28 degrees is defined between CLB and the cross-support bracket mounting portion <b>354</b> at a length L1 of about 9.95 inches (25.273 cm) from CLB at datum A to the cross-support bracket mounting portion <b>354</b>. A second angle (&#x3b8;2) of about 50 degrees is defined between CLB and the upper lug portion <b>356</b> at a length L2 of about 12.115 inches (30.772 cm) from CLB at datum A to the upper lug portion <b>356</b>. The second angle &#x3b8;2 is also defined between CLB and a central axis <b>377</b> of the coupling hole <b>378</b> at a length L3 of about 13.608 inches (34.564 cm) from CLB at datum A to the central axis <b>377</b> of the coupling hole <b>378</b>. A length L4 of about 5.324 inches (13.523 cm) is defined from a projection <b>379</b> normal to CLB at datum A to the upper lug <b>358</b>. A length L5 of about 6.755 inches (17.158 cm) is defined from the projection <b>379</b> normal to CLB at datum A to an upper end <b>380</b> that is substantially orthogonal to the upper lug portion <b>356</b>. The upper lug <b>358</b> has a thickness T1 of about 0.815 inches (2.070 cm).</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 5</figref> is a detailed view of the CAC mounting portion <b>350</b> of the CAC support bracket <b>114</b>. The CAC mounting holes <b>362</b>, <b>364</b>, and <b>366</b>, each having a diameter D1 of about 0.406 inches (1.031 cm), are distributed in an arc configuration along a CAC mounting hole circle radius R1 of about 8.375 inches (21.273 cm) positioned between a curved edge <b>382</b> of the CAC mounting portion <b>350</b> and the substantially triangular shaped lightening region <b>368</b>. A length L6 of about 1.125 inches (2.858 cm) separates the curved edge <b>382</b> of the CAC mounting portion <b>350</b> and the substantially triangular shaped lightening region <b>368</b>. Relative to CLB, CAC mounting hole <b>364</b> is offset by an angle &#x3b8;3 of about 25 degrees and CAC mounting hole <b>366</b> is offset by an angle &#x3b8;4 of about 50 degrees at the CAC mounting hole circle radius R1. A first angled edge <b>384</b> proximate the CAC mounting hole <b>366</b> is offset by an angle &#x3b8;5 of about 41.61 degrees relative to CLB. The first angled edge <b>384</b> is formed between the curved edge <b>382</b> and an outer edge <b>386</b> of the CAC mounting portion <b>350</b>. A length L7 of about 8.325 inches (21.146 cm) is defined between the outer edge <b>386</b> and CLB. The outer edge <b>386</b> is substantially normal to a lower edge <b>388</b> of the CAC mounting portion <b>350</b>. A length L8 of about 2.225 inches (5.652 cm) is defined between the lower edge <b>388</b> and CLB.</p>
+<p id="p-0022" num="0021">A second angled edge <b>390</b> is formed between the lower edge <b>388</b> and the curved edge <b>382</b> of the CAC mounting portion <b>350</b> at an angle &#x3b8;6 of about 19.6 degrees relative to the lower edge <b>388</b>. A length L9 of about 1.24 inches (3.150 cm) separates the second angled edge <b>390</b> of the CAC mounting portion <b>350</b> and the substantially triangular shaped lightening region <b>368</b>. An edge <b>392</b> of the substantially triangular shaped lightening region <b>368</b> is positioned at a length L10 of about 6 inches (15.24 cm), where the edge <b>392</b> is substantially parallel to the outer edge <b>386</b>.</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 6</figref> is another view of the CAC support bracket <b>114</b> according to an embodiment as taken at section line <b>6</b> of <figref idref="DRAWINGS">FIG. 4</figref>. A reference point <b>400</b> is defined as the intersection of CLB and datum A of <figref idref="DRAWINGS">FIG. 4</figref> based on the orientation of the CAC support bracket <b>114</b> in <figref idref="DRAWINGS">FIG. 6</figref>. The reference point <b>400</b> may be located based on a projection <b>402</b> of an angled edge <b>404</b> of the cross-support bracket mounting portion <b>354</b>. A reference line <b>406</b> is defined at a length L11 of about 1.915 inches (4.864 cm) from the projection <b>402</b>, where the reference line <b>406</b> extends to the reference point <b>400</b> and forms an angle &#x3b8;7 of about 13 degrees relative to CLB. The lower slotted holes <b>372</b> and <b>374</b> are offset by a length L12 of about 4.423 inches (11.234 cm) from the reference point <b>400</b>. The upper slotted hole <b>376</b> is longitudinally offset by a length L13 of about 1.375 inches (3.493 cm) from the lower slotted holes <b>372</b> and <b>374</b> relative to the center of each of the slotted holes <b>372</b>-<b>376</b>. Each of the slotted holes <b>372</b>-<b>376</b> has a length L14 of about 0.8 inches (2.032 cm) and a width W1 of about 0.413 inches (1.049 cm). The slotted hole <b>374</b> is offset by a length L15 of about 1.025 inches (2.604 cm) from CLB. The slotted hole <b>372</b> is offset by a length L16 of about 0.898 inches (2.281 cm) from the slotted hole <b>374</b>. The slotted hole <b>376</b> is laterally offset by a length L17 of about 0.513 inches (1.303 cm) from the slotted hole <b>372</b> between respective centers of the slotted holes <b>376</b> and <b>372</b>. The slotted hole <b>376</b> may also be laterally offset by length L17 from the slotted hole <b>374</b> between respective centers of the slotted holes <b>376</b> and <b>374</b>.</p>
+<p id="p-0024" num="0023">The view of the CAC support bracket <b>114</b> in <figref idref="DRAWINGS">FIG. 6</figref> also depicts a bushing <b>408</b> installed in the coupling hole <b>378</b> of the upper lug <b>358</b>. The bushing <b>408</b> provides a bearing portion for a fastener (not depicted) to engage with the coupling point <b>116</b><i>a </i>of <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 7</figref> is detailed view of a portion of the cross-support bracket mounting portion <b>354</b> of the CAC support bracket <b>114</b> according to an embodiment as taken at section line <b>7</b> of <figref idref="DRAWINGS">FIG. 4</figref>. Substantially smooth regions <b>410</b> are defined relative to the slotted holes <b>372</b>, <b>374</b>, and <b>376</b>. For example, the substantially smooth regions <b>410</b> may be free of cusps associated with tooling used to manufacture the CAC support bracket <b>114</b>. The substantially smooth regions <b>410</b> may be defined as extending a minimum length L18 of about 1.1 inches (2.794 cm) below the slotted holes <b>372</b> and <b>374</b>, and a minimum length L19 of about 0.975 inches (2.477 cm) above the slotted hole <b>376</b>.</p>
+<p id="p-0026" num="0025">A number of ratios are defined between elements of the CAC support bracket <b>114</b> as depicted in <figref idref="DRAWINGS">FIGS. 1-7</figref>. In an embodiment, a ratio of the length L13 of longitudinal offset between the lower slotted holes <b>372</b>, <b>374</b> and the upper slotted hole <b>376</b> to the length L17 of lateral offset between the lower slotted hole <b>372</b> and the upper slotted hole <b>376</b> is between 2.47 and 2.91. A ratio of the length L13 between the lower slotted holes <b>372</b>, <b>374</b> and the upper slotted hole <b>376</b> to the minimum length L19 above the slotted hole <b>376</b> of the substantially smooth regions <b>410</b> is at most 1.405:0.975. A ratio of the length L7 defined between the outer edge <b>386</b> and CLB to the diameter D1 of the CAC mounting holes <b>362</b>, <b>364</b>, and <b>366</b> is between 19.93 and 21.10. A ratio of the angle &#x3b8;5 defined between CLB and the first angled edge <b>384</b> relative to the angle &#x3b8;6 defined between the lower edge <b>388</b> and the second angled edge <b>390</b> is between 2.04 and 2.21. A ratio of the length L3 from CLB at datum A to the central axis <b>377</b> of the coupling hole <b>378</b> to the length L2 from CLB at datum A to the upper lug portion <b>356</b> is between 1.120 and 1.127. A ratio of the length L5 defined from the projection <b>379</b> normal to CLB at datum A to the upper end <b>380</b> to the length L4 defined from the projection <b>379</b> normal to CLB at datum A to the upper lug portion <b>356</b> is between 1.256 and 1.282.</p>
+<p id="p-0027" num="0026">A process of installing the CAC support bracket <b>114</b> in the cabin air conditioning and temperature control system <b>100</b> is described in reference to <figref idref="DRAWINGS">FIGS. 1-7</figref>. The upper lug <b>358</b> of the CAC support bracket <b>114</b> is coupled to the coupling point <b>116</b><i>a </i>of the lower three-way mount <b>118</b>. The CAC mounting portion <b>350</b> of the CAC support bracket <b>114</b> is coupled to the CAC <b>110</b>. The cross-support bracket mounting portion <b>354</b> of the CAC support bracket <b>114</b> is coupled to the cross-support bracket <b>112</b>. The cross-support bracket <b>112</b> is also coupled to the CAC support bracket <b>108</b>. The CAC support bracket <b>108</b> is coupled to the CAC <b>110</b> and to the coupling point <b>104</b><i>a </i>of the upper three-way mount <b>102</b>. As previously described, the CAC support bracket <b>114</b> includes the CAC mounting portion <b>350</b> formed substantially orthogonal to the access portion <b>352</b> and the structural support portion <b>360</b>, as well as the cross-support bracket mounting portion <b>354</b> formed at an angle (e.g., angle &#x3b8;1) relative to the access portion <b>352</b>. The upper lug portion <b>356</b> is formed at an angle (e.g., angle &#x3b8;2) relative to the access portion <b>352</b> and substantially orthogonal to the upper lug <b>358</b>. A ratio of the length L13 of longitudinal offset defined between the lower slotted holes <b>372</b>, <b>374</b> and the upper slotted hole <b>376</b> to the length L17 of lateral offset between a center of at least one of the lower slotted holes <b>372</b>, <b>374</b> and the upper slotted hole <b>376</b> is between 2.47 and 2.91.</p>
+<p id="p-0028" num="0027">While the invention has been described in detail in connection with only a limited number of embodiments, it should be readily understood that the invention is not limited to such disclosed embodiments. Rather, the invention can be modified to incorporate any number of variations, alterations, substitutions or equivalent arrangements not heretofore described, but which are commensurate with the spirit and scope of the invention. Additionally, while various embodiments of the invention have been described, it is to be understood that aspects of the invention may include only some of the described embodiments. Accordingly, the invention is not to be seen as limited by the foregoing description, but is only limited by the scope of the appended claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A support bracket for a cabin air compressor assembly, the support bracket comprising:
+<claim-text>a cabin air compressor mounting portion formed substantially orthogonal to an access portion and a structural support portion;</claim-text>
+<claim-text>a cross-support bracket mounting portion formed at an angle relative to the access portion;</claim-text>
+<claim-text>an upper lug portion formed at an angle relative to the access portion and substantially orthogonal to an upper lug;</claim-text>
+<claim-text>a plurality of cabin air compressor mounting holes in the cabin air compressor mounting portion, the cabin air compressor mounting holes distributed in an arc configuration along a cabin air compressor mounting hole circle radius; and</claim-text>
+<claim-text>a plurality of lower slotted holes and an upper slotted hole in the cross-support bracket mounting portion, wherein a ratio of a length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length of lateral offset between a center of at least one of the lower slotted holes and the upper slotted hole is between 2.47 and 2.91.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The support bracket of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein substantially smooth regions are formed above the upper slotted hole in the cross-support bracket mounting portion and below the lower slotted holes in the cross-support bracket mounting portion, and a ratio of the length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length above the upper slotted hole of the substantially smooth regions is at most 1.405:0.975.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The support bracket of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the cabin air compressor mounting holes further comprise a first cabin air compressor mounting hole, a second cabin air compressor mounting hole, and a third cabin air compressor mounting hole, and the cabin air compressor mounting portion further comprises a curved edge proximate the cabin air compressor mounting holes, a first angled edge proximate the third cabin air compressor mounting hole and formed between the curved edge and an outer edge of the cabin air compressor mounting portion, a lower edge substantially normal to the outer edge, a second angled edge proximate to the first cabin air compressor mounting hole and formed between the lower edge and the curved edge, a centerline defined through the first cabin air compressor mounting hole, and a datum defined on a cabin air compressor side of the cabin air compressor mounting portion.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The support bracket of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein a ratio of a length defined between the outer edge and the centerline to a diameter of each of the cabin air compressor mounting holes is between 19.93 and 21.10.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The support bracket of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein a ratio of an angle defined between the centerline and the first angled edge relative to an angle defined between the lower edge and the second angled edge is between 2.04 and 2.21.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The support bracket of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein a ratio of a length from the centerline at the datum to a central axis of a coupling hole of the upper lug relative to a length from the centerline at the datum to the upper lug portion is between 1.120 and 1.127.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The support bracket of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein a ratio of a length defined from a projection normal to the centerline at the datum to an upper end that is substantially orthogonal to the upper lug portion relative to the centerline at the datum to the upper lug portion is between 1.256 and 1.282.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. A cabin air compressor support assembly comprising:
+<claim-text>a left-hand cabin air compressor support bracket coupled to a cabin air compressor assembly, a cross-support bracket, and an upper three-way mount; and</claim-text>
+<claim-text>a right-hand cabin air compressor support bracket coupled to the cabin air compressor assembly, the cross-support bracket, and a lower three-way mount, the right-hand cabin air compressor support bracket comprising:
+<claim-text>a cabin air compressor mounting portion formed substantially orthogonal to an access portion and a structural support portion;</claim-text>
+<claim-text>a cross-support bracket mounting portion formed at an angle relative to the access portion;</claim-text>
+<claim-text>an upper lug portion formed at an angle relative to the access portion and substantially orthogonal to an upper lug;</claim-text>
+<claim-text>a plurality of cabin air compressor mounting holes in the cabin air compressor mounting portion, the cabin air compressor mounting holes distributed in an arc configuration along a cabin air compressor mounting hole circle radius; and</claim-text>
+<claim-text>a plurality of lower slotted holes and an upper slotted hole in the cross-support bracket mounting portion, wherein a ratio of a length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length of lateral offset between a center of at least one of the lower slotted holes and the upper slotted hole is between 2.47 and 2.91.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The cabin air compressor support assembly of <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein substantially smooth regions are formed above the upper slotted hole in the cross-support bracket mounting portion and below the lower slotted holes in the cross-support bracket mounting portion, and a ratio of the length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length above the upper slotted hole of the substantially smooth regions is at most 1.405:0.975.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The cabin air compressor support assembly of <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the cabin air compressor mounting holes further comprise a first cabin air compressor mounting hole, a second cabin air compressor mounting hole, and a third cabin air compressor mounting hole, and the cabin air compressor mounting portion further comprises a curved edge proximate the cabin air compressor mounting holes, a first angled edge proximate the third cabin air compressor mounting hole and formed between the curved edge and an outer edge of the cabin air compressor mounting portion, a lower edge substantially normal to the outer edge, a second angled edge proximate to the first cabin air compressor mounting hole and formed between the lower edge and the curved edge, a centerline defined through the first cabin air compressor mounting hole, and a datum defined on a cabin air compressor side of the cabin air compressor mounting portion.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The cabin air compressor support assembly of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein a ratio of a length defined between the outer edge and the centerline to a diameter of each of the cabin air compressor mounting holes is between 19.93 and 21.10.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The cabin air compressor support assembly of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein a ratio of an angle defined between the centerline and the first angled edge relative to an angle defined between the lower edge and the second angled edge is between 2.04 and 2.21.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The cabin air compressor support assembly of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein a ratio of a length from the centerline at the datum to a central axis of a coupling hole of the upper lug relative to a length from the centerline at the datum to the upper lug portion is between 1.120 and 1.127.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The cabin air compressor support assembly of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein a ratio of a length defined from a projection normal to the centerline at the datum to an upper end that is substantially orthogonal to the upper lug portion relative to the centerline at the datum to the upper lug portion is between 1.256 and 1.282.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. A method of installing a support bracket in a cabin air conditioning and temperature control system comprising:
+<claim-text>coupling an upper lug of the support bracket to a mount of the cabin air conditioning and temperature control system;</claim-text>
+<claim-text>coupling a cabin air compressor mounting portion of the support bracket to a cabin air compressor assembly of the cabin air conditioning and temperature control system; and</claim-text>
+<claim-text>coupling a cross-support bracket mounting portion of the support bracket to a cross-support bracket, the support bracket comprising:
+<claim-text>the cabin air compressor mounting portion formed substantially orthogonal to an access portion and a structural support portion;</claim-text>
+<claim-text>the cross-support bracket mounting portion formed at an angle relative to the access portion;</claim-text>
+<claim-text>an upper lug portion formed at an angle relative to the access portion and substantially orthogonal to the upper lug;</claim-text>
+<claim-text>a plurality of cabin air compressor mounting holes in the cabin air compressor mounting portion, the cabin air compressor mounting holes distributed in an arc configuration along a cabin air compressor mounting hole circle radius; and</claim-text>
+<claim-text>a plurality of lower slotted holes and an upper slotted hole in the cross-support bracket mounting portion, wherein a ratio of a length of longitudinal offset defined between the lower slotted holes and the upper slotted hole to a length of lateral offset between a center of at least one of the lower slotted holes and the upper slotted hole is between 2.47 and 2.91.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The method of <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the support bracket is a right-hand support bracket, and the method further comprises:
+<claim-text>coupling the cross-support bracket to a second support bracket that is coupled to the cabin air compressor assembly and a second mount of the cabin air conditioning and temperature control system.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The method of <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the cabin air compressor mounting holes further comprise a first cabin air compressor mounting hole, a second cabin air compressor mounting hole, and a third cabin air compressor mounting hole, and the cabin air compressor mounting portion further comprises a curved edge proximate the cabin air compressor mounting holes, a first angled edge proximate the third cabin air compressor mounting hole and formed between the curved edge and an outer edge of the cabin air compressor mounting portion, a lower edge substantially normal to the outer edge, a second angled edge proximate to the first cabin air compressor mounting hole and formed between the lower edge and the curved edge, a centerline defined through the first cabin air compressor mounting hole, and a datum defined on a cabin air compressor side of the cabin air compressor mounting portion.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The method of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein a ratio of a length defined between the outer edge and the centerline to a diameter of each of the cabin air compressor mounting holes is between 19.93 and 21.10.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The method of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein a ratio of an angle defined between the centerline and the first angled edge relative to an angle defined between the lower edge and the second angled edge is between 2.04 and 2.21.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The method of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein a ratio of a length from the centerline at the datum to a central axis of a coupling hole of the upper lug relative to a length from the centerline at the datum to the upper lug portion is between 1.120 and 1.127, and a ratio of a length defined from a projection normal to the centerline at the datum to an upper end that is substantially orthogonal to the upper lug portion relative to the centerline at the datum to the upper lug portion is between 1.256 and 1.282. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

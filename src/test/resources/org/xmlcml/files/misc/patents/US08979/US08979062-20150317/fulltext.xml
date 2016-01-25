@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979062-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979062</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13192891</doc-number>
+<date>20110728</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>600</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>E</section>
+<class>21</class>
+<subclass>B</subclass>
+<main-group>33</main-group>
+<subgroup>06</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>E</section>
+<class>21</class>
+<subclass>B</subclass>
+<main-group>33</main-group>
+<subgroup>062</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>251  13</main-classification>
+<further-classification>251172</further-classification>
+<further-classification>251175</further-classification>
+<further-classification>251190</further-classification>
+<further-classification>277325</further-classification>
+<further-classification>166 844</further-classification>
+</classification-national>
+<invention-title id="d2e53">Secondary activation of packer and method</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2690320</doc-number>
+<kind>A</kind>
+<name>Shaffer et al.</name>
+<date>19540900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2850256</doc-number>
+<kind>A</kind>
+<name>Bolling, Jr. et al.</name>
+<date>19580900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>3036807</doc-number>
+<kind>A</kind>
+<name>Lucky et al.</name>
+<date>19620500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>3102709</doc-number>
+<kind>A</kind>
+<name>Allen</name>
+<date>19630900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>3670761</doc-number>
+<kind>A</kind>
+<name>Lerouax</name>
+<date>19720600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>4265424</doc-number>
+<kind>A</kind>
+<name>Jones</name>
+<date>19810500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>4943031</doc-number>
+<kind>A</kind>
+<name>Van Winkle</name>
+<date>19900700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5199683</doc-number>
+<kind>A</kind>
+<name>Le</name>
+<date>19930400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  13</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6974135</doc-number>
+<kind>B2</kind>
+<name>Melancon et al.</name>
+<date>20051200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251  12</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>16</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>251  11-  13</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251172</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251175</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251190</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251191</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>277324</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>277325</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>277327</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>277337</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>277338</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>166 844</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>166 854</main-classification>
+</classification-national>
+<classification-cpc-text>E21B 33/06</classification-cpc-text>
+<classification-cpc-text>E21B 33/061</classification-cpc-text>
+<classification-cpc-text>E21B 33/062</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>10</number-of-drawing-sheets>
+<number-of-figures>10</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130025689</doc-number>
+<kind>A1</kind>
+<date>20130131</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Yadav</last-name>
+<first-name>Seemant</first-name>
+<address>
+<city>Houston</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Yadav</last-name>
+<first-name>Seemant</first-name>
+<address>
+<city>Houston</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Bracewell &#x26; Giuliani LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Hydril USA Manufacturing LLC</orgname>
+<role>02</role>
+<address>
+<city>Houston</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Keasel</last-name>
+<first-name>Eric</first-name>
+<department>3753</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">Method, ram block and ram blowout preventer (BOP) for sealing a well. The BOP includes a body having a first chamber extending along a first direction and a second chamber extending along a second direction, substantially perpendicular to the first direction; a ram block configured to move inside the first chamber, the ram block having a packer region and at least one channel that extends all the way through the ram block; a packer configured to be provided in the packer region to seal a tool provided inside the second chamber; and at least one double piston provided through the at least one channel so that a pressure from the well is transmitted to the packer.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="118.70mm" wi="193.46mm" file="US08979062-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="243.08mm" wi="161.80mm" orientation="landscape" file="US08979062-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="160.61mm" wi="119.97mm" orientation="landscape" file="US08979062-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="208.70mm" wi="147.74mm" orientation="landscape" file="US08979062-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="154.77mm" wi="108.63mm" orientation="landscape" file="US08979062-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="153.92mm" wi="113.71mm" orientation="landscape" file="US08979062-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="207.86mm" wi="153.59mm" orientation="landscape" file="US08979062-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="189.48mm" wi="151.21mm" orientation="landscape" file="US08979062-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="120.40mm" wi="148.08mm" file="US08979062-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="189.15mm" wi="176.28mm" file="US08979062-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="87.12mm" wi="170.77mm" file="US08979062-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND</heading>
+<p id="p-0002" num="0001">1. Technical Field</p>
+<p id="p-0003" num="0002">Embodiments of the subject matter disclosed herein generally relate to methods and devices and, more particularly, to mechanisms and techniques for increasing a pressure applied to a ram blowout preventer (BOP) for sealing a wellbore.</p>
+<p id="p-0004" num="0003">2. Discussion of the Background</p>
+<p id="p-0005" num="0004">One apparatus for sealing a well is the ram BOP. The ram BOP (herein simply BOP) is a safety mechanism that is used at a wellhead of an oil or gas well. The BOP may be used for offshore drilling and also for land-based drilling. The BOP is configured to shut the flow from the well when certain events occur. One such event may be the uncontrolled flow of gas, oil or other well fluids (e.g., mud) from an underground formation into the well. Such event is sometimes referred to as a &#x201c;kick&#x201d; or a &#x201c;blowout&#x201d; and may occur when formation pressure exceeds the pressure generated by the column of drilling fluid. This event is unforeseeable and if no measures are taken to prevent and/or control it, the well and/or the associated equipment may be damaged.</p>
+<p id="p-0006" num="0005">The BOP may be installed on top of the well to seal the well in case that one of the above events is threatening the integrity of the well. The BOP is conventionally configured to prevent the release of pressure either in the annular space between the casing and the drill pipe or in the open hole (i.e., hole with no drill pipe) during drilling or completion operations.</p>
+<p id="p-0007" num="0006">In this regard, the BOP has two ram blocks that are configured to move towards each other or away from each other as desired by the operator of the rig. The operator of the rig controls the closing and opening of the ram blocks by activating various valves that control a hydraulic fluid. The hydraulic fluid is either provided from accumulators provided next to the BOP (e.g., undersea for an undersea BOP) or through pipes from the surface. By allowing the hydraulic fluid under pressure to enter a closing chamber the ram blocks are closed and by allowing the hydraulic fluid to enter an opening chamber the ram blocks are opened.</p>
+<p id="p-0008" num="0007">The ram blocks have at their frontal faces an elastomeric material, a packer, that has a semi-spherical profile. Thus, when the drill line is still inside (i.e., crossing the BOP) and there is a need to close the well, the ram blocks close around the drill line and the profile of the packers ensure that an interface between the drill line and the ram blocks is sealed. It is noted that shearing ram blocks have cutting edges instead of packers and when there is a need to close the BOP, the shearing ram blocks will close the well by severing the drill line.</p>
+<p id="p-0009" num="0008">However, in practice it is noted that sometimes the interface between the packers and the drill line is not completely sealed, i.e., there is a leakage of mud or other fluids that are present in the well. The leak is more serious as the diameter of the drill line increases. Thus, there is a need in the industry to provide a better sealing when a ram block with a packer is used to close a well while a tool is still inside the BOP.</p>
+<p id="p-0010" num="0009">Accordingly, it would be desirable to provide systems and methods that achieve the sealing of the well irrespective of the diameter of the drill line and to avoid the above noted shortcomings.</p>
+<heading id="h-0002" level="1">SUMMARY</heading>
+<p id="p-0011" num="0010">According to one exemplary embodiment, there is a ram blowout preventer (BOP) for sealing a well. The ram blowout preventer includes a body having a first chamber extending along a first direction and a second chamber extending along a second direction, substantially perpendicular to the first direction; a ram block configured to move inside the first chamber, the ram block having a packer region and at least one channel that extends all the way through the ram block; a packer configured to be provided in the packer region to seal a tool provided inside the second chamber; and at least one double piston provided through the at least one channel so that a pressure from the well is transmitted to the packer.</p>
+<p id="p-0012" num="0011">According to another exemplary embodiment, there is a ram block configured to move inside a first chamber of a ram blowout preventer (BOP). The ram block includes a packer region and at least one channel that extends all the way through the ram block; a packer configured to be provided in the packer region to seal a tool provided inside a second chamber of the BOP; and at least one double piston provided through the at least one channel so that a pressure from a well to which the BOP is attached is directly transmitted to the packer.</p>
+<p id="p-0013" num="0012">According to still another exemplary embodiment, there is a method for manufacturing a ram block for a ram blowout preventer. The method includes providing a ram block; forming a packer region in the ram block; forming at least one channel that extends all the way through the ram block; installing at least one double piston through the at least one channel; and installing a packer in the packer region so that a first piston side of the double piston contacts the packer when pressure is applied on a second piston side of the double piston.</p>
+<p id="p-0014" num="0013">According to yet another exemplary embodiment, there is a method of operating a ram blowout preventer (BOP) for sealing a well. The method includes activating a primary system for closing a ram block to seal with a packer a tool provided in the BOP; and applying well pressure on a double piston provided through at least one channel of the ram block so that a first piston side of the double piston directly applies a corresponding force on the packer.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0015" num="0014">The accompanying drawings, which are incorporated in and constitute a part of the specification, illustrate one or more embodiments and, together with the description, explain these embodiments. In the drawings:</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 1</figref> is a schematic diagram illustrating a BOP with novel ram blocks according to an exemplary embodiment;</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 2</figref> is a schematic diagram of a back view of a ram block according to an exemplary embodiment;</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 3</figref> is a front view of a ram block according to an exemplary embodiment;</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 4</figref> is a back view of a ram block having two channels according to an exemplary embodiment;</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 5</figref> is an overall view of a double piston to be added to a ram block according to an exemplary embodiment;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 6</figref> is a front view of a ram block having metal plates according to an exemplary embodiment;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 7</figref> is an overall view of a packer having metal inserts according to an exemplary embodiment;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 8</figref> is a top view of a ram block having a double piston according to an exemplary embodiment;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 9</figref> is a flow chart of a method for assembling a ram block with a double piston according to an exemplary embodiment; and</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 10</figref> is a flow chart of a method for operating a BOP with ram blocks having double pistons according to an exemplary embodiment.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0026" num="0025">The following description of the exemplary embodiments refers to the accompanying drawings. The same reference numbers in different drawings identify the same or similar elements. The following detailed description does not limit the invention. Instead, the scope of the invention is defined by the appended claims. The following embodiments are discussed, for simplicity, with regard to the terminology and structure of a ram BOP. However, the embodiments to be discussed next are not limited to these systems, but may be applied to other systems, i.e., a gate valve.</p>
+<p id="p-0027" num="0026">Reference throughout the specification to &#x201c;one embodiment&#x201d; or &#x201c;an embodiment&#x201d; means that a particular feature, structure, or characteristic described in connection with an embodiment is included in at least one embodiment of the subject matter disclosed. Thus, the appearance of the phrases &#x201c;in one embodiment&#x201d; or &#x201c;in an embodiment&#x201d; in various places throughout the specification is not necessarily referring to the same embodiment. Further, the particular features, structures or characteristics may be combined in any suitable manner in one or more embodiments.</p>
+<p id="p-0028" num="0027">According to an exemplary embodiment, a ram BOP is configured to have ram blocks provided with at least one through-channel that accommodates a corresponding double piston. The double piston has a first face exposed to a fluid that is present in a wellbore and a second face that contacts a packer of the ram block. The pressure from the wellbore is exerted on the packer for a better sealing of a tool present in the BOP.</p>
+<p id="p-0029" num="0028">Novel features of this ram BOP are now discussed with regard to the figures. <figref idref="DRAWINGS">FIG. 1</figref> illustrates a cut view of a BOP <b>16</b>. The BOP <b>16</b> has ram blocks <b>20</b> configured to move along a longitudinal first chamber <b>18</b>. A second chamber <b>19</b>, substantially perpendicular on the first chamber <b>18</b>, is configured to accommodate a tool <b>21</b>, e.g., a drill line. The term &#x201c;substantially&#x201d; here means that even if the direction of the first chamber makes an angle in the range of 85 to 95 degrees with the direction of the second chamber, the two chambers are still considered perpendicular. Thus, the second chamber <b>19</b> is open while the first chamber <b>18</b> is closed. The ram blocks <b>20</b> are shown closed on the tool <b>21</b> inside the first chamber <b>18</b>.</p>
+<p id="p-0030" num="0029">A primary activation mechanism for the ram blocks <b>20</b> includes a closing chamber <b>22</b> and an opening chamber <b>24</b> (having a substantially zero volume when the ram blocks are closed as in <figref idref="DRAWINGS">FIG. 1</figref>). A piston <b>26</b> is provided between the closing chamber <b>22</b> and the opening chamber <b>24</b>. A rod <b>28</b> is attached to the piston <b>26</b> and is also configured to connect to the ram block <b>20</b>. Thus, when pressure in the closing chamber <b>22</b> overcomes the pressure in the opening chamber <b>24</b>, the piston <b>24</b> moves to left in <figref idref="DRAWINGS">FIG. 1</figref>, closing the ram block <b>20</b> (i.e., pressing the ram block on the drill line <b>21</b>). This is the primary system for applying pressure on the ram blocks and on the packers. A packer <b>30</b> is shown on a frontal face of the ram block <b>20</b>. The packer <b>30</b> contacts the drill line <b>21</b> for a better seal.</p>
+<p id="p-0031" num="0030">When a pressure in the wellbore <b>40</b> needs to be controlled, the ram blocks <b>20</b> are closed. The increasing pressure in the wellbore <b>40</b> determines the ram blocks <b>20</b> to be pressed upward, i.e., along a Z direction in <figref idref="DRAWINGS">FIG. 1</figref>. A seal <b>31</b> is provided on an upper part of the ram block <b>20</b> to achieve a seal between the ram block <b>20</b> and a body <b>42</b> of the ram BOP <b>16</b>. A further seal <b>44</b> may be provided to further increase the seal between the ram block and the body of the BOP. This means that a fluid present in the wellbore <b>40</b>, e.g., mud, may enter the first chamber <b>18</b> but should not be able to pass past the packer <b>30</b> into a first region <b>50</b> of the second chamber <b>19</b>.</p>
+<p id="p-0032" num="0031">The pressure of the wellbore that is present in the first chamber <b>18</b> may be used to apply further pressure on the packer <b>30</b> as discussed now with regard to <figref idref="DRAWINGS">FIG. 2</figref>. <figref idref="DRAWINGS">FIG. 2</figref> shows a side back view of a ram block <b>20</b>. The ram block <b>20</b> has a back portion <b>60</b> that is configured to connect to the rod <b>28</b> and a frontal portion <b>62</b> that is configured to hold the packer <b>30</b>. The frontal portion <b>62</b> is configured to face the drill line <b>21</b> when the ram blocks <b>20</b> are closed. <figref idref="DRAWINGS">FIG. 2</figref> also illustrates a groove <b>64</b> that is configured to accommodate seal <b>31</b> for achieving the seal between the body <b>42</b> of the ram BOP and the ram block <b>20</b>.</p>
+<p id="p-0033" num="0032">A channel <b>70</b> is illustrated in <figref idref="DRAWINGS">FIG. 2</figref> on the side of the ram block <b>20</b>. The channel <b>70</b> passes all the way through the ram block <b>20</b>, i.e., from a side that communicates with the first chamber <b>18</b> to a side that communicates with the packer <b>30</b>. One or more such channels <b>70</b> may be formed in each ram block <b>20</b>, depending on the type of ram block, its geometry, and the available space.</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 3</figref> is a front view of the ram block <b>20</b> and shows the other end of the channel <b>70</b>. <figref idref="DRAWINGS">FIG. 3</figref> also shows a packer region <b>66</b> that is configured to receive the packer <b>30</b>. <figref idref="DRAWINGS">FIG. 4</figref> is a back view of the ram block <b>20</b> and illustrates an embodiment in which there are two channels <b>70</b> per ram block <b>20</b>. Each channel <b>70</b> is configured to accommodate a double piston <b>80</b> as shown in <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+<p id="p-0035" num="0034">The double piston <b>80</b> of <figref idref="DRAWINGS">FIG. 5</figref> has a central portion <b>82</b> that connects to two piston sides <b>84</b> and <b>86</b>. The piston side <b>84</b> is configured to directly contact the packer <b>30</b> while the piston side <b>86</b> is configured to contact the fluid existent in the wellbore. In one application, the size of the piston side <b>86</b> is larger than the size of the piston side <b>84</b> in order to multiply a pressure effect of the wellbore on the packer. The double piston <b>80</b> may be made of a metal or composite that can withstand the large pressures and temperatures existing in a wellbore and also the corrosive environment in the wellbore. A shape of the piston side <b>84</b> may be made to match a shape of the corresponding packer <b>30</b>. For example, the piston side <b>84</b> may have an elliptical shape. Various other shapes may be used. One or both of the piston sides <b>84</b> and <b>86</b> may be attached to the central part <b>82</b> by various means. Such means may be screws, welding, etc.</p>
+<p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 6</figref> shows an embodiment in which the channel <b>70</b> has a cross-section larger than a cross-section of the piston side <b>84</b>. Thus, a plate <b>90</b> is bolted with bolts <b>92</b> to the ram block <b>20</b> and the plate <b>90</b> has an opening configured to accommodate the piston side <b>84</b> as shown in the figure. Other mechanisms may be envisioned for providing the double piston <b>80</b> into the channel <b>70</b>.</p>
+<p id="p-0037" num="0036">The packer may be a conventional one piece elastomer or a more sophisticated one as shown in <figref idref="DRAWINGS">FIG. 7</figref>. The packer <b>100</b> shown in <figref idref="DRAWINGS">FIG. 7</figref> has plural metallic inserts <b>102</b> partially provided inside the elastomeric part <b>104</b>. The profile of the metallic inserts <b>102</b> and the flexibility of the elastomeric part <b>104</b> make the packer <b>100</b> to have a variable radius R. This means that a single packer <b>100</b> (variable radius packer) is configured to mate with drill lines (or other tools) having various diameters. For such a packer, the secondary pressure mechanism discussed above is more advantageous than for a conventional one piece elastomer that is designed for a drill line having a given radius. Thus, the sealing of the variable radius packer <b>100</b> can be improved by using the channels <b>70</b> and double piston <b>82</b>.</p>
+<p id="p-0038" num="0037">One advantage provided by one or more of the exemplary embodiments presented above is now discussed. A shape of a face of some of the packers is elliptical. Thus, when the ram blocks are closed to seal a tool, the packers do not completely seal the tool due to this specific shape. This problem is illustrated in <figref idref="DRAWINGS">FIG. 8</figref>. <figref idref="DRAWINGS">FIG. 8</figref> shows the at least one channel <b>70</b> through the ram block <b>20</b> and also the components of the double piston <b>80</b>, i.e., the first piston side <b>84</b> facing the packer <b>30</b> and the second piston side <b>86</b> facing a pressure well. As the packer <b>30</b> does not completely seal a region A defined by an interface between the tool <b>21</b> and the packer <b>30</b>, the extra pressure applied by the well fluid at <b>100</b> on the second piston side <b>86</b> helps to bring the packer <b>30</b> closer to the tool <b>21</b> in region A as the first piston side <b>84</b> directly presses the packer <b>30</b> toward the tool <b>21</b>. Thus, a better seal is achieved by using the double piston <b>80</b>.</p>
+<p id="p-0039" num="0038">In another application, a spring <b>102</b> or equivalent means is provided between the second piston side <b>86</b> and the body of the ram block <b>20</b> so that only a certain well pressure (above the threshold pressure established by the spring <b>102</b>) is applied on the packer <b>30</b>.</p>
+<p id="p-0040" num="0039">According to an exemplary embodiment illustrated in <figref idref="DRAWINGS">FIG. 9</figref>, there is a method for manufacturing a ram block for a ram blowout preventer. The method includes a step <b>900</b> of providing a ram block (<b>20</b>); a step <b>902</b> of forming a packer region (<b>64</b>) in the ram block (<b>20</b>); a step <b>904</b> of forming at least one channel (<b>70</b>) that extends all the way through the ram block (<b>20</b>); a step <b>906</b> of installing at least one double piston (<b>80</b>) through the at least one channel (<b>70</b>); and a step <b>908</b> of installing a packer (<b>30</b>) in the packer region (<b>64</b>) so that a first piston side (<b>84</b>) of the double piston (<b>80</b>) contacts the packer (<b>30</b>) when pressure is applied on a second piston side (<b>86</b>) of the double piston (<b>80</b>).</p>
+<p id="p-0041" num="0040">According to another exemplary embodiment illustrated in <figref idref="DRAWINGS">FIG. 10</figref>, there is a method of operating a ram blowout preventer for sealing a well. The method includes a step <b>1000</b> of activating a primary system (<b>22</b>, <b>24</b>, <b>26</b>, <b>28</b>) for closing a ram block (<b>20</b>) to seal with a packer (<b>30</b>) a tool (<b>21</b>) provided in the BOP (<b>16</b>); and a step <b>1002</b> of applying well pressure on a double piston (<b>80</b>) provided through at least one channel (<b>70</b>) of the ram block (<b>20</b>) so that a first piston side (<b>84</b>) of the double piston (<b>80</b>) directly applies a corresponding force on the packer (<b>30</b>).</p>
+<p id="p-0042" num="0041">The disclosed exemplary embodiments provide a ram block, blowout preventer and method for improving a seal between a packer and a tool in a BOP. It should be understood that this description is not intended to limit the invention. On the contrary, the exemplary embodiments are intended to cover alternatives, modifications and equivalents, which are included in the spirit and scope of the invention as defined by the appended claims. Further, in the detailed description of the exemplary embodiments, numerous specific details are set forth in order to provide a comprehensive understanding of the claimed invention. However, one skilled in the art would understand that various embodiments may be practiced without such specific details.</p>
+<p id="p-0043" num="0042">Although the features and elements of the present exemplary embodiments are described in the embodiments in particular combinations, each feature or element can be used alone without the other features and elements of the embodiments or in various combinations with or without other features and elements disclosed herein.</p>
+<p id="p-0044" num="0043">This written description uses examples to disclose the invention, including the best mode, and also to enable any person skilled in the art to practice the invention, including making and using any devices or systems and performing any incorporated methods. The patentable scope of the invention is defined by the claims, and may include other examples that occur to those skilled in the art. Such other example are intended to be within the scope of the claims if they have structural elements that do not differ from the literal language of the claims, or if they include equivalent structural elements within the literal languages of the claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A ram blowout preventer (BOP) for sealing a well having a wellbore, the ram blowout preventer comprising:
+<claim-text>a body having a first chamber extending along a first direction and a second chamber extending along a second direction, substantially perpendicular to the first direction;</claim-text>
+<claim-text>a ram block configured to move inside the first chamber, the ram block having a packer region and at least one channel that extends all the way through the ram block;</claim-text>
+<claim-text>a packer configured to be provided in the packer region to seal a tool provided inside the second chamber;</claim-text>
+<claim-text>at least one double piston provided through the at least one channel, the piston having first and second piston sides connected by a rigid central part, the first piston side for contacting the packer, and the second piston side for contacting fluid in the wellbore; and</claim-text>
+<claim-text>a metal plate provided on a frontal side of the ram block over the at least one channel, the metal plate having an opening for allowing a part of the double piston to move through the metal plate.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The ram BOP of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the double piston comprises:
+<claim-text>the central part is configured to enter inside the at least one channel;</claim-text>
+<claim-text>the first piston side is attached to a first end of the central part and configured to apply a force to the packer; and</claim-text>
+<claim-text>the second piston side is attached to a second end of the central part and configured to contact fluid in from the well.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The ram BOP of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the first piston side has an elliptical shape.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The ram BOP of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein a surface of the first piston side that contacts the packer is smaller than a surface of the second piston side so that the well pressure is amplified when applied to the packer.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The ram BOP of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the well pressure is present in the first chamber when the ram blocks are closed.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The ram BOP of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the packer is a single piece of elastomer with no metal inserts.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The ram BOP of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the packer includes plural inserts inserted through a piece of elastomer so that a face of the packer that faces the tool has a variable radius.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The ram BOP of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>a closing chamber;</claim-text>
+<claim-text>an opening chamber;</claim-text>
+<claim-text>a piston provided between the closing chamber and the opening chamber and configured to activate the ram block through a rod, wherein the closing chamber, opening chamber, and piston constitute a primary activation mechanism for the packer and the double piston constitutes a second activation mechanism for the packer.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. A ram block configured to move inside a first chamber of a ram blowout preventer (BOP), the ram block comprising:
+<claim-text>a packer region and at least one channel that extends all the way through the ram block;</claim-text>
+<claim-text>a packer configured to be provided in the packer region to seal a tool provided inside a second chamber of the BOP;</claim-text>
+<claim-text>at least one double piston provided through the at least one channel, the piston having first and second piston sides connected by a rigid central part, the first piston side for contacting the packer, and the second piston side for contacting fluid in a wellbore; and</claim-text>
+<claim-text>a metal plate provided on a frontal side of the ram block over the at least one channel, the metal plate having an opening for allowing a part of the double piston to move through the metal plate.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The ram block of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the double piston comprises:
+<claim-text>the central part is configured to enter inside the at least one channel;</claim-text>
+<claim-text>the first piston side is attached to a first end of the central part and configured to apply a force to the packer; and</claim-text>
+<claim-text>the second piston side is attached to a second end of the central part and configured to contact fluid in the wellbore.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The ram block of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the first piston side has an elliptical shape.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The ram block of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein a surface of the first piston side that contacts the packer is smaller than a surface of the second piston side.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The ram block of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein pressure in the wellbore is present in the first chamber when the ram block is closed.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The ram block of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the packer is a single piece of elastomer with no metallic inserts.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The ram block of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the packer includes plural inserts inserted through a piece of elastomer so that a frontal face of the packer that faces a tool has a variable radius.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The ram block of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the packer contacts a tool extending through a BOP when the ram block is closed. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

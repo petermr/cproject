@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979066-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979066</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13649340</doc-number>
+<date>20121011</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>DE</country>
+<doc-number>10 2011 084 769</doc-number>
+<date>20111019</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>181</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>02</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>27</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>29</class>
+<subclass>C</subclass>
+<main-group>45</main-group>
+<subgroup>16</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>06</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>29</class>
+<subclass>L</subclass>
+<main-group>31</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>27</main-group>
+<subgroup>029</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>29</class>
+<subclass>C</subclass>
+<main-group>45</main-group>
+<subgroup>1676</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>0655</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>29</class>
+<subclass>L</subclass>
+<main-group>2031</main-group>
+<subgroup>7506</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>25112915</main-classification>
+<further-classification>335262</further-classification>
+</classification-national>
+<invention-title id="d2e71">Solenoid valve</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3593241</doc-number>
+<kind>A</kind>
+<name>Ludwig</name>
+<date>19710700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>335262</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>5402093</doc-number>
+<kind>A</kind>
+<name>Gibas et al.</name>
+<date>19950300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>335261</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5544857</doc-number>
+<kind>A</kind>
+<name>Torrence</name>
+<date>19960800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>25112915</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5865213</doc-number>
+<kind>A</kind>
+<name>Scheffel et al.</name>
+<date>19990200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>13761416</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>6144275</doc-number>
+<kind>A</kind>
+<name>Hirata et al.</name>
+<date>20001100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>335262</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>6219903</doc-number>
+<kind>B1</kind>
+<name>Osterhart et al.</name>
+<date>20010400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 296021</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>6328276</doc-number>
+<kind>B1</kind>
+<name>Falch et al.</name>
+<date>20011200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>7275732</doc-number>
+<kind>B2</kind>
+<name>Kato et al.</name>
+<date>20071000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>25112915</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>7503347</doc-number>
+<kind>B2</kind>
+<name>Ryuen et al.</name>
+<date>20090300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>13762565</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>8061685</doc-number>
+<kind>B2</kind>
+<name>Ueda et al.</name>
+<date>20111100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>25112915</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>8104739</doc-number>
+<kind>B2</kind>
+<name>Vollmer et al.</name>
+<date>20120100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 50</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>25112915</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>335262</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>7</number-of-drawing-sheets>
+<number-of-figures>7</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130099145</doc-number>
+<kind>A1</kind>
+<date>20130425</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Robert Bosch GmbH</orgname>
+<address>
+<city>Stuttgart</city>
+<country>DE</country>
+</address>
+</addressbook>
+<residence>
+<country>DE</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Pfetzer</last-name>
+<first-name>Johannes</first-name>
+<address>
+<city>Buehl</city>
+<country>DE</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Droll</last-name>
+<first-name>Katharina</first-name>
+<address>
+<city>Buehl</city>
+<country>DE</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Michael Best &#x26; Friedrich LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Robert Bosch GmbH</orgname>
+<role>03</role>
+<address>
+<city>Stuttgart</city>
+<country>DE</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Jellett</last-name>
+<first-name>Matthew W</first-name>
+<department>3753</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A solenoid valve is proposed, having a substantially circular cross-sectional shape orthogonally in relation to an effective axis of the solenoid valve, it being possible for valve devices of the solenoid valve to be connected to one another by means of joining operations directed substantially in the direction of the effective axis, the valve devices having such peripheral shapes that the valve devices can be centered with respect to one another by means of the joining operations.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="139.02mm" wi="130.73mm" file="US08979066-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="190.16mm" wi="133.60mm" file="US08979066-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="185.67mm" wi="126.24mm" file="US08979066-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="195.33mm" wi="135.47mm" file="US08979066-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="146.90mm" wi="135.38mm" file="US08979066-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="190.58mm" wi="147.32mm" file="US08979066-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="158.41mm" wi="135.97mm" orientation="landscape" file="US08979066-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="152.74mm" wi="153.92mm" file="US08979066-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">Conventional structural designs of solenoid valves have several disadvantages from a production engineering viewpoint. In particular, the structural designs comprise a great number of individual parts/assemblies, for which great assembly lines with circulating work carriers are required for assembly or production. This generally requires the following operations: loading the work carriers with the various individual parts and subassemblies, adjusting and laser welding components of the magnetic circuit, and screwing, riveting, flanging the magnetic circuit with the valve housing.</p>
+<p id="p-0003" num="0002">One disadvantage of the described production of the conventionally designed solenoid valves is particularly that of the large and technically complex assembly lines required for this. Adjustments and laser weldings of the components of the magnetic circuit are technically complex and resource-intensive. The individual assembly steps each need a screwing, riveting, bending, flanging and welding device of their own, whereby the numerous assembly steps have the cumulative effect of causing many tolerances, which may lead to a significant overall tolerance, and consequently inaccuracy of the solenoid valve.</p>
+<heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0004" num="0003">It is therefore the object of the present invention to provide a solenoid valve that is simpler to produce.</p>
+<p id="p-0005" num="0004">The object is achieved by a solenoid valve with a substantially circular cross-sectional shape orthogonally in relation to an effective axis of the solenoid valve, it being possible for valve devices of the solenoid valve to be connected to one another by means of joining operations directed substantially in the direction of the effective axis, the valve devices having such peripheral shapes that the valve devices can be centered with respect to one another by means of the joining operations.</p>
+<p id="p-0006" num="0005">One advantage of the solenoid valve according to the invention is that the solenoid valve can be assembled from valve devices by means of simple axial joining operations, the valve devices being automatically centered and positioned with respect to one another during the joining operations on account of their specific shapings. This advantageously results in little assembly effort, which saves time and may have as a consequence significant cost reductions in comparison with conventional solenoid valves.</p>
+<p id="p-0007" num="0006">A preferred embodiment of the solenoid valve according to the invention provides that a first valve device is formed as a lifting magnet, the lifting magnet having a lifting rod as a centering means for centering elements that can be arranged in series on the lifting rod. With the aid of the centering means in the form of the lifting rod, onto which the elements of the lifting magnet can as it were be threaded, a first valve device in the form of the lifting magnet can be preassembled simply and exactly.</p>
+<p id="p-0008" num="0007">A further preferred embodiment of the solenoid valve according to the invention provides that the lifting magnet has a fixing element for the mechanical fixing of the elements arranged in series on the lifting rod. In this way, a simple fixing element is used for the mechanical fixing of the elements arranged in series on the lifting rod, which facilitates and speeds up an assembly operation of the lifting magnet subassembly.</p>
+<p id="p-0009" num="0008">A preferred embodiment of the solenoid valve according to the invention provides that a second valve device is formed as a housing for the first valve device, the second valve device having centering means for a magnet coil. By means of the centering means for the magnet coil, it is consequently advantageously possible in a simple way to carry out a positioning and centering of the magnet coil within the second valve device.</p>
+<p id="p-0010" num="0009">A preferred embodiment of the solenoid valve according to the invention provides that the centering means is formed in a tubular manner integrally with the second valve device. An advantageous consequence of this specific configuration of the centering means in the second valve device is that the joining together of the first valve device with the second valve device is simplified insofar as an automatic centering of the first valve device is carried out by said centering means during the joining operation of the first valve device with the second valve device.</p>
+<p id="p-0011" num="0010">An advantageous development of the solenoid valve according to the invention provides that the second valve device has a positioning means for a connector device, by means of which the magnet coil can be supplied with energy. The positioning means for the connector device consequently allows an assembly step of assembling the connector in the second valve device to be carried out in a simplified and speeded-up way, since the positioning means acts as a kind of coding for correct insertion of the magnet coil with the connector into the second valve device.</p>
+<p id="p-0012" num="0011">An advantageous development of the solenoid valve according to the invention provides that the second valve device has a positioning means for positioning the first valve device in the second valve device. By means of said positioning means of the second valve device, it is advantageously possible to carry out a joining together of the first valve device with the second valve device exactly and without any additional positioning effort.</p>
+<p id="p-0013" num="0012">An advantageous development of the solenoid valve according to the invention provides that the first valve device has a lifting rod that can be produced by means of a multi-component injection-molding process. This choice of material for the lifting rod helps to make it possible to advantageously dispense with laser welding processes between the lifting rod and further elements of the lifting magnet.</p>
+<p id="p-0014" num="0013">It is advantageously provided that the lifting rod has a sealing element on a sealing portion. This is an advantageous consequence of the material of the lifting rod. This makes it possible in a simple way to design the lifting rod in such a way that it has said sealing element on a sealing portion.</p>
+<p id="p-0015" num="0014">A preferred embodiment of the solenoid valve according to the invention provides that a third valve device is formed as a valve housing, to which the second valve device, joined together with the first valve device, can be fastened, the third valve device having positioning means for the second valve device. By means of the positioning means for the second valve device, a joining together of the preassembled second valve device with the third valve device can be advantageously carried out in a simple way with very little centering effort.</p>
+<p id="p-0016" num="0015">An advantageous development of the solenoid valve according to the invention provides that the positioning means is formed as clearances in the third valve device for retaining elements of the second valve device. This provides a simple-to-produce positioning means that is conducive to a simple connecting operation between the second valve device and the third valve device and a stable connection of the second valve device to the third valve device.</p>
+<p id="p-0017" num="0016">An advantageous development of the solenoid valve according to the invention provides that the retaining elements are formed in such a way that, after a joining together of the second valve device with the third valve device, they receive a force, acting along the effective axis, between the first valve device and the second valve device. In this way, an axial force produced as a result of the joining together of the second valve device with the third valve device is maintained along the effective axis of the solenoid valve after the fastening of the second valve device to the third valve device. This is conducive to an imperviousness, and consequently troublefree operation, of the solenoid valve.</p>
+<p id="p-0018" num="0017">A preferred embodiment of the solenoid valve according to the invention provides that the third valve device has a locking device, by means of which the second valve device can be made to engage with the third valve device after the joining together with the third valve device and a turning operation in relation to the third valve device. An easily obtained self-locking connection between the second valve device and the third valve device, which can only be disconnected when it is actually intended, is obtained as an advantage of the locking mechanism provided as a result.</p>
+<p id="p-0019" num="0018">The invention is described in detail below with further features and advantages on the basis of several figures. All the features described or presented thereby form the subject matter of the invention on their own or in any desired combination, independently of how they are put together in the patent claims or how the claims relate to preceding claims, and independently of how they are worded or presented in the description or in the drawings. Already known principles of solenoid valves are not discussed in any more detail.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 1</figref> shows a view of a detail of a first valve device of an embodiment of the solenoid valve according to the invention;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 2</figref> shows a view of a detail of a second valve device of an embodiment of the solenoid valve according to the invention;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 3</figref> shows a view of a detail of the preassembled first and second valve devices;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 4</figref> shows a perspective view of the joined-together first and second valve devices;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 5</figref> shows a sectional view of the second and third valve devices before a joining together operation;</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 6</figref> shows a plan view of the third valve device with the second valve device inserted; and</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 7</figref> shows a sectional view of the complete solenoid valve according to the invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 1</figref> shows a first valve device <b>10</b> of an embodiment of the solenoid valve according to the invention in an exploded view. The first valve device <b>10</b> has a lifting rod <b>11</b>, which preferably comprises a material that is produced by means of a multi-component injection-molding process. The multi-component injection-molding process is preferably a two-component injection-molding technique, which allows the lifting rod <b>11</b> to be produced in a simple way and a sealing element <b>11</b><i>a </i>to be molded onto a sealing end of the lifting rod <b>11</b> in a single production step. Individual elements of the first valve device <b>10</b>, which in the assembled-together state embody a lifting magnet, are fitted or threaded one after the other onto the lifting rod <b>11</b>.</p>
+<p id="p-0028" num="0027">The individual elements comprise a seal <b>12</b>, which is preferably formed as a sealing ring with a dirt wiper. A circular connection plate <b>13</b><i>a </i>with a guiding bush <b>13</b> pressed into the connection plate <b>13</b><i>a </i>is also fitted onto the lifting rod <b>11</b>. After that, a first O-ring <b>14</b>, which is used for sealing purposes within the first valve device <b>10</b>, is pushed onto the lifting rod <b>11</b>. Then, a spring <b>15</b>, which serves for unlocking the solenoid valve in the deenergized state, is arranged in series on the lifting rod <b>11</b>. The lifting rod <b>11</b> is finally inserted through a magnet armature <b>16</b> similar to a circular cylinder and is mechanically fixed by means of a clamping disk <b>17</b> with blocking elements (not represented) that is preferably produced from bronze or steel, resulting in a complete subassembly in the form of a lifting magnet with substantially circular peripheral shapes, a circle centerpoint corresponding to an effective axis of the solenoid valve.</p>
+<p id="p-0029" num="0028">It is therefore evident that the lifting rod <b>11</b> serves as a centering element similar to a circular cylinder, which receives the elements <b>12</b>, <b>13</b>, <b>13</b><i>a</i>, <b>14</b>, <b>15</b>, <b>16</b> and is intended for centering and fixing said elements on the lifting rod <b>11</b>. This results in a simple and exactly aligned assembly of said elements on the lifting rod <b>11</b>.</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 2</figref> shows in elevation a sectional view of a second valve device <b>20</b>, which in the assembled-together state serves as a housing for the lifting magnet of the first valve device <b>10</b>. The second valve device <b>20</b> is formed like a circular cylinder that is open on one side, a centering device in the form of a magnetic return ring <b>21</b> being provided at a closed end. The return ring <b>21</b>, as part of a ferromagnetic circuit of the solenoid valve, is intended also to serve as a guiding and centering element for the lifting magnet. For this purpose, the return ring <b>21</b> is formed as a tubular piece integrally with the second valve device <b>20</b>. At an upper, open portion of the second valve device <b>20</b>, the second valve device <b>20</b> has three first clearances <b>23</b>, intended as coding elements for the insertion of the connection plate <b>13</b><i>a </i>of the lifting magnet.</p>
+<p id="p-0031" num="0030">The second valve device <b>20</b> also has at the upper open end a second clearance <b>25</b>, which is intended as an assembly location and a coding element for a connector <b>24</b>, which supplies energy to a fully encapsulated magnet coil <b>22</b>. This helps in a simple way to allow the connector <b>24</b> to be inserted into the second valve device <b>20</b> only at a position intended for it. Alternatively, the second clearance <b>25</b> may be arranged at a position (not represented) in the second valve device <b>20</b> that is offset by 120&#xb0;, so that an alternative positioning of the connector <b>24</b> is possible. Misplacements of the connector <b>24</b> are in this way advantageously ruled out. The second valve device <b>20</b> also has at its upper, open end retaining elements <b>26</b>, which are used for a positioning and fastening of the second valve device <b>20</b> in a third valve device <b>30</b> (not shown in <figref idref="DRAWINGS">FIG. 2</figref>). The retaining elements <b>26</b> are in this case preferably formed as undercuts of the second valve device <b>20</b>. It is evident from <figref idref="DRAWINGS">FIG. 2</figref> that the solenoid valve <b>22</b> with the connector <b>24</b> can be pushed in the axial direction of the solenoid valve into the second valve device <b>20</b> axially from above.</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 3</figref> shows the two preassembled valve devices <b>10</b>, <b>20</b> in a cross-sectional view in elevation. The individual elements of the valve devices <b>10</b>, <b>20</b> have already been explained in more detail with reference to <figref idref="DRAWINGS">FIGS. 1 and 2</figref> and are therefore not explained again here. It is evident that then, in a next production step, the first valve device <b>10</b> is pushed into the second valve device <b>20</b> from above along an effective axis of the solenoid valve by means of an axial joining operation. The circular inner circumference of the second valve device <b>20</b> thereby acts as a guide for an outer rim of the circular connection plate <b>13</b> of the first valve device <b>10</b>. The first clearances <b>23</b> at the upper open end of the second valve device <b>20</b> are intended for interacting with radially formed portions of the circular connection plate <b>13</b><i>a </i>in such a way that said portions engage in the first clearances <b>23</b> and in this way accomplish efficient antitwist protection between the first valve device <b>10</b> and the second valve device <b>20</b>.</p>
+<p id="p-0033" num="0032">It is evident that the return ring <b>21</b> of the second valve device <b>20</b> serves as a guiding and centering element for the magnet armature <b>16</b> of the first valve device <b>10</b>. The first valve device <b>10</b> is in this way centered and positioned at an end opposite from the sealing portion by means of the magnet armature <b>16</b> and the return ring <b>21</b> adapted to the magnet armature <b>16</b>.</p>
+<p id="p-0034" num="0033">Furthermore, an axial fine centering or fine positioning of the magnet coil <b>22</b> within the second valve device <b>20</b> is achieved by means of the guiding bush <b>13</b> of the first valve device <b>10</b>. It is therefore evident that an automatic positioning or centering of the first valve device <b>10</b> within the second valve device <b>20</b> is facilitated particularly also because of the radial peripheral shapes of elements of the first and second valve devices <b>10</b>, <b>20</b>.</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 4</figref> shows in a perspective representation an assembled-together second valve device <b>20</b>, into which the first valve device <b>10</b> has been inserted. It is evident that three portions of the connection plate <b>13</b><i>a </i>that are offset substantially by 120&#xb0; have engaged in the first clearances <b>23</b> of the second valve device <b>20</b>. In this way, a stable connection between the first valve device <b>10</b> and the second valve device <b>20</b> is provided, which is conducive to a good mechanical stability of the second valve device <b>20</b> and an exact positioning and centering of the first valve device <b>10</b> within the second valve device <b>20</b>. Also evident from <figref idref="DRAWINGS">FIG. 4</figref> are the three retaining elements <b>26</b>, which are used for a positioning and fastening of the second valve device <b>20</b> in the third valve device <b>30</b> (not represented in <figref idref="DRAWINGS">FIG. 4</figref>). The retaining elements <b>26</b> are in this case formed as hook-like undercuts of the second valve device <b>20</b> that are substantially offset by 120&#xb0;.</p>
+<p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 5</figref> shows in a sectional view in elevation the third valve device <b>30</b> together with the preassembled second valve device <b>20</b> before an assembly operation. The third valve device <b>30</b> is preferably formed as a valve housing for the solenoid valve according to the invention, which has an inflow and an outflow for a fluid to be transported by the solenoid valve. In an effective axis of the solenoid valve that is oriented in the direction of the lifting rod <b>11</b>, the preassembled second valve device <b>20</b> with the inserted lifting magnet is joined together from below with the third valve device <b>30</b> by means of an axial joining operation. For this purpose, three third clearances <b>27</b> are provided in the third valve device <b>30</b> and are formed as elongate openings that are offset substantially by 120&#xb0; and are adapted to the circular mounting opening of the third valve device <b>30</b>. The third clearances <b>27</b> are in this case provided as through-openings for the three retaining elements <b>26</b> of the second valve device <b>20</b>.</p>
+<p id="p-0037" num="0036">During the joining together of the third valve device <b>30</b> with the second valve device <b>20</b>, within the second valve device <b>20</b> there builds up an axial force which tries to push the third valve device <b>30</b> away from the second valve device <b>20</b>, and which results from the sealing elements in the form of the first O-ring <b>14</b> and the second O-ring <b>18</b> being pressed together. The retaining elements <b>26</b> preferably are formed in terms of length in such a way that they maintain the stated axial tensile stress within the second valve device <b>20</b> and maintain a substantially flush connection between the third valve device <b>30</b> and the second valve device <b>20</b>. For this purpose, the lengths of the retaining elements <b>26</b> should be made correspondingly long, in order to satisfy the stated requirement in a static respect.</p>
+<p id="p-0038" num="0037"><figref idref="DRAWINGS">FIG. 6</figref> shows in a plan view a third valve device <b>30</b> assembled together with the second valve device <b>20</b>. After the axial connecting of the second valve device <b>20</b> to the third valve device <b>30</b>, the second valve device <b>20</b> is turned by a few angular degrees (preferably by approximately 5&#xb0; to approximately 10&#xb0;) with respect to the third valve device <b>30</b>. As a result, the retaining elements <b>26</b> are turned in the third clearances <b>27</b> of the third valve device <b>30</b>, the third valve device <b>30</b> being provided with a locking mechanism <b>28</b> which, after said turning of the retaining elements <b>26</b> in the third clearances <b>27</b>, engages behind the retaining elements <b>26</b> in its initial position. In this way, a self-locking, engageable connection between the third valve device <b>30</b> and the second valve device <b>20</b> is provided.</p>
+<p id="p-0039" num="0038">The stated turning between the second valve device <b>20</b> and the third valve device <b>30</b> represents a final step of an assembly or production process of the solenoid valve <b>100</b>, which is represented in cross section in an elevation in <figref idref="DRAWINGS">FIG. 7</figref>. <figref idref="DRAWINGS">FIG. 7</figref> shows the solenoid valve <b>100</b> in the opened state, which is achieved by the magnet coil <b>22</b> not being supplied with current by way of the connector <b>24</b>, whereby no mechanical axial force is exerted on the lifting rod <b>11</b> of the first valve device <b>10</b> by way of the magnet armature <b>16</b> and the guiding bush <b>13</b>. Also evident in <figref idref="DRAWINGS">FIG. 7</figref> is a damping element <b>29</b>, which serves the purpose that, after an opening of the solenoid valve <b>100</b>, the lifting rod <b>11</b> is damped when it strikes a metal housing of the second valve device <b>20</b>.</p>
+<p id="p-0040" num="0039">To sum up, a solenoid valve which can be preassembled and finally assembled in a simple way is proposed, individual valve devices being able to be connected to one another in a final assembly process by means of axial joining operations. Shapings of the valve devices that are adapted to one another and positioning or centering elements arranged in the valve devices serve the purpose of allowing the valve devices to be positioned or centered exactly in relation to one another on the basis of the joining operations. The ease with which they can be centered is attributable not least to the fact that the valve devices have substantially circular peripheral shapes that are adapted to one another, a common circle centerpoint corresponding to the effective axis of the solenoid valve.</p>
+<p id="p-0041" num="0040">This advantageously dispenses with the need for any additional centering and/or adjusting effort with corresponding auxiliary processes, which can significantly speed up a production process of the solenoid valve according to the invention and thereby considerably reduce the costs. Particularly advantageously, the complete production process of the solenoid valve can be carried out at a single assembly site. There is advantageously no need for complex laser-welded, flanged, riveted or screwed connections of individual valve groups, advantageously resulting in a favorable overall tolerance as the cumulative effect of few tolerances. As a result, a solenoid valve that can be efficiently produced with few resources, and therefore economically, is provided by the invention.</p>
+<p id="p-0042" num="0041">It is self-evident to a person skilled in the art that the described features of the invention can be suitably modified and combined with one another without departing from the essence of the invention.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A solenoid valve (<b>100</b>) with a substantially circular cross-sectional shape orthogonally in relation to an effective axis of the solenoid valve (<b>100</b>), the solenoid valve (<b>100</b>) including a first, a second, and a third valve device (<b>10</b>, <b>20</b>, <b>30</b>) connected to one another by threadless joining operations directed substantially in the direction of the effective axis, the valve devices (<b>10</b>, <b>20</b>, <b>30</b>) having peripheral shapes such that the valve devices (<b>10</b>, <b>20</b>, <b>30</b>) can be centered with respect to one another by the threadless joining operations, wherein the first valve device (<b>10</b>) includes a lifting magnet, the second valve device (<b>20</b>) includes a housing for the first valve device (<b>10</b>), and the third valve device (<b>30</b>) includes a valve housing to which the second valve device (<b>20</b>), joined together with the first valve device (<b>10</b>), is coupled, wherein the second valve device (<b>20</b>) includes a first closed end and a second open end spaced along the effective axis from the first closed end, a portion of the first valve device (<b>10</b>) protruding out of the second open end, wherein the second valve device (<b>20</b>) is coupled to the third valve device (<b>30</b>) at the second open end, and wherein the third valve device (<b>30</b>) includes a fluid inlet and a fluid outlet.</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The solenoid valve according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first valve device (<b>10</b>) includes a lifting rod (<b>11</b>) operable to center elements (<b>12</b>, <b>13</b>, <b>14</b>, <b>15</b>, <b>16</b>) arranged in series on the lifting rod (<b>11</b>).</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The solenoid valve according to <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the lifting magnet has a fixing element (<b>17</b>) for the mechanical fixing of the elements (<b>12</b>, <b>13</b>, <b>14</b>, <b>15</b>, <b>16</b>) arranged in series on the lifting rod (<b>11</b>).</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The solenoid valve according to <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the lifting rod (<b>11</b>) is produced by a multi-component injection-molding process.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The solenoid valve according to <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the lifting rod (<b>11</b>) has a sealing element (<b>11</b><i>a</i>) on a sealing portion.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The solenoid valve according to <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the second valve device (<b>20</b>) includes a centering means (<b>21</b>) for a magnet coil (<b>22</b>).</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The solenoid valve according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the centering means (<b>21</b>) is formed in a tubular manner integrally with the second valve device (<b>20</b>).</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The solenoid valve according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the second valve device (<b>20</b>) has a first positioning means (<b>23</b>) for a connector device (<b>24</b>), through which the magnet coil (<b>22</b>) can be supplied with energy.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The solenoid valve according to <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the second valve device (<b>20</b>) has a second positioning means (<b>25</b>) for positioning the first valve device (<b>10</b>) in the second valve device (<b>20</b>).</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The solenoid valve according to <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the third valve device (<b>30</b>) includes a third positioning means (<b>27</b>) for the second valve device (<b>20</b>).</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The solenoid valve according to <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the third positioning means is formed as clearances in the third valve device (<b>30</b>) for retaining elements (<b>26</b>) of the second valve device (<b>20</b>).</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The solenoid valve according to <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the retaining elements (<b>26</b>) are formed in such a way that, after a joining together of the second valve device (<b>20</b>) with the third valve device (<b>30</b>), the retaining elements (<b>26</b>) receive a force, acting along the effective axis, between the first valve device (<b>10</b>) and the second valve device (<b>20</b>).</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The solenoid valve according to <claim-ref idref="CLM-00012">claim 12</claim-ref>, wherein the third valve device (<b>30</b>) has a locking device (<b>28</b>), by which the second valve device (<b>20</b>) can be made to engage with the third valve device (<b>30</b>) after the joining together with the third valve device (<b>30</b>) and a turning operation in relation to the third valve device (<b>30</b>).</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The solenoid valve according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the joining operations are weldless.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. A solenoid valve (<b>100</b>) with a substantially circular cross-sectional shape orthogonally in relation to an effective axis of the solenoid valve (<b>100</b>), the solenoid valve (<b>100</b>) including a first, a second, and a third valve device (<b>10</b>, <b>20</b>, <b>30</b>) connected to one another by weldless joining operations directed substantially in the direction of the effective axis, the valve devices (<b>10</b>, <b>20</b>, <b>30</b>) having peripheral shapes such that the valve devices (<b>10</b>, <b>20</b>, <b>30</b>) can be centered with respect to one another by the weldless joining operations, wherein the first valve device (<b>10</b>) includes a lifting magnet, the second valve device (<b>20</b>) includes a housing for the first valve device (<b>10</b>), and the third valve device (<b>30</b>) includes a valve housing to which the second valve device (<b>20</b>), joined together with the first valve device (<b>10</b>), is coupled, wherein the second valve device (<b>20</b>) includes a first closed end and a second open end spaced along the effective axis from the first closed end, a portion of the first valve device (<b>10</b>) protruding out of the second open end, wherein the second valve device (<b>20</b>) is coupled to the third valve device (<b>30</b>) at the second open end, and wherein the third valve device (<b>30</b>) includes a fluid inlet and a fluid outlet.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The solenoid valve according to <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the first valve device (<b>10</b>) includes a lifting rod (<b>11</b>) operable to center elements (<b>12</b>, <b>13</b>, <b>14</b>, <b>15</b>, <b>16</b>) arranged in series on the lifting rod (<b>11</b>).</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The solenoid valve according to <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein the lifting magnet has a fixing element (<b>17</b>) for the mechanical fixing of the elements (<b>12</b>, <b>13</b>, <b>14</b>, <b>15</b>, <b>16</b>) arranged in series on the lifting rod (<b>11</b>).</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The solenoid valve according to <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein the lifting rod (<b>11</b>) is produced by a multi-component injection-molding process.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The solenoid valve according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein the lifting rod (<b>11</b>) has a sealing element (<b>11</b><i>a</i>) on a sealing portion.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The solenoid valve according to <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein the second valve device (<b>20</b>) includes a centering means (<b>21</b>) for a magnet coil (<b>22</b>). </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

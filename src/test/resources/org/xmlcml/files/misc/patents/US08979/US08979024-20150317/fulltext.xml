@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979024-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979024</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13247296</doc-number>
+<date>20110928</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>FR</country>
+<doc-number>10 03939</doc-number>
+<date>20101005</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>763</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>52</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>32</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>52</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>2025</main-group>
+<subgroup>008</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>2025</main-group>
+<subgroup>325</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>244108</main-classification>
+</classification-national>
+<invention-title id="d2e71">Skid landing gear and an aircraft provided with such landing gear</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3173632</doc-number>
+<kind>A</kind>
+<name>Woods</name>
+<date>19650300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>3857533</doc-number>
+<kind>A</kind>
+<name>Mason</name>
+<date>19741200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>FR</country>
+<doc-number>2895368</doc-number>
+<kind>A1</kind>
+<date>20070600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>SE</country>
+<doc-number>118333</doc-number>
+<kind>C</kind>
+<date>19470300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00005">
+<othercit>Search Report and Written Opinion; Application No. FR 1003939 dated; May 30, 2011.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>244108</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 1717</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482981</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482991</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482741</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24828811</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>446 34</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>446 36</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>280845</main-classification>
+</classification-national>
+<classification-cpc-text>B64C 2025/325</classification-cpc-text>
+<classification-cpc-text>B64C 25/52</classification-cpc-text>
+<classification-cpc-text>B64C 2025/008</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>2</number-of-drawing-sheets>
+<number-of-figures>12</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20120080560</doc-number>
+<kind>A1</kind>
+<date>20120405</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Piccone</last-name>
+<first-name>Jean-Francois</first-name>
+<address>
+<city>Cabries</city>
+<country>FR</country>
+</address>
+</addressbook>
+<residence>
+<country>FR</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Potdevin</last-name>
+<first-name>Francois</first-name>
+<address>
+<city>Ventabren</city>
+<country>FR</country>
+</address>
+</addressbook>
+<residence>
+<country>FR</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Piccone</last-name>
+<first-name>Jean-Francois</first-name>
+<address>
+<city>Cabries</city>
+<country>FR</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Potdevin</last-name>
+<first-name>Francois</first-name>
+<address>
+<city>Ventabren</city>
+<country>FR</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Brooks Kushman P.C.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Airbus Helicopters</orgname>
+<role>03</role>
+<address>
+<city>Marignane Cedex</city>
+<country>FR</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Swiatek</last-name>
+<first-name>Rob</first-name>
+<department>3643</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Schwarz</last-name>
+<first-name>Timothy</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A landing gear (<b>3</b>) provided with first and second longitudinal bearing skids (<b>4, 5</b>) and with first and second transverse crossbars (<b>6, 7</b>). The landing gear includes at least one resilient fastener device (<b>10</b>) together with at least one blocking means (<b>20</b>) and at least one centering means (<b>30</b>) for each crossbar.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="129.71mm" wi="144.44mm" file="US08979024-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="270.85mm" wi="173.14mm" file="US08979024-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="261.70mm" wi="190.84mm" file="US08979024-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">This application claims priority to FR 10 03939 filed on Oct. 5, 2010, the disclosure of which is incorporated in its entirety by reference herein.</p>
+<heading id="h-0002" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0003" num="0002">(1) Field of the Invention</p>
+<p id="p-0004" num="0003">The present invention relates to skid landing gear and to an aircraft provided with such landing gear, in particular a rotorcraft.</p>
+<p id="p-0005" num="0004">(2) Description of Related Art</p>
+<p id="p-0006" num="0005">Conventionally, a rotorcraft includes landing gear via which the rotorcraft rests on the ground. More particularly, the landing gear may comprise so-called &#x201c;skid&#x201d; landing gear having first and second longitudinal bearing skids suitable for coming into contact with the ground and located on either side of the fuselage of the rotorcraft.</p>
+<p id="p-0007" num="0006">In addition, skid landing gear is usually provided with first and second transverse crossbars each connected to the first and second skids in order to connect the skids to the airframe of the aircraft.</p>
+<p id="p-0008" num="0007">The first crossbar is referred to as the &#x201c;front&#x201d; crossbar since the first crossbar connects the airframe to zones situated at the front ends of the first and second longitudinal skids. Conversely, the second crossbar is referred to as the &#x201c;rear&#x201d; crossbar insofar as the second crossbar connects the airframe to zones situated at the rear ends of the first and second longitudinal skids.</p>
+<p id="p-0009" num="0008">The landing gear is then fastened to the aircraft via its front and rear crossbars.</p>
+<p id="p-0010" num="0009">Such landing gear is very effective and enables a rotorcraft to land on multiple types of surface.</p>
+<p id="p-0011" num="0010">Nevertheless, landing on sloping ground can be difficult, in particular for an inexperienced pilot.</p>
+<p id="p-0012" num="0011">Using the landing procedure that is normally used when landing a helicopter on sloping ground, the pilot begins by hovering above the selected landing zone. The pilot then moves the helicopter towards the ground by reducing the collective pitch of the blades of the rotor until one skid touches the ground, which skid is referred to for convenience as the &#x201c;uphill&#x201d; skid.</p>
+<p id="p-0013" num="0012">The pilot then continues to reduce the collective pitch, while also modifying the cyclic pitch of the blades so as to keep the rotor disk substantially horizontal, i.e. perpendicular to the gravity axis.</p>
+<p id="p-0014" num="0013">It should be observed that if the slope of the ground is excessive, it is possible for the pilot to reach the maximum cyclic pitch of the blades, whereupon the pilot is obliged to take off in order to find some other landing zone.</p>
+<p id="p-0015" num="0014">When the downhill skid touches the ground in turn, the pilot verifies the quality of the trim of the helicopter on the ground by gently operating the rudder bar and the collective pitch lever. If the trim is acceptable, then the pilot ceases to act on the cyclic pitch of the blades and possibly reduces the speed of rotation of the power plant driving the rotor. In certain situations such as unloading passengers, it is advisable not to reduce the speed of rotation.</p>
+<p id="p-0016" num="0015">It can be understood that such a procedure requires special training for pilots.</p>
+<p id="p-0017" num="0016">Document U.S. Pat. No. 3,857,533 describes a helicopter provided with skid landing gear that makes it easier to land on sloping ground.</p>
+<p id="p-0018" num="0017">That landing gear possesses first and second skids that are connected together by front and rear crossbars. Each crossbar forms a circular arc with its concave side facing towards the ground, the concave surface of each of the crossbars including blocking catches.</p>
+<p id="p-0019" num="0018">The landing gear also includes guide means fastened to the helicopter airframe for co-operating with each of the crossbars, i.e. stationary wheels that allow the crossbars to move transversely when one of the skids touches the ground, with the wheels then revolving.</p>
+<p id="p-0020" num="0019">Finally, the landing gear includes active means for blocking the crossbars, i.e. fingers controlled by the collective pitch control of the aircraft so as to co-operate with the blocking catches of the crossbars.</p>
+<p id="p-0021" num="0020">Thus, when the helicopter lands on a slope, as soon as the uphill skid of the landing gear touches the ground, the reaction of the ground on the uphill skid causes the skids to move transversely. Under such circumstances, the landing gear pivots relative to the airframe of the helicopter.</p>
+<p id="p-0022" num="0021">Such pivoting comes to an end when the downhill skid touches the ground, in turn. Thus, the landing gear pivots to match the slope without the airframe of the helicopter tending to pivot as well, thus enabling the pilot to avoid acting on the cyclic pitch of the blades for the purpose of keeping the lift rotor horizontal.</p>
+<p id="p-0023" num="0022">Furthermore, by reducing the collective pitch of the blades with the collective stick lever, the pilot instructs the blocking means to engage in the blocking catches so as to prevent the airframe tilting sideways on the ground by freezing the position of the airframe relative to the landing gear.</p>
+<p id="p-0024" num="0023">Since the rotor is kept horizontal without acting on the cyclic pitch, landing is simplified and made safer compared with the above-described procedure.</p>
+<p id="p-0025" num="0024">Although effective, that landing gear requires the flight control to be coupled with the blocking means in order to block the landing gear on the ground. This results in a mechanical structure that is complicated and also in providing actuators and sensors, thereby running the risk of them failing.</p>
+<p id="p-0026" num="0025">Furthermore, it is found that after landing on sloping ground, the landing gear is off-center relative to the airframe of the helicopter and in particular relative to the anteroposterior plane of symmetry of the airframe. This results in unbalance of the aerodynamic drag of the landing gear during the flight undertaken after landing on sloping ground.</p>
+<p id="p-0027" num="0026">Furthermore, the pilot has no means for estimating the position of the landing gear relative to the airframe, and in particular the heights of the skids relative to the airframe. Under such circumstances, the pilot is in a disagreeable situation next time a landing is to be made. Furthermore, it can be understood that the pilot runs the risk of catching on an obstacle while moving in translation at very low altitude.</p>
+<p id="p-0028" num="0027">It should also be observed that the following documents are known: SE 118 333 C, FR 2 895 368 A1, and U.S. Pat. No. 3,173,632 A.</p>
+<heading id="h-0003" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0029" num="0028">An object of the present invention is thus to propose landing gear that makes it possible to overcome the above-mentioned drawbacks by proposing landing gear that is simple and that is capable of allowing the pilot to know the exact position of the skids of the landing gear relative to the airframe when in flight.</p>
+<p id="p-0030" num="0029">According to the invention, landing gear is provided with a first longitudinal bearing skid and a second longitudinal bearing skid together with a first transverse crossbar and a second transverse crossbar, each connected to the first and second skids in order to connect each longitudinal bearing skid to an airframe of an aircraft.</p>
+<p id="p-0031" num="0030">The landing gear is remarkable in that it includes at least one resilient fastener device together with at least one blocking means and at least one centering means per crossbar, the fastener device for the associated crossbar including connection means for connecting the associated crossbar to the airframe and slide means for allowing the associated crossbar to slide relative to the connection means in a direction parallel to a transverse direction from the first skid towards the second skid while landing on sloping terrain, the blocking means being independent and acting to block the sliding of the associated crossbar relative to the connection means after landing on sloping terrain, the centering means acting in flight to position the associated crossbar in a predetermined position relative to the connection means.</p>
+<p id="p-0032" num="0031">It should be observed that the term &#x201c;associated crossbar&#x201d; means the crossbar co-operating with a fastener assembly having at least one fastener device together with at least one blocking means and at least one centering means. Thus, the first crossbar is the crossbar associated with the first fastener assembly and the second crossbar is associated with the second fastener assembly.</p>
+<p id="p-0033" num="0032">Each crossbar is then resiliently connected in flight to the airframe of the aircraft via at least one resilient fastener device, the crossbar being connected rigidly to said airframe by blocking means as a result of making a landing.</p>
+<p id="p-0034" num="0033">The fastener assembly of a crossbar may for example possess one blocking means and two fastener devices each co-operating with slide means, or indeed two blocking means and one fastener device co-operating with slide means, for example.</p>
+<p id="p-0035" num="0034">Under such circumstances, the invention provides a resilient fastener device that is suitable for allowing the crossbars and the longitudinal bearing skids to move after a skid has made contact with sloping ground.</p>
+<p id="p-0036" num="0035">Like document U.S. Pat. No. 3,857,533, such movement serves to simplify the procedure for landing. Nevertheless, unlike the teaching of that document U.S. Pat. No. 3,857,533, the invention makes provision in particular for a resilient fastener device together with independent blocking means, i.e. means that are independent of the flight controls of the aircraft, thereby enabling the installation to be simplified. Furthermore, the invention possesses centering means for centering the crossbars and the longitudinal bearing skids relative to the anteroposterior plane of symmetry of the aircraft while it is in flight, e.g. for the purpose of limiting the aerodynamic drag of the landing gear and of avoiding any pilot uncertainty about the real positions of the two skids.</p>
+<p id="p-0037" num="0036">Whatever the slope of the ground before making a flight, the first and second skids are arranged by the centering means in a position that is predetermined by the manufacturer.</p>
+<p id="p-0038" num="0037">The landing gear may include one or more of the following additional characteristics.</p>
+<p id="p-0039" num="0038">For example, the landing gear includes at least one lateral abutment arranged on a crossbar to limit the movement of the crossbar relative to the connection means during a landing on sloping terrain.</p>
+<p id="p-0040" num="0039">In an embodiment, two lateral abutments are provided arranged on either side of a fastener device. Contact between a lateral abutment and a fastener device serves to stop lateral movement of the crossbar.</p>
+<p id="p-0041" num="0040">Furthermore, at least one given crossbar comprises a central portion that is secured to a first portion secured to the first skid and a second portion secured to the second skid, said centering means comprising said central portion, said central portion presenting an arc of given radius about a center of curvature, the center of curvature being above said given crossbar when the landing gear is resting on horizontal ground.</p>
+<p id="p-0042" num="0041">Under such circumstances, the central portion presents a concave side facing the airframe of the aircraft. This characteristic enables the crossbar to be re-centered automatically by gravity once the skids are no longer touching the ground.</p>
+<p id="p-0043" num="0042">Furthermore, the centering means may comprise transverse return means, e.g. resilient return means, and a lever secured to the associated crossbar, the transverse return means tending to move the lever in order to position the associated crossbar in the predetermined position.</p>
+<p id="p-0044" num="0043">For example, the transverse return means may include two springs located on either side of the lever. When sloping ground exerts a force on the uphill skid, the crossbar moves relative to the airframe. This lateral movement of the crossbar stretches one of springs and compresses the other spring via the lever. In contrast, after the aircraft has taken off, each of the springs returns to its initial position, thereby moving the lever, and consequently returning the crossbar to said initial position.</p>
+<p id="p-0045" num="0044">In particular, any means equivalent to a spring, such as a block of elastomer or a spring blade, could be envisaged.</p>
+<p id="p-0046" num="0045">The lever may be combined with making use of a portion of the crossbar that has a center of curvature about said portion.</p>
+<p id="p-0047" num="0046">In addition, the blocking means may comprise a stationary portion suitable for being fastened to the airframe and a movable portion secured to the associated crossbar, the stationary portion and the movable portion co-operating by interfering shapes after a landing.</p>
+<p id="p-0048" num="0047">For example, the stationary portion includes catches and the movable portion includes teeth suitable for co-operating with the catches.</p>
+<p id="p-0049" num="0048">It should be observed that the terms &#x201c;tooth&#x201d; and &#x201c;catch&#x201d; should be understood broadly and cover shapes that are complementary, a &#x201c;catch&#x201d; having a female shape and a &#x201c;tooth&#x201d; having a male shape. A catch and/or tooth may include two sloping surfaces, or indeed lugs or pins, in particular.</p>
+<p id="p-0050" num="0049">In another aspect, the connection means comprise a fastener structure suitable for being fastened to the airframe, the slide means comprise a stationary wheel and a movable wheel co-operating with the fastener structure to connect the associated crossbar to the airframe, the associated crossbar passing between a stationary wheel and a movable wheel.</p>
+<p id="p-0051" num="0050">In flight, the crossbar is held between a stationary wheel and a movable wheel. However, while landing, the movable wheel is free to move in elevation and to allow the associated crossbar to be blocked transversely. The fastener device is then resilient insofar as it deforms depending on the stage of flight.</p>
+<p id="p-0052" num="0051">The fastener structure may support a stationary axle for the stationary wheel and a movable axle for the movable wheel, which axle slides in at least one slot extending in elevation in the fastener structure above the stationary wheel. For example, the fastener structure may comprise two parallel plates having respective guide slots, with the stationary axle being secured to each of the plates and the movable axle being arranged in the slot in each of the plates.</p>
+<p id="p-0053" num="0052">Furthermore, the slide means may optionally include elevation return means for returning the movable wheel and suitable for pressing the movable wheel against the associated crossbar. For example, the elevation return means may comprise a spring fastened both to the movable axle and to the fastener structure or to the airframe. A spring blade or a block of elastomer material could also be envisaged.</p>
+<p id="p-0054" num="0053">In addition to landing gear, the invention provides an aircraft including such landing gear.</p>
+<p id="p-0055" num="0054">According to the invention, an aircraft comprises an airframe and landing gear, the landing gear being provided with a first longitudinal bearing skid and a second longitudinal bearing skid, together with first and second transverse crossbars to connect each longitudinal bearing skid to said airframe.</p>
+<p id="p-0056" num="0055">In addition, the landing gear includes one or more of the above characteristics. In particular, the landing gear includes at least one resilient fastener device together with at least one blocking device and at least one centering means per crossbar, the fastener device for fastening the associated crossbar including connection means for connecting the associated crossbar to the airframe and slide means for allowing the associated crossbar to slide relative to the airframe during a landing on sloping terrain, the blocking means being independent to block sliding of the associated crossbar relative to the airframe following a landing on sloping terrain, the centering means acting in flight to position the associated crossbar in a predetermined position relative to the airframe.</p>
+<p id="p-0057" num="0056">For example, the landing gear may have two resilient fastener means on one crossbar and one resilient fastener means on the other crossbar in order to obtain a three-point fastener system, or indeed two resilient fastener means on each crossbar in order to obtain a four-point fastener system.</p>
+<p id="p-0058" num="0057">Depending on the variant, the landing gear is provided with at least two fastener devices associated with one crossbar and at least one fastener device associated with the other crossbar.</p>
+<p id="p-0059" num="0058">Furthermore, it should be observed that rotorcraft may be subjected to complex phenomena of ground resonance. The invention also presents the advantage of at least minimizing that phenomenon of ground resonance while landing.</p>
+<p id="p-0060" num="0059">During an initial stage of landing, the landing gear is connected to the airframe via resilient fastener devices and it is not rigidly connected to the airframe until the last stage of the landing, in which last stage the pilot reduces the cyclic and collective pitch controls. The vibration generated by the rotor via the airframe therefore does not subject the aircraft to the ground resonance phenomenon.</p>
+<p id="p-0061" num="0060">The resonant frequency in roll of the helicopter when standing on its landing gear is very low, and may even be close to zero hertz at the beginning of a landing, while the vibratory excitation from the rotor is still strong, given a relatively large collective pitch. The resonance frequency in roll rises when the crossbars become blocked laterally, however the risk of ground resonance is then reduced because the collective pitch is greatly reduced, thereby greatly reducing the amount of vibratory excitation it generates.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0062" num="0061">The invention and its advantages appear in greater detail from the following description of embodiments given by way of illustration with reference to the accompanying figures, in which:</p>
+<p id="p-0063" num="0062"><figref idref="DRAWINGS">FIG. 1</figref> is a diagrammatic view of an aircraft of the invention;</p>
+<p id="p-0064" num="0063"><figref idref="DRAWINGS">FIGS. 2 to 5</figref> are diagrammatic sections explaining the operation of the invention;</p>
+<p id="p-0065" num="0064"><figref idref="DRAWINGS">FIG. 6</figref> is a section showing landing gear in a first embodiment;</p>
+<p id="p-0066" num="0065"><figref idref="DRAWINGS">FIGS. 7 and 8</figref> are sections of a fastener device provided with elevation return means in a first variant;</p>
+<p id="p-0067" num="0066"><figref idref="DRAWINGS">FIGS. 9 and 10</figref> are views of elevation return means in a second variant; and</p>
+<p id="p-0068" num="0067"><figref idref="DRAWINGS">FIGS. 11 and 12</figref> are views explaining the operation of landing gear in a second embodiment.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="p-0069" num="0068">Elements that are present in more than one of the figures are given the same references in each of them.</p>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+<p id="p-0070" num="0069">It should be observed that three mutually orthogonal directions X, Y, and Z are shown in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>.</p>
+<p id="p-0071" num="0070">The first direction X is said to be &#x201c;longitudinal&#x201d;, the second direction Y is said to be &#x201c;transverse&#x201d;, and the third direction Z is to said to be in &#x201c;elevation&#x201d;.</p>
+<p id="p-0072" num="0071"><figref idref="DRAWINGS">FIG. 1</figref> shows an aircraft <b>1</b> having an airframe <b>2</b> that is shown diagrammatically. The airframe <b>2</b> extends longitudinally along an anteroposterior plane of symmetry directed along the longitudinal direction X, transversely along the transverse direction Y, and in elevation along the elevation direction Z.</p>
+<p id="p-0073" num="0072">Furthermore, the aircraft <b>1</b> is provided with landing gear <b>3</b> on which the airframe <b>2</b> rests while on the ground. The landing gear <b>3</b> is provided with a carrier assembly <b>3</b>&#x2032; having first and second longitudinal bearing skids <b>4</b> and <b>5</b> that are parallel to each other and to the longitudinal direction X. The carrier assembly also possesses a first transverse crossbar <b>6</b> at the front and a second transverse crossbar <b>7</b> at the rear connecting each of the longitudinal bearing skids <b>4</b> and <b>5</b> to the airframe <b>2</b> of the aircraft <b>1</b>.</p>
+<p id="p-0074" num="0073">Furthermore, the landing gear includes one fastener assembly for each crossbar, the fastener assembly having at least one resilient fastener device <b>10</b>, together with at least one blocking means <b>20</b> and at least one centering means <b>30</b>.</p>
+<p id="p-0075" num="0074">By way of example, the first crossbar <b>6</b> has two fastening points with the airframe <b>2</b>, the landing gear has two fastener devices <b>10</b>, one centering means <b>30</b>, and one blocking means <b>20</b> that co-operates with the associated first crossbar <b>6</b>.</p>
+<p id="p-0076" num="0075">In contrast, the second crossbar <b>7</b> has one fastener point with the airframe <b>2</b>, the landing gear having one fastener device <b>10</b>, one centering means <b>30</b>, and two blocking means <b>20</b> that co-operate with the associated second crossbar <b>7</b>.</p>
+<p id="p-0077" num="0076">Each resilient fastener device <b>10</b> of a crossbar serves to connect the crossbar to the airframe <b>2</b> via a connection that is suitable for enabling the crossbar to slide relative to the airframe <b>2</b> in a direction parallel to the transverse direction Y.</p>
+<p id="p-0078" num="0077">Under such circumstances, each fastener device <b>10</b> includes connection means <b>40</b> connecting the associated crossbar to the airframe <b>2</b>. In addition, the fastener device <b>10</b> includes slide means <b>50</b> allowing said associated crossbar to move relative to the connection means <b>40</b> and thus to the airframe <b>2</b> while landing on sloping ground, and thus allowing the carrier assembly to move.</p>
+<p id="p-0079" num="0078">Furthermore, the blocking means <b>20</b> of a crossbar serve to block the lateral sliding of said crossbar relative to the corresponding connection means and to the airframe <b>2</b> after landing on sloping terrain.</p>
+<p id="p-0080" num="0079">The blocking means <b>20</b> are advantageously independent means, i.e. means that are passive and not managed by any auxiliary member such as a flight control, for example.</p>
+<p id="p-0081" num="0080">In another aspect, the centering means <b>30</b> of a crossbar serve in flight to position the crossbar in a predetermined position relative to the connection means <b>40</b> and to the airframe <b>2</b>, e.g. relative of the anteroposterior plane P of symmetry of the aircraft <b>1</b>.</p>
+<p id="p-0082" num="0081"><figref idref="DRAWINGS">FIGS. 2 to 6</figref> show a helicopter type aircraft <b>1</b> having an airframe <b>2</b>, the airframe <b>2</b> carrying a rotor <b>8</b> and resting on landing gear <b>3</b> of the invention.</p>
+<p id="p-0083" num="0082">With reference to <figref idref="DRAWINGS">FIG. 2</figref>, when the pilot has selected a landing zone S&#x2032; on sloping ground S, the pilot reduces the collective pitch of the blades of the rotor <b>8</b> in order to make the aircraft <b>1</b> approach the ground.</p>
+<p id="p-0084" num="0083">With reference to <figref idref="DRAWINGS">FIG. 3</figref>, when the uphill skid, i.e. the second skid <b>5</b> in the example shown, touches the ground S, the reaction from the ground S on the uphill skid <b>5</b> causes the carrier assembly of the landing gear <b>3</b> to slide along arrow F, i.e. the first and second crossbars together with the first skid <b>4</b> slide along arrow F.</p>
+<p id="p-0085" num="0084">As a result, the sliding causes the downhill skid to move closer to the ground S, specifically causing the first skid <b>4</b> to move in the example shown. The path followed by the first skid <b>4</b> is curved, i.e. substantially a circular arc.</p>
+<p id="p-0086" num="0085">With reference to <figref idref="DRAWINGS">FIG. 4</figref>, on continuing to descend, the pilot causes the downhill skid to come into contact with the ground S.</p>
+<p id="p-0087" num="0086">Nevertheless, the pilot continues to reduce the collective pitch of the blades of the rotor <b>8</b>. With the skids of the landing gear resting on the sloping ground, the airframe approaches said landing gear, thereby engaging the blocking means.</p>
+<p id="p-0088" num="0087">With reference to <figref idref="DRAWINGS">FIG. 5</figref>, the carrier assembly is then no longer capable of moving laterally relative to the airframe <b>2</b>.</p>
+<p id="p-0089" num="0088">As explained below, the blocking means are completely independent and they do not require any control means to be used in order to perform their function.</p>
+<p id="p-0090" num="0089"><figref idref="DRAWINGS">FIG. 6</figref> is a diagram of a first embodiment of the invention.</p>
+<p id="p-0091" num="0090">Independently of the embodiment, <figref idref="DRAWINGS">FIG. 6</figref> shows two fastener devices <b>10</b>.</p>
+<p id="p-0092" num="0091">Each fastener device <b>10</b> has one connection means <b>40</b>. The connection means <b>40</b> possesses a fastener structure <b>41</b> for connecting the associated crossbar <b>6</b> to the airframe <b>2</b>.</p>
+<p id="p-0093" num="0092">By way of example, and with reference to <figref idref="DRAWINGS">FIG. 7</figref>, the fastener structure <b>41</b> presents two mutually parallel fastener plates <b>42</b> and <b>43</b>, each fastener plate <b>42</b> and <b>43</b> being secured to the airframe <b>2</b>. The crossbar <b>6</b> associated with a fastener device <b>10</b> is then arranged inside the fastener structure <b>41</b>, between the fastener plates <b>42</b> and <b>43</b>.</p>
+<p id="p-0094" num="0093">Furthermore, the fastener device <b>10</b> includes slide means <b>50</b> co-operating with a crossbar <b>6</b> and with a fastener structure <b>41</b>.</p>
+<p id="p-0095" num="0094">The slide means <b>50</b> are thus provided with a wheel referred to for convenience as a stationary wheel <b>51</b> insofar as its position relative to the airframe <b>2</b> and to the connection means <b>40</b> does not vary. Furthermore, the slide means <b>50</b> is provided with a wheel that is referred to for convenience as a movable wheel <b>52</b> insofar as its position relative to the airframe <b>2</b> and to the connection means <b>40</b> is variable.</p>
+<p id="p-0096" num="0095">Furthermore, an axis passing through the center of symmetry between the stationary wheel <b>51</b> and the movable wheel <b>52</b> and intersecting the corresponding crossbar at a point of intersection is perpendicular to the tangent of the crossbar passing via a point of intersection. The movable wheel <b>52</b> is then arranged substantially vertically above the stationary wheel <b>51</b>, i.e. above the stationary wheel along said axis, the associated crossbar being arranged between the stationary wheel <b>51</b> and the movable wheel <b>52</b>.</p>
+<p id="p-0097" num="0096">Consequently, the crossbar <b>6</b> is held in a space that is defined in elevation by the stationary wheel <b>51</b> and by the movable wheel <b>52</b>, and longitudinally by a first plate <b>42</b> and a second plate <b>43</b>.</p>
+<p id="p-0098" num="0097">The stationary wheel <b>51</b> co-operates for this purpose with the fastener structure <b>41</b>. Under such circumstances, the connection means include a stationary axle <b>53</b> passing in succession through the first plate <b>42</b> of the fastener structure, through the stationary wheel <b>51</b>, and then through the second plate <b>43</b> of the fastener structure, the stationary wheel <b>51</b> being free to rotate about the stationary axle <b>53</b>.</p>
+<p id="p-0099" num="0098">Similarly, the movable wheel <b>52</b> co-operates with the fastener structure <b>41</b>. Under such circumstances, the connection means include a movable axle <b>54</b> passing in succession through the first plate <b>42</b> of the fastener structure, through the movable wheel <b>52</b>, and then through the second plate <b>43</b> of the fastener structure, the movable wheel <b>52</b> being free to rotate about the movable axle <b>54</b>.</p>
+<p id="p-0100" num="0099">It can be understood that bearings or the equivalent may be arranged between each wheel and each plate in order to optimize mechanical operation thereof by reducing friction and wear, in particular.</p>
+<p id="p-0101" num="0100">Furthermore, the stationary axle <b>53</b> is securely attached to the fastener structure so as to be in a position that does not vary relative to said fastener structure <b>41</b>.</p>
+<p id="p-0102" num="0101">Conversely, the movable axle <b>54</b> can slide relative to the fastener structure <b>41</b>. For example, the movable axle passes through a first elongate slot <b>44</b> extending substantially along the elevation direction Z in the first plate <b>42</b> and through a second elongate slot <b>45</b> extending substantially along the elevation direction Z in the second plate <b>43</b> so as to be capable of moving in translation along said direction that is substantially in elevation Z. The first and second slots are optionally arranged along the above-mentioned axis.</p>
+<p id="p-0103" num="0102">In order to dimension the first and second slots, it should be observed that the movable axle is located at a first end of the first and second slots when the movable wheel presses the crossbar against the stationary wheel, said axle occupying a second end position in the first and second slots when the blocking means are engaged.</p>
+<p id="p-0104" num="0103">Finally, the slide means shown comprise elevation return means <b>55</b> for continuously pressing the movable wheel <b>52</b> against the associated crossbar. For example, the elevation return means <b>55</b> possess at least one spring <b>56</b>&#x2032;, <b>56</b>&#x2033; connecting the movable axle <b>54</b> to a projecting rim <b>42</b>&#x2032;, <b>43</b>&#x2032; of the fastener structure in the embodiment shown, or indeed to the airframe <b>2</b>.</p>
+<p id="p-0105" num="0104">It can be understood that it is possible to use any other means capable of returning to its original shape after stress has been applied thereto, e.g. a block of elastomer.</p>
+<p id="p-0106" num="0105">In the variant shown in <figref idref="DRAWINGS">FIGS. 9 and 10</figref>, the elevation return means comprise a spring blade <b>57</b> carrying the movable axle <b>54</b>. The plates <b>42</b> and <b>43</b> of the fastener structure <b>41</b> and the movable wheel <b>52</b> then penetrate through an orifice <b>57</b>&#x2032; in the spring blade <b>57</b>.</p>
+<p id="p-0107" num="0106">Whatever the variant, the pressure exerted in flight by the elevation return means <b>55</b> on the movable wheel <b>52</b> serves to keep the crossbar <b>6</b> in contact with the movable wheel <b>52</b> and with the stationary wheel <b>51</b> in each associated fastener device.</p>
+<p id="p-0108" num="0107">With reference to <figref idref="DRAWINGS">FIG. 7</figref>, when the uphill skid touches sloping ground while landing, the reaction from the ground on the uphill skid is not sufficient to move the movable wheel in translation.</p>
+<p id="p-0109" num="0108">As seen from a fastener structure <b>41</b>, the ground reaction is equivalent to a reaction force <b>200</b> together with a reaction moment.</p>
+<p id="p-0110" num="0109">This reaction force can be resolved into a first force <b>201</b> perpendicular to the crossbar and a second force <b>202</b> tangential to the crossbar, as shown in <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+<p id="p-0111" num="0110">The first force is balanced by the reaction from the fastener device, the reaction moment being balanced by the reactions from the set of devices for fastening a crossbar.</p>
+<p id="p-0112" num="0111">In contrast, the second force is not balanced, and it causes the crossbar to slide laterally.</p>
+<p id="p-0113" num="0112">The crossbar <b>6</b> then moves relative to the airframe of the aircraft, while being guided between each movable wheel and the corresponding stationary wheel.</p>
+<p id="p-0114" num="0113">With descent continuing, the downhill skid touches the ground in turn.</p>
+<p id="p-0115" num="0114">With reference to <figref idref="DRAWINGS">FIG. 8</figref>, by reducing the collective pitch, the pilot causes the lift from the rotary wing to drop below a threshold that implies that the airframe will approach the crossbars. The movable wheels are then no longer capable of preventing each of the crossbars from moving towards the airframe along arrow F<b>1</b>. Thus, at the end of this approach movement, the blocking means are activated so as to lock the landing gear in position relative to the airframe.</p>
+<p id="p-0116" num="0115">Thus, during a first stage of landing, the movable and stationary wheels act together to guide movement in translation of each crossbar relative to the airframe. In contrast, during a second stage of landing that follows both skids of the landing gear being placed on the ground, the movable wheels can no longer oppose the crossbars moving towards the airframe, and consequently the crossbars become rigidly blocked by the blocking means.</p>
+<p id="p-0117" num="0116"><figref idref="DRAWINGS">FIG. 6</figref> shows one such blocking means <b>20</b>.</p>
+<p id="p-0118" num="0117">The blocking means <b>20</b> comprise a stationary portion <b>21</b> secured to the airframe <b>2</b> and a movable portion <b>22</b> secured to the associated crossbar <b>6</b>. When the transverse movement of the associated crossbar <b>6</b> along arrow F<b>1</b> reaches a maximum threshold, the stationary and movable portions <b>21</b> and <b>22</b> co-operate with each other by means of interfering shapes to as to block the crossbar <b>6</b>.</p>
+<p id="p-0119" num="0118">For example, the stationary portion <b>21</b> has catches <b>23</b> and the movable portion <b>22</b> has teeth <b>24</b> suitable for being inserted in the catches <b>23</b>.</p>
+<p id="p-0120" num="0119">The stationary and movable portions <b>21</b> and <b>22</b> are dimensioned so as to obtain interference between shapes regardless of the transverse position of the stationary portion <b>21</b> relative to the transverse position of the movable portion <b>22</b>.</p>
+<p id="p-0121" num="0120">Other blocking means could be envisaged, such as blocking means of the type used on declutchable ski-lifts or on locking pliers.</p>
+<p id="p-0122" num="0121">Furthermore, the landing gear optionally includes means for limiting the transverse movement of the crossbar relative to the airframe.</p>
+<p id="p-0123" num="0122">These limit means may comprise at least one lateral abutment <b>70</b> interrupting transverse movement of the crossbar by interfering with a fastener device.</p>
+<p id="p-0124" num="0123">The lateral abutment <b>70</b> may be a dedicated member arranged on the crossbar or it may be an element of the moving portion <b>22</b> of the blocking means, for example.</p>
+<p id="p-0125" num="0124">Furthermore, the landing gear <b>3</b> possesses one centering means <b>30</b> for each crossbar of the carrier assembly of the landing gear <b>3</b> for centering it in flight.</p>
+<p id="p-0126" num="0125">In the first embodiment shown in <figref idref="DRAWINGS">FIG. 6</figref>, the means for centering a given crossbar are obtained solely with a portion of said given crossbar.</p>
+<p id="p-0127" num="0126">Such a given crossbar comprises in succession a first portion <b>61</b> fastened to the first skid <b>4</b>, a central portion <b>60</b>, and then a second portion <b>62</b> fastened to the second skid <b>5</b>.</p>
+<p id="p-0128" num="0127">The central portion <b>60</b> is in the form of an arc of given radius R about a center of curvature Co, the center of curvature Co being above the given crossbar when the landing gear is resting on horizontal ground. Under such circumstances, the central portion presents a concave side facing towards the airframe <b>2</b>.</p>
+<p id="p-0129" num="0128">As soon as the ground is no longer exerting force on the skids, the particular shape of the central portion enables the support element <b>3</b>&#x2032; of the landing gear <b>3</b> to be re-centered.</p>
+<p id="p-0130" num="0129">It should be observed that half of the lateral movement of the crossbar is equal to the slope of the ground measured in radians and multiplied by said radius R of the central portion. For a predetermined maximum slope, an optimum radius R and lateral movement pair is determined as a function of the available space, in particular.</p>
+<p id="p-0131" num="0130">For example, for a slope of 12&#xb0;, it is possible to use a crossbar having a central portion presenting an arc with a radius of three meters and suitable for moving laterally through plus or minus 63 centimeters on either side of an equilibrium position.</p>
+<p id="p-0132" num="0131"><figref idref="DRAWINGS">FIGS. 11 and 12</figref> show a second embodiment.</p>
+<p id="p-0133" num="0132">In this second embodiment, the central portion <b>60</b> presents an arc of given radius R about a center of curvature Co, this arc being located above the center of curvature Co when the landing gear is resting on horizontal ground. Under such circumstances, in this configuration the central portion presents a concave side facing the ground.</p>
+<p id="p-0134" num="0133">This geometrical shape does not enable the crossbar to be re-centered automatically.</p>
+<p id="p-0135" num="0134">Thus, with reference to <figref idref="DRAWINGS">FIG. 12</figref>, the centering means <b>30</b> comprise a lever <b>31</b> secured to the associated crossbar <b>6</b> and to transverse return means <b>32</b>.</p>
+<p id="p-0136" num="0135">The transverse return means <b>32</b> comprise first and second return members <b>33</b> and <b>34</b> surrounding the lever <b>31</b> and fastened to the airframe <b>2</b>.</p>
+<p id="p-0137" num="0136">In flight, the transverse return means <b>32</b> tend to move the lever and consequently the crossbar <b>6</b> into a predetermined position.</p>
+<p id="p-0138" num="0137">It can be understood that the first and second embodiments may be combined.</p>
+<p id="p-0139" num="0138">Naturally, the present invention may be subjected to numerous variations as to its implementation. Although several embodiments are described above, it will readily be understood that it is not conceivable to identify exhaustively all possible embodiments. It is naturally possible to envisage replacing any of the means described by equivalent means without going beyond the ambit of the present invention.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A landing gear comprising a first longitudinal bearing skid and a second longitudinal bearing skid together with a first transverse crossbar and a second transverse crossbar each connected to the first and second skids in order to connect each longitudinal bearing skid to an airframe of an aircraft, wherein the landing gear includes at least one resilient fastener device together with at least one blocking means and at least one centering means per crossbar, the fastener device for the associated crossbar including connection means for connecting the associated crossbar to the airframe and slide means for allowing the associated crossbar to slide relative to the connection means while landing on sloping terrain, the blocking means being independent and acting to block the sliding of the associated crossbar relative to the connection means after landing on sloping terrain, the centering means acting in flight to position the associated crossbar in a predetermined position relative to the connection means, wherein the blocking means comprise a stationary portion suitable for being fastened to the airframe and a movable portion secured to the associated crossbar, the stationary portion and the movable portion co-operating by interfering shapes after a landing.</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The landing gear according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, including at least one lateral abutment arranged on at least one of the transverse crossbars to limit the movement of the crossbar relative to the connection means during a landing on sloping terrain.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The landing gear according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein at least one given crossbar comprises a central portion that is secured to a first portion fastened to the first skid and a second portion fastened to the second skid, the centering means comprising the central portion, the central portion presenting an arc of given radius (R) about a center of curvature (Co), the center of curvature (Co) being above the given crossbar when the landing gear is resting on horizontal ground.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The landing gear according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the centering means comprise transverse return means and a lever secured to the associated crossbar, the transverse return means tending to move the lever in order to position the associated crossbar in the predetermined position.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The landing gear according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the stationary portion includes catches and the movable portion includes teeth suitable for co-operating with the catches.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The landing gear according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the connection means comprise a fastener structure suitable for being fastened to the airframe, the slide means comprise a stationary wheel and a movable wheel co-operating with the fastener structure to connect the associated crossbar to the airframe, the associated crossbar passing between the stationary wheel and the movable wheel.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The landing gear according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the fastener structure supports a stationary axle for the stationary wheel and a movable axle for the movable wheel, wherein the movable axle slides in at least one slot extending in elevation in the fastener structure above the stationary wheel.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The landing gear according to <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the slide means include elevation return means for returning the movable wheel and suitable for pressing the movable wheel against the associated crossbar.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. An aircraft comprising an airframe and landing gear, the landing gear being provided with a first longitudinal bearing skid and a second longitudinal bearing skid, together with first and second transverse crossbars connecting together each of the first and second skids in order to connect each longitudinal bearing skid to the airframe, wherein the landing gear includes at least one resilient fastener device together with at least one blocking device and at least one centering means per crossbar, the fastener device for fastening the associated crossbar including connection means for connecting the associated crossbar to the airframe and slide means for allowing the associated crossbar to slide relative to the airframe during a landing on sloping terrain, the blocking device being independent to block sliding of the associated crossbar relative to the airframe following a landing on sloping terrain, the centering means acting in flight to position the associated crossbar in a predetermined position relative to the airframe, wherein the blocking device comprises a stationary portion suitable for being fastened to the airframe and a movable portion secured to the associated crossbar, the stationary portion and the movable portion co-operating by interfering shapes after a landing.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The aircraft according to <claim-ref idref="CLM-00009">claim 9</claim-ref>, including at least one lateral abutment arranged on at least one of the transverse crossbars to limit the movement of the crossbar relative to the connection means during a landing on sloping terrain.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The aircraft according to <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein at least one given crossbar comprises a central portion that is secured to a first portion fastened to the first skid and a second portion fastened to the second skid, the centering means comprising the central portion, the central portion presenting an arc of given radius (R) about a center of curvature (Co), the center of curvature (Co) being above the given crossbar when the landing gear is resting on horizontal ground.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The aircraft according to <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the centering means comprise transverse return means and a lever secured to the associated crossbar, the transverse return means tending to move the lever in order to position the associated crossbar in the predetermined position.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The aircraft according to <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the connection means comprise a fastener structure suitable for being fastened to the airframe, the slide means comprise a stationary wheel and a movable wheel co-operating with the fastener structure to connect the associated crossbar to the airframe, the associated crossbar passing between the stationary wheel and the movable wheel.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. A landing gear comprising a first longitudinal bearing skid and a second longitudinal bearing skid together with a first transverse crossbar and a second transverse crossbar each connected to the first and second skids in order to connect each longitudinal bearing skid to an airframe of an aircraft, wherein the landing gear includes at least one resilient fastener device together with at least one blocking means and at least one centering means per crossbar, the fastener device for the associated crossbar including connection means for connecting the associated crossbar to the airframe and slide means for allowing the associated crossbar to slide relative to the connection means while landing on sloping terrain, the blocking means being independent and acting to block the sliding of the associated crossbar relative to the connection means after landing on sloping terrain, the centering means acting in flight to position the associated crossbar in a predetermined position relative to the connection mean; wherein at least one given crossbar comprises a central portion that is secured to a first portion fastened to the first skid and a second portion fastened to the second skid, the centering means comprising the central portion, the central portion presenting an arc of given radius (R) about a center of curvature (Co), the center of curvature (Co) being above the given crossbar when the landing gear is resting on horizontal ground.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The landing gear according to <claim-ref idref="CLM-00014">claim 14</claim-ref>, including at least one lateral abutment arranged on at least one of the transverse crossbars to limit the movement of the crossbar relative to the connection means during a landing on sloping terrain.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The landing gear according to <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the centering means comprise transverse return means and a lever secured to the associated crossbar, the transverse return means tending to move the lever in order to position the associated crossbar in the predetermined position.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The landing gear according to <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the blocking means comprise a stationary portion suitable for being fastened to the airframe and a movable portion secured to the associated crossbar, the stationary portion and the movable portion co-operating by interfering shapes after a landing, and wherein the stationary portion includes catches and the movable portion includes teeth suitable for co-operating with the catches.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The landing gear according to <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the connection means comprise a fastener structure suitable for being fastened to the airframe, the slide means comprise a stationary wheel and a movable wheel co-operating with the fastener structure to connect the associated crossbar to the airframe, the associated crossbar passing between the stationary wheel and the movable wheel.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The landing gear according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein the fastener structure supports a stationary axle for the stationary wheel and a movable axle for the movable wheel, wherein the movable axle slides in at least one slot extending in elevation in the fastener structure above the stationary wheel.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The landing gear according to <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the slide means include elevation return means for returning the movable wheel and suitable for pressing the movable wheel against the associated crossbar. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>
