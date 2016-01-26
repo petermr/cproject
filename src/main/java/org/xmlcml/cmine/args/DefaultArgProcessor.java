@@ -188,7 +188,12 @@ public class DefaultArgProcessor {
 		ensureDefaultLogFiles();
 		readArgumentOptions(getArgsResource());
 	}
-	
+
+	public DefaultArgProcessor(String args) {
+		this();
+		parseArgs(args);
+	}
+
 	private void ensureDefaultLogFiles() {
 		TREE_LOG();
 		CORE_LOG();

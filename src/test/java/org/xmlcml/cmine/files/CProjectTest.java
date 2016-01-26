@@ -238,6 +238,18 @@ public class CProjectTest {
 				);
 				*/
 	}
+	
+	
+	@Test
+	public void testGlobFileListMedium1() throws IOException {
+		File targetDir = new File("target/patents/US08979");
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979"), targetDir);
+		String args = "--analyze file(**/fulltext.xml)xpath(//description[heading[.='BACKGROUND']]/p[contains(.,'polymer')]) --project "+targetDir+" -o background.xml";
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		argProcessor.parseArgs(args);
+		argProcessor.runAndOutput();
+	}
+
 
 	@Test
 	public void testGlobFileListSmallCommand() throws IOException {
