@@ -1,4 +1,5 @@
-<argList name="cmine" version="0.2.11">
+<argList name="cmine" version="0.2.12">
+  <p>20160126: more development of --analyze</p>
   <p>20160125: fixed immediate bugs</p>
   <p>20160124: implemented filesTree and snippetesTree</p>
   <p>20160124: separated ArgumentExpander</p>
