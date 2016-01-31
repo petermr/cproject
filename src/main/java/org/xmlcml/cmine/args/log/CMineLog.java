@@ -45,6 +45,12 @@ public class CMineLog extends AbstractLogElement {
 	private static final String DATE_ATT = "date";
 	private static final String TIP_DELETION_ERROR = "Tip deletion error";
 	private static final String MILLIS2 = "//@millis";
+	private static final String WROTE_FILES_TITLE = "wrote files";
+	private static final String MILLIS = "//*/@millis";
+	private static final String METHOD = "//*/@method";
+	private static final String DATE_TIME = "dateTime";
+	private static final String SYNTAX_ERROR = "Syntax error";
+	
 	private static final String INVALID_GENUS_XPATH = "*[starts-with(@message,'invalid genus')]";
 	private static final String NULL_NEXML_XPATH = "warn[@message='null nexml']";
 	private static final String PHYLO_TREE_OUTPUT_XPATH = "*[starts-with(@message,'PhyloTree output to:')]";
@@ -53,19 +59,16 @@ public class CMineLog extends AbstractLogElement {
 	private static final String DUPLICATE_EDGE = "duplicate edge";
 	private static final String EDGE_TARGET_XPATH = "error[starts-with(@message,'edge target')]";
 	private static final String EDGE_TARGET_SOURCE = "target==source";
-	private static final String SYNTAX_ERROR = "Syntax error";
 	private static final String BAD_SYNTAX_XPATH = "error[starts-with(@message,'ERR_BAD_SYNTAX')]";
 	private static final String CANNOT_DELETE_TIP_XPATH = "error[starts-with(@message,'cannot delete tip')]";
-	private static final String WROTE_FILES_TITLE = "wrote files";
 	private static final String WROTE_FILES_XPATH = "info[starts-with(@message,'wrote')]";
+
 	private static final String EMPTY_TIPS_TITLE = "empty tips";
 	private static final String EMPTY_TIPS_XPATH = "error[@message='ERR_BAD_SYNTAX []']";
+	
 	private static final String DELETED_NODE_TITLE = "deleted nodes";
 	private static final String DELETED_NODE_XPATH = "info[starts-with(@message,'deleted node')]";
-	private static final String MILLIS = "//*/@millis";
-	private static final String METHOD = "//*/@method";
 	
-	private static final String DATE_TIME = "dateTime";
 	
 	static final Logger LOG = Logger.getLogger(CMineLog.class);
 	static {
