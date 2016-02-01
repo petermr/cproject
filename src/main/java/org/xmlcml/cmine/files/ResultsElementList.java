@@ -7,6 +7,10 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.util.CMineUtil;
+
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multiset;
 
 /** wrapper for collection of ResultsElement.
  * 
@@ -22,6 +26,7 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 
 	protected List<ResultsElement> resultsElementList;
 	private List<String> titles;
+	private Multiset<String> stringMultiset;
 	
 	public ResultsElementList() {
 	}
@@ -113,4 +118,26 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 		}
 		return titles;
 	}
+
+	public void addToMultiset(ResultsElement summaryResultsElement) {
+		ensureStringMultiset();
+		List<ResultElement> resultElementList = summaryResultsElement.getOrCreateResultElementList();
+		for (ResultElement resultElement : resultElementList) {
+			LOG.trace(">>"+resultElement.toXML());
+			Integer count = resultElement.getCount();
+			count = (count == null) ? 1 : count;
+			stringMultiset.add(resultElement.getValue(), count);
+		}
+	}
+
+	private void ensureStringMultiset() {
+		if (stringMultiset == null) {
+			stringMultiset = HashMultiset.create();
+		}
+	}
+	
+	public Multiset<String> getMultisetSortedByCount() {
+		return stringMultiset;
+	}
+	
 }

@@ -34,6 +34,7 @@ import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.files.EuclidSource;
 import org.xmlcml.cmine.files.ProjectFilesTree;
 import org.xmlcml.cmine.files.ProjectSnippetsTree;
+import org.xmlcml.cmine.files.ResultsElement;
 import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 import org.xmlcml.html.HtmlElement;
@@ -41,8 +42,14 @@ import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.HtmlP;
 import org.xmlcml.xml.XMLUtil;
 
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multiset;
+
+import nu.xom.Attribute;
 import nu.xom.Builder;
+import nu.xom.Document;
 import nu.xom.Element;
+import nu.xom.Node;
 
 
 /** base class for all arg processing. Also contains the workflow logic:
@@ -96,7 +103,7 @@ import nu.xom.Element;
 		}
 		// a "reduce" or "gather" method to run over many CTrees (e.g summaries)
 		runFinalMethodsOnChosenArgOptions();
-		// includes the finalAnalysis (--analyze) 
+		// includes the finalAnalysis (--filter) 
 	}
 
  * NOTE: changed all *internal* CTree-type names to CTree. 2015-09-15
@@ -168,7 +175,7 @@ public class DefaultArgProcessor {
 	private boolean unzip = false;
 	List<List<String>> renamePairs;
 	protected List<DefaultStringDictionary> dictionaryList;
-	private String analysisExpression;
+	private String filterExpression;
 	private File outputFile;
 	CProject cProject;
 	
@@ -179,6 +186,7 @@ public class DefaultArgProcessor {
 	private String includePatternString;
 	private ArgumentExpander argumentExpander;
 	private CTreeFiles cTreeFiles;
+	protected XPathProcessor xPathProcessor;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -241,6 +249,7 @@ public class DefaultArgProcessor {
 			Element argListElement = new Builder().build(is).getRootElement();
 			coreLog = this.getOrCreateLog(logfileName);
 			getVersionManager().readNameVersion(argListElement);
+			LOG.trace("VERSION "+getVersionManager());
 			createArgumentOptions(argListElement);
 		} catch (Exception e) {
 			throw new RuntimeException("Cannot read/process args file "+resourceName, e);
@@ -347,8 +356,14 @@ public class DefaultArgProcessor {
 	}
 	
 	public void parseAnalysis(ArgumentOption option, ArgIterator argIterator) {
+		LOG.warn("DEPRECATED: use --filter");
 		List<String> analyzeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		setAnalysis(analyzeStrings);
+		setFilter(analyzeStrings);
+	}
+
+	public void parseFilter(ArgumentOption option, ArgIterator argIterator) {
+		List<String> filterStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		setFilter(filterStrings);
 	}
 
 	public void parseDictionary(ArgumentOption option, ArgIterator argIterator) {
@@ -361,7 +376,16 @@ public class DefaultArgProcessor {
 	}
 
 	public void runAnalysis(ArgumentOption option) {
-		analyzeCTree();
+		LOG.warn("DEPRECATED: use --filter");
+		filterCTree();
+	}
+
+	public void runFilter(ArgumentOption option) {
+		filterCTree();
+	}
+
+	public void runSummaryFile(ArgumentOption option) {
+		runSummaryModule();
 	}
 
 	public void runTest(ArgumentOption option) {
@@ -374,6 +398,30 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputAnalysis(ArgumentOption option) {
+		LOG.warn("DEPRECATED: use --filter");
+		outputFilterRoutine();
+	}
+
+	public void outputFilter(ArgumentOption option) {
+		outputFilterRoutine();
+	}
+
+	public void finalAnalysis(ArgumentOption option) {
+		LOG.warn("DEPRECATED: use --filter");
+		finalFilterRoutine();
+	}
+
+	public void finalFilter(ArgumentOption option) {
+		finalFilterRoutine();
+	}
+
+	public void finalSummaryFile(ArgumentOption option) {
+		finalFilterRoutine();
+	}
+
+	// =====================================
+
+	private void outputFilterRoutine() {
 		String output = getOutput();
 		if (currentCTree != null) {
 			outputFile = output == null ? null : new File(currentCTree.getDirectory(), output);
@@ -387,13 +435,7 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	public void finalAnalysis(ArgumentOption option) {
-		finalAnalysisRoutine();
-		LOG.trace("FINAL ANALYSIS");
-	}
-
-
-	private void finalAnalysisRoutine() {
+	private void finalFilterRoutine() {
 		if (cProject == null) {
 			LOG.debug("no project to analyze");
 			return;
@@ -403,11 +445,23 @@ public class DefaultArgProcessor {
 			LOG.debug("no directory to analyze");
 			return;
 		}
-		if (output == null) {
-			LOG.debug("no output file given");
-			return;
+		if (filterExpression != null && output != null) {
+			outputFilterSnippets(cProject.getDirectory());
+		} else if (summaryFileName != null) {
+			outputFilterCounts();
 		}
-		File outputFile = new File(directory, getOutput());
+	}
+
+	private void outputFilterCounts() {
+		Multiset<String> stringSet = cProject.getMultiset();
+		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(stringSet);
+		resultsElement.setTitle(ResultsElement.FREQUENCIES);
+		writeResultsToSummaryFile(resultsElement, new File(cProject.getDirectory(), summaryFileName));
+	}
+
+	private void outputFilterSnippets(File directory) {
+		File outputFile = new File(directory, output);
+		LOG.trace(">>>"+outputFile);
 		ProjectSnippetsTree projectSnippetsTree = cProject.getProjectSnippetsTree();
 		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
 		if (projectSnippetsTree != null) {
@@ -415,6 +469,72 @@ public class DefaultArgProcessor {
 		} else if (projectFilesTree != null) {
 			cProject.outputProjectFilesTree(outputFile);
 		}
+	}
+	
+	private void runSummaryModule() {
+		LOG.trace("RUN SUMMARY; input: "+inputList);
+		
+		if (xPathProcessor == null) {
+			throw new RuntimeException("Must give xpath");
+		} 
+		if (inputList == null ||inputList.size() == 0) {
+			LOG.warn("No input specified");
+			return;
+		}
+		ResultsElement summaryResultsElement = createAggregatedSortedResultsCount();
+		if (summaryFileName != null) {
+			File file = new File(currentCTree.getDirectory(), summaryFileName);
+			LOG.trace("file: "+file);
+			writeResultsToSummaryFile(summaryResultsElement, file);
+		}
+		cProject.addSummaryResultsElement(summaryResultsElement);
+	}
+
+	private void writeResultsToSummaryFile(ResultsElement resultsElement, File summaryFile) {
+		try {
+			XMLUtil.debug(resultsElement, summaryFile, 1);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot write summary: ", e);
+		}
+	}
+
+	private ResultsElement createAggregatedSortedResultsCount() {
+		Multiset<String> matchSet = createMultisetFromInputList();
+		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(matchSet);
+		return resultsElement;
+	}
+
+
+	private Multiset<String> createMultisetFromInputList() {
+		String xpath = xPathProcessor.getXPath();
+		Multiset<String> matchSet = HashMultiset.create();
+		for (String input : inputList) {
+			File f = new File(currentCTree.getDirectory(), input);
+			if (f != null) {
+				Document document = XMLUtil.parseQuietlyToDocument(f);
+				List<Node> resultNodes = XMLUtil.getQueryNodes(document, xpath);
+				for (Node node : resultNodes) {
+					String value = node.getValue();
+					int count = getCountValue(node);
+					matchSet.add(value, count);
+				}
+			}
+		}
+		return matchSet;
+	}
+
+	private int getCountValue(Node node) {
+		int count = 1;
+		if (node instanceof Attribute) {
+			Node parent = node.getParent();
+			if (parent != null && parent instanceof Element) {
+				String countValue = ((Element)parent).getAttributeValue("count");
+				if (countValue != null) {
+					count = Integer.parseInt(countValue);
+				}
+			}
+		}
+		return count;
 	}
 
 	private void outputSnippetsTree(File outputFile) {
@@ -458,11 +578,11 @@ public class DefaultArgProcessor {
 		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
 	}
 
-	private void setAnalysis(List<String> analyzeStrings) {
-		if (analyzeStrings != null && analyzeStrings.size() == 1) {
-			analysisExpression = analyzeStrings.get(0);
+	private void setFilter(List<String> filterStrings) {
+		if (filterStrings != null && filterStrings.size() == 1) {
+			filterExpression = filterStrings.get(0);
 		} else {
-			LOG.error("--analyze requires 1 expression");
+			LOG.error("--filter requires 1 expression");
 		}
 	}
 
@@ -484,12 +604,11 @@ public class DefaultArgProcessor {
 	/** this called once per CTree and write the output.
 	 * 
 	 */
-	private void analyzeCTree() {
-		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(analysisExpression);
-//		String glob = fileXPathSearcher.getCurrentGlob();
+	private void filterCTree() {
+		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(filterExpression);
 		String xpath = fileXPathSearcher.getCurrentXPath();
 		if (currentCTree != null) {
-			fileXPathSearcher = new FileXPathSearcher(currentCTree, analysisExpression);
+			fileXPathSearcher = new FileXPathSearcher(currentCTree, filterExpression);
 			fileXPathSearcher.search();
 			CTreeFiles cTreeFiles = fileXPathSearcher.getCTreeFiles();
 			if (cProject != null) {
@@ -649,7 +768,8 @@ public class DefaultArgProcessor {
 	}
 	
 	public void parseArgs(String args) {
-		parseArgs(args.trim().split("\\s+"));
+		String[] args1 = args.trim().split("\\s+");
+		parseArgs(args1);
 	}
 
 	private void finalizeArgs() {
@@ -1046,5 +1166,16 @@ public class DefaultArgProcessor {
 	public void expandWildcardsExhaustively() {
 		ensureArgumentExpander().expandWildcardsExhaustively();
 	}
+
+	public void parseXpath(ArgumentOption option, ArgIterator argIterator) {
+			List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
+			if (tokens.size() == 0) {
+	//			LOG.debug(XPATH_OPTION).getHelp());
+			} else if (tokens.size() > 1) {
+				LOG.warn("Exactly one xpath required");
+			} else {
+				xPathProcessor = new XPathProcessor(tokens.get(0));
+			}
+		}
 
 }

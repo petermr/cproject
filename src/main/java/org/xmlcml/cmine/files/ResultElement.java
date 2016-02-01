@@ -21,17 +21,19 @@ public class ResultElement extends Element {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	private static final String EXACT  = "exact";
-	private static final String ID     = "id";
-	public  static final String MATCH  = "match";
-	private static final String NAME   = "name";
-	public  static final String POST   = "post";
-	public  static final String PRE    = "pre";
-	public  static final String TAG    = "result";
-	public  static final String TITLE  = "title";
-	private static final String XPATH  = "xpath";
+	private static final String COUNT      = "count";
 	private static final String DICTIONARY = "dictionary";
 	private static final String DICTIONARY_CHECK = "dictionaryCheck";
+	private static final String EXACT     = "exact";
+	private static final String ID        = "id";
+	public  static final String MATCH     = "match";
+	private static final String NAME      = "name";
+	public  static final String POST      = "post";
+	public  static final String PRE       = "pre";
+	public  static final String FREQUENCY = "frequency";
+	public  static final String TAG       = "result";
+	public  static final String TITLE     = "title";
+	private static final String XPATH     = "xpath";
 
 	public ResultElement() {
 		super(TAG);
@@ -125,5 +127,19 @@ public class ResultElement extends Element {
 		}
 	}
 
-	
+	public void setCount(int count) {
+		LOG.trace("set "+count);
+		this.addAttribute(new Attribute(COUNT, String.valueOf(count)));
+	}
+
+	public Integer getCount() {
+		String countString = this.getAttributeValue(COUNT);
+		try {
+			int count = Integer.parseInt(countString);
+			return new Integer(count);
+		} catch (Exception e) {
+			LOG.debug("Bad count: "+countString);
+		}
+		return null;
+	}
 }

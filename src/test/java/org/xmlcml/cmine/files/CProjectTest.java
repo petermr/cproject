@@ -244,7 +244,7 @@ public class CProjectTest {
 	public void testGlobFileListMedium1() throws IOException {
 		File targetDir = new File("target/patents/US08979");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979"), targetDir);
-		String args = "--analyze file(**/fulltext.xml)xpath(//description[heading[.='BACKGROUND']]/p[contains(.,'polymer')]) --project "+targetDir+" -o background.xml";
+		String args = "--filter file(**/fulltext.xml)xpath(//description[heading[.='BACKGROUND']]/p[contains(.,'polymer')]) --project "+targetDir+" -o background.xml";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -255,7 +255,7 @@ public class CProjectTest {
 	public void testGlobFileListSmallCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979small");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979small"), targetDir);
-		String args = "-i scholarly.html --analyze file(**/*) --project "+targetDir+" --output cTreeList.xml";
+		String args = "-i scholarly.html --filter file(**/*) --project "+targetDir+" --output cTreeList.xml";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -291,7 +291,7 @@ public class CProjectTest {
 	public void testGlobFileXPathSmallCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979small");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979small"), targetDir);
-		String args = "--analyze file(**/fulltext.xml)xpath(//country) --project "+targetDir+" --output country.xml";
+		String args = "--filter file(**/fulltext.xml)xpath(//country) --project "+targetDir+" --output country.xml";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -301,7 +301,7 @@ public class CProjectTest {
 		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
 		Assert.assertEquals("trees",  5, projectFilesTree.size());
 		CTreeFiles treeFiles0 = projectFilesTree.get(0);
-		LOG.debug(treeFiles0);
+//		LOG.debug(treeFiles0);
 		/**
 		Assert.assertEquals("treefiles0",  
 		"<cTreeFiles cTree=\"target/patents/US08979small/US08979000-20150317\"><file name=\"target/patents/US08979small/US08979000-20150317/fulltext.xml\" /></cTreeFiles>",
@@ -315,7 +315,7 @@ public class CProjectTest {
 	public void testGlobFileListMediumCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979"), targetDir);
-		String args = "--analyze file(**/*) --project "+targetDir;
+		String args = "--filter file(**/*) --project "+targetDir;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -443,7 +443,7 @@ project2
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
 		String output = "snippets.xml";
-		String args = " --project " + targetDir+" --analyze file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')]) -o "+output;
+		String args = " --project " + targetDir+" --filter file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')]) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -495,7 +495,7 @@ project2
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/"), targetDir);
 		String output = "snippets.xml";
-		String args = " --project " + targetDir+" --analyze file(**/results.xml)xpath(//result) -o "+output;
+		String args = " --project " + targetDir+" --filter file(**/results.xml)xpath(//result) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();

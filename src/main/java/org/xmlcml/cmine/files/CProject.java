@@ -12,6 +12,8 @@ import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.FileXPathSearcher;
 import org.xmlcml.xml.XMLUtil;
 
+import com.google.common.collect.Multiset;
+
 import nu.xom.Element;
 
 public class CProject extends CContainer {
@@ -48,6 +50,7 @@ public class CProject extends CContainer {
 	private CTreeList cTreeList;
 	private ProjectSnippetsTree projectSnippetsTree;
 	private ProjectFilesTree projectFilesTree;
+	private ResultsElementList summaryResultsElementList;
 	
 	public CProject(File cProjectDir) {
 		super();
@@ -265,9 +268,26 @@ public class CProject extends CContainer {
 		if (tree != null) {
 			try {
 				XMLUtil.debug(tree, outputFile, 1);
+				LOG.trace("wrote: "+outputFile);
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot write output: ", e);
 			}
 		}
+	}
+
+	public void addSummaryResultsElement(ResultsElement summaryResultsElement) {
+		ensureSummaryResultsElementList();
+		LOG.trace("> "+summaryResultsElement.toXML());
+		summaryResultsElementList.addToMultiset(summaryResultsElement);
+	}
+
+	private void ensureSummaryResultsElementList() {
+		if (this.summaryResultsElementList == null) {
+			this.summaryResultsElementList = new ResultsElementList();
+		}
+	}
+	
+	public Multiset<String> getMultiset() {
+		return summaryResultsElementList == null ? null : summaryResultsElementList.getMultisetSortedByCount();
 	}
 }

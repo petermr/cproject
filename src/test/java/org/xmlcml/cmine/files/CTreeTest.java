@@ -177,7 +177,7 @@ public class CTreeTest {
 		File targetDir = new File("target/glob/pmc4417228");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228"), targetDir);
 		String output = "snippets.xml";
-		String args = " -q " + targetDir+" --analyze file(**/fulltext.xml)xpath(//kwd) -o "+output;
+		String args = " -q " + targetDir+" --filter file(**/fulltext.xml)xpath(//kwd) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -219,7 +219,7 @@ public class CTreeTest {
 		File targetDir = new File("target/glob/project3/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project3/ctree1"), targetDir);
 		String output = "snippets.xml";
-		String args = " -q " + targetDir+" --analyze file(**/results.xml)xpath(//result) -o "+output;
+		String args = " -q " + targetDir+" --filter file(**/results.xml)xpath(//result) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -235,7 +235,7 @@ public class CTreeTest {
 	public void testGlobFileListMediumCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979/US08979000-20150317/");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979/US08979000-20150317/"), targetDir);
-		String args = "-i scholarly.html --analyze file(**/*) --ctree "+targetDir+" -o files.xml";
+		String args = "-i scholarly.html --filter file(**/*) --ctree "+targetDir+" -o files.xml";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();

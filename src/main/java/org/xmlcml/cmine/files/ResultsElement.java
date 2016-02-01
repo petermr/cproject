@@ -16,7 +16,10 @@ import nu.xom.Text;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.lookup.AbstractLookup;
+import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.xml.XMLUtil;
+
+import com.google.common.collect.Multiset;
 
 /** a container for ResultElement's.
  * 
@@ -32,6 +35,8 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 	
 	public static final String TAG = "results";
+	
+	public static final String FREQUENCIES = "frequencies";
 	public static final String TITLE = "title";
 	
 	protected List<ResultElement> resultElementList;
@@ -109,14 +114,11 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 
 	public List<ResultElement> getOrCreateResultElementList() {
-		// always create 
-//		if (resultElementList == null) {
-			resultElementList = new ArrayList<ResultElement>();
-			List<Element> resultChildren = XMLUtil.getQueryElements(this, "./*[local-name()='"+ResultElement.TAG+"']");
-			for (Element resultElement : resultChildren) {
-				resultElementList.add((ResultElement) resultElement);
-			}
-//		}
+		resultElementList = new ArrayList<ResultElement>();
+		List<Element> resultChildren = XMLUtil.getQueryElements(this, "./*[local-name()='"+ResultElement.TAG+"']");
+		for (Element resultElement : resultChildren) {
+			resultElementList.add((ResultElement) resultElement);
+		}
 		return resultElementList;
 	}
 
@@ -213,5 +215,20 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 			resultElementList.remove(i); 
 		}
 	}
+
+	public static ResultsElement getResultsElementSortedByCount(Multiset<String> matchSet) {
+		Iterable<Multiset.Entry<String>> sortedEntries = CMineUtil.getEntriesSortedByCount(matchSet);
+		Iterator<Multiset.Entry<String>> entries = sortedEntries.iterator();
+		ResultsElement resultsElement = new ResultsElement(ResultsElement.FREQUENCIES);
+		while (entries.hasNext()) {
+			ResultElement resultElement = new ResultElement(ResultElement.FREQUENCY);
+			Multiset.Entry<String> entry = entries.next();
+			resultElement.appendChild(entry.getElement().toString());
+			resultElement.setCount(entry.getCount());
+			resultsElement.appendChild(resultElement);
+		}
+		return resultsElement;
+	}
+
 
 }
