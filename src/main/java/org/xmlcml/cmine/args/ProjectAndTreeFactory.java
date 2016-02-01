@@ -65,7 +65,7 @@ public class ProjectAndTreeFactory {
 	}
 
 	/** used when there is a list of files (--input) and maybe also 
-	 * need sot create a --project)
+	 * needs to create a --project)
 	 * 
 	 * @param qDirectoryNames
 	 */

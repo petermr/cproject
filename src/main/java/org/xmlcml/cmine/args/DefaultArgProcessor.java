@@ -677,7 +677,7 @@ public class DefaultArgProcessor {
 		}
 		inputList = inputList0;
 		Collections.sort(inputList);
-		LOG.trace("sorted: "+inputList);
+		LOG.trace("sorted input: "+inputList);
 	}
 
 	/** will return a sorted list
@@ -910,10 +910,11 @@ public class DefaultArgProcessor {
 			if (projectDirString != null) {
 				output = projectDirString;
 			} else if (output != null) {
-				LOG.warn("please replace --output with --project");
+				LOG.warn("no --project given; using --output");
 				projectDirString = output;
 			} else {
-				LOG.error("Cannot create output: --project or --output must be given");
+				LOG.warn("No --project or --output; running help");
+				printHelp();
 				return;
 			}
 			LOG.trace("treating as CTree creation under project "+projectDirString);
