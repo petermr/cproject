@@ -1,4 +1,6 @@
-<argList name="cmine" version="0.2.12">
+<argList name="cmine" version="0.2.13">
+
+  <p>20160201: fixed commandline:</p>
   <p>20160126: more development of --analyze</p>
   <p>20160125: fixed immediate bugs</p>
   <p>20160124: implemented filesTree and snippetesTree</p>
