@@ -128,6 +128,8 @@ public class CTreeTest {
 		Assert.assertEquals("ctrees", 3, ctreeList.size());
 	}
 	
+	
+	
 	@Test
 	public void testCTreeContent1() {
 		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project1"));

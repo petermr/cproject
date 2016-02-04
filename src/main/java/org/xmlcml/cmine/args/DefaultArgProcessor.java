@@ -323,6 +323,7 @@ public class DefaultArgProcessor {
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
 		List<String> strings = argIterator.getStrings(option);
 		logfileName = (strings.size() == 0) ? CTree.LOGFILE : strings.get(0);
+		LOG.debug("log file: "+logfileName);
 	}
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
@@ -1044,6 +1045,7 @@ public class DefaultArgProcessor {
 				currentCTree = cTreeList.get(i);
 				coreLog.info("running: "+currentCTree.getDirectory());
 				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
+				TREE_LOG().info("TEST LOG");
 				currentCTree.ensureContentProcessor(this);
 				try {
 					runInitMethodsOnChosenArgOptions();
