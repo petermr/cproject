@@ -889,6 +889,7 @@ public class DefaultArgProcessor {
 					instantiateAndRunMethod(option, methodName);
 				}
 			} catch (Exception e) {
+				LOG.debug(option);
 				e.printStackTrace();
 				throw new RuntimeException("cannot run ["+methodName+"] in "+option.getVerbose()+
 						" ("+ExceptionUtils.getRootCauseMessage(e)+")");
@@ -991,6 +992,7 @@ public class DefaultArgProcessor {
 				method.setAccessible(true);
  				method.invoke(this, option);
 			} catch (Exception ee) {
+				ee.printStackTrace();
 				throw new RuntimeException("invoke "+methodName+" fails", ee);
 			}
 		}
@@ -1045,7 +1047,7 @@ public class DefaultArgProcessor {
 				currentCTree = cTreeList.get(i);
 				coreLog.info("running: "+currentCTree.getDirectory());
 				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
-				TREE_LOG().info("TEST LOG");
+				TREE_LOG().info("TEST LOG "+this.hashCode());
 				currentCTree.ensureContentProcessor(this);
 				try {
 					runInitMethodsOnChosenArgOptions();

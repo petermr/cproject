@@ -290,4 +290,14 @@ public class CProject extends CContainer {
 	public Multiset<String> getMultiset() {
 		return summaryResultsElementList == null ? null : summaryResultsElementList.getMultisetSortedByCount();
 	}
+
+	public boolean hasScholarlyHTML() {
+		CTreeList cTreeList = this.getCTreeList();
+		for (CTree cTree : cTreeList) {
+			if (!cTree.hasScholarlyHTML()) {
+				return false;
+			}
+		}
+		return true;
+	}
 }
