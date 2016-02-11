@@ -22,7 +22,7 @@ public class UnZipTest {
 
 	File outDir;
 	File targetZip = new File("target/zip");
-	File miscZipDir = new File(CMineFixtures.MISC_DIR, "zip");
+	File miscZipDir = new File(CMineFixtures.TEST_MISC_DIR, "zip");
 	
 	@Before
 	public void setup() throws IOException {
@@ -43,7 +43,7 @@ public class UnZipTest {
 	public void testUnZipBad() throws IOException {
 		copyAndCleanOutDir(miscZipDir, targetZip);
 		Unzipper unZipper = new Unzipper();
-		unZipper.setZipFile(new File(CMineFixtures.MISC_DIR, "badzip/US08979996-20150317.ZIP"));
+		unZipper.setZipFile(new File(CMineFixtures.TEST_MISC_DIR, "badzip/US08979996-20150317.ZIP"));
 		unZipper.setOutDir(outDir);
 		unZipper.extractZip();
 		String zipRoot = unZipper.getZipRootName();
@@ -96,6 +96,6 @@ public class UnZipTest {
 		if (outDir.exists()) {
 			FileUtils.deleteDirectory(outDir);
 		}
-		FileUtils.copyDirectory(new File(CMineFixtures.MISC_DIR, "zip"), targetZip);
+		FileUtils.copyDirectory(new File(CMineFixtures.TEST_MISC_DIR, "zip"), targetZip);
 	}
 }

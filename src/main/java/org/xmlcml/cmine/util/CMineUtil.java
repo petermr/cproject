@@ -5,10 +5,10 @@ import java.util.List;
 
 import org.xmlcml.xml.XMLUtil;
 
-import com.google.common.collect.ImmutableSortedMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multiset.Entry;
 import com.google.common.collect.Multisets;
+import com.google.common.collect.ImmutableSortedMultiset;
 
 import nu.xom.Node;
 

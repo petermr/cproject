@@ -1,8 +1,11 @@
 package org.xmlcml.cmine.files;
 
+import java.util.List;
+
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
+import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -33,6 +36,7 @@ public class ResultElement extends Element {
 	public  static final String FREQUENCY = "frequency";
 	public  static final String TAG       = "result";
 	public  static final String TITLE     = "title";
+	private static final String WORD      = "word";
 	private static final String XPATH     = "xpath";
 
 	public ResultElement() {
@@ -91,6 +95,22 @@ public class ResultElement extends Element {
 		setValue(POST, value);
 	}
 	
+	public String getWord() {
+		return this.getAttributeValue(WORD);
+	}
+	
+	public String getCountedWord() {
+		String word = getWord();
+		if (word == null) {
+			return null;
+		}
+		return word+" x "+getCount();
+	}
+	
+	public void setWord(String value) {
+		setValue(WORD, value);
+	}
+	
 	public void setXPath(String xpath) {
 		this.addAttribute(new Attribute(XPATH, xpath));
 	}
@@ -142,4 +162,25 @@ public class ResultElement extends Element {
 		}
 		return null;
 	}
+
+	public static ResultElement createResultElement(Element element) {
+		ResultElement resultElement  = null;
+		if (element != null && element.getLocalName().equals(ResultElement.TAG)) {
+			resultElement = new ResultElement();
+			XMLUtil.copyAttributes(element, resultElement);
+		}
+		return resultElement;
+	}
+
+	public String getTerm() {
+		String term = getMatch();
+		if (term == null) {
+			term = getExact();
+		}
+		if (term == null) {
+			term = getCountedWord();
+		}
+		return term;
+	}
+
 }

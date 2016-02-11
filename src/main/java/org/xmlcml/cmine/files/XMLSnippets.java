@@ -125,4 +125,8 @@ public class XMLSnippets extends Element implements Iterable<Element>{
 		return this.toXML();
 	}
 
+	public String getFilename() {
+		return this.getAttributeValue(FILE);
+	}
+
 }

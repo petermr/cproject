@@ -124,7 +124,7 @@ public class ContentProcessor {
 	 * 
 	 * here the option is defined in an element in args.xml with name="words"
 	 * 
-	 * @param option 
+	 * @param optionName 
 	 * @param resultsElementList
 	 * @param resultsDirectoryName
 	 */

@@ -1,5 +1,6 @@
-<argList name="cmine" version="0.2.16">
+<argList name="cmine" version="0.2.17">
 
+  <p>20160211: fixed nlm2html</p>
   <p>20160207: support for automated processing, slight tidying of args and cleaning bugs</p>
   <p>20160201: finished summary</p>
   <p>20160201: moved xpath from AMI; added summary:</p>

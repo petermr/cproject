@@ -1,17 +1,34 @@
 package org.xmlcml.cmine.files;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
 
 public class SnippetsTree extends Element {
 
+	private static final Logger LOG = Logger.getLogger(SnippetsTree.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
 	public static final String SNIPPETS_TREE = "snippetsTree";
+	public static final Pattern FILE_PATTERN = Pattern.compile("(.*)/(.*)/results/(.*)/(.*)/results\\.xml");
 
-	private List<Element> snippetsList;
+	private List<Element> snippetsElementList;
+	private List<XMLSnippets> snippetsList;
+	private String topFilename;
+	private String cTreeName;
+	private String pluginName;
+	private String optionName;
 	
 	public SnippetsTree() {
 		super(SNIPPETS_TREE);
@@ -24,7 +41,12 @@ public class SnippetsTree extends Element {
 			XMLUtil.copyAttributes(snippets, snippetsTree);
 			List<Element> childElements = XMLUtil.getQueryElements(snippets, "*");
 			for (Element childElement : childElements) {
-				snippetsTree.appendChild(childElement.copy());
+				XMLSnippets xmlSnippets = XMLSnippets.createXMLSnippets(childElement);
+				if (xmlSnippets == null) {
+					LOG.debug("non-snippet child: "+childElement.getLocalName());
+				} else {
+					snippetsTree.appendChild(xmlSnippets);
+				}
 			}
 		}
 		return snippetsTree;
@@ -32,33 +54,101 @@ public class SnippetsTree extends Element {
 
 
 	public Iterator<Element> iterator() {
-		getOrCreateElementChildren();
-		return snippetsList.iterator();
+		getOrCreateSnippetsChildren();
+		return snippetsElementList.iterator();
 	}
 
-	private List<Element> getOrCreateElementChildren() {
-		if (snippetsList == null) {
-			snippetsList = XMLUtil.getQueryElements(this, XMLSnippets.SNIPPETS);
+	private List<Element> getOrCreateSnippetsChildren() {
+		if (snippetsElementList == null) {
+			snippetsElementList = XMLUtil.getQueryElements(this, XMLSnippets.SNIPPETS);
 		}
-		return snippetsList;
+		return snippetsElementList;
 	}
 
 	public void add(XMLSnippets snippets) {
 		this.appendChild(snippets.copy());
-		snippetsList = null;
+		snippetsElementList = null;
 	}
 
 	public int size() {
-		return getOrCreateElementChildren().size();
+		return getOrCreateSnippetsChildren().size();
 	}
 
 	public XMLSnippets get(int i) {
-		getOrCreateElementChildren();
-		Element snippets = (i >= snippetsList.size() || i < 0) ? null : snippetsList.get(i);
+		getOrCreateSnippetsChildren();
+		Element snippets = (i >= snippetsElementList.size() || i < 0) ? null : snippetsElementList.get(i);
 		return snippets == null ? null : XMLSnippets.createXMLSnippets(snippets);
 	}
 
 	public String toString() {
 		return this.toXML();
+	}
+
+	public String getFilename() {
+		List<XMLSnippets> snippetsList = getOrCreateSnippetsList();
+		return snippetsList.size() == 0 ? null : snippetsList.get(0).getFilename();
+	}
+
+	public List<XMLSnippets> getOrCreateSnippetsList() {
+		if (snippetsList == null) {
+			getOrCreateSnippetsChildren();
+			snippetsList = new ArrayList<XMLSnippets>();
+			for (Element element : snippetsElementList) {
+				XMLSnippets snippets = XMLSnippets.createXMLSnippets(element);
+				LOG.trace("snippets:"+snippets);
+				snippetsList.add(snippets);
+			}
+		}
+		return snippetsList;
+	}
+
+	/**
+	 * /foo/bar/projectName/results/plugin/option/results.xml
+	 
+	 * @return
+	 */
+	public String getCTreeName() {
+		if (cTreeName == null) {
+			getFilenameComponents();
+		}
+		return cTreeName;
+	}
+
+	public String getTopFilename() {
+		if (topFilename == null) {
+			getFilenameComponents();
+		}
+		return topFilename;
+	}
+
+	public String getPluginName() {
+		if (pluginName == null) {
+			getFilenameComponents();
+		}
+		return pluginName;
+	}
+
+	public String getOptionName() {
+		if (optionName == null) {
+			getFilenameComponents();
+		}
+		return optionName;
+	}
+
+	private void getFilenameComponents() {
+		String filename = getFilename();
+		if (filename != null) {
+			Matcher matcher = FILE_PATTERN.matcher(filename);
+			if (matcher.matches()) {
+				topFilename = matcher.group(1);
+				cTreeName = matcher.group(2);
+				pluginName = matcher.group(3);
+				optionName = matcher.group(4);
+			}
+		}
+	}
+
+	public PluginOption getPluginOption() {
+		return new PluginOption(getPluginName(), getOptionName());
 	}
 }

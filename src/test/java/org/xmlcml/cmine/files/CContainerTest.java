@@ -17,7 +17,7 @@ public class CContainerTest {
 	
 	@Test
 	public void testGetAllowedChildFile() {
-		CContainer cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project3"));
+		CContainer cProject = new CProject(new File(CMineFixtures.TEST_PROJECTS_DIR, "project3"));
 		File file = cProject.getAllowedChildFile(CProject.EUPMC_RESULTS_JSON);
 		Assert.assertNotNull("eupmc not null", file);
 		Assert.assertNotNull("log not null", cProject.getAllowedChildFile(CContainer.LOG_XML));

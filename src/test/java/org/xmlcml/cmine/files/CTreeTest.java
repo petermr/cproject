@@ -46,7 +46,7 @@ public class CTreeTest {
 	public void testCreateCTree() throws IOException {
 		File cTreeDirectory = new File(TEST_CREATE+"/test_pdf_1471_2148_14_70_pdf");
 		if (cTreeDirectory.exists()) FileUtils.forceDelete(cTreeDirectory);
-		String args = "-i "+CMineFixtures.MISC_DIR+"/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --ctree";
+		String args = "-i "+CMineFixtures.TEST_MISC_DIR+"/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --ctree";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
@@ -58,7 +58,7 @@ public class CTreeTest {
 
 	@Test
 	public void testCreateCTreesFromProject() throws IOException {
-		File project1 = new File(CMineFixtures.PROJECTS_DIR, "project1");
+		File project1 = new File(CMineFixtures.TEST_PROJECTS_DIR, "project1");
 		File targetProject1 = new File("target/projects/project1");
 		FileUtils.copyDirectory(project1, targetProject1);
 		String args = " --project "+targetProject1;
@@ -78,7 +78,7 @@ public class CTreeTest {
 	 * with "fulltext.pdf" in each.
 	 */
 	public void testCreateCTreesUsingCTreeCommand() throws IOException {
-		File inputDir = new File(CMineFixtures.MISC_DIR, "theses/");
+		File inputDir = new File(CMineFixtures.TEST_MISC_DIR, "theses/");
 		File outputDir = new File(TARGET_THESES);
 		if (outputDir.exists()) FileUtils.forceDelete(outputDir);
 		Assert.assertFalse(outputDir.exists());
@@ -108,7 +108,7 @@ public class CTreeTest {
 	 * with "fulltext.pdf" in each.
 	 */
 	public void testCreateCTreesUsingProject() throws IOException {
-		File inputDir = new File(CMineFixtures.MISC_DIR, "theses/");
+		File inputDir = new File(CMineFixtures.TEST_MISC_DIR, "theses/");
 		File projectDir = new File(TARGET_THESES);
 		if (projectDir.exists()) FileUtils.forceDelete(projectDir);
 		Assert.assertFalse(projectDir.exists());
@@ -132,7 +132,7 @@ public class CTreeTest {
 	
 	@Test
 	public void testCTreeContent1() {
-		CProject cProject = new CProject(new File(CMineFixtures.PROJECTS_DIR, "project1"));
+		CProject cProject = new CProject(new File(CMineFixtures.TEST_PROJECTS_DIR, "project1"));
 		CTreeList cTreeList = cProject.getCTreeList();
 		CTree cTree1 = cTreeList.get(0);
 		cTree1.getOrCreateFilesDirectoryCTreeLists();
@@ -145,7 +145,7 @@ public class CTreeTest {
 	
 	@Test
 	public void testGlobFileList() {
-		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228/");
+		File pmc4417228 = new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/PMC4417228/");
 		CTree cTree = new CTree(pmc4417228);
 		// NOTE: The "**" is required
 		CTreeFiles cTreeFiles = cTree.extractCTreeFiles("**/fulltext.*");
@@ -160,7 +160,7 @@ public class CTreeTest {
 	
 	@Test
 	public void testGlobFileListAndXML() {
-		File pmc4417228 = new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228/");
+		File pmc4417228 = new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/PMC4417228/");
 		CTree cTree = new CTree(pmc4417228);
 		SnippetsTree xpathSnippetsTree = cTree.extractXPathSnippetsTree("**/fulltext.xml", "//kwd");
 		Assert.assertEquals(1, xpathSnippetsTree.size());
@@ -177,7 +177,7 @@ public class CTreeTest {
 	 */
 	public void testGlobFileAndXpathCommand() throws IOException {
 		File targetDir = new File("target/glob/pmc4417228");
-		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project2/PMC4417228"), targetDir);
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/PMC4417228"), targetDir);
 		String output = "snippets.xml";
 		String args = " -q " + targetDir+" --filter file(**/fulltext.xml)xpath(//kwd) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
@@ -219,7 +219,7 @@ public class CTreeTest {
 	@Test
 	public void testGlobResultsAndXpathCommand() throws IOException {
 		File targetDir = new File("target/glob/project3/ctree1");
-		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.PROJECTS_DIR, "project3/ctree1"), targetDir);
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project3/ctree1"), targetDir);
 		String output = "snippets.xml";
 		String args = " -q " + targetDir+" --filter file(**/results.xml)xpath(//result) -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
@@ -236,7 +236,7 @@ public class CTreeTest {
 	@Test
 	public void testGlobFileListMediumCommand() throws IOException {
 		File targetDir = new File("target/patents/US08979/US08979000-20150317/");
-		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.MISC_DIR, "patents/US08979/US08979000-20150317/"), targetDir);
+		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_MISC_DIR, "patents/US08979/US08979000-20150317/"), targetDir);
 		String args = "-i scholarly.html --filter file(**/*) --ctree "+targetDir+" -o files.xml";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
