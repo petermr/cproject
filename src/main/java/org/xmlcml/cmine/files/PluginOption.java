@@ -1,5 +1,8 @@
 package org.xmlcml.cmine.files;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PluginOption implements Comparable<PluginOption> {
 
 	public String pluginName;
@@ -54,6 +57,14 @@ public class PluginOption implements Comparable<PluginOption> {
 		} else {
 			return this.toString().compareTo(o.toString());
 		}
+	}
+
+	public static List<String> createStringList(List<PluginOption> pluginOptionList) {
+		List<String> stringList = new ArrayList<String>();
+		for (PluginOption pluginOption : pluginOptionList) {
+			stringList.add(pluginOption.toString());
+		}
+		return stringList;
 	}
 	
 	

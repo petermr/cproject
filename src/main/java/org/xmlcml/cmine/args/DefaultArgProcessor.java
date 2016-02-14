@@ -31,7 +31,7 @@ import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeFiles;
 import org.xmlcml.cmine.files.CTreeList;
-import org.xmlcml.cmine.files.EuclidSource;
+import org.xmlcml.cmine.files.ResourceLocation;
 import org.xmlcml.cmine.files.ProjectFilesTree;
 import org.xmlcml.cmine.files.ProjectSnippetsTree;
 import org.xmlcml.cmine.files.ResultsElement;
@@ -629,7 +629,7 @@ public class DefaultArgProcessor {
 		ensureDictionaryList();
 		for (String dictionarySource : dictionarySources) {
 			
-			InputStream is = EuclidSource.getInputStream(dictionarySource);
+			InputStream is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
 			if (is == null) {
 				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
 			}
