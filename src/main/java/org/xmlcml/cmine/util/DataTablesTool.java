@@ -1,16 +1,15 @@
 package org.xmlcml.cmine.util;
 
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.cmine.files.PluginOption;
-import org.xmlcml.cmine.files.ProjectSnippetsTree;
-import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.html.HtmlA;
+import org.xmlcml.html.HtmlBody;
+import org.xmlcml.html.HtmlDiv;
 import org.xmlcml.html.HtmlHead;
+import org.xmlcml.html.HtmlHtml;
 import org.xmlcml.html.HtmlTable;
 import org.xmlcml.html.HtmlTbody;
 import org.xmlcml.html.HtmlTd;
@@ -38,23 +37,36 @@ public class DataTablesTool {
 	public static final String TABLE_STRIPED = "table-striped";
 	public static final String TABLE_BORDERED = "table-bordered";
 	public static final String TABLE_HOVER = "table-hover";
+	
+	private static final String RESULTS = "results";
+	private static final String DEFAULTS = 
+			    DataTablesTool.TABLE+
+			" "+DataTablesTool.TABLE_STRIPED+
+			" "+DataTablesTool.TABLE_BORDERED+
+			" "+DataTablesTool.TABLE_HOVER;
+	private static final String BS_EXAMPLE_TABLE_RESPONSIVE = "bs-example table-responsive";
 
-
-	private HtmlThead htmlThead;
 	private String title;
-	private String id;
+	private String tableId; // HTML ID of table element
 
-	public List<String> columnHeadingList;
+	public List<CellRenderer> columnHeadingList;
 	private List<String> rowHeadingList;
+	private String rowHeadingName;
+	private CellCalculator cellCalculator;
+	private String link0;
+	private String link1;
 
 	public DataTablesTool() {
-		
+		this.setTableId(RESULTS);
+	}
+
+	public DataTablesTool(CellCalculator cellCalculator) {
+		this();
+		this.setCellCalculator(cellCalculator);
 	}
 	
-	public DataTablesTool(String title, String id) {
-		this();
-		setTitle(title);
-		setId(id);
+	public void setCellCalculator(CellCalculator cellCalculator) {
+		this.cellCalculator = cellCalculator;
 	}
 
 	public HtmlHead makeDataTableHead() {
@@ -64,41 +76,43 @@ public class DataTablesTool {
 		head.addCSSStylesheetLink(JQUERY_DATA_TABLES_CSS);
 		head.addJavascriptLink(JQUERY_1_8_2_MIN_JS);
 		head.addJavascriptLink(JQUERY_DATA_TABLES_MIN_JS);
-		head.addJavascript(DATA_TABLE_FUNCTION0 + id + DATA_TABLE_FUNCTION1);
+		head.addJavascript(DATA_TABLE_FUNCTION0 + tableId + DATA_TABLE_FUNCTION1);
 		return head;
 	}
 
-	public void addHyperlinkedIDCell(String href, String id, HtmlTr htmlTr) {
+	public HtmlTd createHyperlinkedCell(String href, String aValue) {
 		HtmlTd htmlTd = new HtmlTd();
-		htmlTr.appendChild(htmlTd);
 		HtmlA htmlA = new HtmlA();
-		htmlA.appendChild(id);
+		htmlA.appendChild(aValue);
 		htmlA.setHref(href);
 		htmlTd.appendChild(htmlA);
+		return htmlTd;
 	}
 
-	public HtmlThead createHtmlHead(String id) {
-		htmlThead = new HtmlThead();
+	public HtmlThead createHtmlHead() {
+		HtmlThead htmlThead = new HtmlThead();
 		HtmlTr htmlTr = new HtmlTr();
 		htmlThead.appendChild(htmlTr);
-		addIDColumnHeading(id, htmlTr);
+		htmlTr.appendChild(createColumnHeading(this.getId()));
 		addRemainingColumnHeadings(htmlTr);
 		return htmlThead;
 	}
 
-	private void addIDColumnHeading(String id, HtmlTr htmlTr) {
+	private HtmlTh createColumnHeading(String id) {
 		HtmlTh htmlTh = new HtmlTh();
-		htmlTr.appendChild(htmlTh);
 		htmlTh.appendChild(id);
+		return htmlTh;
 	}
 
 	private void addRemainingColumnHeadings(HtmlTr htmlTr) {
 		
-//		for (PluginOption pluginOption : pluginOptionList) {
-		for (String heading : columnHeadingList) {
-			HtmlTh htmlTh = new HtmlTh();
-			htmlTr.appendChild(htmlTh);
-			htmlTh.appendChild(heading);
+		for (CellRenderer renderer : columnHeadingList) {
+			if (renderer.isVisible()) {
+				HtmlTh htmlTh = new HtmlTh();
+				htmlTr.appendChild(htmlTh);
+//				htmlTh.appendChild(renderer.getHtmlElement());
+				htmlTh.appendChild(renderer.getFlag());
+			}
 		}
 	}
 
@@ -106,29 +120,113 @@ public class DataTablesTool {
 		this.title = title;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setTableId(String id) {
+		this.tableId = id;
 	}
 	
 	public String getId() {
-		return id;
+		return tableId;
 	}
 
-	public void setRowHeading(List<String> rowHeadingList) {
+	public void setRowHeadingList(List<String> rowHeadingList) {
 		this.rowHeadingList = rowHeadingList;
 	}
 
-	public List<String> getRowHeadingList() {
+	public List<String> getOrCreateRowHeadingList() {
+		if (rowHeadingList == null) {
+			rowHeadingList = new ArrayList<String>();
+		}
 		return rowHeadingList;
 	}
 
-	public void setColumnHeadingList(List<String> columnHeadingList) {
+	public void setColumnHeadingList(List<CellRenderer> columnHeadingList) {
 		this.columnHeadingList = columnHeadingList;
 	}
 
-	public List<String> getColumnHeadingList() {
+	public List<CellRenderer> getOrCreateColumnHeadingList() {
+		if (columnHeadingList == null) {
+			columnHeadingList = new ArrayList<CellRenderer>();
+		}
 		return columnHeadingList;
 	}
 
+	/** this calls addCellValues(htmlTr, rowHeading) which includes ResultsAnalysis logic.
+	 * 
+	 * @param cellCalculator TODO
+	 * @param link0
+	 * @param link1
+	 * @param htmlTbody
+	 */
+	public void addRows(HtmlTbody htmlTbody) {
+		for (int iRow = 0; iRow < rowHeadingList.size(); iRow++) {
+			String rowHeading = rowHeadingList.get(iRow);
+			HtmlTr htmlTr = new HtmlTr();
+			htmlTbody.appendChild(htmlTr);
+			String href = link0 + rowHeading + link1;
+			HtmlTd htmlTd = createHyperlinkedCell(href, rowHeading);
+			htmlTr.appendChild(htmlTd);
+			cellCalculator.addCellValues(columnHeadingList, htmlTr, iRow);
+		}
+	}
 
+	public void addCellValuesToRow(HtmlTr htmlTr, int iRow) {
+		for (int iCol = 0; iCol < columnHeadingList.size(); iCol++) {
+			HtmlTd htmlTd = new HtmlTd();
+			htmlTr.appendChild(htmlTd);
+			String contents = cellCalculator.createCellContents(iRow, iCol);
+			contents = contents == null ? "" : contents;
+			htmlTd.appendChild(contents);
+		}
+	}
+
+	public HtmlTable createHtmlDataTable() {
+		HtmlTable htmlTable = new HtmlTable();
+		htmlTable.appendChild(createHtmlHead());
+		HtmlTbody htmlTbody = new HtmlTbody();
+		htmlTable.appendChild(htmlTbody);
+		addRows(htmlTbody);
+		return htmlTable;
+	}
+
+	public HtmlHtml createHtmlWithDataTable(HtmlTable table) {
+		HtmlHtml html = new HtmlHtml();
+		HtmlHead head = makeDataTableHead();
+		html.appendChild(head);
+		HtmlBody body = new HtmlBody();
+		html.appendChild(body);
+		HtmlDiv htmlDiv = new HtmlDiv();
+		htmlDiv.setClassAttribute(BS_EXAMPLE_TABLE_RESPONSIVE);
+		body.appendChild(htmlDiv);
+		htmlDiv.appendChild(table);
+		return html;
+	}
+
+	public void setRowHeadingName(String rowHeadingName) {
+		this.rowHeadingName = rowHeadingName;
+	}
+
+	public void setLink0(String link0) {
+		this.link0 = link0;
+	}
+
+	public String getLink0() {
+		return link0;
+	}
+	
+	public void setLink1(String link1) {
+		this.link1 = link1;
+	}
+
+	public String getLink1() {
+		return link1;
+	}
+
+	public HtmlHtml createHtml(CellCalculator cellCalculator) {
+		HtmlTable htmlTable = createHtmlDataTable();
+		htmlTable.setClassAttribute(DataTablesTool.DEFAULTS);
+		htmlTable.setId(tableId);
+		HtmlHtml html = createHtmlWithDataTable(htmlTable);
+		return html;
+	}
+	
 }
