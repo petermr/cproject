@@ -7,15 +7,21 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.html.HtmlA;
 import org.xmlcml.html.HtmlBody;
+import org.xmlcml.html.HtmlButton;
 import org.xmlcml.html.HtmlDiv;
+import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlHead;
 import org.xmlcml.html.HtmlHtml;
+import org.xmlcml.html.HtmlScript;
 import org.xmlcml.html.HtmlTable;
 import org.xmlcml.html.HtmlTbody;
 import org.xmlcml.html.HtmlTd;
+import org.xmlcml.html.HtmlTfoot;
 import org.xmlcml.html.HtmlTh;
 import org.xmlcml.html.HtmlThead;
 import org.xmlcml.html.HtmlTr;
+
+import nu.xom.Attribute;
 
 public class DataTablesTool {
 
@@ -28,11 +34,13 @@ public class DataTablesTool {
 	public static final String JQUERY_1_8_2_MIN_JS = "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js";
 	public static final String JQUERY_DATA_TABLES_CSS = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css";
 	public final static String DATA_TABLE_FUNCTION0 = ""
-	+ "$(function(){\n"
+	+ "$(function()  {\n"
 	+ "$(\"#";
 	public final static String DATA_TABLE_FUNCTION1 = ""
 	+ "\").dataTable();\n"
-	+ "})\n";	
+	+ "})\n";
+//	+ "	var node = document.getElementById('node-id');"
+//	+ " node.innerHTML('<p>some dynamic html</p>');";	
 	public static final String TABLE = "table";
 	public static final String TABLE_STRIPED = "table-striped";
 	public static final String TABLE_BORDERED = "table-bordered";
@@ -53,11 +61,17 @@ public class DataTablesTool {
 	private List<String> rowHeadingList;
 	private String rowHeadingName;
 	private CellCalculator cellCalculator;
-	private String link0;
-	private String link1;
+	private String link0 = "";
+	private String link1 = "/scholarly.html";
 
 	public DataTablesTool() {
 		this.setTableId(RESULTS);
+		setDefaults();
+	}
+
+	private void setDefaults() {
+		link0 = "";
+		link1 = "/scholarly.html";
 	}
 
 	public DataTablesTool(CellCalculator cellCalculator) {
@@ -76,7 +90,8 @@ public class DataTablesTool {
 		head.addCSSStylesheetLink(JQUERY_DATA_TABLES_CSS);
 		head.addJavascriptLink(JQUERY_1_8_2_MIN_JS);
 		head.addJavascriptLink(JQUERY_DATA_TABLES_MIN_JS);
-		head.addJavascript(DATA_TABLE_FUNCTION0 + tableId + DATA_TABLE_FUNCTION1);
+		String script = DATA_TABLE_FUNCTION0 + tableId + DATA_TABLE_FUNCTION1;
+		head.addJavascript(script);
 		return head;
 	}
 
@@ -162,8 +177,9 @@ public class DataTablesTool {
 			String rowHeading = rowHeadingList.get(iRow);
 			HtmlTr htmlTr = new HtmlTr();
 			htmlTbody.appendChild(htmlTr);
-			String href = link0 + rowHeading + link1;
+			String href = ((link0 == null) ? "" : link0) + rowHeading + ((link1 == null) ? "" : link1);
 			HtmlTd htmlTd = createHyperlinkedCell(href, rowHeading);
+			htmlTd.setTitle("foo");
 			htmlTr.appendChild(htmlTd);
 			cellCalculator.addCellValues(columnHeadingList, htmlTr, iRow);
 		}
@@ -171,7 +187,7 @@ public class DataTablesTool {
 
 	public void addCellValuesToRow(HtmlTr htmlTr, int iRow) {
 		for (int iCol = 0; iCol < columnHeadingList.size(); iCol++) {
-			HtmlTd htmlTd = new HtmlTd();
+			HtmlElement htmlTd = new HtmlTd();
 			htmlTr.appendChild(htmlTd);
 			String contents = cellCalculator.createCellContents(iRow, iCol);
 			contents = contents == null ? "" : contents;
@@ -185,7 +201,20 @@ public class DataTablesTool {
 		HtmlTbody htmlTbody = new HtmlTbody();
 		htmlTable.appendChild(htmlTbody);
 		addRows(htmlTbody);
+		HtmlTfoot htmlTfoot = new HtmlTfoot();
+		HtmlTr tr = new HtmlTr();
+		addFooter(htmlTable, htmlTfoot, tr);
 		return htmlTable;
+	}
+
+	private void addFooter(HtmlTable htmlTable, HtmlTfoot htmlTfoot, HtmlTr tr) {
+		htmlTfoot.appendChild(tr);
+		HtmlTd td = new HtmlTd();
+		td.setId("footer-id");
+		td.addAttribute(new Attribute("colspan", "100%"));
+//		td.appendChild(" FOOT ************************** FOOT");
+		tr.appendChild(td);
+		htmlTable.appendChild(htmlTfoot);
 	}
 
 	public HtmlHtml createHtmlWithDataTable(HtmlTable table) {
@@ -199,6 +228,23 @@ public class DataTablesTool {
 		body.appendChild(htmlDiv);
 		htmlDiv.appendChild(table);
 		return html;
+	}
+
+	private void addButton(HtmlBody body) {
+		HtmlButton button = new HtmlButton("Click me");
+		button.setOnClick("testFunction(alert('click!!'));");
+		body.appendChild(button);
+	}
+
+	private void addScript(HtmlBody body) {
+		String scriptString = ""
+				+ "var node = document.getElementById('footer-id');\n"
+				+ "node.innerHTML('<p>some dynamic html</p>');";
+		HtmlScript script = new HtmlScript();
+		script.setCharset("UTF-8");
+		script.setType("text/javascript");
+		script.appendChild(scriptString);
+		body.appendChild(script);
 	}
 
 	public void setRowHeadingName(String rowHeadingName) {

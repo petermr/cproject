@@ -33,6 +33,7 @@ public class XMLSnippets extends Element implements Iterable<Element>{
 	
 	public static final String SNIPPETS = "snippets";
 	public static final String FILE = "file";
+	private static final String TITLE = "title";
 	
 	private File file;
 	private List<Element> elementList;
@@ -71,7 +72,6 @@ public class XMLSnippets extends Element implements Iterable<Element>{
 		this.file = file;
 		addFileAttribute(file);
 		for (Element element : elementList) {
-//			Element newElement = (Element) element.copy();
 			this.appendChild(element.copy());
 		}
 	}
@@ -127,6 +127,14 @@ public class XMLSnippets extends Element implements Iterable<Element>{
 
 	public String getFilename() {
 		return this.getAttributeValue(FILE);
+	}
+
+	public void setTitle(String title) {
+		if (title != null) {
+			this.addAttribute(new Attribute(TITLE, title));
+		} else {
+			LOG.warn("NO TITLE");
+		}
 	}
 
 }

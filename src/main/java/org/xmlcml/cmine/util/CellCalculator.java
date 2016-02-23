@@ -1,5 +1,6 @@
 package org.xmlcml.cmine.util;
 
+import java.io.File;
 import java.util.List;
 
 import org.xmlcml.html.HtmlTr;

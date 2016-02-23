@@ -20,7 +20,10 @@ import nu.xom.Element;
 
 public class CProjectTest {
 
+	
 	private static final Logger LOG = Logger.getLogger(CProjectTest.class);
+	private static File ZIKA_DIR = new File(CMineFixtures.TEST_RESULTS_DIR, "zika");
+
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -521,21 +524,20 @@ project2
 	@Test
 	public void testFilenameSet() throws IOException {
 		Set<String> filenameSet = new HashSet<String>();
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "sequence.dnaprimer.snippets.xml").getOrCreateFilenameList());
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "gene.human.snippets.xml").getOrCreateFilenameList());
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "species.binomial.snippets.xml").getOrCreateFilenameList());
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "species.genus.snippets.xml").getOrCreateFilenameList());
+		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SEQUENCE_DNAPRIMER_SNIPPETS_XML).getOrCreateFilenameList());
+		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.GENE_HUMAN_SNIPPETS_XML).getOrCreateFilenameList());
+		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_BINOMIAL_SNIPPETS_XML).getOrCreateFilenameList());
+		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_GENUS_SNIPPETS_XML).getOrCreateFilenameList());
 		Assert.assertEquals("all files", 152, filenameSet.size());
-		
 	}
 	
 	@Test
 	public void testProjectNameSet() throws IOException {
 		Set<String> projectNameSet = new HashSet<String>();
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "sequence.dnaprimer.snippets.xml").getCTreeNameList());
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "gene.human.snippets.xml").getCTreeNameList());
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "species.binomial.snippets.xml").getCTreeNameList());
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(new File(CMineFixtures.TEST_RESULTS_DIR, "zika"), "species.genus.snippets.xml").getCTreeNameList());
+		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SEQUENCE_DNAPRIMER_SNIPPETS_XML).getCTreeNameList());
+		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.GENE_HUMAN_SNIPPETS_XML).getCTreeNameList());
+		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_BINOMIAL_SNIPPETS_XML).getCTreeNameList());
+		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_GENUS_SNIPPETS_XML).getCTreeNameList());
 		Assert.assertEquals("all files", 90, projectNameSet.size());
 	}
 

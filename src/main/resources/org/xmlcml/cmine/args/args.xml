@@ -1,5 +1,7 @@
-<argList name="cmine" version="0.2.19">
+<argList name="cmine" version="0.2.21">
 
+  <p>20160223: more dataTable tweaking</p>
+  <p>20160219: added CellRendering</p>
   <p>20160211: added Datatables</p>
   <p>20160211: fixed nlm2html</p>
   <p>20160207: support for automated processing, slight tidying of args and cleaning bugs</p>

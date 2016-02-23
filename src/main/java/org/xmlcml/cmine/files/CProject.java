@@ -27,7 +27,16 @@ public class CProject extends CContainer {
 	private static final String TREE_TEMPLATE_XML = "cTreeTemplate.xml";
 	public final static String EUPMC_RESULTS_JSON = "eupmc_results.json";
 	private final static String RESULTS = "results";
+
+	// move these to plugin subdirs later
+	public static final String SPECIES_GENUS_SNIPPETS_XML = "species.genus.snippets.xml";
+	public static final String SPECIES_BINOMIAL_SNIPPETS_XML = "species.binomial.snippets.xml";
+	public static final String GENE_HUMAN_SNIPPETS_XML = "gene.human.snippets.xml";
+	public static final String SEQUENCE_DNAPRIMER_SNIPPETS_XML = "sequence.dnaprimer.snippets.xml";
+	public static final String WORD_FREQUENCIES_SNIPPETS_XML = "word.frequencies.snippets.xml";
 	
+	public static final String DATA_TABLES_HTML = "dataTables.html";
+
 	protected static final String[] ALLOWED_FILE_NAMES = new String[] {
 		MANIFEST_XML,
 		LOG_XML,

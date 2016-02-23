@@ -299,6 +299,7 @@ public class CTree extends CContainer {
 	private SnippetsTree snippetsTree;
 	private CTreeFiles cTreeFiles;
 	private ProjectFilesTree filesTree;
+	private String title;
 
 	public CTree() {
 		super();
@@ -526,16 +527,6 @@ public class CTree extends CContainer {
 		return hasExistingDirectory() && isExistingFile(getExistingFulltextHTML());
 	}
 	
-//	/**
-//	 * checks that CTree exists and has child fulltext.html
-//	 * 
-//	 * @param ctree
-//	 * @return true if ctree exists and has child fulltext.html
-//	 */
-//	public static File getExistingFulltextHTML(CTree ctree) {
-//		return (ctree == null) ? null : ctree.getExistingFulltextHTML();
-//	}
-
 	public static File getExistingFulltextHTML(File ctreeFile) {
 		return new CTree(ctreeFile).getExistingFulltextHTML();
 	}
@@ -619,16 +610,6 @@ public class CTree extends CContainer {
 		return getExistingFulltextPDF() != null;
 	}
 	
-//	/**
-//	 * checks that CTree exists and has child fulltext.pdf
-//	 * 
-//	 * @param ctree
-//	 * @return true if ctree exists and has child fulltext.pdf
-//	 */
-//	public static File getExistingFulltextPDF(CTree ctree) {
-//		return ctree == null ? null :  ctree.getExistingFulltextPDF();
-//	}
-	
 	public static File getExistingFulltextPDF(File ctreeFile) {
 		return new CTree(ctreeFile).getExistingFulltextPDF();
 	}
@@ -642,16 +623,6 @@ public class CTree extends CContainer {
 		return getExistingFulltextPDFTXT() != null;
 	}
 
-//	/**
-//	 * checks that CTree exists and has child fulltext.pdf.txt
-//	 * 
-//	 * @param ctree
-//	 * @return true if ctree exists and has child fulltext.pdf.txt
-//	 */
-//	public static File getExistingFulltextPDFTXT(CTree ctree) {
-//		return ctree == null ? null :  ctree.getExistingFulltextPDFTXT();
-//	}
-	
 	public static File getExistingFulltextPDFTXT(File ctreeFile) {
 		return new CTree(ctreeFile).getExistingFulltextPDFTXT();
 	}
@@ -974,8 +945,30 @@ public class CTree extends CContainer {
 	public HtmlElement ensureScholarlyHtmlElement() {
 		if (htmlElement == null) {
 			htmlElement = DefaultArgProcessor.getScholarlyHtmlElement(this);
+			// <h2 class="citation-title">
+			if (title == null) {
+				extractTitle();
+			}
 		}
 		return htmlElement;
+	}
+
+	private void extractTitle() {
+		List<Element> titleList = XMLUtil.getQueryElements(htmlElement, ".//*[local-name()='h2' and @class='citation-title']");
+		if (titleList.size() != 0) {
+			title = titleList.get(0).getValue();
+			LOG.trace("title: "+title);
+		} else {
+			LOG.trace("NO NO NO");
+		}
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getTitle() {
+		return title;
 	}
 
 	public List<String> extractWordsFromPDFTXT() {
@@ -1140,10 +1133,15 @@ public class CTree extends CContainer {
 		if (xpath == null) {
 			throw new RuntimeException("Null xpath");
 		}
-//		Document doc = XMLUtil.parseQuietlyToDocument(file);
 		Document doc = XMLUtils.parseWithoutDTD(file);
 		List<Element> elementList = XMLUtil.getQueryElements(doc, xpath);
 		snippets = new XMLSnippets(elementList, file);
+		extractTitle();
+		if (title != null) {
+			snippets.setTitle(title);
+		} else {
+			LOG.trace("NO TITLE!!!!!");
+		}
 		return snippets;
 	}
 	
