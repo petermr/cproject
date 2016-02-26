@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979063-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979063</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13305115</doc-number>
+<date>20111128</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>116</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>72</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>44</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classification-national>
+<country>US</country>
+<main-classification>251 69</main-classification>
+<further-classification>251 68</further-classification>
+<further-classification>251 72</further-classification>
+<further-classification>251 74</further-classification>
+</classification-national>
+<invention-title id="d2e53">Failsafe apparatus for use with linear actuators</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>981087</doc-number>
+<kind>A</kind>
+<name>Hoyt</name>
+<date>19110100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>1477641</doc-number>
+<kind>A</kind>
+<name>Francis</name>
+<date>19231200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 75</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>1641892</doc-number>
+<kind>A</kind>
+<name>Lane</name>
+<date>19270900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>1679898</doc-number>
+<kind>A</kind>
+<name>Gilbert</name>
+<date>19280800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>1712298</doc-number>
+<kind>A</kind>
+<name>Ford</name>
+<date>19290500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2276195</doc-number>
+<kind>A</kind>
+<name>Holmes</name>
+<date>19420300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>13762411</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>2321095</doc-number>
+<kind>A</kind>
+<name>Mantz</name>
+<date>19430600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>137 66</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>2598062</doc-number>
+<kind>A</kind>
+<name>Krecan</name>
+<date>19520500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>2630832</doc-number>
+<kind>A</kind>
+<name>Otto</name>
+<date>19530300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>3015337</doc-number>
+<kind>A</kind>
+<name>Hookway</name>
+<date>19620100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>137 75</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>3292895</doc-number>
+<kind>A</kind>
+<name>Leger et al.</name>
+<date>19661200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>3534770</doc-number>
+<kind>A</kind>
+<name>Kowalski</name>
+<date>19701000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>4151979</doc-number>
+<kind>A</kind>
+<name>Visalli</name>
+<date>19790500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>4208032</doc-number>
+<kind>A</kind>
+<name>Mineur</name>
+<date>19800600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>4245814</doc-number>
+<kind>A</kind>
+<name>Shimizu</name>
+<date>19810100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 65</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>4364541</doc-number>
+<kind>A</kind>
+<name>Chabat-Courrede et al.</name>
+<date>19821200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>4794309</doc-number>
+<kind>A</kind>
+<name>Saito et al.</name>
+<date>19881200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>4836497</doc-number>
+<kind>A</kind>
+<name>Beeson</name>
+<date>19890600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>5101939</doc-number>
+<kind>A</kind>
+<name>Sheridan</name>
+<date>19920400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>188171</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>5318272</doc-number>
+<kind>A</kind>
+<name>Smith</name>
+<date>19940600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>5343884</doc-number>
+<kind>A</kind>
+<name>Henderson et al.</name>
+<date>19940900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>137 77</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>5518462</doc-number>
+<kind>A</kind>
+<name>Yach</name>
+<date>19960500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>5950668</doc-number>
+<kind>A</kind>
+<name>Baumann</name>
+<date>19990900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>6045015</doc-number>
+<kind>A</kind>
+<name>Waltenspuhl et al.</name>
+<date>20000400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>222600</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>6182678</doc-number>
+<kind>B1</kind>
+<name>Ma et al.</name>
+<date>20010200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>6371162</doc-number>
+<kind>B1</kind>
+<name>Groeneveld</name>
+<date>20020400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>6471182</doc-number>
+<kind>B1</kind>
+<name>McIntosh</name>
+<date>20021000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>6488260</doc-number>
+<kind>B1</kind>
+<name>Dietz</name>
+<date>20021200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>6561480</doc-number>
+<kind>B1</kind>
+<name>Komiya et al.</name>
+<date>20030500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00030">
+<document-id>
+<country>US</country>
+<doc-number>6769665</doc-number>
+<kind>B2</kind>
+<name>Silva et al.</name>
+<date>20040800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00031">
+<document-id>
+<country>US</country>
+<doc-number>6997430</doc-number>
+<kind>B2</kind>
+<name>Denning et al.</name>
+<date>20060200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00032">
+<document-id>
+<country>US</country>
+<doc-number>8308129</doc-number>
+<kind>B2</kind>
+<name>Strange et al.</name>
+<date>20121100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00033">
+<document-id>
+<country>US</country>
+<doc-number>8636262</doc-number>
+<kind>B2</kind>
+<name>Schade et al.</name>
+<date>20140100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00034">
+<document-id>
+<country>US</country>
+<doc-number>2010/0133454</doc-number>
+<kind>A1</kind>
+<name>Strange et al.</name>
+<date>20100600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>25112901</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00035">
+<document-id>
+<country>EP</country>
+<doc-number>1473496</doc-number>
+<date>20041100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00036">
+<document-id>
+<country>JP</country>
+<doc-number>04165172</doc-number>
+<date>19920600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00037">
+<document-id>
+<country>JP</country>
+<doc-number>2003130235</doc-number>
+<date>20030500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00038">
+<document-id>
+<country>WO</country>
+<doc-number>9514186</doc-number>
+<date>19950500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00039">
+<othercit>Beck, &#x201c;Electric Actuators for Industrial Process Control,&#x201d; Feb. 2005, 8 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00040">
+<othercit>Emerson Process Management, &#x201c;Baumann Electronic Modulating Actuators,&#x201d; Product Bulletin, May 2009, 8 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00041">
+<othercit>Emerson Process Management, &#x201c;Baumann NV Electric Actuator Instructions,&#x201d; Instruction Manual, May 2009, 12 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00042">
+<othercit>Woodward, &#x201c;GVP-100 Gas Control Valve,&#x201d; 2004, 16 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>251 68</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251 69</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251 72</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251 74</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251101</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251107</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251109</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>5</number-of-drawing-sheets>
+<number-of-figures>5</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130134333</doc-number>
+<kind>A1</kind>
+<date>20130530</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Schade</last-name>
+<first-name>Ross Arthur</first-name>
+<address>
+<city>Ames</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Schade</last-name>
+<first-name>Ross Arthur</first-name>
+<address>
+<city>Ames</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Hanley, Flight &#x26; Zimmerman, LLC</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Fisher Controls International LLC</orgname>
+<role>02</role>
+<address>
+<city>Marshalltown</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Fristoe, Jr.</last-name>
+<first-name>John K</first-name>
+<department>3753</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Barry</last-name>
+<first-name>Daphne M</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">Failsafe apparatus for use with linear actuators are disclosed. A failsafe apparatus for use with a linear actuator includes a spring to urge a first stem of a device to be operated by the linear actuator toward a failsafe position and a clutch to operatively couple a second stem of the linear actuator to the first stem. The clutch includes a frame coupled to one of the first stem or the second stem and jaws moveably coupled to the frame. The jaws are to engage the other one of the first stem or the second stem to enable the linear actuator to operate the device and to disengage the other one of the first stem or the second stem to enable the spring to move the first stem toward the failsafe position.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="227.33mm" wi="156.04mm" file="US08979063-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="238.42mm" wi="132.16mm" file="US08979063-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="235.37mm" wi="180.68mm" file="US08979063-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="235.71mm" wi="159.94mm" file="US08979063-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="239.27mm" wi="129.96mm" file="US08979063-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="252.05mm" wi="142.92mm" file="US08979063-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">FIELD OF THE DISCLOSURE</heading>
+<p id="p-0002" num="0001">This disclosure relates generally to linear actuators and, more particularly, to failsafe apparatus for use with linear actuators.</p>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">Electric linear actuators are often used to operate devices such as flow control members in valves. Typically, a stem of a linear actuator is coupled to a stem of a device such as a valve. If the linear actuator loses electrical power, the linear actuator may maintain its last position and hold the stem of the device in an undesirable position. Backup power systems may be used to drive a motor of the linear actuator to move the stem of the device to a failsafe position. However, these backup power systems can fail without notice, have temperature limitations, and create ignition hazards.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0004" num="0003">An example failsafe apparatus for use with a linear actuator includes a frame coupled to one of a first stem of a device to be operated by the linear actuator or a second stem of the linear actuator. The example failsafe apparatus further includes a first jaw and a second jaw. Each jaw is moveably coupled to the frame, and the jaws are to engage or disengage the other one of the first stem or the second stem. A spring is to urge the first stem toward a failsafe position. The spring moves the first stem toward the failsafe position when the jaws disengage the other one of the first stem or the second stem.</p>
+<p id="p-0005" num="0004">Another example failsafe apparatus for use with a linear actuator includes a spring to urge a first stem of a device to be operated by the linear actuator toward a failsafe position and a clutch to operatively couple a second stem of the linear actuator to the first stem. The clutch includes a frame coupled to one of the first stem or the second stem and jaws moveably coupled to the frame. The jaws are to engage the other one of the first stem or the second stem to enable the linear actuator to operate the device and to disengage the other one of the first stem or the second stem to enable the spring to move the first stem toward the failsafe position.</p>
+<p id="p-0006" num="0005">Another example failsafe apparatus for use with a linear actuator includes means for urging a first stem of a device to be operated by the linear actuator toward a failsafe position. The example failsafe apparatus also includes means for operatively coupling a second stem of the linear actuator to the first stem. The means for operatively coupling includes means for supporting means for engaging. The means for supporting is coupled to one of the first stem or the second stem. The means for engaging are to engage the other one of the first stem or the second stem to enable the linear actuator to operate the device and to disengage the second stem to enable the means for urging to move the first stem toward the failsafe position.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0007" num="0006"><figref idref="DRAWINGS">FIG. 1</figref> depicts an example failsafe apparatus operatively coupling a stem of a device to a stem of a linear actuator.</p>
+<p id="p-0008" num="0007"><figref idref="DRAWINGS">FIG. 2</figref> depicts an enlarged view of the example failsafe apparatus of <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 3</figref> illustrates the example failsafe apparatus of <figref idref="DRAWINGS">FIG. 1</figref> in a failsafe position.</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 4</figref> depicts another example failsafe apparatus.</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 5</figref> illustrates the example failsafe apparatus of <figref idref="DRAWINGS">FIG. 4</figref> in a failsafe position.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0012" num="0011">While the following example failsafe apparatus for use with linear actuators are described in conjunction with electric linear actuators and valves, the example failsafe apparatus may also be used with any other linear actuators and any other devices (e.g., a damper). Electric linear actuators are often used to operate devices. For example, an electric linear actuator may be used to move a flow control member of a valve between a first position (e.g., an open position) and a second position (e.g., a closed position). The electric linear actuator may include an electric motor, a transmission (e.g., a gear train), and an actuator stem (e.g., a driveshaft). The actuator stem is typically rigidly coupled (e.g., via a nut) to a valve stem, which is coupled to the flow control member.</p>
+<p id="p-0013" num="0012">Occasionally, an electric linear actuator suffers a loss of electrical power. Without electrical power, the motor in the actuator seizes or maintains its last position, which arrests the movement of the actuator stem and may cause the flow control member to be suspended in an undesirable position. Therefore, backup power sources (e.g., batteries, capacitors, etc.) are often coupled to the electric motors of linear actuators. A backup power source typically provides the electric motor with temporary electrical power (e.g., to move the actuator stem to a failsafe position) until the electrical power outage is resolved. However, these backup power sources often fail without notice, have temperature limitations, and create ignition hazards.</p>
+<p id="p-0014" num="0013">Example failsafe apparatus for use with linear actuators described herein move a stem of a device operated by a linear actuator to a failsafe position (e.g., fully open, fully closed, etc.) without providing electrical power to the motor of the linear actuator. An example failsafe apparatus described herein includes a spring to urge a first stem of a device to be operated by a linear actuator toward a failsafe position and a clutch to operatively couple a second stem of the linear actuator to the first stem. The clutch includes a frame, and a first jaw and a second jaw are moveably coupled (e.g., pivotably coupled, slidably coupled, etc.) to the frame. The frame is coupled to one of the first stem or the second stem. The jaws engage the other one of first stem or the second stem to enable the linear actuator to operate the device and disengage the other one of the first stem or second stem to enable the spring to move the first stem toward the failsafe position. An actuator (e.g., a solenoid) may be positioned between respective ends of the jaws to urge the jaws into engagement with the other one of the first stem or the second stem. The clutch may also include a second spring to urge the jaws to disengage the other one of the first stem or the second stem. When the actuator stops urging the jaws to engage the other one of the first stem or the second stem, the second spring moves the jaws to disengage the jaws from the other one of the first stem or the second stem, and the spring urges the first stem to a failsafe position.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 1</figref> depicts an example failsafe apparatus <b>100</b> for use with a linear actuator <b>102</b>. The example failsafe apparatus <b>100</b> includes a clutch <b>104</b> to operatively couple a first stem <b>106</b> of a device <b>108</b> to be operated by the linear actuator <b>102</b> to a second stem <b>110</b> of the linear actuator <b>102</b>. The linear actuator <b>102</b> may be an electric linear actuator including an electric motor (not shown) and a transmission (e.g., gear train) (not shown). The clutch <b>104</b> includes a frame <b>112</b>. In the example depicted in <figref idref="DRAWINGS">FIG. 1</figref>, the frame <b>112</b> is coupled to the first stem <b>106</b> of the device <b>108</b>. However, as described in greater detail below, the frame <b>112</b> may be coupled to the second stem <b>110</b> of the linear actuator <b>102</b> in some implementations of the example failsafe apparatus <b>100</b>. In the illustrated example of <figref idref="DRAWINGS">FIG. 1</figref>, the device <b>108</b> is a valve <b>108</b>. However, the example failsafe apparatus <b>100</b> may be used with other devices without departing from the scope of this disclosure. In <figref idref="DRAWINGS">FIG. 1</figref>, the first stem <b>106</b> is coupled to a flow control member (e.g., valve plug) (not shown) in the valve <b>108</b>. A first jaw <b>114</b> and a second jaw <b>116</b> are moveably coupled (e.g., pivotably coupled, slidably coupled, etc.) to the frame <b>112</b>. An actuator (e.g., a solenoid) <b>118</b> is positioned between respective ends <b>120</b> and <b>122</b> of the first jaw <b>114</b> and the second jaw <b>116</b>. The jaws <b>114</b> and <b>116</b> in the example failsafe apparatus <b>100</b> shown in <figref idref="DRAWINGS">FIG. 1</figref> are engaging the second stem <b>110</b> of the linear actuator <b>102</b>. As described in greater detail below, the jaws <b>112</b> may engage the first stem <b>110</b> in some implementations of the example failsafe apparatus <b>100</b>. In the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, a spring <b>124</b> is compressed between a housing <b>126</b> of the linear actuator <b>102</b> and the frame <b>112</b> to urge the first stem <b>106</b> to a failsafe position, and the failsafe position of the illustrated example is a fully closed position. A hollow, cylindrical housing <b>128</b> is coupled to the housing <b>126</b> of the linear actuator <b>102</b> and the valve <b>108</b> to at least partially enclose the failsafe apparatus <b>100</b>.</p>
+<p id="p-0016" num="0015">The failsafe position may alternatively be a fully open position. In that case, the example failsafe apparatus <b>100</b> may move the first stem <b>106</b> of the device <b>108</b> to an open failsafe position by configuring the spring <b>124</b> to be in tension and coupled to the frame <b>112</b> and the housing <b>126</b> of the linear actuator <b>102</b>. Alternatively, the spring <b>124</b> may be compressed between the device <b>108</b> and the frame <b>112</b> to provide a fully open failsafe position. As described in greater detail below, in the example of <figref idref="DRAWINGS">FIG. 1</figref>, the jaws <b>114</b> and <b>116</b> engage the second stem <b>110</b> to enable the linear actuator <b>102</b> to operate the device <b>108</b> and disengage the second stem <b>110</b> to enable the spring <b>124</b> to move the first stem <b>106</b> toward the failsafe position.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 2</figref> depicts an enlarged view of the example failsafe apparatus <b>100</b> of <figref idref="DRAWINGS">FIG. 1</figref>. However, in <figref idref="DRAWINGS">FIG. 2</figref>, the spring <b>124</b> is not shown. The frame <b>112</b> is coupled to the first stem <b>106</b> at a midpoint <b>200</b> of a base <b>202</b> of the frame <b>112</b>. The frame <b>112</b> defines a substantially square or rectangular aperture <b>204</b> that extends through the frame <b>112</b> in a direction perpendicular to the longitudinal axis of the first stem <b>106</b>. A gap <b>206</b> equally divides the portion of the frame <b>112</b> opposite the base <b>202</b> to provide a first fulcrum portion <b>208</b> and a second fulcrum portion <b>210</b>. Each fulcrum portion <b>208</b> and <b>210</b> includes a channel <b>212</b> and <b>213</b> adjacent the gap <b>206</b>. The above-noted shape of the frame <b>112</b> is merely an example and, thus, other shapes may be used without departing from the scope of this disclosure.</p>
+<p id="p-0018" num="0017">The first jaw <b>114</b> and the second jaw <b>116</b> are each partially disposed in one of the channels <b>212</b> and <b>213</b> and moveably coupled to a pair of opposing walls <b>214</b> and <b>215</b>. The jaws <b>114</b> and <b>116</b> depicted in <figref idref="DRAWINGS">FIG. 2</figref> are each pivotably coupled to one pair of opposing walls <b>214</b> and <b>215</b>. In some examples, the jaws <b>114</b> and <b>116</b> are each slidably coupled to one pair of opposing walls <b>214</b> and <b>215</b>. The jaws <b>114</b> and <b>116</b> include respective lever portions <b>216</b> and <b>218</b>. The lever portions <b>216</b> and <b>218</b> are adjacent to supporting portions <b>220</b> and <b>222</b>. The supporting portions <b>220</b> and <b>222</b> are curved toward each other in the orientation of <figref idref="DRAWINGS">FIG. 2</figref> and support the jaws <b>114</b> and <b>116</b> on the fulcrum portions <b>208</b> and <b>210</b> of the frame <b>112</b>. Further, the jaws <b>114</b> and <b>116</b> include gripping portions <b>224</b> and <b>226</b> adjacent to the supporting portions <b>220</b> and <b>222</b>. The longitudinal axes of the gripping portions <b>224</b> and <b>226</b> are substantially parallel to the longitudinal axis of the respective lever portions <b>216</b> and <b>218</b> of the jaws <b>114</b> and <b>116</b>. The above-noted shape of each jaw <b>114</b> and <b>116</b> is merely one example and, thus, other shapes may be used without departing from the scope of this disclosure. As described in greater detail below, the jaws <b>114</b> and <b>116</b> are urged into engagement with the first or second stem <b>110</b> by the actuator <b>118</b> positioned between the ends <b>120</b> and <b>122</b> of the lever portions <b>216</b> and <b>218</b> of the jaws <b>114</b> and <b>116</b>.</p>
+<p id="p-0019" num="0018">The lever portions <b>216</b> and <b>218</b> of the jaws <b>114</b> and <b>116</b> are disposed within the aperture <b>204</b>, and the gripping portions <b>224</b> and <b>226</b> of the jaws <b>114</b> and <b>116</b> are at least partially disposed outside the frame <b>112</b> to engage the second stem <b>110</b>. Each jaw <b>114</b> and <b>116</b> may be coupled to the frame <b>112</b> via respective pivot pins <b>232</b> and <b>234</b> passing through the fulcrum portions <b>208</b> and <b>210</b>. The mechanical advantage of the jaws <b>114</b> and <b>116</b> may be affected by the position of the pivot pins <b>232</b> and <b>234</b> on the jaws <b>114</b> and <b>116</b>. For example, the force needed to urge the jaws <b>114</b> and <b>116</b> into engagement with the second stem <b>110</b> may increase if the pivot pins <b>232</b> and <b>234</b> are positioned on the jaws <b>114</b> and <b>116</b> closer to the ends <b>120</b> and <b>122</b> of the jaws <b>114</b> and <b>116</b> than shown in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0020" num="0019">Faces <b>236</b> and <b>238</b> of the gripping portions <b>224</b> and <b>226</b> of the jaws <b>114</b> and <b>116</b> face one another to enable the jaws <b>114</b> and <b>116</b> to grip the second stem <b>110</b> when the actuator <b>118</b> positioned between the ends <b>120</b> and <b>122</b> of the lever portions <b>216</b> and <b>218</b> urges the lever portions <b>216</b> and <b>218</b> outward and the faces <b>236</b> and <b>238</b> inward into engagement with the second stem <b>110</b>. The faces <b>236</b> and <b>238</b> are concave or curved to substantially correspond to an outer curved surface <b>242</b> of the second stem <b>110</b>. The faces <b>236</b> and <b>238</b> may include serrations <b>240</b> and <b>241</b> and/or friction material (not shown) to grip the second stem <b>110</b>. The outer curved surface <b>242</b> of the second stem <b>110</b> may also include serrations <b>244</b> to engage the serrations <b>240</b> and <b>241</b> of the faces <b>238</b> and <b>238</b> and/or friction material to grip the jaws <b>114</b> and <b>116</b>. The friction material may enable the second stem <b>110</b> to slip as needed within the grasp of the jaws <b>114</b> and <b>116</b> to dampen vibrations of the device <b>108</b>.</p>
+<p id="p-0021" num="0020">The actuator <b>118</b> positioned between the ends <b>120</b> and <b>122</b> of the lever portions <b>216</b> and <b>218</b> of the jaws <b>114</b> and <b>116</b> in the example failsafe apparatus <b>100</b> shown in <figref idref="DRAWINGS">FIG. 2</figref> is an electric linear solenoid <b>246</b>. However, other example failsafe apparatus <b>100</b> may include actuators that are pneumatically powered. The solenoid <b>246</b> includes plungers <b>248</b> and <b>250</b>, and each plunger <b>248</b> and <b>250</b> is pivotably coupled to one of the jaws <b>114</b> and <b>116</b>. A second spring <b>252</b> is compressed between the jaws <b>114</b> and <b>116</b> to bias or urge the jaws <b>114</b> and <b>116</b> away from the second stem <b>110</b>. As described in greater detail below, when electrical power is provided to the solenoid <b>246</b>, the plungers <b>248</b> and <b>250</b> move away from a center of the solenoid <b>246</b> to urge the jaws <b>114</b> and <b>116</b> into engagement with the second stem <b>110</b>.</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 2</figref> shows the jaws <b>114</b> and <b>116</b> of the example failsafe apparatus <b>100</b> engaging the second stem <b>110</b>. During operation of the device <b>108</b>, the solenoid <b>246</b> is provided with electrical power to cause the plungers <b>248</b> and <b>250</b> of the solenoid <b>246</b> to move away from a center of the solenoid <b>246</b>. As a result, the plungers <b>248</b> and <b>250</b> urge the lever portion <b>216</b> and <b>218</b> of each jaw <b>114</b> and <b>116</b> away from the solenoid <b>246</b> to cause each of the jaws <b>114</b> and <b>116</b> to pivot about the respective pivot pin <b>232</b> and <b>234</b> and engage the second stem <b>110</b>. When the jaws <b>114</b> and <b>116</b> engage the second stem <b>110</b>, the serrations <b>240</b> and <b>241</b> of each face <b>236</b> and <b>238</b> engage the serrations <b>244</b> of the second stem <b>110</b>. Once the jaws <b>114</b> and <b>116</b> engage the second stem <b>110</b>, the linear actuator <b>102</b> may operate the device <b>108</b>.</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 3</figref> shows the jaws <b>114</b> and <b>116</b> of the example failsafe apparatus <b>100</b> of <figref idref="DRAWINGS">FIGS. 1 and 2</figref> disengaged from the second stem <b>110</b>. The spring <b>124</b> to urge the first stem <b>106</b> to the failsafe position is not shown in <figref idref="DRAWINGS">FIG. 3</figref>. When electrical power to the linear actuator <b>102</b> is removed, the electric motor in the linear actuator <b>102</b> may hold the second stem <b>110</b> in its last position. At substantially the same time, electrical power to the solenoid <b>246</b> is removed to cause the plungers <b>248</b> and <b>250</b> of the solenoid <b>246</b> to stop urging the jaws <b>114</b> and <b>116</b> away from the solenoid <b>246</b> and into engagement with the second stem <b>110</b>. The second spring <b>252</b> then causes the jaws <b>114</b> and <b>116</b> to disengage the second stem <b>110</b>. Once the jaws <b>114</b> and <b>116</b> disengage the second stem <b>110</b>, the spring <b>124</b> moves the first stem <b>106</b> to the failsafe position (e.g., fully closed position). In <figref idref="DRAWINGS">FIG. 3</figref>, the first stem <b>106</b> is in a fully closed failsafe position.</p>
+<p id="p-0024" num="0023">The example failsafe apparatus <b>100</b> may also move the first stem <b>106</b> toward a failsafe position in response to a decrease in electrical power. A sensor (not shown) may be coupled to a power source (not shown) to detect a value of the power provided by the power source to the linear actuator <b>102</b>. The sensor may communicate the power value to a controller (not shown) connected to the solenoid <b>246</b>. If the power supplied by the power source to the linear actuator <b>102</b> drops below a threshold level, the controller sends a signal to the solenoid <b>246</b> instructing the solenoid <b>246</b> to stop urging the jaws <b>114</b> and <b>118</b> into engagement with the second stem <b>110</b>. As a result, the second spring <b>252</b> causes the jaws <b>114</b> and <b>116</b> to disengage the second stem <b>110</b>, and the spring <b>124</b> moves the first stem <b>106</b> to a failsafe position.</p>
+<p id="p-0025" num="0024">When sufficient power is restored to the linear actuator <b>102</b>, the second stem <b>110</b> may be moved to correspond to the failsafe position (e.g., fully open, fully closed, etc.) to align the serrations <b>244</b> of the second stem <b>110</b> with the serrations <b>240</b> and <b>241</b> of the jaws <b>114</b> and <b>116</b>. Once the position of the second stem <b>110</b> corresponds to the failsafe position, power is restored to the solenoid <b>246</b> to urge the jaws <b>114</b> and <b>116</b> into engagement with the second stem <b>110</b>. The linear actuator <b>102</b> may then operate the device <b>108</b>.</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIGS. 4 and 5</figref> depict another implementation of the example failsafe apparatus <b>100</b>. In the example failsafe apparatus <b>100</b> depicted in <figref idref="DRAWINGS">FIG. 4</figref>, the frame <b>112</b> is coupled to a second stem <b>400</b> of a linear actuator <b>402</b>, and the solenoid <b>246</b> is to urge the jaws <b>114</b> and <b>116</b> into engagement with a first stem <b>404</b> of a device <b>406</b>. The first stem <b>404</b> includes serrations <b>410</b> to grip the serrations <b>240</b> and <b>241</b> of the jaws <b>114</b> and <b>116</b>. The first stem <b>404</b> also includes a seat <b>408</b>. An example seat <b>408</b> may be a plate, a pin, or any suitable support for the spring <b>124</b>. In the example of <figref idref="DRAWINGS">FIG. 4</figref>, the spring <b>124</b> is compressed between the frame <b>112</b> and the seat <b>408</b> to urge the first stem <b>404</b> toward a fully closed failsafe position. In some examples, the interior walls of the housing <b>128</b> may include protrusions to support the spring <b>124</b>, and the spring <b>124</b> may be compressed between the protrusions and the seat <b>408</b> to urge the first stem <b>404</b> toward the fully closed failsafe position. In some examples, the spring <b>124</b> may be in tension between the seat <b>408</b> and the device <b>406</b> to urge the first stem <b>404</b> toward the fully closed failsafe position.</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 5</figref> depicts the jaws <b>114</b> and <b>116</b> of the example failsafe apparatus <b>100</b> disengaged from the first stem <b>404</b>. As a result, the spring <b>124</b> (not shown) moves the first stem <b>404</b> downward in the orientation of <figref idref="DRAWINGS">FIG. 5</figref>. Thus, the first stem <b>404</b> in the example of <figref idref="DRAWINGS">FIG. 5</figref> is in a fully closed failsafe position.</p>
+<p id="p-0028" num="0027">The failsafe apparatus <b>100</b> depicted in <figref idref="DRAWINGS">FIGS. 4 and 5</figref> may also move the first stem <b>404</b> toward a fully open failsafe position. In such examples, the spring <b>124</b> is compressed between the device <b>406</b> and the seat <b>408</b> to urge the seat <b>408</b> and, thus, the first stem <b>404</b> toward the fully open failsafe position. In some other examples, the spring <b>124</b> is in tension between the frame <b>112</b> and the seat <b>408</b> to urge the first stem <b>404</b> toward the fully open failsafe position.</p>
+<p id="p-0029" num="0028">Although certain example apparatus have been described herein, the scope of coverage of this patent is not limited thereto. On the contrary, this patent covers all apparatus fairly falling within the scope of the claims of this patent.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A failsafe apparatus for use with a linear actuator, comprising:
+<claim-text>a first stem of a device to be operated by the linear actuator;</claim-text>
+<claim-text>a second stem of the linear actuator;</claim-text>
+<claim-text>a first jaw and a second jaw, the jaws to move toward each other to operatively couple the first stem and the second stem;</claim-text>
+<claim-text>a first spring to urge the first stem toward a failsafe position; and</claim-text>
+<claim-text>a second spring positioned between the jaws to urge the jaws away from each other,</claim-text>
+<claim-text>wherein, when the second spring moves the jaws away from each other, the first stem and the second stem are to decouple and the first spring is to move the first stem to the failsafe position.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The failsafe apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising an actuator positioned between the jaws to urge the jaws to couple the first stem and the second stem.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The failsafe apparatus of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the actuator is a solenoid.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The failsafe apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the jaws include serrations.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The failsafe apparatus of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein one of the first stem or the second stem includes serrations to engage the serrations of the jaws.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The failsafe apparatus of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the second spring is adjacent the serrations.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The failsafe apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the jaws include friction material.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The failsafe apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the failsafe position is a fully closed position or a fully open position of the device.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The failsafe apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the linear actuator is an electric linear actuator and the device is a valve.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A failsafe apparatus for use with a linear actuator, comprising:
+<claim-text>a first spring to urge a first stem of a device to be operated by the linear actuator toward a failsafe position; and</claim-text>
+<claim-text>a clutch to operatively couple a second stem of the linear actuator to the first stem, wherein the clutch includes jaws to engage one of the first stem or the second stem to enable the linear actuator to linearly move the first stem and the second stem to operate the device;</claim-text>
+<claim-text>a second spring positioned between the jaws to urge the jaws away from each other, wherein, when the second spring moves the jaws away from each other, the jaws are to disengage the one of the first stem or the second stem to enable the first spring to move the first stem toward the failsafe position and relative to the second stem.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The failsafe apparatus of <claim-ref idref="CLM-00010">claim 10</claim-ref>, further comprising an actuator positioned between the jaws to urge the jaws into engagement.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The failsafe apparatus of <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the actuator is a solenoid.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The failsafe apparatus of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the jaws include serrations.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The failsafe apparatus of <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein the one of the first stem or the second stem includes serrations to engage the serrations of the jaws.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The failsafe apparatus of <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein the second spring is compressed between the jaws when the first stem and the second stem are operatively coupled.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The failsafe apparatus of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the jaws include friction material.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The failsafe apparatus of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the failsafe position is a fully closed position or a fully open position of the device.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The failsafe apparatus of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the linear actuator is an electric linear actuator and the device is a valve.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. A failsafe apparatus for use with a linear actuator, comprising:
+<claim-text>first means for urging a first stem of a device to be operated by the linear actuator toward a failsafe position; and</claim-text>
+<claim-text>means for operatively coupling a second stem of the linear actuator to the first stem, wherein the means for operatively coupling includes means for engaging, the means for engaging to couple the first stem and the second stem to enable the linear actuator to operate the devices; and</claim-text>
+<claim-text>second means for urging positioned between the means for engaging to urge the means for engaging to disengage, wherein, when the second means for urging causes the means for engaging to disengage, the first stem and the second stem are to decouple and the first means for urging is to move the first stem toward the failsafe position.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The failsafe apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, further comprising third means for urging positioned between the means for engaging to urge the means for engaging to couple the first stem and second stem. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

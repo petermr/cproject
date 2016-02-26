@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979053-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979053</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13869463</doc-number>
+<date>20130424</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>126</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>G</subclass>
+<main-group>29</main-group>
+<subgroup>02</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>E</section>
+<class>04</class>
+<subclass>G</subclass>
+<main-group>3</main-group>
+<subgroup>20</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>E</section>
+<class>06</class>
+<subclass>B</subclass>
+<main-group>7</main-group>
+<subgroup>28</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>E</section>
+<class>06</class>
+<subclass>C</subclass>
+<main-group>7</main-group>
+<subgroup>48</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>E</section>
+<class>06</class>
+<subclass>C</subclass>
+<main-group>7</main-group>
+<subgroup>50</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>E</section>
+<class>06</class>
+<subclass>C</subclass>
+<main-group>7</main-group>
+<subgroup>48</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>E</section>
+<class>06</class>
+<subclass>C</subclass>
+<main-group>7</main-group>
+<subgroup>50</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>248237</main-classification>
+<further-classification>182116</further-classification>
+<further-classification>182200</further-classification>
+<further-classification>182214</further-classification>
+</classification-national>
+<invention-title id="d2e53">Ladder standoff support for a roof</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2329415</doc-number>
+<kind>A</kind>
+<name>Osborne</name>
+<date>19430900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248237</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2541343</doc-number>
+<kind>A</kind>
+<name>Dakin</name>
+<date>19510200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248238</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2881028</doc-number>
+<kind>A</kind>
+<name>Baird</name>
+<date>19590400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182116</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>3459277</doc-number>
+<kind>A</kind>
+<name>Frederick</name>
+<date>19690800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182214</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>4306635</doc-number>
+<kind>A</kind>
+<name>Mitchell</name>
+<date>19811200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>188 724</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>4331217</doc-number>
+<kind>A</kind>
+<name>Stecklow</name>
+<date>19820500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182214</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>4941547</doc-number>
+<kind>A</kind>
+<name>Livick</name>
+<date>19900700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182107</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5165501</doc-number>
+<kind>A</kind>
+<name>Donahey</name>
+<date>19921100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182214</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>5503358</doc-number>
+<kind>A</kind>
+<name>Lapp</name>
+<date>19960400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248235</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>6152261</doc-number>
+<kind>A</kind>
+<name>Hoey</name>
+<date>20001100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182107</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>7377360</doc-number>
+<kind>B1</kind>
+<name>Misiak et al.</name>
+<date>20080500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182107</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>8196705</doc-number>
+<kind>B2</kind>
+<name>Jejina</name>
+<date>20120600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182150</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<nplcit num="00013">
+<othercit>http://www.google.com/products/catalog?q=ladder+jack&#x26;rls=com.microsoft:en-us&#x26;oe=UT - WernerAC10-14-02 14&#x2033; Aluminum Ladder Jacks - Werner Co. Corporate Headquarters, 93 Werner Road, Greenville, PA 16125.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>5</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>248237</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>182107</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>182116</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>182200</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>182214</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>182216</main-classification>
+</classification-national>
+<classification-cpc-text>E06C 7/48</classification-cpc-text>
+<classification-cpc-text>E06C 7/50</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>6</number-of-drawing-sheets>
+<number-of-figures>6</number-of-figures>
+</figures>
+<us-related-documents>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61638153</doc-number>
+<date>20120425</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130284870</doc-number>
+<kind>A1</kind>
+<date>20131031</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<orgname>Foster, Deal &#x26; Sons Inc.</orgname>
+<address>
+<city>Speedway</city>
+<state>IN</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Deal</last-name>
+<first-name>Thomas A.</first-name>
+<address>
+<city>Indianapolis</city>
+<state>IN</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Foster</last-name>
+<first-name>Robin L.</first-name>
+<address>
+<city>Gosport</city>
+<state>IN</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Woodard, Emhardt, Moriarty, McNett &#x26; Henry LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Foster, Deal &#x26; Sons Inc.</orgname>
+<role>02</role>
+<address>
+<city>Speedway</city>
+<state>IN</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Sterling</last-name>
+<first-name>Amy</first-name>
+<department>3631</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A standoff support for spacing a ladder and ladder jack from a roof. Two pairs of rods are pivotably mounted to a horizontally extending member mounted atop a ladder jack secured to a ladder. The rods are extended outwardly from the mounting member to stabilize and limit movement of the ladder jack and ladder relative to the roof.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="171.28mm" wi="190.42mm" file="US08979053-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="209.55mm" wi="196.93mm" file="US08979053-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="179.41mm" wi="167.13mm" file="US08979053-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="179.41mm" wi="193.63mm" file="US08979053-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="161.21mm" wi="198.63mm" file="US08979053-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="179.41mm" wi="200.58mm" file="US08979053-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="159.51mm" wi="196.60mm" file="US08979053-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">1. Field of the Invention</p>
+<p id="p-0003" num="0002">The present invention relates generally to the field of supports used to hold a ladder in stable relationship to a slanted or unslanted roof.</p>
+<p id="p-0004" num="0003">2. Description of the Prior Art</p>
+<p id="p-0005" num="0004">Ladder jacks, one example of which is shown in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, are devices that are used to mount to a ladder for supporting a scaffold or other platform atop the ladder jack. Ladder jacks are commercially available. For example, ladder jacks are available from Werner Co. Corporate Headquarters, 93 Werner Road, Greenville, Pa. 16125.</p>
+<p id="p-0006" num="0005">A typical ladder jack <b>30</b> (<figref idref="DRAWINGS">FIGS. 1 and 2</figref>) includes a horizontally extending member <b>31</b> pivotally and slideably mounted to the top end of angular member <b>32</b>. Member <b>31</b> is also pivotally mounted to a downwardly extending member <b>33</b> having a bottom end pivotally mounted to the bottom of angular member <b>32</b>. A pair of downwardly opening C-shaped walls <b>34</b> and <b>35</b> attached to member <b>33</b> are slipped over the horizontally extending rungs of a conventional extension ladder <b>40</b>. A scaffold or platform <b>41</b> rests atop and is supported by member <b>31</b>.</p>
+<p id="p-0007" num="0006">Typically, two ladder jacks are positioned one at each end of scaffold <b>41</b> to support the opposite ends thereof and thus, a pair of extension ladders are used with each ladder receiving a ladder jack. <figref idref="DRAWINGS">FIG. 1</figref> shows one such ladder jack mounted to a ladder and supporting one end of the scaffold. <figref idref="DRAWINGS">FIG. 2</figref> shows the same ladder jack only with the scaffold removed to illustrate features present atop horizontal member <b>31</b>. A right angle bracket <b>43</b> has its horizontal flange fixedly attached to the distal end <b>49</b> of horizontal member <b>31</b> and also has a vertically extending portion <b>44</b> that extends upwardly from member <b>31</b>. Member <b>31</b> includes a horizontally extending slot <b>45</b> with a conventional fastener <b>47</b> extending through the slot. A downwardly opening C-shaped clamp <b>48</b> is mounted to member <b>31</b> by fastener <b>47</b> and provides a stop surface for any movement of the scaffold toward the distal end <b>49</b> of member <b>31</b>. A second downwardly opening C-shaped clamp <b>50</b> is mounted to the proximal end <b>51</b> of member <b>31</b> by means of a conventional fastening device that extends through member <b>31</b>. The mutually facing surfaces of clamps <b>50</b> and <b>48</b> provide limits for horizontal movement of the platform positioned between clamps <b>50</b> and <b>48</b>. Alternatively, clamps <b>48</b> and <b>50</b> may be slipped over the edges of scaffold <b>41</b> to limit movement of the scaffold. The top end of upright member <b>33</b> is pivotally mounted to member <b>31</b> with the bottom end of member <b>33</b> pivotally mounted to the bottom end of angular member <b>32</b>.</p>
+<p id="p-0008" num="0007">Slot <b>53</b> (<figref idref="DRAWINGS">FIG. 1</figref>) extends along the length of vertical wall portion <b>54</b> of member <b>31</b> with the top end of angle member <b>32</b> having a fastening device <b>55</b> that extends through slot <b>53</b> allowing the top end <b>36</b> of member <b>32</b> to be adjusted along the length of the horizontal member <b>31</b> thereby adjusting positioning of member <b>33</b> enabling walls <b>34</b> and <b>35</b> to be slipped over the ladder rungs while maintaining the horizontal position of member <b>31</b> and the scaffold placed there atop. The fastening device <b>55</b> is then tightened to maintain the positions of angle member <b>32</b>, upright member <b>33</b> and horizontal member <b>31</b>.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0002" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 1</figref> is a fragmentary perspective view of a prior art ladder jack mounted to an extension ladder and supporting a scaffold.</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 2</figref> is a perspective view of the prior art ladder jack shown in <figref idref="DRAWINGS">FIG. 1</figref> only with the scaffold and ladder removed.</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 3</figref> is a perspective view of an alternate embodiment of a standoff support positioned atop a roof and attached to the ladder jack of <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 4</figref> is an enlarged fragmentary cross-sectional view of eye bolt <b>60</b> taken along line <b>4</b>-<b>4</b> of <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 5</figref> is a perspective view of the preferred embodiment of a standoff support positioned atop a roof and attached to the ladder jack of <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 6</figref> is an enlarged fragmentary cross-sectional view of eye bolt <b>140</b> taken along line <b>6</b>-<b>6</b> of <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0003" level="1">DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+<p id="p-0015" num="0014">For the purposes of promoting an understanding of the principles of the invention, reference will now be made to the embodiment illustrated in the drawings and specific language will be used to describe the same. It will nevertheless be understood that no limitation of the scope of the invention is thereby intended, such alterations and further modifications in the illustrated device, and such further applications of the principles of the invention as illustrated therein being contemplated as would normally occur to one skilled in the art to which the invention relates.</p>
+<p id="p-0016" num="0015">When utilizing an extension ladder to provide access for a worker to the top portion of a building and even the roof itself, the ladder may be rested against the building. Pressure from the ladder as the worker stands on the ladder may result in damage to the building including gutters and shingles. I have therefore combined a standoff device with the previously described ladder jack. In most cases the roof will slant thereby decreasing the stability of the ladder as it rests against the building.</p>
+<p id="p-0017" num="0016">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, an alternate embodiment of the standoff device <b>20</b> includes a pair of upright right angle posts <b>21</b> and <b>22</b> connected together by horizontally extending member <b>23</b>. The opposite ends of member <b>23</b> are secured to posts <b>21</b> and <b>22</b> by conventional bolt/nut combinations. Each post <b>21</b> and <b>22</b> includes a series of holes extending there through along the length of each post enabling member <b>23</b> to be connected to the post at various locations along the length of the posts.</p>
+<p id="p-0018" num="0017">Roof <b>24</b> has a downward slant as viewed from the left to the right in <figref idref="DRAWINGS">FIG. 3</figref>. End <b>25</b> of member <b>23</b> is mounted toward the top end of post <b>21</b> while end <b>26</b> of member <b>23</b> is mounted toward the bottom end of post <b>22</b> to position member <b>23</b> horizontally thereby maintaining member <b>23</b> in a horizontal position.</p>
+<p id="p-0019" num="0018">An eye bolt <b>60</b> is fixedly attached to the center of member <b>23</b>. Stabilizing rods <b>61</b> and <b>62</b> (<figref idref="DRAWINGS">FIG. 3</figref>) have top ends pivotally connected to the ring shaped outer end <b>63</b> (<figref idref="DRAWINGS">FIG. 4</figref>) of eye bolt <b>60</b>. The bottom ends <b>64</b> and <b>65</b> respectively of stabilizing rods <b>61</b> and <b>62</b> are bent at an angle with respect to the main body of each rod so the top end of each rod may be moved and pivoted in the ring shaped end <b>63</b> to allow ends <b>64</b> and <b>65</b> to seat in a parallel relationship to the roof. The rods extend outwardly of posts <b>21</b> and <b>22</b>. That is, the distance between post <b>21</b> and <b>22</b> is less than the distance between outer ends <b>64</b> and <b>65</b>. Rods <b>61</b> and <b>62</b> can be positioned at various angles thereby increasing the stability of standoff <b>20</b>.</p>
+<p id="p-0020" num="0019">The distal end <b>49</b> of member <b>31</b> is connected to the horizontal wall of the L-shaped member <b>23</b>. A conventional bolt/nut combination <b>71</b> connects member <b>23</b> of support <b>20</b> to the horizontal member <b>31</b> of the ladder jack. The shank of the bolt extends through slot <b>45</b> while wall <b>44</b> (<figref idref="DRAWINGS">FIG. 2</figref>) is positioned outward of member <b>23</b>.</p>
+<p id="p-0021" num="0020">In order to utilize our new standoff, posts <b>21</b> and <b>22</b> are adjusted with respect to member <b>23</b> taking into account the slanted roof with the bottom end of each post resting atop the roof while member <b>23</b> is horizontal. Supporting rods <b>61</b> and <b>62</b> are then adjusted to contact the roof outwardly of posts <b>21</b> and <b>22</b>. Further, the rods may be extended away from member <b>23</b> thereby further increasing the stability of the support. The ladder jack prior to positioning rods <b>61</b> and <b>62</b> has been assembled with respect to member <b>23</b> with fastener <b>71</b> being in a loosened state to allow fastener <b>71</b> to be adjusted along the length of slot <b>45</b> taking into account the positioning of the ladder having its rungs mounted to the downwardly opening C-shaped walls <b>34</b> and <b>35</b>. Once the ladder extends upwardly at an appropriate angle to allow the worker to climb the ladder, fastener <b>71</b> is tightened enabling the worker to climb the ladder in a stable condition. Rods <b>61</b> and <b>62</b> support the standoff on one side of the standoff whereas ladder <b>40</b> being attached to the opposite end of the ladder jack supports the opposite side of the support. Further, supporting rods <b>61</b> and <b>62</b> increase the stability of the combination. Rods <b>61</b> and <b>62</b> as well as ladder <b>40</b>, all being attached to the ladder jack, provide stability along the lengthwise extending axis <b>70</b> (<figref idref="DRAWINGS">FIG. 1</figref>) of member <b>31</b>. Likewise, supporting rods <b>61</b> and <b>62</b> provide horizontal stability in a direction perpendicular to axis <b>70</b>.</p>
+<p id="p-0022" num="0021">The preferred embodiment of the Ladder Standoff Support is shown in <figref idref="DRAWINGS">FIGS. 5 and 6</figref>. The preferred embodiment is identical to the alternative embodiment except that the two posts <b>21</b> and <b>22</b> (<figref idref="DRAWINGS">FIG. 3</figref>) and stabilizing rods <b>61</b> and <b>62</b> have been deleted and replaced by a first pair of stabilizing rods <b>121</b> and <b>122</b> (<figref idref="DRAWINGS">FIG. 5</figref>) and a second pair of stabilizing rods <b>123</b> and <b>124</b> which are mounted to the opposite ends of member <b>23</b> instead of the center of member <b>23</b>. The same ladder jack <b>30</b> is utilized with both embodiments.</p>
+<p id="p-0023" num="0022">Member <b>23</b> (<figref idref="DRAWINGS">FIG. 5</figref>) of ladder jack <b>30</b> is has a right angle configuration and is fixedly mounted to member <b>31</b> by fastener <b>71</b> extending through the horizontal leg of member <b>23</b>. The vertically extending wall <b>150</b> of member <b>23</b> has a pair of eye bolts <b>130</b> and <b>140</b> (<figref idref="DRAWINGS">FIG. 5</figref>) which are fixedly mounted thereto instead of the single eye bolt <b>63</b> (<figref idref="DRAWINGS">FIG. 4</figref>) of the alternative embodiment. Eye bolt <b>130</b> is mounted to the end portion <b>131</b> of member <b>23</b> whereas eye bolt <b>140</b> is mounted to the opposite end portion <b>141</b> of member <b>23</b>. Fastener <b>71</b> extends through slot <b>45</b> (<figref idref="DRAWINGS">FIG. 6</figref>) The first pair of stabilizing rods <b>121</b> and <b>122</b> have proximal ends movably and pivotably mounted to the ring shaped end of eye bolt <b>130</b> in a manner identical to the mounting arrangement for the mounting of stabilizing rods <b>61</b> and <b>62</b> to eye bolt <b>60</b>. Likewise, rods <b>123</b> and <b>124</b> are movably and pivotably mounted to the ring shaped end of eye bolt <b>140</b> in the identical manner. Eye bolts <b>130</b> and <b>140</b> are identical to eye bolt <b>60</b>.</p>
+<p id="p-0024" num="0023">Supporting rods <b>121</b> and <b>122</b> have respectively bent distal ends <b>125</b> and <b>126</b> (<figref idref="DRAWINGS">FIG. 5</figref>) whereas supporting rods <b>123</b> and <b>124</b> have respectively bent distal ends <b>127</b> and <b>128</b>. The distal ends <b>125</b> through <b>128</b> are arranged to be parallel to the slanted roof thereby providing stabilization of the ladder support <b>120</b>. Typically, rods <b>121</b> and <b>124</b> will extend further out than the horizontal width of member <b>23</b> whereas rods <b>122</b> and <b>123</b> will extend generally within the horizontal width of member <b>23</b>. Each distal end <b>125</b>-<b>128</b> have holes <b>160</b> extending therethrough in order to receive nails or screws to extend through the distal ends and into the roof thereby providing further support.</p>
+<p id="p-0025" num="0024">The ladder standoff support allows the ladder, ladder jack and platform atop the ladder jack to be spaced apart from the roof by positioning the stabilizing rods atop the roof in a position so that the mounting member <b>23</b> is located adjacent the edge of the roof thereby positioning the ladder, ladder jack and platform to the side of the roof. The invention disclosed herein is particularly useful in spacing a platform upon which the work stands apart from the roof. In such a case, two ladders each with a separate ladder jack mounted thereto are position to the side of the roof with the opposite ends of the platform resting atop and being supported by the two ladder jacks. Each ladder jack is provided with a ladder standoff support thereby maintaining the two ladders with ladder jacks and platform apart from and to the side of the roof.</p>
+<p id="p-0026" num="0025">Many variations in the present invention are contemplated and included. For example, the distal ends of the stabilizing rods are arranged at an obtuse angle with respect to the straight main bodies of the rods although angles other than obtuse are included. Typically the outer rods <b>121</b> and <b>124</b> (<figref idref="DRAWINGS">FIG. 5</figref>) are extended to a position outwardly of the opposite end portions <b>131</b> and <b>141</b> limiting movement of the ladder and ladder jack along an axis extending between the opposite end portions <b>131</b> and <b>141</b> of the mounting member <b>23</b> while the inner rods <b>122</b> and <b>123</b> are extended to a position between the end portions <b>131</b> and <b>141</b> in order to increase the stability of the combination. Rods <b>122</b> and <b>123</b> extend in a direction different from said rods <b>121</b> and <b>124</b> further increasing the stability.</p>
+<p id="p-0027" num="0026">While the invention has been illustrated and described in detail in the drawings and foregoing description, the same is to be considered as illustrative and not restrictive in character, it being understood that only the preferred embodiment has been shown and described and that all changes and modifications that come within the spirit of the invention are desired to be protected.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>We claim:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. The combination:
+<claim-text>a ladder jack for mounting a ladder for holding a platform near a roof; and,</claim-text>
+<claim-text>a ladder standoff support mountable to said ladder jack for spacing a platform and ladder jack from a roof, said ladder jack having a mounting member positionable near said roof, said support having a first pair of stabilizing rods extendible away from said ladder jack and having proximal ends pivotably mounted to said mounting member and distal ends positionable atop a roof and a second pair of stabilizing rods extendible away from said ladder jack and having proximal ends pivotably mounted to said mounting member and distal ends positionable atop the roof and spacing said ladder jack apart from the roof while limiting movement thereof.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The combination of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein:
+<claim-text>said mounting member has a first end portion and a second end portion opposite to said first end portion, said first pair of stabilizing rods are mounted to one end portion and said second pair of stabilizing rods are mounted to said second end portion.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The combination of <claim-ref idref="CLM-00002">claim 2</claim-ref> wherein:
+<claim-text>each rod has a main body which is straight except for the distal end which is arranged at an obtuse angle relative to said main body.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The combination of <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein:
+<claim-text>said first pair and said second pair of stabilizing rods have outer stabilizing rods and inner stabilizing rods with said outer stabilizing rods extendible outwardly of the first end portion and second end portion of said mounting member whereas said inner stabilizing rods are extendible to a position between said first end portion and said second end portion of said mounting member.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The combination of <claim-ref idref="CLM-00004">claim 4</claim-ref> wherein:
+<claim-text>said ladder jack has a top member upon to support a platform, said ladder jack further having a downwardly extending bracket with a top end pivotally mounted to said top member with said downwardly extending bracket including a pair of ladder rung engaging brackets, said ladder jack further having an angle bracket with a top end slideably mounted to said top member and a bottom end pivotally mounted to said downwardly extending member allowing said top member to be adjusted to extend horizontally to restingly support the platform in a horizontal position.</claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

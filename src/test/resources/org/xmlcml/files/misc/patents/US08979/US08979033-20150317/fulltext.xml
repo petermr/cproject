@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979033-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979033</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13430671</doc-number>
+<date>20120326</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>530</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20130101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>41</class>
+<subclass>B</subclass>
+<main-group>11</main-group>
+<subgroup>68</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>1</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>41</class>
+<subclass>F</subclass>
+<main-group>1</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>41</class>
+<subclass>A</subclass>
+<main-group>1</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>42</class>
+<subclass>B</subclass>
+<main-group>15</main-group>
+<subgroup>01</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>41</class>
+<subclass>F</subclass>
+<main-group>1</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>41</class>
+<subclass>A</subclass>
+<main-group>1</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>41</class>
+<subclass>B</subclass>
+<main-group>11</main-group>
+<subgroup>68</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>1</main-group>
+<subgroup>002</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>42</class>
+<subclass>B</subclass>
+<main-group>15</main-group>
+<subgroup>01</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>2441585</main-classification>
+<further-classification> 89  1816</further-classification>
+</classification-national>
+<invention-title id="d2e53">Gas gun launcher</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2380317</doc-number>
+<kind>A</kind>
+<name>Kline et al.</name>
+<date>19450700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2993412</doc-number>
+<kind>A</kind>
+<name>Goldsmith</name>
+<date>19610700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>3131597</doc-number>
+<kind>A</kind>
+<name>Smith et al.</name>
+<date>19640500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 89  8</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>3132562</doc-number>
+<kind>A</kind>
+<name>Frevel</name>
+<date>19640500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>124 60</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>3245318</doc-number>
+<kind>A</kind>
+<name>Finkelstein et al.</name>
+<date>19660400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>3384323</doc-number>
+<kind>A</kind>
+<name>Gilbert et al.</name>
+<date>19680500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>3420053</doc-number>
+<kind>A</kind>
+<name>Feder et al.</name>
+<date>19690100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 60 3901</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>3427648</doc-number>
+<kind>A</kind>
+<name>Manning et al.</name>
+<date>19690200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>3453960</doc-number>
+<kind>A</kind>
+<name>Qualls</name>
+<date>19690700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>3597969</doc-number>
+<kind>A</kind>
+<name>Curchack</name>
+<date>19710800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>3665861</doc-number>
+<kind>A</kind>
+<name>Jaslow</name>
+<date>19720500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>3706281</doc-number>
+<kind>A</kind>
+<name>Hatakeyama</name>
+<date>19721200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>3714900</doc-number>
+<kind>A</kind>
+<name>Feldmann</name>
+<date>19730200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>3738279</doc-number>
+<kind>A</kind>
+<name>Eyre et al.</name>
+<date>19730600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>3750578</doc-number>
+<kind>A</kind>
+<name>Blajda</name>
+<date>19730800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>3759184</doc-number>
+<kind>A</kind>
+<name>Blajda et al.</name>
+<date>19730900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>3769912</doc-number>
+<kind>A</kind>
+<name>Friend</name>
+<date>19731100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>3771458</doc-number>
+<kind>A</kind>
+<name>Schweimier et al.</name>
+<date>19731100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>3780658</doc-number>
+<kind>A</kind>
+<name>de Longueville et al.</name>
+<date>19731200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>3802345</doc-number>
+<kind>A</kind>
+<name>La Costa</name>
+<date>19740400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>3834314</doc-number>
+<kind>A</kind>
+<name>Young</name>
+<date>19740900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>3905299</doc-number>
+<kind>A</kind>
+<name>Feldmann</name>
+<date>19750900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>4038903</doc-number>
+<kind>A</kind>
+<name>Wohlford</name>
+<date>19770800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>4049367</doc-number>
+<kind>A</kind>
+<name>Tominaga et al.</name>
+<date>19770900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>4181152</doc-number>
+<kind>A</kind>
+<name>Nicoloff</name>
+<date>19800100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>4284008</doc-number>
+<kind>A</kind>
+<name>Kirkendall et al.</name>
+<date>19810800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>4314510</doc-number>
+<kind>A</kind>
+<name>Jeter et al.</name>
+<date>19820200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>4434718</doc-number>
+<kind>A</kind>
+<name>Kopsch et al.</name>
+<date>19840300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>4669212</doc-number>
+<kind>A</kind>
+<name>Jackson et al.</name>
+<date>19870600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00030">
+<document-id>
+<country>US</country>
+<doc-number>4702027</doc-number>
+<kind>A</kind>
+<name>Stanley</name>
+<date>19871000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00031">
+<document-id>
+<country>US</country>
+<doc-number>4709638</doc-number>
+<kind>A</kind>
+<name>Broden et al.</name>
+<date>19871200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00032">
+<document-id>
+<country>US</country>
+<doc-number>4800816</doc-number>
+<kind>A</kind>
+<name>Meyer</name>
+<date>19890100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00033">
+<document-id>
+<country>US</country>
+<doc-number>4886223</doc-number>
+<kind>A</kind>
+<name>Gartner</name>
+<date>19891200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00034">
+<document-id>
+<country>US</country>
+<doc-number>4982669</doc-number>
+<kind>A</kind>
+<name>Bisping et al.</name>
+<date>19910100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00035">
+<document-id>
+<country>US</country>
+<doc-number>5012744</doc-number>
+<kind>A</kind>
+<name>Sowash</name>
+<date>19910500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00036">
+<document-id>
+<country>US</country>
+<doc-number>5165041</doc-number>
+<kind>A</kind>
+<name>Bjerke et al.</name>
+<date>19921100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00037">
+<document-id>
+<country>US</country>
+<doc-number>5167386</doc-number>
+<kind>A</kind>
+<name>Laquer et al.</name>
+<date>19921200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00038">
+<document-id>
+<country>US</country>
+<doc-number>5404816</doc-number>
+<kind>A</kind>
+<name>Burri</name>
+<date>19950400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00039">
+<document-id>
+<country>US</country>
+<doc-number>5481980</doc-number>
+<kind>A</kind>
+<name>Engel et al.</name>
+<date>19960100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00040">
+<document-id>
+<country>US</country>
+<doc-number>5666897</doc-number>
+<kind>A</kind>
+<name>Armstrong</name>
+<date>19970900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00041">
+<document-id>
+<country>US</country>
+<doc-number>5966858</doc-number>
+<kind>A</kind>
+<name>Curtis et al.</name>
+<date>19991000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00042">
+<document-id>
+<country>US</country>
+<doc-number>6086020</doc-number>
+<kind>A</kind>
+<name>Machiussi</name>
+<date>20000700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00043">
+<document-id>
+<country>US</country>
+<doc-number>6116136</doc-number>
+<kind>A</kind>
+<name>Kirschner et al.</name>
+<date>20000900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00044">
+<document-id>
+<country>US</country>
+<doc-number>6234082</doc-number>
+<kind>B1</kind>
+<name>Cros et al.</name>
+<date>20010500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00045">
+<document-id>
+<country>US</country>
+<doc-number>6257527</doc-number>
+<kind>B1</kind>
+<name>Redding, Jr.</name>
+<date>20010700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00046">
+<document-id>
+<country>US</country>
+<doc-number>6298786</doc-number>
+<kind>B1</kind>
+<name>Grosskrueger et al.</name>
+<date>20011000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00047">
+<document-id>
+<country>US</country>
+<doc-number>6494406</doc-number>
+<kind>B1</kind>
+<name>Fukushima et al.</name>
+<date>20021200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00048">
+<document-id>
+<country>US</country>
+<doc-number>6530543</doc-number>
+<kind>B2</kind>
+<name>Redding, Jr.</name>
+<date>20030300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00049">
+<document-id>
+<country>US</country>
+<doc-number>6536350</doc-number>
+<kind>B2</kind>
+<name>Cartland et al.</name>
+<date>20030300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00050">
+<document-id>
+<country>US</country>
+<doc-number>6685141</doc-number>
+<kind>B2</kind>
+<name>Penn</name>
+<date>20040200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00051">
+<document-id>
+<country>US</country>
+<doc-number>7526988</doc-number>
+<kind>B2</kind>
+<name>Elder</name>
+<date>20090500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00052">
+<document-id>
+<country>US</country>
+<doc-number>7775148</doc-number>
+<kind>B1</kind>
+<name>McDermott</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00053">
+<document-id>
+<country>US</country>
+<doc-number>8519312</doc-number>
+<kind>B1</kind>
+<name>Merems</name>
+<date>20130800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00054">
+<document-id>
+<country>US</country>
+<doc-number>8536502</doc-number>
+<kind>B2</kind>
+<name>Hunter et al.</name>
+<date>20130900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00055">
+<document-id>
+<country>US</country>
+<doc-number>2008/0257192</doc-number>
+<kind>A1</kind>
+<name>Schaeffer</name>
+<date>20081000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00056">
+<document-id>
+<country>US</country>
+<doc-number>2009/0211225</doc-number>
+<kind>A1</kind>
+<name>Nyberg et al.</name>
+<date>20090800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00057">
+<document-id>
+<country>US</country>
+<doc-number>2010/0212481</doc-number>
+<kind>A1</kind>
+<name>Koth</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00058">
+<document-id>
+<country>US</country>
+<doc-number>2012/0187249</doc-number>
+<kind>A1</kind>
+<name>Hunter et al.</name>
+<date>20120700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00059">
+<document-id>
+<country>US</country>
+<doc-number>2013/0319212</doc-number>
+<kind>A1</kind>
+<name>Hunter</name>
+<date>20131200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00060">
+<document-id>
+<country>WO</country>
+<doc-number>WO/2011/038365</doc-number>
+<kind>A1</kind>
+<date>20110300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00061">
+<document-id>
+<country>WO</country>
+<doc-number>WO/2011/038369</doc-number>
+<kind>A1</kind>
+<date>20110300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00062">
+<othercit>PCT/US2010/050441 International Search Report dated Nov. 26, 2010 and Written Opinion dated Nov. 11, 2010; Alexandria, Virginia, USA.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00063">
+<othercit>Elahi, Amina; Ready, Aim, Resupply; Popular Science; Feb. 2010; 2 pp.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00064">
+<othercit>Gilreath, H., et al.; The Feasibility of Launching Small Satellites with a Light Gas Gun; 12th AIAA/USU Conference (Aug. 31, 1998) on Small Satellites; SSC98-III-6; pp. 1-20.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00065">
+<othercit>Gilreath, Harold E., et al., Gun-Launched Satellites; John Hopkins APL Technical Digest; Jul.-Sep. 1999, 17 pp.; vol. 20, No. 3; 1999 by the John Hopkins University Applied Physics Laboratory.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00066">
+<othercit>Gourley, Scott R.; Sharp Gun Promises to Deliver as Launcher; Jane's Defense Weekly; The Global Defense Weekly; Jun. 19, 1996; pp. 91-92.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00067">
+<othercit>Gourley, Scott R.; The Jules Verne Gun; Popular Mechanics; Dec. 1996; 5 pp.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00068">
+<othercit>Henderson, Breck W.; Livermore Proposes Light Gas Gun for Launch of Small Payloads; Aviation Week &#x26; Space Technology; Jul. 23, 1990; pp. 78-79.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00069">
+<othercit>May, Michael M.; The SHARP Gas Gun: Shooting Payloads into Space Jules Verne's Way; Energy Technology Review (E&#x26;TR), University of California, Lawrence Livermore National Laboratory; Jul. 1993; 13 pp.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00070">
+<othercit>PCT/US2010/050441 International Preliminary Report on Patentability dated Mar. 27, 2012 with Written Opinion dated Nov. 11, 2010; International Bureau of WIPO; Geneva, Switzerland.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00071">
+<othercit>PCT/US2010/50437 International Preliminary Report on Patentability dated Mar. 27, 2012 and and Written Opinion dated Dec. 10, 2010; International Bureau of WIPO; Geneva, Switzerland.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00072">
+<othercit>PCT/US2010/50437 International Search Report and Written Opinion dated Dec. 10, 2010; Alexandria, Virginia, USA.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00073">
+<othercit>Scott, William B., Sharp Gun Accelerates Scramjets to Mach 9; Aviation Week &#x26; Space Technology; Sep. 9, 1996; 3 pp; A Publication of the McGraw-Hill Companies.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00074">
+<othercit>U.S. Appl. No. 13/430,678 Amendment dated Feb. 28, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00075">
+<othercit>U.S. Appl. No. 13/430,678 Amendment dated Jun. 20, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00076">
+<othercit>U.S. Appl. No. 13/430,678 Amendment dated Oct. 2, 2012.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00077">
+<othercit>U.S. Appl. No. 13/430,678 Interview Summary dated Jul. 1, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00078">
+<othercit>U.S. Appl. No. 13/430,678 Notice of Allowance dated Jun. 28, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00079">
+<othercit>U.S. Appl. No. 13/430,678 Office Action dated Dec. 3, 2012.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00080">
+<othercit>U.S. Appl. No. 13/430,678 Office Action dated Jul. 2, 2012.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00081">
+<othercit>U.S. Appl. No. 13/430,678 Office Action dated May 8, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00082">
+<othercit>U.S. Appl. No. 13/430,678 Office Action (Response to Rule 312 Communication) dated Aug. 20, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00083">
+<othercit>U.S. Appl. No. 13/963,893 Notice of Allowance dated Nov. 18, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00084">
+<othercit>Wolkomir, Richard; Shooting Right for the Stars With one Gargantuan Gas Gun; Smithsonian; Jan. 1996; 9 pp.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00085">
+<othercit>U.S. Appl. No. 13/430,678 Amendment after Allowance dated Aug. 9, 2013.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>26</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>244 63</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2441713</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2442714</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2441585</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 89  8</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 89  1815</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 89  1816</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 89  1817</main-classification>
+</classification-national>
+<classification-cpc-text>F41B 11/68</classification-cpc-text>
+<classification-cpc-text>B64F 11/68</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>18</number-of-drawing-sheets>
+<number-of-figures>18</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>PCT/US2010/050437</doc-number>
+<date>20100927</date>
+</document-id>
+<parent-status>PENDING</parent-status>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>13430671</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61277544</doc-number>
+<date>20090925</date>
+</document-id>
+</us-provisional-application>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61277543</doc-number>
+<date>20090925</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20120187249</doc-number>
+<kind>A1</kind>
+<date>20120726</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Hunter</last-name>
+<first-name>John William</first-name>
+<address>
+<city>Escondido</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Cartland</last-name>
+<first-name>Harry E.</first-name>
+<address>
+<city>Carmel</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="003" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Sluder</last-name>
+<first-name>Philip James</first-name>
+<address>
+<city>El Cajon</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="004" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Twogood</last-name>
+<first-name>Richard Edward</first-name>
+<address>
+<city>Dublin</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Hunter</last-name>
+<first-name>John William</first-name>
+<address>
+<city>Escondido</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Cartland</last-name>
+<first-name>Harry E.</first-name>
+<address>
+<city>Carmel</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Sluder</last-name>
+<first-name>Philip James</first-name>
+<address>
+<city>El Cajon</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="004" designation="us-only">
+<addressbook>
+<last-name>Twogood</last-name>
+<first-name>Richard Edward</first-name>
+<address>
+<city>Dublin</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Strategic Innovation IP Law Offices, P.C.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>QuickLaunch, Inc.</orgname>
+<role>02</role>
+<address>
+<city>Dublin</city>
+<state>CA</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>O'Hara</last-name>
+<first-name>Brian M</first-name>
+<department>3644</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A gas gun launcher having a pump tube and a launch tube with a first end of the launch tube slidably inserted into a second end of the pump tube. A sliding seal is employed to retain the gas within the launch tube and the pump tube A launch tube alignment system is preferably automatic, again to enhance the accuracy of launches. And an embodiment of the gas gun launcher suitable for use in water such as an ocean or large lake preferably utilizes a neutrally buoyant launch tube and a neutrally buoyant pump tube. And a fast-closing muffler at the second end of the launch tube conserves the light gas utilized for launching a vehicle.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="187.45mm" wi="274.57mm" file="US08979033-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="275.59mm" wi="186.52mm" orientation="landscape" file="US08979033-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="266.62mm" wi="185.17mm" orientation="landscape" file="US08979033-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="272.37mm" wi="193.46mm" orientation="landscape" file="US08979033-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="271.70mm" wi="205.06mm" orientation="landscape" file="US08979033-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="263.91mm" wi="170.35mm" orientation="landscape" file="US08979033-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="270.34mm" wi="178.31mm" orientation="landscape" file="US08979033-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="265.94mm" wi="175.77mm" orientation="landscape" file="US08979033-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="269.92mm" wi="194.14mm" orientation="landscape" file="US08979033-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="261.96mm" wi="185.67mm" orientation="landscape" file="US08979033-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="250.11mm" wi="202.01mm" orientation="landscape" file="US08979033-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="266.45mm" wi="191.60mm" orientation="landscape" file="US08979033-20150317-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="254.00mm" wi="200.58mm" orientation="landscape" file="US08979033-20150317-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="268.90mm" wi="181.27mm" orientation="landscape" file="US08979033-20150317-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00014" num="00014">
+<img id="EMI-D00014" he="271.86mm" wi="181.27mm" orientation="landscape" file="US08979033-20150317-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00015" num="00015">
+<img id="EMI-D00015" he="257.98mm" wi="163.91mm" orientation="landscape" file="US08979033-20150317-D00015.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00016" num="00016">
+<img id="EMI-D00016" he="217.42mm" wi="177.29mm" orientation="landscape" file="US08979033-20150317-D00016.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00017" num="00017">
+<img id="EMI-D00017" he="217.85mm" wi="199.56mm" orientation="landscape" file="US08979033-20150317-D00017.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00018" num="00018">
+<img id="EMI-D00018" he="236.73mm" wi="198.54mm" orientation="landscape" file="US08979033-20150317-D00018.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<p id="p-0002" num="0001">This application is a continuation of PCT/US2010/050437, filed Sep. 27, 2010 and entitled &#x201c;Gas Gun Launcher,&#x201d; inventors John Hunter, Harry Cartland, Philip Sluder, and Richard Twogood, which claims priority to U.S. App. 61/277,544 and U.S. App. 61/277,543, each of which was filed Sep. 25, 2009. Each of the three preceding applications is incorporated by reference herein as if put forth in full below.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">TECHNICAL FIELD</heading>
+<p id="p-0003" num="0002">This invention relates to a gun which employs a heated gas to provide the initial acceleration for a projectile such as a missile which will subsequently produce initial acceleration by employing its own propulsion system, especially such projectiles that carry a payload into orbit.</p>
+<heading id="h-0002" level="1">BACKGROUND ART</heading>
+<p id="p-0004" num="0003">An older version of a missile receiving initial acceleration from high-pressure air or another gas is the subject of U.S. Pat. No. 3,583,277.</p>
+<p id="p-0005" num="0004">United States patent application publication no. 20100212481 discloses &#x201c;[a]n improved two-stage light gas gun for launching projectiles at high speeds. The gun consists of three tubes: the expansion, pump, and launch tubes. The expansion tube contains a close-fitting expansion piston that is propelled by an explosive charge. The expansion piston in turn drives the pump piston housed within the pump tube by means of a rod connecting the two pistons. The action of the pump piston adiabatically compresses and heats a light gas of hydrogen or helium, bursting a diaphragm at a predetermined pressure and expelling the projectile from the launch tube at a very high speed. This publication also quite well describes the prior art.</p>
+<p id="p-0006" num="0005">And U.S. Pat. No. 7,775,148 provides, &#x201c;Launching payloads at high velocity uses high-pressure gas or combustion products for propulsion, with injection of high pressure gas at intervals along the path behind the payload projectile as it accelerates along the barrel of the launcher. An inner barrel has an interior diameter equal to the projectile diameter or sabot containing the projectile. An outer casing surrounds the inner barrel. Structures at intervals attach the outer casing and the inner barrel. An axial gas containment chamber (AGC) stores high pressure gas between the inner barrel wall, the outer casing wall, and enclosure bulkheads. Pressure-activated valves along the barrel sequentially release the high pressure gas contained in the AGC in to the barrel to create a continuously refreshed high energy pressure heads behind the projectile as it moves down the barrel. A frangible cover at the exit end of the barrel allows the barrel to be evacuated prior to launch. The launcher is rapidly recyclable. The valves close automatically after the projectile has exited the barrel, allowing a new projectile to be introduced into the breech and the AGC to be recharged with high-pressure gas.&#x201d;</p>
+<p id="p-0007" num="0006">U.S. Pat. No. 7,775,148, moreover, for one embodiment states, &#x201c;The elongated projectile launcher barrel is supported by flotation collars near breech and muzzle ends and is erected by flooding a flotation collar near the proximal end and submerging the breech end.&#x201d;</p>
+<p id="p-0008" num="0007">And U.S. Pat. No. 6,116,136 uses recoil plates in an &#x201c;actuated recoil absorbing mounting system&#x201d; in order to &#x201c;absorb the recoil energy from an underwater projectile launcher, such as a high discharge energy underwater gun.&#x201d;</p>
+<p id="p-0009" num="0008">In none of the preceding patents or any other patent of which the inventors are aware are the barrels, or tubes, buoyant; is the launch tube isolated from the pump tube; or is there an automatic alignment system.</p>
+<p id="p-0010" num="0009">The present inventors have developed a means of delivering supplies to earth lunar orbit in order to assist space exploration. The current method of delivering propellant, food and other supplies to orbit is with rocket delivery. Rocket delivery is extremely expensive with a typical cost of about $5,000 per lb of payload delivered. The requirement for approximately 9 km/s delta V to attain earth orbit when coupled with the rocket equation yields only a few percent payload fraction for rocket delivery. Their method uses a hydrogen gas gun to first boost a rocket to high speed. This allows a smaller more efficient rocket to deliver the payload to orbit. The payload fractions obtained are thereby much higher than obtained by a rocket alone. Their higher payload fractions plus the re-usable hydrogen gas gun reduce the payload delivery cost by more than a factor of 10.</p>
+<p id="p-0011" num="0010">The present inventors have previously described using hydrogen gas guns to deliver payloads to orbit in the following published articles: &#x201c;Livermore Proposes Light Gas Gun For Launch of Small Payloads&#x201d;, <i>Aviation Week and Space Technology</i>, Jul. 23, 1990, pp. 78-80; &#x201c;Shooting Right For The Stars With One Gargantuan Gas Gun&#x201d;, <i>Smithsonian Magazine</i>, January 1996, pp. 84-91; and &#x201c;The Jules Verne Gun&#x201d;, Popular Mechanics, December 1996, pp. 54-57. These described the construction and performance of the SHARP (Super High Altitude Research Project) launcher at Lawrence Livermore National Laboratory as well as potentially larger follow-ons.</p>
+<heading id="h-0003" level="1">DISCLOSURE OF INVENTION</heading>
+<p id="p-0012" num="0011">The gas gun launcher of the present invention, principally to prevent a tension wave from proceeding along the launch tube and thereby degrading the accuracy of a launch, uses a sliding attachment of the launch tube to the pump tube with a sliding seal to retain the gas within the launch tube and the pump tube.</p>
+<p id="p-0013" num="0012">A launch tube alignment system is preferably automatic, again to enhance the accuracy of launches.</p>
+<p id="p-0014" num="0013">And an embodiment of the gas gun launcher suitable for use in water such as an ocean or large lake preferably utilizes a neutrally buoyant launch tube and a neutrally buoyant pump tube.</p>
+<p id="p-0015" num="0014">The current invention focuses on both land and ocean based hydrogen gas guns. Both the Land Based Launcher (LBL) and the Ocean Based Launcher (OBL) provide the following:
+<ul id="ul0001" list-style="none">
+    <li id="ul0001-0001" num="0000">
+    <ul id="ul0002" list-style="none">
+        <li id="ul0002-0001" num="0015">1. Obtain vehicle muzzle velocity commensurate with orbital speeds with the launcher. The advantage of using hydrogen is that it has 1/10<sup>th </sup>the molecular weight of gunpowder and this manifests itself in a much higher sound speed by comparison. The fundamental velocity of any gas based gun is:
+<br/>
+<?in-line-formulae description="In-line Formulae" end="lead"?><i>U</i><sub>max</sub>=2*<i>C</i><sub>0</sub>/(Gamma&#x2212;1)&#x2003;&#x2003;(Eqn. 1)<?in-line-formulae description="In-line Formulae" end="tail"?>
+        <ul id="ul0003" list-style="none">
+            <li id="ul0003-0001" num="0016">(Where C<sub>0 </sub>is the initial sound speed and Gamma is the specific heat ratio.)</li>
+            <li id="ul0003-0002" num="0017">Eqn. 1 is the basis for the fact that the world record for powder guns is 3 km/s while the record for hydrogen guns is 11.2 km/s. The speeds associated with attaining LEO at 500 km altitude are well matched to hydrogen guns. One has:</li>
+            <li id="ul0003-0003" num="0018">Uorbit=7.6 km/s</li>
+            <li id="ul0003-0004" num="0019">DeltaUorbit=9.0 km/s</li>
+        </ul>
+        </li>
+        <li id="ul0002-0002" num="0020">2. Use piston-less hydrogen gas guns to reduce the amount of velocity needed by a rocket to provide payload to orbit. Eliminating the piston reduces the recoil momentum and size of the launcher.</li>
+        <li id="ul0002-0003" num="0021">3. Minimizing the carbon footprint and pollution by using natural gas to heat the hydrogen. This is much cheaper, cleaner and safer than the gunpowder used to propel the piston in a conventional two-stage hydrogen gas gun.</li>
+        <li id="ul0002-0004" num="0022">4. Decouple the recoil from the launch tube thereby eradicating launch vibration and allowing a lighter, lower inertia launch tube. Traditional gas guns have very heavy thick walled launch tubes since they see extreme vibrations during the shot. The high velocity nature of hydrogen gas guns demands a static launch tube during the shot. Otherwise the vehicle will be damaged by the transverse g-loads as it traverses the launch tube. Our pump tube slides backwards with a sliding seal between itself and the launch tube thereby preventing launch tube recoil.</li>
+        <li id="ul0002-0005" num="0023">5. Align the launch tube automatically. Launch tube alignment is critical for high velocity guns and must be performed before every launch. It can be an onerous and expensive task when performed by surveying crews. Automatic alignment will reduce O&#x26;M costs and save time.</li>
+        <li id="ul0002-0006" num="0024">6. Have a fast opening valve that tailors the pressure profile at the projectile as it traverses the barrel. This allows a lower peak G-load on the projectile. Typical single stage gas guns have maximum pressure occurring near the breech and this causes very high initial G-loads. Conversely two-stage piston driven gas guns have lower peak pressures at the expense of a massive piston. The valve of the present invention initially allows modest hydrogen release until the vehicle is a decent fraction (say &#x2153;) of the way down the launch tube. The valve having opened more by then, allows the peak pressure to occur.</li>
+        <li id="ul0002-0007" num="0025">7. Have a fast closing muffler to capture the majority of the hydrogen and allow the hydrogen to be recycled. This reduces launch costs and reduces muzzle blast as well.</li>
+        <li id="ul0002-0008" num="0026">8. Have a mechanism to impart spin to the vehicle. The advantages to the vehicle include greater flight stability, lower peak stress and heating and the ability to use a novel, single thruster Attitude Control System (ACS).</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0016" num="0027">The Ocean Based Launcher (OBL) has unique objects and advantages that distinguish it from the LBL systems described here and in the references. The objects and advantages include:
+<ul id="ul0004" list-style="none">
+    <li id="ul0004-0001" num="0000">
+    <ul id="ul0005" list-style="none">
+        <li id="ul0005-0001" num="0028">1. High mobility since the OBL may be towed and deployed in any preferred ocean including international waters. Mobility results in flexibility compared to both standard rocket systems and LBLs which are often constrained in launch inclination.</li>
+        <li id="ul0005-0002" num="0029">2. Agility in azimuth and launch angle allows launch access to all orbital altitudes and inclinations in the same day. For example a single OBL can launch several tons to a propellant depot at equatorial azimuth, 25 degree launch angle and 500 km altitude in the morning. It can then rotate to a 60 degree launch angle and deliver several tons to a depot at a geosynchronous altitude and inclination later on the same day.</li>
+        <li id="ul0005-0003" num="0030">3. Neutral buoyancy reduces launch tube gravitational sag to near zero. This means the launch tube can be very straight and will require less adjustment and fewer stiffeners. An extremely straight launch tube is paramount to minimize side loads on the launch vehicle. Neutral buoyancy also means the system is much lighter, potentially cheaper and more easily transported than an all steel system.</li>
+        <li id="ul0005-0004" num="0031">4. Immunity to seismic activity. Some land-based systems may be located near regions of earthquake activity and active faults. The OBL will be immune to seismic activity. It will obviously have to deal with potentially energetic wave action. Tsunamis are expected to be of small consequence since their amplitude is low in deep waters.</li>
+        <li id="ul0005-0005" num="0032">5. Range safety is much easier since the launch location will be away from populated areas with an ocean downrange.</li>
+        <li id="ul0005-0006" num="0033">6. Hurricane avoidance is easily managed by deploying the OBL within 5 degrees of the equator where hurricanes don't occur. (The Coriolis Force that organizes hurricanes is proportional to the sine (Latitude).</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0017" num="0034">The launch vehicle has the following objects and advantages:
+<ul id="ul0006" list-style="none">
+    <li id="ul0006-0001" num="0000">
+    <ul id="ul0007" list-style="none">
+        <li id="ul0007-0001" num="0035">1. It has a sabot as shown in <figref idref="DRAWINGS">FIG. 14</figref> that allows a larger working area for the hydrogen pressure. This gives the vehicle greater velocity for a given hydrogen pressure.</li>
+        <li id="ul0007-0002" num="0036">2. It has a sacrificial aero-spike at the nose to reduce the heat transfer on the forward part of the vehicle. The aero-spike will ablate several inches during atmospheric flight. The advantage is the aero-shell fore-body is substantially away from the high speed air stagnation point at the aero-spike tip and hence will not heat and ablate excessively.</li>
+        <li id="ul0007-0003" num="0037">3. It preferably spins about the long axis thereby averaging out aerodynamic moments and heating. This reduces peak bending forces and hot spots.</li>
+        <li id="ul0007-0004" num="0038">4. It preferably has an Attitude Control System (ACS) that only requires one nozzle. This works in conjunction with a spinning vehicle and an intelligent controller. The advantage is a much lower part count and weight than a traditional ACS which usually has multiple nozzles.</li>
+        <li id="ul0007-0005" num="0039">5. It preferably has propellant tanks that can carry both the propellant and the payload. This is because the payload is often rocket propellant such as LH<sub>2</sub>, LOX or RPl, while the vehicle uses the same propellant. This will reduce the part count and weight of the vehicle.</li>
+        <li id="ul0007-0006" num="0040">6. It preferably has a plug nozzle. The advantage is a much shorter, compact nozzle than a conventional central nozzle. This will increase ruggedness under the high G launch loads. It will also allow for a more compact and lighter vehicle.</li>
+        <li id="ul0007-0007" num="0041">7. It preferably has a centripetal fuel pump based on vehicle rotation. The rapidly spinning vehicle can generate significant hydrostatic propellant pressures at the periphery of the propellant tanks. Propellant can then be fed through a pressure regulator to the plug nozzle. The advantage is in eliminating a turbo-pump or pressure bottle that is ordinarily used to pressurize the propellant. This will save weight and reduce cost.</li>
+        <li id="ul0007-0008" num="0042">8. It preferably has liquid propellant comprised of an oxidizer and a fuel. One advantage is no in-bore detonations in the event of vehicle break up in the launcher. Other advantages include higher specific impulse as well as the ability to throttle thrust.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF DRAWINGS</heading>
+<p id="p-0018" num="0043"><figref idref="DRAWINGS">FIG. 1</figref> shows an Ocean Based Launcher (OBL) from the side.</p>
+<p id="p-0019" num="0044"><figref idref="DRAWINGS">FIG. 2</figref> shows the OBL muffler and its maintenance platform.</p>
+<p id="p-0020" num="0045"><figref idref="DRAWINGS">FIG. 3</figref> shows the muffler recoil mechanism and both maintenance platforms.</p>
+<p id="p-0021" num="0046"><figref idref="DRAWINGS">FIG. 4</figref> shows the submerged pump tube.</p>
+<p id="p-0022" num="0047"><figref idref="DRAWINGS">FIG. 5</figref> shows the OBL in stowed position.</p>
+<p id="p-0023" num="0048"><figref idref="DRAWINGS">FIG. 6</figref> shows a cutaway view of the vehicle near the sliding seal and fast valve.</p>
+<p id="p-0024" num="0049"><figref idref="DRAWINGS">FIG. 7</figref> shows the vehicle accelerating during a launch.</p>
+<p id="p-0025" num="0050"><figref idref="DRAWINGS">FIG. 8</figref> shows the flanges between the sliding seal and fast valve.</p>
+<p id="p-0026" num="0051"><figref idref="DRAWINGS">FIG. 9</figref> shows a section of composite neutral buoyancy launch tube.</p>
+<p id="p-0027" num="0052"><figref idref="DRAWINGS">FIG. 10</figref> shows the Land Based Launcher (LBL) as seen from the muzzle.</p>
+<p id="p-0028" num="0053"><figref idref="DRAWINGS">FIG. 11</figref> shows the LBL seen from the control building.</p>
+<p id="p-0029" num="0054"><figref idref="DRAWINGS">FIG. 12</figref> shows the LBL base support.</p>
+<p id="p-0030" num="0055"><figref idref="DRAWINGS">FIG. 13</figref> shows the LBL launch tube side view.</p>
+<p id="p-0031" num="0056"><figref idref="DRAWINGS">FIG. 14</figref> shows the launch vehicle with sabot.</p>
+<p id="p-0032" num="0057"><figref idref="DRAWINGS">FIG. 15</figref> shows the vehicle aero-shell.</p>
+<p id="p-0033" num="0058"><figref idref="DRAWINGS">FIG. 16</figref> shows the rocket motor and payload.</p>
+<p id="p-0034" num="0059"><figref idref="DRAWINGS">FIG. 17</figref> shows the rocket nozzle and ACS.</p>
+<p id="p-0035" num="0060"><figref idref="DRAWINGS">FIG. 18</figref> shows a close up of the ACS and rocket nozzle.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">MODES FOR CARRYING OUT THE INVENTION</heading>
+<p id="p-0036" num="0061">A pump tube shown in <figref idref="DRAWINGS">FIGS. 1</figref>, <b>4</b>, <b>8</b> and <b>12</b> is comprised of flanged sections is made from steel tubing with high strength composite fiber overwrap. The thickness ratio of composite to steel is tailored to achieve neutral buoyancy. We note that typical composites have densities of about one fifth that of steel while they are very strong in tension. Since the composite is only strong in the fiber direction, one will typically employ a winding angle to give the tube both hoop strength as well as longitudinal strength. In our example case of 15 ksi internal pressure we used about six inches of Toray graphite composite wrapped around a 3 inch thick high strength steel tube, with a 100 inch ID. This recipe gives a safety factor of approximately 3 on yield assuming 15 ksi internal pressure.</p>
+<p id="p-0037" num="0062">The OBL preferentially uses the neutral buoyancy tubes submerged in the ocean to minimize gravitational loads and hence tube distortion. The LBL has the option to use composites as well and in this case benefits from the reduced weight, distortion and cost. The pump tube also has an insulating liner that reduces hydrogen heat transfer to the walls. The pump tube contains a heat exchanger that uses the heat of combustion of natural gas and air to heat hydrogen.</p>
+<p id="p-0038" num="0063">The pump tube has buoyancy compensators, in the case of the OBL, that also serve as recoil fins as in <figref idref="DRAWINGS">FIG. 4</figref>. The compensators have sufficient area to dampen the pump tube recoil after a motion of several meters. There may be prior art regarding the recoil fins and if so we will use conventional shock absorbers that loosely couple the launch tube to the pump tube.</p>
+<p id="p-0039" num="0064">The pump tube has a gas manifold shown in <figref idref="DRAWINGS">FIG. 4</figref>. The manifold has remote valves and sensors that allows for the addition of hydrogen as well as pulling a vacuum or purging with air or another gas. The manifold also admits natural gas and air destined for the heat exchanger and allows venting of the heat exchanger exhaust products. The heat exchanger is located in the bottom of the pump tube and the heated hydrogen will rise and have some stratification with the hottest hydrogen nearest the launch vehicle which is in the first section of launch tube. The stratification is beneficial since the high temperature and hence sound speed occurs nearest the vehicle where it will produce a higher speed than with no stratification.</p>
+<p id="p-0040" num="0065">A reusable high speed opening valve is located in the pump tube near the sliding seal in the launch tube as shown in <figref idref="DRAWINGS">FIGS. 6 and 9</figref>. The valve diaphragm is initially clamped in the closed position by the force exerted by the radially oriented hydraulic pistons. When hydraulic pressure is released the diaphragm opens rapidly enough to allow the hydrogen to push the vehicle at high speeds down the launch tube. (Optional technology to the hydraulic pistons includes, but is not limited to, piezoelectric devices and squibs.) When the valve is initially opening, some hydrogen gas is released such that the vehicle accelerates yet doesn't see peak pressure until about &#x2153; of the way down the launch tube. This reduces the peak stress on the vehicle. A sliding seal shown in <figref idref="DRAWINGS">FIG. 6</figref> is located between the opening valve and the launch tube on the OBL to retain the gas since the launch tube slides into the pump tube, rather than being connected to the pump tube, in order to decouple and thereby prevent a tension wave at launch from traveling to the launch tube and interfering with the accuracy of the launch when the pump tube recoils from the launch tube. Prevention of the tension wave in the OBL is further aided by the recoil fins/buoyancy compensators. The LBL can instead have the base of the pump tube coupled directly into the reinforced concrete structure (see recoil absorber in <figref idref="DRAWINGS">FIG. 12</figref>). If necessary, when the concrete structure is used as a shock absorber, the LBL pump tube can have a sliding seal similar to the OBL. Having a sliding connection and shock absorber system (recoil fins or recoil absorber), furthermore, aids in preventing separation of the launch tube from the pump tube.</p>
+<p id="p-0041" num="0066">The valve accelerates prior to opening and the flow area increases from zero to full area in a short time thereafter. By tailoring both the shape and mass of the cylindrical diaphragm as well as the empty volume behind the vehicle, one can insure that peak pressure at the vehicle base occurs when the vehicle is at a desired location. (About &#x2153; of the way along the pump tube is much better in terms of reducing peak G-load.)</p>
+<p id="p-0042" num="0067">The cylindrical fast valve diaphragm is illustrated in <figref idref="DRAWINGS">FIG. 6</figref>. The inventors have built this version and indicate that it works well. The way it works is the hydrogen acts on the rear edge to push it to the left. Upon the release of the fast valve piston brake (<figref idref="DRAWINGS">FIG. 6</figref>) the item accelerates via Mdv/dt=P*A. The hydrogen starts to flow once the item has moved past the interior male part. The flow rate is set by the increasing flow area as well as the volume behind the projectile. There is a finite fill time for the hydrogen pressure to ramp up behind the projectile. Meanwhile as the hydrogen pressure is rising, the projectile starts to move and then one sees essentially unsteady 2-D gasdynamic flow. A person of ordinary skill in the field of gasdynamics can run a 2-D gasdynamic code like Fluent and readily dial the parameters (item mass, shape, distance item must accelerate before hydrogen starts to release, initial volume behind the projectile) to obtain the desired feature of where the pressure peaks at the projectile.</p>
+<p id="p-0043" num="0068">The launch tube is constructed similarly to the pump tube however it has a replaceable refractory liner. Straightness is at a premium here since the vehicle is traveling at high speeds. Waviness in the OBL and the LBL launch tubes is reduced by means of an automatic launch tube alignment mechanism which senses misalignment. The OBL waviness will then be corrected by differential tension applied to the cables shown in <figref idref="DRAWINGS">FIGS. 1</figref>, <b>3</b> and <b>5</b>. The LBL will instead use threaded actuators to align the launch tube.</p>
+<p id="p-0044" num="0069">Both the OBL and LBL can use similar sensors to determine misalignment. Ludeca offers a commercial laser/optical device to determine misalignment. (See www.ludeca.com/prod_borealign-bore-alignment.php.) The inventors' preferred method has three precision tubes rigidly attached externally to the launch tube. The Ludeca bore alignment devices are located inside the tubes and sense misalignment as described in their brochure. Alternatively the devices can travel inside the launch tube prior to the launch.</p>
+<p id="p-0045" num="0070">Once misalignment is determined the OBL can apply tension to the tensioning cables shown in <figref idref="DRAWINGS">FIG. 1</figref>. The amount of tension per cable will be a determined from a lookup table based on previous calibration testing of the launcher alignment. Screw type actuators will either tension or relax the tension members.</p>
+<p id="p-0046" num="0071">The LBL alignment forces are applied in a different fashion from the OBL due to the simple piers attached to the earth (<figref idref="DRAWINGS">FIGS. 10-13</figref>). The inventors align the LBL launch tube mechanically using two set screws per pier giving X and Y displacement (Z is the barrel direction) This is the same method employed on SHARP (Super High Altitude Research Project) at LLNL.</p>
+<p id="p-0047" num="0072">In both the OBL and LBL cases alignment sensing and adjustment will be carried out remotely with the help of a &#x201c;Labview&#x201d;, &#x201c;Trio&#x201d; motion control system or a standard PLC (Programmable Logic Controller). Preferably, a human confirms final alignment prior to each launch.</p>
+<p id="p-0048" num="0073">Circular cable support members shown in <figref idref="DRAWINGS">FIGS. 1 and 5</figref> are distributed along the OBL launch tube. These help stiffen the launcher. They are hollow and, as do the recoil fins/buoyancy compensators, also provide buoyancy compensation as needed. (One of ordinary skill in the art would know how to adjust the air/water ratio in the circular cable support members and in the recoil fins/buoyancy compensator as necessary to achieve the desired buoyancy.)</p>
+<p id="p-0049" num="0074">The male locating step and female locating step in <figref idref="DRAWINGS">FIG. 9</figref> assist in more accurately joining and aligning the launch tube and the pump tube than can be accomplished by placing bolts in the pattern of apertures on the flanges of the launch tube and the pump tube.</p>
+<p id="p-0050" num="0075">The composite construction muffler in <figref idref="DRAWINGS">FIGS. 2 and 3</figref> is larger in diameter than is the launch tube. It is connected to the end of the launch tube by a sliding seal. There is at least one fast-closing valve in the muffler, discussed more below, that captures the hydrogen after the vehicle has exited the launcher. Shock absorbers are attached to the muffler and the launch tube preferably near the sliding seal. They absorb the hydrogen forward momentum at the muzzle allowing the muffler to recoil forward without sending a tension wave down the launch tube and thereby altering the alignment of the launch tube as well as the accuracy of the launch.</p>
+<p id="p-0051" num="0076">Maneuvering thrusters shown in <figref idref="DRAWINGS">FIGS. 3 and 4</figref> are attached at least to the fore and aft cable support members of the OBL. These thrusters allow the operator to maneuver the OBL.</p>
+<p id="p-0052" num="0077">There is preferably a Maintenance Platform (MP) as shown in <figref idref="DRAWINGS">FIG. 3</figref> that is constructed similarly to a free floating oil platform. The MP is connected near the center of the OBL with a bearing attached to the launch tube. The bearing allows rotation of the launch tube about a horizontal axis. The MP contains the LNG and hydrogen tanks as well as vacuum pumps, compressors and electrical power and generators. The MP also has a control room with radar, communications, crew quarters, a cafeteria and a sick bay. It also has a helipad and a vehicle storage and assembly building. A ship or floating platform could, however, also accomplish the functions of the MP.</p>
+<p id="p-0053" num="0078">There is, also preferably, a smaller Muffler Maintenance Platform (MMP) shown in <figref idref="DRAWINGS">FIG. 2</figref> that is attached to the launch tube but not attached to the muffler. The MMP has a helipad and a work area complete with an automated vehicle loader. There is also a combination launch tube inspection device and hone. Again, though, a similarly equipped ship or floating platform could accomplish the functions of the MMP.</p>
+<p id="p-0054" num="0079">As a theoretical example, a launcher could have a pump tube with an internal diameter of 4 meters and a total length of 100 meters. It would be joined to a launch tube 1,000 meters long with an ID of 2.5 meters. The muffler at the end of the launch tube would be 5 meters in internal diameter and 50 meters long. The heated hydrogen just prior to the shot would be at 15 ksi and 1,700 Kelvin. The launch vehicle would weigh about 3 tons and deliver 1,000 lbs of payload to a depot in equatorial low earth orbit.</p>
+<p id="p-0055" num="0080">The launch vehicle, illustrated in <figref idref="DRAWINGS">FIGS. 6 and 14</figref>, has a sabot that encloses the aero-shell and gives it an effectively larger area. The sabot is preferably composed of at least two petals, even more preferably of two to six petals, and most preferably of four petals. The petals are a composite or aluminum and fall off of the aero-shell when the vehicle emerges from the launcher and encounters aerodynamic forces.</p>
+<p id="p-0056" num="0081">The aero-shell preferably has a power law shape of the form r=AX<sup>P </sup>where the exponent is 0.75, although other viable shapes such as bi-conic exist. The acceptable range of exponent is, though, between 0.25 and 1.5, inclusive. The length to diameter ratio L/D is between 3 and 20, exclusive of the endpoints. An L/D of 5 has about 4 times the drag of an L/D of 10. The reason for excluding L/Ds greater than or equal to 20 is the fragility of long skinny objects at extreme speeds in air. Conversely, an L/D of 1, will be rugged but have unacceptably high drag.</p>
+<p id="p-0057" num="0082">The aero-shell covers the housing of the vehicle without, of course, blocking the rocket motor nozzle, and is composed of carbon-phenolic or similar and has a wall thickness appropriate to the in-bore stresses it will experience. (Carbon-phenolic is a name known by one of ordinary skill in the field of thermal protection for aircraft and reentry bodies.) In-bore stresses are a result of base pressure, velocity, barrel straightness, and vehicle/sabot material. Those of ordinary skill in the art who design vehicles, e.g., designers for the light gas gun at AEDC in Tennessee, use computer FEA (Finite Element Analysis) predictions to design hypersonic gun-launched vehicles based on those properties. In addition to using computer programs to determine wall thickness, it is desirable to take data from a large number of test launches to validate and augment the FEA results.</p>
+<p id="p-0058" num="0083">The fore-body is preferably capped with an ablative aero-spike as illustrated in <figref idref="DRAWINGS">FIG. 15</figref>, although other nose-protection schemes don't use an aero-spike but accept a certain level, such as 5 to 10 inches, of nose ablation. And optionally the nose is cooled by transpiration, wherein a fluid such as water is forced through holes in the nose of aero-shell and other areas where thermal protection is desirable. The aero-spike is made of a rugged high Q* material like carbon-carbon or oak. It is approximately 1&#x2033; in diameter and 10 inches long. (Aero-spike length varies depending on vehicle size and velocity. For the figures given here the inventors have assumed a 1-meter diameter aero-shell and a velocity of 6 km/s).</p>
+<p id="p-0059" num="0084">Qstar refers to the heat of ablation of a material under extremely high heating rates consistent with orbital speeds. Carbon-Carbon is known to those of ordinary skill in the field of thermal protection for re-entry vehicles. For example, Teflon, Carbon-Carbon, and oak are among acceptable ablative TPS (Thermal Protection System) materials. Carbon-Carbon has a Qstar in excess of 5,000 Btu/lb or 1.2e7 joules/kg. PICA (Phenolic Impregnated Carbon Ablator) and PICA-X are recent acceptable coatings used by NASA and Space X.</p>
+<p id="p-0060" num="0085">Aero-spike dimensions and length can be computed by the use of ablation codes such as Coyote and ABRES (ASCC86) at Sandia National Laboratories. Don Potter at SANDIA's Aeroscience and Compressible Fluid Mechanics Department, has run his shape changing ablation codes for the inventors in the past to predict the shape of an ablated vehicle nose. This is a straightforward yet challenging piece of engineering. There will be some trial and error. There are probably several hundred individuals of ordinary skill in the field at SANDIA, LLNL, Los Alamos, NASA, and assorted companies like SpaceX, Boeing and Lockheed who can perform the work. There will be some testing required in addition to the simulations.</p>
+<p id="p-0061" num="0086">The aft section of the vehicle preferably has a flared base in order to move the center of pressure rearward to increase stability. An ACS (Attitude Control System) nozzle, shown in <figref idref="DRAWINGS">FIG. 15</figref>, is preferably near the base in order to help provide stability during atmospheric transit. In addition, subtly canted (preferably less than five degrees with reference to the longitudinal axis of the vehicle because of the extreme speeds, heating rates, and dynamic pressures experienced by the vehicle in the atmosphere) fins are optionally present near the base to provide spin.</p>
+<p id="p-0062" num="0087">An aero-shell ejection charge, illustrated in <figref idref="DRAWINGS">FIG. 16</figref>, is located near the tip of the vehicle. Timing can be determined by an on-board accelerometer that determines when the vehicle has obtained approximately 60 to 100 km altitude or more. The first actuator is shown at the nose in order to push the motor and payload out of the hot aeroshell. There will be other actuators including exploding bolts and cutting charges required to sever internal structures to free the motor and payload from the aero shell. These other actuators will be fired prior to the actuator on the nose which ejects the motor and payload.</p>
+<p id="p-0063" num="0088">When the vehicle is powered by a solid propellant, a cargo compartment will exist. This is also an option when the vehicle uses liquid propellant.</p>
+<p id="p-0064" num="0089">More commonly, however, if liquid propellant powers the vehicle, the vehicle contains an oxidizer tank and a propellant tank, as illustrated in <figref idref="DRAWINGS">FIG. 16</figref>, with at least one tank being oversized to carry additional oxidizer or additional propellant as cargo. Instead of or in addition to, an oversized tank, a third tank optionally exists in order to carry liquid cargo other than an oxidizer or propellant, such as water or xenon.</p>
+<p id="p-0065" num="0090">A standard liquid propellant is most preferred, a hybrid fuel is preferred, and solid fuel is the third in terms of priority of propellants. Hybrid rockets use a fuel such as acrylic, polyethylene or polybutadiene and then flow a gaseous oxidizer like oxygen or nitrous oxide over the fuel surface. They are safer than ordinary solid motors yet still throttleable via the oxidizer. Of course when liquid propellant is utilized, there must be one or more valves to control the propellant and oxidizer; and in a hybrid rocket there must be a valve to control the oxidizer.</p>
+<p id="p-0066" num="0091">Attitude control of the vehicle is possible with a standard nozzle or multiple standard nozzles; preferably, though, a rocket plug nozzle is utilized, as described below and as illustrated in <figref idref="DRAWINGS">FIGS. 17 and 18</figref>.</p>
+<p id="p-0067" num="0092">For either the primary motor or the attitude control system motor a manifold and igniter exist unless the propellant is hypergolic, in which case an igniter is unnecessary. In the case of the rocket plug nozzle the manifold is located near the plug nozzle and regulates and distributes the propellant which is pressurize preferably from centripetal force created by spinning the vehicle.</p>
+<p id="p-0068" num="0093">The ACS nozzle of <figref idref="DRAWINGS">FIGS. 15</figref>, <b>17</b>, and <b>18</b> penetrates the aero-shell. After the aero-shell is discarded along with the exterior ACS nozzle, the interior ACS nozzle is exposed for maneuvers in the vacuum of space.</p>
+<p id="p-0069" num="0094"><figref idref="DRAWINGS">FIG. 18</figref> shows the annular ACS monopropellant tank is located inward of the plug nozzle. <figref idref="DRAWINGS">FIG. 18</figref> is a cutaway. As best seen in <figref idref="DRAWINGS">FIG. 17</figref>, the plug nozzle and the ACS tank are distributed over the full 360 degrees. As shown in <figref idref="DRAWINGS">FIG. 18</figref>, the exhaust impinging on the ACS tank as shown can be problematic. Preferably, the plug nozzle is directed inward, preferably substantially 20 degrees inward; and the inner part of the nozzle extends below the ACS tank.</p>
+<p id="p-0070" num="0095">The ACS is controlled by a microprocessor and sensor package (not shown since these are traditional elements). The sensors include an accelerometer, a GPS, a radio transmitter and receiver, a horizon sensor, and a payload integrity sensor. One of ordinary skill in the art would understand control of the ACS system. This includes employees of Ball Aerospace, Boeing, Lockheed-Martin etc. who regularly maneuver satellites.) The sensor package preferably uses a combination of GPS and inertial guidance, plus active radio telemetry with the propellant station. This is discussed more on page 3 of the vehicle patent. The Russian's Progress resupply vehicle use an autonomous docking system comprised of the TsVM-101 digital flight computer plus the MBITS digital telemetry system. In 2007 DARPA also demonstrated autonomous docking with Orbital Express. DARPA used AVGS (Advanced Video Guidance System) to guide the docking.</p>
+<p id="p-0071" num="0096">The operation of the Gas Gun Launcher is as follows:</p>
+<p id="p-0072" num="0097">First the OBL is towed, as shown in <figref idref="DRAWINGS">FIG. 5</figref>, to a preferred ocean location. The thrusters in <figref idref="DRAWINGS">FIGS. 3 and 4</figref> are used to align the launcher to the correct launch angle and azimuth. An equatorial launch location is often preferred to obtain maximum payload fraction. The down range is scanned with radar and visually to insure range safety.</p>
+<p id="p-0073" num="0098">Next the pump and launch tubes are cleaned; and, if honing (described more fully below) is to be utilized to cause the vehicle to spin, the launch tube is honed. The spin direction during honing can determine the amount and direction of spin imparted to the projectile in-bore. Then the launch tube is automatically aligned using feedback from sensors and subsequently applying tension (utilizing the tensioning cables as described above) in the case of the OBL. (The LBL is aligned instead using threaded actuators.) Next the launch vehicle is loaded with propellant and payload and inserted down the launch tube from the muzzle until it seats near the pump tube (and the sliding seal in the OBL) as in <figref idref="DRAWINGS">FIG. 6</figref>. If the propellant is cryogenic, then propellant may be vented and topped off as needed by thin tubing penetrations that reach the vehicle from outside the launch tube.</p>
+<p id="p-0074" num="0099">From this point on the system is operated remotely.</p>
+<p id="p-0075" num="0100">The fast-opening valve in the pump tube is closed while the fast closing valve in the muffler is opened. A diaphragm, preferably composed of MYLAR, is fastened across the muzzle prior to pulling a vacuum in the launch tube. A vacuum of a few Torr is pulled separately in both the launch tube and pump tube. Care must be taken to maintain lower pressure behind the projectile so that it does not get pushed toward the muzzle. Next the light gas, preferably hydrogen, or a mixture of light gases is fed into the pump tube as shown in <figref idref="DRAWINGS">FIG. 4</figref> until it reaches about 3,000 psi and ambient temperature. The heat exchanger is then fed natural gas and air while an igniter maintains a flame. After about 10 minutes the heat exchanger has heated the hydrogen in the pump tube to approximately 1,700 Kelvin and 15,000 psi.</p>
+<p id="p-0076" num="0101">The tracking radars are notified and the fast-opening valve is opened. The vehicle is accelerated down the launch tube to high speed and pushes a small amount of shocked air in front like a snowplow. The shocked air impacts the diaphragm and blows it outward allowing the vehicle to exit the muffler unscathed. The hydrogen behind the vehicle stagnates against large areas of a fast-closing valve and drives the valve shut, effectively sealing off the launcher with the hydrogen inside. The hydrogen in the launcher takes several minutes to cool down and it is then pumped out, scrubbed and recycled into the hydrogen vessels shown in <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+<p id="p-0077" num="0102">The fast-closing valve preferably comprises a partition sealingly connected to the inner surface of the muffler, containing an aperture adequate for the passage of the vehicle, and having a door for sealingly closing the aperture rotatably connected to the aperture on the side toward the pump tube. Alternatively, a ball with a diameter larger than the inner diameter of the muffler is placed on the bottom of the muffler, leaving adequate room for passage of the vehicle. The gas behind the vehicle then forces the door closed or pushes the ball into the open end of the muffler.</p>
+<p id="p-0078" num="0103">The hydrogen is expected to thermalize with the tube within 5-15 minutes. The pressure and temperature are anticipated to drop as follows:</p>
+<p id="p-0079" num="0104">
+<tables id="TABLE-US-00001" num="00001">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="offset" colwidth="63pt" align="left"/>
+<colspec colname="1" colwidth="42pt" align="center"/>
+<colspec colname="2" colwidth="42pt" align="center"/>
+<colspec colname="3" colwidth="70pt" align="center"/>
+<thead>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry>t = 0</entry>
+<entry>t = 1 sec</entry>
+<entry>t = 10 minutes</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="5">
+<colspec colname="offset" colwidth="14pt" align="left"/>
+<colspec colname="1" colwidth="49pt" align="left"/>
+<colspec colname="2" colwidth="42pt" align="char" char="."/>
+<colspec colname="3" colwidth="42pt" align="char" char="."/>
+<colspec colname="4" colwidth="70pt" align="char" char="."/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>Volume (m3)</entry>
+<entry>1,260</entry>
+<entry>6,170</entry>
+<entry>6,170</entry>
+</row>
+<row>
+<entry/>
+<entry>Pressure (psi)</entry>
+<entry>15,000</entry>
+<entry>1,620</entry>
+<entry>720</entry>
+</row>
+<row>
+<entry/>
+<entry>Temp (K)</entry>
+<entry>1,700</entry>
+<entry>900</entry>
+<entry>400</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0080" num="0105">After approximately 10 minutes the hydrogen is pumped through a conventional industrial type scrubber and back into the storage tanks where it preferably resides near 2,650 psi and ambient temperature. While refilling the storage tanks the hydrogen temperature will increase adiabatically unless the tanks are cooled. The inventors expect this cooling can be accomplished, in the case of the OBL, with the surrounding seawater. The preceding is a standard industrial process, and there are hundreds of companies of ordinary skill in the art which can design and build the hydrogen scrubbing and recycling system.</p>
+<p id="p-0081" num="0106">The vehicle emerges from the muffler and the sabot petals are lifted away from the aero-shell by aerodynamic forces. The petals burn, because of air friction due to the high speed of the vehicle, while airborne and land within a few km of the muffler. The vehicle is either spinning on exiting the launch tube or spins up in the atmosphere due to the subtly canted fins. Vehicle orientation changes are made if needed by driving gyroscopic precession. The angular precession rate is given by:
+<br/>
+<?in-line-formulae description="In-line Formulae" end="lead"?>Angular Rate=Torque/Angular momentum&#x2003;&#x2003;(Eqn. 2)<?in-line-formulae description="In-line Formulae" end="tail"?>
+<br/>
+(Here torque is applied at right angles to the angular momentum axis. See &#x201c;The Feynman Lectures on Physics&#x201d; Vol. 1 Chapter 20, p. 6, Eqn. 20.15.)
+</p>
+<p id="p-0082" num="0107">The preferred ACS has a major novel feature in that it achieves orientation via stroboscopically applying thrust at right angle to the spin axis of the vehicle in accordance with Eqn. 2 above. This is important and different. Alternatively we can use conventional ACS thrust maneuvers which don't require a spinning vehicle, but they do require more thrusters. (Conventionally 2 thrusters for pitch and 2 for yaw located near the nose, as well as 2 for roll located near the center of mass.)</p>
+<p id="p-0083" num="0108">Spinning the vehicle can be performed several ways. The fins will be very small canted protuberances on the aft section. They will not stick out more than say 5% of the vehicle diameter, and are expected to have a cant angle of 1 degree&#x3c;theta&#x3c;5 degrees. Their length can be 5-100% of the vehicle diameter. Optionally, grooves similarly oriented on the surface of the vehicle can be employed. And alternatively the inventors believe a practical technique is pre-spinning the vehicle in the launcher prior to launch by spinning the section of launch tube containing the vehicle is. The other option is to hone the barrel preferentially in one direction. Of the three techniques, pre-spinning the vehicle is likely the most precise. The fin option however, has a side benefit in that it will stabilize the projectile both gyroscopically as well as by moving the center of pressure aft of the center of gravity. All of these methods can be accomplished by one skilled in the art; however, significant engineering and testing will be required.</p>
+<p id="p-0084" num="0109">Eqn. 2 is more transparent here: Dtheta=Dt*Force*(length to center of mass)/Angular momentum. Force being that applied by the ACS single thruster as it pulses. Sensors determine the orientation of the vehicle so that the microprocessor, or controller, can issue commands to achieve the desired orientation. Naturally there are other sensors on-board to determine where the vehicle is relative to the depot as well as the relative velocity etc. There are also the usual payload integrity sensors etc.</p>
+<p id="p-0085" num="0110">As the vehicle ascends through the atmosphere, the aero-spike sees maximum heating and will ablate substantially. The rest of the aero-shell should remain largely undisturbed although the minimal fins may also get ablated somewhat. After attaining approximately 60 to 100 km altitude the aero-shell will be ejected exposing the rocket motor and payload. Shortly thereafter, the rocket is ignited and burns for approximately 100 seconds as it nears the orbital depot. The spinning rocket causes significant centripetal propellant pressure thereby, in the preferred embodiment, circumventing the need for a tank pressurization device or a turbo-pump. The ACS is in communication with the depot and continues to guide the spinning rocket/payload assembly as they approach the depot.</p>
+<p id="p-0086" num="0111">Upon arriving near the depot a robotic tug fields the rocket/payload assembly. It determines payload integrity and then delivers the assembly to the propellant depot where the propellant is siphoned off.</p>
+<p id="p-0087" num="0112">Alternatives or options in addition to those discussed above are as follows:</p>
+<p id="p-0088" num="0113">The hydrogen may be heated externally to the pump tube with a self-contained heat exchanger using natural gas or another hydrocarbon and air.</p>
+<p id="p-0089" num="0114">A mixture of gases, for example hydrogen, helium and oxygen may be heated and their hot reaction products used to propel the vehicle through the launcher.</p>
+<p id="p-0090" num="0115">An all steel, non-buoyant launcher may be used even for the OBL. Of course, with the OBL the cable supports/buoyancy compensators and the recoil fins/buoyancy compensators make this feasible.</p>
+<p id="p-0091" num="0116">Composites may include Fiberglass, Spectra, Kevlar and other high strength fibers.</p>
+<p id="p-0092" num="0117">The launcher may be towed and serviced by a ship instead of using the Maintenance Platform.</p>
+<p id="p-0093" num="0118">The recoil fins in the breech area may be replaced with conventional shock absorbers.</p>
+<p id="p-0094" num="0119">The launcher may employ a rotating section of the launch tube to impart spin to the vehicle prior to launch. This may be needed to spin up the fluids in the vehicle, since they will not spin up so rapidly as a solid propellant vehicle would.</p>
+<p id="p-0095" num="0120">The launcher can be based in a tunnel.</p>
+<p id="p-0096" num="0121">And the launch tube and pump tube can be placed on support members.</p>
+<p id="p-0097" num="0122">As used herein, the term &#x201c;substantially&#x201d; indicates that one skilled in the art would consider the value modified by such terms to be within acceptable limits for the stated value. Also as used herein the term &#x201c;preferable&#x201d; or &#x201c;preferably&#x201d; means that a specified element or technique is more acceptable than another but not that such specified element or technique is a necessity.</p>
+<p id="p-0098" num="0123">And non-essential features may be utilized in any and all practical combinations.</p>
+<heading id="h-0006" level="1">INDUSTRIAL APPLICABILITY</heading>
+<p id="p-0099" num="0124">The way in which the Gas Gun Launcher is capable of exploitation in industry and the way in which the Gas Gun Launcher can be made and used are obvious from the description and the nature of the Retractable Hose Extension for a Vacuum.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A gas gun launcher for launching a vehicle into space, which comprises:
+<claim-text>a launch tube having a first end and a second end;</claim-text>
+<claim-text>a heat exchanger configured to heat a light gas, thereby forming heated light gas;</claim-text>
+<claim-text>a high-speed opening valve in fluid communication with the first end of said launch tube and in fluid communication with the heat exchanger to receive the heated light gas from the heat exchanger; and</claim-text>
+<claim-text>a recoil absorber comprising recoil fins located at the first end of said launch tube</claim-text>
+<claim-text>wherein the gas gun launcher has neutral buoyancy in water.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the gas gun launcher comprises buoyancy compensators.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the heat exchanger has a combustor to provide the heat that heats the light gas.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. A gas gun launcher according to <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein the heat exchanger and the combustor are located within a pump tube in fluid communication with the launch tube.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the recoil absorber comprises a shock absorber.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. A gas gun launcher according to <claim-ref idref="CLM-00004">claim 4</claim-ref> wherein the pump tube is movable relative to the launch tube.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. A gas gun launcher according to <claim-ref idref="CLM-00006">claim 6</claim-ref> and further comprising a sliding seal bridging the connecting area of the pump tube and the launch tube to prevent escape of the light gas.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the launcher has no compression piston for the light gas.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> and further comprising a closure for the launch tube.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A gas gun launcher according to <claim-ref idref="CLM-00009">claim 9</claim-ref> and further comprising a light gas recycling system.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. A gas gun launcher according to <claim-ref idref="CLM-00010">claim 10</claim-ref> wherein the light gas recycling system has a sliding seal and a shock absorbing system.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the launch tube has a first section configured to spin to impart a spin to the vehicle during launch.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the launch tube has an interior surface that is honed to impart a spin to the vehicle during launch.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> where the launch tube has a replaceable refractory liner.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. A gas gun launcher according to <claim-ref idref="CLM-00001">claim 1</claim-ref> and further comprising an automatic launch tube alignment system.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. A gas gun launcher for launching a vehicle into space, which comprises:
+<claim-text>a launch tube having a first end and a second end;</claim-text>
+<claim-text>a high-speed opening valve positioned at the first end of the launch tube and configured to control admission of a light gas to the first end of the launch tube as the valve opens so that the light gas is initially below a peak pressure at the vehicle as the vehicle moves from the first end of the launch tube and toward the second end of the launch tube, said valve sealing against a seat; and</claim-text>
+<claim-text>a recoil absorber comprising recoil fins located at the first end of said launch tube,</claim-text>
+<claim-text>wherein the gas gun launcher has neutral buoyancy in water.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. A gas gun launcher according to <claim-ref idref="CLM-00016">claim 16</claim-ref> wherein said seat has a tapered end.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. A gas gun launcher according to <claim-ref idref="CLM-00016">claim 16</claim-ref> wherein the high-speed opening valve has a shape and a mass such that the light gas is initially below said peak pressure at the vehicle as the vehicle moves from the first end of the launch tube and toward the second end of the launch tube.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. A gas gun launcher according to <claim-ref idref="CLM-00018">claim 18</claim-ref> wherein said high-speed opening valve's shape and mass are such that the light gas is at a peak pressure at the vehicle as said vehicle reaches a distance beyond about a third of a length of the launch tube during launch.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. A gas gun launcher according to <claim-ref idref="CLM-00019">claim 19</claim-ref> wherein the light gas comprises hydrogen.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. A gas gun launcher according to <claim-ref idref="CLM-00020">claim 20</claim-ref> wherein the light gas consists of hydrogen.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text>22. A gas gun launcher according to <claim-ref idref="CLM-00020">claim 20</claim-ref> wherein the light gas further comprises helium.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text>23. A gas gun launcher for launching a vehicle into space, which comprises:
+<claim-text>a launch tube having a first end and a second end and a longitudinal axis;</claim-text>
+<claim-text>a high-speed opening valve in fluid communication with the launch tube to admit a light gas to the launch tube; and</claim-text>
+<claim-text>a high-speed opening valve brake configured to provide a retaining force against the high-speed opening valve to hold the high-speed opening valve closed against pressure applied to the high-speed opening valve by the light gas; and</claim-text>
+<claim-text>a recoil absorber comprising recoil fins located at the first end of said launch tube,</claim-text>
+<claim-text>wherein the gas gun launcher has neutral buoyancy in water.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text>24. A gas gun launcher according to <claim-ref idref="CLM-00023">claim 23</claim-ref> wherein the brake comprises hydraulic pistons that clamp the high-speed opening valve in a closed position.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text>25. A gas gun launcher according to <claim-ref idref="CLM-00023">claim 23</claim-ref> wherein the brake comprises squibs that remove the retaining force.</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text>26. A gas gun launcher according to <claim-ref idref="CLM-00023">claim 23</claim-ref> wherein the high-speed opening valve is on a longitudinal axis of the launch tube.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

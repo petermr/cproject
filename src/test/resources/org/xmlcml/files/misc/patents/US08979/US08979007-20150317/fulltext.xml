@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979007-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979007</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13230275</doc-number>
+<date>20110912</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>DE</country>
+<doc-number>10 2010 045 125</doc-number>
+<date>20100912</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>856</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>22</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>14</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>16</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>18</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>23</main-group>
+<subgroup>16</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>18</main-group>
+<subgroup>144</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>2018</main-group>
+<subgroup>162</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>2018</main-group>
+<subgroup>188</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>02</class>
+<subclass>C</subclass>
+<main-group>2023</main-group>
+<subgroup>165</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>241 73</main-classification>
+<further-classification>241242</further-classification>
+</classification-national>
+<invention-title id="d2e71">Device for comminution of feed material</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2006/0118671</doc-number>
+<kind>A1</kind>
+<name>Astafan et al.</name>
+<date>20060600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>DE</country>
+<doc-number>34 01 929</doc-number>
+<kind>A1</kind>
+<date>19850800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>16</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>241 73</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>241242</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>241243</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>4</number-of-drawing-sheets>
+<number-of-figures>4</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20120061498</doc-number>
+<kind>A1</kind>
+<date>20120315</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Pallmann</last-name>
+<first-name>Hartmut</first-name>
+<address>
+<city>Zweibruecken</city>
+<country>DE</country>
+</address>
+</addressbook>
+<residence>
+<country>DE</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Pallmann</last-name>
+<first-name>Hartmut</first-name>
+<address>
+<city>Zweibruecken</city>
+<country>DE</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Muncy, Geissler, Olds &#x26; Lowe, P.C.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Pallmann Maschinenfabric GmbH &#x26; Co. KG</orgname>
+<role>03</role>
+<address>
+<city>Zweibruecken</city>
+<country>DE</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Rosenbaum</last-name>
+<first-name>Mark</first-name>
+<department>3725</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A device for comminuting feed material is provided that has a housing including longitudinal walls and transverse walls for accommodating a rotor that rotates about a longitudinal axis. The rotor is equipped about its circumference with processing tools, and has, on its faces, an annular disk, each of which is concentric to the longitudinal axis. Within the housing, at least one screen path extends over a part of the circumference of the rotor, each screen path running at a slight radial distance from the annular disks while forming a seal gap. The feed material is supplied to the rotor through a feed shaft and is directed out of the device via a material discharge extending downstream of the screen path. In order to return material that emerges through the seal gap to the remaining material flow annular disks are each arranged with an axial clearance A from the transverse walls.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="103.46mm" wi="141.73mm" file="US08979007-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="129.46mm" wi="154.43mm" file="US08979007-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="107.70mm" wi="145.46mm" file="US08979007-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="116.76mm" wi="146.22mm" file="US08979007-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="101.01mm" wi="117.52mm" file="US08979007-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<p id="p-0002" num="0001">This nonprovisional application claims priority under 35 U.S.C. &#xa7;119(a) to German Patent Application No. DE 10 2010 045 125.8, which was filed in Germany on Sep. 12, 2010, and which is herein incorporated by reference.</p>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0003" num="0002">1. Field of the Invention</p>
+<p id="p-0004" num="0003">The invention relates to a device for comminuting feed material.</p>
+<p id="p-0005" num="0004">2. Description of the Background Art</p>
+<p id="p-0006" num="0005">Such devices belong to the field of mechanical process engineering, in particular the comminution of feed material in the manner of cutting, clipping, tearing, or crushing. But the dissociation of the bond of composite materials, which is always accompanied by a comminution of the feed material, also resides within the scope of the present invention. Generic devices consequently are suitable for the comminution of piece goods and bulk materials, in particular plastics with and without admixtures, wood, waste wood, paper, cardboard, cellulose, textiles, waste material, vulcanized rubber, natural rubber, resins, leather, foodstuffs, semi-luxury foodstuffs, fodder, minerals, pigments, dyes, pharmaceuticals, metals, composite materials such as electronic scrap, cables, used tires, and the like.</p>
+<p id="p-0007" num="0006">The basic principle of material processing is a result of the interaction of rotating cutting, shearing, or tearing tools with stationary tools or else from the impact energy of rapidly rotating striking tools such as hammers, plates, and the like, which crush the feed material. After it has been reduced sufficiently in size, the feed material is removed from the device through a screen, wherein the screen can additionally act as a comminution tool. Thus, the screen functionally subdivides the interior of the housing into an upstream comminution area and a downstream area for discharging the material that has already been comminuted.</p>
+<p id="p-0008" num="0007">In machines of this nature, the attachment of rotating machine parts to stationary machine parts proves to be problematic; in particular the attachment of the rotor to the housing proves to be a critical zone with regard to wear, heat buildup within the device, and quality of the end product.</p>
+<p id="p-0009" num="0008">Mills with a housing having longitudinal walls and transverse walls, in which a rotor extends from one transverse wall to the opposite transverse wall, are generally known. The rotor moving relative to the transverse wall during the course of comminution carries the feed material along in its circular path, which leads to considerable friction at the stationary transverse walls. The consequences are, firstly, wear on the inside of the housing wall and, secondly, an input of heat into the housing itself, since a portion of the supplied drive energy is converted into friction heat. This not only leads to additional thermal loading of the device, with the result that measures may need to be taken for cooling, but also leads to reduced energy efficiency. An example of such a device is disclosed in DE 34 01 929 A1.</p>
+<p id="p-0010" num="0009">In order to counter these problems, it is known to provide, on the faces of the rotor, an annular disk that rotates with the rotor and whose outer circumference extends radially past the comminution tools. The co-rotating annular disk prevents the feed material from coming into direct contact with the housing wall and causing wear and excessive heat there on its circular path. So that the feed material does not jam in the gap between the annular disk and the inside of the housing, the housing wall has a recess concentric to the annular disk into which the rotor extends with its annular disk. In this design, only a small radial annular gap is maintained between the outer circumference of the annular disk and the inner circumference of the recess. Thus, while the problem of wear of the housing inner wall is solved to a great extent in such an embodiment, it has nonetheless become apparent that fine feed material gets into the annular gap between the annular disk and the housing wall, and in this way the annular gap clogs in the course of time. In order to limit frictionally caused wear and heat development in the annular gap, it is necessary to clean it at regular time intervals, with the disadvantage that the expenditure of time required for this purpose increases the downtime of the device.</p>
+<p id="p-0011" num="0010">In order to remedy this problem, US 2006/0118671 A1 proposes forming the concentric recess in the housing walls over the entire thickness of the transverse wall, which is to say to produce a concentric opening in the housing wall within which the rotor is arranged with its rotating annular disk. The radial distance between the annular disk and the housing wall is chosen sufficiently small here that a sealing action arises with respect to the feed material. Nevertheless, during the course of comminution, especially fine particles get into the gap and reemerge on the outside of the housing. In order to capture and remove this material, in accordance with US 2006/0118671 A1 a metal duct is provided on the outside of the housing in the area of the gap.</p>
+<p id="p-0012" num="0011">It proves to be a disadvantage here that the material escaping from the outlet from the seal gap, and hence from the housing, is separated from the remaining flow of material by the transverse wall, and consequently must be recaptured by additional peripheral machine components and delivered to further processing, which entails additional structural and processing costs. From a static perspective, the transverse wall is structurally weakened by the large opening in which the annular disk is located, which impairs the stiffness of the machine construction. The opening also has the result that the rotor cannot be mounted on the transverse walls of the housing, the rotor instead having to be mounted directly on the substratum. The metal ducts attached to the transverse walls are not static load-bearing machine parts such as, e.g., the transverse walls, and consequently cannot be used for mounting the rotor. With regard to cleaning and maintenance that are as fast and effective as possible, the metal ducts on the outsides of the transverse walls only make for additional projections and corners that make such tasks more difficult.</p>
+<heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0013" num="0012">It is therefore an object of the invention to improve conventional devices with regard to both structure and function.</p>
+<p id="p-0014" num="0013">A first advantage of the invention results from the structural feature of displacing the attachment region of the rotating rotors axially inward towards the center of the housing to stationary machine parts, such as to the screen path, specifically while simultaneously creating a free space between the housing and rotor. This measure remedies two serious disadvantages of the above-described prior art at once.</p>
+<p id="p-0015" num="0014">Firstly, material that gets through the seal gap is returned to the remaining material flow directly and without additional provisions. Consequently, a device according to the invention is characterized by a simplified machine construction and, at the same time, reduced operating expense. Secondly, the thermal problems that have hitherto been known are eliminated by the air gap in the free space between the housing wall and the rotor. The air gap represents thermal insulation for the transverse wall, which consequently no longer heats up as strongly. As a result, temperature-related problems occur to a far lesser degree in an device according to the invention. In an advantageous refinement of this concept, cooling air can flow through the free space, the cooling air being supplied through openings in the housing, for example. In the event that the air flows through the free space from the top to the bottom, the cooling air additionally supports the flow of material.</p>
+<p id="p-0016" num="0015">The transverse walls represent structurally load-bearing parts, for which the bearing of static and dynamic loads is an important function. By displacing the seal gap axially inward from the plane of the transverse wall (US 2006/0118671 A1), the transverse wall can remain without structural weakening, and thus can serve better for load bearing.</p>
+<p id="p-0017" num="0016">In carrying this concept further, the transverse walls of a device according to the invention can accomplish the mounting of the rotor, for example in that support brackets are attached to the outsides of the transverse walls. This results in an extremely compact construction in which all important components are within or attached to the housing.</p>
+<p id="p-0018" num="0017">It proves to be an advantage if the transverse walls are connected to one another in a deflection-resistant manner by longitudinal profiles, thus forming a stiff supporting frame. This allows for doors to be installed in the longitudinal sides of the device, through which accessibility to the interior of the housing is ensured.</p>
+<p id="p-0019" num="0018">It is advantageous for the free space to be closed at both sides and at the top. The surfaces delimiting the free space in this design can be composed of the longitudinal walls and the cover plate, for example. At the top, the closure to the clearance surrounding the upper circumferential section can also be composed of a shaped part, which is located between the metal wearing plate and the transverse wall for the purpose of attachment of the metal wearing plate on the face side. In this way, the material escaping from the seal gap is collected and reunited with the flow of material in a targeted manner.</p>
+<p id="p-0020" num="0019">So as not to impede the material flow within the free space, yet also to protect the transverse walls from excessive heat radiation, it is necessary for there to be a minimum distance between the annular disks of the rotor and the associated transverse walls. In this context, distances of at least 2 cm, preferably at least 3 cm or 5 cm, have proven to be advantageous.</p>
+<p id="p-0021" num="0020">The seal gap running around the annular disks must satisfy two requirements. On the one hand, it is necessary to prevent feed material that has not been properly reduced in size from getting into the material discharge, for which purpose the seal gap cannot exceed a certain width. On the other hand, the most unhindered possible rotation of the rotor with respect to stationary machine parts, such as the screen paths, must be ensured, which requires a minimum width of the seal gap. In order to satisfy these fundamentally conflicting requirements, the invention provides for a maximum width of the seal gap of 3 mm, preferably a maximum of 1 mm or 0.5 mm.</p>
+<p id="p-0022" num="0021">In this regard, the smaller the installation tolerances of the machine components forming the seal gap are, the narrower it is possible to make the seal gap. In this context, the invention provides for installation of the screens on the associated screen support frame in which the screens are not only clamped, but also their backs are simultaneously braced against the screen support frame. Since the screen support frame determines the precise nominal geometry, it is ensured in this manner that the screen paths also have the desired geometry over the entire length of the seal gap, and the width of the seal gap can be minimized.</p>
+<p id="p-0023" num="0022">In order to increase the efficiency of a device according to the invention, the screen paths extend as a whole over at least half the rotor circumference, for example over two-thirds thereof. In order to ensure a precise fit of the screens on the screen support frame over the entire intended circumferential section, it is advantageous here for the rotor to be surrounded by two or more screen paths.</p>
+<p id="p-0024" num="0023">The invention is explained in detail below with reference to an exemplary embodiment in the form of a cutting mill shown in the drawings. Since the exemplary embodiment is not to be understood as limiting, devices of similar construction and based on the same principle of operation, such as drum shredders, beating mills, and the like, also reside within the scope of the invention.</p>
+<p id="p-0025" num="0024">Further scope of applicability of the present invention will become apparent from the detailed description given hereinafter. However, it should be understood that the detailed description and specific examples, while indicating preferred embodiments of the invention, are given by way of illustration only, since various changes and modifications within the spirit and scope of the invention will become apparent to those skilled in the art from this detailed description.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0026" num="0025">The present invention will become more fully understood from the detailed description given hereinbelow and the accompanying drawings which are given by way of illustration only, and thus, are not limitive of the present invention, and wherein:</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 1</figref> is a cross-section through an inventive device along the line I-I shown in <figref idref="DRAWINGS">FIGS. 2 and 3</figref>,</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 2</figref> is a longitudinal section through an inventive device along the line II-II shown in <figref idref="DRAWINGS">FIG. 1</figref>,</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 3</figref> is a horizontal section through an inventive device along the line III-III shown in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, and</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 4</figref> is a detail of the area IV marked in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0031" num="0030">The more precise structure of the inventive device is evident from <figref idref="DRAWINGS">FIGS. 1 through 4</figref>, which show a cutting mill. The cutting mill has, resting on a substructure labeled <b>1</b>, a housing <b>2</b> which is composed essentially of two opposing, plane-parallel transverse walls <b>3</b> and <b>4</b>, whose outline is rectangular in the bottom region and trapezoidal in the top region (<figref idref="DRAWINGS">FIG. 1</figref>). The transverse walls <b>3</b> and <b>4</b> are structurally load-bearing parts, which are frictionally connected to one another at their base region by one longitudinal spar <b>5</b> on each side. In the transition region between the rectangular region and the trapezoidal region, longitudinal spars <b>7</b>, which likewise are axially parallel, reinforce the housing construction, with the overall result of a stiff supporting frame. Each of the longitudinal sides of the housing <b>2</b> are closed off by longitudinal walls <b>9</b> and <b>10</b>, which can pivot about a vertical axis by means of hinges <b>11</b> after the lock <b>13</b> has been released in order to ensure accessibility to the interior of the housing.</p>
+<p id="p-0032" num="0031">The top of the housing <b>2</b> has a rectangular opening <b>12</b>, which continues in the housing interior as a vertical feed shaft <b>15</b> with a rectangular cross-section, and leads to the region of action of a rotor <b>17</b> that rotates about a longitudinal axis <b>16</b> and is centrally located in the housing <b>2</b>. The sides of the feed shaft <b>15</b> are covered with metal wearing plates <b>14</b>. The regions of the housing top that are located outside of the feed shaft <b>15</b> are sealed off with cover plates <b>47</b>, which rest on the housing walls (see primarily <figref idref="DRAWINGS">FIGS. 1 and 2</figref>). The lower region of the housing <b>2</b> constitutes a material discharge <b>33</b>, and is open to the bottom.</p>
+<p id="p-0033" num="0032">As is also evident from <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, the rotor <b>17</b> comprises a drive shaft <b>18</b>, on which are mounted, in a rotationally fixed manner, rotor disks <b>19</b> that are arranged coaxially to one another and axially spaced apart. Evenly distributed about their circumference, the rotor disks <b>19</b> have radial edge recesses that are intended to accommodate axially parallel blade strips <b>20</b>. The blade strips <b>20</b> are fixed in the edge recesses by means of radially tensioned clamping wedges <b>21</b> in such a manner that the cutting edges <b>8</b> of the blade strips <b>20</b> lie on a common cutting edge circle <b>22</b>.</p>
+<p id="p-0034" num="0033">It is apparent from <figref idref="DRAWINGS">FIGS. 2 and 3</figref> that the ends of the drive shaft <b>17</b> pass through the transverse walls <b>3</b> and <b>4</b>, and are rotatably mounted outside the housing <b>2</b> in shaft bearings <b>44</b>. To this end, brackets <b>23</b>, upon which the shaft bearings <b>44</b> rest at an axial distance from the transverse walls <b>3</b> and <b>4</b>, are welded to the outside of the transverse walls <b>3</b> and <b>4</b>. The weight of the rotor and dynamic forces are conducted away from the transverse walls <b>3</b> and <b>4</b>. By means of a drive that is not shown in detail, the drive shaft <b>18</b>, and hence the entire rotor <b>17</b>, is set in rotation. The direction of rotation is indicated by the arrow <b>24</b> in <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0035" num="0034">The face ends of the rotor <b>17</b> are composed of annular disks <b>25</b> concentric to the axis <b>16</b>, which in the present example are composed of three annular segments that each have a circumferential section of 120&#xb0; and are axially screwed to the first and last rotor disk <b>19</b>. The outside diameter of the annular disks <b>25</b> is greater than the diameter of the cutting edge circle <b>22</b> here. In <figref idref="DRAWINGS">FIGS. 1 and 4</figref>, the outside circumference of the annular disk <b>25</b> is labeled <b>26</b>. <figref idref="DRAWINGS">FIG. 2</figref> discloses that the metal wearing plates <b>14</b> of the feed shaft <b>15</b> are recessed in the region of the annular disks <b>25</b>, and the annular disks <b>16</b> are arranged within the recesses, wherein their outer circumference <b>26</b> is located a short radial distance opposite the metal wearing plates <b>14</b>, and in this way form a seal gap <b>43</b>. The wear plates <b>14</b> on the face side and the annular disks <b>25</b> or <b>26</b> consequently lie essentially in one plane.</p>
+<p id="p-0036" num="0035">As is evident from <figref idref="DRAWINGS">FIG. 1</figref>, in the circumferential region of the rotor <b>17</b>, stator blades <b>27</b> are arranged directly laterally to the two longitudinal sides of the feed shaft <b>15</b>; these blades extend across the entire axial length of the rotor <b>17</b> and their cutting edges <b>8</b> are opposite the blade strips <b>20</b> of the rotor <b>17</b> while maintaining a radial blade clearance. The stator blades <b>27</b> are attached to the housing <b>2</b> by means of clamping bars <b>28</b>, likewise axially parallel, which extend from the transverse wall <b>3</b> to the transverse wall <b>4</b> where they are removably attached and mounted in receiving slots <b>30</b>. The stator blades are braced against the clamping bars <b>28</b> by means of clamping plates <b>29</b>.</p>
+<p id="p-0037" num="0036">Radially opposite the rotor <b>17</b> at the lower apex is another axially parallel longitudinal spar <b>31</b>, which adjoins the transverse walls <b>3</b> and <b>4</b> in a deflection-resistant manner for reinforcement of the housing <b>2</b>. The circumferential sections between the two clamping bars <b>28</b> and the longitudinal spar <b>31</b> are each covered by a curved screen path <b>32</b>, which extends in the axial direction over the entire length of the rotor <b>17</b> to the outsides of the annular disks <b>25</b> and <b>26</b>, and maintains an axial clearance from each of the transverse walls <b>3</b> and <b>4</b>. Together, the two screen paths <b>32</b> cover more than two thirds of the rotor circumference in this way.</p>
+<p id="p-0038" num="0037">Each screen path <b>32</b> is composed essentially of a screen support frame <b>34</b>, which is reinforced by curved ribs <b>35</b>. Welded to the screen support frame <b>34</b> in the region of the longitudinal spar <b>31</b> are legs <b>36</b>, the free ends of which sit on a shaft <b>37</b> in a rotationally fixed manner. The shafts <b>37</b> run parallel to the longitudinal spar <b>31</b>, and in order to fold up the screen elements <b>32</b>, their ends are coupled to a rotary drive, which is not shown.</p>
+<p id="p-0039" num="0038">On the inside facing the rotor <b>17</b>, screen support frames <b>34</b> and ribs <b>35</b> are each fitted with perforated plates <b>38</b>. For the purpose of precisely positioned securing of the perforated plates <b>38</b>, their top and bottom edges in the circumferential direction are braced against one another by means of clamping strips <b>39</b> and <b>40</b>. The force vector of the clamping force thus exerted has both a radial and a tangential component in the direction of the opposite screen edge. In this way, it is ensured that the perforated plates <b>38</b> fit precisely against the inside circumference of the screen support frame <b>34</b> and the ribs <b>35</b>.</p>
+<p id="p-0040" num="0039">As a result of this type of construction, a closed region is created within the housing <b>2</b> that, in the radial direction, is delimited by the longitudinal walls of the feed shaft <b>15</b>, the clamping bars <b>28</b>, the screen paths <b>32</b>, and the longitudinal spar <b>31</b>, and in the axial direction by the two rotating annular disks <b>25</b> and the walls of the feed shaft <b>15</b> composed of the metal wearing plates <b>14</b> on the face side. In terms of process technology, the said machine parts thus constitute a separation, wherein the region upstream of the separation is devoted to active comminution of the feed material, while the region located downstream of the separation serves the discharge of the comminuted material out of the device via the material discharge <b>33</b>.</p>
+<p id="p-0041" num="0040">Very important in this context is the attachment of rotating machine parts, namely the annular disks <b>25</b>, to stationary machine parts, here primarily to the screen paths <b>32</b> and the face-side metal wearing plates <b>14</b>. On the one hand, it is necessary to ensure that feed material in this region that is only insufficiently reduced in size does not reach the discharge region of the device by circumventing the screen path <b>32</b>, which calls for a relatively narrow gap. On the other hand, the gap between rotating and stationary machine parts cannot be so small that the rotary movement of the rotor is impaired by it or that the development of heat due to friction is excessive.</p>
+<p id="p-0042" num="0041"><figref idref="DRAWINGS">FIG. 4</figref> shows this region in a larger scale. Of the rotor <b>17</b>, one can see a part of the end rotor disk <b>19</b>, whose outside circumference bears a blade strip <b>20</b>, whose cutting edge in turn is labeled with reference number <b>8</b>. Coaxially attached to the outside of the rotor disk <b>19</b> is the annular disk <b>25</b>, whose outside circumference <b>41</b> projects radially past the cutting edge <b>8</b> of the blade strip <b>20</b>. Screwed to the outside of the annular disk <b>25</b>, in turn, is a bar-shaped clearing tool <b>42</b>, which extends radially past the outside circumference <b>41</b> of the annular disk <b>25</b>.</p>
+<p id="p-0043" num="0042">In the radial direction, the annular disk <b>25</b> is located opposite the perforated plate <b>38</b> resting on the screen support frame <b>34</b> of the screen path <b>32</b>, wherein a small radial seal gap <b>43</b> with a width from 0.5 mm to 3 mm, preferably 1 mm, is maintained between the outside circumference <b>41</b> of the annular disk <b>25</b> and the perforated plate <b>38</b>. The width of the seal gap <b>43</b> depends essentially on the type of feed material, the type of comminution, and the desired fineness, as well as the requisite clearance for the rotary motion of the rotor <b>17</b>. The clearing tool <b>42</b> extends radially beyond the seal gap <b>43</b>, and in doing so captures fine feed material that gets through the seal gap <b>43</b> and in this way prevents clogging of the seal gap <b>43</b>.</p>
+<p id="p-0044" num="0043">In the axial clearance, a transverse wall <b>3</b> is located opposite the annular disk <b>25</b> and the screen element <b>32</b>; the part of the bracket <b>23</b> for the shaft bearing <b>44</b> is visible on the outside of this transverse wall. The clearance distance is at least 1 cm, preferably at least 2 cm or at least 3 cm. In the present example, the cutting mill even has a distance of 5 cm, which can be even larger if necessary. A sufficient distance ensures that no accumulations of material collect in the free space <b>6</b>, which would hinder free flow, and the thermal load on the transverse walls is reduced.</p>
+<p id="p-0045" num="0044">As a result of the clearance between the transverse wall <b>3</b> and annular disk <b>25</b>, a disk-shaped free space <b>6</b> is produced in accordance with the invention; radially toward the bottom, this free space transitions directly into the material discharge <b>33</b> of the device. The free space <b>6</b> advantageously extends over at least the entire part length of the seal gap <b>43</b> in the region of the screen paths <b>32</b>, which is to say that all material that emerges from the gap <b>43</b> between the annular disk <b>25</b> and screen paths <b>32</b> is captured in the free space <b>6</b>. However, the free space <b>6</b> can also extend over the entire circumference of the seal gap <b>43</b>, which is to say also over the region of the feed shaft <b>15</b>. The free space <b>6</b> is delimited at the sides essentially by the longitudinal walls <b>9</b> and <b>10</b>, and at the top by the cover plates in this region. The width of the free space <b>6</b> thus corresponds essentially to the width of the transverse walls <b>3</b> and <b>4</b>. The free space <b>6</b> is thus closed off at the top and at the sides, and is only open at the bottom in the direction of the material discharge <b>33</b>. In this design, the drive shaft <b>18</b> passes through the free space <b>6</b>, with the free space surrounding the drive shaft in an approximately annular shape.</p>
+<p id="p-0046" num="0045">With the aid of the free space <b>6</b>, feed material that gets through the seal gap <b>43</b> axially is redirected in the radial direction in the free space <b>6</b>, and is fed directly and without further measures to the material flow downstream of the screen elements <b>32</b>.</p>
+<p id="p-0047" num="0046">As is shown primarily in <figref idref="DRAWINGS">FIG. 2</figref>, the transverse walls <b>3</b> and <b>4</b> can each have one or more openings <b>45</b>, which open into the free space <b>6</b> from outside, and by means of which the free space <b>6</b> can be subjected to an airflow <b>46</b>. The airflow <b>46</b> can serve to cool the device, but can simultaneously also support the material flow within the free space <b>6</b> and additionally in the material discharge <b>33</b>.</p>
+<p id="p-0048" num="0047">The invention being thus described, it will be obvious that the same may be varied in many ways. Such variations are not to be regarded as a departure from the spirit and scope of the invention, and all such modifications as would be obvious to one skilled in the art are to be included within the scope of the following claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A device for comminuting feed material, the device comprising:
+<claim-text>a housing having longitudinal walls and transverse walls for accommodating a rotor that rotates about a longitudinal axis, the rotor being equipped about its circumference with processing tools, and to each end face of the rotor, an annular disk is attached concentrically to the longitudinal axis; and</claim-text>
+<claim-text>at least one screen path that extends inside the housing over a part of the circumference of the rotor, the screen path running at a slight radial distance from the annular disks while forming a seal gap,</claim-text>
+<claim-text>wherein the feed material is supplied to the rotor through a feed shaft and is directed out of the device via a material discharge downstream of the screen path, and</claim-text>
+<claim-text>wherein the annular disks are each arranged with an axial clearance A from the transverse walls in order to form a free space.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the axial clearance A is at least 2 cm.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the free space inside the housing opens directly into the material discharge in the radial direction.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the free space is closed off at the sides and at the top.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein clearing tools that extend radially across the outside circumference of the annular disks are located on each end face of the rotor.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein air flows through the free space from the top to the bottom.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the seal gap has a maximum radial width of 3 mm.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the screen path comprises perforated plates, which are secured to a screen support frame, and wherein the screen support frame has clamping strips that clamp the axially parallel edges of the perforated plates.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the rotor is surrounded by two screen paths that follow one another in the direction of rotation.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The device according to <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the screen paths together extend over at least half the circumference of the rotor or over at least two-thirds thereof.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the two transverse walls are connectable to one another via longitudinal profiles to form a supporting frame.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein two shaft bearings are attached to the transverse walls.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the axial clearance A is at least 3 cm.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the axial clearance A is at least 5 cm.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the seal gap has a maximum radial width of 1 mm.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the seal gap has a maximum radial width of 0.5 mm. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

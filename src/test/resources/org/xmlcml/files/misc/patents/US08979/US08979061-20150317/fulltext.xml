@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979061-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979061</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13305577</doc-number>
+<date>20111128</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>KR</country>
+<doc-number>10-2011-0078666</doc-number>
+<date>20110808</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>686</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20120101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>H</subclass>
+<main-group>57</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20100101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>H</subclass>
+<main-group>57</main-group>
+<subgroup>04</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>H</subclass>
+<main-group>57</main-group>
+<subgroup>0441</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>H</subclass>
+<main-group>57</main-group>
+<subgroup>0489</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>248638</main-classification>
+<further-classification>475206</further-classification>
+<further-classification>180337</further-classification>
+</classification-national>
+<invention-title id="d2e71">Supporting unit for oil pump of continuously variable transmission</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>5094078</doc-number>
+<kind>A</kind>
+<name>Nishimura et al.</name>
+<date>19920300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 60487</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>7686137</doc-number>
+<kind>B2</kind>
+<name>Tominaga et al.</name>
+<date>20100300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>184  612</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2006/0068963</doc-number>
+<kind>A1</kind>
+<name>Sugano et al.</name>
+<date>20060300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>475206</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>2008/0293530</doc-number>
+<kind>A1</kind>
+<name>Makita</name>
+<date>20081100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>474152</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>2009/0286641</doc-number>
+<kind>A1</kind>
+<name>List</name>
+<date>20091100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>474202</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2010/0005925</doc-number>
+<kind>A1</kind>
+<name>Oomura</name>
+<date>20100100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 74606 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>2012/0128521</doc-number>
+<kind>A1</kind>
+<name>Schneider et al.</name>
+<date>20120500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>418166</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>JP</country>
+<doc-number>2006-70916</doc-number>
+<kind>A</kind>
+<date>20060300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>JP</country>
+<doc-number>2010-235056</doc-number>
+<kind>A</kind>
+<date>20101000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>JP</country>
+<doc-number>4676515</doc-number>
+<kind>B2</kind>
+<date>20110200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>KR</country>
+<doc-number>1999-021408</doc-number>
+<kind>A</kind>
+<date>19990300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>KR</country>
+<doc-number>20-0170912</doc-number>
+<kind>Y1</kind>
+<date>19991200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>KR</country>
+<doc-number>10-2009-0016250</doc-number>
+<kind>A</kind>
+<date>20090200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>12</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>248638</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248672</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248674</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>475206</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>180337</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>180344</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>180377</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>701 51</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>3</number-of-drawing-sheets>
+<number-of-figures>3</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130037690</doc-number>
+<kind>A1</kind>
+<date>20130214</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Lee</last-name>
+<first-name>Hyun Ku</first-name>
+<address>
+<city>Seoul</city>
+<country>KR</country>
+</address>
+</addressbook>
+<residence>
+<country>KR</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Kim</last-name>
+<first-name>Moosuk</first-name>
+<address>
+<city>Hwaseong-si</city>
+<country>KR</country>
+</address>
+</addressbook>
+<residence>
+<country>KR</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="003" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Kim</last-name>
+<first-name>Kihyup</first-name>
+<address>
+<city>Seoul</city>
+<country>KR</country>
+</address>
+</addressbook>
+<residence>
+<country>KR</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Lee</last-name>
+<first-name>Hyun Ku</first-name>
+<address>
+<city>Seoul</city>
+<country>KR</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Kim</last-name>
+<first-name>Moosuk</first-name>
+<address>
+<city>Hwaseong-si</city>
+<country>KR</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Kim</last-name>
+<first-name>Kihyup</first-name>
+<address>
+<city>Seoul</city>
+<country>KR</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Morgan, Lewis &#x26; Bockius LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Hyundai Motor Company</orgname>
+<role>03</role>
+<address>
+<city>Seoul</city>
+<country>JP</country>
+</address>
+</addressbook>
+</assignee>
+<assignee>
+<addressbook>
+<orgname>Kia Motors Corporation</orgname>
+<role>03</role>
+<address>
+<city>Seoul</city>
+<country>KR</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Marsh</last-name>
+<first-name>Steven</first-name>
+<department>3632</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A supporting unit apparatus for an oil pump of a continuously variable transmission (CVT) may include the CVT disposed in a transmission housing, wherein an input shaft and a CVT case cover thereof may be disposed thereto, the oil pump which may be disposed in the transmission housing independent from the CVT and of which a rotating shaft and an oil pump case cover may be disposed thereto, a connecting member which engages the input shaft of the CVT and the rotating shaft of the oil pump for transmitting rotation of the input shaft to the rotating shaft, and a supporting unit which connects the CVT and the oil pump for preventing relative motion of the CVT and the oil pump.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="128.27mm" wi="127.68mm" file="US08979061-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="144.19mm" wi="136.57mm" file="US08979061-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="94.74mm" wi="113.96mm" file="US08979061-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="84.84mm" wi="111.00mm" file="US08979061-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATION</heading>
+<p id="p-0002" num="0001">The present application claims priority to Korean Patent Application No. 10-2011-0078666 filed in the Korean Intellectual Property Office on Aug. 8, 2011, the entire contents of which is incorporated herein for all purposes by this reference.</p>
+<heading id="h-0002" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0003" num="0002">1. Field of the Invention</p>
+<p id="p-0004" num="0003">The present invention relates to a supporting unit for an oil pump of a CVT. More particularly, the present invention relates to a supporting unit for an oil pump of a CVT which may improve mutual operability between an input shaft of a CVT and a rotating shaft of an oil pump.</p>
+<p id="p-0005" num="0004">2. Description of Related Art</p>
+<p id="p-0006" num="0005">Generally, an oil pump of an automatic transmission may be classified into an external gear pump and an internal gear pump, and a CVT (Continuously Variable Transmission) usually uses the external gear pump.</p>
+<p id="p-0007" num="0006">The CVT is equipped with conical pulleys mounted to an input shaft and an output shaft respectively and gap of the conical pulleys is variable, and a belt or a chain is used for connecting the pulleys. In CVT, when the gap between the conical pulleys are increased, the belt or chain approaches to a center of the pulleys, and hydraulic pressure is applied to control the gap. And thus, the CVT usually requires an oil pump which may generate high hydraulic pressure within a small space. A rotating shaft of the oil pump is connected with an input shaft of the CVT by a chain or a belt for being supplied rotation of the input shaft.</p>
+<p id="p-0008" num="0007">However, when the oil pump receives power from the input shaft of the CVT rotating at a high speed, the input shaft of the CVT and the rotating shaft of the oil pump may oscillate due to operation or rotation of the chain or supplied torque. Also, rotation of the chain may induce noise and vibration.</p>
+<p id="p-0009" num="0008">The information disclosed in this Background of the Invention section is only for enhancement of understanding of the general background of the invention and should not be taken as an acknowledgement or any form of suggestion that this information forms the prior art already known to a person skilled in the art.</p>
+<heading id="h-0003" level="1">BRIEF SUMMARY</heading>
+<p id="p-0010" num="0009">Various aspects of the present invention are directed to provide a supporting unit for an oil pump of a CVT which may prevent oscillation of an input shaft of a CVT and a rotating shaft of an oil pump and also minimize noise and vibration.</p>
+<p id="p-0011" num="0010">In an aspect of the present invention, the supporting unit apparatus for an oil pump of a continuously variable transmission (CVT) may include the CVT disposed in a transmission housing, wherein an input shaft and a CVT case cover thereof are disposed thereto, the oil pump which is disposed in the transmission housing independent from the CVT and of which a rotating shaft and an oil pump case cover are disposed thereto, a connecting member which engages the input shaft of the CVT and the rotating shaft of the oil pump for transmitting rotation of the input shaft to the rotating shaft, and a supporting unit which connects the CVT and the oil pump for preventing relative motion of the CVT and the oil pump.</p>
+<p id="p-0012" num="0011">The connecting member is a chain.</p>
+<p id="p-0013" num="0012">An end of the supporting unit is connected to the CVT case cover, and another end of the supporting unit is connected to the oil pump case cover.</p>
+<p id="p-0014" num="0013">The supporting unit may further include a stepped surface for connecting the CVT case cover and the oil pump case cover which form connecting surfaces that are not on the same level.</p>
+<p id="p-0015" num="0014">The supporting unit connects a CVT case with the CVT case cover, and connects the oil pump with the oil pump case cover, wherein the supporting unit may further include a stepped surface.</p>
+<p id="p-0016" num="0015">The supporting unit is formed as a plate shape.</p>
+<p id="p-0017" num="0016">The supporting unit may further include a stepped surface for connecting the CVT case cover and the oil pump case cover which form connecting surfaces that are not on the same level.</p>
+<p id="p-0018" num="0017">The supporting unit is formed as a hollow plate having a hole therein for preventing vibration and crack due to twist according to interaction between the CVT and the oil pump.</p>
+<p id="p-0019" num="0018">According to the exemplary embodiment of the present invention, the supporting unit is equipped between the CVT and the oil pump for preventing oscillation of an input shaft of a CVT and a rotating shaft of an oil pump.</p>
+<p id="p-0020" num="0019">And the supporting unit may maintain movement of a chain uniformly. And thus, the supporting unit may minimize noise and vibration due to movement of a chain or a belt.</p>
+<p id="p-0021" num="0020">The methods and apparatuses of the present invention have other features and advantages which will be apparent from or are set forth in more detail in the accompanying drawings, which are incorporated herein, and the following Detailed Description, which together serve to explain certain principles of the present invention.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective view of a transmission housing of a CVT provided with a supporting unit according to an exemplary embodiment of the present invention.</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 2</figref> is a top plan view showing connecting relationship of a CVT and an oil pump according to an exemplary embodiment of the present invention.</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 3</figref> is a perspective view of a supporting unit according to an exemplary embodiment of the present invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="p-0025" num="0024">It should be understood that the appended drawings are not necessarily to scale, presenting a somewhat simplified representation of various features illustrative of the basic principles of the invention. The specific design features of the present invention as disclosed herein, including, for example, specific dimensions, orientations, locations, and shapes will be determined in part by the particular intended application and use environment.</p>
+<p id="p-0026" num="0025">In the figures, reference numbers refer to the same or equivalent parts of the present invention throughout the several figures of the drawing.</p>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0027" num="0026">Reference will now be made in detail to various embodiments of the present invention(s), examples of which are illustrated in the accompanying drawings and described below. While the invention(s) will be described in conjunction with exemplary embodiments, it will be understood that the present description is not intended to limit the invention(s) to those exemplary embodiments. On the contrary, the invention(s) is/are intended to cover not only the exemplary embodiments, but also various alternatives, modifications, equivalents and other embodiments, which may be included within the spirit and scope of the invention as defined by the appended claims.</p>
+<p id="p-0028" num="0027">An exemplary embodiment of the present invention will hereinafter be described in detail with reference to the accompanying drawings.</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective view of a transmission housing of a CVT provided with a supporting unit according to an exemplary embodiment of the present invention, <figref idref="DRAWINGS">FIG. 2</figref> is a top plan view showing connecting relationship of a CVT and an oil pump according to an exemplary embodiment of the present invention, and <figref idref="DRAWINGS">FIG. 3</figref> is a perspective view of a supporting unit according to an exemplary embodiment of the present invention.</p>
+<p id="p-0030" num="0029">As shown in <figref idref="DRAWINGS">FIG. 1</figref>, a transmission housing <b>40</b> of a CVT according to an exemplary embodiment of the present invention includes a CVT <b>20</b>, an oil pump <b>30</b> and a supporting unit <b>10</b> therewithin.</p>
+<p id="p-0031" num="0030">The CVT <b>20</b> may be any CVT and includes an input shaft <b>22</b> and a CVT case cover <b>24</b>.</p>
+<p id="p-0032" num="0031">The oil pump <b>30</b> may be any oil pump and includes a rotating shaft <b>32</b> and an oil pump case cover <b>34</b>. The oil pump may be an external gear pump or an internal gear pump gear pump.</p>
+<p id="p-0033" num="0032">The CVT input shaft <b>22</b> and the oil pump rotating shaft <b>32</b> are connected by an appropriate connecting member and mutually operated. Due to mutual operation, torque of the input shaft <b>22</b> is transmitted to the oil pump rotating shaft <b>32</b> for operating the oil pump <b>30</b>. The appropriate connecting member may be a belt or a chain.</p>
+<p id="p-0034" num="0033">The supporting unit <b>10</b> is disposed between the CVT <b>20</b> and the oil pump <b>30</b>. An end of the supporting unit <b>10</b> is connected to the CVT case cover <b>24</b> and another end of the supporting unit <b>10</b> is connected to the oil pump case cover <b>34</b>.</p>
+<p id="p-0035" num="0034">As shown in <figref idref="DRAWINGS">FIG. 1</figref> and <figref idref="DRAWINGS">FIG. 3</figref>, if connecting surfaces of the CVT case cover <b>24</b> and the oil pump case cover <b>34</b>, connected to the supporting unit <b>10</b>, are not on the same level, a stepped surface <b>16</b> may be formed to the supporting unit <b>10</b> for connecting the supporting unit <b>10</b>. The stepped surface <b>16</b> may be a plate shape or a curved surface.</p>
+<p id="p-0036" num="0035">While the supporting unit <b>10</b> is connected to the CVT case cover <b>24</b> and the oil pump case cover <b>34</b> in <figref idref="DRAWINGS">FIG. 1</figref>, however it is not limited as shown. On the contrary, any fixed constituent elements (e.g., transmission case and oil pump case), which do not prevent operation of the CVT <b>20</b> and the oil pump <b>30</b> may be used for connecting the supporting unit <b>10</b>. Merely, one end of the supporting unit <b>10</b> is connected to the CVT <b>20</b> and another end of the supporting unit <b>10</b> is connected to the oil pump <b>30</b> for preventing movement or oscillation due to mutual operation of the CVT <b>20</b> and the oil pump <b>30</b>.</p>
+<p id="p-0037" num="0036">As shown in <figref idref="DRAWINGS">FIG. 2</figref>, the CVT <b>20</b> and the oil pump <b>30</b> according to the exemplary embodiment of the present invention includes a first sprocket <b>26</b> and a second sprocket <b>36</b> respectively.</p>
+<p id="p-0038" num="0037">The first sprocket <b>26</b> is rotatable around the CVT input shaft <b>22</b>.</p>
+<p id="p-0039" num="0038">The second sprocket <b>36</b> is rotatable around the oil pump rotating shaft <b>32</b>.</p>
+<p id="p-0040" num="0039">The first sprocket <b>26</b> and the second sprocket <b>36</b> are connected by a chain <b>50</b> and so on, and rotate. That is, the first sprocket <b>26</b> integrally rotates with the CVT input shaft <b>22</b> and the second sprocket <b>36</b> rotating with the oil pump rotating shaft <b>32</b> receives torque from the first sprocket <b>26</b> via the chain <b>50</b> to operate the oil pump <b>30</b>.</p>
+<p id="p-0041" num="0040">The connecting relationship between the sprocket <b>26</b> and <b>36</b> and the chain <b>50</b> may be replaced by a pulley and a belt and so on.</p>
+<p id="p-0042" num="0041">Meanwhile, when the CVT input shaft <b>22</b> rotates at a high speed, the chain <b>50</b> may generates vibration and noise. Also, the CVT input shaft <b>22</b> and the oil pump rotating shaft <b>32</b> may move or oscillate.</p>
+<p id="p-0043" num="0042">As described above, the supporting unit <b>10</b> may minimize noise and vibration due to movement of a chain or a belt.</p>
+<p id="p-0044" num="0043">As described in the <figref idref="DRAWINGS">FIG. 1</figref>, the supporting unit <b>10</b> is connected to the CVT case cover <b>24</b> and the oil pump case cover <b>34</b>.</p>
+<p id="p-0045" num="0044">A connecting member is applied for that connection, the connecting member may be a connecting bolt <b>60</b> used for assembling a case of the CVT <b>20</b> and assembling a case of the oil pump <b>30</b>.</p>
+<p id="p-0046" num="0045">In the <figref idref="DRAWINGS">FIG. 2</figref>, it is shown that the connecting bolt <b>60</b> used for connecting a case <b>21</b> of the CVT <b>20</b> with the CVT case cover <b>24</b>, and the connecting bolt <b>60</b> used for connecting the oil pump <b>30</b> with the oil pump case cover <b>34</b> are used for connecting the supporting unit <b>10</b>.</p>
+<p id="p-0047" num="0046">As shown in <figref idref="DRAWINGS">FIG. 3</figref>, the supporting unit <b>10</b> according to an exemplary embodiment of the present invention includes a connecting hole <b>12</b>, a hole <b>14</b> for preventing crack and a stepped surface <b>16</b>.</p>
+<p id="p-0048" num="0047">The supporting unit <b>10</b> is formed as a plate shape for easily connecting in limited space of the transmission housing. Also, the plate shape may minimize interference with constituent elements such as the chain <b>50</b>. The supporting unit <b>10</b> may be formed as metal material or resin for securing rigidity.</p>
+<p id="p-0049" num="0048">The connecting hole <b>12</b> is formed to the supporting unit <b>10</b> as plural. Also, the connecting hole <b>12</b>, as shown in <figref idref="DRAWINGS">FIG. 2</figref>, is used for connecting with the connecting bolt <b>60</b>.</p>
+<p id="p-0050" num="0049">Positions of the connecting holes <b>12</b> are determined for assembling the case of the CVT <b>20</b> and assembling of the case of the oil pump <b>30</b>, and thus separate elements for connecting are not required.</p>
+<p id="p-0051" num="0050">Shape of the supporting unit <b>10</b> may be determined according to shapes of the CVT case cover <b>24</b> and the oil pump case cover <b>34</b>.</p>
+<p id="p-0052" num="0051">That is, various shape of the supporting unit <b>10</b> may be selected for preventing interference with other constituent elements.</p>
+<p id="p-0053" num="0052">The hole <b>14</b> for preventing crack is formed to prevent the supporting unit <b>10</b> from cracking. Since the supporting unit <b>10</b> is formed as a hollow plate where the hole <b>14</b> for preventing crack is formed thereto, and thus the supporting unit <b>10</b> may not be cracked due to operations of the CVT input shaft <b>22</b> and oil pump rotating shaft <b>32</b>. Also, the hole <b>14</b> for preventing crack may reduce weight of the supporting unit <b>10</b>.</p>
+<p id="p-0054" num="0053">The stepped surface is formed for connecting the CVT case cover and the oil pump case cover which form connecting surfaces that are not on the same level.</p>
+<p id="p-0055" num="0054">However, shape of the supporting unit <b>10</b> is not limited that is shown in the drawings, on the contrary, various shapes may possible according to positions of the connecting surface of the CVT <b>20</b> and the oil pump <b>30</b>.</p>
+<p id="p-0056" num="0055">As described above, according to the exemplary embodiment of the present invention, the supporting unit <b>10</b> is disposed between the CVT <b>20</b> and the oil pump <b>30</b> and prevents the CVT input shaft <b>22</b> and the oil pump rotating shaft <b>32</b> from moving or oscillating.</p>
+<p id="p-0057" num="0056">And the supporting unit <b>10</b> may maintain movement of the chain <b>50</b> uniformly. And thus, the supporting unit <b>10</b> may minimize noise and vibration due to movement of a chain <b>50</b> or a belt.</p>
+<p id="p-0058" num="0057">While this invention has been described in connection with what is presently considered to be practical exemplary embodiments, it is to be understood that the invention is not limited to the disclosed embodiments. On the contrary, it is intended to cover various modifications and equivalent arrangements included within the spirit and scope of the appended claims.</p>
+<p id="p-0059" num="0058">For convenience in explanation and accurate definition in the appended claims, the terms &#x201c;upper&#x201d; and &#x201c;lower&#x201d; are used to describe features of the exemplary embodiments with reference to the positions of such features as displayed in the figures.</p>
+<p id="p-0060" num="0059">The foregoing descriptions of specific exemplary embodiments of the present invention have been presented for purposes of illustration and description. They are not intended to be exhaustive or to limit the invention to the precise forms disclosed, and obviously many modifications and variations are possible in light of the above teachings. The exemplary embodiments were chosen and described in order to explain certain principles of the invention and their practical application, to thereby enable others skilled in the art to make and utilize various exemplary embodiments of the present invention, as well as various alternatives and modifications thereof. It is intended that the scope of the invention be defined by the Claims appended hereto and their equivalents.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A supporting unit apparatus for an oil pump of a continuously variable transmission (CVT) comprising:
+<claim-text>the CVT disposed in a transmission housing, wherein an input shaft and a CVT case cover thereof are disposed thereto;</claim-text>
+<claim-text>the oil pump which is disposed in the transmission housing independent from the CVT and of which a rotating shaft and an oil pump case cover are disposed thereto;</claim-text>
+<claim-text>a connecting member which engages the input shaft of the CVT and the rotating shaft of the oil pump for transmitting rotation of the input shaft to the rotating shaft; and</claim-text>
+<claim-text>a supporting unit which connects the CVT and the oil pump for preventing relative motion of the CVT and the oil pump,</claim-text>
+<claim-text>wherein an end of the supporting unit is connected to the CVT case cover; and another end of the supporting unit is connected to the oil pump case cover; and</claim-text>
+<claim-text>wherein the supporting unit further includes a stepped surface for connecting the CVT case cover and the oil pump case cover which form connecting surfaces that are not on the same level.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The supporting unit apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the connecting member is a chain.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The supporting unit apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the supporting unit connects a CVT case with the CVT case cover, and connects the oil pump with the oil pump case cover.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The supporting unit apparatus of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein the supporting unit further includes a stepped surface.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The supporting unit apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the supporting unit is formed as a plate shape.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The supporting unit apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the supporting unit further includes a stepped surface for connecting the CVT case cover and the oil pump case cover which form connecting surfaces that are not on the same level.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. A supporting unit apparatus for an oil pump of a continuously variable transmission (CVT) comprising:
+<claim-text>the CVT disposed in a transmission housing, wherein an input shaft and a CVT case cover thereof are disposed thereto;</claim-text>
+<claim-text>the oil pump which is disposed in the transmission housing independent from the CVT and of which a rotating shaft and an oil sums case cover are disposed thereto;</claim-text>
+<claim-text>a connecting member which engages the input shaft of the CVT and the rotating shaft of the oil pump for transmitting rotation of the input shaft to the rotating shaft; and</claim-text>
+<claim-text>a supporting unit which connects the CVT and the oil pump for preventing relative motion of the CVT and the oil pump,</claim-text>
+<claim-text>wherein the supporting unit is formed as a hollow plate having a hole therein for preventing vibration and crack due to twist according to interaction between the CVT and the oil pump.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The supporting unit apparatus of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the connecting member is a chain.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The supporting unit apparatus of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the supporting unit connects a CVT case with the CVT case cover, and connects the oil pump with the oil pump case cover.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The supporting unit apparatus of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the supporting unit further includes a stepped surface.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The supporting unit apparatus of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the supporting unit is formed as a plate shape.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The supporting unit apparatus of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the supporting unit further includes a stepped surface for connecting the CVT case cover and the oil pump case cover which form connecting surfaces that are not on the same level. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

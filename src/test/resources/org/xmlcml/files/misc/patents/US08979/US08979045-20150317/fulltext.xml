@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979045-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979045</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13573417</doc-number>
+<date>20120914</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>30</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>B</subclass>
+<main-group>96</main-group>
+<subgroup>06</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>B</subclass>
+<main-group>83</main-group>
+<subgroup>04</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>B</subclass>
+<main-group>37</main-group>
+<subgroup>04</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>47</class>
+<subclass>B</subclass>
+<main-group>83</main-group>
+<subgroup>04</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>47</class>
+<subclass>B</subclass>
+<main-group>37</main-group>
+<subgroup>04</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>2482051</main-classification>
+<further-classification>248250</further-classification>
+<further-classification>2482402</further-classification>
+</classification-national>
+<invention-title id="d2e53">Railing extension device and method therefore</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>596427</doc-number>
+<kind>A</kind>
+<name>Richey</name>
+<date>18971200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182106</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>1531159</doc-number>
+<kind>A</kind>
+<name>Timmons</name>
+<date>19250300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248236</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>1733485</doc-number>
+<kind>A</kind>
+<name>Desrosiers</name>
+<date>19291000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>211 9403</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>2889764</doc-number>
+<kind>A</kind>
+<name>McGrath et al.</name>
+<date>19590600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>454204</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>2935284</doc-number>
+<kind>A</kind>
+<name>Reeves</name>
+<date>19600500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248208</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>3390477</doc-number>
+<kind>A</kind>
+<name>Galbraith</name>
+<date>19680700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 42 94</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>3559941</doc-number>
+<kind>A</kind>
+<name>Holzman</name>
+<date>19710200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>4848610</doc-number>
+<kind>A</kind>
+<name>Lai</name>
+<date>19890700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>211 9001</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>4996977</doc-number>
+<kind>A</kind>
+<name>Tiedeken</name>
+<date>19910300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>128878</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>5033448</doc-number>
+<kind>A</kind>
+<name>Sandweg</name>
+<date>19910700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>126 25 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>5042767</doc-number>
+<kind>A</kind>
+<name>Yunker et al.</name>
+<date>19910800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248201</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>RE33842</doc-number>
+<kind>E</kind>
+<name>Ebentheuer</name>
+<date>19920300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 97</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>5282595</doc-number>
+<kind>A</kind>
+<name>Conforti</name>
+<date>19940200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>5755411</doc-number>
+<kind>A</kind>
+<name>Strong et al.</name>
+<date>19980500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248118</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>6263867</doc-number>
+<kind>B1</kind>
+<name>Skelton</name>
+<date>20010700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>126 37 B</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>6398174</doc-number>
+<kind>B1</kind>
+<name>Emalfarb</name>
+<date>20020600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248214</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>6829856</doc-number>
+<kind>B1</kind>
+<name>Moorman</name>
+<date>20041200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 42 94</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>8091844</doc-number>
+<kind>B1</kind>
+<name>Bragg</name>
+<date>20120100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248208</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>32</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>211 8601</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>211 8701</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>211 8516</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>211 8803</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>211100</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>211101</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2111052</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>211 42</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248208</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482402</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248250</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248236</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248166</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248251</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248188</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248419</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481631</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248370</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248371</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248140</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248139</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481258</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481257</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248473</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248479</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248469</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2484751</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482051</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>17</number-of-drawing-sheets>
+<number-of-figures>17</number-of-figures>
+</figures>
+<us-related-documents>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61573145</doc-number>
+<date>20110914</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130062481</doc-number>
+<kind>A1</kind>
+<date>20130314</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Petrakis</last-name>
+<first-name>John Christopher</first-name>
+<address>
+<city>Ashburn</city>
+<state>VA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Petrakis</last-name>
+<first-name>John Christopher</first-name>
+<address>
+<city>Ashburn</city>
+<state>VA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Rosenberg, Klein &#x26; Lee</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>RLP Management Holdings, LLC</orgname>
+<role>02</role>
+<address>
+<city>Franklin Lakes</city>
+<state>NJ</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Wood</last-name>
+<first-name>Kimberly</first-name>
+<department>3631</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A railing mounting system for use on decks, balconies, fences or patios to provide additional surface space. In addition, the frame can be used to contain plantings, herb gardens, coolers, grills or other outdoor items. The mounting system is quickly and easily installed for use and just as easily removed and stored for subsequent use.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="252.39mm" wi="393.45mm" file="US08979045-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="252.56mm" wi="186.18mm" file="US08979045-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="215.98mm" wi="175.94mm" file="US08979045-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="236.90mm" wi="188.21mm" file="US08979045-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="256.12mm" wi="207.09mm" file="US08979045-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="261.70mm" wi="205.66mm" file="US08979045-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="273.39mm" wi="201.08mm" file="US08979045-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="264.92mm" wi="200.32mm" file="US08979045-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="262.81mm" wi="204.22mm" file="US08979045-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="266.36mm" wi="202.86mm" file="US08979045-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="166.88mm" wi="196.26mm" file="US08979045-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="156.55mm" wi="198.54mm" file="US08979045-20150317-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="202.52mm" wi="198.20mm" file="US08979045-20150317-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="202.86mm" wi="164.76mm" file="US08979045-20150317-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00014" num="00014">
+<img id="EMI-D00014" he="217.68mm" wi="193.29mm" file="US08979045-20150317-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00015" num="00015">
+<img id="EMI-D00015" he="146.13mm" wi="149.44mm" file="US08979045-20150317-D00015.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00016" num="00016">
+<img id="EMI-D00016" he="211.58mm" wi="162.98mm" file="US08979045-20150317-D00016.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00017" num="00017">
+<img id="EMI-D00017" he="227.41mm" wi="168.23mm" file="US08979045-20150317-D00017.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<p id="p-0002" num="0001">This application claims priority to U.S. provisional patent application 61/573,145 filed Sep. 14, 2011.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">1. Technical Field</p>
+<p id="p-0004" num="0003">The present disclosure relates generally to a railing extension device for supporting various articles, and more specifically to a device that mounts to a railing and can support various items, including but not limited to a beverage cooler, trash can, a cooler, an electric grill, a glass surface for containing serving dishes and glasses, plants and/or an herb garden.</p>
+<p id="p-0005" num="0004">2. Description of Related Art</p>
+<p id="p-0006" num="0005">Decks, balconies and patios are prevalent in homes and restaurants and often contain a railing system of sorts to assist in providing a safety measure and barrier for occupants as decks, balconies and patios are often above ground level and/or may be near hazards such as water. Most decks, balconies and patios contain tables and chairs in order to provide places for people to eat and put their beverage glasses. The addition of tables and chairs often limits the amount of space available for people to stand and/or walk around on. Due to this, occupants often place plates and glasses on railings. These can easily be knocked off or slide off as the surface of the railing is not even due to warping or in the case of balconies the railing may only be one inch wide and therefore not useable for holding items.</p>
+<p id="p-0007" num="0006">To meet the problem of providing additional surface space for decks and patios, a frame and strap system has been developed which can quickly attach to any shape or size railing and may extend outward away from and/or inward on the deck, balcony or patio. The frame can be made of various durable materials, including but not limited to wood (including teak), aluminum, wrought iron, stainless steel, titanium, or a polymer/plastic material. The device has a rectangular frame shape, but could be square, circular, triangular or any polygonal shape if desired. In addition, the device can have one or more points of contact between the railing and the proximal portion of the frame for attachment of the device. One benefit of the device is its ability to adjust and attach to various shaped railings and various sized railings. The device also contains another member which is an additional point of contact from the frame to the floor/base of the deck, balcony or patio. This member is angled from the most external/distal portion of the frame to the base/floor. This member can be telescoping and can be attached to the frame via a hinge in order to allow for it to fold up and minimize space of the device when not in use. This member or leg could also occur on both sides of the device, with the second member/leg contacting the bottom horizontal brace of the railing or balcony.</p>
+<p id="p-0008" num="0007">Therefore, a need exists for a lightweight device that can quickly, easily and releasably attach to a railing, fence or the like, to provide additional surface area and/or additional display area for occupants to place various items including but not limited to food items or glasses.</p>
+<heading id="h-0002" level="1">SUMMARY</heading>
+<p id="p-0009" num="0008">The present disclosure is directed to a railing extension device which provides a support frame that releasably attaches to a railing. The device can quickly and easily be attached to a railing or fence and then when it is no longer in use it can just as quickly and easily be removed and stored. The preferred embodiment of the device contains two brackets that mount to the proximal portion of the support frame (hereinafter frame). These brackets are permanently attached to the frame and contain an L shaped protrusion which accommodates a strap or cable member. The L shaped bracket could be replaced with various other well known means for holding the strap or cable in place and work just as efficiently. The strap or cable can be made from a variety of materials, including but not limited to nylon, rubber (synthetic or natural) or stainless steel. The strap member continues through a cinching buckle and can be tightened accordingly to maintain the position of the frame. The cinching buckle could also be replaced with other well known means for holding tension on a cable or strap and work just as well. Other types of tightening mechanisms can be used to tighten and secure the strap to the desired tension, including but not limited to a wench type mechanism, a rack and pinion type mechanism, or a spring loaded clamp mechanism. The strap from the buckle is attached at its other end to a U-shaped bracket. The U shaped bracket is moveable and can be of various lengths, widths and sizes and resides sandwiched between the frame and the railing. This allows the weight of whatever is put on top of the frame to further anchor the device to the railing. The U shaped bracket is uniquely locked in place by the use of a detent pin that is inserted through a slot in the side of the U shaped bracket and traverses across the entire width of the U shaped bracket and out a slot on the opposite side of the U shaped bracket. The pin resides in the slots and keeps the U shaped bracket locked in place. Lastly, the distal portion of the frame has a telescoping member or leg that is pivotally attached to the frame. Once extended, the leg contacts the surface of the deck, balcony or patio to provide additional support for the frame.</p>
+<p id="p-0010" num="0009">In another embodiment the device could contain drop in compartments for various items, including but not limited to a cutting board and utensils. It is also contemplated that the device could be adapted for marine applications as well as tailgating applications or with fences that have a horizontal cross member.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0011" num="0010">The above and other aspects and features of the present disclosure will become more apparent in light of the following detailed description when taken in conjunction with the accompanying drawings in which:</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 1</figref> is an exploded assembly view of the Deckmate device</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 2</figref> is an isometric view of the Deckmate device</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 3</figref> is an exploded view of the telescoping leg assembly</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 4</figref> is a close up view of the strap and buckle assembly</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 5A</figref> is a close up view of the L bracket assembly, the Deckmate device facing outward from the railing</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 5B</figref> is a close up view of the Deckmate device attached to the railing and facing inward from the railing</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 6</figref> is a close up view of the Deckmate in use holding a cooler</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 7</figref> is a second close up view of the Deckmate in use holding a cooler</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 8</figref> is a close up view of the Deckmate spanning space inside and outside the railing</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 9</figref> is an isometric view of the frame</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 10</figref> is an isometric view of the glass insert for the frame</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 11</figref> is a bottom view of the frame with a mesh top insert</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 12</figref> is an isometric view of the L bracket</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 13</figref> is an isometric view of the U bracket</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 14</figref> is an isometric view of the tabs that support the glass insert with the frame</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 15</figref> is an isometric view of the top portion of the telescoping leg</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 16</figref> is an isometric view of the bottom portion of the telescoping leg</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE EMBODIMENTS</heading>
+<p id="p-0029" num="0028">Particular embodiments of the present disclosure will be described herein with reference to the accompanying drawings. As shown in the drawings and as described throughout the following description, and as is traditional when referring to relative positioning on an object, the terms &#x201c;proximal&#x201d; and &#x201c;trailing&#x201d; may be employed interchangeably, and should be understood as referring to the portion of a structure that is closer to a user during proper use. The terms &#x201c;distal&#x201d; and &#x201c;leading&#x201d; may also be employed interchangeably, and should be understood as referring to the portion of a structure that is farther from the user during proper use.</p>
+<p id="p-0030" num="0029">Referring initially to <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, the rail mounting system <b>10</b> consists of a frame <b>20</b>. The frame <b>20</b> can be various shapes, but is D-shaped in the preferred embodiment. In the preferred embodiment there are two first strap brackets with an L shaped feature, herein after called the L brackets <b>30</b> which are permanently mounted to the proximal portion of the frame <b>20</b> with the use of Phillips head screws, but could also be mounted with various well known techniques including but not limited to riveting and welding. Referring additionally to <figref idref="DRAWINGS">FIGS. 4</figref>, <b>5</b>A, <b>5</b>B, <b>12</b> and <b>13</b>, the L brackets <b>30</b> utilize this L shaped member to contain the strapping <b>70</b> and use the vertical portion <b>74</b> of the L shape to prevent it from sliding off the L bracket <b>30</b>. The strapping <b>70</b>, defining a first strap member, continues and connects to a cinching type buckle <b>72</b> which connects to a second strap member, the second piece of strapping <b>75</b>, that together form a first adjustable strap assembly <b>71</b>. From the buckle <b>72</b> the second piece of strapping <b>75</b> connects to a second strap bracket <b>30</b><i>a </i>of a U shaped bracket <b>40</b> so that the buckle <b>72</b> can be tightened accordingly to maintain the position of the frame. Preferably, two U shaped brackets <b>40</b> are used and they are placed between the railing <b>80</b> and the frame <b>20</b>, thus looping the strapping <b>70</b> and <b>75</b> around the railing <b>80</b>. The U shaped bracket <b>40</b> contains a slot <b>46</b> on either side to accommodate detent pin <b>42</b> which is used to attach the U shaped bracket <b>40</b> to the frame <b>20</b>. As noted in <figref idref="DRAWINGS">FIG. 2</figref>, the frame <b>20</b> has adjustment holes <b>24</b> to accommodate various placement locations of the U shaped bracket <b>40</b>. Once the U shaped bracket <b>40</b> is in place, the strapping <b>70</b>, <b>75</b> can be tightened to secure the frame <b>20</b> to the railing <b>80</b>. The placement of the U shaped bracket <b>40</b> under the frame <b>20</b> and on top of the railing <b>80</b> serves a unique purpose in that it allows for the weight that is placed on the frame <b>20</b> to further secure the frame <b>20</b> in place.</p>
+<p id="p-0031" num="0030">The frame <b>20</b> also contains a post feature <b>25</b> on its distal side. The post feature <b>25</b> comprises two upright members <b>26</b> which have a through hole <b>27</b> for detent pin <b>28</b> to reside. The post <b>25</b> mates with a telescoping leg <b>50</b>, whereby its proximal end also contains a through hole <b>53</b> to mate with detent pin <b>28</b>. The telescoping leg <b>50</b> contains adjustment holes <b>56</b> along its length to accommodate various heights between railing <b>80</b> and floor <b>90</b>. The adjustment holes <b>56</b> utilize detent pin <b>57</b> and through hole <b>54</b> on the upper leg portion to lock the telescoping leg <b>50</b> into place. The telescoping leg <b>50</b> also has a foot <b>52</b> which rests on the floor surface <b>90</b>. The foot <b>52</b> consists of an L shape rigid member that rests on both the top and side surface of the floor <b>90</b>. The foot <b>52</b> may also be screwed into place into the floor surface to prevent any movement of the telescoping leg <b>50</b>. It is also contemplated that this foot <b>52</b> could be angularly adjustable to accommodate various unevenness that may occur with floor surfaces <b>90</b>. The telescoping leg <b>50</b> provides additional support for the railing mounting system <b>10</b>, much like a tripod would by providing a third support point. It is also contemplated that there could be more than one telescoping leg to support the frame. The legs may be all on the same side of the frame or on both the proximal and distal ends of the frame.</p>
+<p id="p-0032" num="0031">Lastly, the frame <b>20</b> contains securing tabs <b>62</b> that are mounted to the frame <b>20</b> by screws <b>63</b>. A piece of glass <b>60</b> or metal mesh <b>61</b> is fitted to match the shape of the frame <b>20</b> is placed into the top of the frame <b>20</b> and the securing tabs <b>62</b> are placed over the glass <b>60</b> and alongside the side of the frame <b>20</b> and are screwed into place to prevent the glass <b>60</b> from moving.</p>
+<p id="p-0033" num="0032">The rail mounting system <b>10</b> can be utilized for supporting various items including glassware, plates, centerpieces, candles etc. The rail mounting system <b>10</b> is designed to be easily removed from the railing <b>80</b> and stored for future use. The various detent pins <b>28</b>, <b>42</b> and <b>57</b> need just be removed and the telescoping leg <b>50</b> retracted, and the frame <b>20</b> with the glass <b>60</b> secured in place can be lifted off the railing <b>80</b> and the unit stored for later use.</p>
+<p id="p-0034" num="0033">In another embodiment, see <figref idref="DRAWINGS">FIGS. 6 and 7</figref>, the third strap member <b>70</b><i>a </i>and fourth strap member <b>75</b><i>a </i>of each of a pair of second adjustable strap assemblies <b>71</b><i>a </i>span from the proximal part of the frame <b>20</b> to the distal part of the frame <b>20</b> and hangs loosely between the two ends of the frame <b>20</b>. The third strap member <b>70</b><i>a </i>and fourth strap member <b>75</b><i>a </i>each being coupled to a respective fixed strap bracket with an L shaped feature <b>30</b><i>b</i>. Next a cooler can be placed through the frame <b>20</b> and into contact with the third strap member <b>70</b><i>a </i>and fourth strap member <b>75</b><i>a </i>such that the bottom surface of the cooler touches the top surface of the strapping third strap member <b>70</b><i>a </i>and fourth strap member <b>75</b><i>a </i>and holds the cooler upright with the additional support of the frame <b>20</b>.</p>
+<p id="p-0035" num="0034">In another embodiment, the frame and brackets could be formed monolithically.</p>
+<p id="p-0036" num="0035">In yet another embodiment, the frame <b>20</b> may span both inside and outside the deck, balcony or patio perimeter as noted in <figref idref="DRAWINGS">FIG. 8</figref>. As shown, the frame <b>20</b> is secured to the railing <b>80</b> with a pair of adjustable strap assemblies <b>71</b>, each adjustable strap assembly <b>71</b> connects between a first U shaped bracket <b>40</b> and second U shaped bracket <b>40</b><i>a </i>that are each coupled to the frame <b>20</b> by respective detent pins <b>42</b> to oppose one another. This provides more surface area for containing various items including but not limited to a drop in tray that may contain recesses for holding utensils or for various herbs. This embodiment contains two telescoping arms <b>50</b> to provide support on both sides of the railing <b>80</b> since the frame <b>20</b> spans across both sides of the railing <b>80</b>. The telescoping arm <b>50</b> that resides inside the railing rests on the bottom horizontal cross member of the railing, as depicted in <figref idref="DRAWINGS">FIGS. 5B and 8</figref>.</p>
+<p id="p-0037" num="0036">In yet another embodiment, the device may be installed such that it is extending inward from the railing as depicted in <figref idref="DRAWINGS">FIG. 5B</figref>, to serve as a table or countertop for instance.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A railing extension device, comprising:
+<claim-text>a frame member having a closed contour;</claim-text>
+<claim-text>at least a first pair of U shaped brackets secured to the frame member, each of the first pair of U shaped brackets being adjustably and releasably coupled to the frame member in a selected one of a plurality of positions;</claim-text>
+<claim-text>a pair of first adjustable strap assemblies for securing the frame member to a railing structure, each of the first adjustable strap assemblies having at least one portion thereof coupled to a respective one of the first pair of U shaped brackets; and</claim-text>
+<claim-text>at least one telescoping leg member pivotally coupled to the frame and extending therefrom to a supporting surface.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The railing extension device of <claim-ref idref="CLM-00001">claim 1</claim-ref>, where each of the pair of first adjustable strap assemblies includes a first strap member having one end thereof coupled to the frame, a second strap member having one end thereof coupled to a corresponding one of the first pair of U shaped brackets, and a first fastening device for releasably securing another end of the first strap member to another end of the second strap member.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The railing extension device of <claim-ref idref="CLM-00001">claim 1</claim-ref>, where at least a portion of the frame overlays the railing structure and each of the first pair of U shaped brackets is located with a portion thereof disposed between the railing structure and the frame and thereby weight on the railing extension device further secures the first pair of U shaped brackets in position.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The railing extension device of <claim-ref idref="CLM-00002">claim 2</claim-ref>, where the frame includes at least a pair of first strap brackets affixed thereto, the one end of the first strap member of each of the pair of first adjustable strap assemblies is connected to a corresponding one of the first strap brackets.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. A method for securing a railing extension device to a railing, comprising the steps of:
+<claim-text>providing a frame member having a pair of U shaped brackets where each is adjustably and releasably coupled to the frame member in a selected one of a plurality of positions, and at least a pair of adjustable strap assemblies having an end portion thereof coupled to a respective one of the first pair of U shaped brackets and an opposing end portion coupled to the frame;</claim-text>
+<claim-text>positioning the frame to extend horizontally across an upper portion of the railing;</claim-text>
+<claim-text>adjusting a position of each of the pair of U shaped brackets to overlay the upper portion of the railing;</claim-text>
+<claim-text>extending each of the pair of adjustable strap assemblies around the upper portion of the railing to capture the upper portion of the railing between each of the pair of U shaped brackets and a corresponding adjustable strap assembly;</claim-text>
+<claim-text>securing the frame member to the railing by tightening each of the pair of strap assemblies; and</claim-text>
+<claim-text>extending at least one telescoping leg member to extend from the frame to a supporting surface.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The railing extension device of <claim-ref idref="CLM-00004">claim 4</claim-ref>, where each of the first strap brackets includes an L shaped tab having (a) a longitudinally extended portion for receiving a portion of the one end of a corresponding one of the first strap members thereon, and (b) a portion disposed at a distal end of the longitudinally extended portion extending transverse thereto for retaining the one end of the first strap member on the L shaped tab.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The railing extension device of <claim-ref idref="CLM-00004">claim 4</claim-ref>, where each of the first pair of U shaped brackets includes a second strap bracket extending therefrom, the second strap bracket including an L shaped tab having (a) a longitudinally extended portion for receiving a portion of the one end of a corresponding one of the second strap members thereon, and (b) a portion disposed at a distal end of the longitudinally extended portion extending transverse thereto for retaining the one end of the second strap member on the L shaped tab.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The railing extension device of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a second pair of U shaped brackets secured to the frame member, each of the second pair of U shaped brackets being adjustably and releasably coupled to the frame member in a selected one of a plurality of positions, each of the first adjustable strap assemblies being coupled between corresponding ones of the first and second pairs of U shaped brackets.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The railing extension device of <claim-ref idref="CLM-00008">claim 8</claim-ref>, where each of the pair of first adjustable strap assemblies includes a first strap member having one end thereof coupled to a respective one of the U shaped brackets of one of the pairs of the first and second pairs of U shaped brackets, a second strap member having one end thereof coupled to a corresponding one of the U shaped brackets of the other of the pairs of the second and first pairs of U shaped brackets, and a first fastening device for releasably securing another end of the first strap member to another end of the second strap member.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The railing extension device of <claim-ref idref="CLM-00009">claim 9</claim-ref>, where each of the first and second pairs of U shaped brackets includes a strap bracket extending therefrom, the strap bracket including an L shaped tab having (a) a longitudinally extended portion for receiving a portion of the one end of a corresponding one of the first and second strap members thereon, and (b) a portion disposed at a distal end of the longitudinally extended portion extending transverse thereto for retaining the one end of the corresponding one of the first and second strap members on the L shaped tab.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The railing extension device of <claim-ref idref="CLM-00001">claim 1</claim-ref>, where a pair of telescoping leg members are each pivotally coupled to the frame and extend therefrom to a supporting surface, a first of the pair of telescoping leg members being pivotally coupled to one side of the frame and a second of the pair of telescoping leg members being pivotally coupled to an opposing side of the frame.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The railing extension device of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>a panel member overlaying the frame; and</claim-text>
+<claim-text>a plurality of securing tab members secured to the frame and clampingly engaging the panel member.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The railing extension device of <claim-ref idref="CLM-00012">claim 12</claim-ref>, where the panel member is formed of one of a transparent or mesh material.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The railing extension device of <claim-ref idref="CLM-00012">claim 12</claim-ref>, where each of the securing tab members have an inverted L shaped contour.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The railing extension device of <claim-ref idref="CLM-00010">claim 10</claim-ref>, further comprising:
+<claim-text>at least a pair of fixed strap brackets respectively coupled to opposing sides of the frame;</claim-text>
+<claim-text>at least a second adjustable strap assembly coupled between the pair of fixed strap brackets for supporting an article thereon to be accessible through an open area circumscribed by the frame.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The railing extension device of <claim-ref idref="CLM-00015">claim 15</claim-ref>, where the second adjustable strap assembly includes a third strap member having one end thereof coupled to a respective one of the pair of fixed strap brackets, a fourth strap member having one end thereof coupled to the other of the pair of fixed strap brackets, and a second fastening device for releasably securing another end of the third strap member to another end of the fourth strap member.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The railing extension device of <claim-ref idref="CLM-00016">claim 16</claim-ref>, where each of the fixed strap brackets includes an L shaped tab having (a) a longitudinally extended portion for receiving a portion of the one end of a corresponding one of the third and fourth strap members thereon, and (b) a portion disposed at a distal end of the longitudinally extended portion extending transverse thereto for retaining the one end of the corresponding one of the third and fourth strap members on the L shaped tab.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The railing extension device of <claim-ref idref="CLM-00015">claim 15</claim-ref>, where a plurality of pairs of fixed strap brackets are coupled to the frame and a corresponding number of second adjustable strap assemblies extend between a corresponding pair of fixed strap brackets to span between opposing sides of the frame for supporting an article thereon to be accessible through an open area circumscribed by the frame.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The method of <claim-ref idref="CLM-00005">claim 5</claim-ref>, where the step of providing a frame member includes the step of providing at least a pair of strap brackets coupled to the frame, each strap bracket having an L shaped tab for retaining the opposing end portion of a corresponding one of the pair of adjustable strap assemblies thereon.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The method of <claim-ref idref="CLM-00005">claim 5</claim-ref>, further comprising the step of securing a panel member to the frame member.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. The method of <claim-ref idref="CLM-00020">claim 20</claim-ref>, where the step of securing a panel member includes the steps of overlaying the panel member on the frame and using a plurality of securing tab members to clampingly couple the panel member to the frame.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text>22. A method for securing a railing extension device to a railing, comprising the steps of:
+<claim-text>providing a frame member having a first pair of U shaped brackets and a second pair of U shaped brackets where each U shaped bracket is adjustably and releasably coupled to the frame member in a selected one of a plurality of positions, and at least a pair of adjustable strap assemblies each having an end portion thereof coupled to a respective one the U shaped brackets of the first pair of U shaped brackets and an opposing end portion coupled to a corresponding one of the U shaped brackets of the second pair of U shaped brackets;</claim-text>
+<claim-text>positioning the frame to extend horizontally across an upper portion of the railing;</claim-text>
+<claim-text>adjusting a position of each of the U shaped brackets of the first and second pairs of U shaped brackets to overlay the upper portion of the railing;</claim-text>
+<claim-text>extending each of the pair of adjustable strap assemblies around the upper portion of the railing to capture the upper portion of the railing between the U shaped brackets of the first and second pairs of U shaped brackets and a corresponding one of the adjustable strap assemblies;</claim-text>
+<claim-text>securing the frame member to the railing by tightening a respective buckle of each of the pair of strap assemblies; and</claim-text>
+<claim-text>extending at least one telescoping leg member to extend from the frame to a supporting surface.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text>23. The method of <claim-ref idref="CLM-00022">claim 22</claim-ref>, further comprising the step of securing a panel member to the frame member.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text>24. The method of <claim-ref idref="CLM-00023">claim 23</claim-ref>, where the step of securing a panel member includes the steps of overlaying the panel member on the frame and using a plurality of securing tab members to clampingly couple the panel member to the frame.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text>25. A railing extension device, comprising:
+<claim-text>a frame member having a closed contour with at least a portion thereof being disposed in overlaying relationship with an upper portion of a railing structure;</claim-text>
+<claim-text>at least a first pair of U shaped brackets secured to the frame member, each of the first pair of U shaped brackets having a portion thereof disposed between the upper portion of the railing structure and the frame so that weight on the railing extension device further secures the first pair of U shaped brackets in position;</claim-text>
+<claim-text>at least a pair of adjustable strap assemblies for securing the frame member to the upper portion of the railing structure, each of the adjustable strap assemblies extending around a lower portion of the upper portion of the railing structure and having at least one portion thereof coupled to a respective one of the first pair of U shaped brackets; and</claim-text>
+<claim-text>at least one telescoping leg member pivotally coupled to the frame and extending therefrom to a supporting surface.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text>26. The railing extension device of <claim-ref idref="CLM-00025">claim 25</claim-ref>, where each of the first pair of U shaped brackets is adjustably and releasably coupled to the frame member in a selected one of a plurality of positions.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text>27. The railing extension device of <claim-ref idref="CLM-00025">claim 25</claim-ref>, where the frame includes at least a pair of first strap brackets affixed thereto, a first end portion of each of the pair of adjustable strap assemblies being connected to a corresponding one of the strap brackets.</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text>28. The railing extension device of <claim-ref idref="CLM-00026">claim 26</claim-ref>, where each of the first pair of U shaped brackets has a second strap bracket extending therefrom, a second end portion of each of the pair of adjustable strap assemblies being connected to a corresponding one of the second strap brackets.</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text>29. The railing extension device of <claim-ref idref="CLM-00025">claim 25</claim-ref>, further comprising a second pair of U shaped brackets secured to the frame member, each of the adjustable strap assemblies being coupled between corresponding ones of the first and second pairs of U shaped brackets.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text>30. The railing extension device of <claim-ref idref="CLM-00029">claim 29</claim-ref>, where each of the second pair of U shaped brackets has a portion thereof disposed between the upper portion of the railing structure and the frame.</claim-text>
+</claim>
+<claim id="CLM-00031" num="00031">
+<claim-text>31. The railing extension device of <claim-ref idref="CLM-00029">claim 29</claim-ref>, where each of the second pair of U shaped brackets is adjustably and releasably coupled to the frame member in a selected one of a plurality of positions.</claim-text>
+</claim>
+<claim id="CLM-00032" num="00032">
+<claim-text>32. The railing extension device of <claim-ref idref="CLM-00029">claim 29</claim-ref>, where each of the first and second pair of U shaped brackets has a strap bracket extending therefrom, each of the pair of adjustable strap assemblies being connected between the strap brackets of corresponding ones of the first and second pairs of U shaped brackets.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

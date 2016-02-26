@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979059-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979059</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14151547</doc-number>
+<date>20140109</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>13</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>66</class>
+<subclass>F</subclass>
+<main-group>1</main-group>
+<subgroup>06</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>20</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>66</class>
+<subclass>F</subclass>
+<main-group>1</main-group>
+<subgroup>06</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>20</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>248423</main-classification>
+<further-classification>2483547</further-classification>
+<further-classification>29734418</further-classification>
+<further-classification>297474</further-classification>
+</classification-national>
+<invention-title id="d2e43">Ratchet platform</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>228518</doc-number>
+<kind>A</kind>
+<name>Dawes</name>
+<date>18800600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>108147</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>298625</doc-number>
+<kind>A</kind>
+<name>Saunders</name>
+<date>18840500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248647</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>1242024</doc-number>
+<kind>A</kind>
+<name>Nichols</name>
+<date>19171000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481253</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>1518600</doc-number>
+<kind>A</kind>
+<name>Nolen</name>
+<date>19241200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>254  1</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>2442375</doc-number>
+<kind>A</kind>
+<name>Paxton</name>
+<date>19480600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2527905</doc-number>
+<kind>A</kind>
+<name>Barecki</name>
+<date>19501000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248421</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>2556076</doc-number>
+<kind>A</kind>
+<name>Evans et al.</name>
+<date>19510600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>2829702</doc-number>
+<kind>A</kind>
+<name>Keating</name>
+<date>19580400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>2834401</doc-number>
+<kind>A</kind>
+<name>Tanner</name>
+<date>19580500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248423</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>2935120</doc-number>
+<kind>A</kind>
+<name>Naus</name>
+<date>19600500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>297337</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>3184205</doc-number>
+<kind>A</kind>
+<name>Caarpezzi</name>
+<date>19650500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>3314720</doc-number>
+<kind>A</kind>
+<name>Millington et al.</name>
+<date>19670400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>3625563</doc-number>
+<kind>A</kind>
+<name>Dickinson et al.</name>
+<date>19711200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>297333</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>3653715</doc-number>
+<kind>A</kind>
+<name>Drabert et al.</name>
+<date>19720400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>3659844</doc-number>
+<kind>A</kind>
+<name>Cummins</name>
+<date>19720500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>3868143</doc-number>
+<kind>A</kind>
+<name>Reilly</name>
+<date>19750200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>3954041</doc-number>
+<kind>A</kind>
+<name>Mechulam et al.</name>
+<date>19760500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 89 3613</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>4099778</doc-number>
+<kind>A</kind>
+<name>Lehr</name>
+<date>19780700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>4119044</doc-number>
+<kind>A</kind>
+<name>Hines</name>
+<date>19781000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>108 27</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>4139215</doc-number>
+<kind>A</kind>
+<name>Buitard et al.</name>
+<date>19790200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>4474347</doc-number>
+<kind>A</kind>
+<name>Mazelsky</name>
+<date>19841000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>4602816</doc-number>
+<kind>A</kind>
+<name>Chandler</name>
+<date>19860700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>4738413</doc-number>
+<kind>A</kind>
+<name>Spinosa et al.</name>
+<date>19880400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>4822224</doc-number>
+<kind>A</kind>
+<name>Carl et al.</name>
+<date>19890400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>4836480</doc-number>
+<kind>A</kind>
+<name>Besner</name>
+<date>19890600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481253</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>4856747</doc-number>
+<kind>A</kind>
+<name>Gano</name>
+<date>19890800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2483547</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>4923147</doc-number>
+<kind>A</kind>
+<name>Adams et al.</name>
+<date>19900500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244122 AG</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>4927211</doc-number>
+<kind>A</kind>
+<name>Bolcerek</name>
+<date>19900500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>5010850</doc-number>
+<kind>A</kind>
+<name>Sailer</name>
+<date>19910400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00030">
+<document-id>
+<country>US</country>
+<doc-number>5015010</doc-number>
+<kind>A</kind>
+<name>Homeier et al.</name>
+<date>19910500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00031">
+<document-id>
+<country>US</country>
+<doc-number>5039054</doc-number>
+<kind>A</kind>
+<name>Pai</name>
+<date>19910800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248423</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00032">
+<document-id>
+<country>US</country>
+<doc-number>5176402</doc-number>
+<kind>A</kind>
+<name>Coulon</name>
+<date>19930100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>280807</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00033">
+<document-id>
+<country>US</country>
+<doc-number>5180131</doc-number>
+<kind>A</kind>
+<name>Few</name>
+<date>19930100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248352</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00034">
+<document-id>
+<country>US</country>
+<doc-number>5259478</doc-number>
+<kind>A</kind>
+<name>Berish et al.</name>
+<date>19931100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00035">
+<document-id>
+<country>US</country>
+<doc-number>5397171</doc-number>
+<kind>A</kind>
+<name>Leach</name>
+<date>19950300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00036">
+<document-id>
+<country>US</country>
+<doc-number>5533934</doc-number>
+<kind>A</kind>
+<name>Miller</name>
+<date>19960700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00037">
+<document-id>
+<country>US</country>
+<doc-number>5577806</doc-number>
+<kind>A</kind>
+<name>Ugalde</name>
+<date>19961100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00038">
+<document-id>
+<country>US</country>
+<doc-number>5642916</doc-number>
+<kind>A</kind>
+<name>Dybro et al.</name>
+<date>19970700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>29721618</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00039">
+<document-id>
+<country>US</country>
+<doc-number>5839965</doc-number>
+<kind>A</kind>
+<name>Mullins</name>
+<date>19981100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00040">
+<document-id>
+<country>US</country>
+<doc-number>6142567</doc-number>
+<kind>A</kind>
+<name>Bentley</name>
+<date>20001100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00041">
+<document-id>
+<country>US</country>
+<doc-number>D439062</doc-number>
+<kind>S</kind>
+<name>McGinnis et al.</name>
+<date>20010300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00042">
+<document-id>
+<country>US</country>
+<doc-number>6322140</doc-number>
+<kind>B1</kind>
+<name>Jessup et al.</name>
+<date>20011100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00043">
+<document-id>
+<country>US</country>
+<doc-number>6409243</doc-number>
+<kind>B1</kind>
+<name>Hansen</name>
+<date>20020600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00044">
+<document-id>
+<country>US</country>
+<doc-number>6467576</doc-number>
+<kind>B2</kind>
+<name>Figura et al.</name>
+<date>20021000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00045">
+<document-id>
+<country>US</country>
+<doc-number>6481777</doc-number>
+<kind>B2</kind>
+<name>Mans</name>
+<date>20021100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>296 681</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00046">
+<document-id>
+<country>US</country>
+<doc-number>6719258</doc-number>
+<kind>B2</kind>
+<name>Bryngelson et al.</name>
+<date>20040400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248419</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00047">
+<document-id>
+<country>US</country>
+<doc-number>6725855</doc-number>
+<kind>B1</kind>
+<name>Brennan</name>
+<date>20040400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00048">
+<document-id>
+<country>US</country>
+<doc-number>6913314</doc-number>
+<kind>B2</kind>
+<name>Hansen</name>
+<date>20050700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00049">
+<document-id>
+<country>US</country>
+<doc-number>7100991</doc-number>
+<kind>B2</kind>
+<name>Schroth</name>
+<date>20060900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00050">
+<document-id>
+<country>US</country>
+<doc-number>7175233</doc-number>
+<kind>B2</kind>
+<name>Greenwood et al.</name>
+<date>20070200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00051">
+<document-id>
+<country>US</country>
+<doc-number>7269963</doc-number>
+<kind>B2</kind>
+<name>Yonekura et al.</name>
+<date>20070900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00052">
+<document-id>
+<country>US</country>
+<doc-number>7293818</doc-number>
+<kind>B2</kind>
+<name>Kumpf et al.</name>
+<date>20071100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00053">
+<document-id>
+<country>US</country>
+<doc-number>7413247</doc-number>
+<kind>B2</kind>
+<name>Van Druff et al.</name>
+<date>20080800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00054">
+<document-id>
+<country>US</country>
+<doc-number>7758095</doc-number>
+<kind>B2</kind>
+<name>Elhanany</name>
+<date>20100700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00055">
+<document-id>
+<country>US</country>
+<doc-number>7815255</doc-number>
+<kind>B1</kind>
+<name>Kiel et al.</name>
+<date>20101000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00056">
+<document-id>
+<country>US</country>
+<doc-number>8011730</doc-number>
+<kind>B2</kind>
+<name>Greenwood</name>
+<date>20110900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>29734418</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00057">
+<document-id>
+<country>US</country>
+<doc-number>2004/0108165</doc-number>
+<kind>A1</kind>
+<name>Poole et al.</name>
+<date>20040600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00058">
+<document-id>
+<country>US</country>
+<doc-number>2006/0207021</doc-number>
+<kind>A1</kind>
+<name>Brunson et al.</name>
+<date>20060900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5 811 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00059">
+<document-id>
+<country>US</country>
+<doc-number>2007/0096526</doc-number>
+<kind>A1</kind>
+<name>Hentges</name>
+<date>20070500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>29734412</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00060">
+<document-id>
+<country>US</country>
+<doc-number>2007/0281125</doc-number>
+<kind>A1</kind>
+<name>Moore et al.</name>
+<date>20071200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00061">
+<document-id>
+<country>US</country>
+<doc-number>2010/0084897</doc-number>
+<kind>A1</kind>
+<name>Greenwood</name>
+<date>20100400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2972177</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00062">
+<document-id>
+<country>US</country>
+<doc-number>2010/0084907</doc-number>
+<kind>A1</kind>
+<name>Greenwood et al.</name>
+<date>20100400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>297483</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<nplcit num="00063">
+<othercit>USPTO Office Action for U.S. Appl. No. 14/064,038 dated May 6, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00064">
+<othercit>USPTO Office Action for U.S. Appl. No. 13/631,976 dated Dec. 4, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00065">
+<othercit>USPTO Final Office Action for U.S. Appl. No. 13/631,976 dated May 7, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00066">
+<othercit>Notice of Allowance for U.S. Appl. No. 13/191,899 dated Jan. 30, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00067">
+<othercit>Notice of Allowance for U.S. Appl. No. 13/550,389 dated Jan. 24, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00068">
+<othercit>USPTO Office Action for U.S. Appl. No. 13/631,979 dated Apr. 17, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00069">
+<othercit>USPTO Final Office Action for U.S. Appl. No. 13/368,773 dated Apr. 9, 2014.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>19</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>248161</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248423</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2483547</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481251</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481252</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481253</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248352</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>29734418</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>297474</main-classification>
+</classification-national>
+<classification-cpc-text>B60N 2/24</classification-cpc-text>
+<classification-cpc-text>B60N 2/167</classification-cpc-text>
+<classification-cpc-text>B60N 2/4242</classification-cpc-text>
+<classification-cpc-text>B60N 2/502</classification-cpc-text>
+<classification-cpc-text>B60N 2002/247</classification-cpc-text>
+<classification-cpc-text>B60N 2/164</classification-cpc-text>
+<classification-cpc-text>B60N 2/169</classification-cpc-text>
+<classification-cpc-text>F41H 7/046</classification-cpc-text>
+<classification-cpc-text>B60R 22/26</classification-cpc-text>
+<classification-cpc-text>F16M 11/28</classification-cpc-text>
+<classification-cpc-text>A47C 3/26</classification-cpc-text>
+<classification-cpc-text>A61B 19/28</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>15</number-of-drawing-sheets>
+<number-of-figures>25</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>13631978</doc-number>
+<date>20120929</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>8657247</doc-number>
+</document-id>
+</parent-grant-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>14151547</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+<continuation-in-part>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>12245861</doc-number>
+<date>20081006</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>8590853</doc-number>
+<date>20131126</date>
+</document-id>
+</parent-grant-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>13631978</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation-in-part>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140124640</doc-number>
+<kind>A1</kind>
+<date>20140508</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Greenwood</last-name>
+<first-name>Kyle L.</first-name>
+<address>
+<city>Bryan</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Melvin</last-name>
+<first-name>Bobby D.</first-name>
+<address>
+<city>Bryan</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Greenwood</last-name>
+<first-name>Kyle L.</first-name>
+<address>
+<city>Bryan</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Melvin</last-name>
+<first-name>Bobby D.</first-name>
+<address>
+<city>Bryan</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Tumey L.L.P.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Black Mountain Industries, Inc.</orgname>
+<role>02</role>
+<address>
+<city>Bryan</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Duckworth</last-name>
+<first-name>Bradley</first-name>
+<department>3632</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A ratchet platform is vertically adjustable and supports a soldier standing thereupon. The ratchet platform has a platform upper assembly having a platform and a ratchet. The ratchet has a platform riser tube and a ratchet rail. The ratchet platform also has a platform lower assembly having a support column and a platform base. An end of the ratchet is proximate the platform and an opposing end of the ratchet is disposed within an interior of the support column. The ratchet platform has a platform upper assembly actuator having a pedal sub-assembly and an upper linkage. Actuation of the upper linkage actuates the ratchet to adjust the height of the ratchet platform. The ratchet platform also has a base plate secured to the vehicle floor. The ratchet platform has a seat plate which provides support to the platform upper assembly, the platform lower assembly, and an energy attenuation system.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="193.55mm" wi="167.30mm" file="US08979059-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="191.85mm" wi="179.92mm" file="US08979059-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="202.86mm" wi="193.63mm" file="US08979059-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="215.56mm" wi="162.22mm" file="US08979059-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="256.79mm" wi="167.89mm" file="US08979059-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="229.95mm" wi="144.95mm" file="US08979059-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="243.42mm" wi="143.26mm" file="US08979059-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="233.51mm" wi="179.15mm" file="US08979059-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="215.56mm" wi="159.43mm" orientation="landscape" file="US08979059-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="247.99mm" wi="165.78mm" file="US08979059-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="223.60mm" wi="170.01mm" file="US08979059-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="250.11mm" wi="159.77mm" file="US08979059-20150317-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="243.42mm" wi="166.12mm" file="US08979059-20150317-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="208.79mm" wi="159.09mm" file="US08979059-20150317-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00014" num="00014">
+<img id="EMI-D00014" he="224.03mm" wi="170.69mm" file="US08979059-20150317-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00015" num="00015">
+<img id="EMI-D00015" he="233.17mm" wi="138.60mm" file="US08979059-20150317-D00015.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">This application is a continuation of U.S. application Ser. No. 13/631,978 filed Sep. 29, 2012, which is a continuation-in-part of U.S. Pat. No. 8,590,853 issued Nov. 26, 2013, which are both herein incorporated by reference in their entirety.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT</heading>
+<p id="p-0003" num="0002">Not applicable.</p>
+<heading id="h-0003" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0004" num="0003">1. Field of the Invention</p>
+<p id="p-0005" num="0004">This invention relates to the field of adjustable platforms and more specifically to the field of height adjustable platforms adapted for use in a military vehicle.</p>
+<p id="p-0006" num="0005">2. Background of the Invention</p>
+<p id="p-0007" num="0006">In many instances, occupants of vehicles need to stand up in the vehicle. For instance, in military vehicles, occupants of the military vehicles may need to stand in the vehicle with the upper portion of the occupants' bodies exposed outside of the vehicle. Such instances include the need to operate weaponry, improve vision outside of the military vehicle, and the like. Problems occur in such situations with the varying heights of the individuals.</p>
+<p id="p-0008" num="0007">Occupants of the vehicles have developed solutions such as standing on items to overcome problems with the varying heights. However, drawbacks to such solutions include the lack of stability during combat operations or rough terrain. Further drawbacks include problems with adjustments for the various heights of the vehicle occupants. In military vehicles, problems also include injuries to the standing occupant when the vehicle sustains the force of a mine or improvised explosive device. In such instances, a portion of the force is absorbed by the standing occupant's body causing severe injury or death.</p>
+<p id="p-0009" num="0008">Consequently, there is a need for a stable platform for a vehicle occupant. Further needs include a platform that is adjustable for varying occupant heights. Additional needs include improved protection for the occupant against explosive forces.</p>
+<heading id="h-0004" level="1">BRIEF SUMMARY OF SOME OF THE PREFERRED EMBODIMENTS</heading>
+<p id="p-0010" num="0009">These and other needs in the art are addressed in one embodiment by a ratchet platform. The ratchet platform is height adjustable. The ratchet platform includes a platform upper assembly having a platform and a ratchet. The ratchet includes a platform riser tube and a ratchet rail secured to the platform riser tube. In addition, the ratchet platform includes a platform lower assembly having a support column and a platform base. The support column is secured to the platform base. An end of the ratchet is proximate the platform and an opposing end of the ratchet is disposed within an interior of the support column. The platform base is adapted to be attached to a vehicle. The ratchet platform also includes a platform upper assembly actuator including a pedal sub-assembly and an upper linkage, wherein the upper linkage is attached to the pedal sub-assembly, and wherein actuation of the pedal sub-assembly actuates the upper linkage, and further wherein actuation of the upper linkage actuates the ratchet to adjust the height of the ratchet platform. A base plate secured to the vehicle floor. Further, the ratchet platform includes a seat plate which provides support to the platform upper assembly, the platform lower assembly, and an energy attenuation system.</p>
+<p id="p-0011" num="0010">The foregoing has outlined rather broadly the features and technical advantages of the present invention in order that the detailed description of the invention that follows may be better understood. Additional features and advantages of the invention will be described hereinafter that form the subject of the claims of the invention. It should be appreciated by those skilled in the art that the conception and the specific embodiments disclosed may be readily utilized as a basis for modifying or designing other embodiments for carrying out the same purposes of the present invention. It should also be realized by those skilled in the art that such equivalent embodiments do not depart from the spirit and scope of the invention as set forth in the appended claims.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0005" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0012" num="0011">For a detailed description of the preferred embodiments of the invention, reference will now be made to the accompanying drawings in which:</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 1</figref> illustrates a perspective view of a ratchet platform having a platform upper assembly and a platform lower assembly;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 2</figref> illustrates a perspective view of a ratchet platform having a platform upper assembly and a platform lower assembly;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 3</figref> illustrates a perspective bottom view of a platform upper assembly;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 4</figref> illustrates a bottom view of a platform upper assembly;</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 5</figref> illustrates a top view of a platform upper assembly;</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an exploded view of a platform upper assembly;</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 7</figref> illustrates a perspective view of a platform lower assembly;</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 8</figref> illustrates an exploded view of a platform lower assembly;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 9</figref> illustrates a ratchet platform with an exploded view of a platform upper assembly actuator;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 10</figref> illustrates a cross sectional side view of a ratchet platform;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 11</figref> illustrates a pedal sub assembly;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 12</figref> illustrates an upper linkage;</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 13</figref> illustrates a torsion spring;</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 14</figref> illustrates a ratchet platform having a platform upper assembly, a platform lower assembly, a ratchet platform attachment means, an energy attenuation system, a base plate, and a seat plate;</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 15</figref> illustrates a side view of the ratchet platform of <figref idref="DRAWINGS">FIG. 14</figref>;</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 16</figref> illustrates a side view of the ratchet platform of <figref idref="DRAWINGS">FIG. 14</figref>;</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 17</figref> illustrates an energy attenuation system;</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 18</figref> illustrates a base plate and a seat plate;</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 19</figref> illustrates a cross sectional top view of a seat plate and a base plate;</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 20</figref> illustrates a base plate;</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 21</figref> illustrates a seat plate;</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 22</figref> illustrates a base plate rail;</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 23</figref> illustrates a seat plate rail;</p>
+<p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 24</figref> illustrates a base plate shim bar; and</p>
+<p id="p-0037" num="0036"><figref idref="DRAWINGS">FIG. 25</figref> illustrates a ratchet platform attachment means.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0006" level="1">DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+<p id="p-0038" num="0037"><figref idref="DRAWINGS">FIGS. 1 and 2</figref> illustrate ratchet platform <b>5</b> having platform upper assembly <b>10</b> and platform lower assembly <b>15</b>. Ratchet platform <b>5</b> is adapted for disposition within a vehicle. Platform upper assembly <b>10</b> includes toe queue <b>20</b>, platform grating <b>25</b>, and ratchet <b>45</b>. Toe queue <b>20</b> is a wall that extends around the periphery of platform <b>70</b>, as shown in <figref idref="DRAWINGS">FIG. 3</figref>. Without limitation, toe queue <b>20</b> facilitates prevention of an individual standing on ratchet platform <b>5</b> from falling off ratchet platform <b>5</b> by stopping sliding of a foot of the individual off ratchet platform <b>5</b>. When the standing individual's foot contacts toe queue <b>20</b>, toe queue <b>20</b> also provides notice to the standing individual that the individual's foot is at the edge of platform <b>70</b>. Platform grating <b>25</b> has any configuration and material suitable for providing resistance against sliding of the standing individual's foot. Platform lower assembly <b>15</b> includes platform upper assembly actuator <b>30</b>, platform base <b>35</b>, and support column <b>40</b>. Platform upper assembly actuator <b>30</b> may include any means for actuating vertical movement (i.e., up and down) of platform upper assembly <b>10</b> such as a pedal sub assembly, an electrical actuator, a crank actuator, and the like. In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, platform upper assembly actuator <b>30</b> includes pedal sub assembly <b>155</b>. Pedal sub assembly <b>155</b> actuates ratchet <b>45</b> and thereby actuates movement of platform upper assembly <b>10</b>. Support column <b>40</b> provides support to platform <b>70</b> and also provides protection to the portion of platform upper assembly actuator <b>30</b> disposed within support column <b>40</b>. Platform base <b>35</b> provides a base and support to platform upper assembly <b>10</b> and support column <b>40</b>.</p>
+<p id="p-0039" num="0038"><figref idref="DRAWINGS">FIG. 3</figref> illustrates a bottom perspective view of platform upper assembly <b>10</b>, and <figref idref="DRAWINGS">FIG. 4</figref> illustrates a bottom view of platform upper assembly <b>10</b>. As shown in <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, platform upper assembly <b>10</b> includes platform <b>70</b>. Platform <b>70</b> may be composed of any material having a suitable strength to support the weight of an individual standing on platform <b>70</b>. Platform <b>70</b> is shown having a rectangular shape but it is to be understood that platform <b>70</b> is not limited to a rectangular shape but instead may have any shape suitable for use in a vehicle. Platform grating <b>25</b> is secured to platform <b>70</b> by any suitable method such as by welding, glue, and the like. Platform <b>70</b> also has openings <b>60</b>. In an embodiment as illustrated in <figref idref="DRAWINGS">FIG. 3</figref>, openings <b>60</b> may be of a suitable configuration and size to allow an individual to pass a portion of the individual's hands therethrough for movement of ratchet platform <b>5</b>. Openings <b>60</b> pass through platform <b>70</b> and platform grating <b>25</b>. In alternative embodiments (not illustrated), openings <b>60</b> have any configuration and size suitable for a desired purpose. Platform <b>70</b> is shown with two openings <b>60</b> but in alternative embodiments (not illustrated) may have one opening <b>60</b> or more than two openings <b>60</b>. Platform in <b>70</b> also has drains <b>50</b>. Without limitation, drains <b>50</b> allow liquids disposed on the top side of platform <b>70</b> to pass through platform <b>70</b> via drains <b>50</b>. Platform upper assembly <b>10</b> also includes platform tube core <b>75</b>.</p>
+<p id="p-0040" num="0039">As shown in <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, ratchet <b>45</b> includes platform riser tube <b>95</b> and ratchet rail <b>100</b>. Ratchet <b>45</b> may be secured to platform <b>70</b> by any suitable method such as by weld, screws, glue, and the like. In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, ratchet <b>45</b> is secured to platform tube core <b>75</b>, which is secured to platform <b>70</b>. Ratchet <b>45</b> is secured by securing upper portion <b>315</b> using any suitable means. Ratchet <b>45</b> is slidable within support column <b>40</b>. Without limitation, platform tube core <b>75</b> provides reinforcement strength to platform <b>70</b>. Further, without limitation, platform tube core <b>75</b> facilitates production. Platform tube core <b>75</b> may be secured to platform <b>70</b> by any suitable method. Platform riser tube <b>95</b> has a length sufficient to allow ratchet platform <b>5</b> to be adjusted to any desirable height of an individual standing on ratchet platform <b>5</b>. Platform riser tube <b>95</b> also has a configuration suitable for slidable disposition within support column <b>40</b>. Ratchet rail <b>100</b> is secured to a side of platform riser tube <b>95</b>. In some embodiments, platform upper assembly <b>10</b> also includes crash blocks <b>80</b>. Without limitation, crash blocks <b>80</b> prevent damage to upper tube guide <b>115</b> (not illustrated) from contact by support column <b>40</b>. Crash blocks <b>80</b> are also secured to platform <b>70</b>. In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, crash blocks <b>80</b> are secured to platform <b>70</b> by securing of crash blocks <b>80</b> to platform tube core <b>75</b>. In some embodiments, platform upper assembly <b>10</b> also includes platform gussets <b>85</b> and gusset wall <b>90</b>. Platform gussets <b>85</b> are brackets that provide support to platform <b>70</b>. In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, platform upper assembly <b>10</b> includes four platform gussets <b>85</b> but in alternative embodiments (not illustrated) includes more than four or less than four platform gussets <b>85</b>. Platform gussets <b>85</b> are secured to gusset wall <b>90</b> and/or a bottom side of platform <b>70</b>. In an embodiment, gusset wall <b>90</b> extends about the periphery of platform tube core <b>75</b>. As further shown in <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, some embodiments of ratchet platform <b>5</b> include platform upper assembly <b>10</b> having an attachment opening <b>65</b> through platform <b>70</b> and platform grating <b>25</b>.</p>
+<p id="p-0041" num="0040"><figref idref="DRAWINGS">FIG. 5</figref> illustrates a top view of platform upper assembly <b>10</b>. In an embodiment as illustrated, platform grating <b>25</b> substantially covers the top surface of platform <b>70</b> but not openings <b>60</b> and attachment opening <b>65</b>. In embodiments as illustrated, openings <b>60</b> are disposed at locations on platform <b>70</b> sufficient to allow an individual to pick up and move ratchet platform <b>5</b>.</p>
+<p id="p-0042" num="0041"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an exploded view of platform upper assembly <b>10</b>. As shown, platform tube core <b>75</b> is disposed within gusset wall <b>90</b>. In embodiments, ratchet rail <b>100</b> is secured to platform riser tube <b>95</b> by screws <b>105</b>.</p>
+<p id="p-0043" num="0042"><figref idref="DRAWINGS">FIG. 7</figref> illustrates a perspective bottom view of platform lower assembly <b>15</b>. In embodiments as illustrated, a lower portion <b>190</b> of support column <b>40</b> passes through platform base <b>35</b>. Without limitation, allowing lower portion <b>190</b> of support column <b>40</b> to pass through platform base <b>35</b> provides a desired range of adjustability. Support column <b>40</b> includes actuator grooves <b>170</b> on opposing sides of support column <b>40</b>. In an embodiment, platform base <b>35</b> is adapted to be secured within a vehicle (i.e., to a floor of the vehicle).</p>
+<p id="p-0044" num="0043"><figref idref="DRAWINGS">FIG. 8</figref> illustrates an exploded view of platform lower assembly <b>15</b>. Support column <b>40</b> includes pedal opening <b>320</b> of sufficient dimensions to facilitate pedal sub assembly <b>155</b> (not illustrated). Pedal pivot supports <b>110</b> are disposed on opposing sides of pedal opening <b>320</b>. Platform base <b>35</b> includes platform base opening <b>325</b> of sufficient dimensions to allow lower portion <b>190</b> to pass therethrough. In some embodiments, support column <b>40</b> is secured to platform base <b>35</b> by press fit.</p>
+<p id="p-0045" num="0044"><figref idref="DRAWINGS">FIG. 9</figref> illustrates an embodiment of ratchet platform <b>5</b> in which platform upper assembly actuator <b>30</b> includes pedal sub assembly <b>155</b>. In <figref idref="DRAWINGS">FIG. 9</figref>, platform upper assembly actuator <b>30</b> is shown in exploded view. <figref idref="DRAWINGS">FIG. 10</figref> illustrates a cross sectional side view of the embodiment of ratchet platform <b>5</b> illustrated in <figref idref="DRAWINGS">FIG. 9</figref>. Platform upper assembly actuator <b>30</b> includes pedal sub assembly <b>155</b> and may have any suitable configuration for actuating platform upper assembly <b>10</b>. As shown, a portion of pedal linkage <b>185</b> of pedal sub assembly <b>155</b> passes through pedal opening <b>320</b> into interior <b>330</b> of support column <b>40</b>. Pedal sub assembly <b>155</b> may have any suitable configuration for actuation. <figref idref="DRAWINGS">FIG. 11</figref> illustrates an embodiment of pedal sub assembly <b>155</b> in which pedal sub assembly <b>155</b> includes pedal <b>175</b>, pedal pivot pin <b>180</b>, and pedal linkage <b>185</b>. In an embodiment, pedal <b>175</b> has sufficient size to allow actuation by pressure from the foot of an individual. Pedal sub assembly <b>155</b> may be attached to support column <b>40</b> by any suitable method. In an embodiment as shown in <figref idref="DRAWINGS">FIGS. 9-11</figref>, bolt <b>165</b> passes through pedal pivot supports <b>110</b> and pedal pivot pin <b>180</b>. Nut <b>145</b> secures bolt <b>165</b>. In an embodiment, bolt <b>165</b> also passes through washers <b>125</b>. In some embodiments, one or more torsion springs <b>150</b> are attached to pedal sub assembly <b>155</b>. <figref idref="DRAWINGS">FIG. 13</figref> illustrates a perspective view of a torsion spring <b>150</b>. In embodiments as illustrated in <figref idref="DRAWINGS">FIGS. 9</figref>, <b>10</b>, and <b>13</b>, a torsion spring <b>150</b> is disposed on each side of pedal sub assembly <b>155</b> outside of the pedal pivot supports <b>110</b>. The torsion springs <b>150</b> are attached to pedal sub assembly <b>155</b> by bolt <b>165</b>. As shown in <figref idref="DRAWINGS">FIGS. 9 and 10</figref>, the portion of pedal linkage <b>185</b> in interior <b>330</b> is attached to upper linkage <b>130</b> at one end <b>335</b>. Pedal linkage <b>185</b> and upper linkage <b>130</b> are rotatable in relation to each other at end <b>335</b>. Upper linkage <b>130</b> runs longitudinally within interior <b>330</b> and is secured to support column <b>40</b> at the other end <b>340</b>. An embodiment of upper linkage <b>130</b> is illustrated in <figref idref="DRAWINGS">FIG. 12</figref> in which upper linkage <b>130</b> has upper linkage groove <b>345</b>. In an embodiment, the end of pedal linkage <b>185</b> opposite pedal <b>175</b> is disposed within upper linkage groove <b>345</b> and attached to upper linkage <b>130</b>. In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 9</figref>, <b>10</b>, and <b>12</b>, end <b>340</b> of upper linkage <b>130</b> is slidably attached to support column <b>40</b> by ratchet pin <b>135</b> passing through end <b>340</b> and actuator groove <b>170</b>. Ratchet pin <b>135</b> may be secured by any suitable method. In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 9 and 10</figref>, ratchet pin <b>135</b> is secured by washers <b>125</b> and external snap rings <b>140</b>. Upper linkage <b>130</b> slides ratchet pin <b>135</b> longitudinally up through the length of actuator groove <b>170</b> when upper linkage <b>130</b> is in an upward motion and down through the length of actuator groove <b>170</b> when upper linkage <b>130</b> is in a downward motion. Ratchet pin <b>135</b> is suitably disposed within actuator groove <b>170</b> to allow teeth <b>350</b> of ratchet rail <b>100</b> to be disposed thereupon when ratchet pin <b>135</b> is in the downward position (i.e., at the bottom of actuator groove <b>170</b>). Platform riser tube <b>95</b> passes through upper tube guide <b>115</b> and lower tube guide <b>120</b>. Upper tube guide <b>115</b> and lower tube guide <b>120</b> are secured to support column <b>40</b>. Actuator groove <b>170</b> is disposed on support column <b>40</b> between upper tube guide <b>115</b> and lower tube guide <b>120</b>. Upper tube guide <b>115</b> and lower tube guide <b>120</b> prevent unwanted lateral movement of platform riser tube <b>95</b> and facilitate maintaining movement of platform riser tube <b>95</b> in a longitudinal direction. Upper tube guide <b>115</b> and lower tube guide <b>120</b> may be secured to support column <b>40</b> by any suitable method. In the embodiment as shown, upper tube guide <b>115</b> and lower tube guide <b>120</b> are secured to support column <b>40</b> by screws <b>105</b>.</p>
+<p id="p-0046" num="0045">In operation of the embodiments of ratchet platform <b>5</b> illustrated in <figref idref="DRAWINGS">FIGS. 1-13</figref>, ratchet platform <b>5</b> is placed in a vehicle (not illustrated). Ratchet platform <b>5</b> is secured in a desirable location within the vehicle. Ratchet platform <b>5</b> may be secured by any suitable method such as by screwing ratchet platform <b>5</b> to a floor or other surface of the vehicle. The vehicle may include any vehicle such as a truck, car, military vehicle, helicopter, air plane, and the like. In an embodiment, ratchet platform <b>5</b> is placed in a military vehicle in which it is desired for an individual to stand on platform <b>70</b>. For instance, in some military vehicles, it is desired for an individual to operate weaponry (i.e., machine gun) that is located on the outside of the vehicle. In such an embodiment, a portion of the individual's body is disposed outside of the vehicle during operation of the weaponry with the remainder of the individual's body within the military vehicle for protection. The height of platform <b>70</b> is adjusted by pressing pedal <b>175</b>. Each time pedal <b>175</b> is pressed, the pressure from pedal <b>175</b> actuates pedal linkage <b>185</b> and pedal linkage <b>185</b> moves upwards, which thereby actuates upper linkage <b>130</b> longitudinally upward. The longitudinal movement of upper linkage <b>130</b> slides ratchet pin <b>135</b> longitudinally upward through the length of actuator groove <b>170</b>. The upward movement of ratchet pin <b>135</b> applies force to a tooth <b>350</b> of ratchet rail <b>100</b> thereby actuating platform upper assembly <b>10</b>, which moves upward. Pressure is released from pedal <b>175</b>, and torsion spring <b>150</b> applies force to pedal linkage <b>185</b> to actuate pedal linkage <b>185</b> and move pedal linkage <b>185</b> downward, which actuates upper linkage <b>130</b> to move longitudinally downward. Such downward movement of upper linkage <b>130</b> slides ratchet pin <b>135</b> downward through the length of actuator groove <b>170</b> to allow the tooth <b>350</b> below the previous tooth <b>350</b> (in which the force was applied) to be disposed upon ratchet pin <b>135</b>. By such disposition of the next tooth <b>350</b> upon ratchet pin <b>135</b>, further downward movement of platform upper assembly <b>10</b> is prevented. Pedal <b>175</b> may be pressed and released until platform <b>70</b> is at the desired height. To reduce the height of platform <b>70</b>, pedal <b>175</b> is pressed and held, which maintains ratchet pin <b>135</b> in an upper position within actuator groove <b>170</b>. With ratchet pin <b>135</b> maintained in an upper position within actuator groove <b>170</b>, ratchet pin <b>135</b> is not in contact with teeth <b>350</b>, and platform upper assembly <b>10</b> slides downward until the pressure is released from pedal <b>175</b> or support column <b>40</b> contacts platform <b>70</b>. As platform upper assembly <b>10</b> slides downward, platform riser tube <b>95</b> slides downward in interior <b>330</b>.</p>
+<p id="p-0047" num="0046"><figref idref="DRAWINGS">FIG. 14</figref> illustrates a perspective view of an embodiment of ratchet platform <b>5</b> in which ratchet platform <b>5</b> further includes energy attenuation system <b>205</b>. <figref idref="DRAWINGS">FIGS. 15 and 16</figref> illustrate side views of an embodiment of ratchet platform <b>5</b> including energy attenuation system <b>205</b>. Energy attenuation system <b>205</b> includes any system suitable for reducing or preventing energy applied to the bottom <b>355</b> of ratchet platform <b>5</b> from passing to the individual standing on platform <b>70</b>. For instance, in an embodiment in which ratchet platform <b>5</b> is disposed within a military vehicle, a mine or improvised explosive device exploding underneath or near the military vehicle applies force to the military vehicle and thereby to ratchet platform <b>5</b>. Energy attenuation system <b>205</b> reduces or prevents the energy from passing through ratchet platform <b>5</b> to the individual standing on platform <b>70</b>, thereby protecting the individual from harm. Without limitation, an example of a suitable energy attenuation system <b>205</b> includes a SHOCKRIDE CRUSH BOX, commercially available from ArmorWorks Enterprises, LLC. Energy attenuation system <b>205</b> is secured to platform base <b>35</b>. In an embodiment, energy attenuation system <b>205</b> is secured to a bottom side of platform base <b>35</b>.</p>
+<p id="p-0048" num="0047"><figref idref="DRAWINGS">FIG. 17</figref> illustrates a perspective view of an embodiment of energy attenuation system <b>205</b> including outer covering <b>270</b>. Outer covering <b>270</b> is secured to the periphery of energy attenuation system <b>205</b>. In an embodiment, outer covering <b>270</b> is removeable. Without limitation, outer covering <b>270</b> prevents unwanted objects from being disposed within energy attenuation system <b>205</b>. In an embodiment as illustrated in <figref idref="DRAWINGS">FIG. 17</figref>, energy attenuation system <b>205</b> also includes energy attenuation opening <b>265</b>, which is an opening through the interior of energy attenuation system <b>205</b>. In an embodiment, energy attenuation opening <b>265</b> has suitable dimensions to allow ratchet <b>45</b> to pass therethrough.</p>
+<p id="p-0049" num="0048">In some embodiments as illustrated in <figref idref="DRAWINGS">FIGS. 14-16</figref>, ratchet platform <b>5</b> further includes base plate <b>210</b> and seat plate <b>215</b>. <figref idref="DRAWINGS">FIG. 18</figref> illustrates a perspective view of base plate <b>210</b> and seat plate <b>215</b>. <figref idref="DRAWINGS">FIG. 19</figref> illustrates a top cross sectional view of base plate <b>210</b> and seat plate <b>215</b>. Seat plate <b>215</b> is secured to platform base <b>35</b> or, in embodiments in which ratchet platform <b>5</b> includes energy attenuation system <b>205</b>, to energy attenuation system <b>205</b>. Seat plate <b>215</b> provides support to platform upper assembly <b>10</b>, platform lower assembly <b>15</b>, and energy attenuation system <b>205</b>. Seat plate <b>215</b> includes seat plate rails <b>230</b> on opposing sides of seat plate <b>215</b>. In embodiments as illustrated in <figref idref="DRAWINGS">FIGS. 18</figref>, <b>19</b>, and <b>21</b>, seat plate <b>215</b> further includes seat plate opening <b>275</b>, which has a configuration suitable to allow ratchet <b>45</b> to pass therethrough. In an embodiment, base plate <b>210</b> has a length greater than seat plate <b>215</b>. Base plate <b>210</b> is secured to the vehicle. In some embodiments, base plate <b>210</b> is secured to the floor of the vehicle. Base plate <b>210</b> has base plate rails <b>260</b> on opposing sides of base plate <b>210</b>. Each base plate rail <b>260</b> has slidable contact with the opposing seat plate rail <b>230</b> whereby seat plate <b>215</b> is longitudinally slidable along base plate <b>210</b> with seat plate rails <b>230</b> moving longitudinally along the stationary base plate rails <b>260</b>. <figref idref="DRAWINGS">FIGS. 22 and 23</figref> illustrate embodiments of base plate rails <b>260</b> and seat plate rails <b>230</b>, respectively. As shown, the configurations of seat plate rails <b>230</b> and base plate rails <b>260</b> match each other. Longitudinal movement of seat plate <b>215</b> in relation to base plate <b>210</b> allows platform upper assembly <b>10</b>, platform lower assembly <b>15</b>, and energy attenuation system <b>205</b> to be positioned in different horizontal directions. Seat plate release pins <b>225</b> are inserted through a pin opening <b>360</b> of base plate rail <b>260</b> when matched with a pin opening <b>360</b> of seat plate rail <b>230</b> to prevent movement of seat plate <b>215</b> and lock seat plate <b>215</b> in place. The seat plate release pins <b>225</b> are inserted on opposing sides of base plate <b>210</b> and seat plate <b>215</b>. In alternative embodiments (not illustrated), seat plate release pins <b>225</b> are inserted on the same side of base plate <b>210</b> and seat plate <b>215</b>. In other alternative embodiments (not illustrated), only one seat plate release pin <b>225</b> is used or more than two seat plate release pins <b>225</b> are used. In some embodiments, base plate <b>210</b> includes base plate shim bars <b>220</b>. An embodiment of base plate shim bar <b>220</b> is illustrated in <figref idref="DRAWINGS">FIG. 24</figref>. Without limitation, shim bars <b>200</b> limit the amount of energy that is stored in base plate <b>210</b> in an improvised explosive device (IED) event by minimizing its deflection. <figref idref="DRAWINGS">FIG. 20</figref> illustrates a perspective view of an embodiment of base plate <b>210</b>.</p>
+<p id="p-0050" num="0049">In other embodiments as illustrated in <figref idref="DRAWINGS">FIGS. 14-16</figref>, ratchet platform <b>5</b> also includes ratchet platform attachment means <b>200</b>. Ratchet platform attachment means <b>200</b> includes any means suitable for attaching ratchet platform <b>5</b> to other objects such as an individual standing on platform <b>70</b>. In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 14-16</figref> and <figref idref="DRAWINGS">FIG. 25</figref>, ratchet platform attachment means <b>200</b> includes strap <b>235</b>, strap retractor <b>245</b> and release hook <b>300</b>. Strap retractor <b>245</b> is a device suitable for retracting strap <b>235</b> and for allowing extraction of strap <b>235</b> from strap retractor <b>245</b>.</p>
+<p id="p-0051" num="0050">In embodiments, strap retractor <b>245</b> retracts strap <b>235</b> upon strap thresholds being identified as achieved. Strap thresholds include any suitable criteria for retraction of strap <b>235</b>. In an embodiment, the strap thresholds include angle, acceleration, temperature, or any combination thereof. In embodiments, the strap thresholds are adjustable. For instance, without limitation, the strap thresholds may be adjusted according to the terrain or use of ratchet platform <b>5</b>. The angle may be any desirable angle. It is to be understood that angle refers to a degree of tilt of the vehicle in which ratchet platform <b>5</b> is secured. In embodiments, the angle is above about 33 degrees, alternatively above about 37 degrees, alternatively above about 40 degrees, and alternatively above about 43 degrees. In some embodiments, ratchet platform <b>5</b> includes a sensor that operates as an angle sensor mechanism. The angle sensor mechanism may be disposed at any suitable location on the vehicle or on ratchet platform <b>5</b>. In embodiments, strap retractor <b>245</b> includes the angle sensor mechanism. The angle sensor mechanism may include any type of sensor that determines the angle of tilt of the vehicle. The acceleration may include any desirable acceleration of the extraction of strap <b>235</b> from strap retractor <b>245</b>. In embodiments, strap retractor <b>245</b> includes a sensor that determines the acceleration of the extraction of strap <b>235</b>. As an example, without limitation, the strap threshold for strap retractor <b>245</b> is set to above about 43 degrees. Upon the angle sensor mechanism sensing the vehicle exceeding an angle of about 43 degrees, strap retractor <b>245</b> retracts strap <b>235</b> and thereby retracts the individual (i.e., soldier). Without limitation, an example of strap retractor <b>245</b> is a seat belt retractor (i.e., a seat belt retractor used in automobiles but with sufficient strength to retract the individual).</p>
+<p id="p-0052" num="0051">The threshold temperature may be any desirable temperature. In an embodiment, the temperature threshold is above about 250&#xb0; F., alternatively above about 300&#xb0; F. The temperature threshold may be determined by any suitable means. In an embodiment, the temperature threshold is determined by one or more temperature sensors that measure the temperature on an outside or inside location of the vehicle. For instance, without limitation, if an explosive device contacts the vehicle, the temperature sensor will determine the increased temperature from the explosive device.</p>
+<p id="p-0053" num="0052">The angle sensor mechanism may be powered by an suitable means such as by battery. In an embodiment, the angle sensor mechanism is electrically connected to the vehicle's electrical system. In such an embodiment, the angle sensor mechanism receives its power from the vehicle's electrical system. In an embodiment, the sensor is disposed (i.e., secured) on the floor of the vehicle.</p>
+<p id="p-0054" num="0053">Strap <b>235</b> includes any suitable type of strap. For instance, in an embodiment, strap <b>235</b> includes a long, narrow strip of pliant material such as webbing. In alternative embodiments (not illustrated), strap <b>235</b> is a cable. In an embodiment, strap <b>235</b> passes through strap ring <b>310</b> before entering and after exiting strap retractor <b>245</b>. Without limitation, strap ring <b>310</b> facilitates extraction and retraction of strap <b>235</b>. A release hook <b>300</b> is attached to the end of strap <b>235</b> opposite strap retractor <b>245</b>. Release hook <b>300</b> includes any type of hook suitable for attaching to an object. In embodiments, the object is an individual disposed on platform <b>70</b> (i.e., a gunner). In an embodiment as illustrated, release hook <b>300</b> is a quick release hook with a swivel. In some embodiments, ratchet platform attachment means <b>200</b> includes release strap <b>295</b>. Release strap <b>295</b> is attached to release hook <b>300</b>, and a sufficient pulling force on release strap <b>295</b> releases release hook <b>300</b>. In an embodiment, release strap <b>295</b> includes a visual <b>280</b>. Visual <b>280</b> includes any means for increasing visibility of release strap <b>295</b>. In an embodiment, visual <b>280</b> includes fluorescent material. Visual <b>280</b> is secured to release strap <b>295</b> by any suitable means such as by stitching <b>285</b>. In an embodiment, release strap <b>295</b> also includes grip <b>290</b> at the end of release strap <b>295</b> opposite the end of release strap <b>295</b> attached to release hook <b>300</b>. In an embodiment, ratchet platform attachment means <b>200</b> includes strap adjustment <b>305</b>. Strap adjustment <b>305</b> includes any means suitable for attaching release hook <b>300</b> to strap <b>235</b> such as VELCRO, which is a registered trademark of Velcro Industries N.V.</p>
+<p id="p-0055" num="0054">In an embodiment as illustrated in <figref idref="DRAWINGS">FIGS. 14-16</figref>, strap retractor <b>245</b> is secured to platform lower assembly <b>15</b>. In an embodiment, strap retractor <b>245</b> is secured to platform base <b>35</b>. In an embodiment in which ratchet platform <b>5</b> includes energy attenuation system <b>205</b>, strap retractor <b>245</b> is secured to platform base <b>35</b> and energy attenuation system <b>205</b>. In an embodiment (not illustrated), securing means such as bolts secure strap retractor <b>245</b> to platform base <b>35</b> and energy attenuation system <b>205</b>. In such an embodiment, on the inside of energy attenuation system <b>205</b> are reinforcement strips through which the securing means (i.e., bolts) pass. Without limitation, the reinforcement strips facilitate securing of strap retractor <b>245</b> to platform base <b>35</b>. For instance, the reinforcement straps prevent tension during a vehicle rollover from causing strap retractor <b>245</b> from separating from platform base <b>35</b> and energy attenuation system <b>205</b>. In embodiments as illustrated, release hook <b>300</b> is passed through attachment opening <b>65</b>.</p>
+<p id="p-0056" num="0055">In an embodiment as shown in <figref idref="DRAWINGS">FIGS. 14-15</figref>, ratchet platform <b>5</b> also includes ratchet platform attachment strap <b>250</b>. An end of ratchet platform attachment strap <b>250</b> is secured to platform base <b>35</b>. In an embodiment as illustrated, ratchet platform attachment strap <b>250</b> is secured to platform base <b>35</b> by strap receiving means <b>255</b>. The other end of ratchet platform attachment strap <b>250</b> is attached to platform <b>70</b>. Ratchet platform attachment strap <b>250</b> has sufficient tension to prevent unwanted extension of platform upper assembly <b>10</b>. Without limitation, in an instance when the vehicle rolls over, the force of the roll over applies tension to platform upper assembly <b>10</b>. Ratchet platform attachment strap <b>250</b> prevents the tension from causing unwanted extension of platform upper assembly <b>10</b>.</p>
+<p id="p-0057" num="0056">It is to be understood that platform upper assembly <b>10</b> is not limited to platform <b>70</b>, platform grating <b>25</b> and toe queue <b>20</b>. In alternative embodiments (not illustrated), platform upper assembly <b>10</b> includes platform <b>70</b> and toe queue <b>20</b> or platform grating <b>25</b>. In other alternative embodiments (not illustrated), platform upper assembly <b>10</b> includes platform <b>70</b> but does not include toe queue <b>20</b> and platform grating <b>25</b>.</p>
+<p id="p-0058" num="0057">Although the present invention and its advantages have been described in detail, it should be understood that various changes, substitutions and alterations may be made herein without departing from the spirit and scope of the invention as defined by the appended claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A ratchet platform, wherein the ratchet platform is height adjustable, comprising:
+<claim-text>a platform upper assembly comprising a platform and a ratchet, wherein the ratchet comprises a platform riser tube and a ratchet rail secured to the platform riser tube;</claim-text>
+<claim-text>a platform lower assembly comprising a support column and a platform base, wherein the support column is secured to the platform base, and wherein an end of the ratchet is proximate the platform and an opposing end of the ratchet is disposed within an interior of the support column, and further wherein the platform base is adapted to be attached to a vehicle;</claim-text>
+<claim-text>a platform upper assembly actuator comprising a pedal sub-assembly and an upper linkage, wherein the upper linkage is attached to the pedal sub-assembly, and wherein actuation of the pedal sub-assembly actuates the upper linkage, and further wherein actuation of the upper linkage actuates the ratchet to adjust the height of the ratchet platform;</claim-text>
+<claim-text>a base plate secured to the vehicle floor and attached to the seat plate; and</claim-text>
+<claim-text>the seat plate which provides support to the platform upper assembly, the platform lower assembly, and an energy attenuation system; wherein the seat plate is secured to the energy attenuation system.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a pedal pivot support, a pedal linkage, a pedal opening, and a torsion spring.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The ratchet platform of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the pedal pivot support is disposed on an opposing side of the pedal opening from another pedal pivot support.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The ratchet platform of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the pedal and a portion of the pedal linkage are disposed outside of the support column.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The ratchet platform of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein a portion of the pedal linkage is disposed within the interior of the support column.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The ratchet platform of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the pedal linkage and the upper linkage are rotatable in relation to each other.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The ratchet platform of <claim-ref idref="CLM-00002">claim 2</claim-ref>, further comprising more than one torsion spring.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The ratchet platform of <claim-ref idref="CLM-00007">claim 7</claim-ref>, further comprising a torsion spring disposed on an opposing side of the pedal linkage from another torsion spring.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the energy attenuation system comprises an outer covering.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The ratchet platform of <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein the energy attenuation system comprises a periphery, and wherein the outer covering is secured to the periphery.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the energy attenuation system comprises an energy attenuation opening.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the ratchet is passable through the energy attenuation opening.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the energy attenuation system is secured to the platform base.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the seat plate is slidably engaged with the base plate.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a platform tube core disposed between the platform and the end of the ratchet proximate the platform.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The ratchet platform of <claim-ref idref="CLM-00015">claim 15</claim-ref>, further comprising a crash block, and wherein the crash block is secured to the platform.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The ratchet platform of <claim-ref idref="CLM-00016">claim 16</claim-ref>, further comprising a platform tube core, and wherein the crash block is secured to the platform tube core.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The ratchet platform of <claim-ref idref="CLM-00016">claim 16</claim-ref>, further comprising an upper tube guide, and wherein the crash block prevents the upper tube guide from contacting the support column.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The ratchet platform of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a ratchet platform attachment strap, wherein the ratchet platform attachment strap is attached to the platform base and the platform upper assembly.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

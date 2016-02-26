@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979020-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979020</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13912609</doc-number>
+<date>20130607</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>92</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>27</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>27</main-group>
+<subgroup>26</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>27</main-group>
+<subgroup>26</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>244 54</main-classification>
+<further-classification>244 53 R</further-classification>
+<further-classification> 60796</further-classification>
+<further-classification>248557</further-classification>
+</classification-national>
+<invention-title id="d2e53">Mounting system for mounting engine nacelle components and associated method</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2175825</doc-number>
+<kind>A</kind>
+<name>Browne et al.</name>
+<date>19391000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248556</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4725019</doc-number>
+<kind>A</kind>
+<name>White</name>
+<date>19880200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5176339</doc-number>
+<kind>A</kind>
+<name>Schmidt</name>
+<date>19930100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5181675</doc-number>
+<kind>A</kind>
+<name>Lardellier et al.</name>
+<date>19930100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>5351930</doc-number>
+<kind>A</kind>
+<name>Gwinn et al.</name>
+<date>19941000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>5524847</doc-number>
+<kind>A</kind>
+<name>Brodell et al.</name>
+<date>19960600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5609313</doc-number>
+<kind>A</kind>
+<name>Cole et al.</name>
+<date>19970300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5738490</doc-number>
+<kind>A</kind>
+<name>Pizzi</name>
+<date>19980400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415139</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>5762472</doc-number>
+<kind>A</kind>
+<name>Pizzi et al.</name>
+<date>19980600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415135</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>5775638</doc-number>
+<kind>A</kind>
+<name>Duesler</name>
+<date>19980700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>5806792</doc-number>
+<kind>A</kind>
+<name>Brossier et al.</name>
+<date>19980900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>5988975</doc-number>
+<kind>A</kind>
+<name>Pizzi</name>
+<date>19991100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415139</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>6068213</doc-number>
+<kind>A</kind>
+<name>Gonidec et al.</name>
+<date>20000500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>6296203</doc-number>
+<kind>B1</kind>
+<name>Manteiga et al.</name>
+<date>20011000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>6494403</doc-number>
+<kind>B2</kind>
+<name>Jule et al.</name>
+<date>20021200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>6517027</doc-number>
+<kind>B1</kind>
+<name>Abruzzese</name>
+<date>20030200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>6609681</doc-number>
+<kind>B2</kind>
+<name>Buder</name>
+<date>20030800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>6682015</doc-number>
+<kind>B2</kind>
+<name>Levert et al.</name>
+<date>20040100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>6708925</doc-number>
+<kind>B2</kind>
+<name>Udall</name>
+<date>20040300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>6935591</doc-number>
+<kind>B2</kind>
+<name>Udall</name>
+<date>20050800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>7108224</doc-number>
+<kind>B2</kind>
+<name>Pasquer et al.</name>
+<date>20060900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>7165743</doc-number>
+<kind>B2</kind>
+<name>Pasquer et al.</name>
+<date>20070100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>7510147</doc-number>
+<kind>B2</kind>
+<name>Haber</name>
+<date>20090300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>7566029</doc-number>
+<kind>B2</kind>
+<name>Dron et al.</name>
+<date>20090700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>7607609</doc-number>
+<kind>B2</kind>
+<name>Levert</name>
+<date>20091000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>7708224</doc-number>
+<kind>B2</kind>
+<name>Aho-Mantila et al.</name>
+<date>20100500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>7909285</doc-number>
+<kind>B2</kind>
+<name>Dron et al.</name>
+<date>20110300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>7931232</doc-number>
+<kind>B2</kind>
+<name>Bernardi et al.</name>
+<date>20110400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>7942580</doc-number>
+<kind>B2</kind>
+<name>Audart-Noel et al.</name>
+<date>20110500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>384222</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00030">
+<document-id>
+<country>US</country>
+<doc-number>7950604</doc-number>
+<kind>B2</kind>
+<name>Combes et al.</name>
+<date>20110500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00031">
+<document-id>
+<country>US</country>
+<doc-number>8128022</doc-number>
+<kind>B2</kind>
+<name>Bulin</name>
+<date>20120300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00032">
+<document-id>
+<country>US</country>
+<doc-number>8844861</doc-number>
+<kind>B2</kind>
+<name>Balk et al.</name>
+<date>20140900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00033">
+<document-id>
+<country>US</country>
+<doc-number>2001/0025902</doc-number>
+<kind>A1</kind>
+<name>Jule et al.</name>
+<date>20011000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00034">
+<document-id>
+<country>US</country>
+<doc-number>2003/0025033</doc-number>
+<kind>A1</kind>
+<name>Levert et al.</name>
+<date>20030200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00035">
+<document-id>
+<country>US</country>
+<doc-number>2004/0135029</doc-number>
+<kind>A1</kind>
+<name>Bansemir et al.</name>
+<date>20040700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00036">
+<document-id>
+<country>US</country>
+<doc-number>2004/0251380</doc-number>
+<kind>A1</kind>
+<name>Pasquer et al.</name>
+<date>20041200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00037">
+<document-id>
+<country>US</country>
+<doc-number>2005/0067528</doc-number>
+<kind>A1</kind>
+<name>Loewenstein et al.</name>
+<date>20050300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00038">
+<document-id>
+<country>US</country>
+<doc-number>2007/0069068</doc-number>
+<kind>A1</kind>
+<name>Lafont et al.</name>
+<date>20070300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00039">
+<document-id>
+<country>US</country>
+<doc-number>2009/0184198</doc-number>
+<kind>A1</kind>
+<name>Balk</name>
+<date>20090700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00040">
+<document-id>
+<country>US</country>
+<doc-number>2009/0200419</doc-number>
+<kind>A1</kind>
+<name>Levert et al.</name>
+<date>20090800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00041">
+<document-id>
+<country>US</country>
+<doc-number>2009/0212155</doc-number>
+<kind>A1</kind>
+<name>Huggins et al.</name>
+<date>20090800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00042">
+<document-id>
+<country>US</country>
+<doc-number>2009/0266932</doc-number>
+<kind>A1</kind>
+<name>Roche et al.</name>
+<date>20091000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00043">
+<document-id>
+<country>US</country>
+<doc-number>2009/0272842</doc-number>
+<kind>A1</kind>
+<name>Bulin</name>
+<date>20091100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00044">
+<document-id>
+<country>US</country>
+<doc-number>2009/0283631</doc-number>
+<kind>A1</kind>
+<name>Roche</name>
+<date>20091100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00045">
+<document-id>
+<country>US</country>
+<doc-number>2010/0163671</doc-number>
+<kind>A1</kind>
+<name>Svenson et al.</name>
+<date>20100700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00046">
+<document-id>
+<country>US</country>
+<doc-number>2010/0327110</doc-number>
+<kind>A1</kind>
+<name>Caruel et al.</name>
+<date>20101200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00047">
+<document-id>
+<country>US</country>
+<doc-number>2011/0079679</doc-number>
+<kind>A1</kind>
+<name>Journade et al.</name>
+<date>20110400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00048">
+<document-id>
+<country>US</country>
+<doc-number>2011/0127367</doc-number>
+<kind>A1</kind>
+<name>Ramlaoui et al.</name>
+<date>20110600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00049">
+<document-id>
+<country>US</country>
+<doc-number>2011/0127370</doc-number>
+<kind>A1</kind>
+<name>Ramlaoui et al.</name>
+<date>20110600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00050">
+<document-id>
+<country>US</country>
+<doc-number>2011/0168837</doc-number>
+<kind>A1</kind>
+<name>Balk et al.</name>
+<date>20110700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00051">
+<document-id>
+<country>US</country>
+<doc-number>2012/0080555</doc-number>
+<kind>A1</kind>
+<name>Lafont et al.</name>
+<date>20120400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 54</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>244 54</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 53 R</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>9</number-of-drawing-sheets>
+<number-of-figures>15</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140361119</doc-number>
+<kind>A1</kind>
+<date>20141211</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Pratt &#x26; Whitney Canada Corp.</orgname>
+<address>
+<city>Longueuil</city>
+<country>CA</country>
+</address>
+</addressbook>
+<residence>
+<country>CA</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Badescu</last-name>
+<first-name>Ovidiu</first-name>
+<address>
+<city>Val d'Or</city>
+<country>CA</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Pizzi</last-name>
+<first-name>Antonio</first-name>
+<address>
+<city>Ile des Soeurs</city>
+<country>CA</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Norton Rose Fulbright Canada LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Pratt &#x26; Whitney Canada Corp.</orgname>
+<role>03</role>
+<address>
+<city>Longueuil, QC</city>
+<country>CA</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Ellis</last-name>
+<first-name>Christopher P</first-name>
+<department>3644</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Badawi</last-name>
+<first-name>Medhat</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">The mounting system can be used in mounting a turbofan gas turbine engine having a nacelle including two halves, each half having a hinged end hingedly connected to the pylon and a free end lockingly engageable with the engine structure. The mounting system can include a primary connection connecting the engine structure to the pylon, and a flexible connection provided between the hinged connections and the pylon, the flexible connection being elastically deformed when a significant force is exerted in a transversal plane upon one of the halves in the closed position.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="164.42mm" wi="217.59mm" file="US08979020-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="223.01mm" wi="174.67mm" orientation="landscape" file="US08979020-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="185.93mm" wi="158.24mm" file="US08979020-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="156.80mm" wi="145.12mm" file="US08979020-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="228.18mm" wi="179.41mm" orientation="landscape" file="US08979020-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="171.87mm" wi="173.74mm" orientation="landscape" file="US08979020-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="246.13mm" wi="127.59mm" file="US08979020-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="217.34mm" wi="119.30mm" file="US08979020-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="190.25mm" wi="141.56mm" file="US08979020-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="219.79mm" wi="155.87mm" file="US08979020-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">TECHNICAL FIELD</heading>
+<p id="p-0002" num="0001">The application relates generally to gas turbine engines and, more particularly, to mounting engine nacelle components to aircrafts.</p>
+<heading id="h-0002" level="1">BACKGROUND OF THE ART</heading>
+<p id="p-0003" num="0002">For safety reasons, aircraft engine powerplants are designed to extremely high standards, and to accommodate even rare situations such as bird strikes or the loss of a blade from one of the high-velocity rotary components such as the fan or compressor (often referred to as a blade-off). In the case of turbofans, the nacelle is often provided in the form of two halves which are hingedly connected at the pylon in a manner to be openable to access the engine therein. The hinges are designed to support the nacelle when it is open for maintenance, the expected mechanical stress during normal engine operation when they are closed, and the mechanical stress which can occur during extreme events. In the past, strengthening the hinges was a way that the loads resulting from an extreme event have been addressed, which inevitably leads to increased weight. Accordingly, there remains room for improvement.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0004" num="0003">In one aspect, there is provided a mounting system for mounting a turbofan engine to an aircraft, the turbofan engine having a main rotational axis and an associated transverse axis laterally perpendicular to the main axis, and a nacelle including two annular halves, each half having a hinged end adjacent the pylon and a free end, the system comprising: a pylon; a connection configured for mounting the engine to the pylon and configured to maintain the position of the engine relative to the pylon during operation of the aircraft; at least two hinged connections, each hinged connection being provided between the hinged end of a half and the pylon, the hinges operable to permit closing and opening the halves between open and closed positions; a flexible connection extending between at least one of the hinged connections and the pylon, the flexible connection configured to elastically deform in response to a lateral force exerted on a corresponding half while the halves are in the closed position, the force exceeding a pre-selected threshold, said elastic deformation permitting at least a portion of a corresponding hinged connection to move relative to the engine structure.</p>
+<p id="p-0005" num="0004">In one aspect, there is provided a mounting system for mounting a turbofan gas turbine engine to a pylon of an aircraft, the turbofan gas turbine engine having an engine structure, a main axis and an associated transverse axis, and a nacelle including two halves, each half having a hinged end adjacent the pylon and a free end, the mounting system comprising: a primary connection connecting the engine structure to the pylon and maintaining the position of the engine structure relative to the pylon during operation of the aircraft; two hinged connections, each hinged connection being provided between the hinged end of a corresponding one of the halves and the pylon and operable for selectively closing and opening the halves, the halves being lockingly engageable with the engine structure when in the closed position; a flexible connection provided between the hinged connections and the pylon, the flexible connection being elastically deformeable under a force exerted in a transversal plane upon one of the halves while in the closed position, the force being sufficient for moving at least a portion of a corresponding hinged connection relative to the engine structure.</p>
+<p id="p-0006" num="0005">In a third aspect, there is provided a mounting system for mounting a turbofan gas turbine engine to a pylon of an aircraft, the turbofan gas turbine engine having a core engine with an engine structure, a main axis and an associated radial orientation, and a nacelle including two halves, each half having a hinged end adjacent the pylon and a free end, the mounting system comprising: a primary connection connecting the engine structure to the pylon and maintaining the position of the engine core relative to the pylon during operation of the aircraft; a plurality of pairs of hinges aligned lengthwisely along a corresponding pair of hinge axes, each hinge axis being on a corresponding side of the primary connection; each pair of hinges having a pair of pylon hinge members engaged with a corresponding pair of nacelle hinge members; the plurality of pairs of hinges hingedly connecting a hinged end of the halves to the pylon for selectively closing the halves concentrically around the core engine and opening the halves about the hinge axes, the free end of the halves being lockingly engageable with the engine structure when in the closed position; a flexible connection provided between the halves and the pylon, the flexible connection being elastically deformed when a significant force is exerted in a transversal plane upon one of the halves in the closed position, the significant force thereby moving at least a corresponding hinge relative to the engine structure.</p>
+<p id="p-0007" num="0006">Further details of these and other aspects of the present invention will be apparent from the detailed description and figures included below.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0008" num="0007">Reference is now made to the accompanying figures, in which:</p>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 1</figref> is a schematic longitudinal cross-sectional view of a gas turbine engine mounted to an aircraft pylon;</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 2</figref> is a schematic transversal cross-sectional view of a gas turbine engine mounted to an aircraft pylon;</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 3</figref> is a top plan view of a gas turbine engine mounted to an aircraft pylon;</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 4</figref> is a front elevation view showing an example of a flexible connection;</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 5</figref> is a a cross-sectional view taken along lines W W of <figref idref="DRAWINGS">FIG. 4</figref>;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIGS. 6A</figref>, <b>6</b>B and <b>6</b>C schematic views showing variants of the example shown in <figref idref="DRAWINGS">FIG. 5</figref>;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIGS. 7A and 7B</figref> are schematic views showing other examples of a flexible connection;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIGS. 8A and 8B</figref> are schematic views showing other examples of a flexible connection; and</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 9</figref> includes cross-sections <b>9</b>A and <b>9</b>B and shows an example of a fused connection.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 1</figref> illustrates a turbofan gas turbine engine <b>10</b> of a type preferably provided for use in subsonic flight, generally comprising in serial flow communication a fan <b>12</b> through which ambient air is propelled, a multistage compressor <b>14</b> for pressurizing the air, a combustor <b>16</b> in which the compressed air is mixed with fuel and ignited for generating an annular stream of hot combustion gases, and a turbine section <b>18</b> for extracting energy from the combustion gases.</p>
+<p id="p-0019" num="0018">Turbofan gas turbine engines have an engine structure <b>20</b> by which the rotary shafts <b>22</b>, <b>24</b> are held in respective positions relative the non-rotary components such as stators and casings, and which also holds the non-rotary components in proper positions relative to one another. The engine structure <b>20</b> is engineered to withstand all forces which can be expected during operation of the engine. The turbofan gas turbine engine <b>10</b> is held in a position relative to a wing of the aircraft via a pylon <b>26</b>. The engine structure <b>20</b> is secured to the pylon <b>26</b>, and more specifically to a structure <b>28</b> of the pylon rather than an aerodynamic skin or the like, via a primary support structure <b>30</b> which can include a plurality of main mounts <b>32</b>, as known by persons of ordinary skill in the art.</p>
+<p id="p-0020" num="0019">The nacelle is provided in the form of two halves <b>36</b>, <b>38</b>, one on each side of a central vertical plane <b>40</b>, as can be seen in <figref idref="DRAWINGS">FIG. 2</figref>. These halves <b>36</b>, <b>38</b> are often referred to in the art as D-ducts, C-ducts, Fan-duct halves, or Thrust reverser doors when the nacelle includes a thrust reverser, to name a few examples. Each half is hingedly connected to both the pylon and the engine structure via a corresponding hinged connection <b>42</b>. More specifically, the halves <b>38</b>, <b>36</b> are hingedly mounted to a corresponding side of the pylon <b>26</b>, in order to be openable upwardly to allow accessing the engine core <b>44</b> of the gas turbine engine <b>10</b> for maintenance and the like. The halves <b>36</b>, <b>38</b> are pivoted downwardly to prepare the engine for use, where they can engage a portion of the engine structure for support, often with mating V-grooves or the like such as illustrated. In this example, the two halves are latched to one another with the engaging portion of the engine structure trapped therebetween during use, thus effectively lockingly engaging the free end of the halves with the engine structure during use.</p>
+<p id="p-0021" num="0020">The hinged connections <b>42</b>, <b>43</b> can include a plurality of pairs of hinge units <b>46</b>, <b>48</b> aligned with one another along a corresponding pair of hinge axes <b>50</b>, each hinge axis being oriented generally along the length of the engine and pylon <b>26</b>. Each hinge unit <b>46</b>, <b>48</b> can include a pylon hinge member <b>52</b> pivotally engaged with a nacelle hinge member <b>54</b> for relative pivoting. An example configuration including both a rear pair of hinge units and a forward pair of hinge units is shown in <figref idref="DRAWINGS">FIG. 3</figref>. Alternate examples can have three, four, or more pairs of hinge units depending on the specificities of the application and designer choice.</p>
+<p id="p-0022" num="0021">Collectively, the hinged units are designed to support the weight of a corresponding to a nacelle half when the half is in the open configuration or moved between the open and closed configurations. During operation of the gas turbine engine <b>10</b>, the hinged connections <b>42</b>, <b>43</b> are also used, in combination with the engine structure <b>20</b> trapped between the free ends of the nacelle halves <b>36</b>, <b>38</b>, to hold the halves <b>36</b>, <b>38</b> in position relative to each other and relative to the engine core <b>44</b>. Accordingly, at least two of the pairs of hinge units <b>46</b>, <b>48</b> are typically designed with a snug engagement between their hinge members <b>52</b>, <b>54</b>. In some embodiments, particularly in cases with more than two pairs of hinge units, one or more of the pairs of hinges can be designed to remain loosely engaged during operation of the gas turbine engine, with one or more others of the pairs of hinges maintaining the relative position of the nacelle halves more tightly.</p>
+<p id="p-0023" num="0022">The design process of gas turbine engines is typically assisted by computer-assisted simulation. Computer-assisted simulation can be used to simulate an extreme operating condition such as a fan blade-off scenario. Such stresses tend to occur particularly in the hinge pair or hinge pairs closest to the blade-off location. Using the pairs of hinges to withstand the extreme stresses which can occur during a fan blade-off scenario can allow to avoid using an additional structure to do so. However, designing the pairs of hinges to withstand such extreme stresses typically led to oversizing the pairs of hinges, which led to added weight as a trade-off. In computer-assisted simulation, the totality of connections between the gas turbine engine (including the nacelle) and the pylon are a statically non-determined set, the analytically calculated blade-off hinge loads are used as sizing loads in the design of the nacelle and the pylon structure and therefore the weight of these structures increases with the said hinge loads, which can form a vicious circle attracting even greater loads in the hinges.</p>
+<p id="p-0024" num="0023">By contrast, the mounting structure described herein uses a flexible connection which can allow flexibility between the hinge units of at least one of the hinge unit pairs and the primary support structure of the engine. The flexible connection can be used at the pair of hinges closest to the fan, or otherwise determined to be most likely affected in an extreme scenario for instance, and optionally used at more than one hinge unit pair. This elasticity can be either permanent, or released only after a certain hinge load is exceeded which can be achieved by using a stiffer fuse attachment which collapses (e.g. shears) at a certain design load (structurally fused connection).</p>
+<p id="p-0025" num="0024">The flexible connection can be clearly defined by contrast with the primary support structure which connects the engine structure to the pylon. More specifically, understanding that the flexible connection is designed to allow a pair of hinge units, to accommodate for extreme forces exerted on the nacelle in the transversal plane, a satisfactory flexibility can be defined to correspond to allowing a yielding displacement five times greater of either one of the associated mating hinge members than the corresponding movement of the engine structure for a same extreme force in the transversal plane. Such an amount of displacement can be considered to effectively &#x2018;decouple&#x2019; the stress at the hinge from the stress in the engine structure in the context described above.</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 4</figref> shows an example of a flexible connection <b>60</b>. More specifically, in this example, the flexible connection <b>60</b> is provided for the given pair of hinge units <b>48</b> axially closest to the fan <b>12</b>. The pylon hinge members <b>52</b> are provided at two opposite ends of a transverse beam <b>62</b>. The transverse beam <b>62</b> is mounted to a flexible floor <b>64</b> of the pylon <b>26</b>, which, in turn, is mounted to a structure <b>66</b> of the pylon <b>26</b>, rather than being mounted directly to the structure <b>66</b> of the pylon <b>26</b>, forming a flexible connection <b>60</b>. More specifically, referring also to <figref idref="DRAWINGS">FIG. 5</figref>, the floor <b>64</b> of the pylon <b>26</b> in this embodiment is made from sheet metal having a relatively thin gauge. The metal sheets are upturned to form flanges <b>68</b>, <b>70</b> which are fastened in abutment against the front and back face of an upward-protruding portion <b>72</b> of the transverse beam <b>62</b>. The fasteners <b>74</b> are positioned a certain distance upwardly from the pylon floor <b>64</b>. Accordingly, each transversal side of the upward-protruding portion <b>72</b> of the transverse beam <b>62</b> can be moved upwardly or downwardly as the corresponding portion of the floor elastically yields to a corresponding upward or downward force exerted on a corresponding one of the halves and transferred to the flexible connection via a corresponding hinge unit, leading to movement of the corresponding hinge unit. In this embodiment, since both sides of the flexible connection <b>60</b> allow both upward and downward liberty of movement, torsion stress around an axis parallel to the main axis <b>11</b> of the engine can also be accomodated.</p>
+<p id="p-0027" num="0026">A simplified sketch of the approach illustrated in <figref idref="DRAWINGS">FIGS. 4 and 5</figref> is illustrated at <figref idref="DRAWINGS">FIG. 6A</figref>. <figref idref="DRAWINGS">FIG. 6B</figref> shows a variant where rather than being conferred only by the flexibility of the pylon floor, flexibility is also conferred by way of flexible members provided in the form of spring-shaped flexible brackets. <figref idref="DRAWINGS">FIG. 6C</figref> shows another variant where flexibility is also conferred by way of flexible members made of an elastomeric material and interposed between the transverse beam and the pylon floor.</p>
+<p id="p-0028" num="0027">It will be understood that using the teachings of this disclosure, the flexibility can be specifically tailored in view of specific embodiments, or according to results of computer assisted simulation.</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 7A</figref> shows a simplified sketch of still another variant where the flexible connection is provided in the form of a plurality of linkages provided between a transverse beam and the pylon structure. <figref idref="DRAWINGS">FIG. 7B</figref> shows a simplified sketch of still another variant, also using linkages, but where the linkages are arranged according to a Watts linkage. It will be understood that more than one means of providing a flexible connection can be combined in some embodiments.</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 8A</figref> shows a simplified sketch illustrating an embodiment where the flexible connection is provided in the form of two flexible members <b>82</b>, <b>84</b> provided between the pylon structure <b>66</b> and a transverse beam connecting the halves. The flexible members <b>82</b>, <b>84</b> can be springs, elastomers, the floor of the pylon as shown in <figref idref="DRAWINGS">FIGS. 4 and 5</figref>, or linkages such as shown in <figref idref="DRAWINGS">FIG. 7A</figref> or <b>7</b>B to name a few examples. In <figref idref="DRAWINGS">FIG. 8B</figref>, flexible members <b>82</b>, <b>84</b> are also used, however they are configured to provide independent flexibility to each one of the hinge units of the hinge unit pair, with each flexible member being provided between a corresponding one of the halves and the pylon primary connection.</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 9</figref> shows an example of a fused connection embodiment in which halves <b>136</b> are hingedly connected at opposite ends of a transverse beam <b>162</b> which, itself, is received in a pylon primary connection <b>166</b>. The transverse beam <b>162</b> is typically rigidly prevented, by shear pins <b>170</b>, <b>172</b>, from sliding transversally in the pylon primary connection <b>166</b> upon application of a tangential force F applied to the half. The shear pins act as a fused connection between the transverse beam <b>162</b> and the pylon primary connection <b>166</b>. If the force F exceeds a predetermined threshold, the shear pins break and the rigid connection by the shear pins <b>170</b>, <b>172</b> is converted into a flexible connection provided by way of resilient elements <b>178</b>, <b>180</b> such as elastomers or springs, allowing the transverse beam to slide transversally in the pylon primary connection <b>166</b> to a certain extent determined by the resilience of the resilient elements <b>178</b>, <b>180</b>. The flexible connection allows a distance of displacement which is at least five times that of a similar force acting in a similar direction at the closest engine mount.</p>
+<p id="p-0032" num="0031">The above description is meant to be exemplary only, and one skilled in the art will recognize that changes may be made to the embodiments described without departing from the scope of the invention disclosed. For example, nacelle halves can have other functions than simply directing a bypass flow (e.g. reverse flow, inlet), and the flexible connection can be applied to many suitable forms of nacelle halves. Also, a flexible connection can be provided to only one, some, or all of the hinge units&#x2014;for instance, in an embodiment having four hinge units forming each hinged connection, the hinge units of two of the hinge unit pairs can be floating during use of the aircraft, with the hinge units of only one or both of the remaining hinge unit pairs being provided with a flexible connection. Still other modifications which fall within the scope of the present invention will be apparent to those skilled in the art, in light of a review of this disclosure, and such modifications are intended to fall within the scope of the appended claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A mounting system for mounting a turbofan engine to an aircraft, the turbofan engine having a main rotational axis and an associated transverse axis laterally perpendicular to the main axis, and a nacelle including two annular halves, each half having a hinged end adjacent the pylon and a free end, the system comprising:
+<claim-text>a pylon;</claim-text>
+<claim-text>a connection configured for mounting the engine to the pylon and configured to maintain the position of the engine relative to the pylon during operation of the aircraft;</claim-text>
+<claim-text>at least two hinged connections, each hinged connection being provided between the hinged end of a half and the pylon, the hinges operable to permit closing and opening the halves between open and closed positions;</claim-text>
+<claim-text>a flexible connection extending between at least one of the hinged connections and the pylon, the flexible connection configured to elastically deform in response to a lateral force exerted on a corresponding half while the halves are in the closed position, the force exceeding a pre-selected threshold, said elastic deformation permitting at least a portion of a corresponding hinged connection to move relative to the engine structure.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The mounting system of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the flexible connection extends between each one of the at least two hinged connections and the pylon and is in a transversal plane coinciding with or adjacent a fan of the turbofan gas turbine engine.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The mounting system of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the hinged connections include a plurality of hinge unit pairs, each hinge unit including a pylon hinge member engaged with a corresponding duct hinge member, the hinge units of each pair are aligned lengthwisely with one another along a corresponding hinge axis, and the flexible connection is associated to at least one of the hinge unit pairs.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The mounting system of <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein the flexible connection includes two flexible members, each one of the two flexible members being associated with a corresponding hinge unit of one of the hinge unit pairs.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The mounting system of <claim-ref idref="CLM-00004">claim 4</claim-ref> wherein the flexible members each independently connect a corresponding pylon hinge member to a structure of the pylon.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The mounting system of <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein at least one of the hinge unit pairs has the corresponding pylon hinge members provided at corresponding ends of a transverse beam, the transverse beam being connected to a structure of the pylon via the flexible connection.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The mounting system of <claim-ref idref="CLM-00006">claim 6</claim-ref> wherein the transverse beam is mounted to a sheet-metal floor of the pylon, the sheet-metal floor of the pylon being connected to the pylon structure.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The mounting system of <claim-ref idref="CLM-00007">claim 7</claim-ref> wherein the flexible connection is provided at least partially by way of a flexibility of the sheet-metal floor of the pylon.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The mounting system of <claim-ref idref="CLM-00006">claim 6</claim-ref> wherein the flexible connection includes a flexible member on each side and associated with each hinge unit of the at least one hinge unit pair.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The mounting system of <claim-ref idref="CLM-00009">claim 9</claim-ref> wherein the flexible members include at least one flexible sheet metal component.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The mounting system of <claim-ref idref="CLM-00010">claim 10</claim-ref> wherein the flexible members are provided in the form of sheet metal brackets.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The mounting system of <claim-ref idref="CLM-00009">claim 9</claim-ref> wherein the flexible members include at least one elastomeric member made of elastomeric material.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The mounting system of <claim-ref idref="CLM-00006">claim 6</claim-ref> wherein the flexible connection includes linkages.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The mounting system of <claim-ref idref="CLM-00001">claim 1</claim-ref> further comprising at least one structural fuse connection member structurally resistant to forces up to a significant force threshold to bypass the flexible connection, and breaking when subjected to the significant force at or above the significant force threshold to allow said movement of the hinge.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The mounting system of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the primary connection includes at least two main engine mounts, and wherein the hinged connection movement corresponds to at least five times a corresponding movement of any one of the main engine mounts for a same significant force.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. A method of managing a significant force event on a gas turbine engine supported by a pylon of an operating aircraft, the turbofan gas turbine engine having a core engine with an engine structure, a main axis and an associated radial orientation, a primary connection connecting the engine structure to the pylon and maintaining the position of the engine structure relative to the pylon; a nacelle including two halves, each half having a hinged end adjacent the pylon and a free end; and two hinged connections, each hinged connection being provided between the hinged end of a corresponding one of the halves and the pylon and operable for selectively closing the halves concentrically around the core engine and opening the halves, the halves being lockingly engageable with the engine structure when in the closed position; the significant force being exerted in a transversal plane and exerted upon one of the halves in the closed position; the method comprising:
+<claim-text>transferring the significant force to a flexible connection provided between the corresponding half and the pylon, thereby elastically deforming the flexible connection and moving a corresponding hinge relative to the engine structure.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The method of <claim-ref idref="CLM-00016">claim 16</claim-ref> wherein the flexible connection is in a transversal plane near a fan of the turbofan gas turbine engine.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The method of <claim-ref idref="CLM-00016">claim 16</claim-ref> wherein the step of transferring the significant force includes breaking at least one structural fuse connection member structurally resistant to forces of a magnitude up to a predetermined significant force threshold.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The method of <claim-ref idref="CLM-00016">claim 16</claim-ref> wherein the moving includes moving the corresponding hinge by a distance at least five times a corresponding distance of movement of the engine structure.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. A mounting system for mounting a turbofan gas turbine engine to a pylon of an aircraft, the turbofan gas turbine engine having a core engine with an engine structure, a main axis and an associated transverse axis, and a nacelle including two halves, each half having a hinged end adjacent the pylon and a free end, the mounting system comprising:
+<claim-text>a primary connection connecting the engine structure to the pylon and maintaining the position of the engine core relative to the pylon during operation of the aircraft;</claim-text>
+<claim-text>a plurality of pairs of hinges aligned lengthwisely along a corresponding pair of hinge axes, each hinge axis being on a corresponding side of the primary connection; each pair of hinges having a pair of pylon hinge members engaged with a corresponding pair of nacelle hinge members; the plurality of pairs of hinges hingedly connecting a hinged end of the halves to the pylon for selectively closing the halves concentrically around the core engine and opening the halves about the hinge axes, the free end of the halves being lockingly engageable with the engine structure when in the closed position;</claim-text>
+<claim-text>a flexible connection provided between the halves and the pylon, the flexible connection being elastically deformed when a significant force is exerted in a transversal plane upon one of the halves in the closed position, the significant force thereby moving at least a corresponding hinge relative to the engine structure. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

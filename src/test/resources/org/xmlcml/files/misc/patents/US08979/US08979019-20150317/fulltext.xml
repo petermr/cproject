@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979019-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979019</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13192084</doc-number>
+<date>20110727</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>488</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>50</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>40</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>405</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>Y</section>
+<class>02</class>
+<subclass>T</subclass>
+<main-group>50</main-group>
+<subgroup>823</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>244 50</main-classification>
+<further-classification>244100 R</further-classification>
+<further-classification>244103 S</further-classification>
+</classification-national>
+<invention-title id="d2e53">Aircraft taxi system including drive chain</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2472641</doc-number>
+<kind>A</kind>
+<name>Wood</name>
+<date>19490600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244100 C</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2493275</doc-number>
+<kind>A</kind>
+<name>Thornton</name>
+<date>19500100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>180221</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>3005510</doc-number>
+<kind>A</kind>
+<name>Phillips</name>
+<date>19611000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>180 147</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>3762670</doc-number>
+<kind>A</kind>
+<name>Chillson</name>
+<date>19731000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 50</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>3807664</doc-number>
+<kind>A</kind>
+<name>Kelly et al.</name>
+<date>19740400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 50</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>3850389</doc-number>
+<kind>A</kind>
+<name>Dixon</name>
+<date>19741100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>4596300</doc-number>
+<kind>A</kind>
+<name>Mankey</name>
+<date>19860600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>180 58</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6719275</doc-number>
+<kind>B1</kind>
+<name>Waterson</name>
+<date>20040400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>254333</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>2006/0065779</doc-number>
+<kind>A1</kind>
+<name>McCoskey et al.</name>
+<date>20060300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244100 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>2007/0158497</doc-number>
+<kind>A1</kind>
+<name>Edelson et al.</name>
+<date>20070700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244103 S</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>2009/0218440</doc-number>
+<kind>A1</kind>
+<name>Dilmaghani et al.</name>
+<date>20090900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 50</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>2009/0294577</doc-number>
+<kind>A1</kind>
+<name>Roques et al.</name>
+<date>20091200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>2010/0252675</doc-number>
+<kind>A1</kind>
+<name>Malkin et al.</name>
+<date>20101000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>2011/0180659</doc-number>
+<kind>A1</kind>
+<name>Elliot et al.</name>
+<date>20110700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 50</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>DE</country>
+<doc-number>3327628</doc-number>
+<kind>A1</kind>
+<date>19850200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>GB</country>
+<doc-number>2088794</doc-number>
+<kind>A</kind>
+<date>19820600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>WO</country>
+<doc-number>2005/031184</doc-number>
+<kind>A1</kind>
+<date>20050400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>15</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>244 50</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244103 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244104 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244103 S</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244111</main-classification>
+</classification-national>
+<classification-cpc-text>B64C 25/405</classification-cpc-text>
+<classification-cpc-text>B64C 25/24</classification-cpc-text>
+<classification-cpc-text>B64C 25/30</classification-cpc-text>
+<classification-cpc-text>Y02T 50/54</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>9</number-of-drawing-sheets>
+<number-of-figures>11</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130026284</doc-number>
+<kind>A1</kind>
+<date>20130131</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Christensen</last-name>
+<first-name>Donald J.</first-name>
+<address>
+<city>Phoenix</city>
+<state>AZ</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Gaines</last-name>
+<first-name>Louie T.</first-name>
+<address>
+<city>Phoenix</city>
+<state>AZ</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="003" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Charles</last-name>
+<first-name>David L.</first-name>
+<address>
+<city>South Bend</city>
+<state>IN</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Christensen</last-name>
+<first-name>Donald J.</first-name>
+<address>
+<city>Phoenix</city>
+<state>AZ</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Gaines</last-name>
+<first-name>Louie T.</first-name>
+<address>
+<city>Phoenix</city>
+<state>AZ</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Charles</last-name>
+<first-name>David L.</first-name>
+<address>
+<city>South Bend</city>
+<state>IN</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Shimokaji IP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Honeywell International Inc.</orgname>
+<role>02</role>
+<address>
+<city>Morristown</city>
+<state>NJ</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Swiatek</last-name>
+<first-name>Rob</first-name>
+<department>3647</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Andonyan</last-name>
+<first-name>George</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">An aircraft taxi drive system includes a motor that is configured to transfer power to an aircraft wheel via a drive chain, such that the motor rotates the aircraft wheel via the drive chain. In some examples, the drive chain is movable between first and second positions. In the first position, the drive chain, such as an exterior surface of the drive chain, is engaged with a driven sprocket that is mechanically connected to an aircraft wheel. In the second position, the drive chain is disengaged from the driven sprocket.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="151.98mm" wi="151.72mm" file="US08979019-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="182.96mm" wi="180.17mm" file="US08979019-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="166.29mm" wi="150.62mm" file="US08979019-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="178.99mm" wi="167.39mm" file="US08979019-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="182.46mm" wi="168.57mm" file="US08979019-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="257.81mm" wi="159.09mm" file="US08979019-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="255.02mm" wi="165.35mm" file="US08979019-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="138.77mm" wi="192.45mm" file="US08979019-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="120.14mm" wi="89.75mm" file="US08979019-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="227.84mm" wi="98.30mm" file="US08979019-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">TECHNICAL FIELD</heading>
+<p id="p-0002" num="0001">This disclosure relates to aircraft, and, more particularly, aircraft taxi systems.</p>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">Aircraft may perform taxiing maneuvers on the ground, e.g., travelling from a terminal to the runway or vice versa. In some systems, propulsion for the aircraft while taxiing is provided by thrust from the main engines or a tow cart.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0004" num="0003">In general, this disclosure relates to devices, systems, and techniques for taxiing an aircraft or otherwise moving the aircraft on the ground without reliance on the thrust of the main engines of the aircraft (e.g., engines used to provide thrust during flight or takeoff) to propel the aircraft. An aircraft taxi drive system that is separate from the main engines provides the energy that is used to move the aircraft on the ground. In some examples, the aircraft taxi drive system includes a motor that is configured to transfer power to an aircraft wheel via a drive chain, such that the motor rotates the aircraft wheel via the drive chain, which may result in movement of the aircraft on the ground. In some examples, the drive chain (e.g., an exterior surface of the drive chain) is configured to be disengaged from the aircraft wheel, e.g., during aircraft takeoff, landing, and other times taxiing of the aircraft is not necessary or desired, and reengaged when taxiing is desirable (e.g., after landing). In some examples, the motor and drive chain may be sized to fit on an existing land gear assembly of an aircraft, and may allow the taxi drive system to be retrofitted onto existing aircraft.</p>
+<p id="p-0005" num="0004">In one example, the disclosure is directed to a system comprising a motor configured to generate a mechanical output, a drive sprocket configured to be driven by the motor, a drive chain mechanically connected to the drive sprocket, an aircraft wheel and a driven sprocket mechanically connected to the aircraft wheel. The drive sprocket is configured to transfer the mechanical output from the motor to the drive chain. An exterior surface of the drive chain is configured to engage with the driven sprocket to transfer the mechanical output of the motor to the driven sprocket and the aircraft wheel. Rotation of the driven sprocket is configured to rotate the aircraft wheel.</p>
+<p id="p-0006" num="0005">In another example, the disclosure is directed to a system comprising means for providing a mechanical output, an aircraft wheel, means for transferring the mechanical output to the aircraft wheel, and means for moving the motor and the transferring means relative to the aircraft wheel to bring the transferring means into and out of engagement with the aircraft wheel.</p>
+<p id="p-0007" num="0006">In another example, the disclosure is directed to a method comprising engaging an exterior surface of a drive chain with a driven sprocket that is mechanically connected to an aircraft wheel, rotating the aircraft wheel by transferring a mechanical output of a motor to the driven sprocket and aircraft wheel via the drive chain, and disengaging the drive chain from the driven sprocket.</p>
+<p id="p-0008" num="0007">The details of one or more examples of the disclosure are set forth in the accompanying drawings and the description below. Other features, objects, and advantages will be apparent from the description and drawings, and from the claims.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF DRAWINGS</heading>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective diagram illustrating an example aircraft landing gear assembly equipped with an example taxi drive system that includes a motor and drive chain.</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 2</figref> is a perspective diagram illustrating the example aircraft landing gear assembly of <figref idref="DRAWINGS">FIG. 1</figref> with an aircraft wheel removed, and also illustrates the example taxi drive system of <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 3</figref> is a cutaway diagram illustrating the example aircraft landing gear assembly and taxi drive system of <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 4</figref> is another perspective diagram of the example aircraft landing gear assembly of <figref idref="DRAWINGS">FIG. 1</figref>, with an aircraft wheel removed, and the taxi drive system of <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIGS. 5A and 5B</figref> are cutaway diagrams illustrating the example taxi drive system of <figref idref="DRAWINGS">FIG. 1</figref> in an engaged position.</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIGS. 6A and 6B</figref> are cutaway diagrams illustrating the example taxi drive system of <figref idref="DRAWINGS">FIG. 1</figref> in a disengaged position.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 7</figref> is a functional block diagram illustrating an example taxi drive controller.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 8</figref> is a flow diagram illustrating an example method of operating a taxi drive system.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 9</figref> is a flow diagram illustrating an example method of taxiing an aircraft with a taxi drive system that includes a motor and a drive chain that is selectively engageable with a wheel of the aircraft.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0018" num="0017">The present disclosure describes example aircraft taxi drive systems that can be used to propel an aircraft on the ground, e.g., to taxi the aircraft on the ground from one point to another. The example aircraft taxi drive system is carried by the aircraft and includes a motor that is separate from the main engines (e.g., jet engines) of the aircraft, such that the propulsion of the aircraft during taxiing is independent of the main engines used during flight. The main engines provide the thrust required during take-off of the aircraft and during flight, whereas the motor of the taxi drive system is configured to provide an output that drives an drive chain, which, when engaged with an aircraft wheel, rotates the wheel during taxiing.</p>
+<p id="p-0019" num="0018">In some existing aircraft taxi systems, the output of the main engines propels the aircraft during the taxiing of the aircraft. Reversing capability may be provided by thrust reversers on the one or more turbine engines of the aircraft or by reversing the pitch of the propellers on a prop plane. The low power settings for jet engines required during taxi maneuvers can be inefficient, and may result in the waste of hundreds of gallons of fuel for each modern commercial airliner every day. Further, the use of the main jet engines near the terminal and other locations may be restricted. In such situations, a tow cart may be required to maneuver the jet aircraft on the ground. The use of the tow cart to move the aircraft on the ground may consume additional manpower and require special equipment.</p>
+<p id="p-0020" num="0019">The example aircraft taxi drive systems described herein allows an aircraft to taxi without reliance on the aircraft main engine(s) to provide thrust or without reliance on an external device, such as a tow cart. Because the example taxi drive system has a separate motor, the aircraft may be taxied while the main engines are shutdown or at idle. With the main engines idled or shutdown, the taxi drive system allows the aircraft to maneuver under its own power, e.g., near terminal buildings at an airport. In some examples, multiple taxi drive systems may be fitted onto the aircraft, allowing directional control, e.g., through the use of differential thrust from the taxi drive system. In other configurations, the taxi drive system may be mounted on a steerable landing gear assembly.</p>
+<p id="p-0021" num="0020">As discussed in further detail below, the example aircraft taxi drive systems described herein are configured such that they may each be relatively easy to retrofit an existing aircraft to include such a taxi drive system, e.g., the retrofitting may not require extensive modification to the aircraft. Retrofitting existing aircraft to include a taxi drive system separate from the main engines may include various considerations. For example, retrofitting taxi drive systems onto existing aircraft without extensive modification may be limited by the dimensions of the landing gear and the landing gear bays. The taxi drive systems described herein are relatively compact, which may increase the number of types of landing gear the taxi drive system may be retrofit onto.</p>
+<p id="p-0022" num="0021">Compounding the design challenges faced by a taxi system is the environment the taxi system operates in. During takeoff and landing, the rotation rate of the aircraft wheels is extremely high. Thus, permanent attachment of a taxi drive system to the aircraft wheels may require mass intensive transmission or clutch systems in order to protect the taxi drive system from damage due to the torque generated by the speeds involved. The example taxi drive systems described herein is configured to engage and disengage with the aircraft wheels, e.g., by rotation or translation of the taxi drive system between a first position, in which the taxi drive system is engaged with the aircraft wheel, and a second position, in which the taxi drive system is disengaged from the aircraft wheel. In some examples, a taxi drive system includes a looped drive chain configured such that an exterior of the looped drive chain transfers torque to the aircraft wheels when the system is in the first position. By using the exterior of the drive chain loop, the drive chain loop can be relatively easily engaged or disengaged from the aircraft wheel (e.g., moved to the second position) without a complex clutch system that may be required if the interior of the loop of the drive chain was used as the engagement site.</p>
+<p id="p-0023" num="0022">Extra mass taken up by such a taxi drive system that includes a transmission or clutch system may decrease fuel efficiency of the aircraft and, in some cases, may reduce the passenger or cargo capability of the aircraft due to the extra space required to accommodate the taxi drive system. The example taxi drive systems described herein is able to engage or disengage as unit, allowing the use of a pivot or a translating linkage or assembly, potentially simplifying the structure and saving mass.</p>
+<p id="p-0024" num="0023">Also, the landing gear assembly of the aircraft may be exposed to environmental contaminants, such as dirt, melted rubber, and other contaminants. Consequently, some existing taxi drive systems that are positioned near the landing gear may be sealed from the presence of contaminants, potentially leading to a heavier taxi drive system. In contrast, the example taxi drive systems described herein may be capable of functioning robustly despite the presence of contaminants, such that enclosures for the taxi drive systems described can be, but need not be, used.</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective diagram illustrating an example aircraft landing gear assembly <b>10</b> equipped with an example taxi drive system <b>24</b>. An aircraft may be equipped with one or more landing gear assemblies <b>10</b>, which can include respective one or more taxi drive systems <b>20</b> (e.g., one taxi drive system per landing gear assembly or per wheel of a landing gear assembly). In other examples, only a subset of the landing gear assemblies of an aircraft may be equipped with a respective taxi drive system <b>24</b>. In the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, landing gear assembly <b>10</b> comprises aircraft tires <b>12</b>, cylinder <b>14</b>, piston <b>16</b>, torque arm <b>18</b>, and hub <b>20</b>. In addition, in the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, taxi drive system <b>24</b> comprises plate <b>26</b>, motor <b>28</b>, drive chain <b>30</b>, drive sprocket <b>32</b>, spacers <b>34</b>, actuator mount <b>36</b>, and armature mount <b>38</b>.</p>
+<p id="p-0026" num="0025">Taxi drive system <b>24</b> may be located on one or more landing gear assemblies <b>10</b>. In the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, taxi drive system <b>24</b> is installed between aircraft tires <b>12</b> opposite torque arm <b>18</b>. In some examples, taxi drive system <b>24</b> may be mechanically coupled to landing gear assembly <b>10</b> via an armature, e.g., armature assembly <b>30</b> (<figref idref="DRAWINGS">FIG. 3</figref>), and axle housing <b>22</b> (<figref idref="DRAWINGS">FIG. 3</figref>). In other examples, taxi drive system <b>24</b> may be connected to other points on landing gear assembly <b>10</b>. In addition, other mechanisms can be used to mechanically connect taxi drive system <b>24</b> to landing gear assembly <b>10</b>. As discussed in further detail below, actuator mount <b>36</b> may provide a connection point allowing taxi drive system <b>24</b> to be moved between a first position, in which drive chain <b>30</b> is engaged with aircraft wheel <b>10</b>, and a second position, in which drive chain <b>30</b> is disengaged from aircraft wheel <b>10</b>, via armature system <b>44</b>.</p>
+<p id="p-0027" num="0026">Two aircraft tires <b>12</b> are depicted in the example configuration of landing gear assembly <b>10</b> depicted in <figref idref="DRAWINGS">FIG. 1</figref>, but landing gear assembly <b>10</b> may be equipped with one or more aircraft tires <b>12</b> in other examples. Hub <b>20</b> is configured to support aircraft tires <b>12</b> on an axle (not shown) connected through axle housing <b>22</b> to piston <b>16</b>. An independent braking system (not shown), e.g., a brake disc stack and brake actuator, may be co-located with taxi drive system <b>24</b> on (e.g., directly or indirectly mechanically connected to) landing gear assembly <b>10</b> at or near aircraft tires <b>12</b>. In other examples, taxi drive system <b>24</b> may be located on one or more landing gear assemblies <b>10</b> while an independent braking system may be equipped on other landing gear assemblies of the aircraft. In some examples, one or more of landing gear assemblies <b>10</b> may be steerable to provide directional control over the taxiing aircraft. In addition, or instead, steering for the taxiing aircraft may be controlled by using differential braking or differential thrust from multiple landing gear assemblies <b>10</b> equipped with respective taxi drive systems <b>20</b>.</p>
+<p id="p-0028" num="0027">Cylinder <b>14</b> and piston <b>16</b> may be configured to provide shock absorption for landing gear assembly <b>10</b>. Cylinder <b>14</b> may, for example, comprise a hydraulic cylinder in some examples. In these examples, upon impact with the ground during landing, aircraft tires <b>12</b> may drive piston <b>16</b> into cylinder <b>14</b>, increasing the hydraulic pressure within the landing gear system. The motion of hydraulic fluid through cylinder <b>14</b>, caused by the pressure of landing, may absorb at least some of the impact of the landing and slow the movement of piston <b>16</b> into cylinder <b>14</b>. In the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, torque arm <b>18</b> is a jointed arm connected to cylinder <b>14</b> and a point at the base of piston <b>16</b>, e.g., at axle housing <b>22</b> for the axle supporting aircraft tires <b>12</b>. Torque arm <b>18</b> is jointed, which allows piston <b>16</b> to extend and retract relative to cylinder <b>14</b> with the takeoff and landing of the aircraft, while also helping to prevent piston <b>16</b> from rotating in cylinder <b>14</b>, thereby maintaining the alignment of the aircraft tires <b>12</b> with the direction of travel of the aircraft.</p>
+<p id="p-0029" num="0028">Motor <b>28</b> is configured to provide motive force to taxi drive system <b>24</b> by rotating drive sprocket <b>32</b>. Drive sprocket <b>32</b> may be engaged with drive chain <b>30</b>, which may form a loop that is configured to surround drive sprocket <b>32</b>. As drive sprocket <b>32</b> rotates, the loop formed by drive chain <b>30</b> also moves. When taxi drive system <b>24</b> is in a first position, driven sprocket <b>42</b>, which is mechanically connected to hub <b>20</b>, is engaged with the exterior of the loop formed by drive chain <b>30</b>. Driven sprocket <b>42</b> is mechanically connected to hub <b>20</b> such that as driven sprocket <b>42</b> rotates, hub <b>20</b> rotates (e.g., driven sprocket <b>42</b> can be in a fixed position relative to hub <b>20</b>). Thus, as the loop formed by drive chain <b>30</b> moves, the motion is transferred to driven sprocket <b>42</b> (<figref idref="DRAWINGS">FIG. 2</figref>) and aircraft tires <b>12</b>, causing the aircraft to taxi. Because drive chain <b>30</b> is only engaged with a part of driven sprocket <b>42</b> and does not loop around driven sprocket <b>42</b>, the concern that drive chain <b>30</b> may come loose from sprocket <b>42</b> is minimized; as discussed below, an actuation system or the like holds drive chain <b>30</b> in engagement with driven sprocket <b>42</b>, and may also hold taxi drive system <b>24</b> in a fixed position relative to driven sprocket <b>42</b> in both the first and second positions.</p>
+<p id="p-0030" num="0029">In situations when taxi drive system <b>24</b> may be exposed to relatively high torques or rotation rates from aircraft tires <b>12</b>, taxi drive system <b>24</b> may be configured to move to a second position, e.g., rotated or pivoted out of engagement with driven sprocket <b>42</b>, such that drive chain <b>30</b> does not engage with driven sprocket <b>42</b>. Taxi drive system <b>24</b> may be reengaged with driven sprocket <b>42</b> to taxi the aircraft by moving taxi drive system <b>24</b> to the first position in which drive chain <b>30</b> is engaged with driven sprocket <b>42</b>.</p>
+<p id="p-0031" num="0030">Motor <b>28</b> is configured to generate torque that can be used to propel the aircraft when the aircraft is on the ground, e.g., to taxi the aircraft. Motor <b>28</b> can be powered using any suitable source. In some examples, motor <b>28</b> may comprise or consist of an electric motor. Power for an electric motor may be drawn from any suitable source, such as directly from the electrical system of the aircraft, e.g., the auxiliary power unit (APU) of the aircraft, and routed along landing gear assembly <b>10</b>, or from a battery or other power source of taxi drive system <b>10</b> and separate from the main electrical system of the aircraft. An APU may be configured to provide energy for functions other than propulsion of the aircraft, such as to start the main engines or to power lights on the aircraft. In other examples, motor <b>28</b> may be powered by a fuel, such as, for example the aviation fuel used to power the main engine (s) of the aircraft during flight. In some examples, a fuel line supplying motor <b>28</b> may be routed along landing gear assembly <b>10</b>, e.g., the fuel line may traverse from the aircraft fuselage to motor <b>28</b> along landing gear assembly <b>10</b>. In addition or instead, motor <b>28</b> may be a hydraulic motor powered by, for example, the hydraulic system of the aircraft. In other configurations taxi drive system <b>24</b> may have an independent electricity, hydraulic fluid, or fuel source located on landing gear assembly <b>10</b> or the fuselage of the aircraft.</p>
+<p id="p-0032" num="0031">In some, but not all, examples, motor <b>28</b> may include a transmission or gear box, which may help increase the torque outputted by motor <b>28</b> to drive sprocket <b>32</b>. The gear ratio in the gearbox or transmission may be fixed or selectable, e.g., via crew member input. In some examples, the rotation rate of motor <b>28</b>, and, therefore, the rate at which wheel <b>12</b> is rotated by motor <b>28</b>, may be controlled by crew member input. For example, if motor <b>28</b> comprises an electric motor, a crew member of the aircraft may control the rotation rate of motor <b>28</b>, and speed of the taxiing aircraft, by varying the voltage or current supplied to motor <b>28</b>. Motor <b>28</b> may be used to taxi in reverse by reversing the polarity of the voltage or current supplied to motor <b>28</b>.</p>
+<p id="p-0033" num="0032">Motor <b>28</b> can be mechanically connected to drive sprocket <b>32</b> using any suitable configuration. In the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, plate <b>26</b> supports motor <b>28</b>, drive sprocket <b>32</b>, and spacers <b>34</b>, e.g., motor <b>28</b>, drive sprocket <b>32</b>, and spacers <b>34</b> may be directly or indirectly mechanically connected to a surface of plate <b>26</b>. Accordingly, in the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, motor <b>28</b> is mechanically connected to drive sprocket <b>32</b> via plate <b>26</b> in the example shown in <figref idref="DRAWINGS">FIG. 1</figref>. In some examples, plate <b>26</b> may hold motor <b>28</b>, drive sprocket <b>32</b>, and idler sprockets <b>40</b> (<figref idref="DRAWINGS">FIG. 2</figref>) in fixed positions relative to each other. In other configurations, plate <b>26</b> may be configured to allow one or more of drive sprocket <b>32</b> or idler sprockets <b>40</b> to translate relative to each other, allowing the tension in drive chain <b>30</b> to be adjusted or engaged/disengaged with driven sprocket <b>42</b>. Plate <b>26</b> may be configured to withstand the forces generated by the interaction of drive chain <b>30</b>, idler sprockets <b>40</b>, and the landing gear assembly <b>10</b> of the aircraft. Plate <b>26</b> may be constructed of any suitable material, such as, but not limited to, an alloy of aluminum or steel.</p>
+<p id="p-0034" num="0033">As discussed in further detail below, plate <b>26</b> provides a relatively simple and lightweight mechanism by which taxi drive system <b>24</b> can be moved between a first position and a second position because, in some examples, movement of plate <b>26</b> causes movement of drive chain <b>30</b> away from driven sprocket <b>42</b>.</p>
+<p id="p-0035" num="0034">In some examples, plate <b>26</b> may be paired with a second plate that is positioned on the other side of drive chain <b>30</b> from plate <b>26</b>, such that the opposing plates enclose drive chain <b>30</b> and help prevent drive chain <b>30</b> from slipping off of idler sprockets <b>40</b> and drive sprocket <b>32</b> by limiting the potential movement of drive chain <b>30</b> relative to drive sprocket <b>32</b> and idler sprockets <b>40</b>. In addition, in some examples, plate <b>26</b> may help prevent the passage of environmental contaminants to drive chain <b>30</b> and drive sprocket <b>32</b> by at least partially covering chain <b>30</b> and sprocket <b>32</b>. In some examples, additional plating may be added to form a container around drive chain <b>30</b>, and one side may be left exposed provide room for drive chain <b>30</b> to engage with driven sprocket <b>42</b> of landing gear assembly <b>10</b>.</p>
+<p id="p-0036" num="0035">Drive chain <b>30</b> may be mechanically connected to drive sprocket <b>32</b>, e.g., looped around drive sprocket <b>32</b> such that at least some of the teeth of drive sprocket <b>32</b> engage with drive chain <b>30</b>. For example, teeth of drive sprocket <b>32</b> may be positioned within gaps defined by drive chain <b>30</b> (e.g., holes in the links of a chain). In some examples, taxi drive system <b>24</b> includes spacers <b>34</b>, which are configured to help prevent drive chain <b>30</b> from loosening or sliding out of engagement with drive sprocket <b>32</b>. Spacers <b>34</b> may also support a second plate <b>26</b> (not shown) that, together with plate <b>26</b>, sandwiches drive sprocket <b>32</b> and drive chain <b>30</b>, which may further help prevent drive chain <b>30</b> from slipping loose from drive sprocket <b>32</b>. Spacers <b>34</b> may comprise any suitable material, for example, an alloy of steel, aluminum, or titanium.</p>
+<p id="p-0037" num="0036">Drive chain <b>30</b> may be made of any suitable material, for example an alloy of steel or titanium. Drive chain <b>30</b> may form a loop, encompassing drive sprocket <b>32</b> and idler sprocket <b>40</b> (<figref idref="DRAWINGS">FIG. 2</figref>). Drive chain <b>30</b> may comprise engagement sites located on both the interior and exterior surfaces of the loop formed by drive chain <b>30</b>, surface <b>30</b>A and <b>30</b>B (<figref idref="DRAWINGS">FIG. 2</figref>) respectively. An interior surface of the loop may face drive sprocket <b>32</b> while an exterior surface may face away from drive sprocket <b>32</b>. Engagement sites on the interior of the loop formed by drive chain <b>30</b> may allow drive sprocket <b>32</b> to engage with, and transfer power through, drive chain <b>30</b> by pulling and/or rotating drive chain <b>30</b>. Engagement sites on the exterior of the loop formed by drive chain <b>30</b> may allow driven sprocket <b>42</b> (<figref idref="DRAWINGS">FIG. 2</figref>) to engage with, and be driven by, drive chain <b>30</b>. The engagement sites of drive chain <b>30</b> may, for example, be formed by the links of drive chain <b>30</b>. Other types of drive chains are contemplated. For example, in some examples, drive chain <b>30</b> may comprise a flexible belt and engagement sites may be provided by raised teeth on both sides of the belt.</p>
+<p id="p-0038" num="0037">As discussed above, motor <b>28</b> is configured to rotate drive sprocket <b>32</b>. In some examples, drive sprocket <b>32</b> may be mechanically connected to motor <b>28</b>, and an incorporated transmission or gearbox, if present, via a drive shaft that penetrates through plate <b>26</b>. The drive shaft may be configured to transfer the rotational output of motor <b>28</b>, and any incorporated gear box/transmission, to drive sprocket <b>32</b>. Drive sprocket <b>32</b> may have one or more sets of teeth that are configured to engage with drive chain <b>30</b>. Drive chain <b>30</b> and sprocket <b>32</b> may be configured to remain engaged with each other during operation of taxi drive system <b>24</b>, and, in some examples, when taxi drive system <b>24</b> is in both the first and second positions. For example, in some examples, drive chain <b>30</b> may be prevented from slipping off drive sprocket <b>32</b> by tension in the loop formed drive chain <b>30</b> around drive sprocket <b>32</b> and idler sprockets <b>40</b> (<figref idref="DRAWINGS">FIG. 2</figref>). In some examples, a second plate positioned on the other side of drive chain <b>30</b> from plate <b>26</b> may also prevent drive chain <b>30</b> from slipping out of engagement with drive sprocket <b>32</b> by sandwiching drive sprocket <b>32</b>, and drive chain <b>30</b>, between plate <b>26</b> and the second plate.</p>
+<p id="p-0039" num="0038">Spacers <b>34</b> may provide support and spacing to allow drive sprocket <b>32</b> and idler sprockets <b>40</b> to rotate between two plates <b>26</b>. In the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, spacers <b>34</b> guide drive chain <b>30</b> around drive sprocket <b>32</b> and idler sprockets <b>40</b> by pinching the sides of the loop formed by drive chain <b>30</b> inwards, forcing drive chain <b>30</b> to engage a larger portion of the circumference of drive sprocket <b>32</b> than would be engaged with a taut loop stretched from drive sprocket <b>32</b> to idler sprockets <b>40</b>. Increasing the portion of drive sprocket <b>32</b> engaged with drive chain <b>30</b> may reduce the amount of wear on drive sprocket <b>32</b> and drive chain <b>30</b> as well as decrease the incidence of slippage between drive sprocket <b>32</b> and drive chain <b>30</b>.</p>
+<p id="p-0040" num="0039">Drive chain <b>30</b> may be brought into and removed from engagement with driven sprocket <b>42</b>, i.e., moved between first and second positions. In the disengaged position (also referred to herein as the second position for ease of description), the teeth of driven sprocket <b>42</b> may not contact the engagement sites on the exterior of the loop formed by drive chain <b>30</b>. Drive chain <b>30</b> may move into the disengaged position by rotating or translating taxi drive system <b>24</b> as a unit by an actuation system. Similarly, drive chain <b>30</b> may be brought into engagement with driven sprocket <b>42</b> (moved to the first position) by translating or rotating taxi drive system <b>24</b> as unit until the teeth of driven sprocket <b>42</b> meshes with the exterior of the loop formed by drive chain <b>30</b>.</p>
+<p id="p-0041" num="0040">Actuator mount <b>36</b> provides a connection point for an actuation system, e.g., a hydraulic ram, electric ballscrew, or acme lead screw drive, that mechanically connects to taxi drive system <b>24</b>. Aircraft tires <b>12</b> may rotate at relatively high speeds during takeoff and landing of the aircraft, e.g., based on movement of the aircraft primarily or solely attributable to the main engines of the aircraft. Thus, at some points during operation of the aircraft, aircraft tires <b>12</b> may be driven by forces not generated by taxi drive system <b>24</b>. Transmission of the high rotating speeds to taxi drive system <b>24</b> may affect the integrity of the taxi drive system <b>24</b>, such as by causing drive chain <b>30</b> and drive sprocket <b>32</b> to rotate at relatively high speeds. To help reduce or even prevent transmission of high rotating speeds of aircraft tires <b>12</b>, e.g., during takeoff and landing of the aircraft, to taxi drive system <b>24</b>, taxi drive system <b>24</b> may be selectively engaged and removed from engagement (i.e., disengaged) with driven sprocket <b>42</b> and aircraft tires <b>12</b>.</p>
+<p id="p-0042" num="0041">In some examples, taxi drive system <b>24</b> is movable between a first position, in which drive chain <b>30</b> is engaged with driven sprocket <b>42</b>, and a second position, in which drive chain <b>30</b> is disengaged from driven sprocket <b>42</b>, by an actuator connected to actuator mount <b>36</b>. When drive chain <b>30</b> is disengaged from driven sprocket <b>42</b>, rotation of drive chain <b>30</b> by drive sprocket <b>32</b> is not translated to driven sprocket <b>42</b>, such that driven sprocket <b>42</b> does not rotate with drive chain <b>30</b>. In some examples, motor <b>28</b>, drive sprocket <b>32</b>, drive chain <b>30</b>, plate <b>26</b>, and idler sprockets <b>40</b> may be moved between the first and second positions as a single unit. For example, motor <b>28</b>, drive sprocket <b>32</b>, drive chain <b>30</b>, plate <b>26</b>, and idler sprockets <b>40</b> may have fixed positions relative to each other and may be movable relative to driven sprocket <b>42</b>. In other examples, only a part of taxi drive system <b>24</b> may be moved between the first and second positions, e.g., only plate <b>26</b> (and, therefore, drive chain <b>30</b> and drive sprocket <b>32</b>).</p>
+<p id="p-0043" num="0042">In some examples, taxi drive system <b>24</b> may pivot into and out of engagement with driven sprocket <b>42</b>. In the example shown in <figref idref="DRAWINGS">FIG. 1</figref>, force applied, for example by a hydraulic ram or other actuator (e.g., hydraulic ram <b>48</b> (<figref idref="DRAWINGS">FIG. 3</figref>) or an electric screw drive), at actuator mount <b>36</b> may cause taxi drive system <b>24</b> to rotate about a pivot, e.g., armature mount <b>38</b>, and engage or disengage with driven sprocket <b>42</b>. In some examples, actuator mount <b>36</b> may be located on the casing of motor <b>28</b>. In other examples, actuator mount <b>36</b> may be located on plate <b>26</b>. In other examples, taxi drive system <b>24</b> may be translated radially or linearly into and out of engagement with driven sprocket <b>42</b>. Instead, or in addition, taxi drive system <b>24</b> may be translated radially, e.g., translated along a radius of driven sprocket <b>42</b>, into or out of engagement.</p>
+<p id="p-0044" num="0043">Armature mount <b>38</b> provides a connection point for a support linking taxi drive system <b>24</b> to landing gear assembly <b>10</b>. Armature mount <b>38</b> may be configured to provide a pivot point about which taxi drive system <b>24</b> may be rotated between a first position, in which drive chain <b>30</b> is engaged with driven sprocket <b>42</b>, and a second position, in which drive chain <b>30</b> is disengaged from driven sprocket <b>42</b>, by an actuator connected to actuator mount <b>36</b>. In other examples, armature mount <b>38</b> may provide a connection between taxi drive system <b>24</b> and a linear bearing system, or other translation means, allowing taxi drive system <b>24</b> to be maneuvered into and out of engagement with driven sprocket <b>42</b>. In some examples, armature mount <b>38</b> may be located on the casing of motor <b>28</b>. In other examples, armature mount <b>38</b> may be located on plate <b>26</b>.</p>
+<p id="p-0045" num="0044">Landing gear assembly <b>10</b> may have other configurations in other examples. For example, landing gear assembly <b>10</b> can include other types of tire and hub arrangements, other axle arrangements, and the like. Taxi drive system <b>24</b> can be used with any suitable aircraft landing gear assembly <b>10</b>.</p>
+<p id="p-0046" num="0045"><figref idref="DRAWINGS">FIG. 2</figref> is a perspective diagram illustrating aircraft landing gear assembly <b>10</b>, with an aircraft tire <b>12</b> removed, and taxi drive system <b>24</b>. As shown in <figref idref="DRAWINGS">FIG. 2</figref> and described above with respect to <figref idref="DRAWINGS">FIG. 1</figref>, hub <b>20</b> supports aircraft tire <b>12</b>. Hub <b>20</b> may be mechanically connected to driven sprocket <b>42</b>, which is depicted in <figref idref="DRAWINGS">FIG. 2</figref> as being engaged with drive chain <b>30</b> (e.g., taxi drive system <b>24</b> is in the first position), causing hub <b>20</b> and aircraft tire <b>12</b> to rotate with driven sprocket <b>42</b>. Hub <b>20</b> may also be connected to an axle linking the pair of aircraft tires <b>12</b> and hubs <b>20</b>, e.g., through axle housing <b>22</b> (<figref idref="DRAWINGS">FIG. 3</figref>) at the base of piston <b>16</b>. Driven sprocket <b>42</b> may be mechanically connected to hub <b>20</b> using any suitable technique. In some examples, hub <b>20</b> and driven sprocket <b>42</b> are formed from a single, continuous material such that they are an integral piece of material. As an example, driven sprocket <b>42</b> may be machined as part of hub <b>20</b>. In other examples, driven sprocket <b>42</b> may be physically separate from hub <b>20</b> and mechanically connected to hub <b>20</b>, e.g., bolted or riveted to hub <b>20</b>, or connected to hub <b>20</b> via the axle supporting hub <b>20</b> and aircraft tires <b>12</b>. Other configurations are also contemplated.</p>
+<p id="p-0047" num="0046">Also shown in <figref idref="DRAWINGS">FIG. 2</figref> are idler sprockets <b>40</b>, which are mounted on plate <b>26</b>. Taxi drive system <b>24</b> can include one or more idler sprockets <b>40</b>. As discussed above with respect to <figref idref="DRAWINGS">FIG. 1</figref>, idler sprockets <b>40</b> are configured to engage with drive chain <b>30</b> to help maintain tension of drive chain <b>30</b> to allow driven sprocket <b>42</b> to engage drive chain <b>30</b>. In addition, idler sprockets <b>40</b> can help shape the loop formed by chain <b>30</b> and expand or shrink the loop of drive chain <b>30</b> to change the length of drive chain <b>30</b> that is configured to engage with driven sprocket <b>42</b>. In some cases, it may be desirable to maximize a length of drive chain <b>30</b> that engages with driven sprocket <b>42</b> may increase the life span of drive chain <b>30</b> and driven sprocket <b>42</b>, as well as reduce the possibility of drive chain <b>30</b> slipping out of engagement with driven sprocket <b>42</b>. In other cases, it may be desirable to reduce the length of drive chain <b>30</b> that engages with driven sprocket <b>42</b> in order to reduce the total size of taxi drive system <b>24</b> and may ease the engagement/disengagement of drive chain <b>30</b> with driven sprocket <b>42</b>. Idler sprockets <b>40</b> may rotate under the influence of drive sprocket <b>32</b> and drive chain <b>30</b>.</p>
+<p id="p-0048" num="0047">In the example depicted in <figref idref="DRAWINGS">FIG. 2</figref>, idler sprockets <b>40</b> are depicted positioned in a triangular arrangement with drive sprocket <b>32</b> at an apex and the base of the triangle oriented towards driven sprocket <b>42</b>. This arrangement may prevent drive chain <b>30</b> from impinging on itself as drive chain <b>30</b> flexes towards drive sprocket <b>32</b> when chain <b>30</b> is brought into engagement with driven sprocket <b>42</b>. In other examples, idler sprockets <b>40</b> may also be located at the position of spacers <b>34</b>, which may help shape the path the loop of drive chain <b>30</b> follows and increase the proportion of drive sprocket <b>32</b> engaged with drive chain <b>30</b>. In other examples, a single idler sprocket may be used to expand drive chain <b>30</b> to allow the exterior of drive chain <b>30</b> to be brought into engagement with driven sprocket <b>42</b>.</p>
+<p id="p-0049" num="0048">Idler sprockets <b>40</b> may be configured to translate to maintain tension in drive chain <b>30</b>, for example idler sprockets <b>40</b> may be mounted on a spring tensioned pivot arm (not shown). A minimum tension on drive chain <b>30</b> to prevent drive chain <b>30</b> from coming loose from idler sprockets <b>40</b> or drive sprocket <b>32</b> may be maintained. Other techniques can be used in addition to or instead of idler sprockets <b>40</b> in order to maintain contact between idler sprockets <b>40</b> and drive chain <b>30</b>. For example, a tooth size of idler sprockets <b>40</b> may be selected to enable idler sprockets <b>40</b> to maintain contact with drive chain <b>30</b>. In addition, or instead, a second plate <b>26</b> may sandwich drive chain <b>30</b> between a first plate <b>26</b> and help prevent disengagement with idler sprockets <b>40</b> and drive sprocket <b>32</b>.</p>
+<p id="p-0050" num="0049">Driven sprocket <b>42</b> is configured to transfer the mechanical output of motor <b>28</b>, transmitted via drive chain <b>30</b>, to aircraft tire <b>12</b>. In the example shown in <figref idref="DRAWINGS">FIG. 2</figref>, driven sprocket <b>42</b> is larger than drive sprocket <b>32</b>, which may increase the torque outputted to aircraft tires <b>12</b>. The size of driven sprocket <b>42</b> and driven sprocket <b>42</b> may be specific to the type of aircraft taxi drive system <b>24</b> is used with, and can be influenced by factors such as gear ratio, sprocket tooth stress, velocity limits for drive chain <b>30</b>, and access restrictions around existing equipment in landing gear assembly <b>10</b>. Driven sprocket <b>42</b> is depicted as equipped with a double row of teeth in <figref idref="DRAWINGS">FIG. 2</figref>. In other configurations, driven sprocket <b>42</b> may have one or more rows of teeth sized to engage with drive chain <b>30</b>. Drive chain <b>30</b> may flex during engagement with driven sprocket <b>42</b> to partially follow the curvature of driven sprocket <b>42</b>. By flexing to follow the curve of driven sprocket <b>42</b>, drive chain <b>30</b> may reduce the individual stress on the teeth of driven sprocket <b>42</b>, thereby helping to increase the life of driven sprocket <b>42</b> and reducing chances of slippage between driven sprocket <b>42</b> and drive chain <b>30</b>.</p>
+<p id="p-0051" num="0050">A taxi drive system <b>24</b> equipped with drive chain <b>30</b> that is configured to engage with driven sprocket <b>42</b> may be advantageous over some geared drive systems in which two sprockets engage with each other to transfer mechanical output from a motor to aircraft tire <b>12</b>. For example, the gear drive systems may require tighter tolerances in spacing of the teeth between gears than a drive chain-sprocket mesh requires, which may require the control of the gear drive system to be more precise (e.g., thereby increasing the cost of the taxi drive system). Further, the gear drive systems may require more extensive lubrication and contaminant protections than system <b>24</b> including drive chain <b>30</b>. In addition, because drive chain <b>30</b> is relatively flexible relative to driven sprocket <b>42</b>, the amount of wear to drive chain <b>30</b> and driven sprocket <b>42</b> due to relative motion between drive chain <b>30</b> and driven sprocket <b>42</b> during operation of the taxi drive system may be reduced relative to the amount of wear between two sprockets that more directly engage with each other (e.g., by meshing teeth).</p>
+<p id="p-0052" num="0051"><figref idref="DRAWINGS">FIG. 3</figref> is a cutaway diagram illustrating an aircraft landing gear assembly <b>10</b> equipped with a taxi drive system <b>24</b>. Taxi drive system <b>24</b> is equipped with an armature system <b>44</b>, which supports taxi drive system <b>24</b> and allows taxi drive system <b>24</b> to be moved between the first and second positions. In the example shown in <figref idref="DRAWINGS">FIG. 3</figref>, armature system <b>44</b> comprises armature <b>46</b>, hydraulic ram <b>48</b>, piston mount <b>50</b>, axle mount <b>52</b>, and front support <b>54</b>. Taxi drive system <b>24</b> is depicted as being connected to armature system <b>44</b> via armature mount <b>38</b> as a pivot. In other examples, taxi drive system <b>24</b> may be slidably connected to armature system <b>44</b> such that taxi drive system <b>24</b> can be linearly moved between the first and second position, or armature system <b>44</b> may radially translate taxi drive system <b>24</b> towards and away from driven sprocket <b>42</b>. The pivot and radial translation may require less room for movement of taxi drive system <b>24</b> than the linear system.</p>
+<p id="p-0053" num="0052">Landing gear assembly <b>10</b> may comprise an axle housing <b>22</b> located at the base of piston <b>16</b>. Axle housing <b>22</b> may support an axle (not shown) connecting aircraft tires <b>12</b> via respective hubs <b>20</b>. Torque arm <b>18</b>, depicted partially cutaway in <figref idref="DRAWINGS">FIG. 3</figref>, may connect cylinder <b>14</b> (<figref idref="DRAWINGS">FIG. 1</figref>) to the base of piston <b>16</b> and axle housing <b>22</b>, preventing the rotation of piston <b>16</b> in cylinder <b>14</b> while allowing piston <b>16</b> to retract into cylinder <b>14</b> during landing. The joint between the upper and lower sections (<b>18</b>A and <b>18</b>B respectively) of torque arm <b>18</b> is visible in <figref idref="DRAWINGS">FIG. 3</figref>. The lower section of torque arm <b>18</b> is depicted in <figref idref="DRAWINGS">FIG. 3</figref> as pivotably connected to axle housing <b>22</b>. In other embodiments, torque arm <b>18</b> may be connected to other locations on piston <b>16</b>.</p>
+<p id="p-0054" num="0053">Taxi drive system <b>24</b> is in the first position in <figref idref="DRAWINGS">FIG. 3</figref>, in which drive chain <b>30</b> is engaged with driven sprocket <b>42</b> in <figref idref="DRAWINGS">FIG. 3</figref>. Armature <b>46</b> may comprise one or more rigid members extending below axle housing <b>22</b> and piston <b>16</b> to provide support for taxi drive system <b>24</b>. Taxi drive system <b>24</b> and armature <b>46</b> may be pivotably connected via armature mount <b>38</b>. In other examples, armature <b>46</b> may comprise a linkage allowing armature <b>46</b> to extend and retract, translating taxi drive system <b>24</b> radially into and out of engagement with driven sprocket <b>42</b>. In further examples, taxi drive system <b>24</b> may be slidably connected to armature <b>46</b>, allowing taxi drive system <b>24</b> to be translated radially or linearly into and out of engagement with driven sprocket <b>42</b> (e.g., between the first and second positions).</p>
+<p id="p-0055" num="0054">Armature <b>46</b> may be rigidly coupled to landing gear assembly <b>10</b>. As depicted in <figref idref="DRAWINGS">FIG. 3</figref>, armature <b>46</b> may be connected to piston <b>16</b> via piston mount <b>50</b> and axle mount <b>52</b>. By coupling armature <b>46</b> to landing gear assembly <b>10</b>, armature <b>46</b> and taxi drive system <b>24</b> may be retrofitted onto existing aircraft landing gear <b>10</b> without requiring modification to the size and other components of aircraft landing gear <b>10</b>.</p>
+<p id="p-0056" num="0055">In examples in which taxi drive system <b>24</b> pivots between the first and second positions, hydraulic ram <b>48</b> may provide the force that causes taxi drive system <b>24</b> to pivot between the first and second positions, into and out of engagement with driven sprocket <b>42</b>. Hydraulic ram <b>48</b> may comprise actuator cylinder <b>48</b>A and actuator piston <b>48</b>B. Hydraulic ram <b>48</b> may be pivotably connected to armature <b>46</b> and actuator mount <b>36</b>. In other configurations hydraulic ram <b>48</b> may be pivotably connected to front support <b>54</b>. In some examples, hydraulic ram <b>48</b> may comprise a double acting hydraulic actuator. Hydraulic fluid may be routed through feed lines located on, for example, landing gear assembly <b>10</b> and connected to the hydraulic system of the aircraft. In other examples, another suitable mechanism in addition to or instead of hydraulic ram <b>48</b> can be used to pivot taxi drive system <b>24</b> between the first and second positions. For example, a pneumatic piston or an electric drive actuator, such as an electric ballscrew or acme lead screw drive, can be used to pivot taxi drive system <b>24</b> between the first and second positions.</p>
+<p id="p-0057" num="0056">Piston mount <b>50</b> is configured to couple armature assembly <b>30</b> to landing gear assembly <b>10</b> so that taxi drive system <b>24</b> is supported. Piston mount <b>50</b> may comprise a collar bolted around or otherwise attached to piston <b>16</b> above axle housing <b>22</b>. Piston mount <b>50</b> may comprise two sections bolted or welded together, allowing piston mount <b>50</b> to be retrofitted onto existing landing gear assemblies. Piston mount <b>50</b> may connect to armature <b>46</b> via front support <b>54</b>, providing support for armature <b>46</b> under the weight of taxi drive system <b>24</b> and torque loads resulting from rotating driven sprocket <b>42</b> and aircraft tires <b>12</b>.</p>
+<p id="p-0058" num="0057">Axle mount <b>52</b> is configured to provide additional support to armature assembly <b>30</b> and taxi drive system <b>24</b>, mechanically coupling armature assembly <b>30</b> to landing gear assembly <b>10</b> and helping to prevent or control motion of armature assembly <b>30</b>. Axle mount <b>52</b> may be mechanically coupled to axle housing <b>22</b> and extend a rigid member radially away from axle housing <b>22</b> to connect to armature <b>46</b>. In some examples, axle mount <b>52</b> may be rigidly connected to landing gear assembly <b>10</b>. In other examples, axle mount <b>52</b> may be pivotably coupled to both armature <b>46</b> and axle housing <b>22</b>. Pivotably coupling axle mount <b>52</b> to axle housing <b>22</b> may allow axle mount <b>52</b> to rotate and move armature <b>46</b>, resulting in taxi drive system <b>24</b> being translated into and out of engagement with driven sprocket <b>42</b>.</p>
+<p id="p-0059" num="0058">Front support <b>54</b> is configured to support armature <b>46</b> by linking armature <b>46</b> to piston mount <b>50</b>. Front support <b>54</b> may comprise a rigid member connecting piston mount <b>50</b> and armature <b>46</b>. Front support <b>54</b> may be rigidly connected to piston mount <b>50</b> and armature <b>46</b>, providing support to armature <b>46</b> and taxi drive system <b>24</b>. In some examples, front support <b>54</b> may be manufactured as part of armature <b>46</b>. In addition, in some examples, front support <b>54</b> may be pivotably connected to armature <b>46</b> and piston mount <b>50</b>, allowing armature <b>46</b> to translate taxi drive system <b>24</b> into and out of engagement with driven sprocket <b>42</b>. Front support <b>54</b> may provide a mounting point for hydraulic ram <b>48</b>.</p>
+<p id="p-0060" num="0059"><figref idref="DRAWINGS">FIG. 4</figref> is a perspective diagram illustrating aircraft landing gear assembly <b>10</b> and taxi drive system <b>24</b>. One aircraft tire <b>12</b> of landing gear assembly <b>10</b> is not shown in <figref idref="DRAWINGS">FIG. 4</figref>, exposing taxi drive system <b>24</b> and armature system <b>44</b>. In the example shown in <figref idref="DRAWINGS">FIG. 4</figref>, taxi drive system <b>24</b> is in the first position, such that drive chain <b>30</b> is engaged with driven sprocket <b>42</b>.</p>
+<p id="p-0061" num="0060">As depicted in <figref idref="DRAWINGS">FIG. 4</figref>, some examples of armature system <b>44</b> may comprise one or more frames and bracings to increase the strength and stability of armature system <b>44</b> while minimizing weight. Armature system <b>44</b> may comprise armature <b>46</b>, hydraulic ram <b>48</b>, and axle mount <b>52</b>. Piston mount <b>50</b> (<figref idref="DRAWINGS">FIG. 3</figref>) and front support <b>54</b> (<figref idref="DRAWINGS">FIG. 3</figref>) are not visible in <figref idref="DRAWINGS">FIG. 4</figref>. As shown in <figref idref="DRAWINGS">FIG. 4</figref>, armature <b>46</b> may comprise one or more rigid members <b>46</b>A connected to axle mount <b>52</b> and armature mount <b>38</b>. Armature <b>46</b> may further comprise bracing members <b>46</b>B which form a frame with rigid members <b>46</b>A, and may prevent armature <b>46</b> from flexing under the weight and torque of taxi drive system <b>24</b>. The frames formed by one or more rigid members <b>46</b>A and <b>46</b>B may be connected together. Armature <b>46</b> may mechanically connect to, or be manufactured including, front support <b>54</b>. Front support <b>54</b> may mechanically connect armature <b>46</b> to piston mount <b>50</b>. Piston mount <b>50</b> may be bolted or otherwise mechanically connected to piston <b>16</b> or axle housing <b>22</b>, linking armature <b>46</b> to landing gear assembly <b>10</b>. Axle mount <b>52</b> may be coupled to axle housing <b>22</b> and provide further support for armature <b>46</b>. Hydraulic ram <b>48</b>, or another actuator type, may be mechanically coupled to piston mount <b>16</b>, armature <b>46</b>, or front support <b>54</b>, and may be configured to apply a force at actuator mount <b>36</b> that causes taxi drive system <b>24</b> to move between the first and second positions.</p>
+<p id="p-0062" num="0061"><figref idref="DRAWINGS">FIGS. 5A and 5B</figref> are cutaway diagrams illustrating taxi drive system <b>24</b> in the first position, in which drive chain <b>30</b> is engaged with driven sprocket <b>42</b> that is mechanically connected to hub <b>20</b>. <figref idref="DRAWINGS">FIG. 5A</figref> depicts taxi drive system <b>24</b> and armature system <b>44</b>, with landing gear assembly <b>10</b> removed, as viewed from the interior of the landing gear. Taxi drive system <b>24</b> is engaged with driven sprocket <b>42</b> and may transfer torque to aircraft wheel <b>12</b> to allow an aircraft to taxi.</p>
+<p id="p-0063" num="0062">In <figref idref="DRAWINGS">FIG. 5A</figref>, taxi drive system <b>24</b> is shown in the first (engaged) position. In the first position of taxi drive system <b>24</b>, the teeth of driven sprocket <b>42</b> mesh with drive chain <b>30</b> and drive chain <b>30</b> pulls against the teeth of driven sprocket <b>42</b>. To move system <b>24</b> into the first position by bringing drive chain <b>30</b> into engagement with driven sprocket <b>42</b>, hydraulic ram <b>48</b> may retract and pull taxi drive system <b>24</b> from the second (disengaged) position to the first position.</p>
+<p id="p-0064" num="0063"><figref idref="DRAWINGS">FIG. 5B</figref> depicts taxi drive system <b>24</b> in the first position, in which drive chain <b>30</b> is engaged position with driven sprocket <b>42</b>. An aircraft tire <b>12</b> is removed to better show the workings of taxi drive system <b>24</b>. The perspective of the diagram is from the exterior of the landing gear system and in a direction substantially parallel to the axis of rotation of wheel <b>12</b>.</p>
+<p id="p-0065" num="0064">In some examples, taxi drive system <b>24</b> may be rotated into engagement with driven sprocket <b>42</b>. For example, taxi drive system <b>24</b> may pivot about armature mount <b>38</b> as force from hydraulic ram <b>48</b> is applied. In other configurations, taxi drive system <b>24</b> may be translated into and out of the first and second positions. In some examples, armature system <b>44</b> may comprise a linear bearing or bale that, when actuated, retracts, pulling drive system <b>24</b> into contact with driven sprocket <b>42</b>, such that drive chain <b>30</b> meshes with driven sprocket <b>42</b>. In addition, or alternatively, axle mount <b>52</b> may be pivotably coupled to armature <b>46</b> and axle housing <b>22</b>. As axle mount <b>52</b> rotates away from taxi drive system <b>24</b>, armature <b>46</b> is pulled towards landing gear assembly <b>10</b> and brings taxi drive system <b>24</b> towards driven sprocket <b>42</b>. Front support <b>54</b> may be pivotably coupled armature <b>46</b> and piston mount <b>50</b>, supporting armature <b>46</b> while allowing armature <b>46</b> to translate under influence of axle mount <b>52</b>. Taxi drive system <b>24</b> may be rigidly coupled to armature <b>46</b>, as the motion of armature <b>46</b> may be sufficient to bring taxi drive system <b>24</b> into engagement. A brace extending, for example, between actuator mount <b>36</b> and armature <b>46</b> or front support <b>54</b> may further support taxi drive system <b>24</b>.</p>
+<p id="p-0066" num="0065">As discussed in further detail below, in some examples, prior to being moved into the first position, taxi drive system <b>24</b> may be activated to rotate drive chain <b>30</b>, such that drive chain <b>30</b> is rotating when it is brought into engagement with driven sprocket <b>42</b>. This may help reduce wear on drive chain <b>30</b> during engagement.</p>
+<p id="p-0067" num="0066">In some examples, idler sprockets <b>40</b> or spacers <b>34</b> may be movable to maintain a constant tension in drive chain <b>30</b>. By using movable spacers <b>34</b> or idler sprockets <b>40</b> drive chain <b>30</b> may be installed in taxi drive system <b>24</b> with some slack. In the first (engaged) position, the slack in the loop formed by drive chain <b>30</b> is taken up by driven sprocket <b>42</b> impinging on the loop. By allowing drive chain <b>30</b> to conform to a portion of the curve of driven sprocket <b>42</b>, the contact area and number of teeth of driven sprocket <b>42</b> engaged with drive chain <b>30</b> may increase, which may help reduce wear on drive chain <b>30</b> and driven sprocket <b>42</b>. As taxi drive system <b>24</b> is disengaged, the slack in drive chain <b>30</b> may be taken up by movable idler sprockets <b>40</b> or spacers <b>34</b>.</p>
+<p id="p-0068" num="0067"><figref idref="DRAWINGS">FIGS. 6A and 6B</figref> are cutaway diagrams illustrating a taxi drive system <b>24</b> in the second position. <figref idref="DRAWINGS">FIG. 6A</figref> depicts taxi drive system <b>24</b> in the second position. The perspective of <figref idref="DRAWINGS">FIG. 6B</figref> is substantially similar to that of <figref idref="DRAWINGS">FIG. 5B</figref>. An aircraft tire <b>12</b> is removed from <figref idref="DRAWINGS">FIGS. 6A and 6B</figref> to better show the workings of taxi drive system <b>24</b>.</p>
+<p id="p-0069" num="0068">In the disengaged position, as shown in <figref idref="DRAWINGS">FIG. 6A</figref>, driven sprocket <b>42</b> and aircraft tires <b>12</b> rotate without influence from the influence of taxi drive system <b>24</b>. The teeth of driven sprocket <b>42</b> do not mesh with drive chain <b>30</b>. To move system <b>24</b> from the first position and into the second, hydraulic ram <b>48</b> may extend and push taxi drive system <b>24</b> into the second (disengaged) position from the first position. This may help limit or even eliminate the transfer of high rotational speeds of aircraft tires <b>12</b> (e.g., during takeoff and landing) to taxi drive system <b>24</b>.</p>
+<p id="p-0070" num="0069">In other examples, taxi drive system <b>24</b> may be translated out of engagement with driven sprocket <b>42</b>. For example, axle mount <b>52</b> may be pivotably coupled to axle housing <b>22</b> and armature <b>46</b>. As axle mount <b>52</b> rotates towards taxi drive system <b>24</b>, armature <b>46</b> may be forced to translate away from landing gear assembly <b>10</b> and move taxi drive system <b>24</b> out of engagement with driven sprocket <b>42</b>. In other examples, armature <b>46</b> may comprise one or more linear bearings or bales that may extend and remove taxi drive system <b>24</b> from engagement with driven sprocket <b>42</b>.</p>
+<p id="p-0071" num="0070">Because a force is no longer applied against drive chain <b>30</b> by driven sprocket <b>42</b> when taxi drive system <b>24</b> is in the second (disengaged) position, the loop formed by drive chain <b>30</b> may straighten at the site of the former engagement with driven sprocket <b>42</b>, as shown in <figref idref="DRAWINGS">FIG. 6B</figref>. Tension in drive chain <b>30</b> may be maintained by idler sprockets <b>40</b> or spacers <b>34</b>. For example, spacers <b>34</b> or idler sprockets <b>40</b> may shift to maintain tension. As an example, spacers <b>34</b> may be mounted on a pivot arm such that spacers <b>34</b> shift inwards, pinching drive chain <b>30</b> around drive sprocket <b>32</b>, extending the path drive chain <b>30</b> travels around drive sprocket <b>32</b> and idler sprockets <b>40</b>. In addition or instead, idler sprockets <b>40</b> may translate outwards, extending the distance between idler sprockets <b>40</b> and drive sprocket <b>32</b>. In the disengaged position, driven sprocket <b>42</b> and aircraft tires <b>12</b> are free to rotate without interference from taxi drive system <b>24</b>.</p>
+<p id="p-0072" num="0071"><figref idref="DRAWINGS">FIG. 7</figref> is a schematic functional block diagram illustrating an example taxi drive controller <b>56</b>, which is configured to control the operation of taxi drive system <b>24</b>. Taxi drive controller can be located on an aircraft that includes taxi drive system <b>24</b>, and may, for example, be implemented as part of the flight control hardware, software, firmware, firmware or stand-alone cockpit interface/controller hardware, firmware, hardware, or any combination thereof. In the example shown in <figref idref="DRAWINGS">FIG. 7</figref>, taxi drive controller <b>56</b> comprises processor <b>62</b>, actuator controller <b>64</b>, and motor controller <b>66</b>. As shown in <figref idref="DRAWINGS">FIG. 7</figref>, taxi drive controller <b>56</b> can be configured to receive user input via user interface <b>58</b> and signals from speed sensor <b>60</b> and output commands to hydraulic ram <b>48</b> (or other actuator) and motor <b>28</b> to control ram <b>48</b> and motor <b>28</b>.</p>
+<p id="p-0073" num="0072">Taxi drive controller <b>56</b> comprises any suitable arrangement of hardware, alone or in combination with software and/or firmware, to perform the techniques attributed to taxi drive controller <b>56</b> and taxi drive system <b>24</b>. In various examples, taxi drive controller <b>56</b> can include any one or more microprocessors, digital signal processors (DSPs), application specific integrated circuits (ASICs), field programmable gate arrays (FPGAs), or any other equivalent integrated or discrete logic circuitry, as well as any combinations of such components. Although not shown in <figref idref="DRAWINGS">FIG. 7</figref>, taxi drive system <b>24</b> may also include a memory, which include any volatile or non-volatile media, such as a random access memory (RAM), read only memory (ROM), non-volatile RAM (NVRAM), electrically erasable programmable ROM (EEPROM), flash memory, and the like. The memory may store instructions for execution by taxi drive controller <b>56</b> that cause taxi drive controller <b>56</b> to perform the techniques attributed to taxi drive controller <b>56</b> herein. Although processor <b>62</b>, actuator controller <b>64</b>, and motor controller <b>66</b> are described and illustrated as separate modules of taxi drive controller <b>56</b>, in some examples, processor <b>62</b>, actuator controller <b>64</b>, and motor controller <b>66</b> can be functionally integrated. In some examples, processor <b>62</b>, actuator controller <b>64</b>, and motor controller <b>66</b> correspond to individual hardware units, such as ASICs, DSPs, FPGAs, or other hardware units.</p>
+<p id="p-0074" num="0073">Taxi drive controller <b>56</b> is configured to receive user input via user interface <b>58</b> via wired or wireless communication. User interface <b>58</b>, may be, for example, onboard the aircraft (e.g., in a cockpit of the aircraft) or remotely located. User interface <b>64</b> may include, for example, input buttons and/or a keypad and a display (e.g., a cathode ray tube (CRT) display, a liquid crystal display (LCD) or light emitting diode (LED) display). The keypad may take the form of an alphanumeric keypad or a reduced set of keys associated with particular functions. User interface <b>58</b> can additionally or alternatively include a peripheral pointing device, such as a mouse, via which a user may interact with user interface <b>58</b>. Other examples of user input mechanism of user interface <b>58</b> include, but are not limited to, a joystick, a switch, a throttle, or a steering wheel/yoke inputs. In some examples, a display of user interface <b>58</b> may include a touch screen display, and a user may interact with controller <b>56</b> via the display.</p>
+<p id="p-0075" num="0074">User interface <b>58</b> is configured to receive input from a user, such as a pilot or crew of the aircraft, indicating various inputs for controlling taxi drive system <b>24</b>. User interface <b>58</b> may provide the input to processor <b>62</b> of taxi drive controller <b>56</b> as, for example, electrical or optical signals. The user input can indicate, for example, a desired rotational speed of aircraft tires <b>12</b>, allowing the user to control the speed of the taxiing aircraft via taxi drive system <b>24</b>, or directional input, allowing the user to control the direction of the taxiing aircraft via taxi drive system <b>24</b>, e.g., via differential steering using multiple taxi drive systems <b>24</b>.</p>
+<p id="p-0076" num="0075">The user input received by processor <b>62</b> of controller <b>56</b> via user interface <b>58</b> may also comprise input indicating whether taxi drive system <b>24</b> should be moved to the first or second positions (e.g., input indicating whether taxiing of the aircraft is desirable). Thus, as shown in <figref idref="DRAWINGS">FIG. 7</figref>, in some examples, processor <b>62</b> can control actuator controller <b>64</b> to control hydraulic ram <b>48</b> (or another mechanism in other examples) to move taxi drive system <b>24</b> between the first and second positions, depending on the received user input.</p>
+<p id="p-0077" num="0076">Taxi drive controller <b>56</b> is also configured to receive input from speed sensor <b>60</b>, which may be configured to generate a signal indicative of the rotation rate of driven sprocket <b>42</b>. Speed sensor <b>60</b> may, for example, directly measure the rotation rate of driven sprocket <b>42</b> or may measure the rotation rate of a component connected to driven sprocket <b>42</b>, such as hub <b>20</b>, aircraft tire <b>12</b>, or the axle supporting hub <b>20</b>. In other examples, speed sensor <b>60</b> may measure the velocity of the aircraft. Speed sensor <b>60</b> may be included in taxi drive system <b>24</b> or the output from an existing wheel speed sensor in landing gear assembly <b>10</b> of the aircraft may be used. Processor <b>62</b> may receive the signal from speed sensor <b>60</b> and determine the rotation rate of driven sprocket <b>42</b> and the rotation rate of motor <b>28</b> that enables drive chain <b>30</b> to match the cross-radial velocity of driven sprocket <b>42</b>.</p>
+<p id="p-0078" num="0077">Processor <b>62</b> of taxi drive controller <b>56</b> is configured to control motor <b>28</b> via motor controller <b>66</b>. Motor <b>28</b> can be controlled, for example, to control the speed of taxiing of the aircraft. Thus, processor <b>62</b> can control motor controller <b>66</b> in some examples in response to user input received via user interface <b>58</b>, where the user input may request an increase or decrease in speed of the taxiing aircraft. In some examples, processor <b>62</b> may determine the appropriate rotation rate of motor <b>28</b> based on the user input and control motor controller <b>66</b> to control motor <b>28</b> via the voltage supplied to motor <b>28</b>, or by actuating a throttle or selecting a gear ratio of motor <b>28</b> or a transmission/gearbox incorporated into motor <b>28</b>. In order to determine the appropriate rotation rate of motor <b>28</b>, processor <b>62</b> may, for example, reference a look-up table or another data structure that associates a plurality of aircraft taxiing speeds with respective rotation rates of motor <b>28</b>.</p>
+<p id="p-0079" num="0078">In some examples, processor <b>62</b> is configured to move taxi drive system <b>24</b> between the first and second positions in response to user input received via user interface <b>58</b>. In other examples, processor <b>62</b> is configured to automatically move taxi drive system <b>24</b> between the first and second positions in response to a detected condition. For example, processor <b>62</b> can control actuator controller <b>64</b> to move aircraft taxi system <b>24</b> from the first position to the second position in response to detecting an aircraft speed greater than or equal to a stored threshold. The aircraft speed can be determined, for example, based on the signal generated by speed sensor <b>60</b>. As another example, processor <b>62</b> can control actuator controller <b>64</b> to move aircraft taxi system <b>24</b> from the second position to the first position in response to detecting an aircraft speed less than or equal to a stored threshold.</p>
+<p id="p-0080" num="0079">Taxi drive controller <b>56</b> can be configured to control multiple taxi drive systems <b>24</b> of an aircraft, which can be installed on multiple landing gear assemblies, e.g., on the main landing gear of an aircraft. For example, processor <b>62</b> can independently control the rotation rates of the motors <b>28</b> of each of the taxi drive systems, thereby allowing the aircraft to be steered using the differential in rotation rates. In some examples, processor <b>62</b> can control into rotation rates for multiple taxi drive systems in order to steer the aircraft and taxi the aircraft at the speed, e.g., indicated by the user input based on user input received via user interface <b>58</b>. Processor <b>62</b> can control the rotation rate of motor <b>28</b> (or multiple motors of respective taxi drive systems <b>24</b>), and, therefore, the speed of the aircraft during taxiing, thereby allowing the speed of the aircraft during taxi to be controlled without reliance on aircraft friction brake systems, although the friction brake system could also be used.</p>
+<p id="p-0081" num="0080"><figref idref="DRAWINGS">FIG. 8</figref> is a flow diagram illustrating an example method of operation of taxi drive system <b>24</b>. The method shown in <figref idref="DRAWINGS">FIG. 8</figref> includes rotating drive chain <b>30</b>, e.g., to a speed that is based on a rotation of aircraft tire <b>12</b> (<b>80</b>), engaging taxi drive system <b>24</b> (<b>82</b>), taxiing aircraft (<b>84</b>), and disengaging taxi drive system <b>24</b> (<b>86</b>). Engaging or disengaging taxi drive system <b>24</b> (<b>82</b>, <b>86</b>, respectively) may comprise pivoting taxi drive system <b>24</b> or translating taxi drive system <b>24</b>.</p>
+<p id="p-0082" num="0081">In the example shown in <figref idref="DRAWINGS">FIG. 8</figref>, drive chain <b>30</b> can be rotated prior to engaging drive chain <b>30</b> with driven sprocket <b>42</b> (<b>80</b>). As discussed above, this may help reduce wear of drive chain <b>30</b> and/or driven sprocket <b>42</b> attributable to the friction between drive chain <b>30</b> and driven sprocket <b>42</b> as they are brought into engagement with each other. Processor <b>62</b> of taxi drive controller <b>56</b> can, for example, control motor controller <b>66</b> to rotate drive chain <b>30</b> to a speed that is based on a speed of aircraft tire <b>12</b>, and, in some examples, is substantially equal to or equal to the speed of the aircraft tire <b>12</b>. An example taxi drive system <b>24</b> may match the rotation rate of aircraft tire <b>12</b> within 10 revolutions per minute (rpm) or approximately 10 rpm. The disengaged drive chain <b>30</b> may be rotated at a slightly greater speed than driven sprocket <b>42</b> if aircraft tire <b>12</b> is rotating during engagement. The speed of the aircraft wheel can be determined using any suitable technique. In some examples, speed sensor <b>60</b> (<figref idref="DRAWINGS">FIG. 7</figref>) may be positioned to measure the rotation rate of aircraft tire <b>12</b>, hub <b>20</b>, or driven sprocket <b>42</b>, while in other examples, existing wheel speed sensors aboard the aircraft may be used to monitor the rotation rate of aircraft tire <b>12</b>, hub <b>20</b>, or driven sprocket <b>42</b>. Taxi drive controller <b>56</b> (<figref idref="DRAWINGS">FIG. 7</figref>) may receive the output of speed sensor <b>60</b> to determine the cross-radial velocity of the teeth of driven sprocket <b>42</b> based on the radius and the angular velocity/rotational frequency of driven sprocket <b>42</b>. Taxi drive controller <b>56</b> may then control motor <b>28</b> and drive chain <b>30</b> based on the determined speed, e.g., to substantially match or match the cross-radial velocity of the teeth of driven sprocket <b>42</b>.</p>
+<p id="p-0083" num="0082">One method of determining the rotation rate of drive sprocket <b>32</b> that may produce the velocity of drive chain <b>30</b> that matches the cross-radial velocity of driven sprocket <b>42</b> is to use the ratio of radius of driven sprocket <b>42</b> to drive sprocket <b>32</b> multiplied by the rotational frequency of driven sprocket <b>42</b>. These calculations may be performed automatically by taxi drive controller <b>56</b> (e.g., processor <b>62</b> or another component) of taxi drive system <b>24</b> or the avionics of the aircraft. Upon determining a rotational rate for taxi drive system <b>24</b>, the determined rotational rate may be used by taxi drive controller <b>56</b> to control motor controller <b>66</b> to accelerate motor <b>28</b> to the selected rotational rate before bringing taxi drive system <b>24</b> into engagement with driven sprocket <b>42</b>.</p>
+<p id="p-0084" num="0083">In some examples, engaging taxi drive system <b>24</b> (<b>82</b>), i.e., moving taxi drive system to the first position, may comprise pivoting taxi drive system <b>24</b> into engagement with driven sprocket <b>42</b>. Processor <b>62</b> of taxi drive controller <b>56</b> may, for example, control actuator controller <b>64</b> (<figref idref="DRAWINGS">FIG. 7</figref>) to control hydraulic ram <b>48</b> (<figref idref="DRAWINGS">FIGS. 3 and 7</figref>) to pivot taxi drive system <b>24</b> to the first position. Hydraulic ram <b>78</b> may be pivotably coupled to actuator mount <b>36</b> and armature <b>46</b> or front support <b>54</b>. By retracting hydraulic ram <b>48</b>, taxi drive system <b>24</b> may be pulled about armature mount <b>38</b> and into engagement with driven sprocket <b>42</b>. Actuators that can be used instead of, or in addition to, hydraulic ram <b>48</b> include, but are not limited to, pneumatic pistons and electric drives, such as a ballscrew or acme lead screw drive. Pneumatic pistons may operate in a similar manner to hydraulic ram <b>48</b>, using a double action cylinder to retract a piston and pull taxi drive system <b>24</b> into engagement. Electric screw drives may comprise a threaded rod and a threaded engagement device (e.g., a nut). Either the threaded rod or the threaded engagement device may be connected to taxi drive system <b>24</b>. A motor may rotate the threaded rod or threaded engagement device. As the threaded rod or threaded engagement device rotates, the interaction of the threading produces a force that may pull taxi drive system <b>24</b> into the first position, such that drive chain <b>30</b> is engaged with driven sprocket <b>42</b>.</p>
+<p id="p-0085" num="0084">In other examples, taxi drive controller <b>56</b> can engage taxi drive system <b>24</b> (<b>82</b>) by at least translating taxi drive system <b>24</b> into engagement with driven sprocket <b>42</b>. For example, armature <b>46</b> (<figref idref="DRAWINGS">FIG. 3</figref>) may support or comprise a linear bearing system or other device configured to pull taxi drive system radially from a disengaged position into engagement with driven sprocket <b>42</b>, and processor <b>62</b> of taxi drive controller <b>56</b> can control actuator controller <b>64</b> to move armature <b>46</b> in order to engage drive chain <b>30</b> with driven sprocket <b>42</b>. In other examples, armature <b>46</b> may be pivotably connected to front support <b>54</b> (<figref idref="DRAWINGS">FIG. 3</figref>) and axle mount <b>52</b> (<figref idref="DRAWINGS">FIG. 3</figref>). Front support <b>54</b> may be pivotably connected to piston mount <b>50</b> (<figref idref="DRAWINGS">FIG. 3</figref>). A hydraulic actuator or motor may rotate axle mount <b>52</b> causing armature <b>46</b> to be pulled back, bring taxi drive system <b>24</b> into engagement with driven sprocket <b>42</b>.</p>
+<p id="p-0086" num="0085">After engagement with driven sprocket <b>42</b>, taxi drive system <b>24</b> may be used to taxi the aircraft (<b>84</b>). Under the control of processor <b>62</b>, motor controller <b>66</b> can control motor <b>28</b> (<figref idref="DRAWINGS">FIG. 2</figref>) to rotate drive sprocket <b>32</b>, driving drive chain <b>30</b> and rotating driven sprocket <b>42</b>. Driven sprocket <b>42</b> may be connected to hub <b>20</b> (<figref idref="DRAWINGS">FIG. 1</figref>), causing aircraft tire <b>12</b> to rotate with driven sprocket <b>42</b>. Motor controller <b>66</b> of taxi drive controller <b>56</b> (<figref idref="DRAWINGS">FIG. 7</figref>) may control motor <b>28</b> to generate a rotational rate determined, e.g., based on user input received via user interface <b>58</b> from a user (e.g., a pilot) regarding the desired speed of taxiing of the aircraft. Motor <b>28</b> may be equipped with a transmission or gear box. A transmission system may allow the gear ratio between drive sprocket <b>32</b> and motor <b>28</b> to be adjusted, which can adjust the rotational rate of motor <b>28</b>.</p>
+<p id="p-0087" num="0086">In preparation for takeoff, landing, or when idle, taxi drive controller <b>56</b> can control taxi drive system <b>24</b> to be disengaged (<b>86</b>), i.e., moved to the second position. Disengagement may be controlled by actuator controller <b>64</b> of taxi drive controller <b>56</b> (<figref idref="DRAWINGS">FIG. 7</figref>) and may occur automatically or in response to user input <b>58</b>. In some examples, processor <b>62</b> may control actuator controller <b>64</b> to disengage taxi drive system <b>24</b> by at least pivoting taxi drive system <b>24</b> out of engagement with driven sprocket <b>42</b>. In one example, hydraulic ram <b>48</b> may extend, pushing taxi drive system <b>24</b> around armature mount <b>38</b> and clear of the teeth of driven sprocket <b>42</b>. In the disengaged position aircraft tires <b>12</b> may rotate free of interaction with taxi drive system <b>24</b>. Other configurations may use a pneumatic piston or electric screw drive in place of hydraulic ram <b>48</b>.</p>
+<p id="p-0088" num="0087">In other examples, processor <b>62</b> may control actuator controller <b>64</b> to disengage taxi drive system <b>24</b> (<b>86</b>) by at least translating taxi drive system <b>24</b> out of engagement with driven sprocket <b>42</b>. Armature <b>46</b> may support one or more hydraulic pistons, pneumatic rams, linear bearings, or similar devices configured to push taxi drive system <b>24</b> radially out of engagement with driven sprocket <b>42</b>. Other examples may comprise rotating axle mount <b>52</b> to drive armature <b>46</b> towards taxi drive system <b>24</b>. As armature <b>46</b> may be pivotably coupled to axle mount <b>52</b> and front support <b>54</b> (and piston mount <b>50</b> via front support <b>54</b>), the motion of axle mount <b>52</b> may cause armature <b>46</b> to swing taxi drive system <b>24</b> out of engagement with driven sprocket <b>42</b>.</p>
+<p id="p-0089" num="0088"><figref idref="DRAWINGS">FIG. 9</figref> is a flow diagram illustrating an example method for using taxi drive system <b>24</b>. The method shown in <figref idref="DRAWINGS">FIG. 9</figref> may comprise engaging taxi drive system <b>24</b> (<b>82</b>), spinning-up aircraft tire <b>12</b> (<b>90</b>), disengaging taxi drive system <b>24</b> (<b>86</b>), braking aircraft to safe speed (<b>92</b>), rotating drive chain <b>30</b> prior to engaging drive chain <b>30</b> with driven sprocket <b>42</b> (<b>80</b>), engaging taxi drive system <b>24</b> (<b>82</b>), taxiing aircraft (<b>84</b>), and disengaging taxi drive system <b>24</b> (<b>86</b>).</p>
+<p id="p-0090" num="0089">Taxi drive system <b>24</b> is configured to be disengaged prior to take off and landing. In some examples, taxi drive controller <b>56</b> (<figref idref="DRAWINGS">FIG. 7</figref>), as directed by user input receive via user interface <b>58</b> (<figref idref="DRAWINGS">FIG. 7</figref>), may control taxi drive system <b>24</b> to temporarily bring drive chain <b>30</b> into engagement with driven sprocket <b>42</b> prior to landing (<b>82</b>). For example, taxi drive system <b>24</b> may be used to &#x201c;spin-up&#x201d; aircraft tire <b>12</b> prior to touch down (<b>90</b>). Spinning up aircraft tire <b>12</b> prior to touch down comprises causing aircraft tire <b>12</b> to rotate at a relatively high speed, e.g., at or near the rate that aircraft tire <b>12</b> will rotate after impact with the runway. This may, for example, reduce the wear on the aircraft tires <b>12</b> by reducing the amount of skid on the runway resulting from a near stationary aircraft tire <b>12</b> being forced to suddenly rotate at speed. Taxi drive system <b>24</b> may be configured to rotate aircraft tire <b>12</b> at a higher rate for spin-up than for because the inertia of the aircraft may not encumber the ability of motor <b>28</b> to provide the desired output as much during spin-up compared to during taxiing. After obtaining the desired rotational rate during spin up, taxi drive controller <b>56</b> may cause taxi drive system <b>24</b> to be disengaged from driven sprocket <b>42</b>, protecting drive chain <b>30</b> from being inadvertently rotated by contact with driven sprocket <b>42</b> during landing (<b>86</b>).</p>
+<p id="p-0091" num="0090">Upon landing, the aircraft may use thrust reversers and friction brakes to slow the aircraft (<b>92</b>). Once the aircraft has reached a desired speed threshold, e.g., approximately 25 knots, taxi drive controller <b>56</b> may control taxi drive system <b>24</b> to be moved to the first position, in which drive chain <b>30</b> is engaged with driven sprocket <b>42</b> (<b>82</b>). As discussed above with respect to <figref idref="DRAWINGS">FIG. 8</figref>, motor <b>28</b> may rotate drive chain <b>30</b> may be rotated to a speed that is based on a rotation rate of aircraft tires <b>12</b> or the current ground speed of the aircraft (<b>80</b>). By rotating drive chain <b>30</b> prior to engaging drive chain <b>30</b> with driven sprocket <b>42</b>, wear and impact on taxi drive system <b>24</b> and driven sprocket <b>42</b> during engagement may be reduced. The wear and impact on taxi drive system <b>24</b> from being brought into engagement with driven sprocket <b>42</b> may be particularly low when drive chain <b>30</b> is rotated to a speed that substantially matches or matches the rotation rate of aircraft tires <b>12</b> or the current ground speed of the aircraft prior to engaging drive chain <b>30</b> with driven sprocket <b>42</b>.</p>
+<p id="p-0092" num="0091">After matching rotation rates, taxi drive system <b>24</b> may be brought into engagement with driven sprocket <b>42</b> (<b>82</b>), e.g., under the control of taxi drive controller <b>56</b> of taxi drive system <b>24</b> or the avionics of the aircraft, and the aircraft may then begin taxiing under power from taxi drive system <b>24</b> (<b>84</b>). The speed at which the aircraft taxis may be controlled by the rotation rate of motor <b>28</b>, and, in some examples, the selection of a gear ratio within the gear box or transmission of motor <b>28</b>. The aircraft may be slowed by decreasing the rotation rate of motor <b>28</b> and/or using a braking mechanism, such as a brake disc stack. Directional control may be provided by installing taxi drive system <b>24</b> on multiple landing gear and rotating aircraft tires <b>12</b> at different rates on different landing gear, e.g., differential steering. In other examples, taxi drive system <b>24</b> may be installed on steerable landing gear assembly, for example the nose wheel of an aircraft. The steerable landing gear may be turned in the desired direction and taxi drive system <b>24</b> will apply force in the direction the steerable landing gear is oriented, causing the aircraft to turn. The rotational rate of taxi drive system <b>24</b> may be controlled by commands from the pilot or other crew member in the aircraft. These commands may be routed into the avionics of the aircraft or to taxi drive controller <b>56</b> of taxi drive system <b>24</b> which controls the rotation rate of motor <b>28</b>.</p>
+<p id="p-0093" num="0092">Taxi drive system <b>24</b> may be disengaged from driven sprocket <b>42</b>, i.e., moved to the second position (<b>86</b>), e.g., for maintenance, when aircraft is idling, or in preparation for takeoff. Maintenance may be facilitated by removing drive chain <b>30</b> from engagement with driven sprocket <b>42</b>, removing the interference of driven sprocket <b>42</b> with the inspection or removal of drive chain <b>30</b>. Prior to takeoff taxi drive system <b>24</b> may be disengaged to prevent affecting the integrity of system <b>24</b> from the relatively high rotational rates aircraft tires <b>12</b> may experience during the takeoff run. In some examples, taxi drive controller <b>56</b> can disengage taxi drive system <b>24</b> from driven sprocket <b>42</b> in response to a command from the pilot or a crew member of the aircraft. The command may be transmitted to the avionics of the aircraft or a processing component of taxi drive system <b>24</b> via user interface <b>58</b>. In some examples, controller <b>56</b> can automatically cause taxi drive system <b>24</b> to be disengaged based on the rotation rate of aircraft tires <b>12</b> or driven sprocket <b>42</b> or based on exceeding a ground speed threshold (e.g., 25 knots or another predetermined operating speed) or increasing the throttle past a threshold indicating impending takeoff.</p>
+<p id="p-0094" num="0093">Various examples of the invention have been described. These and other examples are within the scope of the following claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A landing gear drive system comprising:
+<claim-text>a piston;</claim-text>
+<claim-text>an axle;</claim-text>
+<claim-text>a mounting assembly fixedly connected to at least one of the piston and the axle;</claim-text>
+<claim-text>a driving assembly operably and fixedly connected to the mounting assembly to move between a first position and a second position, the driving assembly including;
+<claim-text>a motor configured to generate a mechanical output;</claim-text>
+<claim-text>a drive sprocket configured to be driven by the motor;</claim-text>
+<claim-text>a drive chain configured to form a closed loop and mechanically connected to the drive sprocket, wherein the drive sprocket is configured to transfer the mechanical output from the motor to the drive chain, and wherein the drive chain defines an interior surface on an inner circumference of the closed loop and an exterior surface on the outer circumference of the closed loop, the interior surface facing the drive sprocket;</claim-text>
+</claim-text>
+<claim-text>an aircraft wheel mounted on the axle; and</claim-text>
+<claim-text>a driven sprocket mechanically connected to the aircraft wheel, wherein the exterior surface of the drive chain is configured to engage with and rotate the driven sprocket to transfer the mechanical output of the motor to the driven sprocket and the aircraft wheel when the driving assembly is in the first position; and</claim-text>
+<claim-text>the drive chain is disengaged from the driven sprocket when the driving assembly is in the second position; and wherein rotation of the driven sprocket is configured to rotate the aircraft wheel.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a controller configured to control the motor to rotate, before the drive chain is brought into engagement with the driven sprocket, at a speed that is based on a rotational speed of the driven sprocket.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a controller, wherein the controller is configured to control a rotational speed of the motor and engagement of the drive chain with the driven sprocket based on user input.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the driven sprocket includes a plurality of teeth configured to be positioned within gaps defined by the drive chain when the drive chain is engaged with the driven sprocket.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising an actuator, wherein the actuator is configured to rotate the driving assembly about a pivot point between the first and second positions to engage and disengage, respectively, the drive chain from the driven sprocket.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a linear bearing, wherein the linear bearing is configured to translate the driving assembly relative to the driven sprocket to engage and disengage, respectively, the drive chain from the driven sprocket.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a linkage, wherein the linkage is configured to translate the driving assembly relative to the driven sprocket to engage and disengage the drive chain from the driven sprocket.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The system of <claim-ref idref="CLM-00005">claim 5</claim-ref>, wherein the actuator comprises a hydraulic piston.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The system of <claim-ref idref="CLM-00005">claim 5</claim-ref>, wherein the actuator comprises an electrically driven screw drive.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A method comprising:
+<claim-text>moving a driving assembly including a motor and a closed loop drive chain, and operably mounted to at least one of a piston and an axle of a landing gear of an aircraft, to a first position wherein an exterior surface of the closed loop drive chain is engaged with a driven sprocket that is mechanically connected to an aircraft wheel, the drive chain defining an interior surface on inner circumference of the closed loop and the exterior surface on the outer circumference of the closed loop, the interior surface facing a drive sprocket;</claim-text>
+<claim-text>rotating the aircraft wheel by transferring a mechanical output of the motor to the driven sprocket and aircraft wheel via the drive chain; and</claim-text>
+<claim-text>disengaging the drive chain from the driven sprocket by moving the driving assembly to a second position.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The method of <claim-ref idref="CLM-00010">claim 10</claim-ref>, further comprising slowing an aircraft comprising the aircraft wheel to a speed of about 0 knots to about 25 knots prior to moving the driving assembly to the first position.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The method of <claim-ref idref="CLM-00010">claim 10</claim-ref>, further comprising, prior to moving the driving assembly to a first position, rotating the drive chain at a speed that is based on a rotational speed of the driven sprocket.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The method of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein moving the driving assembly to the first position comprises moving the driving assembly radially towards the driven sprocket.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The method of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein moving the driving assembly to the first position comprises rotating the driving assembly towards the driven sprocket about a pivot point.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The method of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein moving the driving assembly to the first position and the second position comprises moving the driving assembly radially towards and away from, respectively, the driven sprocket. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

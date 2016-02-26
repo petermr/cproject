@@ -2,27 +2,23 @@ package org.xmlcml.cmine.args;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileFilter;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-
-import nu.xom.Builder;
-import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
@@ -30,18 +26,35 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
-import org.xmlcml.cmine.files.CMDir;
-import org.xmlcml.cmine.files.CMDirList;
-import org.xmlcml.cmine.files.DefaultSearcher;
+import org.xmlcml.cmine.files.AbstractSearcher;
+import org.xmlcml.cmine.files.CProject;
+import org.xmlcml.cmine.files.CTree;
+import org.xmlcml.cmine.files.CTreeFiles;
+import org.xmlcml.cmine.files.CTreeList;
+import org.xmlcml.cmine.files.ResourceLocation;
+import org.xmlcml.cmine.files.ProjectFilesTree;
+import org.xmlcml.cmine.files.ProjectSnippetsTree;
+import org.xmlcml.cmine.files.ResultsElement;
+import org.xmlcml.cmine.files.SnippetsTree;
+import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.HtmlP;
 import org.xmlcml.xml.XMLUtil;
 
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multiset;
+
+import nu.xom.Attribute;
+import nu.xom.Builder;
+import nu.xom.Document;
+import nu.xom.Element;
+import nu.xom.Node;
+
 
 /** base class for all arg processing. Also contains the workflow logic:
  * 
- * the list of CMDirs is created in 
+ * the list of CTrees is created in 
  * 
  * parseArgs(String[]) or
  * parseArgs(String)
@@ -68,19 +81,19 @@ import org.xmlcml.xml.XMLUtil;
 		}
 	}
 	
-	this will generate CMDirList 
+	this will generate CTreeList 
 	after that 
 
  * 
  * 
- * runAndOutput() iterates through each CMDir
+ * runAndOutput() iterates through each CTree
  * 
-		for (int i = 0; i < cmDirList.size(); i++) {
-			currentCMDir = cmDirList.get(i);
+		for (int i = 0; i < CTreeList.size(); i++) {
+			currentCTree = CTreeList.get(i);
 			// generateLogFile here
-			currentCMDir.getOrCreateLog();
-			// each CMDir has a ContentProcessor
-			currentCMDir.ensureContentProcessor(this);
+			currentCTree.getOrCreateLog();
+			// each CTree has a ContentProcessor
+			currentCTree.ensureContentProcessor(this);
 			// possible initFooOption
 			runInitMethodsOnChosenArgOptions();
 			// possible runFooOption
@@ -88,11 +101,12 @@ import org.xmlcml.xml.XMLUtil;
 			// possible outputFooOptions
 			runOutputMethodsOnChosenArgOptions();
 		}
-		// a "reduce" or "gather" method to run overe many CMDirs (e.g summaries)
+		// a "reduce" or "gather" method to run over many CTrees (e.g summaries)
 		runFinalMethodsOnChosenArgOptions();
+		// includes the finalAnalysis (--filter) 
 	}
 
- * NOTE: changed all *internal* CMDir-type names to CTree. 2015-09-15
+ * NOTE: changed all *internal* CTree-type names to CTree. 2015-09-15
  * 
  * @author pm286
  *
@@ -110,18 +124,13 @@ public class DefaultArgProcessor {
 	public static final String[] DEFAULT_EXTENSIONS = {"html", "xml", "pdf"};
 	public final static String H = "-h";
 	public final static String HELP = "--help";
-	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
-
 	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cmine/args";
 	protected static final String ARGS_XML = "args.xml";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+ARGS_XML;
 	private static final String NAME = "name";
 	private static final String VERSION = "version";
 	
-	private static final Pattern INTEGER_RANGE_PATTERN = Pattern.compile("(\\d+):(\\d+)");
 	public static final String WHITESPACE = "\\s+";
-	public static Pattern GENERAL_PATTERN = Pattern.compile("\\{([^\\}]*)\\}");
-	
 	public static final VersionManager DEFAULT_VERSION_MANAGER = new VersionManager();
 	public static final String LOGFILE = "target/log.xml";
 	
@@ -147,27 +156,37 @@ public class DefaultArgProcessor {
 	protected String output;
 	protected List<String> extensionList = null;
 	private boolean recursive = false;
-	protected List<String> inputList;
+	public List<String> inputList;
 	protected String logfileName;
 	public String update;
 	
 	public List<ArgumentOption> argumentOptionList;
 	public List<ArgumentOption> chosenArgumentOptionList;
 	
-	protected CMDirList cTreeList;
+	protected CTreeList cTreeList;
 	// change protection later
-	protected CMDir currentCTree;
+	protected CTree currentCTree;
 	protected String summaryFileName;
 	// variable processing
 	protected Map<String, String> variableByNameMap;
 	private VariableProcessor variableProcessor;
-	// searching
-	protected List<DefaultSearcher> searcherList; // req
-	protected HashMap<String, DefaultSearcher> searcherByNameMap; // req
-	protected String project;
 	private AbstractLogElement cTreeLog;
 	private AbstractLogElement coreLog;
-	private File projectFile;
+	private boolean unzip = false;
+	List<List<String>> renamePairs;
+	protected List<DefaultStringDictionary> dictionaryList;
+	private String filterExpression;
+	private File outputFile;
+	CProject cProject;
+	
+	private ProjectSnippetsTree projectSnippetsTree;
+	private ProjectFilesTree projectFilesTree;
+	private ProjectAndTreeFactory projectAndTreeFactory;
+	protected String projectDirString;
+	private String includePatternString;
+	private ArgumentExpander argumentExpander;
+	private CTreeFiles cTreeFiles;
+	protected XPathProcessor xPathProcessor;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -177,7 +196,12 @@ public class DefaultArgProcessor {
 		ensureDefaultLogFiles();
 		readArgumentOptions(getArgsResource());
 	}
-	
+
+	public DefaultArgProcessor(String args) {
+		this();
+		parseArgs(args);
+	}
+
 	private void ensureDefaultLogFiles() {
 		TREE_LOG();
 		CORE_LOG();
@@ -225,6 +249,7 @@ public class DefaultArgProcessor {
 			Element argListElement = new Builder().build(is).getRootElement();
 			coreLog = this.getOrCreateLog(logfileName);
 			getVersionManager().readNameVersion(argListElement);
+			LOG.trace("VERSION "+getVersionManager());
 			createArgumentOptions(argListElement);
 		} catch (Exception e) {
 			throw new RuntimeException("Cannot read/process args file "+resourceName, e);
@@ -246,73 +271,6 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	public void expandWildcardsExhaustively() {
-		while (expandWildcardsOnce());
-	}
-	
-	public boolean expandWildcardsOnce() {
-		boolean change = false;
-		ensureInputList();
-		List<String> newInputList = new ArrayList<String>();
-		for (String input : inputList) {
-			List<String> expanded = expandWildcardsOnce(input);
-			newInputList.addAll(expanded);
-			change |= (expanded.size() > 1 || !expanded.get(0).equals(input));
-		}
-		inputList = newInputList;
-		return change;
-	}
-
-
-	/** expand expressions/wildcards in input.
-	 * 
-	 * @param input
-	 * @return
-	 */
-	private List<String> expandWildcardsOnce(String input) {
-		Matcher matcher = GENERAL_PATTERN.matcher(input);
-		List<String> inputs = new ArrayList<String>(); 
-		if (matcher.find()) {
-			String content = matcher.group(1);
-			String pre = input.substring(0, matcher.start());
-			String post = input.substring(matcher.end());
-			inputs = expandIntegerMatch(content, pre, post);
-			if (inputs.size() == 0) {
-				inputs = expandStrings(content, pre, post);
-			} 
-			if (inputs.size() == 0) {
-				LOG.error("Cannot expand "+content);
-			}
-		} else {
-			inputs.add(input);
-		}
-		return inputs;
-	}
-
-	private List<String> expandIntegerMatch(String content, String pre, String post) {
-		List<String> stringList = new ArrayList<String>();
-		Matcher matcher = INTEGER_RANGE_PATTERN.matcher(content);
-		if (matcher.find()) {
-			int start = Integer.parseInt(matcher.group(1));
-			int end = Integer.parseInt(matcher.group(2));
-			for (int i = start; i <= end; i++) {
-				String s = pre + i + post;
-				stringList.add(s);
-			}
-		}
-		return stringList;
-	}
-
-	private List<String> expandStrings(String content, String pre, String post) {
-		List<String> newStringList = new ArrayList<String>();
-		List<String> vars = Arrays.asList(content.split("\\|"));
-		for (String var : vars) {
-			newStringList.add(pre + var + post);
-		}
-		
-		return newStringList;
-	}
-	
 	public AbstractLogElement getOrCreateLog(String logfileName) {
 		AbstractLogElement cMineLog = null;
 		if (logfileName == null) {
@@ -339,34 +297,33 @@ public class DefaultArgProcessor {
 	/** obsolete name */
 	@Deprecated
 	public void parseQSNorma(ArgumentOption option, ArgIterator argIterator) {
-		parseCMDir(option, argIterator);
+		parseCTree(option, argIterator);
 	}
 
 	/** create a CTreeList from --ctree argument
 	 */
 	public void parseCTree(ArgumentOption option, ArgIterator argIterator) {
 		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		createCTreeListFrom(cTreeNames);
+		ensureProjectAndTreeFactory();
+		projectAndTreeFactory.createCTreeListFrom(cTreeNames);
 	}
 
 	/** create a CTreeList from --ctree argument
-	 * 
-	 * @Deprecated // old name
-	 */
+	 */ 
+	 @Deprecated // old name
 	public void parseCMDir(ArgumentOption option, ArgIterator argIterator) {
 		parseCTree(option, argIterator);
-//		List<String> cTreeNames = argIterator.createTokenListUpToNextNonDigitMinus(option);
-//		createCTreeListFrom(cTreeNames);
 	}
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		inputList = expandAllWildcards(inputs);
+		inputList = ensureArgumentExpander().expandAllWildcards(inputs);
 	}
 
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
 		List<String> strings = argIterator.getStrings(option);
-		logfileName = (strings.size() == 0) ? CMDir.LOGFILE : strings.get(0);
+		logfileName = (strings.size() == 0) ? CTree.LOGFILE : strings.get(0);
+		LOG.debug("log file: "+logfileName);
 	}
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
@@ -374,8 +331,9 @@ public class DefaultArgProcessor {
 	}
 
 	public void parseProject(ArgumentOption option, ArgIterator argIterator) {
-		project = argIterator.getString(option);
-		createCTreeListFromProject();
+		projectDirString = argIterator.getString(option);
+		ensureProjectAndTreeFactory().createProject();
+		ensureProjectAndTreeFactory().createCTreeListFromProject();
 	}
 
 	public void parseRecursive(ArgumentOption option, ArgIterator argIterator) {
@@ -386,8 +344,49 @@ public class DefaultArgProcessor {
 		summaryFileName = argIterator.getString(option);
 	}
 
+	public void parseUnzip(ArgumentOption option, ArgIterator argIterator) {
+		setUnzip(true);
+	}
+
+	public void parseInclude(ArgumentOption option, ArgIterator argIterator) {
+		setIncludePatternString(option, argIterator);
+	}
+
+	public void parseRename(ArgumentOption option, ArgIterator argIterator) {
+		setRenamePairs(option, argIterator);
+	}
+	
+	public void parseAnalysis(ArgumentOption option, ArgIterator argIterator) {
+		LOG.warn("DEPRECATED: use --filter");
+		List<String> analyzeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		setFilter(analyzeStrings);
+	}
+
+	public void parseFilter(ArgumentOption option, ArgIterator argIterator) {
+		List<String> filterStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		setFilter(filterStrings);
+	}
+
+	public void parseDictionary(ArgumentOption option, ArgIterator argIterator) {
+		List<String> dictionarySources = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		createAndAddDictionaries(dictionarySources);
+	}
+
 	public void runMakeDocs(ArgumentOption option) {
 		transformArgs2html();
+	}
+
+	public void runAnalysis(ArgumentOption option) {
+		LOG.warn("DEPRECATED: use --filter");
+		filterCTree();
+	}
+
+	public void runFilter(ArgumentOption option) {
+		filterCTree();
+	}
+
+	public void runSummaryFile(ArgumentOption option) {
+		runSummaryModule();
 	}
 
 	public void runTest(ArgumentOption option) {
@@ -396,7 +395,169 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputMethod(ArgumentOption option) {
-		//LOG.error("outputMethod needs overwriting");
+		LOG.trace("output method not written");
+	}
+
+	public void outputAnalysis(ArgumentOption option) {
+		LOG.warn("DEPRECATED: use --filter");
+		outputFilterRoutine();
+	}
+
+	public void outputFilter(ArgumentOption option) {
+		outputFilterRoutine();
+	}
+
+	public void finalAnalysis(ArgumentOption option) {
+		LOG.warn("DEPRECATED: use --filter");
+		finalFilterRoutine();
+	}
+
+	public void finalFilter(ArgumentOption option) {
+		finalFilterRoutine();
+	}
+
+	public void finalSummaryFile(ArgumentOption option) {
+		finalFilterRoutine();
+	}
+
+	// =====================================
+
+	private void outputFilterRoutine() {
+		String output = getOutput();
+		if (currentCTree != null) {
+			outputFile = output == null ? null : new File(currentCTree.getDirectory(), output);
+			if (currentCTree.getSnippetsTree() != null) {
+				outputSnippetsTree(outputFile);
+			} else if (currentCTree.getCTreeFiles() != null) {
+				outputCTreeFiles(outputFile);
+			} else {
+				LOG.debug("Analysis: No snippets or files to output");
+			}
+		}
+	}
+
+	private void finalFilterRoutine() {
+		if (cProject == null) {
+			LOG.debug("no project to analyze");
+			return;
+		}
+		File directory = cProject.getDirectory();
+		if (directory == null) {
+			LOG.debug("no directory to analyze");
+			return;
+		}
+		if (filterExpression != null && output != null) {
+			outputFilterSnippets(cProject.getDirectory());
+		} else if (summaryFileName != null) {
+			outputFilterCounts();
+		}
+	}
+
+	private void outputFilterCounts() {
+		Multiset<String> stringSet = cProject.getMultiset();
+		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(stringSet);
+		resultsElement.setTitle(ResultsElement.FREQUENCIES);
+		writeResultsToSummaryFile(resultsElement, new File(cProject.getDirectory(), summaryFileName));
+	}
+
+	private void outputFilterSnippets(File directory) {
+		File outputFile = new File(directory, output);
+		LOG.trace(">>>"+outputFile);
+		ProjectSnippetsTree projectSnippetsTree = cProject.getProjectSnippetsTree();
+		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
+		if (projectSnippetsTree != null) {
+			cProject.outputProjectSnippetsTree(outputFile);
+		} else if (projectFilesTree != null) {
+			cProject.outputProjectFilesTree(outputFile);
+		}
+	}
+	
+	private void runSummaryModule() {
+		LOG.trace("RUN SUMMARY; input: "+inputList);
+		
+		if (xPathProcessor == null) {
+			throw new RuntimeException("Must give xpath");
+		} 
+		if (inputList == null ||inputList.size() == 0) {
+			LOG.warn("No input specified");
+			return;
+		}
+		ResultsElement summaryResultsElement = createAggregatedSortedResultsCount();
+		if (summaryFileName != null) {
+			File file = new File(currentCTree.getDirectory(), summaryFileName);
+			LOG.trace("file: "+file);
+			writeResultsToSummaryFile(summaryResultsElement, file);
+		}
+		cProject.addSummaryResultsElement(summaryResultsElement);
+	}
+
+	private void writeResultsToSummaryFile(ResultsElement resultsElement, File summaryFile) {
+		try {
+			XMLUtil.debug(resultsElement, summaryFile, 1);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot write summary: ", e);
+		}
+	}
+
+	private ResultsElement createAggregatedSortedResultsCount() {
+		Multiset<String> matchSet = createMultisetFromInputList();
+		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(matchSet);
+		return resultsElement;
+	}
+
+
+	private Multiset<String> createMultisetFromInputList() {
+		String xpath = xPathProcessor.getXPath();
+		Multiset<String> matchSet = HashMultiset.create();
+		for (String input : inputList) {
+			File f = new File(currentCTree.getDirectory(), input);
+			if (f != null) {
+				Document document = XMLUtil.parseQuietlyToDocument(f);
+				List<Node> resultNodes = XMLUtil.getQueryNodes(document, xpath);
+				for (Node node : resultNodes) {
+					String value = node.getValue();
+					int count = getCountValue(node);
+					matchSet.add(value, count);
+				}
+			}
+		}
+		return matchSet;
+	}
+
+	private int getCountValue(Node node) {
+		int count = 1;
+		if (node instanceof Attribute) {
+			Node parent = node.getParent();
+			if (parent != null && parent instanceof Element) {
+				String countValue = ((Element)parent).getAttributeValue("count");
+				if (countValue != null) {
+					count = Integer.parseInt(countValue);
+				}
+			}
+		}
+		return count;
+	}
+
+	private void outputSnippetsTree(File outputFile) {
+		SnippetsTree snippetsTree = currentCTree.getSnippetsTree();
+		if (snippetsTree != null && outputFile != null) {
+			try {
+				XMLUtil.debug(snippetsTree, outputFile, 1);
+			} catch (IOException e) {
+				throw new RuntimeException("Cannot output snippets", e);
+			}
+		}
+	}
+
+	private void outputCTreeFiles(File outputFile) {
+		CTreeFiles cTreeFiles = currentCTree.getCTreeFiles();
+		if (cTreeFiles != null && outputFile != null) {
+			try {
+				XMLUtil.debug(cTreeFiles, outputFile, 1);
+			} catch (IOException e) {
+				throw new RuntimeException("Cannot output cTreeFiles", e);
+			}
+		}
 	}
 
 	// =====================================
@@ -406,213 +567,94 @@ public class DefaultArgProcessor {
 		printHelp();
 	}
 	
-	private void createCTreeListFrom(List<String> cTreeNames) {
-		if (cTreeNames.size() == 0) {
-			if (inputList == null || inputList.size() == 0) {
-				LOG.error("Must give inputList before --cmdir or --ctree");
-			} else if (output == null) {
-				LOG.error("Must give output before --cmdir or --ctree");
-			} else {
-				finalizeInputList();
-//				generateFilenamesFromInputDirectory();
-				createCTreeFromOutput();
-			}
-		} else {
-			createCTreeList(cTreeNames);
+	private ProjectAndTreeFactory ensureProjectAndTreeFactory() {
+		if (projectAndTreeFactory == null) {
+			projectAndTreeFactory = new ProjectAndTreeFactory(this);
 		}
-	}
-
-	/** create CTrees EITHER from *.PDF/HTML/XML etc  
-	 * OR from subdirectories which will be CTrees
-	 * 
-	 * LOGIC:
-	 *  (a) if "project" exists and is a directory then assume directory children are 
-	 *    already valid CTrees
-	 *  (b) is "project" does NOT exist but "input" does and is directory:
-	 *    list all files (files) of given extension(s) (-e foo bar) under "input" and create
-	 *    project as directory, then create NEW directories under "project"
-	 *    using names of "files" and creating "fulltext.foo" "fulltext.bar"
-	 *  
-	 *    
-	 */
-	private void createCTreeListFromProject() {
-		if (project != null) {
-			projectFile = new File(project);
-			if (projectFile.isDirectory()) {
-				cTreeList = new CMDirList();
-				List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
-					public boolean accept(File file) {
-						return file != null && file.isDirectory();
-					}}));
-				for (File subDirectory : subdirectories) {
-					CMDir cTree = new CMDir(subDirectory);
-					cTreeList.add(cTree);
-				}
-				LOG.trace("cTrees: "+cTreeList.size());
-			} else if (projectFile.isFile()) {
-				LOG.error("project file must be a directory: "+projectFile);
-			} else if (!projectFile.exists()) {
-				createCTreesFromInputFiles();
-			} else {
-				LOG.error("Unacceptable project option, probable BUG");
-			}
-		}
-	}
-
-	private void createCTreesFromInputFiles() {
-		if (inputList == null || inputList.size() == 0 ) {
-			LOG.error("no input files to create under project");
-//		} else if (extensionList == null || extensionList.size() == 0) {
-//			LOG.error("no extensions given to filter input files");
-		} else {
-			// don't worry about extensions?
-			LOG.info(projectFile+" does not exist, creating project and populating it");
-			projectFile.mkdirs();
-			for (String filename : inputList) {
-				File file = new File(filename);
-				if (file.isDirectory()) {
-					File[] files = file.listFiles();
-					if (files != null) {
-						for (File file0 : files) {
-							createCTreeFromFilenameAndWriteReservedFile(projectFile, file0);
-						}
-					}
-				} else {
-					createCTreeFromFilenameAndWriteReservedFile(projectFile, file);
-				}
-			}
-		}
-	}
-
-	private void createCTreeFromOutput() {
-		File newCTree = output == null ? null : new File(output);
-		if (newCTree != null) {
-			createCTreeFromFile(newCTree);
-		}
-	}
-
-	private void createCTreeFromFile(File cTree) {
-		cTreeList = new CMDirList();
-		for (String filename : inputList) {
-			createCTreeFromFilenameAndWriteReservedFile(cTree, new File(filename));
-		}
-	}
-
-//	private void createCTreeFromFilenameAndWriteReservedFile(File cTreeDir, File file) {
-//		
-//	}
-
-	private void createCTreeFromFilenameAndWriteReservedFile(File cTreeDir, File infile) {
-		String filename = infile.getName();
-		if (!infile.isDirectory()) {
-			ensureCTreeList();
-//			File cmdirParent = output == null ? infile.getParentFile() : cTreeDir;
-			File cmdirParent = cTreeDir == null ? infile.getParentFile() : cTreeDir;
-			String cmName = createUnderscoredFilename(filename);
-			File directory = new File(cmdirParent, cmName);
-			CMDir cTree = new CMDir(directory, true);
-			String reservedFilename = CMDir.getCMDirReservedFilenameForExtension(filename);
-			try {
-				cTree.writeReservedFile(infile, reservedFilename, true);
-				cTreeList.add(cTree);
-			} catch (Exception e) {
-				throw new RuntimeException("Cannot create/write: "+filename, e);
-			}
-		}
-	}
-
-	private String createUnderscoredFilename(String filename) {
-		String cmName = filename.replaceAll("\\p{Punct}", "_")+"/";
-		return cmName;
+		return projectAndTreeFactory;
 	}
 	
+	private void setIncludePatternString(ArgumentOption option, ArgIterator argIterator) {
+		List<String> includeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		includePatternString = includeStrings != null && includeStrings.size() == 1 ? includeStrings.get(0) : null;
+	}
+
+	private void setFilter(List<String> filterStrings) {
+		if (filterStrings != null && filterStrings.size() == 1) {
+			filterExpression = filterStrings.get(0);
+		} else {
+			LOG.error("--filter requires 1 expression");
+		}
+	}
+
+	private void setRenamePairs(ArgumentOption option, ArgIterator argIterator) {
+		List<String> renameStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		if (renameStrings != null && renameStrings.size() %2 == 0) {
+			renamePairs = new ArrayList<List<String>>();
+			for (int i = 0; i < renameStrings.size(); i += 2) {
+				List<String> stringPair = new ArrayList<String>();
+				stringPair.add(renameStrings.get(i));
+				stringPair.add(renameStrings.get(i+1));
+				renamePairs.add(stringPair);
+			}
+		} else {
+			LOG.warn("--rename requires an even number of arguments");
+		}
+	}
+
+	/** this called once per CTree and write the output.
+	 * 
+	 */
+	private void filterCTree() {
+		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(filterExpression);
+		String xpath = fileXPathSearcher.getCurrentXPath();
+		if (currentCTree != null) {
+			fileXPathSearcher = new FileXPathSearcher(currentCTree, filterExpression);
+			fileXPathSearcher.search();
+			CTreeFiles cTreeFiles = fileXPathSearcher.getCTreeFiles();
+			if (cProject != null) {
+				cProject.add(cTreeFiles);
+			}
+			if (xpath != null) {
+				SnippetsTree snippetsTree = fileXPathSearcher.getSnippetsTree();
+				if (cProject != null) {
+					cProject.add(snippetsTree);
+				}
+			}
+		}
+	}
+
+
+	public void createAndAddDictionaries(List<String> dictionarySources) {
+		ensureDictionaryList();
+		for (String dictionarySource : dictionarySources) {
+			
+			InputStream is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
+			if (is == null) {
+				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
+			}
+			DefaultStringDictionary dictionary = DefaultStringDictionary.createDictionary(dictionarySource, is);
+			if (dictionary == null) {
+				throw new RuntimeException("cannot read/create dictionary: "+dictionarySource);
+			}
+			dictionaryList.add(dictionary);
+		}
+	}
+
+	protected void ensureDictionaryList() {
+		if (dictionaryList == null) {
+			dictionaryList = new ArrayList<DefaultStringDictionary>();
+		}
+	}
+
 
 	protected void printVersion() {
 		DefaultArgProcessor.getVersionManager().printVersion();
 	}
 
 
-	private void createCTreeList(List<String> qDirectoryNames) {
-		FileFilter directoryFilter = new FileFilter() {
-			public boolean accept(File file) {
-				return file.isDirectory();
-			}
-		};
-
-		cTreeList = new CMDirList();
-		LOG.trace("creating CMDIRList from: "+qDirectoryNames);
-		for (String qDirectoryName : qDirectoryNames) {
-			File qDirectory = new File(qDirectoryName);
-			if (!qDirectory.exists()) {
-				LOG.error("File does not exist: "+qDirectory.getAbsolutePath());
-				continue;
-			}
-			if (!qDirectory.isDirectory()) {
-				LOG.error("Not a directory: "+qDirectory.getAbsolutePath());
-				continue;
-			}
-			CMDir cTree = new CMDir(qDirectoryName);
-			LOG.trace("...creating CTree from: "+qDirectoryName);
-			if (cTree.containsNoReservedFilenames() && cTree.containsNoReservedDirectories()) {
-				LOG.trace("... No reserved files or directories: "+cTree);
-				List<File> childFiles = new ArrayList<File>(Arrays.asList(qDirectory.listFiles(directoryFilter)));
-				List<String> childFilenames = new ArrayList<String>();
-				for (File childFile : childFiles) {
-					if (childFile.isDirectory()) {
-						childFilenames.add(childFile.toString());
-					}
-				}
-				LOG.trace(childFilenames);
-				// recurse (no mixed directory structures)
-				// FIXME 
-				LOG.trace("Recursing CTrees is probably  a BUG");
-				createCTreeList(childFilenames);
-			} else {
-				cTreeList.add(cTree);
-			}
-		}
-		LOG.trace("CTreeList: "+cTreeList.size());
-		for (CMDir cmdir : cTreeList) {
-			LOG.trace("CTree: "+cmdir);
-			
-		}
-	}
-
-
-	private List<String> expandAllWildcards(List<String> inputs) {
-		inputList = new ArrayList<String>();
-		for (String input : inputs) {
-			inputList.addAll(expandWildcards(input));
-		}
-		return inputList;
-	}
-	
-	/** expand expressions/wildcards in input.
-	 * 
-	 * @param input
-	 * @return
-	 */
-	private List<String> expandWildcards(String input) {
-		Matcher matcher = INTEGER_RANGE.matcher(input);
-		List<String> inputs = new ArrayList<String>();
-		if (matcher.matches()) {
-			int start = Integer.parseInt(matcher.group(2));
-			int end = Integer.parseInt(matcher.group(3));
-			if (start <= end) {
-				for (int i = start; i <= end; i++) {
-					String input0 = matcher.group(1)+i+matcher.group(4);
-					inputs.add(input0);
-				}
-			}
-		} else {
-			inputs.add(input);
-		}
-		LOG.trace("inputs: "+inputs);
-		return inputs;
-	}
-
 	private void transformArgs2html() {
-		InputStream transformStream = getArgsXml2HtmlXsl();
+		InputStream transformStream = this.getClass().getResourceAsStream(ARGS2HTML_XSL);
 		if (transformStream == null) {
 			throw new RuntimeException("Cannot find argsXml2Html file");
 		}
@@ -621,7 +663,7 @@ public class DefaultArgProcessor {
 			File argsHtmlFile = getHtmlFromXML(argsXmlFile);
 			try {
 				String xmlString = transformArgsXml2Html(new FileInputStream(argsXmlFile), transformStream);
-				FileUtils.writeStringToFile(argsHtmlFile, xmlString);
+				FileUtils.writeStringToFile(argsHtmlFile, xmlString, Charset.forName("UTF-8"));
 			} catch (Exception e) {
 				throw new RuntimeException("Cannot transform "+argsXmlFile, e);
 			}
@@ -634,10 +676,6 @@ public class DefaultArgProcessor {
 		OutputStream baos = new ByteArrayOutputStream();
 		javaxTransformer.transform(new StreamSource(argsXmlIs),  new StreamResult(baos));
 		return baos.toString();
-	}
-
-	private InputStream getArgsXml2HtmlXsl() {
-		return this.getClass().getResourceAsStream(ARGS2HTML_XSL);
 	}
 
 	private File getHtmlFromXML(File argsXml) {
@@ -662,6 +700,9 @@ public class DefaultArgProcessor {
 		this.extensionList = extensions;
 	}
 
+	public void setInputPatternString(String includePatternString) {
+		this.includePatternString = includePatternString;
+	}
 
 	public List<String> getInputList() {
 		ensureInputList();
@@ -672,7 +713,7 @@ public class DefaultArgProcessor {
 		ensureInputList();
 		return (inputList.size() != 1) ? null : inputList.get(0);
 	}
-	private void ensureInputList() {
+	void ensureInputList() {
 		if (inputList == null) {
 			inputList = new ArrayList<String>();
 		}
@@ -680,6 +721,10 @@ public class DefaultArgProcessor {
 
 	public String getOutput() {
 		return output;
+	}
+
+	public File getOutputFile() {
+		return outputFile;
 	}
 
 	public boolean isRecursive() {
@@ -690,18 +735,17 @@ public class DefaultArgProcessor {
 		return summaryFileName;
 	}
 
-	public CMDirList getCMDirList() {
+	public CTreeList getCTreeList() {
 		ensureCTreeList();
 		return cTreeList;
 	}
 
 	protected void ensureCTreeList() {
 		if (cTreeList == null) {
-			cTreeList = new CMDirList();
+			cTreeList = new CTreeList();
 		}
 	}
 	
-
 	// --------------------------------
 	
 	public void parseArgs(String[] commandLineArgs) {
@@ -725,7 +769,8 @@ public class DefaultArgProcessor {
 	}
 	
 	public void parseArgs(String args) {
-		parseArgs(args.trim().split("\\s+"));
+		String[] args1 = args.trim().split("\\s+");
+		parseArgs(args1);
 	}
 
 	private void finalizeArgs() {
@@ -739,21 +784,28 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void finalizeInputList() {
+	void finalizeInputList() {
 		List<String> inputList0 = new ArrayList<String>();
 		ensureInputList();
 		for (String input : inputList) {
 			File file = new File(input);
 			if (file.isDirectory()) {
-				LOG.trace("DIR: "+file.getAbsolutePath()+"; "+file.isDirectory());
+				LOG.trace("DIR: "+file.getAbsolutePath()+"; isDir "+file.isDirectory()+"; Exist "+file.exists()+"; "+file.getAbsolutePath());
 				addDirectoryFiles(inputList0, file);
 			} else {
 				inputList0.add(input);
 			}
 		}
 		inputList = inputList0;
+		Collections.sort(inputList);
+		LOG.trace("sorted input: "+inputList);
 	}
 
+	/** will return a sorted list
+	 * 
+	 * @param inputList0
+	 * @param file
+	 */
 	private void addDirectoryFiles(List<String> inputList0, File file) {
 		String[] extensions = getExtensions().toArray(new String[0]);
 		List<File> files = new ArrayList<File>(
@@ -761,10 +813,11 @@ public class DefaultArgProcessor {
 		for (File file0 : files) {
 			inputList0.add(file0.toString());
 		}
+		Collections.sort(inputList0);
+		LOG.trace("sort: "+inputList0);
 	}
 
 	private String[] addDefaultsAndParsedArgs(String[] commandLineArgs) {
-		String[] defaultArgs = createDefaultArgumentStrings();
 		List<String> totalArgList = new ArrayList<String>(Arrays.asList(createDefaultArgumentStrings()));
 		List<String> commandArgList = Arrays.asList(commandLineArgs);
 		totalArgList.addAll(commandArgList);
@@ -805,6 +858,10 @@ public class DefaultArgProcessor {
 		}
 	}
 	
+	public void setUnzip(boolean b) {
+		this.unzip  = b;
+	}
+
 	public void runInitMethodsOnChosenArgOptions() {
 		runMethodsOfType(ArgumentOption.INIT_METHOD);
 	}
@@ -832,6 +889,7 @@ public class DefaultArgProcessor {
 					instantiateAndRunMethod(option, methodName);
 				}
 			} catch (Exception e) {
+				LOG.debug(option);
 				e.printStackTrace();
 				throw new RuntimeException("cannot run ["+methodName+"] in "+option.getVerbose()+
 						" ("+ExceptionUtils.getRootCauseMessage(e)+")");
@@ -928,12 +986,13 @@ public class DefaultArgProcessor {
 			try {
 				method = this.getClass().getMethod(methodName, option.getClass()); 
 			} catch (NoSuchMethodException nsme) {
-				throw new RuntimeException(methodName+"; "+this.getClass()+"; "+option.getClass()+"; \nContact Norma developers: ", nsme);
+				throw new RuntimeException(methodName+"; "+this.getClass()+"; "+option.getClass()+"; \nmethod not implemented: ", nsme);
 			}
 			try {
 				method.setAccessible(true);
  				method.invoke(this, option);
 			} catch (Exception ee) {
+				ee.printStackTrace();
 				throw new RuntimeException("invoke "+methodName+" fails", ee);
 			}
 		}
@@ -971,22 +1030,24 @@ public class DefaultArgProcessor {
 	public void runAndOutput() {
 		ensureCTreeList();
 		if (cTreeList.size() == 0) {
-			if (project != null) {
-				output = project;
+			if (projectDirString != null) {
+				output = projectDirString;
 			} else if (output != null) {
-				LOG.warn("please replace --output with --project");
-				project = output;
+				LOG.warn("no --project given; using --output");
+				projectDirString = output;
 			} else {
-				LOG.error("Cannot create output: --project or --output must be given");
+				LOG.warn("No --project or --output; running help");
+				printHelp();
 				return;
 			}
-			LOG.debug("treating as CTree creation under project "+project);
+			LOG.trace("treating as CTree creation under project "+projectDirString);
 			runRunMethodsOnChosenArgOptions();
 		} else {
 			for (int i = 0; i < cTreeList.size(); i++) {
 				currentCTree = cTreeList.get(i);
 				coreLog.info("running: "+currentCTree.getDirectory());
 				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
+				TREE_LOG().info("TEST LOG "+this.hashCode());
 				currentCTree.ensureContentProcessor(this);
 				try {
 					runInitMethodsOnChosenArgOptions();
@@ -999,6 +1060,7 @@ public class DefaultArgProcessor {
 					coreLog.error("error in running, terminated: "+e);
 					continue;
 				}
+				if (i % 10 == 0) System.out.print(".");
 				LOG.trace(coreLog.toXML());
 			}
 			
@@ -1023,6 +1085,13 @@ public class DefaultArgProcessor {
 		}
 	}
 
+	public ArgumentExpander ensureArgumentExpander() {
+		if (this.argumentExpander == null) {
+			argumentExpander = new ArgumentExpander(this);
+		}
+		return argumentExpander;
+	}
+
 	public VariableProcessor ensureVariableProcessor() {
 		if (variableProcessor == null) {
 			variableProcessor = new VariableProcessor();
@@ -1034,17 +1103,11 @@ public class DefaultArgProcessor {
 		return update;
 	}
 
-	protected void ensureSearcherList() {
-		if (searcherList == null) {
-			searcherList = new ArrayList<DefaultSearcher>();
-		}
-	}
-	
-	public List<DefaultSearcher> getSearcherList() {
-		return searcherList;
+	public List<DefaultStringDictionary> getDictionaryList() {
+		return dictionaryList;
 	}
 
-	public List<? extends Element> extractPSectionElements(CMDir cTree) {
+	public List<? extends Element> extractPSectionElements(CTree cTree) {
 		List<? extends Element> elements = null;
 		if (cTree != null) {
 			cTree.ensureScholarlyHtmlElement();
@@ -1058,7 +1121,7 @@ public class DefaultArgProcessor {
 	 * 
 	 * @return
 	 */
-	public static HtmlElement getScholarlyHtmlElement(CMDir cTree) {
+	public static HtmlElement getScholarlyHtmlElement(CTree cTree) {
 		HtmlElement htmlElement = null;
 		if (cTree != null && cTree.hasScholarlyHTML()) {
 			File scholarlyHtmlFile = cTree.getExistingScholarlyHTML();
@@ -1071,5 +1134,52 @@ public class DefaultArgProcessor {
 		}
 		return htmlElement;
 	}
+
+	// HORRIBLE, REFACTOR
+	public List<? extends AbstractSearcher> getSearcherList() {
+		throw new RuntimeException("Can Only be used by sublassses of DefaultArgProcessor ");
+	}
+
+	public CTree getCTree() {
+		return currentCTree != null ? currentCTree : 
+			(cTreeList != null && cTreeList.size() == 1) ? cTreeList.get(0) : null;
+	}
+	
+	public CProject getCProject() {
+		return cProject;
+	}
+
+	public ProjectSnippetsTree getProjectSnippetsTree() {
+		projectSnippetsTree = cProject == null ? null : cProject.getProjectSnippetsTree();
+		return projectSnippetsTree;
+	}
+
+	public ProjectFilesTree getProjectFilesTree() {
+		projectFilesTree = cProject == null ? null : cProject.getProjectFilesTree();
+		return projectFilesTree;
+	}
+
+	public String getProjectDirString() {
+		return projectDirString;
+	}
+
+	public String getIncludePatternString() {
+		return includePatternString;
+	}
+
+	public void expandWildcardsExhaustively() {
+		ensureArgumentExpander().expandWildcardsExhaustively();
+	}
+
+	public void parseXpath(ArgumentOption option, ArgIterator argIterator) {
+			List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
+			if (tokens.size() == 0) {
+	//			LOG.debug(XPATH_OPTION).getHelp());
+			} else if (tokens.size() > 1) {
+				LOG.warn("Exactly one xpath required");
+			} else {
+				xPathProcessor = new XPathProcessor(tokens.get(0));
+			}
+		}
 
 }

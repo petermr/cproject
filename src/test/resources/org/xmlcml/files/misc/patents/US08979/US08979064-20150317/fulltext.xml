@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979064-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979064</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13912660</doc-number>
+<date>20130607</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>JP</country>
+<doc-number>2012-131255</doc-number>
+<date>20120608</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>35</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>02</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>37</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>12</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>31</main-group>
+<subgroup>36</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>37</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>37</main-group>
+<subgroup>0066</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>37</main-group>
+<subgroup>0075</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>25112904</main-classification>
+<further-classification>137488</further-classification>
+</classification-national>
+<invention-title id="d2e71">Positioner</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>5549137</doc-number>
+<kind>A</kind>
+<name>Lenz et al.</name>
+<date>19960800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>5558115</doc-number>
+<kind>A</kind>
+<name>Lenz et al.</name>
+<date>19960900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5573032</doc-number>
+<kind>A</kind>
+<name>Lenz et al.</name>
+<date>19961100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5758686</doc-number>
+<kind>A</kind>
+<name>Ohtsuka et al.</name>
+<date>19980600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>1374925</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>6155283</doc-number>
+<kind>A</kind>
+<name>Hansen et al.</name>
+<date>20001200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>137  1</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2002/0040284</doc-number>
+<kind>A1</kind>
+<name>Junk</name>
+<date>20020400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>702189</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>2011/0240891</doc-number>
+<kind>A1</kind>
+<name>Inagaki</name>
+<date>20111000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251 3001</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>2012/0248356</doc-number>
+<kind>A1</kind>
+<name>Okuda et al.</name>
+<date>20121000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>25112915</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>JP</country>
+<doc-number>3595554</doc-number>
+<kind>B2</kind>
+<date>20041200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>WO</country>
+<doc-number>95/06276</doc-number>
+<kind>A1</kind>
+<date>19950300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>1</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>25112904</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>1374875</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>137488</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>137487</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>700282</main-classification>
+</classification-national>
+<classification-cpc-text>F16K 37/0075</classification-cpc-text>
+<classification-cpc-text>F16K 37/0066</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>4</number-of-drawing-sheets>
+<number-of-figures>4</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130327425</doc-number>
+<kind>A1</kind>
+<date>20131212</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Azbil Corporation</orgname>
+<address>
+<city>Tokyo</city>
+<country>JP</country>
+</address>
+</addressbook>
+<residence>
+<country>JP</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Nomiyama</last-name>
+<first-name>Takashi</first-name>
+<address>
+<city>Tokyo</city>
+<country>JP</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Namikawa</last-name>
+<first-name>Masaki</first-name>
+<address>
+<city>Tokyo</city>
+<country>JP</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Troutman Sanders LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Azbil Corporation</orgname>
+<role>03</role>
+<address>
+<city>Tokyo</city>
+<country>JP</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Rivell</last-name>
+<first-name>John</first-name>
+<department>3753</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Trinidad-Borges</last-name>
+<first-name>Josephine</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A positioner includes a shift magnitude calculating portion that calculates a shift magnitude from the equilibrium state of a pilot relay, from an input air pressure that is inputted into the pilot relay and an output air pressure that is outputted from the pilot relay. A control calculating portion determines a control signal from an actual opening signal, an opening setting value, and the shift magnitude from the equilibrium state of the pilot relay that is calculated by the shift magnitude calculating portion, and outputs it to the electropneumatic converter.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="135.97mm" wi="211.50mm" file="US08979064-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="225.47mm" wi="146.90mm" orientation="landscape" file="US08979064-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="223.52mm" wi="116.42mm" orientation="landscape" file="US08979064-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="214.21mm" wi="144.19mm" orientation="landscape" file="US08979064-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="223.10mm" wi="144.19mm" orientation="landscape" file="US08979064-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">CROSS REFERENCE TO RELATED APPLICATION</heading>
+<p id="p-0002" num="0001">This application claims priority to Japanese Patent Application No. 2012-131255, filed on Jun. 8, 2012, the entire content of which being hereby incorporated herein by reference.</p>
+<heading id="h-0002" level="1">FIELD OF TECHNOLOGY</heading>
+<p id="p-0003" num="0002">The present invention relates to a positioner for controlling the opening of a valve.</p>
+<heading id="h-0003" level="1">BACKGROUND</heading>
+<p id="p-0004" num="0003">Conventionally, positioners for controlling the openings of valves have been, for example, positioners wherein the critical components have been configured as illustrated in <figref idref="DRAWINGS">FIG. 3</figref>. In this figure, <b>200</b> (<b>200</b>A) is a positioner, and <b>300</b> is a valve, where the valve <b>300</b> is provided with a position sensor <b>10</b> for detecting a position that indicates the degree of opening of the valve.</p>
+<p id="p-0005" num="0004">The positioner <b>200</b>A is provided with an electric current-SP converting portion <b>1</b>, a control calculating portion <b>2</b>, an electropneumatic converter <b>3</b>, a pilot relay <b>4</b>, and a valve opening calculating portion <b>5</b>.</p>
+<p id="p-0006" num="0005">In the positioner <b>200</b>A, the electric current-SP converting portion <b>1</b> converts into an opening setting signal SP an input signal that is sent, as a signal of between 4 and 20 mA, from a higher level device. The valve opening calculating portion <b>5</b> calculates the current valve opening of the valve <b>200</b>A from the position that indicates the opening of the valve, detected by the position sensor <b>10</b>, and outputs, as an actual opening signal PV, a signal depending on the calculated opening. The control calculating portion <b>2</b> calculates the difference between the opening setting signal SP from the electric current-SP converting portion <b>1</b> and the actual opening signal PV from the valve opening calculating portion <b>5</b>, and outputs, as a control signal MV, an electric signal obtained through performing PID control calculations on the difference.</p>
+<p id="p-0007" num="0006">The electropneumatic converter <b>3</b> converts into an air pressure (a nozzle back pressure) Pn the control signal MV from the control calculating portion <b>2</b>. The pilot relay <b>4</b> uses the pneumatic signal Pn from the electropneumatic converter <b>3</b> as an input air pressure and amplifies this input air pressure Pn to produce an output air pressure Po, and outputs it to the operating device <b>11</b> of the valve <b>300</b>. Doing so causes the air of the air pressure Po to flow into a diaphragm chamber within the operating device <b>11</b>, to adjust the opening of the valve portion <b>12</b>.</p>
+<p id="p-0008" num="0007">In this positioner <b>200</b>A, that which is subject to control by the control calculating portion <b>2</b> includes the electropneumatic converter <b>3</b> and the pilot relay <b>4</b>, which apply the air flow rate and the air pressure to the valve <b>300</b>. If the characteristics of the electropneumatic converter <b>3</b> and the pilot relay <b>4</b> were linear, and were well-behaved characteristics, then such a control method would be adequate; however, in practice both the electropneumatic converter and the pilot relay <b>4</b> have non-linear elements such as hysteresis and a dead band, and so control is complex. Given this, because in the positioner <b>200</b>A the feedback information is only the actual opening signal PV of the valve <b>300</b>, if a change does not appear in the actual opening signal PV, then there is no change in the control output (the control signal MV). Because of this, controllability is a problem. Given this, a positioner with improved controllability has been proposed in Japanese Patent 3595554 (&#x201c;the JP '554&#x201d;).</p>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 4</figref> is a diagram illustrating schematically the positioner shown in the JP '554. In this positioner <b>200</b> (<b>200</b>B), the differential value dPo/dt of the output air pressure Po that is outputted from the pilot relay <b>4</b>, as a pressure differential value, is fed back to the control calculating portion <b>2</b> in addition to the actual opening signal PV that indicates the current degree of opening of the valve <b>300</b>. The output air pressure Po changes more rapidly than the actual opening signal PV. Because of this, feeding back the magnitude of change of the output air pressure Po makes it possible to estimate, in advance, the change that will occur in the actual opening signal PV. This enables superior control when compared to that of feeding back only the opening information.</p>
+<p id="p-0010" num="0009">However, in the positioner <b>200</b>B disclosed in the JP '554, even though the differential information for the output air pressure Po (the control pressure for the diaphragm portion of the operating device <b>11</b>) of the pilot relay <b>4</b>, wherein the response is faster than that of the actual opening of the valve <b>300</b>, is fed back, when there is a noise, and the like, in the differential information, the output becomes extremely large. Because of this, there is a problem in that the control tends to become unstable.</p>
+<p id="p-0011" num="0010">The present invention was created in order to solve the problem as set forth above, and an aspect thereof is to provide a positioner that improves substantially responsiveness without a loss of settling performance in control.</p>
+<heading id="h-0004" level="1">SUMMARY</heading>
+<p id="p-0012" num="0011">In order to achieve the aspect set forth above, the present invention is a positioner including a control calculating portion that inputs an opening setting signal for a valve, sent from a higher level device, and an actual opening signal that indicates the current degree of opening of the valve, to produce a control signal from the opening setting signal and the actual opening signal, an electropneumatic converter that converts the control signal from the control calculating portion into an air pressure, and a pilot relay that uses, as an input air pressure, the air pressure converted by the electropneumatic converter, to amplify the input air pressure to produce an output air pressure, to output to driving unit that drives the valve. The positioner further includes a shift magnitude calculating portion that calculates a shift magnitude from the equilibrium state of the pilot relay from the input air pressure that is inputted into the pilot relay and the output air pressure that is outputted from the pilot relay. The control calculating unit determines the control output to the electropneumatic converter from the actual opening signal, the opening setting signal, and the shift magnitude from the equilibrium state of the pilot relay.</p>
+<p id="p-0013" num="0012">While the output air pressure of the pilot relay is determined in response to the input air pressure, when there has been a change in the input air pressure from the equilibrium state, there will be a delay until the output air pressure response. In the present invention a magnitude of shift from the equilibrium state of the pilot relay is calculated from the input air pressure that is inputted into the pilot relay and the output air pressure that is outputted from the pilot relay, to determine the control output to the electropneumatic converter by taking into consideration the magnitude of shift from the equilibrium state of the pilot relay, that is, prior to the actual change, the magnitude of change in the output air pressure, which changes in response to a change in the input air pressure into the pilot relay, is estimated in advance, to thereby improve the responsiveness without a loss of settling performance in control.</p>
+<p id="p-0014" num="0013">For example, in the present invention the magnitude of shift from the equilibrium state of the pilot relay is calculated as Po&#x2212;(K&#xb7;Pn&#x2212;F). Here Pn is the input air pressure that is inputted into the pilot relay, Po is the output air pressure, F is the force required before Po starts to change, and K is dPo/dPn.</p>
+<p id="p-0015" num="0014">In the present invention a magnitude of shift from the equilibrium state of the pilot relay is calculated from the input air pressure that is inputted into the pilot relay and the output air pressure that is outputted from the pilot relay, the control calculating portion determines, and outputs as a control signal to the electropneumatic converter, a control output from the actual opening signal, the opening setting signal, and the magnitude of shift from the equilibrium state of the pilot relay, and thus prior to the actual change, the magnitude of change in the output air pressure, which changes in response to a change in the input air pressure into the pilot relay, is estimated in advance, to thereby improve the responsiveness without a loss of settling performance in control.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0005" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 1</figref> is a diagram illustrating the configuration of the critical portions in an example of a positioner according to the present invention.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 2</figref> is a diagram for explaining the magnitude of shift from the equilibrium status of the pilot relay, calculated by the shift magnitude calculating portion of the positioner.</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 3</figref> is a diagram illustrating the critical components in a conventional positioner.</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 4</figref> is a diagram illustrating the critical components in the positioner shown in the JP '554.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0006" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0020" num="0019">An example according to the present invention will be explained below in detail, based on the drawings. <figref idref="DRAWINGS">FIG. 1</figref> is a diagram illustrating the configuration of the critical portions in an example of a positioner according to the present invention. In this figure, codes that are the same as those in <figref idref="DRAWINGS">FIG. 3</figref> indicate identical or equivalent structural elements as the structural elements explained in reference to <figref idref="DRAWINGS">FIG. 3</figref>, and explanations thereof are omitted. The positioner according to the present invention will be indicated by the code <b>100</b> in order to differentiate from a conventional positioner.</p>
+<p id="p-0021" num="0020">In the present example, the positioner <b>100</b> is provided with a shift magnitude calculating portion <b>6</b> for calculating the magnitude of shift d from the equilibrium state of the pilot relay <b>4</b> from the input air pressure Pn that is inputted into the pilot relay <b>4</b>, and the output air pressure Po that is outputted from the pilot relay <b>4</b>. It also is provided with a function for determining the control signal MV from the shift magnitude d from the equilibrium state of the pilot relay <b>4</b>, calculated by the shift magnitude calculating portion <b>6</b>, and outputting it to the electropneumatic converter <b>3</b>.</p>
+<p id="p-0022" num="0021">The shift magnitude calculating portion <b>6</b> calculates the magnitude of shift d from the equilibrium state of the pilot relay <b>4</b> using the calculating equation given in Expression (1), below, from the input air pressure Pn that is inputted into the pilot relay <b>4</b> and the output air pressure Po that is outputted from the pilot relay <b>4</b>.
+<br/>
+<?in-line-formulae description="In-line Formulae" end="lead"?><i>d=Po</i>&#x2212;(<i>K&#xb7;Pn&#x2212;F</i>) &#x2003;&#x2003;(1)<?in-line-formulae description="In-line Formulae" end="tail"?>
+</p>
+<p id="p-0023" num="0022">Note that Pn is the input air pressure that is inputted into the pilot relay <b>4</b>, Po is the output air pressure that is outputted from the pilot relay <b>4</b>, F is the force required before Po starts to change, and K is dPo/dPn.</p>
+<p id="p-0024" num="0023">The magnitude of shift d from the equilibrium state of the pilot relay <b>4</b>, calculated by the shift magnitude calculating portion <b>6</b>, estimates, prior to the actual change, the magnitude of change of the output air pressure Po that changes in response to a change in the input air pressure Pn that is inputted into the pilot relay <b>4</b>. <figref idref="DRAWINGS">FIG. 2</figref> illustrates the input/output characteristics of the pilot relay <b>4</b>. The output air pressure Po of the pilot relay <b>4</b> changes in accordance with an equation expressed by Po=K&#xb7;Pn&#x2212;F, as indicated by the input/output characteristic I. When the relationship of the input air pressure Pn and the output air pressure Po is on this input/output characteristic I, the pilot relay <b>4</b> is in the equilibrium state.</p>
+<p id="p-0025" num="0024">In the equilibrium state of the pilot relay <b>4</b>, the output air pressure Po assumes a value that depends on the input air pressure Pn. However, because the response of the output air pressure Po is delayed when compared to the input air pressure Pn, for some time after a change in the input air pressure Pn there will be a deviation from this input/output characteristic I. In this case, we can consider the cases wherein the current output air pressure Po is such that K&#xb7;Pn&#x2212;F&#x3e;Po and wherein the current output air pressure Po is such that K&#xb7;Pn&#x2212;F&#x3c;Po. In the case that the current output air pressure Po is such that K&#xb7;Pn&#x2212;F&#x3e;Po (the (<b>1</b>) state illustrated in <figref idref="DRAWINGS">FIG. 2</figref>), we can anticipate the output air pressure Po to increase by the magnitude of shift d from the equilibrium state. In the case that the current output air pressure Po is such that K&#xb7;Pn&#x2212;F&#x3c;Po (the (<b>2</b>) state illustrated in <figref idref="DRAWINGS">FIG. 2</figref>), we can anticipate the output air pressure Po to decrease by the magnitude of shift d from the equilibrium state.</p>
+<p id="p-0026" num="0025">Consequently, the magnitude of shift d from the equilibrium state of the pilot relay <b>4</b> can be said to be an estimate, prior to an actual change, of the magnitude of change in the output air pressure Po that changes in response to a change in the input air pressure Pn that is inputted into the pilot relay <b>4</b>. The shift magnitude d from the equilibrium state of the pilot relay <b>4</b> is calculated as Po&#x2212;(K&#xb7;Pn&#x2212;F) in the shift magnitude calculating portion <b>6</b>, and this calculated shift magnitude d is sent to the control calculating portion <b>2</b>. The shift magnitude d is an estimate of the amount of change there will be in the output air pressure Po, so by feeding this back it is possible to estimate the change in opening at an earlier stage than when feeding back the amount of change in the output air pressure Po. Because of this, the controllability is improved substantially.</p>
+<p id="p-0027" num="0026">The control calculating portion <b>2</b> determines the control signal MV from the actual opening signal PV, the opening setting value SP, and the shift magnitude d from the equilibrium state of the pilot relay <b>4</b> that is calculated by the shift magnitude calculating portion <b>6</b>, and outputs it to the electropneumatic converter <b>3</b>. Note that the control signal MV is determined through Expression (2), below:
+<br/>
+<?in-line-formulae description="In-line Formulae" end="lead"?><i>MV=Kp</i>&#xb7;(<i>SP&#x2212;PV</i>)+&#x222b;<i>Ki</i>(<i>SP&#x2212;PV</i>)<i>dt+Kd</i>&#xb7;(<i>dPV/dt</i>)+<i>Km&#xb7;d </i>&#x2003;&#x2003;(2)<?in-line-formulae description="In-line Formulae" end="tail"?>
+</p>
+<p id="p-0028" num="0027">Here Kp is the proportional gain, Ki is the integral gain, Kd is the differential gain, and Km is the shift magnitude gain.</p>
+<p id="p-0029" num="0028">Note that while in the example, set forth above, the shift magnitude d from the equilibrium state of the pilot relay <b>4</b> was calculated using Expression (1), above, there is no limitation to this expression. For example, instead the shift magnitude d from the equilibrium state of the pilot relay <b>4</b> may be read out from a table wherein the relationships in Expression (1), described above, are stored as data. Moreover, while in the examples set forth above the position sensor <b>10</b> was provided outside of the positioner <b>100</b>, it may instead be provided within the positioner <b>100</b>.</p>
+<p id="p-0030" num="0029">Furthermore, in the examples set forth above, the functions of the control calculating portion <b>2</b>, the shift magnitude calculating portion <b>6</b>, and the like, in the positioner <b>100</b>, may be embodied through hardware that includes a processor and a storage device and a program, which operates jointly with this hardware, for achieving these functions as a controlling device.</p>
+<heading id="h-0007" level="1">EXTENDED EXAMPLES</heading>
+<p id="p-0031" num="0030">While the present invention has been explained above in reference to the examples, the present invention is not limited to the examples set forth above. The structures and details in the present invention may be varied in a variety of ways, as can be understood by one skilled in the art, within the scope of technology in the present invention.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A positioner comprising:
+<claim-text>a control calculating portion that inputs an opening setting signal for a valve, sent from a higher level device, and an actual opening signal that indicates the current degree of opening of the valve, to produce a control signal from the opening setting signal and the actual opening signal;</claim-text>
+<claim-text>an electropneumatic converter that converts the control signal from the control calculating portion into an air pressure;</claim-text>
+<claim-text>a pilot relay that uses, as an input air pressure, the air pressure converted by the electropneumatic converter, to amplify the input air pressure to produce an output air pressure, and to output to a driving unit that drives the valve; and</claim-text>
+<claim-text>a shift magnitude calculating portion that calculates a shift magnitude from the equilibrium state of the pilot relay, from the input air pressure that is inputted into the pilot relay and the output air pressure that is outputted from the pilot relay,</claim-text>
+<claim-text>wherein the control calculating portion determines the control output to the electropneumatic converter from the actual opening signal, the opening setting signal, and the shift magnitude from the equilibrium state of the pilot relay, and</claim-text>
+<claim-text>wherein the shift magnitude calculating portion calculates the shift magnitude from the equilibrium state of the pilot relay as Po&#x2212;(K&#xb7;Pn&#x2212;F), wherein:</claim-text>
+<claim-text>Pn is the input air pressure that is inputted into the pilot relay,</claim-text>
+<claim-text>Po is the output air pressure that is outputted from the pilot relay,</claim-text>
+<claim-text>F is the force required before Po starts to change, and</claim-text>
+<claim-text>K is dPo/dPn. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

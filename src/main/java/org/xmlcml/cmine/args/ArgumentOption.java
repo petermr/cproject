@@ -454,6 +454,7 @@ public class ArgumentOption {
 				LOG.trace("OUTPUT METHOD "+method);
 				this.outputMethodName = outputMethodName;
 			} catch (NoSuchMethodException e) {
+				LOG.error("Parsing halted: edit code");
 				throw new RuntimeException("Non-existent outputMethod "+argProcessorClass+"; "+outputMethodName+" (edit ArgProcessor)", e);
 			}
 		}
