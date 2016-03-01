@@ -36,6 +36,7 @@ public class ResultElement extends Element {
 	public  static final String FREQUENCY = "frequency";
 	public  static final String TAG       = "result";
 	public  static final String TITLE     = "title";
+	private static final String VALUE0    = "value0";
 	private static final String WORD      = "word";
 	private static final String XPATH     = "xpath";
 
@@ -180,7 +181,18 @@ public class ResultElement extends Element {
 		if (term == null) {
 			term = getCountedWord();
 		}
+		if (term == null) {
+			term = getValue0Attribute();
+		}
 		return term;
+	}
+	
+	private String getValue0Attribute() {
+		return this.getAttributeValue(VALUE0);
+	}
+
+	public String toString() {
+		return this.toXML();
 	}
 
 }

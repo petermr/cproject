@@ -18,9 +18,13 @@ public class CMineTestFixtures {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	public static void cleanAndCopyDir(File sourceDir, File targetDir) throws IOException {
-		if (targetDir.exists()) FileUtils.forceDelete(targetDir);
-		FileUtils.copyDirectory(sourceDir, targetDir);
+	public static void cleanAndCopyDir(File sourceDir, File targetDir) {
+		try {
+			if (targetDir.exists()) FileUtils.forceDelete(targetDir);
+			FileUtils.copyDirectory(sourceDir, targetDir);
+		} catch (IOException ioe) {
+			throw new RuntimeException("failed to clean and copy: "+sourceDir+" @ "+targetDir, ioe);
+		}
 	}
 
 
@@ -31,6 +35,7 @@ public class CMineTestFixtures {
 		ProjectSnippetsTree projectsSnippetsTree = ProjectSnippetsTree.createProjectSnippetsTree(snippetsTreeXML);
 		return projectsSnippetsTree;
 	}
+
 
 
 

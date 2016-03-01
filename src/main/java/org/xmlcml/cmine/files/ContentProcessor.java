@@ -57,7 +57,7 @@ public class ContentProcessor {
 			this.ensureResultsElementList();
 			String title = resultsElement.getTitle();
 			if (title == null) {
-				throw new RuntimeException("Results Element must have title");
+				throw new RuntimeException("Results Element must have title: "+resultsElement.toXML());
 			}
 			checkNoDuplicatedTitle(title);
 			resultsElementList.add(resultsElement);

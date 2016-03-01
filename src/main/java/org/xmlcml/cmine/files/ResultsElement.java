@@ -36,6 +36,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	
 	public static final String TAG = "results";
 	
+	public static final String DOCUMENTS = "documents";
 	public static final String FREQUENCIES = "frequencies";
 	public static final String TITLE = "title";
 	
@@ -230,5 +231,9 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 		return resultsElement;
 	}
 
+	public String toString() {
+		getOrCreateResultElementList();
+		return resultElementList.toString();
+	}
 
 }

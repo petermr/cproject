@@ -210,6 +210,20 @@
 		</help>
 	</arg>
 		
+	<arg name="documentFrequencyFile"
+		long="--dffile"
+		args="dffile"
+		countRange="{1,1}"
+		parseMethod="parseDFFile"
+		runMethod="runDFFile"
+		finalMethod="finalDFFile"
+		>
+		<help>
+			<p>File to write document Frequencies to.</p>
+			<p>May invoke some default behaviour</p>
+		</help>
+	</arg>
+		
 	<arg name="project"
 		long="--project"
 		args="projectFile"

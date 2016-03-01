@@ -85,22 +85,27 @@ public class CellRenderer {
 		return element;
 	}
 
-	private HtmlElement createA(String s) {
+	private HtmlElement createA(String entityRef) {
 		HtmlA a;
 		a = new HtmlA();
-		a.appendChild(s);
-		String href = null;
-		if (href0 != null) {
-			href = href0;
-		};
-		href += s;
-		if (href1 != null) {
-			href += href1;
-		}
+		a.appendChild(entityRef);
+		String href = createHref(entityRef);
 		if (href != null) {
 			a.setHref(href);
 		}
 		return a;
+	}
+
+	private String createHref(String entityRef) {
+		String href = null;
+		if (href0 != null) {
+			href = href0;
+		};
+		href += entityRef;
+		if (href1 != null) {
+			href += href1;
+		}
+		return href;
 	}
 
 	public void setValue(String value) {
