@@ -519,6 +519,9 @@ public class DefaultArgProcessor {
 			LOG.warn("No input specified");
 			return;
 		}
+		if (currentCTree == null) {
+			throw new RuntimeException("Null currentTree");
+		}
 		ResultsElement summaryResultsElement = createAggregatedSortedResultsCount();
 		if (summaryFileName != null) {
 			File file = new File(currentCTree.getDirectory(), summaryFileName);
@@ -553,7 +556,7 @@ public class DefaultArgProcessor {
 
 	private ResultsElement createAggregatedSortedResultsCount() {
 		Multiset<String> matchSet = createMultisetFromInputList();
-		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(matchSet);
+		ResultsElement resultsElement = matchSet == null ? null : ResultsElement.getResultsElementSortedByCount(matchSet);
 		return resultsElement;
 	}
 
@@ -561,8 +564,12 @@ public class DefaultArgProcessor {
 	private Multiset<String> createMultisetFromInputList() {
 		String xpath = xPathProcessor.getXPath();
 		Multiset<String> matchSet = HashMultiset.create();
+		File directory = currentCTree.getDirectory();
+		if (directory == null) {
+			throw new RuntimeException("No current directory in CTree");
+		}
 		for (String input : inputList) {
-			File f = new File(currentCTree.getDirectory(), input);
+			File f = new File(directory, input);
 			if (f != null && f.exists()) {
 				Document document = XMLUtil.parseQuietlyToDocument(f);
 				List<Node> resultNodes = XMLUtil.getQueryNodes(document, xpath);

@@ -66,6 +66,11 @@ public class PluginOption implements Comparable<PluginOption> {
 		}
 		return stringList;
 	}
+
+	public static PluginOption getPluginOption(String pluginOptionName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 }

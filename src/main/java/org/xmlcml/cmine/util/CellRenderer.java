@@ -22,6 +22,8 @@ public class CellRenderer {
 	private boolean visible;
 	private String href0;
 	private String href1;
+	private int hrefWordCount;
+	private String hrefJoinString;
 
 	public CellRenderer(String flag) {
 		this.flag = flag;
@@ -30,6 +32,8 @@ public class CellRenderer {
 
 	private void setDefaults() {
 		this.visible = true;
+		hrefWordCount = 0;
+		hrefJoinString = "";
 	}
 
 	public CellRenderer setBrief(int characterCount) {
@@ -67,20 +71,21 @@ public class CellRenderer {
 
 	public HtmlElement getHtmlElement() {
 		HtmlElement element = new HtmlSpan();
-		String s = value;
+		String aValue = value;
 		if (characterCount != 0) {
-			s = s.substring(0, Math.min(s.length(), characterCount));
-			s += "...";
+			aValue = aValue.substring(0, Math.min(aValue.length(), characterCount));
+			aValue += "...";
 			element.addAttribute(new Attribute("title", value));
 		}
 		if (wordCount) {
-			s = "["+s.length()+"]";
+			aValue = "["+aValue.length()+"]";
 			element.addAttribute(new Attribute("title", value));
 		}
 		if (href0 != null || href1 != null) {
-			element = createA(s);
+			element = createA(aValue);
+			LOG.trace("HR "+element.toXML());
 		} else {
-			element.appendChild(s);
+			element.appendChild(aValue);
 		}
 		return element;
 	}
@@ -101,7 +106,20 @@ public class CellRenderer {
 		if (href0 != null) {
 			href = href0;
 		};
-		href += entityRef;
+		if (hrefWordCount >= 1) {
+			String[] words = entityRef.split("\\s+");
+			if (hrefWordCount == 1) {
+				href += words[0];
+			} else {
+				href += words[0];
+				for (int i = 1; i < Math.min(words.length, hrefWordCount); i++) {
+					href += hrefJoinString;
+					href += words[i];
+				}
+			}
+		} else {
+			href += entityRef;
+		}
 		if (href1 != null) {
 			href += href1;
 		}
@@ -114,6 +132,27 @@ public class CellRenderer {
 
 	public String getFlag() {
 		return flag;
+	}
+
+	public void setWikipediaLink(int i) {
+		
+	}
+	
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(", f: "+ flag);
+		sb.append(", v: "+ value);
+		sb.append(", cc: "+ characterCount);
+		sb.append(", w: "+ wordCount);
+		sb.append(", v: "+ visible);
+		sb.append(", h0: "+ href0);
+		sb.append(", h1: "+ href1);
+		return sb.toString();
+	}
+
+	public void setUseHrefWords(int hrefWords, String hrefJoin) {
+		this.hrefWordCount = hrefWords;
+		this.hrefJoinString = hrefJoin;
 	}
 
 }
