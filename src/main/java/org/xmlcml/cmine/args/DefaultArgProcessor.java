@@ -31,12 +31,14 @@ import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeFiles;
 import org.xmlcml.cmine.files.CTreeList;
-import org.xmlcml.cmine.files.ResourceLocation;
 import org.xmlcml.cmine.files.ProjectFilesTree;
 import org.xmlcml.cmine.files.ProjectSnippetsTree;
+import org.xmlcml.cmine.files.ResourceLocation;
+import org.xmlcml.cmine.files.ResultElement;
 import org.xmlcml.cmine.files.ResultsElement;
 import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
+import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.HtmlP;
@@ -44,6 +46,7 @@ import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
+import com.google.common.collect.Multiset.Entry;
 
 import nu.xom.Attribute;
 import nu.xom.Builder;
@@ -167,6 +170,7 @@ public class DefaultArgProcessor {
 	// change protection later
 	protected CTree currentCTree;
 	protected String summaryFileName;
+	protected String dfFileName;
 	// variable processing
 	protected Map<String, String> variableByNameMap;
 	private VariableProcessor variableProcessor;
@@ -187,6 +191,7 @@ public class DefaultArgProcessor {
 	private ArgumentExpander argumentExpander;
 	private CTreeFiles cTreeFiles;
 	protected XPathProcessor xPathProcessor;
+	private Multiset<String> documentMultiset;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -344,6 +349,10 @@ public class DefaultArgProcessor {
 		summaryFileName = argIterator.getString(option);
 	}
 
+	public void parseDFFile(ArgumentOption option, ArgIterator argIterator) {
+		dfFileName = argIterator.getString(option);
+	}
+
 	public void parseUnzip(ArgumentOption option, ArgIterator argIterator) {
 		setUnzip(true);
 	}
@@ -389,6 +398,11 @@ public class DefaultArgProcessor {
 		runSummaryModule();
 	}
 
+	public void runDFFile(ArgumentOption option) {
+//		no-op
+//		runDFModule();
+	}
+
 	public void runTest(ArgumentOption option) {
 		String name = new Object(){}.getClass().getEnclosingMethod().getName();
 		cTreeLog.info("testing");
@@ -418,6 +432,10 @@ public class DefaultArgProcessor {
 
 	public void finalSummaryFile(ArgumentOption option) {
 		finalFilterRoutine();
+	}
+
+	public void finalDFFile(ArgumentOption option) {
+		finalDFRoutine();
 	}
 
 	// =====================================
@@ -453,6 +471,24 @@ public class DefaultArgProcessor {
 		}
 	}
 
+	private void finalDFRoutine() {
+		if (dfFileName != null) {
+			outputDFCounts();
+		}
+	}
+
+//	for (Entry<String> entry : entriesByCount) {
+//		if (entry.getCount() > 1) {
+//			LOG.debug(":: "+entry);
+//		}
+//	}
+
+	private void outputDFCounts() {
+		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(documentMultiset);
+		resultsElement.setTitle(ResultsElement.DOCUMENTS);
+		writeResultsToSummaryFile(resultsElement, new File(cProject.getDirectory(), dfFileName));
+	}
+
 	private void outputFilterCounts() {
 		Multiset<String> stringSet = cProject.getMultiset();
 		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(stringSet);
@@ -473,6 +509,7 @@ public class DefaultArgProcessor {
 	}
 	
 	private void runSummaryModule() {
+		ensureDocumentMutiset();
 		LOG.trace("RUN SUMMARY; input: "+inputList);
 		
 		if (xPathProcessor == null) {
@@ -482,14 +519,32 @@ public class DefaultArgProcessor {
 			LOG.warn("No input specified");
 			return;
 		}
+		if (currentCTree == null) {
+			throw new RuntimeException("Null currentTree");
+		}
 		ResultsElement summaryResultsElement = createAggregatedSortedResultsCount();
 		if (summaryFileName != null) {
 			File file = new File(currentCTree.getDirectory(), summaryFileName);
 			LOG.trace("file: "+file);
 			writeResultsToSummaryFile(summaryResultsElement, file);
+			List<ResultElement> resultsElementList = summaryResultsElement.getOrCreateResultElementList();
+			for (ResultElement resultElement : resultsElementList) {
+				documentMultiset.add(resultElement.getValue());
+			}
 		}
+//		LOG.debug(summaryResultsElement.toXML());
 		cProject.addSummaryResultsElement(summaryResultsElement);
 	}
+
+	private void ensureDocumentMutiset() {
+		if (documentMultiset == null) {
+			documentMultiset = HashMultiset.create();
+		}
+	}
+
+//	private void runDFModule() {
+//		LOG.debug("DF not yet written");
+//	}
 
 	private void writeResultsToSummaryFile(ResultsElement resultsElement, File summaryFile) {
 		try {
@@ -501,7 +556,7 @@ public class DefaultArgProcessor {
 
 	private ResultsElement createAggregatedSortedResultsCount() {
 		Multiset<String> matchSet = createMultisetFromInputList();
-		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(matchSet);
+		ResultsElement resultsElement = matchSet == null ? null : ResultsElement.getResultsElementSortedByCount(matchSet);
 		return resultsElement;
 	}
 
@@ -509,9 +564,13 @@ public class DefaultArgProcessor {
 	private Multiset<String> createMultisetFromInputList() {
 		String xpath = xPathProcessor.getXPath();
 		Multiset<String> matchSet = HashMultiset.create();
+		File directory = currentCTree.getDirectory();
+		if (directory == null) {
+			throw new RuntimeException("No current directory in CTree");
+		}
 		for (String input : inputList) {
-			File f = new File(currentCTree.getDirectory(), input);
-			if (f != null) {
+			File f = new File(directory, input);
+			if (f != null && f.exists()) {
 				Document document = XMLUtil.parseQuietlyToDocument(f);
 				List<Node> resultNodes = XMLUtil.getQueryNodes(document, xpath);
 				for (Node node : resultNodes) {

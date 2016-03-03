@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.lookup;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
@@ -8,8 +9,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import nu.xom.Element;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Level;
@@ -21,6 +20,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
+
+import nu.xom.Element;
 
 public abstract class AbstractLookup {
 	
@@ -93,8 +94,16 @@ public abstract class AbstractLookup {
 	        URLConnection urlc = url.openConnection();
 	        //use post mode
 	        urlc.setDoOutput(true);
-	        urlc.setAllowUserInteraction(false);
-	        return IOUtils.toString(urlc.getInputStream());
+	        InputStream is = null;
+	        try {
+	        	urlc.setAllowUserInteraction(false);
+	        	is = urlc.getInputStream();
+	        } catch (java.net.UnknownHostException uhe) {
+	        	LOG.error("UnknownHostException: (might be offline) "+url);
+	        } catch (Error e) {
+	        	LOG.error("cannot connect: "+e+"; "+url);
+	        }
+	        return is == null ? null : IOUtils.toString(is);
     	} else {
     		return null;
     	}

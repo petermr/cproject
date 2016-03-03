@@ -61,8 +61,12 @@ public class DataTablesTool {
 	private List<String> rowHeadingList;
 	private String rowHeadingName;
 	private CellCalculator cellCalculator;
-	private String link0 = "";
-	private String link1 = "/scholarly.html";
+	private String remoteLink0;
+	private String remoteLink1;
+	private String localLink0;
+	private String localLink1;
+	private List<HtmlTd> footerCells;
+	private HtmlTd footerCaption;
 
 	public DataTablesTool() {
 		this.setTableId(RESULTS);
@@ -70,8 +74,10 @@ public class DataTablesTool {
 	}
 
 	private void setDefaults() {
-		link0 = "";
-		link1 = "/scholarly.html";
+		remoteLink0 = "http://epmc.org/";
+		remoteLink1 = "";
+		localLink0 = "";
+		localLink1 = "/scholarly.html";
 	}
 
 	public DataTablesTool(CellCalculator cellCalculator) {
@@ -95,13 +101,20 @@ public class DataTablesTool {
 		return head;
 	}
 
-	public HtmlTd createHyperlinkedCell(String href, String aValue) {
+	public HtmlTd createHyperlinkedCell(String remoteHref, String localHref, String aValue) {
 		HtmlTd htmlTd = new HtmlTd();
-		HtmlA htmlA = new HtmlA();
-		htmlA.appendChild(aValue);
-		htmlA.setHref(href);
-		htmlTd.appendChild(htmlA);
+		createA(remoteHref, aValue, htmlTd);
+		createA(localHref, "local", htmlTd);
 		return htmlTd;
+	}
+
+	private void createA(String href, String aValue, HtmlTd htmlTd) {
+		if (href != null && href.trim().length() > 0) {
+			HtmlA htmlA = new HtmlA();
+			htmlA.appendChild(aValue);
+			htmlA.setHref(href);
+			htmlTd.appendChild(htmlA);
+		}
 	}
 
 	public HtmlThead createHtmlHead() {
@@ -168,8 +181,8 @@ public class DataTablesTool {
 	/** this calls addCellValues(htmlTr, rowHeading) which includes ResultsAnalysis logic.
 	 * 
 	 * @param cellCalculator TODO
-	 * @param link0
-	 * @param link1
+	 * @param remoteLink0
+	 * @param remoteLink1
 	 * @param htmlTbody
 	 */
 	public void addRows(HtmlTbody htmlTbody) {
@@ -177,9 +190,11 @@ public class DataTablesTool {
 			String rowHeading = rowHeadingList.get(iRow);
 			HtmlTr htmlTr = new HtmlTr();
 			htmlTbody.appendChild(htmlTr);
-			String href = ((link0 == null) ? "" : link0) + rowHeading + ((link1 == null) ? "" : link1);
-			HtmlTd htmlTd = createHyperlinkedCell(href, rowHeading);
+			String remoteHref = ((remoteLink0 == null) ? "" : remoteLink0) + rowHeading + ((remoteLink1 == null) ? "" : remoteLink1);
+			String localHref = ((localLink0 == null) ? "" : localLink0) + rowHeading + ((localLink1 == null) ? "" : localLink1);
+			HtmlTd htmlTd = createHyperlinkedCell(remoteHref, localHref, rowHeading);
 			htmlTd.setTitle("foo");
+			
 			htmlTr.appendChild(htmlTd);
 			cellCalculator.addCellValues(columnHeadingList, htmlTr, iRow);
 		}
@@ -189,9 +204,11 @@ public class DataTablesTool {
 		for (int iCol = 0; iCol < columnHeadingList.size(); iCol++) {
 			HtmlElement htmlTd = new HtmlTd();
 			htmlTr.appendChild(htmlTd);
-			String contents = cellCalculator.createCellContents(iRow, iCol);
-			contents = contents == null ? "" : contents;
-			htmlTd.appendChild(contents);
+			HtmlElement contents = cellCalculator.createCellContents(iRow, iCol);
+//			contents = contents == null ? "" : contents;
+			if (contents != null) {
+				htmlTd.appendChild(contents);
+			}
 		}
 	}
 
@@ -201,20 +218,33 @@ public class DataTablesTool {
 		HtmlTbody htmlTbody = new HtmlTbody();
 		htmlTable.appendChild(htmlTbody);
 		addRows(htmlTbody);
-		HtmlTfoot htmlTfoot = new HtmlTfoot();
-		HtmlTr tr = new HtmlTr();
-		addFooter(htmlTable, htmlTfoot, tr);
+		addFooter(htmlTable);
 		return htmlTable;
 	}
 
-	private void addFooter(HtmlTable htmlTable, HtmlTfoot htmlTfoot, HtmlTr tr) {
-		htmlTfoot.appendChild(tr);
-		HtmlTd td = new HtmlTd();
-		td.setId("footer-id");
-		td.addAttribute(new Attribute("colspan", "100%"));
-//		td.appendChild(" FOOT ************************** FOOT");
-		tr.appendChild(td);
+	private HtmlTfoot addFooter(HtmlTable htmlTable) {
+		HtmlTfoot htmlTfoot = new HtmlTfoot();
+		if (footerCaption == null || footerCells == null) {
+			LOG.warn("null footer caption or cells");
+		} else if (footerCells.size() != columnHeadingList.size()) {
+			LOG.warn("Wrong number of footer cells: "+footerCells.size()+" != "+columnHeadingList.size());
+			return null;
+		} else {
+			HtmlTr tr = new HtmlTr();
+			htmlTfoot.appendChild(tr);
+			tr.appendChild(footerCaption);
+			for (int i = 0; i < columnHeadingList.size(); i++) {
+				tr.appendChild(footerCells.get(i));
+			}
+		}
 		htmlTable.appendChild(htmlTfoot);
+		return htmlTfoot;
+	}
+
+	private void addDiv(HtmlTd td, int i) {
+		HtmlDiv div = new HtmlDiv();
+		div.appendChild("D"+i);
+		td.appendChild(div);
 	}
 
 	public HtmlHtml createHtmlWithDataTable(HtmlTable table) {
@@ -251,20 +281,36 @@ public class DataTablesTool {
 		this.rowHeadingName = rowHeadingName;
 	}
 
-	public void setLink0(String link0) {
-		this.link0 = link0;
+	public void setRemoteLink0(String link0) {
+		this.remoteLink0 = link0;
 	}
 
-	public String getLink0() {
-		return link0;
+	public String getRemoteLink0() {
+		return remoteLink0;
 	}
 	
-	public void setLink1(String link1) {
-		this.link1 = link1;
+	public void setRemoteLink1(String link1) {
+		this.remoteLink1 = link1;
 	}
 
-	public String getLink1() {
-		return link1;
+	public String getRemoteLink1() {
+		return remoteLink1;
+	}
+
+	public void setLocalLink0(String link0) {
+		this.localLink0 = link0;
+	}
+
+	public String getLocalLink0() {
+		return localLink0;
+	}
+	
+	public void setLocalLink1(String link1) {
+		this.localLink1 = link1;
+	}
+
+	public String getLocalLink1() {
+		return localLink1;
 	}
 
 	public HtmlHtml createHtml(CellCalculator cellCalculator) {
@@ -273,6 +319,14 @@ public class DataTablesTool {
 		htmlTable.setId(tableId);
 		HtmlHtml html = createHtmlWithDataTable(htmlTable);
 		return html;
+	}
+	
+	public void setFooterCaption(HtmlTd caption) {
+		this.footerCaption = caption;
+	}
+	
+	public void setFooterCells(List<HtmlTd> cells) {
+		this.footerCells = cells;
 	}
 	
 }

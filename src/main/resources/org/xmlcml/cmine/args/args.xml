@@ -1,5 +1,6 @@
-<argList name="cmine" version="0.2.21">
+<argList name="cmine" version="0.2.22">
 
+  <p>20160301: dataTable tweaking</p>
   <p>20160223: more dataTable tweaking</p>
   <p>20160219: added CellRendering</p>
   <p>20160211: added Datatables</p>
@@ -207,6 +208,20 @@
 			<p>File to write summaries to.</p>
 			<p>May invoke some default behaviour</p>
 			<p class="note">Not fully developed. Some functions provided by --search</p>
+		</help>
+	</arg>
+		
+	<arg name="documentFrequencyFile"
+		long="--dffile"
+		args="dffile"
+		countRange="{1,1}"
+		parseMethod="parseDFFile"
+		runMethod="runDFFile"
+		finalMethod="finalDFFile"
+		>
+		<help>
+			<p>File to write document Frequencies to.</p>
+			<p>May invoke some default behaviour</p>
 		</help>
 	</arg>
 		
