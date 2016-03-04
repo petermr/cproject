@@ -1,5 +1,6 @@
-<argList name="cmine" version="0.2.22">
+<argList name="cmine" version="0.2.23">
 
+  <p>20160304: major tidying of output</p>
   <p>20160301: dataTable tweaking</p>
   <p>20160223: more dataTable tweaking</p>
   <p>20160219: added CellRendering</p>

@@ -36,7 +36,7 @@ public class ResultsJsonTest {
 		String resultsJsonString = FileUtils.readFileToString(resultsJson);
 	    JsonParser parser = new JsonParser();
 	    JsonObject jsonObject = (JsonObject) parser.parse(resultsJsonString);
-		System.out.println(jsonObject.get("journal"));
+		Assert.assertEquals("{\"value\":[\"Trials\"]}", jsonObject.get("journal").toString());
 	}
 	
 	@Test
@@ -54,14 +54,14 @@ public class ResultsJsonTest {
 	    	String key = entry.getKey();
 	    	JsonArray array = ((JsonObject)entry.getValue()).get("value").getAsJsonArray();
 	    	if (array.size() == 0) {
-	    		LOG.debug(key+"=null");
+	    		LOG.trace(key+"=null");
 	    		continue;
 	    	} else if (array.size() == 1) {
 	    		String value = array.get(0).getAsString();
-	    		LOG.debug(key+"="+value);
+	    		LOG.trace(key+"="+value);
 	    		valueByKey.put(key, value);
 	    	} else {
-	    		LOG.debug(key+"="+array.size()+"/"+array);
+	    		LOG.trace(key+"="+array.size()+"/"+array);
 	    	}
 	    }
 	    Assert.assertEquals(11, valueByKey.size());

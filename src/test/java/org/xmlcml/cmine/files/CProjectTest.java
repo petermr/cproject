@@ -403,7 +403,6 @@ project2
 		Assert.assertNotNull("files", cTreeFiles);
 		Assert.assertEquals("b", 2,  cTreeFiles.size());
 		// fails on unsorted lists
-		LOG.debug("xx "+cProject.getProjectFilesTree());
 		
 //		Assert.assertEquals("c", "src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.pdf",  
 //				fileListList.get(0).get(0).toString());
