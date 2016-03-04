@@ -617,6 +617,13 @@ public class ArgumentOption {
 			} catch (Exception e) {
 				throw new RuntimeException("default should be of type Boolean");
 			}
+		} else if (classType.equals(StringPair.class) && defalt instanceof String) {
+//			defaultBoolean = false;
+//			try {
+//				defaultBoolean = new Boolean(String.valueOf(defalt));
+//			} catch (Exception e) {
+//				throw new RuntimeException("default should be of type Boolean");
+//			}
 		} else {
 			LOG.error("Incompatible type and default: "+classType+"; "+defalt.getClass());
 		}

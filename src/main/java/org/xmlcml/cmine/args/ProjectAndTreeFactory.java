@@ -213,7 +213,7 @@ public class ProjectAndTreeFactory {
 					throw new RuntimeException("Project file cannot have extensions");
 				}
 				argProcessor.cProject = new CProject(projectFile);
-				argProcessor.CORE_LOG().info(projectFile+" does not exist, creating project and populating it");
+				argProcessor.PROJECT_LOG().info(projectFile+" does not exist, creating project and populating it");
   				projectFile.mkdirs();
 				createdProjectDir = true;
 			}
