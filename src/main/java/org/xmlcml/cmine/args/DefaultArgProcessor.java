@@ -506,7 +506,7 @@ public class DefaultArgProcessor {
 		PROJECT_LOG().trace("RUN SUMMARY; input: "+inputList);
 		
 		if (xPathProcessor == null) {
-			throw new RuntimeException("Must give xpath");
+//			throw new RuntimeException("Must give xpath");
 		} 
 		if (inputList == null ||inputList.size() == 0) {
 			PROJECT_LOG().warn("No input specified");

@@ -225,9 +225,9 @@ public class DataTablesTool {
 	private HtmlTfoot addFooter(HtmlTable htmlTable) {
 		HtmlTfoot htmlTfoot = new HtmlTfoot();
 		if (footerCaption == null || footerCells == null) {
-			LOG.warn("null footer caption or cells");
+			LOG.trace("null footer caption or cells");
 		} else if (footerCells.size() != columnHeadingList.size()) {
-			LOG.warn("Wrong number of footer cells: "+footerCells.size()+" != "+columnHeadingList.size());
+			LOG.error("Wrong number of footer cells: "+footerCells.size()+" != "+columnHeadingList.size());
 			return null;
 		} else {
 			HtmlTr tr = new HtmlTr();
