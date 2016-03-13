@@ -1,5 +1,6 @@
 package org.xmlcml.cmine.files;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +8,14 @@ public class PluginOption implements Comparable<PluginOption> {
 
 	public String pluginName;
 	public String optionName;
+	protected String plugin;
+	protected List<String> options;
+	protected List<String> flags;
+	protected File projectDir;
+	protected String optionString;
+	protected String resultXPathAttribute;
+	protected String resultXPathBase;
+	protected List<OptionFlag> optionFlags;
 	
 	public PluginOption() {
 	}
@@ -70,6 +79,18 @@ public class PluginOption implements Comparable<PluginOption> {
 	public static PluginOption getPluginOption(String pluginOptionName) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	public String getOptionString() {
+		return optionString;
+	}
+
+	public String getHeading() {
+		String heading = ""+this.pluginName+"."+this.optionName;
+		if (optionString != null) {
+			heading = optionString; 
+		}
+		return heading;
 	}
 	
 	
