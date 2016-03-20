@@ -10,6 +10,7 @@ import org.xmlcml.html.HtmlBody;
 import org.xmlcml.html.HtmlButton;
 import org.xmlcml.html.HtmlDiv;
 import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlElement.Target;
 import org.xmlcml.html.HtmlHead;
 import org.xmlcml.html.HtmlHtml;
 import org.xmlcml.html.HtmlScript;
@@ -45,6 +46,8 @@ public class DataTablesTool {
 	public static final String TABLE_STRIPED = "table-striped";
 	public static final String TABLE_BORDERED = "table-bordered";
 	public static final String TABLE_HOVER = "table-hover";
+	
+	public static final String TARGET = "target";
 	
 	private static final String RESULTS = "results";
 	private static final String DEFAULTS = 
@@ -113,6 +116,7 @@ public class DataTablesTool {
 			HtmlA htmlA = new HtmlA();
 			htmlA.appendChild(aValue);
 			htmlA.setHref(href);
+			htmlA.setTarget(Target.separate);
 			htmlTd.appendChild(htmlA);
 		}
 	}

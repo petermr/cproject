@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.cmine.files.PluginOption;
 import org.xmlcml.html.HtmlA;
 import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlElement.Target;
 import org.xmlcml.html.HtmlSpan;
 
 import nu.xom.Attribute;
@@ -91,7 +92,6 @@ public class CellRenderer {
 		}
 		if (href0 != null || href1 != null) {
 			element = createA(aValue);
-			LOG.trace("HR "+element.toXML());
 		} else {
 			element.appendChild(aValue);
 		}
@@ -105,6 +105,7 @@ public class CellRenderer {
 		String href = createHref(entityRef);
 		if (href != null) {
 			a.setHref(href);
+			a.setTarget(Target.separate);
 		}
 		return a;
 	}

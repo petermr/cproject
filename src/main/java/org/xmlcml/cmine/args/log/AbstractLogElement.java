@@ -149,19 +149,19 @@ public class AbstractLogElement extends Element {
 
 	public void info(String message) {
 		if (LogLevel.INFO.getLevelNumber() >= currentLevel.getLevelNumber()) {
-			addMethodNameAddMessageAndAppend(new InfoElement(), message);
+//			addMethodNameAddMessageAndAppend(new InfoElement(), message);
 		}
 	}
 
 	public void debug(String message) {
 		if (LogLevel.DEBUG.getLevelNumber() >= currentLevel.getLevelNumber()) {
-			addMethodNameAddMessageAndAppend(new DebugElement(), message);
+//			addMethodNameAddMessageAndAppend(new DebugElement(), message);
 		}
 	}
 
 	public void trace(String message) {
 		if (LogLevel.TRACE.getLevelNumber() >= currentLevel.getLevelNumber()) {
-			addMethodNameAddMessageAndAppend(new TraceElement(), message);
+//			addMethodNameAddMessageAndAppend(new TraceElement(), message);
 		}
 	}
 

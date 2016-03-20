@@ -25,6 +25,7 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
+import org.xmlcml.cmine.args.log.AbstractLogElement.LogLevel;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.files.AbstractSearcher;
 import org.xmlcml.cmine.files.CProject;
@@ -126,6 +127,7 @@ public class DefaultArgProcessor {
 	public final static String H = "-h";
 	public final static String HELP = "--help";
 	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cmine/args";
+	private static String AMI_DICTIONARY_RESOURCE = "/org/xmlcml/ami2/plugins/dictionary/";
 	protected static final String ARGS_XML = "args.xml";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+ARGS_XML;
 	private static final String NAME = "name";
@@ -675,8 +677,16 @@ public class DefaultArgProcessor {
 	public void createAndAddDictionaries(List<String> dictionarySources) {
 		ensureDictionaryList();
 		for (String dictionarySource : dictionarySources) {
-			
-			InputStream is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
+			InputStream is = null;
+			String dictionaryResource = AMI_DICTIONARY_RESOURCE+dictionarySource;
+			if (!dictionaryResource.endsWith(".xml")) {
+				dictionaryResource = dictionaryResource+".xml";
+			}
+			LOG.debug(dictionaryResource);
+			is = this.getClass().getResourceAsStream(dictionaryResource);
+			if (is == null) {
+				is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
+			}
 			if (is == null) {
 				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
 			}
@@ -1093,6 +1103,7 @@ public class DefaultArgProcessor {
 				currentCTree = cTreeList.get(i);
 				projectLog.info("running: "+currentCTree.getDirectory());
 				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
+				if (cTreeLog != null) cTreeLog.setLevel(LogLevel.ERROR);
 				TREE_LOG().info("TEST LOG "+this.hashCode());
 				currentCTree.ensureContentProcessor(this);
 				try {
