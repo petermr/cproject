@@ -1,5 +1,6 @@
-<argList name="cmine" version="0.2.27">
+<argList name="cmine" version="0.2.28">
 
+  <p>20160320: support for sectioning</p>
   <p>20160313: moved optionFlags from AMI</p>
   <p>20160305: minor tidying</p>
   <p>20160304: major tidying of output</p>
