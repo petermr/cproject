@@ -174,4 +174,9 @@ public class CellRenderer {
 		return heading;
 	}
 
+	public void setFlag(String flag) {
+		flag = flag.replace("search:", "dic:");
+		this.flag = flag;
+	}
+
 }

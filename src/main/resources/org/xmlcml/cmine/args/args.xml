@@ -1,5 +1,6 @@
-<argList name="cmine" version="0.2.28">
+<argList name="cmine" version="0.2.29">
 
+  <p>20160324: fixed col headings on dataTables</p>
   <p>20160320: support for sectioning</p>
   <p>20160313: moved optionFlags from AMI</p>
   <p>20160305: minor tidying</p>

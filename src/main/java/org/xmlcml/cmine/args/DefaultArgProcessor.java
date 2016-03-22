@@ -255,7 +255,7 @@ public class DefaultArgProcessor {
 			Element argListElement = new Builder().build(is).getRootElement();
 			projectLog = this.getOrCreateLog(logfileName);
 			getVersionManager().readNameVersion(argListElement);
-			PROJECT_LOG().trace("VERSION "+getVersionManager());
+			LOG.trace("VERSION "+getVersionManager());
 			createArgumentOptions(argListElement);
 		} catch (Exception e) {
 			throw new RuntimeException("Cannot read/process args file "+resourceName, e);
@@ -266,7 +266,7 @@ public class DefaultArgProcessor {
 		List<Element> elementList = XMLUtil.getQueryElements(argElement, "/*/*[local-name()='arg']");
 		for (Element element : elementList) {
 			ArgumentOption argOption = ArgumentOption.createOption(this.getClass(), element);
-			PROJECT_LOG().trace("created ArgumentOption: "+argOption);
+			LOG.trace("created ArgumentOption: "+argOption);
 			argumentOptionList.add(argOption);
 		}
 	}
@@ -329,7 +329,7 @@ public class DefaultArgProcessor {
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
 		List<String> strings = argIterator.getStrings(option);
 		logfileName = (strings.size() == 0) ? CTree.LOGFILE : strings.get(0);
-		PROJECT_LOG().trace("log file: "+logfileName);
+		LOG.trace("log file: "+logfileName);
 	}
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
@@ -367,7 +367,7 @@ public class DefaultArgProcessor {
 	}
 	
 	public void parseAnalysis(ArgumentOption option, ArgIterator argIterator) {
-		PROJECT_LOG().warn("DEPRECATED: use --filter");
+		LOG.warn("DEPRECATED: use --filter");
 		List<String> analyzeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		setFilter(analyzeStrings);
 	}
@@ -387,7 +387,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void runAnalysis(ArgumentOption option) {
-		PROJECT_LOG().warn("DEPRECATED: use --filter");
+		LOG.warn("DEPRECATED: use --filter");
 		filterCTree();
 	}
 
@@ -410,11 +410,11 @@ public class DefaultArgProcessor {
 	}
 
 	public void outputMethod(ArgumentOption option) {
-		PROJECT_LOG().trace("output method not written");
+		LOG.trace("output method not written");
 	}
 
 	public void outputAnalysis(ArgumentOption option) {
-		PROJECT_LOG().warn("DEPRECATED: use --filter");
+		LOG.warn("DEPRECATED: use --filter");
 		outputFilterRoutine();
 	}
 
@@ -423,7 +423,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void finalAnalysis(ArgumentOption option) {
-		PROJECT_LOG().warn("DEPRECATED: use --filter");
+		LOG.warn("DEPRECATED: use --filter");
 		finalFilterRoutine();
 	}
 
@@ -450,19 +450,19 @@ public class DefaultArgProcessor {
 			} else if (currentCTree.getCTreeFiles() != null) {
 				outputCTreeFiles(outputFile);
 			} else {
-				PROJECT_LOG().debug("Analysis: No snippets or files to output");
+				LOG.debug("Analysis: No snippets or files to output");
 			}
 		}
 	}
 
 	private void finalFilterRoutine() {
 		if (cProject == null) {
-			PROJECT_LOG().warn("no project to analyze");
+			LOG.warn("no project to analyze");
 			return;
 		}
 		File directory = cProject.getDirectory();
 		if (directory == null) {
-			PROJECT_LOG().warn("no directory to analyze");
+			LOG.warn("no directory to analyze");
 			return;
 		}
 		if (filterExpression != null && output != null) {
@@ -493,7 +493,7 @@ public class DefaultArgProcessor {
 
 	private void outputFilterSnippets(File directory) {
 		File outputFile = new File(directory, output);
-		PROJECT_LOG().trace("fliterSnippets "+outputFile);
+		LOG.trace("filterSnippets "+outputFile);
 		ProjectSnippetsTree projectSnippetsTree = cProject.getProjectSnippetsTree();
 		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
 		if (projectSnippetsTree != null) {
@@ -505,13 +505,13 @@ public class DefaultArgProcessor {
 	
 	private void runSummaryModule() {
 		ensureDocumentMutiset();
-		PROJECT_LOG().trace("RUN SUMMARY; input: "+inputList);
+		LOG.trace("RUN SUMMARY; input: "+inputList);
 		
 		if (xPathProcessor == null) {
 //			throw new RuntimeException("Must give xpath");
 		} 
 		if (inputList == null ||inputList.size() == 0) {
-			PROJECT_LOG().warn("No input specified");
+			LOG.warn("No input specified");
 			return;
 		}
 		if (currentCTree == null) {
@@ -520,7 +520,7 @@ public class DefaultArgProcessor {
 		ResultsElement summaryResultsElement = createAggregatedSortedResultsCount();
 		if (summaryFileName != null) {
 			File file = new File(currentCTree.getDirectory(), summaryFileName);
-			PROJECT_LOG().trace("file: "+file);
+			LOG.trace("file: "+file);
 			writeResultsToSummaryFile(summaryResultsElement, file);
 			List<ResultElement> resultsElementList = summaryResultsElement.getOrCreateResultElementList();
 			for (ResultElement resultElement : resultsElementList) {
@@ -632,7 +632,7 @@ public class DefaultArgProcessor {
 		if (filterStrings != null && filterStrings.size() == 1) {
 			filterExpression = filterStrings.get(0);
 		} else {
-			PROJECT_LOG().error("--filter requires 1 expression");
+			LOG.error("--filter requires 1 expression");
 		}
 	}
 
@@ -811,10 +811,10 @@ public class DefaultArgProcessor {
 		} else {
 			String[] totalArgs = addDefaultsAndParsedArgs(commandLineArgs);
 			ArgIterator argIterator = new ArgIterator(totalArgs);
-			PROJECT_LOG().trace("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
+			LOG.trace("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
 			while (argIterator.hasNext()) {
 				String arg = argIterator.next();
-				PROJECT_LOG().trace("arg> "+arg);
+				LOG.trace("arg> "+arg);
 				try {
 					addArgumentOptionsAndRunParseMethods(argIterator, arg);
 				} catch (Exception e) {
@@ -847,7 +847,7 @@ public class DefaultArgProcessor {
 		for (String input : inputList) {
 			File file = new File(input);
 			if (file.isDirectory()) {
-				PROJECT_LOG().trace("DIR: "+file.getAbsolutePath()+"; isDir "+file.isDirectory()+"; Exist "+file.exists()+"; "+file.getAbsolutePath());
+				LOG.trace("DIR: "+file.getAbsolutePath()+"; isDir "+file.isDirectory()+"; Exist "+file.exists()+"; "+file.getAbsolutePath());
 				addDirectoryFiles(inputList0, file);
 			} else {
 				inputList0.add(input);
@@ -855,7 +855,7 @@ public class DefaultArgProcessor {
 		}
 		inputList = inputList0;
 		Collections.sort(inputList);
-		PROJECT_LOG().trace("sorted input: "+inputList);
+		LOG.trace("sorted input: "+inputList);
 	}
 
 	/** will return a sorted list
@@ -871,7 +871,7 @@ public class DefaultArgProcessor {
 			inputList0.add(file0.toString());
 		}
 		Collections.sort(inputList0);
-		PROJECT_LOG().trace("sort: "+inputList0);
+		LOG.trace("sort: "+inputList0);
 	}
 
 	private String[] addDefaultsAndParsedArgs(String[] commandLineArgs) {
@@ -886,7 +886,7 @@ public class DefaultArgProcessor {
 		StringBuilder sb = new StringBuilder();
 		for (ArgumentOption option : argumentOptionList) {
 			String defalt = String.valueOf(option.getDefault());
-			PROJECT_LOG().trace("default: "+defalt);
+			LOG.trace("default: "+defalt);
 			if (defalt != null && defalt.toString().trim().length() > 0) {
 				String command = getBriefOrVerboseCommand(option);
 				sb.append(command+" "+option.getDefault()+" ");
@@ -938,7 +938,7 @@ public class DefaultArgProcessor {
 	protected void runMethodsOfType(String methodNameType) {
 		List<ArgumentOption> optionList = getOptionsWithMethod(methodNameType);
 		for (ArgumentOption option : optionList) {
-			PROJECT_LOG().trace("option "+option+" "+this.getClass());
+			LOG.trace("option "+option+" "+this.getClass());
 			String methodName = null;
 			try {
 				methodName = option.getMethodName(methodNameType);
@@ -946,7 +946,7 @@ public class DefaultArgProcessor {
 					instantiateAndRunMethod(option, methodName);
 				}
 			} catch (Exception e) {
-				PROJECT_LOG().debug("option in exception "+option.toString());
+				LOG.debug("option in exception "+option.toString());
 				e.printStackTrace();
 				throw new RuntimeException("cannot run ["+methodName+"] in "+option.getVerbose()+
 						" ("+ExceptionUtils.getRootCauseMessage(e)+")");
@@ -957,9 +957,9 @@ public class DefaultArgProcessor {
 	private List<ArgumentOption> getOptionsWithMethod(String methodName) {
 		List<ArgumentOption> optionList0 = new ArrayList<ArgumentOption>();
 		for (ArgumentOption option : chosenArgumentOptionList) {
-			PROJECT_LOG().trace("run "+option.getRunMethodName());
+			LOG.trace("run "+option.getRunMethodName());
 			if (option.getMethodName(methodName) != null) {
-				PROJECT_LOG().trace("added run "+option.getRunMethodName());
+				LOG.trace("added run "+option.getRunMethodName());
 				optionList0.add(option);
 			}
 		}
@@ -971,11 +971,11 @@ public class DefaultArgProcessor {
 		ensureChosenArgumentList();
 		boolean processed = false;
 		if (!arg.startsWith(MINUS)) {
-			PROJECT_LOG().error("Parsing failed at: ("+arg+"), expected \"-\" trying to recover");
+			LOG.error("Parsing failed at: ("+arg+"), expected \"-\" trying to recover");
 		} else {
 			for (ArgumentOption option : argumentOptionList) {
 				if (option.matches(arg)) {
-					PROJECT_LOG().trace("OPTION>> "+option);
+					LOG.trace("OPTION>> "+option);
 					String initMethodName = option.getInitMethodName();
 					if (initMethodName != null) {
 						runInitMethod1(option, initMethodName);
@@ -990,7 +990,7 @@ public class DefaultArgProcessor {
 				}
 			}
 			if (!processed) {
-				PROJECT_LOG().error("Unknown arg: ("+arg+"), trying to recover");
+				LOG.error("Unknown arg: ("+arg+"), trying to recover");
 			}
 		}
 	}
@@ -1023,15 +1023,15 @@ public class DefaultArgProcessor {
 				method.invoke(this, option, argIterator);
 			}
 		} catch (Exception e) {
-			PROJECT_LOG().trace("failed to run "+methodName+" in "+this.getClass()+"; from argument "+option.getClass()+";"+e.getCause());
+			LOG.trace("failed to run "+methodName+" in "+this.getClass()+"; from argument "+option.getClass()+";"+e.getCause());
 			throw new RuntimeException("Cannot run: "+methodName+" in "+this.getClass()+"; from argument "+option.getClass()+";", e);
 		}
 	}
 
 	private void debugMethods() {
-		PROJECT_LOG().debug("methods for "+this.getClass());
+		LOG.debug("methods for "+this.getClass());
 		for (Method meth : this.getClass().getDeclaredMethods()) {
-			PROJECT_LOG().debug(meth.toString());
+			LOG.debug(meth.toString());
 		}
 	}
 
@@ -1089,14 +1089,14 @@ public class DefaultArgProcessor {
 			if (projectDirString != null) {
 				output = projectDirString;
 			} else if (output != null) {
-				PROJECT_LOG().warn("no --project given; using --output");
+				LOG.warn("no --project given; using --output");
 				projectDirString = output;
 			} else {
-				PROJECT_LOG().warn("No --project or --output; ");
+				LOG.warn("No --project or --output; ");
 //				printHelp();
 				return;
 			}
-			PROJECT_LOG().trace("treating as CTree creation under project "+projectDirString);
+			LOG.trace("treating as CTree creation under project "+projectDirString);
 			runRunMethodsOnChosenArgOptions();
 		} else {
 			for (int i = 0; i < cTreeList.size(); i++) {
@@ -1138,7 +1138,7 @@ public class DefaultArgProcessor {
 		try {
 			variableProcessor.addVariableAndExpandReferences(name, value);
 		} catch (Exception e) {
-			PROJECT_LOG().error("add variable {"+name+", "+value+"} failed");
+			LOG.error("add variable {"+name+", "+value+"} failed");
 		}
 	}
 
@@ -1233,7 +1233,7 @@ public class DefaultArgProcessor {
 			if (tokens.size() == 0) {
 	//			LOG.debug(XPATH_OPTION).getHelp());
 			} else if (tokens.size() > 1) {
-				PROJECT_LOG().warn("Exactly one xpath required");
+				LOG.warn("Exactly one xpath required");
 			} else {
 				xPathProcessor = new XPathProcessor(tokens.get(0));
 			}

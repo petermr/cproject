@@ -60,7 +60,7 @@ public class DataTablesTool {
 	private String title;
 	private String tableId; // HTML ID of table element
 
-	public List<CellRenderer> columnHeadingList;
+	public List<CellRenderer> cellRendererList;
 	private List<String> rowHeadingList;
 	private String rowHeadingName;
 	private CellCalculator cellCalculator;
@@ -138,7 +138,7 @@ public class DataTablesTool {
 
 	private void addRemainingColumnHeadings(HtmlTr htmlTr) {
 		
-		for (CellRenderer renderer : columnHeadingList) {
+		for (CellRenderer renderer : cellRendererList) {
 			if (renderer.isVisible()) {
 				HtmlTh htmlTh = new HtmlTh();
 				htmlTr.appendChild(htmlTh);
@@ -171,15 +171,15 @@ public class DataTablesTool {
 		return rowHeadingList;
 	}
 
-	public void setColumnHeadingList(List<CellRenderer> columnHeadingList) {
-		this.columnHeadingList = columnHeadingList;
+	public void setCellRendererList(List<CellRenderer> cellRendererList) {
+		this.cellRendererList = cellRendererList;
 	}
 
 	public List<CellRenderer> getOrCreateColumnHeadingList() {
-		if (columnHeadingList == null) {
-			columnHeadingList = new ArrayList<CellRenderer>();
+		if (cellRendererList == null) {
+			cellRendererList = new ArrayList<CellRenderer>();
 		}
-		return columnHeadingList;
+		return cellRendererList;
 	}
 
 	/** this calls addCellValues(htmlTr, rowHeading) which includes ResultsAnalysis logic.
@@ -200,12 +200,12 @@ public class DataTablesTool {
 			htmlTd.setTitle("foo");
 			
 			htmlTr.appendChild(htmlTd);
-			cellCalculator.addCellValues(columnHeadingList, htmlTr, iRow);
+			cellCalculator.addCellValues(cellRendererList, htmlTr, iRow);
 		}
 	}
 
 	public void addCellValuesToRow(HtmlTr htmlTr, int iRow) {
-		for (int iCol = 0; iCol < columnHeadingList.size(); iCol++) {
+		for (int iCol = 0; iCol < cellRendererList.size(); iCol++) {
 			HtmlElement htmlTd = new HtmlTd();
 			htmlTr.appendChild(htmlTd);
 			HtmlElement contents = cellCalculator.createCellContents(iRow, iCol);
@@ -232,14 +232,14 @@ public class DataTablesTool {
 			LOG.trace(""
 					+ ""
 					+ "aption or cells");
-		} else if (footerCells.size() != columnHeadingList.size()) {
-			LOG.error("Wrong number of footer cells: "+footerCells.size()+" != "+columnHeadingList.size());
+		} else if (footerCells.size() != cellRendererList.size()) {
+			LOG.error("Wrong number of footer cells: "+footerCells.size()+" != "+cellRendererList.size());
 			return null;
 		} else {
 			HtmlTr tr = new HtmlTr();
 			htmlTfoot.appendChild(tr);
 			tr.appendChild(footerCaption);
-			for (int i = 0; i < columnHeadingList.size(); i++) {
+			for (int i = 0; i < cellRendererList.size(); i++) {
 				tr.appendChild(footerCells.get(i));
 			}
 		}
