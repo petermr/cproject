@@ -225,6 +225,7 @@ public class ProjectAndTreeFactory {
 			public boolean accept(File file) {
 				return file != null && file.isDirectory();
 			}}));
+		subdirectories.sort(null);
 		for (File subDirectory : subdirectories) {
 			CTree cTree = new CTree(subDirectory);
 			argProcessor.cTreeList.add(cTree);
@@ -236,6 +237,7 @@ public class ProjectAndTreeFactory {
 			public boolean accept(File file) {
 				return file != null && isZipFile(file);
 			}}));
+		zipFiles.sort(null);
 		for (File zipFile : zipFiles) {
 			createTreeFromZipFile(projectFile, zipFile);
 			CTree cTree = new CTree(zipFile);
