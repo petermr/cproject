@@ -5,6 +5,7 @@ import java.io.FileFilter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Enumeration;
 import java.util.List;
 import java.util.zip.ZipEntry;
@@ -225,7 +226,7 @@ public class ProjectAndTreeFactory {
 			public boolean accept(File file) {
 				return file != null && file.isDirectory();
 			}}));
-		subdirectories.sort(null);
+		Collections.sort(subdirectories);
 		for (File subDirectory : subdirectories) {
 			CTree cTree = new CTree(subDirectory);
 			argProcessor.cTreeList.add(cTree);
@@ -237,7 +238,7 @@ public class ProjectAndTreeFactory {
 			public boolean accept(File file) {
 				return file != null && isZipFile(file);
 			}}));
-		zipFiles.sort(null);
+		Collections.sort(zipFiles);
 		for (File zipFile : zipFiles) {
 			createTreeFromZipFile(projectFile, zipFile);
 			CTree cTree = new CTree(zipFile);
