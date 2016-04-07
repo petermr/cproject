@@ -2,8 +2,10 @@ package org.xmlcml.cmine.util;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.files.PluginOption;
 import org.xmlcml.html.HtmlA;
 import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlElement.Target;
 import org.xmlcml.html.HtmlSpan;
 
 import nu.xom.Attribute;
@@ -24,9 +26,16 @@ public class CellRenderer {
 	private String href1;
 	private int hrefWordCount;
 	private String hrefJoinString;
+	private PluginOption pluginOption;
 
+	//@Deprecated // use CellRenderer(PluginOption pluginOption) if possible
 	public CellRenderer(String flag) {
 		this.flag = flag;
+		setDefaults();
+	}
+
+	public CellRenderer(PluginOption pluginOption) {
+		this.pluginOption = pluginOption;
 		setDefaults();
 	}
 
@@ -83,7 +92,6 @@ public class CellRenderer {
 		}
 		if (href0 != null || href1 != null) {
 			element = createA(aValue);
-			LOG.trace("HR "+element.toXML());
 		} else {
 			element.appendChild(aValue);
 		}
@@ -97,6 +105,7 @@ public class CellRenderer {
 		String href = createHref(entityRef);
 		if (href != null) {
 			a.setHref(href);
+			a.setTarget(Target.separate);
 		}
 		return a;
 	}
@@ -153,6 +162,21 @@ public class CellRenderer {
 	public void setUseHrefWords(int hrefWords, String hrefJoin) {
 		this.hrefWordCount = hrefWords;
 		this.hrefJoinString = hrefJoin;
+	}
+
+	public String getHeading() {
+		String heading = "?";
+		if (pluginOption != null) {
+			heading = pluginOption.getHeading(); 
+		} else if (flag != null) {
+			heading = flag;
+		}
+		return heading;
+	}
+
+	public void setFlag(String flag) {
+		flag = flag.replace("search:", "dic:");
+		this.flag = flag;
 	}
 
 }

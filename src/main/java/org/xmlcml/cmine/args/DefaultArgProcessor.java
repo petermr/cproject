@@ -25,6 +25,7 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
+import org.xmlcml.cmine.args.log.AbstractLogElement.LogLevel;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.files.AbstractSearcher;
 import org.xmlcml.cmine.files.CProject;
@@ -38,7 +39,6 @@ import org.xmlcml.cmine.files.ResultElement;
 import org.xmlcml.cmine.files.ResultsElement;
 import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
-import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.HtmlP;
@@ -46,7 +46,6 @@ import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
-import com.google.common.collect.Multiset.Entry;
 
 import nu.xom.Attribute;
 import nu.xom.Builder;
@@ -128,6 +127,7 @@ public class DefaultArgProcessor {
 	public final static String H = "-h";
 	public final static String HELP = "--help";
 	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cmine/args";
+	private static String AMI_DICTIONARY_RESOURCE = "/org/xmlcml/ami2/plugins/dictionary/";
 	protected static final String ARGS_XML = "args.xml";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+ARGS_XML;
 	private static final String NAME = "name";
@@ -175,7 +175,7 @@ public class DefaultArgProcessor {
 	protected Map<String, String> variableByNameMap;
 	private VariableProcessor variableProcessor;
 	private AbstractLogElement cTreeLog;
-	private AbstractLogElement coreLog;
+	private AbstractLogElement projectLog;
 	private boolean unzip = false;
 	List<List<String>> renamePairs;
 	protected List<DefaultStringDictionary> dictionaryList;
@@ -209,14 +209,16 @@ public class DefaultArgProcessor {
 
 	private void ensureDefaultLogFiles() {
 		TREE_LOG();
-		CORE_LOG();
+		PROJECT_LOG();
 	}
 
-	public AbstractLogElement CORE_LOG() {
-		if (coreLog == null) {
-			createInitLog(new File("target/defaultInitLog.xml"));
+	public final static  AbstractLogElement CM_LOG = new CMineLog(new File("target/defaultLog.xml"));
+	
+	public AbstractLogElement PROJECT_LOG() {
+		if (projectLog == null) {
+			createProjectLog(new File("target/defaultProjectLog.xml"));
 		}
-		return coreLog;
+		return projectLog;
 	}
 
 	public AbstractLogElement TREE_LOG() {
@@ -230,12 +232,11 @@ public class DefaultArgProcessor {
 		cTreeLog = new CMineLog(logFile);
 	}
 
-	public void createInitLog(File logFile) {
-		coreLog = new CMineLog(logFile);
+	public void createProjectLog(File logFile) {
+		projectLog = new CMineLog(logFile);
 	}
 
 	protected static VersionManager getVersionManager() {
-//		LOG.debug("VM Default "+DEFAULT_VERSION_MANAGER.hashCode()+" "+DEFAULT_VERSION_MANAGER.getName()+";"+DEFAULT_VERSION_MANAGER.getVersion());
 		return DEFAULT_VERSION_MANAGER;
 	}
 	
@@ -252,7 +253,7 @@ public class DefaultArgProcessor {
 				throw new RuntimeException("Cannot read/find input resource stream: "+resourceName);
 			}
 			Element argListElement = new Builder().build(is).getRootElement();
-			coreLog = this.getOrCreateLog(logfileName);
+			projectLog = this.getOrCreateLog(logfileName);
 			getVersionManager().readNameVersion(argListElement);
 			LOG.trace("VERSION "+getVersionManager());
 			createArgumentOptions(argListElement);
@@ -328,7 +329,7 @@ public class DefaultArgProcessor {
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
 		List<String> strings = argIterator.getStrings(option);
 		logfileName = (strings.size() == 0) ? CTree.LOGFILE : strings.get(0);
-		LOG.debug("log file: "+logfileName);
+		LOG.trace("log file: "+logfileName);
 	}
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
@@ -456,12 +457,12 @@ public class DefaultArgProcessor {
 
 	private void finalFilterRoutine() {
 		if (cProject == null) {
-			LOG.debug("no project to analyze");
+			LOG.warn("no project to analyze");
 			return;
 		}
 		File directory = cProject.getDirectory();
 		if (directory == null) {
-			LOG.debug("no directory to analyze");
+			LOG.warn("no directory to analyze");
 			return;
 		}
 		if (filterExpression != null && output != null) {
@@ -476,12 +477,6 @@ public class DefaultArgProcessor {
 			outputDFCounts();
 		}
 	}
-
-//	for (Entry<String> entry : entriesByCount) {
-//		if (entry.getCount() > 1) {
-//			LOG.debug(":: "+entry);
-//		}
-//	}
 
 	private void outputDFCounts() {
 		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(documentMultiset);
@@ -498,7 +493,7 @@ public class DefaultArgProcessor {
 
 	private void outputFilterSnippets(File directory) {
 		File outputFile = new File(directory, output);
-		LOG.trace(">>>"+outputFile);
+		LOG.trace("filterSnippets "+outputFile);
 		ProjectSnippetsTree projectSnippetsTree = cProject.getProjectSnippetsTree();
 		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
 		if (projectSnippetsTree != null) {
@@ -513,7 +508,7 @@ public class DefaultArgProcessor {
 		LOG.trace("RUN SUMMARY; input: "+inputList);
 		
 		if (xPathProcessor == null) {
-			throw new RuntimeException("Must give xpath");
+//			throw new RuntimeException("Must give xpath");
 		} 
 		if (inputList == null ||inputList.size() == 0) {
 			LOG.warn("No input specified");
@@ -532,7 +527,6 @@ public class DefaultArgProcessor {
 				documentMultiset.add(resultElement.getValue());
 			}
 		}
-//		LOG.debug(summaryResultsElement.toXML());
 		cProject.addSummaryResultsElement(summaryResultsElement);
 	}
 
@@ -541,10 +535,6 @@ public class DefaultArgProcessor {
 			documentMultiset = HashMultiset.create();
 		}
 	}
-
-//	private void runDFModule() {
-//		LOG.debug("DF not yet written");
-//	}
 
 	private void writeResultsToSummaryFile(ResultsElement resultsElement, File summaryFile) {
 		try {
@@ -687,8 +677,16 @@ public class DefaultArgProcessor {
 	public void createAndAddDictionaries(List<String> dictionarySources) {
 		ensureDictionaryList();
 		for (String dictionarySource : dictionarySources) {
-			
-			InputStream is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
+			InputStream is = null;
+			String dictionaryResource = AMI_DICTIONARY_RESOURCE+dictionarySource;
+			if (!dictionaryResource.endsWith(".xml")) {
+				dictionaryResource = dictionaryResource+".xml";
+			}
+			LOG.debug(dictionaryResource);
+			is = this.getClass().getResourceAsStream(dictionaryResource);
+			if (is == null) {
+				is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
+			}
 			if (is == null) {
 				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
 			}
@@ -948,7 +946,7 @@ public class DefaultArgProcessor {
 					instantiateAndRunMethod(option, methodName);
 				}
 			} catch (Exception e) {
-				LOG.debug(option);
+				LOG.debug("option in exception "+option.toString());
 				e.printStackTrace();
 				throw new RuntimeException("cannot run ["+methodName+"] in "+option.getVerbose()+
 						" ("+ExceptionUtils.getRootCauseMessage(e)+")");
@@ -1026,7 +1024,6 @@ public class DefaultArgProcessor {
 			}
 		} catch (Exception e) {
 			LOG.trace("failed to run "+methodName+" in "+this.getClass()+"; from argument "+option.getClass()+";"+e.getCause());
-//			e.printStackTrace();
 			throw new RuntimeException("Cannot run: "+methodName+" in "+this.getClass()+"; from argument "+option.getClass()+";", e);
 		}
 	}
@@ -1034,7 +1031,7 @@ public class DefaultArgProcessor {
 	private void debugMethods() {
 		LOG.debug("methods for "+this.getClass());
 		for (Method meth : this.getClass().getDeclaredMethods()) {
-			LOG.debug(meth);
+			LOG.debug(meth.toString());
 		}
 	}
 
@@ -1095,8 +1092,8 @@ public class DefaultArgProcessor {
 				LOG.warn("no --project given; using --output");
 				projectDirString = output;
 			} else {
-				LOG.warn("No --project or --output; running help");
-				printHelp();
+				LOG.warn("No --project or --output; ");
+//				printHelp();
 				return;
 			}
 			LOG.trace("treating as CTree creation under project "+projectDirString);
@@ -1104,8 +1101,9 @@ public class DefaultArgProcessor {
 		} else {
 			for (int i = 0; i < cTreeList.size(); i++) {
 				currentCTree = cTreeList.get(i);
-				coreLog.info("running: "+currentCTree.getDirectory());
+				projectLog.info("running: "+currentCTree.getDirectory());
 				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
+				if (cTreeLog != null) cTreeLog.setLevel(LogLevel.ERROR);
 				TREE_LOG().info("TEST LOG "+this.hashCode());
 				currentCTree.ensureContentProcessor(this);
 				try {
@@ -1116,11 +1114,11 @@ public class DefaultArgProcessor {
 						cTreeLog.writeLog();
 					}
 				} catch (Exception e) {
-					coreLog.error("error in running, terminated: "+e);
+					projectLog.error("error in running, terminated: "+e);
 					continue;
 				}
 				if (i % 10 == 0) System.out.print(".");
-				LOG.trace(coreLog.toXML());
+				TREE_LOG().trace(projectLog.toXML());
 			}
 			
 		}
@@ -1130,8 +1128,8 @@ public class DefaultArgProcessor {
 
 
 	private void writeLog() {
-		if (coreLog != null) {
-			coreLog.writeLog();
+		if (projectLog != null) {
+			projectLog.writeLog();
 		}
 	}
 
@@ -1188,7 +1186,7 @@ public class DefaultArgProcessor {
 				Element xml = XMLUtil.parseQuietlyToDocument(scholarlyHtmlFile).getRootElement();
 				htmlElement = new HtmlFactory().parse(scholarlyHtmlFile);
 			} catch (Exception e) {
-				LOG.error("Cannot create scholarlyHtmlElement");
+				LOG.error("Cannot create scholarlyHtmlElement: "+e);
 			}
 		}
 		return htmlElement;

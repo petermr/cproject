@@ -10,6 +10,7 @@ import org.xmlcml.html.HtmlBody;
 import org.xmlcml.html.HtmlButton;
 import org.xmlcml.html.HtmlDiv;
 import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlElement.Target;
 import org.xmlcml.html.HtmlHead;
 import org.xmlcml.html.HtmlHtml;
 import org.xmlcml.html.HtmlScript;
@@ -46,6 +47,8 @@ public class DataTablesTool {
 	public static final String TABLE_BORDERED = "table-bordered";
 	public static final String TABLE_HOVER = "table-hover";
 	
+	public static final String TARGET = "target";
+	
 	private static final String RESULTS = "results";
 	private static final String DEFAULTS = 
 			    DataTablesTool.TABLE+
@@ -57,7 +60,7 @@ public class DataTablesTool {
 	private String title;
 	private String tableId; // HTML ID of table element
 
-	public List<CellRenderer> columnHeadingList;
+	public List<CellRenderer> cellRendererList;
 	private List<String> rowHeadingList;
 	private String rowHeadingName;
 	private CellCalculator cellCalculator;
@@ -113,6 +116,7 @@ public class DataTablesTool {
 			HtmlA htmlA = new HtmlA();
 			htmlA.appendChild(aValue);
 			htmlA.setHref(href);
+			htmlA.setTarget(Target.separate);
 			htmlTd.appendChild(htmlA);
 		}
 	}
@@ -134,7 +138,7 @@ public class DataTablesTool {
 
 	private void addRemainingColumnHeadings(HtmlTr htmlTr) {
 		
-		for (CellRenderer renderer : columnHeadingList) {
+		for (CellRenderer renderer : cellRendererList) {
 			if (renderer.isVisible()) {
 				HtmlTh htmlTh = new HtmlTh();
 				htmlTr.appendChild(htmlTh);
@@ -167,15 +171,15 @@ public class DataTablesTool {
 		return rowHeadingList;
 	}
 
-	public void setColumnHeadingList(List<CellRenderer> columnHeadingList) {
-		this.columnHeadingList = columnHeadingList;
+	public void setCellRendererList(List<CellRenderer> cellRendererList) {
+		this.cellRendererList = cellRendererList;
 	}
 
 	public List<CellRenderer> getOrCreateColumnHeadingList() {
-		if (columnHeadingList == null) {
-			columnHeadingList = new ArrayList<CellRenderer>();
+		if (cellRendererList == null) {
+			cellRendererList = new ArrayList<CellRenderer>();
 		}
-		return columnHeadingList;
+		return cellRendererList;
 	}
 
 	/** this calls addCellValues(htmlTr, rowHeading) which includes ResultsAnalysis logic.
@@ -196,12 +200,12 @@ public class DataTablesTool {
 			htmlTd.setTitle("foo");
 			
 			htmlTr.appendChild(htmlTd);
-			cellCalculator.addCellValues(columnHeadingList, htmlTr, iRow);
+			cellCalculator.addCellValues(cellRendererList, htmlTr, iRow);
 		}
 	}
 
 	public void addCellValuesToRow(HtmlTr htmlTr, int iRow) {
-		for (int iCol = 0; iCol < columnHeadingList.size(); iCol++) {
+		for (int iCol = 0; iCol < cellRendererList.size(); iCol++) {
 			HtmlElement htmlTd = new HtmlTd();
 			htmlTr.appendChild(htmlTd);
 			HtmlElement contents = cellCalculator.createCellContents(iRow, iCol);
@@ -225,15 +229,17 @@ public class DataTablesTool {
 	private HtmlTfoot addFooter(HtmlTable htmlTable) {
 		HtmlTfoot htmlTfoot = new HtmlTfoot();
 		if (footerCaption == null || footerCells == null) {
-			LOG.warn("null footer caption or cells");
-		} else if (footerCells.size() != columnHeadingList.size()) {
-			LOG.warn("Wrong number of footer cells: "+footerCells.size()+" != "+columnHeadingList.size());
+			LOG.trace(""
+					+ ""
+					+ "aption or cells");
+		} else if (footerCells.size() != cellRendererList.size()) {
+			LOG.error("Wrong number of footer cells: "+footerCells.size()+" != "+cellRendererList.size());
 			return null;
 		} else {
 			HtmlTr tr = new HtmlTr();
 			htmlTfoot.appendChild(tr);
 			tr.appendChild(footerCaption);
-			for (int i = 0; i < columnHeadingList.size(); i++) {
+			for (int i = 0; i < cellRendererList.size(); i++) {
 				tr.appendChild(footerCells.get(i));
 			}
 		}

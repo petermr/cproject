@@ -85,6 +85,7 @@ public class DefaultArgProcessorTest {
 	}
 	
 	@Test
+	@Ignore // too much debug output
 	public void testMakeDocs() {
 		String args = "--makedocs";
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();

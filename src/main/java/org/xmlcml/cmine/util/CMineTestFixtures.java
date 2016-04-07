@@ -23,7 +23,7 @@ public class CMineTestFixtures {
 			if (targetDir.exists()) FileUtils.forceDelete(targetDir);
 			FileUtils.copyDirectory(sourceDir, targetDir);
 		} catch (IOException ioe) {
-			throw new RuntimeException("failed to clean and copy: "+sourceDir+" @ "+targetDir, ioe);
+			throw new RuntimeException("failed to clean and copy: "+sourceDir+" @ "+targetDir +": "+ioe, ioe);
 		}
 	}
 
