@@ -21,10 +21,9 @@ import nu.xom.Element;
  *
  */
 
-@Deprecated
-public class ProjectSnippetsTree extends Element {
+public class PluginSnippetsTree extends Element {
 
-	private static final Logger LOG = Logger.getLogger(ProjectSnippetsTree.class);
+	private static final Logger LOG = Logger.getLogger(PluginSnippetsTree.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -38,30 +37,33 @@ public class ProjectSnippetsTree extends Element {
 	private Map<String, SnippetsTree> snippetsTreeByCTreeName;
 	private PluginOption pluginOption = null;
 	
-	public ProjectSnippetsTree(CProject cProject) {
+	public PluginSnippetsTree(CProject cProject) {
 		this();
 		this.cProject = cProject;
 	}
 
-	public ProjectSnippetsTree() {
+	public PluginSnippetsTree() {
 		super(PROJECT_SNIPPETS_TREE);
 	}
 
-	public static ProjectSnippetsTree createProjectSnippetsTree(Element projectSnippetsTreeXML) {
-		ProjectSnippetsTree projectSnippetsTree = null;
-		if (projectSnippetsTreeXML != null && projectSnippetsTreeXML.getLocalName().equals(ProjectSnippetsTree.PROJECT_SNIPPETS_TREE)) {
-			projectSnippetsTree = new ProjectSnippetsTree();
-			XMLUtil.copyAttributes(projectSnippetsTreeXML, projectSnippetsTree);
-			List<Element> childElements = XMLUtil.getQueryElements(projectSnippetsTreeXML, "*");
-			for (Element childElement : childElements) {
-				SnippetsTree snippetsTree = SnippetsTree.createSnippetsTree(childElement);
-				if (snippetsTree == null) {
-					throw new RuntimeException("Cannot create SnippetsTree");
+	public static PluginSnippetsTree createPluginSnippetsTree(Element pluginSnippetsTreeXML) {
+		PluginSnippetsTree pluginSnippetsTree = null;
+		if (pluginSnippetsTreeXML != null) {
+			String localName = pluginSnippetsTreeXML.getLocalName();
+			if (PluginSnippetsTree.PROJECT_SNIPPETS_TREE.equals(localName)) {
+				pluginSnippetsTree = new PluginSnippetsTree();
+				XMLUtil.copyAttributes(pluginSnippetsTreeXML, pluginSnippetsTree);
+				List<Element> childElements = XMLUtil.getQueryElements(pluginSnippetsTreeXML, "*");
+				for (Element childElement : childElements) {
+					SnippetsTree snippetsTree = SnippetsTree.createSnippetsTree(childElement);
+					if (snippetsTree == null) {
+						throw new RuntimeException("Cannot create SnippetsTree");
+					}
+					pluginSnippetsTree.add(snippetsTree);
 				}
-				projectSnippetsTree.add(snippetsTree);
 			}
 		}
-		return projectSnippetsTree;
+		return pluginSnippetsTree;
 	}
 	public Iterator<Element> iterator() {
 		getOrCreateElementChildren();

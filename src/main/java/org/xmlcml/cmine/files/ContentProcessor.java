@@ -39,7 +39,7 @@ public class ContentProcessor {
 
 	private CTree cmTree;
 	private ResultsElementList resultsElementList;
-	private HashMap<String, ResultsElement> resultsBySearcherNameMap;
+	private HashMap<String, ResultContainerElement> resultsBySearcherNameMap;
 	private String duplicates = OVERWRITE;
 	
 	public ContentProcessor(CTree cmTree) {
@@ -52,7 +52,7 @@ public class ContentProcessor {
 		}
 	}
 
-	public void addResultsElement(ResultsElement resultsElement) {
+	public void addResultsElement(ResultContainerElement resultsElement) {
 		if (resultsElement != null) {
 			this.ensureResultsElementList();
 			String title = resultsElement.getTitle();
@@ -65,7 +65,7 @@ public class ContentProcessor {
 	}
 
 	private void checkNoDuplicatedTitle(String title) {
-			for (ResultsElement resultsElement : resultsElementList) {
+			for (ResultContainerElement resultsElement : resultsElementList) {
 				if (title.equals(resultsElement.getTitle())) {
 					if (OVERWRITE.equals(duplicates)) {
 						// carry on
@@ -83,7 +83,7 @@ public class ContentProcessor {
 		ensureResultsBySearcherNameMap();
 		for (AbstractSearcher optionSearcher : argProcessor.getSearcherList()) {
 			String name = optionSearcher.getName();
-			ResultsElement resultsElement = resultsBySearcherNameMap.get(name);
+			ResultContainerElement resultsElement = resultsBySearcherNameMap.get(name);
 			if (resultsElement != null) {
 				resultsElement.setTitle(name);
 				resultsElementList.add(resultsElement);
@@ -131,7 +131,7 @@ public class ContentProcessor {
 	public List<File> createResultsDirectoriesAndOutputResultsElement(String name) {
 		File optionDirectory = new File(cmTree.getResultsDirectory(), name);
 		List<File> outputDirectoryList = new ArrayList<File>();
-		for (ResultsElement resultsElement : resultsElementList) {
+		for (ResultContainerElement resultsElement : resultsElementList) {
 			File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
 			outputDirectoryList.add(outputDirectory);
 		}
@@ -140,14 +140,14 @@ public class ContentProcessor {
 	}
 
 	public File createResultsDirectoryAndOutputResultsElement(
-			ArgumentOption option, ResultsElement resultsElement/*, String resultsDirectoryName*/) {
+			ArgumentOption option, ResultContainerElement resultsElement/*, String resultsDirectoryName*/) {
 		File optionDirectory = new File(cmTree.getResultsDirectory(), option.getName());
 		File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
 		return outputDirectory;
 		
 	}
 
-	private File createResultsDirectoryAndOutputResultsElement(File optionDirectory, ResultsElement resultsElement) {
+	private File createResultsDirectoryAndOutputResultsElement(File optionDirectory, ResultContainerElement resultsElement) {
 		File resultsSubDirectory = null;
 		String title = resultsElement.getTitle();
 		if (title == null) {
@@ -155,7 +155,11 @@ public class ContentProcessor {
 		} else {
 			resultsSubDirectory = new File(optionDirectory, title);
 			resultsSubDirectory.mkdirs();
-			String resultsFileName = resultsElement.getChildElements().size() == 0 ? CTree.EMPTY_XML :  CTree.RESULTS_XML;
+			int count = resultsElement.getChildElements().size();
+			if (count > 0) {
+				LOG.trace("count "+count);
+			}
+			String resultsFileName = count == 0 ? CTree.EMPTY_XML :  CTree.RESULTS_XML;
 			File resultsFile = new File(resultsSubDirectory, resultsFileName);
 			writeResults(resultsFile, resultsElement);
 			LOG.trace("Wrote "+resultsFile.getAbsolutePath());
@@ -190,14 +194,14 @@ public class ContentProcessor {
 		this.resultsElementList = resultsElementList;
 	}
 
-	public void put(String name, ResultsElement resultsElement) {
+	public void put(String name, ResultContainerElement resultsElement) {
 		ensureResultsBySearcherNameMap();
 		resultsBySearcherNameMap.put(name, resultsElement);
 	}
 
 	private void ensureResultsBySearcherNameMap() {
 		if (resultsBySearcherNameMap == null) {
-			resultsBySearcherNameMap = new HashMap<String, ResultsElement>();
+			resultsBySearcherNameMap = new HashMap<String, ResultContainerElement>();
 		}
 	}
 

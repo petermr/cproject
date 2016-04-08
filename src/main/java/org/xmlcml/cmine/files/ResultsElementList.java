@@ -17,32 +17,32 @@ import com.google.common.collect.Multiset;
  * @author pm286
  *
  */
-public class ResultsElementList implements Iterable<ResultsElement> {
+public class ResultsElementList implements Iterable<ResultContainerElement> {
 
 	private static final Logger LOG = Logger.getLogger(ResultsElementList.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	protected List<ResultsElement> resultsElementList;
+	protected List<ResultContainerElement> resultsElementList;
 	private List<String> titles;
 	private Multiset<String> stringMultiset;
 	
 	public ResultsElementList() {
 	}
 
-	public void add(ResultsElement resultsElement) {
+	public void add(ResultContainerElement resultsElement) {
 		ensureResultsElementList();
 		resultsElementList.add(resultsElement);
 	}
 
 	protected void ensureResultsElementList() {
 		if (resultsElementList == null) {
-			resultsElementList = new ArrayList<ResultsElement>();
+			resultsElementList = new ArrayList<ResultContainerElement>();
 		}
 	}
 
-	public Iterator<ResultsElement> iterator() {
+	public Iterator<ResultContainerElement> iterator() {
 		ensureResultsElementList();
 		return resultsElementList.iterator();
 	}
@@ -52,12 +52,12 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 		return resultsElementList.size();
 	}
 
-	public ResultsElement get(int i) {
+	public ResultContainerElement get(int i) {
 		ensureResultsElementList();
 		return resultsElementList.get(i);
 	}
 	
-	public List<ResultsElement> getResultsElementList() {
+	public List<ResultContainerElement> getResultsElementList() {
 		ensureResultsElementList();
 		return resultsElementList;
 	}
@@ -72,9 +72,9 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 			LOG.warn("non-unique title list");
 			return;
 		}
-		List<ResultsElement> newResultsElementList = new ArrayList<ResultsElement>();
+		List<ResultContainerElement> newResultsElementList = new ArrayList<ResultContainerElement>();
 		for (String title : titles) {
-			for (ResultsElement resultsElement : resultsElementList) {
+			for (ResultContainerElement resultsElement : resultsElementList) {
 				String resultsTitle = resultsElement.getTitle();
 				if (title.equals(resultsTitle)) {
 					newResultsElementList.add(resultsElement);
@@ -112,14 +112,14 @@ public class ResultsElementList implements Iterable<ResultsElement> {
 	private List<String> getTitles() {
 		titles = new ArrayList<String>();
 		if (resultsElementList != null) {
-			for (ResultsElement resultsElement : resultsElementList) {
+			for (ResultContainerElement resultsElement : resultsElementList) {
 				titles.add(resultsElement.getTitle());
 			}
 		}
 		return titles;
 	}
 
-	public void addToMultiset(ResultsElement summaryResultsElement) {
+	public void addToMultiset(ResultContainerElement summaryResultsElement) {
 		ensureStringMultiset();
 		List<ResultElement> resultElementList = summaryResultsElement.getOrCreateResultElementList();
 		for (ResultElement resultElement : resultElementList) {

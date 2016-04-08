@@ -27,8 +27,14 @@ public class FileXPathSearcher {
 		LOG.setLevel(org.apache.log4j.Level.DEBUG);
 	}
 
-	private static final String FILE = "file(";
-	private static final String XPATH = "xpath(";
+	private static final String RPAREN = ")";
+	private static final String LPAREN = "(";
+	private static final String FILE = "file";
+	private static final String FILE1 = FILE+LPAREN;
+	private static final String XPATH = "xpath";
+	private static final String XPATH1 = XPATH+LPAREN;
+
+
 	
 	private String searchExpression;
 	private String start;
@@ -52,18 +58,22 @@ public class FileXPathSearcher {
 
 	private void parse(String searchExpression) {
 		this.searchExpression = searchExpression;
+		if (searchExpression == null) {
+			LOG.error("Null search expression");
+			return;
+		}
 		sb = new StringBuilder(searchExpression.trim());
 		currentChar = 0;
-		start = FILE;
+		start = FILE1;
 		chunkList = new ArrayList<String>();
 		while (currentChar < sb.length()) {
 			String ss = sb.substring(currentChar).toString();
 			if (ss.startsWith(start)) {
 				currentChar += start.length();
-				if (FILE.equals(start)) {
-					start = XPATH;
-				} else if (XPATH.equals(start)) {
-					start = FILE;
+				if (FILE1.equals(start)) {
+					start = XPATH1;
+				} else if (XPATH1.equals(start)) {
+					start = FILE1;
 				}
 				getChunk();
 			} else {
@@ -108,6 +118,7 @@ public class FileXPathSearcher {
 			throw new RuntimeException("Cannot yet deal with multiple globbing");
 		}
 		for (int i = 0; i < chunkList.size(); i++) {
+			// alternates file and xpath
 			if (i %2 == 0) {
 				currentGlob = chunkList.get(i);
 				cTreeFiles = cTree.extractCTreeFiles(currentGlob);
@@ -115,10 +126,13 @@ public class FileXPathSearcher {
 				CTreeFiles filesWithSnippets = new CTreeFiles(cTree);
 				snippetsTree = new SnippetsTree();
 				currentXPath = chunkList.get(i);
+				LOG.trace("XP "+currentXPath);
 				for (File currentFile : cTreeFiles) {
-					XMLSnippets snippets1 = cTree.extractXMLSnippets(currentXPath, currentFile);
-					XMLSnippets snippets = snippets1;
+					LOG.trace("CF "+currentFile);
+					XMLSnippets snippets = cTree.extractXMLSnippets(currentXPath, currentFile);
+					LOG.trace("SN "+snippets.toXML());
 					if (snippets.size() != 0) {
+						LOG.trace("ADD SNIPPETS");
 						filesWithSnippets.add(currentFile);
 						snippetsTree.add(snippets);
 					} else {
@@ -159,6 +173,40 @@ public class FileXPathSearcher {
 
 	public void setSearchExpression(String searchExpression) {
 		this.searchExpression = searchExpression;
+	}
+
+	public static String createFilterExpression(List<String> filterStrings) {
+		String filterExpression = null;
+		if (filterStrings != null && filterStrings.size() == 1) {
+			filterExpression = filterStrings.get(0);
+		} else {
+			StringBuilder sb = new StringBuilder();
+			int counter = 0;
+			while (counter < filterStrings.size()) {
+				String token = filterStrings.get(counter++);
+				if (FILE.equals(token)) {
+					if (counter >= filterStrings.size()) {
+						throw new RuntimeException("file requires an argument");
+					}
+					sb.append(token);
+					sb.append(LPAREN);
+					sb.append(filterStrings.get(counter++));
+					sb.append(RPAREN);
+				} else if (XPATH.equals(token)) {
+					if (counter >= filterStrings.size()) {
+						throw new RuntimeException("xpath requires an argument");
+					}
+					sb.append(token);
+					sb.append(LPAREN);
+					sb.append(filterStrings.get(counter++));
+					sb.append(RPAREN);
+				} else {
+					LOG.warn("unsupported token in filter: "+token);
+				}
+			}
+			filterExpression = sb.toString();
+		}
+		return filterExpression;
 	}
 
 }

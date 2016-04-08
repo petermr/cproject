@@ -91,8 +91,9 @@ public class CMineGlobber {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	private static final String GLOB = "glob:";
-	private static final String REGEX = "regex:";
+	public static final String GLOB = "glob:";
+	public static final String REGEX = "regex:";
+	public static final String STAR2 = "**";
 		
 	private String location;
 	private String pathString;

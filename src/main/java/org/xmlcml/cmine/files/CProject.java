@@ -1,8 +1,10 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -26,14 +28,12 @@ public class CProject extends CContainer {
 	private static final String PROJECT_TEMPLATE_XML = "cProjectTemplate.xml";
 	private static final String TREE_TEMPLATE_XML = "cTreeTemplate.xml";
 	public final static String EUPMC_RESULTS_JSON = "eupmc_results.json";
-	private final static String RESULTS = "results";
+	public final static String RESULTS = "results";
+	public final static String SUMMARY = "summary";
 
-	// move these to plugin subdirs later
-	public static final String SPECIES_GENUS_SNIPPETS_XML = "species.genus.snippets.xml";
-	public static final String SPECIES_BINOMIAL_SNIPPETS_XML = "species.binomial.snippets.xml";
-	public static final String GENE_HUMAN_SNIPPETS_XML = "gene.human.snippets.xml";
-	public static final String SEQUENCE_DNAPRIMER_SNIPPETS_XML = "sequence.dnaprimer.snippets.xml";
-	public static final String WORD_FREQUENCIES_SNIPPETS_XML = "word.frequencies.snippets.xml";
+	public static final String SNIPPETS_XML = "snippets.xml";
+	public static final String DOCUMENTS_XML = "documents.xml";
+	public static final String COUNT_XML = "count.xml";
 	
 	public static final String DATA_TABLES_HTML = "dataTables.html";
 
@@ -42,7 +42,14 @@ public class CProject extends CContainer {
 		LOG_XML,
 		EUPMC_RESULTS_JSON,
 	};
-	
+
+	private static final List<String> RESERVED_CHILD_DIRECTORY_NAMES = Arrays.asList(
+		new String[]{
+				RESULTS, 
+				SUMMARY}
+		);
+		
+
 	protected static final Pattern[] ALLOWED_FILE_PATTERNS = new Pattern[] {
 	};
 	
@@ -57,9 +64,10 @@ public class CProject extends CContainer {
 	private Element projectTemplateElement;
 	private Element treeTemplateElement;
 	private CTreeList cTreeList;
-	private ProjectSnippetsTree projectSnippetsTree;
+	private PluginSnippetsTree currentPluginSnippetsTree;
 	private ProjectFilesTree projectFilesTree;
 	private ResultsElementList summaryResultsElementList;
+	private String name;
 	
 	public CProject(File cProjectDir) {
 		super();
@@ -91,6 +99,11 @@ public class CProject extends CContainer {
 				unknownChildDirectoryList.add(directory);
 			}
 		}
+	}
+	
+	public static boolean isReservedProjectChildDirectory(File f) {
+		String name = f.getName();
+		return RESERVED_CHILD_DIRECTORY_NAMES.contains(name);
 	}
 
 	@Override
@@ -127,6 +140,7 @@ public class CProject extends CContainer {
 
 	public CTreeList getCTreeList() {
 		this.getOrCreateFilesDirectoryCTreeLists();
+		LOG.trace("CTREE "+cTreeList.size());
 		return cTreeList;
 	}
 
@@ -145,7 +159,7 @@ public class CProject extends CContainer {
 		if (CProject.OMIT_EMPTY.equals(control)) {
 			for (int i = resultsXMLList.size() - 1; i >= 0; i--) {
 				File f = resultsXMLList.get(i);
-				if (ResultsElement.isEmpty(f)) {
+				if (ResultContainerElement.isEmpty(f)) {
 					resultsXMLList.remove(i);
 				}
 			}
@@ -209,16 +223,19 @@ public class CProject extends CContainer {
 	 * @param xpath
 	 * @return
 	 */
-	public ProjectSnippetsTree extractProjectSnippetsTree(String glob, String xpath) {
-		projectSnippetsTree = new ProjectSnippetsTree(this);
+	public PluginSnippetsTree extractPluginSnippetsTree(String glob, String xpath) {
+		PluginSnippetsTree pluginSnippetsTree = new PluginSnippetsTree(this);
+		LOG.debug("Extracting snippets ...");
+		getOrCreateCurrentPluginSnippetsTree();
 		CTreeList cTreeList = this.getCTreeList();
 		for (CTree cTree : cTreeList) {
 			SnippetsTree snippetsTree = cTree.extractXPathSnippetsTree(glob, xpath);
 			if (snippetsTree.size() > 0) {
-				projectSnippetsTree.add(snippetsTree);
+//				currentPluginSnippetsTree.add(snippetsTree);
+				pluginSnippetsTree.add(snippetsTree);
 			}
 		}
-		return projectSnippetsTree;
+		return currentPluginSnippetsTree;
 	}
 	
 	/** get list of matched Elements from CTrees in project.
@@ -227,16 +244,51 @@ public class CProject extends CContainer {
 	 * @param xpath
 	 * @return
 	 */
-	public ProjectSnippetsTree extractProjectSnippetsTree(String searchExpression) {
+	public PluginSnippetsTree extractPluginSnippetsTree(String searchExpression) {
 		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(searchExpression);
 		String glob = fileXPathSearcher.getCurrentGlob();
 		String xpath = fileXPathSearcher.getCurrentXPath();
-		projectSnippetsTree = extractProjectSnippetsTree(glob, xpath);
-		return projectSnippetsTree;
+		PluginSnippetsTree pluginSnippetsTree = extractPluginSnippetsTree(glob, xpath);
+		return pluginSnippetsTree;
 	}
 
-	public ProjectSnippetsTree getProjectSnippetsTree() {
-		return projectSnippetsTree;
+	/** returns any existing PST.
+	 * if null, and a 
+	 * 
+	 * @return
+	 */
+	public PluginSnippetsTree getOrCreateCurrentPluginSnippetsTree() {
+		if (currentPluginSnippetsTree == null) {
+			currentPluginSnippetsTree = new PluginSnippetsTree(this);
+		}
+		return currentPluginSnippetsTree;
+//		return pluginOption == null ? null : getOrCreatePluginSnippetsTree(pluginOption.getSnippetsName());
+//		return pluginOption == null ? null : getOrCreatePluginSnippetsTree(pluginOption.getSnippetsName());
+	}
+	
+//	public PluginSnippetsTree getOrCreatePluginSnippetsTree(String expression) {
+//		PluginSnippetsTree pluginSnippetsTree = null;
+//		if (expression != null) {
+//			ensurePluginSnippetsTreeByName();
+//			pluginSnippetsTree = pluginSnippetsTreeByExpression.get(expression);
+//			if (pluginSnippetsTree == null) {
+//				pluginSnippetsTree = new PluginSnippetsTree(this);
+//				pluginSnippetsTreeByExpression.put(expression, pluginSnippetsTree);
+//				LOG.trace("EXP "+expression+" | "+pluginSnippetsTreeByExpression.keySet());
+//			} else {
+//				LOG.trace("SNIPPETS TREE "+pluginSnippetsTree);
+//			}
+//		}
+//		return pluginSnippetsTree;
+//	}
+//	
+	/** creates a PST from an existing pluginSnippetsTree element.
+	 * 
+	 * @return
+	 */
+	private PluginSnippetsTree createPluginSnippetsTreeFromExistingElement() {
+		File pstFile = new File(directory, "");
+		throw new RuntimeException("Use PluginSnippetsTree instead");
 	}
 	
 	public ProjectFilesTree getProjectFilesTree() {
@@ -254,21 +306,6 @@ public class CProject extends CContainer {
 		}
 	}
 
-	public void add(SnippetsTree snippetsTree) {
-		ensureProjectSnippetsTree();
-		projectSnippetsTree.add(snippetsTree);
-	}
-
-	private void ensureProjectSnippetsTree() {
-		if (projectSnippetsTree == null) {
-			projectSnippetsTree = new ProjectSnippetsTree(this);
-		}
-	}
-
-	public void outputProjectSnippetsTree(File outputFile) {
-		outputTreeFile(projectSnippetsTree, outputFile);
-	}
-
 	public void outputProjectFilesTree(File outputFile) {
 		outputTreeFile(projectFilesTree, outputFile);
 	}
@@ -284,7 +321,7 @@ public class CProject extends CContainer {
 		}
 	}
 
-	public void addSummaryResultsElement(ResultsElement summaryResultsElement) {
+	public void addSummaryResultsElement(ResultContainerElement summaryResultsElement) {
 		ensureSummaryResultsElementList();
 		LOG.trace("> "+summaryResultsElement.toXML());
 		summaryResultsElementList.addToMultiset(summaryResultsElement);
@@ -308,5 +345,75 @@ public class CProject extends CContainer {
 			}
 		}
 		return true;
+	}
+
+	public void add(SnippetsTree snippetsTree) {
+		if (snippetsTree != null) {
+			PluginSnippetsTree pluginSnippetsTree = getOrCreateCurrentPluginSnippetsTree();
+			pluginSnippetsTree.add(snippetsTree);
+		}
+	}
+
+//	private void ensurePluginSnippetsTreeByName() {
+//		if (pluginSnippetsTreeByExpression == null) {
+//			pluginSnippetsTreeByExpression = new HashMap<String, PluginSnippetsTree>();
+//		}
+//	}
+
+	public void outputPluginSnippetsTree(String expression, File outputFile) {
+		// file(**/word/**/results.xml)xpath(//result[@count>20])
+//		expression = PluginOption.removePunctuation(expression);
+		try {
+			outputFile.getParentFile().mkdirs();
+			XMLUtil.debug(currentPluginSnippetsTree, new FileOutputStream(outputFile), 1);
+		} catch (Exception e) {
+			throw new RuntimeException("Cannot wrtite: "+outputFile, e);
+		}
+	}
+
+	public void setDirectory(File projectDir) {
+		this.directory = projectDir;
+	}
+
+	/** returns directories such as "results" and "summary"
+	 * 
+	 * @return
+	 */
+	public List<File> getReservedChildDirectoryList() {
+		List<File> reservedFiles = new ArrayList<File>();
+		File[] files = directory.listFiles();
+		if (files != null) {
+			for (File file : files) {
+				if (CProject.isReservedProjectChildDirectory(file)) {
+					reservedFiles.add(file);
+				}
+			}
+		}
+		return reservedFiles;
+	}
+
+	public File getReservedChildDirectory(String name) {
+		List<File> reservedFiles = getReservedChildDirectoryList();
+		for (File reservedFile : reservedFiles) {
+			if (reservedFile.getName().equals(name)) {
+				return reservedFile;
+			}
+		}
+		return null;
+	}
+
+	/** gets project name (creates one from base of file if null).
+	 * 
+	 * @return
+	 */
+	public String getName() {
+		if (name == null) {
+			name = FilenameUtils.getBaseName(directory.toString());
+		}
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
 	}
 }

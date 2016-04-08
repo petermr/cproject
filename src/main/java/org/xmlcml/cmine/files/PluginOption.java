@@ -4,22 +4,37 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+
 public class PluginOption implements Comparable<PluginOption> {
 
+	private static final String PUNCTUATION_TO_REMOVE = "[\\*\\/\\(\\)\\[\\]\\@\\>]";
+	private static final String SNIPPETS_XML = ".snippets.xml";
+	private static final Logger LOG = Logger.getLogger(PluginOption.class);
+	private static final String SUMMARY = "summary";
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
+	
 	public String pluginName;
 	public String optionName;
-	protected String plugin;
 	protected List<String> options;
 	protected List<String> flags;
 	protected File projectDir;
 	protected String optionString;
 	protected String resultXPathAttribute;
 	protected String resultXPathBase;
-	protected List<OptionFlag> optionFlags;
+	protected List<OptionFlag> optionFlags; // obsolete?
 	
 	public PluginOption() {
+		init();
 	}
 	
+	private void init() {
+		this.optionFlags = new ArrayList<OptionFlag>();
+	}
+
 	public PluginOption(String pluginName, String optionName) {
 		this.pluginName = pluginName;
 		this.optionName = optionName;
@@ -86,12 +101,43 @@ public class PluginOption implements Comparable<PluginOption> {
 	}
 
 	public String getHeading() {
-		String heading = ""+this.pluginName+"."+this.optionName;
+		String heading = getSnippetsName();
 		if (optionString != null) {
 			heading = optionString; 
 		}
 		return heading;
 	}
-	
-	
+
+	public String getSnippetsName() {
+		return SUMMARY+"/"+this.pluginName+"/"+this.optionName;
+	}
+
+//	public String getSnippetsTreeName() {
+//		return getSnippetsName()+SNIPPETS_XML;
+//	}
+
+	protected void setOptionFlags(List<OptionFlag> optionFlags) {
+		this.optionFlags = optionFlags;
+	}
+
+	List<OptionFlag> getOptionFlags() {
+		return this.optionFlags;
+	}
+
+	protected String getOption(String option) {
+		return option;
+	}
+
+	public void setProjectDir(File projectDir) {
+		this.projectDir = projectDir;
+	}
+
+	public File getProjectDir() {
+		return projectDir;
+	}
+
+	public static String removePunctuation(String snippetsName) {
+		return snippetsName.replaceAll(PUNCTUATION_TO_REMOVE, "_");
+	}
+
 }

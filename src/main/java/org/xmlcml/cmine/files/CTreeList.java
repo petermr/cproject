@@ -60,5 +60,21 @@ public class CTreeList implements Iterable<CTree> {
 		ensureCTreeList();
 		cmTreeList.add(cmTree);
 	}
+
+	/** gets CTree by name .
+	 * 
+	 * @param name (uses getName())
+	 * @return
+	 */
+	public CTree getCTreeByName(String name) {
+		if (name != null) {
+			for (CTree cTree : cmTreeList) {
+				if (cTree.getName().equals(name)) {
+					return cTree;
+				}
+			}
+		}
+		return null;
+	}
 	
 }

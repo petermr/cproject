@@ -121,7 +121,7 @@ public class DefaultArgProcessorTest {
 		targetFile.mkdirs();
 		// dummy file
 		FileUtils.write(new File(targetFile, "fulltext.txt"), "fulltext");
-		argProcessor.parseArgs("-q "+targetFile+" -i fulltext.txt  --c.test --log");
+		argProcessor.parseArgs("-q "+targetFile+" -i fulltext.txt  --log");
 		argProcessor.runAndOutput();
 	}
 	

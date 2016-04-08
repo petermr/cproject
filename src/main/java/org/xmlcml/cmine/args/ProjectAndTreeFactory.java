@@ -13,9 +13,9 @@ import java.util.zip.ZipFile;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
-import org.apache.commons.math.ArgumentOutsideDomainException;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.files.CContainer;
 import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeList;
@@ -183,16 +183,20 @@ public class ProjectAndTreeFactory {
 	 *    
 	 */
 	void createCTreeListFromProject() {
+		LOG.trace("CREATE TREE LIST");
 		if (false) {
 		} else if (!projectFile.exists() || createdProjectDir) {
 			createProjectAndCTreesFromInputFiles();
 		} else if (argProcessor.cProject != null) {
+			LOG.trace("DIR "+argProcessor.cProject.getDirectory());
 			createCTreesFromDirectories();
 		} else if (projectFile.isFile()) {
 			LOG.error("project file must be a directory: "+projectFile);
 		} else {
 			LOG.error("Unacceptable project option, probable BUG");
 		}
+		LOG.trace("CTREEs "+argProcessor.getCTreeList().size());
+		return;
 	}
 
 	void createProject() {
@@ -223,7 +227,7 @@ public class ProjectAndTreeFactory {
 	private void extractDirectoriesToCTrees() {
 		List<File> subdirectories = Arrays.asList(projectFile.listFiles(new FileFilter() {
 			public boolean accept(File file) {
-				return file != null && file.isDirectory();
+				return file != null && file.isDirectory() && !CProject.isReservedProjectChildDirectory(file);
 			}}));
 		for (File subDirectory : subdirectories) {
 			CTree cTree = new CTree(subDirectory);

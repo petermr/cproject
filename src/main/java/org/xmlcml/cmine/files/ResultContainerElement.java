@@ -23,13 +23,15 @@ import com.google.common.collect.Multiset;
 
 /** a container for ResultElement's.
  * 
+ * used to be called ResultsElement but this was ultra-confusing
+ * 
  * @author pm286
  *
  */
 
-public class ResultsElement extends Element implements Iterable<ResultElement> {
+public class ResultContainerElement extends Element implements Iterable<ResultElement> {
 	
-	private static final Logger LOG = Logger.getLogger(ResultsElement.class);
+	private static final Logger LOG = Logger.getLogger(ResultContainerElement.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -43,16 +45,16 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	protected List<ResultElement> resultElementList;
 	public List<String> matchList;
 
-	public ResultsElement() {
+	public ResultContainerElement() {
 		super(TAG);
 	}
 
-	public ResultsElement(ResultsElement element) {
+	public ResultContainerElement(ResultContainerElement element) {
 		this();
 		copyAttributesAndAddChildren(element);
 	}
 
-	public ResultsElement(String title) {
+	public ResultContainerElement(String title) {
 		this();
 		this.setTitle(title);
 	}
@@ -72,15 +74,15 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	 * @param element
 	 * @return
 	 */
-	public static ResultsElement createResultsElement(Element element) {
-		return (ResultsElement) createResults0(element);
+	public static ResultContainerElement createResultsElement(Element element) {
+		return (ResultContainerElement) createResults0(element);
 	}
 	
 	private static Element createResults0(Element element) {
 		Element newElement = null;
 		String tag = element.getLocalName();
-		if (ResultsElement.TAG.equals(tag)) {	
-			newElement = new ResultsElement();
+		if (ResultContainerElement.TAG.equals(tag)) {	
+			newElement = new ResultContainerElement();
 		} else if (ResultElement.TAG.equals(tag)) {	
 			newElement = new ResultElement();
 		} else {
@@ -92,7 +94,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 			if (child instanceof Text) {
 				child = child.copy();
 			} else {
-				child = ResultsElement.createResults0((Element)child);
+				child = ResultContainerElement.createResults0((Element)child);
 			}
 			if (newElement != null && child != null) {	
 				newElement.appendChild(child);
@@ -106,7 +108,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	 * 
 	 * @param subResultsElement source of ResultElement's
 	 */
-	public void transferResultElements(ResultsElement subResultsElement) {
+	public void transferResultElements(ResultContainerElement subResultsElement) {
 //		List<ResultElement> subResults = subResultsElement.getOrCreateResultElementList();
 		for (ResultElement subResult : subResultsElement) {
 			subResult.detach();
@@ -133,7 +135,7 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 		return resultElementList == null ? 0 : resultElementList.size();
 	}
 
-	protected void copyAttributesAndAddChildren(ResultsElement resultsElement) {
+	protected void copyAttributesAndAddChildren(ResultContainerElement resultsElement) {
 		if (resultsElement == null) {
 			throw new RuntimeException("Null ResultsElement");
 		}
@@ -149,6 +151,10 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 		}
 	}
 
+	/** very dangerous.
+	 *  sets every element to have this XPath.
+	 */
+	@Deprecated
 	public void setXPath(String xpath) {
 		for (ResultElement resultElement : this) {
 			resultElement.setXPath(xpath);
@@ -217,10 +223,10 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 		}
 	}
 
-	public static ResultsElement getResultsElementSortedByCount(Multiset<String> matchSet) {
+	public static ResultContainerElement getResultsElementSortedByCount(Multiset<String> matchSet) {
 		Iterable<Multiset.Entry<String>> sortedEntries = CMineUtil.getEntriesSortedByCount(matchSet);
 		Iterator<Multiset.Entry<String>> entries = sortedEntries.iterator();
-		ResultsElement resultsElement = new ResultsElement(ResultsElement.FREQUENCIES);
+		ResultContainerElement resultsElement = new ResultContainerElement(ResultContainerElement.FREQUENCIES);
 		while (entries.hasNext()) {
 			ResultElement resultElement = new ResultElement(ResultElement.FREQUENCY);
 			Multiset.Entry<String> entry = entries.next();

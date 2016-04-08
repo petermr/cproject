@@ -416,9 +416,9 @@ project2
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/"), targetDir);
 		CProject cProject = new CProject(targetDir);
-		ProjectSnippetsTree projectSnippetsTree = cProject.extractProjectSnippetsTree("**/fulltext.xml", "//title[starts-with(.,'Data')]");
+		PluginSnippetsTree pluginSnippetsTree = cProject.extractPluginSnippetsTree("**/fulltext.xml", "//title[starts-with(.,'Data')]");
 		/**
-<projectSnippetsTree>
+<pluginSnippetsTree>
   <snippetsTree>
     <snippets file="target/glob/project2/ctree1/PMC4417228/fulltext.xml">
 	  <title>Data collection</title>
@@ -430,11 +430,11 @@ project2
 	  <title>Data accessibility</title>
 	</snippets>
   </snippetsTree>
-</projectSnippetsTree>
+</pluginSnippetsTree>
 */		
-		Assert.assertEquals("snippetsTrees", 2, projectSnippetsTree.size());
+		Assert.assertEquals("snippetsTrees", 2, pluginSnippetsTree.size());
 		// needs sorted output
-//		SnippetsTree snippetsTree0 = projectSnippetsTree.get(0);
+//		SnippetsTree snippetsTree0 = pluginSnippetsTree.get(0);
 //		Assert.assertEquals("snippet", 1, snippetsTree0.size());
 //		XMLSnippets snippets0 = snippetsTree0.get(0);
 		
@@ -455,17 +455,18 @@ project2
 		File targetDir = new File("target/glob/project2/ctree1");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/"), targetDir);
 		String output = "snippets.xml";
-		String args = " --project " + targetDir+" --filter file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')]) -o "+output;
+		String filterExpression = "file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')])";
+		String args = " --project " + targetDir+" --filter " + filterExpression + " -o "+output;
 		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		
-		ProjectSnippetsTree projectSnippetsTree = argProcessor.getProjectSnippetsTree();
-		Assert.assertNotNull("projectSnippetsTree not null", projectSnippetsTree);
-		Assert.assertEquals("snippetsTrees", 2, projectSnippetsTree.size());
+		PluginSnippetsTree pluginSnippetsTree = argProcessor.getPluginSnippetsTree(filterExpression);
+		Assert.assertNotNull("pluginSnippetsTree not null", pluginSnippetsTree);
+		Assert.assertEquals("snippetsTrees", 2, pluginSnippetsTree.size());
 		/**
 		Assert.assertEquals("snippets",
-		"<projectSnippetsTree>"
+		"<pluginSnippetsTree>"
 		+ "<snippetsTree>"
 		+   "<snippets file=\"target/glob/project2/ctree1/PMC4417228/fulltext.xml\">"
 		+     "<title>Data collection</title>"
@@ -477,8 +478,8 @@ project2
 		+      "<title>Data accessibility</title>"
 		+    "</snippets>"
 		+  "</snippetsTree>"
-		+ "</projectSnippetsTree>",
-		projectSnippetsTree.toString()
+		+ "</pluginSnippetsTree>",
+		pluginSnippetsTree.toString()
 		);
 		*/
 
@@ -520,25 +521,25 @@ project2
 
 	//==================================
 	
-	@Test
-	public void testFilenameSet() throws IOException {
-		Set<String> filenameSet = new HashSet<String>();
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SEQUENCE_DNAPRIMER_SNIPPETS_XML).getOrCreateFilenameList());
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.GENE_HUMAN_SNIPPETS_XML).getOrCreateFilenameList());
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_BINOMIAL_SNIPPETS_XML).getOrCreateFilenameList());
-		filenameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_GENUS_SNIPPETS_XML).getOrCreateFilenameList());
-		Assert.assertEquals("all files", 152, filenameSet.size());
-	}
-	
-	@Test
-	public void testProjectNameSet() throws IOException {
-		Set<String> projectNameSet = new HashSet<String>();
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SEQUENCE_DNAPRIMER_SNIPPETS_XML).getCTreeNameList());
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.GENE_HUMAN_SNIPPETS_XML).getCTreeNameList());
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_BINOMIAL_SNIPPETS_XML).getCTreeNameList());
-		projectNameSet.addAll(CMineTestFixtures.createProjectSnippetsTree(ZIKA_DIR, CProject.SPECIES_GENUS_SNIPPETS_XML).getCTreeNameList());
-		Assert.assertEquals("all files", 90, projectNameSet.size());
-	}
+//	@Test
+//	public void testFilenameSet() throws IOException {
+//		Set<String> filenameSet = new HashSet<String>();
+//		filenameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.SEQUENCE_DNAPRIMER_SNIPPETS_XML).getOrCreateFilenameList());
+//		filenameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.GENE_HUMAN_SNIPPETS_XML).getOrCreateFilenameList());
+//		filenameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.SPECIES_BINOMIAL_SNIPPETS_XML).getOrCreateFilenameList());
+//		filenameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.SPECIES_GENUS_SNIPPETS_XML).getOrCreateFilenameList());
+//		Assert.assertEquals("all files", 152, filenameSet.size());
+//	}
+//	
+//	@Test
+//	public void testProjectNameSet() throws IOException {
+//		Set<String> projectNameSet = new HashSet<String>();
+//		projectNameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.SEQUENCE_DNAPRIMER_SNIPPETS_XML).getCTreeNameList());
+//		projectNameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.GENE_HUMAN_SNIPPETS_XML).getCTreeNameList());
+//		projectNameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.SPECIES_BINOMIAL_SNIPPETS_XML).getCTreeNameList());
+//		projectNameSet.addAll(CMineTestFixtures.createPluginSnippetsTree(ZIKA_DIR, CProject.SPECIES_GENUS_SNIPPETS_XML).getCTreeNameList());
+//		Assert.assertEquals("all files", 90, projectNameSet.size());
+//	}
 
 
 

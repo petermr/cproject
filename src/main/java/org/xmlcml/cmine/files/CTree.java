@@ -661,7 +661,7 @@ public class CTree extends CContainer {
 	}
 
 	public File getExistingResultsDir() {
-		return getExistingReservedFile(RESULTS_DIR);
+		return getExistingReservedDirectory(RESULTS_DIR, false);
 	}
 
 	// ---
@@ -898,18 +898,22 @@ public class CTree extends CContainer {
 		return imageDirectory;
 	}
 
-	public ResultsElement getResultsElement(String pluginName, String methodName) {
+	public ResultContainerElement getResultsElement(String pluginName, String methodName) {
+		ResultContainerElement resultsElement = null;
 		File resultsDir = getExistingResultsDir();
-		ResultsElement resultsElement = null;
-		if (CTree.isExistingDirectory(resultsDir)) {
-			File pluginDir = new File(resultsDir, pluginName);
-			if (CTree.isExistingDirectory(pluginDir)) {
-				File methodDir = new File(pluginDir, methodName);
-				if (CTree.isExistingDirectory(methodDir)) {
-					File resultsXML = new File(methodDir, CTree.RESULTS_XML);
-					if (CTree.isExistingFile(resultsXML)) {
-						Document resultsDoc = XMLUtil.parseQuietlyToDocument(resultsXML);
-						resultsElement = ResultsElement.createResultsElement(resultsDoc.getRootElement());
+		if (resultsDir == null) {
+			LOG.warn("no results directory");
+		} else {
+			if (CTree.isExistingDirectory(resultsDir)) {
+				File pluginDir = new File(resultsDir, pluginName);
+				if (CTree.isExistingDirectory(pluginDir)) {
+					File methodDir = new File(pluginDir, methodName);
+					if (CTree.isExistingDirectory(methodDir)) {
+						File resultsXML = new File(methodDir, CTree.RESULTS_XML);
+						if (CTree.isExistingFile(resultsXML)) {
+							Document resultsDoc = XMLUtil.parseQuietlyToDocument(resultsXML);
+							resultsElement = ResultContainerElement.createResultsElement(resultsDoc.getRootElement());
+						}
 					}
 				}
 			}
@@ -990,7 +994,7 @@ public class CTree extends CContainer {
 	}
 	
 	// ======= delegates to ContentProcessor ========
-	public void putInContentProcessor(String name, ResultsElement resultsElement) {
+	public void putInContentProcessor(String name, ResultContainerElement resultsElement) {
 		ensureContentProcessor(argProcessor);
 		contentProcessor.put(name, resultsElement);
 	}
@@ -1000,7 +1004,7 @@ public class CTree extends CContainer {
 		contentProcessor.clearResultsElementList();
 	}
 
-	public void add(ResultsElement resultsElement) {
+	public void add(ResultContainerElement resultsElement) {
 		ensureContentProcessor(argProcessor);
 		contentProcessor.addResultsElement(resultsElement);
 	}
@@ -1135,6 +1139,7 @@ public class CTree extends CContainer {
 		}
 		Document doc = XMLUtils.parseWithoutDTD(file);
 		List<Element> elementList = XMLUtil.getQueryElements(doc, xpath);
+		LOG.trace("EL "+elementList.size());
 		snippets = new XMLSnippets(elementList, file);
 		extractTitle();
 		if (title != null) {
@@ -1159,6 +1164,15 @@ public class CTree extends CContainer {
 
 	public void setSnippetsTree(SnippetsTree snippetsTree) {
 		this.snippetsTree = snippetsTree;
+	}
+
+	/** gets name of CTree.
+	 * this is the name of the directoryFile (directory.getName()) 
+	 * 
+	 * @return name i.e. the chunk after the last non-terminal slash
+	 */
+	public String getName() {
+		return directory == null ? null : directory.getName();
 	}
 
 

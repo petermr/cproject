@@ -3,6 +3,7 @@ package org.xmlcml.cmine.files;
 import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -29,8 +30,9 @@ public abstract class CContainer {
 
 	protected static final String MANIFEST_XML = "manifest.xml";
 	protected static final String LOG_XML = "log.xml";
-	protected static final String RESULTS = "results";
-	
+	public static final String RESULTS = "results";
+	public static final String SUMMARY = "summary";
+
 	protected CManifest manifest;
 	protected File directory;
 	protected List<File> allChildDirectoryList;
@@ -120,14 +122,16 @@ public abstract class CContainer {
 		if (ff != null) {
 			for (File f : ff) {
 				if (f.isDirectory()) {
-					allChildDirectoryList.add(f);
+					if (!CProject.isReservedProjectChildDirectory(f)) {
+						allChildDirectoryList.add(f);
+					}
 				} else {
 					allChildFileList.add(f);
 				}
 			}
 		}
 	}
-
+	
 	/** not yet implemented
 	 * 
 	 */

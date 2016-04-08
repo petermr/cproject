@@ -27,7 +27,7 @@ public class DictionaryTest {
 		// dummy file
 		FileUtils.write(new File(targetFile, "fulltext.txt"), "fulltext");
 		argProcessor.parseArgs("-q "+targetFile+" -i fulltext.txt  "
-				+ "--c.dictionary src/test/resources/org/xmlcml/files/testDictionary.xml "
+				+ "--dictionary src/test/resources/org/xmlcml/files/testDictionary.xml "
 				+ "               /org/xmlcml/files/testDictionary2.xml");
 		List<DefaultStringDictionary> dictionaryList = argProcessor.getDictionaryList();
 		Assert.assertEquals("dictionaries", 2, dictionaryList.size());

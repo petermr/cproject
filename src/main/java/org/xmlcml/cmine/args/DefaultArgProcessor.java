@@ -32,11 +32,12 @@ import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeFiles;
 import org.xmlcml.cmine.files.CTreeList;
+import org.xmlcml.cmine.files.PluginOption;
+import org.xmlcml.cmine.files.PluginSnippetsTree;
 import org.xmlcml.cmine.files.ProjectFilesTree;
-import org.xmlcml.cmine.files.ProjectSnippetsTree;
 import org.xmlcml.cmine.files.ResourceLocation;
 import org.xmlcml.cmine.files.ResultElement;
-import org.xmlcml.cmine.files.ResultsElement;
+import org.xmlcml.cmine.files.ResultContainerElement;
 import org.xmlcml.cmine.files.SnippetsTree;
 import org.xmlcml.cmine.lookup.DefaultStringDictionary;
 import org.xmlcml.html.HtmlElement;
@@ -115,6 +116,7 @@ import nu.xom.Node;
  */
 public class DefaultArgProcessor {
 	
+	
 	private static final Logger LOG = Logger.getLogger(DefaultArgProcessor.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -136,6 +138,7 @@ public class DefaultArgProcessor {
 	public static final String WHITESPACE = "\\s+";
 	public static final VersionManager DEFAULT_VERSION_MANAGER = new VersionManager();
 	public static final String LOGFILE = "target/log.xml";
+	
 	
 	/** creates a list of tokens that are found in an allowed list.
 	 * 
@@ -171,6 +174,7 @@ public class DefaultArgProcessor {
 	protected CTree currentCTree;
 	protected String summaryFileName;
 	protected String dfFileName;
+	private Integer minfreq;
 	// variable processing
 	protected Map<String, String> variableByNameMap;
 	private VariableProcessor variableProcessor;
@@ -179,11 +183,11 @@ public class DefaultArgProcessor {
 	private boolean unzip = false;
 	List<List<String>> renamePairs;
 	protected List<DefaultStringDictionary> dictionaryList;
-	private String filterExpression;
+	protected String filterExpression;
 	private File outputFile;
-	CProject cProject;
+	protected CProject cProject;
 	
-	private ProjectSnippetsTree projectSnippetsTree;
+	private PluginSnippetsTree pluginSnippetsTree;
 	private ProjectFilesTree projectFilesTree;
 	private ProjectAndTreeFactory projectAndTreeFactory;
 	protected String projectDirString;
@@ -324,6 +328,7 @@ public class DefaultArgProcessor {
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		inputList = ensureArgumentExpander().expandAllWildcards(inputs);
+		return;
 	}
 
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
@@ -340,6 +345,10 @@ public class DefaultArgProcessor {
 		projectDirString = argIterator.getString(option);
 		ensureProjectAndTreeFactory().createProject();
 		ensureProjectAndTreeFactory().createCTreeListFromProject();
+	}
+
+	public void parseMinFrequency(ArgumentOption option, ArgIterator argIterator) {
+		minfreq = argIterator.getInteger(option);
 	}
 
 	public void parseRecursive(ArgumentOption option, ArgIterator argIterator) {
@@ -371,7 +380,7 @@ public class DefaultArgProcessor {
 		List<String> analyzeStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		setFilter(analyzeStrings);
 	}
-
+	
 	public void parseFilter(ArgumentOption option, ArgIterator argIterator) {
 		List<String> filterStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		setFilter(filterStrings);
@@ -386,9 +395,10 @@ public class DefaultArgProcessor {
 		transformArgs2html();
 	}
 
+	@Deprecated
 	public void runAnalysis(ArgumentOption option) {
 		LOG.warn("DEPRECATED: use --filter");
-		filterCTree();
+//		filterCTree();
 	}
 
 	public void runFilter(ArgumentOption option) {
@@ -396,6 +406,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void runSummaryFile(ArgumentOption option) {
+		LOG.trace("RUN SUMMARY");
 		runSummaryModule();
 	}
 
@@ -432,7 +443,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void finalSummaryFile(ArgumentOption option) {
-		finalFilterRoutine();
+		finalSummaryRoutine();
 	}
 
 	public void finalDFFile(ArgumentOption option) {
@@ -442,6 +453,7 @@ public class DefaultArgProcessor {
 	// =====================================
 
 	private void outputFilterRoutine() {
+		LOG.trace("filter per CTree");
 		String output = getOutput();
 		if (currentCTree != null) {
 			outputFile = output == null ? null : new File(currentCTree.getDirectory(), output);
@@ -456,6 +468,7 @@ public class DefaultArgProcessor {
 	}
 
 	private void finalFilterRoutine() {
+		LOG.trace("final filter aggregate");
 		if (cProject == null) {
 			LOG.warn("no project to analyze");
 			return;
@@ -466,10 +479,15 @@ public class DefaultArgProcessor {
 			return;
 		}
 		if (filterExpression != null && output != null) {
-			outputFilterSnippets(cProject.getDirectory());
+			LOG.trace("aggregating: "+filterExpression);
+			outputFilterSnippets(cProject.getDirectory(), filterExpression);
 		} else if (summaryFileName != null) {
 			outputFilterCounts();
 		}
+	}
+	
+	private void finalSummaryRoutine() {
+		LOG.debug("finalSummaryRoutine NYI");
 	}
 
 	private void finalDFRoutine() {
@@ -479,28 +497,37 @@ public class DefaultArgProcessor {
 	}
 
 	private void outputDFCounts() {
-		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(documentMultiset);
-		resultsElement.setTitle(ResultsElement.DOCUMENTS);
+		ResultContainerElement resultsElement = ResultContainerElement.getResultsElementSortedByCount(documentMultiset);
+		resultsElement.setTitle(ResultContainerElement.DOCUMENTS);
 		writeResultsToSummaryFile(resultsElement, new File(cProject.getDirectory(), dfFileName));
 	}
 
 	private void outputFilterCounts() {
 		Multiset<String> stringSet = cProject.getMultiset();
-		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(stringSet);
-		resultsElement.setTitle(ResultsElement.FREQUENCIES);
-		writeResultsToSummaryFile(resultsElement, new File(cProject.getDirectory(), summaryFileName));
+		ResultContainerElement resultsElement = ResultContainerElement.getResultsElementSortedByCount(stringSet);
+		resultsElement.setTitle(ResultContainerElement.FREQUENCIES);
+		File summaryFile = new File(cProject.getDirectory(), summaryFileName);
+		LOG.debug("writing count file: "+summaryFile);
+		writeResultsToSummaryFile(resultsElement, summaryFile);
 	}
 
-	private void outputFilterSnippets(File directory) {
+//	private void outputFilterSnippets(File directory, PluginOption pluginOption) {
+//		outputFilterSnippets(directory, pluginOption.getSnippetsName());
+//	}
+
+	private void outputFilterSnippets(File directory, String expression) {
 		File outputFile = new File(directory, output);
 		LOG.trace("filterSnippets "+outputFile);
-		ProjectSnippetsTree projectSnippetsTree = cProject.getProjectSnippetsTree();
+		PluginSnippetsTree pluginSnippetsTree = cProject.getOrCreateCurrentPluginSnippetsTree();
 		ProjectFilesTree projectFilesTree = cProject.getProjectFilesTree();
-		if (projectSnippetsTree != null) {
-			cProject.outputProjectSnippetsTree(outputFile);
+		if (pluginSnippetsTree != null) {
+			cProject.outputPluginSnippetsTree(expression, outputFile);
 		} else if (projectFilesTree != null) {
 			cProject.outputProjectFilesTree(outputFile);
+		} else {
+			LOG.debug("NULL PLUGIN SNIPPETS");
 		}
+		return;
 	}
 	
 	private void runSummaryModule() {
@@ -517,7 +544,8 @@ public class DefaultArgProcessor {
 		if (currentCTree == null) {
 			throw new RuntimeException("Null currentTree");
 		}
-		ResultsElement summaryResultsElement = createAggregatedSortedResultsCount();
+		ResultContainerElement summaryResultsElement = createAggregatedSortedResultsCount();
+		LOG.trace("SUM "+summaryResultsElement.toXML());
 		if (summaryFileName != null) {
 			File file = new File(currentCTree.getDirectory(), summaryFileName);
 			LOG.trace("file: "+file);
@@ -536,7 +564,7 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private void writeResultsToSummaryFile(ResultsElement resultsElement, File summaryFile) {
+	private void writeResultsToSummaryFile(ResultContainerElement resultsElement, File summaryFile) {
 		try {
 			XMLUtil.debug(resultsElement, summaryFile, 1);
 		} catch (IOException e) {
@@ -544,9 +572,9 @@ public class DefaultArgProcessor {
 		}
 	}
 
-	private ResultsElement createAggregatedSortedResultsCount() {
+	private ResultContainerElement createAggregatedSortedResultsCount() {
 		Multiset<String> matchSet = createMultisetFromInputList();
-		ResultsElement resultsElement = matchSet == null ? null : ResultsElement.getResultsElementSortedByCount(matchSet);
+		ResultContainerElement resultsElement = matchSet == null ? null : ResultContainerElement.getResultsElementSortedByCount(matchSet);
 		return resultsElement;
 	}
 
@@ -570,6 +598,7 @@ public class DefaultArgProcessor {
 				}
 			}
 		}
+		LOG.trace("MATCH "+matchSet.size());
 		return matchSet;
 	}
 
@@ -588,6 +617,7 @@ public class DefaultArgProcessor {
 	}
 
 	private void outputSnippetsTree(File outputFile) {
+		LOG.trace("output snippets tree "+outputFile);
 		SnippetsTree snippetsTree = currentCTree.getSnippetsTree();
 		if (snippetsTree != null && outputFile != null) {
 			try {
@@ -629,12 +659,10 @@ public class DefaultArgProcessor {
 	}
 
 	private void setFilter(List<String> filterStrings) {
-		if (filterStrings != null && filterStrings.size() == 1) {
-			filterExpression = filterStrings.get(0);
-		} else {
-			LOG.error("--filter requires 1 expression");
-		}
+		filterExpression = FileXPathSearcher.createFilterExpression(filterStrings);
+		LOG.trace("FILTER_COMPACT: "+filterExpression);
 	}
+
 
 	private void setRenamePairs(ArgumentOption option, ArgIterator argIterator) {
 		List<String> renameStrings = argIterator.createTokenListUpToNextNonDigitMinus(option);
@@ -657,6 +685,7 @@ public class DefaultArgProcessor {
 	private void filterCTree() {
 		FileXPathSearcher fileXPathSearcher = new FileXPathSearcher(filterExpression);
 		String xpath = fileXPathSearcher.getCurrentXPath();
+		LOG.trace("XP "+xpath);
 		if (currentCTree != null) {
 			fileXPathSearcher = new FileXPathSearcher(currentCTree, filterExpression);
 			fileXPathSearcher.search();
@@ -665,7 +694,7 @@ public class DefaultArgProcessor {
 				cProject.add(cTreeFiles);
 			}
 			if (xpath != null) {
-				SnippetsTree snippetsTree = fileXPathSearcher.getSnippetsTree();
+ 				SnippetsTree snippetsTree = fileXPathSearcher.getSnippetsTree();
 				if (cProject != null) {
 					cProject.add(snippetsTree);
 				}
@@ -676,19 +705,21 @@ public class DefaultArgProcessor {
 
 	public void createAndAddDictionaries(List<String> dictionarySources) {
 		ensureDictionaryList();
+		LOG.trace("AMI DICT: "+AMI_DICTIONARY_RESOURCE);
 		for (String dictionarySource : dictionarySources) {
+			LOG.trace("DICTSOURCE: "+dictionarySource);
 			InputStream is = null;
 			String dictionaryResource = AMI_DICTIONARY_RESOURCE+dictionarySource;
 			if (!dictionaryResource.endsWith(".xml")) {
 				dictionaryResource = dictionaryResource+".xml";
 			}
-			LOG.debug(dictionaryResource);
+//			LOG.debug("DICT: "+dictionaryResource);
 			is = this.getClass().getResourceAsStream(dictionaryResource);
 			if (is == null) {
 				is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
 			}
 			if (is == null) {
-				throw new RuntimeException("cannot read/create inputStream for dictionary: "+dictionarySource);
+				throw new RuntimeException("cannot create inputStream for dictionary: "+dictionarySource);
 			}
 			DefaultStringDictionary dictionary = DefaultStringDictionary.createDictionary(dictionarySource, is);
 			if (dictionary == null) {
@@ -814,7 +845,7 @@ public class DefaultArgProcessor {
 			LOG.trace("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
 			while (argIterator.hasNext()) {
 				String arg = argIterator.next();
-				LOG.trace("arg> "+arg);
+				LOG.trace("arg> "+arg+(cTreeList == null ? "" : cTreeList.size()));
 				try {
 					addArgumentOptionsAndRunParseMethods(argIterator, arg);
 				} catch (Exception e) {
@@ -932,6 +963,7 @@ public class DefaultArgProcessor {
 	}
 
 	public void runFinalMethodsOnChosenArgOptions() {
+		LOG.trace("runFinalMethods");
 		runMethodsOfType(ArgumentOption.FINAL_METHOD);
 	}
 
@@ -942,6 +974,7 @@ public class DefaultArgProcessor {
 			String methodName = null;
 			try {
 				methodName = option.getMethodName(methodNameType);
+				LOG.trace("METHOD "+methodName);
 				if (methodName != null) {
 					instantiateAndRunMethod(option, methodName);
 				}
@@ -1085,7 +1118,10 @@ public class DefaultArgProcessor {
 	 */
 	public void runAndOutput() {
 		ensureCTreeList();
+		LOG.trace("CTREE_LIST "+cTreeList.size());
+		LOG.trace("ARGPROC "+this.hashCode());
 		if (cTreeList.size() == 0) {
+			LOG.trace("no CTreeList");
 			if (projectDirString != null) {
 				output = projectDirString;
 			} else if (output != null) {
@@ -1096,15 +1132,15 @@ public class DefaultArgProcessor {
 //				printHelp();
 				return;
 			}
-			LOG.trace("treating as CTree creation under project "+projectDirString);
+			LOG.debug("treating as CTree creation under project "+projectDirString);
 			runRunMethodsOnChosenArgOptions();
 		} else {
 			for (int i = 0; i < cTreeList.size(); i++) {
 				currentCTree = cTreeList.get(i);
-				projectLog.info("running: "+currentCTree.getDirectory());
+				LOG.trace("running: "+currentCTree.getDirectory());
 				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
 				if (cTreeLog != null) cTreeLog.setLevel(LogLevel.ERROR);
-				TREE_LOG().info("TEST LOG "+this.hashCode());
+				LOG.trace("TREE "+currentCTree.hashCode());
 				currentCTree.ensureContentProcessor(this);
 				try {
 					runInitMethodsOnChosenArgOptions();
@@ -1118,7 +1154,7 @@ public class DefaultArgProcessor {
 					continue;
 				}
 				if (i % 10 == 0) System.out.print(".");
-				TREE_LOG().trace(projectLog.toXML());
+				LOG.trace(projectLog.toXML());
 			}
 			
 		}
@@ -1206,9 +1242,14 @@ public class DefaultArgProcessor {
 		return cProject;
 	}
 
-	public ProjectSnippetsTree getProjectSnippetsTree() {
-		projectSnippetsTree = cProject == null ? null : cProject.getProjectSnippetsTree();
-		return projectSnippetsTree;
+	public PluginSnippetsTree getPluginSnippetsTree() {
+		pluginSnippetsTree = cProject == null ? null : cProject.getOrCreateCurrentPluginSnippetsTree();
+		return pluginSnippetsTree;
+	}
+
+	public PluginSnippetsTree getPluginSnippetsTree(String expression) {
+		pluginSnippetsTree = cProject == null ? null : cProject.getOrCreateCurrentPluginSnippetsTree();
+		return pluginSnippetsTree;
 	}
 
 	public ProjectFilesTree getProjectFilesTree() {
