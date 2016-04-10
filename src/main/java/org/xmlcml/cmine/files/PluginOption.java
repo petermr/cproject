@@ -7,6 +7,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
+@Deprecated
 public class PluginOption implements Comparable<PluginOption> {
 
 	private static final String PUNCTUATION_TO_REMOVE = "[\\*\\/\\(\\)\\[\\]\\@\\>]";

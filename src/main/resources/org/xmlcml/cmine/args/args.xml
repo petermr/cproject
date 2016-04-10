@@ -1,5 +1,7 @@
-<argList name="cmine" version="0.3.0">
+<argList name="cmine" version="0.3.1">
 
+
+  <p>20160410 new AMI-runner (emma)</p>
   <p>20160406 New: CMine and CMineParser</p>
   
   <p>20160324: fixed col headings on dataTables</p>
