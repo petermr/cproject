@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979017-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979017</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14037593</doc-number>
+<date>20130926</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>FR</country>
+<doc-number>11 58297</doc-number>
+<date>20110919</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<disclaimer>
+<text>This patent is subject to a terminal disclaimer.</text>
+</disclaimer>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>29</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>39</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>39</main-group>
+<subgroup>026</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>29</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>244 23A</main-classification>
+<further-classification>244  4 A</further-classification>
+<further-classification>244 23 C</further-classification>
+</classification-national>
+<invention-title id="d2e69">Device and system for propelling a passenger</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2417896</doc-number>
+<kind>A</kind>
+<name>Zimmerman</name>
+<date>19470300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 1715</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2943816</doc-number>
+<kind>A</kind>
+<name>Hiller, Jr</name>
+<date>19600700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 23 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2953321</doc-number>
+<kind>A</kind>
+<name>Robertson et al.</name>
+<date>19600900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 23 C</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>3021095</doc-number>
+<kind>A</kind>
+<name>Moore</name>
+<date>19620200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>3023980</doc-number>
+<kind>A</kind>
+<name>Martin et al.</name>
+<date>19620300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>3107069</doc-number>
+<kind>A</kind>
+<name>Draim</name>
+<date>19631000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>3243144</doc-number>
+<kind>A</kind>
+<name>Hulbert et al.</name>
+<date>19660300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>3277858</doc-number>
+<kind>A</kind>
+<name>Athey</name>
+<date>19661000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>440 43</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>3381917</doc-number>
+<kind>A</kind>
+<name>Moore et al.</name>
+<date>19680500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>3416753</doc-number>
+<kind>A</kind>
+<name>Hulbert</name>
+<date>19681200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>3443775</doc-number>
+<kind>A</kind>
+<name>Williams</name>
+<date>19690500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>3474987</doc-number>
+<kind>A</kind>
+<name>Meditz</name>
+<date>19691000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>RE26756</doc-number>
+<kind>E</kind>
+<name>Moore et al.</name>
+<date>19700100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>3570785</doc-number>
+<kind>A</kind>
+<name>Croft et al.</name>
+<date>19710300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>3580528</doc-number>
+<kind>A</kind>
+<name>Boyce et al.</name>
+<date>19710500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441711</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>3662973</doc-number>
+<kind>A</kind>
+<name>Paine et al.</name>
+<date>19720500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 23 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>4040577</doc-number>
+<kind>A</kind>
+<name>Moore</name>
+<date>19770800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>4447024</doc-number>
+<kind>A</kind>
+<name>Williams</name>
+<date>19840500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 23 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>4813634</doc-number>
+<kind>A</kind>
+<name>Zuck</name>
+<date>19890300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244122 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>5779188</doc-number>
+<kind>A</kind>
+<name>Frick</name>
+<date>19980700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>6488232</doc-number>
+<kind>B2</kind>
+<name>Moshier</name>
+<date>20021200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>6874728</doc-number>
+<kind>B2</kind>
+<name>Lau</name>
+<date>20050400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>6951322</doc-number>
+<kind>B2</kind>
+<name>Klima</name>
+<date>20051000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244138 R</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>6969027</doc-number>
+<kind>B2</kind>
+<name>Ishiba</name>
+<date>20051100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 23 C</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>7182295</doc-number>
+<kind>B2</kind>
+<name>Redmond</name>
+<date>20070200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441581</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>7249732</doc-number>
+<kind>B2</kind>
+<name>Sanders et al.</name>
+<date>20070700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 23 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>7258301</doc-number>
+<kind>B2</kind>
+<name>Li</name>
+<date>20070800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>7581608</doc-number>
+<kind>B2</kind>
+<name>St. Louis</name>
+<date>20090900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>180116</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>8336805</doc-number>
+<kind>B1</kind>
+<name>Zapata</name>
+<date>20121200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00030">
+<document-id>
+<country>US</country>
+<doc-number>8608104</doc-number>
+<kind>B2</kind>
+<name>Zapata</name>
+<date>20131200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00031">
+<document-id>
+<country>US</country>
+<doc-number>2002/0113165</doc-number>
+<kind>A1</kind>
+<name>Moshier</name>
+<date>20020800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00032">
+<document-id>
+<country>US</country>
+<doc-number>2008/0014811</doc-number>
+<kind>A1</kind>
+<name>Zeyger</name>
+<date>20080100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00033">
+<document-id>
+<country>US</country>
+<doc-number>2008/0142644</doc-number>
+<kind>A1</kind>
+<name>O'Roark</name>
+<date>20080600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00034">
+<document-id>
+<country>US</country>
+<doc-number>2010/0200702</doc-number>
+<kind>A1</kind>
+<name>Li</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244  4 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00035">
+<document-id>
+<country>US</country>
+<doc-number>2013/0068895</doc-number>
+<kind>A1</kind>
+<name>Zapata</name>
+<date>20130300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 23 A</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>13</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>244  4 A</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244  4 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244  2</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 125</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 1717</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 52</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 23 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244 23 A</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>2</number-of-drawing-sheets>
+<number-of-figures>3</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>13648418</doc-number>
+<date>20121010</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>8608104</doc-number>
+</document-id>
+</parent-grant-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>14037593</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>13556720</doc-number>
+<date>20120724</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>8336805</doc-number>
+<date>20121225</date>
+</document-id>
+</parent-grant-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>13648418</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>PCT/FR2012/050875</doc-number>
+<date>20120420</date>
+</document-id>
+<parent-status>PENDING</parent-status>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>13556720</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61539262</doc-number>
+<date>20110926</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140158832</doc-number>
+<kind>A1</kind>
+<date>20140612</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Personal Water Craft Product</orgname>
+<address>
+<city>Le Rove</city>
+<country>FR</country>
+</address>
+</addressbook>
+<residence>
+<country>FR</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Zapata</last-name>
+<first-name>Frankie</first-name>
+<address>
+<city>Le Rove</city>
+<country>FR</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Buchanan Ingersoll &#x26; Rooney PC</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Zapata Holding</orgname>
+<role>03</role>
+<address>
+<city>Le Rove</city>
+<country>FR</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Ellis</last-name>
+<first-name>Christopher P</first-name>
+<department>3644</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Badawi</last-name>
+<first-name>Medhat</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">The invention relates to a propulsion device (<b>10</b>) comprising a body (<b>11</b>) arranged for receiving a passenger (<b>1</b>) and engaging with a thrust unit (<b>12</b><i>a, </i><b>12</b><i>b, </i><b>13</b><i>a, </i><b>13</b><i>b</i>) supplied with a pressurized fluid from a compression station. The arrangement of such a device offers great freedom of movement through the air or under the surface of a fluid. The invention also relates to a propulsion system in which the compression station can be remote in the form of a motorized marine vehicle.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="219.37mm" wi="344.34mm" file="US08979017-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="228.01mm" wi="201.17mm" file="US08979017-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="241.22mm" wi="177.55mm" orientation="landscape" file="US08979017-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">This application is a continuation application of Ser. No. 13/648,418, filed Oct. 10, 2012, which is a continuation of Ser. No. 13/556,720, filed Jul. 24, 2012, now U.S. Pat. No. 8,336,805, issued Dec. 25, 2012, which is a non-provisional application of Ser. No. 61/539,262, filed Sep. 26, 2011, and a continuation of PCT/FR2012/050875, filed Apr. 20, 2012.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">FIELD</heading>
+<p id="p-0003" num="0002">The invention relates to a device and a system for propelling a passenger in order for the latter to be able to move through the air or within a fluid with very large freedom of movement thanks to the agility and the physique of the passenger.</p>
+<p id="p-0004" num="0003">The invention also provides for the system to be very simple to implement and accessible to as many people as possible.</p>
+<heading id="h-0003" level="1">BACKGROUND</heading>
+<p id="p-0005" num="0004">Moving through space has always been one of the main dreams of mankind. Many machines have been produced, each more sophisticated than the last, which aim to achieve this dream with greater or lesser success.</p>
+<p id="p-0006" num="0005">Thus, in order to attempt to move with ease through environments as diverse as the surface of water or in contact with a sometimes hostile environment, a propulsion device such as described in the 1960s in U.S. Pat. No. 3,243,144 or U.S. Pat. No. 3,381,917 comprises a body in the form of a harness or a seat on which or in which a passenger can be positioned. Such a body engages with a thrust unit in particular in the form of a pair of nozzles for ejecting a fluid under pressure and thus to generate a thrust force. In order to simplify the flight of the passenger and to reduce the physical effort thereof, the nozzles are arranged above the centre of gravity of the body-passenger assembly, specifically at the height of the passenger's shoulders. The unit also includes a fluid-compression station supplied with flammable liquids or gases and positioned on the back of the passenger. Said station is capable of supplying enough thrust to cause the passenger to take off, transformed into a type of human rocket. The low operating range coupled with the dangerousness of such devices have caused them to remain relatively confidential.</p>
+<p id="p-0007" num="0006">More recently, a device such as describes in U.S. Pat. No. 7,258,301 and US patent application 2008/0014811 A1 draws inspiration from said teaching, adapting it to reduce the dangerousness of the system. The compression station in this case is remote and generally dedicated. Furthermore, the pressurised fluid is water compressed by said station, drawing inspiration in this regard in particular from experiments aiming to use compressed water to reduce the physical effort of a deep-sea diver, as suggested in U.S. Pat. No. 3,277,858. U.S. Pat. No. 7,258,301 and US patent application 2008/0014811 A1 thus propose an airborne propulsion device that is similar to its predecessor, adapted such that pressurised water is transported from a remote compression station by means of a supply channel such as a fire hose. The configuration of the nozzles as well as the means that makes it possible to direct said nozzles in order to determine the trajectory of the device are deliberately kept in order to maintain certain ease of piloting for the passenger. However, in particular the take-off phase requires the passenger to be in an initial standing position, with the feet on a solid surface. The physical effort of the passenger to move, reduced to the simplest expression thereof, is detrimental to the freedom and the variety of movements on the surface of the water or under the surface thereof. Furthermore, such a &#x201c;device+station&#x201d; system in accordance with U.S. Pat. No. 7,258,301 is expensive due to the design of the device comprising hinged nozzles, and to the design of a dedicated compression station. The fact of being able to move through space has an intrinsic recreational side. However, the configuration of the nozzles located above the centre of gravity of the device gives the passenger the impression of hanging by the shoulders from a virtual crane hook, and thus deprives the passenger of many sensations: falls, improvised or acrobatic style figures. Furthermore, the variety of directions and movements is limited. It is not easy, for example, to move &#x201c;crabwise&#x201d; with a known device, or to change instantly from a straight trajectory on the surface of the water to a diving phase followed by multiple movements under the surface of the water.</p>
+<heading id="h-0004" level="1">SUMMARY</heading>
+<p id="p-0008" num="0007">The invention offers a response to all the disadvantages raised by the known solutions. The invention consists mainly of providing a device in which the design implies a break with the prior art. Such a device comprises mainly a substantially planar platform on which one or more passengers can be positioned. The take-off and the movements are generated by a thrust force supplied by a set of at least three nozzles, two of which are free and intended for being held by one of the passengers, said nozzles all being arranged such as to be positioned below the centre of gravity of the &#x201c;device-passengers&#x201d; assembly. It is therefore thanks to their physique and their agility that the passengers of said innovative device can control the thrust of the device and perform movements and acrobatics with very large freedom and an unrivalled recreational side.</p>
+<p id="p-0009" num="0008">In order to offer such sensations to a large number of users, the invention provides the possibility of using known motorised water vehicles (MWV) as a remote compression station. The invention does not require the design of dedicated compression stations.</p>
+<p id="p-0010" num="0009">Among the many advantages of the invention, it can be mentioned that the invention makes it possible:
+<ul id="ul0001" list-style="none">
+    <li id="ul0001-0001" num="0000">
+    <ul id="ul0002" list-style="none">
+        <li id="ul0002-0001" num="0010">to make available to users a highly recreational device which, after learning, becomes easy to use, offering a broad range of applications;</li>
+        <li id="ul0002-0002" num="0011">to minimise to the simplest expression thereof the elements required for manufacturing the propulsion device;</li>
+        <li id="ul0002-0003" num="0012">to use motorised water vehicles or land vehicles to supply the pressurised fluid required for the thrust of the device;</li>
+        <li id="ul0002-0004" num="0013">to offer the capacity to take-off or dive from any completely or partially submerged conditions, from dry land, etc.;</li>
+        <li id="ul0002-0005" num="0014">to provide recreational (jousting, acrobatics, etc.) as well as civil or military security applications.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0011" num="0015">For this purpose, the invention provides a propulsion device comprising a body arranged for receiving a passenger and engaging with a thrust device supplied with a pressurised fluid. In order to make use of the physique and agility of said passenger, the body comprises a substantially planar platform which has a bottom surface and a top surface on which a passenger can be positioned. The invention also provides for the thrust unit to consist of:
+<ul id="ul0003" list-style="none">
+    <li id="ul0003-0001" num="0000">
+    <ul id="ul0004" list-style="none">
+        <li id="ul0004-0001" num="0016">at least one main nozzle engaging with the bottom surface of the platform and being positioned according to an axis substantially perpendicular to said bottom surface;</li>
+        <li id="ul0004-0002" num="0017">two free secondary nozzles arranged to be held by the passenger during nominal use of the device below the centre of gravity of the &#x201c;device-passenger&#x201d; assembly.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0012" num="0018">In order to improve the handling of the device according to the invention, the nozzles can be advantageously moved forwards in order for the at least one main nozzle to provide the majority of the thrust force to the detriment of the secondary nozzles.</p>
+<p id="p-0013" num="0019">In order to supply the device with pressurised fluid, in one embodiment, a propulsion device according to the invention can comprise a means for collecting and distributing the pressurised fluid to the nozzles, a means arranged for connecting a fluid supply channel to the device.</p>
+<p id="p-0014" num="0020">According to said embodiment, to avoid straining said channel according to the movements of the device, the collection and distribution means can comprise a base to which said supply channel is connected, enabling free rotation of said supply channel about an axis substantially parallel to that of the channel.</p>
+<p id="p-0015" num="0021">Similarly, said collection and distribution means can comprise an arm arranged for engaging with one of the at least one main nozzles and supply same with a pressurised fluid collected from the base, while enabling free rotation about an axis substantially parallel to that of said arm.</p>
+<p id="p-0016" num="0022">In order to make it easier to balance the passenger on the platform of a device according to the invention, the latter can comprise a means for ensuring that the passenger is maintained on the top surface of the platform.</p>
+<p id="p-0017" num="0023">Similarly, in order to help the passenger to control the secondary nozzles, the invention provides that a device can comprise a means for restraining the secondary nozzles on the passenger's forearm.</p>
+<p id="p-0018" num="0024">In order for the passenger to have better control of the propulsion device and to perform certain trajectory changes, a propulsion device according to the invention can comprise a means for controlling the fluid-compression power of a compression station supplying the pressurised fluid.</p>
+<p id="p-0019" num="0025">In order to provide recreational applications&#x2014;such as jousting or spraying&#x2014;or applications linked, for example, with fire fighting, a device may also comprise a means engaging with the platform or the passenger such as to spray a second pressurised fluid.</p>
+<p id="p-0020" num="0026">In order to protect the elements of the device positioned under the bottom surface of the platform when the device is in contact with the ground or with any other solid environment or to be able to influence the buoyancy of the device, the latter can also comprise a projecting means engaging with the platform and being arranged to prevent an impact or direct contact between the bottom surface of the platform and the non-fluid near environment of said bottom surface.</p>
+<p id="p-0021" num="0027">In order to offer greater freedom of service for the passenger of a propulsion device, the device can comprise a means for controlling the fluid-compression power of a compression station supplying the pressurised fluid.</p>
+<p id="p-0022" num="0028">According to a second subject matter, the invention provides a propulsion system comprising a propulsion device according to the invention engaging with a remote compression station.</p>
+<p id="p-0023" num="0029">A system according to the invention can comprise a supply channel in order for the station to supply said pressurised fluid to said device via said supply channel.</p>
+<p id="p-0024" num="0030">According to embodiments of the propulsion device when the latter comprises a means for controlling the fluid compression power, a system according to the invention can comprise a communication means for transmitting a command output by the means for piloting the device to a means for regulating the compression pressure of a compression station thus adapted.</p>
+<p id="p-0025" num="0031">Other characteristics and advantages will appear more clearly when reading the following description and referring to the appended drawings.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0005" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0026" num="0032"><figref idref="DRAWINGS">FIG. 1</figref> shows a propulsion device according to the present invention.</p>
+<p id="p-0027" num="0033"><figref idref="DRAWINGS">FIG. 2</figref> illustrates an alternative embodiment of a platform of a propulsion device according to the present invention.</p>
+<p id="p-0028" num="0034"><figref idref="DRAWINGS">FIG. 3</figref> depicts a modular embodiment of a pressurized fluid supply channel for a propulsion device according to the present invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0006" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0029" num="0035"><figref idref="DRAWINGS">FIG. 1</figref> shows an embodiment of a propulsion device <b>10</b> according to the invention. Said device comprises a main body in the form of a substantially planar platform <b>11</b>. Said platform comprises a top surface <b>11</b><i>a </i>on which a passenger <b>1</b> can be positioned. According to the size of the platform and the power of the device, the invention provides for a plurality of passengers optionally to be able to be positioned simultaneously on the top surface <b>11</b><i>a </i>of said platform <b>11</b>. The platform can be advantageously made from one material or a plurality of materials having, alone or in combination, enough rigidity to withstand the weight of the passenger or passengers and thus to prevent excessive warping. It may be preferable for said platform to be made of one material in order to determine the buoyancy of the device when the latter is submerged. According to the embodiments, the platform can thus have one or more cavities filled with air or a vacuum in order to improve the buoyancy thereof. As an alternative, it may be preferable not to include vacuum or cavities or to include a ballast in order to make it easier to move under the surface of a fluid. Such a platform can comprise one or more elements engaging with one another or separate.</p>
+<p id="p-0030" num="0036">The propulsion device described in connection with <figref idref="DRAWINGS">FIG. 1</figref> comprises a thrust group engaging with the platform <b>11</b>.</p>
+<p id="p-0031" num="0037">For the purpose of the invention and in the present document, the term &#x201c;nozzle&#x201d; has been used to define a profiled duct element for increasing the speed of a flowing fluid. The term &#x201c;jet pipe&#x201d; could also be used to describe such an element. This speed increase of the fluid is mainly caused by a difference in cross-section between the intake and the outlet of the element, the outlet having a smaller cross-section than the intake.</p>
+<p id="p-0032" num="0038">According to <figref idref="DRAWINGS">FIG. 1</figref>, such a unit consists of a pair of main nozzles <b>12</b><i>a </i>and <b>12</b><i>b </i>attached to the bottom surface <b>11</b><i>b </i>of the platform <b>11</b>. As an alternative, a single main nozzle attached substantially at the centre of the bottom surface <b>11</b><i>b </i>of the platform may be preferred over the pair <b>12</b><i>a</i>, <b>12</b><i>b</i>. The recreational nature of the use of the device by a passenger can thus be increased. In general terms, the invention is not limited to the number of main nozzles located under the bottom surface <b>11</b><i>b </i>of the platform <b>11</b>. The thrust unit thus comprises at least one main nozzle engaging with said bottom surface.</p>
+<p id="p-0033" num="0039">Said at least one main nozzle <b>12</b><i>a</i>, <b>12</b><i>b </i>is attached by any means to the platform, with no degree of freedom. In order to assist the take-off of the device, the direction of every main nozzle advantageously follows an axis A preferably substantially perpendicular to the bottom surface of the platform such that a main nozzle expels a pressurised fluid from near the bottom surface <b>11</b><i>b </i>of the platform <b>11</b> and away from same. In order to improve the handling of the device, the thrust unit of a device according to the invention can also comprise two secondary nozzles <b>13</b><i>a </i>and <b>13</b><i>b</i>. The latter are free and respectively intended for being held by the forearms or the hands of a passenger <b>1</b>. The &#x201c;platform, thrust unit and passenger(s)&#x201d; assembly has a centre of gravity CG when said assembly is straightened out vertically such as indicated in <figref idref="DRAWINGS">FIG. 1</figref>. Unlike in the prior art, in which the nozzles of the thrust unit are necessarily positioned above said centre of gravity CG in order to minimise the physical effort of the passenger and to simplify the movements thereof, the main and secondary nozzles of the thrust unit of a device <b>10</b> according to the invention are positioned below said centre of gravity CG. A passenger of such a device <b>10</b> has the task of positioning and directing the secondary nozzles <b>13</b><i>a </i>and <b>13</b><i>b </i>with his or her hands and arms and the main nozzle or nozzles <b>12</b><i>a </i>and <b>12</b><i>b </i>by playing with the inclination of the platform using his or her feet, legs, pelvis and torso in order to pilot the propulsion device. The agility of the passenger as well as his or her physical fitness thus maximise the sensations provided and make it possible to perform movements, trajectories and acrobatic figures, whether intended or accidental.</p>
+<p id="p-0034" num="0040">In order to supply sufficient thrust force and enable take-off and movement, the device <b>10</b> also comprises a means for collecting and distributing a pressurised fluid (for example water) to the main and secondary nozzles. Such a fluid is preferably transported by a flexible supply channel <b>2</b> from a remote compression station&#x2014;not shown in <figref idref="DRAWINGS">FIG. 1</figref>. Such a supply channel can be manufactured from a fire hose or from any other material that offers the necessary strength against the pressure exerted by the pressurised fluid. It may be preferable, advantageously, to use a supply channel with a diameter of substantially 110 millimeters. An excessively small or large diameter would result in a considerable loss of thrust force in respect of the compression capacity of the compression station. A collector <b>14</b> can thus comprise a base <b>14</b><i>c </i>to which an end piece <b>2</b><i>a </i>of a supply channel <b>2</b> connects, for example by means of a flute adapted such as to receive said channel <b>2</b>. The diameter of said base <b>14</b><i>c </i>must be adapted to the diameter of the end piece <b>2</b><i>a </i>of the supply channel <b>2</b>. According to <figref idref="DRAWINGS">FIG. 1</figref>, the collector <b>14</b> can be approximately T-shaped in order to collect the pressurised fluid from the base <b>14</b><i>c </i>and to distribute same via arms <b>14</b><i>a </i>and <b>14</b><i>b </i>to the main nozzles <b>12</b><i>a </i>and <b>12</b><i>b</i>. The collector <b>14</b> can be connected to the main nozzles rigidly or via an optional linking elbow <b>15</b> in order to direct the main nozzles according to an axis A substantially perpendicular to the bottom surface <b>11</b><i>b </i>of the platform <b>11</b>. The arms can, as an alternative, be connected to said main nozzles&#x2014;via the optional elbow <b>15</b>&#x2014;by a knuckle joint on the arms <b>14</b><i>a </i>and <b>14</b><i>b</i>. Such an arrangement enables free rotation r<b>1</b> according to an axis F substantially parallel to the arms <b>14</b><i>a </i>and <b>14</b><i>b </i>of the collector <b>14</b>. Thus, said collector can describe an almost free rotation r<b>1</b> about said axis F, modulo the abutment represented by the bottom surface <b>11</b><i>b </i>of the platform <b>11</b> during an excessive inclination thereof. A relative rotation r<b>1</b> of the collector about the axis F with respect to the plane of the bottom surface of the platform <b>11</b>, after the collector links with the supply channel <b>2</b>, does not lead to the rotation of the platform <b>11</b>. Similarly, the invention provides for the end piece <b>2</b><i>a </i>of the supply channel <b>2</b> advantageously to be able to engage with the collector <b>14</b> at the base thereof <b>14</b><i>c </i>via a knuckle joint in order to enable free rotation r<b>2</b> about an axis C substantially parallel to the channel <b>2</b>. The device can thus swivel freely about said axis C without causing loops or excessive strain on the supply channel <b>2</b>.</p>
+<p id="p-0035" num="0041">The T-shaped configuration&#x2014;described as a preferred example in relation to FIG. <b>1</b>&#x2014;of the collector <b>14</b>, comprising a base <b>14</b><i>c </i>and two diametrically opposed arms <b>14</b><i>a </i>and <b>14</b><i>b</i>, can obviously be different in the case of a device <b>10</b> which only has, for example, a single main nozzle. The collector <b>14</b> in this case would be configured as an elbow, like a &#x201c;<img id="CUSTOM-CHARACTER-00001" he="3.56mm" wi="2.12mm" file="US08979017-20150317-P00001.TIF" alt="custom character" img-content="character" img-format="tif"/>&#x201d;, in order to collect&#x2014;from a base <b>14</b><i>c</i>&#x2014;and supply&#x2014;via an arm <b>14</b><i>a</i>&#x2014;the pressurised fluid from the supply channel <b>2</b> towards the main nozzle by means of an optional linking elbow <b>15</b> engaging with the arm of the collector as well as with the main nozzle. Advantageously, knuckle joints at the base <b>14</b><i>c </i>and the single arm <b>14</b><i>a </i>of the collector <b>14</b> are advantageously preferred for the reasons stated above.</p>
+<p id="p-0036" num="0042">In order to distribute the pressurised fluid to the secondary nozzles <b>13</b><i>a </i>and <b>13</b><i>b</i>, the invention provides, as an example and as indicated in <figref idref="DRAWINGS">FIG. 1</figref>, for secondary channels <b>18</b><i>a </i>and <b>18</b><i>b</i>&#x2014;in the advantageous form of flexible pipes&#x2014;to supply said pressurised fluid from the collector <b>14</b> to the secondary nozzles. In order not to disturb the passenger <b>1</b>, said secondary nozzles can be guided along the back until the shoulders by using supporting means <b>19</b> (straps, harness, etc.). The invention provides for the device to offer a passenger the possibility of using a means for restraining the secondary nozzles on the forearms. Thus, in connection with <figref idref="DRAWINGS">FIG. 1</figref>, an assembly <b>20</b><i>a </i>and <b>20</b><i>b </i>of elements comprising a body for engaging with a forearm and a secondary nozzle and/or a secondary channel supplying said secondary nozzle can be attached by means of straps or any other type of attachment to each forearm of the passenger <b>1</b>. It is easier for the passenger to hold a secondary nozzle.</p>
+<p id="p-0037" num="0043">The invention furthermore provides for the platform <b>11</b> to be able to comprise a means for maintaining a passenger on the top surface <b>11</b><i>a </i>of said platform. Thus, according to the preferred position of a passenger on the platform of a device according to the invention, said maintaining means can consist&#x2014;as shown in FIG. <b>1</b>&#x2014;of a pair of shoes or boots with a binding such as that which is used, for example, when practising wakeboard. Other types of maintaining means may be preferred according to whether it is desirable to assist the passenger in a position with bent legs, kneeling or even sitting.</p>
+<p id="p-0038" num="0044">In order to assist the take-off and, in general terms, the use of a device according to the invention, the main nozzle or nozzles as well as the secondary nozzles may be arranged such that the thrust unit thus formed supplies the majority of the thrust force thereof from the main nozzle or nozzles to the detriment of the secondary nozzles. For this purpose, the configuration of the nozzles (cross-sections of the respective intakes and outlets of said nozzles) may be selected in order preferably to supply around 80% of the thrust force from the main nozzle or nozzles. Thus, as an example, a main nozzle can be manufactured with respective intake and outlet cross-sections of substantially 50 and 40 millimeters in diameter and a secondary nozzle can be manufactured with respective intake and outlet cross-sections of substantially 50 and 25 millimeters in diameter. According to said preferred embodiment, a secondary channel <b>18</b><i>a </i>and <b>18</b><i>b </i>may have a cross-section of around 40 millimeters in diameter. A collector <b>14</b> may, in turn, have a cross-section of 120 millimeters in diameter near the base thereof and a cross-section of 80 millimeters in diameter on an arm. The cross-section of an optional linking elbow <b>15</b> between a main nozzle and an arm of the collector may advantageously adapt the respective cross-sections of the arm and the intake of the nozzle. Any other configuration of the thrust unit may be selected in order to adapt the distribution of the thrust force between the main and secondary nozzles.</p>
+<p id="p-0039" num="0045"><figref idref="DRAWINGS">FIG. 2</figref> describes a preferred embodiment of a platform <b>11</b> for a propulsion device according to the invention. Such a substantially planar platform <b>11</b> comprises&#x2014;on the top surface thereof <b>11</b><i>a</i>&#x2014;two spaces for respectively receiving the feet of a passenger, shown as dotted lines. Such a platform <b>11</b> is arranged such that the bottom surface <b>11</b><i>b </i>thereof engages with a projecting means <b>17</b> in turn arranged to offer protection for the elements&#x2014;not shown in FIG. <b>2</b>&#x2014;of the device located under the bottom surface <b>11</b><i>b </i>of the platform <b>11</b>, in a non-exhaustive manner: the main nozzle or nozzles, the means for collecting and distributing a pressurised fluid. Such a means <b>17</b> can thus form supporting points and constitute a protective cage for said elements. Any untimely impact or other direct contact between said elements and the immediate non-fluid environment thereof can thus be prevented, in particular during take-off or landing from dry land, or even when landing on water from shallow water.</p>
+<p id="p-0040" num="0046">The selection of the material or materials used for manufacturing the projecting means <b>17</b> can be determined by the required level of impact protection, the resistance to the weight exerted by the passenger or passengers on the platform during the take-off, landing or water-landing phases. The projecting means <b>17</b> can also interact with the sought buoyancy of the device according to the structure and configuration thereof.</p>
+<p id="p-0041" num="0047">A passenger of a propulsion device according to the invention can perform a presently unrivalled number of movements (in the air, under the surface of an aquatic medium, etc.). It can be mentioned that take-off can be carried out&#x2014;when pressurised fluid is supplied to said device&#x2014;if the passenger holds the secondary nozzles with his or her arms stretched towards the rear of his or her body and his or her back arched. A dive can, for example, be controlled by said passenger by curving his or her body with his or her head towards the front, etc.</p>
+<p id="p-0042" num="0048">In order to ensure easy piloting for the passenger and to grant an increased range of action, the invention provides for a propulsion device to be able also to comprise a means for controlling the power of the compression station. Thus, when receiving an order supplied by said means and carried by an adapted fixed or wireless communication means, the station can modulate the compression power of the fluid it supplies to the propulsion device. The passenger can thus control, for example, the take-off, or even fine-tune the movements thereof by modulating the pressure of the fluid flowing through the supply circuit connecting same to the compression station.</p>
+<p id="p-0043" num="0049">Furthermore, according to the applications or uses of a propulsion device according to the invention, the latter can also comprise a means <b>15</b> (for example in the form of a nozzle) for spraying a pressurised fluid other than that used to move the device or derived from same. Said optional means advantageously engages with platform <b>11</b> or, alternatively, with the passenger (on a shoulder, at the waist, etc.). The purpose herein is to offer a civil security application such as fire-fighting, for example, or even for water games: spraying third parties, novel jousting in which the jet of the second fluid forms a non-solid lance, preventing the risk of injuries while maintaining its function of destabilising an adversary . . . .</p>
+<p id="p-0044" num="0050">A propulsion device according to the invention, for instance such as the device <b>10</b> described as an example in connection with <figref idref="DRAWINGS">FIGS. 1</figref> and/or <b>2</b>, can be supplied by any remote fluid-compression station as soon as the latter is capable of supplying a fluid with high enough pressure for the operation of the propulsion device. The latter can be dedicated to said use at the risk of increasing the overall cost of a propulsion system comprising a propulsion device according to the invention, a remote compression station and a supply channel engaging with said device and station in order to transport the pressurised fluid.</p>
+<p id="p-0045" num="0051">In order to reduce such cost, the invention also provides for the remote compression station to be able to be an apparatus which has a main original function other than supplying a pressurised fluid of a propulsion device. As an example, the invention provides for a land- or sea-based fire-fighter's vehicle to be used as a remote compression station if said vehicle has enough fluid compression capacity. It is therefore possible to make use of the natural fluid-compression capacity of a motorised water vehicle (MWV) such as, for example, the RUNABOUT MZR 2011 edition, manufactured by ZAPATA RACING.</p>
+<p id="p-0046" num="0052">Regardless of the compression station used, the invention provides for said station to be able to comprise a means for regulating the compression power from a remote control. Thus, the means for controlling the power of an optionally remote compression station of a propulsion device in accordance with the invention can be made to interact with said means for adjusting the power of a station thus adapted. By means of a communication means (fixed or wireless) for carrying a control signal issued by the propulsion device and sent towards the compression station, a passenger of said device can remotely control the power of the station and thus adapt the movements performed using the propulsion device.</p>
+<p id="p-0047" num="0053">As shown in <figref idref="DRAWINGS">FIG. 3</figref>, a supply channel <b>2</b>&#x2014;intended for being connected respectively to a propulsion device and to a remote compression station such as, for example an MWV&#x2014;can be modular. Said channel can comprise a plurality of elements <b>2</b><i>i </i>that can be interconnected by means of couplings <b>2</b><i>ib </i>or free end pieces <b>2</b><i>ia</i>. Thus, the length of the supply channel <b>2</b> can vary according to the intended use thereof. It is also possible to connect, on demand, a propulsion device to which a first channel element <b>2</b><i>i</i><b>1</b> is already connected to a remote compression station comprising a first length of the supply channel <b>2</b><i>i</i><b>2</b> in order to supply a pressurised fluid. The packaging and transport of the elements of a propulsion system according the invention are thus easier.</p>
+<p id="p-0048" num="0054">A large number of recreational or civil and/or military applications are made possible with a propulsion system in accordance with the invention. For example, an MWV can be provided which carries a propulsion device and a supply channel in order for the driver of the MWV to be able, on demand, to become a passenger of the device.</p>
+<p id="p-0049" num="0055">The invention should not be limited by the cited examples of use.</p>
+<p id="p-0050" num="0056">Accessories for further improving the recreational nature or the operating conditions of such a system may also be provided: lighting, navigation means, etc.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A propulsion device, comprising:
+<claim-text>a platform having a bottom surface, and a top surface on which a passenger stands;</claim-text>
+<claim-text>a thrust unit adapted to be supplied with a pressurized fluid, and including at least one nozzle engaging the bottom surface of the platform and oriented to provide thrust in a direction away from the position of a passenger standing on the top surface; and</claim-text>
+<claim-text>at least two protective projections that extend downwardly from the bottom surface of the platform to form supports that prevent contact between the nozzle of the thrust unit and non-fluid elements during take-off and landing of the propulsion device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The propulsion device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the protective projections are located forward and aft of the nozzle, relative to the direction in which a passenger faces when standing on the platform.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The propulsion device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, comprising four protective projections respectively disposed in front of and behind the positions at which the feet of a passenger are located when standing on the platform.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The propulsion device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising an attachment device to maintain the passenger on the top surface of the platform.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The propulsion device according to <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein said attachment device comprises footwear and a binding for attaching the footwear to the top surface of the platform.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The propulsion device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a fluid collector and distributor that supplies pressurized fluid to the nozzle, and that is configured to connect a supply channel to the device.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The propulsion device according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the fluid collector and distributor comprises a base to which a supply channel is connected, enabling free rotation of the supply channel about an axis substantially parallel to that of the channel.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The propulsion device according to <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the fluid collector and distributor comprises an arm that engages with the nozzle to supply the nozzle with a pressurized fluid collected from the base and to allow free rotation about an axis substantially parallel to that of said arm.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The propulsion device according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the thrust unit includes a plurality of nozzles engaging the bottom surface of the platform, each of said plurality of nozzles being oriented to provide thrust in a direction away from the position of a passenger on the top surface.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A propulsion device, comprising:
+<claim-text>a platform having a bottom surface, and a top surface on which a passenger stands;</claim-text>
+<claim-text>a thrust unit adapted to be supplied with a pressurized fluid, and including a plurality of nozzles engaging the bottom surface of the platform, each of said plurality of nozzles being oriented to provide thrust in a direction away from the position of a passenger standing on the top surface; and</claim-text>
+<claim-text>at least one protective projection that extends downwardly from the bottom surface of the platform to form a support structure that is located forward and aft of the nozzles, relative to the direction in which a passenger faces when standing on the platform, and that prevents contact between the nozzles of the thrust unit and non-fluid elements during take-off and landing of the propulsion device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The propulsion device according to <claim-ref idref="CLM-00010">claim 10</claim-ref>, further comprising a fluid collector and distributor that supplies pressurized fluid to the nozzles, and that is configured to connect a supply channel to the propulsion device.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The propulsion device according to <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the fluid collector and distributor comprises a base to which a supply channel is connected, enabling free rotation of the supply channel about an axis substantially parallel to that of the channel.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The propulsion device according to <claim-ref idref="CLM-00012">claim 12</claim-ref>, wherein the fluid collector and distributor comprises arms respectively engaged with the nozzles to supply the nozzles with a pressurized fluid collected from the base and to allow free rotation about an axis substantially parallel to that of said arms. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

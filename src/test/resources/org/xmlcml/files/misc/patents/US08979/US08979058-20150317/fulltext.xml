@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979058-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979058</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13819707</doc-number>
+<date>20101224</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>CN</country>
+<doc-number>2010 1 0268777</doc-number>
+<date>20100901</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>75</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>04</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>G</section>
+<class>03</class>
+<subclass>B</subclass>
+<main-group>17</main-group>
+<subgroup>56</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>14</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>G</section>
+<class>03</class>
+<subclass>B</subclass>
+<main-group>17</main-group>
+<subgroup>561</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>041</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>14</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>G</section>
+<class>03</class>
+<subclass>B</subclass>
+<main-group>17</main-group>
+<subgroup>566</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>2200</main-group>
+<subgroup>022</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>248371</main-classification>
+<further-classification>2481811</further-classification>
+<further-classification>2481871</further-classification>
+<further-classification>396428</further-classification>
+</classification-national>
+<invention-title id="d2e71">Tripod head panel device</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2180214</doc-number>
+<kind>A</kind>
+<name>Rapp</name>
+<date>19391100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4525052</doc-number>
+<kind>A</kind>
+<name>Kosugi et al.</name>
+<date>19850600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>396419</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4929973</doc-number>
+<kind>A</kind>
+<name>Nakatani</name>
+<date>19900500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481771</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>6196504</doc-number>
+<kind>B1</kind>
+<name>Lemke</name>
+<date>20010300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481871</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>6234690</doc-number>
+<kind>B1</kind>
+<name>Lemieux</name>
+<date>20010500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>396419</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>6773172</doc-number>
+<kind>B1</kind>
+<name>Johnson et al.</name>
+<date>20040800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>396428</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>6994504</doc-number>
+<kind>B2</kind>
+<name>Gordon</name>
+<date>20060200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>411508</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>7185862</doc-number>
+<kind>B1</kind>
+<name>Yang</name>
+<date>20070300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481871</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>8256726</doc-number>
+<kind>B2</kind>
+<name>Bordignon</name>
+<date>20120900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481871</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>8348214</doc-number>
+<kind>B2</kind>
+<name>Vogt</name>
+<date>20130100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2483164</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>8356948</doc-number>
+<kind>B2</kind>
+<name>Onishi et al.</name>
+<date>20130100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>396419</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>8477240</doc-number>
+<kind>B2</kind>
+<name>Kang</name>
+<date>20130700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>348375</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>8628258</doc-number>
+<kind>B2</kind>
+<name>Vogt</name>
+<date>20140100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>396428</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>8794575</doc-number>
+<kind>B2</kind>
+<name>Vogt</name>
+<date>20140800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481771</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>8827219</doc-number>
+<kind>B2</kind>
+<name>Kessler et al.</name>
+<date>20140900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481871</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>8827577</doc-number>
+<kind>B2</kind>
+<name>Johnson</name>
+<date>20140900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>396428</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>2004/0146293</doc-number>
+<kind>A1</kind>
+<name>DeSorbo et al.</name>
+<date>20040700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>396428</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>2010/0181454</doc-number>
+<kind>A1</kind>
+<name>Vogt</name>
+<date>20100700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2483091</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>2012/0145864</doc-number>
+<kind>A1</kind>
+<name>Vogt</name>
+<date>20120600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2483162</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>CN</country>
+<doc-number>2888486</doc-number>
+<kind>Y</kind>
+<date>20070400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>CN</country>
+<doc-number>201156152</doc-number>
+<kind>Y</kind>
+<date>20081100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>CN</country>
+<doc-number>201340508</doc-number>
+<kind>Y</kind>
+<date>20091100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>CN</country>
+<doc-number>201368301</doc-number>
+<kind>Y</kind>
+<date>20091200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>CN</country>
+<doc-number>101922599</doc-number>
+<kind>A</kind>
+<date>20101200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>CN</country>
+<doc-number>101922600</doc-number>
+<kind>A</kind>
+<date>20101200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>CN</country>
+<doc-number>201795241</doc-number>
+<kind>U</kind>
+<date>20110400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>JP</country>
+<doc-number>10-288811</doc-number>
+<kind>A</kind>
+<date>19981000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>JP</country>
+<doc-number>2005-90730</doc-number>
+<kind>A</kind>
+<date>20050400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00029">
+<othercit>International Search Report mailed Jun. 2, 2011, in International Application No. PCT/CN2010/080223, filed Dec. 24, 2010, 5 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00030">
+<othercit>Written Opinion of the International Searching Authority mailed Jun. 2, 2011, in International Application No. PCT/CN2010/080223, filed Dec. 24, 2010, 7 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>9</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>248371</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481811</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481871</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>396419</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>396428</main-classification>
+</classification-national>
+<classification-cpc-text>F16M 11/041</classification-cpc-text>
+<classification-cpc-text>F16M 11/04</classification-cpc-text>
+<classification-cpc-text>G03B 17/561</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>7</number-of-drawing-sheets>
+<number-of-figures>24</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130193294</doc-number>
+<kind>A1</kind>
+<date>20130801</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Li</last-name>
+<first-name>Shuqiang</first-name>
+<address>
+<city>Zhongshan</city>
+<country>CN</country>
+</address>
+</addressbook>
+<residence>
+<country>CN</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Li</last-name>
+<first-name>Shuqiang</first-name>
+<address>
+<city>Zhongshan</city>
+<country>CN</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Christensen O'Connor Johnson Kindness PLLC</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Lap Shun Manufacture Co., Ltd.</orgname>
+<role>03</role>
+<address>
+<city>Zhongshan</city>
+<country>CN</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>McKinnon</last-name>
+<first-name>Terrell</first-name>
+<department>3632</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Breslin</last-name>
+<first-name>Daniel</first-name>
+</assistant-examiner>
+</examiners>
+<pct-or-regional-filing-data>
+<document-id>
+<country>WO</country>
+<doc-number>PCT/CN2010/080223</doc-number>
+<kind>00</kind>
+<date>20101224</date>
+</document-id>
+<us-371c124-date>
+<date>20130416</date>
+</us-371c124-date>
+</pct-or-regional-filing-data>
+<pct-or-regional-publishing-data>
+<document-id>
+<country>WO</country>
+<doc-number>WO2012/024880</doc-number>
+<kind>A </kind>
+<date>20120301</date>
+</document-id>
+</pct-or-regional-publishing-data>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A tripod head panel device of a tripod head comprises a tripod head panel and a removably mounted snap-fit plate. The tripod head panel comprises a fixed plate, a moveable plate mounted underneath the fixed plate, and a driving plate mounted underneath the moveable plate. The fixed plate comprises a supporting base plate and a first retaining wall protruding upward from the supporting base plate. The moveable plate comprises a supporting base plate and a second retaining wall protruding upward from the supporting base plate, with a driving hole provided in the center of the moveable plate. The driving plate comprises a base mounted underneath the moveable plate and a handle extending from an end of the base, with an offset cam inside the driving hole formed on the seat. The snap-fit plate is mounted on the supporting base plate between the first and the second retaining walls.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="85.09mm" wi="123.27mm" file="US08979058-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="195.75mm" wi="122.68mm" file="US08979058-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="195.66mm" wi="155.70mm" file="US08979058-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="177.29mm" wi="138.60mm" file="US08979058-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="190.08mm" wi="113.96mm" file="US08979058-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="168.91mm" wi="126.66mm" file="US08979058-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="205.06mm" wi="150.71mm" file="US08979058-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="105.16mm" wi="147.07mm" file="US08979058-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">FIELD</heading>
+<p id="p-0002" num="0001">The present application relates to photographic equipment, in particular, to a panel device of a tripod head.</p>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">Both amateur photographers and professional photographers are eager to quickly, accurately, and stably fix a camera or video camera onto a tripod, so as to shoot those passing pictures or images.</p>
+<p id="p-0004" num="0003">To achieve the above, people have to use expensive tripods that have tripod heads with very complex structures. Meanwhile, installation of the camera or video camera onto the tripod head and the subsequent adjustments are very complicated. After finishing the adjustments, the photographer may have missed a good opportunity to capture a great image.</p>
+<p id="p-0005" num="0004">Therefore, to overcome the above deficiencies, there is an urgent need for a reliable tripod head panel device that is simple in structure and is quick to install.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0006" num="0005">Disclosed herein is a panel device of a tripod head.</p>
+<p id="p-0007" num="0006">According to at least one embodiment, a tripod head panel device includes a tripod head panel and a snap-fit plate removably mounted on the tripod head panel. The tripod head panel includes a fixed plate, a moveable plate mounted underneath the fixed plate, and a driving plate mounted underneath the moveable plate. The fixed plate includes a supporting base plate and a first retaining wall protruding upward from the supporting base plate. The moveable plate includes a supporting base plate and a second retaining wall protruding upward from the supporting base plate of the moveable plate. The moveable plate is provided with a driving hole. The driving plate includes a base mounted underneath the moveable plate and a handle extending from an end of the base, while an eccentric cam formed on the seat is provided inside the driving hole. The snap-fit plate is mounted on the supporting base plate of the moveable plate, and is provided between the first and the second retaining walls.</p>
+<p id="p-0008" num="0007">The tripod head panel device described herein is simple in structure, quick to install, and is reliable. Therefore, it is easy to fix a camera or other equipment onto the tripod head panel.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective view of the tripod head panel device of one embodiment of the present invention.</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 2</figref> is a perspective view of the tripod head panel device of <figref idref="DRAWINGS">FIG. 1</figref> viewed from another direction.</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 3</figref> is an exploded view of the tripod head panel of the tripod head panel device of the present invention.</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 4</figref> is a perspective view of the tripod head panel of <figref idref="DRAWINGS">FIG. 3</figref> viewed from another direction.</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 5</figref> is an assembly view of the tripod head panel of the tripod head panel device of one embodiment of the present invention.</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 6</figref> is the moving principle of the snap-fit plate of the tripod head panel device of one embodiment of the present invention.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 7</figref> is a perspective view of the snap-fit plate of the tripod head panel device of one embodiment of the present invention.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 8</figref> is an exploded view of the snap-fit plate of <figref idref="DRAWINGS">FIG. 7</figref>.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 9</figref> is an exploded view of the snap-fit plate of <figref idref="DRAWINGS">FIG. 7</figref> viewed from another direction.</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 10</figref> is the moving process of the snap-fit plate of <figref idref="DRAWINGS">FIGS. 7-9</figref>.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0019" num="0018">The invention is best understood by reference to the following description taken in conjunction with the accompanying drawings.</p>
+<p id="p-0020" num="0019">Referring to <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, a tripod head panel device <b>1000</b> includes a tripod head panel <b>100</b> and a snap-fit plate <b>200</b> removably mounted to the tripod head panel <b>100</b>.</p>
+<p id="p-0021" num="0020">The structure of the tripod head panel <b>100</b> and the snap-fit plate <b>200</b> will now be described.</p>
+<p id="p-0022" num="0021">Referring to <figref idref="DRAWINGS">FIGS. 3-6</figref>, the tripod head panel <b>100</b> includes a fixed plate <b>102</b>, a movable plate <b>104</b> mounted at the bottom of the fixed plate <b>102</b> which can elastically slide on the tripod head panel <b>100</b>, and a driving plate <b>106</b> rotatably mounted at the bottom of the movable plate <b>104</b>, so as to facilitate the movable plate <b>104</b> to slide on the fixed plate <b>102</b>.</p>
+<p id="p-0023" num="0022">The fixed plate <b>102</b> includes a supporting base plate <b>1022</b> supporting the snap-fit plate <b>200</b>, and a first retaining wall <b>1024</b> protruding upward from an edge of the supporting base plate <b>1022</b>. An axle hole <b>10222</b> is provided at the center of the supporting base plate <b>1022</b>. A plurality of guiding grooves <b>10224</b>, such as two, are provided on the side of the supporting base plate <b>1022</b> which is opposite the first retaining wall <b>1024</b>, so as to guide the movable plate <b>104</b> to slide with respect to the fixed plate <b>102</b>. A positioning column <b>10228</b> is formed by extending downward from the center at the bottom of the supporting base plate <b>1022</b>, and the axle hole <b>10222</b> passes through the positioning column <b>10228</b>. In addition, a pair of slide grooves <b>10226</b> are provided on the bottom of the supporting base plate <b>1022</b> to further guide the movable plate <b>104</b> to slide with respect to the fixed plate <b>102</b>. Furthermore, a first spine <b>10242</b> is formed on the first retaining wall <b>1024</b> (referring to <figref idref="DRAWINGS">FIG. 5</figref>).</p>
+<p id="p-0024" num="0023">The movable plate <b>104</b> includes a supporting base plate <b>1042</b> supporting the snap-fit plate <b>200</b>, and a second retaining wall <b>1044</b> protruding upward from an edge of the supporting base plate <b>1042</b>. A driving hole <b>10424</b> is provided at the center of the movable plate <b>104</b>, configured to allow the proper components of the driving plate <b>106</b> to rotate eccentrically inside. In addition, two sides of the end of the movable plate <b>104</b> opposite the second retaining wall <b>1044</b> extend upwards, respectively, forming slide blocks <b>10422</b> that fit the slide groove <b>10226</b> of the fixed plate <b>102</b>. A second spine <b>10446</b> is further formed in the second retaining wall <b>1044</b> (referring to <figref idref="DRAWINGS">FIG. 5</figref>). A guide block <b>10448</b> fitting the guiding grooves <b>10224</b> of the fixed plate <b>102</b> is formed on the second retaining wall <b>1044</b> by extending upward horizontally. In addition, a notch <b>10442</b> is provided downwardly at the bottom of the second retaining wall <b>1044</b>. The notch <b>10442</b> protrudes downward to form a lock column <b>10444</b>.</p>
+<p id="p-0025" num="0024">The detailed structure of the driving plate <b>106</b> will now be described. The driving plate <b>106</b> is rotatably mounted at the bottom of the movable plate <b>104</b>. The movable plate <b>104</b> can slide with respect to the fixed plate <b>102</b> by turning the driving plate <b>106</b>. The driving plate <b>106</b> includes a base <b>1062</b> and a handle <b>1066</b> extending from one end of the base <b>1062</b>. An eccentric cam <b>1064</b> is formed on the base <b>1062</b>, which can eccentrically rotate inside the driving hole <b>1062</b> of the movable plate <b>104</b> (referring to <figref idref="DRAWINGS">FIGS. 3 and 6</figref>). A perforation <b>1067</b> corresponding to the axle hole <b>10222</b> of the fixed plate <b>102</b> is provided longitudinally on the eccentric cam <b>1064</b>. A through hole <b>1061</b> is provided longitudinally on the handle <b>1066</b>, which can be passed through by a lock pin <b>1063</b>. The lock pin <b>1063</b> can be rotatably mounted on the handle <b>1066</b> by a dowel pin <b>1065</b> that longitudinally passes through the lock pin <b>1063</b>.</p>
+<p id="p-0026" num="0025">The fixed plate <b>102</b> is positioned on the supporting base plate <b>1042</b> of the movable plate <b>104</b>. The slide blocks <b>10422</b> of the movable plate <b>104</b> are respectively arranged in the corresponding slide grooves <b>10226</b> of the fixed plate <b>102</b>. The guide block <b>10448</b> of the movable plate <b>104</b> is inserted into corresponding guiding groove <b>10244</b> of the fixed plate <b>102</b>. The first retaining wall <b>1024</b> of the fixed plate <b>102</b> and the second retaining wall <b>1044</b> of the movable plate <b>104</b> are parallel to each other, forming a gap of certain width between the first and second retaining walls <b>1024</b> and <b>1044</b>, so as to mount the snap-fit plate <b>200</b> therebetween. The driving plate <b>106</b> is arranged at the bottom of the movable plate <b>104</b>. The eccentric cam <b>1064</b> of the driving plate <b>106</b> is eccentrically arranged in the driving hole <b>10424</b> of the movable plate <b>104</b>.</p>
+<p id="p-0027" num="0026">In addition, the positioning column <b>10228</b> of the fixed plate <b>102</b> inserts into the perforation <b>1067</b> of the eccentric cam <b>1064</b> and finally inserts into the perforation <b>1067</b> of the driving plate <b>106</b>. A pair of screw rods <b>108</b> respectively pass through the first retaining wall <b>1024</b> of the fixed plate <b>102</b> and the corresponding guiding groove <b>10224</b>, then abut on corresponding guide block <b>10448</b> of the movable plate <b>104</b>. An extension spring <b>101</b> is formed on each screw rod <b>108</b>. When the spring <b>101</b> is stretched, there is a tendency between the fixed plate <b>102</b> and the movable plate <b>104</b> to approach each other.</p>
+<p id="p-0028" num="0027">The fixed plate <b>102</b>, the movable plate <b>104</b>, and the driving plate <b>106</b> are fixed in this manner: first, the screw <b>103</b> extends and passes through the axle hole <b>10222</b> of the fixed plate <b>102</b> and protrudes outward from the bottom of the driving plate <b>106</b>; then, the nut <b>105</b> is fixed on the screw <b>103</b>, such that the fixed plate <b>102</b>, the movable plate <b>104</b>, and the driving plate <b>106</b> are fixed with each other.</p>
+<p id="p-0029" num="0028">The operation principle of the tripod head <b>100</b> will now be described. Referring to <figref idref="DRAWINGS">FIG. 6</figref>, when the eccentric cam <b>1064</b> is not in touch with the driving hole <b>10424</b>, the distance between the fixed plate <b>102</b> and the movable plate <b>104</b> is the smallest. When turning the driving plate <b>106</b> along direction II, the eccentric cam <b>1064</b> drives the movable plate <b>104</b> toward the right, so as to allow the movable plate <b>104</b> and the fixed plate <b>102</b> to move further away from each other, thereby increasing the distance between the first retaining wall <b>10242</b> and the second retaining wall <b>10446</b>. At the moment, the snap-fit plate <b>200</b> can be easily positioned between the two retaining walls. When turning the driving plate <b>106</b> along direction I, the eccentric cam <b>1064</b> drives the movable plate <b>104</b> toward the left, so as to allow the movable plate <b>104</b> to become closer to the fixed plate <b>102</b>. At the moment, the snap-fit plate <b>200</b> can be tightly fixed between the two retaining walls, thereby preventing the snap-fit plate <b>200</b> from becoming loose and falling down.</p>
+<p id="p-0030" num="0029">To prevent the driving plate <b>106</b> from turning back to its previous position after rotating a certain angle, the driving plate <b>106</b> can be locked. Specifically, by pulling the dowel pin <b>1065</b> onto the slope <b>1068</b>, the lock pin <b>1063</b> will protrude downwards, so as to allow the lock pin <b>1063</b> to be inserted into the notch <b>10442</b> of the movable plate <b>104</b>, thereby preventing the driving plate <b>106</b> from being rotated. By reverse operation, the locking can be released.</p>
+<p id="p-0031" num="0030">A through hole <b>1061</b> is provided longitudinally in the handle <b>1066</b> for passing through a lock pin <b>1063</b>. The lock pin <b>1063</b> can be rotatably mounted on the handle <b>1066</b> by a dowel pin <b>1065</b> longitudinally passing through the lock pin <b>1063</b>. In addition, a slope <b>1068</b> is formed at the bottom of the handle <b>1066</b>.</p>
+<p id="p-0032" num="0031">The structure of the snap-fit plate <b>200</b> will now be described. Referring to <figref idref="DRAWINGS">FIGS. 7-10</figref>, the snap-fit plate <b>200</b> includes a slide seat <b>202</b>, a pair of limiting bars <b>206</b> mounted on two sides of the slide seat <b>202</b> and a slider <b>204</b> capable of sliding on the slide seat <b>202</b> provided between the limiting bars <b>206</b>.</p>
+<p id="p-0033" num="0032">Flanges <b>2022</b> are formed by the two longitudinally protruding edges of the slide seat <b>202</b>. Longitudinally extending slideways <b>2026</b> are formed inside the flanges <b>2022</b>. Each of the slideways <b>2026</b> corresponds respectively to the first and second spines <b>10242</b> and <b>10446</b> of the head panel <b>100</b>. The slide seat <b>202</b> is provided on the supporting base plate <b>1022</b> of the fixed plate <b>102</b> of the tripod head panel <b>100</b>, and the first and second spines <b>10242</b> and <b>10446</b> of the tripod head panel <b>100</b> are respectively fitted into corresponding slideways <b>2026</b>, such that the snap-fit plate <b>200</b> can slide on the head panel <b>100</b>.</p>
+<p id="p-0034" num="0033">A fixing hole <b>2024</b> is provided at the center of the slide seat <b>202</b>, and a first groove <b>2028</b> is provided longitudinally at the back end of the slide seat <b>202</b>. A first limiting block <b>2021</b> is formed at the end of the first groove <b>2028</b>. In addition, the head of the slide seat <b>202</b> is bent to form a hook <b>2023</b>.</p>
+<p id="p-0035" num="0034">The two limiting bars <b>206</b> are fixed in the inner side of the flanges <b>2022</b> of the slide seat <b>202</b> respectively, for example, by the screws <b>2031</b>. A step <b>2026</b> is provided longitudinally at the bottom of each limiting bar <b>206</b>. In addition, one of the limiting bars <b>206</b> is provided with a slot <b>2064</b> at the bottom.</p>
+<p id="p-0036" num="0035">A longitudinally extending slide hole <b>2042</b> is provided at the center of the slider <b>204</b>. A plate-locking slot <b>2046</b>, corresponding to the slot of one of the limiting bars <b>206</b> with a locking plate <b>207</b> capable of horizontally sliding set inside, is formed in the head of the slider <b>204</b>. In addition, a second groove <b>2048</b>, which corresponds to the first groove <b>2028</b> of the slide seat <b>202</b>, is provided at the bottom of the slider <b>204</b>. A second limiting block <b>2041</b> is formed at the end of the second groove.</p>
+<p id="p-0037" num="0036">In addition, slide rails <b>2044</b> corresponding to the steps <b>2026</b> of the limiting bars <b>206</b> are formed on both sides of the slider <b>204</b>. The slider <b>204</b> is provided on the slide seat <b>202</b> between the two limiting bars <b>206</b>. The two slide rails <b>2044</b> of the slider <b>204</b> are respectively provided between the two steps <b>2062</b> of the limiting bars <b>206</b>, so as to allow the slider <b>204</b> to move longitudinally relative to the slide seat <b>202</b>. The limit column <b>201</b> passing through the slide hole <b>2042</b> of the slider <b>204</b> is fixed in the fixing hole <b>2024</b> of the slide seat <b>202</b>, so as to limit the longitudinal moving range of the slider <b>204</b>.</p>
+<p id="p-0038" num="0037">Preferably, in order to get back to its original position after the slider <b>204</b> has moved a given distance, a pressure spring <b>209</b> may be mounted between the first limiting block <b>2021</b> and the second limiting block <b>2041</b>. The pressure spring <b>209</b> may be arranged between the space defined both by the first groove <b>2028</b> and the second groove <b>2048</b>.</p>
+<p id="p-0039" num="0038">Preferably, in order to limit the slider <b>204</b> in a certain position, the locking plate <b>207</b> in the locking-plate slot <b>2046</b> can be turned into the slot <b>2064</b> of the limiting bar <b>206</b>.</p>
+<p id="p-0040" num="0039">Furthermore, a retaining ring <b>208</b> can be fitted into the hook <b>2023</b> of the slide seat <b>202</b>.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A tripod head panel device, comprising:
+<claim-text>a tripod head panel; and</claim-text>
+<claim-text>a snap-fit plate removably mounted on the tripod head panel,</claim-text>
+<claim-text>the tripod head panel comprising a fixed plate, a moveable plate mounted underneath the fixed plate, and a driving plate mounted underneath the moveable plate,</claim-text>
+<claim-text>wherein:
+<claim-text>the fixed plate comprises a supporting base plate and a first retaining wall protruding upward from the supporting base plate, with an axle hole provided at the center of the supporting base plate of the fixed plate;</claim-text>
+<claim-text>the moveable plate comprises a supporting base plate and a second retaining wall protruding upward from the supporting base plate of the moveable plate, with a driving hole provided in the center of the moveable plate;</claim-text>
+<claim-text>the driving plate comprises a base mounted underneath the moveable plate and a handle extending from an end of the base, with an eccentric cam inside the driving hole formed on the base; and</claim-text>
+<claim-text>the snap-fit plate is mounted on the supporting base plate of the moveable plate between the first and the second retaining walls;</claim-text>
+<claim-text>a perforation corresponding to the axle hole of the fixed plate is provided longitudinally on the eccentric cam;</claim-text>
+<claim-text>a positioning column extends downward from the center of the bottom of the supporting base plate of the fixed plate, with the axle hole allowing through the positioning column, the positioning column inserting into the perforation, and finally protruding from the bottom of the driving plate by a screw; and</claim-text>
+<claim-text>by a nut fixed on the screw, the fixed plate, the movable plate, and the driving plate are fixed with each other.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The tripod head panel device of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein:
+<claim-text>one or more guiding grooves are provided on the side of the supporting base plate of the fixed plate which is opposite to the first retaining wall;</claim-text>
+<claim-text>a pair of slide grooves are provided on the bottom of the supporting base plate of the fixed plate;</claim-text>
+<claim-text>two sides of the end of the movable plate opposing to the second retaining wall extend upwards respectively, forming slide blocks;</claim-text>
+<claim-text>a guide block extending upward horizontally fitting the guiding grooves of the fixed plate is formed on the second retaining wall;</claim-text>
+<claim-text>the fixed plate is provided on the supporting base plate of the movable plate;</claim-text>
+<claim-text>the slide blocks of the movable plate are respectively arranged in the corresponding slide grooves of the fixed plate;</claim-text>
+<claim-text>the guide block of the movable plate is inserted into the corresponding guiding groove of the fixed plate;</claim-text>
+<claim-text>the first retaining wall of the fixed plate and the second retaining wall of the movable plate are parallel to each other, forming a gap of certain width between the two retaining walls, so as to mount the snap-fit plate therebetween;</claim-text>
+<claim-text>a pair of screw rods pass through the first retaining wall and the guiding grooves respectively, and abut on the corresponding guide block; and</claim-text>
+<claim-text>each of the screw rods are provided with an extension spring.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The tripod head panel device of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein:
+<claim-text>a through hole is provided longitudinally on the handle, with a lock pin passing through thereby;</claim-text>
+<claim-text>the lock pin is rotatably mounted on the handle by a dowel pin longitudinally passing through the lock pin; and</claim-text>
+<claim-text>the bottom of the handle is a slope.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The tripod head panel device of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein the snap-fit plate comprises a slide seat having a head, a center, and a back end, a pair of limiting bars mounted on two sides of the slide seat, and a slider capable of sliding on the slide seat provided between the limiting bars, the slider having a head, a center, and a bottom.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The tripod head panel device of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein:
+<claim-text>a first spine is formed on the first retaining wall;</claim-text>
+<claim-text>a second spine is formed on the second retaining wall;</claim-text>
+<claim-text>flanges are formed by two longitudinally protruding edges of the slide seat;</claim-text>
+<claim-text>longitudinally extending slideways are formed inside the flanges;</claim-text>
+<claim-text>the slide seat is provided on the supporting base plate of the fixed plate of the tripod head panel; and</claim-text>
+<claim-text>the first and second spines of the tripod head panel are respectively fitted into corresponding slideways.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The tripod head panel device of <claim-ref idref="CLM-00005">claim 5</claim-ref>, wherein:
+<claim-text>a fixing hole is provided at the center of the slide seat, and a first groove is provided longitudinally at the back end of the slide seat;</claim-text>
+<claim-text>a first limiting block is formed at the end of the first groove;</claim-text>
+<claim-text>the head of the slide seat is bent to form a hook;</claim-text>
+<claim-text>the two limiting bars are fixed in the inner side of the flanges of the slide seat, respectively;</claim-text>
+<claim-text>a step is provided longitudinally at the bottom of each limiting bar, where one of the limiting bars is provided with a slot at the bottom;</claim-text>
+<claim-text>a longitudinally extending slide hole is provided at the center of the slider;</claim-text>
+<claim-text>a plate-locking slot, corresponding to the slot of one of the limiting bars with a locking plate capable of horizontally sliding set inside, is formed in the head of the slider;</claim-text>
+<claim-text>a second groove, which corresponds to the first groove of the slide seat, is provided at the bottom of the slider;</claim-text>
+<claim-text>a second limiting block is formed at the end of the second groove;</claim-text>
+<claim-text>slide rails corresponding to the steps of the limiting bars are formed on both sides of the slider;</claim-text>
+<claim-text>the slider is provided on the slide seat between the two limiting bars;</claim-text>
+<claim-text>the two slide rails of the slider are respectively provided between the two steps of the limiting bars; and</claim-text>
+<claim-text>a limit column passing through the slide hole of the slider is fixed in the fixing hole of the slide seat.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The tripod head panel device of <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein a pressure spring is mounted between the first groove and the second groove.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The tripod head panel device of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein a retaining ring is provided inside the hook of the slide seat.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The tripod head panel device of <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein a notch is provided downwardly at the bottom of the second retaining wall, the notch protruding downward to form a lock column. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

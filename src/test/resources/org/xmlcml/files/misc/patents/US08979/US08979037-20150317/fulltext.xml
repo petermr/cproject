@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979037-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979037</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>12807934</doc-number>
+<date>20100917</date>
+</document-id>
+</application-reference>
+<us-application-series-code>12</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>569</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>L</subclass>
+<main-group>3</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>02</class>
+<subclass>G</subclass>
+<main-group>9</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>02</class>
+<subclass>G</subclass>
+<main-group>9</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>02</class>
+<subclass>G</subclass>
+<main-group>3</main-group>
+<subgroup>06</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>02</class>
+<subclass>G</subclass>
+<main-group>9</main-group>
+<subgroup>025</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>02</class>
+<subclass>G</subclass>
+<main-group>3</main-group>
+<subgroup>0608</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>248 49</main-classification>
+<further-classification>248 65</further-classification>
+<further-classification>248 70</further-classification>
+<further-classification>248 681</further-classification>
+<further-classification>2482741</further-classification>
+<further-classification>24828811</further-classification>
+<further-classification>248258</further-classification>
+<further-classification>248 58</further-classification>
+<further-classification>248 59</further-classification>
+<further-classification>248 61</further-classification>
+<further-classification>174 39</further-classification>
+<further-classification>174 72 R</further-classification>
+<further-classification>174 72 C</further-classification>
+<further-classification>174 40 R</further-classification>
+<further-classification>174 75 R</further-classification>
+<further-classification>174 69</further-classification>
+<further-classification>174 84 R</further-classification>
+<further-classification>174 85</further-classification>
+<further-classification>174 86</further-classification>
+<further-classification>174 87</further-classification>
+<further-classification>174 88 S</further-classification>
+<further-classification>174101</further-classification>
+</classification-national>
+<invention-title id="d2e53">Cable tray apparatus for a people mover system</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3471629</doc-number>
+<kind>A</kind>
+<name>O'Leary</name>
+<date>19691000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174666</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4969400</doc-number>
+<kind>A</kind>
+<name>Burg et al.</name>
+<date>19901100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>104247</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5024251</doc-number>
+<kind>A</kind>
+<name>Chapman</name>
+<date>19910600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>138 92</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5887831</doc-number>
+<kind>A</kind>
+<name>Post</name>
+<date>19990300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 49</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>6143984</doc-number>
+<kind>A</kind>
+<name>Auteri</name>
+<date>20001100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174 683</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>6344611</doc-number>
+<kind>B2</kind>
+<name>Ewer et al.</name>
+<date>20020200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174488</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>6498296</doc-number>
+<kind>B2</kind>
+<name>Benito-Navazo</name>
+<date>20021200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174 683</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6578350</doc-number>
+<kind>B2</kind>
+<name>Blase et al.</name>
+<date>20030600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 59 781</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6609684</doc-number>
+<kind>B2</kind>
+<name>Van Scoy et al.</name>
+<date>20030800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 49</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>6889443</doc-number>
+<kind>B2</kind>
+<name>Polk, Jr.</name>
+<date>20050500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 33562</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>7017615</doc-number>
+<kind>B2</kind>
+<name>Suzuki et al.</name>
+<date>20060300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>138110</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>7145079</doc-number>
+<kind>B1</kind>
+<name>Henry</name>
+<date>20061200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174101</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>7562629</doc-number>
+<kind>B2</kind>
+<name>Lohr et al.</name>
+<date>20090700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>105 72</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>8119914</doc-number>
+<kind>B2</kind>
+<name>Lubanski</name>
+<date>20120200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174 97</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>2003/0155148</doc-number>
+<kind>A1</kind>
+<name>Lockard</name>
+<date>20030800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174 681</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>2008/0283291</doc-number>
+<kind>A1</kind>
+<name>Makwinski et al.</name>
+<date>20081100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>174481</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>2009/0084910</doc-number>
+<kind>A1</kind>
+<name>White</name>
+<date>20090400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 70</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>2010/0133390</doc-number>
+<kind>A1</kind>
+<name>Lange et al.</name>
+<date>20100600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>248 65</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>1</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>248 49</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 65</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 70</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 681</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482741</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24828811</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248258</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 58- 59</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>248 61</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 39</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 72 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 72 C</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 40 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 75 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 69</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 84 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 85</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 86</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 87</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174 88 S</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>174101</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>10</number-of-drawing-sheets>
+<number-of-figures>11</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20120068023</doc-number>
+<kind>A1</kind>
+<date>20120322</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Wurzer</last-name>
+<first-name>Adam J.</first-name>
+<address>
+<city>Carroll</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Wurzer</last-name>
+<first-name>Terry D.</first-name>
+<address>
+<city>Carroll</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="003" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Lewis</last-name>
+<first-name>Cameron G.</first-name>
+<address>
+<city>Ames</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="004" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Wurzer</last-name>
+<first-name>David T.</first-name>
+<address>
+<city>Carroll</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Wurzer</last-name>
+<first-name>Adam J.</first-name>
+<address>
+<city>Carroll</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Wurzer</last-name>
+<first-name>Terry D.</first-name>
+<address>
+<city>Carroll</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Lewis</last-name>
+<first-name>Cameron G.</first-name>
+<address>
+<city>Ames</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="004" designation="us-only">
+<addressbook>
+<last-name>Wurzer</last-name>
+<first-name>David T.</first-name>
+<address>
+<city>Carroll</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<last-name>Thomte</last-name>
+<first-name>Dennis L.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+<agent sequence="02" rep-type="attorney">
+<addressbook>
+<orgname>Thomte Patent Law Office LLC</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Terad Fabricating, Inc.</orgname>
+<role>02</role>
+<address>
+<city>Carroll</city>
+<state>IA</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Garft</last-name>
+<first-name>Christopher</first-name>
+<department>3632</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A cable tray apparatus is provided a people mover system such as a Sky Train or the like. The cable tray apparatus is made up of a plurality of identical cable trays which are secured together in an end-to-end relationship. The cable trays are selectively laterally horizontally adjustable with respect to one another and are selectively vertically adjustable with respect to one another to correspond to curves in the roadway of the system and to correspond to elevational changes in the roadway of the system.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="203.71mm" wi="268.14mm" file="US08979037-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="267.12mm" wi="202.78mm" orientation="landscape" file="US08979037-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="243.92mm" wi="189.40mm" orientation="landscape" file="US08979037-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="234.95mm" wi="189.99mm" file="US08979037-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="250.87mm" wi="181.19mm" orientation="landscape" file="US08979037-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="260.77mm" wi="202.10mm" orientation="landscape" file="US08979037-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="259.59mm" wi="183.90mm" file="US08979037-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="225.89mm" wi="178.99mm" orientation="landscape" file="US08979037-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="252.90mm" wi="190.84mm" orientation="landscape" file="US08979037-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="262.81mm" wi="166.29mm" orientation="landscape" file="US08979037-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="251.54mm" wi="166.29mm" orientation="landscape" file="US08979037-20150317-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">1. Field of the Invention</p>
+<p id="p-0003" num="0002">This invention relates to a cable tray apparatus for use with a people mover system such as a Sky Train or the like. Even more particularly, the cable trays which make up the cable tray apparatus of this invention are identical and are secured together in an end-to-end relationship at one side of the cars of the people mover system. Even more particularly, this invention relates to a means for securing the cable trays together which permits the cable trays to be selectively laterally horizontally adjustable with respect to one another and selectively vertically adjustable with respect to one another.</p>
+<p id="p-0004" num="0003">2. Description of the Related Art</p>
+<p id="p-0005" num="0004">In people mover systems such as a Sky Train system, a plurality of vehicles or cars travel along a guideway or roadway with the guideway or roadway being normally elevated. Power and control signals for the cars normally comprise cables positioned in trays which are positioned on the roadway on one side of the cars traveling on the roadway. In the past, it is believed that the cable trays had to be cut and welded together to accommodate curves in the roadway and to accommodate elevational changes in the roadway.</p>
+<heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0006" num="0005">This Summary is provided to introduce a selection of concepts in a simplified form that are further described below in the Detailed Description. This Summary is not intended to identify key aspects or essential aspects of the claimed subject matter. Moreover, this Summary is not intended for use as an aid in determining the scope of the claimed subject matter.</p>
+<p id="p-0007" num="0006">A cable tray apparatus is provided for use with an electric train such as a Sky Train which travels along a power rail positioned on a roadway with the train including one or more cars having opposite sides. A plurality of generally rectangular electrical cable trays make up the cable tray apparatus with the cable trays having first and second ends and being identical to one another. The cable trays are connected together in an end-to-end relationship and are positioned on the roadway at one side of the cars of the train. The cable trays are selectively laterally horizontally adjustable with respect to one another and are selectively vertically adjustable with respect to one another to correspond to curves in the roadway and to correspond to elevational changes in the roadway respectively.</p>
+<p id="p-0008" num="0007">Each of the cable trays include a body portion having a cover selectively removably mounted on the upper end thereof. A plurality of upstanding partitions are provided in each of the body portions of the cable trays to provide a compartment for low-voltage cables, a compartment for high-voltage cables and a compartment for cables carrying control signals for the cars. The partitions not only stabilize the body portion but act as heat sinks.</p>
+<p id="p-0009" num="0008">One or more low-voltage lights are secured to one side of each of the cable trays which illuminate the roadway adjacent the cable tray apparatus. The cable tray apparatus will serve as a walkway or step to a walkway should the passengers be required to leave the car if the car becomes disabled and must stop along the length of the system.</p>
+<p id="p-0010" num="0009">The cover is selectively removably secured to the upper end of the body portion and the upper end of the partitions and is connected to the body portion by a flexible tether means so that the cover may be placed at one side of the cable tray should the cover need to be removed with the tether preventing the cover from falling from the roadway.</p>
+<p id="p-0011" num="0010">These and other objects will be apparent to those skilled in the art.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0012" num="0011">Non-limiting and non-exhaustive embodiments of the present invention are described with reference to the following figures, wherein like reference numerals refer to like parts throughout the various views unless otherwise specified.</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 1</figref> is a partial perspective view illustrating the cable tray apparatus of this invention positioned adjacent a people mover system such as a sky train or the like;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 2</figref> is a partial front view of a pair of people mover vehicles positioned on an elevated roadway with a pair of the cable tray apparatuses of this invention positioned therebetween;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 3</figref> is a partial front view illustrating a person stepping from the vehicle onto a cable tray apparatus of this invention;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 4</figref> is a partial perspective view of the cable tray apparatus of this invention;</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 5</figref> is a partial exploded perspective view of the body portion and connector plates of one of the cable trays;</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 6</figref> is a partial top perspective view of the cover portion of the cable tray of this invention;</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 7</figref> is a partial bottom perspective view of the cover of <figref idref="DRAWINGS">FIG. 6</figref>;</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 8</figref> is a perspective view illustrating a pair of end caps for use with the cable tray apparatus of this invention;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 9</figref> is a vertical sectional view of one of the cable trays of this invention;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 10</figref> is a partial vertical sectional view of the cable tray apparatus of this invention illustrating the manner in which the adjacent cable trays are selectively vertically adjustably mounted with respect to one another;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 11</figref> is a partial top view of the cable tray apparatus of this invention illustrating the manner in which the cable trays thereof are selectively horizontally adjustably secured together in an end-to-end relationship.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+<p id="p-0024" num="0023">Embodiments are described more fully below with reference to the accompanying figures, which form a part hereof and show, by way of illustration, specific exemplary embodiments. These embodiments are disclosed in sufficient detail to enable those skilled in the art to practice the invention. However, embodiments may be implemented in many different forms and should not be construed as being limited to the embodiments set forth herein. The following detailed description is, therefore, not to be taken in a limiting sense in that the scope of the present invention is defined only by the appended claims.</p>
+<p id="p-0025" num="0024">The cable tray apparatus of this invention is referred to generally by the reference numeral <b>10</b> which is comprised of a plurality of elongated cable trays <b>12</b> which are secured together in an end-to-end manner so as to be selectively horizontally laterally adjustably secured together and so as to be selectively vertically adjustably secured together. Each cable tray <b>12</b> includes a body portion <b>14</b> and a cover <b>15</b> as will be described in more detail hereinafter. Preferably, the body portion <b>14</b> and the cover <b>15</b> are comprised of an aluminum material.</p>
+<p id="p-0026" num="0025">Each body portion <b>14</b> includes opposite ends <b>16</b> and <b>18</b>. Each body portion <b>14</b> includes a bottom wall <b>20</b>, an upstanding side wall <b>22</b> having an inwardly extending flange <b>24</b> at its upper end. Flange <b>24</b> is provided with notches <b>26</b> and <b>28</b> at its opposite ends. A plurality of horizontally spaced-apart, internally threaded screw openings <b>30</b> are formed in flange <b>24</b> along the length thereof. If the screw openings are not internally threaded, a small nut is secured to the underside of flange <b>24</b> at each of the openings <b>30</b>.</p>
+<p id="p-0027" num="0026">Body portion <b>14</b> is also provided with a side wall <b>32</b> which includes an angularly disposed wall portion <b>34</b> and a vertically disposed wall portion <b>36</b> which has an inwardly extending and horizontally disposed flange <b>37</b> at its upper end which has a plurality of horizontally spaced-apart, internally threaded screw openings <b>39</b> formed therein along the length thereof. If the screw openings <b>39</b> are not internally threaded, a small nut is secured to the underside of flange <b>37</b> at each of the openings <b>39</b>. Wall portion <b>36</b> has a slot <b>40</b> formed therein which extends thereinto at end <b>16</b> and a slot <b>41</b> formed therein which extends thereinto at end <b>18</b>. Bottom wall <b>20</b> has slots <b>42</b>, <b>44</b>, <b>46</b>, <b>48</b> and <b>50</b> formed therein which extend inwardly thereinto at end <b>16</b>. Side wall <b>22</b> has slots <b>52</b> and <b>54</b> formed therein which extend inwardly thereinto from end <b>16</b>. Wall portion <b>34</b> has a plurality of horizontally spaced-apart openings <b>56</b> formed therein along the length thereof to permit wires or cables to be extended therethrough.</p>
+<p id="p-0028" num="0027">Slots <b>58</b>, <b>60</b> and <b>62</b> extend inwardly into bottom wall <b>20</b> at end <b>18</b> which are aligned with slots <b>42</b>, <b>44</b> and <b>46</b> at end <b>16</b> respectively. Slots <b>64</b> and <b>66</b> extend inwardly into bottom wall at end <b>18</b> which are aligned with slots <b>48</b> and <b>50</b> respectively. Slots <b>68</b> and <b>70</b> extend inwardly into side wall <b>22</b> at end <b>18</b> which are aligned with slots <b>52</b> and <b>54</b> respectively.</p>
+<p id="p-0029" num="0028">A pair of spaced-apart upstanding partitions <b>72</b> and <b>74</b> are secured to bottom wall <b>20</b> between side walls <b>22</b> and <b>32</b> as seen in <figref idref="DRAWINGS">FIG. 5</figref>. Although two partitions are illustrated, any number of partitions could be utilized. Partition <b>72</b> is channel-shaped in cross-section and includes a bottom flange <b>76</b>, a top flange <b>78</b> and a web <b>80</b> extending therebetween. Bottom flange <b>76</b> is secured to bottom wall <b>20</b> by a plurality of screws or rivets <b>82</b>. Top flange <b>78</b> has notches <b>84</b> and <b>86</b> formed therein at its opposite ends. Top flange <b>78</b> is provided with a plurality of horizontally spaced-apart, internally threaded openings <b>88</b> formed therein. If the openings <b>88</b> are not internally threaded, a small nut is secured to the underside of flange <b>78</b> at each of the openings <b>88</b>. A plurality of vertically spaced-apart slots <b>90</b> are formed in web <b>80</b> inwardly of one end thereof. A plurality of vertically spaced-apart openings <b>92</b> are formed in web <b>80</b> at its other end.</p>
+<p id="p-0030" num="0029">Partition <b>74</b> is channel-shaped in cross-section and includes a bottom flange <b>94</b>, a top flange <b>96</b> and a web <b>98</b> extending therebetween. Bottom flange <b>94</b> is secured to bottom wall <b>20</b> by a plurality of screws or rivets <b>100</b>. Top flange <b>96</b> has notches <b>102</b> and <b>104</b> formed therein at its opposite ends. Flange <b>96</b> is provided with a plurality of horizontally spaced-apart, internally threaded openings <b>106</b> formed therein. If the openings <b>106</b> are not internally threaded, a small nut is secured to the underside of flange <b>96</b> at each of the openings <b>106</b>. A plurality of vertically spaced-apart slots <b>108</b> are formed in web <b>98</b> inwardly of one end thereof. A plurality of vertically spaced-apart openings <b>110</b> are formed in web <b>98</b> at its other end.</p>
+<p id="p-0031" num="0030">The numeral <b>112</b> refers to a flat connector plate having a plurality of vertically aligned threaded studs <b>114</b> extending therefrom which are adapted to be received by the openings <b>92</b> in partition <b>72</b> and maintained therein by nuts in conventional fashion. Connector plate <b>112</b> also includes a plurality of vertically aligned threaded studs <b>116</b> extending therefrom which are adapted to extend through the slots <b>90</b> in the partition <b>72</b> of body portion <b>14</b> of a cable tray <b>12</b> positioned in an end-to-end relationship thereto and maintained therein by nuts in conventional fashion. The numeral <b>118</b> refers to a flat connector plate having a plurality of vertically aligned threaded studs <b>120</b> extending therefrom which are adapted to be received by the openings <b>110</b> in partition <b>74</b> and maintained therein by nuts in conventional fashion. Connector plate <b>118</b> also includes a plurality of vertically aligned threaded studs <b>122</b> extending therefrom which are adapted to extend through the slots <b>108</b> in the partition <b>74</b> of body portion <b>14</b> of a cable tray <b>12</b> positioned in an end-to-end relationship thereto and maintained therein by nuts in conventional fashion.</p>
+<p id="p-0032" num="0031">The numeral <b>124</b> refers to a connector plate which has the same general configuration, without flanges, as body portion <b>14</b> and which includes a bottom wall <b>126</b>, side wall <b>128</b>, angular side wall portion <b>130</b> and vertically disposed side wall portion <b>132</b>. Bottom wall <b>126</b> of connector plate <b>124</b> has internally threaded bolt or screw openings <b>134</b>, <b>136</b>, <b>138</b>, <b>140</b> and <b>142</b> formed therein adjacent one side edge thereof and internally threaded bolt openings <b>144</b>, <b>146</b>, <b>148</b>, <b>150</b> and <b>151</b> (not shown) formed therein adjacent the other side edge thereof as seen in <figref idref="DRAWINGS">FIG. 5</figref>. Side wall <b>128</b> of connector plate <b>124</b> has internally threaded bolt or screw openings <b>152</b>, <b>154</b>, <b>156</b> and <b>158</b> formed therein as also seen in <figref idref="DRAWINGS">FIG. 5</figref>. Side wall portion <b>132</b> of plate <b>124</b> has internally threaded bolt or screw openings <b>160</b> and <b>162</b> formed therein. If the openings are not internally threaded, small nuts are secured to the outer sides of bottom wall <b>126</b>, sidewall <b>128</b> and side wall portion <b>132</b> at each of the above-described openings.</p>
+<p id="p-0033" num="0032">Cover <b>15</b>, as seen in <figref idref="DRAWINGS">FIGS. 6 and 7</figref>, will be described as having opposite ends <b>164</b>, <b>166</b> and opposite sides <b>168</b> and <b>170</b>. Cover <b>15</b> includes a top wall <b>172</b> having side walls <b>174</b> and <b>176</b> extending downwardly therefrom at the opposite sides thereof. Side walls <b>174</b> and <b>176</b> have notches <b>178</b> and <b>180</b> formed therein respectively adjacent end <b>166</b> of cover <b>15</b>. A flat rectangular plate <b>182</b> is secured to top wall <b>172</b> at end <b>166</b> of cover <b>15</b> by screws <b>184</b> so that plate <b>182</b> extends horizontally outwardly from the underside of top wall <b>172</b>, for slidable engagement with the other end of the cover of a cable tray positioned adjacent thereto as seen in <figref idref="DRAWINGS">FIG. 10</figref>.</p>
+<p id="p-0034" num="0033">Elongated U-shaped brackets <b>186</b>, <b>188</b> and <b>190</b> are secured to the underside of top wall <b>172</b> inwardly of end <b>164</b> of cover <b>15</b> in a spaced-apart relationship by screws. Elongated U-shaped brackets <b>192</b>, <b>194</b> and <b>196</b> are secured to the underside of top wall <b>172</b> inwardly of end <b>166</b> of cover <b>15</b> in a spaced-apart relationship by screws. A third set of elongated U-shaped brackets are secured to the underside of top wall <b>172</b> between the first and second set of elongated U-shaped brackets.</p>
+<p id="p-0035" num="0034">A pair of flexible tethers <b>198</b> and <b>200</b> is secured at one end thereof to top wall <b>172</b> at the underside thereof by screws or the like. The other ends of the tethers <b>198</b> and <b>200</b> are secured to the inside surface of side wall <b>22</b> by screws, bolts or the like.</p>
+<p id="p-0036" num="0035">Cover <b>15</b> is selectively removably secured to body portion <b>14</b> of tray <b>12</b> by screws extending downwardly through top wall <b>172</b> into the openings <b>39</b> in flange <b>37</b>, openings <b>88</b> in flange <b>78</b>, openings <b>106</b> in flange <b>96</b> and openings <b>30</b> in flange <b>24</b>. The numerals <b>202</b> and <b>204</b> refer to end caps which may be secured to the ends of the cable tray apparatus <b>10</b> as needed or required.</p>
+<p id="p-0037" num="0036">The cable tray apparatus <b>10</b> of this invention is designed to be utilized with a people mover system such as the Sky Train being constructed in Phoenix Ariz. The people mover system for which the cable tray apparatus of this invention has been designed includes a roadway <b>206</b> which will generally be elevated. The cable trays <b>12</b> are supported above the roadway <b>206</b> by means of a plurality of vertically disposed supports <b>208</b> which have their lower ends embedded in the roadway <b>206</b> as seen in <figref idref="DRAWINGS">FIG. 9</figref> and which extend upwardly therefrom. The upper ends of supports <b>208</b> are secured to angle braces <b>210</b> which extend transversely across the bottoms of the cable trays <b>12</b> and which are secured thereto.</p>
+<p id="p-0038" num="0037">The cable tray apparatus of this invention is designed, as stated above, to be used with the Sky Train people mover system being constructed in Phoenix, Ariz. The cable tray apparatus <b>10</b> will be supported on the roadway <b>206</b> at one side of the vehicle or car <b>212</b>. Two of the cable tray apparatuses may be positioned between a pair of the vehicles <b>212</b> as illustrated in <figref idref="DRAWINGS">FIG. 2</figref> or at one side of the vehicle <b>212</b> as seen in <figref idref="DRAWINGS">FIG. 1</figref>. The vehicles <b>212</b> have guide wheels <b>214</b> which roll along tire running surfaces <b>216</b> in conventional fashion. A guidebeam <b>218</b> is supported by roadway <b>206</b> between the surfaces <b>216</b>. An electric power rail is associated with guidebeam <b>218</b> to provide power to the vehicle and to provide signals to the vehicle. A low voltage power conduit is positioned within body portion <b>14</b> outwardly of partition <b>72</b> for supplying low voltage to the lights <b>222</b> which are secured to the outer surface of wall portion <b>34</b> of body portion <b>14</b>. A high voltage power conduit will be positioned in body portion <b>14</b> between side wall <b>22</b> and partition <b>74</b>. A central signal conduit is positioned between partitions <b>72</b> and <b>74</b>. The upper surface of cover <b>15</b> of the cable tray apparatus forms sidewalks for passenger use should the vehicle become disabled and stop at any point along the roadway.</p>
+<p id="p-0039" num="0038">The tethers <b>198</b> and <b>200</b> permit the cover <b>15</b> to be placed in an upside-down manner next to the cable tray should entry into the cable tray <b>12</b> be necessary. The tethers prevent the cover <b>15</b>, when removed, from being blown from the roadway <b>206</b> and possibly injuring someone. The partitions <b>72</b> and <b>74</b> not only provide stability to body portion <b>14</b> and cover <b>15</b> but also act as heat sinks. The U-shaped brackets <b>186</b>, <b>188</b>, <b>190</b>, <b>192</b>, <b>194</b> and <b>196</b> not only provide strength to the cover <b>15</b> but also stabilize the side walls of body portion <b>14</b> and partitions <b>72</b> and <b>74</b>.</p>
+<p id="p-0040" num="0039">The connector plates <b>112</b>, <b>118</b> and <b>124</b> permit the cable trays <b>12</b> to be secured to one another in an end-to-end relationship but also permit the cable trays <b>12</b> to be selectively vertically adjusted with respect to one another to correspond to roadways which are inclined either upwardly or downwardly and to permit the cable trays <b>12</b> to be selectively horizontally adjusted with respect to one another to correspond to roadways which turn either right or left such as in curves. The connector plates <b>112</b>, <b>118</b> and <b>124</b> and their connection to the partitions <b>72</b>, <b>74</b> and the body portion <b>14</b> permit horizontal and vertical displacement between adjacent cable trays <b>12</b>. <figref idref="DRAWINGS">FIG. 10</figref> illustrates the manner in which the cable trays <b>12</b> may be selectively vertically adjusted with respect to one another while <figref idref="DRAWINGS">FIG. 11</figref> illustrates the manner in which the cable trays <b>12</b> may be selectively laterally horizontally adjusted with respect to one another. As seen, such movement is achieved by certain of the screws and studs being slidably received by slots.</p>
+<p id="p-0041" num="0040">Thus it can be seen that the invention accomplishes at last all of its stated objectives.</p>
+<p id="p-0042" num="0041">Although the invention has been described in language that is specific to certain structures and methodological steps, it is to be understood that the invention defined in the appended claims is not necessarily limited to the specific structures and/or steps described. Rather, the specific aspects and steps are described as forms of implementing the claimed invention. Since many embodiments of the invention can be practiced without departing from the spirit and scope of the invention, the invention resides in the claims hereinafter appended.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. In combination with an electric train which travels along a power rail positioned on a roadway with the train including one or more cars having opposite sides; comprising:
+<claim-text>a plurality of elongated generally rectangular electrical cable trays having first and second ends, first and second sides, and an open upper end;</claim-text>
+<claim-text>said cable trays being connected together in an end-to-end relationship;</claim-text>
+<claim-text>said cable trays being positioned on the roadway at one side of the cars of the train;</claim-text>
+<claim-text>said cable trays being selectively pivotally secured to one another about a horizontal axis to permit a vertical angle therebetween to be selectively adjusted;</claim-text>
+<claim-text>said cable trays also being selectively pivotally secured to one another about a vertical axis to permit a horizontal angle therebetween to be selectively adjusted;</claim-text>
+<claim-text>each of said cable trays including a body portion having a bottom wall with first and second ends and first and second upstanding side walls with upper ends;</claim-text>
+<claim-text>each of said cable trays also including an elongated cover selectively removably secured to said body portion thereof so as to extend between said upper ends of said first and second side walls between said first and second ends of said body portion to cover said open upper end of said body portion;</claim-text>
+<claim-text>each of said covers including a top wall having first and second ends located along a longitudinal axis and first and second sides, a first side wall extending downwardly from said first side of said top wall, and a second side wall extending downwardly from said second side of said top wall;</claim-text>
+<claim-text>each of said top walls of said covers having an upper surface and a lower surface;</claim-text>
+<claim-text>at least some of said covers having a plate portion which is secured to said top wall of said cover at the lower surface thereof which extends horizontally outwardly from said second end of said cover which is configured to be slidably received beneath the first end of the top wall of the cover on an adjacent cable tray;</claim-text>
+<claim-text>each of said cable trays having a plurality of spaced-apart upstanding partitions, having upper and lower ends, and first and second ends;</claim-text>
+<claim-text>said lower ends of said upstanding partitions being secured to said bottom wall of said body portion of the respective cable tray which extend between said first and second ends of the respective cable tray;</claim-text>
+<claim-text>said lower surface of at least some of said covers having a first row of elongated, spaced-apart inverted U-shaped brackets secured thereto which extend downwardly therefrom adjacent said first end of the cover and a second row of elongated, spaced-apart inverted U-shaped brackets secured thereto which extend downwardly therefrom adjacent said second end of the cover;</claim-text>
+<claim-text>each of said elongated inverted U-shaped brackets having a longitudinal axis which is transversely disposed with respect to the longitudinal axis of an associated cover and transversely disposed with respect to an associated cable tray;</claim-text>
+<claim-text>said upper ends of said partitions, adjacent said first ends thereof, being received between said spaced-apart brackets of said first row of brackets;</claim-text>
+<claim-text>said upper ends of said partitions, adjacent said second ends thereof, being received between said spaced-apart brackets of said second row of brackets</claim-text>
+<claim-text>said inverted U-shaped brackets being sufficiently spaced-apart whereby said upper ends of said partitions are located between said inverted U-shaped brackets;</claim-text>
+<claim-text>said inverted U-shaped brackets strengthening said associated covers and said partitions functioning as heat sinks. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

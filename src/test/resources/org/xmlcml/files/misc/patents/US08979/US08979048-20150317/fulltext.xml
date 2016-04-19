@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979048-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979048</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13899199</doc-number>
+<date>20130521</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>190</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>47</class>
+<subclass>B</subclass>
+<main-group>96</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>43</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>04</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>08</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>13</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>43</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>041</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>11</main-group>
+<subgroup>08</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>13</main-group>
+<subgroup>022</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>M</subclass>
+<main-group>2200</main-group>
+<subgroup>024</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>24822111</main-classification>
+<further-classification>24822241</further-classification>
+<further-classification>2482741</further-classification>
+<further-classification>403345</further-classification>
+<further-classification>224545</further-classification>
+</classification-national>
+<invention-title id="d2e53">Rotating electronic display adapter</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>4570892</doc-number>
+<kind>A</kind>
+<name>Czech et al.</name>
+<date>19860200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>6588719</doc-number>
+<kind>B1</kind>
+<name>Tubach</name>
+<date>20030700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2482821</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>6801426</doc-number>
+<kind>B2</kind>
+<name>Ichimura</name>
+<date>20041000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>36167906</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>7303171</doc-number>
+<kind>B1</kind>
+<name>Chen</name>
+<date>20071200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>7506850</doc-number>
+<kind>B2</kind>
+<name>Chang</name>
+<date>20090300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>7686250</doc-number>
+<kind>B2</kind>
+<name>Fortes et al.</name>
+<date>20100300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>7929284</doc-number>
+<kind>B2</kind>
+<name>Shen</name>
+<date>20110400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>8215583</doc-number>
+<kind>B2</kind>
+<name>Groomes et al.</name>
+<date>20120700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>8308114</doc-number>
+<kind>B2</kind>
+<name>DeBuhr et al.</name>
+<date>20121100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2481881</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>8701953</doc-number>
+<kind>B2</kind>
+<name>Bopp et al.</name>
+<date>20140400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>224547</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>8870143</doc-number>
+<kind>B2</kind>
+<name>Kubin</name>
+<date>20141000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2483094</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>24822111</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24822241</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>24822252</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482741</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2482761</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2483091</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2481881</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403 43</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403345</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403350</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>403351</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>224545</main-classification>
+</classification-national>
+<classification-cpc-text>F16M 2200/021</classification-cpc-text>
+<classification-cpc-text>F16M 2200/024</classification-cpc-text>
+<classification-cpc-text>F16M 13/022</classification-cpc-text>
+<classification-cpc-text>F16M 13/02</classification-cpc-text>
+<classification-cpc-text>F16M 11/041</classification-cpc-text>
+<classification-cpc-text>F16M 11/08</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>6</number-of-drawing-sheets>
+<number-of-figures>6</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140346296</doc-number>
+<kind>A1</kind>
+<date>20141127</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Rosemount Aerospace Inc.</orgname>
+<address>
+<city>Burnsville</city>
+<state>MN</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Tschann</last-name>
+<first-name>Matthew A.</first-name>
+<address>
+<city>Burnsville</city>
+<state>MN</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Freeman</last-name>
+<first-name>Kenneth J.</first-name>
+<address>
+<city>Eagan</city>
+<state>MN</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Locke Lord LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+<agent sequence="02" rep-type="attorney">
+<addressbook>
+<last-name>Wofsy</last-name>
+<first-name>Scott D.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+<agent sequence="03" rep-type="attorney">
+<addressbook>
+<last-name>Jones</last-name>
+<first-name>Joshua L.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Rosemount Aerospace Inc.</orgname>
+<role>02</role>
+<address>
+<city>Burnsville</city>
+<state>MN</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Epps</last-name>
+<first-name>Todd M</first-name>
+<department>3632</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">An assembly includes an adapter portion configured for attachment to a rear surface of an electronic display device and a base portion configured to be mounted to a fixed structure in the cockpit of an aircraft. The adapter portion has a cylindrical barrel portion having a plurality of circumferentially disposed radially outwardly extending keys, a first radially inwardly extending recess corresponding to a landscape position of the display device and a second radially inwardly extending recess corresponding to a portrait position of the display device. The base portion includes an upper surface with a circular reception port formed therein for receiving the barrel portion of the adapter portion, and the reception port has a plurality of radially outwardly extending circumferentially disposed keyways formed therein for receiving the plurality of keys on the barrel portion of the adapter portion.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="214.55mm" wi="312.50mm" file="US08979048-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="157.48mm" wi="179.75mm" file="US08979048-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="234.27mm" wi="189.48mm" file="US08979048-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="230.97mm" wi="206.08mm" file="US08979048-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="207.43mm" wi="191.09mm" file="US08979048-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="177.88mm" wi="170.94mm" file="US08979048-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="177.88mm" wi="158.07mm" file="US08979048-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">1. Field of the Invention</p>
+<p id="p-0003" num="0002">The subject invention relates to improvements in mounts for portable electronic displays, and more particularly, to a rotating adapter for mounting a portable electronic flight bag (EFB) on a supporting surface within the cockpit of an aircraft.</p>
+<p id="p-0004" num="0003">2. Description of Related Art</p>
+<p id="p-0005" num="0004">An EFB is an electronic display device that a pilot may use for preflight check lists and similar activities. EFB's are generally handheld, portable devices that a pilot can take from flight to flight. Information about a pilot's flight may be preloaded onto the EFB so that the pilot can access it prior to, during and after the flight.</p>
+<p id="p-0006" num="0005">In the past, a pilot may have simply placed an EFB loosely within the cockpit of an airplane, e.g., on the floor or on a console, which could lead to problems during the flight. For example, the EFB could become lost among other items in the cockpit, or the position of the EFB might shift during the flight. Further, if there is turbulence, the EFB could become damaged if it is not secured to a fixed surface within the cockpit.</p>
+<p id="p-0007" num="0006">Partially in response to these concerns, the U.S. Federal Aviation Administration (FAA) has published guidelines designating three separate classes of EFB hardware approved for use under progressively more demanding conditions. Specifically, Class 1 devices are standard commercial-off-the-shelf (COTS) equipment such as laptops or handheld electronic devices. These devices are used as loose equipment and are typically stowed during critical phases of flight. A Class 1 EFB is considered a Portable Electronic Device (PED). These may connect to aircraft power and interface to other systems via certified (STC) docking station and/or power source. This would allow the Class 1 device to interface with other systems through the certified interface and other devices through an expansion port interface.</p>
+<p id="p-0008" num="0007">Class 2 devices are also Portable Electronic Devices, and range from modified COTS equipment to purpose-built devices. They are typically mounted in the aircraft with the display being viewable to the pilot during all phases of flight. Mounts can include certified structural mounting devices or kneeboard devices. These devices may connect to aircraft power and data sources, e.g. through an ARINC 429 interface. A Class 2 EFB can be used for bi-directional data communication with other aircraft systems. In this class, a single line replaceable unit (LRU) would be an optimal solution based on the ease of installation and replacement.</p>
+<p id="p-0009" num="0008">Class 3 devices are considered &#x201c;installed equipment&#x201d; and are subject to airworthiness requirements defined by the FAA. Unlike PEDs, these devices must be under design control. The hardware is subject to a limited number of RTCA DO-160E requirements (for non-essential equipment&#x2014;typical crash safety and Conducted and Radiated Emissions (EMC) testing). There may also be certain requirements for software. Class 3 EFBs are typically installed under STC or other airworthiness approval.</p>
+<p id="p-0010" num="0009">Mounting brackets used for Class 2 and Class 3 hardware typically do not permit easy removal of the electronic equipment. The orientation and/or position of the electronic equipment also cannot be easily changed to accommodate user preference. Those mounting brackets that do permit adjustment, require considerable manipulation with both hands, which can be distracting and inconvenient for the pilot or other operator.</p>
+<p id="p-0011" num="0010">It would be beneficial to provide a mounting assembly that allows for easy temporary installation of a Class 2 EFB on a supporting console within the cockpit of an aircraft without the use of any tools, fasteners or complicated moving parts.</p>
+<heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0012" num="0011">The subject invention is directed to a new and useful assembly for mounting an electronic display device to a supporting structure, such as a console, within the cockpit of an aircraft. The assembly incudes an adapter portion configured for attachment to a rear surface of the electronic display device and a base portion configured to be mounted to a fixed structure, such as a console, in the cockpit of the aircraft.</p>
+<p id="p-0013" num="0012">The adapter portion of the mounting assembly has a mounting plate for securement to the rear surface of the display device with a plurality of fasteners, and a cylindrical barrel portion that extends away from the rear surface of the display device. The barrel portion has three circumferentially disposed radially outwardly extending keys. The barrel portion further includes a first radially inwardly extending recess corresponding to a landscape position of the display device and a second radially inwardly extending recess corresponding to a portrait position of the display device.</p>
+<p id="p-0014" num="0013">The base portion of the mounting assembly includes an upper surface or wall with a circular reception port formed therein for receiving the barrel of the adapter portion. The reception port has three radially outwardly extending circumferentially disposed keyways formed therein for receiving the three corresponding keys formed on the barrel of the adapter portion.</p>
+<p id="p-0015" num="0014">In addition, the mounting assembly includes a manually operated plunger operatively associated with the base portion for selectively engaging the first and second recesses in the barrel of the adapter portion to prevent relative rotation of the adapter portion and the base portion. A locking nut is also provided for selectively securing the plunger in an engagement position relative to the base portion.</p>
+<p id="p-0016" num="0015">Preferably, the three keys and keyways are positioned so that an initial engagement position of the barrel within the reception port corresponds to the display device having an orientation that is 30&#xb0; clockwise from the landscape position of the display device and 120&#xb0; clockwise from the portrait position of the display device.</p>
+<p id="p-0017" num="0016">The barrel preferably includes a circumferential slot that is located axially above the three keys for engaging an annular retaining lip that surrounds the reception port in the upper surface of the base portion. The adapter portion also includes a plurality of spring loaded plungers retained in the barrel and mounted to bear against a bottom plate of the base portion to provide pressure against the retaining lip to add resistance against the rotation of the barrel within the reception port.</p>
+<p id="p-0018" num="0017">These and other features of the mounting assembly of the subject invention and the manner in which it is employed within the cockpit of an aircraft will become more readily apparent to those having ordinary skill in the art from the following enabling description of the preferred embodiments of the subject invention taken in conjunction with the several drawings described below.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0019" num="0018">So that those skilled in the art to which the subject invention appertains will readily understand how to make and use the mount assembly of the subject invention without undue experimentation, preferred embodiments thereof will be described in detail herein below with reference to certain figures, wherein:</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 1</figref> shows an electronic display device, in the form of an electronic flight bag, mounted on the console in the cockpit of an aircraft;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 2</figref> is an exploded perspective view of the mounting assembly of the subject invention, with parts separated for ease of illustration, including an adapter portion configured for attachment to a rear surface of the electronic display device and a base portion configured to be mounted to the console in the cockpit of the aircraft;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 3</figref> is an exploded perspective view of the mounting assembly of the subject invention, with parts separated for ease of illustration, and inverted from the view shown in <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 4</figref> is a top plan view of the mounting assembly of the subject invention, with the adapter portion disposed in an initial engaged position with respect to the base portion, so that the keys are aligned with the keyways and the display device is oriented 30&#xb0; from its landscape position;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 5</figref> is a top plan view of the mounting assembly of the subject invention, with the adapter portion rotated 30&#xb0; in a clockwise direction relative to the base portion, so that the keys are out of alignment with the keyways, and the display device is oriented in its landscape position; and</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 6</figref> is a top plan view of the mounting assembly of the subject invention, with the adapter portion rotated 90&#xb0; from the position shown in <figref idref="DRAWINGS">FIG. 5</figref>, in a clockwise direction relative to the base portion, so that the keys remain out of alignment with the keyways, and the display device is oriented in its portrait position.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF PREFERRED EMBODIMENTS</heading>
+<p id="p-0026" num="0025">Referring now to the drawings, wherein like reference numerals identify similar structural features or aspects of the subject invention, there is illustrated in <figref idref="DRAWINGS">FIG. 1</figref> an electronic display device <b>10</b> that a pilot may use for preflight check lists and similar activities within the cockpit of an aircraft.</p>
+<p id="p-0027" num="0026">The electronic display device <b>10</b> is removably mounted to a supporting structure or console <b>12</b> in the cockpit of an aircraft using the mounting assembly of the subject invention, which is described in greater detail herein below. The mounting assembly of the subject invention enables a pilot to easily and quickly mount the electronic display device <b>10</b> to a supporting surface or console <b>12</b> in the cockpit of an aircraft without any tools, fasteners or latches.</p>
+<p id="p-0028" num="0027">Referring to <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, there is shown the mounting assembly of the subject invention, which is designated generally by reference numeral <b>100</b>. Mounting assembly <b>100</b> includes two main components. These components include an adapter portion <b>110</b> configured for attachment to a rear surface of the electronic display device <b>10</b> and a base portion <b>210</b> configured to be mounted to the console <b>12</b> or other fixed structure in the cockpit of an aircraft.</p>
+<p id="p-0029" num="0028">The adapter portion <b>110</b> of mounting assembly <b>100</b> has a mounting plate or flange <b>112</b> having a plurality of apertures <b>114</b> formed therein. The apertures <b>114</b> accommodate threaded fasteners (not shown) that are used to secure the adapter portion <b>110</b> to the rear surface of the display device <b>10</b>. A cylindrical barrel portion <b>116</b> depends from the undersurface of the mounting plate <b>112</b> of adapter portion <b>110</b>. The barrel portion <b>116</b> includes an upper barrel section <b>116</b><i>a </i>having a first diameter and a lower barrel section <b>116</b><i>b </i>having a second diameter that is less than that of the upper barrel section <b>116</b><i>a. </i></p>
+<p id="p-0030" num="0029">The lower section <b>116</b><i>b </i>of the barrel portion <b>116</b> has three circumferentially disposed radially outwardly extending keys designated by reference numerals <b>120</b>, <b>122</b> and <b>124</b>. As illustrated in <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, the three keys are essentially similar in dimension and shape. It is envisioned however, that one or more of the keys can differ in size and/or shape from the other keys on the barrel portion <b>116</b>. However, it should be appreciated that at least one of the keys should be larger than the other keys and/or the keys should be unequally spaced apart from one another so that the keys do not drop into the keyways when the barrel portion <b>116</b> is rotated within the reception port <b>216</b></p>
+<p id="p-0031" num="0030">It is also envisioned that different key arrangements can be provided by a manufacturer so that the mounting assembly <b>100</b> may be customized for a particular aircraft or display device, or a skeleton key approach could be employed so that there is a single generic version of the mounting assembly.</p>
+<p id="p-0032" num="0031">The lower section <b>116</b><i>b </i>of barrel portion <b>116</b> further includes two radially inwardly extending recesses <b>130</b> and <b>132</b>. These two recesses are separated by a 90&#xb0; arc. The first radially inwardly extending recess <b>130</b> corresponds to a landscape mounting position of the display device <b>10</b>, as described in more detail below with respect to <figref idref="DRAWINGS">FIG. 5</figref>. The second radially inwardly extending recess <b>132</b> corresponds to a portrait mounting position of the display device <b>10</b>, as described in more detail below with reference to <figref idref="DRAWINGS">FIG. 6</figref>. It is envisioned that the arc between the two recesses <b>130</b>, <b>132</b> does not have to be a 90&#xb0; arc. Indeed, the extent of the arc between the recesses may depend upon the configuration of the cockpit or the structure of the console. For example, there may be cases where a 45&#xb0; or 50&#xb0; degree rotation is adequate to change the perception of portrait versus landscape and vice versa.</p>
+<p id="p-0033" num="0032">The base portion <b>210</b> of mounting assembly <b>100</b> includes an inclined upper surface or top wall <b>212</b>. A circular reception port <b>216</b> is formed within the inclined upper surface <b>212</b> for receiving the barrel portion <b>116</b> of the adapter <b>110</b>. The reception port <b>216</b> of base portion <b>210</b> has three radially outwardly extending circumferentially disposed keyways <b>220</b>, <b>222</b> and <b>224</b> formed therein. These three keyways are dimensioned and configured to cooperatively receive the three corresponding keys <b>120</b>, <b>122</b> and <b>124</b> formed on the lower barrel section <b>116</b><i>b </i>of the adapter portion <b>110</b>, to rotatably and releasably mount the display device <b>10</b> to the cockpit console <b>12</b>, as shown in <figref idref="DRAWINGS">FIG. 1</figref>. Base portion <b>210</b> also includes a plurality mounting apertures <b>225</b> for accommodating fasteners (not shown) that secure the base portion to the cockpit console <b>12</b>.</p>
+<p id="p-0034" num="0033">With continuing reference to <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, mounting assembly <b>100</b> further includes a manually operated plunger <b>250</b> for selectively engaging the adapter portion <b>110</b> to prevent relative rotation of the adapter position <b>110</b> and the base portion <b>210</b> when the display device <b>10</b> is in its landscape or portrait position. More particularly, the plunger <b>250</b> includes an engagement shaft <b>252</b> dimensioned and configured to selectively engage the radially inwardly extending recesses <b>130</b> and <b>132</b> in the lower barrel section <b>116</b><i>b </i>of barrel portion <b>116</b>.</p>
+<p id="p-0035" num="0034">Plunger <b>250</b> further includes a threaded body portion <b>254</b> for cooperating with a threaded bore <b>230</b> in the front wall <b>232</b> of base portion <b>210</b>. In addition, plunger <b>250</b> includes a handle portion <b>256</b> for manually controlling the movement of the shaft <b>252</b> within the body portion <b>210</b> relative to the base portion <b>210</b>. A locking nut <b>260</b> cooperates with the threaded body portion <b>254</b> of plunger <b>250</b> for securing the plunger <b>250</b> relative to the base portion <b>210</b>.</p>
+<p id="p-0036" num="0035">As best seen in <figref idref="DRAWINGS">FIG. 3</figref>, the peripheral wall that surrounds reception port <b>216</b> defines a retaining lip <b>240</b>. This retaining lip <b>240</b> rides within a gap that is formed between the upper surfaces of keys <b>120</b>, <b>122</b> and <b>124</b> and the bottom surface of the upper barrel section <b>116</b><i>a </i>of barrel portion <b>116</b>. Three spring loaded pistons <b>150</b><i>a</i>-<b>150</b><i>c </i>are retained in bores <b>152</b><i>a</i>-<b>152</b><i>c </i>in the barrel portion <b>116</b> to bear against a circular plate <b>270</b> secured to an interior surface of the top wall <b>212</b> of base portion <b>210</b> by threaded fasteners <b>272</b> through plate apertures <b>275</b>. The pistons are dimensioned an configured <b>150</b><i>a</i>-<b>150</b><i>c </i>urge the upper surfaces of the keys <b>120</b>, <b>122</b> and <b>124</b> against the retaining lip <b>240</b> when the keys are rotated out of alignment with the keyways <b>220</b>, <b>222</b> and <b>224</b> to add frictional resistance against the rotation of the barrel <b>116</b> within the reception port <b>216</b>. Additionally, the spring loaded pistons <b>150</b><i>a</i>-<b>150</b><i>c </i>serve to take up any inherent and necessary clearance within the assembly to minimize or otherwise eliminate rattle during vibratory loading while in use.</p>
+<p id="p-0037" num="0036">Referring to <figref idref="DRAWINGS">FIG. 4</figref>, the keys (<b>120</b>, <b>122</b> and <b>124</b>) of the barrel portion <b>116</b> of adapter <b>110</b> and the keyways (<b>220</b>, <b>222</b> and <b>224</b>) in the reception port <b>216</b> of base portion <b>210</b> are positioned so that in an initial aligned engagement position of the barrel portion <b>116</b> within the reception port <b>216</b> corresponds to the display device <b>10</b> having an orientation that is offset 30&#xb0; clockwise from the landscape position display device. This is the only position in which the keys and keyways are aligned. In this position, the engagement shaft <b>254</b> of the plunger <b>250</b> is refracted so that the barrel portion <b>116</b> can rotate freely within the reception port <b>216</b> of the base portion <b>210</b>.</p>
+<p id="p-0038" num="0037">Referring now to <figref idref="DRAWINGS">FIG. 5</figref>, there is illustrated a view of the mounting assembly <b>100</b> when the display device <b>10</b> has been rotated into a landscape position. This position is advanced 30&#xb0; in a clockwise direction from the orientation shown in <figref idref="DRAWINGS">FIG. 4</figref>. In this position, the keys (<b>120</b>, <b>122</b> and <b>124</b>) on the lower barrel section <b>116</b><i>b </i>of adapter portion <b>110</b> and the keyways (<b>220</b>, <b>222</b> and <b>224</b>) in the reception port <b>216</b> of base portion <b>210</b> are rotated out of alignment. Furthermore, the engagement shaft <b>254</b> of the plunger <b>250</b> is advanced forward using the handle portion <b>256</b> so as to engage the radially inwardly extending recess <b>130</b> in the lower barrel section <b>116</b><i>b</i>, and thereby fix the position of the adapter portion <b>110</b> relative to the base portion <b>210</b>.</p>
+<p id="p-0039" num="0038">Turning to <figref idref="DRAWINGS">FIG. 6</figref>, there is illustrated a view of the mounting assembly <b>100</b> when the display device <b>10</b> has been rotated into a portrait position. This position is advanced 90&#xb0; in a clockwise direction from the orientation shown in <figref idref="DRAWINGS">FIG. 5</figref>, and 120&#xb0; in a clockwise direction from the orientation shown in <figref idref="DRAWINGS">FIG. 5</figref>. In this position, the keys (<b>120</b>, <b>122</b> and <b>124</b>) on the lower barrel section <b>116</b><i>b </i>of adapter portion <b>110</b> and the keyways (<b>220</b>, <b>222</b> and <b>224</b>) in the reception port <b>216</b> of base portion <b>210</b> are still out of alignment. In addition, the engagement shaft <b>254</b> of the plunger <b>250</b> is engaged in the radially inwardly extending recess <b>132</b> in the lower barrel section <b>116</b><i>b</i>, so as to fix the position of the adapter portion <b>110</b> relative to the base portion <b>210</b>.</p>
+<p id="p-0040" num="0039">While the subject invention has been shown and described with reference to preferred embodiments, those skilled in the art will readily appreciate that various changes and/or modifications may be made thereto without departing from the spirit and scope of the subject invention as defined by the appended claims.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. An assembly for mounting an electronic display device to a supporting structure within a cockpit of an aircraft, comprising:
+<claim-text>a) an adapter portion configured for attachment to a rear surface of an electronic display device, the adapter portion having a cylindrical barrel portion extending away from the rear surface of the display device, the barrel portion having a first radially inwardly extending recess corresponding to a landscape position of the display device and a second radially inwardly extending recess corresponding to a portrait position of the display device;</claim-text>
+<claim-text>b) a base portion configured for mounting to a fixed structure in the cockpit of an aircraft, the base portion including an upper surface with a circular reception port formed therein for receiving the barrel portion of the adapter plate; and</claim-text>
+<claim-text>c) a plunger operatively associated with the base portion for selectively engaging the first and second recesses in the barrel portion of the adapter portion to prevent relative rotation of the adapter portion and the base portion.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. An assembly as recited in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the adapter portion includes a mounting plate for securement to the rear surface of the display device, and the barrel portion extends from the mounting plate.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. An assembly as recited in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the barrel portion includes a plurality of radially outwardly extending circumferentially disposed keys, and the reception port includes a plurality of radially outwardly extending circumferentially disposed keyways for receiving the plurality of keys on the barrel portion of the adapter portion.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. An assembly as recited in <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein the plurality of keys and corresponding keyways are positioned so that an initial engagement position of the barrel portion within the reception port corresponds to the display device having an orientation that is 30&#xb0; degrees clockwise from the landscape position of the display and 120&#xb0; clockwise from the portrait position of the display device.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. An assembly as recited in <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein the barrel portion includes a circumferential slot located axially above the plurality of keys for engaging an annular retaining lip surrounding the reception bore in the upper surface of the base portion.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. An assembly as recited in <claim-ref idref="CLM-00005">claim 5</claim-ref>, wherein the adapter portion includes a plurality of spring loaded plungers mounted to bear against a bottom plate of the base portion to provide pressure against the retaining lip to add resistance against rotation.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. An assembly as recited in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a locking nut for selectively securing the plunger in an engagement position.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. An assembly for mounting an electronic display device to a supporting structure within a cockpit of an aircraft, comprising:
+<claim-text>a) an adapter portion configured for attachment to a rear surface of an electronic display device, the adapter portion having a cylindrical barrel portion extending away from the rear surface of the display device, the barrel portion having a plurality of circumferentially disposed radially outwardly extending keys;</claim-text>
+<claim-text>b) a base portion configured to be mounted to a fixed structure in the cockpit of an aircraft, the base portion including an upper surface with a circular reception port formed therein for receiving the barrel portion of the adapter portion, the reception port having a plurality of radially outwardly extending circumferentially disposed keyways formed therein for receiving the plurality of keys on the barrel portion of the adapter portion; and</claim-text>
+<claim-text>c) a plunger operatively associated with the base portion for selectively engaging the barrel portion of the adapter portion to prevent relative movement of the adapter portion and the base portion.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. An assembly as recited in <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the adapter portion includes a mounting plate for securement to the rear surface of the display device, and the barrel portion extends from the mounting plate.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. An assembly as recited in <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the barrel portion includes a first radially inwardly extending recess corresponding to a landscape position of the display device and a second radially inwardly extending recess corresponding to a portrait position of the display device.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. An assembly as recited in <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the plurality of keys and corresponding keyways are positioned so that an initial engagement position of the barrel portion within the reception port corresponds to the display device having an orientation that is 30&#xb0; degrees clockwise from the landscape position of the display and 120&#xb0; clockwise from the portrait position of the display device.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. An assembly as recited in <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the barrel portion includes a circumferential slot located axially above the plurality of keys for engaging an annular retaining lip surrounding the reception bore in the upper surface of the base portion.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. An assembly as recited in <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the adapter portion includes a plurality of spring loaded plungers mounted to bear against a bottom plate of the base portion to provide pressure against the retaining lip to add resistance against rotation.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. An assembly as recited in <claim-ref idref="CLM-00008">claim 8</claim-ref>, further comprising a locking nut for selectively securing the plunger in an engagement position.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. An assembly for mounting an electronic display device to a supporting structure within a cockpit of an aircraft, comprising:
+<claim-text>a) an adapter portion configured for attachment to a rear surface of an electronic display device, the adapter portion having a cylindrical barrel portion extending away from the rear surface of the display device, the barrel portion having a plurality of circumferentially disposed radially outwardly extending keys, a first radially inwardly extending recess corresponding to a landscape position of the display device and a second radially inwardly extending recess corresponding to a portrait position of the display device;</claim-text>
+<claim-text>b) a base portion configured to be mounted to a fixed structure in the cockpit of an aircraft, the base portion including an upper surface with a circular reception port formed therein for receiving the barrel portion of the adapter portion, the reception port having a plurality of radially outwardly extending circumferentially disposed keyways formed therein for receiving the plurality of keys on the barrel portion of the adapter portion; and</claim-text>
+<claim-text>c) a plunger operatively associated with the base portion for selectively engaging the first and second recesses in the barrel portion of the adapter plate to prevent relative rotation of the adapter plate and the base portion.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. An assembly as recited in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the adapter portion includes a mounting plate for securement to the rear surface of the display device, and the barrel portion extends from the mounting plate.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. An assembly as recited in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the barrel portion includes three circumferentially disposed keys thereon, and the reception port has three corresponding keyways formed therein.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. An assembly as recited in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the three keys and three keyways are positioned so that an initial engagement position of the barrel portion within the reception port corresponds to the display device having an orientation that is 30&#xb0; degrees clockwise from the landscape position of the display and 120&#xb0; clockwise from the portrait position of the display device.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. An assembly as recited in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the barrel portion includes a circumferential slot located axially above the three keys for engaging an annular retaining lip surrounding the reception bore in the upper surface of the base portion.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. An assembly as recited in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the adapter portion includes a plurality of spring loaded plungers mounted to bear against a bottom plate of the base portion to provide pressure against the retaining lip to add resistance against rotation. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979026-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979026</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13909377</doc-number>
+<date>20130604</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>37</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>D</subclass>
+<main-group>11</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>01</class>
+<subclass>D</subclass>
+<main-group>9</main-group>
+<subgroup>04</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>01</class>
+<subclass>D</subclass>
+<main-group>9</main-group>
+<subgroup>04</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>2441185</main-classification>
+<further-classification>415204</further-classification>
+<further-classification>415206</further-classification>
+</classification-national>
+<invention-title id="d2e53">Air compressor backing plate</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3644055</doc-number>
+<kind>A</kind>
+<name>Davis</name>
+<date>19720200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>3808833</doc-number>
+<kind>A</kind>
+<name>Allen et al.</name>
+<date>19740500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 62467</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4801250</doc-number>
+<kind>A</kind>
+<name>Lammers</name>
+<date>19890100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>417265</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5020973</doc-number>
+<kind>A</kind>
+<name>Lammers</name>
+<date>19910600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>417243</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>7125221</doc-number>
+<kind>B2</kind>
+<name>Dorsch et al.</name>
+<date>20061000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>4151211</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>7563074</doc-number>
+<kind>B2</kind>
+<name>Xu</name>
+<date>20090700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>416185</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>7871243</doc-number>
+<kind>B2</kind>
+<name>Chen et al.</name>
+<date>20110100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>4151491</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>8231342</doc-number>
+<kind>B2</kind>
+<name>Lacey et al.</name>
+<date>20120700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>4151981</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>2002/0119044</doc-number>
+<kind>A1</kind>
+<name>O'Connor et al.</name>
+<date>20020800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415204</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>2002/0146319</doc-number>
+<kind>A1</kind>
+<name>Dorsch et al.</name>
+<date>20021000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415206</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>2005/0196272</doc-number>
+<kind>A1</kind>
+<name>Nikpour</name>
+<date>20050900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415206</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>2006/0059927</doc-number>
+<kind>A1</kind>
+<name>Zywiak et al.</name>
+<date>20060300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 62172</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>2006/0251808</doc-number>
+<kind>A1</kind>
+<name>Kamo et al.</name>
+<date>20061100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>427230</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>2008/0232959</doc-number>
+<kind>A1</kind>
+<name>Nikpour</name>
+<date>20080900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415206</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>2008/0279682</doc-number>
+<kind>A1</kind>
+<name>Wydra</name>
+<date>20081100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415206</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>2010/0322762</doc-number>
+<kind>A1</kind>
+<name>Shirahama et al.</name>
+<date>20101200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>415204</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>WO</country>
+<doc-number>2005035993</doc-number>
+<kind>A1</kind>
+<date>20050400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00018">
+<othercit>European Search Report for Application No. 14170804.0-1607, Mailed on Sep. 26, 2014, 7 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>11</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>2441185</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>2</number-of-drawing-sheets>
+<number-of-figures>5</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140356124</doc-number>
+<kind>A1</kind>
+<date>20141204</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<orgname>Hamilton Sundstrand Corporation</orgname>
+<address>
+<city>Windsor Locks</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Dorman</last-name>
+<first-name>David A.</first-name>
+<address>
+<city>Feeding Hills</city>
+<state>MA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Hipsky</last-name>
+<first-name>Harold W.</first-name>
+<address>
+<city>Willington</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Wierzbowski</last-name>
+<first-name>Peter A.</first-name>
+<address>
+<city>Old Saybrook</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="004" designation="us-only">
+<addressbook>
+<last-name>Chrabascz</last-name>
+<first-name>Eric</first-name>
+<address>
+<city>Longmeadow</city>
+<state>MA</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="005" designation="us-only">
+<addressbook>
+<last-name>Cabello</last-name>
+<first-name>Brian</first-name>
+<address>
+<city>Windsor</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Cantor Colburn LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Hamilton Sundstrandt Corporation</orgname>
+<role>02</role>
+<address>
+<city>Windsor Locks</city>
+<state>CT</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Ellis</last-name>
+<first-name>Christopher P</first-name>
+<department>3644</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Badawi</last-name>
+<first-name>Medhat</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A compressor for pressurizing a flow of air within an aircraft including an inlet providing the flow of air to the compressor. An outlet provides the flow of air, after pressurization by the compressor, to a chamber of the aircraft. A diffuser assembly is disposed between the inlet and the outlet. The diffuser assembly includes one or more vanes at least partially impeding the flow of air through the diffuser assembly. A backing plate is included having a surface adjacent to the one or more vanes. The surface includes a relief feature that enables air to bypass the one or more vanes. The relief feature has an axial depth of about 0.5% to 2.5% of a width of a flow path through the diffuser assembly or of about 0.5% to 5% of a thickness of a flange of the backing plate. A method of operating a compressor is also included.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="194.99mm" wi="175.01mm" file="US08979026-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="272.29mm" wi="205.32mm" file="US08979026-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="240.62mm" wi="172.55mm" file="US08979026-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">The subject matter disclosed herein relates to air compressors and, in particular, to a backing plate for a cabin air compressor in an aircraft.</p>
+<p id="p-0003" num="0002">Current commercial aircraft are routinely equipped with a variety of systems for controlling the temperature, pressure, and other parameters and conditions within the aircraft. For example, an environmental control system (ECS) of the aircraft may include an air compressor, e.g., a cabin air compressor, in order to maintain desired cabin pressure. An air compressor or other component may experience degradation in effectiveness, efficiency, lifespan, or other operating characteristics if operated outside of a preferred range of operating conditions such as may occur in aircraft that are subjected to a wide variety of conditions (e.g., vastly different pressures and temperatures at ground level and cruising altitude).</p>
+<heading id="h-0002" level="1">SUMMARY</heading>
+<p id="p-0004" num="0003">According to one embodiment, a compressor for pressurizing a flow of air within an aircraft is disclosed. The compressor includes an inlet providing the flow of air to the compressor. An outlet provides the flow of air, after pressurization by the compressor, to a chamber of the aircraft. A diffuser assembly is disposed between the inlet and the outlet. The diffuser assembly includes one or more vanes at least partially impeding the flow of air through the diffuser assembly. A backing plate is included having a surface adjacent to the one or more vanes. The surface includes a relief feature that enables air to bypass the one or more vanes.</p>
+<p id="p-0005" num="0004">According to another embodiment, a method of operating a compressor in an aircraft is disclosed. The method includes pressurizing air with the compressor as the air travels from an inlet to an outlet and through a diffuser assembly disposed between the inlet and the outlet. Pressurized air is provided to a chamber of the aircraft via the outlet. A portion of air bypasses the one or more vanes of the diffuser assembly via a relief feature formed in a surface of a backing plate of the diffuser assembly adjacent to the one or more vanes.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0006" num="0005">The subject matter, which is regarded as the invention, is particularly pointed out and distinctly claimed in the claims at the conclusion of the specification. The foregoing and other features, and advantages of the invention are apparent from the following detailed description taken in conjunction with the accompanying drawings in which:</p>
+<p id="p-0007" num="0006"><figref idref="DRAWINGS">FIG. 1</figref> schematically illustrates an aircraft having an environmental control system;</p>
+<p id="p-0008" num="0007"><figref idref="DRAWINGS">FIG. 2</figref> is a cross-sectional view of an air compressor of the environmental control system of <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 3</figref> is a cross-sectional view of a backing plate of the air compressor of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 4</figref> is a perspective view of a surface of the backing plate of <figref idref="DRAWINGS">FIG. 3</figref> having a relief feature formed therein; and</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 5</figref> is an enlarged view of the area of the backing plate encircled in <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE INVENTION</heading>
+<p id="p-0012" num="0011">A detailed description of one or more embodiments of the disclosed apparatus and method are presented herein with reference to the Figures by way of exemplification and not limitation.</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 1</figref> schematically illustrates an aircraft <b>10</b>. The aircraft <b>10</b> has various chambers, including a cabin <b>12</b>, in which conditions related to the environment of the chamber, such as temperature, pressure, etc. are controlled. Other chambers may include or be defined by a galley, cargo area, etc. In the illustrated embodiment, an ECS <b>14</b> is included to control the environment (e.g., temperature, pressure, etc.) of the cabin <b>12</b> and/or other chambers of the aircraft. The ECS <b>14</b> can be arranged to receive, monitor, and/or condition ram air, ambient outside air, air recycled from the cabin <b>12</b> or other chambers of the aircraft <b>10</b>, bleed air from turbines or other components of the aircraft <b>10</b>, etc., or a combination thereof. In the illustrated embodiment, the ECS <b>14</b> includes an air compressor <b>16</b> for assisting in the maintenance of a desired air pressure within the cabin <b>12</b>, i.e., cabin pressure. In this way, the air compressor <b>16</b> may be referred to as a cabin air compressor (CAC), although it is to be understood that other compressors may benefit from the embodiments disclosed herein.</p>
+<p id="p-0014" num="0013">The air compressor <b>16</b> is shown in more detail in <figref idref="DRAWINGS">FIG. 2</figref>. The compressor <b>16</b> includes a rotor or impeller <b>18</b> that is driven by a motor <b>20</b>. The impeller <b>18</b> includes one or more blades <b>22</b> for directing a flow of air through the compressor <b>16</b> while the impeller <b>18</b> is rotated by the motor <b>20</b>. The flow of air is generally represented by arrows in <figref idref="DRAWINGS">FIG. 2</figref> designated with the numeral <b>24</b>. It is noted that the arrows <b>24</b> are only indicated on one half of the compressor <b>16</b> for better clarity of the components of the compressor <b>16</b>, but that the flow of air occurs as indicated about the entire circumference of the impeller <b>18</b>.</p>
+<p id="p-0015" num="0014">The impeller <b>18</b> and the motor <b>20</b> are contained within a housing <b>25</b>, which may be constructed from multiple housing portions secured to one another. The housing <b>25</b> has an inlet <b>26</b> for providing air to the compressor <b>16</b>. Air drawn through the inlet <b>26</b> is pumped radially outwardly to an outlet <b>28</b> by the blades <b>22</b>, as indicated by the arrows <b>24</b>. Before reaching the outlet <b>28</b>, the air is passed through a diffuser assembly <b>30</b>, as also indicated.</p>
+<p id="p-0016" num="0015">The diffuser assembly <b>30</b> includes a backing plate <b>32</b> supported by the housing <b>25</b>, e.g., via a mounting plate <b>34</b>. A shroud <b>36</b> is supported by the housing <b>25</b> on the side of the backing plate <b>32</b> opposite to the mounting plate <b>34</b>. The flow of air as indicated by the arrows <b>24</b> is directed by the impeller <b>18</b> through the space between the backing plate <b>32</b> and the shroud <b>36</b>. A plurality of vanes <b>38</b> are retained in this space between the backing plate <b>32</b> and the shroud <b>36</b> in order to impede the flow of air as it passes through the compressor <b>16</b>. The vanes <b>38</b> can be arranged to exhibit some degree of movement relative to the backing plate <b>32</b> in order to vary a flow area through the diffuser assembly <b>30</b>. In the illustrated embodiment, the vanes <b>38</b> are arranged to oscillate or pivot about a set of pins, bolts, or fasteners <b>40</b>, e.g., between an open position in which the flow of air is relatively unimpeded and a partial open position in which the flow of air is relatively impeded and slowed. The fasteners <b>40</b> extend through the backing plate <b>32</b> between the mounting plate <b>34</b> and the shroud <b>36</b>.</p>
+<p id="p-0017" num="0016">The backing plate <b>32</b> is shown in without the other components of the air compressor <b>16</b> in <figref idref="DRAWINGS">FIGS. 3-5</figref>. The backing plate <b>32</b> includes bores or openings <b>42</b>, for receiving corresponding ones of the fasteners <b>40</b>. A surface <b>44</b> of the backing plate <b>32</b> is adjacent to the vanes <b>38</b> and at least partially defines the flow path taken by the flow of air through the diffuser assembly <b>30</b>. A relief feature <b>46</b> is provided in the surface <b>44</b> of the backing plate <b>32</b> that enables a portion of the air in the diffuser assembly <b>30</b> to bypass the vanes <b>38</b>. The bypass provided by the relief feature <b>46</b> is generally represented by an arrow designated with the numeral <b>48</b> in <figref idref="DRAWINGS">FIG. 2</figref>. Similar to the arrows <b>24</b>, only one of the arrows <b>48</b> is illustrated for clarity, but it is to be appreciated that the bypass of air will be provided by the relief feature <b>46</b> for each of the vanes <b>38</b>. It has been found that the bypass of air provided by the relief feature <b>46</b> advantageously improves operation of the compressor <b>16</b>. For example, one benefit obtainable by use of the relief feature <b>46</b> in the surface <b>44</b> of the backing plate <b>32</b> is an increase in the surge margin of the compressor <b>16</b> under some operating conditions of the compressor <b>16</b>. Improved surge margin translates to a corresponding increase in the overall operating range of the compressor <b>16</b>, which may improve the lifespan, efficiency, and/or effectiveness of the compressor <b>16</b> while maintaining a desired pressure within a chamber of the aircraft <b>10</b>, such as the cabin <b>12</b>.</p>
+<p id="p-0018" num="0017">The relief feature <b>46</b> is created in one embodiment by machining or cutting a groove or recess into the surface <b>44</b> of the backing plate <b>32</b>. In one embodiment, the backing plate <b>32</b> is formed with the relief feature <b>46</b>, e.g., via a die or mold. The backing plate <b>32</b> includes a hub portion <b>50</b> and a flange portion <b>52</b>, which may similarly be formed via machining, or via a die or mold, or some other manufacturing process before, during, or after creation of the relief feature <b>46</b>. The backing plate <b>32</b> in embodiments other than that illustrated may also be formed of an essentially constant thickness, e.g., not having both the hub portion <b>50</b> and the flange portion <b>52</b>, or take some other size or shape than that shown.</p>
+<p id="p-0019" num="0018">It is noted that the amount of air bypassing the vanes <b>38</b> via the relief feature <b>46</b> can be relatively small in comparison to the total volumetric flow of air passing through the diffuser assembly <b>30</b> and still advantageously improve the performance of the compressor <b>16</b> as noted above. For example, a set of dimensions for the relief feature <b>46</b> according to one embodiment can be appreciated in view of <figref idref="DRAWINGS">FIG. 5</figref>. In the embodiment of <figref idref="DRAWINGS">FIG. 5</figref>, a diameter D1 defines the radial bounds of the relief feature <b>46</b> with respect to the axis or center of the backing plate <b>32</b>, while a dimension D2 denotes the axial depth of the relief feature <b>46</b>, i.e., the amount that the relief feature <b>46</b> is recessed into the surface <b>44</b>. The relief feature <b>46</b> may be abruptly formed in the surface <b>44</b> or gradually transition via a ramp or chamfer, as indicated along a distance D3.</p>
+<p id="p-0020" num="0019">In one embodiment, the depth D2 is between about 0.5% and 5% of a thickness D4 of the flange portion <b>52</b> of the backing plate <b>32</b>, and more particularly, about 1.5% to 2.5% of the thickness D4. This corresponds to about 0.5% to 2.5%, or more particularly about 0.75% to 1.5%, of a width D5 of the flow path through the diffuser assembly <b>30</b> as shown in <figref idref="DRAWINGS">FIG. 2</figref> and measured axially between the surface <b>44</b> of the backing plate <b>32</b> and the shroud <b>36</b>. In one specific embodiment, the depth D2 is about 0.004 inches (approximately 0.10 mm), the thickness D4 is about 0.2 inches (approximately 5.08 mm), and the width D5 is between about 0.3 inches (approximately 7.62 mm) and 0.5 inches (approximately 12.7 mm). It is also noted that in the illustrated embodiment, the relief feature <b>46</b> is formed entirely within the radial extents of the hub portion <b>50</b>, but in other embodiments the dimension D1 of the relief feature <b>46</b> can be enlarged to extend radially into the flange portion <b>52</b>.</p>
+<p id="p-0021" num="0020">While the invention has been described with reference to an exemplary embodiment or embodiments, it will be understood by those skilled in the art that various changes may be made and equivalents may be substituted for elements thereof without departing from the scope of the invention. In addition, many modifications may be made to adapt a particular situation or material to the teachings of the invention without departing from the essential scope thereof. Therefore, it is intended that the invention not be limited to the particular embodiment disclosed as the best mode contemplated for carrying out this invention, but that the invention will include all embodiments falling within the scope of the claims. Also, in the drawings and the description, there have been disclosed exemplary embodiments of the invention and, although specific terms may have been employed, they are unless otherwise stated used in a generic and descriptive sense only and not for purposes of limitation, the scope of the invention therefore not being so limited. Moreover, the use of the terms first, second, etc. do not denote any order or importance, but rather the terms first, second, etc. are used to distinguish one element from another. Furthermore, the use of the terms a, an, etc. do not denote a limitation of quantity, but rather denote the presence of at least one of the referenced item.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A compressor for pressurizing a flow of air within an aircraft, comprising:
+<claim-text>an inlet providing the flow of air to the compressor;</claim-text>
+<claim-text>an outlet providing the flow of air, after pressurization by the compressor, to a chamber of the aircraft; and</claim-text>
+<claim-text>a diffuser assembly disposed between the inlet and the outlet, the diffuser assembly including:</claim-text>
+<claim-text>one or more vanes at least partially impeding the flow of air through the diffuser assembly; and</claim-text>
+<claim-text>a backing plate having a surface adjacent to the one or more vanes, the surface including a relief feature that enables air to bypass the one or more vanes, wherein the relief feature has an axial depth of about 0.5% to 2.5% of a width of a flow path through the diffuser assembly.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The compressor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the chamber is a cabin of the aircraft and the compressor is a cabin air compressor.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The compressor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the one or more vanes are pivotably mounted with respect to the backing plate.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The compressor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the relief feature is formed as a cut in the surface of the backing plate.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The compressor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the relief feature is formed as a recess in the surface of the backing plate.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The compressor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the relief feature has an axial depth of about 0.5% to 5% of a thickness of a flange of the backing plate.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The compressor of <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the axial depth is about 1.5% to 2.5% of the thickness of the flange.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The compressor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising an impeller for directing the flow of air from the inlet to the outlet through the diffuser assembly.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The compressor of <claim-ref idref="CLM-00008">claim 8</claim-ref>, further comprising a motor for rotating the impeller.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. An environmental control system for an aircraft including a compressor according to <claim-ref idref="CLM-00001">claim 1</claim-ref>.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. A compressor for pressurizing a flow of air within an aircraft, comprising:
+<claim-text>an inlet providing the flow of air to the compressor;</claim-text>
+<claim-text>an outlet providing the flow of air, after pressurization by the compressor, to a chamber of the aircraft; and</claim-text>
+<claim-text>a diffuser assembly disposed between the inlet and the outlet, the diffuser assembly including:</claim-text>
+<claim-text>one or more vanes at least partially impeding the flow of air through the diffuser assembly; and</claim-text>
+<claim-text>a backing plate having a surface adjacent to the one or more vanes, the surface including a relief feature that enables air to bypass the one or more vanes, wherein the relief feature has an axial depth of about 0.5% to 5% of a thickness of a flange of the backing plate. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

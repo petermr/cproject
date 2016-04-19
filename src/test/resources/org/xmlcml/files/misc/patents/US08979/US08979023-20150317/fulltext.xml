@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979023-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979023</doc-number>
+<kind>B1</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14257930</doc-number>
+<date>20140421</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>56</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>32</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>25</main-group>
+<subgroup>32</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>244100A</main-classification>
+<further-classification>244107</further-classification>
+</classification-national>
+<invention-title id="d2e43">Impact protection apparatus</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>5409187</doc-number>
+<kind>A</kind>
+<name>Dunham</name>
+<date>19950400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244149</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>5560568</doc-number>
+<kind>A</kind>
+<name>Schmittle</name>
+<date>19961000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 48</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5836544</doc-number>
+<kind>A</kind>
+<name>Gentile</name>
+<date>19981100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 1717</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5992794</doc-number>
+<kind>A</kind>
+<name>Rotman et al.</name>
+<date>19991100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>6289820</doc-number>
+<kind>B1</kind>
+<name>Anacker et al.</name>
+<date>20010900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>102530</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>6471160</doc-number>
+<kind>B2</kind>
+<name>Grieser</name>
+<date>20021000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244139</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>7875989</doc-number>
+<kind>B2</kind>
+<name>Morris et al.</name>
+<date>20110100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>290 40 B</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>8123162</doc-number>
+<kind>B2</kind>
+<name>Sirkis</name>
+<date>20120200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>8565981</doc-number>
+<kind>B2</kind>
+<name>Filias</name>
+<date>20131000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>701 45</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>8588996</doc-number>
+<kind>B2</kind>
+<name>Hill et al.</name>
+<date>20131100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>701  3</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>2001/0048050</doc-number>
+<kind>A1</kind>
+<name>Grieser</name>
+<date>20011200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>2007/0145193</doc-number>
+<kind>A1</kind>
+<name>Hakki et al.</name>
+<date>20070600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>2010/0206983</doc-number>
+<kind>A1</kind>
+<name>Tho et al.</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>2011/0315806</doc-number>
+<kind>A1</kind>
+<name>Piasecki et al.</name>
+<date>20111200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>2013/0062465</doc-number>
+<kind>A1</kind>
+<name>Hill et al.</name>
+<date>20130300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>2013/0233964</doc-number>
+<kind>A1</kind>
+<name>Woodworth et al.</name>
+<date>20130900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>2014/0032034</doc-number>
+<kind>A1</kind>
+<name>Raptopoulos et al.</name>
+<date>20140100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>CN</country>
+<doc-number>101020505</doc-number>
+<kind>A</kind>
+<date>20070800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>CN</country>
+<doc-number>101495365</doc-number>
+<kind>A</kind>
+<date>20090700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>CN</country>
+<doc-number>101835651</doc-number>
+<kind>A</kind>
+<date>20100900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>CN</country>
+<doc-number>102470921</doc-number>
+<kind>A</kind>
+<date>20120500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>EP</country>
+<doc-number>2112065</doc-number>
+<kind>A2</kind>
+<date>20091000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>JP</country>
+<doc-number>01306397</doc-number>
+<kind>A</kind>
+<date>19891200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>JP</country>
+<doc-number>2009-208674</doc-number>
+<kind>A</kind>
+<date>20090900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>TW</country>
+<doc-number>I242700</doc-number>
+<kind>B</kind>
+<date>20051100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>WO</country>
+<doc-number>WO 93/17894</doc-number>
+<kind>A1</kind>
+<date>19930900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00027">
+<othercit>Bolukbasi, Akif. &#x201c;Active Crash Protection Systems for UAVs&#x201d;, American Helicopter Society Annual Forum 63 Proceedings, Virginia Beach, VA, May 3, 2007.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<nplcit num="00028">
+<othercit>International search report and written opinion dated Dec. 2, 2014 for PCT/CN2014/072653.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00029">
+<othercit>International search report and written opinion dated Sep. 26, 2014 for PCT/CN2014/076419.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>30</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>244100 A</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244107</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244139</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>8</number-of-drawing-sheets>
+<number-of-figures>8</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>PCT/CN2014/072653</doc-number>
+<date>20140227</date>
+</document-id>
+<parent-status>PENDING</parent-status>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>14257930</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>SZ DJI Technology Co., Ltd</orgname>
+<address>
+<city>Shenzhen, Guangdong</city>
+<country>CN</country>
+</address>
+</addressbook>
+<residence>
+<country>CN</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Wang</last-name>
+<first-name>Mingyu</first-name>
+<address>
+<city>Shenzhen</city>
+<country>CN</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Wilson Sonsini Goodrich &#x26; Rosati</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>SZ DJI Technology Co., Ltd</orgname>
+<role>03</role>
+<address>
+<city>Shenzhen</city>
+<country>CN</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>O'Hara</last-name>
+<first-name>Brian M</first-name>
+<department>3644</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Kreiner</last-name>
+<first-name>Michael</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">An impact protection apparatus is provided, comprising a gas container configured to hold a compressed gas and an inflatable member configured to be inflated by the gas and function as an airbag of a movable object, such as an aerial vehicle. A valve controls flow of gas from the container to the inflatable member in response to a signal from a valve controller. The valve and valve controller are powered by an independent power source than one or more other systems of the movable object. A safety mechanism may also be provided that, unless deactivated, prevents inflation of the inflatable member.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="136.57mm" wi="185.59mm" file="US08979023-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="195.50mm" wi="140.46mm" orientation="landscape" file="US08979023-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="192.19mm" wi="168.66mm" orientation="landscape" file="US08979023-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="171.28mm" wi="165.95mm" orientation="landscape" file="US08979023-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="134.20mm" wi="169.08mm" orientation="landscape" file="US08979023-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="171.28mm" wi="156.21mm" orientation="landscape" file="US08979023-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="197.70mm" wi="178.48mm" orientation="landscape" file="US08979023-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="158.07mm" wi="177.55mm" orientation="landscape" file="US08979023-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="177.21mm" wi="170.35mm" orientation="landscape" file="US08979023-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE</heading>
+<p id="p-0002" num="0001">This application is a continuation application of International Application No. PCT/CN2014/072653, filed on Feb. 27, 2014, the content of which is hereby incorporated by reference in its entirety.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">Aerial vehicles such as unmanned aerial vehicles can be used for performing conveyance, delivery, surveillance, reconnaissance, and exploration tasks for military and civilian applications. Such vehicles typically include a propulsion system for remote controlled and/or autonomous movement with the surrounding environment. For example, an aerial vehicle may be propelled through the air via a propulsion system, and may be capable of take-off and landing, flight, and hovering.</p>
+<p id="p-0004" num="0003">When an aerial vehicle malfunctions in mid-air it will fall. This can cause damage to the aerial vehicle, as well as any payloads or passengers.</p>
+<heading id="h-0003" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0005" num="0004">A need exists for improved systems, methods, and devices for protecting movable objects such as aerial vehicles. The present invention provides systems, methods, and devices for airbags that may assist with protecting an aerial vehicle, such as an unmanned aerial vehicle, if the aerial vehicle were to fall during flight. In some embodiments, the systems, methods, and devices described herein provide an airbag that can be inflated using compressed gas. An aerial vehicle control mechanism can control a gas valve that controls whether gas will flow into the airbag, causing it to inflate. The control mechanism may be powered by a power supply that is independent of a power source powering other portions of the aerial vehicle.</p>
+<p id="p-0006" num="0005">An aspect of the invention is directed to an impact protection apparatus for an aerial vehicle, the apparatus comprising: an inflatable member configured to be coupled to the aerial vehicle and inflatable to reduce forces experienced by the aerial vehicle during an impact; a container coupled to the inflatable member, said container comprising compressed gas; and a control mechanism powered by a power source separate from that providing power to the aerial vehicle, wherein the control mechanism is configured to cause the compressed gas to flow from the container into the inflatable member in response to a signal indicative of malfunction of the aerial vehicle.</p>
+<p id="p-0007" num="0006">In some embodiments, the compressed gas is carbon dioxide. The volume of the container may be less than or equal to 0.001 m<sup>3</sup>. In some instances, pressure of the compressed gas when in the container is greater than or equal to 0.2&#xd7;10<sup>6 </sup>Pa.</p>
+<p id="p-0008" num="0007">The power source of the control mechanism may comprise a battery.</p>
+<p id="p-0009" num="0008">In some embodiments, the control mechanism comprises a valve configured to control flow of the compressed gas into the inflatable member. Optionally, the control mechanism comprises an accelerometer configured to detect an acceleration of the aerial vehicle that falls outside a predetermined range and is indicative of the malfunction. The accelerometer may be configured to detect an acceleration of the aerial vehicle indicative of the aerial vehicle being in free fall. The control mechanism may comprise a motion sensor configured to detect a loss of stability of the aerial vehicle that is indicative of the malfunction. The motion sensor may be an inertial measurement unit. The control mechanism may be configured to respond to a loss of power of the aerial vehicle that is indicative of the malfunction.</p>
+<p id="p-0010" num="0009">The signal that is indicative of malfunction of a member may be selected from the group consisting of one or more propulsion units of the aerial vehicle, a flight control system of the aerial vehicle, and a power source providing power to the aerial vehicle. The signal may be generated from the aerial vehicle. Alternatively, the signal may be generated from an external device in communication with the aerial vehicle.</p>
+<p id="p-0011" num="0010">An aerial vehicle may be provided in accordance with another aspect of the invention. The vehicle may comprise: a vehicle body; the impact protection apparatus of claim <b>1</b> coupled to the vehicle body; and one or more propulsion units coupled to the vehicle body and configured to propel the vehicle body.</p>
+<p id="p-0012" num="0011">The aerial vehicle may be an unmanned aerial vehicle. The unmanned aerial vehicle may be a rotorcraft.</p>
+<p id="p-0013" num="0012">The control mechanism of the aerial vehicle may comprise a valve configured to control flow of the compressed gas into the inflatable member. The control mechanism may comprise an accelerometer configured to detect an acceleration of the aerial vehicle that falls outside a predetermined range and is indicative of the malfunction. The control mechanism may be powered by a power source separate from that providing power to the one or more propulsion units of the aerial vehicle. The control mechanism can be powered by a power source separate from that providing power to a flight control system of the aerial vehicle.</p>
+<p id="p-0014" num="0013">Additional aspects of the invention may be directed to a method for protecting an aerial vehicle from an impact, the method comprising: providing an inflatable member coupled to the aerial vehicle; causing, in response to a signal indicative of malfunction of the aerial vehicle and by means of a control mechanism powered independently from the aerial vehicle, a compressed gas to flow into the inflatable member; and effecting inflation of the inflatable member by the flow of the compressed gas to reduce forces experienced by the aerial vehicle during the impact.</p>
+<p id="p-0015" num="0014">The compressed gas may be carbon dioxide.</p>
+<p id="p-0016" num="0015">In some embodiments, the control mechanism may comprise a valve configured to control flow of the compressed gas into the inflatable member. The method may include powering the control mechanism by a power source separate from that providing power to the one or more propulsion units of the aerial vehicle. In some implementations, the method includes powering the control mechanism by a power source separate from that providing power to a flight control system of the aerial vehicle. The control mechanism may comprise an accelerometer configured to detect an acceleration of the aerial vehicle that falls outside a predetermined range and is indicative of the malfunction. The method may further comprise detecting, with aid of the accelerometer, an acceleration of the aerial vehicle indicative of the aerial vehicle being in free fall. The method may also include detecting, using a motion sensor from an inertial measurement unit, a loss of stability of the aerial vehicle that is indicative of the malfunction. The method can include responding, with aid of the control mechanism, to a loss of power of the aerial vehicle that is indicative of the malfunction.</p>
+<p id="p-0017" num="0016">The aerial vehicle may be an unmanned aerial vehicle. The unmanned aerial vehicle can be a rotorcraft in accordance with some implementations.</p>
+<p id="p-0018" num="0017">Furthermore, aspects of the invention may be directed to an impact protection apparatus for an unmanned aerial vehicle. The apparatus may comprise: an inflatable member configured to be coupled to the unmanned aerial vehicle, wherein said inflatable member is inflatable to reduce forces experienced by the unmanned aerial vehicle during an impact; a container coupled to the inflatable member, said containing comprising compressed gas; a control mechanism is configured to cause the compressed gas to flow from the container into the inflatable member, in response to a signal indicative of malfunction of said unmanned aerial vehicle; and a safety mechanism that, unless deactivated, prevents inflation of the inflatable member.</p>
+<p id="p-0019" num="0018">In some instances, the compressed gas is carbon dioxide. The volume of the container can be less than or equal to 0.001 m<sup>3</sup>. A pressure of the compressed gas when in the container may be greater than or equal to 0.2&#xd7;10<sup>6 </sup>Pa.</p>
+<p id="p-0020" num="0019">In some embodiments, the control mechanism comprises a valve configured to control flow of the compressed gas into the inflatable member. The signal may be indicative of malfunction of a member selected from the group consisting of one or more propulsion units of the aerial vehicle, a flight control system of the aerial vehicle, and a power source providing power to the aerial vehicle. The signal may be generated from the aerial vehicle. In other instances, the signal can be generated from an external device in communication with the aerial vehicle.</p>
+<p id="p-0021" num="0020">The safety mechanism may comprise a pin and deactivation of the safety mechanism may comprise removal of the pin. The pin may be configured to be removed by a user prior to operation of the unmanned aerial vehicle. The safety mechanism can be deactivated by a safety signal indicating that the unmanned aerial vehicle is in operation. The safety signal may be provided by a flight control system of the unmanned aerial vehicle.</p>
+<p id="p-0022" num="0021">An unmanned aerial vehicle may be provided in accordance with another aspect of the invention. The vehicle may comprise: a vehicle body; the impact protection apparatus of claim <b>33</b> coupled to the vehicle body; and one or more propulsion units coupled to the vehicle body and configured to propel the vehicle body.</p>
+<p id="p-0023" num="0022">Optionally, the unmanned aerial vehicle can be a rotorcraft.</p>
+<p id="p-0024" num="0023">Also, aspects of the invention may be directed to a method for protecting an unmanned aerial vehicle from an impact, the method comprising: providing an inflatable member coupled to the unmanned aerial vehicle; deactivating a safety mechanism preventing inflation of the inflatable member; causing, in response to a signal indicative of a malfunction of the aerial vehicle, a compressed gas to flow from said container into the inflatable member; and effecting inflation of the inflatable member by the flow of the compressed gas to reduce forces experienced by the unmanned aerial vehicle during the impact.</p>
+<p id="p-0025" num="0024">In some embodiments, the compressed gas is carbon dioxide. The compressed gas may be caused to flow using a valve. The method may include powering the valve by a power source separate from that providing power to the one or more propulsion units of the aerial vehicle. The method may also include powering the valve by a power source separate from that providing power to a flight control system of the aerial vehicle.</p>
+<p id="p-0026" num="0025">The unmanned aerial vehicle may be a rotorcraft.</p>
+<p id="p-0027" num="0026">In some implementations, the safety mechanism comprises a pin and deactivation of the safety mechanism comprises removal of the pin. The method can also include removing the pin by a user prior to operation of the unmanned aerial vehicle. The safety mechanism may be deactivated by a safety signal indicating that the unmanned aerial vehicle is in operation. The method can further comprise receiving the safety signal from a flight control system of the unmanned aerial vehicle.</p>
+<p id="p-0028" num="0027">It shall be understood that different aspects of the invention can be appreciated individually, collectively, or in combination with each other. Various aspects of the invention described herein may be applied to any of the particular applications set forth below or for any other types of movable objects. Any description herein of an aerial vehicle may apply to and be used for any movable object, such as any vehicle. Additionally, the systems, devices, and methods disclosed herein in the context of aerial motion (e.g., flight) may also be applied in the context of other types of motion, such as movement on the ground or on water, underwater motion, or motion in space. Furthermore, any description herein of an airbag assembly may apply to and be used for any situation where an impact may occur.</p>
+<p id="p-0029" num="0028">Other objects and features of the present invention will become apparent by a review of the specification, claims, and appended figures.</p>
+<heading id="h-0004" level="1">INCORPORATION BY REFERENCE</heading>
+<p id="p-0030" num="0029">All publications, patents, and patent applications mentioned in this specification are herein incorporated by reference to the same extent as if each individual publication, patent, or patent application was specifically and individually indicated to be incorporated by reference.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0005" level="1">BRIEF DESCRIPTION</heading>
+<p id="p-0031" num="0030">The novel features of the invention are set forth with particularity in the appended claims. A better understanding of the features and advantages of the present invention will be obtained by reference to the following detailed description that sets forth illustrative embodiments, in which the principles of the invention are utilized, and the accompanying drawings of which:</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 1</figref> shows an example of an impact protection apparatus for an aerial vehicle in accordance with an embodiment of the invention;</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 2</figref> shows another example of an impact protection apparatus for an aerial vehicle in accordance with an embodiment of the invention;</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 3</figref> shows an example of an impact protection apparatus utilizing a safety mechanism in accordance with an embodiment of the invention;</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 4</figref> shows an example of an unmanned aerial vehicle (UAV) with deployed airbags;</p>
+<p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 5</figref> shows another example of an unmanned aerial vehicle (UAV) with deployed airbags;</p>
+<p id="p-0037" num="0036"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an unmanned aerial vehicle (UAV), in accordance with embodiments of the present invention;</p>
+<p id="p-0038" num="0037"><figref idref="DRAWINGS">FIG. 7</figref> illustrates a movable object including a carrier and a payload, in accordance with embodiments; and</p>
+<p id="p-0039" num="0038"><figref idref="DRAWINGS">FIG. 8</figref> is a schematic illustration by way of block diagram of a system for controlling a movable object, in accordance with embodiments.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0006" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0040" num="0039">The system, devices, and method of the present invention provide improved impact reduction mechanisms for movable objects, such as an aerial vehicle (e.g., an unmanned aerial vehicle (UAV)). In some embodiments, one or more airbags may be provided that may be inflatable to reduce forces on an aerial vehicle during impact. The airbags may be inflated using a compressed gas. Advantageously, inflating airbags using compressed gas is a more cost-effective method than using airbags that inflate using a chemical reaction. The airbag may reduce the forces of impact that may be experienced by the movable object, such as the aerial vehicle.</p>
+<p id="p-0041" num="0040">The aerial vehicle may have one or more compressed gas container mounted thereon. A gas valve may be provided that may control whether the compressed gas flows from the container into the airbag. The gas valve may be controlled using a valve controller. The valve and/or controller may be powered by a power source independent of the rest of the aerial vehicle. This may advantageously permit an airbag to deploy even if the rest of the aerial vehicle has lost power. This may be particularly useful, as an aircraft losing power may be a situation in which an impact is likely to occur.</p>
+<p id="p-0042" num="0041">The valve controller may include one or more sensors or receive data from one or more other sensors or controllers. The valve controller may use this data to determine whether to send a trigger signal to the valve to open the gas flow from the container to the airbag. The sensors may be indicative of conditions such as free fall, unusual acceleration, unusual velocity, unusual orientation proximate surfaces or objects, overheating, power loss, guidance/navigation or communication failure, flight control failure, instructions from an external device such as a remote terminal, or any other conditions. Such conditions may be indicative of a malfunction, in which case it may be desirable to deploy an airbag.</p>
+<p id="p-0043" num="0042">In some embodiments, a safety mechanism may be provided. The safety mechanism may be in place so that the airbag is prevented from deploying unless the safety mechanism is deactivated. This may advantageously prevent the airbag from deploying prematurely. For example, this may prevent an airbag from deploying and potentially injuring a user when a user is carrying a UAV. The safety mechanism may be deactivated manually by a user, or may be deactivated automatically when the aerial vehicle takes flight. In one example, the safety mechanism may be a pin that prevents the deployment of the airbag unless the pin is pulled out.</p>
+<p id="p-0044" num="0043">Various configurations of airbags may be provided. For example, an aerial vehicle may have one or more airbags below and/or above the aerial vehicle. The airbags may be distributed along any portion of the aerial vehicle, such as the aerial vehicle body, propulsion units, arms, control systems, communication interfaces, carrier, payload, passengers, landing gear, or any other portion.</p>
+<p id="p-0045" num="0044"><figref idref="DRAWINGS">FIG. 1</figref> shows an example of an impact protection apparatus <b>100</b> for an aerial vehicle in accordance with an embodiment of the invention. The impact protection apparatus may include a container <b>110</b> configured to enclose compressed gas, a gas valve <b>120</b>, and an inflatable member <b>130</b>. The gas valve may control flow of the gas from the container to the inflatable member. A controller <b>140</b> may be in communication with the gas valve and may control operation of the gas valve.</p>
+<p id="p-0046" num="0045">When an aerial vehicle experiences a malfunction, the inflatable member needs to be rapidly inflated with gas. A compressed gas technique may be used. The gas container <b>110</b> may be configured to contain a compressed gas. In some embodiments, the compressed gas may be carbon dioxide (CO<sub>2</sub>). Other examples of compressed gases that may be used may include nitrogen. However, carbon dioxide may be a preferable gas as it is low cost, safe/not combustible, when becoming gas will not absorb too much heat like some other options. The container may be able to contain a gas that is provided at a high pressure. For example, the gas container may be capable of storing compressed gas that is greater than or equal to about 25 psi, 30 psi, 40 psi, 50 psi, 60 psi, 70 psi, 80 psi, 100 psi, 110 psi, 120 psi, 130 psi, 140 psi, 150 psi, 160 psi, 170 psi, 180 psi, 190 psi, 200 psi, 220 psi, 250 psi, 300 psi, 400 psi, 500 psi, 750 psi, 1000 psi, 2000 psi, 3000 psi, 4000 psi, or 5000 psi. In some embodiments, the gas container may be capable of storing compressed gas having a pressure that does not exceed 70 psi, 80 psi, 100 psi, 110 psi, 120 psi, 130 psi, 140 psi, 150 psi, 160 psi, 170 psi, 180 psi, 190 psi, 200 psi, 220 psi, 250 psi, 300 psi, 350 psi, 400 psi, 500 psi, 750 psi, 1000 psi, 2000 psi, 3000 psi, 4000 psi, 5000 psi, 6000 psi, 7000 psi, or 7500 psi. The gas container may be storing a compressed gas having a maximum pressure that falls between any of the pressure values mentioned herein. In some embodiments, the gas container pressure may fall within 0.2&#xd7;10<sup>6 </sup>Pa and 50&#xd7;10<sup>6 </sup>Pa.</p>
+<p id="p-0047" num="0046">A compressed gas container may be formed from any material known in the art, such as those capable of storing gas at the pressures mentioned above. Some examples of materials may include carbon steel, stainless steel or aluminium alloy. In some instances, plastics or polymers may be used to form the gas container. For example, if the pressure within the container is not too high, even a plastic soda bottle may be sufficient.</p>
+<p id="p-0048" num="0047">Using a compressed gas may advantageously provide a low cost compared to other inflation techniques. For example, inflation techniques using chemical reactions may be costly. However, in some implementations chemical reactions may occur for use during inflation. Alternatively, no chemical reactions occur for use during inflation. Pre-existing compressed gas containers may be utilized or adapted for use with the aerial vehicle. Currently small CO2 canisters are sold, which can be commonly used for filling bicycle tires when bicycle pumps are unavailable. Such canisters can be adapted for use to inflate an airbag. Pre-existing compressed gas canisters or containers may be retrofitted to provide gas for an aerial vehicle airbag.</p>
+<p id="p-0049" num="0048">One or more gas containers <b>110</b> may be provided on an aerial vehicle, such as a UAV. It may be advantageous for the gas containers to be relatively lightweight. For example, a gas container empty of gas may weigh less than or equal to about 3 grams, 5 grams, 7 grams, 10 grams, 15 grams, 20 grams, 30 grams, 35 grams, 40 grams, 50 grams, 60 grams, 70 grams, 100 grams, 150 grams, 200 grams, 250 grams, 300 grams, 400 grams, 500 grams, 700 grams, 1 kg, 1.5 kg, 2 kg, 3 kg, 4 kg 5 kg, 7 kg, or 10 kg. A gas container, when filled with compressed gas may weigh less than or equal to about 10 grams, 15 grams, 20 grams, 30 grams, 35 grams, 40 grams, 50 grams, 60 grams, 70 grams, 100 grams, 150 grams, 200 grams, 250 grams, 300 grams, 400 grams, 500 grams, 700 grams, 1 kg, 1.5 kg, 2 kg, 3 kg, 4 kg 5 kg, 7 kg, 10 kg, 15 kg, 20 kg, or 30 kg.</p>
+<p id="p-0050" num="0049">In some embodiments, it may also be advantageous for a gas container <b>110</b> to be of relatively small volume. For example, the gas container may be suitable sized to be carried by a UAV. In other embodiments, a gas container may be suitably sized to be carried by any type of aerial vehicle. For example, the gas container may have a volume less than or equal to about 0.001 mm<sup>3</sup>, 0.005 mm<sup>3</sup>, 0.01 mm<sup>3</sup>, 0.1 mm<sup>3</sup>, 1 mm<sup>3</sup>, 10 mm<sup>3</sup>, 100 mm<sup>3</sup>, 1 cm<sup>3</sup>, 2 cm<sup>3</sup>, 5 cm<sup>3</sup>, 10 cm<sup>3</sup>, 20 cm<sup>3</sup>, 30 cm<sup>3</sup>, 40 cm<sup>3</sup>, 50 cm<sup>3</sup>, 60 cm<sup>3</sup>, 70 cm<sup>3</sup>, 80 cm<sup>3</sup>, 90 cm<sup>3</sup>, 100 cm<sup>3</sup>, 150 cm<sup>3</sup>, 200 cm<sup>3</sup>, 300 cm<sup>3</sup>, 500 cm<sup>3</sup>, 750 cm<sup>3</sup>, 1000 cm<sup>3</sup>, 2000 cm<sup>3</sup>, 3000 cm<sup>3</sup>, 5000 cm<sup>3</sup>, 7000 cm<sup>3</sup>, 10000 cm<sup>3</sup>, 20000 cm<sup>3</sup>, 50000 cm<sup>3</sup>, or 100000 cm<sup>3</sup>.</p>
+<p id="p-0051" num="0050">Gas from a gas container <b>110</b> may be used to inflate an inflatable member <b>130</b>, which may function as an airbag. When not inflated, the inflatable member may have a deflated configuration. The deflated configuration may be folded, rolled, or bunched in on itself. When inflated, the inflatable member may be fully inflated and stretched under tension. The inflatable member may be formed from a flexible material, such as a fabric, bladder, elastomeric material, or any other material. In some examples, the inflatable member may be formed from a nylon fabric (e.g., nylon 6,6), polyester fabric, or polyvinyl chloride (PVC). The material may be resistant to low temperature since when the compressed gas is released, it may turn from a liquid state to a gas state, which can absorb heat from the surroundings.</p>
+<p id="p-0052" num="0051">When inflated, the inflatable member <b>130</b> may have a volume that is greater than a volume of the gas container <b>110</b>. For example, the inflatable member may have a volume greater than or equal to 1 cm<sup>3</sup>, 2 cm<sup>3</sup>, 5 cm<sup>3</sup>, 10 cm<sup>3</sup>, 20 cm<sup>3</sup>, 30 cm<sup>3</sup>, 40 cm<sup>3</sup>, 50 cm<sup>3</sup>, 60 cm<sup>3</sup>, 70 cm<sup>3</sup>, 80 cm<sup>3</sup>, 90 cm<sup>3</sup>, 100 cm<sup>3</sup>, 150 cm<sup>3</sup>, 200 cm<sup>3</sup>, 300 cm<sup>3</sup>, 500 cm<sup>3</sup>, 750 cm<sup>3</sup>, 1000 cm<sup>3</sup>, 2000 cm<sup>3</sup>, 3000 cm<sup>3</sup>, 5000 cm<sup>3</sup>, 7000 cm<sup>3</sup>, 10000 cm<sup>3</sup>, 20000 cm<sup>3</sup>, 50000 cm<sup>3</sup>, or 100000 cm<sup>3</sup>. The inflatable member may have a volume less than or equal to 20 cm<sup>3</sup>, 30 cm<sup>3</sup>, 40 cm<sup>3</sup>, 50 cm<sup>3</sup>, 60 cm<sup>3</sup>, 70 cm<sup>3</sup>, 80 cm<sup>3</sup>, 90 cm<sup>3</sup>, 100 cm<sup>3</sup>, 150 cm<sup>3</sup>, 200 cm<sup>3</sup>, 300 cm<sup>3</sup>, 500 cm<sup>3</sup>, 750 cm<sup>3</sup>, 1000 cm<sup>3</sup>, 2000 cm<sup>3</sup>, 3000 cm<sup>3</sup>, 5000 cm<sup>3</sup>, 7000 cm<sup>3</sup>, 10000 cm<sup>3</sup>, 20000 cm<sup>3</sup>, 50000 cm<sup>3</sup>, 100000 cm<sup>3</sup>, 200000 cm<sup>3</sup>, 500000 cm<sup>3</sup>, 1 m<sup>3</sup>, 1.5 m<sup>3</sup>, 2 m<sup>3</sup>, 5 m<sup>3</sup>, or 10 m<sup>3</sup>.</p>
+<p id="p-0053" num="0052">An inflatable member may take any shape. In some instances, the inflatable member may be substantially spherical, ellipsoidal, cylindrical, prismatic, torus-shaped, tear-drop shaped, be a flattened sphere or ellipse or other polygon, bowl-shaped, or have any other shape when inflated. In some instances, multiple inflatable members may be provided on an aerial vehicle. The inflatable members may all have the same shape and/or size, or may have different shapes and/or size.</p>
+<p id="p-0054" num="0053">The inflatable member may be coupled to an aerial vehicle, such as a UAV. The inflatable member may be inflated to reduce forces experienced by the aerial vehicle or a load of the aerial vehicle during impact. In some instances, the forces may be reduced so that no more than 5%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, or 90% of the force is transmitted compared to not having the inflatable member.</p>
+<p id="p-0055" num="0054">The inflatable member <b>130</b> may be connected to the gas container <b>110</b> via a channel, pipe, passage, opening, or other connection. A gas valve <b>120</b> may be provided between the inflatable member and the gas container. The gas valve may be positioned along the connector, such as the channel, pipe, passage, or opening. The gas valve may control flow of gas between the gas container and the inflatable member. In some instances, the gas valve may function as a gating mechanism for the flow of gas from the gas container to the inflatable member. The gas valve may have an open position that permits gas to flow between the gas container and the inflatable member. When the gas valve is in the open position, fluid communication may be provided between the interior of the gas container and interior of the inflatable member. The gas valve may have a closed position that may prevent gas from flowing between the gas container and the inflatable member. When the gas valve is in the closed position, fluid communication is not provided between the interior of the gas container and the interior of the inflatable member.</p>
+<p id="p-0056" num="0055">In some instances, the gas valve <b>120</b> may have a binary open and closed position. Alternatively, the gas valve may be proportional valves that may control the flow rate of the gas that flows between the gas container and the inflatable member. For example, a proportional valve may have a wide open configuration that may permit a greater rate of flow than a partially open configuration that may permit a lesser rate of flow. Optionally, regulating, throttling, metering or needle valves may be used. Return or non-return valves may be used. A valve may have any number of ports. For example, a two-port valve may be used. Alternatively, a three-port, four-port or other type of valve may be used in alternative configurations. Any description herein of valves may apply to any other type of flow control mechanism. The flow control mechanisms may be any type of binary flow control mechanism (e.g., containing only an open and closed position) or variable flow control mechanism (e.g., which may include degrees of open and closed positions).</p>
+<p id="p-0057" num="0056">Prior to inflation of the inflatable member <b>130</b>, the gas valve <b>120</b> may be closed. The gas container <b>110</b> may contain the compressed gas therein, which may be prevented from flowing to the inflatable member by the closed gas valve. Thus, the pressure within the gas container may be higher than the pressure within the deflated inflatable member. A signal may be provided to a gas valve that may cause the gas valve to open. In some instances, signals to open the gas valve may be provided in response to a detected malfunction of the aerial vehicle. The signals may be generated in response to conditions of the aircraft that may be indicative that an impact may be imminent or likely. When the gas valve is opened, the compressed gas may flow from the gas container to the inflatable member, inflating the inflatable member. The gas may flow until the pressure within the gas container and the inflatable member is relatively equalized. The inflatable member may be rapidly inflated using the compressed gas. In some instances, the inflatable member may be fully inflated within 0.01 seconds, 0.05 seconds, 0.1 seconds, 0.2 seconds, 0.3 seconds, 0.4 seconds, 0.5 seconds, 0.6 seconds, 0.7 seconds, 0.8 seconds, 0.9 seconds, 1 second, 1.2 seconds, 1.5 seconds, 2 seconds, 3 seconds, or 5 seconds. In some embodiments, once the inflatable member has inflated, it may remain fully inflated. Alternatively, it may deflate over time.</p>
+<p id="p-0058" num="0057">A controller <b>140</b> may be provided that may control the gas valve <b>120</b>, the gas valve controlling whether the gas will flow into the inflatable member <b>130</b> and therefore whether the inflatable member will inflate. The controller may generate a signal that may be provided to the gas valve to indicate whether to open or close the gas valve, or optionally the degree to which the gas valve may be opened. The controller may be in communication with an aircraft control mechanism that may control other functions of the aerial vehicle, such as propulsion, guidance, sensors, or communications. Alternatively, the controller that provides the signal the gas valve may be the aircraft control mechanism itself. The controller may be on-board the aircraft. Alternatively, the controller may be a device or part of a device external to the aircraft. The controller may include a processor that may perform one or more steps in accordance with non-transitory computer readable media that may define operation of the aerial vehicle. The processor may determine, based on data, whether to send the signal to the gas valve, or the type of signal to be sent. The processor may make this determination in accordance with calculations performed on the data or a subset of the data. The controller may have one or more memory units that may include non-transitory computer readable media that may comprise code, logic, or instructions for performing the one or more steps. The processor may generate a signal indicative of a malfunction of the aircraft, which may be used to open a gas valve. Alternatively, the controller may receive a signal indicative of the malfunction. The signal may be generated on-board the aerial vehicle or may be generated from an external device in communication with the aerial vehicle.</p>
+<p id="p-0059" num="0058">In one example, the controller may receive data from one or more sensors, or from another aircraft controller. Based on the data received by the controller, the controller, with aid of a processor, may generate a signal that it may send a signal to a gas valve. In some instances, the signal may cause a gas valve to open from a closed state. The signal may or may not dictate the degree to which the gas valve is opened. In some instances, the signal may cause a gas valve to close from an open state. In some embodiments, a default setting may be for a gas valve to be closed during operation of the aerial vehicle. The gas valve may be opened in the event of a detected malfunction or other type of specified event. Once the gas valve has opened, it may remain opened as the inflatable member may have already been inflated.</p>
+<p id="p-0060" num="0059"><figref idref="DRAWINGS">FIG. 2</figref> shows another example of an impact protection apparatus <b>200</b> for an aerial vehicle in accordance with an embodiment of the invention. The impact protection apparatus may include a gas container <b>210</b> configured to enclose a pressurized gas, a gas valve <b>220</b>, and an inflatable member <b>230</b>. The gas valve may control flow of the gas from the container to the inflatable member. A valve controller <b>240</b> may be in communication with the gas valve and may control operation of the gas valve by a trigger signal <b>245</b> that may be sent to the gas valve. A valve controller power supply <b>250</b> may be provided and configured to provide power to the valve controller. The valve controller may communicate with an aircraft flight controller <b>260</b>.</p>
+<p id="p-0061" num="0060">The gas container <b>210</b> may contain a pressurized gas. Any number of gas containers may be provided. The gas containers may be fluidically connected to one another. One or more gas containers may be controlled by a single valve <b>220</b>. Alternatively, multiple valves may be provided. Causing a valve to open may cause gas to flow from the one or more gas containers into the inflatable member <b>230</b> which may function as an airbag for an aerial vehicle. In some instances, a single valve may control flow of gas to the inflatable member. Alternatively, multiple valves may be provided that may control flow of gas to the inflatable member. Optionally, each of the multiple valves may be connected to one or more different gas containers.</p>
+<p id="p-0062" num="0061">A valve controller <b>240</b> may be in communication with the gas valve <b>220</b> and may control operation of the gas valve by a trigger signal <b>245</b>. The valve controller may send a signal to the gas valve to open from a closed state, thereby permitting flow of gas from the gas container <b>210</b> to the inflatable member <b>230</b>. The valve controller may communicate with and control a single valve. Alternatively, the valve controller may communicate with and control multiple valves. The multiple valves may control flow of gas to a single inflatable member or multiple inflatable members. In some embodiments, a flow control mechanism may be provided that may control flow of gas from one or more containers to one or more inflatable members. The flow control mechanism may include one or more gas valves and one or more valve controllers. The trigger signal may be indicative of a malfunction of the aerial vehicle. Any description herein of a malfunction of the aerial vehicle may include or be applied to any state of the aerial vehicle in which a likelihood of impact may be increased or imminent. Any description herein of a malfunction of an aerial vehicle may be indicative of a state in which case it may be desirable to deploy one or more airbags.</p>
+<p id="p-0063" num="0062">The valve controller <b>240</b> may have a processor that may receive data from one or more sensors or one or more other controllers and generate a trigger signal <b>245</b> that may be sent to a valve <b>220</b>. In some embodiments, one or more sensors may communicate directly with the valve controller. Alternatively, one or more sensors may communicate with an aircraft flight controller <b>260</b>, which may communicate with the valve controller. In some embodiments, the same sensors may communicate directly with both the valve controller and the aircraft flight controller. The information from these same sensors may be useful for aircraft flight control and for airbag deployment. In some instances an aircraft flight controller may be a master controller that may control one or more multiple functions of the aircraft. Alternatively, the aircraft flight controller may communicate with the master controller. Any description herein of the aircraft flight controller may apply to a master controller and vice versa.</p>
+<p id="p-0064" num="0063">In one example, a valve controller <b>240</b> may have one or more on-board accelerometers. The valve controller may have other position detecting sensors, such as locators (e.g., GPS) or orientation sensors along one, two, or three different axes. The valve controller may have one or more other motion detecting sensors such as velocity detectors (e.g., for linear movement along one, two, or three axes, or angular rotation about one, two, or three axes), or acceleration detectors (e.g., for linear movement along one, two, or three axes, or angular rotation about one, two, or three axes). Alternatively, such sensors may be part of the aircraft flight controller <b>260</b> or may be in communication with both the valve controller and the aircraft flight controller. In some instances, position or motion detecting sensors may be used for the valve controller and aircraft flight controller.</p>
+<p id="p-0065" num="0064">An aircraft may include an inertial measurement unit (IMU). An IMU can include one or more accelerometers, one or more gyroscopes, one or more magnetometers, or suitable combinations thereof. For example, the IMU can include up to three orthogonal accelerometers to measure linear acceleration of the movable object along up to three axes of translation, and up to three orthogonal gyroscopes to measure the angular acceleration about up to three axes of rotation. The IMU can be rigidly coupled to the aerial vehicle such that the motion of the aerial vehicle corresponds to motion of the IMU. Alternatively the IMU can be permitted to move relative to the aerial vehicle with respect to up to six degrees of freedom. The IMU can be directly mounted onto the aerial vehicle, or coupled to a support structure mounted onto the aerial vehicle. The IMU may be provided exterior to or within a housing of the aerial vehicle. The IMU may be permanently or removably attached to the aerial vehicle. The IMU can provide a signal indicative of the motion of the aerial vehicle, such as a position, orientation, velocity, and/or acceleration of the aerial vehicle (e.g., with respect to one, two, or three axes of translation, and/or one, two, or three axes of rotation). For example, the IMU can sense a signal representative of the acceleration of the aerial vehicle, and the signal can be integrated once to provide velocity information, and twice to provide location and/or orientation information. The IMU may provide a signal to a valve controller and/or an aircraft flight controller.</p>
+<p id="p-0066" num="0065">Additional sensors may be provided on an aerial vehicle. For example, one or more sensors may be provided that may measure operation of one or more motors or other actuators, motor drives, rotors. For example, the sensors may detect the speed at which a rotor of an aerial vehicle is turning. The rotor may be part of a propulsion system of the aerial vehicle. The rotor may have one or more rotor blades may turn to generate lift for the aerial vehicle. In some instances, temperature sensors may be provided. Temperature sensors may be able to detect overheating of one or more component of the aerial vehicle. Power level sensors may also be provided. Power level sensors may detect a state of charge of a power supply, such as a battery or battery pack that may power the aerial vehicle. For example, if a power level sensor indicates that the aerial vehicle battery is running out of power, this may be indicative that the motor and flight control are running out of power. If the aerial vehicle battery has run out of power, this may indicate that the propulsion systems have run out of power and/or that the aircraft flight controller or master controller may be out of power.</p>
+<p id="p-0067" num="0066">Information from sensors may be analyzed to determine whether the aerial vehicle is in a state in which an airbag must be deployed. In one example, the state may be when a malfunction has occurred with the aerial vehicle. This may include conditions where the aerial vehicle exhibits a location or motion indicative of a malfunction (e.g., freefall, unusual acceleration, impact, proximity to a surface while traveling at a high speed, unusual orientation), when overheating is detected, when a short circuit or fire is detected, when a guidance or navigation system stops operating, when communication with an external device is lost, when a power supply is very low, when power to one or more components of the aerial vehicle is lost. For example, when the IMU data is abnormal, when there are issues with multiple motors, motor drives, or rotors, such that the aircraft cannot be stabilized, or when the aircraft impacts a building, a potential impact state may be determined where it may be desirable to inflate the airbag. A valve controller <b>240</b> may then trigger the valve <b>220</b> to be opened, the compressed gas will enter the deflated airbag <b>230</b> and inflate it.</p>
+<p id="p-0068" num="0067">One or more alert conditions may be provided which may contribute to detecting a potential impact state in which an airbag must be deployed. In some instances a single alert condition may be sufficient to trigger inflation of the airbag. Alternatively, certain combinations of alert conditions may be needed to trigger inflation of the airbag.</p>
+<p id="p-0069" num="0068">In one example, an alert condition may be provided when one or more sensors (e.g., accelerometers) of the aerial vehicle, such as a UAV, detect that the aerial vehicle is in free fall. The acceleration of the aerial vehicle may be reflective that the aerial vehicle is falling with an acceleration equal to that of gravity. In some instances, an alert condition may be provided when an acceleration of the aircraft is greater than an acceleration that the aircraft can produce. The alert condition may be triggered when this greater acceleration is detected downwards in the direction of gravity, or in any other direction. It may be desirable to trigger inflation of the airbag when the aerial vehicle is in free fall or moving with an acceleration that exceeds a predetermined threshold.</p>
+<p id="p-0070" num="0069">In another example, an alert condition may occur when the aircraft is traveling at a velocity that exceeds a predetermined threshold. Optionally, an alert condition may occur when the aircraft is traveling at a velocity that exceeds a predetermined threshold while the aircraft is within a predetermined proximity of a surface that it may impact. For example, if the aerial vehicle is at a low altitude (close to the ground) and is traveling downward at a velocity that exceeds a predetermined threshold, an alert condition may occur. In another example, if the aerial vehicle is close to a surface of a building and is heading toward the surface of the building at a velocity that exceeds a predetermined velocity, an alert condition may be raised. This may suggest that an impact is imminent and it may be desirable to inflate an airbag.</p>
+<p id="p-0071" num="0070">In another case, an alert condition may occur when the orientation of the aerial vehicle changes at a frequency that exceeds a predetermined threshold frequency or in a particular manner. For example, high frequency orientation changes or wobbling may be indicative of instability. The instability may indicate that the aerial vehicle will fall soon and/or that impact is imminent, for which inflation of an airbag may be desirable.</p>
+<p id="p-0072" num="0071">An alert condition may also occur when the orientation of the aerial vehicle is outside a predetermined range. For example, if the aerial vehicle (e.g., a UAV, such as a rotorcraft) is upside down a fall may be imminent and an alert condition may be provided. Similarly, if the aerial vehicle is oriented so that it is more than 90 degrees tilted relative to gravity (e.g., more upside down than right side up), an alert condition may be provided. The orientation of the aerial vehicle may indicate instability, loss of control of the vehicle, or that the aerial vehicle will plummet toward a surface, such as the ground, and may trigger inflation of an airbag.</p>
+<p id="p-0073" num="0072">The detected conditions of motors, motor drives, or rotors of an aerial vehicle may also pertain to the generation of an alert condition. For example, if a motor that is driving a propulsion unit has stopped, an alert condition may be provided. Similarly, if it is detected that a rotor has stopped rotating or is rotating below a predetermined threshold, an alert condition may occur. In some instances, calculations may be performed to determine whether other motors or rotors are compensating for the stopped/slowed motor or rotor. If compensation is not sufficient, the stopping of the motor or rotor may indicate the aerial vehicle will lose propulsion (e.g., lift) or control, and may fall or suffer an impact. This may trigger inflation of airbag.</p>
+<p id="p-0074" num="0073">Additionally an alert condition may be provided when a temperature sensor detects overheating of one or more component of the aerial vehicle. When the sensed temperature exceeds a predetermined threshold temperature, overheating may be indicated. Overheating may be indicative that a portion of the aerial vehicle may stop working, or that safety mechanisms may kick in to shut off the portion of the aerial vehicle. The shut-off of certain portions of the aerial vehicle (e.g., propulsion) may cause the aerial vehicle to fall or suffer an impact. The shut-off of other portions of the aerial vehicle (e.g., navigation/communication) may cause the aerial vehicle to operate blindly or without control, which may also lead to impact or damage to the aerial vehicle. A release of an airbag may be desirable in such situations.</p>
+<p id="p-0075" num="0074">Further alert conditions may occur when a power charge level of a power supply is low. For example, an aerial vehicle may have one or more power supplies, such as batteries or battery packs powering portions of the aerial vehicle. For example, one or more power supplies may power the entire aerial vehicle, or different portions or systems of the aerial vehicle. For example, a single power supply may power the propulsion of the aerial vehicle, the guidance/navigation of the aerial vehicle, a communication interface of the aerial vehicle, a carrier of the aerial vehicle, a payload of the aerial vehicle, a sensing system (e.g., IMU) of the aerial vehicle, and/or any other system of the aerial vehicle. Alternatively, different power supplies may power one or more different portions or systems of the aerial vehicle. When the power supply charge level drops beneath a predetermined threshold, this may indicate that the power will soon be lost to the portion or system powered by the power supply, which will generate an alert condition. For example, when a power supply powering a propulsion system of the aerial vehicle drops beneath a threshold charge value, an alert condition may occur. This may indicate that the propulsion system may not operate properly or will shut down soon. This may lead to the fall or impact of the aerial vehicle, which may cause an airbag to be inflated. In another example, a power supply powering a guidance/navigation system or a communication system of the aerial vehicle may drop beneath a threshold charge value, which may cause an alert condition. This may indicate that the aerial vehicle may operate blindly or without control, which may lead to impact or damage to the aerial vehicle. This may further cause deployment of an airbag.</p>
+<p id="p-0076" num="0075">Similarly, an alert condition may be provided if power is no longer supplied to the aerial vehicle or one or more system of the aerial vehicle. For example, if the propulsion system loses power, the propulsion units may stop working, which may cause the aerial vehicle to fall. In another example, if the guidance/navigation systems or communication systems lose power, this could lead to blind operation or instability of the aerial vehicle, which may raise the likelihood of impact. If certain sensors lose power this may prevent the guidance/navigation from operating properly. Loss of power conditions may case an airbag to be deployed.</p>
+<p id="p-0077" num="0076">A valve controller power supply <b>250</b> may be provided as part of an impact protection apparatus. The valve controller power supply may provide power to a valve controller <b>240</b>. The valve controller power supply may also provide power to a valve <b>220</b>. The valve controller power supply may supply power to a flow control mechanism, which may include one or more valve controllers and one or more valves. The valve controller power supply may be a power supply independent of other power supplies of the aerial vehicle. A flow control mechanism may be capable of functioning to cause inflation of an inflatable member, even if other power supplies of the aerial vehicle no longer function. Even if the rest of the aerial vehicle loses power, a valve controller may detect a condition to send a trigger signal to a valve, and the valve may be able to open in response to the signal, thereby permitting gas to flow into the inflatable member. For example, the valve controller power supply may be a different power supply from the rest of the aerial vehicle. The valve controller power supply may be independent of a propulsion power supply. Thus, even if the propulsion units lose power the valve controller power supply may still supply power to the valve controller and/or valve. Similarly, the valve controller power supply may be independent of an aircraft flight controller or master controller power supply. Thus, even if power is lost to the aircraft flight controller, the valve controller may make the determination whether to provide a trigger signal <b>245</b> to the valve <b>220</b>. The valve controller may provide a trigger signal to the valve when it is detected that power has been lost to the aircraft flight controller or the master controller. The valve controller may power supply may also be independent of a guidance system and/or communication system power supply. Thus, even if the aerial vehicle is no longer operating with functional navigation or guidance controls, or has lost communication with an external device, such as a remote terminal, the valve control power supply may still supply power to the valve controller.</p>
+<p id="p-0078" num="0077">Having a valve controller power supply <b>250</b> that is independent of other power supplies of the aerial vehicle may advantageously permit triggering of an airbag when power is lost to the rest of the aerial vehicle. Power loss to the rest of the aerial vehicle may be one of the conditions in which case inflating an airbag is important. This provides advantages over traditional systems where the master control is powered with the same power supply as the valve controller. In those situations, if the battery runs out of power, the motor and flight control are also out of power. If the master control fails there is no way to transmit a trigger signal to inflate an airbag, which may be at one of the most crucial points. Thus, systems, methods, and devices provided herein advantageously provide a separately powered valve control.</p>
+<p id="p-0079" num="0078">The valve controller power supply may include one or more batteries. The batteries may be primary (e.g., single use) batteries or secondary (e.g., rechargeable) batteries. The state of charge of the valve controller power supply may or may not be monitored. In some instances, the valve controller power supply may be recharged periodically or in response to one or more events. In some instances, the valve controller power supply may be automatically recharged while a motor of the propulsion unit is operating.</p>
+<p id="p-0080" num="0079">In some instances, a single separate valve controller power supply <b>250</b> may be provided dedicated to the valve controller <b>240</b>. Alternatively, multiple valve controller power supplies may be provided, which may function as back-ups to one another. Redundancy of any of the components described herein may be provided.</p>
+<p id="p-0081" num="0080"><figref idref="DRAWINGS">FIG. 3</figref> shows an example of an impact protection apparatus <b>300</b> utilizing a safety mechanism in accordance with an embodiment of the invention. The impact protection apparatus may be provided for an aerial vehicle, such as a UAV. The impact protection apparatus may include a container <b>310</b> configured to enclose a fluid, a flow control valve <b>320</b>, and an inflatable member <b>330</b>. The gas valve may control flow of the gas from the container to the inflatable member. A valve controller <b>340</b> may be in communication with the gas valve and may control operation of the gas valve by a trigger signal <b>345</b> that may be sent to the gas valve. A valve controller power supply <b>350</b> may be provided and configured to provide power to the valve controller. A safety mechanism <b>360</b> may be provided that, unless deactivated, prevents inflation of the inflatable member.</p>
+<p id="p-0082" num="0081">A container <b>310</b> may contain a fluid, such as a gas. Preferably, the fluid may be a compressed gas. Alternatively, the fluid may include a liquid, or a mixture of gas and liquid. The fluid may be pressurized or compressed. The fluid may be delivered to the inflatable member <b>330</b> to cause the inflatable member to inflate. The flow control valve <b>320</b> may control flow of the fluid from the container to the inflatable member. In some instances, the valve may initially be at a closed state which may prevent flow of the fluid from the container to the inflatable member. The valve may be opened in response to a signal from a valve controller <b>340</b>. Opening the valve may cause the fluid from the container to enter the inflatable member, and inflate the inflatable member.</p>
+<p id="p-0083" num="0082">The valve controller <b>340</b> may be powered by a valve controller power supply <b>350</b>. The valve controller power supply may be independent of one or more other power supplies of the aerial vehicle. For example, the valve controller power supply may be independent of a power supply powering a propulsion mechanism of the aerial vehicle, or a master controller of the aerial vehicle. The valve controller may be capable of operating even when the rest of the aerial vehicle runs out of power, or is shut down. Thus, a valve controller may provide a signal to trigger inflation of the inflatable member, regardless of whether the rest of the aerial vehicle is operational or not. The valve controller may send the trigger signal in response to one or more signal or sensor input. The valve controller may perform analysis of the signal or sensor input in order to determine whether to provide the trigger signal. The valve controller may make such determinations on a continuous, periodic, or episodic basis.</p>
+<p id="p-0084" num="0083">In another example, the valve controller may provide a trigger signal in response to a signal from a terminal that is remote to the aerial vehicle. The terminal may communicate with the aerial vehicle. In some instances, the terminal may control positioning, orientation, or flight of the aerial vehicle. The terminal may receive data from the aerial vehicle, such as location or flight information, or data collected by a payload of the aerial vehicle. In some instances, a user may provide an input to the terminal to trigger deployment of the airbag remotely. For example, a user may witness that the aerial vehicle is about to impact something, and may remotely trigger the airbag inflation. The communication system with the terminal may be powered by the valve controller power supply <b>350</b> or another power supply. In some instances, the communication from the terminal to the valve controller <b>340</b> may occur, even if other parts of the aerial vehicle (e.g., propulsion unit, flight controller, master controller, guidance/navigation) are failing.</p>
+<p id="p-0085" num="0084">In some embodiments, a safety mechanism <b>360</b> may be provided that, unless deactivated, prevents inflation of the inflatable member. In some instances, the default of the safety mechanism may be to be on and to prevent inflation of the inflatable member. This may prevent an airbag from deploying prematurely. For example, this may prevent the airbag from deploying and injuring a person when the aircraft is being carried by the person. This may prevent an airbag from deploying while the aircraft is not on (or is not supposed to be on but erroneously turned off), or is being transported by an individual. In one example, after a flight control of the aerial vehicle is turned on or enabled, the propulsion units of the aerial vehicle (e.g., rotors) may begin to function for flight. When the flight control is turned on, a signal may be transmitted to a safety mechanism, which will be deactivated (or be turned &#x2018;off&#x2019;). Deactivating the safety mechanism may permit the airbag to deploy in response to a trigger signal from a valve controller <b>340</b>. The safety mechanism may be deactivated by a safety signal indicating that the unmanned aerial vehicle is in operation. The safety signal may be provided by a flight control system of the unmanned aerial vehicle or another system of the unmanned aerial vehicle.</p>
+<p id="p-0086" num="0085">In another embodiment, the safety mechanism <b>360</b> may include a safety pin. The safety pin can be provided, similar to a fire extinguisher, so that if the pin is not pulled, the airbag cannot inflate. In some embodiments, the safety mechanism comprises a pin and deactivation of the safety mechanism may comprise removal of the pin. The pin may be configured to be removed by a user prior to operation of the aerial vehicle. The pin may be manually removed by the user prior to the aerial vehicle being permitted to operate. In some instances, the aerial vehicle may not be capable of operating without removing the safety pin first. In another example, turning on the aerial vehicle or operating the aerial vehicle may automatically cause the safety pin to be removed.</p>
+<p id="p-0087" num="0086">In accordance with various embodiments of the invention, there may be a single container or multiple containers. The topology may be a single large container connected to a plurality of inflatable members; or a single small container for a single inflatable member. Alternatively, multiple containers may be provided for a single inflatable member. Each inflatable member may be controlled by a single valve or multiple valves. Each valve may have its own valve controller or multiple valves may share a valve controller. A single valve controller power supply may be provided for a single valve controller or for multiple valve controllers. In some instances, multiple single valve controller power supplies may be provided for a single valve controller or for the multiple valve controllers. A single safety mechanism may be provided for a single valve or valve controller, or for multiple valves or valve controllers. In some instances, multiple safety mechanisms may be provided for multiple valves or valve controllers.</p>
+<p id="p-0088" num="0087"><figref idref="DRAWINGS">FIG. 4</figref> shows an example of an unmanned aerial vehicle (UAV) <b>400</b> with deployed airbags. Any description herein of a UAV may apply to any other type of movable object, such as any type of aerial vehicle, and vice versa. In some embodiments, a UAV may have a UAV body <b>410</b> or hub. One or more propulsion units <b>420</b><i>a</i>, <b>420</b><i>b </i>may be provided for a UAV. In some embodiments, an airbag may be deployed above <b>430</b> the UAV, and an airbag may be deployed beneath <b>440</b> a UAV.</p>
+<p id="p-0089" num="0088">The UAV may have a lightweight body <b>410</b>. The UAV may have a weight as described further elsewhere herein. The UAV may have small dimensions. The UAV may have any dimensions as described further elsewhere herein. The UAV may be capable of being lifted by a human being using one hand or two hands.</p>
+<p id="p-0090" num="0089">The UAV may have one or more propulsion units <b>420</b>. The propulsion units may include one or more actuator-driven rotor. The rotor may include one or more rotor blades. The rotor, including the rotor blades, may rotate about an axis of rotation. In one example, a UAV may have a plurality of arms, each arm having a propulsion unit thereon. The arms may be connected to the lightweight body <b>410</b> at a proximal end. The propulsion units may be provided at or near a distal end of the arm. For example, the propulsion units may be within 50%, 40%, 30%, 25%, 20%, 15%, 10%, 5%, 3%, or 1% of the arm length from the distal end of the arm. The propulsion units may be oriented vertically to provide lift for the UAV. In some instances, one or more propulsion units may be angled or oriented sideways to provide lateral thrust for the UAV. Any number of arms and/or propulsion units may be provided. For example, one, two, three, four, five, six, seven, eight, nine, ten or more arms and/or propulsion units may be provided.</p>
+<p id="p-0091" num="0090">One or more airbags may be provided for the UAV. In some embodiments, a single airbag may be configured to be deployed below the UAV. Alternatively a single airbag may be configured to be deployed above the UAV. In some embodiments, multiple airbags may be provided. The multiple airbags may be configured to be deployed below the UAV, above the UAV, or any combination of below and above the UAV. For example one or more airbags may be deployed below the UAV and one or more airbags may be deployed above the UAV. In some instances, one or more airbags may be configured to be deployed to a side of the UAV.</p>
+<p id="p-0092" num="0091">The one or more airbags may be deployed from any portion of the UAV. For example, one or more of the airbags may be configured to deploy from the UAV body <b>410</b>. Similarly, one or more airbags may be configured to deploy from a central portion of the UAV, or from a hub of the UAV where one or more arms may join. A deflated airbag may be contained within a housing or may be partially enclosed by a housing of the body or portion of the UAV. Alternatively, the deflated airbag may be provided outside a body housing or may be at least partially exposed. The airbag may be coupled to the UAV in any manner. In one example, a large airbag may be deployed above the UAV <b>430</b> from the UAV body and beneath the UAV <b>440</b> from the UAV body. In some embodiments, an &#x2018;upward&#x2019; portion of the UAV may be a portion above the UAV arms in the direction of lift when the propulsion units are operating. In some embodiments, a &#x2018;downward&#x2019; portion of the UAV may be a portion below the UAV arms and oriented opposite the direction of lift when the propulsion units are operating. When deploying, the airbag may be configured to pass through an opening of a UAV body housing, or to cause a portion of a UAV body housing to come off. Alternatively, the UAV body need not be affected when the airbag deploys.</p>
+<p id="p-0093" num="0092">In some embodiments, a UAV may be oriented during controlled flight so that a &#x2018;downward&#x2019; portion of the UAV is in the direction of gravity g, while an &#x2018;upward&#x2019; portion is opposite the direction of gravity g. The UAV may change orientation when out of control (e.g., flip) so that the upward portion of the UAV is facing toward the earth and the downward portion of the UAV is facing toward the sky. In such situations it may be advantageous to have airbags that may deploy above and below the UAV. In some instances, the UAV may tumble while falling, so it may be difficult to predict which side the UAV may land. In such situations it would be advantageous to have airbags on multiple sides of the UAV to protect the UAV when landing at an unpredictable angle.</p>
+<p id="p-0094" num="0093">The airbags may be sufficiently sized so that a single airbag can sufficiently reduce the force of impact of the UAV. The airbags may sufficiently reduce the force of the impact of the UAV to prevent any damage or significant damage to the UAV. The volume of the one or more inflated airbags may be greater than the volume of the UAV. Alternatively, the volume of the one or more inflated airbags may be equal to the volume of the UAV, or be less than the volume of the UAV. For example, the ratio of a volume of an inflated airbag to a volume of a UAV may be less than or equal to about 5:1, 4:1, 3:1, 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, or 1:5. The ratio of a volume of an inflated airbag to a volume of a UAV may be greater than or equal to about 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, 1:5, or 1:6. The ratio of a footprint of an inflated airbag to a footprint of the UAV may be less than or equal to about 3:1, 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, or 1:5. The ratio of a footprint of an inflated airbag to a footprint of the UAV may be greater than or equal to about 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, 1:5, or 1:6.</p>
+<p id="p-0095" num="0094"><figref idref="DRAWINGS">FIG. 5</figref> shows another example of an unmanned aerial vehicle (UAV) <b>500</b> with deployed airbags. In some embodiments, a UAV may have a UAV body <b>510</b> or hub. One or more propulsion units <b>520</b><i>a</i>, <b>520</b><i>b </i>may be provided for a UAV. In some embodiments, an airbag <b>530</b><i>a</i>, <b>530</b><i>b </i>may be deployed proximate to the propulsion units.</p>
+<p id="p-0096" num="0095">The UAV may have a lightweight and/or small body <b>510</b>. The UAV may be capable of being lifted by a human being using one hand or two hands.</p>
+<p id="p-0097" num="0096">The UAV may have one or more propulsion units <b>520</b><i>a</i>, <b>520</b><i>b</i>. The UAV may be a rotorcraft with one or more rotors having rotor blades capable of generating lift when rotating at a sufficiently fast speed. The propulsion units may be oriented vertically to provide lift for the UAV. In some instances, one or more propulsion units may be angled or oriented sideways to provide lateral thrust for the UAV. Any number of arms and/or propulsion units may be provided. For example, one, two, three, four, five, six, seven, eight, nine, ten or more arms and/or propulsion units may be provided. The arms may extend radially from a central hub or body <b>510</b> of the UAV. The arms may be substantially coplanar. In some instances, the propulsion units may be substantially coplanar.</p>
+<p id="p-0098" num="0097">One or more airbags may be provided for the UAV. The airbags may be configured to deploy near a propulsion unit of the UAV. In some embodiments, a single airbag may be configured to be deployed below the propulsion unit. Alternatively a single airbag may be configured to be deployed above the propulsion unit. In some embodiments, multiple airbags may be provided. The multiple airbags may be configured to be deployed below the propulsion unit, above the propulsion unit, or any combination of below and above the propulsion unit. For example one or more airbags may be deployed below the UAV and one or more airbags may be deployed above the propulsion unit. In some instances, one or more airbags may be configured to be deployed to a side of the propulsion unit. The propulsion unit may be surrounded by one or more airbags from different sides when they are deployed.</p>
+<p id="p-0099" num="0098">The one or more airbags may be deployed from any portion of the UAV. For example, one or more of the airbags may be configured to deploy from the propulsion unit or an area proximate to the propulsion unit. In some embodiments, airbags may be deployed from one or arm near the propulsion unit. The airbags may be deployed from one or more arm at within 50%, 40%, 30%, 25%, 20%, 15%, 10%, 5%, 3%, or 1% of the arm length from the distal end of the arm. The airbags may be deployed at within 30%, 25%, 20%, 15%, 10%, 5%, 3%, or 1% of the arm length from the propulsion unit's location on the arm. A deflated airbag may be contained within a housing or may be partially enclosed by a housing of an arm or propulsion unit of the UAV. Alternatively, the deflated airbag may be provided outside a housing or may be at least partially exposed. In one example, an airbag may be deployed substantially beneath <b>530</b><i>a</i>, <b>530</b><i>b </i>the propulsion unit and/or to the side of the propulsion unit. Each propulsion unit may have one or more airbags deployed in proximity. In some embodiments, multiple airbags may be deployed in the proximity of each propulsion unit. The air bags may be clustered around the propulsion units. When deploying, the airbag may be configured to pass through an opening of a UAV arm housing or propulsion unit housing, or to cause a portion of a UAV housing to come off. Alternatively, the UAV structure need not be affected when the airbag deploys.</p>
+<p id="p-0100" num="0099">The airbags may be sufficiently sized so that a single airbag can sufficiently reduce the force of impact of the propulsion units and/or the body of the UAV. The airbags may sufficiently reduce the force of the impact of the propulsion unit to prevent any damage or significant damage to the propulsion units and/or the body of the UAV. The volume of the one or more inflated airbags may be greater than the volume of the propulsion unit. Alternatively, the volume of the one or more inflated airbags may be equal to the volume of the propulsion unit, or be less than the volume of the propulsion unit. For example, the ratio of a volume of an inflated airbag to a volume of a propulsion unit may be less than or equal to about 5:1, 4:1, 3:1, 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, or 1:5. The ratio of a volume of an inflated airbag to a volume of a propulsion unit may be greater than or equal to about 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, 1:5, or 1:6. The ratio of a footprint of an inflated airbag to a footprint of the propulsion unit may be less than or equal to about 3:1, 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, or 1:5. The ratio of a footprint of an inflated airbag to a footprint of the propulsion unit may be greater than or equal to about 2:1, 1.5:1, 1.2:1, 1:1, 1:1.2, 1:1.5, 1:2, 1:3, 1:4, 1:5, or 1:6.</p>
+<p id="p-0101" num="0100">The position and number of airbags depends on an aircraft model, size, volume, weight, and other factors. For example, smaller airbags may be used or fewer airbags may be used for a UAV, than an aircraft that is designed to carry one or more passengers. The airbags may be configured to protect the aerial vehicle from one angle or multiple angles. For example, the airbags may be configured to reduce the forces experienced by the aerial vehicle when impact occurs beneath the aerial vehicle, above the aerial vehicle, a side of the aerial vehicle, and/or any other angle of the aerial vehicle.</p>
+<p id="p-0102" num="0101">All airbags may be deployed simultaneously. In some instances, detecting a state in which the airbags ought to be deployed may result in all airbags of the aerial vehicle being deployed. In some instances, this may be advantageous in situations where it may be difficult to predict which side the aerial vehicle may impact a surface or other device. Alternatively, a selected number of airbags may be deployed. For example, if it is detected that the impact will likely come from a bottom side of the aerial vehicle, airbags on the bottom side of the aerial vehicle may be deployed. Alternatively, if it is detected that the impact will likely from the top or side of the aerial vehicle, airbags on the top and/or side may be deployed.</p>
+<p id="p-0103" num="0102">Deployment of the airbags may reduce damage likely to be taken by the aerial vehicle upon impact. Similarly, deployment of airbags may reduce damage or injury to a load of an aerial vehicle, such as a payload (e.g., camera, illumination devices, audio devices, measurement or sensing equipment), passengers, or any other item carried by or attached to the aerial vehicle. Impact may occur when an aerial vehicle impacts a surface (e.g., ground, wall, ceiling, water, cliffs), possible obstructions (e.g., trees, foliage, people or other living beings, poles, lighting units, power lines, billboards, buildings), or moving objects (e.g., other aerial vehicles, other types of vehicles, living beings).</p>
+<p id="p-0104" num="0103">The systems, devices, and methods described herein can be applied to a wide variety of movable objects. As previously mentioned, any description herein of an aerial vehicle may apply to and be used for any movable object. In some embodiments, any description herein of an aerial vehicle may apply to a UAV.</p>
+<p id="p-0105" num="0104">A movable object of the present invention can be configured to move within any suitable environment, such as in air (e.g., a fixed-wing aircraft, a rotary-wing aircraft, or an aircraft having neither fixed wings nor rotary wings), in water (e.g., a ship or a submarine), on ground (e.g., a motor vehicle, such as a car, truck, bus, van, motorcycle; a movable structure or frame such as a stick, fishing pole; or a train), under the ground (e.g., a subway), in space (e.g., a spaceplane, a satellite, or a probe), or any combination of these environments. The movable object can be a vehicle, such as a vehicle described elsewhere herein. In some embodiments, the movable object can be mounted on a living subject, such as a human or an animal. Suitable animals can include avines, canines, felines, equines, bovines, ovines, porcines, delphines, rodents, or insects.</p>
+<p id="p-0106" num="0105">The movable object may be capable of moving freely within the environment with respect to six degrees of freedom (e.g., three degrees of freedom in translation and three degrees of freedom in rotation). Alternatively, the movement of the movable object can be constrained with respect to one or more degrees of freedom, such as by a predetermined path, track, or orientation. The movement can be actuated by any suitable actuation mechanism, such as an engine or a motor. The actuation mechanism of the movable object can be powered by any suitable energy source, such as electrical energy, magnetic energy, solar energy, wind energy, gravitational energy, chemical energy, nuclear energy, or any suitable combination thereof. The movable object may be self-propelled via a propulsion system, as described elsewhere herein. The propulsion system may optionally run on an energy source, such as electrical energy, magnetic energy, solar energy, wind energy, gravitational energy, chemical energy, nuclear energy, or any suitable combination thereof. Alternatively, the movable object may be carried by a living being.</p>
+<p id="p-0107" num="0106">In some instances, the movable object can be a vehicle. Suitable vehicles may include water vehicles, aerial vehicles, space vehicles, or ground vehicles. For example, aerial vehicles may be fixed-wing aircraft (e.g., airplane, gliders), rotary-wing aircraft (e.g., helicopters, rotorcraft), aircraft having both fixed wings and rotary wings, or aircraft having neither (e.g., blimps, hot air balloons). A vehicle can be self-propelled, such as self-propelled through the air, on or in water, in space, or on or under the ground. A self-propelled vehicle can utilize a propulsion system, such as a propulsion system including one or more engines, motors, wheels, axles, magnets, rotors, propellers, blades, nozzles, or any suitable combination thereof. In some instances, the propulsion system can be used to enable the movable object to take off from a surface, land on a surface, maintain its current position and/or orientation (e.g., hover), change orientation, and/or change position.</p>
+<p id="p-0108" num="0107">The movable object can be controlled remotely by a user or controlled locally by an occupant within or on the movable object. In some embodiments, the movable object is an unmanned movable object, such as a UAV. An unmanned movable object, such as a UAV, may not have an occupant onboard the movable object. The movable object can be controlled by a human or an autonomous control system (e.g., a computer control system), or any suitable combination thereof. The movable object can be an autonomous or semi-autonomous robot, such as a robot configured with an artificial intelligence.</p>
+<p id="p-0109" num="0108">The movable object can have any suitable size and/or dimensions. In some embodiments, the movable object may be of a size and/or dimensions to have a human occupant within or on the vehicle. Alternatively, the movable object may be of size and/or dimensions smaller than that capable of having a human occupant within or on the vehicle. The movable object may be of a size and/or dimensions suitable for being lifted or carried by a human. Alternatively, the movable object may be larger than a size and/or dimensions suitable for being lifted or carried by a human. In some instances, the movable object may have a maximum dimension (e.g., length, width, height, diameter, diagonal) of less than or equal to about: 2 cm, 5 cm, 10 cm, 50 cm, 1 m, 2 m, 5 m, or 10 m. The maximum dimension may be greater than or equal to about: 2 cm, 5 cm, 10 cm, 50 cm, 1 m, 2 m, 5 m, or 10 m. For example, the distance between shafts of opposite rotors of the movable object may be less than or equal to about: 2 cm, 5 cm, 10 cm, 50 cm, 1 m, 2 m, 5 m, or 10 m. Alternatively, the distance between shafts of opposite rotors may be greater than or equal to about: 2 cm, 5 cm, 10 cm, 50 cm, 1 m, 2 m, 5 m, or 10 m.</p>
+<p id="p-0110" num="0109">In some embodiments, the movable object may have a volume of less than 100 cm&#xd7;100 cm&#xd7;100 cm, less than 50 cm&#xd7;50 cm&#xd7;30 cm, or less than 5 cm&#xd7;5 cm&#xd7;3 cm. The total volume of the movable object may be less than or equal to about: 1 cm<sup>3</sup>, 2 cm<sup>3</sup>, 5 cm<sup>3</sup>, 10 cm<sup>3</sup>, 20 cm<sup>3</sup>, 30 cm<sup>3</sup>, 40 cm<sup>3</sup>, 50 cm<sup>3</sup>, 60 cm<sup>3</sup>, 70 cm<sup>3</sup>, 80 cm<sup>3</sup>, 90 cm<sup>3</sup>, 100 cm<sup>3</sup>, 150 cm<sup>3</sup>, 200 cm<sup>3</sup>, 300 cm<sup>3</sup>, 500 cm<sup>3</sup>, 750 cm<sup>3</sup>, 1000 cm<sup>3</sup>, 5000 cm<sup>3</sup>, 10,000 cm<sup>3</sup>, 100,000 cm<sup>3</sup>, 1 m<sup>3</sup>, or 10 m<sup>3</sup>. Conversely, the total volume of the movable object may be greater than or equal to about: 1 cm<sup>3</sup>, 2 cm<sup>3</sup>, 5 cm<sup>3</sup>, 10 cm<sup>3</sup>, 20 cm<sup>3</sup>, 30 cm<sup>3</sup>, 40 cm<sup>3</sup>, 50 cm<sup>3</sup>, 60 cm<sup>3</sup>, 70 cm<sup>3</sup>, 80 cm<sup>3</sup>, 90 cm<sup>3</sup>, 100 cm<sup>3</sup>, 150 cm<sup>3</sup>, 200 cm<sup>3</sup>, 300 cm<sup>3</sup>, 500 cm<sup>3</sup>, 750 cm<sup>3</sup>, 1000 cm<sup>3</sup>, 5000 cm<sup>3</sup>, 10,000 cm<sup>3</sup>, 100,000 cm<sup>3</sup>, 1 m<sup>3</sup>, or 10 m<sup>3</sup>.</p>
+<p id="p-0111" num="0110">In some embodiments, the movable object may have a footprint (which may refer to the lateral cross-sectional area encompassed by the movable object) less than or equal to about: 32,000 cm<sup>2</sup>, 20,000 cm<sup>2</sup>, 10,000 cm<sup>2</sup>, 1,000 cm<sup>2</sup>, 500 cm<sup>2</sup>, 100 cm<sup>2</sup>, 50 cm<sup>2</sup>, 10 cm<sup>2</sup>, or 5 cm<sup>2</sup>. Conversely, the footprint may be greater than or equal to about: 32,000 cm<sup>2</sup>, 20,000 cm<sup>2</sup>, 10,000 cm<sup>2</sup>, 1,000 cm<sup>2</sup>, 500 cm<sup>2</sup>, 100 cm<sup>2</sup>, 50 cm<sup>2</sup>, 10 cm<sup>2</sup>, or 5 cm<sup>2</sup>.</p>
+<p id="p-0112" num="0111">In some instances, the movable object may weigh no more than 1000 kg. The weight of the movable object may be less than or equal to about: 1000 kg, 750 kg, 500 kg, 200 kg, 150 kg, 100 kg, 80 kg, 70 kg, 60 kg, 50 kg, 45 kg, 40 kg, 35 kg, 30 kg, 25 kg, 20 kg, 15 kg, 12 kg, 10 kg, 9 kg, 8 kg, 7 kg, 6 kg, 5 kg, 4 kg, 3 kg, 2 kg, 1 kg, 0.5 kg, 0.1 kg, 0.05 kg, or 0.01 kg. Conversely, the weight may be greater than or equal to about: 1000 kg, 750 kg, 500 kg, 200 kg, 150 kg, 100 kg, 80 kg, 70 kg, 60 kg, 50 kg, 45 kg, 40 kg, 35 kg, 30 kg, 25 kg, 20 kg, 15 kg, 12 kg, 10 kg, 9 kg, 8 kg, 7 kg, 6 kg, 5 kg, 4 kg, 3 kg, 2 kg, 1 kg, 0.5 kg, 0.1 kg, 0.05 kg, or 0.01 kg.</p>
+<p id="p-0113" num="0112">In some embodiments, a movable object may be small relative to a load carried by the movable object. The load may include a payload and/or a carrier, as described in further detail below. In some examples, a ratio of a movable object weight to a load weight may be greater than, less than, or equal to about 1:1. In some instances, a ratio of a movable object weight to a load weight may be greater than, less than, or equal to about 1:1. Optionally, a ratio of a carrier weight to a load weight may be greater than, less than, or equal to about 1:1. When desired, the ratio of an movable object weight to a load weight may be less than or equal to: 1:2, 1:3, 1:4, 1:5, 1:10, or even less. Conversely, the ratio of a movable object weight to a load weight can also be greater than or equal to: 2:1, 3:1, 4:1, 5:1, 10:1, or even greater.</p>
+<p id="p-0114" num="0113">In some embodiments, the movable object may have low energy consumption. For example, the movable object may use less than about: 5 W/h, 4 W/h, 3 W/h, 2 W/h, 1 W/h, or less. In some instances, a carrier of the movable object may have low energy consumption. For example, the carrier may use less than about: 5 W/h, 4 W/h, 3 W/h, 2 W/h, 1 W/h, or less. Optionally, a payload of the movable object may have low energy consumption, such as less than about: 5 W/h, 4 W/h, 3 W/h, 2 W/h, 1 W/h, or less.</p>
+<p id="p-0115" num="0114"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an unmanned aerial vehicle (UAV) <b>600</b>, in accordance with embodiments of the present invention. The UAV may be an example of a movable object as described herein. The UAV <b>600</b> can include a propulsion system having four rotors <b>602</b>, <b>604</b>, <b>606</b>, and <b>608</b>. Any number of rotors may be provided (e.g., one, two, three, four, five, six, or more). The rotors can be embodiments of the self-tightening rotors described elsewhere herein. The rotors, rotor assemblies, or other propulsion systems of the unmanned aerial vehicle may enable the unmanned aerial vehicle to hover/maintain position, change orientation, and/or change location. The distance between shafts of opposite rotors can be any suitable length <b>610</b>. For example, the length <b>610</b> can be less than or equal to 2 m, or less than equal to 5 m. In some embodiments, the length <b>610</b> can be within a range from 40 cm to 7 m, from 70 cm to 2 m, or from 5 cm to 5 m. Any description herein of a UAV may apply to a movable object, such as a movable object of a different type, and vice versa.</p>
+<p id="p-0116" num="0115">In some embodiments, the movable object can be configured to carry a load. The load can include one or more of passengers, cargo, equipment, instruments, and the like. The load can be provided within a housing. The housing may be separate from a housing of the movable object, or be part of a housing for a movable object. Alternatively, the load can be provided with a housing while the movable object does not have a housing. Alternatively, portions of the load or the entire load can be provided without a housing. The load can be rigidly fixed relative to the movable object. Optionally, the load can be movable relative to the movable object (e.g., translatable or rotatable relative to the movable object).</p>
+<p id="p-0117" num="0116">In some embodiments, the load includes a payload. The payload can be configured not to perform any operation or function. Alternatively, the payload can be a payload configured to perform an operation or function, also known as a functional payload. For example, the payload can include one or more sensors for surveying one or more targets. Any suitable sensor can be incorporated into the payload, such as an image capture device (e.g., a camera), an audio capture device (e.g., a parabolic microphone), an infrared imaging device, or an ultraviolet imaging device. The sensor can provide static sensing data (e.g., a photograph) or dynamic sensing data (e.g., a video). In some embodiments, the sensor provides sensing data for the target of the payload. Alternatively or in combination, the payload can include one or more emitters for providing signals to one or more targets. Any suitable emitter can be used, such as an illumination source or a sound source. In some embodiments, the payload includes one or more transceivers, such as for communication with a module remote from the movable object. Optionally, the payload can be configured to interact with the environment or a target. For example, the payload can include a tool, instrument, or mechanism capable of manipulating objects, such as a robotic arm.</p>
+<p id="p-0118" num="0117">Optionally, the load may include a carrier. The carrier can be provided for the payload and the payload can be coupled to the movable object via the carrier, either directly (e.g., directly contacting the movable object) or indirectly (e.g., not contacting the movable object). Conversely, the payload can be mounted on the movable object without requiring a carrier. The payload can be integrally formed with the carrier. Alternatively, the payload can be releasably coupled to the carrier. In some embodiments, the payload can include one or more payload elements, and one or more of the payload elements can be movable relative to the movable object and/or the carrier, as described above.</p>
+<p id="p-0119" num="0118">The carrier can be integrally formed with the movable object. Alternatively, the carrier can be releasably coupled to the movable object. The carrier can be coupled to the movable object directly or indirectly. The carrier can provide support to the payload (e.g., carry at least part of the weight of the payload). The carrier can include a suitable mounting structure (e.g., a gimbal platform) capable of stabilizing and/or directing the movement of the payload. In some embodiments, the carrier can be adapted to control the state of the payload (e.g., position and/or orientation) relative to the movable object. For example, the carrier can be configured to move relative to the movable object (e.g., with respect to one, two, or three degrees of translation and/or one, two, or three degrees of rotation) such that the payload maintains its position and/or orientation relative to a suitable reference frame regardless of the movement of the movable object. The reference frame can be a fixed reference frame (e.g., the surrounding environment). Alternatively, the reference frame can be a moving reference frame (e.g., the movable object, a payload target).</p>
+<p id="p-0120" num="0119">In some embodiments, the carrier can be configured to permit movement of the payload relative to the carrier and/or movable object. The movement can be a translation with respect to up to three degrees of freedom (e.g., along one, two, or three axes) or a rotation with respect to up to three degrees of freedom (e.g., about one, two, or three axes), or any suitable combination thereof.</p>
+<p id="p-0121" num="0120">In some instances, the carrier can include a carrier frame assembly and a carrier actuation assembly. The carrier frame assembly can provide structural support to the payload. The carrier frame assembly can include individual carrier frame components, some of which can be movable relative to one another. The carrier actuation assembly can include one or more actuators (e.g., motors) that actuate movement of the individual carrier frame components. The actuators can permit the movement of multiple carrier frame components simultaneously, or may be configured to permit the movement of a single carrier frame component at a time. The movement of the carrier frame components can produce a corresponding movement of the payload. For example, the carrier actuation assembly can actuate a rotation of one or more carrier frame components about one or more axes of rotation (e.g., roll axis, pitch axis, or yaw axis). The rotation of the one or more carrier frame components can cause a payload to rotate about one or more axes of rotation relative to the movable object. Alternatively or in combination, the carrier actuation assembly can actuate a translation of one or more carrier frame components along one or more axes of translation, and thereby produce a translation of the payload along one or more corresponding axes relative to the movable object.</p>
+<p id="p-0122" num="0121">One or more airbags may be deployed in the event of a detected state, such as a malfunction. The airbags may be deployed to reduce forces experienced upon impact. The airbags may be deployed to protect any portion of the movable object, and/or load of the object. The airbags may be deployed to protect the payload or carrier of the movable object.</p>
+<p id="p-0123" num="0122">In some embodiments, the movement of the movable object, carrier, and payload relative to a fixed reference frame (e.g., the surrounding environment) and/or to each other, can be controlled by a terminal. The terminal can be a remote control device at a location distant from the movable object, carrier, and/or payload. The terminal can be disposed on or affixed to a support platform. Alternatively, the terminal can be a handheld or wearable device. For example, the terminal can include a smartphone, tablet, laptop, computer, glasses, gloves, helmet, microphone, or suitable combinations thereof. The terminal can include a user interface, such as a keyboard, mouse, joystick, touchscreen, or display. Any suitable user input can be used to interact with the terminal, such as manually entered commands, voice control, gesture control, or position control (e.g., via a movement, location or tilt of the terminal).</p>
+<p id="p-0124" num="0123">The terminal can be used to control any suitable state of the movable object, carrier, and/or payload. For example, the terminal can be used to control the position and/or orientation of the movable object, carrier, and/or payload relative to a fixed reference from and/or to each other. In some embodiments, the terminal can be used to control individual elements of the movable object, carrier, and/or payload, such as the actuation assembly of the carrier, a sensor of the payload, or an emitter of the payload. The terminal can include a wireless communication device adapted to communicate with one or more of the movable object, carrier, or payload.</p>
+<p id="p-0125" num="0124">The terminal can include a suitable display unit for viewing information of the movable object, carrier, and/or payload. For example, the terminal can be configured to display information of the movable object, carrier, and/or payload with respect to position, translational velocity, translational acceleration, orientation, angular velocity, angular acceleration, or any suitable combinations thereof. In some embodiments, the terminal can display information provided by the payload, such as data provided by a functional payload (e.g., images recorded by a camera or other image capturing device).</p>
+<p id="p-0126" num="0125">Optionally, the same terminal may both control the movable object, carrier, and/or payload, or a state of the movable object, carrier and/or payload, as well as receive and/or display information from the movable object, carrier and/or payload. For example, a terminal may control the positioning of the payload relative to an environment, while displaying image data captured by the payload, or information about the position of the payload. Alternatively, different terminals may be used for different functions. For example, a first terminal may control movement or a state of the movable object, carrier, and/or payload while a second terminal may receive and/or display information from the movable object, carrier, and/or payload. For example, a first terminal may be used to control the positioning of the payload relative to an environment while a second terminal displays image data captured by the payload. Various communication modes may be utilized between a movable object and an integrated terminal that both controls the movable object and receives data, or between the movable object and multiple terminals that both control the movable object and receives data. For example, at least two different communication modes may be formed between the movable object and the terminal that both controls the movable object and receives data from the movable object.</p>
+<p id="p-0127" num="0126"><figref idref="DRAWINGS">FIG. 7</figref> illustrates a movable object <b>700</b> including a carrier <b>702</b> and a payload <b>704</b>, in accordance with embodiments. Although the movable object <b>700</b> is depicted as an aircraft, this depiction is not intended to be limiting, and any suitable type of movable object can be used, as previously described herein. One of skill in the art would appreciate that any of the embodiments described herein in the context of aircraft systems can be applied to any suitable movable object (e.g., an UAV). In some instances, the payload <b>704</b> may be provided on the movable object <b>700</b> without requiring the carrier <b>702</b>. The movable object <b>700</b> may include propulsion mechanisms <b>706</b>, a sensing system <b>708</b>, and a communication system <b>710</b>.</p>
+<p id="p-0128" num="0127">The propulsion mechanisms <b>706</b> can include one or more of rotors, propellers, blades, engines, motors, wheels, axles, magnets, or nozzles, as previously described. For example, the propulsion mechanisms <b>706</b> may be rotor assemblies, or other rotary propulsion units. The movable object may have one or more, two or more, three or more, or four or more propulsion mechanisms. The propulsion mechanisms may all be of the same type. Alternatively, one or more propulsion mechanisms can be different types of propulsion mechanisms. The propulsion mechanisms <b>706</b> can be mounted on the movable object <b>700</b> using any suitable means, such as a support element (e.g., a drive shaft) as described elsewhere herein. The propulsion mechanisms <b>706</b> can be mounted on any suitable portion of the movable object <b>700</b>, such on the top, bottom, front, back, sides, or suitable combinations thereof.</p>
+<p id="p-0129" num="0128">In some embodiments, the propulsion mechanisms <b>706</b> can enable the movable object <b>700</b> to take off vertically from a surface or land vertically on a surface without requiring any horizontal movement of the movable object <b>700</b> (e.g., without traveling down a runway). Optionally, the propulsion mechanisms <b>706</b> can be operable to permit the movable object <b>700</b> to hover in the air at a specified position and/or orientation. One or more of the propulsion mechanisms <b>700</b> may be controlled independently of the other propulsion mechanisms. Alternatively, the propulsion mechanisms <b>700</b> can be configured to be controlled simultaneously. For example, the movable object <b>700</b> can have multiple horizontally oriented rotors that can provide lift and/or thrust to the movable object. The multiple horizontally oriented rotors can be actuated to provide vertical takeoff, vertical landing, and hovering capabilities to the movable object <b>700</b>. In some embodiments, one or more of the horizontally oriented rotors may spin in a clockwise direction, while one or more of the horizontally rotors may spin in a counterclockwise direction. For example, the number of clockwise rotors may be equal to the number of counterclockwise rotors. The rotation rate of each of the horizontally oriented rotors can be varied independently in order to control the lift and/or thrust produced by each rotor, and thereby adjust the spatial disposition, velocity, and/or acceleration of the movable object <b>700</b> (e.g., with respect to up to three degrees of translation and up to three degrees of rotation).</p>
+<p id="p-0130" num="0129">The sensing system <b>708</b> can include one or more sensors that may sense the spatial disposition, velocity, and/or acceleration of the movable object <b>700</b> (e.g., with respect to up to three degrees of translation and up to three degrees of rotation). The one or more sensors can include global positioning system (GPS) sensors, motion sensors, inertial sensors, proximity sensors, or image sensors. The sensing data provided by the sensing system <b>708</b> can be used to control the spatial disposition, velocity, and/or orientation of the movable object <b>700</b> (e.g., using a suitable processing unit and/or control module, as described below). Alternatively, the sensing system <b>708</b> can be used to provide data regarding the environment surrounding the movable object, such as weather conditions, proximity to potential obstacles, location of geographical features, location of manmade structures, and the like. The sensing system data may be useful in determining conditions under which to deploy one or more airbags of the movable object.</p>
+<p id="p-0131" num="0130">The communication system <b>710</b> enables communication with terminal <b>712</b> having a communication system <b>714</b> via wireless signals <b>716</b>. The communication systems <b>710</b>, <b>714</b> may include any number of transmitters, receivers, and/or transceivers suitable for wireless communication. The communication may be one-way communication, such that data can be transmitted in only one direction. For example, one-way communication may involve only the movable object <b>700</b> transmitting data to the terminal <b>712</b>, or vice-versa. The data may be transmitted from one or more transmitters of the communication system <b>710</b> to one or more receivers of the communication system <b>712</b>, or vice-versa. Alternatively, the communication may be two-way communication, such that data can be transmitted in both directions between the movable object <b>700</b> and the terminal <b>712</b>. The two-way communication can involve transmitting data from one or more transmitters of the communication system <b>710</b> to one or more receivers of the communication system <b>714</b>, and vice-versa.</p>
+<p id="p-0132" num="0131">In some embodiments, the terminal <b>712</b> can provide control data to one or more of the movable object <b>700</b>, carrier <b>702</b>, and payload <b>704</b> and receive information from one or more of the movable object <b>700</b>, carrier <b>702</b>, and payload <b>704</b> (e.g., position and/or motion information of the movable object, carrier or payload; data sensed by the payload such as image data captured by a payload camera). In some instances, control data from the terminal may include instructions for relative positions, movements, actuations, or controls of the movable object, carrier and/or payload. For example, the control data may result in a modification of the location and/or orientation of the movable object (e.g., via control of the propulsion mechanisms <b>706</b>), or a movement of the payload with respect to the movable object (e.g., via control of the carrier <b>702</b>). The control data from the terminal may result in control of the payload, such as control of the operation of a camera or other image capturing device (e.g., taking still or moving pictures, zooming in or out, turning on or off, switching imaging modes, change image resolution, changing focus, changing depth of field, changing exposure time, changing viewing angle or field of view). In some instances, the communications from the movable object, carrier and/or payload may include information from one or more sensors (e.g., of the sensing system <b>708</b> or of the payload <b>704</b>). The communications may include sensed information from one or more different types of sensors (e.g., GPS sensors, motion sensors, inertial sensor, proximity sensors, or image sensors). Such information may pertain to the position (e.g., location, orientation), movement, or acceleration of the movable object, carrier and/or payload. Such information from a payload may include data captured by the payload or a sensed state of the payload. The control data provided transmitted by the terminal <b>712</b> can be configured to control a state of one or more of the movable object <b>700</b>, carrier <b>702</b>, or payload <b>704</b>. Alternatively or in combination, the carrier <b>702</b> and payload <b>704</b> can also each include a communication module configured to communicate with terminal <b>712</b>, such that the terminal can communicate with and control each of the movable object <b>700</b>, carrier <b>702</b>, and payload <b>704</b> independently.</p>
+<p id="p-0133" num="0132">In some embodiments, the movable object <b>700</b> can be configured to communicate with another remote device in addition to the terminal <b>712</b>, or instead of the terminal <b>712</b>. The terminal <b>712</b> may also be configured to communicate with another remote device as well as the movable object <b>700</b>. For example, the movable object <b>700</b> and/or terminal <b>712</b> may communicate with another movable object, or a carrier or payload of another movable object. When desired, the remote device may be a second terminal or other computing device (e.g., computer, laptop, tablet, smartphone, or other mobile device). The remote device can be configured to transmit data to the movable object <b>700</b>, receive data from the movable object <b>700</b>, transmit data to the terminal <b>712</b>, and/or receive data from the terminal <b>712</b>. Optionally, the remote device can be connected to the Internet or other telecommunications network, such that data received from the movable object <b>700</b> and/or terminal <b>712</b> can be uploaded to a website or server.</p>
+<p id="p-0134" num="0133"><figref idref="DRAWINGS">FIG. 8</figref> is a schematic illustration by way of block diagram of a system <b>800</b> for controlling a movable object, in accordance with embodiments. The system <b>800</b> can be used in combination with any suitable embodiment of the systems, devices, and methods disclosed herein. The system <b>800</b> can include a sensing module <b>802</b>, processing unit <b>804</b>, non-transitory computer readable medium <b>806</b>, control module <b>808</b>, and communication module <b>810</b>.</p>
+<p id="p-0135" num="0134">The sensing module <b>802</b> can utilize different types of sensors that collect information relating to the movable objects in different ways. Different types of sensors may sense different types of signals or signals from different sources. For example, the sensors can include inertial sensors, GPS sensors, proximity sensors (e.g., lidar), or vision/image sensors (e.g., a camera). The sensing module <b>802</b> can be operatively coupled to a processing unit <b>804</b> having a plurality of processors. In some embodiments, the sensing module can be operatively coupled to a transmission module <b>812</b> (e.g., a Wi-Fi image transmission module) configured to directly transmit sensing data to a suitable external device or system. For example, the transmission module <b>812</b> can be used to transmit images captured by a camera of the sensing module <b>802</b> to a remote terminal.</p>
+<p id="p-0136" num="0135">The processing unit <b>804</b> can have one or more processors, such as a programmable processor (e.g., a central processing unit (CPU)). The processing unit <b>804</b> can be operatively coupled to a non-transitory computer readable medium <b>806</b>. The non-transitory computer readable medium <b>806</b> can store logic, code, and/or program instructions executable by the processing unit <b>804</b> for performing one or more steps. The non-transitory computer readable medium can include one or more memory units (e.g., removable media or external storage such as an SD card or random access memory (RAM)). In some embodiments, data from the sensing module <b>802</b> can be directly conveyed to and stored within the memory units of the non-transitory computer readable medium <b>806</b>. The memory units of the non-transitory computer readable medium <b>806</b> can store logic, code and/or program instructions executable by the processing unit <b>804</b> to perform any suitable embodiment of the methods described herein. For example, the processing unit <b>804</b> can be configured to execute instructions causing one or more processors of the processing unit <b>804</b> to analyze sensing data produced by the sensing module. The memory units can store sensing data from the sensing module to be processed by the processing unit <b>804</b>. In some embodiments, the memory units of the non-transitory computer readable medium <b>806</b> can be used to store the processing results produced by the processing unit <b>804</b>.</p>
+<p id="p-0137" num="0136">In some embodiments, the processing unit <b>804</b> can be operatively coupled to a control module <b>808</b> configured to control a state of the movable object. For example, the control module <b>808</b> can be configured to control the propulsion mechanisms of the movable object to adjust the spatial disposition, velocity, and/or acceleration of the movable object with respect to six degrees of freedom. Alternatively or in combination, the control module <b>808</b> can control one or more of a state of a carrier, payload, or sensing module.</p>
+<p id="p-0138" num="0137">The processing unit <b>804</b> can be operatively coupled to a communication module <b>810</b> configured to transmit and/or receive data from one or more external devices (e.g., a terminal, display device, or other remote controller). Any suitable means of communication can be used, such as wired communication or wireless communication. For example, the communication module <b>810</b> can utilize one or more of local area networks (LAN), wide area networks (WAN), infrared, radio, WiFi, point-to-point (P2P) networks, telecommunication networks, cloud communication, and the like. Optionally, relay stations, such as towers, satellites, or mobile stations, can be used. Wireless communications can be proximity dependent or proximity independent. In some embodiments, line-of-sight may or may not be required for communications. The communication module <b>810</b> can transmit and/or receive one or more of sensing data from the sensing module <b>802</b>, processing results produced by the processing unit <b>804</b>, predetermined control data, user commands from a terminal or remote controller, and the like.</p>
+<p id="p-0139" num="0138">The components of the system <b>800</b> can be arranged in any suitable configuration. For example, one or more of the components of the system <b>800</b> can be located on the movable object, carrier, payload, terminal, sensing system, or an additional external device in communication with one or more of the above. Additionally, although <figref idref="DRAWINGS">FIG. 8</figref> depicts a single processing unit <b>804</b> and a single non-transitory computer readable medium <b>806</b>, one of skill in the art would appreciate that this is not intended to be limiting, and that the system <b>800</b> can include a plurality of processing units and/or non-transitory computer readable media. In some embodiments, one or more of the plurality of processing units and/or non-transitory computer readable media can be situated at different locations, such as on the movable object, carrier, payload, terminal, sensing module, additional external device in communication with one or more of the above, or suitable combinations thereof, such that any suitable aspect of the processing and/or memory functions performed by the system <b>800</b> can occur at one or more of the aforementioned locations.</p>
+<p id="p-0140" num="0139">While preferred embodiments of the present invention have been shown and described herein, it will be obvious to those skilled in the art that such embodiments are provided by way of example only. Numerous variations, changes, and substitutions will now occur to those skilled in the art without departing from the invention. It should be understood that various alternatives to the embodiments of the invention described herein may be employed in practicing the invention. It is intended that the following claims define the scope of the invention and that methods and structures within the scope of these claims and their equivalents be covered thereby.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. An impact protection apparatus for an unmanned aerial vehicle, the apparatus comprising:
+<claim-text>an inflatable member configured to be coupled to the unmanned aerial vehicle and inflatable to reduce forces experienced by the unmanned aerial vehicle during an impact;
+<claim-text>a container coupled to the inflatable member, said container comprising compressed gas;</claim-text>
+<claim-text>a control mechanism powered by a first power source separate from a second power source that provides power to the unmanned aerial vehicle, wherein the control mechanism is configured to cause the compressed gas to flow from the container into the inflatable member in response to a signal indicative of malfunction of the unmanned aerial vehicle; and</claim-text>
+<claim-text>a deactivatable safety mechanism that, unless deactivated, prevents inflation of the inflatable member, wherein the safety mechanism is deactivated by a safety signal indicating that the unmanned aerial vehicle is airborne.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the compressed gas is carbon dioxide.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein a volume of the container is less than or equal to 0.001 m<sup>3</sup>.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein a pressure of the compressed gas when in the container is greater than or equal to 0.2&#xd7;10<sup>6 </sup>Pa.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the control mechanism comprises a valve configured to control flow of the compressed gas into the inflatable member.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the control mechanism comprises an accelerometer configured to detect an acceleration of the unmanned aerial vehicle that is outside a predetermined range and is indicative of the malfunction.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The impact protection apparatus of <claim-ref idref="CLM-00006">claim 6</claim-ref> wherein the accelerometer is configured to detect an acceleration of the unmanned aerial vehicle indicative of the unmanned aerial vehicle being in a free fall condition.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the signal indicative of malfunction is generated from the unmanned aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the signal indicative of malfunction is generated from an external device in communication with the unmanned aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. An unmanned aerial vehicle, the vehicle comprising:
+<claim-text>a vehicle body;</claim-text>
+<claim-text>the impact protection apparatus of <claim-ref idref="CLM-00001">claim 1</claim-ref> coupled to the vehicle body; and</claim-text>
+<claim-text>one or more propulsion units coupled to the vehicle body and configured to propel the vehicle body.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The aerial vehicle of <claim-ref idref="CLM-00010">claim 10</claim-ref>, wherein the unmanned aerial vehicle is a rotorcraft.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. A method for protecting an unmanned aerial vehicle from an impact, the method comprising:
+<claim-text>providing an inflatable member coupled to the unmanned aerial vehicle;</claim-text>
+<claim-text>receiving a safety signal indicating the unmanned aerial vehicle is airborne;</claim-text>
+<claim-text>deactivating, in response to the safety signal, a deactivatable safety mechanism that, unless deactivated, prevents inflation of the inflatable member;</claim-text>
+<claim-text>causing, in response to a signal indicative of malfunction of the unmanned aerial vehicle and by means of a control mechanism powered independently from the unmanned aerial vehicle, a compressed gas to flow into the inflatable member; and</claim-text>
+<claim-text>effecting inflation of the inflatable member by the flow of the compressed gas to reduce forces experienced by the unmanned aerial vehicle during the impact.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The method of <claim-ref idref="CLM-00012">claim 12</claim-ref> further comprising powering the control mechanism by a power source separate from that providing power to the one or more propulsion units of the unmanned aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The method of <claim-ref idref="CLM-00012">claim 12</claim-ref> further comprising powering the control mechanism by a power source separate from that providing power to a flight control system of the unmanned aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The method of <claim-ref idref="CLM-00012">claim 12</claim-ref> wherein the control mechanism comprises an accelerometer configured to detect an acceleration of the unmanned aerial vehicle that is outside a predetermined range and is indicative of the malfunction.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The method of <claim-ref idref="CLM-00012">claim 12</claim-ref> further comprising detecting, using a motion sensor from an inertial measurement unit, a loss of stability of the unmanned aerial vehicle that is indicative of the malfunction.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The method of <claim-ref idref="CLM-00012">claim 12</claim-ref> further comprising responding, with aid of the control mechanism, to a loss of power of the unmanned aerial vehicle that is indicative of the malfunction.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. An impact protection apparatus for an unmanned aerial vehicle, the apparatus comprising:
+<claim-text>an inflatable member configured to be coupled to the unmanned aerial vehicle, wherein said inflatable member is inflatable to reduce forces experienced by the unmanned aerial vehicle during an impact;</claim-text>
+<claim-text>a container coupled to the inflatable member, said container comprising compressed gas;</claim-text>
+<claim-text>a control mechanism is configured to cause the compressed gas to flow from the container into the inflatable member, in response to a signal indicative of malfunction of said unmanned aerial vehicle; and</claim-text>
+<claim-text>a deactivatable safety mechanism that, unless deactivated, prevents inflation of the inflatable member, wherein the safety mechanism is deactivated by (1) an automated electronic signal provided by a flight control system of the unmanned aerial vehicle or (2) an electronic signal from a remote terminal configured to accept a user input.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The impact protection apparatus of <claim-ref idref="CLM-00018">claim 18</claim-ref> wherein the signal is indicative of malfunction of a member selected from the group consisting of one or more propulsion units of the aerial vehicle, a flight control system of the aerial vehicle, and a power source providing power to the aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The impact protection apparatus of <claim-ref idref="CLM-00018">claim 18</claim-ref> wherein the safety mechanism comprises a pin and deactivation of the safety mechanism comprises removal of the pin.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. The impact protection apparatus of <claim-ref idref="CLM-00020">claim 20</claim-ref> wherein the pin is configured to be removed by a user prior to operation of the unmanned aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text>22. The impact protection apparatus of <claim-ref idref="CLM-00018">claim 18</claim-ref> wherein the safety mechanism is deactivated by a safety signal indicating that the unmanned aerial vehicle is in operation.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text>23. The impact protection apparatus of <claim-ref idref="CLM-00022">claim 22</claim-ref> wherein the safety signal is provided by a flight control system of the unmanned aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text>24. An unmanned aerial vehicle, the vehicle comprising:
+<claim-text>a vehicle body;</claim-text>
+<claim-text>the impact protection apparatus of <claim-ref idref="CLM-00018">claim 18</claim-ref> coupled to the vehicle body; and</claim-text>
+<claim-text>one or more propulsion units coupled to the vehicle body and configured to propel the vehicle body.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text>25. A method for protecting an unmanned aerial vehicle from an impact, the method comprising:
+<claim-text>providing an inflatable member coupled to the unmanned aerial vehicle;</claim-text>
+<claim-text>receiving a safety signal from (1) a flight control system of the unmanned aerial vehicle or (2) a remote terminal configured to accept a user input;</claim-text>
+<claim-text>deactivating, in response to the safety signal, a deactivatable safety mechanism that, unless deactivated, prevents inflation of the inflatable member;</claim-text>
+<claim-text>causing, in response to a signal indicative of a malfunction of the aerial vehicle, a compressed gas to flow from said container into the inflatable member; and</claim-text>
+<claim-text>effecting inflation of the inflatable member by the flow of the compressed gas to reduce forces experienced by the unmanned aerial vehicle during the impact.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text>26. The method of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the compressed gas is caused to flow using a valve.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text>27. The method of <claim-ref idref="CLM-00026">claim 26</claim-ref> further comprising powering the valve by a power source separate from that providing power to one or more propulsion units of the unmanned aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text>28. The method of <claim-ref idref="CLM-00026">claim 26</claim-ref> further comprising powering the valve by a power source separate from that providing power to a flight control system of the aerial vehicle.</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text>29. The method of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the safety mechanism comprises a pin and deactivation of the safety mechanism comprises removal of the pin.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text>30. The method of <claim-ref idref="CLM-00029">claim 29</claim-ref> further comprising removing the pin by a user prior to operation of the unmanned aerial vehicle.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

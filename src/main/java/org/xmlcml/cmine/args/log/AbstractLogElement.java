@@ -1,8 +1,10 @@
 package org.xmlcml.cmine.args.log;
 
 import java.io.ByteArrayOutputStream;
+
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.List;
 
 import nu.xom.Attribute;
@@ -147,19 +149,19 @@ public class AbstractLogElement extends Element {
 
 	public void info(String message) {
 		if (LogLevel.INFO.getLevelNumber() >= currentLevel.getLevelNumber()) {
-			addMethodNameAddMessageAndAppend(new InfoElement(), message);
+//			addMethodNameAddMessageAndAppend(new InfoElement(), message);
 		}
 	}
 
 	public void debug(String message) {
 		if (LogLevel.DEBUG.getLevelNumber() >= currentLevel.getLevelNumber()) {
-			addMethodNameAddMessageAndAppend(new DebugElement(), message);
+//			addMethodNameAddMessageAndAppend(new DebugElement(), message);
 		}
 	}
 
 	public void trace(String message) {
 		if (LogLevel.TRACE.getLevelNumber() >= currentLevel.getLevelNumber()) {
-			addMethodNameAddMessageAndAppend(new TraceElement(), message);
+//			addMethodNameAddMessageAndAppend(new TraceElement(), message);
 		}
 	}
 
@@ -170,7 +172,7 @@ public class AbstractLogElement extends Element {
 				ByteArrayOutputStream baos = new ByteArrayOutputStream();
 				XMLUtil.debug(this, baos, 1);
 				LOG.trace(">>"+this.toXML());
-				FileUtils.write(file, baos.toString());
+				FileUtils.write(file, baos.toString(), Charset.forName("UTF-8"));
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot write LOG: ", e);
 			}

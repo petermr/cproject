@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979069-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979069</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14122133</doc-number>
+<date>20120507</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>GB</country>
+<doc-number>1109131.1</doc-number>
+<date>20110527</date>
+</priority-claim>
+</priority-claims>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>25</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>1</main-group>
+<subgroup>38</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>25</main-group>
+<subgroup>005</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>F</section>
+<class>16</class>
+<subclass>K</subclass>
+<main-group>1</main-group>
+<subgroup>38</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>251332</main-classification>
+<further-classification>251357</further-classification>
+<further-classification>251368</further-classification>
+</classification-national>
+<invention-title id="d2e61">Solids-handling equipment</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3419041</doc-number>
+<kind>A</kind>
+<name>Jennings</name>
+<date>19681200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251368</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4006883</doc-number>
+<kind>A</kind>
+<name>Hilsheimer</name>
+<date>19770200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4202556</doc-number>
+<kind>A</kind>
+<name>Makishima et al.</name>
+<date>19800500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>4315616</doc-number>
+<kind>A</kind>
+<name>Welker</name>
+<date>19820200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251332</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>4337920</doc-number>
+<kind>A</kind>
+<name>Parris</name>
+<date>19820700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251357</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>4474358</doc-number>
+<kind>A</kind>
+<name>Bennett</name>
+<date>19841000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5052435</doc-number>
+<kind>A</kind>
+<name>Crudup et al.</name>
+<date>19911000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251332</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6776392</doc-number>
+<kind>B1</kind>
+<name>Reilly</name>
+<date>20040800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251357</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6793198</doc-number>
+<kind>B2</kind>
+<name>Robison et al.</name>
+<date>20040900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>251357</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>2009/0065073</doc-number>
+<kind>A1</kind>
+<name>Davis</name>
+<date>20090300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>CH</country>
+<doc-number>670138</doc-number>
+<kind>A5</kind>
+<date>19890500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>GB</country>
+<doc-number>2109900</doc-number>
+<kind>A</kind>
+<date>19830600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>GB</country>
+<doc-number>2137736</doc-number>
+<kind>A</kind>
+<date>19841000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>WO</country>
+<doc-number>2007/150000</doc-number>
+<kind>A2</kind>
+<date>20071200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00015">
+<othercit>International Search Report, International Patent Application No. PCT/IB2012/052255, dated Aug. 15, 2012, 2 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00016">
+<othercit>International Preliminary Report on Patentability, International Patent Application No. PCT/IB2012/052255, dated May 14, 2013, 15 pages.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>13</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>251332</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251333</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251357</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>251368</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>5</number-of-drawing-sheets>
+<number-of-figures>5</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140124692</doc-number>
+<kind>A1</kind>
+<date>20140508</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Baumann</last-name>
+<first-name>Paul Smit</first-name>
+<address>
+<city>Johannesburg</city>
+<country>ZA</country>
+</address>
+</addressbook>
+<residence>
+<country>ZA</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Francis</last-name>
+<first-name>Daniel</first-name>
+<address>
+<city>Johannesburg</city>
+<country>ZA</country>
+</address>
+</addressbook>
+<residence>
+<country>ZA</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Baumann</last-name>
+<first-name>Paul Smit</first-name>
+<address>
+<city>Johannesburg</city>
+<country>ZA</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Francis</last-name>
+<first-name>Daniel</first-name>
+<address>
+<city>Johannesburg</city>
+<country>ZA</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Fitch Even Tabin &#x26; Flannery LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Sasol Technology (Proprietary) Limited</orgname>
+<role>03</role>
+<address>
+<city>Johannesburg</city>
+<country>ZA</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Bastianelli</last-name>
+<first-name>John</first-name>
+<department>3753</department>
+</primary-examiner>
+</examiners>
+<pct-or-regional-filing-data>
+<document-id>
+<country>WO</country>
+<doc-number>PCT/IB2012/052255</doc-number>
+<kind>00</kind>
+<date>20120507</date>
+</document-id>
+<us-371c124-date>
+<date>20131125</date>
+</us-371c124-date>
+</pct-or-regional-filing-data>
+<pct-or-regional-publishing-data>
+<document-id>
+<country>WO</country>
+<doc-number>WO2012/164415</doc-number>
+<kind>A </kind>
+<date>20121206</date>
+</document-id>
+</pct-or-regional-publishing-data>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A closure component for solids-handling equipment includes a closure body configured to close a solids flow path by displacement of the closure body along a stroke axis and a removable metallic sealing element attached to the closure body. The metallic sealing element is configured sealingly to engage an endless metallic seat spaced radially outwardly from the stroke axis when the closure body closes the solids flow path. The closure body includes or defines at least one locating formation to engage and locate the metallic sealing element. The least one locating formation is positioned radially outwardly from the stroke axis and more radially outwardly from the stroke axis than at least a portion of the metallic sealing element so that at least a portion of the metallic sealing element is positioned between the locating formation and the stroke axis, thereby correctly to locate the metallic sealing element in position relative to the closure body or relative to the stroke axis during fitting of the metallic sealing element to the closure body.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="260.01mm" wi="153.25mm" file="US08979069-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="259.67mm" wi="173.82mm" file="US08979069-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="262.55mm" wi="157.90mm" file="US08979069-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="145.03mm" wi="136.14mm" file="US08979069-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="212.43mm" wi="185.84mm" file="US08979069-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="219.20mm" wi="181.10mm" file="US08979069-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">This application is a national phase application of International Application No. PCT/IB2012/052255, filed May 7, 2012, designating the United States and claiming priority to Great Britain Patent Application No. 1109131.1, filed May 27, 2011, both of which are incorporated by reference as if fully rewritten herein.</p>
+<p id="p-0003" num="0002">THIS INVENTION relates to solids-handling equipment. In particular, the invention relates to a closure component for solids-handling equipment, and to a solids-handling closure assembly.</p>
+<p id="p-0004" num="0003">For some solids-handling equipment, such as a Sasol-Lurgi (trade name) or a Sasol&#xae; FBDB (trade name) gasifier, it is necessary intermittently or continuously to load and unload particulate material, such as particulate carbonaceous material (e.g. coal) and ash. Thus, for example, in the case of a pressurised gasifier (e.g. a fixed bed dry bottom gasifier), particulate carbonaceous feedstock is loaded into the gasifier, and gasified at elevated temperatures and pressures, and after gasification any remaining ungasified material is removed from the gasifier as ash and passed into a pressurized ash lock. The ash lock is then sealed off from the gasifier, depressurized and the ash removed. To ensure the continuing operation of the pressurised gasifier during the depressurizing of the ash lock, it is important that a pressure seal is maintained between the pressurised gasifier and the ash lock. Similar arrangements may also be used in other pressurised solids-handling equipment.</p>
+<p id="p-0005" num="0004">In the current state of the art, a pressure seal between the pressurised gasifier and the ash lock is achieved with a valve assembly or solids-handling closure assembly comprising of two primary sub-assemblies or assembled components, namely a closure component (typically a conical valve closure body or cone) for closing off a solids flow path, and a separate seat component defining a metallic seat for the closure component. The seat component typically remains stationery while the closure component is hydraulically actuated (typically up and down in a vertical plane) between open and closed conditions, along a common centre line of the closure component and the seat component. Apart from providing a metal-to-metal pressure seal when in the closed condition when a differential pressure is present across the valve assembly, the valve assembly also serves to control material flow through the valve assembly.</p>
+<p id="p-0006" num="0005">In the prior art, the closure component typically includes a closure body in the form of a circular disk-shaped forging with a conical capped section of a diameter larger than a seat bore, connected to a tie rod which serves as a linkage to a hydraulic actuation system. Due to the severe process conditions (an operating pressure of up to about 100 bar(g) and an operating temperature up to 600&#xb0; C.) and abrasiveness of the ash flowing through the valve assembly, a sealing element in the form of a separate tungsten carbide ring is provided on an outer periphery of the closure body, the ring interfacing with a similar tungsten carbide ring of the seat component to create metal seal surfaces. When the closure component is actuated from an open condition to a closed condition, a pressure seal is thus created by metal-to-metal contact between the surfaces of the tungsten carbide rings of the closure component and the seat component respectively.</p>
+<p id="p-0007" num="0006">With the prior art valve assembly, occasions arise where the pressure seal cannot be maintained due to gas leakage through the valve assembly. In extreme cases, this results in shutdown of the equipment (e.g. a gasifier), which is clearly undesirable as it may severely impact on production levels and income generated from the equipment. The prior art design thus results in inefficient operation and reduction or mitigation of this inefficiency would be beneficial.</p>
+<p id="p-0008" num="0007">Investigations have revealed that leakage through the valve assembly is partly due to problems associated with the design of the closure component and not the seat component. Brittle fracture of the tungsten carbide ring of the closure component occurs as a result of stress induced in the ring, which in turn is caused by differential thermal expansion of the closure body and the tungsten carbide ring. The ring grows at a lesser rate than the closure body due to disparate material properties. Stress is also induced in the tungsten carbide ring of the closure component due to deflection of the tungsten carbide ring of the closure component on impact with the tungsten carbide ring of the seat component, in many cases due to poor retention of the tungsten carbide ring of the closure component in a correct position on the closure body. Furthermore, a leak path often develops between the closure body and the tungsten carbide ring, most likely as a result of said differential thermal expansion and said poor retention of the tungsten carbide ring on the closure body.</p>
+<p id="p-0009" num="0008">The inventors are aware of GB 2137736, GB 2109900 and U.S. Pat. No. 4,474,358, all of which relate to conventional taps and faucets. The inventors are also aware of U.S. Pat. No. 4,006,883 which relates to butterfly valves. These valves are all used in fluid service (i.e. liquid or gas service) and employ a resilient, typically non-metallic seal to provide a pressure tight seal across a fluid flow path. None of these prior art valves is suitable for handling solids flow and none of these references is directed at solving problems associated with metal-to-metal sealing surfaces.</p>
+<p id="p-0010" num="0009">According to one aspect of the invention, there is provided a closure component for solids-handling equipment, the closure component including
+<ul id="ul0001" list-style="none">
+    <li id="ul0001-0001" num="0000">
+    <ul id="ul0002" list-style="none">
+        <li id="ul0002-0001" num="0010">a closure body configured to close a solids flow path by displacement of the closure body along a stroke axis; and</li>
+        <li id="ul0002-0002" num="0011">a removable metallic sealing element attached to the closure body and configured sealingly to engage an endless metallic seat spaced radially outwardly from the stroke axis when the closure body closes said solids flow path,</li>
+        <li id="ul0002-0003" num="0012">the closure body including or defining at least one locating formation to engage and locate the metallic sealing element, said at least one locating formation being positioned radially outwardly from the stroke axis and more radially outwardly from the stroke axis than at least a portion of the metallic sealing element so that at least a portion of the metallic sealing element is positioned between the locating formation and the stroke axis, thereby correctly to locate the metallic sealing element in position relative to the closure body or relative to the stroke axis during fitting of the metallic sealing element to the closure body.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0011" num="0013">In this specification, the term &#x201c;component&#x201d; is thus intended to include an assembled component comprising more than one part, such as a closure component comprising at least a closure body and a sealing element.</p>
+<p id="p-0012" num="0014">Typically, the closure component is configured to close a flow path which is circular in transverse cross section by plugging the flow path.</p>
+<p id="p-0013" num="0015">Advantageously, the presence of one or more locating formations positioned more radially outwardly from the stroke axis than a portion or portions of the sealing element allows the correct positioning of the sealing element, which is typically annular, concentric with the closure body, which is typically circular in plan, at room temperature during assembly of the closure component.</p>
+<p id="p-0014" num="0016">Typically, there is no locating formation radially inwardly of the metallic sealing element such that radially outward displacement of the locating formation as a result of heat expansion of the closure body is inhibited by the presence of the metallic sealing element.</p>
+<p id="p-0015" num="0017">As will be appreciated, with a locating formation as described, outward displacement of the locating formation from a centre of the closure body, i.e. away from the stroke axis, at the operating temperature of the closure component is greater than the outward displacement of the portion of the metallic sealing element between the locating formation and the stroke axis, when the metallic sealing element expands at a lesser rate than the closure body due to disparate material properties. The at least one locating formation thus does not interfere with the metallic sealing element during heat expansion and does not cause stress on the metallic sealing element during heat expansion. Stress induced brittle fracture of the metallic sealing element due to differential expansion is therefore inhibited or prevented.</p>
+<p id="p-0016" num="0018">The metallic sealing element may have an outer periphery circumnavigating the stroke axis and spaced from the stroke axis, with said at least one locating formation being adjacent said outer periphery.</p>
+<p id="p-0017" num="0019">The metallic sealing element may thus have a circular outer periphery, and the at least one locating formation may be in the form of an annular locating surface defined by the closure body, the locating surface defined by the closure body having a diameter marginally greater than that of an annular locating surface of the metallic sealing element, at room temperature. The locating surface of the metallic sealing element may be defined by the outer periphery of the metallic sealing element.</p>
+<p id="p-0018" num="0020">The metallic sealing element may be annular and the closure body may define an annular recess to receive the annular metallic sealing element.</p>
+<p id="p-0019" num="0021">A width of the annular recess taken in a radial direction relative to the stroke axis may be greater than a width of the annular metallic sealing element taken in a radial direction relative to the stroke axis so that, when the annular metallic sealing element is located in the annular recess, the metallic sealing element is abutting against a radially outer periphery of the annular recess, whilst the metallic sealing element is spaced from a radially inner periphery of the annular recess. Thus, preferably, the radially inner periphery of the annular recess is not in contact with the metallic sealing element, at least at room temperature, providing an expansion space for the closure body at the operating temperature of the closure component.</p>
+<p id="p-0020" num="0022">Typically, the closure body, or at least a portion of the closure body in contact with the metallic sealing element, is of graphite-cast iron or ductile iron, and is typically in the form of a disc-shaped forged body with a diameter in plan larger than the seat for the closure component. This metallic sealing element is typically of tungsten carbide and, as indicated hereinbefore, is typically in the form of a ring.</p>
+<p id="p-0021" num="0023">The closure component may include a seal between the closure body and the metallic sealing element. Typically, the seal circumnavigates or extends around the stroke axis. The seal is preferably endless, providing at least one endless seal surface. Also typically, the seal is spaced from the stroke axis.</p>
+<p id="p-0022" num="0024">The seal may be located in an annular recess defined in at least one of the closure body and the metallic sealing element and located between the closure body and the metallic sealing element. Typically, the annular recess is concentric with the stroke axis.</p>
+<p id="p-0023" num="0025">The seal may be in the form of a hollow metal ring with one or more openings so that an interior volume of the ring is open to the immediate environment of the seal. In one embodiment of the invention, the seal is in the form of a metal C-ring.</p>
+<p id="p-0024" num="0026">As will be appreciated, the seal in use typically separates a higher pressure side of the closure component from a lower pressure side of the closure component. Said one or more openings of the seal may be on the higher pressure side of the closure component so that the interior volume of the seal is potentially exposed to the higher pressure.</p>
+<p id="p-0025" num="0027">Advantageously, the seal provides an active seal between surfaces of the closure body and the metallic sealing element. A hollow seal such as a C-ring has the ability to retain its shape both by virtue of material memory and the fact that its inner volume is open to the environment, which allows the hollow seal to expand with increasing pressure. Constant contact is thus established between the seal and the closure body and between the seal and the metallic sealing element. As a result, limited relative movement of parts of the closure component, e.g. the closure body and the metallic sealing element, can be accommodated, e.g. under impact when the closure component slams shut to close the solids flow path. Stress induced in the metallic sealing element due to deflection of the metallic sealing element on impact when the closure component is seated is accordingly reduced.</p>
+<p id="p-0026" num="0028">The metallic sealing element may be held in place against the closure body by a retaining element which bears against the metallic sealing element but which does not pass through the metallic sealing element.</p>
+<p id="p-0027" num="0029">The retaining element may be attached to the closure body radially inwardly from the metallic sealing element, thus extending radially outwardly over a portion of the closure body from where it is attached to the closure body to reach the metallic sealing element.</p>
+<p id="p-0028" num="0030">Preferably, the retaining element is spaced from the closure body so that there is no direct contact between the retaining element and the closure body. Typically, fasteners such as bolts are used to attach the retaining element to the closure body with the retaining element being annular and spaced from the closure body where it extends or spans over the closure body.</p>
+<p id="p-0029" num="0031">Advantageously, in a preferred embodiment of the invention, only a radially outer peripheral portion of the retaining element contacts the metallic sealing element, with no contact between the retaining element and the closure body where the retaining element is attached to the closure body. This configuration provides a spring effect which limits differences in the seating load between the metallic sealing element and the closure body at atmospheric temperature on the one hand, and at elevated operating temperature for the closure component on the other hand, thereby inhibiting or preventing stress induced due to the metallic sealing element deforming or buckling when the closure component is seated to close the solids flow path.</p>
+<p id="p-0030" num="0032">According to another aspect of the invention, there is provided a solids-handling closure assembly which includes
+<ul id="ul0003" list-style="none">
+    <li id="ul0003-0001" num="0000">
+    <ul id="ul0004" list-style="none">
+        <li id="ul0004-0001" num="0033">a closure component displaceable between a closed condition and an open condition to close or open a solids flow path; and</li>
+        <li id="ul0004-0002" num="0034">a seat component providing a metallic seat for the closure component when in the closed condition,</li>
+        <li id="ul0004-0003" num="0035">wherein the closure component is a closure component as hereinbefore described.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0031" num="0036">Typically, a tungsten carbide ring forms the metallic seat and defines a seat surface where the tungsten carbide ring of the closure component and the tungsten carbide ring of the seat component meet to close the solids flow path and form a seal between the metal-to-metal contact of the tungsten carbide rings.</p>
+<p id="p-0032" num="0037">Typically, the solids-handling closure assembly includes an actuator connected to the closure component, the actuator extending along the solids flow path and passing through the seat component.</p>
+<p id="p-0033" num="0038">The solids-handling closure assembly may form part of a pressurised gasifier for gasification of particulate carbonaceous material, e.g. a fixed bed dry bottom gasifier. In particular, the solids-handling closure assembly may form part of an ash lock valve assembly of a pressurised gasifier. In principle, the solids-handling closure assembly can also be employed as a feedstock closure mechanism for a pressurised gasifier, or in other pressurised equipment or vessels handling solids material at elevated temperatures, e.g. combustion apparatus, pyrolysis apparatus, fluidised bed gasification apparatus, food processing apparatus and bulk material handling equipment for agricultural products or ore beneficiation.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<p id="p-0034" num="0039">The invention will now be described by way of example with reference to the accompanying diagrammatic drawings in which</p>
+<p id="p-0035" num="0040"><figref idref="DRAWINGS">FIG. 1</figref> shows a vertically-sectioned side view of a prior art closure component for a solids-handling closure assembly for solids-handling equipment;</p>
+<p id="p-0036" num="0041"><figref idref="DRAWINGS">FIG. 2</figref> shows a vertically-sectioned side view of a closure component for a solids-handling closure assembly for solids-handling equipment, in accordance with the invention;</p>
+<p id="p-0037" num="0042"><figref idref="DRAWINGS">FIG. 3</figref> shows a bottom view of the closure component of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="p-0038" num="0043"><figref idref="DRAWINGS">FIG. 4</figref> shows a vertically-sectioned side view of a solids-handling closure assembly for solids-handling equipment, which includes the closure component of <figref idref="DRAWINGS">FIG. 2</figref>, in an open condition; and</p>
+<p id="p-0039" num="0044"><figref idref="DRAWINGS">FIG. 5</figref> shows a vertically-sectioned side view of the solids-handling closure assembly of <figref idref="DRAWINGS">FIG. 4</figref>, in a closed condition.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="p-0040" num="0045">Referring to <figref idref="DRAWINGS">FIG. 1</figref> of the drawings, reference numeral <b>100</b> generally indicates a conventional or prior art closure component or sub-assembly for a solids-handling closure assembly for solids-handling equipment. The closure component <b>100</b> shown in <figref idref="DRAWINGS">FIG. 1</figref> is intended for use as part of an ash lock valve assembly in a fixed bed dry bottom pressurized gasifier.</p>
+<p id="p-0041" num="0046">The closure component <b>100</b> includes a closure body <b>12</b> with a removably attached metallic sealing element <b>14</b> attached to the closure body <b>12</b> by a retaining element or clamping ring <b>16</b> bolted to the closure body <b>12</b> by means of a plurality of bolts <b>18</b> arranged concentrically about a centre axis or stroke axis <b>20</b> of the closure component <b>100</b>.</p>
+<p id="p-0042" num="0047">The closure body <b>12</b>, in the embodiment illustrated in <figref idref="DRAWINGS">FIG. 1</figref>, includes a carrier body <b>22</b> and a cone-shaped end piece <b>24</b> welded to the carrier body <b>22</b>. A pair of lifting lugs <b>26</b> is provided on the cone-shaped end piece <b>24</b>. In other embodiments of prior art closure components for solids-handling equipment, the cone-shaped end piece <b>24</b> and the carrier body <b>22</b> are integrally formed, e.g. as a forged body.</p>
+<p id="p-0043" num="0048">The closure component <b>100</b> is intended to close off a solids flow path which is circular in transverse cross-section, at least where the closure component closes off the solids flow path and the closure component <b>100</b> is thus also circular in plan. The carrier body <b>22</b> is typically of graphite cast iron or ductile iron and the metallic sealing element <b>14</b> is typically an annular tungsten carbide ring. Also the retaining element <b>16</b> is of a metal or alloy that can handle high operating temperatures and is annular. The retaining element <b>16</b> bears against the carrier body <b>22</b> where the bolts <b>18</b> pass through the retaining element <b>16</b>, as well as against the metallic sealing element <b>14</b> to retain the metallic sealing element <b>14</b> in position. The bolts <b>18</b> thus do not pass through the metallic sealing element <b>14</b>.</p>
+<p id="p-0044" num="0049">The carrier body <b>22</b> defines a locating formation, in the form of an annular surface <b>28</b> positioned radially inwardly from the metallic sealing element <b>14</b>, which can be used to position the metallic sealing element <b>14</b> during assembly of the closure component <b>100</b>. The annular surface <b>28</b> is in turn defined by a step formation in the carrier body <b>22</b>. The locating formation, defined by the annular surface <b>28</b>, is thus located between the stroke axis <b>20</b> and the metallic sealing element <b>14</b>.</p>
+<p id="p-0045" num="0050">The closure component <b>100</b> in use cooperates with a seat component (not shown) providing an annular metallic seat for the closure component <b>100</b>. Typically, the seat components remain stationery while the closure component <b>100</b> is hydraulically actuated between open and closed conditions, along the stroke axis <b>20</b>, in a vertical plane. The stroke axis <b>20</b> thus typically defines a common centre axis for the closure component <b>100</b> and the seat component, and thus for a valve assembly comprising the closure component <b>100</b> and the seat component as sub-assemblies. The seat component typically includes a separate tungsten carbide ring similar to the metallic sealing element <b>14</b>, with the separate tungsten carbide ring defining the metallic seat for the closure component <b>100</b>. In use, the two tungsten carbide rings define seal surfaces. When the closure component <b>100</b> is actuated from an open condition to a closed condition, a pressure seal is thus created by metal-to-metal contact between the seal surfaces of the tungsten carbide rings of the closure component <b>100</b> and the seat component respectively.</p>
+<p id="p-0046" num="0051">Advantageously, tungsten carbide is hard enough to provide extended resistance to wear induced by flow of particulate abrasive material over surfaces of the tungsten carbide rings, to provide erosion resistance in the face of high velocity steam flow, and to cut through a solid particle caught between the tungsten carbide rings.</p>
+<p id="p-0047" num="0052">Typically, the diameter of the closure component <b>100</b> is larger than a diameter of a seat bore defined by the tungsten carbide ring of the seat component.</p>
+<p id="p-0048" num="0053">The conical shape of the cone-shaped end piece <b>24</b> prevents collection of material on top of the closure component <b>100</b> when the closure component <b>100</b> is in the closed condition and thus prevents ingress of material in between the metallic sealing element <b>14</b> and the metallic seat when the closure component <b>100</b> moves from the open condition to the closed condition.</p>
+<p id="p-0049" num="0054">A tie rod <b>30</b> is attached to the carrier body <b>22</b> by means of a collar <b>32</b>. The tie rod <b>30</b> is typically hydraulically actuated thereby to displace the closure component <b>100</b> between its closed condition and its open condition.</p>
+<p id="p-0050" num="0055">In high temperature, high pressure abrasive applications of the closure component <b>100</b>, such as application as part of a valve assembly in an ash lock for a fixed bed dry bottom gasifier, occasions arise where the pressure seal between the metallic sealing element <b>14</b> and the tungsten carbide ring of the seat component cannot be maintained so that gas leaks through the valve assembly. This is believed to be due partly to problems associated with the design of the prior art closure component <b>100</b>, which sometimes results also in the establishment of leak paths between the carrier body <b>22</b> and the metallic sealing element <b>14</b>. The valve assembly is thus unable always to maintain a pressure seal between the gasifier and the ash lock when in a closed condition.</p>
+<p id="p-0051" num="0056">Referring to <figref idref="DRAWINGS">FIG. 2</figref> of the drawings, reference numeral <b>10</b> generally indicates a closure component for solids-handling equipment, in accordance with the invention. Many parts or features of the closure component <b>10</b> are similar to the parts or features of the closure component <b>100</b> and unless otherwise indicated, the same reference numerals are thus used to indicate the same or similar parts or features.</p>
+<p id="p-0052" num="0057">A distinct difference between the closure component <b>10</b> and the closure component <b>100</b>, which is immediately apparent from <figref idref="DRAWINGS">FIG. 2</figref> of the drawings, is that the closure body <b>12</b>, more particularly the carrier body <b>22</b> of the closure component <b>10</b> has a peripheral annular lip <b>34</b> defining an annular locating surface <b>36</b> radially outwardly from the stroke axis <b>20</b> and more radially outwardly from the stoke axis <b>20</b> than the metallic sealing element <b>14</b>. The metallic sealing element <b>14</b> is thus located or positioned between the lip <b>34</b> and the annular locating surface <b>36</b> on the one hand, and the stroke axis <b>20</b> on the other hand. The annular locating surface <b>36</b> is used to locate the metallic sealing element <b>14</b> in position relative to the closure body <b>12</b> during fitting of the metallic sealing element <b>14</b> to the closure body <b>12</b>, which, as will be appreciated, is usually done at room temperature.</p>
+<p id="p-0053" num="0058">Although, in the embodiment of the closure component <b>10</b> illustrated in <figref idref="DRAWINGS">FIG. 2</figref>, a circular or disc-shaped portion <b>38</b> of the closure body <b>12</b> is located between the metallic sealing element <b>14</b> and the stroke axis <b>20</b>, the portion <b>38</b> is spaced from the metallic sealing element <b>14</b> thus allowing for radially outward expansion of the portion <b>38</b> without the metallic sealing element <b>14</b> interfering with such expansion. Radially outward displacement of the portion <b>38</b> as a result of heat expansion is thus not inhibited or prevented by the presence of the metallic sealing element <b>14</b> clamped to the carrier body <b>22</b>. Expansion of the portion <b>38</b> will thus not cause stress in the metallic sealing element <b>14</b> and brittle fracture of the metallic sealing element <b>14</b>, which is a common problem of the prior art closure component <b>100</b>, will thus be reduced or eliminated.</p>
+<p id="p-0054" num="0059">Heat expansion of the carrier body <b>22</b> is typically greater than heat expansion of the metallic sealing element <b>14</b>, at the typical operating temperatures of the closure component <b>10</b>, in view of the disparate properties of the cast iron or ductile iron carrier body <b>22</b> and the tungsten carbide sealing element <b>14</b>. As will be appreciated, the carrier body <b>22</b> thus expands at a greater rate than the metallic sealing element <b>14</b> and the radially outward positioning of a locating formation, in the form of the annular locating surface <b>36</b>, is thus important to prevent or inhibit brittle fracture of the tungsten carbide sealing element <b>14</b> as a result of differential thermal expansion of the carrier body <b>22</b> and the metallic sealing element <b>14</b>.</p>
+<p id="p-0055" num="0060">An outer diameter of the annular metallic sealing element <b>14</b> is only marginally smaller than an inner diameter of the lip <b>34</b>, i.e. the diameter of the annular locating surface <b>36</b>, so that during assembly of the closure component <b>10</b> the metallic sealing element <b>14</b> fits snugly against the lip <b>34</b>. It is thus easy correctly to position the annular metallic sealing element <b>14</b> concentric with the carrier body <b>22</b> so that the stroke axis <b>20</b> defines a common centre axis for the carrier body <b>22</b> and the metallic sealing element <b>14</b>, during assembly of the closure component <b>10</b> at room temperature.</p>
+<p id="p-0056" num="0061">Between the annular, peripheral lip <b>34</b> and the disc-shaped portion <b>38</b> of the carrier body <b>22</b>, an annular recess <b>40</b> is defined within which the metallic sealing element <b>14</b> is received. As can however clearly be seen from <figref idref="DRAWINGS">FIG. 2</figref>, a width of the recess <b>40</b>, taken in a radial direction relative to the stroke axis <b>20</b>, is greater than a width of the annular metallic sealing element <b>14</b>, also taken in a radial direction relative to the stroke axis <b>20</b>. There is thus significant clearance between the metallic sealing element <b>14</b> and the portion <b>38</b>, allowing for radially outward expansion of the portion <b>38</b>, whereas the metallic sealing element <b>14</b> abuts against the lip <b>34</b>.</p>
+<p id="p-0057" num="0062">The carrier body <b>22</b> defines a further annular recess <b>42</b>, radially inwardly from the lip <b>34</b> and radially outwardly from the portion <b>38</b>, in a plane above the metallic sealing element <b>14</b>. An inner diameter of the recess <b>42</b> is larger than an inner diameter of the metallic sealing element <b>14</b>, whereas an outer diameter of the recess <b>42</b> is smaller than an outer diameter of the metallic sealing element <b>14</b>. The annular recess <b>42</b> is thus located above the metallic sealing element <b>14</b>, between the metallic sealing element <b>14</b> and the carrier body <b>22</b>.</p>
+<p id="p-0058" num="0063">A seal <b>44</b> is located in the annular recess <b>42</b>. The seal <b>44</b> is in the form of a metal C-ring which opens radially outwardly. The seal <b>44</b> is in contact with both the carrier body <b>22</b> and the annular metallic sealing element <b>14</b>. An interior volume of the seal <b>44</b> is thus open to the annular recess <b>42</b>, on a radially outward periphery or side of the annular recess <b>42</b>. In use, the radially outward periphery or side of the annular recess <b>42</b> can potentially be exposed to a higher pressure side of the closure component <b>10</b>, e.g. if a leak path develops between the metallic sealing element <b>14</b> and the carrier body <b>22</b>. Typically, in application as part of a valve assembly for an ash lock, a higher pressure side of the closure component <b>10</b> is above the closure component <b>10</b>, with a lower pressure side of the closure component <b>10</b> being below the closure component <b>10</b>, with the metallic sealing element <b>14</b> separating the higher pressure and lower pressure sides of the closure component <b>10</b> in the closed condition of the closure component <b>10</b> where there is metal-to-metal contact between the metallic sealing element <b>14</b> and the metallic seat of the seating component.</p>
+<p id="p-0059" num="0064">As a result of the C-ring's ability to retain its shape both by virtue of material memory and the fact that its inner volume is open to the environment (which is potentially a higher pressure side of the closure component <b>10</b>), which allows the C-ring to expand with increasing pressure, constant contact is thus established between the seal <b>44</b> and the carrier body <b>22</b> on the one hand, and between the seal <b>44</b> and the metallic sealing element <b>14</b> on the other hand.</p>
+<p id="p-0060" num="0065">The retaining element or clamping ring <b>16</b> is also annular, but is partly hollow or dish-shaped. The retaining element <b>16</b> thus resembles a flat bottomed bowl with an annular side wall and with a central portion of a bottom or floor of the bowl removed. The retaining element <b>16</b> is attached to the closure body <b>12</b> by means of a plurality of equi-angularly spaced bolts <b>18</b> arranged in a circle and spaced from and parallel to the stroke axis <b>20</b>, radially inwardly from the annular metallic sealing element <b>14</b> and passing through the portion <b>38</b>. The retaining element <b>16</b> is thus attached to the closure carrier body <b>22</b> radially inwardly from the metallic sealing element <b>14</b> and extends radially outwardly over a portion of the closure body <b>12</b> from where it is attached to the closure body <b>12</b> by means of the bolts <b>18</b>, to reach the metallic sealing element <b>14</b>. The retaining element <b>16</b>, as can be clearly seen from <figref idref="DRAWINGS">FIG. 2</figref> of the drawings, is however spaced from the carrier body <b>22</b> and is not in direct contact with the carrier body <b>22</b> at all, in the embodiment illustrated. The fact that the retaining element <b>16</b> does not bear against the carrier body <b>22</b>, but only against the annular metallic sealing element <b>14</b>, provides a spring effect which limits differences in the seating load between the metallic sealing element <b>14</b> and the carrier body <b>22</b> at atmospheric temperature on the one hand, and at elevated operating temperature for the closure component <b>10</b> on the other hand. This also assists in inhibiting or preventing stress induced in the metallic sealing element <b>14</b> due to the metallic sealing element <b>14</b> deforming or buckling when the closure component <b>10</b> is seated to close a solids flow path in use.</p>
+<p id="p-0061" num="0066">With reference to <figref idref="DRAWINGS">FIGS. 4 and 5</figref> of the drawings, reference numeral <b>200</b> generally indicates a closure assembly in accordance with the invention, which includes the closure component <b>10</b>. The closure assembly <b>200</b>, as illustrated, is particularly suitable for use as a valve assembly in an ash lock (not shown) of a pressurised fixed bed dry bottom gasifier (not shown). Such ash locks and gasifiers are well known to those skilled in the art and do not require further description.</p>
+<p id="p-0062" num="0067">In addition to the closure component <b>10</b>, the closure assembly <b>200</b> also includes a seat component <b>46</b> which includes an annular sealing element <b>48</b>. As hereinbefore indicated, the annular sealing element <b>48</b> is typically a tungsten carbide ring similar to the metallic sealing element <b>14</b>.</p>
+<p id="p-0063" num="0068">As illustrated in <figref idref="DRAWINGS">FIG. 4</figref> of the drawings, when the closure component <b>10</b> is in an open condition, a solids flow path <b>50</b> exists through the solids-handling closure assembly <b>200</b>. When used as part of an ash lock of a fixed bed dry bottom gasifier, the closure assembly <b>200</b>, in the open condition illustrated in <figref idref="DRAWINGS">FIG. 4</figref>, thus allows ash to be passed from the pressurized gasifier into the ash lock, which is also then pressurized. When in the closed condition illustrated in <figref idref="DRAWINGS">FIG. 5</figref>, the closure assembly <b>200</b> prevents further flow of solids material into the ash lock and also provides a pressure seal across the closure assembly <b>200</b>, as a result of the metal-to-metal contact between surfaces of the tungsten carbide sealing element <b>14</b> and the tungsten carbide sealing element <b>48</b>. The ash lock can then be depressurized and the ash removed.</p>
+<p id="p-0064" num="0069">Advantageously, the use of a metallic sealing element <b>14</b> in conjunction with a locating formation which does not interfere with the metallic sealing element <b>14</b> during heat expansion of parts of the closure component <b>10</b>, prevents or inhibits stress induced brittle fracture of the metallic sealing element <b>14</b>. The position of the locating lip <b>34</b> allows proper positioning of the metallic sealing element <b>14</b>, concentric with the carrier body <b>22</b> at room temperature, during assembly. As the locating lip <b>34</b> is however on the outer diameter of the closure body <b>12</b>, the diameter of the annular surface <b>28</b> increases more at the operating temperature of the closure component <b>10</b> than that of the metallic sealing element <b>14</b> but importantly without interfering with the metallic sealing element <b>14</b> and without the associated stress on the metallic sealing element <b>14</b>.</p>
+<p id="p-0065" num="0070">Improved sealing is achieved by use of the seal <b>44</b>, particularly when in the form of a C-ring. A C-ring has the ability to retain its shape both by virtue of material memory and also due to the fact that its inner volume is open to the surrounding environment, which allows the C-ring to expand with increasing pressure. These two mechanisms collectively enable constant contact between the C-ring and the carrier body <b>22</b> and between the C-ring and the annular metallic sealing element <b>14</b>. This is beneficial in that it allows for a limited degree of relative movement of these components, for example when the metallic sealing element <b>14</b> deflects slightly under impact when the closure component <b>10</b> slams shut under hydraulic actuation. Stress produced in the metallic sealing element <b>14</b> due to deflection of the metallic sealing element <b>14</b> on impact with the sealing element <b>48</b> is thus reduced.</p>
+<p id="p-0066" num="0071">The full surface of the retaining element <b>16</b> of the closure component <b>10</b> is not in contact with the carrier body <b>22</b>. Instead, only a rim or radially outward peripheral portion of the retaining element <b>16</b> is in contact with the annular metallic sealing element <b>14</b>. There is thus no contact with the carrier body <b>22</b> at the point where the retaining element <b>14</b> is bolted to the carrier body <b>22</b>. This provides a spring effect which limits differences in the seating load at atmospheric and elevated temperatures, and this prevents the phenomena of stress induced due to the metallic sealing element <b>14</b> buckling when the closure component <b>10</b> is in a closed condition.</p>
+<p id="p-0067" num="0072">The modifications incorporated in the closure component <b>10</b>, compared to the prior art closure component <b>100</b>, individually and in combination, improve retention of the metallic sealing element <b>14</b> on the carrier body <b>22</b> and reduce or even eliminate the occurrences of leak paths between the carrier body <b>22</b> and the metallic sealing element <b>14</b>. This leads to a reduction in lost production due to greater availability of equipment, a reduction in operating costs due to a reduction in maintenance on the metallic sealing elements <b>14</b> and <b>48</b> and greater equipment lifespan due to a decreased number of temperature cycles caused by unplanned outages. Advantageously, it is also relatively easy to modify existing closure components, such as the closure component <b>100</b>, to include the features of the improved closure component <b>10</b>. In other words, retrofitting of existing closure components to obtain the advantages of the invention is thus achieved by means of relatively minor modifications.</p>
+<p id="p-0068" num="0073">It must be appreciated that the closure component <b>10</b> and the closure assembly <b>200</b> may find application also in carbonaceous feedstock (e.g. coal) beneficiation or upgrading plants, and potentially also in other pressurised equipment or vessels handling solids material at elevated temperatures, e.g. combustion apparatus, pyrolysis apparatus, fluidised bed gasification apparatus, food processing apparatus and bulk material handling equipment for agricultural products or ore beneficiation. For use as a feedstock closure mechanism for feeding feedstock into a high pressure environment, the closure assembly <b>200</b> is typically inverted so that the closure assembly <b>200</b> is in a closed condition when the closure component <b>10</b> is at an upper end of its stroke. Other geometric changes may also be required (e.g. the shape or configuration of the cone-shaped end piece and positioning of sealing elements) beyond a simple inversion of the parts. Such required changes would however be readily apparent to a person skilled in the art.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A closure component for solids-handling equipment, the closure component including:
+<claim-text>a closure body configured to close a solids flow path by displacement of the closure body along a stroke axis; and</claim-text>
+<claim-text>a removable tungsten carbide sealing element attached to the closure body and configured sealingly to engage an endless metallic seat spaced radially outwardly from the stroke axis when the closure body closes said solids flow path, the tungsten carbide sealing element being subject to brittle fracture and expanding at a lesser rate than the closure body during heat expansion;</claim-text>
+<claim-text>the closure body including or defining at least one locating formation to engage and locate the tungsten carbide sealing element, said at least one locating formation being positioned radially outwardly from the stroke axis and more radially outwardly from the stroke axis than at least a portion of the tungsten carbide sealing element so that at least a portion of the tungsten carbide sealing element is positioned between the locating formation and the stroke axis, thereby correctly to locate the tungsten carbide sealing element in position relative to the closure body or relative to the stroke axis during fitting of the tungsten carbide sealing element to the closure body; and</claim-text>
+<claim-text>in which there is no locating formation radially inwardly of the tungsten carbide sealing element such that radially outward displacement of the locating formation as a result of heat expansion of the closure body is inhibited by the presence of the tungsten carbide sealing element.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The closure component as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, in which the tungsten carbide sealing element has an outer periphery circumnavigating the stroke axis and spaced from the stroke axis, with said at least one locating formation being adjacent said outer periphery.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The closure component as claimed in <claim-ref idref="CLM-00002">claim 2</claim-ref>, in which the tungsten carbide sealing element has a circular outer periphery, and the at least one locating formation is in the form of an annular locating surface defined by the closure body, the locating surface defined by the closure body having a diameter marginally greater than that of an annular locating surface of the tungsten carbide sealing element, at room temperature.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The closure component as claimed in <claim-ref idref="CLM-00003">claim 3</claim-ref>, in which the locating surface of the tungsten carbide sealing element is defined by the outer periphery of the tungsten carbide sealing element.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The closure component as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, in which the tungsten carbide sealing element is annular and the closure body defines an annular recess to receive the annular tungsten carbide sealing element, a width of the annular recess taken in a radial direction relative to the stroke axis being greater than a width of the annular tungsten carbide sealing element taken in a radial direction relative to the stroke axis so that, when the annular tungsten carbide sealing element is located in the annular recess, the tungsten carbide sealing element is abutting against a radially outer periphery of the annular recess, whilst the tungsten carbide sealing element is spaced from a radially inner periphery of the annular recess.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The closure component as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, which includes a seal between the closure body and the tungsten carbide sealing element, the seal circumnavigating or extending around the stroke axis.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The closure component as claimed in <claim-ref idref="CLM-00006">claim 6</claim-ref>, in which the seal is located in an annular recess defined in at least one of the closure body and the tungsten carbide sealing element and located between the closure body and the tungsten carbide sealing element.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The closure component as claimed in <claim-ref idref="CLM-00006">claim 6</claim-ref>, in which the seal is in the form of a hollow metal ring with one or more openings so that an interior volume of the ring is open to the immediate environment of the seal.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The closure component as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, in which the tungsten carbide sealing element is held in place against the closure body by a retaining element which bears against the sealing element but which does not pass through the tungsten carbide sealing element, the retaining element being attached to the closure body radially inwardly from the tungsten carbide sealing element, thus extending radially outwardly over a portion of the closure body from where it is attached to the closure body to reach the tungsten carbide sealing element.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The closure component as claimed in <claim-ref idref="CLM-00009">claim 9</claim-ref>, in which the retaining element is spaced from the closure body so that there is no direct contact between the retaining element and the closure body.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. A solids-handling closure assembly which includes:
+<claim-text>a closure component as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, the closure component displaceable between a closed condition and an open condition to close or open a solids flow path; and</claim-text>
+<claim-text>a seat component providing a metallic seat for the closure component when in the closed condition.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The solids-handling closure assembly of <claim-ref idref="CLM-00011">claim 11</claim-ref>, which forms part of a pressurised gasifier for gasification of particulate carbonaceous material.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The solids-handling closure assembly of <claim-ref idref="CLM-00012">claim 12</claim-ref>, which forms part of an ash lock valve assembly of said pressurised gasifier.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

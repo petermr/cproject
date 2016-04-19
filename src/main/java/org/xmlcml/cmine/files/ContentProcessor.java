@@ -3,23 +3,23 @@ package org.xmlcml.cmine.files;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import nu.xom.Element;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.xerces.impl.xpath.regex.REUtil;
 import org.xmlcml.cmine.args.ArgumentOption;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.xml.XMLUtil;
 
+import nu.xom.Element;
+
 /** manages the processing by Norma or AMI.
  * 
- * important components are the CMDir being processed and the ResultsElementList.
+ * important components are the CTree being processed and the ResultsElementList.
  * 
  * @author pm286
  *
@@ -37,13 +37,13 @@ public class ContentProcessor {
 	private static final String MERGE = "merge";
 
 
-	private CMDir cmDir;
+	private CTree cmTree;
 	private ResultsElementList resultsElementList;
 	private HashMap<String, ResultsElement> resultsBySearcherNameMap;
 	private String duplicates = OVERWRITE;
 	
-	public ContentProcessor(CMDir cmDir) {
-		this.cmDir = cmDir;
+	public ContentProcessor(CTree cmTree) {
+		this.cmTree = cmTree;
 	}
 	
 	private void ensureResultsElementList() {
@@ -57,7 +57,7 @@ public class ContentProcessor {
 			this.ensureResultsElementList();
 			String title = resultsElement.getTitle();
 			if (title == null) {
-				throw new RuntimeException("Results Element must have title");
+				throw new RuntimeException("Results Element must have title: "+resultsElement.toXML());
 			}
 			checkNoDuplicatedTitle(title);
 			resultsElementList.add(resultsElement);
@@ -78,10 +78,10 @@ public class ContentProcessor {
 			}
 	}
 	
-	public void outputResultElements(ArgumentOption option, DefaultArgProcessor argProcessor ) {
+	public void outputResultElements(String namex, DefaultArgProcessor argProcessor ) {
 		resultsElementList = new ResultsElementList();
 		ensureResultsBySearcherNameMap();
-		for (DefaultSearcher optionSearcher : argProcessor.getSearcherList()) {
+		for (AbstractSearcher optionSearcher : argProcessor.getSearcherList()) {
 			String name = optionSearcher.getName();
 			ResultsElement resultsElement = resultsBySearcherNameMap.get(name);
 			if (resultsElement != null) {
@@ -89,13 +89,12 @@ public class ContentProcessor {
 				resultsElementList.add(resultsElement);
 			}
 		}
-		this.createResultsDirectoriesAndOutputResultsElement(
-				option, CMDir.RESULTS_XML);
+		this.createResultsDirectoriesAndOutputResultsElement(namex);
 	}
 
 	public void writeResults(String resultsFileName, String results) throws Exception {
-		File resultsFile = new File(cmDir.getDirectory(), resultsFileName);
-		FileUtils.writeStringToFile(resultsFile, results);
+		File resultsFile = new File(cmTree.getDirectory(), resultsFileName);
+		FileUtils.writeStringToFile(resultsFile, results, Charset.forName("UTF-8"));
 	}
 
 	public void writeResults(File resultsFile, Element resultsXML) {
@@ -107,7 +106,7 @@ public class ContentProcessor {
 	}
 
 	public void writeResults(String resultsFileName, Element resultsXML) {
-		File resultsFile = new File(cmDir.getDirectory(), resultsFileName);
+		File resultsFile = new File(cmTree.getDirectory(), resultsFileName);
 		LOG.trace("results file: "+resultsFile);
 		writeResults(resultsFile, resultsXML);
 	}
@@ -115,7 +114,7 @@ public class ContentProcessor {
 	/** creates a subdirectory of results/ and writes each result file to its own directory.
 	 * 
 	 * Example:
-	 * 		cmdir1_2_3/
+	 * 		ctree1_2_3/
 	 * 			results/
 	 * 				words/
 	 * 					frequencies/
@@ -125,12 +124,12 @@ public class ContentProcessor {
 	 * 
 	 * here the option is defined in an element in args.xml with name="words"
 	 * 
-	 * @param option 
+	 * @param optionName 
 	 * @param resultsElementList
 	 * @param resultsDirectoryName
 	 */
-	public List<File> createResultsDirectoriesAndOutputResultsElement(ArgumentOption option, String resultsDirectoryName) {
-		File optionDirectory = new File(cmDir.getResultsDirectory(), option.getName());
+	public List<File> createResultsDirectoriesAndOutputResultsElement(String name) {
+		File optionDirectory = new File(cmTree.getResultsDirectory(), name);
 		List<File> outputDirectoryList = new ArrayList<File>();
 		for (ResultsElement resultsElement : resultsElementList) {
 			File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
@@ -141,8 +140,8 @@ public class ContentProcessor {
 	}
 
 	public File createResultsDirectoryAndOutputResultsElement(
-			ArgumentOption option, ResultsElement resultsElement, String resultsDirectoryName) {
-		File optionDirectory = new File(cmDir.getResultsDirectory(), option.getName());
+			ArgumentOption option, ResultsElement resultsElement/*, String resultsDirectoryName*/) {
+		File optionDirectory = new File(cmTree.getResultsDirectory(), option.getName());
 		File outputDirectory = createResultsDirectoryAndOutputResultsElement(optionDirectory, resultsElement);
 		return outputDirectory;
 		
@@ -156,7 +155,8 @@ public class ContentProcessor {
 		} else {
 			resultsSubDirectory = new File(optionDirectory, title);
 			resultsSubDirectory.mkdirs();
-			File resultsFile = new File(resultsSubDirectory, CMDir.RESULTS_XML);
+			String resultsFileName = resultsElement.getChildElements().size() == 0 ? CTree.EMPTY_XML :  CTree.RESULTS_XML;
+			File resultsFile = new File(resultsSubDirectory, resultsFileName);
 			writeResults(resultsFile, resultsElement);
 			LOG.trace("Wrote "+resultsFile.getAbsolutePath());
 		}
@@ -171,12 +171,12 @@ public class ContentProcessor {
 		this.duplicates = duplicates;
 	}
 
-	public CMDir getCmDir() {
-		return cmDir;
+	public CTree getCmTree() {
+		return cmTree;
 	}
 
-	public void setCmDir(CMDir cmDir) {
-		this.cmDir = cmDir;
+	public void setCmTree(CTree cmTree) {
+		this.cmTree = cmTree;
 	}
 
 	public ResultsElementList getOrCreateResultsElementList() {

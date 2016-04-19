@@ -1,12 +1,16 @@
 package org.xmlcml.cmine.files;
 
-import nu.xom.Attribute;
-import nu.xom.Element;
+import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.lookup.DefaultStringDictionary;
+import org.xmlcml.xml.XMLUtil;
 
-/** a container for a "result" from an action on a CMDir.
+import nu.xom.Attribute;
+import nu.xom.Element;
+
+/** a container for a "result" from an action on a CTree.
  * 
  * Normally output to the "results" directory
  * 
@@ -20,15 +24,21 @@ public class ResultElement extends Element {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	private static final String EXACT  = "exact";
-	private static final String ID     = "id";
-	public  static final String MATCH  = "match";
-	private static final String NAME   = "name";
-	public  static final String POST   = "post";
-	public  static final String PRE    = "pre";
-	public  static final String TAG    = "result";
-	public  static final String TITLE  = "title";
-	private static final String XPATH  = "xpath";
+	private static final String COUNT      = "count";
+	private static final String DICTIONARY = "dictionary";
+	private static final String DICTIONARY_CHECK = "dictionaryCheck";
+	private static final String EXACT     = "exact";
+	private static final String ID        = "id";
+	public  static final String MATCH     = "match";
+	private static final String NAME      = "name";
+	public  static final String POST      = "post";
+	public  static final String PRE       = "pre";
+	public  static final String FREQUENCY = "frequency";
+	public  static final String TAG       = "result";
+	public  static final String TITLE     = "title";
+	private static final String VALUE0    = "value0";
+	private static final String WORD      = "word";
+	private static final String XPATH     = "xpath";
 
 	public ResultElement() {
 		super(TAG);
@@ -86,6 +96,22 @@ public class ResultElement extends Element {
 		setValue(POST, value);
 	}
 	
+	public String getWord() {
+		return this.getAttributeValue(WORD);
+	}
+	
+	public String getCountedWord() {
+		String word = getWord();
+		if (word == null) {
+			return null;
+		}
+		return word+" x "+getCount();
+	}
+	
+	public void setWord(String value) {
+		setValue(WORD, value);
+	}
+	
 	public void setXPath(String xpath) {
 		this.addAttribute(new Attribute(XPATH, xpath));
 	}
@@ -105,5 +131,68 @@ public class ResultElement extends Element {
 		}
 	}
 
+	/** creates attribute of form:
+	 * 
+	 * dictionary="my/dictionary" dictionaryCheck="false" (or "true")
+	 * 
+	 * doesn't really work for multiple dictionaries
+	 * 
+	 * @param dictionary
+	 * @param checked
+	 */
+	public void setDictionaryCheck(DefaultStringDictionary dictionary, boolean checked) {
+		String title = dictionary.getTitle();
+		if (title != null) {
+			this.addAttribute(new Attribute(DICTIONARY, title));
+			this.addAttribute(new Attribute(DICTIONARY_CHECK, String.valueOf(checked)));
+		}
+	}
+
+	public void setCount(int count) {
+		LOG.trace("set "+count);
+		this.addAttribute(new Attribute(COUNT, String.valueOf(count)));
+	}
+
+	public Integer getCount() {
+		String countString = this.getAttributeValue(COUNT);
+		try {
+			int count = Integer.parseInt(countString);
+			return new Integer(count);
+		} catch (Exception e) {
+			LOG.debug("Bad count: "+countString);
+		}
+		return null;
+	}
+
+	public static ResultElement createResultElement(Element element) {
+		ResultElement resultElement  = null;
+		if (element != null && element.getLocalName().equals(ResultElement.TAG)) {
+			resultElement = new ResultElement();
+			XMLUtil.copyAttributes(element, resultElement);
+		}
+		return resultElement;
+	}
+
+	public String getTerm() {
+		String term = getMatch();
+		if (term == null) {
+			term = getExact();
+		}
+		if (term == null) {
+			term = getCountedWord();
+		}
+		if (term == null) {
+			term = getValue0Attribute();
+		}
+		return term;
+	}
 	
+	private String getValue0Attribute() {
+		return this.getAttributeValue(VALUE0);
+	}
+
+	public String toString() {
+		return this.toXML();
+	}
+
 }

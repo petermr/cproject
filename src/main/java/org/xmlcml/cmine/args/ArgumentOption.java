@@ -454,6 +454,7 @@ public class ArgumentOption {
 				LOG.trace("OUTPUT METHOD "+method);
 				this.outputMethodName = outputMethodName;
 			} catch (NoSuchMethodException e) {
+				LOG.error("Parsing halted: edit code");
 				throw new RuntimeException("Non-existent outputMethod "+argProcessorClass+"; "+outputMethodName+" (edit ArgProcessor)", e);
 			}
 		}
@@ -616,6 +617,13 @@ public class ArgumentOption {
 			} catch (Exception e) {
 				throw new RuntimeException("default should be of type Boolean");
 			}
+		} else if (classType.equals(StringPair.class) && defalt instanceof String) {
+//			defaultBoolean = false;
+//			try {
+//				defaultBoolean = new Boolean(String.valueOf(defalt));
+//			} catch (Exception e) {
+//				throw new RuntimeException("default should be of type Boolean");
+//			}
 		} else {
 			LOG.error("Incompatible type and default: "+classType+"; "+defalt.getClass());
 		}

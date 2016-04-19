@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979035-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979035</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>12912185</doc-number>
+<date>20101026</date>
+</document-id>
+</application-reference>
+<us-application-series-code>12</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>990</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>1</main-group>
+<subgroup>64</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>1</main-group>
+<subgroup>641</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>G</subclass>
+<main-group>1</main-group>
+<subgroup>645</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>2441733</main-classification>
+<further-classification>2441731</further-classification>
+</classification-national>
+<invention-title id="d2e53">Zero-shock separation system</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3420470</doc-number>
+<kind>A</kind>
+<name>Meyer</name>
+<date>19690100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441733</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>3564564</doc-number>
+<kind>A</kind>
+<name>Paine</name>
+<date>19710200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  3327</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4715565</doc-number>
+<kind>A</kind>
+<name>Wittmann</name>
+<date>19871200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441731</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5318255</doc-number>
+<kind>A</kind>
+<name>Facciano et al.</name>
+<date>19940600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441581</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>5520476</doc-number>
+<kind>A</kind>
+<name>Marks et al.</name>
+<date>19960500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>4033223</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>5743492</doc-number>
+<kind>A</kind>
+<name>Chan et al.</name>
+<date>19980400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441182</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5969287</doc-number>
+<kind>A</kind>
+<name>Blain et al.</name>
+<date>19991000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>102378</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6076467</doc-number>
+<kind>A</kind>
+<name>Cespedosa et al.</name>
+<date>20000600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>102378</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6227493</doc-number>
+<kind>B1</kind>
+<name>Holemans</name>
+<date>20010500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441731</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>6343770</doc-number>
+<kind>B2</kind>
+<name>Holemans</name>
+<date>20020200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441733</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>6357699</doc-number>
+<kind>B1</kind>
+<name>Edberg et al.</name>
+<date>20020300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441733</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>6390416</doc-number>
+<kind>B2</kind>
+<name>Holemans</name>
+<date>20020500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441733</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>6454214</doc-number>
+<kind>B1</kind>
+<name>Smith</name>
+<date>20020900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441731</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>6648543</doc-number>
+<kind>B2</kind>
+<name>Arulf</name>
+<date>20031100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>403334</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>6712542</doc-number>
+<kind>B2</kind>
+<name>Buder</name>
+<date>20040300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>4033742</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>7861976</doc-number>
+<kind>B2</kind>
+<name>Holemans</name>
+<date>20110100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441733</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>7922125</doc-number>
+<kind>B2</kind>
+<name>Lancho Doncel</name>
+<date>20110400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441731</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>2005/0230562</doc-number>
+<kind>A1</kind>
+<name>Buehler</name>
+<date>20051000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441731</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>2006/0145016</doc-number>
+<kind>A1</kind>
+<name>Renfro</name>
+<date>20060700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441581</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>2007/0080260</doc-number>
+<kind>A1</kind>
+<name>Lancho Doncel</name>
+<date>20070400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>2441731</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>10</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>2441731</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2441732</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2441733</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2441581</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2441724</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>2441725</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>9</number-of-drawing-sheets>
+<number-of-figures>25</number-of-figures>
+</figures>
+<us-related-documents>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61262381</doc-number>
+<date>20091118</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20110114793</doc-number>
+<kind>A1</kind>
+<date>20110519</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Straumann</last-name>
+<first-name>Franz</first-name>
+<address>
+<city>Elgg</city>
+<country>CH</country>
+</address>
+</addressbook>
+<residence>
+<country>CH</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Arx</last-name>
+<first-name>Richard Von</first-name>
+<address>
+<city>Uster</city>
+<country>CH</country>
+</address>
+</addressbook>
+<residence>
+<country>CH</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Straumann</last-name>
+<first-name>Franz</first-name>
+<address>
+<city>Elgg</city>
+<country>CH</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Arx</last-name>
+<first-name>Richard Von</first-name>
+<address>
+<city>Uster</city>
+<country>CH</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>McCormick, Paulding &#x26; Huber LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>RUAG Schweiz AG</orgname>
+<role>03</role>
+<address>
+<city>Zurich</city>
+<country>CH</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Dinh</last-name>
+<first-name>Tien</first-name>
+<department>3647</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Hawk</last-name>
+<first-name>Steven</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A system and corresponding method for a launch vehicle or spacecraft for releasably connecting a first body (<b>100</b>) with a first interface (<b>101</b>) and a second body (<b>200</b>) with a second matching interface (<b>201</b>), said system comprising: a belt (<b>300</b>) for releasably securing said first body (<b>100</b>) to said second body (<b>200</b>); a circumferential trench (<b>203</b>) at said second interface (<b>201</b>) for receiving said belt (<b>300</b>) in order to provide for a fixation of said belt (<b>300</b>) with relation to said second body (<b>200</b>); mechanical fixation means (<b>301</b>) attaching said belt (<b>300</b>) to said first body (<b>100</b>), said mechanical fixation means (<b>301</b>) being provided to enable a circumferential shifting movement of said belt (<b>300</b>) with respect to said circumference of said first body (<b>100</b>) in order to initiate a separation of the first body (<b>100</b>) from the second body (<b>200</b>), wherein said circumferential shifting movement induces a relative movement of said belt (<b>300</b>) with respect to said circumference of said first body (<b>100</b>) in order to remove said belt (<b>300</b>) from said trench (<b>203</b>), and wherein the system further comprising a releasing mechanism (<b>303</b>) causing said circumferential shifting movement.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="163.41mm" wi="211.92mm" file="US08979035-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="252.56mm" wi="139.36mm" file="US08979035-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="233.93mm" wi="191.60mm" file="US08979035-20150317-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="253.24mm" wi="139.36mm" file="US08979035-20150317-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="257.81mm" wi="139.36mm" file="US08979035-20150317-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="254.25mm" wi="141.14mm" file="US08979035-20150317-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="238.51mm" wi="186.01mm" file="US08979035-20150317-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="250.44mm" wi="167.05mm" file="US08979035-20150317-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="256.37mm" wi="136.91mm" file="US08979035-20150317-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="229.45mm" wi="122.26mm" file="US08979035-20150317-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">The present application claims the benefit of U.S. Provisional Patent Application 61/262,381 filed on Nov. 18, 2009, the disclosure of which is herein incorporated by reference.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">FIELD OF THE INVENTION</heading>
+<p id="p-0003" num="0002">The present invention relates to a zero-shock separation system for a launch vehicle or spacecraft for releasably connecting a first body with a second body, especially for connecting a payload fairing to the body of a launch vehicle or spacecraft.</p>
+<heading id="h-0003" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0004" num="0003">It is a common requirement for spacecrafts that two bodies, also called stages have to be releasably connected to each other. Due to the extreme conditions during takeoff and flight, these connections have to be extremely stable but at the same time a quick and reliable separation of the two bodies has to be ensured.</p>
+<p id="p-0005" num="0004">In known separation systems, the first body, e.g. the payload fairing is connected to the second body, e.g. the body of the launch vehicle or spacecraft by the use of a pre-tensioned belt which is released/cut/disengaged when release of the first body from the second body is needed. This release is usually initiated once the launch vehicle or payload has reached a predetermined altitude/orbit.</p>
+<p id="p-0006" num="0005">However, when such a pre-tensioned belt is suddenly released/cut/disengaged, a strong, undesirable shock arises which is transmitted to the launch vehicle or payload. Such a shock can be dangerous since it might affect the integrity or the trajectory of the launch vehicle or payload.</p>
+<p id="p-0007" num="0006">Furthermore, due to the size of the two bodies that needs to be releasably connected, the pre-tensioning of the belt, as it is conventionally done, might prove to be a difficult task. Additionally, said tension in the belt might even cause an undesirable deformation of one of the two bodies.</p>
+<heading id="h-0004" level="1">Technical Problem to be Solved</heading>
+<p id="p-0008" num="0007">The objective of the present invention is thus to eliminate these disadvantages and to provide a system for a launch vehicle or spacecraft for releasably connecting a first body with a second body wherein the separation of the two bodies can be initiated without causing a shock. A further objective of the present invention is to eliminate the difficult step of pre-tension the belt during connection of the two bodies. An even further objective of the present invention is to ensure that neither of the two bodies connected suffers a deformation due to the connection.</p>
+<heading id="h-0005" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0009" num="0008">The above-identified objective of the present invention is solved by a system for a launch vehicle or spacecraft for releasably connecting a first body with a first interface and a second body with a second matching interface, said system comprising: a belt for releasably securing said first body to said second body, a circumferential trench at said second interface for receiving at least a circumferential portion of said belt in order to provide for a fixation of said circumferential portion of said belt with relation to said second body, further comprising mechanical fixation means attaching said circumferential portion of said belt to a circumference of said first body, said mechanical fixation means being provided to enable a circumferential shifting movement of said circumferential portion of said belt with respect to said circumference of said first body in order to initiate a separation of the first body from the second body, said circumferential shifting movement inducing a relative movement of said circumferential portion of said belt with respect to said circumference of said first body in order to remove said circumferential portion of said belt from said trench, and comprising a releasing mechanism causing said circumferential shifting movement.</p>
+<p id="p-0010" num="0009">The above-identified objective of the present invention is also solved by a method for a launch vehicle or spacecraft for releasably connecting a first body with a first interface and a second body with a second matching interface, the method comprising the steps of: providing a belt for releasably securing said first body to said second body; providing a circumferential trench at said second interface for receiving at least a portion of said belt in order to provide for a fixation of said portion of said belt with relation to said second body; attaching said portion of said belt to a circumference of said first body by mechanical fixation means; causing a circumferential shifting movement of said portion of said belt with respect to said circumference of said first body in order to initiate a separation of the first body from the second body, by means of a releasing mechanism; wherein said circumferential shifting movement induces a relative movement of said portion of said belt with respect to said circumference of said first body in order to axially remove said portion of said belt from said trench.</p>
+<heading id="h-0006" level="1">Advantageous Effects</heading>
+<p id="p-0011" num="0010">In view of the drawbacks of the prior art, the objective of the present invention and the inventive solution summarized above, the present invention has the main advantage that the separation of the two bodies can be initiated in a smooth way, without a shock or sudden vibration and without the need of pre-tensioning the belt.</p>
+<p id="p-0012" num="0011">A further advantage of the present invention is that the assembly/connection of the two bodies is significantly simplified by elimination of the difficult step of pre-tensioning the belt.</p>
+<p id="p-0013" num="0012">An even further advantage of the present invention is that deformation of either of the two bodies due to the connection is excluded.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0007" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0014" num="0013">Further characteristics and advantages of the invention will in the following be described in detail by means of the description and by making reference to the drawings.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 1</figref> is a schematic perspective diagram, depicting a first embodiment the system of the present invention, wherein the first body and the second body are coaxially arranged one around the other and the belt is axially received in said circumferential trench for a radial fixation with relation to the second body and wherein said induced relative movement of the belt is an axial movement;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 2</figref> is a schematic cross-section of the first embodiment the system of the present invention along line A-A&#x2032; on <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 3A-3C</figref> are a sequence of schematic cross sections of the first embodiment the system of the present invention along line B-B&#x2032; on <figref idref="DRAWINGS">FIG. 2</figref>, depicting the steps of:</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 3A</figref>: connection of the two bodies;</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 3B</figref>: initiation of the separation;</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 3C</figref>: separation of the two bodies;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 4A</figref> is a cross section of the first embodiment the system of the present invention along the line C-C&#x2032; on <figref idref="DRAWINGS">FIG. 3A</figref>, depicting details of the mechanical fixation means while the two bodies are connected;</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 4B</figref> is a cross section of the first embodiment the system of the present invention along the line D-D&#x2032; on <figref idref="DRAWINGS">FIG. 3B</figref>, depicting details of the mechanical fixation means at the initiation of the separation;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 5</figref> is a schematic perspective diagram, depicting a second embodiment the system of the present invention, wherein multiple first bodies are connected to the second body by a multitude of belts and corresponding multitude of mechanical fixation means;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 6</figref> is a schematic cross-section of the second embodiment the system of the present invention along line E-E&#x2032; on <figref idref="DRAWINGS">FIG. 5</figref>;</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 7</figref> is a schematic perspective diagram, depicting a third embodiment the system of the present invention, wherein a single first body is connected to the second body by a multitude of belts and corresponding multitude of mechanical fixation means;</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 8</figref> is a schematic cross-section of the third embodiment the system of the present invention along line F-F&#x2032; on <figref idref="DRAWINGS">FIG. 7</figref>;</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 9</figref> is a schematic perspective diagram, depicting a fourth embodiment the system of the present invention, wherein multiple first bodies are connected to the second body by a single belt and a corresponding mechanical fixation means;</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 10</figref> is a schematic cross-section of the fourth embodiment the system of the present invention along line G-G&#x2032; on <figref idref="DRAWINGS">FIG. 9</figref>;</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 11A-11C</figref> are a sequence of schematic cross sections of preferred embodiment the system of the present invention, depicting details of the first interface and the second interface comprising first retention means and second retention means, in the steps of:</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 11A</figref>: connection of the two bodies;</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 11B</figref>: initiation of the separation;</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 11C</figref>: separation of the two bodies;</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 12A</figref> is a cross section of the preferred embodiment the system of the present invention along the line H-H&#x2032; on <figref idref="DRAWINGS">FIG. 11A</figref>, depicting details of the mechanical fixation means while the two bodies are connected;</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 12B</figref> is a cross section of the preferred embodiment of the system of the present invention along the line I-I&#x2032; on <figref idref="DRAWINGS">FIG. 11B</figref>, depicting details of the mechanical fixation means at the initiation of the separation;</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 13A</figref> is a schematic side view of a launch vehicle or spacecraft wherein a payload fairing is connected with the launch vehicle or spacecraft by means of a system according to the present invention while the two are connected;</p>
+<p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 13B</figref> is a schematic side view of a launch vehicle or spacecraft wherein a payload fairing is connected with the launch vehicle or spacecraft by means of a system according to the present invention at the separation stage;</p>
+<p id="p-0037" num="0036"><figref idref="DRAWINGS">FIG. 14</figref> is a schematic perspective diagram, depicting a further embodiment the system of the present invention, wherein the first body and the second body are coaxially arranged one above/on top of the other and the belt is radially received in said circumferential trench for an axial fixation with relation to the second body and wherein said induced relative movement of the belt is a radial movement;</p>
+<p id="p-0038" num="0037"><figref idref="DRAWINGS">FIG. 15</figref> is a schematic cross-section of the further embodiment of the system of the present invention along line J-J&#x2032; on <figref idref="DRAWINGS">FIG. 14</figref>; and</p>
+<p id="p-0039" num="0038"><figref idref="DRAWINGS">FIG. 16A-16C</figref> are a sequence of schematic cross sections of the further embodiment of the system of the present invention along line K-K&#x2032; on <figref idref="DRAWINGS">FIG. 15</figref>, depicting the steps of:</p>
+<p id="p-0040" num="0039"><figref idref="DRAWINGS">FIG. 16A</figref>: connection of the two bodies;</p>
+<p id="p-0041" num="0040"><figref idref="DRAWINGS">FIG. 16B</figref>: initiation of the separation;</p>
+<p id="p-0042" num="0041"><figref idref="DRAWINGS">FIG. 16C</figref>: separation of the two bodies.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="p-0043" num="0042">It shall be noted that the figures are not drawn to scale and that certain details have been drawn out of scale for clarity.</p>
+<heading id="h-0008" level="1">DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+<p id="p-0044" num="0043">Certain terms will be used in this patent application, the formulation of which should not be interpreted to be limited by the specific term chosen, but as to relate to the general concept behind the specific term.</p>
+<p id="p-0045" num="0044">The terms launch vehicle or spacecraft shall mean in the context of the present invention any type of launch vehicle or spacecraft such as a rocket, space-ship or space-station. When referring to a belt, any kind of longitudinal fixation means shall be understood which may act as a circumferential fixation. The term belt shall not be limited to a fully closed circumference.</p>
+<p id="p-0046" num="0045">The term trench shall be used with the meaning of any kind of groove, cut, or any long narrow furrow or channel. The term interface and corresponding matching interface shall be used to refer to a pair of form fitted segments having matching profiles.</p>
+<p id="p-0047" num="0046"><figref idref="DRAWINGS">FIG. 1</figref> shows a schematic perspective diagram, depicting a first embodiment the system of the present invention. A first body <b>100</b>, here a circumferential quarter segment of a cylinder, with a first interface <b>101</b> is connected with a second interface <b>201</b> of a second body <b>200</b>, here a cylindrical body. In this embodiment of the invention, the first body and the second body are coaxially arranged one around the other. The second interface <b>201</b> of the second body <b>200</b> is further provided with a circumferential trench <b>203</b> for axially receiving, preferably along a common longitudinal axis A<b>0</b> of the first body <b>100</b> and the second body <b>200</b>, at least a circumferential portion of the belt <b>300</b>. When said circumferential portion of the belt <b>300</b> is received in the circumferential trench <b>203</b>, a radial fixation of the belt <b>300</b> with relation to the second body <b>200</b> is achieved. As seen on <figref idref="DRAWINGS">FIG. 1</figref>, the belt <b>300</b> surrounds, at least partially, the first body <b>100</b> and thus when it is radially fixed with respect to the second body <b>200</b> it provides a corresponding radial fixation of the first body <b>100</b> with respect to the second body <b>200</b> too.</p>
+<p id="p-0048" num="0047"><figref idref="DRAWINGS">FIG. 2</figref> depicts a cross-section of the first embodiment the system of the present invention along line A-A&#x2032; on <figref idref="DRAWINGS">FIG. 1</figref>. The arrangement of the first body <b>100</b> around a circumferential segment of the second body <b>200</b> is clearly shown here. The belt <b>300</b>, fixed within the circumferential trench <b>203</b>, surrounds at least partially the first body <b>100</b> and is fixed thereto by mechanical fixation means <b>301</b>. These mechanical fixation means <b>301</b> attach a circumferential portion of the belt <b>300</b> to a circumference of the first body <b>100</b>.</p>
+<p id="p-0049" num="0048"><figref idref="DRAWINGS">FIGS. 3A to 3C</figref> depict a sequence of schematic cross sections of the first embodiment the system of the present invention along line B-B&#x2032; on <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0050" num="0049"><figref idref="DRAWINGS">FIG. 3A</figref> shows the system of the present invention when the first body <b>100</b> is connected to the second body <b>200</b> by means of the belt <b>300</b> being radially fixed in the circumferential trench <b>203</b>. By a corresponding profile of the circumferential trench <b>203</b>, a radial dislocation of the belt <b>300</b> from the circumferential trench <b>203</b> is prevented. Thus, the first body <b>100</b> is radially fixed with respect to the second body <b>200</b>.</p>
+<p id="p-0051" num="0050"><figref idref="DRAWINGS">FIG. 3B</figref> shows the system of the present invention when the separation of the first body <b>100</b> from the second body <b>200</b> has been initiated by inducing an axial movement of said circumferential portion of said belt <b>300</b> with respect to said circumference of said first body <b>100</b> in order to axially remove said circumferential portion of said belt <b>300</b> from said circumferential trench <b>203</b>. Thus, as seen on this <figref idref="DRAWINGS">FIG. 3C</figref>, once belt <b>300</b> is not retained anymore in the circumferential trench <b>203</b>, the first body <b>100</b>, with the belt <b>300</b> attached is free to radially separate from the second body <b>200</b>.</p>
+<p id="p-0052" num="0051"><figref idref="DRAWINGS">FIG. 4A</figref> shows a cross section of the first embodiment the system of the present invention along the line C-C&#x2032; on <figref idref="DRAWINGS">FIG. 3A</figref>, depicting details of the mechanical fixation means <b>301</b> while the first body <b>100</b> is connected to the second body <b>200</b> and said belt <b>300</b> is received in the circumferential trench <b>203</b>. In the depicted embodiment, the mechanical fixation means <b>301</b> comprises at least a pair of one elongated and inclined hole <b>305</b> and a bolt <b>307</b>.</p>
+<p id="p-0053" num="0052"><figref idref="DRAWINGS">FIG. 4B</figref> depicts a cross section of the first embodiment the system of the present invention along the line D-D&#x2032; on <figref idref="DRAWINGS">FIG. 3B</figref>, depicting details of the mechanical fixation means <b>301</b> at the initiation of the separation of the first body <b>100</b> from the second body <b>200</b>, showing the collaboration of the bolt <b>307</b> with the elongated and inclined hole <b>305</b> so that a circumferential shifting movement indicated by arrow h induces an axial movement indicated by arrow v. The circumferential shifting movement indicated by arrow h will lead to the belt <b>300</b> being removed from the circumferential trench <b>203</b>, releasing it from the radial fixation enforced by the circumferential trench <b>203</b>, allowing the first body <b>100</b> to separate from the second body <b>200</b>.</p>
+<p id="p-0054" num="0053">However, other suitable fixation means <b>301</b> can be used to cause the release of the belt <b>300</b> from the circumferential trench <b>203</b>. Such as electronically or pyrotechnically initiated separators as known in the art.</p>
+<p id="p-0055" num="0054"><figref idref="DRAWINGS">FIG. 5</figref> is a schematic perspective diagram, depicting a second embodiment the system of the present invention, wherein multiple first bodies <b>100</b> are connected to the second body by a multitude of belts <b>300</b> and corresponding multitude of mechanical fixation means <b>301</b>. The four segmented first bodies <b>100</b> are preferably symmetrical. The concept of radial fixation by means of the belt <b>300</b> being received in a circumferential trench <b>203</b> described in relation with the first embodiment apply in this embodiment as well to each individual first body <b>100</b> and corresponding belts <b>300</b>, each with corresponding multitude of mechanical fixation means <b>301</b>. It is to be pointed out that the although <figref idref="DRAWINGS">FIG. 5</figref> shows a one-to-one relation between the number of belts <b>300</b> and the number of first bodies <b>100</b>, this is not a requirement of the present invention, as multiple first bodies <b>100</b> may be fixed with a single belt <b>300</b> and multiple belts <b>300</b> could be employed for fixing a single first body <b>100</b>.</p>
+<p id="p-0056" num="0055"><figref idref="DRAWINGS">FIG. 6</figref> represents a schematic cross-section of the second embodiment the system of the present invention along line E-E&#x2032; on <figref idref="DRAWINGS">FIG. 5</figref> wherein multiple first bodies <b>100</b> are connected to the second body by a multitude of belts <b>300</b> and corresponding multitude of mechanical fixation means <b>301</b>.</p>
+<p id="p-0057" num="0056"><figref idref="DRAWINGS">FIG. 7</figref> is a schematic perspective diagram, depicting a third embodiment the system of the present invention, wherein a single first body <b>100</b> is connected to the second body <b>200</b> by a multitude of belts <b>300</b> and corresponding multitude of mechanical fixation means. Furthermore, <figref idref="DRAWINGS">FIG. 7</figref> shows a pair of separation means <b>109</b> for allowing said first body <b>100</b> to separate into segments, two halves in the depicted examples. The separation means <b>109</b> are of the type known in the art, such as explosive charges, tension initiated separators, releasable joints, heat dissolved adhesives, etc.</p>
+<p id="p-0058" num="0057">Also shown on <figref idref="DRAWINGS">FIG. 7</figref> are releasing mechanisms <b>303</b> provided for circumferentially connecting adjacent belts <b>300</b>. These releasing mechanisms <b>303</b> have two functions:</p>
+<p id="p-0059" num="0058">initiating a circumferential shifting movement of the belt <b>300</b> in order to initiate the separation of the first body <b>100</b> from the second body <b>200</b>;</p>
+<p id="p-0060" num="0059">in a preferred embodiment of the present invention, the releasing mechanisms <b>303</b> also allows two adjacent circumferential portions of the belt <b>300</b> to be releasably joint. As the separation of the first body <b>100</b> from the second body <b>200</b> is initiated the releasing mechanisms <b>303</b> disconnect said adjacent circumferential portions of the belt <b>300</b>, allowing the later to separate.</p>
+<p id="p-0061" num="0060"><figref idref="DRAWINGS">FIG. 8</figref> shows a schematic cross-section of the third embodiment the system of the present invention along line F-F&#x2032; on <figref idref="DRAWINGS">FIG. 7</figref>, also depicting the circumferential arrangement of multiple belts <b>300</b> connected by corresponding releasing mechanisms <b>303</b>. As shown here, the releasing mechanism <b>303</b> may be a releasable tensioned spring, or some other remotely activatable release mechanism forcing the corresponding circumferential portions of the belt <b>300</b> in a circumferential shifting movement to initiate the separation of the first body <b>100</b> from the second body <b>200</b> and optionally to allow separation of adjacent circumferential portions of the belt <b>300</b>, or of separate adjacent belts <b>300</b>.</p>
+<p id="p-0062" num="0061"><figref idref="DRAWINGS">FIG. 9</figref> is a schematic perspective diagram depicting a fourth embodiment the system of the present invention, wherein multiple first bodies <b>100</b> are connected to the second body <b>200</b> by a single belt <b>300</b> and corresponding mechanical fixation means <b>301</b>. The concept of radial fixation by means of the belt <b>300</b> being received in a circumferential trench <b>203</b> described in relation with the first embodiment apply in this embodiment as well to each individual first body <b>100</b> fixed by a single belt <b>300</b>, with corresponding mechanical fixation means <b>301</b>.</p>
+<p id="p-0063" num="0062"><figref idref="DRAWINGS">FIG. 10</figref> shows schematic cross-section of the fourth embodiment the system of the present invention along line G-G&#x2032; on <figref idref="DRAWINGS">FIG. 9</figref> depicting the arrangement of multiple first bodies <b>100</b> connected to the second body <b>200</b> by a single belt <b>300</b>.</p>
+<p id="p-0064" num="0063">The sequence of <figref idref="DRAWINGS">FIGS. 11A to 11C</figref> show schematic cross sections of a preferred embodiment the system of the present invention, depicting details of the first interface and the second interface comprising first axial retention means <b>105</b> and second axial retention means <b>205</b> respectively. As seen on this sequence of figures, the first axial retention means <b>105</b> and the second axial retention means <b>205</b> are a pair of matching profiles of the first interface <b>101</b> and the second interface <b>201</b>, wherein this matching profile is designed such, that it prevents an axial dislocation of the first body <b>100</b> with respect to the second body <b>200</b> when the first body <b>100</b> is radially fixed with respect to the second body <b>200</b>. In the preferred embodiment shown on <figref idref="DRAWINGS">FIGS. 11A to 11C</figref>, the first axial retention means <b>105</b> and second axial retention means <b>205</b> are a pair of matching ear and plug arrangement of the profiles of the first interface <b>101</b> and the second interface <b>201</b>, wherein the first axial retention means <b>105</b> is a radial extension of the first interface <b>101</b> which is received by the second axial retention means <b>205</b> which is a radial cut-out or groove in the second interface <b>201</b>.</p>
+<p id="p-0065" num="0064"><figref idref="DRAWINGS">FIG. 11A</figref> shows the preferred embodiment of the present invention, wherein the belt <b>300</b> and trench <b>203</b> arrangement prevents radial dislocation of the first body <b>100</b> with respect to the first body <b>100</b>, and thus the pair of first axial retention means <b>105</b> and second axial retention means <b>205</b> prevent an axial dislocation.</p>
+<p id="p-0066" num="0065">When the belt <b>300</b> is forced by the releasing mechanism <b>303</b> (not shown here) out of the circumferential trench <b>203</b>, as shown on <figref idref="DRAWINGS">FIG. 11B</figref>, the prevention of axial dislocation provided by the first axial retention means <b>105</b> in combination with the second axial retention means <b>205</b> ceases to exist and the first body <b>100</b> is free to separate from the second body <b>200</b> as shown on <figref idref="DRAWINGS">FIG. 11C</figref>.</p>
+<p id="p-0067" num="0066"><figref idref="DRAWINGS">FIG. 12A</figref> is a cross section of the preferred embodiment the system of the present invention along the line H-H&#x2032; on <figref idref="DRAWINGS">FIG. 11A</figref>, depicting details of the mechanical fixation means <b>301</b> while the two bodies are connected and said belt <b>300</b> is received in the circumferential trench <b>203</b>. In the depicted embodiment, the mechanical fixation means <b>301</b> comprises at least a pair of one elongated and inclined hole <b>305</b> and a bolt <b>307</b>.</p>
+<p id="p-0068" num="0067"><figref idref="DRAWINGS">FIG. 12B</figref> shows a cross section of the preferred embodiment the system of the present invention along the line I-I&#x2032; on <figref idref="DRAWINGS">FIG. 11B</figref>, depicting details of the mechanical fixation means <b>301</b> at the initiation of the separation, showing the collaboration of the bolt <b>307</b> with the elongated and inclined hole <b>305</b> so that a circumferential shifting movement indicated by arrow h induces an axial movement indicated by arrow v. The circumferential shifting movement indicated by arrow h will lead to the belt <b>300</b> being removed from the circumferential trench <b>203</b>, releasing it from the radial fixation enforced by the circumferential trench <b>203</b>, allowing the first body <b>100</b> to separate from the second body <b>200</b>.</p>
+<p id="p-0069" num="0068"><figref idref="DRAWINGS">FIG. 13A</figref> is a schematic side view of a launch vehicle or spacecraft wherein a payload fairing, corresponding to the first body <b>100</b>, is connected with the launch vehicle or spacecraft, corresponding to the second body <b>200</b>, by means of a system according to the present.</p>
+<p id="p-0070" num="0069"><figref idref="DRAWINGS">FIG. 13B</figref> shows a schematic side view of the launch vehicle or spacecraft depicted on <figref idref="DRAWINGS">FIG. 13A</figref> at the separation stage, when the payload fairing, corresponding to the first body <b>100</b>, separates from the launch vehicle or spacecraft, corresponding to the second body <b>200</b>.</p>
+<p id="p-0071" num="0070"><figref idref="DRAWINGS">FIG. 14</figref> shows a schematic perspective diagram, depicting a further embodiment the system of the present invention. As opposed to the other embodiments hereinbefore presented, in this embodiment of the present invention, the first body <b>100</b> and the second body <b>200</b> are coaxially arranged one above/on top of the other and the belt <b>300</b> is radially received in said circumferential trench <b>203</b> for an axial fixation with relation to the second body <b>200</b> and wherein said induced relative movement of the belt <b>300</b> is a radial movement.</p>
+<p id="p-0072" num="0071">Furthermore, the present invention can be applied without departing from its inventive concept at any fixation/release angle not only in the radial respectively axial directions depicted in the drawings. The depicted embodiments are merely examples in some of the more common, axial/radial directions.</p>
+<p id="p-0073" num="0072">A first body <b>100</b>, for example rocket head, with a first interface <b>101</b> is connected with a second interface <b>201</b> of a second body <b>200</b>, here a cylindrical body. The interface <b>101</b> of the first body <b>100</b> is further provided with a circumferential trench <b>203</b> for radially receiving at least a circumferential portion of the belt <b>300</b>. When said circumferential portion of the belt <b>300</b> is received in the circumferential trench <b>203</b>, an axial fixation of the belt <b>300</b> with relation to the second body <b>200</b> is achieved. As seen on <figref idref="DRAWINGS">FIG. 14</figref>, the belt <b>300</b> surrounds, at least partially, the first body <b>100</b> and thus when it is axially fixed with respect to the second body <b>200</b> it provides a corresponding axial fixation of the first body <b>100</b> with respect to the second body <b>200</b> too.</p>
+<p id="p-0074" num="0073"><figref idref="DRAWINGS">FIG. 15</figref> depicts a cross-section of the embodiment the system of the present invention along line J-J&#x2032; on <figref idref="DRAWINGS">FIG. 14</figref>. The arrangement of the first body <b>100</b> on top of the second body <b>200</b> can be seen here. The belt <b>300</b>, fixed within the circumferential trench <b>203</b>, surrounds at least partially the first body <b>100</b> and is fixed thereto by mechanical fixation means <b>301</b>. These mechanical fixation means <b>301</b> attach a circumferential portion of the belt <b>300</b> to a circumference of the first body <b>100</b>.</p>
+<p id="p-0075" num="0074"><figref idref="DRAWINGS">FIGS. 16A to 16C</figref> depict a sequence of schematic cross sections of the embodiment of the system of the present invention along line K-K&#x2032; on <figref idref="DRAWINGS">FIG. 15</figref>.</p>
+<p id="p-0076" num="0075"><figref idref="DRAWINGS">FIG. 16A</figref> shows the system of the present invention when the first body <b>100</b> is connected to the second body <b>200</b> by means of the belt <b>300</b> being axially fixed in the circumferential trench <b>203</b>. By a corresponding profile of the circumferential trench <b>203</b>, an axial dislocation of the belt <b>300</b> from the circumferential trench <b>203</b> is prevented. Thus, the first body <b>100</b> is axially fixed with respect to the second body <b>200</b>.</p>
+<p id="p-0077" num="0076"><figref idref="DRAWINGS">FIG. 16B</figref> shows the system of the present invention when the separation of the first body <b>100</b> from the second body <b>200</b> has been initiated by inducing a radial movement of said circumferential portion of said belt <b>300</b> with respect to said circumference of said first body <b>100</b> in order to radially remove said circumferential portion of said belt <b>300</b> from said circumferential trench <b>203</b>. Thus, as seen on this <figref idref="DRAWINGS">FIG. 16C</figref>, once belt <b>300</b> is not retained anymore in the circumferential trench <b>203</b>, the first body <b>100</b> is free to axially separate from the second body <b>200</b>.</p>
+<p id="p-0078" num="0077">It will be understood that many variations could be adopted based on the specific structure hereinbefore described without departing from the scope of the invention as defined in the following claims.</p>
+<heading id="h-0009" level="1">REFERENCE LIST</heading>
+<p id="p-0079" num="0000">
+<ul id="ul0001" list-style="none">
+    <li id="ul0001-0001" num="0078">first body <b>100</b></li>
+    <li id="ul0001-0002" num="0079">first interface <b>101</b></li>
+    <li id="ul0001-0003" num="0080">first axial retention means <b>105</b></li>
+    <li id="ul0001-0004" num="0081">separation means <b>109</b></li>
+    <li id="ul0001-0005" num="0082">second body <b>200</b></li>
+    <li id="ul0001-0006" num="0083">second interface <b>201</b></li>
+    <li id="ul0001-0007" num="0084">circumferential trench <b>203</b></li>
+    <li id="ul0001-0008" num="0085">second axial retention means <b>205</b></li>
+    <li id="ul0001-0009" num="0086">belt <b>300</b></li>
+    <li id="ul0001-0010" num="0087">mechanical fixation means <b>301</b></li>
+    <li id="ul0001-0011" num="0088">releasing mechanism <b>303</b></li>
+    <li id="ul0001-0012" num="0089">elongated and inclined hole <b>305</b></li>
+    <li id="ul0001-0013" num="0090">bolt <b>307</b></li>
+</ul>
+</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A system for a launch vehicle or spacecraft for releasably connecting a circumferentially segmented first body having a first interface to a second body having a second matching interface, said first body and said second body being coaxially arranged, said system comprising:
+<claim-text>a belt for releasably securing said first body to said second body,</claim-text>
+<claim-text>a circumferential, axially indented trench provided at said second interface for axially receiving at least a portion of said belt in order to provide for a radial fixation of said portion of said belt with relation to said second body,</claim-text>
+<claim-text>mechanical fixation means provided at said first body and adapted to movably attach said portion of said belt to a circumference of said first body, such that said portion of said belt can be shifted in a circumferential shifting movement with respect to said circumference of said first body, and</claim-text>
+<claim-text>a releasing mechanism adapted to provide said circumferential shifting movement,</claim-text>
+<claim-text>wherein said circumferential shifting movement induces an axial movement of said portion of said belt with respect to said circumference of said first body, and the axial movement removes said portion of said belt from said trench and initiates a separation of the first body from the second body.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. A system for a launch vehicle or spacecraft for releasably connecting a first body having a first interface to a second body having a second interface matching the first interface, said first body and said second body being coaxially arranged, said system comprising:
+<claim-text>a belt for releasably securing said first body to said second body;</claim-text>
+<claim-text>a circumferential, radially indented trench provided at said first interface for radially receiving at least a portion of the belt in order to provide for an axial fixation of said portion of the belt with relation to said first body;</claim-text>
+<claim-text>mechanical fixation means provided at said second body and adapted to moveably attach the portion of the belt to a circumference of said second body, such that the portion of the belt can be shifted in a circumferential shifting movement with respect to the circumference of said second body; and</claim-text>
+<claim-text>a releasing mechanism adapted to provide the circumferential shifting movement,</claim-text>
+<claim-text>wherein the circumferential shifting movement induces a radial movement of the portion of the belt relative to the circumference of said second body, and the radial movement removes the portion of the belt from the trench and initiates a separation of said first body from said second body.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. A system according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said first interface and said second interface comprise first axial retention means and second axial retention means for preventing axial dislocation of said first body with respect to the second body when said first body is radially fixed to said second body by the belt.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. A system according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein a multitude of circumferentially segmented first bodies are connected to the second body by means of a multitude of belts with corresponding multitude of mechanical fixation means.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. A system according to <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein adjacent belts are releasably connected by said releasing mechanism.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. A system according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said first body comprises separation means for initiating a separation of the first body into multiple circumferential segments.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. A launch vehicle or spacecraft comprising a system according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said first body is a payload fairing and said second body is part of the spacecraft itself.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. A method for a launch vehicle or spacecraft for releasably connecting a circumferentially segmented first body with a first interface and a second body with a second matching interface, said first body and said second body being coaxially arranged, said method comprising the steps of:
+<claim-text>providing a belt for releasably securing said first body to said second body;</claim-text>
+<claim-text>providing a circumferential, axially indented trench at said second interface for axially receiving at least a portion of said belt in order to provide for a radial fixation of said portion of said belt with relation to said second body;</claim-text>
+<claim-text>movably attaching said portion of said belt to a circumference of said first body by mechanical fixation means provided at said first body; and</claim-text>
+<claim-text>causing a circumferential shifting movement of said portion of said belt with respect to said circumference of said first body, by means of a releasing mechanism;</claim-text>
+<claim-text>wherein said circumferential shifting movement induces an axial movement of said portion of said belt with respect to said circumference of said first body, and said axial movement removes said portion of said belt from said trench and initiates a separation of the first body from the second body.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. A method for a launch vehicle or spacecraft for releasably connecting a first body with a first interface and a second body with a second matching interface, said first body and said second body being coaxially arranged, said method comprising the steps of:
+<claim-text>providing a belt for releasably securing said first body to said second body;</claim-text>
+<claim-text>providing a circumferential, radially indented trench at said second interface for radially receiving at least a portion of said belt in order to provide for an axial fixation of said portion of said belt with relation to said second body;</claim-text>
+<claim-text>movably attaching said portion of said belt to a circumference of said first body by mechanical fixation means provided at said first body;</claim-text>
+<claim-text>causing a circumferential shifting movement of said portion of said belt with respect to said circumference of said first body, by means of a releasing mechanism;</claim-text>
+<claim-text>wherein said circumferential shifting movement induces a radial movement of said portion of said belt with respect to said circumference of said first body, and said radial movement removes said portion of said belt from said trench and initiates a separation of the first body from the second body.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A launch vehicle or spacecraft comprising a system according to <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein said first body is a payload fairing and said second body is part of the spacecraft itself. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

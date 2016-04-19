@@ -1,5 +1,6 @@
 package org.xmlcml.cmine.files;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import nu.xom.Attribute;
+import nu.xom.Document;
 import nu.xom.Element;
 import nu.xom.Node;
 import nu.xom.Text;
@@ -14,7 +16,10 @@ import nu.xom.Text;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.lookup.AbstractLookup;
+import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.xml.XMLUtil;
+
+import com.google.common.collect.Multiset;
 
 /** a container for ResultElement's.
  * 
@@ -23,7 +28,6 @@ import org.xmlcml.xml.XMLUtil;
  */
 
 public class ResultsElement extends Element implements Iterable<ResultElement> {
-
 	
 	private static final Logger LOG = Logger.getLogger(ResultsElement.class);
 	static {
@@ -31,6 +35,9 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 	
 	public static final String TAG = "results";
+	
+	public static final String DOCUMENTS = "documents";
+	public static final String FREQUENCIES = "frequencies";
 	public static final String TITLE = "title";
 	
 	protected List<ResultElement> resultElementList;
@@ -51,7 +58,9 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	}
 
 	public void setTitle(String title) {
-		this.addAttribute(new Attribute(TITLE, title));
+		if (title != null) {
+			this.addAttribute(new Attribute(TITLE, title));
+		}
 	}
 
 	public String getTitle() {
@@ -98,22 +107,19 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 	 * @param subResultsElement source of ResultElement's
 	 */
 	public void transferResultElements(ResultsElement subResultsElement) {
-		List<ResultElement> subResults = subResultsElement.getOrCreateResultElementList();
-		for (ResultElement subResult : subResults) {
+//		List<ResultElement> subResults = subResultsElement.getOrCreateResultElementList();
+		for (ResultElement subResult : subResultsElement) {
 			subResult.detach();
 			this.appendChild(subResult);
 		}
 	}
 
 	public List<ResultElement> getOrCreateResultElementList() {
-		// always create 
-//		if (resultElementList == null) {
-			resultElementList = new ArrayList<ResultElement>();
-			List<Element> resultChildren = XMLUtil.getQueryElements(this, "./*[local-name()='"+ResultElement.TAG+"']");
-			for (Element resultElement : resultChildren) {
-				resultElementList.add((ResultElement) resultElement);
-			}
-//		}
+		resultElementList = new ArrayList<ResultElement>();
+		List<Element> resultChildren = XMLUtil.getQueryElements(this, "./*[local-name()='"+ResultElement.TAG+"']");
+		for (Element resultElement : resultChildren) {
+			resultElementList.add((ResultElement) resultElement);
+		}
 		return resultElementList;
 	}
 
@@ -188,6 +194,46 @@ public class ResultsElement extends Element implements Iterable<ResultElement> {
 				}
 			}
 		}
+	}
+
+	public static boolean isEmpty(File xmlFile) {
+		Document document = XMLUtil.parseQuietlyToDocument(xmlFile);
+		if (document != null) {
+			List<Element> results = XMLUtil.getQueryElements(document, "*/"+ResultElement.TAG);
+			if (results.size() == 0) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public ResultElement get(int i) {
+		return resultElementList == null || resultElementList.size() <= i ? null : resultElementList.get(i); 
+	}
+
+	public void remove(int i) {
+		if (resultElementList != null && resultElementList.size() > i) {
+			resultElementList.remove(i); 
+		}
+	}
+
+	public static ResultsElement getResultsElementSortedByCount(Multiset<String> matchSet) {
+		Iterable<Multiset.Entry<String>> sortedEntries = CMineUtil.getEntriesSortedByCount(matchSet);
+		Iterator<Multiset.Entry<String>> entries = sortedEntries.iterator();
+		ResultsElement resultsElement = new ResultsElement(ResultsElement.FREQUENCIES);
+		while (entries.hasNext()) {
+			ResultElement resultElement = new ResultElement(ResultElement.FREQUENCY);
+			Multiset.Entry<String> entry = entries.next();
+			resultElement.appendChild(entry.getElement().toString());
+			resultElement.setCount(entry.getCount());
+			resultsElement.appendChild(resultElement);
+		}
+		return resultsElement;
+	}
+
+	public String toString() {
+		getOrCreateResultElementList();
+		return resultElementList.toString();
 	}
 
 }

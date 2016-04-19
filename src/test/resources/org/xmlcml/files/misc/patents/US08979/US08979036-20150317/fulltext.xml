@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08979036-20150317.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20150302" date-publ="20150317">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08979036</doc-number>
+<kind>B2</kind>
+<date>20150317</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13616744</doc-number>
+<date>20120914</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>FR</country>
+<doc-number>11 58550</doc-number>
+<date>20110926</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>277</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>13</main-group>
+<subgroup>08</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>13</main-group>
+<subgroup>50</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>G</section>
+<class>05</class>
+<subclass>D</subclass>
+<main-group>1</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>13</main-group>
+<subgroup>503</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>64</class>
+<subclass>C</subclass>
+<main-group>13</main-group>
+<subgroup>08</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>G</section>
+<class>05</class>
+<subclass>D</subclass>
+<main-group>1</main-group>
+<subgroup>0072</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150317</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>244220</main-classification>
+<further-classification>244175</further-classification>
+<further-classification>244235</further-classification>
+</classification-national>
+<invention-title id="d2e71">Electrical rudder control system for an aircraft</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>5657949</doc-number>
+<kind>A</kind>
+<name>Deck et al.</name>
+<date>19970800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244 76 A</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>6000662</doc-number>
+<kind>A</kind>
+<name>Todeschi et al.</name>
+<date>19991200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244223</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>6526338</doc-number>
+<kind>B2</kind>
+<name>Kubica</name>
+<date>20030200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>7874526</doc-number>
+<kind>B2</kind>
+<name>Boczar et al.</name>
+<date>20110100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>244235</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>2002/0022910</doc-number>
+<kind>A1</kind>
+<name>Kubica</name>
+<date>20020200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2005/0021193</doc-number>
+<kind>A1</kind>
+<name>Raimbault et al.</name>
+<date>20050100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>701  4</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>2011/0251739</doc-number>
+<kind>A1</kind>
+<name>Tomas et al.</name>
+<date>20111000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>701  3</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>EP</country>
+<doc-number>0 742 141</doc-number>
+<date>19961100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>EP</country>
+<doc-number>1 160 158</doc-number>
+<date>20011200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00010">
+<othercit>French Search Report dated Jul. 2, 2012.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00011">
+<othercit>Anonymous, &#x201c;Airbus A320 Primary Flight Controls,&#x201d; DutchOps.com, XP-002678976, last updated May 28, 2010, &#x3c;http://www.dutchops.com/Portfolio<sub>&#x2014;</sub>Marcel/Articles/Flight%20Controls/A320<sub>&#x2014;</sub>Flight<sub>&#x2014;</sub>Controls/A320<sub>&#x2014;</sub>Primary<sub>&#x2014;</sub>Flight<sub>&#x2014;</sub>Controls.html &#x3e;, as viewed by archive.org on Jun. 29, 2012 via &#x3c;http://web.archive.org/web/20100528100551/http://www.dutchops.com/Portfolio<sub>&#x2014;</sub>Marcel/Articles/Flight%20Controls/A320<sub>&#x2014;</sub>Flight<sub>&#x2014;</sub>Controls/A320<sub>&#x2014;</sub>Primary<sub>&#x2014;</sub>Flight<sub>&#x2014;</sub>Controls.html&#x3e;.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>8</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>244175</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244220</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244221</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244228</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244235</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>318584-586</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>1</number-of-drawing-sheets>
+<number-of-figures>3</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130075535</doc-number>
+<kind>A1</kind>
+<date>20130328</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Brot</last-name>
+<first-name>Patrice</first-name>
+<address>
+<city>Ramonville-St-Agne</city>
+<country>FR</country>
+</address>
+</addressbook>
+<residence>
+<country>FR</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Fabre</last-name>
+<first-name>Pierre</first-name>
+<address>
+<city>Tournefeuille</city>
+<country>FR</country>
+</address>
+</addressbook>
+<residence>
+<country>FR</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Brot</last-name>
+<first-name>Patrice</first-name>
+<address>
+<city>Ramonville-St-Agne</city>
+<country>FR</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Fabre</last-name>
+<first-name>Pierre</first-name>
+<address>
+<city>Tournefeuille</city>
+<country>FR</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Dickinson Wright PLLC</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Airbus Operations SAS</orgname>
+<role>03</role>
+<address>
+<city>Toulouse</city>
+<country>FR</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Chambers</last-name>
+<first-name>Troy</first-name>
+<department>3644</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Stehle</last-name>
+<first-name>Jamie S</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">Disclosed is a vertical rudder control system for an aircraft. The system is comprised of a rudder trim compensation generator that is configured to generate a rudder trim compensation order to set the position of the rudder bar of the aircraft to a neutral position in which the rudder bar is controlled with nil (i.e., zero) pilot effort. The vertical rudder control system includes a flight control calculator for calculating rudder control orders to maintain the nil effort rudder bar position, with the calculation of the rudder control orders being based on a sum of the rudder bar position, determined by a detection unit, and the rudder trim compensation order. The rudder control orders are received by a rudder operating unit, which is used to deflect the vertical rudder by a deflection value based on the rudder control orders.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="128.44mm" wi="191.09mm" file="US08979036-20150317-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="240.62mm" wi="194.06mm" file="US08979036-20150317-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">FIELD OF THE INVENTION</heading>
+<p id="p-0002" num="0001">The present invention relates to a rudder control system for an aircraft, of an electrical type, with no mechanical rudder compensation.</p>
+<heading id="h-0002" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0003" num="0002">Each aircraft is provided with a flight command system connecting the piloting units (stick, rudder bar) with the aerodynamic control surfaces (ailerons, spoilers, vertical rudder, pitch motivator) of the aircraft. Those systems have been developed over the time with the technical progress from purely mechanical non-assisted systems to electrical (command) systems being hydraulically assisted.</p>
+<p id="p-0004" num="0003">On the first systems, the effort exerted by the pilot on the piloting units was integrally transmitted to the rudders and corresponded to the aerodynamic efforts. In order to minimize the muscular efforts, compensators or trims have been created to be able to vary the control surface position corresponding to a nil muscular effort from the pilot.</p>
+<p id="p-0005" num="0004">Over the technical evolutions, the trims have been essentially kept for operational needs (from the pilots). As on the present rudder control systems, there is no more mechanical connection between the rudder bar and the vertical rudder, the trim only serves to vary the nil effort position of the rudder bar.</p>
+<p id="p-0006" num="0005">Usually, a rudder control system for an aircraft, in particular for an airplane, of the electrical type, comprises:
+<ul id="ul0001" list-style="none">
+    <li id="ul0001-0001" num="0000">
+    <ul id="ul0002" list-style="none">
+        <li id="ul0002-0001" num="0006">a rudder bar adapted to be operated by a pilot;</li>
+        <li id="ul0002-0002" num="0007">means for detecting the position of the rudder bar and generating an electrical control signal being representative of such position; and</li>
+        <li id="ul0002-0003" num="0008">a flight control calculator receiving such electrical control signal and generating, with the help of the latter, control orders being transmitted to actuating means for a vertical rudder of the aircraft.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0007" num="0009">The vertical rudder is so called electrical, since the order controlled by the pilot (position of the rudder bar) is transmitted to the flight control calculator under the shape of an electrical signal. The calculator uses then such pilot order to determine, thru internal control laws, the control order being effectively applied to the vertical rudder.</p>
+<p id="p-0008" num="0010">Despite such electrical characteristics, the rudder bar remains a complex mechanical unit. It especially comprises a spring assembly being able to create again an artificial sensation (as the rudder bar is not mechanically connected with the control surface of the aircraft anymore). Such artificial sensation generating means also comprise a mechanical rudder compensation or trim function. Such a function being implemented by a mechanical compensator or trim allows the pilot to control the nil effort rudder bar position. The control is carried out by the pilot thru buttons located in the cockpit.</p>
+<p id="p-0009" num="0011">Such mechanical rudder trim meets several operational needs:
+<ul id="ul0003" list-style="none">
+    <li id="ul0003-0001" num="0000">
+    <ul id="ul0004" list-style="none">
+        <li id="ul0004-0001" num="0012">in the case of an engine failure.</li>
+        <li id="ul0004-0002" num="0013">The failure of an engine of the aircraft generates a yawing moment. Thus, in order to keep an optimum flight line, the pilot must control a rudder bar order so that the vertical rudder generates a corrective yawing moment being opposed to the moment related to the engine failure.</li>
+        <li id="ul0004-0003" num="0014">The constant application of such order obliges the pilot to exert a constant muscular effort on the rudder bar. In order to enable the pilot to release the pedals while keeping his position (and thus his order), he calls on the mechanical rudder trim function.</li>
+        <li id="ul0004-0004" num="0015">The use of such function allows the nil effort position (initially supposed to be the neutral position) to be brought up to the current position of the rudder bar (required by the pilot). Thus, the pilot may release the rudder bar while keeping the current position; and
+        <ul id="ul0005" list-style="none">
+            <li id="ul0005-0001" num="0016">in the case of an airplane being twisted or asymmetrically loaded (fuel, passengers).</li>
+        </ul>
+        </li>
+        <li id="ul0004-0005" num="0017">In those cases, the pilot can be in a position to ask for a constant slight rudder order so as to cancel or to compensate for the dissymmetry (optimum sideslip, minimum rudder clearance). To do so, the pilot may call on the mechanical rudder trim function. Thus, the rudder bar can take a non nil order without the pilot operates on the pedals (by a slight displacement of the nil effort point).</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0010" num="0018">The presence, on an electrical rudder control system such as described above, of a mechanical rudder trim meeting the above mentioned needs, has some disadvantages, in particular in terms of mass, cost, installation, congestion, maintenance, overall reliability, etc.</p>
+<heading id="h-0003" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0011" num="0019">The present invention aims at simplifying such electrical rudder control system and cancelling the mechanical compensation function. It relates to a rudder control system for an aircraft, of an electrical type, without any mechanical control trim which allows, despite the absence of a mechanical trim, to meet the operational needs related to such a trim.</p>
+<p id="p-0012" num="0020">With this end in view, according to the invention, said rudder control system of the type comprising:
+<ul id="ul0006" list-style="none">
+    <li id="ul0006-0001" num="0000">
+    <ul id="ul0007" list-style="none">
+        <li id="ul0007-0001" num="0021">a rudder bar (pedals) being adapted to be actuated by a pilot of the aircraft;</li>
+        <li id="ul0007-0002" num="0022">means for automatically detecting the position of the rudder bar and generating an electrical control signal being representative of such position; and</li>
+        <li id="ul0007-0003" num="0023">calculation means receiving such electrical control signal and automatically generating, thru at least the latter, control orders which are transmitted to operating means for a vertical rudder of the aircraft,
+<br/>
+is remarkable in that it comprised additionally:
+</li>
+        <li id="ul0007-0004" num="0024">auxiliary means for generating a rudder trim order under the shape of an auxiliary electrical signal so that the nil effort rudder bar position is the neutral position of the rudder bar; and</li>
+        <li id="ul0007-0005" num="0025">means to transmit such auxiliary electrical signal to said calculation means being formed so as to generate, thru both this auxiliary electrical signal and said electrical control signal, the control orders which are transmitted to the operating means for the vertical rudder, said control orders being calculated from an overall order corresponding to the sum of the order relative to the rudder bar position represented by the electrical control signal and the compensation order represented by the auxiliary electrical signal generated by said auxiliary means so that the nil effort rudder bar position is always the neutral position of the rudder bar.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0013" num="0026">Consequently, thanks to the invention, the actions to meet the operational needs relative to a rudder trim are not implemented by a usual mechanical compensator, the rudder control system of which is absent, but by the generation and the application of a rudder trim order being transmitted (under the shape of an electrical signal) to the calculation means (or a flight control calculator) which use it to calculate the rudder control orders. The nil effort rudder bar position is thus always the neutral position of the rudder bar.</p>
+<p id="p-0014" num="0027">The cancelation on the rudder control system of the usual mechanical trim thus generates gains on the aircraft mass, costs, installation facility, maintenance operations and overall reliability.</p>
+<p id="p-0015" num="0028">In one first embodiment, said auxiliary means comprise automatic means for automatically determining, upon a failure of an engine of the aircraft, a compensation or trim order enabling a yawing moment generated by the engine failure to be compensated. Moreover, advantageously, said auxiliary means also comprise means for automatically detecting such a failure.</p>
+<p id="p-0016" num="0029">This first embodiment only applies in the case of an engine failure.</p>
+<p id="p-0017" num="0030">Moreover, in a second embodiment, instead of or in addition to said first embodiment, said auxiliary means also comprise hand operated means so as to allow the pilot to control (that is to say to select hand operation) a compensation order which is transmitted to the calculation means.</p>
+<p id="p-0018" num="0031">This second embodiment can be used in any situation of the aircraft requiring dissymmetry compensation, especially in the case of an aircraft being twisted or asymmetrically loaded (fuel, passengers).</p>
+<p id="p-0019" num="0032">Upon an engine failure, both embodiments can thus be used together or separately. In particular, the pilot can use the second embodiment to make a hand operated control in case of a failure of the automatic yawing moment compensation.</p>
+<p id="p-0020" num="0033">The hand operated means of said second embodiment can be realized on different ways.</p>
+<p id="p-0021" num="0034">Thus, in a first embodiment variation, said hand operated means comprise:
+<ul id="ul0008" list-style="none">
+    <li id="ul0008-0001" num="0000">
+    <ul id="ul0009" list-style="none">
+        <li id="ul0009-0001" num="0035">a rotating button being adapted to be brought by hand into three different positions, namely:</li>
+        <li id="ul0009-0002" num="0036">a first extreme position for which the value of the compensation order increases progressively;</li>
+        <li id="ul0009-0003" num="0037">a second extreme position for which the value of the compensation order decreases progressively; and</li>
+        <li id="ul0009-0004" num="0038">a neutral position for which the value of the compensation order is fixed; and</li>
+        <li id="ul0009-0005" num="0039">a re-initialization button which resets the compensation order to a nil value when it is operated.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0022" num="0040">Moreover, in a second embodiment variation (preferred), said hand operated means comprise a (unique) control button which leads, when it is kept depressed and that simultaneously the rudder bar which was previously depressed is released (progressively), to a (progressive) increase of the compensation order, such increase being proportional to the clearance (release) variation of the rudder bar. The compensation order being generated corresponds to the one obtained at the moment of the release of said control button.</p>
+<p id="p-0023" num="0041">Furthermore, in a particular embodiment, said rudder control system comprises in addition means to automatically initialize, upon the disengagement of an automatic piloting system being previously engaged, the compensate value to the rudder control value controlled by such automatic piloting system before the disengagement thereof.</p>
+<p id="p-0024" num="0042">The present invention relates moreover an aircraft, in particular a transport airplane, which is provided with an electrical rudder control system with no mechanical rudder compensation such as the one above-mentioned.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0025" num="0043">The FIGS. of the accompanying drawing will make well understood how the invention can be implemented. On those FIGS. identical annotations denote similar elements.</p>
+<p id="p-0026" num="0044"><figref idref="DRAWINGS">FIG. 1</figref> is a block diagram of an electrical rudder control system according to the invention.</p>
+<p id="p-0027" num="0045"><figref idref="DRAWINGS">FIGS. 2 and 3</figref> illustrate schematically different embodiments of hand operated control means for a rudder control compensation order making part of a system according to the invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION OF THE INVENTION</heading>
+<p id="p-0028" num="0046">The system <b>1</b> according to the invention and shown schematically on <figref idref="DRAWINGS">FIG. 1</figref> is an electrical rudder control system for an aircraft (not shown), in particular an airplane and especially a transport airplane. Such system <b>1</b> has no mechanical rudder control compensator.</p>
+<p id="p-0029" num="0047">An electrical rudder control system <b>1</b> for an aircraft usually comprises:
+<ul id="ul0010" list-style="none">
+    <li id="ul0010-0001" num="0000">
+    <ul id="ul0011" list-style="none">
+        <li id="ul0011-0001" num="0048">a rudder bar (realized under the shape of pedals) being adapted to be operated by the pilot (pedals <b>2</b>A) or the copilot (pedals <b>2</b>B);</li>
+        <li id="ul0011-0002" num="0049">means <b>3</b> being associated with said rudder bar <b>2</b>, determining its position and generating an electrical control signal being representative of such position;</li>
+        <li id="ul0011-0003" num="0050">a flight control calculator <b>4</b> receiving such electrical control signal thru an electrical connection <b>5</b> and which generates, thru the latter, control orders; and</li>
+        <li id="ul0011-0004" num="0051">operating means <b>6</b> for a vertical rudder <b>7</b> of the aircraft, to which this control orders are transmitted thru an electrical connection <b>8</b>. These operating means <b>6</b> deflect the vertical rudder <b>7</b> (as illustrated by a link <b>9</b> in mixed lines) by a deflection value representative of the thus received control orders.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0030" num="0052">Such system <b>1</b> is so-called electrical, because the order controlled by the pilot (by operating the rudder bar <b>2</b>) is transmitted to the flight control calculator <b>4</b> under the shape of an electrical signal. Such flight control calculator <b>4</b> then uses such pilot order to determine, thru usual internal control laws, the control order being efficiently applied to the vertical rudder <b>7</b>.</p>
+<p id="p-0031" num="0053">The system <b>1</b> according to the invention is such that it allows, despite the absence of a mechanical rudder compensator, to meet the operational needs relative to such compensator.</p>
+<p id="p-0032" num="0054">To do so, said system <b>1</b> comprises in addition:
+<ul id="ul0012" list-style="none">
+    <li id="ul0012-0001" num="0000">
+    <ul id="ul0013" list-style="none">
+        <li id="ul0013-0001" num="0055">auxiliary means (rudder trim compensation generator) <b>10</b> to generate a rudder trim compensation order under the form of an auxiliary electrical signal. Such rudder trim compensation order is also called bias RTS hereinunder; and</li>
+        <li id="ul0013-0002" num="0056">means (electrical connections <b>11</b>, <b>12</b>) to transmit such auxiliary electrical signal to said flight control calculator <b>4</b>.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0033" num="0057">Moreover, according to the invention, said flight control calculator <b>4</b> comprises means <b>13</b> to generate, thru both such auxiliary electrical signal and said electrical control signal, the control orders being transmitted to the operating means <b>6</b> for the vertical rudder <b>7</b>.</p>
+<p id="p-0034" num="0058">Such control orders are consequently calculated from an overall order corresponding to the sum of the order relative to the position of the rudder bar <b>2</b> (electrical control signal) and the compensation order (auxiliary electrical signal) generated by said auxiliary means <b>10</b>.</p>
+<p id="p-0035" num="0059">Thus, on the system <b>1</b> according to the invention, the necessary actions to meet the operational needs relative to a rudder compensator are not implemented by a usual mechanical compensator, that the system <b>1</b> has not, but by the generation and the application of a rudder compensation order which is transmitted (under the shape of an electrical signal) to the flight control calculator <b>4</b> which uses it to calculate the rudder control orders.</p>
+<p id="p-0036" num="0060">Within such system <b>1</b>, the nil effort rudder bar position is thus always the neutral position of the rudder bar <b>2</b>.</p>
+<p id="p-0037" num="0061">The cancelation on said rudder control system <b>1</b> of any usual mechanical compensator thus generates gains on the aircraft mass, cost, installation facility, maintenance operations and overall reliability.</p>
+<p id="p-0038" num="0062">In a first embodiment, said auxiliary means <b>10</b> comprise automatic means <b>15</b> which comprise;
+<ul id="ul0014" list-style="none">
+    <li id="ul0014-0001" num="0000">
+    <ul id="ul0015" list-style="none">
+        <li id="ul0015-0001" num="0063">usual means <b>16</b> to automatically detect a failure in an engine of the aircraft;</li>
+        <li id="ul0015-0002" num="0064">means <b>17</b> which are connected by a link <b>18</b> to said means <b>16</b> and which are formed so as to automatically determine an optimal sideslip angle; and</li>
+        <li id="ul0015-0003" num="0065">means (not shown) which are preferably integrated into the calculator <b>4</b> to take such optimal sideslip angle into account.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0039" num="0066">To do so, such optimal sideslip angle is added to a sideslip being controlled (corresponding to the rudder bar order) and the so-obtained sum is then converted into a rudder control order, which allows (by taking such optimal sideslip angle into account) to compensate the yawing moment generated by the failure.</p>
+<p id="p-0040" num="0067">Preferably, but not exclusively, said auxiliary means <b>10</b> are integrated into the calculator <b>4</b>.</p>
+<p id="p-0041" num="0068">This first embodiment applies then to cases of an engine failure. However, it could also be applied for an automatic compensation for an aircraft dissymmetry having another reason than an engine failure.</p>
+<p id="p-0042" num="0069">The means <b>17</b> use a developed normal side law, so-called Y* law. This usual law, which masters the sideslip of the aircraft at the above mentioned optimal sideslip angle, is able to automatically block the yawing moment generated by the failure.</p>
+<p id="p-0043" num="0070">With this first embodiment, in the case of an engine failure, the crew does not need anymore to provide a constant muscular effort on the vertical rudder <b>2</b> and a mechanical compensation function is not necessary anymore.</p>
+<p id="p-0044" num="0071">However, to take the situation of piloting laws being degraded (Y* law not available further to equipment failures for example) into account, said auxiliary means <b>10</b> also comprise hand operated means <b>19</b>A, <b>19</b>B to allow a pilot to control (that is to say to select hand operation) a compensation order being transmitted to the control means.</p>
+<p id="p-0045" num="0072">Such hand operated means <b>19</b>A, <b>19</b>B which are relative to a second embodiment of the invention, can be used instead of or in addition to automatic means <b>15</b> of said first embodiment.</p>
+<p id="p-0046" num="0073">Upon an engine failure, both embodiments can thus be used together or separately. In particular, upon a failure of the yawing moment automatic compensation (first embodiment), the pilot can use the second embodiment to perform a hand operated control.</p>
+<p id="p-0047" num="0074">In the case of an engine failure, the control by the pilot of a compensation order according to the invention (bias RTS) equal to the required rudder bar position enables to release the rudder bar <b>2</b> at the neutral position with no muscular effort.</p>
+<p id="p-0048" num="0075">Considering BTGT as the necessary order to compensate for an engine failure being detected, the situation shown in the following table are obtained in that case.</p>
+<p id="p-0049" num="0076">
+<tables id="TABLE-US-00001" num="00001">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="offset" colwidth="70pt" align="left"/>
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="42pt" align="left"/>
+<colspec colname="3" colwidth="49pt" align="left"/>
+<thead>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry>Position of</entry>
+<entry>Bias</entry>
+<entry>Pilot order</entry>
+</row>
+<row>
+<entry/>
+<entry>rudder bar 2</entry>
+<entry>RTS</entry>
+<entry>(law input)</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="5">
+<colspec colname="offset" colwidth="14pt" align="left"/>
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="56pt" align="left"/>
+<colspec colname="3" colwidth="42pt" align="left"/>
+<colspec colname="4" colwidth="49pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>Before engine</entry>
+<entry>Neutral</entry>
+<entry>Nil</entry>
+<entry>Nil</entry>
+</row>
+<row>
+<entry/>
+<entry>failure</entry>
+</row>
+<row>
+<entry/>
+<entry>After engine</entry>
+<entry>BTGT</entry>
+<entry>Nil</entry>
+<entry>BTGT</entry>
+</row>
+<row>
+<entry/>
+<entry>failure and</entry>
+</row>
+<row>
+<entry/>
+<entry>blocking at</entry>
+</row>
+<row>
+<entry/>
+<entry>the rudder</entry>
+</row>
+<row>
+<entry/>
+<entry>bar 2</entry>
+</row>
+<row>
+<entry/>
+<entry>After control</entry>
+<entry>Neutral</entry>
+<entry>BTGT</entry>
+<entry>BTGT</entry>
+</row>
+<row>
+<entry/>
+<entry>of bias RTS</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0050" num="0077">The second embodiment (compensation by hand control) can be used in any situation of the aircraft requiring dissymmetry compensation and especially in the case of an aircraft being twisted or asymmetrically loaded (fuel, passengers).</p>
+<p id="p-0051" num="0078">In those last cases, instead for the pilot to compensate for dissymmetry by an action to the rudder bar <b>2</b>, he compensates it directly by an action on the control of the bias RTS value.</p>
+<p id="p-0052" num="0079">In such a way, dissymmetry is compensated while keeping the rudder bar <b>2</b> in the neutral position with no muscular effort.</p>
+<p id="p-0053" num="0080">Considering CDis as the necessary order to compensate for such dissymmetry, the situations shown in the following table are obtained in those cases.</p>
+<p id="p-0054" num="0081">
+<tables id="TABLE-US-00002" num="00002">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="offset" colwidth="70pt" align="left"/>
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="35pt" align="left"/>
+<colspec colname="3" colwidth="56pt" align="left"/>
+<thead>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry>Position of</entry>
+<entry>Bias</entry>
+<entry>Pilot order</entry>
+</row>
+<row>
+<entry/>
+<entry>rudder bar 2</entry>
+<entry>RTS</entry>
+<entry>(law input)</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="5">
+<colspec colname="offset" colwidth="14pt" align="left"/>
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="56pt" align="left"/>
+<colspec colname="3" colwidth="35pt" align="left"/>
+<colspec colname="4" colwidth="56pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>Before</entry>
+<entry>Neutral</entry>
+<entry>Nil</entry>
+<entry>Nil</entry>
+</row>
+<row>
+<entry/>
+<entry>dissymmetry</entry>
+</row>
+<row>
+<entry/>
+<entry>compensation</entry>
+</row>
+<row>
+<entry/>
+<entry>After</entry>
+<entry>Neutral</entry>
+<entry>CDis</entry>
+<entry>CDis</entry>
+</row>
+<row>
+<entry/>
+<entry>dissymmetry</entry>
+</row>
+<row>
+<entry/>
+<entry>compensation</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0055" num="0082">The hand operated means <b>19</b>A, <b>19</b>B of said second embodiment can be realized on different ways.</p>
+<p id="p-0056" num="0083">Thus, in a first embodiment variation represented on <figref idref="DRAWINGS">FIG. 2</figref>, said hand operated means <b>19</b>A comprise:
+<ul id="ul0016" list-style="none">
+    <li id="ul0016-0001" num="0000">
+    <ul id="ul0017" list-style="none">
+        <li id="ul0017-0001" num="0084">a rotating button <b>20</b> which is adapted to be brought by hand by a pilot into three different position, namely:</li>
+        <li id="ul0017-0002" num="0085">an extreme position P<b>1</b> for which the value of the compensation order (bias RTS) decreases progressively;</li>
+        <li id="ul0017-0003" num="0086">an extreme position P<b>2</b> for which the value of the compensation order increases progressively; and</li>
+        <li id="ul0017-0004" num="0087">a neutral position P<b>0</b> for which the value of the compensation order is fixed to the value obtained after a right rotation or a left rotation of the button <b>20</b>; and</li>
+        <li id="ul0017-0005" num="0088">a re-initialization button <b>21</b> which resets the compensation order to a nil value when it is operated.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0057" num="0089">Such hand operated means <b>19</b>A which can use the same types of buttons as the usual control means of a usual mechanical compensation, allow the value of the bias RTS to be controlled with efficiency and precision.</p>
+<p id="p-0058" num="0090">Considering that the value of the bias RTS varies from &#x2212;100% (on the left side) to +100% (on the right side) and that it is 0% in the neutral position P<b>0</b>, the following logics are available:
+<ul id="ul0018" list-style="none">
+    <li id="ul0018-0001" num="0000">
+    <ul id="ul0019" list-style="none">
+        <li id="ul0019-0001" num="0091">when the pilot rocks the rotating button <b>20</b> to the left (position P<b>1</b>), the value of bias RTS decreases progressively while being limited to &#x2212;100%;</li>
+        <li id="ul0019-0002" num="0092">when the pilot rocks the rotating button to the right (position P<b>2</b>), the value of bias RTS increases progressively while being limited to +100%; and</li>
+        <li id="ul0019-0003" num="0093">when the pilot presses on the re-initialization button <b>21</b>, the value of bias RTS comes back progressively to 0%.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0059" num="0094">Naturally, the value of bias RTS may vary between other values than &#x2212;100% and +100% (with respect to the possible clearance of the rudder bar).</p>
+<p id="p-0060" num="0095">As an illustration, the following control speeds for the compensation order can be predicted.</p>
+<p id="p-0061" num="0096">
+<tables id="TABLE-US-00003" num="00003">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="3">
+<colspec colname="offset" colwidth="63pt" align="left"/>
+<colspec colname="1" colwidth="70pt" align="left"/>
+<colspec colname="2" colwidth="84pt" align="left"/>
+<thead>
+<row>
+<entry/>
+<entry namest="offset" nameend="2" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry>Slats and flaps in</entry>
+<entry>Slats and flaps in non</entry>
+</row>
+<row>
+<entry/>
+<entry>smooth configuration</entry>
+<entry>smoothed configuration</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="2" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="3">
+<colspec colname="1" colwidth="63pt" align="left"/>
+<colspec colname="2" colwidth="70pt" align="left"/>
+<colspec colname="3" colwidth="84pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry>Handling of the</entry>
+<entry>0.5 deg/sec</entry>
+<entry>1 deg/sec</entry>
+</row>
+<row>
+<entry>rotating button 20</entry>
+</row>
+<row>
+<entry>during less than</entry>
+</row>
+<row>
+<entry>1.5 sec</entry>
+</row>
+<row>
+<entry>Handling of the</entry>
+<entry>1.5 deg/sec</entry>
+<entry>3 deg/sec</entry>
+</row>
+<row>
+<entry>button 20 beyond</entry>
+</row>
+<row>
+<entry>1.5 sec</entry>
+</row>
+<row>
+<entry namest="1" nameend="3" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0062" num="0097">Furthermore, the reset speed for the compensation order (bias RTS) by a depression on the re-initialization button <b>21</b> can be 3&#xb0;.</p>
+<p id="p-0063" num="0098">In this example, it is appropriate to consider a rudder bar clearance, from an abutment to the following, of +/&#x2212;30&#xb0;.</p>
+<p id="p-0064" num="0099">Furthermore, in a second preferred embodiment variation, represented on <figref idref="DRAWINGS">FIG. 3</figref>, said hand operated means <b>19</b>B comprise a (unique) control button <b>22</b> which leads, when it is kept depressed and that simultaneously the rudder bar <b>2</b> which was previously depressed is released (progressively) to a (progressive) increase of the compensation order, such increase being proportional to the clearance variation (release) of the rudder bar <b>2</b>. The compensation order being generated corresponds to the one obtained upon the release of said control button <b>22</b>.</p>
+<p id="p-0065" num="0100">These hand operated means <b>19</b>B enable the value of bias RTS to be controlled efficiently and precisely.</p>
+<p id="p-0066" num="0101">Preferably the value of bias RTS varies from &#x2212;100% (on the left side) to +100% (on the right side) and it is 0% at the neutral position.</p>
+<p id="p-0067" num="0102">Operationally:
+<ul id="ul0020" list-style="none">
+    <li id="ul0020-0001" num="0000">
+    <ul id="ul0021" list-style="none">
+        <li id="ul0021-0001" num="0103">the pilot start to balance the aircraft by an action on the rudder bar <b>2</b> (non nil position and effort);</li>
+        <li id="ul0021-0002" num="0104">then he presses on the button <b>22</b> and keeps it depressed while releasing the rudder bar <b>2</b> progressively up to the neutral position (for a nil effort).</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0068" num="0105">As the rudder bar <b>2</b> is repositioned toward the neutral position by the pilot, and that the button <b>22</b> is kept depressed:
+<ul id="ul0022" list-style="none">
+    <li id="ul0022-0001" num="0000">
+    <ul id="ul0023" list-style="none">
+        <li id="ul0023-0001" num="0106">the pilot order (at the low input) is fixed to the value it had at the moment where the crew depressed the button <b>22</b>; and</li>
+        <li id="ul0023-0002" num="0107">the compensation according to the invention (bias RTS) increases progressively in proportion to the clearance variation of the rudder bar <b>2</b>.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0069" num="0108">Once the rudder bar <b>2</b> is on the neutral position, the pilot releases the button <b>22</b> and the position of the rudder bar <b>2</b> takes action again in the composition of the pilot order (at the law input). The bias RTS being registered is then equivalent to the rudder bar position before the procedure.</p>
+<p id="p-0070" num="0109">Considering EqLat as the rudder control order wished by the pilot and IntLat as an intermediate position of the rudder bar <b>2</b>, the situations shown on the following table are obtained upon the control above mentioned.</p>
+<p id="p-0071" num="0110">
+<tables id="TABLE-US-00004" num="00004">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="offset" colwidth="70pt" align="left"/>
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="42pt" align="left"/>
+<colspec colname="3" colwidth="49pt" align="left"/>
+<thead>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry>Position of</entry>
+<entry>Bias</entry>
+<entry>Pilot order</entry>
+</row>
+<row>
+<entry/>
+<entry>rudder bar 2</entry>
+<entry>RTS</entry>
+<entry>(law input)</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="3" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="5">
+<colspec colname="offset" colwidth="14pt" align="left"/>
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="56pt" align="left"/>
+<colspec colname="3" colwidth="42pt" align="left"/>
+<colspec colname="4" colwidth="49pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>Rudder bar 2</entry>
+<entry>EqLat</entry>
+<entry>Nil</entry>
+<entry>EqLat</entry>
+</row>
+<row>
+<entry/>
+<entry>deflected by</entry>
+</row>
+<row>
+<entry/>
+<entry>the pilot</entry>
+</row>
+<row>
+<entry/>
+<entry>before the</entry>
+</row>
+<row>
+<entry/>
+<entry>start of the</entry>
+</row>
+<row>
+<entry/>
+<entry>procedure</entry>
+</row>
+<row>
+<entry/>
+<entry>Progressive</entry>
+<entry>IntLat</entry>
+<entry>EqLat-</entry>
+<entry>Eqlat</entry>
+</row>
+<row>
+<entry/>
+<entry>return of the</entry>
+<entry/>
+<entry>IntLat</entry>
+</row>
+<row>
+<entry/>
+<entry>rudder bar 2</entry>
+</row>
+<row>
+<entry/>
+<entry>on neutral</entry>
+</row>
+<row>
+<entry/>
+<entry>position while</entry>
+</row>
+<row>
+<entry/>
+<entry>keeping button</entry>
+</row>
+<row>
+<entry/>
+<entry>22 depressed</entry>
+</row>
+<row>
+<entry/>
+<entry>Rudder bar 2</entry>
+<entry>Neutral</entry>
+<entry>EqLat</entry>
+<entry>EqLat</entry>
+</row>
+<row>
+<entry/>
+<entry>at neutral</entry>
+</row>
+<row>
+<entry/>
+<entry>position with</entry>
+</row>
+<row>
+<entry/>
+<entry>button 22</entry>
+</row>
+<row>
+<entry/>
+<entry>being released</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0072" num="0111">The compensation value is then incremented as long as the button <b>2</b> is depressed. Such increment corresponds to the difference between the rudder bar position (EqLat) at the moment where the button is depressed and the current position (IntLat) of the rudder bar <b>2</b>.</p>
+<p id="p-0073" num="0112">Once the control procedure being ended, the rudder bar <b>2</b> is re-established in the neutral position (with no muscular effort) while having a pilot order correctly compensated for. The aircraft is thus for a long time balanced with no muscular effort on the rudder bar <b>2</b>.</p>
+<p id="p-0074" num="0113">It should be noticed that:
+<ul id="ul0024" list-style="none">
+    <li id="ul0024-0001" num="0000">
+    <ul id="ul0025" list-style="none">
+        <li id="ul0025-0001" num="0114">when the compensation value (bias RTS) reaches its limit (+/&#x2212;100%), the increment is not taken into account anymore and everything occurs as if the pilot had released the button <b>22</b> (even it is not the case yet) and the position of the rudder bar <b>2</b> takes action again on the pilot order; and</li>
+        <li id="ul0025-0002" num="0115">the compensation increment (bias RTS) takes only effect when the pedals are released. It is nil when the pedals <b>2</b>A, <b>2</b>B are further depressed with respect to the position they had at the moment where the button <b>22</b> has been depressed.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0075" num="0116">In this second embodiment variation, said hand operated means <b>19</b>B can also comprise a re-initialization button (not represented) which is for example similar to the re-initialization button <b>21</b> to put the compensation order to a nil value when it is operated.</p>
+<p id="p-0076" num="0117">The invention also comprises a particular embodiment being applied to an aircraft provided with an automatic piloting system (not shown) which equilibrates usually the aircraft in yawing over a non nil rudder order.</p>
+<p id="p-0077" num="0118">In such particular embodiment, the system <b>1</b> comprises means <b>24</b> to initialize automatically (via a link <b>25</b>) upon the disengagement of said automatic piloting system being previously engaged, the value of compensation to the value of the rudder bar order controlled by such automatic piloting system before the disengagement thereof.</p>
+<p id="p-0078" num="0119">As the rudder bar <b>2</b> is at the neutral position at the moment of the disengagement of the automatic piloting system, a continuity of the rudder control is obtained, entering the laws as illustrated on the following table, where OPA represents the automatic piloting system (at the moment of the disengagement thereof).</p>
+<p id="p-0079" num="0120">
+<tables id="TABLE-US-00005" num="00005">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="5">
+<colspec colname="offset" colwidth="56pt" align="left"/>
+<colspec colname="1" colwidth="42pt" align="left"/>
+<colspec colname="2" colwidth="28pt" align="left"/>
+<colspec colname="3" colwidth="56pt" align="left"/>
+<colspec colname="4" colwidth="35pt" align="left"/>
+<thead>
+<row>
+<entry/>
+<entry namest="offset" nameend="4" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>Order of</entry>
+<entry>Rudder</entry>
+</row>
+<row>
+<entry/>
+<entry>Position</entry>
+<entry/>
+<entry>the automatic</entry>
+<entry>order</entry>
+</row>
+<row>
+<entry/>
+<entry>of rudder</entry>
+<entry>Bias</entry>
+<entry>piloting</entry>
+<entry>(law</entry>
+</row>
+<row>
+<entry/>
+<entry>bar 2</entry>
+<entry>RTS</entry>
+<entry>system</entry>
+<entry>input)</entry>
+</row>
+<row>
+<entry/>
+<entry namest="offset" nameend="4" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="5">
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="42pt" align="left"/>
+<colspec colname="3" colwidth="28pt" align="left"/>
+<colspec colname="4" colwidth="56pt" align="left"/>
+<colspec colname="5" colwidth="35pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry>Before</entry>
+<entry>neutral</entry>
+<entry>/</entry>
+<entry>OPA</entry>
+<entry>OPA</entry>
+</row>
+<row>
+<entry>disengagement</entry>
+</row>
+<row>
+<entry>of automatic</entry>
+</row>
+<row>
+<entry>piloting</entry>
+</row>
+<row>
+<entry>system</entry>
+</row>
+<row>
+<entry>After</entry>
+<entry>Neutral</entry>
+<entry>OPA</entry>
+<entry>/</entry>
+<entry>OPA</entry>
+</row>
+<row>
+<entry>disengagement</entry>
+</row>
+<row>
+<entry>of automatic</entry>
+</row>
+<row>
+<entry>piloting</entry>
+</row>
+<row>
+<entry>system</entry>
+</row>
+<row>
+<entry namest="1" nameend="5" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0080" num="0121">In the field of the present invention, it can be authorized or not, on the system <b>1</b>, to adjust by hand the bias RTS when the automatic piloting system is engaged (dissymmetry compensation). In a particular embodiment authorizing adjustment by hand, the order of the automatic piloting system is summed to the compensation controlled by hand to give the rudder control on the law input. In this case, a continuity of the disengagement order of the automatic piloting system is also ensured by a re-adjustment of the bias RTS value.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A vertical rudder control system for an aircraft, comprising:
+<claim-text>a rudder bar configured for actuation by a pilot of said aircraft;</claim-text>
+<claim-text>rudder bar position detection unit configured for detecting rudder bar position and generating an electrical control signal corresponding to the rudder bar position;</claim-text>
+<claim-text>rudder trim compensation generator for generating a rudder trim compensation order setting a nil effort rudder bar position as a rudder bar neutral position, wherein the rudder bar compensation generator generates an auxiliary electrical signal based on the generated rudder trim compensation order, and the nil effort rudder bar position is the rudder bar position at which the rudder bar is controlled with nil muscular pilot effort;</claim-text>
+<claim-text>flight control calculator configured for calculating, from the auxiliary electrical signal and said electrical control signal, rudder control orders for the vertical rudder, wherein said rudder control orders are calculated, from a sum of the rudder bar position and the rudder trim compensation order, to maintain the nil effort rudder bar position as the neutral position of the rudder bar; and</claim-text>
+<claim-text>rudder operating unit configured to receive the control orders for the vertical rudder and deflect the vertical rudder by a deflection value based on the control orders.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The system according to <claim-ref idref="CLM-00001">claim 1</claim-ref>,
+<claim-text>wherein said rudder trim compensation generator is configured for determining, upon a failure of an engine of the aircraft, a rudder trim compensation order enabling compensation for a yawing moment generated by the engine.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The system according to <claim-ref idref="CLM-00002">claim 2</claim-ref>,
+<claim-text>wherein said rudder trim compensation generator comprises an engine failure detection unit for detecting engine failure.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The system according to <claim-ref idref="CLM-00001">claim 1</claim-ref>,
+<claim-text>wherein said rudder trim compensation unit comprises a hand operated control allowing a pilot to control the rudder trim compensation order.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The system according to <claim-ref idref="CLM-00004">claim 4</claim-ref>,
+<claim-text>wherein said hand operated control comprises:
+<claim-text>a rotating button configured to be brought by hand into three different positions:
+<claim-text>a first extreme position (P<b>2</b>) for which the value of the rudder trim compensation order increases progressively;</claim-text>
+<claim-text>a second extreme position (P<b>1</b>) for which the value of the rudder trim compensation order decreases progressively; and</claim-text>
+<claim-text>a neutral position (P<b>0</b>) for which the value of the rudder trim compensation order is fixed; and</claim-text>
+</claim-text>
+<claim-text>a re-initialization button configured for resetting the rudder trim compensation order to a nil value.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The system according to <claim-ref idref="CLM-00004">claim 4</claim-ref>,
+<claim-text>wherein said hand operated control comprises a control button configured, upon depression and release of the control button, for increasing rudder trim compensation order in proportion to a clearance variation of the rudder bar.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The system according to <claim-ref idref="CLM-00001">claim 1</claim-ref>,
+<claim-text>further comprising an initialization unit for providing an initialized rudder control order value, wherein the initialized rudder control order value is based on the rudder control orders carried out upon disengagement of an automatic piloting system.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. An aircraft,
+<claim-text>comprising the vertical rudder control system of <claim-ref idref="CLM-00001">claim 1</claim-ref>. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>
