@@ -156,10 +156,17 @@ public class CTree extends CContainer {
 	public static final String FULLTEXT_XHTML     = "fulltext.xhtml";
 	public static final String FULLTEXT_XML       = "fulltext.xml";
 	public static final String LOGFILE            = "log.xml";
+	public static final String METADATA_JSON      = "metadata.json";
 	public static final String RESULTS_JSON       = "results.json";
 	public static final String RESULTS_XML        = "results.xml";
 	public static final String RESULTS_HTML       = "results.html";
 	public static final String SCHOLARLY_HTML     = "scholarly.html";
+
+	public static final String META_DIR_NAME      = "meta";
+	public static final String AUDIT_DIR_NAME     = "audit";
+	public static final String SOURCE_DIR_NAME    = "source";
+	public static final String DOCUMENT_DIR_NAME  = "document";
+	public static final String DERIVED_DIR_NAME   = "derived";
 
 	public final static List<String> RESERVED_FILE_NAMES;
 	static {
@@ -1160,6 +1167,36 @@ public class CTree extends CContainer {
 	public void setSnippetsTree(SnippetsTree snippetsTree) {
 		this.snippetsTree = snippetsTree;
 	}
+
+	public File ensureMetaDirectory() {
+		File metaDirectory = new File(getDirectory(), META_DIR_NAME);
+		ensureDirectory(metaDirectory);
+		return metaDirectory;
+	}
+
+	public File ensureMetaChildDirectory(String directoryName) {
+		File childDirectory = new File(ensureMetaDirectory(), directoryName);
+		ensureDirectory(childDirectory);
+		return childDirectory;
+	}
+
+	private void ensureDirectory(File directory) {
+		if (!directory.exists()) {
+			directory.mkdirs();
+		} else {
+			if (!directory.isDirectory()) {
+				throw new RuntimeException(directory +" must be directory");
+			}
+		}
+	}
+
+//	private void ensureMetaDirectories() {
+//		ensureMetaChildDirectory(CTree.SOURCE_DIR_NAME);
+//		ensureMetaChildDirectory(CTree.AUDIT_DIR_NAME);
+//		ensureMetaChildDirectory(CTree.DOCUMENT_DIR_NAME);
+//		ensureMetaChildDirectory(CTree.DERIVED_DIR_NAME);
+//	}
+
 
 
 	
