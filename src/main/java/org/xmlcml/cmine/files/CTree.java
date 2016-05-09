@@ -120,46 +120,56 @@ public class CTree extends CContainer {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	private static final String CIF      = "cif";
-	private static final String CSV      = "csv";
-	private static final String DOC      = "doc";
-	private static final String DOCX     = "docx";
-	private static final String EPUB     = "epub";
-	private static final String GIF      = "gif";
-	private static final String HTML     = "html";
-	private static final String JPG      = "jpg";
-	private static final String PDF      = "pdf";
-	private static final String PDF_TXT  = "pdf.txt";
-	private static final String PNG      = "png";
-	private static final String PPT      = "ppt";
-	private static final String PPTX     = "pptx";
-	private static final String SVG      = "svg";
-	private static final String TEX      = "tex";
-	private static final String TIF      = "tif";
-	private static final String TXT      = "txt";
-	private static final String TXT_HTML = "txt.html";
-	private static final String XHTML    = "xhtml";
-	private static final String XLS      = "xls";
-	private static final String XLSX     = "xlsx";
-	private static final String XML      = "xml";
+	public static final String DOT      = ".";
 
-	public static final String ABSTRACT_HTML      = "abstract.html";
-	public static final String EMPTY_XML          = "empty.xml";
-	public static final String FULLTEXT_DOCX      = "fulltext.docx";
-	public static final String FULLTEXT_HTML      = "fulltext.html";
-	public static final String FULLTEXT_PDF       = "fulltext.pdf";
-	public static final String FULLTEXT_PDF_TXT   = "fulltext.pdf.txt";
-	public static final String FULLTEXT_TEX       = "fulltext.tex";
-	public static final String FULLTEXT_TEX_HTML  = "fulltext.tex.html";
-	public static final String FULLTEXT_TXT       = "fulltext.txt";
-	public static final String FULLTEXT_TXT_HTML  = "fulltext.txt.html";
-	public static final String FULLTEXT_XHTML     = "fulltext.xhtml";
-	public static final String FULLTEXT_XML       = "fulltext.xml";
-	public static final String LOGFILE            = "log.xml";
-	public static final String RESULTS_JSON       = "results.json";
-	public static final String RESULTS_XML        = "results.xml";
-	public static final String RESULTS_HTML       = "results.html";
-	public static final String SCHOLARLY_HTML     = "scholarly.html";
+	public static final String CIF      = "cif";
+	public static final String CSV      = "csv";
+	public static final String DOC      = "doc";
+	public static final String DOCX     = "docx";
+	public static final String EPUB     = "epub";
+	public static final String GIF      = "gif";
+	public static final String HTML     = "html";
+	public static final String JPG      = "jpg";
+	public static final String JSON     = "json";
+	public static final String PDF      = "pdf";
+	public static final String PDF_TXT  = "pdf.txt";
+	public static final String PNG      = "png";
+	public static final String PPT      = "ppt";
+	public static final String PPTX     = "pptx";
+	public static final String SVG      = "svg";
+	public static final String TEX      = "tex";
+	public static final String TIF      = "tif";
+	public static final String TXT      = "txt";
+	public static final String TXT_HTML = "txt.html";
+	public static final String XHTML    = "xhtml";
+	public static final String XLS      = "xls";
+	public static final String XLSX     = "xlsx";
+	public static final String XML      = "xml";
+
+	public static final String ABSTRACT  = "abstract";
+	public static final String EMPTY     = "empty";
+	public static final String FULLTEXT  = "fulltext";
+	public static final String LOG1      = "log";
+	public static final String RESULTS   = "results";
+	public static final String SCHOLARLY = "scholarly";
+	
+	public static final String ABSTRACT_HTML      = ABSTRACT+DOT+HTML;
+	public static final String EMPTY_XML          = EMPTY+DOT+XML;
+	public static final String FULLTEXT_DOCX      = FULLTEXT+DOT+DOCX;
+	public static final String FULLTEXT_HTML      = FULLTEXT+DOT+HTML;
+	public static final String FULLTEXT_PDF       = FULLTEXT+DOT+PDF;
+	public static final String FULLTEXT_PDF_TXT   = FULLTEXT+DOT+PDF+DOT+TXT;
+	public static final String FULLTEXT_TEX       = FULLTEXT+DOT+TEX;
+	public static final String FULLTEXT_TEX_HTML  = FULLTEXT+DOT+TEX+DOT+HTML;
+	public static final String FULLTEXT_TXT       = FULLTEXT+DOT+TXT;
+	public static final String FULLTEXT_TXT_HTML  = FULLTEXT+DOT+TXT+DOT+HTML;
+	public static final String FULLTEXT_XHTML     = FULLTEXT+DOT+XHTML;
+	public static final String FULLTEXT_XML       = FULLTEXT+DOT+XML;
+	public static final String LOGFILE            = LOG1+DOT+XML;
+	public static final String RESULTS_JSON       = RESULTS+DOT+JSON;
+	public static final String RESULTS_XML        = RESULTS+DOT+XML;
+	public static final String RESULTS_HTML       = RESULTS+DOT+HTML;
+	public static final String SCHOLARLY_HTML     = SCHOLARLY+DOT+HTML;
 
 	public final static List<String> RESERVED_FILE_NAMES;
 	static {
@@ -187,6 +197,7 @@ public class CTree extends CContainer {
 	public static final String RESULTS_DIR       = "results/";
 	public static final String SUPPLEMENTAL_DIR  = "supplement/";
 	public static final String SVG_DIR           = "svg/";
+	public static final String TABLE_DIR         = "table/";
 
 	public final static List<String> RESERVED_DIR_NAMES;
 	static {
@@ -196,6 +207,7 @@ public class CTree extends CContainer {
 					RESULTS_DIR,
 					SUPPLEMENTAL_DIR,
 					SVG_DIR,
+					TABLE_DIR,
 			});
 	}
 	
@@ -787,7 +799,7 @@ public class CTree extends CContainer {
 		}
 		if (content != null) {
 			try {
-				LOG.trace("writing file: "+file);
+				LOG.debug("writing file: "+file);
 				FileUtils.write(file, content, Charset.forName("UTF-8"));
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot write file: ", e);

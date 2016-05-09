@@ -160,6 +160,7 @@ public class DefaultArgProcessor {
 	protected List<String> extensionList = null;
 	private boolean recursive = false;
 	public List<String> inputList;
+	public String inputDirName;
 	protected String logfileName;
 	public String update;
 	
@@ -181,6 +182,7 @@ public class DefaultArgProcessor {
 	protected List<DefaultStringDictionary> dictionaryList;
 	private String filterExpression;
 	private File outputFile;
+	public String outputDirName;
 	CProject cProject;
 	
 	private ProjectSnippetsTree projectSnippetsTree;
@@ -326,6 +328,10 @@ public class DefaultArgProcessor {
 		inputList = ensureArgumentExpander().expandAllWildcards(inputs);
 	}
 
+	public void parseInputDirectory(ArgumentOption option, ArgIterator argIterator) {
+		inputDirName = argIterator.getString(option);
+	}
+
 	public void parseLogfile(ArgumentOption option, ArgIterator argIterator) {
 		List<String> strings = argIterator.getStrings(option);
 		logfileName = (strings.size() == 0) ? CTree.LOGFILE : strings.get(0);
@@ -334,6 +340,10 @@ public class DefaultArgProcessor {
 
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
 		output = argIterator.getString(option);
+	}
+
+	public void parseOutputDirectory(ArgumentOption option, ArgIterator argIterator) {
+		outputDirName = argIterator.getString(option);
 	}
 
 	public void parseProject(ArgumentOption option, ArgIterator argIterator) {
@@ -766,10 +776,15 @@ public class DefaultArgProcessor {
 		return inputList;
 	}
 
-	public String getString() {
+	public String getInputDirName() {
+		return inputDirName;
+	}
+
+	public String getSingleInputName() {
 		ensureInputList();
 		return (inputList.size() != 1) ? null : inputList.get(0);
 	}
+	
 	void ensureInputList() {
 		if (inputList == null) {
 			inputList = new ArrayList<String>();
@@ -778,6 +793,10 @@ public class DefaultArgProcessor {
 
 	public String getOutput() {
 		return output;
+	}
+
+	public String getOutputDirName() {
+		return outputDirName;
 	}
 
 	public File getOutputFile() {

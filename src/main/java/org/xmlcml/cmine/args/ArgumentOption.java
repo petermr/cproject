@@ -207,6 +207,7 @@ public class ArgumentOption {
 			Attribute attribute = element.getAttribute(i);
 			String name = attribute.getLocalName();
 			String value = attribute.getValue();
+			LOG.trace("NV "+name+" "+value);
 			argumentOption.setValue(name, value);
 			mandatorySet.remove(name);
 			optionalAttributes.put(name, null);

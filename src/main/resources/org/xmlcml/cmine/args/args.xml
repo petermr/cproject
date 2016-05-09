@@ -29,46 +29,6 @@
   <p>20160112: refactoring to transfer some classes such as searchers to AMI</p>
   <p>20150807: added logfile</p>
 
-	<arg name="input" 
-		brief="-i"
-		long="--input"
-		args="[file(s)_and/or_url(s)]"
-		countRange="{1,*}"
-		parseMethod="parseInput"
-		>
-		<help>
-		  <p class="brief">Input stream (Files, directories, URLs)</p> 
-			<p>Norma tries to guess reasonable actions and
-				also expand some simple wildcards. The argument can either be a single object, or a list. Within objects
-				the content of curly brackets {...} is expanded as wildcards (cannot recurse). There can be multiple {...}
-				within an object and all are expanded (but be sensible - this could generate the known universe and crash the
-				system. If this is misused it will be withdrawn). Objects (URLs, files) can be mixed but it's probably a
-				poor idea.
-			</p>	
-			<p>The logic is: 
-				<ul>
-				<li>(a) if an object starts with 'www' or 'http:' or 'https;' it's assumed to be a URL</li>
-				<li>(b) if it is a directory, then the contents (filtered by extension) are added to the list as files</li>
-				<li>(c) if it's a file it's added to the list</li>
-				</ul>
-				the wildcards in files and URLs are then expanded and the results added to the list
-				</p>
-
-				<p>			
-				Current wildcards:
-				  <ul>
-	  <li><code>{n1:n2}</code> n1,n2 are integers: generate n1 ... n2 inclusive</li>
-	  <li><code>{foo,bar,plugh}</code> list of strings</li>
-				  </ul>
-				</p>
-				<p class="note">Undergoing continuing development. Often the filenames are redundant 
-				(e.g. <code>fulltext.pdf</code> for <code>--transform pdf2txt</code>) and we are trying to make
-				these implicit. The mechanisms for creating <em><code>ctree</code></em>s from isolated files will
-				probably be altered. 
-				</p>	  
-		</help>
-	</arg>	
-	
 	<arg name="ctree" 
 		brief="-q"
 		long="--ctree"
@@ -110,30 +70,72 @@
 		</help>
 	</arg>	
 	
-	
-	<arg name="qsNorma" 
-		brief="-q"
-		long="--quickscrapeNorma"
-		args="director(ies)"
-		class="org.xmlcml.cmine.files.CTree"
-		countRange="{0,*}"
-		parseMethod="parseQSNorma"
+
+	<arg name="input" 
+		brief="-i"
+		long="--input"
+		args="[file(s)_and/or_url(s)]"
+		countRange="{1,*}"
+		parseMethod="parseInput"
 		>
 		<help>
-		OBSOLETE // use --ctree instead
+		  <p class="brief">Input stream (Files, directories, URLs)</p> 
+			<p>Norma tries to guess reasonable actions and
+				also expand some simple wildcards. The argument can either be a single object, or a list. Within objects
+				the content of curly brackets {...} is expanded as wildcards (cannot recurse). There can be multiple {...}
+				within an object and all are expanded (but be sensible - this could generate the known universe and crash the
+				system. If this is misused it will be withdrawn). Objects (URLs, files) can be mixed but it's probably a
+				poor idea.
+			</p>	
+			<p>The logic is: 
+				<ul>
+				<li>(a) if an object starts with 'www' or 'http:' or 'https;' it's assumed to be a URL</li>
+				<li>(b) if it is a directory, then the contents (filtered by extension) are added to the list as files</li>
+				<li>(c) if it's a file it's added to the list</li>
+				</ul>
+				the wildcards in files and URLs are then expanded and the results added to the list
+				</p>
+
+				<p>			
+				Current wildcards:
+				  <ul>
+	  <li><code>{n1:n2}</code> n1,n2 are integers: generate n1 ... n2 inclusive</li>
+	  <li><code>{foo,bar,plugh}</code> list of strings</li>
+				  </ul>
+				</p>
+				<p class="note">Undergoing continuing development. Often the filenames are redundant 
+				(e.g. <code>fulltext.pdf</code> for <code>--transform pdf2txt</code>) and we are trying to make
+				these implicit. The mechanisms for creating <em><code>ctree</code></em>s from isolated files will
+				probably be altered. 
+				</p>	  
 		</help>
 	</arg>	
 	
-	<arg name="cmdir" 
-		brief="-q"
-		long="--cmdir"
-		args="director(ies)"
-		class="org.xmlcml.cmine.files.CTree"
-		countRange="{0,*}"
-		parseMethod="parseQSNorma"
+	<arg name="inputDir" 
+		long="--inputDir"
+		args="[inputDirectory]"
+		countRange="{1,1}"
+		parseMethod="parseInputDirectory"
 		>
 		<help>
-		OBSOLETE // use --ctree instead
+		  <p class="brief">Input Directory (tables, images, supplemental, etc)</p> 
+			<p>Diectory holding files to be analyzed or transformed. The type of the file may be set by the transform 
+			w.g. csv2html or operation
+			</p>	
+		</help>
+	</arg>	
+	
+	<arg name="outputDir" 
+		long="--outputDir"
+		args="[outputDirectory]"
+		countRange="{1,1}"
+		parseMethod="parseOutputDirectory"
+		>
+		<help>
+		  <p class="brief">output Directory (tables, images, supplemental, etc)</p> 
+			<p>Driectory holding files to be analyzed or transformed. The type of the file may be set by the transform 
+			w.g. csv2html or operation
+			</p>	
 		</help>
 	</arg>	
 	
@@ -155,19 +157,6 @@
 		</help>
 	</arg>	
 			
-	<arg name="version"
-		brief="-v"
-		long="--version"
-		args=" "
-		countRange="{0,0}"
-		parseMethod="parseVersion"
-		>
-		<help>
-		<p>Prints version number.</p>
-		<p class="note">Future versions will print the versions of ancestors.</p>
-		</help>
-	</arg>	
-	
 	<arg name="recursive"			
 		brief="-r"
 		long="--recursive"
@@ -301,6 +290,19 @@
 		</help>
 	</arg>	
 	    
+	<arg name="version"
+		brief="-v"
+		long="--version"
+		args=" "
+		countRange="{0,0}"
+		parseMethod="parseVersion"
+		>
+		<help>
+		<p>Prints version number.</p>
+		<p class="note">Future versions will print the versions of ancestors.</p>
+		</help>
+	</arg>	
+	
 	<arg name="include"
 		long="--include"
 		args="??"
@@ -401,6 +403,33 @@
 			XPATH
 			Defines the section/s of the document to analyze. The argument is one or more xpath
 			strings separated by spaces. (The xpaths cannot contain spaces currently.)
+		</help>
+	</arg>	
+	
+	
+	<arg name="qsNorma" 
+		brief="-q"
+		long="--quickscrapeNorma"
+		args="director(ies)"
+		class="org.xmlcml.cmine.files.CTree"
+		countRange="{0,*}"
+		parseMethod="parseQSNorma"
+		>
+		<help>
+		OBSOLETE // use --ctree instead
+		</help>
+	</arg>	
+	
+	<arg name="cmdir" 
+		brief="-q"
+		long="--cmdir"
+		args="director(ies)"
+		class="org.xmlcml.cmine.files.CTree"
+		countRange="{0,*}"
+		parseMethod="parseQSNorma"
+		>
+		<help>
+		OBSOLETE // use --ctree instead
 		</help>
 	</arg>	
 	
