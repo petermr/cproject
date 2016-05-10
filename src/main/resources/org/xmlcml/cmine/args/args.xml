@@ -1,5 +1,6 @@
-<argList name="cmine" version="0.2.29">
+<argList name="cmine" version="0.2.30">
 
+  <p>20160509: more args and refactoring of CTree directories to support conversions</p>
   <p>20160324: fixed col headings on dataTables</p>
   <p>20160320: support for sectioning</p>
   <p>20160313: moved optionFlags from AMI</p>
