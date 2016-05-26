@@ -23,10 +23,13 @@ public class CProject extends CContainer {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	private static final String PROJECT_TEMPLATE_XML = "cProjectTemplate.xml";
-	private static final String TREE_TEMPLATE_XML = "cTreeTemplate.xml";
+	public static final String PROJECT_TEMPLATE_XML = "cProjectTemplate.xml";
+	public static final String TREE_TEMPLATE_XML = "cTreeTemplate.xml";
 	public final static String EUPMC_RESULTS_JSON = "eupmc_results.json";
-	private final static String RESULTS = "results";
+	
+	public final static String IMAGE   = "image";
+	public final static String RESULTS = "results";
+	public final static String TABLE   = "table";
 
 	// move these to plugin subdirs later
 	public static final String SPECIES_GENUS_SNIPPETS_XML = "species.genus.snippets.xml";
@@ -48,6 +51,8 @@ public class CProject extends CContainer {
 	
 	protected static final String[] ALLOWED_DIR_NAMES = new String[] {
 		RESULTS,
+		TABLE,
+		IMAGE,
 	};
 	
 	protected static final Pattern[] ALLOWED_DIR_PATTERNS = new Pattern[] {

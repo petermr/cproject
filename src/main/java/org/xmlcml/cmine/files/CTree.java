@@ -128,6 +128,7 @@ public class CTree extends CContainer {
 	public static final String DOCX     = "docx";
 	public static final String EPUB     = "epub";
 	public static final String GIF      = "gif";
+	public static final String HOCR     = "hocr";
 	public static final String HTML     = "html";
 	public static final String JPG      = "jpg";
 	public static final String JSON     = "json";
@@ -139,12 +140,15 @@ public class CTree extends CContainer {
 	public static final String SVG      = "svg";
 	public static final String TEX      = "tex";
 	public static final String TIF      = "tif";
+	public static final String TSV      = "tsv";
 	public static final String TXT      = "txt";
 	public static final String TXT_HTML = "txt.html";
 	public static final String XHTML    = "xhtml";
 	public static final String XLS      = "xls";
 	public static final String XLSX     = "xlsx";
 	public static final String XML      = "xml";
+
+	public static final String XSL      = "xsl";
 
 	public static final String ABSTRACT  = "abstract";
 	public static final String EMPTY     = "empty";
@@ -165,7 +169,9 @@ public class CTree extends CContainer {
 	public static final String FULLTEXT_TXT_HTML  = FULLTEXT+DOT+TXT+DOT+HTML;
 	public static final String FULLTEXT_XHTML     = FULLTEXT+DOT+XHTML;
 	public static final String FULLTEXT_XML       = FULLTEXT+DOT+XML;
+	public static final String HOCR_SVG           = HOCR+DOT+SVG;
 	public static final String LOGFILE            = LOG1+DOT+XML;
+	public static final String PNG_HOCR_SVG       = PNG+DOT+HOCR+DOT+SVG;
 	public static final String RESULTS_JSON       = RESULTS+DOT+JSON;
 	public static final String RESULTS_XML        = RESULTS+DOT+XML;
 	public static final String RESULTS_HTML       = RESULTS+DOT+HTML;
@@ -799,7 +805,7 @@ public class CTree extends CContainer {
 		}
 		if (content != null) {
 			try {
-				LOG.debug("writing file: "+file);
+				LOG.trace("writing file: "+file);
 				FileUtils.write(file, content, Charset.forName("UTF-8"));
 			} catch (IOException e) {
 				throw new RuntimeException("Cannot write file: ", e);

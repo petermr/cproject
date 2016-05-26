@@ -21,6 +21,7 @@ public class CMineTestFixtures {
 	public static void cleanAndCopyDir(File sourceDir, File targetDir) {
 		try {
 			if (targetDir.exists()) FileUtils.forceDelete(targetDir);
+			LOG.trace(sourceDir.getAbsolutePath());
 			FileUtils.copyDirectory(sourceDir, targetDir);
 		} catch (IOException ioe) {
 			throw new RuntimeException("failed to clean and copy: "+sourceDir+" @ "+targetDir +": "+ioe, ioe);

@@ -92,16 +92,14 @@ public class DataTablesTool {
 		this.cellCalculator = cellCalculator;
 	}
 
-	public HtmlHead makeDataTableHead() {
-		HtmlHead head = new HtmlHead();
-		head.addUTF8Charset();
+	public void makeDataTableHead(HtmlHtml html) {
+		HtmlHead head = html.ensureHead();
 		head.addTitle(title);
 		head.addCSSStylesheetLink(JQUERY_DATA_TABLES_CSS);
 		head.addJavascriptLink(JQUERY_1_8_2_MIN_JS);
 		head.addJavascriptLink(JQUERY_DATA_TABLES_MIN_JS);
 		String script = DATA_TABLE_FUNCTION0 + tableId + DATA_TABLE_FUNCTION1;
 		head.addJavascript(script);
-		return head;
 	}
 
 	public HtmlTd createHyperlinkedCell(String remoteHref, String localHref, String aValue) {
@@ -254,14 +252,11 @@ public class DataTablesTool {
 	}
 
 	public HtmlHtml createHtmlWithDataTable(HtmlTable table) {
-		HtmlHtml html = new HtmlHtml();
-		HtmlHead head = makeDataTableHead();
-		html.appendChild(head);
-		HtmlBody body = new HtmlBody();
-		html.appendChild(body);
+		HtmlHtml html = HtmlHtml.createUTF8Html();
+		makeDataTableHead(html);
 		HtmlDiv htmlDiv = new HtmlDiv();
 		htmlDiv.setClassAttribute(BS_EXAMPLE_TABLE_RESPONSIVE);
-		body.appendChild(htmlDiv);
+		html.ensureBody().appendChild(htmlDiv);
 		htmlDiv.appendChild(table);
 		return html;
 	}
