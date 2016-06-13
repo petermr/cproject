@@ -7,18 +7,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import nu.xom.Attribute;
-import nu.xom.Document;
-import nu.xom.Element;
-import nu.xom.Elements;
-import nu.xom.Node;
-
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.XMLUtils;
 import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Attribute;
+import nu.xom.Element;
+import nu.xom.Elements;
+import nu.xom.Node;
 
 /** tool to log events and data from CTree.
  * 
@@ -79,7 +79,6 @@ public class CMineLog extends AbstractLogElement {
 	
 	public static final String LOG_XML = "log.xml";
 	public final static String CMINE_LOG = "cmine.log.xml";
-	private static final String NEW_LINE_SEPARATOR = "\n";
 	private List<CMineLogRecord> recordList;
 	private List<String> csvHeaders;
 
@@ -220,30 +219,16 @@ public class CMineLog extends AbstractLogElement {
 	}
 
 	private void writeCSV(String fileName) {
-	 
-        FileWriter fileWriter = null;
-        CSVPrinter csvFilePrinter = null;
-        CSVFormat csvFileFormat = CSVFormat.DEFAULT.withRecordSeparator(NEW_LINE_SEPARATOR);
-                 
-        try {
-        	File file = new File(fileName);
-            fileWriter = new FileWriter(file);
-            csvFilePrinter = new CSVPrinter(fileWriter, csvFileFormat);
-            csvFilePrinter.printRecord(csvHeaders);
-             
-            for (CMineLogRecord record : recordList) {
-                csvFilePrinter.printRecord(record.getValues());
-            }
-        } catch (Exception e) {
-            throw new RuntimeException("failed to write CSV", e);
-        } finally {
-            try {
-                fileWriter.flush();
-                fileWriter.close();
-                csvFilePrinter.close();
-            } catch (IOException e) {
-                throw new RuntimeException("failed to close/flush CSV", e);
-            }
+		List<List<String>> valueListList = new ArrayList<List<String>>();
+        for (CMineLogRecord record : recordList) {
+        	List<String> valueList = new ArrayList<String>();
+        	for (String s : record.getValues()) {
+        		valueList.add(s);
+        	}
+        	valueListList.add(valueList);
         }
+
+        CMineUtil.writeCSV(fileName, csvHeaders, valueListList);
     }
+
 }

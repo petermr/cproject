@@ -4,9 +4,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.io.IOUtils;
-import org.xmlcml.cmine.misc.CMineUtil;
-
 /** tool for testing commandline 
  * 
  * @author pm286

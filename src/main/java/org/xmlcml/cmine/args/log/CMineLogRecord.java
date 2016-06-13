@@ -34,7 +34,7 @@ public class CMineLogRecord {
 		}
 	}
 
-	public Iterable<?> getValues() {
+	public Iterable<? extends String> getValues() {
 		return values;
 	}
 

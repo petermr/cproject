@@ -1,15 +1,19 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
+import java.io.FileFilter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.FileXPathSearcher;
+import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.Multiset;
@@ -197,9 +201,14 @@ public class CProject extends CContainer {
 		return pathName;
 	}
 
+	/**
+	 * 
+	 * @param glob (e.g. * * /word/ * * /result.xml) [spaces to escape comments so remove spaces a]
+	 * @return
+	 */
 	public ProjectFilesTree extractProjectFilesTree(String glob) {
 		ProjectFilesTree projectFilesTree = new ProjectFilesTree(this);
-		List<CTreeFiles> cTreeFilesList = new ArrayList<CTreeFiles>();
+//		List<CTreeFiles> cTreeFilesList = new ArrayList<CTreeFiles>();
 		CTreeList cTreeList = this.getCTreeList();
 		for (CTree cTree : cTreeList) {
 			CTreeFiles cTreeFiles = cTree.extractCTreeFiles(glob);
@@ -313,5 +322,34 @@ public class CProject extends CContainer {
 			}
 		}
 		return true;
+	}
+
+	/** heuristic lists all CProjects under projectTop directory.
+	 * finds descendant files through glob and tests them for conformity with CProject
+	 * globbing through CMineGlobber
+	 * 
+	 * @param projectTop
+	 * @param glob - allows selection of possible projects
+	 * @return
+	 */
+	public static List<CProject> globCProjects(File projectTop, String glob) {
+		List<CProject> projectList = new ArrayList<CProject>();
+		List<File> possibleProjectFiles = CMineGlobber.listGlobbedFilesQuietly(projectTop, glob);
+		for (File possibleProjectFile : possibleProjectFiles) {
+			if (possibleProjectFile.isDirectory()) {
+				CProject cProject = CProject.createPossibleCProject(possibleProjectFile);
+				if (cProject != null) {
+					projectList.add(cProject);
+				}
+			}
+		}
+		return projectList;
+	}
+
+	private static CProject createPossibleCProject(File possibleProjectFile) {
+		CProject project = new CProject(possibleProjectFile);
+		CTreeList cTreeList = project.getCTreeList();
+		return (cTreeList.size() == 0) ? null : project;
+		
 	}
 }

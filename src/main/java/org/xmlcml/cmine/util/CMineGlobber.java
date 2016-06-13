@@ -135,10 +135,9 @@ public class CMineGlobber {
 
 	public void setLocation(String location) {
 		if (location.startsWith("/")) {
-			LOG.warn("might delete system files: IGNORED");			
-		} else {
-			this.location = location;
+			LOG.warn("might delete system files: BE careful: "+location);			
 		}
+		this.location = location;
 	}
 
 	public void setGlob(String pathString) {
@@ -183,6 +182,23 @@ public class CMineGlobber {
 			FileUtils.forceDelete(file); 
 		}
 		LOG.trace("DELETED");
+		return files;
+	}
+
+	/** creates Globber from directory and glob. Fails quietly.
+	 * 
+	 * @param directory
+	 * @param glob (e.g. * * /word/ * * [spaces only to escape comments]
+	 * @return
+	 */
+	public static List<File> listGlobbedFilesQuietly(File directory, String glob) {
+		List<File> files = new ArrayList<File>();
+		try {
+			CMineGlobber globber = new CMineGlobber(glob, directory);
+			files = globber.listFiles();
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot glob files, ", e);
+		}
 		return files;
 	}
 

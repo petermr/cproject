@@ -1121,16 +1121,11 @@ public class CTree extends CContainer {
 	}
 
 	public CTreeFiles extractCTreeFiles(String glob) {
-		List<File> files = new ArrayList<File>();
-		try {
-			CMineGlobber globber = new CMineGlobber(glob, this.getDirectory());
-			files = globber.listFiles();
-		} catch (IOException e) {
-			throw new RuntimeException("Cannot glob files, ", e);
-		}
+		List<File> files = CMineGlobber.listGlobbedFilesQuietly(this.getDirectory(), glob);
 		this.cTreeFiles = new CTreeFiles(this, files);
 		return cTreeFiles;
 	}
+
 	
 	public SnippetsTree extractXPathSnippetsTree(String glob, String xpath) {
 		snippetsTree = new SnippetsTree();

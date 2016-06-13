@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.IOUtils;
-import org.xmlcml.cmine.misc.CMineUtil;
 
 public class CommandLineRunner {
 
