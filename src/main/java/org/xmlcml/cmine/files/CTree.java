@@ -20,12 +20,16 @@ import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.util.CMineGlobber;
+import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.XMLUtils;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+import com.google.gson.JsonSyntaxException;
 
 import nu.xom.Document;
 import nu.xom.Element;
@@ -151,9 +155,11 @@ public class CTree extends CContainer {
 	public static final String XSL      = "xsl";
 
 	public static final String ABSTRACT  = "abstract";
+	public static final String CROSSREF  = "crossref";
 	public static final String EMPTY     = "empty";
 	public static final String FULLTEXT  = "fulltext";
 	public static final String LOG1      = "log";
+	public static final String RESULT    = "result";
 	public static final String RESULTS   = "results";
 	public static final String SCHOLARLY = "scholarly";
 	
@@ -176,6 +182,7 @@ public class CTree extends CContainer {
 	public static final String RESULTS_XML        = RESULTS+DOT+XML;
 	public static final String RESULTS_HTML       = RESULTS+DOT+HTML;
 	public static final String SCHOLARLY_HTML     = SCHOLARLY+DOT+HTML;
+	public static final String CROSSREF_RESULT_JSON = CROSSREF+"_"+RESULT+DOT+JSON;
 
 	public final static List<String> RESERVED_FILE_NAMES;
 	static {
@@ -262,16 +269,19 @@ public class CTree extends CContainer {
 	public final static String SUPP_DATA = "suppData";
 	
 	public final static Pattern FULLTEXT_STAR = Pattern.compile("fulltext.*");
+	public final static Pattern STAR_RESULT_JSON = Pattern.compile(".*result\\.json");
 	
 	protected static final String[] ALLOWED_FILE_NAMES = new String[] {
 		LOG_XML,
 		MANIFEST_XML,
 		RESULTS_JSON,
 		SCHOLARLY_HTML,
+		CROSSREF_RESULT_JSON,
 	};
 	
 	protected static final Pattern[] ALLOWED_FILE_PATTERNS = new Pattern[] {
 		FULLTEXT_STAR,
+		STAR_RESULT_JSON,
 	};
 	
 	protected static final String[] ALLOWED_DIR_NAMES = new String[] {
@@ -1174,6 +1184,10 @@ public class CTree extends CContainer {
 		this.snippetsTree = snippetsTree;
 	}
 
-
+	public MetadataJson getMetadataJson(String jsonType) {
+		File jsonFile = this.getAllowedChildFile(jsonType);
+		MetadataJson metadataJson = jsonFile == null ? null : MetadataJson.createMetadataJson(jsonFile);
+		return metadataJson;
+	}
 	
 }

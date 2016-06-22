@@ -1,16 +1,15 @@
 package org.xmlcml.cmine.util;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.cmine.files.CProject;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
@@ -25,7 +24,7 @@ public class CSVWriter {
 
 	private static final String NEW_LINE_SEPARATOR = "\n";
 	private List<String> header;
-	private String fileName;
+	private String filename;
 	private List<List<String>> rows;
 	
 	public CSVWriter() {
@@ -40,11 +39,11 @@ public class CSVWriter {
 	}
 
 	public String getFileName() {
-		return fileName;
+		return filename;
 	}
 
 	public void setFileName(String fileName) {
-		this.fileName = fileName;
+		this.filename = fileName;
 	}
 
 	public List<List<String>> getRows() {
@@ -55,9 +54,16 @@ public class CSVWriter {
 		this.rows = rows;
 	}
 
+	public void writeCsvFile(String filename) throws IOException {
+		this.filename = filename;
+		writeCsvFile();
+	}
+
 	public void writeCsvFile() throws IOException {
-		if (fileName != null) {
-	        FileWriter fileWriter = new FileWriter(fileName);
+		if (filename != null) {
+	        File file = new File(filename);
+	        file.getParentFile().mkdirs();
+	        FileWriter fileWriter = new FileWriter(file);
 	        CSVPrinter csvFilePrinter = 
 	        		new CSVPrinter(fileWriter, CSVFormat.DEFAULT.withRecordSeparator(NEW_LINE_SEPARATOR));
 	        if (header != null) {
@@ -88,5 +94,12 @@ public class CSVWriter {
 		setFileName(filename);
 		setRows(rows);
 		writeCsvFile();
+	}
+
+	public void addRow(List<String> row) {
+		if (rows == null) {
+			rows = new ArrayList<List<String>>();
+		}
+		rows.add(row);
 	}
 }

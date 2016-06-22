@@ -20,6 +20,8 @@ import com.google.common.collect.ImmutableSortedMultiset;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multiset.Entry;
+import com.jayway.jsonpath.JsonPath;
+import com.jayway.jsonpath.ReadContext;
 import com.google.common.collect.Multisets;
 
 import nu.xom.Node;
@@ -140,6 +142,29 @@ public class CMineUtil {
                 throw new RuntimeException("failed to close/flush CSV", e);
             }
         }
+	}
+	
+	public static Object getObjectForJsonPath(String json, String jsonPath) {
+		ReadContext ctx = JsonPath.parse(json);
+		Object result = ctx.read(jsonPath);
+		return result;
+	}
+
+	/**
+	 * 
+	 * @param json
+	 * @param jsonPath
+	 * @return null if not found
+	 */
+	public static String getStringForJsonPath(String json, String jsonPath) {
+		ReadContext ctx = JsonPath.parse(json);
+		String result = null;
+		try {
+			result = ctx.read(jsonPath);
+		} catch (Exception e) {
+			// cannot find so returns null
+		}
+		return result;
 	}
 
 }

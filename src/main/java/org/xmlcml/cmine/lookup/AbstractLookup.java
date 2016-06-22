@@ -147,18 +147,4 @@ public abstract class AbstractLookup {
 		return url;
 	}
 
-	public static Object getObjectForJsonPath(String json, String jsonPath) {
-		ReadContext ctx = JsonPath.parse(json);
-		Object result = ctx.read(jsonPath);
-		LOG.debug(result);
-		return result;
-	}
-
-	public static String getStringForJsonPath(String json, String jsonPath) {
-		ReadContext ctx = JsonPath.parse(json);
-		String result = ctx.read(jsonPath);
-		return result;
-	}
-
-		
 }

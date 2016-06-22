@@ -113,19 +113,22 @@ public abstract class CContainer {
 		return templateElement;
 	}
 
-	protected void getDirectoryAndFileList() {
-		allChildDirectoryList = new ArrayList<File>();
-		allChildFileList = new ArrayList<File>();
-		File[] ff = directory.listFiles();
-		if (ff != null) {
-			for (File f : ff) {
-				if (f.isDirectory()) {
-					allChildDirectoryList.add(f);
-				} else {
-					allChildFileList.add(f);
+	protected void getOrCreateDirectoryAndFileList() {
+		if (allChildDirectoryList == null) {
+			allChildDirectoryList = new ArrayList<File>();
+			allChildFileList = new ArrayList<File>();
+			File[] ff = directory.listFiles();
+			if (ff != null) {
+				for (File f : ff) {
+					if (f.isDirectory()) {
+						allChildDirectoryList.add(f);
+					} else {
+						allChildFileList.add(f);
+					}
 				}
 			}
 		}
+		return;
 	}
 
 	/** not yet implemented
@@ -147,7 +150,7 @@ public abstract class CContainer {
 		if (allChildDirectoryList == null) {
 			getTreesAndDirectories();
 			makeLists();
-			getDirectoryAndFileList();
+			getOrCreateDirectoryAndFileList();
 			getAllowedAndUnknownDirectories();
 			getAllowedAndUnknownFiles();
 		}
@@ -187,12 +190,7 @@ public abstract class CContainer {
 
 	protected void getTreesAndDirectories() {
 		getOrCreateDirectory();
-		getDirectoryAndFileList();
-		/** NYI
-		manifest.resetCounts();
-		manifest.checkFiles();
-		manifest.checkDirectories();
-		*/
+		getOrCreateDirectoryAndFileList();
 	}
 
 	public List<File> getAllChildDirectoryList() {

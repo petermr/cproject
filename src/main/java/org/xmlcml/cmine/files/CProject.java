@@ -1,14 +1,13 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-import java.io.FileFilter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.regex.Pattern;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -16,6 +15,8 @@ import org.xmlcml.cmine.args.FileXPathSearcher;
 import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.xml.XMLUtil;
 
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 
 import nu.xom.Element;
@@ -86,11 +87,13 @@ public class CProject extends CContainer {
 	@Override
 	protected void getAllowedAndUnknownDirectories() {
 		cTreeList = new CTreeList();
+		int i = 0;
 		for (File directory : allChildDirectoryList) {
+//			if (i++ % 100 == 0) System.out.print(".");
 			if (false) {
 			} else if (
-				isAllowedFile(directory, ALLOWED_DIR_PATTERNS) ||
-				isAllowedFileName(directory, ALLOWED_DIR_NAMES)) {
+				(isAllowedFile(directory, ALLOWED_DIR_PATTERNS) ||
+				isAllowedFileName(directory, ALLOWED_DIR_NAMES))) {
 				allowedChildDirectoryList.add(directory);
 				// don't consider for CTree
 			} else if (isCTree(directory)) {
@@ -127,11 +130,14 @@ public class CProject extends CContainer {
 	private boolean isCTree(File directory) {
 		getTreesAndDirectories();
 		CTree testTree = new CTree(directory);
-		testTree.getDirectoryAndFileList();
-		return isAnyAllowed(testTree.allChildFileList, CTree.ALLOWED_FILE_PATTERNS) ||
-				isAnyAllowed(testTree.allChildFileList, CTree.ALLOWED_FILE_NAMES) ||
-				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_PATTERNS) ||
-				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_NAMES);
+		testTree.getOrCreateDirectoryAndFileList();
+		// put filenames first to elminate matching
+		boolean allowed = isAnyAllowed(testTree.allChildFileList, CTree.ALLOWED_FILE_NAMES) ||
+				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_NAMES) ||
+				isAnyAllowed(testTree.allChildFileList, CTree.ALLOWED_FILE_PATTERNS) ||
+				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_PATTERNS
+				);
+		return allowed;
 	}
 
 	public CTreeList getCTreeList() {
@@ -346,10 +352,49 @@ public class CProject extends CContainer {
 		return projectList;
 	}
 
+	public Set<String> extractMetadataItemSet(String metadataFilename, String type) {
+		CTreeList cTreeList = getCTreeList();
+		Set<String> set = new HashSet<String>();
+		for (CTree cTree : cTreeList) {
+			MetadataJson metadataJson = cTree.getMetadataJson(metadataFilename);
+			String typeValue = metadataJson.getJsonStringByPath(type);
+			set.add(typeValue);
+		}
+		return set;
+	}
+
+	public Multimap<String, String> extractMetadataItemMap(String jsonFilename, String key, String type) {
+		CTreeList cTreeList = getCTreeList();
+		Multimap<String, String> map = ArrayListMultimap.create();
+		for (CTree cTree : cTreeList) {
+			MetadataJson metadataJson = cTree.getMetadataJson(jsonFilename);
+			String keyValue = metadataJson.getJsonStringByPath(key);
+			String typeValue = metadataJson.getJsonStringByPath(type);
+			map.put(keyValue, typeValue);
+		}
+		return map;
+	}
+	
+	public Multimap<CTree, File> extractCTreeFileMap(String reservedName) {
+		CTreeList cTreeList = getCTreeList();
+		Multimap<CTree, File> map = ArrayListMultimap.create();
+		for (CTree cTree : cTreeList) {
+			File file = cTree.getExistingReservedFile(reservedName);
+			if (file != null && file.exists()) {
+				map.put(cTree, file);
+			}
+		}
+		return map;
+	}
+	
+	// ====================
+	
 	private static CProject createPossibleCProject(File possibleProjectFile) {
 		CProject project = new CProject(possibleProjectFile);
 		CTreeList cTreeList = project.getCTreeList();
 		return (cTreeList.size() == 0) ? null : project;
 		
 	}
+
+
 }
