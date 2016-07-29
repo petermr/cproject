@@ -6,12 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import nu.xom.Element;
-
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Element;
 
 /** for CProject and CTree 
  * 
@@ -40,9 +39,15 @@ public abstract class CContainer {
 	protected List<File> unknownChildDirectoryList;
 	protected List<File> unknownChildFileList;
 
+	private boolean includeAllDirectories;
+
 	public CContainer() {
+		init();
 	}
 	
+	private void init() {
+		includeAllDirectories = true;
+	}
 	private static boolean isAllowedPattern(String name, Pattern[] allowedPatterns) {
 		for (Pattern allowedPattern : allowedPatterns) {
 			if (allowedPattern.matcher(name).matches()) {
@@ -113,7 +118,7 @@ public abstract class CContainer {
 		return templateElement;
 	}
 
-	protected void getOrCreateDirectoryAndFileList() {
+	protected void getOrCreateChildDirectoryAndChildFileList() {
 		if (allChildDirectoryList == null) {
 			allChildDirectoryList = new ArrayList<File>();
 			allChildFileList = new ArrayList<File>();
@@ -150,7 +155,7 @@ public abstract class CContainer {
 		if (allChildDirectoryList == null) {
 			getTreesAndDirectories();
 			makeLists();
-			getOrCreateDirectoryAndFileList();
+			getOrCreateChildDirectoryAndChildFileList();
 			getAllowedAndUnknownDirectories();
 			getAllowedAndUnknownFiles();
 		}
@@ -190,7 +195,7 @@ public abstract class CContainer {
 
 	protected void getTreesAndDirectories() {
 		getOrCreateDirectory();
-		getOrCreateDirectoryAndFileList();
+		getOrCreateChildDirectoryAndChildFileList();
 	}
 
 	public List<File> getAllChildDirectoryList() {
@@ -261,6 +266,14 @@ public abstract class CContainer {
 			}
 		}
 		return null;
+	}
+
+	protected boolean includeAllDirectories() {
+		return includeAllDirectories;
+	}
+	
+	public void setTreatAllChildDirectoriesAsCTrees(boolean include) {
+		this.includeAllDirectories = include;
 	}
 
 

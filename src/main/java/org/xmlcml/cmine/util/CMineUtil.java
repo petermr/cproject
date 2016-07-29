@@ -14,16 +14,19 @@ import org.apache.commons.csv.CSVPrinter;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlHtml;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.ImmutableSortedMultiset;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multiset.Entry;
+import com.google.common.collect.Multisets;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
-import com.google.common.collect.Multisets;
 
+import nu.xom.Comment;
 import nu.xom.Node;
 
 /** mainly static tools.
@@ -33,6 +36,9 @@ import nu.xom.Node;
  */
 public class CMineUtil {
 
+	private static final String URL_PUNCT = "[\\/\\$\\%\\*\\(\\)\\[\\]]";
+	private static final String HTTP_DX_DOI_ORG = "http_dx\\.doi\\.org_?";
+//	                                               http_dx.doi.org
 	private static final Logger LOG = Logger.getLogger(CMineUtil.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -146,7 +152,12 @@ public class CMineUtil {
 	
 	public static Object getObjectForJsonPath(String json, String jsonPath) {
 		ReadContext ctx = JsonPath.parse(json);
-		Object result = ctx.read(jsonPath);
+		Object result = null;
+		try {
+			result = ctx.read(jsonPath);
+		} catch (Exception e) {
+			LOG.trace("bad path: "+jsonPath);
+		}
 		return result;
 	}
 
@@ -167,4 +178,55 @@ public class CMineUtil {
 		return result;
 	}
 
+	/** normalizes files based on DOIs.
+	 * 
+	 * removes "http_dx_doi_org_" and converts punctuation to "_"
+	 * 
+	 * @param doi
+	 * @return
+	 */
+	public final static File normalizeDOIBasedFile(File file) {
+		File normalizedFile = null;
+		if (file != null) {
+			String name = file.getName();
+			String name1 = normalizeDOIBasedFilename(name);
+			normalizedFile = new File(file.getParentFile(), name1);
+		}
+		return normalizedFile;
+	}
+	
+	/** normalizes filenames based on DOIs.
+	 * 
+	 * removes "http_dx_doi_org_" and converts punctuation to "_"
+	 * 
+	 * @param doi
+	 * @return
+	 */
+	public final static String normalizeDOIBasedFilename(String doi) {
+		// http_dx.doi.org_10.1002_suco.201500193
+		String doi1 = doi.replaceAll(HTTP_DX_DOI_ORG, "");
+		doi1 = doi1.replaceAll(URL_PUNCT, "_");
+		return doi1;
+	}
+
+	/**
+	 * flattens 
+	 * http:/dx.doi.org/10.1051/ro/2016009
+	 * to
+	 * http_dx.doi.org_10.1051_ro_2016009
+	 * 
+	 * @param doi
+	 * @return
+	 */
+	public final static String denormalizeDOI(String doi) {
+		String doi1 = doi.replaceAll("http://?", "http_");
+		doi1 = doi1.replaceAll("/", "_");
+		return doi1;
+	}
+
+	public static HtmlElement createEmptyHTMLWthComment(String comment) {
+		HtmlHtml html = new HtmlHtml();
+		html.appendChild(new Comment(comment));
+		return html;
+	}
 }

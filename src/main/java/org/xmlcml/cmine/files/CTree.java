@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.io.FileUtils;
@@ -19,17 +20,19 @@ import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
+import org.xmlcml.cmine.metadata.AbstractMetadata;
+import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
+import org.xmlcml.cmine.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.XMLUtils;
 import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlFactory;
+import org.xmlcml.html.HtmlHtml;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
-import com.google.gson.JsonSyntaxException;
 
 import nu.xom.Document;
 import nu.xom.Element;
@@ -124,6 +127,8 @@ public class CTree extends CContainer {
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	public final static Pattern DOI_PREFIX = Pattern.compile("(10\\.[0-9]{3,}([\\.][0-9]+)*).*");
+//	public final static Pattern DOI_PREFIX = Pattern.compile("(10\\.[0-9]{3,}).*");
 	public static final String DOT      = ".";
 
 	public static final String CIF      = "cif";
@@ -156,6 +161,7 @@ public class CTree extends CContainer {
 
 	public static final String ABSTRACT  = "abstract";
 	public static final String CROSSREF  = "crossref";
+	public static final String EUPMC     = "eupmc";
 	public static final String EMPTY     = "empty";
 	public static final String FULLTEXT  = "fulltext";
 	public static final String LOG1      = "log";
@@ -179,15 +185,19 @@ public class CTree extends CContainer {
 	public static final String LOGFILE            = LOG1+DOT+XML;
 	public static final String PNG_HOCR_SVG       = PNG+DOT+HOCR+DOT+SVG;
 	public static final String RESULTS_JSON       = RESULTS+DOT+JSON;
+	private static final String RESULT_JSON0        = RESULT+DOT+JSON;
+	public static final String EUPMC_RESULT_JSON  = EUPMC+"_"+RESULT_JSON0;
 	public static final String RESULTS_XML        = RESULTS+DOT+XML;
 	public static final String RESULTS_HTML       = RESULTS+DOT+HTML;
 	public static final String SCHOLARLY_HTML     = SCHOLARLY+DOT+HTML;
-	public static final String CROSSREF_RESULT_JSON = CROSSREF+"_"+RESULT+DOT+JSON;
+	public static final String CROSSREF_RESULT_JSON = CROSSREF+"_"+ RESULT+DOT+JSON;
 
 	public final static List<String> RESERVED_FILE_NAMES;
 	static {
 			RESERVED_FILE_NAMES = Arrays.asList(new String[] {
 					ABSTRACT_HTML,
+					CROSSREF_RESULT_JSON,
+					EUPMC_RESULT_JSON,
 					FULLTEXT_DOCX,
 					FULLTEXT_HTML,
 					FULLTEXT_PDF,
@@ -197,6 +207,8 @@ public class CTree extends CContainer {
 					FULLTEXT_XHTML,
 					FULLTEXT_XML,
 					LOGFILE,
+					QuickscrapeMD.RESULTS_JSON,
+//					RESULT_JSON,
 					RESULTS_JSON,
 					RESULTS_XML,
 					SCHOLARLY_HTML
@@ -274,9 +286,11 @@ public class CTree extends CContainer {
 	protected static final String[] ALLOWED_FILE_NAMES = new String[] {
 		LOG_XML,
 		MANIFEST_XML,
-		RESULTS_JSON,
+		QuickscrapeMD.RESULTS_JSON,
 		SCHOLARLY_HTML,
-		CROSSREF_RESULT_JSON,
+//		RESULT_JSON,
+		RESULTS_JSON,
+		CrossrefMD.RESULT_JSON,
 	};
 	
 	protected static final Pattern[] ALLOWED_FILE_PATTERNS = new Pattern[] {
@@ -320,7 +334,7 @@ public class CTree extends CContainer {
 	private List<File> nonReservedDirList;
 	private DefaultArgProcessor argProcessor;
 	private ContentProcessor contentProcessor;
-	public HtmlElement htmlElement;
+	private HtmlElement htmlElement;
 	private List<Element> sectionElementList;
 	private CContainer cProject;
 	private XMLSnippets snippets;
@@ -328,6 +342,10 @@ public class CTree extends CContainer {
 	private CTreeFiles cTreeFiles;
 	private ProjectFilesTree filesTree;
 	private String title;
+	private HtmlElement fulltextXHtml;
+	private File fulltextHtmlFile;
+	private File fulltextXHtmlFile;
+	private boolean writeXHtml = true;
 
 	public CTree() {
 		super();
@@ -480,7 +498,7 @@ public class CTree extends CContainer {
 	}
 
 	private void checkRequiredCMFiles() {
-		requireExistingNonEmptyFile(new File(directory, RESULTS_JSON));
+		requireExistingNonEmptyFile(new File(directory, QuickscrapeMD.RESULTS_JSON));
 	}
 
 	public static boolean isExistingFile(File file) {
@@ -589,7 +607,7 @@ public class CTree extends CContainer {
 
 	// ---
 	public boolean hasResultsJSON() {
-		return isExistingFile(new File(directory, RESULTS_JSON));
+		return isExistingFile(new File(directory, QuickscrapeMD.RESULTS_JSON));
 	}
 	
 	/**
@@ -607,7 +625,7 @@ public class CTree extends CContainer {
 	}
 
 	public File getExistingResultsJSON() {
-		return getExistingReservedFile(RESULTS_JSON);
+		return getExistingReservedFile(QuickscrapeMD.RESULTS_JSON);
 	}
 
 	// ---
@@ -1184,10 +1202,115 @@ public class CTree extends CContainer {
 		this.snippetsTree = snippetsTree;
 	}
 
-	public MetadataJson getMetadataJson(String jsonType) {
-		File jsonFile = this.getAllowedChildFile(jsonType);
-		MetadataJson metadataJson = jsonFile == null ? null : MetadataJson.createMetadataJson(jsonFile);
-		return metadataJson;
+	public boolean matches(CTreeExplorer explorer) {
+		String filename = explorer.getFilename();
+		if (this.getExistingReservedFile(filename) != null) {
+			return true;
+		}
+		return false;
 	}
-	
+
+	/** renames directory using CMineUtil.normalizeDOIBasedFilename(name).
+	 * 
+	 * This 
+	 * 
+	 */
+	public void normalizeDOIBasedDirectory() {
+		if (directory != null) {
+			File newDirectory = CMineUtil.normalizeDOIBasedFile(directory);
+			if (!newDirectory.equals(directory)) {
+				boolean rename = directory.renameTo(newDirectory);
+				if (!rename) {
+					LOG.warn("Cannot rename file: "+directory);
+				} else {
+					directory = newDirectory;
+				}
+			}
+		}
+	}
+
+	public AbstractMetadata getOrCreateMetadata(AbstractMetadata.Type type) {
+		AbstractMetadata metadata = null;
+		if (type != null) {
+			metadata = AbstractMetadata.getMetadata(this, type);
+		}
+		return metadata;
+	}
+
+	// HTML stuff - maybe create helper class?
+	public void convertHtmlFileToXHtml() {
+		this.fulltextHtmlFile = getOrCreateFulltextHtmlFile();
+		if (this.fulltextHtmlFile != null) {
+			long size = FileUtils.sizeOf(this.fulltextHtmlFile);
+			if (size == 0) {
+				fulltextXHtml = CMineUtil.createEmptyHTMLWthComment("zero bytes");
+			} else {
+				try {
+					this.fulltextXHtml = new HtmlFactory().parse(this.fulltextHtmlFile);
+				} catch (nu.xom.IllegalCharacterDataException icde) {
+					fulltextXHtml = CMineUtil.createEmptyHTMLWthComment("Illegal content: "+icde.getMessage());
+				} catch (Exception e) {
+					fulltextXHtml = CMineUtil.createEmptyHTMLWthComment("Cannot tidy: "+e.getMessage());
+				}
+			}
+			if (fulltextXHtml == null) {
+				fulltextXHtml = new HtmlHtml();
+			}
+			if (this.fulltextXHtml != null && this.writeXHtml) {
+				this.fulltextXHtmlFile = new File(this.fulltextHtmlFile.getParentFile(), CTree.FULLTEXT_XHTML);
+				try {
+					XMLUtil.debug(this.fulltextXHtml, this.fulltextXHtmlFile, 1);
+					LOG.trace("wrote: "+this.fulltextXHtmlFile);
+				} catch (IOException e) {
+					throw new RuntimeException("Cannot write fulltextXHtml: "+this.fulltextXHtmlFile, e);
+				}
+			}
+		}
+	}
+
+	public void parseXHtmlFile() {
+		try {
+			this.fulltextXHtml = new HtmlFactory().parse(this.fulltextXHtmlFile);
+		} catch (Exception e) {
+			LOG.error("Cannot parse XHtml file: "+this.fulltextXHtmlFile);
+		}
+	}
+
+	public HtmlElement getOrCreateFulltextXHtml() {
+		if (this.fulltextXHtml == null) {
+			this.fulltextXHtmlFile = getOrCreateFulltextXHtmlFile();
+			if (this.fulltextXHtmlFile != null) {
+				parseXHtmlFile();
+			} else {
+				convertHtmlFileToXHtml();
+			}
+		}
+		return this.fulltextXHtml;
+	}
+
+	public File getOrCreateFulltextHtmlFile() {
+		if (this.fulltextHtmlFile == null) {
+			this.fulltextHtmlFile = getExistingFulltextHTML();
+		}
+		return this.fulltextHtmlFile;
+	}
+
+	public File getOrCreateFulltextXHtmlFile() {
+		if (this.fulltextXHtmlFile == null) {
+			this.fulltextXHtmlFile = getExistingFulltextXHTML();
+		}
+		return this.fulltextXHtmlFile;
+	}
+
+	// '\b(10[.][0-9]{3,}(?:[.][0-9]+)*/.*\b';
+
+	public String extractDOIPrefix() {
+		String prefix = null;
+		String dir = directory.getName();
+		Matcher matcher = DOI_PREFIX.matcher(dir);
+		if (matcher.matches()) {
+			prefix = matcher.group(1);
+		}
+		return prefix;
+	}
 }

@@ -23,13 +23,13 @@ public class ProjectSnippetsTree extends Element {
 	public static final String PROJECT_SNIPPETS_TREE = "projectSnippetsTree";
 
 	private List<Element> snippetsElementList;
-	private CProject cProject;
+	private CContainer cProject;
 	private List<SnippetsTree> snippetsTreeList;
 	private List<String> filenameList;
 	private Map<String, SnippetsTree> snippetsTreeByCTreeName;
 	private PluginOption pluginOption = null;
 	
-	public ProjectSnippetsTree(CProject cProject) {
+	public ProjectSnippetsTree(CContainer cProject) {
 		this();
 		this.cProject = cProject;
 	}

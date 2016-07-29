@@ -3,23 +3,31 @@ package org.xmlcml.cmine.files;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.regex.Pattern;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.FileXPathSearcher;
+import org.xmlcml.cmine.metadata.AbstractMetadata;
+import org.xmlcml.cmine.metadata.ProjectAnalyzer;
 import org.xmlcml.cmine.util.CMineGlobber;
+import org.xmlcml.cmine.util.CMineUtil;
+import org.xmlcml.html.HtmlElement;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 
 import nu.xom.Element;
+import nu.xom.Node;
 
 public class CProject extends CContainer {
 
@@ -31,10 +39,14 @@ public class CProject extends CContainer {
 	public static final String PROJECT_TEMPLATE_XML = "cProjectTemplate.xml";
 	public static final String TREE_TEMPLATE_XML = "cTreeTemplate.xml";
 	public final static String EUPMC_RESULTS_JSON = "eupmc_results.json";
+	public static final String URL_LIST = "urlList.txt";
 	
 	public final static String IMAGE   = "image";
 	public final static String RESULTS = "results";
 	public final static String TABLE   = "table";
+
+	// suffixes
+	private static final String HTML = "html";
 
 	// move these to plugin subdirs later
 	public static final String SPECIES_GENUS_SNIPPETS_XML = "species.genus.snippets.xml";
@@ -46,9 +58,11 @@ public class CProject extends CContainer {
 	public static final String DATA_TABLES_HTML = "dataTables.html";
 
 	protected static final String[] ALLOWED_FILE_NAMES = new String[] {
+			
 		MANIFEST_XML,
 		LOG_XML,
 		EUPMC_RESULTS_JSON,
+		URL_LIST
 	};
 	
 	protected static final Pattern[] ALLOWED_FILE_PATTERNS = new Pattern[] {
@@ -70,6 +84,10 @@ public class CProject extends CContainer {
 	private ProjectSnippetsTree projectSnippetsTree;
 	private ProjectFilesTree projectFilesTree;
 	private ResultsElementList summaryResultsElementList;
+	private ArrayList<File> scholarlyList;
+//	private boolean shuffleUrls;
+//	private boolean pseudoHost;
+	private ProjectAnalyzer projectAnalyzer;
 	
 	public CProject(File cProjectDir) {
 		super();
@@ -111,12 +129,17 @@ public class CProject extends CContainer {
 			if (false) {
 			} else if (
 				isAllowedFile(file, ALLOWED_FILE_PATTERNS) ||
-				isAllowedFileName(file, ALLOWED_FILE_NAMES)) {
+				isAllowedFileName(file, ALLOWED_FILE_NAMES) ||
+				includeAllDirectories()) {
 				allowedChildFileList.add(file);
 			} else {
 				unknownChildFileList.add(file);
 			}
 		}
+	}
+	
+	private boolean isAllowedFilename(String filename) {
+		return (Arrays.asList(ALLOWED_FILE_NAMES).contains(filename));
 	}
 
 	/** currently just take a simple approach.
@@ -130,13 +153,15 @@ public class CProject extends CContainer {
 	private boolean isCTree(File directory) {
 		getTreesAndDirectories();
 		CTree testTree = new CTree(directory);
-		testTree.getOrCreateDirectoryAndFileList();
-		// put filenames first to elminate matching
-		boolean allowed = isAnyAllowed(testTree.allChildFileList, CTree.ALLOWED_FILE_NAMES) ||
+		testTree.getOrCreateChildDirectoryAndChildFileList();
+		// put filenames first to eliminate matching
+		boolean allowed = 
+				isAnyAllowed(testTree.allChildFileList, CTree.ALLOWED_FILE_NAMES) ||
 				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_NAMES) ||
 				isAnyAllowed(testTree.allChildFileList, CTree.ALLOWED_FILE_PATTERNS) ||
-				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_PATTERNS
-				);
+				isAnyAllowed(testTree.allChildDirectoryList, CTree.ALLOWED_DIR_PATTERNS) ||
+				includeAllDirectories()
+				;
 		return allowed;
 	}
 
@@ -352,30 +377,32 @@ public class CProject extends CContainer {
 		return projectList;
 	}
 
-	public Set<String> extractMetadataItemSet(String metadataFilename, String type) {
+	public Set<String> extractMetadataItemSet(AbstractMetadata.Type sourceType, String type) {
 		CTreeList cTreeList = getCTreeList();
 		Set<String> set = new HashSet<String>();
 		for (CTree cTree : cTreeList) {
-			MetadataJson metadataJson = cTree.getMetadataJson(metadataFilename);
-			String typeValue = metadataJson.getJsonStringByPath(type);
+			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, sourceType);
+			String typeValue = metadata.getJsonStringByPath(type);
 			set.add(typeValue);
 		}
 		return set;
 	}
 
-	public Multimap<String, String> extractMetadataItemMap(String jsonFilename, String key, String type) {
+	public Multimap<String, String> extractMetadataItemMap(AbstractMetadata.Type sourceType, String key, String type) {
 		CTreeList cTreeList = getCTreeList();
 		Multimap<String, String> map = ArrayListMultimap.create();
 		for (CTree cTree : cTreeList) {
-			MetadataJson metadataJson = cTree.getMetadataJson(jsonFilename);
-			String keyValue = metadataJson.getJsonStringByPath(key);
-			String typeValue = metadataJson.getJsonStringByPath(type);
-			map.put(keyValue, typeValue);
+			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, sourceType);
+			if (metadata != null) {
+				String keyValue = metadata.getJsonStringByPath(key);
+				String typeValue = metadata.getJsonStringByPath(type);
+				map.put(keyValue, typeValue);
+			}
 		}
 		return map;
 	}
 	
-	public Multimap<CTree, File> extractCTreeFileMap(String reservedName) {
+	public Multimap<CTree, File> extractCTreeFileMapContaining(String reservedName) {
 		CTreeList cTreeList = getCTreeList();
 		Multimap<CTree, File> map = ArrayListMultimap.create();
 		for (CTree cTree : cTreeList) {
@@ -387,13 +414,123 @@ public class CProject extends CContainer {
 		return map;
 	}
 	
+	public File createAllowedFile(String filename) {
+		File file = null;
+		if (isAllowedFilename(filename)) {
+			file = new File(directory, filename);
+		}
+		return file;
+	}
+	
 	// ====================
 	
+	public ArrayList<File> getOrCreateScholarlyHtmlList() {
+		List<File> files = new ArrayList<File>(FileUtils.listFiles(
+				getDirectory(), new String[]{HTML}, true));
+		scholarlyList = new ArrayList<File>();
+		for (File file : files) {
+			if (file.getName().equals(CTree.SCHOLARLY_HTML)) {
+				scholarlyList.add(file);
+			}
+		}
+		return scholarlyList;
+	}
+
+	public Multiset<String> getOrCreateHtmlBiblioKeys() {
+		getOrCreateScholarlyHtmlList();
+		Multiset<String> keySet = HashMultiset.create();
+		for (File scholarly : scholarlyList) {
+			HtmlElement htmlElement = HtmlElement.create(XMLUtil.parseQuietlyToDocument(scholarly).getRootElement());
+			List<Node> nodes = XMLUtil.getQueryNodes(htmlElement, "//*[local-name()='meta']/@name");
+			for (Node node : nodes) {
+				String name = node.getValue().toLowerCase();
+				name = name.replace("dcterms", "dc");
+				keySet.add(name);
+			}
+		}
+		return keySet;
+	}
+
 	private static CProject createPossibleCProject(File possibleProjectFile) {
 		CProject project = new CProject(possibleProjectFile);
 		CTreeList cTreeList = project.getCTreeList();
 		return (cTreeList.size() == 0) ? null : project;
 		
+	}
+
+	public CTreeList getCTreeList(CTreeExplorer explorer) {
+		CTreeList cTreeListOld = this.getCTreeList();
+		CTreeList cTreeList = new CTreeList();
+		for (CTree cTree : cTreeListOld) {
+			if (cTree.matches(explorer)) {
+				cTreeList.add(cTree);
+			}
+		}
+		return cTreeList;
+	}
+
+	public void normalizeDOIBasedDirectoryCTrees() {
+		getCTreeList();
+		for (int i = cTreeList.size() - 1; i >= 0; i--) {
+			CTree cTree = cTreeList.get(i);
+			cTree.normalizeDOIBasedDirectory();
+		}
+	}
+
+	public List<String> extractShuffledCrossrefUrls() {
+		ProjectAnalyzer projectAnalyzer = this.getOrCreateProjectAnalyzer();
+		projectAnalyzer.setMetadataType(AbstractMetadata.Type.CROSSREF);
+		projectAnalyzer.setShuffleUrls(true);
+		projectAnalyzer.setPseudoHost(true);
+		List<String> urls = projectAnalyzer.extractURLs();
+		return urls;
+	}
+
+	public void extractShuffledUrlsFromCrossrefToFile(File file) throws IOException {
+		ProjectAnalyzer projectAnalyzer = this.getOrCreateProjectAnalyzer();
+		projectAnalyzer.setMetadataType(AbstractMetadata.Type.CROSSREF);
+		projectAnalyzer.setShuffleUrls(true);
+		projectAnalyzer.setPseudoHost(true);
+		projectAnalyzer.extractURLsToFile(file);
+	}
+
+	public void setProjectAnalyzer(ProjectAnalyzer projectAnalyzer) {
+		this.projectAnalyzer = projectAnalyzer;
+	}
+
+	public ProjectAnalyzer getOrCreateProjectAnalyzer() {
+		if (this.projectAnalyzer == null) {
+			this.projectAnalyzer = new ProjectAnalyzer(this);
+		}
+		return projectAnalyzer;
+	
+	}
+
+	public List<String> getDOIPrefixList() {
+		List<String> doiPrefixList = new ArrayList<String>();
+		CTreeList cTreeList = this.getCTreeList();
+		for (CTree cTree : cTreeList) {
+			
+			String doiPrefix = cTree.extractDOIPrefix();
+			doiPrefixList.add(doiPrefix);
+		}
+		return doiPrefixList;
+	}
+
+	public int size() {
+		getCTreeList();
+		return (cTreeList == null) ? 0 : cTreeList.size();
+	}
+
+	public List<String> extractShuffledFlattenedCrossrefUrls() {
+		List<String> urls = extractShuffledCrossrefUrls();
+		List<String> flattenedUrls = new ArrayList<String>();
+		for (int j = 0; j < urls.size(); j++) {
+			String url = urls.get(j);
+			String flattenedURL = CMineUtil.denormalizeDOI(url);
+			flattenedUrls.add(flattenedURL);
+		}
+		return flattenedUrls;
 	}
 
 

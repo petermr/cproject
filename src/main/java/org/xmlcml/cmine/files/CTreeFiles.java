@@ -22,7 +22,7 @@ public class CTreeFiles extends Element implements Iterable<File>{
 
 
 
-	private static final Logger LOG = Logger.getLogger(XMLSnippets.class);
+	private static final Logger LOG = Logger.getLogger(CTreeFiles.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}

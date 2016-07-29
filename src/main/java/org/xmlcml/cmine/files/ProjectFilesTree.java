@@ -1,7 +1,6 @@
 package org.xmlcml.cmine.files;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Level;
@@ -25,16 +24,16 @@ public class ProjectFilesTree extends Element {
 	}
 	private static final String C_TREE_FILES_TREE = "cTreeFilesTree";
 	
-	private CProject cProject;
+	private CContainer cProject;
 
 	private List<Element> childCTreeElements;
 	
-	public ProjectFilesTree(CProject cProject) {
+	public ProjectFilesTree(CContainer cProject) {
 		super(C_TREE_FILES_TREE); 
 		addProject(cProject);
 	}
 
-	private void addProject(CProject cProject) {
+	private void addProject(CContainer cProject) {
 		this.cProject = cProject;
 		File directory = cProject == null ? null : cProject.getDirectory();
 		if (directory != null) {

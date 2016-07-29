@@ -6,7 +6,6 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.eclipse.jetty.util.log.Log;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

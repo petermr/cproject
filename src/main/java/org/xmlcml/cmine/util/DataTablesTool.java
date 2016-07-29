@@ -22,8 +22,6 @@ import org.xmlcml.html.HtmlTh;
 import org.xmlcml.html.HtmlThead;
 import org.xmlcml.html.HtmlTr;
 
-import nu.xom.Attribute;
-
 public class DataTablesTool {
 
 	private static final Logger LOG = Logger.getLogger(DataTablesTool.class);
