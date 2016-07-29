@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
 
 /** list of CTree objects.
  * 
- * the list is unordered (effectively a set)
+ * the list is sorted before use (might cause small performance hit...)
  * 
  * @author pm286
  *
@@ -121,6 +121,9 @@ public class CTreeList implements Iterable<CTree> {
 	}
 	
 	public List<CTree> getCTreeList() {
+		if (cTreeList != null) {
+			Collections.sort(cTreeList);
+		}
 		return cTreeList;
 	}
 
@@ -131,6 +134,7 @@ public class CTreeList implements Iterable<CTree> {
 	 * @return
 	 */
 	public List<File> getCTreeDirectoryList() {
+		Collections.sort(cTreeList);
 		List<File> directoryList = new ArrayList<File>();
 		for (CTree cTree : cTreeList) {
 			File directory = cTree.getDirectory();

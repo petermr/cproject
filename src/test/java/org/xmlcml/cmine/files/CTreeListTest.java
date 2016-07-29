@@ -20,7 +20,12 @@ public class CTreeListTest {
 		CTreeList cTreeList = cProject.getCTreeList();
 //		LOG.debug(cTreeList.getCTreeDirectoryList());
 		Assert.assertEquals("ctrees",  "["
-				+ "src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.1001_jama.2016.7992,"
+				+ "src/test/resources/org/xmlcml/download/sample/PMC4678086,"
+				+ " src/test/resources/org/xmlcml/download/sample/PMC4686705,"
+				+ " src/test/resources/org/xmlcml/download/sample/PMC4691483,"
+				+ " src/test/resources/org/xmlcml/download/sample/PMC4706908,"
+				+ " src/test/resources/org/xmlcml/download/sample/PMC4706911,"
+				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.1001_jama.2016.7992,"
 				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.1007_s13201-016-0429-9,"
 				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.1016_s0096-0217(16)30238-2,"
 				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.1017_s1816383116000278,"
@@ -51,12 +56,7 @@ public class CTreeListTest {
 				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.21528_cbic2011-905,"
 				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.3161_15081109acc2016.18.1.017,"
 				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.3324_haematol.2016.148015,"
-				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.4000_geocarrefour.9765,"
-				+ " src/test/resources/org/xmlcml/download/sample/PMC4678086,"
-				+ " src/test/resources/org/xmlcml/download/sample/PMC4686705,"
-				+ " src/test/resources/org/xmlcml/download/sample/PMC4691483,"
-				+ " src/test/resources/org/xmlcml/download/sample/PMC4706908,"
-				+ " src/test/resources/org/xmlcml/download/sample/PMC4706911"
+				+ " src/test/resources/org/xmlcml/download/sample/http_dx.doi.org_10.4000_geocarrefour.9765"
 				+ "]",
 				cTreeList.getCTreeDirectoryList().toString());
 	}

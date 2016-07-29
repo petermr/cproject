@@ -340,10 +340,13 @@ public class CTreeTest {
 	public void testNormalizeDOIs() throws IOException {
 		CProject cProject = createMiniTargetAndCProject();
 		List<File> dirList = cProject.getCTreeList().getCTreeDirectoryList();
-		Assert.assertEquals("[target/mini1/http_dx.doi.org_10.1001_jama.2016.7992,"
-				+ " target/mini1/http_dx.doi.org_10.1007_s13201-016-0429-9,"
-				+ " target/mini1/PMC4678086]", 
+		Assert.assertEquals("["
+				+ "target/mini1/PMC4678086,"
+				+ " target/mini1/http_dx.doi.org_10.1001_jama.2016.7992,"
+				+ " target/mini1/http_dx.doi.org_10.1007_s13201-016-0429-9"
+				+ "]",
 				dirList.toString());
+				
 		cProject.setTreatAllChildDirectoriesAsCTrees(true);
 		cProject.normalizeDOIBasedDirectoryCTrees();
 		List<File> dirList1 = cProject.getCTreeList().getCTreeDirectoryList();
