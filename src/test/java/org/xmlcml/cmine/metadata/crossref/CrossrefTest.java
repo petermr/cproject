@@ -39,7 +39,6 @@ public class CrossrefTest {
 	
 	private final static String SS = ">>>>>>>>>>>>>>>>>>>>>>";
 	
-	private static final File TEST_CROSSREF_SAMPLE = new File(CMineFixtures.TEST_CROSSREF_DIR, "sample");
 //	static final File GETPAPERS = new File("../getpapers");
 //	static final File GETPAPERS_NEW = new File("../getpapersNew");
 //	private static final File GETPAPERS_2016060 = new File(GETPAPERS+"/2016060");

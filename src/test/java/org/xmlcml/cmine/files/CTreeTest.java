@@ -294,7 +294,7 @@ public class CTreeTest {
 
 	@Test
 	public void testGetReservedFiles() throws IOException {
-		File cProjectDir = new File(CMineFixtures.TEST_DOWNLOAD_DIR, "sample");
+		File cProjectDir = CMineFixtures.TEST_SAMPLE;
 		LOG.debug(cProjectDir.getAbsolutePath());
 		CProject cProject = new CProject(cProjectDir);
 		Assert.assertEquals(37, cProject.getCTreeList().size());

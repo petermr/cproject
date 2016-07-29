@@ -23,6 +23,7 @@ public class CMineFixtures {
 	public final static File TEST_MISC_DIR = new File(TEST_FILES_DIR, "misc");
 	public static final File TEST_CROSSREF_DIR = new File(CMineFixtures.TEST_DOWNLOAD_DIR, "crossref");
 	public static final File TEST_CROSSREF_SAMPLE = new File(CMineFixtures.TEST_CROSSREF_DIR, "sample");
+	public static final File TEST_SAMPLE = new File(CMineFixtures.TEST_DOWNLOAD_DIR, "sample");
 
 	public static final File GETPAPERS = new File(TEST_CMINE_DIR, "getpapers");
 	public static final File GETPAPERS_TARGET = new File("target/getpapers");

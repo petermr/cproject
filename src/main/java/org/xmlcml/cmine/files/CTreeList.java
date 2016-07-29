@@ -3,6 +3,7 @@ package org.xmlcml.cmine.files;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
@@ -37,6 +38,7 @@ public class CTreeList implements Iterable<CTree> {
 		for (CTree cTree : cTrees) {
 			cTreeList.add(cTree);
 		}
+		Collections.sort(cTreeList);
 	}
 
 	private void ensureCTreeList() {

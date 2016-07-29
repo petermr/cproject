@@ -120,7 +120,7 @@ The results file include the regexes used and other metadata (more needed!). Aga
  * @author pm286
  *
  */
-public class CTree extends CContainer {
+public class CTree extends CContainer implements Comparable<CTree> {
 
 	private static final Logger LOG = Logger.getLogger(CTree.class);
 	static {
@@ -1312,5 +1312,17 @@ public class CTree extends CContainer {
 			prefix = matcher.group(1);
 		}
 		return prefix;
+	}
+
+	public int compareTo(CTree cTree) {
+		if (cTree == null || !(cTree instanceof CTree)) {
+			return 0;
+		}
+		String thisDir = this.directory == null ? null : this.directory.getAbsolutePath();
+		String cTreeDir = cTree.directory == null ? null : cTree.directory.getAbsolutePath();
+		if (thisDir == null || cTreeDir == null) {
+			return 0;
+		}
+		return thisDir.compareTo(cTreeDir);
 	}
 }
