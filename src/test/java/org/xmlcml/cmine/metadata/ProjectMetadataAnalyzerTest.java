@@ -41,7 +41,7 @@ public class ProjectMetadataAnalyzerTest {
 		projectAnalyzer.setMetadataType(AbstractMetadata.Type.CROSSREF);
 		List<AbstractMetadata> metadataList = projectAnalyzer.getOrCreateMetadataList();
 		Assert.assertNotNull("metadataList: ", metadataList);
-		Assert.assertTrue("metadataList size: "+metadataList.size(), metadataList.size() == 21);
+		Assert.assertEquals("metadataList size: "+metadataList.size(), 21, metadataList.size());
 		Multiset<String> keys = projectAnalyzer.getOrCreateAllKeys();
 		Assert.assertEquals("keys "+keys.size(), 478, keys.size());
 		LOG.debug(keys);
