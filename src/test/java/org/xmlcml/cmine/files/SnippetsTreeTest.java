@@ -16,12 +16,12 @@ import nu.xom.Element;
 
 public class SnippetsTreeTest {
 	
-	private final static File UNIXSNIPPETFILE = new File(CMineFixtures.CMINE_DIR, "unix.speciesSnippets.xml");
-	private final static File WINDOWSSNIPPETFILE = new File(CMineFixtures.CMINE_DIR, "windows.speciesSnippets.xml");
+	private final static File UNIXSNIPPETFILE = new File(CMineFixtures.TEST_FILES_DIR, "unix.speciesSnippets.xml");
+	private final static File WINDOWSSNIPPETFILE = new File(CMineFixtures.TEST_FILES_DIR, "windows.speciesSnippets.xml");
 
 	
 	
-	private static final Logger LOG = Logger.getLogger(ProjectSnippetsTreeTest.class);
+	private static final Logger LOG = Logger.getLogger(SnippetsTreeTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}

@@ -1187,7 +1187,7 @@ public class DefaultArgProcessor {
 		List<? extends Element> elements = null;
 		if (cTree != null) {
 			cTree.ensureScholarlyHtmlElement();
-			elements = HtmlP.extractSelfAndDescendantIs(cTree.htmlElement);
+			elements = HtmlP.extractSelfAndDescendantIs(cTree.getHtmlElement());
 		}
 		return elements;
 	}

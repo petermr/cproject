@@ -1,14 +1,10 @@
 package org.xmlcml.cmine.args.log;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVPrinter;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.util.CMineUtil;

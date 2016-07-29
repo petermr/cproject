@@ -18,8 +18,6 @@ import org.xmlcml.euclid.IntArray;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.jayway.jsonpath.JsonPath;
-import com.jayway.jsonpath.ReadContext;
 
 import nu.xom.Element;
 

@@ -21,10 +21,9 @@ public class CContainerTest {
 		File file = cProject.getAllowedChildFile(CProject.EUPMC_RESULTS_JSON);
 		Assert.assertNotNull("eupmc not null", file);
 		Assert.assertNotNull("log not null", cProject.getAllowedChildFile(CContainer.LOG_XML));
-		Assert.assertNotNull("unknown not null", cProject.getUnknownChildFile("unknown.txt"));
-		Assert.assertNull("unknown null", cProject.getAllowedChildFile("unknown.txt"));
+		Assert.assertNull("unknown null", cProject.getUnknownChildFile("unknown.txt"));
+		Assert.assertNotNull("unknown not null", cProject.getAllowedChildFile("unknown.txt"));
 		Assert.assertNull("unknown null", cProject.getAllowedChildFile("junk"));
-		Assert.assertNull("unknown null", cProject.getUnknownChildFile("junk"));
 	}
 
 }

@@ -14,7 +14,6 @@ import java.util.zip.ZipFile;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
-import org.apache.commons.math.ArgumentOutsideDomainException;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.files.CProject;
