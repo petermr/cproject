@@ -167,6 +167,9 @@ public class CProject extends CContainer {
 
 	public CTreeList getCTreeList() {
 		this.getOrCreateFilesDirectoryCTreeLists();
+		if (cTreeList != null) {
+			cTreeList.sort();
+		}
 		return cTreeList;
 	}
 

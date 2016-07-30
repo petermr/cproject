@@ -1120,10 +1120,10 @@ public class DefaultArgProcessor {
 		} else {
 			for (int i = 0; i < cTreeList.size(); i++) {
 				currentCTree = cTreeList.get(i);
-				projectLog.info("running: "+currentCTree.getDirectory());
+				LOG.trace("running: "+currentCTree.getDirectory());
 				cTreeLog = currentCTree.getOrCreateCTreeLog(this, logfileName);
 				if (cTreeLog != null) cTreeLog.setLevel(LogLevel.ERROR);
-				TREE_LOG().info("TEST LOG "+this.hashCode());
+				LOG.trace("TEST LOG "+this.hashCode());
 				currentCTree.ensureContentProcessor(this);
 				try {
 					runInitMethodsOnChosenArgOptions();

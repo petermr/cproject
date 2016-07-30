@@ -38,7 +38,7 @@ public class CTreeList implements Iterable<CTree> {
 		for (CTree cTree : cTrees) {
 			cTreeList.add(cTree);
 		}
-		Collections.sort(cTreeList);
+		sort();
 	}
 
 	private void ensureCTreeList() {
@@ -141,6 +141,12 @@ public class CTreeList implements Iterable<CTree> {
 			directoryList.add(directory);
 		}
 		return directoryList;
+	}
+
+	public void sort() {
+		if (cTreeList != null) {
+			Collections.sort(cTreeList);
+		}
 	}
 
 }
