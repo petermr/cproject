@@ -9,12 +9,14 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
+import org.xmlcml.cmine.util.RectangularTable;
 
 import com.google.common.collect.Multimap;
 
@@ -25,41 +27,78 @@ public class MetadataLongTest {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-//	private static final String GETPAPERS_NEW = "../getpapersNew";
-
 	@Test
+	/** reads a getpapers project and extracts the shuffled urls.
+	 * 
+	 * shuffledUrls.txt is in cProject directory
+	 * 
+	 * 
+	 * @throws IOException
+	 */
 	public void testGetShuffledDOIURLs() throws IOException {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
-		int numfiles = 1;
-		for (int i = 1; i <= numfiles; i++) {
-			CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
-			LOG.debug("file "+i);
-			cProject.extractShuffledUrlsFromCrossrefToFile(new File(cProject.getDirectory(), MetadataManager.SHUFFLED_URLS_TXT));
-			MetadataManager metadataManager = new MetadataManager();
-			metadataManager.readMetadataTable(new File(cProject.getDirectory(), "crossref_common.csv"), MetadataManager.CR);
-			
-		}
+		int i = 1; // file number
+		CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
+		File shuffled = new File(cProject.getDirectory(), MetadataManager.SHUFFLED_URLS_TXT);
+		Assert.assertEquals("filename ", 
+				"/Users/pm286/workspace/cmdev/cmine-dev/../getpapersNew/20160201-articles/shuffledUrls.txt",
+				shuffled.getAbsolutePath());
+		cProject.extractShuffledUrlsFromCrossrefToFile(shuffled);
+		Assert.assertTrue("shuffled: ", shuffled.exists());
+		List<String> lines = FileUtils.readLines(shuffled);
+		Assert.assertEquals("lines "+lines.size(), 12141,  lines.size());
+		lines = lines.subList(0,  10);
+		Assert.assertEquals("lines "+lines.size(), "[http://dx.doi.org/10.1002/zoo.21264,"
+				+ " http://dx.doi.org/10.1007/s41105-016-0048-8,"
+				+ " http://dx.doi.org/10.1016/s2225-4110(16)00008-0,"
+				+ " http://dx.doi.org/10.1017/s2045796016000044,"
+				+ " http://dx.doi.org/10.1021/mpv013i002_797621,"
+				+ " http://dx.doi.org/10.1016/s2225-4110(16)00007-9,"
+				+ " http://dx.doi.org/10.1037/tra0000087.supp,"
+				+ " http://dx.doi.org/10.1038/srep20371,"
+				+ " http://dx.doi.org/10.1039/c6tc00170j,"
+				+ " http://dx.doi.org/10.1049/iet-wss.2014.0090]"
+				+ "",  lines.toString());
+	}
+
+	
+	@Test
+	/** reads a getpapers project and reads the common metadata.
+	 * 
+	 * @throws IOException
+	 */
+	public void testReadCrossrefCommonCSV() throws IOException {
+		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
+		int i = 1; // file number
+		CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
+		// pre-existing CSV file
+		File csvFile = new File(cProject.getDirectory(), "crossref_common.csv");
+		MetadataManager metadataManager = new MetadataManager();
+		RectangularTable table = metadataManager.readMetadataTable(csvFile, MetadataManager.CROSSREF);
+		Assert.assertEquals("[License, Title, DOI, Publisher, Prefix, Date, Keywords]", table.getHeader().toString());
 	}
 
 	@Test
-		public void testGetURLsByPublisher() throws IOException {
-			CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160602);
-			Multimap<String, String> map = cProject.extractMetadataItemMap(
-					AbstractMetadata.Type.CROSSREF, CrossrefMD.PUBLISHER_PATH, CrossrefMD.URL_PATH);
-			List<String> urlList = new ArrayList<String>();
-			for (String key : map.keySet()) {
-				List<String> urls = new ArrayList<String>(map.get(key));
-				urlList.add(urls.get(0)); // get single URL for testing
-			}
-			Collections.shuffle(urlList);
-			FileUtils.writeLines(new File(CMineFixtures.GETPAPERS_TARGET, "20160602/uniqueUrls.txt"), urlList, "\n");
-	//		FileUtils.writeLines(new File("../getpapers/20160602/uniqueUrls2.txt"), urlList, "\n");
+	public void testGetURLsByPublisher() throws IOException {
+		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160602);
+		Multimap<String, String> map = cProject.extractMetadataItemMap(
+				AbstractMetadata.Type.CROSSREF, CrossrefMD.PUBLISHER_PATH, CrossrefMD.URL_PATH);
+		List<String> urlList = new ArrayList<String>();
+		for (String key : map.keySet()) {
+			List<String> urls = new ArrayList<String>(map.get(key));
+			urlList.add(urls.get(0)); // get single URL for testing
 		}
+		Collections.shuffle(urlList);
+		File urlFile = new File(CMineFixtures.GETPAPERS_TARGET, "20160602/uniqueUrls.txt");
+		LOG.debug(urlFile);
+		FileUtils.writeLines(urlFile, urlList, "\n");
+//		FileUtils.writeLines(new File("../getpapers/20160602/uniqueUrls2.txt"), urlList, "\n");
+	}
 
 	@Test
 	//	@Ignore // LONG
 		public void testLargeCProjectJSON() {
-			File cProjectDir = new File(CMineFixtures.GETPAPERS, "20160601");
+			File cProjectDir = new File(CMineFixtures.GETPAPERS_SRC, "20160601");
 			CProject cProject = new CProject(cProjectDir);
 			CTreeList cTreeList = cProject.getCTreeList();
 			for (CTree cTree : cTreeList) {

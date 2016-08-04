@@ -63,7 +63,7 @@ public class QuickscrapeMDTest {
 
 	@Test
 	public void testLargeCProject() {
-		AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_20160601));
+		AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_SRC_20160601));
 		CTreeList cTreeList = quickscrapeAnalyzer.getCTreeList();
 		Assert.assertTrue("ctrees "+cTreeList.size(), cTreeList.size() == 21);
 		
@@ -72,7 +72,7 @@ public class QuickscrapeMDTest {
 	@Test
 	@Ignore // LONG
 	public void testLargeCProjectJSON() {
-		CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160601);
+		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160601);
 		CTreeList cTreeList = cProject.getCTreeList();
 		for (CTree cTree : cTreeList) {
 			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.CROSSREF);
@@ -144,7 +144,7 @@ public class QuickscrapeMDTest {
 	@Test
 	@Ignore // LONG
 	public void testUniquePublishers() {
-		CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160601);
+		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160601);
 		Set<String> publisherSet = cProject.extractMetadataItemSet(
 				AbstractMetadata.Type.CROSSREF, CrossrefMD.PUBLISHER_PATH);
 		LOG.debug(publisherSet.size());
@@ -157,7 +157,7 @@ public class QuickscrapeMDTest {
 	 */
 	@Test
 	public void testGetReservedFileSpreadsheet() throws IOException {
-		CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160601SCRAPED);
+		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160601SCRAPED);
 		CTreeList cTreeList = cProject.getCTreeList();
 		RectangularTable csvTable = new RectangularTable();
 		csvTable.addRow(HEADERS);
@@ -178,7 +178,7 @@ public class QuickscrapeMDTest {
 			addMetadata(row, resultsJson, HEADERS);
 			csvTable.addRow(row);
 		}
-		csvTable.writeCsvFile(new File(CMineFixtures.GETPAPERS_20160601, FILES_CSV).toString());
+		csvTable.writeCsvFile(new File(CMineFixtures.GETPAPERS_SRC_20160601, FILES_CSV).toString());
 	}
 	
 	private void addMetadata(List<String> row, File resultsJson, List<String> metadataList) {
@@ -264,7 +264,7 @@ public class QuickscrapeMDTest {
 	@Test
 	@Ignore // redo with open access papers
 	public void testAnalyzeQuickscrape() {
-		AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_20160601SCRAPED));
+		AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_SRC_20160601SCRAPED));
 		Assert.assertTrue("ctrees "+quickscrapeAnalyzer.getCTreeList().size(), quickscrapeAnalyzer.getCTreeList().size() > 1900);
 //		CTreeList cTreeList = quickscrapeAnalyzer.
 	}

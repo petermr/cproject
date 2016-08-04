@@ -19,9 +19,14 @@ public class QuickscrapeDownloadTest {
 	}
 
 
+	/** THIS IS MERELY PREPARATORY.
+	 * 
+	 * @throws IOException
+	 */
 	@Test
-	public void testCreateURLs() throws IOException {
-		CProject cProject = createTargetDirectoryAndProject(CMineFixtures.GETPAPERS_20160601, new File(CMineFixtures.GETPAPERS_TARGET, "20160601small"));
+	public void testCreateShuffledURLsFromProject() throws IOException {
+		File targetDirectory = new File(CMineFixtures.GETPAPERS_TARGET, "20160601small");
+		CProject cProject = createTargetDirectoryAndProject(CMineFixtures.GETPAPERS_SRC_20160601, targetDirectory);
 		File urlFile      = cProject.createAllowedFile(CProject.URL_LIST);
 		FileUtils.deleteQuietly(urlFile);
 		cProject.extractShuffledUrlsFromCrossrefToFile(urlFile);

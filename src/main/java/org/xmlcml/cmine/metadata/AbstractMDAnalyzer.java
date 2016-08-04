@@ -250,11 +250,11 @@ public class AbstractMDAnalyzer {
 	}
 
 	public void writeDOIs() {
-		throw new RuntimeException("NYI");
+		LOG.warn("DOIS NYI");
 	}
 
 	public void writeDOIs(File file) {
-		throw new RuntimeException("NYI");
+		LOG.warn("DOIS NYI");
 	}
 
 	public CProject getCProject() {

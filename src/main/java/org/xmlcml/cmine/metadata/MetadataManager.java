@@ -19,7 +19,7 @@ public class MetadataManager  {
 	}
 
 	public static final String DOI = "DOI";
-	public static final String CR = "CR";
+	public static final String CROSSREF = "CR";
 	public static final String QS = "QS";
 	public static final String SHUFFLED_URLS_TXT = "shuffledUrls.txt";
 	public static final String QUICKSCRAPE_DIR = "quickscrape";

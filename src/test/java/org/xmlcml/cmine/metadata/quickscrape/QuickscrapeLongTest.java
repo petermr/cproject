@@ -35,84 +35,88 @@ public class QuickscrapeLongTest {
 
 	@Test
 		// SHOWCASE
-	@Ignore // until we have some HTML files
+//	@Ignore // until we have some HTML files
 		public void testCreateWriteQuickscrapeCSV() throws IOException {
-			AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_20160601SCRAPED));
-			Multimap<CTree, File> htmlMap = quickscrapeAnalyzer.getOrCreateCTreeFileMap(CTree.FULLTEXT_HTML);
-			Assert.assertTrue("ctrees with html: "+htmlMap.size(), htmlMap.size() > 450);
-			Map<CTree, AbstractMetadata> metadataByCTree = quickscrapeAnalyzer.getOrCreateMetadataMapByCTreeMap(AbstractMetadata.Type.QUICKSCRAPE);
-			RectangularTable csvTable = new RectangularTable();
-			csvTable.setTruncate(60);
-			List<String> headers = Arrays.asList(
-					new String[] {
-						"filename_Q",
-						"URL_Q",
-						"Title_Q",
-						"Date_Q",
-						"PDFURL_Q",
-						"PDFfile_Q",
-						"HTMLURL_Q",
-						"HTMLfile_Q",
-						"XMLURL_Q",
-						"XMLfile_Q",
-						"DOI",			// common column
-						"Publisher_Q",
-						"Volume_Q",
-						"AuthorList_Q",
-						"Issue_Q",
-						"FirstPage_Q",
-						"Description_Q",
-						"Abstract_Q",
-						"Journal_Q",
-						"License_Q",
-						"Copyright_Q",
-						"ISSN_Q",
-						"QuickscrapeMD_Q",
-	//					"CrossrefMD",
-	//					"PublisherMD",
-					});
-			csvTable.addRow(headers);
-			for (CTree cTree : metadataByCTree.keySet()) {
-				AbstractMetadata metadata = metadataByCTree.get(cTree);
-	//			metadata.setCTree(cTree);
-				if (metadata != null) {
-					csvTable.clearRow();
-				    csvTable.addCell(metadata.getProjectCTreeName());
-				    csvTable.addCell(metadata.getURL());
-				    csvTable.addCell(metadata.getTitle());
-				    csvTable.addCell(metadata.getDate());
-				    csvTable.addCell(metadata.getFulltextPDFURL());
-				    csvTable.addCell(metadata.hasDownloadedFulltextPDF());
-				    csvTable.addCell(metadata.getFulltextHTMLURL());
-				    csvTable.addCell(metadata.hasDownloadedFulltextHTML());
-				    csvTable.addCell(metadata.getFulltextXMLURL());
-				    csvTable.addCell(metadata.hasDownloadedFulltextXML());
-				    csvTable.addCell(metadata.getDOI());
-				    csvTable.addCell(metadata.getPublisher());
-				    csvTable.addCell(metadata.getVolume());
-				    csvTable.addCell(metadata.getAuthorListAsStrings());
-				    csvTable.addCell(metadata.getIssue());
-				    csvTable.addCell(metadata.getFirstPage());
-				    csvTable.addCell(metadata.getDescription());
-				    csvTable.addCell(metadata.getAbstract());
-				    csvTable.addCell(metadata.getJournal());
-				    csvTable.addCell(metadata.getLicense());
-				    csvTable.addCell(metadata.getCopyright());
-				    csvTable.addCell(metadata.getISSN());
-					csvTable.addCell(metadata.hasQuickscrapeMetadata());
-	//			    csvTable.addCell(metadata.hasCrossrefMetadata());
-	//			    csvTable.addCell(metadata.hasPublisherMetadata());
-					csvTable.addCurrentRow();
-				}
+//		LOG.debug("file: "+CMineFixtures.GETPAPERS_SRC_20160601SCRAPED);
+//		AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_SRC_20160601SCRAPED));
+		File file = new File(CMineFixtures.OPEN, "crossref.json");
+		AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_SRC_20160601SCRAPED));
+		Multimap<CTree, File> htmlMap = quickscrapeAnalyzer.getOrCreateCTreeFileMap(CTree.FULLTEXT_HTML);
+		Assert.assertTrue("ctrees with html: "+htmlMap.size(), htmlMap.size() > 450);
+		Map<CTree, AbstractMetadata> metadataByCTree = quickscrapeAnalyzer.getOrCreateMetadataMapByCTreeMap(AbstractMetadata.Type.QUICKSCRAPE);
+		RectangularTable csvTable = new RectangularTable();
+		csvTable.setTruncate(60);
+		List<String> headers = Arrays.asList(
+				new String[] {
+					"filename_Q",
+					"URL_Q",
+					"Title_Q",
+					"Date_Q",
+					"PDFURL_Q",
+					"PDFfile_Q",
+					"HTMLURL_Q",
+					"HTMLfile_Q",
+					"XMLURL_Q",
+					"XMLfile_Q",
+					"DOI",			// common column
+					"Publisher_Q",
+					"Volume_Q",
+					"AuthorList_Q",
+					"Issue_Q",
+					"FirstPage_Q",
+					"Description_Q",
+					"Abstract_Q",
+					"Journal_Q",
+					"License_Q",
+					"Copyright_Q",
+					"ISSN_Q",
+					"QuickscrapeMD_Q",
+//					"CrossrefMD",
+//					"PublisherMD",
+				});
+		csvTable.addRow(headers);
+		for (CTree cTree : metadataByCTree.keySet()) {
+			AbstractMetadata metadata = metadataByCTree.get(cTree);
+//			metadata.setCTree(cTree);
+			if (metadata != null) {
+				csvTable.clearRow();
+			    csvTable.addCell(metadata.getProjectCTreeName());
+			    csvTable.addCell(metadata.getURL());
+			    csvTable.addCell(metadata.getTitle());
+			    csvTable.addCell(metadata.getDate());
+			    csvTable.addCell(metadata.getFulltextPDFURL());
+			    csvTable.addCell(metadata.hasDownloadedFulltextPDF());
+			    csvTable.addCell(metadata.getFulltextHTMLURL());
+			    csvTable.addCell(metadata.hasDownloadedFulltextHTML());
+			    csvTable.addCell(metadata.getFulltextXMLURL());
+			    csvTable.addCell(metadata.hasDownloadedFulltextXML());
+			    csvTable.addCell(metadata.getDOI());
+			    csvTable.addCell(metadata.getPublisher());
+			    csvTable.addCell(metadata.getVolume());
+			    csvTable.addCell(metadata.getAuthorListAsStrings());
+			    csvTable.addCell(metadata.getIssue());
+			    csvTable.addCell(metadata.getFirstPage());
+			    csvTable.addCell(metadata.getDescription());
+			    csvTable.addCell(metadata.getAbstract());
+			    csvTable.addCell(metadata.getJournal());
+			    csvTable.addCell(metadata.getLicense());
+			    csvTable.addCell(metadata.getCopyright());
+			    csvTable.addCell(metadata.getISSN());
+				csvTable.addCell(metadata.hasQuickscrapeMetadata());
+//			    csvTable.addCell(metadata.hasCrossrefMetadata());
+//			    csvTable.addCell(metadata.hasPublisherMetadata());
+				csvTable.addCurrentRow();
 			}
-			csvTable.writeCsvFile(new File(CMineFixtures.GETPAPERS, "20160601quickscrape.csv"));
-	//		
-	//		Map<CTree, String> titleByCTreeMap = quickscrapeAnalyzer.createValueByCTreeMap(CrossrefMD.TITLE_PATH);
 		}
+//		csvTable.writeCsvFile(new File(CMineFixtures.GETPAPERS_SRC, "20160601quickscrape.csv"));
+		csvTable.writeCsvFile(new File(CMineFixtures.GETPAPERS_TARGET, "20160601quickscrape.csv"));
+//		
+//		Map<CTree, String> titleByCTreeMap = quickscrapeAnalyzer.createValueByCTreeMap(CrossrefMD.TITLE_PATH);
+	}
 
 	@Test
 		public void testQuickscrapeGetURLsByPublisher() throws IOException {
-			CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160601);
+			CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160601);
 			Multimap<String, String> map = cProject.extractMetadataItemMap(
 					AbstractMetadata.Type.CROSSREF, CrossrefMD.PUBLISHER_PATH, CrossrefMD.URL_PATH);
 			List<String> urlList = new ArrayList<String>();
@@ -168,7 +172,7 @@ public class QuickscrapeLongTest {
 		// SHOWCASE
 		/** gets metadata from <meta> tags */
 		public void testGetQuickscrapeMetaTagdata() {
-			QuickscrapeAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_20160601SCRAPED));
+			QuickscrapeAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_SRC_20160601SCRAPED));
 			Multiset<String> metaTagSet = quickscrapeAnalyzer.getHTMLMetaTagNameSet();
 			List<Multiset.Entry<String>> tags = CMineUtil.getEntryListSortedByCount(metaTagSet);
 			LOG.debug(tags);

@@ -4,9 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -22,29 +20,24 @@ import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.metadata.AbstractCM;
-import org.xmlcml.cmine.metadata.AbstractMetadata;
 import org.xmlcml.cmine.metadata.CMDOI;
 import org.xmlcml.cmine.metadata.CMURL;
 import org.xmlcml.cmine.metadata.DOIResolver;
 import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.RectangularTable;
 
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multiset;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+/**
+ * MAINLY ABSTRACTED TO MD
+ * 
+ * @author pm286
+ *
+ */
 public class CrossrefTest {
 
 	
-	private final static String SS = ">>>>>>>>>>>>>>>>>>>>>>";
-	
-//	static final File GETPAPERS = new File("../getpapers");
-//	static final File GETPAPERS_NEW = new File("../getpapersNew");
-//	private static final File GETPAPERS_2016060 = new File(GETPAPERS+"/2016060");
-//	public static final File GETPAPERS_20160601 = new File(GETPAPERS+"/20160601");
-;
-//	private static final String XREF_DIR = "/Users/pm286/workspace/cmdev/norma-dev/xref";
 	private static final Logger LOG = Logger.getLogger(CrossrefTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -52,6 +45,10 @@ public class CrossrefTest {
 
 
 
+	/**
+	 * RUN CROSSREF WITHOUT GETPAPERS
+	 * @throws IOException
+	 */
 	@Test
 	@Ignore // downloads many
 	public void testCreateDownloadAgro() throws IOException {
@@ -61,6 +58,10 @@ public class CrossrefTest {
 		CrossrefDownloader.runCrossRefQuery(fromDate, untilDate, query, true, 500, new File("target/xref/puccinia"));
 	}
 	
+	/**
+	 * RUN CROSSREF WITHOUT GETPAPERS
+	 * @throws IOException
+	 */
 
 	@Test
 	@Ignore // downloads many
@@ -71,6 +72,10 @@ public class CrossrefTest {
 		CrossrefDownloader.runCrossRefQuery(fromDate, untilDate, query, true, 50, new File("target/xref/theochem"));
 	}
 
+	/**
+	 * RUN CROSSREF WITHOUT GETPAPERS
+	 * @throws IOException
+	 */
 	@Test
 	@Ignore // downloads many
 	public void testCreateDownloadGlutamate() throws IOException {
@@ -80,16 +85,22 @@ public class CrossrefTest {
 		CrossrefDownloader.runCrossRefQuery(fromDate, untilDate, query, true, 50, new File("target/xref/glutamate"));
 	}
 
+	/** PURPOSE not yet documented */
 	@Test
 	public void testQuickscrape() throws IOException {
 		File scrapers = new File("workspace/journalScrapers/scrapers");
 		File outdir = new File("target/crossref");
 		String CROSSREF = "/Users/pm286/.nvm/v0.10.38/bin/quickscrape";
 	    Process process = CMineUtil.runProcess(
-	    		new String[]{CROSSREF, "-q", "http://dx.plos.org/10.1371/journal.pone.0075293", "-d", scrapers.toString(), "-o", outdir.toString()}, null);
+	    		new String[]{CROSSREF, "-q", "http://dx.plos.org/10.1371/journal.pone.0075293", 
+	    				"-d", scrapers.toString(), "-o", outdir.toString()}, null);
 	}
 
-	
+
+	/** RESOLVE DOI. may not be necessary.
+	 * 
+	 * @throws Exception
+	 */
 	@Test
 	public void testResolveDOI() throws Exception {
 		String crossRefDOI = "http://dx.doi.org/10.3389/fpsyg.2016.00565";
@@ -97,6 +108,7 @@ public class CrossrefTest {
 //		LOG.debug("DOI "+s);
 	}
 
+	/** DIRECT DOWNLOAD OF CROSSREF METADATA for several days*/
 	@Test
 	@Ignore // downloads
 	public void testCreateDaily() throws IOException {
@@ -113,43 +125,61 @@ public class CrossrefTest {
 		}
 	}
 
+	/** EXTRACT METADATA from CROSSREF Json */
 	@Test
 	public void testGetMetadataObjectList() throws Exception {
 		
-		AbstractMetadata crossrefMetadata = new CrossrefMD();
+		CrossrefMD crossrefMetadata = new CrossrefMD();
 		crossrefMetadata.readMetadataArrayFromConcatenatedFile(new File(CMineFixtures.TEST_CROSSREF_SAMPLE, "crossref_results.json"));
 		List<JsonObject> metadataObjectList = crossrefMetadata.getMetadataObjectListFromConcatenatedArray();
 		Assert.assertEquals("items", 1552, metadataObjectList.size());
 	}
 
+	/** EXTRACT METADATA from CROSSREF Json */
 	@Test
 	public void testGetMetadataKeys() throws Exception {
 		
-		AbstractMetadata crossrefMetadata = new CrossrefMD();
+		CrossrefMD crossrefMetadata = new CrossrefMD();
 		crossrefMetadata.readMetadataArrayFromConcatenatedFile(new File(CMineFixtures.TEST_CROSSREF_SAMPLE, "crossref_results.json"));
 		List<JsonObject> metadataObjectList = crossrefMetadata.getMetadataObjectListFromConcatenatedArray();
 		JsonObject object0 = metadataObjectList.get(0);
 		Assert.assertEquals("fields", 24, object0.entrySet().size());
 	}
 
+	/** GET CROSSREF METADATA FROM JSON
+	 * 
+	 * @throws Exception
+	 */
 	@Test
-	public void testGetObjectMetadata1() throws Exception {
-		AbstractMetadata crossrefMetadata = new CrossrefMD();
+	public void testGetCrossrefMetadataFromJson() throws Exception {
+		CrossrefMD crossrefMetadata = new CrossrefMD();
 		crossrefMetadata.readMetadataArrayFromConcatenatedFile(new File(CMineFixtures.TEST_CROSSREF_SAMPLE, "crossref_results.json"));
 		crossrefMetadata.getOrCreateMetadataList();
-		LOG.debug("keys "+CMineUtil.getEntriesSortedByCount(crossrefMetadata.getKeysmap()));
-		LOG.debug("KEYS "+crossrefMetadata.getKeysmap().size());
-		LOG.debug("KEYS1 "+crossrefMetadata.getKeysmap().entrySet().size());
+		Assert.assertEquals("KEYS ", 36356, +crossrefMetadata.getKeysmap().size());
+		Assert.assertEquals("unique KEYS ", 35,  crossrefMetadata.getKeysmap().entrySet().size());
 		crossrefMetadata.debugStringValues();
 		crossrefMetadata.debugNumberValues();
-		LOG.debug("all keys "+CMineUtil.getEntriesSortedByCount(crossrefMetadata.getAllKeys()));
-//		LOG.debug("author "+crossrefMetadata.getAuthorEntriesSortedByCount());
-//		LOG.debug("funder "+crossrefMetadata.getFunderEntriesSortedByCount());
-//		LOG.debug("license "+crossrefMetadata.getLicenseEntriesSortedByCount());
-//		LOG.debug("link "+crossrefMetadata.getLinkEntriesSortedByCount());
-//		LOG.debug("strings "+crossrefMetadata.getStringValueMap());
-//		LOG.debug("stringLists "+crossrefMetadata.getStringListValueMap());
-//		LOG.debug("stringMap "+crossrefMetadata.getStringMultimapByKey());
+		String allKeys = CMineUtil.getEntriesSortedByCount(crossrefMetadata.getAllKeys()).toString();
+		Assert.assertTrue(allKeys.contains("prefix x 1552")  && allKeys.contains("title x 1552"));
+		/**
+		// omitted as problems with sorting entries
+		Assert.assertEquals("allkeys", 
+				"[prefix x 1552, deposited x 1552, source x 1552, type x 1552, title x 1552, URL x 1552,"
+				+ " score x 1552, member x 1552, reference-count x 1552, issued x 1552, DOI x 1552,"
+				+ " indexed x 1552, created x 1552, container-title x 1552, subtitle x 1552, publisher x 1552,"
+				+ " ISSN x 1445, author x 1209, page x 1109, published-print x 1060, published-online x 1051,"
+				+ " volume x 1036, issue x 875, subject x 777, license x 706, alternative-id x 700, link x 666,"
+				+ " update-policy x 227, ISBN x 172, archive x 163, assertion x 146, funder x 126, article-number x 36,"
+				+ " editor x 12, update-to x 8]" , allKeys.substring(0, 200));
+				*/
+		String authors = crossrefMetadata.getAuthorListAsStrings().toString();
+		Assert.assertEquals("author", "[Martin K. Heath, Lindsey Brooks D., Ma Jianguo, Nichols Timothy C., Jiang Xiaoning, Dayton Paul A., Lee Ming-Che, Yang Ying-Chin, Chen Yen-Cheng, Chang Bee-Song, Li Yi-Chen, Huang Shih-Che, Miao Xin," , authors.substring(0, 200));
+		String funders = crossrefMetadata.getFunderEntriesSortedByCount().toString();
+		Assert.assertEquals("funders", "[DEC 2013/09/B/ST5/03391 National Science Centre of Poland x 2, 024.001.035 Ministry of Education and Science 10.13039/501100005992 x 2,  CRO Aviano x 2,  National Science Foundation 10.13039/10000000" , funders.substring(0, 200));
+		String licenses = crossrefMetadata.getLicenseEntriesSortedByCount().toString();
+		Assert.assertEquals("licenses", "[http://www.elsevier.com/tdm/userlicense/1.0/ x 282, http://doi.wiley.com/10.1002/tdm_license_1 x 162, http://onlinelibrary.wiley.com/termsAndConditions x 154, http://www.springer.com/tdm x 130, http:" , licenses.substring(0, 200));
+		String links = crossrefMetadata.getLinkEntriesSortedByCount().toString();
+		Assert.assertEquals("links", "[application/pdf http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjoic.12292, application/pdf http://stacks.iop.org/0295-5075/114/i=3/a=30006/pdf, text/plain http://api.elsevier.com/conten" , links.substring(0, 200));
 
 	}
 
@@ -162,7 +192,7 @@ public class CrossrefTest {
 		LOG.debug("JS "+json);
 		JsonParser jsonParser = new JsonParser();
 		JsonObject jsonObject = (JsonObject) jsonParser.parse(json);
-		AbstractMetadata crossrefMD = new CrossrefMD();
+		CrossrefMD crossrefMD = new CrossrefMD();
 		crossrefMD.analyzeElement(0, jsonObject.get("string"));
 		crossrefMD.analyzeElement(0, jsonObject.get("number"));
 		
@@ -188,15 +218,16 @@ public class CrossrefTest {
 		
 		JsonParser jsonParser = new JsonParser();
 		JsonObject jsonObject = (JsonObject) jsonParser.parse(json);
-		AbstractMetadata crossrefMetadata = new CrossrefMD();
+		CrossrefMD crossrefMetadata = new CrossrefMD();
 		crossrefMetadata.analyzeElement(0, jsonObject.get("publisher"));
 		crossrefMetadata.analyzeElement(0, jsonObject.get("reference-count"));
 		crossrefMetadata.analyzeElement(0, jsonObject.get("indexed"));
 		
 	}
 	
+	/** UNDOCUMENTED */
 	@Test 
-	@Ignore 
+	@Ignore // misses pubfilter.txt
 	public void testCrossRefURLs2DOI2FilterCSVFiles() throws IOException {
 		int MAX = 99999;
 		String fromDate = "2016-05-01";
@@ -254,18 +285,18 @@ public class CrossrefTest {
 			row.add(urlNames.size() > 0 ? urlNames.get(0) : "-");
 			rows.add(row);
 		}
-		File csvDir = new File("target/csvtest/");
-		csvDir.mkdirs();
+		File targetCSVTest = new File("target/csvtest/");
+		targetCSVTest.mkdirs();
 		RectangularTable csvTable = new RectangularTable();
 		csvTable.setRows(rows);
-		csvTable.writeCsvFile(new File(csvDir, "projects.csv").toString());
+		csvTable.writeCsvFile(new File(targetCSVTest, "projects.csv").toString());
 		
 		RectangularTable doiCounter = new RectangularTable();
-		doiCounter.createMultisetAndOutputRowsWithCounts(doiPrefixList, new File(csvDir, "doiCount.csv").toString());
+		doiCounter.createMultisetAndOutputRowsWithCounts(doiPrefixList, new File(targetCSVTest, "doiCount.csv").toString());
 		RectangularTable urlCounter = new RectangularTable();
-		urlCounter.createMultisetAndOutputRowsWithCounts(urlPrefixList, new File(csvDir, "urlCount.csv").toString());
+		urlCounter.createMultisetAndOutputRowsWithCounts(urlPrefixList, new File(targetCSVTest, "urlCount.csv").toString());
 		RectangularTable pubCounter = new RectangularTable();
-		pubCounter.createMultisetAndOutputRowsWithCounts(pubPrefixList, new File(csvDir, "pubCount.csv").toString());
+		pubCounter.createMultisetAndOutputRowsWithCounts(pubPrefixList, new File(targetCSVTest, "pubCount.csv").toString());
 		
 	}
 	
@@ -273,7 +304,7 @@ public class CrossrefTest {
 
 	@Test
 	public void testAggregateCrossrefDOIPrefixes() {
-		CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160601);
+		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160601);
 //		cProject.normalizeDOIBasedDirectoryCTrees();
 		CTreeList cTreeList = cProject.getCTreeList();
 		

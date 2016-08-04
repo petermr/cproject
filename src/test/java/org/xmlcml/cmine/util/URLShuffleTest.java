@@ -10,6 +10,8 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Test
 ;
+
+import junit.framework.Assert;
 public class URLShuffleTest {
 
 	public static final Logger LOG = Logger.getLogger(URLShuffleTest.class);
@@ -78,14 +80,20 @@ public class URLShuffleTest {
 		URLShuffler shuffler = new URLShuffler(); 
 		shuffler.readURLs(createURLs());
 		List<String> urls = shuffler.getShuffledUrls();
-		LOG.trace(urls);
+		Assert.assertEquals("["
+				+ "http://a.com/11, http://b.com/6, http://a.com/10, http://c.com/4, http://b.com/5, http://a.com/9,"
+				+ " http://c.com/3, http://a.com/8, http://b.com/4, http://c.com/2, http://a.com/7, http://b.com/3,"
+				+ " http://a.com/6, http://d.com/1, http://d.com/2, http://a.com/5, http://b.com/2, http://a.com/4,"
+				+ " http://c.com/1, http://d.com/0, http://a.com/3, http://b.com/1, http://a.com/2, http://c.com/0,"
+				+ " http://b.com/0, http://a.com/1, http://e.com/0, http://a.com/0, http://e.com/1, http://f.com/0"
+				+ "]", urls.toString());
 	}
 	
-	@Test
-	public void testShuffleURLs1() {
-		URLShuffler shuffler = new URLShuffler(); 
-		shuffler.readURLs(createURLs1());
-		List<String> urls = shuffler.getShuffledUrls();
-		LOG.trace(urls);
-	}
+//	@Test
+//	public void testShuffleURLs1() {
+//		URLShuffler shuffler = new URLShuffler(); 
+//		shuffler.readURLs(createURLs1());
+//		List<String> urls = shuffler.getShuffledUrls();
+//		LOG.trace(urls);
+//	}
 }

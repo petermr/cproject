@@ -27,17 +27,25 @@ public class CrossrefCSVTest {
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	/** GET HEADERS FROM CROSSREF SPREADSHEET.
+	 * 
+	 * @throws IOException
+	 */
 	@Test
 	public void testGetpapers() throws IOException {
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		Assert.assertEquals(12141, table.size());
 		Assert.assertEquals("[License, Title, DOI, Publisher, Prefix, Date, Keywords]", table.getHeader().toString());
 	}
-	
+
+	/** ANALYZE DOI COLUMN FROM CROSSREF SPREADSHEET.
+	 * 
+	 * @throws IOException
+	 */
 	@Test
-	public void testAnalyzeUniqueColumn() throws IOException {
+	public void testAnalyzeDOIColumn() throws IOException {
 		String colHead = "DOI";
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		List<String> columnValues = table.getColumn(table.getIndexOfColumn(colHead));
 		Assert.assertEquals(12141, columnValues.size());
 		List<Multiset.Entry<String>> multisetList = table.extractSortedMultisetList(colHead);
@@ -49,10 +57,14 @@ public class CrossrefCSVTest {
 		
 	}
 	
+	/** ANALYZE LICENSE COLUMN FROM CROSSREF SPREADSHEET.
+	 * 
+	 * @throws IOException
+	 */
 	@Test
-	public void testAnalyzeNonUniqueColumn() throws IOException {
+	public void testAnalyzeLicenseColumn() throws IOException {
 		String colHead = "License";
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		List<String> columnValues = table.getColumn(table.getIndexOfColumn(colHead));
 		Assert.assertEquals(12141, columnValues.size());
 		List<Multiset.Entry<String>> multisetList = table.extractSortedMultisetList(colHead);
@@ -102,21 +114,43 @@ public class CrossrefCSVTest {
 				duplicateMultisetList.toString());
 		
 	}
-	
+
+	/** ANALYZE PUBLISHERS FROM SPREADSHEET.
+	 * 
+	 * @throws IOException
+	 */
 	@Test
 	public void testAnalyzePublishers() throws IOException {
 		String colHead = "Publisher";
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		List<String> columnValues = table.getColumn(table.getIndexOfColumn(colHead));
 		Assert.assertEquals(12141, columnValues.size());
 		List<Multiset.Entry<String>> multisetList = table.extractSortedMultisetList(colHead);
 		Assert.assertEquals(325, multisetList.size());
-//		LOG.debug(multisetList);
+		Assert.assertEquals("[Elsevier BV x 2271,"
+		+ " Springer Science + Business Media x 1038,"
+		+ " Wiley-Blackwell x 682,"
+		+ " Hamad bin Khalifa University Press (HBKU Press) x 456,"
+		+ " Informa UK Limited x 438,"
+		+ " Clute Institute x 364,"
+		+ " Logos Medi", multisetList.toString().substring(0,  200));
 		List<Multiset.Entry<String>> uniqueMultisetList = table.extractUniqueMultisetList(colHead);
 		Assert.assertEquals(53, uniqueMultisetList.size());
+		Assert.assertEquals("[Association Palaeovertebrata,"
+				+ " Federal Reserve Bank of Kansas City,"
+				+ " Associacao Sergipana de Ciencia,"
+				+ " University of South Florida Libraries,"
+				+ " Science and Education Centre of North America,"
+				+ " Rubber Divisi", uniqueMultisetList.toString().substring(0,  200));
 		List<Multiset.Entry<String>> duplicateMultisetList = table.extractDuplicateMultisetList(colHead);
 		Assert.assertEquals(272, duplicateMultisetList.size());
-
+		Assert.assertEquals("[Elsevier BV x 2271,"
+				+ " Springer Science + Business Media x 1038,"
+				+ " Wiley-Blackwell x 682,"
+				+ " Hamad bin Khalifa University Press (HBKU Press) x 456,"
+				+ " Informa UK Limited x 438,"
+				+ " Clute Institute x 364,"
+				+ " Logos Medi", duplicateMultisetList.toString().substring(0,  200));
 	}
 	
 

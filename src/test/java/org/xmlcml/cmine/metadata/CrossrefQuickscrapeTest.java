@@ -27,7 +27,7 @@ public class CrossrefQuickscrapeTest {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	private static String CR = MetadataManager.CR;
+	private static String CR = MetadataManager.CROSSREF;
 	private static String DOI = MetadataManager.DOI;
 	private static String QS = MetadataManager.QS;
 
@@ -40,7 +40,7 @@ public class CrossrefQuickscrapeTest {
 				+ " FirstPage_Q, Description_Q, Abstract_Q, Journal_Q, License_Q, Copyright_Q, ISSN_Q,"
 				+ " QuickscrapeMD_Q]", tableQS.getHeader().toString());
 
-		RectangularTable tableCR = RectangularTable.readTable(CMineFixtures.CROSSREF20160601_CSV, true);
+		RectangularTable tableCR = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_20160601_CSV, true);
 		Assert.assertEquals(18556, tableCR.size());
 		Assert.assertEquals("[URL, Title, Date, PDFURL, DownloadedPDF, HTMLURL, DownloadedHTML, XMLURL,"
 				+ " DownloadedXML, DOI, Publisher, Volume, AuthorList, Issue, FirstPage, Description,"
@@ -71,7 +71,7 @@ public class CrossrefQuickscrapeTest {
 	public void testFindFollowingValues() throws IOException {
 		MetadataManager metadataManager = new MetadataManager();
 		RectangularTable qsTable = metadataManager.readMetadataTable(CMineFixtures.QUICKSCRAPE20160601_CSV, QS);
-		RectangularTable crTable = metadataManager.readMetadataTable(CMineFixtures.CROSSREF20160601_CSV, CR);
+		RectangularTable crTable = metadataManager.readMetadataTable(CMineFixtures.CROSSREF_SRC_20160601_CSV, CR);
 		int qsSize = qsTable.size();
 		int crSize = crTable.size();
 		int row = metadataManager.findLastCorrespondingRow(CR, QS, DOI);
@@ -86,7 +86,7 @@ public class CrossrefQuickscrapeTest {
 	public void testFindValuesNotIn() throws IOException {
 		MetadataManager metadataManager = new MetadataManager();
 		RectangularTable qsTable = metadataManager.readMetadataTable(CMineFixtures.QUICKSCRAPE20160601_CSV, QS);
-		RectangularTable crTable = metadataManager.readMetadataTable(CMineFixtures.CROSSREF20160601_CSV, CR);
+		RectangularTable crTable = metadataManager.readMetadataTable(CMineFixtures.CROSSREF_SRC_20160601_CSV, CR);
 		List<String> qsDois = qsTable.getValuesNotIn(crTable, DOI);
 //		LOG.debug("QS only "+qsDois.size()+"\n"+qsDois);
 		
@@ -96,7 +96,7 @@ public class CrossrefQuickscrapeTest {
 	public void testWriteFollowingValues() throws IOException {
 		MetadataManager metadataManager = new MetadataManager();
 		RectangularTable qsTable = metadataManager.readMetadataTable(CMineFixtures.QUICKSCRAPE20160601_CSV, QS);
-		RectangularTable crTable = metadataManager.readMetadataTable(CMineFixtures.CROSSREF20160601_CSV, CR);
+		RectangularTable crTable = metadataManager.readMetadataTable(CMineFixtures.CROSSREF_SRC_20160601_CSV, CR);
 		int row = metadataManager.findLastCorrespondingRow(CR, QS, DOI);
 		List<String> values = metadataManager.findFollowingValues(CR, row, DOI);
 		Assert.assertTrue("values "+values.size(), values.size() > 18000);
@@ -106,7 +106,7 @@ public class CrossrefQuickscrapeTest {
 	public void testFindLastCorrespondingValue() throws IOException {
 		MetadataManager metadataManager = new MetadataManager();
 		metadataManager.readMetadataTable(CMineFixtures.QUICKSCRAPE20160601_CSV, QS);
-		metadataManager.readMetadataTable(CMineFixtures.CROSSREF20160601_CSV, CR);
+		metadataManager.readMetadataTable(CMineFixtures.CROSSREF_SRC_20160601_CSV, CR);
 		int row = metadataManager.findLastCorrespondingRow(CR, QS, DOI);
 		Assert.assertTrue("row "+row, row > 100);
 //		Assert.assertEquals(108, row);

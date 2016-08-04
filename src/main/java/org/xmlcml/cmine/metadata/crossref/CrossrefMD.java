@@ -19,6 +19,7 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
+import com.google.common.collect.Multiset.Entry;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
@@ -532,9 +533,17 @@ public class CrossrefMD extends AbstractMetadata {
 
 //	@Override
 	public List<String> getLicenseStringList() {
-		LOG.debug("XX "+licenseList.getEntriesSortedByCount());
-		return null;
-//		return licenseList.getEntriesSortedByCount();
+		List<String> licenseListS = getListFromEntries(licenseList.getEntriesSortedByCount());
+		return licenseListS;
+	}
+
+	private static List<String> getListFromEntries(List<Entry<String>> entriesSortedByCount) {
+		List<String> strings = new ArrayList<String>();
+		for (Entry<String> entry : entriesSortedByCount) {
+			String s = entry.toString();
+			strings.add(s);
+		}
+		return strings;
 	}
 
 	@Override
@@ -630,6 +639,14 @@ public class CrossrefMD extends AbstractMetadata {
 		return values;
 	}
 
+	public String toString() {
+		String s = "";
+		s += "funderList: "+funderList+"\n";
+		s += " licenseList: "+licenseList+"\n";
+		s += " linkList: "+linkList+"\n";
+		s += " dateTime: "+dateTime+"\n";
+		return s;
+	}
 
 
 }

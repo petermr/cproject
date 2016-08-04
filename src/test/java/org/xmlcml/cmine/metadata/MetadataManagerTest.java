@@ -21,18 +21,22 @@ public class MetadataManagerTest {
 	
 //	private static final String GETPAPERS_NEW = "../getpapersNew";
 
+	/** EXTRACTS SINGLE COLUMN FROM TABLE AND WRITES TO NEW CSV.
+	 * 
+	 * @throws IOException
+	 */
 	@Test
-	public void testGetDOISasCSV() throws IOException {
+	public void testGetDOIColumnAsCSV() throws IOException {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
-		for (int i = 1; i <= 7; i++) {
-			CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
-			File inputCsvFile = new File(cProject.getDirectory(), "crossref_common.csv");
-			File outputCsvFile = new File(cProject.getDirectory(), "dois.txt");
-			RectangularTable table = RectangularTable.readTable(inputCsvFile, true);
-			table.writeColumn(outputCsvFile, MetadataManager.DOI);
-		}
+		int i = 1;
+		CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
+		File inputCsvFile = new File(cProject.getDirectory(), "crossref_common.csv");
+		File outputCsvFile = new File(cProject.getDirectory(), "dois.txt");
+		RectangularTable table = RectangularTable.readTable(inputCsvFile, true);
+		table.writeColumn(outputCsvFile, MetadataManager.DOI);
 	}
-	
+
+	/** NOT FINISHED? */
 	@Test
 	public void testGetFreshQuickscrapeDirectories() throws IOException {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;

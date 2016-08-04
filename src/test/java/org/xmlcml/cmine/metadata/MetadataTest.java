@@ -59,16 +59,18 @@ public class MetadataTest {
 	}
 
 	@Test
-	@Ignore // LONG
+//	@Ignore // LONG
+	/** CREATE CROSSREF CSV from GETPAPERS PROJECT.
+	 * 
+	 * @throws IOException
+	 */
 	public void testCreateJSONSheets() throws IOException {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
-		for (int day = 1; day <= 7; day++) {
-			LOG.debug(day);
-			File cProjectDir = new File(CMineFixtures.GETPAPERS_NEW, "2016060"+day);
-			CProject cProject = new CProject(cProjectDir);
-			CTreeList cTreeList = cProject.getCTreeList();
-			CrossrefMD.createCrossrefSpreadsheet(cTreeList, new File(CMineFixtures.GETPAPERS_TARGET, "2016060"+day+"/crossRef.csv"));
-		}
+		int day = 1;
+		File cProjectDir = new File(CMineFixtures.GETPAPERS_NEW, "2016060"+day);
+		CProject cProject = new CProject(cProjectDir);
+		CTreeList cTreeList = cProject.getCTreeList();
+		CrossrefMD.createCrossrefSpreadsheet(cTreeList, new File(CMineFixtures.GETPAPERS_TARGET, "2016060"+day+"/crossRef.csv"));
 	}
 	
 	/** find metadata
@@ -88,42 +90,41 @@ public class MetadataTest {
 	}
 
 	@Test
-//	@Ignore // VERY LONG
+	/** EXTRACT PUBLISHERS and TYPES FROM CROSSREF.
+	 * 
+	 * @throws IOException
+	 */
 	public void testGetPublishersAndTypes() throws IOException {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
 		Multiset<String> publisherSet = HashMultiset.create();
 		Multiset<String> typeSet = HashMultiset.create();
-		int total = 0;
-		int numfiles = 1; // could be 7
-		for (int i = 1; i <= numfiles; i++) {
-			int count = 0;
-			File cProjectDir = new File(CMineFixtures.GETPAPERS_NEW, "2016060"+i);
-			CProject cProject = new CProject(cProjectDir);
-			CTreeList cTreeList = cProject.getCTreeList();
-			for (CTree cTree : cTreeList) {
-				AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.CROSSREF);
-				if (metadata != null) {
-					String publisher = metadata.getJsonStringByPath(CrossrefMD.PUBLISHER_PATH);
-					publisher = publisher.replaceAll("\\s+", " ");
-					publisherSet.add(publisher);
-					String type = metadata.getJsonStringByPath(CrossrefMD.TYPE_PATH);
-					if (type != null) {
-						typeSet.add(type);
-					}
+		int i = 0;
+		int count = 0;
+		File cProjectDir = new File(CMineFixtures.GETPAPERS_NEW, "2016060"+i);
+		CProject cProject = new CProject(cProjectDir);
+		CTreeList cTreeList = cProject.getCTreeList();
+		for (CTree cTree : cTreeList) {
+			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.CROSSREF);
+			if (metadata != null) {
+				String publisher = metadata.getJsonStringByPath(CrossrefMD.PUBLISHER_PATH);
+				publisher = publisher.replaceAll("\\s+", " ");
+				publisherSet.add(publisher);
+				String type = metadata.getJsonStringByPath(CrossrefMD.TYPE_PATH);
+				if (type != null) {
+					typeSet.add(type);
 				}
-				count++;
 			}
-			LOG.debug(count);
-			total += count;
+			count++;
 		}
+		LOG.debug(count);
 		writeSet(publisherSet, new File(CMineFixtures.GETPAPERS_TARGET, "publisherAll.csv"));
 		writeSet(typeSet, new File(CMineFixtures.GETPAPERS_TARGET, "quickscrape/types.csv"));
 	}
 	
 	@Test
-	@Ignore // LONG
+//	@Ignore
 	public void testUniquePublishers() {
-		CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160602);
+		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160602);
 		Set<String> publisherSet = cProject.extractMetadataItemSet(
 				AbstractMetadata.Type.CROSSREF, CrossrefMD.PUBLISHER_PATH);
 		LOG.debug(publisherSet.size());
@@ -134,31 +135,33 @@ public class MetadataTest {
 	
 	 * @throws IOException
 	 */
-	@Test
-	public void testGetReservedFileSpreadsheet() throws IOException {
-		CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160602SCRAPED);
-		CTreeList cTreeList = cProject.getCTreeList();
-		RectangularTable csvTable = new RectangularTable();
-		csvTable.addRow(HEADERS);
-		for (CTree cTree : cTreeList) {
-			List<String> row = new ArrayList<String>();
-			String dirString = cTree.getDirectory().toString();
-			dirString = dirString.replaceAll(".*http", "http:/");
-			dirString = HYPERLINK_0+dirString.replaceAll("_", "/")+HYPERLINK_1;
-			row.add(dirString);
-			File resultsJson = cTree.getExistingResultsJSON();
-			addFile(row, resultsJson);
-			File htmlFile = cTree.getExistingFulltextHTML();
-			addFile(row, htmlFile);
-			File pdfFile = cTree.getExistingFulltextPDF();
-			addFile(row, pdfFile);
-			File xmlFile = cTree.getExistingFulltextXML();
-			addFile(row, xmlFile);
-			addMetadata(row, resultsJson, HEADERS);
-			csvTable.addRow(row);
-		}
-		csvTable.writeCsvFile(new File(CMineFixtures.GETPAPERS_TARGET, FILES_CSV).toString());
-	}
+	// EMPTY DIRECTORY
+//	@Test
+//	public void testGetReservedFileSpreadsheet() throws IOException {
+//		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160602SCRAPED);
+//		CTreeList cTreeList = cProject.getCTreeList();
+//		Assert.assertEquals(12,  cTreeList.size());
+//		RectangularTable csvTable = new RectangularTable();
+//		csvTable.addRow(HEADERS);
+//		for (CTree cTree : cTreeList) {
+//			List<String> row = new ArrayList<String>();
+//			String dirString = cTree.getDirectory().toString();
+//			dirString = dirString.replaceAll(".*http", "http:/");
+//			dirString = HYPERLINK_0+dirString.replaceAll("_", "/")+HYPERLINK_1;
+//			row.add(dirString);
+//			File resultsJson = cTree.getExistingResultsJSON();
+//			addFile(row, resultsJson);
+//			File htmlFile = cTree.getExistingFulltextHTML();
+//			addFile(row, htmlFile);
+//			File pdfFile = cTree.getExistingFulltextPDF();
+//			addFile(row, pdfFile);
+//			File xmlFile = cTree.getExistingFulltextXML();
+//			addFile(row, xmlFile);
+//			addMetadata(row, resultsJson, HEADERS);
+//			csvTable.addRow(row);
+//		}
+//		csvTable.writeCsvFile(new File(CMineFixtures.GETPAPERS_TARGET, FILES_CSV).toString());
+//	}
 	
 	private void addMetadata(List<String> row, File resultsJson, List<String> metadataList) {
 		JsonObject element = null;
@@ -193,19 +196,20 @@ public class MetadataTest {
 	}
 
 	@Test
-	public void testMetadataValues() {
-	
-		CProject cProject = new CProject(CMineFixtures.GETPAPERS_20160602SCRAPED);
-		Multimap<CTree, File> htmlMap = cProject.extractCTreeFileMapContaining(CTree.FULLTEXT_HTML);
-		for (CTree cTree : htmlMap.keySet()) {
-			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.QUICKSCRAPE);
-			LOG.debug("MD "+metadata);
-			if (metadata != null) {
-				String urlString = metadata.getJsonMapStringByPath(CrossrefMD.TITLE_PATH);
-				LOG.debug("Arrays "+urlString);
-			}
-		}
-	}
+	// EMPTY
+//	public void testMetadataValues() {
+//	
+//		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160602SCRAPED);
+//		Multimap<CTree, File> htmlMap = cProject.extractCTreeFileMapContaining(CTree.FULLTEXT_HTML);
+//		for (CTree cTree : htmlMap.keySet()) {
+//			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.QUICKSCRAPE);
+//			LOG.debug("MD "+metadata);
+//			if (metadata != null) {
+//				String urlString = metadata.getJsonMapStringByPath(CrossrefMD.TITLE_PATH);
+//				LOG.debug("Arrays "+urlString);
+//			}
+//		}
+//	}
 
 	
 	//===============

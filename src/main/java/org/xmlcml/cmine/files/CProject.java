@@ -489,6 +489,7 @@ public class CProject extends CContainer {
 		return urls;
 	}
 
+	
 	public void extractShuffledUrlsFromCrossrefToFile(File file) throws IOException {
 		ProjectAnalyzer projectAnalyzer = this.getOrCreateProjectAnalyzer();
 		projectAnalyzer.setMetadataType(AbstractMetadata.Type.CROSSREF);
