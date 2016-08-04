@@ -1,0 +1,10 @@
+http://api.crossref.org/works?filter=from-pub-date:2015-11-24,license.url:http://creativecommons.org/licenses/by/4.0,publisher:'Elsevier BV'
+
+Elsevier BV",
+../getpapers/20160605/crossref_results.json:    "publisher": "Springer Nature",
+../getpapers/20160605/crossref_results.json:        "doi-asserted-by": "publisher",
+../getpapers/20160605/crossref_results.json:    "publisher": "Springer Nature",
+../getpapers/20160605/crossref_results.json:    "publisher": "Public Library of Science (PLoS)
+
+http://creativecommons.org/licenses/by/4.0
+

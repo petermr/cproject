@@ -1,0 +1,103 @@
+{
+  "@": [
+    {
+      "dc:contributor": "<_:Ekdmbekt5>", 
+      "@": "http://bnb.bibliographica.org/entry/GB5004827", 
+      "rdf:type": [
+        "<http://purl.org/ontology/bibo/Book>", 
+        "<http://purl.org/ontology/bibo/Document>"
+      ], 
+      "dc:title": "\"The personal history of David Copperfield\"", 
+      "dc:alternative": "\"David Copperfield\"", 
+      "dc:source": "<http://bnb.bibliographica.org/dataset/BNBrdfdc02.xml#6106>", 
+      "dc:extent": "<_:Ekdmbekt4>", 
+      "foaf:isPrimaryTopicOf": [
+        "<http://bnb.bibliographica.org/entry/GB5004827.nt>", 
+        "<http://bnb.bibliographica.org/entry/GB5004827.n3>", 
+        "<http://bnb.bibliographica.org/entry/GB5004827.rdf>", 
+        "<http://bnb.bibliographica.org/entry/GB5004827.html>"
+      ], 
+      "dc:isPartOf": "<http://bnb.bibliographica.org/dataset>", 
+      "dc:issued": "\"1950-01-01T00:00:00Z\"", 
+      "bibo:identifier": "\"GB5004827\"", 
+      "OV:blid": "\"006971327\"", 
+      "dc:language": "<_:Ekdmbekt3>", 
+      "dc:publisher": "<_:Ekdmbekt8>", 
+      "dc:subject": "<_:Ekdmbekt2>"
+    }, 
+    {
+      "@": "_:Ekdmbekt2", 
+      "rdf:type": "<http://www.w3.org/2004/02/skos/core#Concept>", 
+      "skos:notation": "\"823.8\"", 
+      "skos:inScheme": "<http://dewey.info/scheme/e18>"
+    }, 
+    {
+      "owl:sameAs": "<http://bibliographica.org/entity/661cf0156fa6469a300a3b6a108a78a9>", 
+      "@": "_:Ekdmbekt8", 
+      "rdf:type": "<http://xmlns.com/foaf/0.1/Agent>", 
+      "foaf:name": "\"Odhams P\"", 
+      "skos:notation": "\"Odhams P\""
+    }, 
+    {
+      "foaf:primaryTopic": "<http://bnb.bibliographica.org/entry/GB5004827>", 
+      "@": "http://bnb.bibliographica.org/entry/GB5004827.rdf", 
+      "rdf:type": "<http://xmlns.com/foaf/0.1/Document>"
+    }, 
+    {
+      "foaf:primaryTopic": "<http://bnb.bibliographica.org/entry/GB5004827>", 
+      "@": "http://bnb.bibliographica.org/entry/GB5004827.html", 
+      "rdf:type": "<http://xmlns.com/foaf/0.1/Document>"
+    }, 
+    {
+      "foaf:primaryTopic": "<http://bnb.bibliographica.org/entry/GB5004827>", 
+      "@": "http://bnb.bibliographica.org/entry/GB5004827.nt", 
+      "rdf:type": "<http://xmlns.com/foaf/0.1/Document>"
+    }, 
+    {
+      "bio:date": "\"1812-01-01T00:00:00Z\"", 
+      "@": "_:Ekdmbekt7", 
+      "rdf:type": "<http://purl.org/vocab/bio/0.1/Birth>"
+    }, 
+    {
+      "@": "_:Ekdmbekt4", 
+      "rdfs:label": "\"702p.,ill.,20cm\""
+    }, 
+    {
+      "bio:date": "\"1870-01-01T00:00:00Z\"", 
+      "@": "_:Ekdmbekt6", 
+      "rdf:type": "<http://purl.org/vocab/bio/0.1/Death>"
+    }, 
+    {
+      "@": "_:Ekdmbekt3", 
+      "rdf:value": "\"eng\""
+    }, 
+    {
+      "foaf:primaryTopic": "<http://bnb.bibliographica.org/entry/GB5004827>", 
+      "@": "http://bnb.bibliographica.org/entry/GB5004827.n3", 
+      "rdf:type": "<http://xmlns.com/foaf/0.1/Document>"
+    }, 
+    {
+      "@": "_:Ekdmbekt5", 
+      "rdf:type": "<http://xmlns.com/foaf/0.1/Agent>", 
+      "foaf:name": "\"Dickens, Charles\"", 
+      "bio:event": [
+        "<_:Ekdmbekt7>", 
+        "<_:Ekdmbekt6>"
+      ], 
+      "owl:sameAs": "<http://bibliographica.org/entity/e114034f9b8a29351fe94cd9ed43098d>", 
+      "skos:notation": "\"Dickens, Charles, 1812-1870\""
+    }
+  ], 
+  "#": {
+    "xml": "http://www.w3.org/XML/1998/namespace", 
+    "foaf": "http://xmlns.com/foaf/0.1/", 
+    "bibo": "http://purl.org/ontology/bibo/", 
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+    "owl": "http://www.w3.org/2002/07/owl#", 
+    "dc": "http://purl.org/dc/terms/", 
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+    "bio": "http://purl.org/vocab/bio/0.1/", 
+    "OV": "http://open.vocab.org/terms/", 
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  }
+}
