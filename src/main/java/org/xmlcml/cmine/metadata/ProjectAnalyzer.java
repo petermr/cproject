@@ -66,7 +66,7 @@ public class ProjectAnalyzer {
 			cTreeList = cProject.getCTreeList();
 			metadataList = new ArrayList<AbstractMetadata>();
 			for (CTree cTree : cTreeList) {
-				AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, sourceType);
+				AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, sourceType);
 				metadataList.add(metadata);
 			}
 		}
@@ -165,7 +165,7 @@ public class ProjectAnalyzer {
 	public void setMetadataType(Type sourceType) {
 		this.metadataList = null;
 		this.sourceType = sourceType;
-		this.jsonType = sourceType.getJsonFilename();
+		this.jsonType = sourceType.getCProjectMDFilename();
 	}
 	
 

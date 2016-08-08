@@ -23,6 +23,7 @@ public class URLShuffler {
 
 	private static final String SEP = "___"; // 
 	
+	// allows for pigeon holes larger than required. Not currently used.
 	private static int TOL = 1;
 	private List<String> urls;
 	private Multiset<String> hosts;

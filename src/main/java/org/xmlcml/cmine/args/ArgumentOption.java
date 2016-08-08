@@ -771,7 +771,9 @@ public class ArgumentOption {
 		if (classType != null && classType.isAssignableFrom(String.class)) {
 			if (pattern != null) {
 				Matcher matcher = pattern.matcher(s);
-				message = "Argument for "+verbose +" ("+s+") does not match "+pattern;
+				if (!matcher.matches()) {
+					message = "Argument for "+verbose +" ("+s+") does not match "+pattern;
+				}
 			}
 		}
 		return message;

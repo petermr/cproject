@@ -39,13 +39,13 @@ public class MetadataLongTest {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
 		int i = 1; // file number
 		CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
-		File shuffled = new File(cProject.getDirectory(), MetadataManager.SHUFFLED_URLS_TXT);
+		File shuffledUrlsOutFilename = new File(cProject.getDirectory(), MetadataManager.SHUFFLED_URLS_TXT);
 		Assert.assertEquals("filename ", 
 				"/Users/pm286/workspace/cmdev/cmine-dev/../getpapersNew/20160201-articles/shuffledUrls.txt",
-				shuffled.getAbsolutePath());
-		cProject.extractShuffledUrlsFromCrossrefToFile(shuffled);
-		Assert.assertTrue("shuffled: ", shuffled.exists());
-		List<String> lines = FileUtils.readLines(shuffled);
+				shuffledUrlsOutFilename.getAbsolutePath());
+		cProject.extractShuffledUrlsFromCrossrefToFile(shuffledUrlsOutFilename);
+		Assert.assertTrue("shuffled: ", shuffledUrlsOutFilename.exists());
+		List<String> lines = FileUtils.readLines(shuffledUrlsOutFilename);
 		Assert.assertEquals("lines "+lines.size(), 12141,  lines.size());
 		lines = lines.subList(0,  10);
 		Assert.assertEquals("lines "+lines.size(), "[http://dx.doi.org/10.1002/zoo.21264,"
@@ -102,7 +102,7 @@ public class MetadataLongTest {
 			CProject cProject = new CProject(cProjectDir);
 			CTreeList cTreeList = cProject.getCTreeList();
 			for (CTree cTree : cTreeList) {
-				AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.CROSSREF);
+				AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, AbstractMetadata.Type.CROSSREF);
 				String s = metadata == null ? "?" : metadata.getJsonStringByPath(CrossrefMD.URL_PATH);
 			}
 			

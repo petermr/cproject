@@ -29,11 +29,11 @@ public class ResultsJsonTest {
 	
 	@Test
 	public void testReadResultsJson() throws IOException {
-		File file = new File(CMineFixtures.TEST_FILES_DIR, "resultsJson");
+		File file = new File(CMineFixtures.TEST_FILES_DIR, CMineFixtures.QUICKSCRAPE_MD);
 		LOG.debug(file.getAbsolutePath());
 		CTree ctree = new CTree(file);
-		File resultsJson = ctree.getExistingResultsJSON();
-		Assert.assertNotNull("file: "+file, resultsJson);
+		File resultsJson = ctree.getExistingQuickscrapeMD();
+		Assert.assertNotNull("QMD is null: "+file, resultsJson);
 		String resultsJsonString = FileUtils.readFileToString(resultsJson);
 	    JsonParser parser = new JsonParser();
 	    JsonObject jsonObject = (JsonObject) parser.parse(resultsJsonString);
@@ -42,7 +42,7 @@ public class ResultsJsonTest {
 	
 	@Test
 	public void testReadResultsJsonKeys() throws IOException {
-		File file = new File(CMineFixtures.TEST_FILES_DIR, "resultsJson");
+		File file = new File(CMineFixtures.TEST_FILES_DIR, CMineFixtures.QUICKSCRAPE_MD);
 		Assert.assertNotNull("file "+file, file);
 		String resultsJsonString = readResultsJsonString(file);
 	    JsonParser parser = new JsonParser();
@@ -72,7 +72,7 @@ public class ResultsJsonTest {
 	private String readResultsJsonString(File file) throws IOException {
 		String resultsJsonString = null;
 		CTree ctree = new CTree(file);
-		File resultsJson = ctree.getExistingResultsJSON();
+		File resultsJson = ctree.getExistingQuickscrapeMD();
 		if (resultsJson != null) {
 			resultsJsonString = FileUtils.readFileToString(resultsJson);
 		}

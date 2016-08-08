@@ -15,6 +15,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cmine.args.FileXPathSearcher;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
+import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 import org.xmlcml.cmine.metadata.ProjectAnalyzer;
 import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.cmine.util.CMineUtil;
@@ -38,7 +39,6 @@ public class CProject extends CContainer {
 
 	public static final String PROJECT_TEMPLATE_XML = "cProjectTemplate.xml";
 	public static final String TREE_TEMPLATE_XML = "cTreeTemplate.xml";
-	public final static String EUPMC_RESULTS_JSON = "eupmc_results.json";
 	public static final String URL_LIST = "urlList.txt";
 	
 	public final static String IMAGE   = "image";
@@ -57,13 +57,26 @@ public class CProject extends CContainer {
 	
 	public static final String DATA_TABLES_HTML = "dataTables.html";
 
+	protected static final String[] ALLOWED_METADATA_NAMES = new String[] {
+			// these are messy, 
+			AbstractMetadata.Type.CROSSREF.getCProjectMDFilename(),
+			AbstractMetadata.Type.EPMC.getCProjectMDFilename(),
+			AbstractMetadata.Type.QUICKSCRAPE.getCProjectMDFilename(),
+	};
+
 	protected static final String[] ALLOWED_FILE_NAMES = new String[] {
 			
 		MANIFEST_XML,
 		LOG_XML,
-		EUPMC_RESULTS_JSON,
-		URL_LIST
+		URL_LIST,
+		
+		AbstractMetadata.Type.CROSSREF.getCProjectMDFilename(),
+		AbstractMetadata.Type.EPMC.getCProjectMDFilename(),
+		AbstractMetadata.Type.QUICKSCRAPE.getCProjectMDFilename(),
+
 	};
+	
+	
 	
 	protected static final Pattern[] ALLOWED_FILE_PATTERNS = new Pattern[] {
 	};
@@ -85,8 +98,6 @@ public class CProject extends CContainer {
 	private ProjectFilesTree projectFilesTree;
 	private ResultsElementList summaryResultsElementList;
 	private ArrayList<File> scholarlyList;
-//	private boolean shuffleUrls;
-//	private boolean pseudoHost;
 	private ProjectAnalyzer projectAnalyzer;
 	
 	public CProject(File cProjectDir) {
@@ -103,7 +114,7 @@ public class CProject extends CContainer {
 	}
 	
 	@Override
-	protected void getAllowedAndUnknownDirectories() {
+	protected void calculateFileAndCTreeLists() {
 		cTreeList = new CTreeList();
 		int i = 0;
 		for (File directory : allChildDirectoryList) {
@@ -131,11 +142,26 @@ public class CProject extends CContainer {
 				isAllowedFile(file, ALLOWED_FILE_PATTERNS) ||
 				isAllowedFileName(file, ALLOWED_FILE_NAMES) ||
 				includeAllDirectories()) {
-				allowedChildFileList.add(file);
+				if (!allowedChildFileList.contains(file)) {
+					allowedChildFileList.add(file);
+				}
 			} else {
-				unknownChildFileList.add(file);
+				if (!unknownChildFileList.contains(file)) {
+					unknownChildFileList.add(file);
+				}
 			}
 		}
+	}
+	
+	public List<File> getAllNonDirectoryFiles() {
+		getAllowedAndUnknownFiles();
+		List<File> allFiles = new ArrayList<File>(allowedChildFileList);
+		for (File file : unknownChildFileList) {
+			if (!allFiles.contains(file)) {
+				allFiles.add(file);
+			}
+		}
+		return allFiles;
 	}
 	
 	private boolean isAllowedFilename(String filename) {
@@ -384,7 +410,7 @@ public class CProject extends CContainer {
 		CTreeList cTreeList = getCTreeList();
 		Set<String> set = new HashSet<String>();
 		for (CTree cTree : cTreeList) {
-			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, sourceType);
+			AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, sourceType);
 			String typeValue = metadata.getJsonStringByPath(type);
 			set.add(typeValue);
 		}
@@ -395,7 +421,7 @@ public class CProject extends CContainer {
 		CTreeList cTreeList = getCTreeList();
 		Multimap<String, String> map = ArrayListMultimap.create();
 		for (CTree cTree : cTreeList) {
-			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, sourceType);
+			AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, sourceType);
 			if (metadata != null) {
 				String keyValue = metadata.getJsonStringByPath(key);
 				String typeValue = metadata.getJsonStringByPath(type);
@@ -497,7 +523,7 @@ public class CProject extends CContainer {
 		projectAnalyzer.setPseudoHost(true);
 		projectAnalyzer.extractURLsToFile(file);
 	}
-
+	
 	public void setProjectAnalyzer(ProjectAnalyzer projectAnalyzer) {
 		this.projectAnalyzer = projectAnalyzer;
 	}
@@ -537,5 +563,98 @@ public class CProject extends CContainer {
 		return flattenedUrls;
 	}
 
+	public File getMetadataFile(AbstractMetadata.Type type) {
+		return (directory == null) ? null : new File(this.getDirectory(), type.getCProjectMDFilename());
+	}
+
+	public File getExistingMetadataFile(AbstractMetadata.Type type) {
+		File resultsJson = getMetadataFile(type);
+		LOG.debug("results: "+resultsJson);
+		return (resultsJson == null || !resultsJson.exists()) ? null : resultsJson;
+	}
+
+	/** gets a list of all metadataTypes which have been used to create or manage the CProject.
+	 * 
+	 *  based on whether the metadata files exist
+	 * 
+	 * @return
+	 */
+	public List<AbstractMetadata.Type> getExistingMetadataTypes() {
+		List<Type> types = new ArrayList<Type>();
+		for (Type type : Type.values()) {
+			if (this.getExistingMetadataFile(type) != null) {
+				types.add(type);
+			}
+		}
+		return types;
+	}
+
+	/** merges one Cproject into another.
+	 * 
+	 * @param cProject2
+	 */
+	public void mergeProjects(CProject project2) {
+		CTreeList cTreeList2 = project2.getCTreeList();
+		copyCTrees(cTreeList2);
+		cTreeList = null;
+		copyFiles(project2);
+		resetFileLists();
+	}
+
+	private void copyFiles(CProject project2) {
+		List<File> files2 = project2.getAllNonDirectoryFiles();
+		List<File> thisFiles = this.getAllNonDirectoryFiles();
+		for (File file2 : files2) {
+			String name2 = file2.getName();
+			boolean copied = false;
+			for (File thisFile : thisFiles) {
+				if (thisFile.getName().equals(name2)) {
+					mergeOrCopy(file2, thisFile);
+					copied = true;
+					break;
+				}
+			}
+			if (!copied) {
+				try {
+					FileUtils.copyFile(file2, new File(this.directory, name2));
+				} catch (IOException e) {
+					LOG.warn("Cannot copy file: "+file2+" to directory: "+directory);
+				}
+			}
+		}
+	}
+
+	private void mergeOrCopy(File file2, File thisFile) {
+		LOG.debug("merging files not yet written: "+thisFile.getName());
+		// we will have 
+	}
+
+	private void copyCTrees(CTreeList cTreeList2) {
+		for (CTree cTree2 : cTreeList2) {
+			try {
+				this.ingestCopy(cTree2);
+			} catch (IOException ioe) {
+				LOG.warn("Cannot ingest CTree: "+cTree2);
+			}
+		}
+//		this.cTreeList = null; // reset
+	}
+
+	/** creates a copy of CTree within this.cProject.
+	 * 
+	 * @param cTree2
+	 * @throws IOException 
+	 */
+	public void ingestCopy(CTree cTree2) throws IOException {
+		getCTreeList();
+		if (!cTreeList.containsName(cTree2)) {
+			File directory2 = cTree2.getDirectory();
+			String name2 = directory2.getName();
+			File cTreeDirectory = new File(this.directory, name2);
+			FileUtils.copyDirectory(directory2, cTreeDirectory);
+			CTree thisCTree = new CTree(cTreeDirectory);
+			this.cTreeList.add(thisCTree);
+		}
+	}
 
 }

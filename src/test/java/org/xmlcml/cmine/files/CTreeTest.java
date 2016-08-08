@@ -12,6 +12,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
+import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 import org.xmlcml.cmine.util.CMineTestFixtures;
 import org.xmlcml.xml.XMLUtil;
 
@@ -298,12 +299,12 @@ public class CTreeTest {
 		LOG.debug(cProjectDir.getAbsolutePath());
 		CProject cProject = new CProject(cProjectDir);
 		Assert.assertEquals(37, cProject.getCTreeList().size());
-		CTreeExplorer explorer = new CTreeExplorer().setFilename(CTree.RESULTS_JSON);
+		CTreeExplorer explorer = new CTreeExplorer().setFilename(Type.QUICKSCRAPE.getCTreeMDFilename());
 		CTreeList cTreeList = cProject.getCTreeList(explorer);
 		Assert.assertEquals(29, cTreeList.size());
-		CTreeList epmc = cProject.getCTreeList(new CTreeExplorer().setFilename(CTree.EUPMC_RESULT_JSON));
+		CTreeList epmc = cProject.getCTreeList(new CTreeExplorer().setFilename(Type.EPMC.getCTreeMDFilename()));
 		Assert.assertEquals(4, epmc.size());
-		Assert.assertEquals(29, cProject.getCTreeList(new CTreeExplorer().setFilename(CTree.RESULTS_JSON)).size());
+		Assert.assertEquals(29, cProject.getCTreeList(new CTreeExplorer().setFilename(Type.QUICKSCRAPE.getCTreeMDFilename())).size());
 		Assert.assertEquals(3, cProject.getCTreeList(new CTreeExplorer().setFilename(CTree.FULLTEXT_PDF)).size());
 		CTreeList xml = cProject.getCTreeList(new CTreeExplorer().setFilename(CTree.FULLTEXT_XML));
 		Assert.assertEquals(5, xml.size());

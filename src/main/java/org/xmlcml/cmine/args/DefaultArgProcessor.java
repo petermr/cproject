@@ -183,7 +183,7 @@ public class DefaultArgProcessor {
 	private String filterExpression;
 	private File outputFile;
 	public String outputDirName;
-	CProject cProject;
+	protected CProject cProject;
 	
 	private ProjectSnippetsTree projectSnippetsTree;
 	private ProjectFilesTree projectFilesTree;

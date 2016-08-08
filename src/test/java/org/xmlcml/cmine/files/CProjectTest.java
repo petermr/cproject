@@ -13,7 +13,9 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
+import org.xmlcml.cmine.metadata.AbstractMetadata;
 import org.xmlcml.cmine.util.CMineTestFixtures;
+import org.xmlcml.cmine.util.Utils;
 import org.xmlcml.html.HtmlElement;
 
 import nu.xom.Element;
@@ -518,7 +520,67 @@ project2
 //		}
 	}
 	
+	/** TEST METADATA FILES.
+	 * 
+	 * @throws IOException
+	 */
+	@Test 
+	public void testMetadataFiles() {
+		CProject project = new CProject(new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/"));
+		List<AbstractMetadata.Type> types = project.getExistingMetadataTypes();
+		Assert.assertEquals("[EPMC]", types.toString());
+		LOG.debug(types);
+		
+	}
 
+	/** MERGE PROJECTS.
+	 * 
+	 * @throws IOException
+	 */
+	@Test 
+	public void testMergeProjects() {
+		File project1Dir = new File(CMineFixtures.TEST_PROJECTS_DIR, "project1/");
+		File project2Dir = new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/");
+		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "project1/");
+		File target2Dir = new File(CMineFixtures.GETPAPERS_TARGET, "project2/");
+		CMineTestFixtures.cleanAndCopyDir(project1Dir, target1Dir);
+		CMineTestFixtures.cleanAndCopyDir(project2Dir, target2Dir);
+		CProject project1 = new CProject(target1Dir);
+		CProject project2 = new CProject(target2Dir);
+		Assert.assertEquals("ctree1", 2, project1.getCTreeList().size());
+		Assert.assertEquals("ctree2", 3, project2.getCTreeList().size());
+		project1.mergeProjects(project2);
+		project2 = new CProject(target2Dir);
+		Assert.assertEquals("ctree1", 5, project1.getCTreeList().size());
+		Assert.assertEquals("ctree2", 3, project2.getCTreeList().size());
+	}
+	
+	/** NORMALIZE DOI NAMES
+	 * 
+	 * @throws IOException
+	 */
+	@Test 
+	public void testNormalizeDOIBasedNames() {
+		File project1Dir = new File(CMineFixtures.TEST_PROJECTS_DIR, "doiNames/");
+		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "doiNames/");
+		CMineTestFixtures.cleanAndCopyDir(project1Dir, target1Dir);
+		CProject project1 = new CProject(target1Dir);
+		CTreeList cTreeList = project1.getCTreeList();
+		Assert.assertEquals("unnormalized ", "["
+				+ "target/getpapers/doiNames/http_dx.doi.org_10.1088_1757-899x_106_1_012037,"
+				+ " target/getpapers/doiNames/http_dx.doi.org_10.1088_1757-899x_106_1_012038,"
+				+ " target/getpapers/doiNames/http_dx.doi.org_10.1103_p", 
+				Utils.truncate(cTreeList.toString(), 0, 200));
+		project1.normalizeDOIBasedDirectoryCTrees();
+		Assert.assertEquals("normalized ", "["
+				+ "target/getpapers/doiNames/10.1088_1757-899x_106_1_012037,"
+				+ " target/getpapers/doiNames/10.1088_1757-899x_106_1_012038,"
+				+ " target/getpapers/doiNames/10.1103_physrevb.93.075101,"
+				+ " target/getpapers/doiNames/10.",
+				Utils.truncate(cTreeList.toString(), 0, 200));
+	}
+	
+	
 
 	//==================================
 	

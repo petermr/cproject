@@ -56,7 +56,7 @@ public class AbstractMDAnalyzer {
 	 * @return
 	 */
 	public Map<CTree, AbstractMetadata> getOrCreateMetadataMapByCTreeMap(AbstractMetadata.Type type) {
-		getOrCreateCTreeFileMap(type.getJsonFilename());
+		getOrCreateCTreeFileMap(type.getCTreeMDFilename());
 		metadataByCTreeMap = new HashMap<CTree, AbstractMetadata>();
 		for (CTree cTree : reservedFileByCTree.keySet()) {
 			AbstractMetadata metadata = cTree.getOrCreateMetadata(type);
@@ -145,61 +145,62 @@ public class AbstractMDAnalyzer {
 	private String getStringValue(String header) {
 		currentMetadata = metadataByCTreeMap.get(currentCTree);
 		String value = "";
-		if (header == AbstractMetadata.URL) {
+		if (header == null) {
+		} else if (header.equals(AbstractMetadata.HEAD_URL)) {
 		    value = currentMetadata.getURL();
-		} else if (header == AbstractMetadata.TITLE) {
+		} else if (header.equals(AbstractMetadata.HEAD_TITLE)) {
 		    value = currentMetadata.getTitle();
-		} else if (header == AbstractMetadata.DATE) {
+		} else if (header.equals(AbstractMetadata.HEAD_DATE)) {
 			value = currentMetadata.getDate();
-		} else if (header == AbstractMetadata.PDFURL) {
+		} else if (header.equals(AbstractMetadata.HEAD_PDFURL)) {
 		    value = currentMetadata.getFulltextPDFURL();
-		} else if (header == AbstractMetadata.DOWNLOADED_PDF) {
+		} else if (header.equals(AbstractMetadata.HEAD_DOWNLOADED_PDF)) {
 		    value = currentMetadata.hasDownloadedFulltextPDF();
-		} else if (header == AbstractMetadata.HTMLURL) {
+		} else if (header.equals(AbstractMetadata.HEAD_HTMLURL)) {
 		    value = currentMetadata.getFulltextHTMLURL();
-		} else if (header == AbstractMetadata.DOWNLOADED_HTML) {
+		} else if (header.equals(AbstractMetadata.HEAD_DOWNLOADED_HTML)) {
 		    value = currentMetadata.hasDownloadedFulltextHTML();
-		} else if (header == AbstractMetadata.XMLURL) {
+		} else if (header.equals(AbstractMetadata.HEAD_XMLURL)) {
 		    value = currentMetadata.getFulltextXMLURL();
-		} else if (header == AbstractMetadata.DOWNLOADED_XML) {
+		} else if (header.equals(AbstractMetadata.HEAD_DOWNLOADED_XML)) {
 		    value = currentMetadata.hasDownloadedFulltextXML();
-		} else if (header == AbstractMetadata.DOI) {
+		} else if (header.equals(AbstractMetadata.HEAD_DOI)) {
 		    value = currentMetadata.getDOI();
-		} else if (header == AbstractMetadata.VOLUME) {
+		} else if (header.equals(AbstractMetadata.HEAD_VOLUME)) {
 		    value = currentMetadata.getVolume();
-		} else if (header == AbstractMetadata.AUTHOR_LIST) {
+		} else if (header.equals(AbstractMetadata.HEAD_AUTHOR_LIST)) {
 		    value = currentMetadata.getAuthorListAsStrings().toString();
-		} else if (header == AbstractMetadata.TYPE) {
+		} else if (header.equals(AbstractMetadata.HEAD_TYPE)) {
 		    value = currentMetadata.getType();
-		} else if (header == AbstractMetadata.ISSUE) {
+		} else if (header.equals(AbstractMetadata.HEAD_ISSUE)) {
 		    value = currentMetadata.getIssue();
-		} else if (header == AbstractMetadata.FIRST_PAGE) {
+		} else if (header.equals(AbstractMetadata.HEAD_FIRST_PAGE)) {
 		    value = currentMetadata.getFirstPage();
-		} else if (header == AbstractMetadata.DESCRIPTION) {
+		} else if (header.equals(AbstractMetadata.HEAD_DESCRIPTION)) {
 		    value = currentMetadata.getDescription();
-		} else if (header == AbstractMetadata.ABSTRACT) {
+		} else if (header.equals(AbstractMetadata.HEAD_ABSTRACT)) {
 		    value = currentMetadata.getAbstract();
-		} else if (header == AbstractMetadata.JOURNAL) {
+		} else if (header.equals(AbstractMetadata.HEAD_JOURNAL)) {
 		    value = currentMetadata.getJournal();
-		} else if (header == AbstractMetadata.LINKS) {
+		} else if (header.equals(AbstractMetadata.HEAD_LINKS)) {
 		    value = currentMetadata.getLinks();
-		} else if (header == AbstractMetadata.COPYRIGHT) {
+		} else if (header.equals(AbstractMetadata.HEAD_COPYRIGHT)) {
 		    value = currentMetadata.getCopyright();
-		} else if (header == AbstractMetadata.ISSN) {
+		} else if (header.equals(AbstractMetadata.HEAD_ISSN)) {
 		    value = currentMetadata.getISSN();
-		} else if (header == AbstractMetadata.QUICKSCRAPE_MD) {
+		} else if (header.equals(AbstractMetadata.HEAD_QUICKSCRAPE_MD)) {
 			value = currentMetadata.hasQuickscrapeMetadata();
-		} else if (header == AbstractMetadata.CROSSREF_MD) {
+		} else if (header.equals(AbstractMetadata.HEAD_CROSSREF_MD)) {
 		    value = currentMetadata.hasCrossrefMetadata();
-		} else if (header == AbstractMetadata.PUBLISHER_MD) {
+		} else if (header.equals(AbstractMetadata.HEAD_PUBLISHER_MD)) {
 		    value = currentMetadata.hasPublisherMetadata();
-		} else if (header == AbstractMetadata.LICENSE) {
+		} else if (header.equals(AbstractMetadata.HEAD_LICENSE)) {
 		    value = currentMetadata.getLicense();
-		} else if (header == AbstractMetadata.PUBLISHER) {
+		} else if (header.equals(AbstractMetadata.HEAD_PUBLISHER)) {
 			value = currentMetadata.getPublisher();
-		} else if (header == AbstractMetadata.KEYWORDS) {
+		} else if (header.equals(AbstractMetadata.HEAD_KEYWORDS)) {
 			value = currentMetadata.getKeywords();
-		} else if (header == AbstractMetadata.PREFIX) {
+		} else if (header.equals(AbstractMetadata.HEAD_PREFIX)) {
 			value = currentMetadata.getPrefix();
 		}
 		return value;
@@ -213,13 +214,13 @@ public class AbstractMDAnalyzer {
 		}
 		String value = "";
 		if (header == null) {
-		} else if (header == AbstractMetadata.LICENSE) {
+		} else if (header.equals(AbstractMetadata.HEAD_LICENSE)) {
 		    value = addString(currentMetadata.getLicense(), metadataObjects.getLicenseSet());
-		} else if (header == AbstractMetadata.PUBLISHER) {
+		} else if (header.equals(AbstractMetadata.HEAD_PUBLISHER)) {
 			value = addString(currentMetadata.getPublisher(), metadataObjects.getPublisherMultiset());
-		} else if (header == AbstractMetadata.KEYWORDS) {
+		} else if (header.equals(AbstractMetadata.HEAD_KEYWORDS)) {
 			value = addString(currentMetadata.getKeywords(), metadataObjects.getKeywordSet());
-		} else if (header == AbstractMetadata.PREFIX) {
+		} else if (header.equals(AbstractMetadata.HEAD_PREFIX)) {
 			value = addString(currentMetadata.getPrefix(), metadataObjects.getPrefixSet());
 		}
 	}
@@ -293,10 +294,10 @@ public class AbstractMDAnalyzer {
 		for (CTree cTree : cTreeList) {
 			this.currentCTree = cTree;
 			currentMetadata = metadataByCTreeMap.get(currentCTree);
-		    addToMultiset(AbstractMetadata.PUBLISHER);
-		    addToMultiset(AbstractMetadata.LICENSE);
-		    addToMultiset(AbstractMetadata.KEYWORDS);
-		    addToMultiset(AbstractMetadata.PREFIX);
+		    addToMultiset(AbstractMetadata.HEAD_PUBLISHER);
+		    addToMultiset(AbstractMetadata.HEAD_LICENSE);
+		    addToMultiset(AbstractMetadata.HEAD_KEYWORDS);
+		    addToMultiset(AbstractMetadata.HEAD_PREFIX);
 		}
 	}
 

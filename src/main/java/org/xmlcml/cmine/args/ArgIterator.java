@@ -32,7 +32,7 @@ public class ArgIterator {
 	private final static char MINUS = '-';
 	
 	private ListIterator<String> listIterator;
-	private RealArray doubleArray;
+//	private RealArray doubleArray;
 	
 	public ArgIterator(ListIterator<String> listIterator) {
 		this.listIterator = listIterator;

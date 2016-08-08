@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cmine.CMineFixtures;
+import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 
 public class CContainerTest {
 
@@ -18,7 +19,7 @@ public class CContainerTest {
 	@Test
 	public void testGetAllowedChildFile() {
 		CContainer cProject = new CProject(new File(CMineFixtures.TEST_PROJECTS_DIR, "project3"));
-		File file = cProject.getAllowedChildFile(CProject.EUPMC_RESULTS_JSON);
+		File file = cProject.getAllowedChildFile(Type.EPMC.getCProjectMDFilename());
 		Assert.assertNotNull("eupmc not null", file);
 		Assert.assertNotNull("log not null", cProject.getAllowedChildFile(CContainer.LOG_XML));
 		Assert.assertNull("unknown null", cProject.getUnknownChildFile("unknown.txt"));

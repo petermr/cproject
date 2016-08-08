@@ -35,7 +35,7 @@ public class QuickscrapeLongTest {
 
 	@Test
 		// SHOWCASE
-//	@Ignore // until we have some HTML files
+	@Ignore // until we have some HTML files
 		public void testCreateWriteQuickscrapeCSV() throws IOException {
 //		LOG.debug("file: "+CMineFixtures.GETPAPERS_SRC_20160601SCRAPED);
 //		AbstractMDAnalyzer quickscrapeAnalyzer = new QuickscrapeAnalyzer(new CProject(CMineFixtures.GETPAPERS_SRC_20160601SCRAPED));

@@ -134,11 +134,13 @@ public class CTreeList implements Iterable<CTree> {
 	 * @return
 	 */
 	public List<File> getCTreeDirectoryList() {
-		Collections.sort(cTreeList);
 		List<File> directoryList = new ArrayList<File>();
-		for (CTree cTree : cTreeList) {
-			File directory = cTree.getDirectory();
-			directoryList.add(directory);
+		if (cTreeList != null) {
+			Collections.sort(cTreeList);
+			for (CTree cTree : cTreeList) {
+				File directory = cTree.getDirectory();
+				directoryList.add(directory);
+			}
 		}
 		return directoryList;
 	}
@@ -149,4 +151,34 @@ public class CTreeList implements Iterable<CTree> {
 		}
 	}
 
+	/** does this cTreeList contain a directory of the same name as cTree2
+	 * 
+	 * @param cTree2
+	 * @return
+	 */
+	public boolean containsName(CTree cTree2) {
+		String name2 = cTree2 == null ? null : cTree2.getDirectory().getName();
+		return this.containsName(name2);
+	}
+
+	/** does this cTreeList contain a directory of the same name as name
+	 * 
+	 * @param cTree2
+	 * @return
+	 */
+	public boolean containsName(String name) {
+		if (name != null) {
+			for (CTree cTree : cTreeList) {
+				if (name.equals(cTree.getDirectory().getName())) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
+	@Override
+	public String toString() {
+		return getCTreeDirectoryList().toString();
+	}
 }

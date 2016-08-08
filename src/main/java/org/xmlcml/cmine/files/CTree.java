@@ -21,6 +21,7 @@ import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
+import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
 import org.xmlcml.cmine.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cmine.util.CMineGlobber;
@@ -161,7 +162,6 @@ public class CTree extends CContainer implements Comparable<CTree> {
 
 	public static final String ABSTRACT  = "abstract";
 	public static final String CROSSREF  = "crossref";
-	public static final String EUPMC     = "eupmc";
 	public static final String EMPTY     = "empty";
 	public static final String FULLTEXT  = "fulltext";
 	public static final String LOG1      = "log";
@@ -184,20 +184,19 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	public static final String HOCR_SVG           = HOCR+DOT+SVG;
 	public static final String LOGFILE            = LOG1+DOT+XML;
 	public static final String PNG_HOCR_SVG       = PNG+DOT+HOCR+DOT+SVG;
-	public static final String RESULTS_JSON       = RESULTS+DOT+JSON;
-	private static final String RESULT_JSON0        = RESULT+DOT+JSON;
-	public static final String EUPMC_RESULT_JSON  = EUPMC+"_"+RESULT_JSON0;
 	public static final String RESULTS_XML        = RESULTS+DOT+XML;
 	public static final String RESULTS_HTML       = RESULTS+DOT+HTML;
 	public static final String SCHOLARLY_HTML     = SCHOLARLY+DOT+HTML;
-	public static final String CROSSREF_RESULT_JSON = CROSSREF+"_"+ RESULT+DOT+JSON;
-
+	
 	public final static List<String> RESERVED_FILE_NAMES;
 	static {
 			RESERVED_FILE_NAMES = Arrays.asList(new String[] {
 					ABSTRACT_HTML,
-					CROSSREF_RESULT_JSON,
-					EUPMC_RESULT_JSON,
+					
+					AbstractMetadata.Type.CROSSREF.getCTreeMDFilename(),
+					AbstractMetadata.Type.EPMC.getCTreeMDFilename(),
+					AbstractMetadata.Type.QUICKSCRAPE.getCTreeMDFilename(),
+					
 					FULLTEXT_DOCX,
 					FULLTEXT_HTML,
 					FULLTEXT_PDF,
@@ -207,9 +206,6 @@ public class CTree extends CContainer implements Comparable<CTree> {
 					FULLTEXT_XHTML,
 					FULLTEXT_XML,
 					LOGFILE,
-					QuickscrapeMD.RESULTS_JSON,
-//					RESULT_JSON,
-					RESULTS_JSON,
 					RESULTS_XML,
 					SCHOLARLY_HTML
 			});
@@ -281,16 +277,16 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	public final static String SUPP_DATA = "suppData";
 	
 	public final static Pattern FULLTEXT_STAR = Pattern.compile("fulltext.*");
-	public final static Pattern STAR_RESULT_JSON = Pattern.compile(".*result\\.json");
+	// messy
+	public final static Pattern STAR_RESULT_JSON = Pattern.compile(".*results?\\.json");
 	
 	protected static final String[] ALLOWED_FILE_NAMES = new String[] {
 		LOG_XML,
 		MANIFEST_XML,
-		QuickscrapeMD.RESULTS_JSON,
 		SCHOLARLY_HTML,
-//		RESULT_JSON,
-		RESULTS_JSON,
-		CrossrefMD.RESULT_JSON,
+		AbstractMetadata.Type.CROSSREF.getCTreeMDFilename(),
+		AbstractMetadata.Type.EPMC.getCTreeMDFilename(),
+		AbstractMetadata.Type.QUICKSCRAPE.getCTreeMDFilename(),
 	};
 	
 	protected static final Pattern[] ALLOWED_FILE_PATTERNS = new Pattern[] {
@@ -498,7 +494,7 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	}
 
 	private void checkRequiredCMFiles() {
-		requireExistingNonEmptyFile(new File(directory, QuickscrapeMD.RESULTS_JSON));
+		requireExistingNonEmptyFile(new File(directory, Type.QUICKSCRAPE.getCTreeMDFilename()));
 	}
 
 	public static boolean isExistingFile(File file) {
@@ -606,26 +602,26 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	}
 
 	// ---
-	public boolean hasResultsJSON() {
-		return isExistingFile(new File(directory, QuickscrapeMD.RESULTS_JSON));
+	public boolean hasQuickscrapeMD() {
+		return isExistingFile(new File(directory,  Type.QUICKSCRAPE.getCTreeMDFilename()));
 	}
 	
 	/**
 	 * checks that CTree exists and has child fulltext.xml
 	 * 
 	 * @param ctree
-	 * @return true if ctree exists and has child fulltext.xml
+	 * @return true if ctree exists and has child metadata
 	 */
-	public static File getExistingResultsJSON(CTree ctree) {
-		return (ctree == null) ? null : ctree.getExistingResultsJSON();
+	public static File getExistingQuickscrapeMD(CTree ctree) {
+		return (ctree == null) ? null : ctree.getExistingQuickscrapeMD();
 	}
 	
-	public static File getExistingResultsJSON(File ctreeFile) {
-		return new CTree(ctreeFile).getExistingResultsJSON();
+	public static File getExistingQuickscrapeMD(File ctreeFile) {
+		return new CTree(ctreeFile).getExistingQuickscrapeMD();
 	}
 
-	public File getExistingResultsJSON() {
-		return getExistingReservedFile(QuickscrapeMD.RESULTS_JSON);
+	public File getExistingQuickscrapeMD() {
+		return getExistingReservedFile( Type.QUICKSCRAPE.getCTreeMDFilename());
 	}
 
 	// ---
@@ -1104,7 +1100,7 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	}
 
 	@Override
-	protected void getAllowedAndUnknownDirectories() {
+	protected void calculateFileAndCTreeLists() {
 		for (File directory : allChildDirectoryList) {
 			if (false) {
 			} else if (
@@ -1232,7 +1228,7 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	public AbstractMetadata getOrCreateMetadata(AbstractMetadata.Type type) {
 		AbstractMetadata metadata = null;
 		if (type != null) {
-			metadata = AbstractMetadata.getMetadata(this, type);
+			metadata = AbstractMetadata.getCTreeMetadata(this, type);
 		}
 		return metadata;
 	}

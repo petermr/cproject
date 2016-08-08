@@ -18,6 +18,7 @@ import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeList;
 import org.xmlcml.cmine.metadata.AbstractMDAnalyzer;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
+import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
 import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.RectangularTable;
@@ -54,7 +55,7 @@ public class QuickscrapeMDTest {
 	private static List<String> HEADERS = new ArrayList<String>();
 	static {
 		HEADERS.add("file");
-		HEADERS.add(QuickscrapeMD.RESULTS_JSON);
+		HEADERS.add( Type.QUICKSCRAPE.getCTreeMDFilename());
 		HEADERS.add(CTree.FULLTEXT_HTML);
 		HEADERS.add(CTree.FULLTEXT_PDF);
 		HEADERS.add(CTree.FULLTEXT_XML);
@@ -75,7 +76,7 @@ public class QuickscrapeMDTest {
 		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160601);
 		CTreeList cTreeList = cProject.getCTreeList();
 		for (CTree cTree : cTreeList) {
-			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.CROSSREF);
+			AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, AbstractMetadata.Type.CROSSREF);
 			String s = metadata.getJsonStringByPath(CrossrefMD.URL_PATH);
 //			LOG.debug(s);
 		}
@@ -124,7 +125,7 @@ public class QuickscrapeMDTest {
 			CProject cProject = new CProject(cProjectDir);
 			CTreeList cTreeList = cProject.getCTreeList();
 			for (CTree cTree : cTreeList) {
-				AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.CROSSREF);
+				AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, AbstractMetadata.Type.CROSSREF);
 				String publisher = metadata.getJsonStringByPath(CrossrefMD.PUBLISHER_PATH);
 				publisher = publisher.replaceAll("\\s+", " ");
 				publisherSet.add(publisher);
@@ -167,7 +168,7 @@ public class QuickscrapeMDTest {
 			dirString = dirString.replaceAll(".*http", "http:/");
 			dirString = HYPERLINK_0+dirString.replaceAll("_", "/")+HYPERLINK_1;
 			row.add(dirString);
-			File resultsJson = cTree.getExistingResultsJSON();
+			File resultsJson = cTree.getExistingQuickscrapeMD();
 			addFile(row, resultsJson);
 			File htmlFile = cTree.getExistingFulltextHTML();
 			addFile(row, htmlFile);
@@ -295,7 +296,7 @@ public class QuickscrapeMDTest {
 	
 	//===============
 
-	private void writeSet(Multiset<String> set, File file) throws IOException {
+	public void writeSet(Multiset<String> set, File file) throws IOException {
 		List<Multiset.Entry<String>> entries = CMineUtil.getEntryListSortedByCount(set);
 		RectangularTable csvTable = new RectangularTable();
 		for (Multiset.Entry<String> entry : entries) {

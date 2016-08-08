@@ -36,9 +36,9 @@ public class CrossrefMD extends AbstractMetadata {
 	/** this is a mess. the original name was too general.
 	 * 
 	 */
-	public static final String CROSSREF_RESULT_JSON = "crossref_result.json";
-	public static final String RESULT_JSON = "result.json";
-
+	private static final String CTREE_RESULT_JSON = "crossref_result.json";
+	private static final String CPROJECT_RESULT_JSON = "crossref_results.json";
+	
 	public static final String AUTHOR = "author";
 	public static final String CHAIR = "chair";
 	public static final String CLINICAL_TRIAL_NUMBER = "clinical-trial-number";
@@ -646,6 +646,16 @@ public class CrossrefMD extends AbstractMetadata {
 		s += " linkList: "+linkList+"\n";
 		s += " dateTime: "+dateTime+"\n";
 		return s;
+	}
+
+	@Override
+	protected String getCTreeMetadataFilename() {
+		return CTREE_RESULT_JSON;
+	}
+
+	@Override
+	protected String getCProjectMetadataFilename() {
+		return CPROJECT_RESULT_JSON;
 	}
 
 

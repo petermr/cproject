@@ -16,6 +16,7 @@ import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.files.CProject;
 import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.cmine.files.CTreeList;
+import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
 import org.xmlcml.cmine.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cmine.util.CMineUtil;
@@ -44,14 +45,12 @@ public class MetadataTest {
 	private static final String HYPERLINK_1 = "\")";
 	private static final String HYPERLINK_0 = "=HYPERLINK(\"";
 	
-//	public static File GETPAPERS_20160602 = new File("../getpapers/20160602");
-//	public static File GETPAPERS_20160602SCRAPED = new File("../getpapers/20160602scraped");
 	private static final String FILES_CSV = "files.csv";
 
 	private static List<String> HEADERS = new ArrayList<String>();
 	static {
 		HEADERS.add("file");
-		HEADERS.add(QuickscrapeMD.RESULTS_JSON);
+		HEADERS.add( Type.QUICKSCRAPE.getCTreeMDFilename());
 		HEADERS.add(CTree.FULLTEXT_HTML);
 		HEADERS.add(CTree.FULLTEXT_PDF);
 		HEADERS.add(CTree.FULLTEXT_XML);
@@ -72,6 +71,7 @@ public class MetadataTest {
 		CTreeList cTreeList = cProject.getCTreeList();
 		CrossrefMD.createCrossrefSpreadsheet(cTreeList, new File(CMineFixtures.GETPAPERS_TARGET, "2016060"+day+"/crossRef.csv"));
 	}
+	
 	
 	/** find metadata
 	 * @throws IOException 
@@ -104,7 +104,7 @@ public class MetadataTest {
 		CProject cProject = new CProject(cProjectDir);
 		CTreeList cTreeList = cProject.getCTreeList();
 		for (CTree cTree : cTreeList) {
-			AbstractMetadata metadata = AbstractMetadata.getMetadata(cTree, AbstractMetadata.Type.CROSSREF);
+			AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, AbstractMetadata.Type.CROSSREF);
 			if (metadata != null) {
 				String publisher = metadata.getJsonStringByPath(CrossrefMD.PUBLISHER_PATH);
 				publisher = publisher.replaceAll("\\s+", " ");
@@ -195,7 +195,7 @@ public class MetadataTest {
 		row.add(file == null ? "" : "Y");
 	}
 
-	@Test
+//	@Test
 	// EMPTY
 //	public void testMetadataValues() {
 //	

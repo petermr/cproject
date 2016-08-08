@@ -1,0 +1,47 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://www.hydrol-earth-syst-sci.net/20/555/2016/hess-20-555-2016.pdf"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "Joint inference of groundwater&ndash;recharge and hydraulic&ndash;conductivity fields from head data using the ensemble Kalman filter"
+    ]
+  },
+  "author": {
+    "value": [
+      "Erdal, D.",
+      "Cirpka, O. A."
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "doi:10.5194/hess-20-555-2016"
+    ]
+  },
+  "volume": {
+    "value": [
+      "20"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "555"
+    ]
+  },
+  "description": {
+    "value": []
+  }
+}

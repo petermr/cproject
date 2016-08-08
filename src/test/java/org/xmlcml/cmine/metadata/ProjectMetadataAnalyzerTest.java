@@ -46,6 +46,7 @@ public class ProjectMetadataAnalyzerTest {
 	@Test
 	public void testExtractKeys() throws IOException {
 		File cProjectDir = new File(CMineFixtures.GETPAPERS_SRC, "20160601");
+		LOG.debug(cProjectDir);
 		CProject cProject = new CProject(cProjectDir);
 		ProjectAnalyzer projectAnalyzer = cProject.getOrCreateProjectAnalyzer();
 		projectAnalyzer.setMetadataType(AbstractMetadata.Type.CROSSREF);

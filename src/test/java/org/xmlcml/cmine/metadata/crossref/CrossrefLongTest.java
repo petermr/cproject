@@ -6,8 +6,11 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
@@ -74,20 +77,40 @@ public class CrossrefLongTest {
 	// NOT finished
 	public void testGetMetadata() throws IOException {
 		AbstractMDAnalyzer crossrefAnalyzer = new CrossrefAnalyzer(CMineFixtures.GETPAPERS_SRC_20160601);
+		
 		Map<CTree, AbstractMetadata> metadataByCTree = crossrefAnalyzer.getOrCreateMetadataMapByCTreeMap(AbstractMetadata.Type.CROSSREF);
-		Map.Entry<CTree, AbstractMetadata> entry0 = metadataByCTree.entrySet().iterator().next();
-		Assert.assertNotNull(entry0);
-		Assert.assertEquals("dir: src/test/resources/org/xmlcml/getpapers/20160601/10.1002adfm.201600856\n"
-		+"src/test/resources/org/xmlcml/getpapers/20160601/10.1002adfm.201600856/crossref_result.json\n"
+//		Iterator<Map.Entry<CTree,AbstractMetadata>> iterator = metadataByCTree.entrySet().iterator();
+//		Assert.assertTrue("has next ", iterator.hasNext());
+//		Map.Entry<CTree, AbstractMetadata> entry0 = metadataByCTree.entrySet().iterator().next();
+//		Assert.assertEquals(20, metadataByCTree.entrySet().size());
+		List<String> rowList = CMineFixtures.createSortedStringList(metadataByCTree);
+//		Assert.assertEquals("dir: src/test/resources/org/xmlcml/getpapers/20160601/10.1002adhm.201600114\n"
+//		+"src/test/resources/org/xmlcml/getpapers/20160601/10.1002adhm.201600114/crossref_result.json\n"
+//		+"=funderList: 2: [31070855 National Natural Science Foundation of China 10.13039/501100001809, KM2016100250017 Scientific Research Common Program of the Beijing Municipal Commission of Education]\n"
+//		+" licenseList: 2: [http://doi.wiley.com/10.1002/tdm_license_1, http://onlinelibrary.wiley.com/termsAndConditions]\n"
+//		+" linkList: 1: [application/pdf http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fadhm.201600114]\n"
+//		+" dateTime: 2016-06-01T11:39:23Z\n"
+//		,
+//		rowList.get(0).toString());
+		
+		Assert.assertEquals("row0",""
+		+"dir: src/test/resources/org/xmlcml/getpapers/20160601/10.1001jama.2016.7992\n"
+		+"src/test/resources/org/xmlcml/getpapers/20160601/10.1001jama.2016.7992/crossref_result.json\n"
 		+"=funderList: 0: []\n"
-		+" licenseList: 2: [http://doi.wiley.com/10.1002/tdm_license_1, http://onlinelibrary.wiley.com/termsAndConditions]\n"
-		+" linkList: 1: [application/pdf http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fadfm.201600856]\n"
-		+" dateTime: 2016-06-01T06:02:53Z\n"
-		,
-		entry0.toString());
-		for (Map.Entry<CTree, AbstractMetadata> entry : metadataByCTree.entrySet()) {
-			LOG.debug(entry);
-		}
+		+" licenseList: 0: []\n"
+		+" linkList: 0: []\n"
+		+" dateTime: 2016-06-01T23:24:00Z\n",
+		rowList.get(0).toString());
+		
+		Assert.assertEquals("row1",""
+				+"dir: src/test/resources/org/xmlcml/getpapers/20160601/10.1002ab.21660\n"
+				+"src/test/resources/org/xmlcml/getpapers/20160601/10.1002ab.21660/crossref_result.json\n"
+				+"=funderList: 0: []\n"
+				+" licenseList: 2: [http://doi.wiley.com/10.1002/tdm_license_1, http://onlinelibrary.wiley.com/termsAndConditions]\n"
+				+" linkList: 1: [application/pdf http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fab.21660]\n"
+				+" dateTime: 2016-06-01T04:27:39Z\n",
+		rowList.get(1).toString());
+		
 	}
 
 	/** CREATE CSV FILE FROM CPROJECT
@@ -106,13 +129,13 @@ public class CrossrefLongTest {
 	public void testReadProjectAndWriteCSV() throws IOException {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
 		List<String> headers = new ArrayList<String>(Arrays.asList(new String[] {
-				AbstractMetadata.LICENSE,
-				AbstractMetadata.TITLE,
-				AbstractMetadata.DOI,
-				AbstractMetadata.PUBLISHER,
-				AbstractMetadata.PREFIX,
-				AbstractMetadata.DATE,
-				AbstractMetadata.KEYWORDS,
+				AbstractMetadata.HEAD_LICENSE,
+				AbstractMetadata.HEAD_TITLE,
+				AbstractMetadata.HEAD_DOI,
+				AbstractMetadata.HEAD_PUBLISHER,
+				AbstractMetadata.HEAD_PREFIX,
+				AbstractMetadata.HEAD_DATE,
+				AbstractMetadata.HEAD_KEYWORDS,
 		}));
 		int i = 1;
 		MetadataObjects allMetadataObjects = new MetadataObjects();
@@ -154,7 +177,7 @@ public class CrossrefLongTest {
 		AbstractMDAnalyzer crossrefAnalyzer = new CrossrefAnalyzer(cProject);
 		crossrefAnalyzer.addRowsToTable(headers, AbstractMetadata.Type.CROSSREF);
 		File csvFile= new File(CMineFixtures.GETPAPERS_TARGET, "crossref/common.csv");
-		FileUtils.forceDelete(csvFile);
+		FileUtils.deleteQuietly(csvFile);
 		crossrefAnalyzer.writeCsvFile(csvFile);
 		Assert.assertTrue(csvFile.exists());
 		// check file

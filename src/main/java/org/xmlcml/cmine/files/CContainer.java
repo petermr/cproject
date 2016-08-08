@@ -156,12 +156,12 @@ public abstract class CContainer {
 			getTreesAndDirectories();
 			makeLists();
 			getOrCreateChildDirectoryAndChildFileList();
-			getAllowedAndUnknownDirectories();
+			calculateFileAndCTreeLists();
 			getAllowedAndUnknownFiles();
 		}
 	}
 
-	protected abstract void getAllowedAndUnknownDirectories();
+	protected abstract void calculateFileAndCTreeLists();
 	protected abstract void getAllowedAndUnknownFiles();
 
 	void makeLists() {
@@ -276,6 +276,14 @@ public abstract class CContainer {
 		this.includeAllDirectories = include;
 	}
 
-
+	protected void resetFileLists() {
+		allChildDirectoryList = null;
+		allChildFileList = null;
+		allowedChildDirectoryList = null;
+		allowedChildFileList = null;
+		unknownChildDirectoryList = null;
+		unknownChildFileList = null;
+		
+	}
 
 }
