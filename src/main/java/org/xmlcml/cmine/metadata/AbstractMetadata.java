@@ -1152,5 +1152,9 @@ ARRAY translator; [{"affiliation":[],"family":"Munder","given":"Marc"},{"affilia
 		return hasQuickscrapeMetadata  ? "Y" : "N";
 	}
 
+	public static void csvHelp() {
+		System.err.println("Headers: "+getDefaultHeaders().toString());
+	}
+
 
 }

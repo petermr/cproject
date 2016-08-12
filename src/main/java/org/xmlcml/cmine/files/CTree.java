@@ -22,8 +22,6 @@ import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
 import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
-import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
-import org.xmlcml.cmine.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.XMLUtils;
@@ -1215,9 +1213,30 @@ public class CTree extends CContainer implements Comparable<CTree> {
 		if (directory != null) {
 			File newDirectory = CMineUtil.normalizeDOIBasedFile(directory);
 			if (!newDirectory.equals(directory)) {
-				boolean rename = directory.renameTo(newDirectory);
-				if (!rename) {
-					LOG.warn("Cannot rename file: "+directory);
+				boolean renamed = directory.renameTo(newDirectory);
+				if (!renamed) {
+					boolean error = false;
+					if (newDirectory.exists()) {
+						File[] files = directory.listFiles();
+						for (File file : files) {
+							try {
+								FileUtils.copyFile(file, new File(newDirectory, file.getName()));
+							} catch (IOException e) {
+								LOG.error("Couldn't copy: file to "+newDirectory, e);
+								error = true;
+							}
+						}
+					}
+					if (error) {
+						LOG.warn("Cannot rename file: "+directory);
+					} else {
+						try {
+							FileUtils.deleteDirectory(directory);
+							LOG.info("Deleted moved directory: "+directory.getAbsolutePath());
+						} catch (IOException e) {
+							throw new RuntimeException("Cannot delete moved directory: "+directory.getAbsolutePath());
+						}
+					}
 				} else {
 					directory = newDirectory;
 				}
@@ -1320,5 +1339,14 @@ public class CTree extends CContainer implements Comparable<CTree> {
 			return 0;
 		}
 		return thisDir.compareTo(cTreeDir);
+	}
+
+	public void createFile(String filename) {
+		File file = new File(directory, filename);
+		try {
+			FileUtils.touch(file);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot touch "+file, e);
+		}
 	}
 }
