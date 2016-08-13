@@ -1,0 +1,100 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        14
+      ]
+    ],
+    "date-time": "2016-02-14T11:30:40Z",
+    "timestamp": 1455449440294
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "DOI": "10.1371/currents.outbreaks.c97507e3e48efb946401755d468c28b2",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        11
+      ]
+    ],
+    "date-time": "2016-02-11T23:47:19Z",
+    "timestamp": 1455234439000
+  },
+  "source": "CrossRef",
+  "title": [
+    "Epidemiology of Chikungunya Virus in Bahia, Brazil, 2014-2015"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Faria",
+      "given": "Nuno Rodrigues"
+    },
+    {
+      "affiliation": [],
+      "family": "Lourenço",
+      "given": "José"
+    },
+    {
+      "affiliation": [],
+      "family": "Marques de Cerqueira",
+      "given": "Erenilde"
+    },
+    {
+      "affiliation": [],
+      "family": "Maia de Lima",
+      "given": "Maricélia"
+    },
+    {
+      "affiliation": [],
+      "family": "Carlos Junior Alcantara",
+      "given": "Luiz"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Curr",
+    "PLoS Currents"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        11
+      ]
+    ],
+    "date-time": "2016-02-11T23:47:19Z",
+    "timestamp": 1455234439000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/currents.outbreaks.c97507e3e48efb946401755d468c28b2",
+  "ISSN": [
+    "2157-3999"
+  ]
+}

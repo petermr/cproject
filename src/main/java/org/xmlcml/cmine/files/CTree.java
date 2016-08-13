@@ -1349,4 +1349,22 @@ public class CTree extends CContainer implements Comparable<CTree> {
 			throw new RuntimeException("Cannot touch "+file, e);
 		}
 	}
+
+	/** writes CTree to "directory" using names of contained files.
+	 * 
+	 * @throws IOException
+	 */
+	public void write(File projectDirectory) throws IOException {
+		if (projectDirectory != null) {
+			File newDirectory = new File(projectDirectory, this.directory.getName());
+			newDirectory.mkdirs();
+			File[] files = this.directory.listFiles();
+			if (files != null) {
+				for (File file : files) {
+					File newFile = new File(newDirectory, file.getName());
+					FileUtils.copyFile(file, newFile);
+				}
+			}
+		}
+	}
 }

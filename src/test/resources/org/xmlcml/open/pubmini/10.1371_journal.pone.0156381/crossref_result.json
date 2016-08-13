@@ -1,0 +1,167 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:49Z",
+    "timestamp": 1464835309247
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "name": "CJ HealthCare Corporation and Kureha Corporation"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156381",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:58:23Z",
+    "timestamp": 1464829103000
+  },
+  "page": "e0156381",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Serum Anion Gap Predicts All-Cause Mortality in Patients with Advanced Chronic Kidney Disease: A Retrospective Analysis of a Randomized Controlled Study"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Sung Woo"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Sejoong"
+    },
+    {
+      "affiliation": [],
+      "family": "Na",
+      "given": "Ki Young"
+    },
+    {
+      "affiliation": [],
+      "family": "Cha",
+      "given": "Ran-hui"
+    },
+    {
+      "affiliation": [],
+      "family": "Kang",
+      "given": "Shin Wook"
+    },
+    {
+      "affiliation": [],
+      "family": "Park",
+      "given": "Cheol Whee"
+    },
+    {
+      "affiliation": [],
+      "family": "Cha",
+      "given": "Dae Ryong"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Sung Gyun"
+    },
+    {
+      "affiliation": [],
+      "family": "Yoon",
+      "given": "Sun Ae"
+    },
+    {
+      "affiliation": [],
+      "family": "Han",
+      "given": "Sang Youb"
+    },
+    {
+      "affiliation": [],
+      "family": "Park",
+      "given": "Jung Hwan"
+    },
+    {
+      "affiliation": [],
+      "family": "Chang",
+      "given": "Jae Hyun"
+    },
+    {
+      "affiliation": [],
+      "family": "Lim",
+      "given": "Chun Soo"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Yon Su"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:58:28Z",
+    "timestamp": 1464829108000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Cravedi",
+      "given": "Paolo"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156381",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

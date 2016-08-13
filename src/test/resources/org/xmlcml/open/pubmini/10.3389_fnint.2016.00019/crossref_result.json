@@ -1,0 +1,92 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:28Z",
+    "timestamp": 1464756028397
+  },
+  "reference-count": 55,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fnint.2016.00019",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:48Z",
+    "timestamp": 1464750828000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Self-Produced Time Intervals Are Perceived as More Variable and/or Shorter Depending on Temporal Context in Subsecond and Suprasecond Ranges"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Mitani",
+      "given": "Keita"
+    },
+    {
+      "affiliation": [],
+      "family": "Kashino",
+      "given": "Makio"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Integrative Neuroscience",
+    "Front. Integr. Neurosci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:48Z",
+    "timestamp": 1464750828000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fnint.2016.00019",
+  "ISSN": [
+    "1662-5145"
+  ],
+  "subject": [
+    "Sensory Systems",
+    "Cognitive Neuroscience",
+    "Cellular and Molecular Neuroscience"
+  ]
+}

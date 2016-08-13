@@ -1,0 +1,129 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:58Z",
+    "timestamp": 1464835318295
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "crossref",
+      "name": "Jacob Blaustein Center for Scientific Cooperation",
+      "DOI": "10.13039/501100007621"
+    },
+    {
+      "award": [
+        "2010178"
+      ],
+      "name": "US Israel Binational Science Foundation"
+    },
+    {
+      "award": [],
+      "name": "Kreitman School for Advanced Graduate Studies"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0155433",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:59Z",
+    "timestamp": 1464828899000
+  },
+  "page": "e0155433",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Coy Males and Seductive Females in the Sexually Cannibalistic Colonial Spider, Cyrtophora citricola"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Yip",
+      "given": "Eric C."
+    },
+    {
+      "affiliation": [],
+      "family": "Berner-Aharon",
+      "given": "Na’ama"
+    },
+    {
+      "affiliation": [],
+      "family": "Smith",
+      "given": "Deborah R."
+    },
+    {
+      "affiliation": [],
+      "family": "Lubin",
+      "given": "Yael"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:52Z",
+    "timestamp": 1464828952000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Kuntner",
+      "given": "Matjaž"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0155433",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

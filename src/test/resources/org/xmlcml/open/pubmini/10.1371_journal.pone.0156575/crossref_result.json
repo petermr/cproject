@@ -1,0 +1,130 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:42Z",
+    "timestamp": 1464835302800
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "2012CB517803"
+      ],
+      "name": "Key Project of Chinese National Program for Fundamental Research and Development (973 Program)"
+    },
+    {
+      "award": [
+        "81170674, 81470937 to C.L"
+      ],
+      "name": "National Natural Scientific Foundation, China"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156575",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:25Z",
+    "timestamp": 1464828865000
+  },
+  "page": "e0156575",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "A Meta-Analysis on Prehypertension and Chronic Kidney Disease"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Yang"
+    },
+    {
+      "affiliation": [],
+      "family": "Xia",
+      "given": "Peng"
+    },
+    {
+      "affiliation": [],
+      "family": "Xu",
+      "given": "Lubin"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Yang"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Limeng"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:46Z",
+    "timestamp": 1464828946000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Aguilera",
+      "given": "Abelardo I"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156575",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

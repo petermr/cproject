@@ -1,0 +1,150 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:40:46Z",
+    "timestamp": 1464828046678
+  },
+  "reference-count": 35,
+  "publisher": "Pensoft Publishers",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "DOI": "10.3897/phytokeys.63.6262",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:47:33Z",
+    "timestamp": 1464824853000
+  },
+  "page": "63-76",
+  "source": "CrossRef",
+  "title": [
+    "A new species in the tree genus Polyceratocarpus (Annonaceae) from the Udzungwa Mountains of Tanzania"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3897",
+  "volume": "63",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Marshall",
+      "given": "Andrew R."
+    },
+    {
+      "affiliation": [],
+      "family": "Couvreur",
+      "given": "Thomas L.P."
+    },
+    {
+      "affiliation": [],
+      "family": "Summers",
+      "given": "Abigail L."
+    },
+    {
+      "affiliation": [],
+      "family": "Deere",
+      "given": "Nicolas J."
+    },
+    {
+      "affiliation": [],
+      "family": "Luke",
+      "given": "W.R. Quentin"
+    },
+    {
+      "affiliation": [],
+      "family": "Ndangalasi",
+      "given": "Henry J."
+    },
+    {
+      "affiliation": [],
+      "family": "Sparrow",
+      "given": "Sue"
+    },
+    {
+      "affiliation": [],
+      "family": "Johnson",
+      "given": "David M."
+    }
+  ],
+  "member": "http://id.crossref.org/member/2258",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PK",
+    "PhytoKeys"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=6262"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/xml",
+      "URL": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=6262"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:47:34Z",
+    "timestamp": 1464824854000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3897/phytokeys.63.6262",
+  "ISSN": [
+    "1314-2003",
+    "1314-2011"
+  ]
+}

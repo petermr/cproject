@@ -1,0 +1,97 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:39Z",
+    "timestamp": 1464831699089
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-55-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:29:04Z",
+    "timestamp": 1464827344000
+  },
+  "page": "55-61",
+  "source": "CrossRef",
+  "title": [
+    "A NEW ALGORITHM FOR VOID FILLING IN A DSM FROM STEREO SATELLITE IMAGES IN URBAN AREAS"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Gharib Bafghi",
+      "given": "Z."
+    },
+    {
+      "affiliation": [],
+      "family": "Tian",
+      "given": "J."
+    },
+    {
+      "affiliation": [],
+      "family": "d&apos;Angelo",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Reinartz",
+      "given": "P."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:29:04Z",
+    "timestamp": 1464827344000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-55-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

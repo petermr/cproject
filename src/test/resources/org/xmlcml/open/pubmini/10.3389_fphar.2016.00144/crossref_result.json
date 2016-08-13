@@ -1,0 +1,111 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:20Z",
+    "timestamp": 1464756080438
+  },
+  "reference-count": 29,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Fonds Wetenschappelijk Onderzoek",
+      "DOI": "10.13039/501100003130"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Agentschap voor Innovatie door Wetenschap en Technologie",
+      "DOI": "10.13039/501100003132"
+    }
+  ],
+  "DOI": "10.3389/fphar.2016.00144",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:09:46Z",
+    "timestamp": 1464750586000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Industry Perspectives on Market Access of Innovative Drugs: The Relevance for Oncology Drugs"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Pauwels",
+      "given": "Kim"
+    },
+    {
+      "affiliation": [],
+      "family": "Huys",
+      "given": "Isabelle"
+    },
+    {
+      "affiliation": [],
+      "family": "Casteels",
+      "given": "Minne"
+    },
+    {
+      "affiliation": [],
+      "family": "Simoens",
+      "given": "Steven"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Pharmacology",
+    "Front. Pharmacol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:09:49Z",
+    "timestamp": 1464750589000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fphar.2016.00144",
+  "ISSN": [
+    "1663-9812"
+  ]
+}

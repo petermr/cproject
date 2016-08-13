@@ -1,0 +1,115 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:23Z",
+    "timestamp": 1464835343811
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "10/248"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Health Research Council of New Zealand",
+      "DOI": "10.13039/501100001505"
+    },
+    {
+      "award": [],
+      "name": "Health Sciences Career Development Programme Postdoctoral Fellowship"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0151812",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:29Z",
+    "timestamp": 1464829169000
+  },
+  "page": "e0151812",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "A Systematic Review of Health Economic Analyses of Housing Improvement Interventions and Insecticide-Treated Bednets in the Home"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Pega",
+      "given": "Frank"
+    },
+    {
+      "affiliation": [],
+      "family": "Wilson",
+      "given": "Nick"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:47Z",
+    "timestamp": 1464829187000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Fernandez-Reyes",
+      "given": "Delmiro"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0151812",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:19Z",
+    "timestamp": 1464831679053
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "NRF-2015R1D1A3A01019948"
+      ],
+      "doi-asserted-by": "crossref",
+      "name": "National Research Foundation of Korea",
+      "DOI": "10.13039/501100003725"
+    },
+    {
+      "award": [
+        "58-1265-0-040"
+      ],
+      "doi-asserted-by": "crossref",
+      "name": "U.S. Department of Agriculture",
+      "DOI": "10.13039/100000199"
+    },
+    {
+      "award": [
+        "W2171"
+      ],
+      "name": "Multi-state Research Project"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0155792",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:52:56Z",
+    "timestamp": 1464828776000
+  },
+  "page": "e0155792",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Gene-Specific Assessment of Guanine Oxidation as an Epigenetic Modulator for Cardiac Specification of Mouse Embryonic Stem Cells"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Park",
+      "given": "Joonghoon"
+    },
+    {
+      "affiliation": [],
+      "family": "Park",
+      "given": "Jong Woo"
+    },
+    {
+      "affiliation": [],
+      "family": "Oh",
+      "given": "Hawmok"
+    },
+    {
+      "affiliation": [],
+      "family": "Maria",
+      "given": "Fernanda S."
+    },
+    {
+      "affiliation": [],
+      "family": "Kang",
+      "given": "Jaeku"
+    },
+    {
+      "affiliation": [],
+      "family": "Tian",
+      "given": "Xiuchun"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:53:31Z",
+    "timestamp": 1464828811000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Lai",
+      "given": "Liangxue"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0155792",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

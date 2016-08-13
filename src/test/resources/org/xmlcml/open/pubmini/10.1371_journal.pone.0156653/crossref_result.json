@@ -1,0 +1,118 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:44Z",
+    "timestamp": 1464835304567
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "SFRH/BPD/98317/2013",
+        "UID/CBQ/04612/2013",
+        "PTDC/BIA-EVF/117507/2010"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Fundação para a Ciência e a Tecnologia",
+      "DOI": "10.13039/501100001871"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156653",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:58:52Z",
+    "timestamp": 1464829132000
+  },
+  "page": "e0156653",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Impact of Insertion Sequences and Recombination on the Population Structure of Staphylococcus haemolyticus"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bouchami",
+      "given": "Ons"
+    },
+    {
+      "affiliation": [],
+      "family": "de Lencastre",
+      "given": "Herminia"
+    },
+    {
+      "affiliation": [],
+      "family": "Miragaia",
+      "given": "Maria"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:34Z",
+    "timestamp": 1464829174000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "van Schaik",
+      "given": "Willem"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156653",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

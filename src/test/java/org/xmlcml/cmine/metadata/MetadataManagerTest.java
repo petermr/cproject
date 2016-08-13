@@ -46,7 +46,7 @@ public class MetadataManagerTest {
 		File quickscrapeDir = new File(getpapersProject.getDirectory(), MetadataManager.QUICKSCRAPE_DIR);
 		CProject quickscrapeProject = new CProject(quickscrapeDir);
 		
-		for (CTree cTree : quickscrapeProject.getCTreeList()) {
+		for (CTree cTree : quickscrapeProject.getResetCTreeList()) {
 			String doiname = cTree.getDirectory().getName();
 			if (flattenedCrossrefUrls.contains(doiname)) {
 				// add me 

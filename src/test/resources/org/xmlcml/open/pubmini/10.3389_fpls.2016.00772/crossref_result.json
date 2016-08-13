@@ -1,0 +1,129 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:30Z",
+    "timestamp": 1464756030655
+  },
+  "reference-count": 47,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [
+        "31271292",
+        "39893352"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    },
+    {
+      "award": [
+        "2014CB138103"
+      ],
+      "name": "National Basic Research Program of China"
+    }
+  ],
+  "DOI": "10.3389/fpls.2016.00772",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:15:57Z",
+    "timestamp": 1464750957000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Functional Studies of Heading Date-Related Gene TaPRR73, a Paralog of Ppd1 in Common Wheat"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Wenping"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Guangyao"
+    },
+    {
+      "affiliation": [],
+      "family": "Gao",
+      "given": "Lifeng"
+    },
+    {
+      "affiliation": [],
+      "family": "Kong",
+      "given": "Xiuying"
+    },
+    {
+      "affiliation": [],
+      "family": "Guo",
+      "given": "Zhiai"
+    },
+    {
+      "affiliation": [],
+      "family": "Wu",
+      "given": "Bihua"
+    },
+    {
+      "affiliation": [],
+      "family": "Jia",
+      "given": "Jizeng"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:16:04Z",
+    "timestamp": 1464750964000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00772",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

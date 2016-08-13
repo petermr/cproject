@@ -1,0 +1,85 @@
+{
+  "publisher": {
+    "value": [
+      "Multidisciplinary Digital Publishing Institute"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Molecules"
+    ]
+  },
+  "title": {
+    "value": [
+      "Unusual Nitrogenous Phenalenone Derivatives from the Marine-Derived Fungus Coniothyrium cereale"
+    ]
+  },
+  "authors": {
+    "value": []
+  },
+  "date": {
+    "value": [
+      "2016-02-01"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.3390/molecules21020178"
+    ]
+  },
+  "volume": {
+    "value": [
+      "21"
+    ]
+  },
+  "issue": {
+    "value": [
+      "2"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "178"
+    ]
+  },
+  "description": {
+    "value": [
+      "The new phenalenone metabolites 1, 2, 4, and 6 were isolated from the marine-derived endophytic fungus Coniothyrium cereale, in addition to the ergostane-type sterol (3) and entatrovenetinone (5). Compounds 1 and 2 represent two unusual nitrogen-containing compounds, which are composed of a sterol portion condensed via two bonds to phenalenone derivatives. Compound 6, which contains unprecedented imine functionality between two carbonyl groups to form a oxepane -imine-dione ring, exhibited a moderate cytotoxicity against K562, U266, and SKM1 cancer cell lines. Moreover, molecular docking studies were done on estrogen receptor α-ligand binding domain (ERα-LBD) to compounds 1 and 2 to correlate with binding energies and affinities calculated from molecular docking to the anti-proliferative activity."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "The new phenalenone metabolites 1, 2, 4, and 6 were isolated from the marine-derived endophytic fungus Coniothyrium cereale, in addition to the ergostane-type sterol (3) and entatrovenetinone (5). Compounds 1 and 2 represent two unusual nitrogen-containing compounds, which are composed of a sterol portion condensed via two bonds to phenalenone derivatives. Compound 6, which contains unprecedented imine functionality between two carbonyl groups to form a oxepane -imine-dione ring, exhibited a moderate cytotoxicity against K562, U266, and SKM1 cancer cell lines. Moreover, molecular docking studies were done on estrogen receptor α-ligand binding domain (ERα-LBD) to compounds 1 and 2 to correlate with binding energies and affinities calculated from molecular docking to the anti-proliferative activity."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/178/htm"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/178/pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/178/xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": []
+  },
+  "copyright": {
+    "value": []
+  }
+}

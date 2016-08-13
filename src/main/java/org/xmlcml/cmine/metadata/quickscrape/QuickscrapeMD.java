@@ -52,8 +52,9 @@ public class QuickscrapeMD extends AbstractMetadata {
 	}
 	
 	// this is an anomaly // should be singular?
-	private static final String CTREE_RESULT_JSON = "results.json";
-	// doesn't yet exist
+	public static final String CTREE_RESULT_JSON_OLD = "results.json";
+	private static final String CTREE_RESULT_JSON = "quickscrape_result.json";
+	// doesn't yet exist - and may never
 	private static final String CPROJECT_RESULT_JSON = "quickscrape_results.json";
 
 	private static final String VALUE = ".value";

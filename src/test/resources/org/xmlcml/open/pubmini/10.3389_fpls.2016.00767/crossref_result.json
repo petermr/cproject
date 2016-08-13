@@ -1,0 +1,101 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:08Z",
+    "timestamp": 1464756068201
+  },
+  "reference-count": 80,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Department of Biotechnology , Ministry of Science and Technology",
+      "DOI": "10.13039/501100001407"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Council for Scientific and Industrial Research",
+      "DOI": "10.13039/501100001332"
+    }
+  ],
+  "DOI": "10.3389/fpls.2016.00767",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:15:23Z",
+    "timestamp": 1464750923000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Transfer RNA Derived Small RNAs Targeting Defense Responsive Genes Are Induced during Phytophthora capsici Infection in Black Pepper (Piper nigrum L.)"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Asha",
+      "given": "Srinivasan"
+    },
+    {
+      "affiliation": [],
+      "family": "Soniya",
+      "given": "Eppurath V."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:15:28Z",
+    "timestamp": 1464750928000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00767",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

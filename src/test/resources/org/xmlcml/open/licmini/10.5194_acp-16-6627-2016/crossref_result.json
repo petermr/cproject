@@ -1,0 +1,129 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:41:51Z",
+    "timestamp": 1464828111309
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "10",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/acp-16-6627-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:11:33Z",
+    "timestamp": 1464822693000
+  },
+  "page": "6627-6640",
+  "source": "CrossRef",
+  "title": [
+    "Climatology of the aerosol optical depth by components from the Multi-angle Imaging SpectroRadiometer (MISR) and chemistry transport models"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Huikyo"
+    },
+    {
+      "affiliation": [],
+      "family": "Kalashnikova",
+      "given": "Olga V."
+    },
+    {
+      "affiliation": [],
+      "family": "Suzuki",
+      "given": "Kentaroh"
+    },
+    {
+      "affiliation": [],
+      "family": "Braverman",
+      "given": "Amy"
+    },
+    {
+      "affiliation": [],
+      "family": "Garay",
+      "given": "Michael J."
+    },
+    {
+      "affiliation": [],
+      "family": "Kahn",
+      "given": "Ralph A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Atmospheric Chemistry and Physics",
+    "Atmos. Chem. Phys."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:11:33Z",
+    "timestamp": 1464822693000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/acp-16-6627-2016",
+  "ISSN": [
+    "1680-7324"
+  ],
+  "subject": [
+    "Atmospheric Science"
+  ]
+}

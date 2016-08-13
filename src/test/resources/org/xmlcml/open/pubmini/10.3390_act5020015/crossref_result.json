@@ -1,0 +1,95 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:31Z",
+    "timestamp": 1466264491768
+  },
+  "reference-count": 22,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/act5020015",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "15",
+  "source": "CrossRef",
+  "title": [
+    "Performance and Applications of L1B2 Ultrasonic Motors"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Peled",
+      "given": "Gal"
+    },
+    {
+      "affiliation": [],
+      "family": "Yasinov",
+      "given": "Roman"
+    },
+    {
+      "affiliation": [],
+      "family": "Karasikov",
+      "given": "Nir"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Actuators"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:01:10Z",
+    "timestamp": 1466258470000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "act5020015"
+  ],
+  "URL": "http://dx.doi.org/10.3390/act5020015",
+  "ISSN": [
+    "2076-0825"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:12Z",
+    "timestamp": 1454582712613
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pgen.1005829",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:54:50Z",
+    "timestamp": 1454352890000
+  },
+  "page": "e1005829",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pgen.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "A Mutation in PMP2 Causes Dominant Demyelinating Charcot-Marie-Tooth Neuropathy"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hong",
+      "given": "Young Bin"
+    },
+    {
+      "affiliation": [],
+      "family": "Joo",
+      "given": "Jaesoon"
+    },
+    {
+      "affiliation": [],
+      "family": "Hyun",
+      "given": "Young Se"
+    },
+    {
+      "affiliation": [],
+      "family": "Kwak",
+      "given": "Geon"
+    },
+    {
+      "affiliation": [],
+      "family": "Choi",
+      "given": "Yu-Ri"
+    },
+    {
+      "affiliation": [],
+      "family": "Yeo",
+      "given": "Ha Kyung"
+    },
+    {
+      "affiliation": [],
+      "family": "Jwa",
+      "given": "Dong Hwan"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Eun Ja"
+    },
+    {
+      "affiliation": [],
+      "family": "Mo",
+      "given": "Won Min"
+    },
+    {
+      "affiliation": [],
+      "family": "Nam",
+      "given": "Soo Hyun"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Sung Min"
+    },
+    {
+      "affiliation": [],
+      "family": "Yoo",
+      "given": "Jeong Hyun"
+    },
+    {
+      "affiliation": [],
+      "family": "Koo",
+      "given": "Heasoo"
+    },
+    {
+      "affiliation": [],
+      "family": "Park",
+      "given": "Hwan Tae"
+    },
+    {
+      "affiliation": [],
+      "family": "Chung",
+      "given": "Ki Wha"
+    },
+    {
+      "affiliation": [],
+      "family": "Choi",
+      "given": "Byung-Ok"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Genet",
+    "PLOS Genetics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:54:50Z",
+    "timestamp": 1454352890000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Lupski",
+      "given": "James R."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pgen.1005829",
+  "ISSN": [
+    "1553-7404"
+  ],
+  "subject": [
+    "Genetics(clinical)",
+    "Genetics",
+    "Cancer Research",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology"
+  ]
+}

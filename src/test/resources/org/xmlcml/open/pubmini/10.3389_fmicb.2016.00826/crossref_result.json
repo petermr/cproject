@@ -1,0 +1,114 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:19Z",
+    "timestamp": 1464756079513
+  },
+  "reference-count": 63,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [
+        "NSFC41330959",
+        "NSFC41176091"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    },
+    {
+      "award": [
+        "#MELRI1401"
+      ],
+      "name": "State Key Laboratory of Marine Environmental Science"
+    }
+  ],
+  "DOI": "10.3389/fmicb.2016.00826",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:06:52Z",
+    "timestamp": 1464750412000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Phosphorus Deficiency Inhibits Cell Division But Not Growth in the Dinoflagellate Amphidinium carterae"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Meizhen"
+    },
+    {
+      "affiliation": [],
+      "family": "Shi",
+      "given": "Xinguo"
+    },
+    {
+      "affiliation": [],
+      "family": "Guo",
+      "given": "Chentao"
+    },
+    {
+      "affiliation": [],
+      "family": "Lin",
+      "given": "Senjie"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Microbiol.",
+    "Frontiers in Microbiology"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:06:56Z",
+    "timestamp": 1464750416000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fmicb.2016.00826",
+  "ISSN": [
+    "1664-302X"
+  ]
+}

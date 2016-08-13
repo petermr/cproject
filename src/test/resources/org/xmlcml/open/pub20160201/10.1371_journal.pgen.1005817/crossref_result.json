@@ -1,0 +1,163 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:15Z",
+    "timestamp": 1454582715658
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pgen.1005817",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:55:57Z",
+    "timestamp": 1454352957000
+  },
+  "page": "e1005817",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pgen.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "The Zinc-Finger Protein SOP1 Is Required for a Subset of the Nuclear Exosome Functions in Arabidopsis"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hématy",
+      "given": "Kian"
+    },
+    {
+      "affiliation": [],
+      "family": "Bellec",
+      "given": "Yannick"
+    },
+    {
+      "affiliation": [],
+      "family": "Podicheti",
+      "given": "Ram"
+    },
+    {
+      "affiliation": [],
+      "family": "Bouteiller",
+      "given": "Nathalie"
+    },
+    {
+      "affiliation": [],
+      "family": "Anne",
+      "given": "Pauline"
+    },
+    {
+      "affiliation": [],
+      "family": "Morineau",
+      "given": "Céline"
+    },
+    {
+      "affiliation": [],
+      "family": "Haslam",
+      "given": "Richard P."
+    },
+    {
+      "affiliation": [],
+      "family": "Beaudoin",
+      "given": "Frederic"
+    },
+    {
+      "affiliation": [],
+      "family": "Napier",
+      "given": "Johnathan A."
+    },
+    {
+      "affiliation": [],
+      "family": "Mockaitis",
+      "given": "Keithanne"
+    },
+    {
+      "affiliation": [],
+      "family": "Gagliardi",
+      "given": "Dominique"
+    },
+    {
+      "affiliation": [],
+      "family": "Vaucheret",
+      "given": "Hervé"
+    },
+    {
+      "affiliation": [],
+      "family": "Lange",
+      "given": "Heike"
+    },
+    {
+      "affiliation": [],
+      "family": "Faure",
+      "given": "Jean-Denis"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Genet",
+    "PLOS Genetics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:55:57Z",
+    "timestamp": 1454352957000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Xuemei"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pgen.1005817",
+  "ISSN": [
+    "1553-7404"
+  ],
+  "subject": [
+    "Genetics(clinical)",
+    "Genetics",
+    "Cancer Research",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology"
+  ]
+}

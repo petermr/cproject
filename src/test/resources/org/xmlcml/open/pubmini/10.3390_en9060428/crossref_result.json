@@ -1,0 +1,116 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:41:13Z",
+    "timestamp": 1467474073786
+  },
+  "reference-count": 38,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    }
+  ],
+  "DOI": "10.3390/en9060428",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "428",
+  "source": "CrossRef",
+  "title": [
+    "Distribution of Clay Minerals in Light Coal Fractions and the Thermal Reaction Products of These Clay Minerals during Combustion in a Drop Tube Furnace"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "9",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Tian",
+      "given": "Sida"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhuo",
+      "given": "Yuqun"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhan",
+      "given": "Zhonghua"
+    },
+    {
+      "affiliation": [],
+      "family": "Shu",
+      "given": "Xinqian"
+    },
+    {
+      "affiliation": [],
+      "family": "Kang",
+      "given": "Zhizhong"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Energies"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:02:46Z",
+    "timestamp": 1467468166000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "en9060428"
+  ],
+  "URL": "http://dx.doi.org/10.3390/en9060428",
+  "ISSN": [
+    "1996-1073"
+  ],
+  "subject": [
+    "Computer Science(all)"
+  ]
+}

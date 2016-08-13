@@ -1,0 +1,107 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:15Z",
+    "timestamp": 1464831675694
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-91-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:34:00Z",
+    "timestamp": 1464827640000
+  },
+  "page": "91-98",
+  "source": "CrossRef",
+  "title": [
+    "TOWARDS FAST MORPHOLOGICAL MOSAICKING OF HIGH-RESOLUTION MULTI-SPECTRAL PRODUCTS – ON IMPROVEMENTS OF SEAMLINES"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Storch",
+      "given": "Tobias"
+    },
+    {
+      "affiliation": [],
+      "family": "Fischer",
+      "given": "Peter"
+    },
+    {
+      "affiliation": [],
+      "family": "Fast",
+      "given": "Sebastian"
+    },
+    {
+      "affiliation": [],
+      "family": "Serr",
+      "given": "Philipp"
+    },
+    {
+      "affiliation": [],
+      "family": "Krauß",
+      "given": "Thomas"
+    },
+    {
+      "affiliation": [],
+      "family": "Müller",
+      "given": "Rupert"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:34:00Z",
+    "timestamp": 1464827640000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-91-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

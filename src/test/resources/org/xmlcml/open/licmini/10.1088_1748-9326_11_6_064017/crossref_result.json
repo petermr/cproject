@@ -1,0 +1,226 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        21
+      ]
+    ],
+    "date-time": "2016-06-21T08:41:03Z",
+    "timestamp": 1466498463278
+  },
+  "reference-count": 35,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 19,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2016-06-20T00:00:00Z",
+        "timestamp": 1466380800000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 19,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2016-06-20T00:00:00Z",
+        "timestamp": 1466380800000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/064017",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        20
+      ]
+    ],
+    "date-time": "2016-06-20T14:14:11Z",
+    "timestamp": 1466432051000
+  },
+  "page": "064017",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Diverse policy implications for future ozone and surface UV in a changing climate"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Butler",
+      "given": "A H"
+    },
+    {
+      "affiliation": [],
+      "family": "Daniel",
+      "given": "J S"
+    },
+    {
+      "affiliation": [],
+      "family": "Portmann",
+      "given": "R W"
+    },
+    {
+      "affiliation": [],
+      "family": "Ravishankara",
+      "given": "A R"
+    },
+    {
+      "affiliation": [],
+      "family": "Young",
+      "given": "P J",
+      "ORCID": "http://orcid.org/0000-0002-5608-8887"
+    },
+    {
+      "affiliation": [],
+      "family": "Fahey",
+      "given": "D W"
+    },
+    {
+      "affiliation": [],
+      "family": "Rosenlof",
+      "given": "K H"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        20
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064017/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064017?key=crossref.dd8aee1d7bec07674de096fa31499137"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        21
+      ]
+    ],
+    "date-time": "2016-06-21T07:20:06Z",
+    "timestamp": 1466493606000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/064017",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Diverse policy implications for future ozone and surface UV in a changing climate"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2016-03-25"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-27"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-20"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:30Z",
+    "timestamp": 1464756030265
+  },
+  "reference-count": 85,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "DOI": "10.13039/501100003593"
+    }
+  ],
+  "DOI": "10.3389/fpsyg.2016.00787",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:14:30Z",
+    "timestamp": 1464750870000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Reading Comprehension Assessment through Retelling: Performance Profiles of Children with Dyslexia and Language-Based Learning Disability"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kida",
+      "given": "Adriana de S. B."
+    },
+    {
+      "affiliation": [],
+      "family": "Ávila",
+      "given": "Clara R. B. de"
+    },
+    {
+      "affiliation": [],
+      "family": "Capellini",
+      "given": "Simone A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Psychology",
+    "Front. Psychol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:14:33Z",
+    "timestamp": 1464750873000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpsyg.2016.00787",
+  "ISSN": [
+    "1664-1078"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:43:09Z",
+    "timestamp": 1466264589196
+  },
+  "reference-count": 30,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "BMBF 0312823A",
+        "BMBF 01EA1336",
+        "BMBF 01GI0821",
+        "BMBF 01GI1121A",
+        "BMBF 01GI1125"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Bundesministerium für Bildung und Forschung",
+      "DOI": "10.13039/501100002347"
+    },
+    {
+      "award": [
+        "DFG Mü 714/8-1-3",
+        "DFG Bo 3296/1-1"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "DOI": "10.13039/501100001659"
+    }
+  ],
+  "DOI": "10.3390/nu8060322",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "322",
+  "source": "CrossRef",
+  "title": [
+    "Age-Dependent Changes in Resting Energy Expenditure (REE): Insights from Detailed Body Composition Analysis in Normal and Overweight Healthy Caucasians"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "8",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Geisler",
+      "given": "Corinna"
+    },
+    {
+      "affiliation": [],
+      "family": "Braun",
+      "given": "Wiebke"
+    },
+    {
+      "affiliation": [],
+      "family": "Pourhassan",
+      "given": "Maryam"
+    },
+    {
+      "affiliation": [],
+      "family": "Schweitzer",
+      "given": "Lisa"
+    },
+    {
+      "affiliation": [],
+      "family": "Glüer",
+      "given": "Claus-Christian"
+    },
+    {
+      "affiliation": [],
+      "family": "Bosy-Westphal",
+      "given": "Anja"
+    },
+    {
+      "affiliation": [],
+      "family": "Müller",
+      "given": "Manfred"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Nutrients"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:08:34Z",
+    "timestamp": 1466258914000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "nu8060322"
+  ],
+  "URL": "http://dx.doi.org/10.3390/nu8060322",
+  "ISSN": [
+    "2072-6643"
+  ]
+}

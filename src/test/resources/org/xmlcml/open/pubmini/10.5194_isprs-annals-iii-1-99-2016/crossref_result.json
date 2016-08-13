@@ -1,0 +1,97 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:09Z",
+    "timestamp": 1464831669003
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-99-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:35:02Z",
+    "timestamp": 1464827702000
+  },
+  "page": "99-104",
+  "source": "CrossRef",
+  "title": [
+    "A NEW CONTROL POINTS BASED GEOMETRIC CORRECTION ALGORITHM FOR AIRBORNE PUSH BROOM SCANNER IMAGES WITHOUT ON-BOARD DATA"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Strakhov",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Badasen",
+      "given": "E."
+    },
+    {
+      "affiliation": [],
+      "family": "Shurygin",
+      "given": "B."
+    },
+    {
+      "affiliation": [],
+      "family": "Kondranin",
+      "given": "T."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:35:02Z",
+    "timestamp": 1464827702000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-99-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

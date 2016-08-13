@@ -1,0 +1,121 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:40:56Z",
+    "timestamp": 1464831656017
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "name": "The University of Auckland Aotearoa Fellowship"
+    },
+    {
+      "award": [],
+      "name": "Medical Technology Centre of Research Excellence"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156379",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:52:46Z",
+    "timestamp": 1464828766000
+  },
+  "page": "e0156379",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Airflow in the Human Nasal Passage and Sinuses of Chronic Rhinosinusitis Subjects"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kumar",
+      "given": "Haribalan"
+    },
+    {
+      "affiliation": [],
+      "family": "Jain",
+      "given": "Ravi"
+    },
+    {
+      "affiliation": [],
+      "family": "Douglas",
+      "given": "Richard G."
+    },
+    {
+      "affiliation": [],
+      "family": "Tawhai",
+      "given": "Merryn H."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:35Z",
+    "timestamp": 1464828875000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Sznitman",
+      "given": "Josué"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156379",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

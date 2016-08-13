@@ -1,0 +1,181 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:15Z",
+    "timestamp": 1464831675201
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "CM1407"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "European Cooperation in Science and Technology",
+      "DOI": "10.13039/501100000921"
+    },
+    {
+      "award": [
+        "UMO-657 2012/07/E/NZ6/01712",
+        "UMO-2012/07/N/NZ6/02955"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Narodowe Centrum Nauki",
+      "DOI": "10.13039/501100004281"
+    },
+    {
+      "award": [
+        "Lider/27/55/L-2/10/2011"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Narodowe Centrum Badań i Rozwoju",
+      "DOI": "10.13039/501100005632"
+    },
+    {
+      "award": [
+        "-"
+      ],
+      "name": "Unilab LP"
+    },
+    {
+      "award": [
+        "-"
+      ],
+      "name": "Unilab LP"
+    },
+    {
+      "award": [
+        "-"
+      ],
+      "name": "Unilab LP"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156552",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:52:44Z",
+    "timestamp": 1464828764000
+  },
+  "page": "e0156552",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "HTCC: Broad Range Inhibitor of Coronavirus Entry"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Milewska",
+      "given": "Aleksandra"
+    },
+    {
+      "affiliation": [],
+      "family": "Kaminski",
+      "given": "Kamil"
+    },
+    {
+      "affiliation": [],
+      "family": "Ciejka",
+      "given": "Justyna"
+    },
+    {
+      "affiliation": [],
+      "family": "Kosowicz",
+      "given": "Katarzyna"
+    },
+    {
+      "affiliation": [],
+      "family": "Zeglen",
+      "given": "Slawomir"
+    },
+    {
+      "affiliation": [],
+      "family": "Wojarski",
+      "given": "Jacek"
+    },
+    {
+      "affiliation": [],
+      "family": "Nowakowska",
+      "given": "Maria"
+    },
+    {
+      "affiliation": [],
+      "family": "Szczubiałka",
+      "given": "Krzysztof"
+    },
+    {
+      "affiliation": [],
+      "family": "Pyrc",
+      "given": "Krzysztof"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:53:21Z",
+    "timestamp": 1464828801000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Pöhlmann",
+      "given": "Stefan"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156552",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

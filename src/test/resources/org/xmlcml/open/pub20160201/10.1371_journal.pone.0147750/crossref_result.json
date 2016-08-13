@@ -1,0 +1,116 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:35Z",
+    "timestamp": 1454582735792
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0147750",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:39:42Z",
+    "timestamp": 1454355582000
+  },
+  "page": "e0147750",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Cholestasis Reveals Severe Cortisol Deficiency in Neonatal Pituitary Stalk Interruption Syndrome"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Mauvais",
+      "given": "Francois-Xavier"
+    },
+    {
+      "affiliation": [],
+      "family": "Gonzales",
+      "given": "Emmanuel"
+    },
+    {
+      "affiliation": [],
+      "family": "Davit-Spraul",
+      "given": "Anne"
+    },
+    {
+      "affiliation": [],
+      "family": "Jacquemin",
+      "given": "Emmanuel"
+    },
+    {
+      "affiliation": [],
+      "family": "Brauner",
+      "given": "Raja"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:39:43Z",
+    "timestamp": 1454355583000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Janecke",
+      "given": "Andreas R."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0147750",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

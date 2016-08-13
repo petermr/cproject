@@ -135,7 +135,7 @@ public class CTreeTest {
 	@Test
 	public void testCTreeContent1() {
 		CProject cProject = new CProject(new File(CMineFixtures.TEST_PROJECTS_DIR, "project1"));
-		CTreeList cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getResetCTreeList();
 		CTree cTree1 = cTreeList.get(0);
 		cTree1.getOrCreateFilesDirectoryCTreeLists();
 		List<File> allChildDirectoryList = cTree1.getAllChildDirectoryList();
@@ -298,7 +298,7 @@ public class CTreeTest {
 		File cProjectDir = CMineFixtures.TEST_SAMPLE;
 		LOG.debug(cProjectDir.getAbsolutePath());
 		CProject cProject = new CProject(cProjectDir);
-		Assert.assertEquals(37, cProject.getCTreeList().size());
+		Assert.assertEquals(37, cProject.getResetCTreeList().size());
 		CTreeExplorer explorer = new CTreeExplorer().setFilename(Type.QUICKSCRAPE.getCTreeMDFilename());
 		CTreeList cTreeList = cProject.getCTreeList(explorer);
 		Assert.assertEquals(29, cTreeList.size());
@@ -330,17 +330,17 @@ public class CTreeTest {
 		FileUtils.copyDirectory(cProjectDir, targetDir);
 		CProject cProject = new CProject(targetDir);
 		cProject.setTreatAllChildDirectoriesAsCTrees(true);
-		Assert.assertEquals(3, cProject.getCTreeList().size());
+		Assert.assertEquals(3, cProject.getResetCTreeList().size());
 		cProject = new CProject(targetDir);
 		cProject.setTreatAllChildDirectoriesAsCTrees(false);
 		// because of the child files
-		Assert.assertEquals(2, cProject.getCTreeList().size());
+		Assert.assertEquals(2, cProject.getResetCTreeList().size());
 	}
 
 	@Test
 	public void testNormalizeDOIs() throws IOException {
 		CProject cProject = createMiniTargetAndCProject();
-		List<File> dirList = cProject.getCTreeList().getCTreeDirectoryList();
+		List<File> dirList = cProject.getResetCTreeList().getCTreeDirectoryList();
 		Assert.assertEquals("["
 				+ "target/mini1/PMC4678086,"
 				+ " target/mini1/http_dx.doi.org_10.1001_jama.2016.7992,"
@@ -350,7 +350,7 @@ public class CTreeTest {
 				
 		cProject.setTreatAllChildDirectoriesAsCTrees(true);
 		cProject.normalizeDOIBasedDirectoryCTrees();
-		List<File> dirList1 = cProject.getCTreeList().getCTreeDirectoryList();
+		List<File> dirList1 = cProject.getResetCTreeList().getCTreeDirectoryList();
 		Assert.assertEquals("[target/mini1/10.1001_jama.2016.7992, target/mini1/10.1007_s13201-016-0429-9, target/mini1/PMC4678086]", 
 				dirList1.toString());
 		

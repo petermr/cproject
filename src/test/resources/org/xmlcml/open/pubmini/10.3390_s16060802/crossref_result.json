@@ -1,0 +1,105 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:42:36Z",
+    "timestamp": 1466264556993
+  },
+  "reference-count": 40,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    }
+  ],
+  "DOI": "10.3390/s16060802",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "802",
+  "source": "CrossRef",
+  "title": [
+    "Reference Device-Assisted Adaptive Location Fingerprinting"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Wu",
+      "given": "Dongjin",
+      "ORCID": "http://orcid.org/0000-0002-1074-6194"
+    },
+    {
+      "affiliation": [],
+      "family": "Xia",
+      "given": "Linyuan"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:05:01Z",
+    "timestamp": 1466258701000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "s16060802"
+  ],
+  "URL": "http://dx.doi.org/10.3390/s16060802",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [
+    "Electrical and Electronic Engineering",
+    "Analytical Chemistry",
+    "Atomic and Molecular Physics, and Optics",
+    "Biochemistry"
+  ]
+}

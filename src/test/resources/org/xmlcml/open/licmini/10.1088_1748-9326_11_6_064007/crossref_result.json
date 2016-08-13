@@ -1,0 +1,217 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        3
+      ]
+    ],
+    "date-time": "2016-06-03T08:42:33Z",
+    "timestamp": 1464943353916
+  },
+  "reference-count": 47,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 1,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2016-06-02T00:00:00Z",
+        "timestamp": 1464825600000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 1,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2016-06-02T00:00:00Z",
+        "timestamp": 1464825600000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "name": "US DOE Office of Science"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/064007",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T13:13:54Z",
+    "timestamp": 1464873234000
+  },
+  "page": "064007",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Nitrogen fertilization challenges the climate benefit of cellulosic biofuels"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ruan",
+      "given": "Leilei"
+    },
+    {
+      "affiliation": [],
+      "family": "Bhardwaj",
+      "given": "Ajay K"
+    },
+    {
+      "affiliation": [],
+      "family": "Hamilton",
+      "given": "Stephen K"
+    },
+    {
+      "affiliation": [],
+      "family": "Robertson",
+      "given": "G Philip",
+      "ORCID": "http://orcid.org/0000-0001-9771-9895"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064007/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064007?key=crossref.ae22c0e470bf2f6b849a1a27da66adb3"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        3
+      ]
+    ],
+    "date-time": "2016-06-03T07:31:47Z",
+    "timestamp": 1464939107000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/064007",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Nitrogen fertilization challenges the climate benefit of cellulosic biofuels"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2016-03-25"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-05"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-02"
+    }
+  ]
+}

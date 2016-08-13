@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">molecules</journal-id>
+      <journal-title>Molecules</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Molecules</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Molecules</abbrev-journal-title>
+      <issn pub-type="epub">1420-3049</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/molecules21020178</article-id>
+      <article-id pub-id-type="publisher-id">molecules-21-00178</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Unusual Nitrogenous Phenalenone Derivatives from the Marine-Derived Fungus <italic>Coniothyrium cereale</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Elsebai</surname>
+            <given-names>Mahmoud Fahmi</given-names>
+          </name>
+          <xref rid="af1-molecules-21-00178" ref-type="aff">1</xref>
+          <xref rid="c1-molecules-21-00178" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ghabbour</surname>
+            <given-names>Hazem A.</given-names>
+          </name>
+          <xref rid="af2-molecules-21-00178" ref-type="aff">2</xref>
+          <xref rid="af3-molecules-21-00178" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mehiri</surname>
+            <given-names>Mohamed</given-names>
+          </name>
+          <xref rid="af4-molecules-21-00178" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>McPhee</surname>
+            <given-names>Derek J.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-molecules-21-00178"><label>1</label>Department of Pharmacognosy, Faculty of Pharmacy, Mansoura University, Mansoura 35516, Egypt</aff>
+      <aff id="af2-molecules-21-00178"><label>2</label>Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, Riyadh 11451, Saudi Arabia; <email>ghabbourh@yahoo.com</email></aff>
+      <aff id="af3-molecules-21-00178"><label>3</label>Department of Medicinal Chemistry, Faculty of Pharmacy, Mansoura University, Mansoura 35516, Egypt</aff>
+      <aff id="af4-molecules-21-00178"><label>4</label>Institut de Chimie de Nice (ICN), Facult&#xE9; des Sciences, Universit&#xE9; Nice Sophia Antipolis, UMR CNRS 7272, Parc Valrose, Nice 06108 Cedex 02, France; <email>mehiri@unice.fr</email></aff>
+      <author-notes>
+        <corresp id="c1-molecules-21-00178"><label>*</label>Correspondence: <email>elsebai72@yahoo.com</email>; Tel.: +2-10-1499-1989; Fax: +2-50-224-7496</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>1</day>
+        <month>02</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>02</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>2</issue>
+      <elocation-id>178</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>12</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>01</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The new phenalenone metabolites <bold>1</bold>, <bold>2</bold>, <bold>4</bold>, and <bold>6</bold> were isolated from the marine-derived endophytic fungus <italic>Coniothyrium cereale</italic>, in addition to the ergostane-type sterol (<bold>3</bold>) and entatrovenetinone (<bold>5</bold>). Compounds <bold>1</bold> and <bold>2</bold> represent two unusual nitrogen-containing compounds, which are composed of a sterol portion condensed via two bonds to phenalenone derivatives. Compound <bold>6</bold>, which contains unprecedented imine functionality between two carbonyl groups to form a oxepane -imine-dione ring, exhibited a moderate cytotoxicity against K562, U266, and SKM1 cancer cell lines. Moreover, molecular docking studies were done on estrogen receptor &#x3B1;-ligand binding domain (ER&#x3B1;-LBD) to compounds <bold>1</bold> and <bold>2</bold> to correlate with binding energies and affinities calculated from molecular docking to the anti-proliferative activity.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>marine natural products</kwd>
+        <kwd><italic>Coniothyrium cereale</italic></kwd>
+        <kwd>endophytic fungal phenalenones</kwd>
+        <kwd>conio-azasterol</kwd>
+        <kwd><italic>S</italic>-dehydroazasirosterol</kwd>
+        <kwd>molecular docking</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-molecules-21-00178" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Phenalenone derivatives have been reported both from higher plants and microbial sources. They possess significant biological and chemical importance [<xref ref-type="bibr" rid="B1-molecules-21-00178">1</xref>]. Marine fungi represent a quite diverse group and an excellent source of natural products where they represent a huge potential for new chemical metabolites. The production of metabolites from fungi is a rapidly growing field as can be observed from the increased number of reviews concerned with this topic and the increased number of new natural products which have become known over the past years [<xref ref-type="bibr" rid="B2-molecules-21-00178">2</xref>]. Studies of the endophytic marine fungi indicate that they are prolific producers of unique natural products, which render them as highly useful in the drug discovery process and indicating that much of their hidden potential still needs to be uncovered [<xref ref-type="bibr" rid="B3-molecules-21-00178">3</xref>]. The marine-derived endophytic fungus <italic>Coniothyrium cereale</italic> was isolated from the Baltic Sea algae <italic>Enteromorpha</italic> sp. Cultivation of the fungus <italic>C. cereale</italic> in media supplemented with sea salt led to structurally unusual nitrogenous phenalenone derivatives <bold>1</bold>, <bold>2</bold>, and <bold>6</bold>. In this paper, we report the unusual heterodimer phenalenone metabolites <bold>1</bold> and <bold>2</bold> which are constructed from sterol and polyketidic phenalenone derivatives (<xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>). We report compound <bold>6</bold> here also which has unusual imine functionality between two carbonyl groups. Moreover, we report the ubiquitous fungal ergostane-type sterol (22<italic>E</italic>,24<italic>R</italic>)-Ergosta-4,6,8(14)22-tetraen-3-one (<bold>3</bold>), and entatrovenetinone (<bold>5</bold>) from the same fungus. As a preliminary test for biological activity, products were screened for their antimicrobial and cytotoxic activities and the results were correlated with molecular docking studies on estrogen receptor &#x3B1;-ligand binding domain (ER&#x3B1;-LBD).</p>
+      <fig id="molecules-21-00178-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Chemical structures of the secondary metabolites <bold>1</bold>&#x2013;<bold>6</bold> isolated from <italic>Coniothyrium cereale</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00178-g001.tif"/>
+      </fig>
+    </sec>
+    <sec id="sec2-molecules-21-00178" sec-type="results">
+      <title>2. Results and Discussion</title>
+      <p>Subfraction 11 of the ethyl acetate extract of the mycelium of <italic>C. cereale</italic> was subjected to RP-HPLC separation to give the yellowish brown compounds <bold>1</bold> and <bold>2</bold>. At first glance, from their <sup>1</sup>H- and <sup>13</sup>C-NMR spectra, they were suspected to be a mixture of a sterol and a phenalenone like compounds, though the HPLC chromatogram showed only one peak for each compound. Further elucidation of the mass gave a signal at 733 Da correspondent to a molecular formula C<sub>47</sub>H<sub>59</sub>NO<sub>6</sub>, suggesting that compounds <bold>1</bold> and <bold>2</bold> are adducts of a sterol and phenalenone derivatives. Further investigation of the 1D and 2D NMR spectra confirmed the adduct formation as follows.</p>
+      <p>Compound <bold>1</bold> showed a molecular formula of C<sub>47</sub>H<sub>59</sub>NO<sub>6</sub> on the basis of the number of signals in both <sup>1</sup>H- and <sup>13</sup>C-NMR spectra and accurate mass measurement (HRESIMS: <italic>m</italic>/<italic>z</italic> found = 756.4235 [M + Na]<sup>+</sup>, <xref ref-type="app" rid="app1-molecules-21-00178">Figure S2</xref>). The <sup>1</sup>H-NMR spectrum (<xref ref-type="app" rid="app1-molecules-21-00178">Figure S1</xref>) of the phenalenone portion of <bold>1</bold> gave rise to signals for two exchangeable phenolic hydrogens, one is strongly chelated (&#x3B4;<italic><sub>H</sub></italic> 16.91 for 2-OH) with a carbonyl group (IR 1711/3354 cm<sup>&#x2212;1</sup>), and the second is weakly chelated (&#x3B4;<italic><sub>H</sub></italic> 9.69 for 9-OH), in addition to a characteristic NH resonance at &#x3B4;<italic><sub>H</sub></italic> 3.93 which has no correlation in the HSQC (<xref ref-type="app" rid="app1-molecules-21-00178">Figures S3&#x2013;S6</xref>).</p>
+      <p>The <sup>1</sup>H- and <sup>13</sup>C-NMR spectra showed an aromatic methyl (&#x3B4;<italic><sub>H/C</sub></italic> 2.78/25.9 for CH<sub>3</sub>-12) and two aromatic protons (&#x3B4;<italic><sub>H</sub></italic> 6.38 and 6.81 for H-1 and H-10, respectively). A UV maximum at 395 nm clearly evidenced that compound <bold>1</bold> has an extended aromatic system. Further two <sup>1</sup>H-NMR singlet resonance signals arose from aromatic protons (&#x3B4;<italic><sub>H</sub></italic> 6.38 for H-1 and &#x3B4;<italic><sub>H</sub></italic> 6.81 for H-10). These aromatic protons (H-1 and H-10), each had a distinctive set of correlations in the <sup>1</sup>H-<sup>13</sup>C HMBC spectrum suggesting that each of these protons is attached to a different benzene ring. In the <sup>1</sup>H-<sup>13</sup>C HMBC spectrum, H-1 showed cross peak correlations with C-2, C-3, C-5, C-13, and C-14, whereas H-10 had correlations with C-7, C-8, C-9, C-12, and C-13. H<sub>3</sub>-12 had heteronuclear couplings to C-10, C-11, and C-13. 2-OH showed cross peak correlations with C-1, C-2, and C-3; and 9-OH with C-8, C-9, and C-10. This pattern of heteronuclear correlations, together with the <sup>1</sup>H- and <sup>13</sup>C-NMR data indicated for a naphthalene-type compound of two connected penta-substituted benzene rings, substituted at C-2 and C-9 with phenolic groups and at C-11 with a methyl group. The presence of the 3-methyl-2-butenyl group in <bold>1</bold> was proven as follows: the <sup>1</sup>H- and <sup>13</sup>C-NMR spectrum contained two singlet resonances at &#x3B4;<italic><sub>H/C</sub></italic> 1.81/25.8 for CH<sub>3</sub>-18 and &#x3B4;<italic><sub>H/C</sub></italic> 1.76/18.3 for CH<sub>3</sub>-19 due to a geminal dimethyl group attached to an olefinic carbon. This was corroborated by the HMBC cross peak correlations between H<sub>3</sub>-18 and H<sub>3</sub>-19 and C-22. The downfield shifted doublet at &#x3B4;<italic><sub>H/C</sub></italic> 4.69/66.0 is assigned for the methylene protons CH<sub>2</sub>-20 which is attached to oxygen and the methine triplet at &#x3B4;<italic><sub>H/C</sub></italic> 5.56/118.4 is assigned for CH-21. The <sup>1</sup>H-<sup>1</sup>H COSY spectrum showed cross peak correlations for a <sup>1</sup>H-<sup>1</sup>H-spin system ranging from both terminal methyl protons via H-21 to H<sub>2</sub>-20. The prenylation occurred at the oxygenated carbon C-14 due to the HMBC correlation of H<sub>2</sub>-20 to C-14 as depicted in <xref ref-type="fig" rid="molecules-21-00178-f002">Figure 2</xref>. These chemical shifts and correlations are similar to those of the compound coniosclerodin [<xref ref-type="bibr" rid="B4-molecules-21-00178">4</xref>].</p>
+      <fig id="molecules-21-00178-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Significant <sup>1</sup>H-<sup>13</sup>C HMBC correlations (arrows, proton to carbon) and <sup>1</sup>H-<sup>1</sup>H COSY (bold lines) of compound <bold>1</bold>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00178-g002.tif"/>
+      </fig>
+      <p>The sterol portion of <bold>1</bold> gave rise to <sup>1</sup>H- and <sup>13</sup>C-NMR signals (<xref ref-type="table" rid="molecules-21-00178-t001">Table 1</xref>) very similar to those of a sterol compound related to an ergosterol. Thus, the methyl groups of the sterol portion produced singlets at &#x3B4;<italic><sub>H/C</sub></italic> 0.50/11.6 and 1.23/23.6 for the angular tertiary CH<sub>3</sub>-18&#x2032; and 19&#x2032;, respectively, and four doublets at &#x3B4;<italic><sub>H/C</sub></italic> 0.96/20.7, 0.76/19.6, 0.78/19.9, and 0.85/17.6 for the secondary methyl groups CH<sub>3</sub>-21&#x2032;, 26&#x2032;, 27&#x2032;, and 28&#x2032;, respectively, of the sterol side chain. The two alkenic CH groups of the side chain gave rise to double doublets at &#x3B4;<italic><sub>H/C</sub></italic> 5.07/135.2 and 5.17/132.2 for CH-22&#x2032; and 23&#x2032;, respectively. The <sup>1</sup>H-<sup>1</sup>H COSY and <sup>1</sup>H-<sup>13</sup>C HMBC correlations (<xref ref-type="app" rid="app1-molecules-21-00178">Figures S9 and S10</xref>) resulted in a sterol side chain of nine carbons with one olefinic double bond to give an ergostene side chain (<xref ref-type="fig" rid="molecules-21-00178-f002">Figure 2</xref>). Further two olefinic CH groups resonating at &#x3B4;<italic><sub>H/C</sub></italic> 5.00/116.9 and 5.68/124.9 are assigned to CH-7&#x2032; and 11&#x2032;, respectively, to form an exocyclic diene system with the quaternary carbons C-8&#x2032; and C-9&#x2032; due to HMBC correlations as illustrated in <xref ref-type="fig" rid="molecules-21-00178-f002">Figure 2</xref>. These structural features were confirmed by the HMBC correlations as illustrated in <xref ref-type="table" rid="molecules-21-00178-t001">Table 1</xref> and <xref ref-type="fig" rid="molecules-21-00178-f002">Figure 2</xref>. The methine multiplet at &#x3B4;<italic><sub>H/C</sub></italic> 4.10/66.7 has the expected complexity of steroidal 3-carbinol hydrogen which is characteristic for 3&#x3B2;-hydroxysterols. The steroidal nucleus is attached to the phenalenone part through two bonds. The first bond is from C-5&#x2032; to C-6 through a NH bridge and this is confirmed by the significant HMBC correlations of NH to C-5, 7, 4&#x2032;, 5&#x2032;, 6&#x2032;, and 10&#x2032;. The second bond is from CH-6&#x2032; to C-7 via oxygen due to the HMBC correlation of H-6&#x2032; to C-7 (<xref ref-type="fig" rid="molecules-21-00178-f002">Figure 2</xref> and <xref ref-type="table" rid="molecules-21-00178-t002">Table 2</xref>).</p>
+      <table-wrap id="molecules-21-00178-t001" position="float">
+        <object-id pub-id-type="pii">molecules-21-00178-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>NMR (CDCl<sub>3</sub>) spectroscopic data for conio-azasterol (<bold>1</bold>).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">No.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mult.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>C</sub></italic> (ppm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>H</sub></italic> (ppm), (mult, <italic>J</italic> in Hz)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">No.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mult.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>C</sub></italic> (ppm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>H</sub></italic> (ppm), (mult, <italic>J</italic> in Hz)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">97.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.38, s</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4&#x2032;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CH<sub>2</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">37.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">a: 1.52, m<break/>b: 2.12, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">173.9 </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">5&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">55.5</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">104.4 </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">6&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">75.8</td>
+              <td align="center" valign="middle">4.85, brs</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">120.6 </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">7&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">116.9</td>
+              <td align="center" valign="middle">5.00, brs</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">174.4 </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">8&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">139.0</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">124.2</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">9&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">140.6</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">141.5</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">10&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">40.2</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">104.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11&#x2032;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">124.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.68, brd (5.5)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">157.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12&#x2032;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CH<sub>2</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">a: 2.12, m<break/>b: 2.30, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">117.5</td>
+              <td align="center" valign="middle">6.81, s</td>
+              <td align="center" valign="middle">13&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">42.4</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">11</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">143.0</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">14&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">50.9</td>
+              <td align="center" valign="middle">2.07, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">25.9</td>
+              <td align="center" valign="middle">2.78, s</td>
+              <td align="center" valign="middle">15&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">22.9</td>
+              <td align="center" valign="middle">1.53, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">13</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">112.5</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">16&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">28.6</td>
+              <td align="center" valign="middle">1.60, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">167.3</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">17&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">55.7</td>
+              <td align="center" valign="middle">1.20, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">18.3</td>
+              <td align="center" valign="middle">1.76, s</td>
+              <td align="center" valign="middle">18&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">11.6</td>
+              <td align="center" valign="middle">0.50, s</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">19</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">25.8</td>
+              <td align="center" valign="middle">1.81, s</td>
+              <td align="center" valign="middle">19&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">23.6</td>
+              <td align="center" valign="middle">1.23, s</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">66.0</td>
+              <td align="center" valign="middle">4.69, d (6.2)</td>
+              <td align="center" valign="middle">20&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">40.3</td>
+              <td align="center" valign="middle">1.95, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">21</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">118.4</td>
+              <td align="center" valign="middle">5.56, brt (6.2)</td>
+              <td align="center" valign="middle">21&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">20.7</td>
+              <td align="center" valign="middle">0.96, d (6.3)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">22</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">139.0</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">22&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">135.2</td>
+              <td align="center" valign="middle">5.07, dd (7.7, 15.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2-OH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">16.91, s</td>
+              <td align="center" valign="middle">23&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">132.2</td>
+              <td align="center" valign="middle">5.17, dd (7.3, 15.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">9-OH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">9.69, s</td>
+              <td align="center" valign="middle">24&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">42.8</td>
+              <td align="center" valign="middle">1.78, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">3.93, s</td>
+              <td align="center" valign="middle">25&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">33.0</td>
+              <td align="center" valign="middle">1.40, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">1&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">29.7</td>
+              <td align="center" valign="middle">1.98, m</td>
+              <td align="center" valign="middle">26&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">19.6</td>
+              <td align="center" valign="middle">0.76, d (6.3)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">30.2</td>
+              <td align="center" valign="middle">1.66, m</td>
+              <td align="center" valign="middle">27&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">19.9</td>
+              <td align="center" valign="middle">0.78, d (6.3)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3&#x2032;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">66.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.10, m</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28&#x2032;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CH<sub>3</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.85, d (6.3)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="molecules-21-00178-t002" position="float">
+        <object-id pub-id-type="pii">molecules-21-00178-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>NMR (CDCl<sub>3</sub>) spectroscopic data for <italic>S</italic>-dehydroazasirosterol (<bold>2</bold>).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">No.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mult. </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>C</sub></italic> (ppm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>H</sub></italic> (ppm), (mult, J in Hz)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">No.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mult.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>C</sub></italic> (ppm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>H</sub></italic> (ppm), (mult, J in Hz)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">118.2</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">5&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">55.6</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">169.9 </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">6&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">75.6</td>
+              <td align="center" valign="middle">4.85, brs</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">105.4</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">7&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">116.9</td>
+              <td align="center" valign="middle">5.00, brs</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">120.9 </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">8&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">140.5</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">174.8</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">9&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">139.0</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">124.1</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">10&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">40.1</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">140.6</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">11&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">124.8</td>
+              <td align="center" valign="middle">5.68 d (5.49)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">104.1</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">12&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">41.9</td>
+              <td align="center" valign="middle">a: 2.13, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">158.4</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">b: 2.32, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">116.4</td>
+              <td align="center" valign="middle">6.82, s</td>
+              <td align="center" valign="middle">13&#x2032;</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">42.3</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">11</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">142.3</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">14&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">50.9</td>
+              <td align="center" valign="middle">2.10, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">23.6</td>
+              <td align="center" valign="middle">2.80, s</td>
+              <td align="center" valign="middle">15&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">22.7</td>
+              <td align="center" valign="middle">1.53, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">13</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">108.7</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">16&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">28.5</td>
+              <td align="center" valign="middle">1.64, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">166.2</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">17&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">55.7</td>
+              <td align="center" valign="middle">1.23, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">91.2</td>
+              <td align="center" valign="middle">4.67, q (6.6)</td>
+              <td align="center" valign="middle">18&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">11.6</td>
+              <td align="center" valign="middle">0.51, s</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">14.6</td>
+              <td align="center" valign="middle">1.46, d (6.6)</td>
+              <td align="center" valign="middle">19&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">23.5</td>
+              <td align="center" valign="middle">1.25, s</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">17</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle">43.2</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">20&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">40.3</td>
+              <td align="center" valign="middle">1.98</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">25.7</td>
+              <td align="center" valign="middle">1.54, s</td>
+              <td align="center" valign="middle">21&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">20.6</td>
+              <td align="center" valign="middle">0.98, d (6.6)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">19</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">20.7</td>
+              <td align="center" valign="middle">1.30, s</td>
+              <td align="center" valign="middle">22&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">135.3</td>
+              <td align="center" valign="middle">5.10, dd (7.7, 15.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2-OH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">16.84, s</td>
+              <td align="center" valign="middle">23&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">132.2</td>
+              <td align="center" valign="middle">5.18, dd (7.0, 15.0)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">9-OH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">9.76, s</td>
+              <td align="center" valign="middle">24&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">42.8</td>
+              <td align="center" valign="middle">1.82, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">3.98, s</td>
+              <td align="center" valign="middle">25&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">33.0</td>
+              <td align="center" valign="middle">1.43, m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">1&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">29.4</td>
+              <td align="center" valign="middle">2.01, m</td>
+              <td align="center" valign="middle">26&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">19.6</td>
+              <td align="center" valign="middle">0.78, d (6.3)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">30.3</td>
+              <td align="center" valign="middle">1.68, m</td>
+              <td align="center" valign="middle">27&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">19.9</td>
+              <td align="center" valign="middle">0.80, d (6.3)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3&#x2032;</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">66.8</td>
+              <td align="center" valign="middle">4.11, m</td>
+              <td align="center" valign="middle">28&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">17.6</td>
+              <td align="center" valign="middle">0.88, d (6.3)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4&#x2032;</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">37.0</td>
+              <td align="center" valign="middle">a: 1.54, m</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">b: 2.12, m</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <p>Compound <bold>2</bold> is structurally similar to compound <bold>1</bold>, except that the prenyl moiety is attached to the phenalenone part as a trimethyl dihydrofuran ring (<xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>) as follows. HMBC correlations (<xref ref-type="table" rid="molecules-21-00178-t002">Table 2</xref>) allowed connecting the C-15 to C-19 part of the molecule, which is an oxygenated hemiterpene unit. C-17 of this partial structure was attached to C-1 of the aromatic moiety due to heteronuclear long range couplings of H<sub>3</sub>-18 and H<sub>2</sub>-19 to C-1. Ring closure to a dihydrofuran ring occurred via the oxygen atom at C-15 to C-14 of the aromatic nucleus. The complete structural identification of <bold>2</bold> was done by extensive spectroscopic data (<xref ref-type="table" rid="molecules-21-00178-t001">Table 1</xref> and <xref ref-type="table" rid="molecules-21-00178-t002">Table 2</xref>). Compound <bold>2</bold> was isolated in this work as an epimeric pure form for the first time (<xref ref-type="app" rid="app1-molecules-21-00178">Figure S7</xref>), and it was reported before as an epimeric mixture at C-15 under the name dehydroazasirosterol [<xref ref-type="bibr" rid="B5-molecules-21-00178">5</xref>]. Therefore, we gave the name conio-azasterol and <italic>S</italic>-dehydroazasirosterol for compounds <bold>1</bold> and <bold>2</bold>, respectively.</p>
+      <p>The LC/MS, <sup>1</sup>H- and <sup>13</sup>C-NMR spectra (<xref ref-type="app" rid="app1-molecules-21-00178">Figures S13 and S14</xref>) of compound <bold>3</bold> revealed an ergostane-type compound (ergosteroid) which has the same structure as (22<italic>E</italic>,24<italic>R</italic>)-ergosta-4,6,8(14)-22-tetraen-3-one [<xref ref-type="bibr" rid="B6-molecules-21-00178">6</xref>] (<xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>).</p>
+      <p>The structures of compounds <bold>4</bold> and <bold>5</bold> were established based on extensive spectroscopic measurements as in <xref ref-type="table" rid="molecules-21-00178-t003">Table 3</xref> and <xref ref-type="table" rid="molecules-21-00178-t004">Table 4</xref>, respectively. Compound <bold>4</bold> could not be isolated in its genuine triketone form but instead as an acetone adduct (<bold>4a</bold>) on C-6 (<xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>, <xref ref-type="app" rid="app1-molecules-21-00178">Figures S15 and S16</xref>, and <xref ref-type="table" rid="molecules-21-00178-t003">Table 3</xref>). The position of acetonyl moiety of the acetone adduct was confirmed by the HMBC correlation of H<sub>2</sub>-23 to C-6. A pair of enantiomers (1:1 mixture) at C-6 was found which was confirmed by the absence of CD Cotton effects and zero optical rotation for <bold>4a</bold>. The acetone adduct of compound <bold>4</bold> (<bold>4a</bold>) is reported under the name rousselianone A&#x2032; [<xref ref-type="bibr" rid="B7-molecules-21-00178">7</xref>]. Also compound <bold>5</bold> could not be isolated in its genuine triketone form but instead as an acetone adduct (<bold>5a</bold>) on C-6 (<xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>). The position of acetonyl moiety is confirmed by the HMBC correlation of H<sub>2</sub>-23 to C-6. A pair of epimers (1:1 epimeric mixture) at C-6 was found which was confirmed by the presence of two sets of resonances for <bold>5a</bold> in the <sup>1</sup>H- and <sup>13</sup>C-NMR spectra (<xref ref-type="table" rid="molecules-21-00178-t004">Table 4</xref>, <xref ref-type="app" rid="app1-molecules-21-00178">Figures S17 and S18</xref>). The complete spectroscopic data of <bold>5a</bold> is listed in <xref ref-type="table" rid="molecules-21-00178-t004">Table 4</xref> for the first time. Compound <bold>5</bold> (entatrovenetinone) was formerly separated from <italic>Gremmeniella abietina</italic> [<xref ref-type="bibr" rid="B8-molecules-21-00178">8</xref>]. The genuine triketone compounds (<bold>4</bold> and <bold>5</bold>) were recognized <italic>via</italic> LC/MS (<italic>m/z</italic> 340) and HRESIMS at 341.1037 [M + 1]<sup>+</sup>, calc 341.1025 [M + 1]<sup>+</sup>, using additionally prepared extract prepared under nitrogen atmosphere and without subjecting the extract to acetone during the extraction process (<xref ref-type="app" rid="app1-molecules-21-00178">Figure S20</xref>).</p>
+      <table-wrap id="molecules-21-00178-t003" position="float">
+        <object-id pub-id-type="pii">molecules-21-00178-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>NMR (CDCl<sub>3</sub>) spectroscopic data for 4a.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">No.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>C</sub></italic> (ppm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Multi.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>H</sub></italic> (ppm), (mult, J in Hz)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>1</sup>H COSY</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>13</sup>C HMBC </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>1</sup>H NOESY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">97.1</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">6.37, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">2, 3, 13, 14</td>
+              <td align="center" valign="middle">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">168.8</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">101.8</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">137.1</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">197.1</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">77.7</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">199.2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">105.5</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">165.6</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">119.1</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">6.77, s</td>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">8, 9, 13</td>
+              <td align="center" valign="middle">12</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">11</td>
+              <td align="center" valign="middle">150.0</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">26.6</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">2.78, s</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">10, 11, 13</td>
+              <td align="center" valign="middle">10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">13</td>
+              <td align="center" valign="middle">113.7</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">166.5</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">18.3</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.78, s</td>
+              <td align="center" valign="middle">20, 21</td>
+              <td align="center" valign="middle">19, 21, 22</td>
+              <td align="center" valign="middle">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">19</td>
+              <td align="center" valign="middle">25.8</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.83, s </td>
+              <td align="center" valign="middle">20, 21</td>
+              <td align="center" valign="middle">18, 21, 22 </td>
+              <td align="center" valign="middle">21</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">66.3</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">4.68, d, 6.6</td>
+              <td align="center" valign="middle">18, 19, 21</td>
+              <td align="center" valign="middle">14, 21, 22</td>
+              <td align="center" valign="middle">1, 18</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">21</td>
+              <td align="center" valign="middle">117.7</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">5.54, br t, 6.6</td>
+              <td align="center" valign="middle">18, 19, 20</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">19</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">22</td>
+              <td align="center" valign="middle">139.9</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">23</td>
+              <td align="center" valign="middle">52.0</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">3.25, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">5, 6, 7, 24</td>
+              <td align="center" valign="middle">25</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle">205.6</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">23, 24</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">31.1</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">2.19, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">23</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2-OH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">13.24, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">1, 2, 3 </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9-OH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.67, s</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8, 9, 10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="molecules-21-00178-t004" position="float">
+        <object-id pub-id-type="pii">molecules-21-00178-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>NMR (CDCl<sub>3</sub>) spectroscopic data for 5a.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">No.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>C</sub></italic> (ppm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mult.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>H</sub></italic> (ppm), (mult, J in Hz)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>1</sup>H COSY</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>13</sup>C HMBC</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>1</sup>H NOESY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">118.4/118.5</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">165.5/165.4</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">102.5</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">137.4</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">196.9/196.8</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">77.1/77.3</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">199.2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">105.4</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">166.2/166.1</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">117.9</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">6.74, br s</td>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">8, 9, 12, 13</td>
+              <td align="center" valign="middle">12</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">11</td>
+              <td align="center" valign="middle">149.3</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">24.3</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">2.76, s</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">10, 11, 13</td>
+              <td align="center" valign="middle">10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">13</td>
+              <td align="center" valign="middle">109.7</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">166.1</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">91.7/91.6</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">4.64, q (6.6)</td>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">17, 18, 19</td>
+              <td align="center" valign="middle">16, 18</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">14.7</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.46, d (6.6)</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">15, 17</td>
+              <td align="center" valign="middle">15, 19</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">17</td>
+              <td align="center" valign="middle">43.3</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">25.7</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.51/1.52, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">1, 17, 19</td>
+              <td align="center" valign="middle">15</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">19</td>
+              <td align="center" valign="middle">20.6</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.30/1.27, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">1, 15, 17, 18</td>
+              <td align="center" valign="middle">16</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">23</td>
+              <td align="center" valign="middle">51.8/52.1</td>
+              <td align="center" valign="middle">CH<sub>2</sub></td>
+              <td align="center" valign="middle">3.31/3.27, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">5, 6, 7, 24</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle">206.1/205.9</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">31.1/31.0</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">2.20, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2-OH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">13.34/13.29, s</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">1, 2, 3, 5</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9-OH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.81/12.78, s</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8, 9, 10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <p>Compound <bold>6a</bold> was elucidated based on extensive spectroscopic measurements (<xref ref-type="app" rid="app1-molecules-21-00178">Figures S21&#x2013;S25</xref>). Compound <bold>6</bold> has the same structural features as in compound <bold>5</bold>, except that there is unique imine moiety at C-6 and lactone oxygen between C-8 and C-7. Compound <bold>6</bold> could not be isolated in the imine form, but in its hydrated one (<xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>). The latter was suspected due to the presence of epimeric mixture (1:1 ratio) at C-6 corroborated from the two sets of resonances in <sup>1</sup>H- and <sup>13</sup>C-NMR spectra (<xref ref-type="app" rid="app1-molecules-21-00178">Figures S21 and S22</xref>). The attachment of oxygen to C-8 was proven from its chemical shift at 130.2 ppm in the <sup>13</sup>C-NMR spectrum (<xref ref-type="table" rid="molecules-21-00178-t005">Table 5</xref>). The latter is similar to the chemical shifts in the lactone and the ketolactone compounds reported by Elsebai <italic>et al.</italic> [<xref ref-type="bibr" rid="B4-molecules-21-00178">4</xref>]. The presence of a nitrogen atom was suggested by the odd numbered molecular mass at 373 Da (HRESIMS <italic>m</italic>/<italic>z</italic>, found = 396.1057 [M + Na]<sup>+</sup>). The position of the imine at C-6 is supported by the structure of compounds <bold>1</bold> and <bold>2</bold> where the nitrogen atom is at the same position which is the mid carbonyl group. This is also chemically the most plausible position because the mid carbonyl group of a triketone system is the most active one for a transamination reaction. In addition, the respective carbon chemical shifts were in agreement with the values calculated by the ACD NMR predictor software<sup>&#xAE;</sup> (ACD laboratories) for <bold>6a</bold>. We report here the complete spectroscopic data (<xref ref-type="table" rid="molecules-21-00178-t005">Table 5</xref>) for the hydrated form of compound <bold>6</bold> (<bold>6a</bold>).</p>
+      <table-wrap id="molecules-21-00178-t005" position="float">
+        <object-id pub-id-type="pii">molecules-21-00178-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>NMR (CD<sub>3</sub>COCD<sub>3</sub>) spectroscopic data for <bold>6a</bold>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">No.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>C</sub></italic> (ppm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mult.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B4;<italic><sub>H</sub></italic> (ppm), (mult, J in Hz)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>13</sup>C HMBC</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><sup>1</sup>H-<sup>1</sup>H NOESY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">117.9</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">169.2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">94.9</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">125.8</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">189.1/189.2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">119.1 </td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">157.1</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">130.2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">146.7</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">118.5</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">6.81, s</td>
+              <td align="center" valign="middle">8, 9, 12, 13</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">11</td>
+              <td align="center" valign="middle">132.0</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">22.1</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">2.66, s</td>
+              <td align="center" valign="middle">10, 11, 13, 14</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">13</td>
+              <td align="center" valign="middle">109.8</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">167.2</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">92.06/92.13</td>
+              <td align="center" valign="middle">CH</td>
+              <td align="center" valign="middle">4.69, q (6.6)</td>
+              <td align="center" valign="middle">14, 17, 18, 19</td>
+              <td align="center" valign="middle">16, 18</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">14.8/14.7</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.51, d (6.6)</td>
+              <td align="center" valign="middle">15, 17</td>
+              <td align="center" valign="middle">19</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">17</td>
+              <td align="center" valign="middle">43.9/43.8</td>
+              <td align="center" valign="middle">C</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">25.8/26.0</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.53, s</td>
+              <td align="center" valign="middle">1, 15, 17, 19</td>
+              <td align="center" valign="middle">15</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">19</td>
+              <td align="center" valign="middle">20.9/21.0</td>
+              <td align="center" valign="middle">CH<sub>3</sub></td>
+              <td align="center" valign="middle">1.30, s</td>
+              <td align="center" valign="middle">1, 15, 17, 18</td>
+              <td align="center" valign="middle">16</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2-OH</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">12.99</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9-OH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.98</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <p>For the stereochemistry of compounds <bold>1</bold>&#x2013;<bold>6</bold>, compound <bold>2</bold> has the all stereogenic centers as in compounds <bold>1</bold>&#x2013;<bold>6</bold>. Due to the similarity in NMR chemical shifts for both compounds <bold>1</bold> and <bold>2</bold> and their identical biogenetic origin, they should have the same stereochemistry of the sterol portion; and likewise for compounds <bold>5</bold> and <bold>6</bold>, which have the phenalenone stereogenic centre at C-15 as in compound <bold>2</bold>. Therefore, the stereochemistry of compound <bold>2</bold> is discussed in details as follows.</p>
+      <p>For the sterol portion, both the type and orientation of substituents in the steroid nucleus affect their <sup>13</sup>C-NMR chemical shifts [<xref ref-type="bibr" rid="B9-molecules-21-00178">9</xref>]. Consequently, the orientation of 3&#x2032;-OH is &#x3B2; due to the <sup>13</sup>C chemical shift of C-3&#x2032; at &#x3B4;<italic><sub>C</sub></italic> 66.7 for compound <bold>1</bold> and &#x3B4;<sub>C</sub> 66.8 for compound <bold>2</bold> (the &#x3B1;-carbinol C-3&#x2032; has chemical shift around &#x3B4;<italic><sub>C</sub></italic> 71.0 [<xref ref-type="bibr" rid="B10-molecules-21-00178">10</xref>]. The NH bridge is &#x3B1;-oriented due to the NOESY correlation of NH to H-3&#x2032; (<xref ref-type="app" rid="app1-molecules-21-00178">Figures S11 and S12</xref>) which is further confirmed by enhancing the H-3&#x2032; resonance signal upon irradiation of NH resonance using 1D-NOE measurement. Also, the absence of a NOESY correlation between CH<sub>3</sub>-19&#x2032; and NH further confirmed the &#x3B1;-orientation of the amine bond. A NOESY correlation between H<sub>3</sub>-19&#x2032; and H-6&#x2032; indicated the oxygen bridge between C-7 and C-6&#x2032; to be &#x3B1;-oriented and in turn the whole phenalenone nucleus due to the planarity of the aromatic system. The phenalenone nucleus is therefore perpendicular to the flattish sterol part due to the aforementioned NOESY correlations and the <italic>trans</italic> fusion of the steroid rings A/B and C/D in addition to the planar arrangements of the middle atoms of the sterol nucleus with the C-C double bonds. H<sub>3</sub>-18&#x2032; has no NOESY correlation to H-14&#x2032; confirming the <italic>trans</italic> fusion of the steroid ring C/D and this is matching with the <italic>transoid</italic> nature of most natural steroids. H<sub>3</sub>-19&#x2032; has a NOESY correlation to H<sub>3</sub>-18&#x2032;. The &#x3B2;-orientation of the CH<sub>3</sub>-19&#x2032; group was further confirmed by its enhancement upon irradiation at the H<sub>3</sub>-18&#x2032; using a 1D-NOE measurement.</p>
+      <p>The stereochemistry of the sterol side chain was determined to be as shown in <xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>. It was determined by comparison of the <sup>13</sup>C-NMR data of compound <bold>2</bold> with those of the (22<italic>E</italic>,24<italic>R</italic>)-methyl-&#x394;<sup>22</sup>-sterol side chain of known steroids [<xref ref-type="bibr" rid="B11-molecules-21-00178">11</xref>,<xref ref-type="bibr" rid="B12-molecules-21-00178">12</xref>]. Wright <italic>et al.</italic>. [<xref ref-type="bibr" rid="B12-molecules-21-00178">12</xref>] studied the <sup>13</sup>C-NMR spectra of diastereomeric C-24 alkyl sterols and they found that the differences in the <sup>13</sup>C-NMR chemical shifts of side-chain carbons permitted the determination of the absolute configuration at C-24, and stated that the absolute configuration of the sterol side chain can be determined by the <sup>13</sup>C chemical shifts of the respective carbons. Wright <italic>et al.</italic>. [<xref ref-type="bibr" rid="B12-molecules-21-00178">12</xref>] found that specifically the resonance for the C-28&#x2032; methyl carbon appears at a characteristic value of 17.6 &#xB1; 0.1 ppm in the 24<italic>R</italic> epimer. Interestingly, in compounds <bold>1</bold>&#x2013;<bold>3</bold>, the <sup>13</sup>C chemical shifts of C-28&#x2032; are the same which is 17.6 ppm, although the main sterol skeletons in compounds <bold>1</bold>&#x2013;<bold>3</bold> are not similar, indicating the <italic>R</italic> configuration at C-24&#x2032; for all of them. This is possible since these chemical shifts are insensitive to structural changes remote from the C-24&#x2032; stereogenic centre [<xref ref-type="bibr" rid="B12-molecules-21-00178">12</xref>]. Further confirmation of the 24&#x2032;<italic>R</italic> configuration was described by Goad <italic>et al.</italic>. [<xref ref-type="bibr" rid="B13-molecules-21-00178">13</xref>] who recognized that many sterols of plants and microorganisms contain a methyl or ethyl group at C-24&#x2032;, and both C-24&#x2032; diastereoisomers have been found to occur naturally. Goad <italic>et al.</italic>. [<xref ref-type="bibr" rid="B13-molecules-21-00178">13</xref>] established that there appears to be some phylogenetic significance to the configuration at C-24&#x2032;, since, in general, algae and fungi produce sterols with the 24<italic>&#x2032;R</italic> configuration (24&#x2032;<italic>S</italic> if a saturated side chain, 24&#x2032;<italic>R</italic> in the &#x394;<sup>22</sup> derivative) whereas sterols in most vascular plants possess the 24&#x2032;<italic>S</italic> configuration. The presence of NOESY correlation between H<sub>3</sub>-18&#x2032;/H-20&#x2032; and between H-14&#x2032;/H<sub>3</sub>-21&#x2032; indicated that the sterol side chain is &#x3B2;-oriented to the main sterol nucleus and the <italic>transoid</italic> nature of rings C/D (<xref ref-type="fig" rid="molecules-21-00178-f001">Figure 1</xref>). We assume a <italic>S</italic> configuration of the single stereogenic center of the phenalenone nucleus at C-15 for compounds <bold>2</bold>, <bold>5</bold>, and <bold>6</bold> based on the same biogenetic origin as the previously reported compounds from the same fungus [<xref ref-type="bibr" rid="B4-molecules-21-00178">4</xref>,<xref ref-type="bibr" rid="B14-molecules-21-00178">14</xref>].</p>
+      <p>All the compounds were evaluated for their antimicrobial and cytotoxic activity. All the compounds showed marginal antibacterial activities in agar diffusion assays against <italic>Staphylococcus aureus</italic>, <italic>Escherichia coli</italic>, <italic>Pseudomonas aeruginosa</italic>, and <italic>Candida albicans</italic>. The cytotoxicity of compounds <bold>1</bold>, <bold>2</bold>, <bold>4a</bold>, <bold>5a</bold>, and <bold>6a</bold> was evaluated against SKM1, U266, and K562 cancer cell lines which are widely used for cytotoxicity assays, and the IC<sub>50</sub> values in &#xB5;M (XTT assay). Only compound <bold>6a</bold> exhibited moderate cytotoxic activities with IC<sub>50</sub> values between 75, 45, and 8.5 &#xB5;M against SKM1, U266, and K562 cancer cell lines, respectively (<italic>n</italic> = 3).</p>
+      <sec>
+        <title>Molecular Docking Study</title>
+        <p>In silico docking is a very famous method employed to investigate molecular association. The knowing of the binding capabilities of the active site residues to specific groups on the agonist or antagonist leads to various strategies for the synthesis of very specific agents with a high probability of biological action. In silico docking experiments were conducted for compounds <bold>1</bold> and <bold>2</bold> against the X-ray crystal structure of b-estradiol-bound ER&#x3B1; receptor ligand binding domain (ER&#x3B1;-LBD, PDB: 1A52) [<xref ref-type="bibr" rid="B13-molecules-21-00178">13</xref>], to compare the binding affinity of the tested compounds. Estrogen (standard drug) reveals Mol-Dock score of &#x2212;105.9 and forms three hydrogen bonds between its phenolic OH moiety and Glu 353 with a bond distance of 2.41 &#xC5; and another bond with Arg 394 with bond distance of 3.19 &#xC5; and the alcoholic OH form one hydrogen bond with His 524 with bond distance of 2.70 &#xC5; (<xref ref-type="fig" rid="molecules-21-00178-f003">Figure 3</xref>). Compounds <bold>1</bold> and <bold>2</bold> exhibited binding scores &#x2212;77.61 and &#x2212;18.54, respectively. Compound <bold>1</bold> has relatively good MolDock score and made two hydrogen bonds with same amino acids in the active site of ER&#x3B1;-LBD.</p>
+        <fig id="molecules-21-00178-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Estrogen showed hydrogen bonds interactions with ER&#x3B1;-LBD active site.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00178-g003.tif"/>
+        </fig>
+        <p>Arg 394 and His 524 with bond lengths 3.19 &#xC5; and 3.47 &#xC5;, respectively, in addition to hydrophobic interaction with Phe 404 and Trp 383 (<xref ref-type="fig" rid="molecules-21-00178-f004">Figure 4</xref>). The position of compound <bold>1</bold> in the active site overlaps well with Estrogen (standard drug) (<xref ref-type="fig" rid="molecules-21-00178-f005">Figure 5</xref>) and this means a good quality of the docking process. Compound <bold>2</bold> has relatively very low MolDock score and weak interaction with receptor.</p>
+        <fig id="molecules-21-00178-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Compound <bold>1</bold> showed hydrogen bonds interaction with ER&#x3B1;-LBD active site.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00178-g004.tif"/>
+        </fig>
+        <fig id="molecules-21-00178-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Compound <bold>1</bold> (red molecule) superimposed with standard drug (green molecule) in ER&#x3B1;-LBD active site (Color figure online).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00178-g005.tif"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="sec3-molecules-21-00178">
+      <title>3. Materials and Methods</title>
+      <sec id="sec3dot1-molecules-21-00178" sec-type="methods">
+        <title>3.1. General Experimental Procedures</title>
+        <p>UV and IR spectra were obtained employing Perkin-Elmer Lambda 40 and Perkin-Elmer Spectrum BX instruments (PerkinElmer, Inc., Waltham, USA), respectively. VLC grade (Macherey-Nagel, Polygoprep 60-50C18) was used for vacuum liquid chromatography. All organic solvents were distilled prior to use. HPLC was carried out using a Waters system, controlled by Waters Millenium software, consisting of a 600E pump, a 996 PDA, and a 717 plus autosampler (Waters Corporation, Milford, MA, USA). All NMR spectra were recorded on a Bruker Avance 300 and 500 DRX spectrometers (Bruker Corporation, Rheinstetten, Germany). Spectra were referenced to the residual solvent signals with resonances at &#x3B4;<italic><sub>H/C</sub></italic> 2.04/29.8 (acetone-<italic>d</italic><sub>6</sub>) and &#x3B4;<italic><sub>H/C</sub></italic> 7.26/77.0 (CDCl<sub>3</sub>). ESI mass spectra were obtained on an Applied Biosystems/MDS Sciex API 2000 MS spectrometer (Applera Corporation and MDS Inc., Foster, CA, USA). HRESIMS were recorded on a Bruker Daltonik micrOTOF-Q Time-of-Flight mass spectrometer with ESI source, and UPLC-Synapt G2 HDMS mass spectrometer (Bruker CorporationCompany, Rheinstetten, Germany).</p>
+      </sec>
+      <sec id="sec3dot2-molecules-21-00178">
+        <title>3.2. Origin of the Algal Sample and Isolation of the Fungus</title>
+        <p>An algal sample <italic>Enteromorpha</italic> sp. was collected from Fehmarn, Baltic Sea. The isolation of the fungus from the host tissues was carried out through single colony isolation method as follows. Algal samples were rinsed three times with sterile H<sub>2</sub>O. After surface sterilization with 70% EtOH for 15 s the algae was rinsed in sterile artificial seawater (ASW). Subsequently, the algae were aseptically cut into small pieces and placed on agar plates containing isolation medium: agar 15 g/L, ASW 800 mL/L, glucose 1 g/L, peptone from soymeal 0.5 g/L, yeast extract 0.1 g/L, benzyl penicillin 250 mg/L, and streptomycin sulfate 250 mg/L. The fungus growing out of the algal tissue was separated on biomalt medium (biomalt 20 g/L, agar 10 g/L, ASW 800 mL/L) until the culture was pure.</p>
+      </sec>
+      <sec id="sec3dot3-molecules-21-00178">
+        <title>3.3. Cultivation, Extraction and Isolation of Compounds <italic><bold>1</bold>&#x2013;<bold>6</bold></italic></title>
+        <p>The fungal strain <italic>Coniothyrium cereale</italic> was cultivated for 40 days on 10 L solid BMS medium (Gesundheitsprodukte GmbH, Kirn, Germany) with agar (15 g/L) at room temperature in 40 Fernbach flasks. Afterwords, the fungal biomass and media were homogenized using an Ultra-Turrax apparatus and extracted with 8 L EtOAc to yield 10.0 g of crude extract. This material was fractionated by RP VLC using a stepwise gradient solvent system of increasing polarity starting from 50% methanol and 50% water to 100% methanol which yielded 12 fractions. RP-HPLC separation of the subfraction 11 (column: Waters Atlantis C<sub>18</sub>, 250 &#xD7; 4.6 mm, 5 &#xB5;m; methanol/H<sub>2</sub>O (95:5), flow rate 2 mL/min) afforded compounds <bold>1</bold>&#x2013;<bold>3</bold>. RP-HPLC separation of the subfraction 6 (column: Waters Atlantis C<sub>18</sub>, 250 &#xD7; 4.6 mm, 5 &#xB5;m; acetonitrile/H<sub>2</sub>O (70:30), flow rate 1.5 mL/min) afforded compounds <bold>4</bold>&#x2013;<bold>6</bold>.</p>
+        <p><italic>Conio-azasterol</italic> (<bold>1</bold>): Yellowish brown powder (7.5 mg; 0.7 mg&#xB7;L<sup>&#x2212;1</sup>); UV &#x3BB;<sub>max</sub> MeOH (log &#x3B5;): 395 (4.90), 245 (4.11) nm; <inline-formula>
+          <mml:math id="mm1" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:msubsup>
+				  <mml:mrow>
+				  <mml:mo>[</mml:mo>
+                  <mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi>
+				  <mml:mo>]</mml:mo>
+				  </mml:mrow>
+                  <mml:mi>D</mml:mi>
+				  <mml:mn>24</mml:mn>
+                </mml:msubsup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </inline-formula> = +90 (C 0.3, CHCl<sub>3</sub>); IR &#x3BD;max (ATR): 3354, 2919, 2850, 1741, 1711, 1609, 1461, 1371, 1193, 1064, 1032, 977 cm<sup>&#x2212;1</sup>; <sup>1</sup>H- and <sup>13</sup>C-NMR see supp. info. <xref ref-type="table" rid="molecules-21-00178-t001">Table 1</xref>; (+)-HRESIMS: <italic>m</italic>/<italic>z</italic> found = 756.4235 [M + Na]<sup>+</sup> and <italic>m</italic>/<italic>z</italic> calcld = 756.4240 [M + Na]<sup>+</sup>.</p>
+        <p><italic>S</italic><italic>-Dehydroazasirosterol</italic> (<bold>2</bold>): Yellowish brown powder (9.3 mg; 0.9 mg&#xB7;L<sup>&#x2212;1</sup>); UV &#x3BB;<sub>max</sub> MeOH (log &#x3B5;): 395 (4.81), 240 (4.50) nm; <inline-formula>
+          <mml:math id="mm2" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:msubsup>
+				  <mml:mrow>
+				  <mml:mo>[</mml:mo>
+                  <mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi>
+				  <mml:mo>]</mml:mo>
+				  </mml:mrow>
+                  <mml:mi>D</mml:mi>
+				  <mml:mn>24</mml:mn>
+                </mml:msubsup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </inline-formula> = +35 (C 0.6, CHCl<sub>3</sub>); IR &#x3BD;<sub>max</sub> (ATR): 3382, 2919, 2850, 2358, 1737, 1711, 1608, 1461, 1371, 1295, 1193, 1064, 1033, 977, 861 cm<sup>&#x2212;1</sup>; <sup>1</sup>H- and <sup>13</sup>C-NMR see supp. info. <xref ref-type="table" rid="molecules-21-00178-t002">Table 2</xref>; (+)-HRESIMS: <italic>m</italic>/<italic>z</italic> found = 756.4235 [M + Na]<sup>+</sup> and <italic>m</italic>/<italic>z</italic> calcld = 756.4240 [M + Na]<sup>+</sup>.</p>
+        <p><italic>(22E,24R)-Ergosta-4,6,8(14)22-tetraen-3-one</italic> (<bold>3</bold>): Yellowish brown powder (8.5 mg; 0.8 mg&#xB7;L<sup>&#x2212;1</sup>); <sup>13</sup>C-NMR (75 MHz; CDCl<sub>3</sub>, 25 &#xB0;C): &#x3B4; 34.0 (CH<sub>2</sub>-1), 18.9 (CH<sub>2</sub>-2), 200.5 (C-3), 122.6 (CH-4), 165.6 (C-5), 124.3 (CH-6), 134.6 (CH-7), 124.3 (C-8), 44.2 (CH-9), 36.8 (C-10), 25.4 (CH<sub>2</sub>-11), 34.0 (CH<sub>2</sub>-12), 44.0 (C-13), 156.7 (C-14), 35.5 (CH<sub>2</sub>-15), 27.7 (CH<sub>2</sub>-16), 55.6 (CH-17), 18.9 (CH<sub>3</sub>-18), 16.6 (CH<sub>3</sub>-19), 39.3 (CH-20), 21.2 (CH<sub>3</sub>-21), 134.9 (CH-22), 132.2 (CH-23), 42.8 (CH-24), 33.1 (CH-25), 19.6 (CH<sub>3</sub>-26), 19.9 (CH<sub>3</sub>-27), 17.6 (CH<sub>3</sub>-28); (&#x2212;)ESIMS <italic>m</italic>/<italic>z</italic> = 391.6 [M &#x2212; H]<sup>&#x2212;</sup>.</p>
+        <p><italic>The acetone adduct of c</italic><italic>ompound <bold>4</bold></italic> (<bold>4a</bold>): Yellowish brown powder (10 mg; 1.0 mg&#xB7;L<sup>&#x2212;1</sup>); UV &#x3BB;<sub>max</sub> MeOH (log &#x3B5;): 331 (4.01), 255 (3.91), 216 (3.81) nm; IR &#x3BD;<sub>max</sub> (ATR): 2919, 2850, 2359, 1708, 1608, 1460, 1379, 1206, 836, 720, 668, 534 cm<sup>&#x2212;1</sup>; <sup>1</sup>H- and <sup>13</sup>C-NMR see supp. info. <xref ref-type="table" rid="molecules-21-00178-t003">Table 3</xref>; (+)-HRESIMS: <italic>m</italic>/<italic>z</italic> found = 421.1258 [M + Na]<sup>+</sup> and <italic>m</italic>/<italic>z</italic> calcld = 421.1264 [M + Na]<sup>+</sup>.</p>
+        <p><italic>The acetone adduct of c</italic><italic>ompound <bold>5</bold></italic> (<bold>5a</bold>): Yellowish brown powder (12 mg; 1.2 mg&#xB7;L<sup>&#x2212;1</sup>); <sup>1</sup>H- and <sup>13</sup>C-NMR see supp. info. <xref ref-type="table" rid="molecules-21-00178-t004">Table S4</xref>; (+)-HRESIMS: <italic>m</italic>/<italic>z</italic> found = 421.1260 [M + Na]<sup>+</sup> and <italic>m</italic>/<italic>z</italic> calcld= 421.1264 [M + Na]<sup>+</sup>.</p>
+        <p><italic>The hydrated form of c</italic><italic>ompound <bold>6</bold></italic> (<bold>6a</bold>): Yellowish green powder (6.5 mg; 0.6 mgL<sup>&#x2212;1</sup>); UV &#x3BB;<sub>max</sub> MeOH (log &#x3B5;): 385 (4.91), 242 (4.21) nm; IR &#x3BD;<sub>max</sub> (ATR): 3380, 2920, 2853, 2458, 1740, 1717, 1610, 1465, 1373, 1300, 1195, 1065, 1030, 970, 862 cm<sup>&#x2212;1</sup>; <sup>1</sup>H- and <sup>13</sup>C-NMR see supp. info. <xref ref-type="table" rid="molecules-21-00178-t005">Table 5</xref>; (+)-HRESIMS: <italic>m</italic>/<italic>z</italic> found = 396.1057 [M + Na]<sup>+</sup> and <italic>m</italic>/<italic>z</italic> calcld = 396.1059 [M + Na]<sup>+</sup>.</p>
+      </sec>
+      <sec id="sec3dot4-molecules-21-00178">
+        <title>3.4. Biological Activity</title>
+        <p>Cell Lines. The human cancer cell lines K562 (chronic myelogenous leukemia), U266 (myeloma), SKM1 (myelodysplastic symdrom), and Kasumi (acute myeloid leukemia) were provided by ATCC and were grown at 37 &#xB0;C under 10% CO<sub>2</sub> in RPMI 1640 medium (Gibco BRL, Paisley, UK) supplemented with 10% FCS (Gibco BRL, Paisley, UK) completed with 50 units/mL penicillin, 50 mg/mL streptomycin, and 1 mM sodium pyruvate.</p>
+        <p>Measurement of Cell Metabolism (XTT). Cells (10 &#xD7; 10<sup>4</sup>/mL) were incubated with <bold>1</bold> or <bold>2</bold> for the times indicated. 50 &#xB5;L of XTT kit (sodium 39-[1-(phenylaminocarbonyl)-3,4-tetrazolium]-bis(4-methoxy-6-nitro)benzene sulfonic acid hydrate) was added to each well, which contain 100 &#xB5;L of medium. Absorbance of the formazan dye produced by metabolically active cells was measured at 490 nm. Each assay was performed in quadruplicate.</p>
+      </sec>
+      <sec id="sec3dot5-molecules-21-00178">
+        <title>3.5. Molecular Modeling</title>
+        <p>All the modeling studies were carried out on a laptop PC, Intel<sup>&#xA9;</sup> Core&#x2122; i7-3630QM CPU @ 2.40 GHz, RAM 8 GB operating under Windows 7 professional. It consists of several steps. First, the 3D crystal structures of ER&#x3B1;-LBD with PDB code 1A52 [<xref ref-type="bibr" rid="B15-molecules-21-00178">15</xref>] were downloaded from Brookhaven Protein Data loaded to Molegro Virtual Docker (MVD 2013.6.0.0 [Win32], CLC Bio Company, Aarhus, Denmark) program fully functional free trial version with time limiting license (Molegro Virtual Docker (MVD 2013.6.0). ChemBio3D Ultra 10 [<xref ref-type="bibr" rid="B16-molecules-21-00178">16</xref>] was used to draw the 3D structures of different ligands. Ligands were further pre-optimized using a free version of Marvinsketch 4.1.13 from Chemaxon Ltd (Marvinsketch, version 6.1.0, ChemAxon company cheminformatics technology products services, Budapest, Hungary, 2013, <uri>http://www.chemaxon.com</uri>) with MM force field and saved in Tripos mol2 file format. MolDock score functions were used with a 0.3 &#xC5; grid resolution. Prior to the calculations of the subject compounds, the MVD software was benchmarked docking the Estrogen.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-molecules-21-00178" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Marine fungi are promising inspiring sources for new chemical skeletons. This work introduced new and promising alkaloidal phenalenone derivatives from the marine-derived endophytic fungus <italic>Coniothyrium cereale</italic>. The unusual heterodimer compounds <bold>1</bold> and <bold>2</bold> are composed of a sterol portion condensed to phenalenone derivatives. Compound <bold>6</bold> contains unprecedented imine functionality between two carbonyl groups to form an oxepane-imine ring.</p>
+    </sec>
+  </body>
+  <back>
+  <app-group>
+    <app id="app1-molecules-21-00178">
+      <title>Supplementary Materials</title>
+	  <supplementary-material id="molecules-21-00178-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00178-s001.docx">
+    </supplementary-material>
+      <p>Supplementary materials can be accessed at: <uri>www.mdpi.com/1420-3049/21/2/178</uri>. 1D- and 2D-NMR data for compounds <bold>1</bold>, <bold>2</bold>, and <bold>6</bold>, and the NOESY correlations of compound <bold>1</bold>, 1D-NMR data for compounds <bold>3</bold>&#x2013;<bold>5</bold>, for online publication.</p>
+    </app>
+  </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to extend their sincere appreciation to the Deanship of Scientific Research at King Saud University for its funding of this research through the Research Group Project NO (RGP-1436-038).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>First author: fungal manipulation, chromatographic isolation and spectroscopic identification of all compounds. Second author: molecular docking and funding. Third author: biological evaluation.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-molecules-21-00178">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elsebai</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Saleem</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tejesvi</surname>
+              <given-names>M.V.</given-names>
+            </name>
+			<name>
+              <surname>Kajula</surname>
+              <given-names>M.</given-names>
+            </name>
+			<name>
+              <surname>Mattila</surname>
+              <given-names>S.</given-names>
+            </name>
+			<name>
+              <surname>Mehiri</surname>
+              <given-names>M.</given-names>
+            </name>
+			<name>
+              <surname>Turpeinen</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fungal phenalenones: Chemistry, biology, biosynthesis and phylogeny</article-title>
+          <source>Nat. Prod. Rep.</source>
+          <year>2014</year>
+          <volume>31</volume>
+          <fpage>628</fpage>
+          <lpage>645</lpage>
+          <pub-id pub-id-type="doi">10.1039/c3np70088g</pub-id>
+          <pub-id pub-id-type="pmid">24686921</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-molecules-21-00178">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kelecom</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Secondary metabolites from marine microorganisms</article-title>
+          <source>An. Acad. Bras. Cienc.</source>
+          <year>2002</year>
+          <volume>74</volume>
+          <fpage>151</fpage>
+          <lpage>170</lpage>
+          <pub-id pub-id-type="doi">10.1590/S0001-37652002000100012</pub-id>
+          <pub-id pub-id-type="pmid">11960184</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-molecules-21-00178">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Imhoff</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Natural Products from Marine Fungi&#x2014;Still an Underrepresented Resource</article-title>
+          <source>Mar. Drugs</source>
+          <year>2016</year>
+          <volume>14</volume>
+          <fpage>19</fpage>
+          <pub-id pub-id-type="doi">10.3390/md14010019</pub-id>
+          <pub-id pub-id-type="pmid">26784209</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-molecules-21-00178">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elsebai</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Kehraus</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lindequist</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Sasse</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Shaaban</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Guetschow</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Josten</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sahl</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Koenig</surname>
+              <given-names>G.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antimicrobial phenalenone derivatives from the marine-derived fungus Coniothyrium cereale</article-title>
+          <source>Org. Biomol. Chem.</source>
+          <year>2011</year>
+          <volume>9</volume>
+          <fpage>802</fpage>
+          <lpage>808</lpage>
+          <pub-id pub-id-type="doi">10.1039/C0OB00625D</pub-id>
+          <pub-id pub-id-type="pmid">21103541</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-molecules-21-00178">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayer</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirosterol and dehydroazasirosterol, unusual steroidal adducts from a Sirococcus species</article-title>
+          <source>Can. J. Chem.</source>
+          <year>1992</year>
+          <volume>70</volume>
+          <fpage>1905</fpage>
+          <lpage>1913</lpage>
+          <pub-id pub-id-type="doi">10.1139/v92-238</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-molecules-21-00178">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jinming</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jikai</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel sterol from Chinese truffles Tuber indicum</article-title>
+          <source>Steroids</source>
+          <year>2001</year>
+          <volume>66</volume>
+          <fpage>771</fpage>
+          <lpage>775</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0039-128X(01)00105-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-molecules-21-00178">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiao</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+            <name>
+              <surname>Kumazawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tomita</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yoshikawa</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mikawa</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rousselianone A, novel antibiotic related to phenalenone produced by Phaeosphaeria rousseliana</article-title>
+          <source>J. Antibiot.</source>
+          <year>1993</year>
+          <volume>46</volume>
+          <fpage>1570</fpage>
+          <lpage>1574</lpage>
+          <pub-id pub-id-type="doi">10.7164/antibiotics.46.1570</pub-id>
+          <pub-id pub-id-type="pmid">8244885</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-molecules-21-00178">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayer</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Hoyano</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Pedras</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>van Altena</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolites produced by the Scleroderris canker fungus, Gremmeniella abietina. Part 1</article-title>
+          <source>Can. J. Chem.</source>
+          <year>1986</year>
+          <volume>64</volume>
+          <fpage>1585</fpage>
+          <lpage>1589</lpage>
+          <pub-id pub-id-type="doi">10.1139/v86-262</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-molecules-21-00178">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dias</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title><sup>13</sup>C nuclear magnetic resonance data of lanosterol derivatives-Profiling the steric topology of the steroid skeleton via substituent effects on its <sup>13</sup>C-NMR</article-title>
+          <source>Spectrochim. Acta A Mol. Biomol. Spectrosc.</source>
+          <year>2009</year>
+          <volume>74</volume>
+          <fpage>1064</fpage>
+          <lpage>1071</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.saa.2009.09.005</pub-id>
+          <pub-id pub-id-type="pmid">19800838</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-molecules-21-00178">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blunt</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Stother</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title><sup>13</sup>C N.M.R. Spectra of Steroids&#x2014;A Survey and Commentary</article-title>
+          <source>Org. Magn. Reson.</source>
+          <year>1977</year>
+          <volume>9</volume>
+          <fpage>439</fpage>
+          <lpage>464</lpage>
+          <pub-id pub-id-type="doi">10.1002/mrc.1270090802</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-molecules-21-00178">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishizuka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yaoita</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kikuchi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sterol constituents from the fruit bodies of Grifola frondosa (Fr.) S.F. Gray</article-title>
+          <source>Chem. Pharm. Bull.</source>
+          <year>1997</year>
+          <volume>45</volume>
+          <fpage>1756</fpage>
+          <lpage>1760</lpage>
+          <pub-id pub-id-type="doi">10.1248/cpb.45.1756</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-molecules-21-00178">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wright</surname>
+              <given-names>J.L.C.</given-names>
+            </name>
+            <name>
+              <surname>Mcinnes</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Khalil</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Idler</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of C-24 alkyl epimers of marine sterols by <sup>13</sup>C nuclear magnetic resonance spectroscopy</article-title>
+          <source>Can. J. Chem.</source>
+          <year>1978</year>
+          <volume>56</volume>
+          <fpage>1898</fpage>
+          <lpage>1903</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-molecules-21-00178">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goad</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Goodwin</surname>
+              <given-names>T.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phytosterol Side Chain Biosynthesis 1</article-title>
+          <source>Lipids</source>
+          <year>1974</year>
+          <volume>9</volume>
+          <fpage>582</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02532508</pub-id>
+          <pub-id pub-id-type="pmid">4278900</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-molecules-21-00178">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elsebai</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Natesan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kehraus</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mohamed</surname>
+              <given-names>I.E.</given-names>
+            </name>
+            <name>
+              <surname>Schnakenburg</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sasse</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Shaaban</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gutschow</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Konig</surname>
+              <given-names>G.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>HLE-inhibitory alkaloids with a polyketide skeleton from the marine-derived fungus Coniothyrium cereale</article-title>
+          <source>J. Nat. Prod.</source>
+          <year>2011</year>
+          <volume>74</volume>
+          <fpage>2282</fpage>
+          <lpage>2285</lpage>
+          <pub-id pub-id-type="doi">10.1021/np2004227</pub-id>
+          <pub-id pub-id-type="pmid">21923104</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-molecules-21-00178">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanenbaum</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Sigler</surname>
+              <given-names>P.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystallographic comparison of the estrogen and progesterone receptor&#x2019;s ligand binding domains</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1998</year>
+          <volume>95</volume>
+          <fpage>5998</fpage>
+          <lpage>6003</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.95.11.5998</pub-id>
+          <pub-id pub-id-type="pmid">9600906</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-molecules-21-00178">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kerwin</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>ChemBioOffice Ultra 2010 suite</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2010</year>
+          <volume>132</volume>
+          <fpage>2466</fpage>
+          <lpage>2467</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja1005306</pub-id>
+          <pub-id pub-id-type="pmid">20121088</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Sample Availability:</bold> Not available.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

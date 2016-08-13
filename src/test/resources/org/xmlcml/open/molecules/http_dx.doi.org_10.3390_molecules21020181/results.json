@@ -1,0 +1,85 @@
+{
+  "publisher": {
+    "value": [
+      "Multidisciplinary Digital Publishing Institute"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Molecules"
+    ]
+  },
+  "title": {
+    "value": [
+      "Thiourea-Modified TiO2 Nanorods with Enhanced Photocatalytic Activity"
+    ]
+  },
+  "authors": {
+    "value": []
+  },
+  "date": {
+    "value": [
+      "2016-02-01"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.3390/molecules21020181"
+    ]
+  },
+  "volume": {
+    "value": [
+      "21"
+    ]
+  },
+  "issue": {
+    "value": [
+      "2"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "181"
+    ]
+  },
+  "description": {
+    "value": [
+      "Semiconductor TiO2 photocatalysis has attracted much attention due to its potential application in solving the problems of environmental pollution. In this paper, thiourea (CH4N2S) modified anatase TiO2 nanorods were fabricated by calcination of the mixture of TiO2 nanorods and thiourea at 600 °C for 2 h. It was found that only N element was doped into the lattice of TiO2 nanorods. With increasing the weight ratio of thiourea to TiO2 (R) from 0 to 8, the light-harvesting ability of the photocatalyst steady increases. Both the crystallization and photocatalytic activity of TiO2 nanorods increase first and then decrease with increase in R value, and R2 sample showed the highest crystallization and photocatalytic activity in degradation of Brilliant Red X3B (X3B) and Rhodamine B (RhB) dyes under visible light irradiation (λ &gt; 420 nm). The increased visible-light photocatalytic activity of the prepared N-doped TiO2 nanorods is due to the synergistic effects of the enhanced crystallization, improved light-harvesting ability and reduced recombination rate of photo-generated electron-hole pairs. Note that the enhanced visible photocatalytic activity of N-doped nanorods is not based on the scarification of their UV photocatalytic activity."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Semiconductor TiO2 photocatalysis has attracted much attention due to its potential application in solving the problems of environmental pollution. In this paper, thiourea (CH4N2S) modified anatase TiO2 nanorods were fabricated by calcination of the mixture of TiO2 nanorods and thiourea at 600 °C for 2 h. It was found that only N element was doped into the lattice of TiO2 nanorods. With increasing the weight ratio of thiourea to TiO2 (R) from 0 to 8, the light-harvesting ability of the photocatalyst steady increases. Both the crystallization and photocatalytic activity of TiO2 nanorods increase first and then decrease with increase in R value, and R2 sample showed the highest crystallization and photocatalytic activity in degradation of Brilliant Red X3B (X3B) and Rhodamine B (RhB) dyes under visible light irradiation (λ &gt; 420 nm). The increased visible-light photocatalytic activity of the prepared N-doped TiO2 nanorods is due to the synergistic effects of the enhanced crystallization, improved light-harvesting ability and reduced recombination rate of photo-generated electron-hole pairs. Note that the enhanced visible photocatalytic activity of N-doped nanorods is not based on the scarification of their UV photocatalytic activity."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/181/htm"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/181/pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/181/xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": []
+  },
+  "copyright": {
+    "value": []
+  }
+}

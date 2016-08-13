@@ -1,0 +1,100 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:41:51Z",
+    "timestamp": 1467474111270
+  },
+  "reference-count": 80,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/inorganics4020018",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "18",
+  "source": "CrossRef",
+  "title": [
+    "Tetrapropylammonium Occlusion in Nanoaggregates of Precursor of Silicalite-1 Zeolite Studied by 1H and 13C NMR"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Haouas",
+      "given": "Mohamed"
+    },
+    {
+      "affiliation": [],
+      "family": "Petry",
+      "given": "David"
+    },
+    {
+      "affiliation": [],
+      "family": "Anderson",
+      "given": "Michael"
+    },
+    {
+      "affiliation": [],
+      "family": "Taulelle",
+      "given": "Francis"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Inorganics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:13:37Z",
+    "timestamp": 1467468817000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "inorganics4020018"
+  ],
+  "URL": "http://dx.doi.org/10.3390/inorganics4020018",
+  "ISSN": [
+    "2304-6740"
+  ]
+}

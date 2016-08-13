@@ -1,0 +1,135 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        27
+      ]
+    ],
+    "date-time": "2016-06-27T17:41:08Z",
+    "timestamp": 1467049268286
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/acp-2016-412",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T09:21:15Z",
+    "timestamp": 1464772875000
+  },
+  "page": "1-30",
+  "source": "CrossRef",
+  "title": [
+    "Impacts of heterogeneous uptake of dinitrogen pentoxide and chlorine activation on ozone and reactive nitrogen partitioning: Improvement and application of WRF-Chem model in southern China"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Qinyi"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Li"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Tao"
+    },
+    {
+      "affiliation": [],
+      "family": "Tham",
+      "given": "Yee Jun",
+      "ORCID": "http://orcid.org/0000-0001-7924-5841"
+    },
+    {
+      "affiliation": [],
+      "family": "Ahmadov",
+      "given": "Ravan"
+    },
+    {
+      "affiliation": [],
+      "family": "Xue",
+      "given": "Likun"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Qiang"
+    },
+    {
+      "affiliation": [],
+      "family": "Zheng",
+      "given": "Junyu"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Atmospheric Chemistry and Physics Discussions",
+    "Atmos. Chem. Phys. Discuss."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        27
+      ]
+    ],
+    "date-time": "2016-06-27T15:59:42Z",
+    "timestamp": 1467043182000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/acp-2016-412",
+  "ISSN": [
+    "1680-7375"
+  ]
+}

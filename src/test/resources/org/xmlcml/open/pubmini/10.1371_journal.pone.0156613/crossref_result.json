@@ -1,0 +1,144 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:54Z",
+    "timestamp": 1464835314412
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "R01 OH009939-01"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Institute for Occupational Safety and Health",
+      "DOI": "10.13039/100000125"
+    },
+    {
+      "award": [
+        "R01-AG026291-01"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Institute on Aging",
+      "DOI": "10.13039/100000049"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156613",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:27Z",
+    "timestamp": 1464828927000
+  },
+  "page": "e0156613",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Ischemic Heart Disease Incidence in Relation to Fine versus Total Particulate Matter Exposure in a U.S. Aluminum Industry Cohort"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Neophytou",
+      "given": "Andreas M."
+    },
+    {
+      "affiliation": [],
+      "family": "Noth",
+      "given": "Elizabeth M."
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Sa"
+    },
+    {
+      "affiliation": [],
+      "family": "Costello",
+      "given": "Sadie"
+    },
+    {
+      "affiliation": [],
+      "family": "Hammond",
+      "given": "S. Katharine"
+    },
+    {
+      "affiliation": [],
+      "family": "Cullen",
+      "given": "Mark R."
+    },
+    {
+      "affiliation": [],
+      "family": "Eisen",
+      "given": "Ellen A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:10Z",
+    "timestamp": 1464828970000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Coulombe",
+      "given": "Roger A"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156613",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

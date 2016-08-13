@@ -1,0 +1,139 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:40Z",
+    "timestamp": 1464835300616
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "UM.C/625/1/HIR/MOHE/CHAN-02 - Molecular Genetics"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Universiti Malaya",
+      "DOI": "10.13039/501100004386"
+    },
+    {
+      "award": [
+        "BT/PR6921/MED/29/699/2013"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Department of Biotechnology , Ministry of Science and Technology",
+      "DOI": "10.13039/501100001407"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0155459",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:00Z",
+    "timestamp": 1464829020000
+  },
+  "page": "e0155459",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Contig-Layout-Authenticator (CLA): A Combinatorial Approach to Ordering and Scaffolding of Bacterial Contigs for Comparative Genomics and Molecular Epidemiology"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Shaik",
+      "given": "Sabiha"
+    },
+    {
+      "affiliation": [],
+      "family": "Kumar",
+      "given": "Narender"
+    },
+    {
+      "affiliation": [],
+      "family": "Lankapalli",
+      "given": "Aditya K."
+    },
+    {
+      "affiliation": [],
+      "family": "Tiwari",
+      "given": "Sumeet K."
+    },
+    {
+      "affiliation": [],
+      "family": "Baddam",
+      "given": "Ramani"
+    },
+    {
+      "affiliation": [],
+      "family": "Ahmed",
+      "given": "Niyaz"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:12Z",
+    "timestamp": 1464829032000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Biggs",
+      "given": "Patrick Jon"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0155459",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:20Z",
+    "timestamp": 1464831680658
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Wellcome Trust",
+      "DOI": "10.13039/100004440"
+    }
+  ],
+  "DOI": "10.1371/journal.pntd.0004723",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:53:23Z",
+    "timestamp": 1464828803000
+  },
+  "page": "e0004723",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pntd.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Antigenic Relationships among Human Pathogenic Orientia tsutsugamushi Isolates from Thailand"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "James",
+      "given": "Sarah L."
+    },
+    {
+      "affiliation": [],
+      "family": "Blacksell",
+      "given": "Stuart D."
+    },
+    {
+      "affiliation": [],
+      "family": "Nawtaisong",
+      "given": "Pruksa"
+    },
+    {
+      "affiliation": [],
+      "family": "Tanganuchitcharnchai",
+      "given": "Ampai"
+    },
+    {
+      "affiliation": [],
+      "family": "Smith",
+      "given": "Derek J."
+    },
+    {
+      "affiliation": [],
+      "family": "Day",
+      "given": "Nicholas P. J."
+    },
+    {
+      "affiliation": [],
+      "family": "Paris",
+      "given": "Daniel H."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Negl Trop Dis",
+    "PLOS Neglected Tropical Diseases"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:49Z",
+    "timestamp": 1464828889000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Crump",
+      "given": "John A."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pntd.0004723",
+  "ISSN": [
+    "1935-2735"
+  ],
+  "subject": [
+    "Pharmacology, Toxicology and Pharmaceutics(all)",
+    "Public Health, Environmental and Occupational Health",
+    "Infectious Diseases"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:29Z",
+    "timestamp": 1464831689407
+  },
+  "reference-count": 25,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "National Institutes of Health",
+      "DOI": "10.13039/100000002"
+    }
+  ],
+  "DOI": "10.3389/fgene.2016.00089",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:30:54Z",
+    "timestamp": 1464827454000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "The Genetic Contribution of West-African Ancestry to Protection against Central Obesity in African-American Men but Not Women: Results from the ARIC and MESA Studies"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Klimentidis",
+      "given": "Yann C."
+    },
+    {
+      "affiliation": [],
+      "family": "Arora",
+      "given": "Amit"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhou",
+      "given": "Jin"
+    },
+    {
+      "affiliation": [],
+      "family": "Kittles",
+      "given": "Rick"
+    },
+    {
+      "affiliation": [],
+      "family": "Allison",
+      "given": "David B."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Genet.",
+    "Frontiers in Genetics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:30:56Z",
+    "timestamp": 1464827456000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fgene.2016.00089",
+  "ISSN": [
+    "1664-8021"
+  ]
+}

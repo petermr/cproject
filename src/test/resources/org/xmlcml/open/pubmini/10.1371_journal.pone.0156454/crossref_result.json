@@ -1,0 +1,138 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:57Z",
+    "timestamp": 1464835317117
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "14-04-32314-mol_a"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Russian Foundation for Basic Research",
+      "DOI": "10.13039/501100002261"
+    },
+    {
+      "award": [
+        "\"Molecular and Cellular Biology\" program"
+      ],
+      "name": "Presidium of the Russian Academy of Sciences"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156454",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:25Z",
+    "timestamp": 1464828985000
+  },
+  "page": "e0156454",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Intragenic Locus in Human PIWIL2 Gene Shares Promoter and Enhancer Functions"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Skvortsova",
+      "given": "Yulia V."
+    },
+    {
+      "affiliation": [],
+      "family": "Kondratieva",
+      "given": "Sofia A."
+    },
+    {
+      "affiliation": [],
+      "family": "Zinovyeva",
+      "given": "Marina V."
+    },
+    {
+      "affiliation": [],
+      "family": "Nikolaev",
+      "given": "Lev G."
+    },
+    {
+      "affiliation": [],
+      "family": "Azhikina",
+      "given": "Tatyana L."
+    },
+    {
+      "affiliation": [],
+      "family": "Gainetdinov",
+      "given": "Ildar V.",
+      "ORCID": "http://orcid.org/0000-0003-1719-043X"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:45Z",
+    "timestamp": 1464829005000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Grosso",
+      "given": "Michela"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156454",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

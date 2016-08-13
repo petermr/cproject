@@ -1,0 +1,93 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:43Z",
+    "timestamp": 1464756103959
+  },
+  "reference-count": 57,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fncir.2016.00042",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:14:39Z",
+    "timestamp": 1464750879000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Homeostatic Plasticity Achieved by Incorporation of Random Fluctuations and Soft-Bounded Hebbian Plasticity in Excitatory Synapses"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Matsubara",
+      "given": "Takashi"
+    },
+    {
+      "affiliation": [],
+      "family": "Uehara",
+      "given": "Kuniaki"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Neural Circuits",
+    "Front. Neural Circuits"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:14:39Z",
+    "timestamp": 1464750879000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fncir.2016.00042",
+  "ISSN": [
+    "1662-5110"
+  ],
+  "subject": [
+    "Sensory Systems",
+    "Cognitive Neuroscience",
+    "Cellular and Molecular Neuroscience",
+    "Neuroscience (miscellaneous)"
+  ]
+}

@@ -17,6 +17,8 @@ import org.xmlcml.cmine.args.FileXPathSearcher;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
 import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 import org.xmlcml.cmine.metadata.ProjectAnalyzer;
+import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
+import org.xmlcml.cmine.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.html.HtmlElement;
@@ -26,6 +28,10 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 import nu.xom.Element;
 import nu.xom.Node;
@@ -99,6 +105,8 @@ public class CProject extends CContainer {
 	private ResultsElementList summaryResultsElementList;
 	private ArrayList<File> scholarlyList;
 	private ProjectAnalyzer projectAnalyzer;
+	private CTreeList duplicateMergeList;
+//	private JsonArray crossrefTreesArray;
 	
 	public CProject(File cProjectDir) {
 		super();
@@ -191,7 +199,12 @@ public class CProject extends CContainer {
 		return allowed;
 	}
 
-	public CTreeList getCTreeList() {
+	/** getCTreeList after recalculating from current Files.
+	 * 
+	 * to get Current CTreeList, use getOrCreateCTreeList()
+	 * @return
+	 */
+	public CTreeList getResetCTreeList() {
 		this.getOrCreateFilesDirectoryCTreeLists();
 		if (cTreeList != null) {
 			cTreeList.sort();
@@ -201,7 +214,7 @@ public class CProject extends CContainer {
 
 	public List<File> getResultsXMLFileList() {
 		List<File> resultsXMLList = new ArrayList<File>();
-		this.getCTreeList();
+		this.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
 			List<File> resultsXMLList0 = cTree.getResultsXMLFileList();
 			resultsXMLList.addAll(resultsXMLList0);
@@ -269,7 +282,7 @@ public class CProject extends CContainer {
 	public ProjectFilesTree extractProjectFilesTree(String glob) {
 		ProjectFilesTree projectFilesTree = new ProjectFilesTree(this);
 //		List<CTreeFiles> cTreeFilesList = new ArrayList<CTreeFiles>();
-		CTreeList cTreeList = this.getCTreeList();
+		CTreeList cTreeList = this.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
 			CTreeFiles cTreeFiles = cTree.extractCTreeFiles(glob);
 			projectFilesTree.add(cTreeFiles);
@@ -285,7 +298,7 @@ public class CProject extends CContainer {
 	 */
 	public ProjectSnippetsTree extractProjectSnippetsTree(String glob, String xpath) {
 		projectSnippetsTree = new ProjectSnippetsTree(this);
-		CTreeList cTreeList = this.getCTreeList();
+		CTreeList cTreeList = this.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
 			SnippetsTree snippetsTree = cTree.extractXPathSnippetsTree(glob, xpath);
 			if (snippetsTree.size() > 0) {
@@ -375,7 +388,7 @@ public class CProject extends CContainer {
 	}
 
 	public boolean hasScholarlyHTML() {
-		CTreeList cTreeList = this.getCTreeList();
+		CTreeList cTreeList = this.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
 			if (!cTree.hasScholarlyHTML()) {
 				return false;
@@ -407,7 +420,7 @@ public class CProject extends CContainer {
 	}
 
 	public Set<String> extractMetadataItemSet(AbstractMetadata.Type sourceType, String type) {
-		CTreeList cTreeList = getCTreeList();
+		CTreeList cTreeList = getResetCTreeList();
 		Set<String> set = new HashSet<String>();
 		for (CTree cTree : cTreeList) {
 			AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, sourceType);
@@ -418,7 +431,7 @@ public class CProject extends CContainer {
 	}
 
 	public Multimap<String, String> extractMetadataItemMap(AbstractMetadata.Type sourceType, String key, String type) {
-		CTreeList cTreeList = getCTreeList();
+		CTreeList cTreeList = getResetCTreeList();
 		Multimap<String, String> map = ArrayListMultimap.create();
 		for (CTree cTree : cTreeList) {
 			AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, sourceType);
@@ -432,7 +445,7 @@ public class CProject extends CContainer {
 	}
 	
 	public Multimap<CTree, File> extractCTreeFileMapContaining(String reservedName) {
-		CTreeList cTreeList = getCTreeList();
+		CTreeList cTreeList = getResetCTreeList();
 		Multimap<CTree, File> map = ArrayListMultimap.create();
 		for (CTree cTree : cTreeList) {
 			File file = cTree.getExistingReservedFile(reservedName);
@@ -482,13 +495,13 @@ public class CProject extends CContainer {
 
 	private static CProject createPossibleCProject(File possibleProjectFile) {
 		CProject project = new CProject(possibleProjectFile);
-		CTreeList cTreeList = project.getCTreeList();
+		CTreeList cTreeList = project.getResetCTreeList();
 		return (cTreeList.size() == 0) ? null : project;
 		
 	}
 
 	public CTreeList getCTreeList(CTreeExplorer explorer) {
-		CTreeList cTreeListOld = this.getCTreeList();
+		CTreeList cTreeListOld = this.getResetCTreeList();
 		CTreeList cTreeList = new CTreeList();
 		for (CTree cTree : cTreeListOld) {
 			if (cTree.matches(explorer)) {
@@ -499,7 +512,7 @@ public class CProject extends CContainer {
 	}
 
 	public void normalizeDOIBasedDirectoryCTrees() {
-		getCTreeList();
+		getResetCTreeList();
 		for (int i = cTreeList.size() - 1; i >= 0; i--) {
 			CTree cTree = cTreeList.get(i);
 			cTree.normalizeDOIBasedDirectory();
@@ -538,7 +551,7 @@ public class CProject extends CContainer {
 
 	public List<String> getDOIPrefixList() {
 		List<String> doiPrefixList = new ArrayList<String>();
-		CTreeList cTreeList = this.getCTreeList();
+		CTreeList cTreeList = this.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
 			
 			String doiPrefix = cTree.extractDOIPrefix();
@@ -548,7 +561,7 @@ public class CProject extends CContainer {
 	}
 
 	public int size() {
-		getCTreeList();
+		getResetCTreeList();
 		return (cTreeList == null) ? 0 : cTreeList.size();
 	}
 
@@ -592,41 +605,49 @@ public class CProject extends CContainer {
 	/** merges one Cproject into another.
 	 * 
 	 * @param cProject2
+	 * @throws IOException 
 	 */
-	public void mergeProjects(CProject project2) {
-		CTreeList cTreeList2 = project2.getCTreeList();
+	public void mergeProjects(CProject project2) throws IOException {
+		CTreeList cTreeList2 = project2.getResetCTreeList();
+//		crossrefTreesArray = new JsonArray();
 		copyCTrees(cTreeList2);
 		cTreeList = null;
 		copyFiles(project2);
 		resetFileLists();
 	}
 
-	private void copyFiles(CProject project2) {
-		List<File> files2 = project2.getAllNonDirectoryFiles();
-		List<File> thisFiles = this.getAllNonDirectoryFiles();
-		for (File file2 : files2) {
+	private void copyFiles(CProject project2) throws IOException {
+		List<File> projectFiles2 = project2.getAllNonDirectoryFiles();
+		List<File> projectFiles = this.getAllNonDirectoryFiles();
+		JsonParser jsonParser = new JsonParser();
+		for (File file2 : projectFiles2) {
 			String name2 = file2.getName();
-			boolean copied = false;
-			for (File thisFile : thisFiles) {
-				if (thisFile.getName().equals(name2)) {
-					mergeOrCopy(file2, thisFile);
-					copied = true;
-					break;
-				}
-			}
-			if (!copied) {
-				try {
-					FileUtils.copyFile(file2, new File(this.directory, name2));
-				} catch (IOException e) {
-					LOG.warn("Cannot copy file: "+file2+" to directory: "+directory);
-				}
+			File thisFile = this.getFileWithName(name2);
+			if (thisFile == null) {
+				FileUtils.copyFile(file2, new File(this.directory, name2));
+			} else if (Type.getTypeFromCProjectFile(file2) != null) {
+				Type.mergeMetadata(thisFile, file2);
+			} else {
+				LOG.debug("existing file, so not copied: "+file2);
 			}
 		}
 	}
 
-	private void mergeOrCopy(File file2, File thisFile) {
-		LOG.debug("merging files not yet written: "+thisFile.getName());
-		// we will have 
+	/** finds file with given name.
+	 * 
+	 * @param name
+	 * @return
+	 */
+	public File getFileWithName(String name) {
+		File[] files = directory == null ? null : directory.listFiles();
+		if (files != null) {
+			for (File file : files) {
+				if (file.getName().equals(name)) {
+					return file;
+				}
+			}
+		}
+		return null;
 	}
 
 	private void copyCTrees(CTreeList cTreeList2) {
@@ -637,23 +658,61 @@ public class CProject extends CContainer {
 				LOG.warn("Cannot ingest CTree: "+cTree2);
 			}
 		}
-//		this.cTreeList = null; // reset
 	}
 
 	/** creates a copy of CTree within this.cProject.
+	 * 
+	 * keeps a list of duplicate trees 
 	 * 
 	 * @param cTree2
 	 * @throws IOException 
 	 */
 	public void ingestCopy(CTree cTree2) throws IOException {
-		getCTreeList();
-		if (!cTreeList.containsName(cTree2)) {
-			File directory2 = cTree2.getDirectory();
-			String name2 = directory2.getName();
-			File cTreeDirectory = new File(this.directory, name2);
-			FileUtils.copyDirectory(directory2, cTreeDirectory);
-			CTree thisCTree = new CTree(cTreeDirectory);
-			this.cTreeList.add(thisCTree);
+		getResetCTreeList();
+		getOrCreateDuplicateMergeList();
+  		if (!cTreeList.containsName(cTree2)) {
+			copyCTreeAndUpdateNonOverlappingCTreeList(cTree2);
+		} else {
+			duplicateMergeList.add(cTree2);
+		}
+	}
+
+	private void copyCTreeAndUpdateNonOverlappingCTreeList(CTree cTree2) throws IOException {
+		File directory2 = cTree2.getDirectory();
+		String name2 = directory2.getName();
+		File cTreeDirectory = new File(this.directory, name2);
+		FileUtils.copyDirectory(directory2, cTreeDirectory);
+		CTree thisCTree = new CTree(cTreeDirectory);
+		this.cTreeList.add(thisCTree);
+	}
+	
+	public CTreeList getOrCreateDuplicateMergeList() {
+		if (duplicateMergeList == null) {
+			duplicateMergeList = new CTreeList();
+		}
+		return duplicateMergeList;
+	}
+
+	public void addCTreeList(CTreeList cTreeList) {
+		getOrCreateCTreeList();
+		this.cTreeList = this.cTreeList.or(cTreeList);
+	}
+
+	public CTreeList getOrCreateCTreeList() {
+		if (cTreeList == null) {
+			cTreeList = new CTreeList();
+		}
+		return cTreeList;
+	}
+
+	public void write() throws IOException {
+		if (directory != null) {
+			directory.mkdirs();
+			if (cTreeList != null) {
+				for (CTree cTree : cTreeList) {
+					cTree.write(directory);
+				}
+			}
 		}
 	}
 

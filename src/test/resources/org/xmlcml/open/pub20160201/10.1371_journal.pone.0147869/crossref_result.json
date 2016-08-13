@@ -1,0 +1,136 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:29Z",
+    "timestamp": 1454582729378
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0147869",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:37:59Z",
+    "timestamp": 1454355479000
+  },
+  "page": "e0147869",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Effect of O. porcinus Tick Salivary Gland Extract on the African Swine Fever Virus Infection in Domestic Pig"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bernard",
+      "given": "Jennifer"
+    },
+    {
+      "affiliation": [],
+      "family": "Hutet",
+      "given": "Evelyne"
+    },
+    {
+      "affiliation": [],
+      "family": "Paboeuf",
+      "given": "Frédéric"
+    },
+    {
+      "affiliation": [],
+      "family": "Randriamparany",
+      "given": "Tantely"
+    },
+    {
+      "affiliation": [],
+      "family": "Holzmuller",
+      "given": "Philippe"
+    },
+    {
+      "affiliation": [],
+      "family": "Lancelot",
+      "given": "Renaud"
+    },
+    {
+      "affiliation": [],
+      "family": "Rodrigues",
+      "given": "Valérie"
+    },
+    {
+      "affiliation": [],
+      "family": "Vial",
+      "given": "Laurence"
+    },
+    {
+      "affiliation": [],
+      "family": "Le Potier",
+      "given": "Marie-Frédérique"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:38:16Z",
+    "timestamp": 1454355496000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Oliveira",
+      "given": "Pedro L."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0147869",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

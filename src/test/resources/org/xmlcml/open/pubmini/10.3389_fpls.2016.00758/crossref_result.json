@@ -1,0 +1,113 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:27Z",
+    "timestamp": 1464756027034
+  },
+  "reference-count": 44,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "name": "Science and technology R&D project of Henan"
+    }
+  ],
+  "DOI": "10.3389/fpls.2016.00758",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:03:34Z",
+    "timestamp": 1464750214000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "The Arabidopsis LYST INTERACTING PROTEIN 5 Acts in Regulating Abscisic Acid Signaling and Drought Response"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Xia",
+      "given": "Zongliang"
+    },
+    {
+      "affiliation": [],
+      "family": "Huo",
+      "given": "Yongjin"
+    },
+    {
+      "affiliation": [],
+      "family": "Wei",
+      "given": "Yangyang"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Qiansi"
+    },
+    {
+      "affiliation": [],
+      "family": "Xu",
+      "given": "Ziwei"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Wei"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:03:37Z",
+    "timestamp": 1464750217000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00758",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

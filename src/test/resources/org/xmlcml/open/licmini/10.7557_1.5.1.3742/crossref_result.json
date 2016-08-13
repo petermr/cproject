@@ -1,0 +1,109 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:40:55Z",
+    "timestamp": 1464831655883
+  },
+  "reference-count": 0,
+  "publisher": "UiT The Arctic University of Norway",
+  "issue": "1",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.7557/1.5.1.3742",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:50:49Z",
+    "timestamp": 1464828649000
+  },
+  "page": "59",
+  "source": "CrossRef",
+  "title": [
+    "Cyclic transfer in the derivation of Complete Parenthetical Clauses"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.7557",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Cerrudo Aguilar",
+      "given": "Alba"
+    }
+  ],
+  "member": "http://id.crossref.org/member/4421",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Borealis",
+    "Borealis – An International Journal of Hispanic Linguistics"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://www.ub.uit.no/baser/septentrio/index.php/borealis/article/viewFile/3742/3676"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:51:07Z",
+    "timestamp": 1464828667000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.7557/1.5.1.3742",
+  "ISSN": [
+    "1893-3211"
+  ]
+}

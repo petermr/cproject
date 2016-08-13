@@ -1,0 +1,221 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        15
+      ]
+    ],
+    "date-time": "2016-06-15T13:40:47Z",
+    "timestamp": 1465998047088
+  },
+  "reference-count": 34,
+  "publisher": "IOP Publishing",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 13,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            14
+          ]
+        ],
+        "date-time": "2016-06-14T00:00:00Z",
+        "timestamp": 1465862400000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 13,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            14
+          ]
+        ],
+        "date-time": "2016-06-14T00:00:00Z",
+        "timestamp": 1465862400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "European Research Council",
+      "DOI": "10.13039/501100000781"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/0965-0393/24/5/055019",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        14
+      ]
+    ],
+    "date-time": "2016-06-14T08:13:48Z",
+    "timestamp": 1465892028000
+  },
+  "page": "055019",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Molecular dynamics simulations of the mechanisms controlling the propagation of bcc/fcc semi-coherent interfaces in iron"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "24",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ou",
+      "given": "X"
+    },
+    {
+      "affiliation": [],
+      "family": "Sietsma",
+      "given": "J"
+    },
+    {
+      "affiliation": [],
+      "family": "Santofimia",
+      "given": "M J"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        14
+      ]
+    ]
+  },
+  "container-title": [
+    "Modelling and Simulation in Materials Science and Engineering",
+    "Modelling Simul. Mater. Sci. Eng."
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/0965-0393/24/i=5/a=055019/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/0965-0393/24/i=5/a=055019?key=crossref.41cf50c584e40b97e37a922d70648869"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        15
+      ]
+    ],
+    "date-time": "2016-06-15T12:29:10Z",
+    "timestamp": 1465993750000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/0965-0393/24/5/055019",
+  "ISSN": [
+    "0965-0393",
+    "1361-651X"
+  ],
+  "subject": [
+    "Modelling and Simulation",
+    "Materials Science(all)",
+    "Mechanics of Materials",
+    "Condensed Matter Physics",
+    "Computer Science Applications"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Modelling and Simulation in Materials Science and Engineering"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "paper"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Molecular dynamics simulations of the mechanisms controlling the propagation of bcc/fcc semi-coherent interfaces in iron"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2015-08-31"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-20"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-14"
+    }
+  ]
+}

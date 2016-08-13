@@ -1,0 +1,85 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:11Z",
+    "timestamp": 1466264471815
+  },
+  "reference-count": 34,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/math4020036",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "36",
+  "source": "CrossRef",
+  "title": [
+    "SIC-POVMs and Compatibility among Quantum States"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Stacey",
+      "given": "Blake"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Mathematics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:04:26Z",
+    "timestamp": 1466258666000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "math4020036"
+  ],
+  "URL": "http://dx.doi.org/10.3390/math4020036",
+  "ISSN": [
+    "2227-7390"
+  ]
+}

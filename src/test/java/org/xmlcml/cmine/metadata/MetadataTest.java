@@ -68,7 +68,7 @@ public class MetadataTest {
 		int day = 1;
 		File cProjectDir = new File(CMineFixtures.GETPAPERS_NEW, "2016060"+day);
 		CProject cProject = new CProject(cProjectDir);
-		CTreeList cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getResetCTreeList();
 		CrossrefMD.createCrossrefSpreadsheet(cTreeList, new File(CMineFixtures.GETPAPERS_TARGET, "2016060"+day+"/crossRef.csv"));
 	}
 	
@@ -102,7 +102,7 @@ public class MetadataTest {
 		int count = 0;
 		File cProjectDir = new File(CMineFixtures.GETPAPERS_NEW, "2016060"+i);
 		CProject cProject = new CProject(cProjectDir);
-		CTreeList cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
 			AbstractMetadata metadata = AbstractMetadata.getCTreeMetadata(cTree, AbstractMetadata.Type.CROSSREF);
 			if (metadata != null) {

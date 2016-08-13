@@ -1,0 +1,113 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:19Z",
+    "timestamp": 1454582719743
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pgen.1005805",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:57:26Z",
+    "timestamp": 1454353046000
+  },
+  "page": "e1005805",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pgen.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Weak Epistasis Generally Stabilizes Phenotypes in a Mouse Intercross"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Tyler",
+      "given": "Anna L."
+    },
+    {
+      "affiliation": [],
+      "family": "Donahue",
+      "given": "Leah Rae"
+    },
+    {
+      "affiliation": [],
+      "family": "Churchill",
+      "given": "Gary A."
+    },
+    {
+      "affiliation": [],
+      "family": "Carter",
+      "given": "Gregory W."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Genet",
+    "PLOS Genetics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:57:27Z",
+    "timestamp": 1454353047000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Cheverud",
+      "given": "James M"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pgen.1005805",
+  "ISSN": [
+    "1553-7404"
+  ],
+  "subject": [
+    "Genetics(clinical)",
+    "Genetics",
+    "Cancer Research",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology"
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        3
+      ]
+    ],
+    "date-time": "2016-06-03T08:41:04Z",
+    "timestamp": 1464943264236
+  },
+  "reference-count": 60,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 1,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2016-06-02T00:00:00Z",
+        "timestamp": 1464825600000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 1,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2016-06-02T00:00:00Z",
+        "timestamp": 1464825600000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "NNX11AB89G"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Aeronautics and Space Administration",
+      "DOI": "10.13039/100000104"
+    },
+    {
+      "award": [],
+      "name": "Australian Centre for Ecological Analysis and Synthesis"
+    },
+    {
+      "award": [
+        "RYC-2012-10970"
+      ],
+      "name": "Spanish National Government, Ramon y Cajal Fellowship Programme"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/065002",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T13:13:59Z",
+    "timestamp": 1464873239000
+  },
+  "page": "065002",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Future changes in climatic water balance determine potential for transformational shifts in Australian fire regimes"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Boer",
+      "given": "Matthias M"
+    },
+    {
+      "affiliation": [],
+      "family": "Bowman",
+      "given": "David M J S"
+    },
+    {
+      "affiliation": [],
+      "family": "Murphy",
+      "given": "Brett P",
+      "ORCID": "http://orcid.org/0000-0002-8230-3069"
+    },
+    {
+      "affiliation": [],
+      "family": "Cary",
+      "given": "Geoffrey J"
+    },
+    {
+      "affiliation": [],
+      "family": "Cochrane",
+      "given": "Mark A"
+    },
+    {
+      "affiliation": [],
+      "family": "Fensham",
+      "given": "Roderick J"
+    },
+    {
+      "affiliation": [],
+      "family": "Krawchuk",
+      "given": "Meg A"
+    },
+    {
+      "affiliation": [],
+      "family": "Price",
+      "given": "Owen F"
+    },
+    {
+      "affiliation": [],
+      "family": "De Dios",
+      "given": "Víctor Resco"
+    },
+    {
+      "affiliation": [],
+      "family": "Williams",
+      "given": "Richard J"
+    },
+    {
+      "affiliation": [],
+      "family": "Bradstock",
+      "given": "Ross A"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=065002/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=065002?key=crossref.9ef61d99bb7862893c3acd9d3369bb43"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        3
+      ]
+    ],
+    "date-time": "2016-06-03T07:32:17Z",
+    "timestamp": 1464939137000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/065002",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "paper"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Future changes in climatic water balance determine potential for transformational shifts in Australian fire regimes"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2015-11-08"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-19"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-02"
+    }
+  ]
+}

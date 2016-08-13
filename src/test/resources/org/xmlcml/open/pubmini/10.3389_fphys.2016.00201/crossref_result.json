@@ -1,0 +1,127 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:35Z",
+    "timestamp": 1464756095618
+  },
+  "reference-count": 67,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fphys.2016.00201",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:12:22Z",
+    "timestamp": 1464750742000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "The Mouthparts Enriched Odorant Binding Protein 11 of the Alfalfa Plant Bug Adelphocoris lineolatus Displays a Preferential Binding Behavior to Host Plant Secondary Metabolites"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Sun",
+      "given": "Liang"
+    },
+    {
+      "affiliation": [],
+      "family": "Wei",
+      "given": "Yu"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Dan-Dan"
+    },
+    {
+      "affiliation": [],
+      "family": "Ma",
+      "given": "Xiao-Yu"
+    },
+    {
+      "affiliation": [],
+      "family": "Xiao",
+      "given": "Yong"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Ya-Nan"
+    },
+    {
+      "affiliation": [],
+      "family": "Yang",
+      "given": "Xian-Ming"
+    },
+    {
+      "affiliation": [],
+      "family": "Xiao",
+      "given": "Qiang"
+    },
+    {
+      "affiliation": [],
+      "family": "Guo",
+      "given": "Yu-Yuan"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Yong-Jun"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Physiology",
+    "Front. Physiol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:12:22Z",
+    "timestamp": 1464750742000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fphys.2016.00201",
+  "ISSN": [
+    "1664-042X"
+  ]
+}

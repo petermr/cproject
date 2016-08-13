@@ -1,0 +1,95 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T13:10:25Z",
+    "timestamp": 1464786625985
+  },
+  "reference-count": 83,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Wellcome Trust",
+      "DOI": "10.13039/100004440"
+    }
+  ],
+  "DOI": "10.3389/fnins.2016.00239",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T12:38:44Z",
+    "timestamp": 1464784724000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Brain Bases of Working Memory for Time Intervals in Rhythmic Sequences"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Teki",
+      "given": "Sundeep"
+    },
+    {
+      "affiliation": [],
+      "family": "Griffiths",
+      "given": "Timothy D."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Neurosci.",
+    "Frontiers in Neuroscience"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T12:38:47Z",
+    "timestamp": 1464784727000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fnins.2016.00239",
+  "ISSN": [
+    "1662-453X"
+  ]
+}

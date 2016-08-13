@@ -1,0 +1,138 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:03Z",
+    "timestamp": 1464835323250
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "61471070"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    },
+    {
+      "award": [
+        "2013YQ030629"
+      ],
+      "name": "National Instrumentation Program"
+    },
+    {
+      "award": [
+        "CDJZR12120006"
+      ],
+      "name": "Chongqing University Basic Scientific Research Foundation"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156224",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:31Z",
+    "timestamp": 1464829051000
+  },
+  "page": "e0156224",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Study of the Microfocus X-Ray Tube Based on a Point-Like Target Used for Micro-Computed Tomography"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Zhou",
+      "given": "Rifeng"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhou",
+      "given": "Xiaojian"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Xiaobin"
+    },
+    {
+      "affiliation": [],
+      "family": "Cai",
+      "given": "Yufang"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Fenglin"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:50Z",
+    "timestamp": 1464829070000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Qinghui"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156224",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

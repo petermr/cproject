@@ -1,0 +1,97 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:11Z",
+    "timestamp": 1464831671132
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-33-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:22:46Z",
+    "timestamp": 1464826966000
+  },
+  "page": "33-39",
+  "source": "CrossRef",
+  "title": [
+    "APPROACH FOR IMPROVING THE INTEGRATED SENSOR ORIENTATION"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Mitishita",
+      "given": "E."
+    },
+    {
+      "affiliation": [],
+      "family": "Ercolin Filho",
+      "given": "L."
+    },
+    {
+      "affiliation": [],
+      "family": "Graça",
+      "given": "N."
+    },
+    {
+      "affiliation": [],
+      "family": "Centeno",
+      "given": "J."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:22:46Z",
+    "timestamp": 1464826966000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-33-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:20Z",
+    "timestamp": 1466264480619
+  },
+  "reference-count": 15,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/coatings6020022",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "22",
+  "source": "CrossRef",
+  "title": [
+    "Thermal Protection of Carbon Fiber-Reinforced Composites by Ceramic Particles"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kandola",
+      "given": "Baljinder"
+    },
+    {
+      "affiliation": [],
+      "family": "Sarker",
+      "given": "Forkan"
+    },
+    {
+      "affiliation": [],
+      "family": "Luangtriratana",
+      "given": "Piyanuch"
+    },
+    {
+      "affiliation": [],
+      "family": "Myler",
+      "given": "Peter"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Coatings"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:06:22Z",
+    "timestamp": 1466258782000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "coatings6020022"
+  ],
+  "URL": "http://dx.doi.org/10.3390/coatings6020022",
+  "ISSN": [
+    "2079-6412"
+  ]
+}

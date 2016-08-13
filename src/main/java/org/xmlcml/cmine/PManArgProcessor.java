@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.filechooser.FileFilter;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
@@ -51,11 +53,15 @@ public class PManArgProcessor extends DefaultArgProcessor {
 	private String csvFilename;
 	private List<String> csvHeadings;
 	private String cProject2Name;
-	private List<String> renameOptions;
+	private List<String> renameTreeOptions;
 	private String outUrlFilename;
 	private CTreeList cTreeList;
 	private boolean markEmpty;
 	private List<String> inUrls;
+	private boolean renamePDF;
+	private List<String> renameFileOptions;
+	private List<String> deleteFiles;
+	private String duplicatesDir;
 
 	public PManArgProcessor() {
 		super();
@@ -99,6 +105,18 @@ public class PManArgProcessor extends DefaultArgProcessor {
 		}
 	}
 
+	/** deleteFile/s in Ctree
+	 */
+	public void parseDeleteFile(ArgumentOption option, ArgIterator argIterator) {
+		deleteFiles = argIterator.getStrings(option);
+	}
+
+	/** directory to output duplicates on merge
+	 */
+	public void parseDuplicates(ArgumentOption option, ArgIterator argIterator) {
+		duplicatesDir = argIterator.getString(option);
+	}
+
 	/** create input filename with URLs
 	 */
 	public void parseInUrls(ArgumentOption option, ArgIterator argIterator) {
@@ -138,8 +156,27 @@ public class PManArgProcessor extends DefaultArgProcessor {
 
 	/** 
 	 */
+	public void parseRenameFile(ArgumentOption option, ArgIterator argIterator) {
+		renameFileOptions = argIterator.getStrings(option);
+		if (renameFileOptions.size() == 2) {
+			// rename file1 to file2
+		} else {
+			LOG.error("Illegal rename args length: "+renameFileOptions);
+			renameFileOptions = null;
+		}
+	} 
+
+	/** 
+	 */
 	public void parseRenameCTree(ArgumentOption option, ArgIterator argIterator) {
-		renameOptions = argIterator.getStrings(option);
+		renameTreeOptions = argIterator.getStrings(option);
+	}
+
+	/** 
+	 */
+	public void parseRenamePDF(ArgumentOption option, ArgIterator argIterator) {
+		argIterator.getStrings(option);
+		renamePDF = true;
 	}
 
 	/** shuffle URLs
@@ -150,14 +187,39 @@ public class PManArgProcessor extends DefaultArgProcessor {
 
 	// ----------- RUN -----------
 	
+	/** rename files in cTree
+	 */
+	public void runRenameFile(ArgumentOption option) {
+		if (renameFileOptions != null) {
+			renameFiles();
+		}
+	}
+
+	/** delete files in cTree
+	 */
+	public void runDeleteFile(ArgumentOption option) {
+		if (deleteFiles != null) {
+			deleteFiles();
+		}
+	}
+
 	/** rename CTrees
 	 */
 	public void runRenameCTree(ArgumentOption option) {
-		if (renameOptions != null) {
-			if (renameOptions.contains(NO_HTTP)) {
+		if (renameTreeOptions != null) {
+			if (renameTreeOptions.contains(NO_HTTP)) {
 				currentCTree.normalizeDOIBasedDirectory();
 			}
 			// perhaps more options here...
+		}
+	}
+	
+	/** rename PDFs
+	 */
+	public void runRenamePDF(ArgumentOption option) {
+		if (renamePDF) {
+			List<File> pdfFiles = new ArrayList<File>(FileUtils.listFiles(currentCTree.getDirectory(), new String[]{"pdf", "PDF"}, true));
+			renameNonPDFContent(pdfFiles);
 		}
 	}
 	
@@ -180,6 +242,22 @@ public class PManArgProcessor extends DefaultArgProcessor {
 		}
 	}
 
+	/** final duplicate
+	 */
+	public void finalDuplicates(ArgumentOption option) {
+		if (duplicatesDir != null) {
+			CTreeList duplicateList = cProject.getOrCreateDuplicateMergeList();
+			CProject duplicateProject = new CProject(new File(duplicatesDir));
+			duplicateProject.addCTreeList(duplicateList);
+			LOG.debug("Ctrees "+duplicateProject.getOrCreateCTreeList().size());
+			try {
+				duplicateProject.write();
+			} catch (IOException e) {
+				throw new RuntimeException("Cannot write project: "+duplicatesDir, e);
+			}
+		}
+	}
+
 	/** final input Urls
 	 */
 	public void finalInUrls(ArgumentOption option) {
@@ -191,13 +269,78 @@ public class PManArgProcessor extends DefaultArgProcessor {
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read input URLS", e);
 		}
-		cTreeList = cProject.getCTreeList();
+		cTreeList = cProject.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
 			touchQuickscrapeMDInEmptyDirectories(cTree);
 			removeFromInUrls(cTree);
 		}
 	}
 
+	/** final output Urls
+	 */
+	public void finalOutUrls(ArgumentOption option) {
+		try {
+			File outUrlFile = new File(cProject.getDirectory(), outUrlFilename);
+			if (inUrls != null) {
+				FileUtils.writeLines(outUrlFile, inUrls, "\n");
+			} else {
+				cProject.extractShuffledUrlsFromCrossrefToFile(outUrlFile);
+			}
+		} catch (IOException e) {
+			throw new RuntimeException("cannot write urls: "+outUrlFilename, e);
+		}
+	}
+	
+	/** final merge
+	 */
+	public void finalMergeProjects(ArgumentOption option) {
+		if (cProject == null) {
+			throw new RuntimeException("mergeProjects must have existing CProject");
+		}
+		CProject cProject2 = new CProject(new File(cProject2Name));
+		try {
+			cProject.mergeProjects(cProject2);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot merge projects: "+e);
+		}
+	}
+			
+	// ---------------
+	
+	private void renameFiles() {
+		if (renameFileOptions.size() == 2) {
+			File oldFile = new File(currentCTree.getDirectory(), renameFileOptions.get(0));
+			File newFile = new File(currentCTree.getDirectory(), renameFileOptions.get(1));
+			if (oldFile.exists()) {
+				boolean renamed = oldFile.renameTo(newFile);
+				if (!renamed) {
+					LOG.error("could not rename "+oldFile+" to "+newFile);
+				} else {
+					LOG.trace("renamed "+oldFile + " to " +newFile);
+				}
+			}
+		}
+	}
+	
+	private void deleteFiles() {
+		if (deleteFiles != null) {
+			for (String deleteFile : deleteFiles) {
+				File file = new File(currentCTree.getDirectory(), deleteFile);
+				if (file.exists()) {
+					if (file.isDirectory()) {
+						try {
+							FileUtils.deleteDirectory(file);
+						} catch (IOException e) {
+							LOG.warn("Cannot delete directory: "+file);
+						}
+					} else {
+						FileUtils.deleteQuietly(file);
+					}
+				}
+			}
+		}
+	}
+	
 	private void removeFromInUrls(CTree cTree) {
 		for (int i = 0; i < inUrls.size(); i++) {
 			if (CMineUtil.denormalizeDOI(inUrls.get(i)).equals(cTree.getDirectory().getName())) {
@@ -215,34 +358,23 @@ public class PManArgProcessor extends DefaultArgProcessor {
 		}
 	}
 	
-	/** final output Urls
-	 */
-	public void finalOutUrls(ArgumentOption option) {
-		try {
-			File outUrlFile = new File(cProject.getDirectory(), outUrlFilename);
-			if (inUrls != null) {
-				FileUtils.writeLines(outUrlFile, inUrls, "\n");
-			} else {
-				cProject.extractShuffledUrlsFromCrossrefToFile(outUrlFile);
+	private void renameNonPDFContent(List<File> pdfFiles) {
+		for (File pdfFile : pdfFiles) {
+			String type = CMineUtil.getTypeOfContent(pdfFile);
+			if (type == null) {
+				// continue
+			} else if (CMineUtil.PDF_TYPE.equals(type)) {
+					// continue
+			} else if (CMineUtil.HTML_TYPE.equals(type)) {
+				String newName = pdfFile.getAbsolutePath() + ".html";
+				pdfFile.renameTo(new File(newName));
+				LOG.debug("renamed "+pdfFile+" to "+newName);
 			}
-		} catch (IOException e) {
-			throw new RuntimeException("cannot write urls: "+outUrlFilename, e);
 		}
 	}
+
+
 	
-	/** final extract Urls
-	 */
-	public void finalMergeProjects(ArgumentOption option) {
-		if (cProject == null) {
-			throw new RuntimeException("mergeProjects must have existing CProject");
-		}
-		CProject cProject2 = new CProject(new File(cProject2Name));
-		cProject.mergeProjects(cProject2);
-	}
-			
-
-
-
 	//=================
 
 	private void csvHelp() {

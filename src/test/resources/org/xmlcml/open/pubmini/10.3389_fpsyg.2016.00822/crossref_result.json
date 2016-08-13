@@ -1,0 +1,105 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:23Z",
+    "timestamp": 1464756023192
+  },
+  "reference-count": 104,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek",
+      "DOI": "10.13039/501100003246"
+    }
+  ],
+  "DOI": "10.3389/fpsyg.2016.00822",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:50Z",
+    "timestamp": 1464750830000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Speed and Lateral Inhibition of Stimulus Processing Contribute to Individual Differences in Stroop-Task Performance"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Naber",
+      "given": "Marnix"
+    },
+    {
+      "affiliation": [],
+      "family": "Vedder",
+      "given": "Anneke"
+    },
+    {
+      "affiliation": [],
+      "family": "Brown",
+      "given": "Stephen B. R. E."
+    },
+    {
+      "affiliation": [],
+      "family": "Nieuwenhuis",
+      "given": "Sander"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Psychology",
+    "Front. Psychol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:53Z",
+    "timestamp": 1464750833000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpsyg.2016.00822",
+  "ISSN": [
+    "1664-1078"
+  ]
+}

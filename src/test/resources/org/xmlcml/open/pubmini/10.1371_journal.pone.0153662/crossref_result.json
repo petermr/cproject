@@ -1,0 +1,112 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:20Z",
+    "timestamp": 1464835340126
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "name": "Initiative for Accelerating Regulatory Science in Innovative Drug, Medical Device, and Regenerative Medicine from Ministry of Health, Labour, and Welfare, Japan."
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0153662",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:55Z",
+    "timestamp": 1464829075000
+  },
+  "page": "e0153662",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Time Series Analysis of the Effectiveness and Safety of Capsule Endoscopy between the Premarketing and Postmarketing Settings: A Meta-Analysis"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Iijima",
+      "given": "Kazuo"
+    },
+    {
+      "affiliation": [],
+      "family": "Umezu",
+      "given": "Mitsuo"
+    },
+    {
+      "affiliation": [],
+      "family": "Iwasaki",
+      "given": "Kiyotaka"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:58:33Z",
+    "timestamp": 1464829113000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Green",
+      "given": "John"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0153662",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:23Z",
+    "timestamp": 1464756083064
+  },
+  "reference-count": 72,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fpsyt.2016.00094",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:06:03Z",
+    "timestamp": 1464750363000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "A Possible Common Neurophysiologic Basis for MDD, Bipolar Disorder, and Schizophrenia: Lessons from Electrophysiology"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Shahaf",
+      "given": "Goded"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Psychiatry",
+    "Front. Psychiatry"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:06:03Z",
+    "timestamp": 1464750363000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpsyt.2016.00094",
+  "ISSN": [
+    "1664-0640"
+  ]
+}

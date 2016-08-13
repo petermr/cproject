@@ -1,0 +1,97 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:20Z",
+    "timestamp": 1464756080734
+  },
+  "reference-count": 37,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fnins.2016.00232",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:18:50Z",
+    "timestamp": 1464751130000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Decreased Plasma Aβ in Hyperlipidemic APPSL Transgenic Mice Is Associated with BBB Dysfunction"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Löffler",
+      "given": "Tina"
+    },
+    {
+      "affiliation": [],
+      "family": "Flunkert",
+      "given": "Stefanie"
+    },
+    {
+      "affiliation": [],
+      "family": "Temmel",
+      "given": "Magdalena"
+    },
+    {
+      "affiliation": [],
+      "family": "Hutter-Paier",
+      "given": "Birgit"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Neurosci.",
+    "Frontiers in Neuroscience"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:18:51Z",
+    "timestamp": 1464751131000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fnins.2016.00232",
+  "ISSN": [
+    "1662-453X"
+  ]
+}

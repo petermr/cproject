@@ -1,0 +1,130 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:04Z",
+    "timestamp": 1464835324535
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Medizinische Fakultät, Ruhr-Universität Bochum",
+      "DOI": "10.13039/501100007200"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156702",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:19Z",
+    "timestamp": 1464829159000
+  },
+  "page": "e0156702",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "NFKB1 Promoter DNA from nt+402 to nt+99 Is Hypomethylated in Different Human Immune Cells"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Unterberg",
+      "given": "Matthias"
+    },
+    {
+      "affiliation": [],
+      "family": "Kreuzer",
+      "given": "Maxmiliane Julia"
+    },
+    {
+      "affiliation": [],
+      "family": "Schäfer",
+      "given": "Simon Thomas"
+    },
+    {
+      "affiliation": [],
+      "family": "Bazzi",
+      "given": "Zainab"
+    },
+    {
+      "affiliation": [],
+      "family": "Adamzik",
+      "given": "Michael"
+    },
+    {
+      "affiliation": [],
+      "family": "Rump",
+      "given": "Katharina",
+      "ORCID": "http://orcid.org/0000-0003-2220-519X"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:52Z",
+    "timestamp": 1464829192000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Chiariotti",
+      "given": "Lorenzo"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156702",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

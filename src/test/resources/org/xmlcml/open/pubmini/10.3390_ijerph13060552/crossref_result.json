@@ -1,0 +1,121 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T07:40:10Z",
+    "timestamp": 1468222810749
+  },
+  "reference-count": 32,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/ijerph13060552",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "552",
+  "source": "CrossRef",
+  "title": [
+    "Increase in Suicide Rates by Hanging in the Population of Tabasco, Mexico between 2003 and 2012"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "13",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hernández-Alvarado",
+      "given": "Mervyn"
+    },
+    {
+      "affiliation": [],
+      "family": "González-Castro",
+      "given": "Thelma"
+    },
+    {
+      "affiliation": [],
+      "family": "Tovilla-Zárate",
+      "given": "Carlos"
+    },
+    {
+      "affiliation": [],
+      "family": "Fresán",
+      "given": "Ana"
+    },
+    {
+      "affiliation": [],
+      "family": "Juárez-Rojop",
+      "given": "Isela"
+    },
+    {
+      "affiliation": [],
+      "family": "López-Narváez",
+      "given": "María"
+    },
+    {
+      "affiliation": [],
+      "family": "Villar-Soto",
+      "given": "Mario"
+    },
+    {
+      "affiliation": [],
+      "family": "Genis-Mendoza",
+      "given": "Alma"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "International Journal of Environmental Research and Public Health",
+    "IJERPH"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T05:55:02Z",
+    "timestamp": 1468216502000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "ijerph13060552"
+  ],
+  "URL": "http://dx.doi.org/10.3390/ijerph13060552",
+  "ISSN": [
+    "1660-4601"
+  ]
+}

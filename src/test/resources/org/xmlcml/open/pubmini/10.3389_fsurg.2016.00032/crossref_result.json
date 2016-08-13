@@ -1,0 +1,92 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:26Z",
+    "timestamp": 1464756026970
+  },
+  "reference-count": 8,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fsurg.2016.00032",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:03:49Z",
+    "timestamp": 1464750229000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "“SO STONED”: Common Sense Approach of the Dizzy Patient"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "3",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Wuyts",
+      "given": "Floris L."
+    },
+    {
+      "affiliation": [],
+      "family": "Van Rompaey",
+      "given": "Vincent"
+    },
+    {
+      "affiliation": [],
+      "family": "Maes",
+      "given": "Leen K."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Surg.",
+    "Frontiers in Surgery"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:03:49Z",
+    "timestamp": 1464750229000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fsurg.2016.00032",
+  "ISSN": [
+    "2296-875X"
+  ]
+}

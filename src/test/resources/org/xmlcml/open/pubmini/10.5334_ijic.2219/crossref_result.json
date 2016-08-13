@@ -1,0 +1,119 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        22
+      ]
+    ],
+    "date-time": "2016-07-22T13:41:39Z",
+    "timestamp": 1469194899730
+  },
+  "reference-count": 27,
+  "publisher": "Ubiquity Press, Ltd.",
+  "issue": "2",
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.5334/ijic.2219",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:37:46Z",
+    "timestamp": 1464831466000
+  },
+  "source": "CrossRef",
+  "title": [
+    "Assessment of Patients’ Perception of Telemedicine Services Using the Service User Technology Acceptability Questionnaire"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5334",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Dario",
+      "given": "Claudio"
+    },
+    {
+      "affiliation": [],
+      "family": "Luisotto",
+      "given": "Elena"
+    },
+    {
+      "affiliation": [],
+      "family": "Dal Pozzo",
+      "given": "Enrico"
+    },
+    {
+      "affiliation": [],
+      "family": "Mancin",
+      "given": "Silvia"
+    },
+    {
+      "affiliation": [],
+      "family": "Aletras",
+      "given": "Vassilis"
+    },
+    {
+      "affiliation": [],
+      "family": "Newman",
+      "given": "Stanton"
+    },
+    {
+      "affiliation": [],
+      "family": "Gubian",
+      "given": "Lorenzo"
+    },
+    {
+      "affiliation": [],
+      "family": "Saccavini",
+      "given": "Claudio"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3285",
+  "container-title": [
+    "International Journal of Integrated Care"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        22
+      ]
+    ],
+    "date-time": "2016-07-22T12:54:01Z",
+    "timestamp": 1469192041000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "10.5334/ijic.2219"
+  ],
+  "URL": "http://dx.doi.org/10.5334/ijic.2219",
+  "ISSN": [
+    "1568-4156"
+  ]
+}

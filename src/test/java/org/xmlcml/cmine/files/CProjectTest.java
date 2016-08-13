@@ -70,7 +70,7 @@ public class CProjectTest {
 		Assert.assertEquals("all child dir", 2, allChildDirectoryList.size());
 		List<File> allChildFileList = cProject.getAllChildFileList();
 		Assert.assertEquals("all child file", 1, allChildFileList.size());
-		CTreeList cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getResetCTreeList();
 		Assert.assertEquals("trees", 2, cTreeList.size());
 	}
 	
@@ -87,7 +87,7 @@ public class CProjectTest {
 		Assert.assertEquals("allowed child dir", 0, allowedChildDirectoryList.size());
 		List<File> unknownChildDirectoryList = cProject.getUnknownChildDirectoryList();
 		Assert.assertEquals("unknown child dir", 0, unknownChildDirectoryList.size());
-		CTreeList cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getResetCTreeList();
 		Assert.assertEquals("all child dir", 3, cTreeList.size());
 		
 		List<File> allChildFileList = cProject.getAllChildFileList();
@@ -116,7 +116,7 @@ public class CProjectTest {
 		Assert.assertEquals("allowed child dir", 0, allowedChildDirectoryList.size());
 		List<File> unknownChildDirectoryList = cProject.getUnknownChildDirectoryList();
 		Assert.assertEquals("unknown child dir", 1, unknownChildDirectoryList.size());
-		CTreeList cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getResetCTreeList();
 		Assert.assertEquals("all child dir", 2, cTreeList.size());
 		
 		List<File> allChildFileList = cProject.getAllChildFileList();
@@ -538,7 +538,7 @@ project2
 	 * @throws IOException
 	 */
 	@Test 
-	public void testMergeProjects() {
+	public void testMergeProjects() throws IOException {
 		File project1Dir = new File(CMineFixtures.TEST_PROJECTS_DIR, "project1/");
 		File project2Dir = new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/");
 		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "project1/");
@@ -547,12 +547,12 @@ project2
 		CMineTestFixtures.cleanAndCopyDir(project2Dir, target2Dir);
 		CProject project1 = new CProject(target1Dir);
 		CProject project2 = new CProject(target2Dir);
-		Assert.assertEquals("ctree1", 2, project1.getCTreeList().size());
-		Assert.assertEquals("ctree2", 3, project2.getCTreeList().size());
+		Assert.assertEquals("ctree1", 2, project1.getResetCTreeList().size());
+		Assert.assertEquals("ctree2", 3, project2.getResetCTreeList().size());
 		project1.mergeProjects(project2);
 		project2 = new CProject(target2Dir);
-		Assert.assertEquals("ctree1", 5, project1.getCTreeList().size());
-		Assert.assertEquals("ctree2", 3, project2.getCTreeList().size());
+		Assert.assertEquals("ctree1", 5, project1.getResetCTreeList().size());
+		Assert.assertEquals("ctree2", 3, project2.getResetCTreeList().size());
 	}
 	
 	/** NORMALIZE DOI NAMES
@@ -565,7 +565,7 @@ project2
 		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "doiNames/");
 		CMineTestFixtures.cleanAndCopyDir(project1Dir, target1Dir);
 		CProject project1 = new CProject(target1Dir);
-		CTreeList cTreeList = project1.getCTreeList();
+		CTreeList cTreeList = project1.getResetCTreeList();
 		Assert.assertEquals("unnormalized ", "["
 				+ "target/getpapers/doiNames/http_dx.doi.org_10.1088_1757-899x_106_1_012037,"
 				+ " target/getpapers/doiNames/http_dx.doi.org_10.1088_1757-899x_106_1_012038,"

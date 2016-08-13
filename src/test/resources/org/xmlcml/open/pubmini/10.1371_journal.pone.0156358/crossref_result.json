@@ -1,0 +1,150 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:01Z",
+    "timestamp": 1464835321252
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "No.51304226",
+        "U1562212"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    },
+    {
+      "award": [
+        "No.51304226",
+        "U1562212"
+      ],
+      "doi-asserted-by": "crossref",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    },
+    {
+      "award": [
+        "No.2462013 BJRC002",
+        "No.YJRC-2013-04"
+      ],
+      "name": "Science Foundation of China University of Petroleum, Beijing"
+    },
+    {
+      "award": [
+        "No.2462013 BJRC002",
+        "No.YJRC-2013-04"
+      ],
+      "name": "Science Foundation of China University of Petroleum, Beijing"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156358",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:15Z",
+    "timestamp": 1464828915000
+  },
+  "page": "e0156358",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Optimization of Operation Parameters for Helical Flow Cleanout with Supercritical CO2 in Horizontal Wells Using Back-Propagation Artificial Neural Network"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Song",
+      "given": "Xianzhi"
+    },
+    {
+      "affiliation": [],
+      "family": "Peng",
+      "given": "Chi"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Gensheng"
+    },
+    {
+      "affiliation": [],
+      "family": "He",
+      "given": "Zhenguo"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Haizhu"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:31Z",
+    "timestamp": 1464828931000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Gao",
+      "given": "Zhong-Ke"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156358",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

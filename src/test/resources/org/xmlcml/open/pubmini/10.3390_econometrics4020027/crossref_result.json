@@ -1,0 +1,104 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T06:40:25Z",
+    "timestamp": 1468219225213
+  },
+  "reference-count": 60,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Centre of Excellence in Cognition and its Disorders, Australian Research Council",
+      "DOI": "10.13039/501100003752"
+    }
+  ],
+  "DOI": "10.3390/econometrics4020027",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "27",
+  "source": "CrossRef",
+  "title": [
+    "Continuous and Jump Betas: Implications for Portfolio Diversification"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Alexeev",
+      "given": "Vitali",
+      "ORCID": "http://orcid.org/0000-0003-3092-2500"
+    },
+    {
+      "affiliation": [],
+      "family": "Dungey",
+      "given": "Mardi"
+    },
+    {
+      "affiliation": [],
+      "family": "Yao",
+      "given": "Wenying"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Econometrics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T05:49:33Z",
+    "timestamp": 1468216173000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "econometrics4020027"
+  ],
+  "URL": "http://dx.doi.org/10.3390/econometrics4020027",
+  "ISSN": [
+    "2225-1146"
+  ]
+}

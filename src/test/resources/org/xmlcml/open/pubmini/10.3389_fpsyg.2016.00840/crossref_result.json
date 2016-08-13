@@ -1,0 +1,92 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:36Z",
+    "timestamp": 1464756036742
+  },
+  "reference-count": 45,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fpsyg.2016.00840",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:16:45Z",
+    "timestamp": 1464751005000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "The Roles of Non-retinotopic Motions in Visual Search"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Nakayama",
+      "given": "Ryohei"
+    },
+    {
+      "affiliation": [],
+      "family": "Motoyoshi",
+      "given": "Isamu"
+    },
+    {
+      "affiliation": [],
+      "family": "Sato",
+      "given": "Takao"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Psychology",
+    "Front. Psychol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:16:45Z",
+    "timestamp": 1464751005000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpsyg.2016.00840",
+  "ISSN": [
+    "1664-1078"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:29Z",
+    "timestamp": 1464835289550
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Ministry of Science, ICT and Future Planning",
+      "DOI": "10.13039/501100003621"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156632",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:09Z",
+    "timestamp": 1464829029000
+  },
+  "page": "e0156632",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Bio-Anthropological Studies on Human Skeletons from the 6th Century Tomb of Ancient Silla Kingdom in South Korea"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Won-Joon"
+    },
+    {
+      "affiliation": [],
+      "family": "Woo",
+      "given": "Eun Jin"
+    },
+    {
+      "affiliation": [],
+      "family": "Oh",
+      "given": "Chang Seok"
+    },
+    {
+      "affiliation": [],
+      "family": "Yoo",
+      "given": "Jeong A."
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Yi-Suk"
+    },
+    {
+      "affiliation": [],
+      "family": "Hong",
+      "given": "Jong Ha"
+    },
+    {
+      "affiliation": [],
+      "family": "Yoon",
+      "given": "A. Young"
+    },
+    {
+      "affiliation": [],
+      "family": "Wilkinson",
+      "given": "Caroline M."
+    },
+    {
+      "affiliation": [],
+      "family": "Ju",
+      "given": "Jin Og"
+    },
+    {
+      "affiliation": [],
+      "family": "Choi",
+      "given": "Soon Jo"
+    },
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Soong Doek"
+    },
+    {
+      "affiliation": [],
+      "family": "Shin",
+      "given": "Dong Hoon"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:58:08Z",
+    "timestamp": 1464829088000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Spigelman",
+      "given": "Mark"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156632",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

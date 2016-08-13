@@ -1,0 +1,163 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:47Z",
+    "timestamp": 1464835307112
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "2010NFEB9L_003"
+      ],
+      "doi-asserted-by": "crossref",
+      "name": "Ministero dell’Istruzione, dell’Università e della Ricerca",
+      "DOI": "10.13039/501100003407"
+    },
+    {
+      "award": [
+        "IG 10296"
+      ],
+      "doi-asserted-by": "crossref",
+      "name": "Associazione Italiana per la Ricerca sul Cancro",
+      "DOI": "10.13039/501100005010"
+    },
+    {
+      "award": [],
+      "name": "Fondazione Umberto Di Mario ONLUS"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156658",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:15Z",
+    "timestamp": 1464829155000
+  },
+  "page": "e0156658",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Expression of PAX8 Target Genes in Papillary Thyroid Carcinoma"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Rosignolo",
+      "given": "Francesca"
+    },
+    {
+      "affiliation": [],
+      "family": "Sponziello",
+      "given": "Marialuisa"
+    },
+    {
+      "affiliation": [],
+      "family": "Durante",
+      "given": "Cosimo"
+    },
+    {
+      "affiliation": [],
+      "family": "Puppin",
+      "given": "Cinzia"
+    },
+    {
+      "affiliation": [],
+      "family": "Mio",
+      "given": "Catia"
+    },
+    {
+      "affiliation": [],
+      "family": "Baldan",
+      "given": "Federica"
+    },
+    {
+      "affiliation": [],
+      "family": "Di Loreto",
+      "given": "Carla"
+    },
+    {
+      "affiliation": [],
+      "family": "Russo",
+      "given": "Diego"
+    },
+    {
+      "affiliation": [],
+      "family": "Filetti",
+      "given": "Sebastiano"
+    },
+    {
+      "affiliation": [],
+      "family": "Damante",
+      "given": "Giuseppe"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:27Z",
+    "timestamp": 1464829167000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Plateroti",
+      "given": "Michelina"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156658",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

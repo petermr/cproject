@@ -1,0 +1,279 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        25
+      ]
+    ],
+    "date-time": "2016-06-25T09:40:17Z",
+    "timestamp": 1466847617034
+  },
+  "reference-count": 103,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 22,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2016-06-23T00:00:00Z",
+        "timestamp": 1466640000000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 22,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2016-06-23T00:00:00Z",
+        "timestamp": 1466640000000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "P20812-G11"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Austrian Science Fund",
+      "DOI": "10.13039/501100002428"
+    },
+    {
+      "award": [
+        "EJF-2011-76"
+      ],
+      "doi-asserted-by": "crossref",
+      "name": "Einstein Stiftung Berlin",
+      "DOI": "10.13039/501100006188"
+    },
+    {
+      "award": [
+        "IPs VOLANTE 265104 and HERCULES 603"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "European Commission",
+      "DOI": "10.13039/501100000780"
+    },
+    {
+      "award": [
+        "StGs 263522 LUISE and CoG 311819 GL"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "European Research Council",
+      "DOI": "10.13039/501100000781"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/064020",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        24
+      ]
+    ],
+    "date-time": "2016-06-24T08:14:22Z",
+    "timestamp": 1466756062000
+  },
+  "page": "064020",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Hotspots of land use change in Europe"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kuemmerle",
+      "given": "Tobias"
+    },
+    {
+      "affiliation": [],
+      "family": "Levers",
+      "given": "Christian"
+    },
+    {
+      "affiliation": [],
+      "family": "Erb",
+      "given": "Karlheinz"
+    },
+    {
+      "affiliation": [],
+      "family": "Estel",
+      "given": "Stephan"
+    },
+    {
+      "affiliation": [],
+      "family": "Jepsen",
+      "given": "Martin R"
+    },
+    {
+      "affiliation": [],
+      "family": "Müller",
+      "given": "Daniel"
+    },
+    {
+      "affiliation": [],
+      "family": "Plutzar",
+      "given": "Christoph"
+    },
+    {
+      "affiliation": [],
+      "family": "Stürck",
+      "given": "Julia"
+    },
+    {
+      "affiliation": [],
+      "family": "Verkerk",
+      "given": "Pieter J"
+    },
+    {
+      "affiliation": [],
+      "family": "Verburg",
+      "given": "Peter H"
+    },
+    {
+      "affiliation": [],
+      "family": "Reenberg",
+      "given": "Anette"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        24
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064020/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064020?key=crossref.5ec26fdb49e7dc1e0c0125a3370a8a47"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        25
+      ]
+    ],
+    "date-time": "2016-06-25T08:01:51Z",
+    "timestamp": 1466841711000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/064020",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Hotspots of land use change in Europe"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2016-03-08"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-19"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-23"
+    }
+  ]
+}

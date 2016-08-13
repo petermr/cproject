@@ -1,0 +1,121 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:08Z",
+    "timestamp": 1454582708025
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0147263",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:52:31Z",
+    "timestamp": 1454352751000
+  },
+  "page": "e0147263",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Travel Time Estimation Using Freeway Point Detector Data Based on Evolving Fuzzy Neural Inference System"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Tang",
+      "given": "Jinjun"
+    },
+    {
+      "affiliation": [],
+      "family": "Zou",
+      "given": "Yajie"
+    },
+    {
+      "affiliation": [],
+      "family": "Ash",
+      "given": "John"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Shen"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Fang"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Yinhai"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:52:31Z",
+    "timestamp": 1454352751000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Deng",
+      "given": "Zhaohong"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0147263",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

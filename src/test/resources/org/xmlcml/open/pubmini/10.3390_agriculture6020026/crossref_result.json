@@ -1,0 +1,96 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:42:45Z",
+    "timestamp": 1466264565704
+  },
+  "reference-count": 185,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/agriculture6020026",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "26",
+  "source": "CrossRef",
+  "title": [
+    "Selection and Breeding of Suitable Crop Genotypes for Drought and Heat Periods in a Changing Climate: Which Morphological and Physiological Properties Should Be Considered?"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Simova-Stoilova",
+      "given": "Lyudmila"
+    },
+    {
+      "affiliation": [],
+      "family": "Vassileva",
+      "given": "Valya"
+    },
+    {
+      "affiliation": [],
+      "family": "Feller",
+      "given": "Urs",
+      "ORCID": "http://orcid.org/0000-0001-7858-5721"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Agriculture"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:01:28Z",
+    "timestamp": 1466258488000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "agriculture6020026"
+  ],
+  "URL": "http://dx.doi.org/10.3390/agriculture6020026",
+  "ISSN": [
+    "2077-0472"
+  ]
+}

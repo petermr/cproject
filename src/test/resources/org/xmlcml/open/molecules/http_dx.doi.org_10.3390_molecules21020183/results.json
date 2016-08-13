@@ -1,0 +1,85 @@
+{
+  "publisher": {
+    "value": [
+      "Multidisciplinary Digital Publishing Institute"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Molecules"
+    ]
+  },
+  "title": {
+    "value": [
+      "Alisol F 24 Acetate Enhances Chemosensitivity and Apoptosis of MCF-7/DOX Cells by Inhibiting P-Glycoprotein-Mediated Drug Efflux"
+    ]
+  },
+  "authors": {
+    "value": []
+  },
+  "date": {
+    "value": [
+      "2016-02-04"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.3390/molecules21020183"
+    ]
+  },
+  "volume": {
+    "value": [
+      "21"
+    ]
+  },
+  "issue": {
+    "value": [
+      "2"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "183"
+    ]
+  },
+  "description": {
+    "value": [
+      "Multidrug resistance (MDR) is a prime reason for numerous failed oncotherapy approaches. In the present study, we investigated whether Alisol F 24 acetate (ALI) could reverse the MDR of MCF-7/DOX cells, a multidrug-resistant human breast cancer cell line. We found that ALI was a potent P-glycoprotein (P-gp) inhibitor, in the Caco-2-monolayer cell model. ALI showed a significant and concentration-dependent cytotoxic effect on MCF-7/DOX cells in combination with doxorubicin by increasing intracellular accumulation and inducing nuclear migration of doxorubicin. However, ALI had no such effect on MCF-7 cells. In addition, ALI also promoted doxorubicin-induced early apoptosis of MCF-7/DOX cells in a time-dependent manner. These results suggest that ALI can enhance chemosensitivity of doxorubicin and reinforce its anti-cancer effect by increasing its uptake, especially inducing its nuclear accumulation in MCF-7/DOX cells. Therefore, ALI could be developed as a potential MDR-reversing agent in cancer chemotherapy in further study."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Multidrug resistance (MDR) is a prime reason for numerous failed oncotherapy approaches. In the present study, we investigated whether Alisol F 24 acetate (ALI) could reverse the MDR of MCF-7/DOX cells, a multidrug-resistant human breast cancer cell line. We found that ALI was a potent P-glycoprotein (P-gp) inhibitor, in the Caco-2-monolayer cell model. ALI showed a significant and concentration-dependent cytotoxic effect on MCF-7/DOX cells in combination with doxorubicin by increasing intracellular accumulation and inducing nuclear migration of doxorubicin. However, ALI had no such effect on MCF-7 cells. In addition, ALI also promoted doxorubicin-induced early apoptosis of MCF-7/DOX cells in a time-dependent manner. These results suggest that ALI can enhance chemosensitivity of doxorubicin and reinforce its anti-cancer effect by increasing its uptake, especially inducing its nuclear accumulation in MCF-7/DOX cells. Therefore, ALI could be developed as a potential MDR-reversing agent in cancer chemotherapy in further study."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/183/htm"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/183/pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/183/xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": []
+  },
+  "copyright": {
+    "value": []
+  }
+}

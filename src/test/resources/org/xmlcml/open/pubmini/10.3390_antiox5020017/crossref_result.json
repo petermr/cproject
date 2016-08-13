@@ -1,0 +1,90 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:50Z",
+    "timestamp": 1466264510443
+  },
+  "reference-count": 81,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/antiox5020017",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "17",
+  "source": "CrossRef",
+  "title": [
+    "Berry Leaves: An Alternative Source of Bioactive Natural Products of Nutritional and Medicinal Value"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ferlemi",
+      "given": "Anastasia-Varvara"
+    },
+    {
+      "affiliation": [],
+      "family": "Lamari",
+      "given": "Fotini"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Antioxidants"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:02:18Z",
+    "timestamp": 1466258538000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "antiox5020017"
+  ],
+  "URL": "http://dx.doi.org/10.3390/antiox5020017",
+  "ISSN": [
+    "2076-3921"
+  ]
+}

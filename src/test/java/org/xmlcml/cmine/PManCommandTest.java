@@ -2,6 +2,7 @@ package org.xmlcml.cmine;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -11,8 +12,11 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cmine.files.CProject;
+import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
 import org.xmlcml.cmine.util.CMineTestFixtures;
 import org.xmlcml.cmine.util.Utils;
+
+import com.google.gson.JsonArray;
 
 /** tests commands under the 'cmine' command
  * 
@@ -162,13 +166,13 @@ public class PManCommandTest {
 		CMineTestFixtures.cleanAndCopyDir(source2Dir, target2Dir);
 		CProject project1 = new CProject(target1Dir);
 		CProject project2 = new CProject(target2Dir);
-		Assert.assertEquals("project1", 21, project1.getCTreeList().size());
-		Assert.assertEquals("project2", 35, project2.getCTreeList().size());
+		Assert.assertEquals("project1", 21, project1.getResetCTreeList().size());
+		Assert.assertEquals("project2", 35, project2.getResetCTreeList().size());
 		String cmd = "--project "+target1Dir.toString()+" --mergeProjects "+target2Dir.toString();
 		new PMan().run(cmd);
 		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
-		Assert.assertEquals("project1", 56, project1.getCTreeList().size());
-		Assert.assertEquals("project2", 35, project2.getCTreeList().size());
+		Assert.assertEquals("project1", 56, project1.getResetCTreeList().size());
+		Assert.assertEquals("project2", 35, project2.getResetCTreeList().size());
 		
 	}
 	
@@ -195,22 +199,22 @@ public class PManCommandTest {
 		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "httpUrls");
 		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
 		CProject project1 = new CProject(target1Dir);
-		Assert.assertEquals("project1", 11, project1.getCTreeList().size());
+		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
 		Assert.assertEquals("pre normalize", "["
 				+ "target/getpapers/httpUrls/http_dx.doi.org_10.1063_1.4941232,"
 				+ " target/getpapers/httpUrls/http_dx.doi.org_10.1088_0022-3727_49_9_095001,"
 				+ " target/getpapers/httpUrls/http_dx.doi.org_10.1088_0031-8949_t167_", 
-				Utils.truncate(project1.getCTreeList().toString(), 0, 200));
+				Utils.truncate(project1.getResetCTreeList().toString(), 0, 200));
 		String cmd = "--project "+target1Dir.toString()+" --renameCTree noHttp";
 		new PMan().run(cmd);
 		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
-		Assert.assertEquals("project1", 11, project1.getCTreeList().size());
+		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
 		Assert.assertEquals("post normalize", "["
 				+ "target/getpapers/httpUrls/10.1063_1.4941232,"
 				+ " target/getpapers/httpUrls/10.1088_0022-3727_49_9_095001,"
 				+ " target/getpapers/httpUrls/10.1088_0031-8949_t167_1_014076,"
 				+ " target/getpapers/httpUrls/10.1088_0953"
-				, Utils.truncate(project1.getCTreeList().toString(), 0, 200));
+				, Utils.truncate(project1.getResetCTreeList().toString(), 0, 200));
 	}
 
 	/** RENAME CTREE NAMES and merge getpapers and quickscrape
@@ -249,6 +253,8 @@ public class PManCommandTest {
 
 'renameCTree noHttp' should normalize the dir names and copy files into a single place
 
+may become unnecessary as getpapers and quickscrape are reconciled
+
 	 * @throws IOException
 	 */
 	@Test
@@ -257,17 +263,71 @@ public class PManCommandTest {
 		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "molecules");
 		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
 		CProject project1 = new CProject(target1Dir);
-		Assert.assertEquals("project1", 22, project1.getCTreeList().size());
+		Assert.assertEquals("project1", 22, project1.getResetCTreeList().size());
 		String cmd = "--project "+target1Dir.toString()+" --renameCTree noHttp";
 		new PMan().run(cmd);
 		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
-		Assert.assertEquals("project1", 11, project1.getCTreeList().size());
+		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
 		Assert.assertEquals("post normalize", "["
 				+ "target/getpapers/molecules/10.3390_molecules21020174,"
 				+ " target/getpapers/molecules/10.3390_molecules21020178,"
 				+ " target/getpapers/molecules/10.3390_molecules21020180,"
 				+ " target/getpapers/molecules/10.3390_mo"
-				, Utils.truncate(project1.getCTreeList().toString(), 0, 200));
+				, Utils.truncate(project1.getResetCTreeList().toString(), 0, 200));
+	}
+	
+	/** rename files in CTree
+	 * 
+	 * @throws IOException
+	 */
+	@Test
+	public void testRenameFiles() throws IOException {
+		
+		File source1Dir = new File(CMineFixtures.GETPAPERS_OPEN, "httpUrls");
+		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "httpUrls");
+		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
+		CProject project1 = new CProject(target1Dir);
+		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
+		File oldFile = new File(project1.getDirectory(), "http_dx.doi.org_10.1063_1.4941232/results.json");
+		Assert.assertTrue("oldFile exists", oldFile.exists());
+		File newFile = new File(project1.getDirectory(), "http_dx.doi.org_10.1063_1.4941232/quickscrape_result.json");
+		Assert.assertFalse("newFile not exists", newFile.exists());
+
+		String cmd = "--project "+target1Dir.toString()+" --renameFile results.json quickscrape_result.json";
+		new PMan().run(cmd);
+		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
+		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
+		oldFile = new File(project1.getDirectory(), "http_dx.doi.org_10.1063_1.4941232/results.json");
+		Assert.assertFalse("oldFile not exists", oldFile.exists());
+		newFile = new File(project1.getDirectory(), "http_dx.doi.org_10.1063_1.4941232/quickscrape_result.json");
+		Assert.assertTrue("newFile exists", newFile.exists());
+	}
+	
+	/** rename files in CTree
+	 * 
+	 * @throws IOException
+	 */
+	@Test
+	public void testDeleteFiles() throws IOException {
+		
+		File source1Dir = new File(CMineFixtures.GETPAPERS_OPEN, "httpUrls");
+		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "httpUrls");
+		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
+		CProject project1 = new CProject(target1Dir);
+		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
+		File file1 = new File(project1.getDirectory(), "http_dx.doi.org_10.1103_physrevb.93.075101/results.json");
+		Assert.assertTrue("file1 exists", file1.exists());
+		File file2 = new File(project1.getDirectory(), "http_dx.doi.org_10.1103_physrevb.93.075101/fulltext.html");
+		Assert.assertTrue("file2 exists", file2.exists());
+
+		String cmd = "--project "+target1Dir.toString()+" --deleteFile results.json fulltext.html";
+		new PMan().run(cmd);
+		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
+		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
+		file1 = new File(project1.getDirectory(), "http_dx.doi.org_10.1103_physrevb.93.075101/results.json");
+		Assert.assertFalse("file1 not exists", file1.exists());
+		file2 = new File(project1.getDirectory(), "http_dx.doi.org_10.1103_physrevb.93.075101/fulltext.html");
+		Assert.assertFalse("file2 not exists", file2.exists());
 	}
 	
 
@@ -285,7 +345,7 @@ public class PManCommandTest {
 		File outUrls = new File(target1Dir, "outUrls.txt");
 		Assert.assertFalse(outUrls.getAbsolutePath()+" exists", outUrls.exists());
 		CProject project1 = new CProject(target1Dir);
-		Assert.assertEquals("project1", 69, project1.getCTreeList().size());
+		Assert.assertEquals("project1", 69, project1.getResetCTreeList().size());
 		String cmd = "--project "+target1Dir.toString()+" --inUrls "+" urls.txt" +" markEmpty --outUrls outUrls.txt";
 		new PMan().run(cmd);
 		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
@@ -294,10 +354,82 @@ public class PManCommandTest {
 				+ "target/getpapers/lic20160201truncated/http_dx.doi.org_10.1088_1757-899x_106_1_012014,"
 				+ " target/getpapers/lic20160201truncated/http_dx.doi.org_10.1088_1757-899x_106_1_012015,"
 				+ " target/getpapers/lic2016020"
-				, Utils.truncate(project1.getCTreeList().toString(), 0, 200));
+				, Utils.truncate(project1.getResetCTreeList().toString(), 0, 200));
 
 		Assert.assertTrue(outUrls.getAbsolutePath()+" exists", outUrls.exists());
 		Assert.assertEquals("urls", 54, FileUtils.readLines(outUrls).size());
+
+	}
+	
+
+	/** CHECK DOWNLOADED FILES
+	 * 
+	 * sometimes the files downloaded by quickscrape are different MIM types from exoected.
+	 * Most commonly "fulltext.pdf" is actually an HTML (?frame) indicating that downlaod failed.
+	 * 
+	 * This utility will detect incorrect PDFs and rename `fulltext.pdf` to `fulltext.pdf.html`
+	 * make take several hundred ms to read bytes from a large PDF file
+	 * 
+	 * @throws IOException
+	 */
+	@Test
+	public void testCheckFileContents() throws IOException {
+		File source1Dir = new File(CMineFixtures.GETPAPERS_OPEN, "lic20160201truncated");
+		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "lic20160201truncated");
+		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
+		List<File> pdfFiles = new ArrayList<File>(FileUtils.listFiles(target1Dir, new String[]{"pdf"}, true));
+		Assert.assertEquals(26,  pdfFiles.size());
+		CProject project1 = new CProject(target1Dir);
+		Assert.assertEquals("project1", 69, project1.getResetCTreeList().size());
+		File pdf = new File(target1Dir, "http_dx.doi.org_10.1103_physrevb.93.075101/fulltext.pdf");
+		Assert.assertTrue("pdf exists", pdf.exists());
+		File pdfHtml = new File(target1Dir, "http_dx.doi.org_10.1103_physrevb.93.075101/fulltext.pdf.html");
+		Assert.assertFalse("pdfHtml not exists", pdfHtml.exists());
+
+		String cmd = "--project "+target1Dir.toString()+" --renamePDF";
+		new PMan().run(cmd);
+		
+		pdf = new File(target1Dir, "http_dx.doi.org_10.1103_physrevb.93.075101/fulltext.pdf");
+		Assert.assertFalse("pdf not exists", pdf.exists());
+		pdfHtml = new File(target1Dir, "http_dx.doi.org_10.1103_physrevb.93.075101/fulltext.pdf.html");
+		Assert.assertTrue("pdfHtml exists", pdfHtml.exists());
+		
+		pdfFiles = new ArrayList<File>(FileUtils.listFiles(target1Dir, new String[]{"pdf"}, true));
+		Assert.assertEquals(25,  pdfFiles.size());
+
+	}
+	
+
+	/** MERGE PROJECTS
+	 * 
+	 * @throws IOException
+	 */
+	@Test
+	public void testMergeCprojects() throws IOException {
+		File source1Dir = new File(CMineFixtures.GETPAPERS_OPEN, "licmini");
+		File source2Dir = new File(CMineFixtures.GETPAPERS_OPEN, "pubmini");
+		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "licmini");
+		File target2Dir = new File(CMineFixtures.GETPAPERS_TARGET, "pubmini");
+		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
+		CMineTestFixtures.cleanAndCopyDir(source2Dir, target2Dir);
+		CProject project1 = new CProject(target1Dir);
+		CProject project2 = new CProject(target2Dir);
+		Assert.assertEquals("project1", 57, project1.getResetCTreeList().size());
+		Assert.assertEquals("project2",278, project2.getResetCTreeList().size());
+		File duplicates = new File(CMineFixtures.GETPAPERS_TARGET, "duplicates");
+
+		String cmd = "--project "+target1Dir.toString()+" --mergeProjects "+target2Dir.toString()+" --duplicates "+duplicates.toString();
+		new PMan().run(cmd);
+
+		CProject project1a = new CProject(target1Dir);
+		Assert.assertEquals("project1", 310, project1a.getResetCTreeList().size());
+		JsonArray array = new CrossrefMD().readMetadataArrayFromConcatenatedFile(new File(target1Dir, "crossref_results.json"));
+		Assert.assertEquals(310, array.size());
+		Assert.assertEquals("project2", 278, project2.getResetCTreeList().size());
+		Assert.assertTrue("duplicates exists", duplicates.exists());
+		Assert.assertTrue("duplicates is directory ", duplicates.isDirectory());
+		CProject duplicatesProject = new CProject(duplicates);
+		Assert.assertEquals("duplicates trees", 25, duplicatesProject.getResetCTreeList().size());
 
 	}
 	

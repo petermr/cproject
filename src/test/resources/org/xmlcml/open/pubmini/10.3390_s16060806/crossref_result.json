@@ -1,0 +1,140 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:42:35Z",
+    "timestamp": 1466264555746
+  },
+  "reference-count": 34,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    }
+  ],
+  "DOI": "10.3390/s16060806",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "806",
+  "source": "CrossRef",
+  "title": [
+    "Overhauser Geomagnetic Sensor Based on the Dynamic Nuclear Polarization Effect for Magnetic Prospecting"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ge",
+      "given": "Jian",
+      "ORCID": "http://orcid.org/0000-0001-7211-7337"
+    },
+    {
+      "affiliation": [],
+      "family": "Dong",
+      "given": "Haobin"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Huan"
+    },
+    {
+      "affiliation": [],
+      "family": "Yuan",
+      "given": "Zhiwen"
+    },
+    {
+      "affiliation": [],
+      "family": "Dong",
+      "given": "He"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Zhizhuo"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Yonghua"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhu",
+      "given": "Jun"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Haiyang"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:05:04Z",
+    "timestamp": 1466258704000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "s16060806"
+  ],
+  "URL": "http://dx.doi.org/10.3390/s16060806",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [
+    "Electrical and Electronic Engineering",
+    "Analytical Chemistry",
+    "Atomic and Molecular Physics, and Optics",
+    "Biochemistry"
+  ]
+}

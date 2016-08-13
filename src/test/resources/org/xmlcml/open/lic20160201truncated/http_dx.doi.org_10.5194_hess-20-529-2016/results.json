@@ -1,0 +1,50 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://www.hydrol-earth-syst-sci.net/20/529/2016/hess-20-529-2016.pdf"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "Integrated water system simulation by considering hydrological and biogeochemical processes: model development, with parameter sensitivity and autocalibration"
+    ]
+  },
+  "author": {
+    "value": [
+      "Zhang, Y. Y.",
+      "Shao, Q. X.",
+      "Ye, A. Z.",
+      "Xing, H. T.",
+      "Xia, J."
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "doi:10.5194/hess-20-529-2016"
+    ]
+  },
+  "volume": {
+    "value": [
+      "20"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "529"
+    ]
+  },
+  "description": {
+    "value": []
+  }
+}

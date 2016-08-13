@@ -1,0 +1,138 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:43:27Z",
+    "timestamp": 1466264607779
+  },
+  "reference-count": 54,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Health Research Council of New Zealand",
+      "DOI": "10.13039/501100001505"
+    }
+  ],
+  "DOI": "10.3390/nu8060326",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "326",
+  "source": "CrossRef",
+  "title": [
+    "The Relationship between Vitamin D Status and Allergic Diseases in New Zealand Preschool Children"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "8",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Cairncross",
+      "given": "Carolyn"
+    },
+    {
+      "affiliation": [],
+      "family": "Grant",
+      "given": "Cameron"
+    },
+    {
+      "affiliation": [],
+      "family": "Stonehouse",
+      "given": "Welma"
+    },
+    {
+      "affiliation": [],
+      "family": "Conlon",
+      "given": "Cath"
+    },
+    {
+      "affiliation": [],
+      "family": "McDonald",
+      "given": "Barry"
+    },
+    {
+      "affiliation": [],
+      "family": "Houghton",
+      "given": "Lisa"
+    },
+    {
+      "affiliation": [],
+      "family": "Eyles",
+      "given": "Darryl"
+    },
+    {
+      "affiliation": [],
+      "family": "Camargo",
+      "given": "Carlos"
+    },
+    {
+      "affiliation": [],
+      "family": "Coad",
+      "given": "Jane"
+    },
+    {
+      "affiliation": [],
+      "family": "von Hurst",
+      "given": "Pamela"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Nutrients"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:08:36Z",
+    "timestamp": 1466258916000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "nu8060326"
+  ],
+  "URL": "http://dx.doi.org/10.3390/nu8060326",
+  "ISSN": [
+    "2072-6643"
+  ]
+}

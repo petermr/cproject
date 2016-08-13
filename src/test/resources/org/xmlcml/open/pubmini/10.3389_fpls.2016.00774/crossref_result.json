@@ -1,0 +1,164 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:16Z",
+    "timestamp": 1464756076465
+  },
+  "reference-count": 70,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [
+        "DNRF99"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Danmarks Grundforskningsfond",
+      "DOI": "10.13039/501100001732"
+    },
+    {
+      "award": [
+        "CA-D-PLS-7033-H"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Institute of Food and Agriculture",
+      "DOI": "10.13039/100005825"
+    },
+    {
+      "award": [
+        "1330337"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Division of Molecular and Cellular Biosciences",
+      "DOI": "10.13039/100000152"
+    },
+    {
+      "award": [
+        "0820580"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Division of Biological Infrastructure",
+      "DOI": "10.13039/100000153"
+    },
+    {
+      "award": [
+        "PIOF-GA-2010-275286"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Seventh Framework Programme",
+      "DOI": "10.13039/501100004963"
+    }
+  ],
+  "DOI": "10.3389/fpls.2016.00774",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:16:02Z",
+    "timestamp": 1464750962000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "The Defense Metabolite, Allyl Glucosinolate, Modulates Arabidopsis thaliana Biomass Dependent upon the Endogenous Glucosinolate Pathway"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Francisco",
+      "given": "Marta"
+    },
+    {
+      "affiliation": [],
+      "family": "Joseph",
+      "given": "Bindu"
+    },
+    {
+      "affiliation": [],
+      "family": "Caligagan",
+      "given": "Hart"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Baohua"
+    },
+    {
+      "affiliation": [],
+      "family": "Corwin",
+      "given": "Jason A."
+    },
+    {
+      "affiliation": [],
+      "family": "Lin",
+      "given": "Catherine"
+    },
+    {
+      "affiliation": [],
+      "family": "Kerwin",
+      "given": "Rachel"
+    },
+    {
+      "affiliation": [],
+      "family": "Burow",
+      "given": "Meike"
+    },
+    {
+      "affiliation": [],
+      "family": "Kliebenstein",
+      "given": "Daniel J."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:16:08Z",
+    "timestamp": 1464750968000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00774",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

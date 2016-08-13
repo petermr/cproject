@@ -1,0 +1,105 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T06:40:14Z",
+    "timestamp": 1468219214103
+  },
+  "reference-count": 49,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/electronics5020026",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "26",
+  "source": "CrossRef",
+  "title": [
+    "Photovoltaic Energy Harvesting Wireless Sensor Node for Telemetry Applications Optimized for Low Illumination Levels"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Vračar",
+      "given": "Ljubomir"
+    },
+    {
+      "affiliation": [],
+      "family": "Prijić",
+      "given": "Aneta"
+    },
+    {
+      "affiliation": [],
+      "family": "Nešić",
+      "given": "Damir"
+    },
+    {
+      "affiliation": [],
+      "family": "Dević",
+      "given": "Saša"
+    },
+    {
+      "affiliation": [],
+      "family": "Prijić",
+      "given": "Zoran"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Electronics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T05:49:58Z",
+    "timestamp": 1468216198000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "electronics5020026"
+  ],
+  "URL": "http://dx.doi.org/10.3390/electronics5020026",
+  "ISSN": [
+    "2079-9292"
+  ]
+}

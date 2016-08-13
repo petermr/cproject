@@ -1,0 +1,90 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:40:20Z",
+    "timestamp": 1467474020163
+  },
+  "reference-count": 89,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/healthcare4020030",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "30",
+  "source": "CrossRef",
+  "title": [
+    "Population Health and Paid Parental Leave: What the United States Can Learn from Two Decades of Research"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Burtle",
+      "given": "Adam"
+    },
+    {
+      "affiliation": [],
+      "family": "Bezruchka",
+      "given": "Stephen"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Healthcare"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:13:37Z",
+    "timestamp": 1467468817000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "healthcare4020030"
+  ],
+  "URL": "http://dx.doi.org/10.3390/healthcare4020030",
+  "ISSN": [
+    "2227-9032"
+  ]
+}

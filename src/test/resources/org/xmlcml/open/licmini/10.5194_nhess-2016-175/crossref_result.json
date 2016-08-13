@@ -1,0 +1,171 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        19
+      ]
+    ],
+    "date-time": "2016-07-19T13:41:53Z",
+    "timestamp": 1468935713496
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/nhess-2016-175",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:16:58Z",
+    "timestamp": 1464823018000
+  },
+  "page": "1-22",
+  "source": "CrossRef",
+  "title": [
+    "A new search-and-rescue service in the Mediterranean Sea: a demonstration of the operational capability and an evaluation of its performance using real case scenarios"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Coppini",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Jansen",
+      "given": "E.",
+      "ORCID": "http://orcid.org/0000-0002-8689-7685"
+    },
+    {
+      "affiliation": [],
+      "family": "Turrisi",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Creti",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Shchekinova",
+      "given": "E. Y."
+    },
+    {
+      "affiliation": [],
+      "family": "Pinardi",
+      "given": "N."
+    },
+    {
+      "affiliation": [],
+      "family": "Lecci",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Carluccio",
+      "given": "I."
+    },
+    {
+      "affiliation": [],
+      "family": "Kumkar",
+      "given": "Y. V."
+    },
+    {
+      "affiliation": [],
+      "family": "D&apos;Anca",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Mannnarini",
+      "given": "G.",
+      "ORCID": "http://orcid.org/0000-0001-9205-7765"
+    },
+    {
+      "affiliation": [],
+      "family": "Martinelli",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Marra",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Capodiferro",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Gismondi",
+      "given": "T."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Natural Hazards and Earth System Sciences Discussions",
+    "Nat. Hazards Earth Syst. Sci. Discuss."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        19
+      ]
+    ],
+    "date-time": "2016-07-19T12:13:40Z",
+    "timestamp": 1468930420000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/nhess-2016-175",
+  "ISSN": [
+    "2195-9269"
+  ]
+}

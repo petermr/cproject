@@ -1,14 +1,17 @@
 package org.xmlcml.cmine.metadata;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map.Entry;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import com.google.gson.JsonPrimitive;
 
 public class JsonUtils {
@@ -102,6 +105,16 @@ public class JsonUtils {
 			stringList.add(s);
 		}
 		return stringList;
+	}
+
+	public static List<JsonElement> getListFromFile(File file) throws IOException {
+		String s = FileUtils.readFileToString(file);
+		JsonArray array = (JsonArray) new JsonParser().parse(s);
+		List<JsonElement> elements = new ArrayList<JsonElement>();
+		for (int i = 0; i < array.size(); i++) {
+			elements.add(array.get(i));
+		}
+		return elements;
 	}
 	
 

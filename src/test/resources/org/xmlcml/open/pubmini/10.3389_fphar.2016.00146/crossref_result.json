@@ -1,0 +1,121 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:07Z",
+    "timestamp": 1464756067551
+  },
+  "reference-count": 32,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Kidney Foundation of Canada",
+      "DOI": "10.13039/501100000191"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Canadian Institutes of Health Research",
+      "DOI": "10.13039/501100000024"
+    }
+  ],
+  "DOI": "10.3389/fphar.2016.00146",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:01:56Z",
+    "timestamp": 1464750116000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Protein Kinase C-δ Mediates Shedding of Angiotensin-Converting Enzyme 2 from Proximal Tubular Cells"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Xiao",
+      "given": "Fengxia"
+    },
+    {
+      "affiliation": [],
+      "family": "Zimpelmann",
+      "given": "Joseph"
+    },
+    {
+      "affiliation": [],
+      "family": "Burger",
+      "given": "Dylan"
+    },
+    {
+      "affiliation": [],
+      "family": "Kennedy",
+      "given": "Christopher"
+    },
+    {
+      "affiliation": [],
+      "family": "Hébert",
+      "given": "Richard L."
+    },
+    {
+      "affiliation": [],
+      "family": "Burns",
+      "given": "Kevin D."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Pharmacology",
+    "Front. Pharmacol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:01:58Z",
+    "timestamp": 1464750118000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fphar.2016.00146",
+  "ISSN": [
+    "1663-9812"
+  ]
+}

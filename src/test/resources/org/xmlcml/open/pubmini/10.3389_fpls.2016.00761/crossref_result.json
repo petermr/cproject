@@ -1,0 +1,112 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:22Z",
+    "timestamp": 1464756022311
+  },
+  "reference-count": 28,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fpls.2016.00761",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:09:45Z",
+    "timestamp": 1464750585000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Expect the Unexpected Enrichment of “Hidden Proteome” of Seeds and Tubers by Depletion of Storage Proteins"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Gupta",
+      "given": "Ravi"
+    },
+    {
+      "affiliation": [],
+      "family": "Min",
+      "given": "Cheol W."
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Yiming"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Yong C."
+    },
+    {
+      "affiliation": [],
+      "family": "Agrawal",
+      "given": "Ganesh K."
+    },
+    {
+      "affiliation": [],
+      "family": "Rakwal",
+      "given": "Randeep"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Sun T."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:09:45Z",
+    "timestamp": 1464750585000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00761",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

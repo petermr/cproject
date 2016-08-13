@@ -1,0 +1,190 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:48Z",
+    "timestamp": 1464835308450
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "no. 31172332, 31472205 and 31402150"
+      ],
+      "doi-asserted-by": "crossref",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    },
+    {
+      "award": [
+        "no. 2012-2-6"
+      ],
+      "name": "the Shanghai Science and Technology Program for Agriculture"
+    },
+    {
+      "award": [
+        "no. 12JC1410600"
+      ],
+      "name": "the \"Innovation Action Plan\" Key Basic Research Project of Shanghai Science and Technology Commission"
+    },
+    {
+      "award": [
+        "no. 13391901601"
+      ],
+      "name": "the \"Innovation Action Plan\" Key Scientific and Technological Projects in the Field of Modern Agriculture of Shanghai Science and Technology Commission"
+    },
+    {
+      "award": [
+        "no. 2011JB02"
+      ],
+      "name": "the Special Fund for Central Nonprofit Research Institutes Fundamental Research"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156579",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:38Z",
+    "timestamp": 1464828878000
+  },
+  "page": "e0156579",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Development of a PCR-Based Reverse Genetics System for an Attenuated Duck Tembusu Virus Strain"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Wu",
+      "given": "Xiaogang"
+    },
+    {
+      "affiliation": [],
+      "family": "Shi",
+      "given": "Ying"
+    },
+    {
+      "affiliation": [],
+      "family": "Yan",
+      "given": "Dawei"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Xuesong"
+    },
+    {
+      "affiliation": [],
+      "family": "Yan",
+      "given": "Pixi"
+    },
+    {
+      "affiliation": [],
+      "family": "Gao",
+      "given": "Xuyuan"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Yuee"
+    },
+    {
+      "affiliation": [],
+      "family": "Yu",
+      "given": "Lei"
+    },
+    {
+      "affiliation": [],
+      "family": "Ren",
+      "given": "Chaochao"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Guoxin"
+    },
+    {
+      "affiliation": [],
+      "family": "Yan",
+      "given": "Liping"
+    },
+    {
+      "affiliation": [],
+      "family": "Teng",
+      "given": "Qiaoyang"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Zejun"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:13Z",
+    "timestamp": 1464828913000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Cao",
+      "given": "Yongchang"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156579",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

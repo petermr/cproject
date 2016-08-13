@@ -1,0 +1,126 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:40:54Z",
+    "timestamp": 1464831654509
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "No. 41272022"
+      ],
+      "name": "National Natural Science Foundation of China (CN)"
+    },
+    {
+      "award": [
+        "No. JB1504"
+      ],
+      "name": "Fundamental Research Funds for the Chinese Academy of Geological Sciences"
+    },
+    {
+      "award": [
+        "No. 12120114026801"
+      ],
+      "name": "the project from the China Geological Survey"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0154888",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:12Z",
+    "timestamp": 1464828852000
+  },
+  "page": "e0154888",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "New Material of the Pterosaur Gladocephaloideus Lü et al., 2012 from the Early Cretaceous of Liaoning Province, China, with Comments on Its Systematic Position"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lü",
+      "given": "Junchang"
+    },
+    {
+      "affiliation": [],
+      "family": "Kundrát",
+      "given": "Martin"
+    },
+    {
+      "affiliation": [],
+      "family": "Shen",
+      "given": "Caizhi"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:42Z",
+    "timestamp": 1464828882000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Fiorillo",
+      "given": "Anthony"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0154888",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

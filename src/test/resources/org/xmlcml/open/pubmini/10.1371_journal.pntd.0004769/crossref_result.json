@@ -1,0 +1,96 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:01Z",
+    "timestamp": 1464835321024
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "DOI": "10.1371/journal.pntd.0004769",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:15Z",
+    "timestamp": 1464829035000
+  },
+  "page": "e0004769",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pntd.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Control of Urban Zika Vectors: Should We Return to the Successful PAHO/WHO Strategy?"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Reiter",
+      "given": "Paul"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Negl Trop Dis",
+    "PLOS Neglected Tropical Diseases"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:21Z",
+    "timestamp": 1464829041000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Morrison",
+      "given": "Amy C"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pntd.0004769",
+  "ISSN": [
+    "1935-2735"
+  ],
+  "subject": [
+    "Pharmacology, Toxicology and Pharmaceutics(all)",
+    "Public Health, Environmental and Occupational Health",
+    "Infectious Diseases"
+  ]
+}

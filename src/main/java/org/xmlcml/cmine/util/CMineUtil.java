@@ -11,6 +11,7 @@ import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -36,6 +37,8 @@ import nu.xom.Node;
  */
 public class CMineUtil {
 
+	private static final String HTML_START = "<";
+	private static final String PDF_START = "%PDF";
 	private static final String URL_PUNCT = "[\\/\\$\\%\\*\\(\\)\\[\\]]";
 	private static final String HTTP_DX_DOI_ORG = "http_dx\\.doi\\.org_?";
 //	                                               http_dx.doi.org
@@ -45,6 +48,8 @@ public class CMineUtil {
 	}
 
 	private static final String NEW_LINE_SEPARATOR = "\n";
+	public static final String HTML_TYPE = "text/html";
+	public static final String PDF_TYPE = "text/pdf";
 
 	/** sort entrySet by count.
 	 * convenience method.
@@ -228,5 +233,27 @@ public class CMineUtil {
 		HtmlHtml html = new HtmlHtml();
 		html.appendChild(new Comment(comment));
 		return html;
+	}
+
+	/** reads file and determines type from start
+	 * make take time for large files
+	 * @param file
+	 * @return
+	 */
+	public static String getTypeOfContent(File file) {
+		String contentType = null;
+		try {
+			String content = FileUtils.readFileToString(file);
+			if (content == null) {
+				
+			} else if (content.startsWith(PDF_START)) {
+				contentType = CMineUtil.PDF_TYPE; 
+			} else if (content.trim().startsWith(HTML_START)) {
+				contentType = CMineUtil.HTML_TYPE; 
+			}
+		} catch (IOException e) {
+			LOG.error("Cannot read file: "+e);
+		}
+		return contentType;
 	}
 }

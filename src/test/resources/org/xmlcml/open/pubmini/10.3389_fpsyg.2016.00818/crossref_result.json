@@ -1,0 +1,142 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:41:07Z",
+    "timestamp": 1464828067176
+  },
+  "reference-count": 23,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fpsyg.2016.00818",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:10:14Z",
+    "timestamp": 1464822614000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Emotional Experiences Predict the Conversion of Individuals with Attenuated Psychosis Syndrome to Psychosis: A 6-Month Follow up Study"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Fa Zhan"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Yi"
+    },
+    {
+      "affiliation": [],
+      "family": "Sun",
+      "given": "Xi Rong"
+    },
+    {
+      "affiliation": [],
+      "family": "Yao",
+      "given": "Yu Hong"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Ning"
+    },
+    {
+      "affiliation": [],
+      "family": "Qiao",
+      "given": "Hui Fen"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Lan"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Zhan Jiang"
+    },
+    {
+      "affiliation": [],
+      "family": "Lin",
+      "given": "Hong"
+    },
+    {
+      "affiliation": [],
+      "family": "Lu",
+      "given": "Zheng"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Jing"
+    },
+    {
+      "affiliation": [],
+      "family": "Chan",
+      "given": "Raymond C. K."
+    },
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Xu Dong"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Psychology",
+    "Front. Psychol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:10:14Z",
+    "timestamp": 1464822614000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpsyg.2016.00818",
+  "ISSN": [
+    "1664-1078"
+  ]
+}

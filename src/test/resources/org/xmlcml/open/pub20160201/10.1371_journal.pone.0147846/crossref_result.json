@@ -1,0 +1,131 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:15Z",
+    "timestamp": 1454582715050
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0147846",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:55:36Z",
+    "timestamp": 1454352936000
+  },
+  "page": "e0147846",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Activation of Dll4/Notch Signaling and Hypoxia-Inducible Factor-1 Alpha Facilitates Lymphangiogenesis in Lacrimal Glands in Dry Eye"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Min",
+      "given": "Ji Hwan"
+    },
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Chul Hee"
+    },
+    {
+      "affiliation": [],
+      "family": "Ji",
+      "given": "Yong Woo"
+    },
+    {
+      "affiliation": [],
+      "family": "Yeo",
+      "given": "Areum"
+    },
+    {
+      "affiliation": [],
+      "family": "Noh",
+      "given": "Hyemi"
+    },
+    {
+      "affiliation": [],
+      "family": "Song",
+      "given": "Insil"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Eung Kweon"
+    },
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Hyung Keun"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:55:36Z",
+    "timestamp": 1454352936000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Chiorini",
+      "given": "John A"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0147846",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

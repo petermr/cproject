@@ -151,7 +151,6 @@ public abstract class CContainer {
 	}
 
 	public void getOrCreateFilesDirectoryCTreeLists() {
-//		CProjectManifest cProjectManifest = (CProjectManifest) manifest;
 		if (allChildDirectoryList == null) {
 			getTreesAndDirectories();
 			makeLists();

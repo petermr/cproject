@@ -1,0 +1,116 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:40:19Z",
+    "timestamp": 1467474019277
+  },
+  "reference-count": 11,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/jfmk1020249",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "249-253",
+  "source": "CrossRef",
+  "title": [
+    "A Newborn with Arterial Tortuosity Syndrome: The Importance of Timely Diagnostic Work-Up in Patients Presenting with Cutis Laxa"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Pichler",
+      "given": "Karin"
+    },
+    {
+      "affiliation": [],
+      "family": "Ralser",
+      "given": "Elisabeth"
+    },
+    {
+      "affiliation": [],
+      "family": "Resch",
+      "given": "Maria"
+    },
+    {
+      "affiliation": [],
+      "family": "Steichen-Gersdorf",
+      "given": "Elisabeth"
+    },
+    {
+      "affiliation": [],
+      "family": "Maurer",
+      "given": "Kathrin"
+    },
+    {
+      "affiliation": [],
+      "family": "Trawöger",
+      "given": "Rudolf"
+    },
+    {
+      "affiliation": [],
+      "family": "Kiechl-Kohlendorfer",
+      "given": "Ursula"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "JFMK",
+    "Journal of Functional Morphology and Kinesiology"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:16:22Z",
+    "timestamp": 1467468982000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "jfmk1020249"
+  ],
+  "URL": "http://dx.doi.org/10.3390/jfmk1020249",
+  "ISSN": [
+    "2411-5142"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:13Z",
+    "timestamp": 1464831673715
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-9-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:16:38Z",
+    "timestamp": 1464826598000
+  },
+  "page": "9-16",
+  "source": "CrossRef",
+  "title": [
+    "HOPC: A NOVEL SIMILARITY METRIC BASED ON GEOMETRIC STRUCTURAL PROPERTIES FOR MULTI-MODAL REMOTE SENSING IMAGE MATCHING"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ye",
+      "given": "Yuanxin"
+    },
+    {
+      "affiliation": [],
+      "family": "Shen",
+      "given": "Li"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:16:38Z",
+    "timestamp": 1464826598000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-9-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

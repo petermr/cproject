@@ -1,0 +1,109 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T08:40:43Z",
+    "timestamp": 1464770443376
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "3",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/tc-10-1181-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T07:48:12Z",
+    "timestamp": 1464767292000
+  },
+  "page": "1181-1190",
+  "source": "CrossRef",
+  "title": [
+    "Calibration of a non-invasive cosmic-ray probe for wide area snow water equivalent measurement"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Sigouin",
+      "given": "Mark J. P."
+    },
+    {
+      "affiliation": [],
+      "family": "Si",
+      "given": "Bing C."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "The Cryosphere"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T07:48:12Z",
+    "timestamp": 1464767292000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/tc-10-1181-2016",
+  "ISSN": [
+    "1994-0424"
+  ],
+  "subject": [
+    "Earth-Surface Processes",
+    "Water Science and Technology"
+  ]
+}

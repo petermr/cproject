@@ -17,7 +17,7 @@ public class CTreeListTest {
 	@Test
 	public void testFileOrder() {
 		CProject cProject = new CProject(CMineFixtures.TEST_SAMPLE);
-		CTreeList cTreeList = cProject.getCTreeList();
+		CTreeList cTreeList = cProject.getResetCTreeList();
 //		LOG.debug(cTreeList.getCTreeDirectoryList());
 		Assert.assertEquals("ctrees",  "["
 				+ "src/test/resources/org/xmlcml/download/sample/PMC4678086,"

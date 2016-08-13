@@ -1,0 +1,171 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:29Z",
+    "timestamp": 1454582729096
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0147182",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:37:55Z",
+    "timestamp": 1454355475000
+  },
+  "page": "e0147182",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Associations between Cognition, Gender and Monocyte Activation among HIV Infected Individuals in Nigeria"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Royal",
+      "given": "Walter"
+    },
+    {
+      "affiliation": [],
+      "family": "Cherner",
+      "given": "Mariana"
+    },
+    {
+      "affiliation": [],
+      "family": "Burdo",
+      "given": "Tricia H."
+    },
+    {
+      "affiliation": [],
+      "family": "Umlauf",
+      "given": "Anya"
+    },
+    {
+      "affiliation": [],
+      "family": "Letendre",
+      "given": "Scott L."
+    },
+    {
+      "affiliation": [],
+      "family": "Jumare",
+      "given": "Jibreel"
+    },
+    {
+      "affiliation": [],
+      "family": "Abimiku",
+      "given": "Alash’le"
+    },
+    {
+      "affiliation": [],
+      "family": "Alabi",
+      "given": "Peter"
+    },
+    {
+      "affiliation": [],
+      "family": "Alkali",
+      "given": "Nura"
+    },
+    {
+      "affiliation": [],
+      "family": "Bwala",
+      "given": "Sunday"
+    },
+    {
+      "affiliation": [],
+      "family": "Okwuasaba",
+      "given": "Kanayo"
+    },
+    {
+      "affiliation": [],
+      "family": "Eyzaguirre",
+      "given": "Lindsay M."
+    },
+    {
+      "affiliation": [],
+      "family": "Akolo",
+      "given": "Christopher"
+    },
+    {
+      "affiliation": [],
+      "family": "Guo",
+      "given": "Ming"
+    },
+    {
+      "affiliation": [],
+      "family": "Williams",
+      "given": "Kenneth C."
+    },
+    {
+      "affiliation": [],
+      "family": "Blattner",
+      "given": "William A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:37:55Z",
+    "timestamp": 1454355475000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Buch",
+      "given": "Shilpa J"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0147182",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

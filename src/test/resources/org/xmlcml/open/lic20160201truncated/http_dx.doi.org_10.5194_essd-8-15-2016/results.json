@@ -1,0 +1,51 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://www.earth-syst-sci-data.net/8/15/2016/essd-8-15-2016.pdf"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "A gridded data set of upper-ocean hydrographic properties in the Weddell Gyre  obtained by objective mapping of Argo float measurements"
+    ]
+  },
+  "author": {
+    "value": [
+      "Reeve, K. A.",
+      "Boebel, O.",
+      "Kanzow, T.",
+      "Strass, V.",
+      "Rohardt, G.",
+      "Fahrbach, E."
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "doi:10.5194/essd-8-15-2016"
+    ]
+  },
+  "volume": {
+    "value": [
+      "8"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "15"
+    ]
+  },
+  "description": {
+    "value": []
+  }
+}

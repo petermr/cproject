@@ -1,0 +1,118 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:04Z",
+    "timestamp": 1454582704372
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pgen.1005833",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:51:39Z",
+    "timestamp": 1454352699000
+  },
+  "page": "e1005833",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pgen.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Arabidopsis WRKY6 Transcription Factor Acts as a Positive Regulator of Abscisic Acid Signaling during Seed Germination and Early Seedling Development"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Huang",
+      "given": "Yun"
+    },
+    {
+      "affiliation": [],
+      "family": "Feng",
+      "given": "Cui-Zhu"
+    },
+    {
+      "affiliation": [],
+      "family": "Ye",
+      "given": "Qing"
+    },
+    {
+      "affiliation": [],
+      "family": "Wu",
+      "given": "Wei-Hua"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Yi-Fang"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Genet",
+    "PLOS Genetics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:51:39Z",
+    "timestamp": 1454352699000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Xuemei"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pgen.1005833",
+  "ISSN": [
+    "1553-7404"
+  ],
+  "subject": [
+    "Genetics(clinical)",
+    "Genetics",
+    "Cancer Research",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology"
+  ]
+}

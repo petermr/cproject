@@ -1,0 +1,149 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:41:09Z",
+    "timestamp": 1464828069409
+  },
+  "reference-count": 33,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Universidad de Buenos Aires",
+      "DOI": "10.13039/501100005363"
+    },
+    {
+      "award": [
+        "PIP 387"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "DOI": "10.13039/501100002923"
+    },
+    {
+      "award": [
+        "PICT 2012-1424"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Agencia Nacional de Promoción Científica y Tecnológica",
+      "DOI": "10.13039/501100003074"
+    }
+  ],
+  "DOI": "10.3389/fncel.2016.00139",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:08:20Z",
+    "timestamp": 1464822500000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Isolation and Characterization of Ischemia-Derived Astrocytes (IDAs) with Ability to Transactivate Quiescent Astrocytes"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Villarreal",
+      "given": "Alejandro"
+    },
+    {
+      "affiliation": [],
+      "family": "Rosciszewski",
+      "given": "Gerardo"
+    },
+    {
+      "affiliation": [],
+      "family": "Murta",
+      "given": "Veronica"
+    },
+    {
+      "affiliation": [],
+      "family": "Cadena",
+      "given": "Vanesa"
+    },
+    {
+      "affiliation": [],
+      "family": "Usach",
+      "given": "Vanina"
+    },
+    {
+      "affiliation": [],
+      "family": "Dodes-Traian",
+      "given": "Martin M."
+    },
+    {
+      "affiliation": [],
+      "family": "Setton-Avruj",
+      "given": "Patricia"
+    },
+    {
+      "affiliation": [],
+      "family": "Barbeito",
+      "given": "Luis H."
+    },
+    {
+      "affiliation": [],
+      "family": "Ramos",
+      "given": "Alberto J."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Cellular Neuroscience",
+    "Front. Cell. Neurosci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:08:27Z",
+    "timestamp": 1464822507000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fncel.2016.00139",
+  "ISSN": [
+    "1662-5102"
+  ],
+  "subject": [
+    "Cellular and Molecular Neuroscience"
+  ]
+}

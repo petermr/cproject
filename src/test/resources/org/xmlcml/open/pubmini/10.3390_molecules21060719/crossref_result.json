@@ -1,0 +1,111 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:42:33Z",
+    "timestamp": 1466264553243
+  },
+  "reference-count": 24,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Novartis Pharmaceuticals Corporation",
+      "DOI": "10.13039/100008272"
+    }
+  ],
+  "DOI": "10.3390/molecules21060719",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "719",
+  "source": "CrossRef",
+  "title": [
+    "Hydrogen Bonding: Between Strengthening the Crystal Packing and Improving Solubility of Three Haloperidol Derivatives"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "21",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Saluja",
+      "given": "Hardeep"
+    },
+    {
+      "affiliation": [],
+      "family": "Mehanna",
+      "given": "Ahmed"
+    },
+    {
+      "affiliation": [],
+      "family": "Panicucci",
+      "given": "Riccardo"
+    },
+    {
+      "affiliation": [],
+      "family": "Atef",
+      "given": "Eman"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Molecules"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:06:56Z",
+    "timestamp": 1466258816000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "molecules21060719"
+  ],
+  "URL": "http://dx.doi.org/10.3390/molecules21060719",
+  "ISSN": [
+    "1420-3049"
+  ],
+  "subject": [
+    "Organic Chemistry"
+  ]
+}

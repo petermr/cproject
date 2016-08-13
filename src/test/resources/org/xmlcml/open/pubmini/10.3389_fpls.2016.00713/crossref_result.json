@@ -1,0 +1,112 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:21Z",
+    "timestamp": 1464756021170
+  },
+  "reference-count": 88,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fpls.2016.00713",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:02Z",
+    "timestamp": 1464750782000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Suppression Substractive Hybridization and NGS Reveal Differential Transcriptome Expression Profiles in Wayfaring Tree (Viburnum lantana L.) Treated with Ozone"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Gottardini",
+      "given": "Elena"
+    },
+    {
+      "affiliation": [],
+      "family": "Cristofori",
+      "given": "Antonella"
+    },
+    {
+      "affiliation": [],
+      "family": "Pellegrini",
+      "given": "Elisa"
+    },
+    {
+      "affiliation": [],
+      "family": "La Porta",
+      "given": "Nicola"
+    },
+    {
+      "affiliation": [],
+      "family": "Nali",
+      "given": "Cristina"
+    },
+    {
+      "affiliation": [],
+      "family": "Baldi",
+      "given": "Paolo"
+    },
+    {
+      "affiliation": [],
+      "family": "Sablok",
+      "given": "Gaurav"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:02Z",
+    "timestamp": 1464750782000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00713",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

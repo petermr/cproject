@@ -101,9 +101,26 @@ public abstract class AbstractMetadata {
 			return cTreeMetadataFilename;
 		}
 		
-		public Type getTypeFromFilename(String filename) {
+		public static Type getTypeFromCProjectFile(File file) {
+			return file == null ? null : getTypeFromCProjectFilename(file.getName());
+		}
+		
+		public static Type getTypeFromCTreeFile(File file) {
+			return file == null ? null : getTypeFromCTreeFilename(file.getName());
+		}
+		
+		public static Type getTypeFromCTreeFilename(String filename) {
 			for (Type type : values()) {
 				if (type.cTreeMetadataFilename.equals(filename)) {
+					return type;
+				}
+			}
+			return null;
+		}
+		
+		public static Type getTypeFromCProjectFilename(String filename) {
+			for (Type type : values()) {
+				if (type.cProjectMetadataFilename.equals(filename)) {
 					return type;
 				}
 			}
@@ -116,6 +133,26 @@ public abstract class AbstractMetadata {
 				filenames.add(type.cTreeMetadataFilename);
 			}
 			return filenames;
+		}
+
+		public static void mergeMetadata(File file, File file2) throws IOException {
+			List<JsonElement> elementList = JsonUtils.getListFromFile(file);
+			List<JsonElement> elementList2 = JsonUtils.getListFromFile(file2);
+			Set<JsonElement> thisSet = new HashSet<JsonElement>(elementList);
+			
+			JsonArray array = (JsonArray) new JsonParser().parse(FileUtils.readFileToString(file));
+			
+			for (JsonElement element2 : elementList2) {
+				if (!thisSet.contains(element2)) {
+					array.add(element2);
+				}
+			}
+			FileUtils.write(file, array.toString());
+
+		}
+
+		private static JsonArray parseFileAsArray(String s) {
+			return (JsonArray) new JsonParser().parse(s);
 		}
 	}
 	
