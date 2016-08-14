@@ -41,6 +41,7 @@ import net.minidev.json.JSONArray;
  */
 public abstract class AbstractMetadata {
 
+	private static final String DEFAULT_VERSION = "default";
 	/** fields for tables
 	 * 
 	 */
@@ -234,6 +235,8 @@ public abstract class AbstractMetadata {
 	protected boolean hasQuickscrapeMetadata;
 	protected boolean hasCrossrefMetadata;
 	protected boolean hasPublisherMetadata;
+	protected String version = DEFAULT_VERSION;
+	
 	//	citation_springer_api_url x 117
 	public static final String SOURCE           = "source";
 	public static final String SUPP_MATERIAL    = "supplementary_material";
@@ -1191,6 +1194,14 @@ ARRAY translator; [{"affiliation":[],"family":"Munder","given":"Marc"},{"affilia
 
 	public static void csvHelp() {
 		System.err.println("Headers: "+getDefaultHeaders().toString());
+	}
+
+	public String getVersion() {
+		return version;
+	}
+
+	public void setVersion(String version) {
+		this.version = version;
 	}
 
 

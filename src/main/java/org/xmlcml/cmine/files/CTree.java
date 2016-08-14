@@ -22,6 +22,7 @@ import org.xmlcml.cmine.args.log.AbstractLogElement;
 import org.xmlcml.cmine.args.log.CMineLog;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
 import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
+import org.xmlcml.cmine.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.XMLUtils;
@@ -194,6 +195,7 @@ public class CTree extends CContainer implements Comparable<CTree> {
 					AbstractMetadata.Type.CROSSREF.getCTreeMDFilename(),
 					AbstractMetadata.Type.EPMC.getCTreeMDFilename(),
 					AbstractMetadata.Type.QUICKSCRAPE.getCTreeMDFilename(),
+					QuickscrapeMD.CTREE_RESULT_JSON_OLD, // kludge 
 					
 					FULLTEXT_DOCX,
 					FULLTEXT_HTML,
@@ -496,7 +498,13 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	}
 
 	public static boolean isExistingFile(File file) {
-		return (file == null) ? false : file.exists() && !file.isDirectory();
+		boolean isExisting = false;
+		if (file != null) {
+			boolean exists = file.exists();
+			boolean isFile = !file.isDirectory();
+			isExisting = exists && isFile;
+		}
+		return isExisting;
 	}
 
 	public static boolean isExistingDirectory(File file) {
@@ -777,7 +785,8 @@ public class CTree extends CContainer implements Comparable<CTree> {
 
 	public File getExistingReservedFile(String reservedName) {
 		File file = getReservedFile(reservedName);
-		return file == null || !isExistingFile(file) ? null : file;
+		file = file == null || !isExistingFile(file) ? null : file;
+		return file;
 	}
 
 	public File getExistingReservedDirectory(String reservedName, boolean forceCreate) {
@@ -1232,7 +1241,7 @@ public class CTree extends CContainer implements Comparable<CTree> {
 					} else {
 						try {
 							FileUtils.deleteDirectory(directory);
-							LOG.info("Deleted moved directory: "+directory.getAbsolutePath());
+//							LOG.info("Deleted moved directory: "+directory.getAbsolutePath());
 						} catch (IOException e) {
 							throw new RuntimeException("Cannot delete moved directory: "+directory.getAbsolutePath());
 						}

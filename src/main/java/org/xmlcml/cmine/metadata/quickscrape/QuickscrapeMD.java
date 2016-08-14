@@ -52,6 +52,7 @@ public class QuickscrapeMD extends AbstractMetadata {
 	}
 	
 	// this is an anomaly // should be singular?
+	public static final String OLD_VERSION = "oldVersion";
 	public static final String CTREE_RESULT_JSON_OLD = "results.json";
 	private static final String CTREE_RESULT_JSON = "quickscrape_result.json";
 	// doesn't yet exist - and may never
@@ -266,7 +267,10 @@ public class QuickscrapeMD extends AbstractMetadata {
 	}
 	
 	@Override
-	protected String getCTreeMetadataFilename() {
+	public String getCTreeMetadataFilename() {
+		if (OLD_VERSION.equals(version)) {
+			return CTREE_RESULT_JSON_OLD;
+		}
 		return CTREE_RESULT_JSON;
 	}
 
