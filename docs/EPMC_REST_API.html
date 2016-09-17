@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en" prefix="dc: http://purl.org/dc/elements/1.1/#; dcterms: http://purl.org/dc/terms/#">
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><script type="text/javascript" src="./wicket/resource/org.apache.wicket.resource.JQueryResourceReference/jquery/jquery-1.11.1.min-ver-8101D596B2B8FA35FE3A634EA342D7C3.js"></script>
+<link rel="stylesheet" type="text/css" href="/css_min/min/orcid-min.css?v=60109" />
+<script type="text/javascript" src="./wicket/resource/org.europepmc.account.AccountSigninPanel/AccoutSigninPanel-ver-6FF2BBBDD25CB424618ABD4C179050EC.js"></script>
+<script type="text/javascript" src="./wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-event-jquery.min-ver-F070EDFAD7E5A1BD9662F385470094FF.js"></script>
+<script type="text/javascript" src="./wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery.min-ver-1D4EE56166B3A1106E05B678CC2AB1EF.js"></script>
+<script type="text/javascript" src="./wicket/resource/org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow/res/modal.min-ver-E43C9229F7812A6259B89C7E5B5028FB.js"></script>
+<link rel="stylesheet" type="text/css" href="./wicket/resource/org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow/res/modal.min-ver-E99D4201F0F6C5D3081AD42ACB1F22C2.css" />
+<script type="text/javascript" id="wicket-ajax-base-url">
+/*<![CDATA[*/
+Wicket.Ajax.baseUrl="RestfulWebService";
+/*]]>*/
+</script>
+<script type="text/javascript" src="./wicket/resource/uk.bl.ukpmc.web.pages.template.TemplatePage/TemplatePage-ver-AF0333CD3FAD40F34B13FD3C35D4AA3D.js"></script>
+
+<title>RESTful Web Service - Developers - Europe PMC</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/template/EPMC-iconfont/style.css?v=60109">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="prefetch" href="//europepmc.org/template/images/epmc-bubbles.jpg" />
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Popular articles"
+href="/Funders/RSS/MostViewedArticles.xml">
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Recent articles"
+href="/Funders/RSS/AllFunders.xml">
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Latest journals"
+href="/Funders/rss/NewJournals.xml">
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Content Holdings"
+href="/contentrss">
+<meta name="theme-color" content="#666"/>
+<meta name="author" content="Europe PMC"/>
+<meta name="owner" content="Europe PMC"/>
+<meta name="keywords" content="Europe PMC, Europe PubMed Central, open access, research articles, journal articles, abstracts, full text, literature search, clinical guidelines, biological patents, life sciences, bioinformatics, biomedical research, citation search, biomedical journals, ORCIDs, text mining, citation networks, REST APIs "/>
+<meta name="description" content="Europe PMC is an archive of life sciences journal literature."/>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Search Europe PMC" href="/tools/opensearch_epmc.xml">
+<link rel="stylesheet" type="text/css" media="print, screen" href="/template/jquery_ui.css?v=60109"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/template/jquery_menu.css?v=60109"/>
+<script type="text/javascript" src="/template/yahoo-min.js?v=60109"></script>
+<script type="text/javascript" src="/template/dom-min.js?v=60109"></script>
+<script type="text/javascript" src="/template/enrichment.js?v=60109"></script>
+<link rel="stylesheet" type="text/css" media="print, screen" href="/template/enrichment.css?v=60109"/>
+<script type="text/javascript" src="/template/hoverIntent.js?v=60109"></script>
+<script type="text/javascript" src="/template/jquery.js?v=60109"></script>
+<script type="text/javascript" src="/urchin.js?v=60109"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+urchinTracker();
+
+/*]]>*/
+</script>
+<link rel="stylesheet" type="text/css" href="/template/ncbi/epmc.ncbi.css?v=60109"/>
+<script type="text/javascript" src="/template/epmc.js?v=60109"></script>
+<link rel="stylesheet" type="text/css" href="/template/epmc_new.css?v=60109"/>
+
+
+
+<link type="text/css" rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/fonts/EBI-Functional/style.css" />
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+$(function()
+{
+$("#Highlight_head").click(function(event) {
+event.preventDefault();
+$("#Highlight_body").slideToggle();
+});
+$("#Highlight_body a").click(function(event) {
+event.preventDefault();
+$("#Highlight_body").slideUp();
+});
+var locationHost = $.cookie('location_host');
+if (typeof locationHost === 'undefined' || locationHost == null || locationHost == "") {
+$.cookie("location_host", window.location.host);
+}
+});
+
+/*]]>*/
+</script>
+<script>
+/*<![CDATA[*/
+
+(function(h,o,t,j,a,r){
+h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+h._hjSettings={hjid:181147,hjsv:5};
+a=o.getElementsByTagName('head')[0];
+r=o.createElement('script');r.async=1;
+r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+Wicket.Event.subscribe('/ajax/call/complete', function(jqEvent, attributes, jqXHR, errorThrown, textStatus) {
+if (jqXHR != null && jqXHR.responseText != null &&
+(jqXHR.responseText.match("ShowCitationDetails]]></redirect></ajax-response>")
+|| jqXHR.responseText.match("articles]]></redirect></ajax-response>"))) {
+var ua = window.navigator.userAgent;
+var msie = ua.indexOf("MSIE ");
+var trident = ua.indexOf("Trident/");
+if (msie > 0 || trident > 0) {
+window.document.execCommand("Stop");
+} else {
+window.stop();
+}
+}
+});
+
+/*]]>*/
+</script>
+<script type="application/ld+json">
+[{
+"@context": "http://schema.org",
+"@type": "WebSite",
+"name": "Europe PMC",
+"url": "https://europepmc.org",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https://europepmc.org/search?query={search_term_string}",
+"query-input": "required name=search_term_string"
+}
+}, {
+"@context": "http://schema.org",
+"@type": "Organization",
+"name": "Europe PMC",
+"alternateName": "Europe PubMed Central",
+"url": "https://europepmc.org",
+"logo": "https://europepmc.org/template/images/epmc-logo-single.png",
+"sameAs" : [
+"https://en.wikipedia.org/wiki/Europe_PubMed_Central",
+"https://twitter.com/europepmc_news",
+"http://blog.europepmc.org/"
+],
+"contactPoint": [{
+"@type": "ContactPoint",
+"name": "Europe PMC Helpdesk",
+"telephone": "+44-1223494118",
+"contactType": "technical support",
+"email": "helpdesk@europepmc.org"
+}]
+}]
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="./wicket/resource/uk.bl.ukpmc.web.pages.developers.DevelopersTemplate/::/table-ver-761F52386F66D197CB7DEB1E92C5C7AF.css"/>
+
+
+
+<link rel="stylesheet" type="text/css" href="./wicket/resource/uk.bl.ukpmc.web.pages.developers.RestfulWebServices/restful-ver-B37B7862A864C248CEB82983B8275A0D.css"/>
+
+<meta name="description" content="REST help page">
+<script type="text/javascript" src="./wicket/resource/com.googlecode.wicket.jquery.core.resource.JQueryUIResourceReference/jquery-ui.min-ver-80CBC031ED1AE0BD82C578DD2D6A4EA0.js"></script>
+<script type="text/javascript" src="/js_min/min/responsify-analytics-min.js?v=60109"></script>
+<link rel="stylesheet" type="text/css" href="/css_min/min/jquery-ui-min.css?v=60109" />
+<script type="text/javascript" >
+/*<![CDATA[*/
+Wicket.Event.add(window, "domready", function(event) { 
+Wicket.Ajax.ajax({"u":"./RestfulWebService?3-1.IBehaviorListener.0-search-recentsearches","e":"click","c":"id15"});;
+Wicket.Ajax.ajax({"u":"./RestfulWebService?3-1.IBehaviorListener.0-search-clipboard","e":"click","c":"id16"});;
+Wicket.Ajax.ajax({"coh":[function(attrs, jqXHR, textStatus){;onClickPanelLink();registerExportPanel();}],"u":"./RestfulWebService?3-1.IBehaviorListener.0-search-exportPanelLink","e":"click","c":"exportPanelLink"});;
+Wicket.Ajax.ajax({"u":"./RestfulWebService?3-1.IBehaviorListener.0-search-closeExportWindow","e":"click","c":"closeExportWindow"});;
+;});
+/*]]>*/
+</script>
+</head>
+<body>
+<span style="display:none" id="piwikIdSite">1</span>
+<div class="page_proper" id="body">
+<noscript>
+<div style="text-align:center">
+<p><b>Europe PMC</b> requires Javascript to function effectively.</p>
+<p>Either your web browser doesn't support Javascript or it is currently turned off. In the latter case, please turn on Javascript support in your web browser and reload this page.</p>
+</div>
+</noscript>
+<header>
+<div id="epmc_pageHeader">
+
+
+<div class="container" id="feedback-container">
+<a href="./feedback?url=http://europepmc.org/RestfulWebService" class="ukpmc_toolbar feedbackLink" onmouseover="TipAllowed(&#039;Leave your feedback&#039;)" onmouseout="UnTipAllowed()" onclick="var w = window.open(href, &#039;ukpmc_feedback&#039;, &#039;scrollbars=no,location=no,menuBar=no,resizable=no,status=no,toolbar=no,width=550,height=810&#039;); try {if (w.blur) w.focus();}catch(ignore){}; return false;"><i class="fa fa-comments"></i>Feedback</a>
+</div>
+
+
+<div class="dark-gray">
+<div class="container">
+<div>
+<span>
+
+<span id="id17">
+<span>
+<i class="fa fa-user"></i><a class="orcid_signin_text" href="/accounts/login">Sign in</a> or <a class="orcid_signin_text" href="/accounts/registration">create an account</a>
+</span>
+</span>
+</span>
+<iframe id="iframeId" name="aframe" style="border:none" seamless></iframe>
+<span id="orcidurlId"></span>
+</div>
+</div>
+</div>
+<nav class="container">
+<ul id="epmc_mainNav">
+<li>
+<div class="logo">
+<a href="/" target="_top" accesskey="U">
+<span style="text-indent: -9999px; display: inline-block;">Europe PMC</span>
+</a>
+</div>
+<a id="menu_button" href="#" onclick="return navDrop(this);" class="">
+<span>Menu</span>
+</a>
+<ul class="dropdown">
+<li>
+<a href="./About" onclick="return navDrop(this);">
+<span>About</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="/About">
+<span>About Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="/Funders">
+<span>Funders</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="/Joining">
+<span>Joining Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="/Governance">
+<span>Governance</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="./tools" onclick="return navDrop(this);">
+<span>Tools</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="./tools">
+<span>Tools overview</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./orcid/import">
+<span>ORCID article claiming</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./journalList">
+<span>Journal list</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./grantfinder">
+<span>Grant finder</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./LabsLink">
+<span>External links service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./RssFeeds">
+<span>RSS feeds</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./Annotations">
+<span>SciLite annotations</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="./developers" onclick="return navDrop(this);">
+<span>Developers</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="./developers">
+<span>Developer resources</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./RestfulWebService">
+<span>Articles RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./GristAPI">
+<span>Grants RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./SoapWebServices">
+<span>SOAP web service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./OaiService">
+<span>OAI service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./downloads">
+<span>Bulk downloads</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="./Help" onclick="return navDrop(this);">
+<span>Help</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="./Help">
+<span>Help using Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./ContactUs">
+<span>Contact us</span>
+</a>
+</li>
+</ul>
+</li><li class="contact-us">
+<a href="/ContactUs" onclick="return navDrop(this);">
+<span>Contact us</span>
+</a>
+<ul class="sub_menu">
+<li>
+<a href="/ContactUs">
+<span>Helpdesk</span>
+</a>
+</li>
+<li>
+<a href="./feedback?url=" onclick="var w = window.open(href+window.location, &#039;ukpmc_feedback&#039;, &#039;scrollbars=no,location=no,menuBar=no,resizable=yes,status=no,toolbar=no,width=550,height=810&#039;); try {if (w.blur) w.focus();}catch(ignore){}; return false;"><span>Feedback</span></a>
+</li>
+<li>
+<a href="https://twitter.com/EuropePMC_news">
+<span>Twitter</span>
+</a>
+</li>
+<li>
+<a href="http://blog.europepmc.org">
+<span>Blog</span>
+</a>
+</li>
+</ul>
+</li><li class="last">
+<a href="http://plus.europepmc.org" target="epmcplus" onmouseover="TipAllowed('Submit your manuscripts, manage your grants and publish your research impact using &lt;b&gt;Europe PMC plus&lt;/b&gt;')" onmouseout="UnTipAllowed()">
+<span>Europe PMC plus</span>
+</a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</li>
+</ul>
+</nav>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+function navDrop(link){
+if ($('#epmc_pageHeader').width() < 870) {
+if ($('.nav_clicked').length > 0){
+if ($(link).hasClass('nav_clicked')) {
+$(link).removeClass('nav_clicked');
+} else {
+if ($(link).not('#menu_button')) {
+$('.nav_clicked').not('#menu_button').removeClass('nav_clicked');
+}
+$(link).addClass('nav_clicked');
+}
+} else {
+$(link).addClass('nav_clicked');
+}
+return false;
+} else {
+return true;
+}
+}
+$(document).ready(function(){
+$('#epmc_mainNav a').each(function(){
+if($(this).attr('href').replace(/\./g, '').replace(/\//g, '') == window.location.pathname.replace(/\//g, '')){
+$(this).addClass('current');
+$(this).closest('ul').closest('li').children('a').addClass('current');
+}
+if(window.location.pathname.replace(/\//g, '').indexOf($(this).attr('href').replace(/\./g, '').replace(/\//g, ''))!= -1){
+$(this).addClass('parent');
+$(this).closest('ul').closest('li').children('a').addClass('current');
+}
+});
+});
+
+/*]]>*/
+</script>
+</header>
+<div id="epmc_pageBody">
+
+<div>
+<script type="text/javascript" src="/Scripts/recaptcha_ajax.js?v=60109"></script>
+<div id="epmc_searchBanner">
+<div class="search container">
+<form action="./RestfulWebService?3-1.IFormSubmitListener-search-searchForm" method="post" id="searchForm11" name="searchForm11" accept-charset="UTF-8"><div style="width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden"><input type="hidden" name="searchForm11_hf_0" id="searchForm11_hf_0" /></div>
+<h2><label for="textfield">Search worldwide, life-sciences literature</label></h2>
+<input type="text" id="textfield" name="searchString" placeholder="" value=""/><button type="submit"><i class="fa fa-search"></i><span class="button-text">Search</span></button>
+</form><a href="./advancesearch" class="advancedSearch" title="Advanced Search">Advanced Search</a>
+<p><span class="search-caption">E.g. "breast cancer" HER2 Smith J</span></p>
+</div>
+</div>
+<div class="container">
+<div id="searchToolsBox">
+<div id="searchTools">
+<div class="epmc_searchTools">
+
+<div id="save_search_modal" style="display:none">
+<div id="id18" style="display:none"></div>
+</div>
+<div id="save_search_login_modal" style="display:none">
+<div id="id19" style="display:none"></div>
+</div>
+
+<a href="./RestfulWebService?3-1.ILinkListener-search-recentsearches" class="ukpmc_toolbar" onmouseover="TipAllowed(&#039;View your Recent Activity summary.&#039;, DELAY, 1000)" onmouseout="UnTipAllowed()" id="id15">
+<i class="fa fa-clock-o"></i>Recent Activity
+</a>
+<div id="id1a" style="display:none">
+<div id="id1b" style="display:none"></div>
+</div>
+<a style="display:none" href="#" class="ukpmc_toolbar" onmouseover="TipAllowed('View your Export List summary', DELAY, 1000)" onmouseout="UnTipAllowed()">
+<i class="fa fa-download"></i>Export List
+</a>
+<a style="display:none" href="./RestfulWebService?3-1.ILinkListener-search-clipboard" class="ukpmc_toolbar" onmouseover="TipAllowed(&#039;View your Clipboard summary.&lt;br/&gt;This is a temporary store for items of interest to you.&lt;br/&gt;The items may be cleared after 24 hours.&#039;, DELAY, 1000)" onmouseout="UnTipAllowed()" id="id16">
+<i class="fa fa-download"></i>Clipboard
+</a>
+<div id="id1c" style="display:none">
+<div id="id1d" style="display:none"></div>
+</div>
+<a id="exportPanelLink" href="javascript:;" class="ukpmc_toolbar" onmouseover="TipAllowed(&#039;Export citations&#039;, DELAY, 1000)" onmouseout="UnTipAllowed()">
+<i class="fa fa-download"></i>Export
+</a>
+
+
+</div>
+</div>
+</div>
+<div id="exportPanel"></div>
+<span id="closeExportWindow"></span>
+</div>
+<div id="id1e">
+
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery('#textfield').on('input', function() {
+if (jQuery(this).val().length>=1500){
+alert('The maximum allowed query length is 1500 characters');
+}
+});
+function onClickPanelLink() {
+var speed = 500;
+if ($('#exportPanel').css('display') == 'none') {
+$("#exportPanel").slideDown(speed);
+$('body').append('<div class="wicket-mask-dark export" style="z-index: 2; position: absolute; top: 0px; left: 0px; background-image: none;"></div>"');
+exportDisplaySection();
+// $(".results_pagination_range").fadeOut(speed - 100)
+$('#exportPanel').focus();
+} else {
+$("#exportPanel").slideUp(speed);
+setTimeout(function() {
+$(".wicket-mask-dark.export").remove();
+}, speed);
+// $(".results_pagination_range").fadeIn(speed + 150);
+}
+}
+
+/*]]>*/
+</script>
+</div>
+<div class="secondMenu light-gray">
+<div class="container">
+<ul>
+<li class="citation_navigation_unselected">
+<a href="./developers">
+<span>Developer resources</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./RestfulWebService">
+<span>Articles RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./GristAPI">
+<span>Grants RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./SoapWebServices">
+<span>SOAP web service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./OaiService">
+<span>OAI service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./downloads">
+<span>Bulk downloads</span>
+</a>
+</li>
+</ul>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+$(document).ready(function(){
+var availWidth = $('.secondMenu ul').width();
+if(availWidth > 813) {
+$('.secondMenu a').each(function(){
+if($(this).attr('href').replace(/\./g, '').replace(/\//g, '') == window.location.pathname.replace(/\//g, '')){
+$(this).addClass('current');
+}
+if(window.location.pathname.replace(/\//g, '').indexOf($(this).attr('href').replace(/\./g, '').replace(/\//g, ''))!= -1){
+$(this).addClass('parent');
+}
+});
+}
+});
+
+/*]]>*/
+</script>
+</div>
+<div class="epmc_pageHolder">
+
+
+<div class="staticPageLayoutLeft">
+<div>
+<a class="showHideAll">Minimize all</a>
+</div>
+<div id="wrap">
+<h1>Articles RESTful API</h1>
+<h2 style="margin-top:.5em;">RESTful Web Service</h2>
+<div id="intro" class="table_of_content">
+<p class="first_level"><a href="#quick">1. Quick Start</a></p>
+<p class="first_level"><a href="#oview">2. Web Service Overview</a></p>
+<p class="first_level"><a href="#sort">3. Sorting Results</a></p>
+<p class="first_level"><a href="#meths">4. Request Methods</a></p>
+<p class="first_level"><a href="/docs/Europe_PMC_RESTful_Release_Notes.pdf" target="_blank">5. Release Notes</a></p>
+</div>
+<div id="main">
+<h2>Quick Start</h2>
+<p>For a quick start, click on the following link (opens in new window):<br/></p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=p53" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=p53</a></pre>
+<p>Come back to this page for further guidance and help.</p>
+<h2 id="oview">Web Service Overview</h2>
+<p>Our RESTful Web Service gives you access to all of the publications and related information we hold in the Europe PMC database, which includes the following:</p>
+<ul>
+<li> Over 31 million publications from various sources, including PubMed, AGRICOLA, and the European Patent Office.</li>
+<li> We provide the full text article free for more than 3.7 million of these publications, of which more than 1.2 million are open access.</li>
+<li> Database cross-references to a number of databases, including UniProt, the European Nucleotide Archive (ENA; formerly EMBL), the Protein Data Bank in Europe (PDBe), and more.</li>
+<li> Reference lists for more than 5 million publications.</li>
+<li> Citation counts and a citation network.</li>
+<li> Terms that have been text-mined from full text articles, including accession numbers, chemicals, diseases, genes and proteins, Gene Ontology terms, and organisms.</li>
+<li>Users can also read the <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">SOAP Web Service Reference Guide</a> for background information on Europe PMC content (see Sections 2 and 3). See also: <a href="/Help#whatserachingEPMC">What am I searching on Europe PMC?</a></li>
+<li>Users may wish to apply search fields to retrieve data, for example when using the &#8216;search&#8217; module. View the ‘search’ module ‘query’ parameter section below for examples. Also see the tips at the end of each module section. A comprehensive list of search terms can be found on the <a href="/Help">Help</a> page, and also in the <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">SOAP Web Service Reference Guide</a>.</li>
+<li>The output response formats can be XML or JSON. In the case of the &#8216;search&#8217; module a Dublin Core format is also available.</li>
+<li>Two versions of the RESTful web service are simultaneously available. This approach to release management allows users to prepare for a new version,
+rather than having to immediately respond to a version change. The details of web service releases will be communicated to all known users.
+A mailing list is compiled from users that have supplied an address in the 'email' parameters of the 'search' and 'profile' modules.
+See the <a href="#list">'URL syntax'</a> section below for details on how different versions of the web service can be accessed.</li>
+</ul>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h2 id="sort">Sorting Results</h2>
+<p>By default, the Europe PMC RESTful search results are sorted by relevance, with the most relevant result being presented first in the list.
+RESTful search results can be sorted in two other ways using the arguments: &#8216;sort_date:y&#8217; and &#8216;sort_cited:y&#8217; in the &#8216;query&#8217; parameter of the modules provided.
+For example:
+</p>
+<p>Sort by the number of citations, most cited being the first result presented:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20sort_cited:y">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20sort_cited:y</a></pre>
+<p>Sort by date of publication, the most recently published article being the first result given:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20sort_date:y">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20sort_date:y</a></pre>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h2 id="meths">Web Service Modules</h2>
+<p>Our RESTful Web Service offers the following 11 search modules:</p>
+<ol class="navlist">
+<li><a href="#list">fields</a></li>
+<li><a href="#search">search</a></li>
+<li><a href="#profile">profile</a></li>
+<li><a href="#cites">citations</a></li>
+<li><a href="#refs">references</a></li>
+<li><a href="#dbLinks">databaseLinks</a></li>
+<li><a href="#labsLinks">labsLinks</a></li>
+<li><a href="#tmTerms">textMinedTerms</a> </li>
+<li><a href="#ftXML">fullTextXML</a></li>
+<li><a href="#bookXML">bookXML</a></li>
+<li><a href="#suppFiles">supplementaryFiles</a></li>
+</ol>
+<p>The use of these modules is described in more detail below.</p>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<div id="modules">
+<h3 id="list">fields</h3>
+<p>Use this module to see a full list of our indexed search fields, along with the datasets they can be used for.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>A note is made above in the <a href="#oview">'Overview'</a> about the different versions of the web service available. Construct your <abbr title="Uniform Resource Locator">URL</abbr> for a fields request as follows for the production version:</p>
+<pre>GET <a href="http://www.ebi.ac.uk/europepmc/webservices/rest/fields" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/fields</a></pre>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for a fields request as follows for the test version of the web service:</p>
+<pre>GET <a href="http://www.ebi.ac.uk/europepmc/webservices/test/rest/fields" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/test/rest/fields</a></pre>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for a fields request as follows for the version specific web service:</p>
+<pre>GET <a href="http://www.ebi.ac.uk/europepmc/webservices/ver4.5.2/rest/fields" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/ver4.5.2/rest/fields</a></pre>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+You can also view a list of available search fields on the Europe PMC <a href="/Help#fieldsearch" class="inline">Help page</a>.
+</div></div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="search">search</h3>
+<p>Use this module to search our publication database. For more information on query syntax, search field combination and other curiosities, see the <a href="/Help">Europe PMC help page</a> (opens in new window). This module adheres to the CORS standard of headers to enable javascript cross-domain search.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for search requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/search?query={}[&amp;<var>parameters</var>]</pre>
+<p>Note that for this module, the user may specify either a slash symbol (/) or a question mark symbol (?) after the method name, and before the query. For example:</p>
+<pre>search?query={}[&amp;parameters] or search/query={}[&amp;parameters]</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>query
+<div class="toggle">
+<span class="nb">This is the only obligatory parameter for the search module.</span>
+<p>Enter your search terms with this parameter. You can use a keyword or combination of keywords (%20 here represents a space):</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=human%20malaria" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=human malaria</a></pre>
+<p>Or a phrase with enclosing speech marks:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22human%20malaria%22" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query="human malaria"</a></pre>
+<p>Or a fielded search; for a list of available search fields, see Appendix 1 in our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF):</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=auth:stoehr" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=auth:stoehr</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=journal:pnas" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=journal:pnas</a></pre>
+<p>Or a publication ID; for more information on our data sources, see our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF):</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ext_id:781840%20src:med" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ext_id:781840 src:med</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ext_id:IND43783977%20src:agr" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ext_id:IND43783977 src:agr</a></pre>
+</div>
+</li>
+<li>resulttype
+<div class="toggle">
+The result type can either be <code>idlist</code>, <code>core</code> or <code>lite</code>:
+<ul>
+<li><code>idlist</code> returns a list of IDs and sources for the given search terms</li>
+<li><code>lite</code> returns key metadata for the given search terms; <span class="emph">this is the default value if the parameter is unspecified.</span></li>
+<li><code>core</code> returns full metadata for a given publication ID; including abstract, full text links, and MeSH terms.</li>
+</ul>
+<p>This parameter determines the fields returned by XML and JSON formats, but it has no effect on the DC format.</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;resulttype=idlist" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;resulttype=idlist</a></pre>
+</div>
+</li>
+<li>page
+<div class="toggle">
+Specify the results page you wish to retrieve, where applicable. Page numbers start at 1; <span class="emph">default value is 1 (if the parameter is unspecified)</span>. Note: the page size can also be set with the pageSize parameter, see next.
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;page=10" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;page=10</a></pre>
+</div>
+</li>
+<li>pageSize
+<div class="toggle">
+Specify the number of articles you wish to retrieve in each page. The default value is 25 when the parameter is not used. The maximum allowable number of results per page is 1000.
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;page=2&amp;pageSize=3" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;page=2&amp;pageSize=3</a></pre>
+</div>
+</li>
+<li>format
+<div class="toggle">
+The format can either be <strong><abbr title="Extensible Markup Language">XML</abbr></strong>, <strong><abbr title="JavaScript Object Notation">JSON</abbr></strong> or <strong><abbr title="Dublin Core">DC</abbr></strong> (Dublin Core); <span class="emph">the default value is <abbr title="Extensible Markup Language">XML</abbr> if the parameter is unspecified. XML returns the same response as the SOAP web service; see the <a target="_blank" href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf">SOAP Web Service Reference Guide</a>.</span>
+<p>DC returns the following Dublin Core metadata fields, within an RDF/XML wrapper: <code>dc:contributor</code>, <code>dc:creator</code>, <code>dc:date</code>, <code>dc:description</code>, <code>dc:identifier</code>, <code>dc:language,</code> <code>dc:subject</code>, <code>dc:title</code>, <code>dc:type</code>, <code>dcterms:abstract</code>, <code>dcterms:accessRights</code>, <code>dcterms:bibliographicCitation</code>, <code>dcterms:isPartOf</code>, <code>dcterms:isVersionOf</code>.</p>
+<p>The use of these fields complies with the DCMI Metadata Terms recommendation documentation. Additionally, it should be noted that <code>dc:contributor</code> fields are used for the organisations to which some, or all of the authors listed in the dc:creator fields are affiliated. <code>dc:description</code> contains the publication types of the record (e.g. &#34;Journal Article&#34;, &#34;Book&#34;, etc.) <code>dcterms:accessRights</code> is only included for works in the Open Access subset of the PMC collection. There are two <code>dcterms:bibliographicCitation</code> fields for each journal article record, one which matches the &#34;Text (citation)&#34; option in the export feature on the Europe PMC web site, the other a machine-readable format using the syntax of the OpenURL standard. Other publication types (e.g. books, patents) only contain a single, non-machine-readable <code>dcterms:bibliographicCitation</code>.</p>
+<p>Publication dates have been mapped as follows: dc:date - first publication date (the date of first publication, whichever is first, electronic or print publication; where a date is not fully available e.g. year only, an algorithm is applied to determine the value), <code>dc:terms:available</code> - electronic publication date, <code>dc:terms:created</code> - print publication date.</p>
+<p>Note that the &#8216;resulttype&#8217; parameter associated with the DC response is always set to &#8216;core&#8217;.</p>
+<p>Example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;format=xml" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;format=xml</a><br/><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;format=json" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;format=json</a><br/><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;format=dc" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;amp;format=dc</a></pre>
+</div>
+</li>
+<li>callback
+<div class="toggle">
+Use the callback parameter to make cross-domain requests and retrieve <abbr title="JavaScript Object Notation">JSON</abbr> data. The value is <span class="emph">user specified</span>. The web service wraps its response with the given callback value.
+<p><span class="nb">Format value must be <abbr title="JavaScript Object Notation">JSON</abbr>.</span></p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;format=json&amp;callback=hello" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&amp;format=json&amp;callback=hello</a></pre>
+</div>
+</li>
+<li>synonym
+<div class="toggle">
+Synonym searches are not made by default (parameter value = &#8216;false&#8217;), however queries can be expanded using MeSH terminology and the UniProt synonyms list. For example aspirin, a synonym would be acetylsalicylic acid;this could be included in the search by setting the parameter value to &#8216;true&#8217;.
+<p class="nb">Where specified synonym parameter values must be set to &#8216;true&#8217; or &#8216;false&#8217;.</p>
+<p>Example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=aspirin&amp;synonym=true" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=aspirin&amp;synonym=true</a></pre>
+</div>
+</li>
+<li>email
+<div class="toggle">
+This optional parameter registers the user's email address with EBI. The user can then be contacted about Web Service related news.
+<p>Example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=flu&email=abcde@abcde.com" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=flu&amp;email=abcde@abcde.com</a></pre>
+</div>
+</li>
+</ul>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="profile">profile</h3>
+<p>Use this module to obtain a 'profile' of hit counts from our database for various publication types, data sources, and subsets. This module adheres to the CORS standard of headers to enable javascript cross-domain search.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for profile requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query={}[&amp;<var>parameters</var>]</pre>
+<p>Note that for this module, the user may specify either a slash symbol (/) or a question mark symbol (?) after the method name, and before the query. For example: <code>profile?query={}[&amp;parameters] or profile/query={}[&amp;parameters]</code></p>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>query
+<div class="toggle">
+<span class="nb">This is the only obligatory parameter for the profile module.</span><br /><br />
+<p>Enter your search terms with this parameter. You might use a keyword or combination of keywords (%20 here represents a space):</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=human%20malaria" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=human%20malaria</a></pre>
+<p>Or a phrase with enclosing speech marks:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=%22human%20malaria%22" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query="human malaria"</a></pre>
+<p>Or a fielded search; for a list of available search fields, see Appendix 1 in our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF):</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=auth:stoehr" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=auth:stoehr</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=journal:pnas" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=journal:pnas</a></pre>
+</div>
+</li>
+<li>profiletype
+<div class="toggle">
+The profile type can either be <code>pub_type</code>, <code>source</code>, <code>subset</code> or <code>all</code>:
+<ul>
+<li><code>pub_type</code> returns a profile of various publication types.</li>
+<li><code>source</code> returns a profile for the various data sources we obtain publications from.</li>
+<li><code>subset</code> returns a profile of the data subsets we have created.</li>
+<li><code>all</code> returns a profile for all of the above; <span class="emph">this is the default value if the parameter is unspecified.</span></li>
+</ul>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria&amp;profiletype=pub_type" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria&amp;profiletype=pub_type</a></pre>
+</div>
+</li>
+<li>format
+<div class="toggle">
+The format can either be <strong><abbr title="Extensible Markup Language">XML</abbr></strong> or <strong><abbr title="JavaScript Object Notation">JSON</abbr></strong>; <span class="emph">the default value is <abbr title="Extensible Markup Language">XML</abbr> if the parameter is unspecified.</span>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria&amp;format=json" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria&amp;format=json</a></pre>
+</div>
+</li>
+<li>callback
+<div class="toggle">
+Use the callback parameter to make cross-domain requests and retrieve <abbr title="JavaScript Object Notation">JSON</abbr> data. The value is <span class="emph">user specified</span>. The web service wraps its response with the given callback value.
+<p class="nb">Format value must be <abbr title="JavaScript Object Notation">JSON</abbr>.</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria&amp;format=json&amp;callback=hello" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=malaria&amp;format=json&amp;callback=hello</a></pre>
+</div>
+</li>
+<li>synonym
+<div class="toggle">
+Synonym searches are not made by default (parameter value = &#8216;false&#8217;), however queries can be expanded using MeSH terminology and the UniProt synonyms list. For example aspirin, a synonym would be acetylsalicylic acid;
+this could be included in the search by setting the parameter value to &#8216;true&#8217;<br /><br />
+<p class="nb">Where specified synonym parameter values must be set to &#8216;true&#8217; or &#8216;false&#8217;.</p>
+<p>Example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=aspirin&amp;synonym=true" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/profile?query=aspirin&amp;synonym=true</a></pre>
+</div>
+</li>
+<li>email
+<div class="toggle">
+This optional parameter registers the user's email address with EBI. The user can then be contacted about Web Service related news.
+<p>Example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=flu&email=abcde@abcde.com" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=flu&amp;email=abcde@abcde.com</a></pre>
+</div>
+</li>
+</ul>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="cites">citations</h3>
+<p>Use this module to retrieve a count and list of publications which cite a given publication.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for citations requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>src</var>/<var>ext_id</var>/citations/[<var>page</var>]/[<var>pageSize</var>]/[<var>format</var>]/[<var>callback</var>]</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>src
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the citations module.</span><br /><br />
+The source (src) is a three letter code representing one of our various data sources:
+<ul>
+<li>AGR = AGRICOLA publications from the <a href="http://www.nal.usda.gov/" target="_blank">U.S. National Agricultural Library</a></li>
+<li>CBA = publications from the Chinese Biological Abstract journal, provided by the <a href="http://english.sibs.cas.cn/" target="_blank">Shanghai Institutes for Biological Sciences</a></li>
+<li>CTX = CiteXplore publications from the <a href="http://www.ebi.ac.uk/" target="_blank" class="inline">European Bioinformatics Institute</a></li>
+<li>ETH = EthOs PhD theses from the <a href="http://ethos.bl.uk/" target="_blank" class="inline">British Library</a></li>
+<li>HIR = clinical guidelines from the U.K. <a href="http://www.evidence.nhs.uk/" target="_blank" class="inline">National Health Service</a></li>
+<li>MED = publications from <a href="http://www.ncbi.nlm.nih.gov/pubmed/" target="_blank" class="inline">PubMed</a> and <a href="http://www.nlm.nih.gov/pubs/factsheets/medline.html" target="_blank" class="inline">MEDLINE</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+<li>PAT = Biomedical patents from the <a href="http://www.epo.org/" target="_blank" class="inline">European Patent Office</a> and patent offices worldwide</li>
+<li>PMC = publications from <a href="http://www.ncbi.nlm.nih.gov/pmc/" target="_blank" class="inline">PubMed Central</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+</ul>
+<p>You can find the src for a publication in the 'source' element returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication's external ID, as follows:</p>
+<pre>http://www.ebi.ac.uk/europepmc/webservices/rest/MED/<var>ext_id</var>/citations<br />http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/<var>ext_id</var>/citations</pre>
+<p>For more information about our data sources, and the total number of publications we currently hold for each source, see our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF).</p> </div>
+</li>
+<li>ext_id
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the citations module.</span><br /><br />
+You can find a publication's external ID (ext_id) in the 'pmid' element returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication source, like the following example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC193660/citations" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC193660/citations</a></pre>
+</div>
+</li>
+<li>page
+<div class="toggle">
+Specify the section of the citations list you wish to retrieve, where applicable. Page numbers start at 1; <span class="emph">default value is 1 (if the parameter is unspecified).</span> Note: the page size can also be set with the pageSize parameter, see next.
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/10" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/10</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC193660/citations/2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC193660/citations/2</a></pre>
+</div>
+</li>
+<li>pageSize
+<div class="toggle">
+Specify the number of citations you wish to retrieve in each page. The default value is 25 when the parameter is not used. The maximum allowable number of citations per page is 1000.
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/3/2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/3/2</a><br/><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC193660/citations/4/10" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC193660/citations/4/10</a></pre>
+</div>
+</li>
+<li>format
+<div class="toggle">
+The format can either be <strong><abbr title="Extensible Markup Language">XML</abbr></strong> or <strong><abbr title="JavaScript Object Notation">JSON</abbr></strong>; <span class="emph">the default value is <abbr title="Extensible Markup Language">XML</abbr> if the parameter is unspecified.</span>
+<p class="nb">Note that use of the format and page size parameters is optional, when not used they default to values of 1 and 25 respectively.</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/5/json" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/5/json</a></pre>
+</div>
+</li>
+<li>callback
+<div class="toggle">
+Use the callback parameter to make cross-domain requests and retrieve <abbr title="JavaScript Object Notation">JSON</abbr> data. The value is <span class="emph">user specified</span>. The web service wraps its response with the given callback value.<br /><br />
+<span class="nb">Note that use of the format and page size parameters is optional, when not used they default to values of 1 and 25 respectively.</span>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/3/10/json/hello" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/9843981/citations/3/10/json/hello</a></pre>
+</div>
+</li>
+</ul>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+Add <code>sort_cited:y</code> to your search request to quickly find publications that have been cited:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20sort_cited:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20sort_cited:y</a></pre>
+</div></div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="refs">references</h3>
+<p>Use this module to retrieve a count and list of publications referenced in a given publication.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for references requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>src</var>/<var>ext_id</var>/references/[<var>page</var>]/[<var>pageSize</var>]/[<var>format</var>]/[<var>callback</var>]</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>src
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the references module.</span><br /><br />
+The source (src) is a three letter code representing one of our various data sources:
+<ul>
+<li>AGR = AGRICOLA publications from the U.S. National Agricultural Library</li>
+<li>CBA = publications from Chinese Biological Abstracts and the Shanghai Institutes for Biological Sciences</li>
+<li>CTX = CiteXplore publications from the <a href="http://www.ebi.ac.uk/" target="_blank" class="inline">European Bioinformatics Institute</a></li>
+<li>ETH = EthOs PhD theses from the <a href="http://ethos.bl.uk/" target="_blank" class="inline">British Library</a></li>
+<li>HIR = clinical guidelines from the U.K. <a href="http://www.evidence.nhs.uk/" target="_blank" class="inline">National Health Service</a></li>
+<li>MED = publications from <a href="http://www.ncbi.nlm.nih.gov/pubmed/" target="_blank" class="inline">PubMed</a> and <a href="http://www.nlm.nih.gov/pubs/factsheets/medline.html" target="_blank" class="inline">MEDLINE</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+<li>PAT = Biomedical patents from the <a href="http://www.epo.org/" target="_blank" class="inline">European Patent Office</a> and patent offices worldwide</li>
+<li>PMC = publications from <a href="http://www.ncbi.nlm.nih.gov/pmc/" target="_blank" class="inline">PubMed Central</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+</ul>
+<p>You can find the src for a publication in the 'source' element returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication's external ID, as follows:</p>
+<pre>http://www.ebi.ac.uk/europepmc/webservices/rest/MED/<var>ext_id</var>/references<br />http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/<var>ext_id</var>/references</pre>
+<p>For more information about our data sources, and the total number of publications we currently hold for each source, see our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF).</p>
+</div>
+</li>
+<li>ext_id
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the references module.</span><br /><br />
+You can find a publication's external ID (ext_id) in the 'pmid' element returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication source, like the following example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2704626/references" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2704626/references</a></pre>
+</div>
+</li>
+<li>page
+<div class="toggle">
+Specify the section of the references list you wish to retrieve, where applicable. Page numbers start at 1; <span class="emph">default value is 1 (if the parameter is unspecified).</span> Note: the page size can also be set with the pageSize parameter, see next.
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2704626/references/2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2704626/references/2</a></pre>
+</div>
+</li>
+<li>pageSize
+<div class="toggle">
+Specify the number of references you wish to retrieve in each page. The default value is 25 when the parameter is not used. The maximum allowable number of references per page is 1000.
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2/3" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2/3</a><br/><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2704626/references/2/10" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2704626/references/2/10</a></pre>
+</div>
+</li>
+<li>format
+<div class="toggle">
+The format can either be <strong><abbr title="Extensible Markup Language">XML</abbr></strong> or <strong><abbr title="JavaScript Object Notation">JSON</abbr></strong>; <span class="emph">the default value is <abbr title="Extensible Markup Language">XML</abbr> if the parameter is unspecified.</span>
+<p class="nb">Note that use of the format and page size parameters is optional, when not used they default to values of 1 and 25 respectively.</p>
+<p>For example (only page parameter specified):</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2/json" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2/json</a></pre>
+</div>
+</li>
+<li>callback
+<div class="toggle">
+Use the callback parameter to make cross-domain requests and retrieve <abbr title="JavaScript Object Notation">JSON</abbr> data. The value is <span class="emph">user specified</span>. The web service wraps its response with the given callback value.
+<p class="nb">Note that use of the format and page size parameters is optional, when not used they default to values of 1 and 25 respectively.</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2/5/json/hello" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10592235/references/2/5/json/hello</a></pre>
+</div>
+</li>
+</ul>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+Add <code>has_reflist:y</code> to your search request to quickly find publications for which we have reference lists:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20has_reflist:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20has_reflist:y</a></pre>
+<p>Or just use <code>query=has_reflist:y</code> &mdash;</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=has_reflist:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=has_reflist:y</a></pre>
+</div></div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="dbLinks">databaseLinks</h3>
+<p>Use this module to retrieve a count and list of biological database records that have cited a given publication (cross references).</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for databaseLinks requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>src</var>/<var>ext_id</var>/databaseLinks/[<var>database</var>]/[<var>page</var>]/[<var>pageSize</var>]/[<var>format</var>]/[<var>callback</var>]</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>src
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the databaseLinks module.</span><br /><br />
+The source (src) is a three letter code representing one of our various data sources:
+<ul>
+<li>AGR = AGRICOLA publications from the U.S. National Agricultural Library</li>
+<li>CBA = publications from Chinese Biological Abstracts and the Shanghai Institutes for Biological Sciences</li>
+<li>CTX = CiteXplore publications from the <a href="http://www.ebi.ac.uk/" target="_blank" class="inline">European Bioinformatics Institute</a></li>
+<li>ETH = EthOs PhD theses from the <a href="http://ethos.bl.uk/" target="_blank" class="inline">British Library</a></li>
+<li>HIR = clinical guidelines from the U.K. <a href="http://www.evidence.nhs.uk/" target="_blank" class="inline">National Health Service</a></li>
+<li>MED = publications from <a href="http://www.ncbi.nlm.nih.gov/pubmed/" target="_blank" class="inline">PubMed</a> and <a href="http://www.nlm.nih.gov/pubs/factsheets/medline.html" target="_blank" class="inline">MEDLINE</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+<li>PAT = Biomedical patents from the <a href="http://www.epo.org/" target="_blank" class="inline">European Patent Office</a> and patent offices worldwide</li>
+<li>PMC = publications from <a href="http://www.ncbi.nlm.nih.gov/pmc/" target="_blank" class="inline">PubMed Central</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+</ul><br />
+You can find the src for a publication in the 'source' element returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication's external ID, as follows:
+<pre>http://www.ebi.ac.uk/europepmc/webservices/rest/MED/<var>ext_id</var>/databaseLinks<br />http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/<var>ext_id</var>/databaseLinks</pre>
+For more information about our data sources, and the total number of publications we currently hold for each source, see our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF).
+</div>
+</li>
+<li>ext_id
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the databaseLinks module.</span><br /><br />
+You can find a publication's external ID (ext_id) in the 'pmid' element returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication source, like the following example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10779411/databaseLinks" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10779411/databaseLinks</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks</a></pre>
+</div>
+</li>
+<li>database
+<div class="toggle">
+You can restrict the response to a specific database from the following list; <span class="emph">default is to return links for all databases</span>:
+<ul>
+<li><a href="http://www.ebi.ac.uk/arrayexpress" target="_blank" class="inline">ARXPR</a> is a database of functional genomics experiments</li>
+<li><a href="http://www.ebi.ac.uk/chebi" target="_blank" class="inline">ChEBI</a> is a database and ontology of chemical entities of biological interest</li>
+<li><a href="http://www.ebi.ac.uk/chembldb/" target="_blank" class="inline">ChEMBL</a> is a database of bioactive drug-like small molecules</li>
+<li><a href="http://www.ebi.ac.uk/ena/" target="_blank" class="inline">EMBL</a> (now ENA) provides a comprehensive record of the world's nucleotide sequencing information</li>
+<li><a href="http://www.ebi.ac.uk/intact/" target="_blank" class="inline">IntAct</a> provides a freely available, open source database system and analysis tools for molecular interaction data</li>
+<li><a href="http://www.ebi.ac.uk/interpro/" target="_blank" class="inline">InterPro</a> provides functional analysis of proteins by classifying them into families and predicting domains and important sites</li>
+<li><a href="http://www.ncbi.nlm.nih.gov/omim" target="_blank" class="inline">OMIM</a> is a comprehensive and authoritative compendium of human genes and genetic phenotypes</li>
+<li><a href="http://www.ebi.ac.uk/pdbe/" target="_blank" class="inline">PDB</a> (or PDBe) is the European resource for the collection, organisation and dissemination of data on biological macromolecular structures</li>
+<li><a href="http://www.uniprot.org/" target="_blank" class="inline">UniProt</a> provides a comprehensive and freely accessible resource of protein sequence and functional information</li>
+</ul>
+<p>Specify the database you wish to retrieve links for using the first word for each bullet point above <span style="font-weight:600">in upper case</span> (<span class="emph">i.e.</span> <span style="font-weight:600">ARXPR, CHEBI, CHEMBL, EMBL, INTACT, INTERPRO, OMIM, PDB, UNIPROT</span>). For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10779411/databaseLinks/PDB" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/10779411/databaseLinks/PDB</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT</a></pre>
+</div>
+</li>
+<li>page
+<div class="toggle">
+Specify the section of the database links list you wish to retrieve, where applicable. Page numbers start at 1; <span class="emph">default value is 1 (if the parameter is unspecified).</span> Note: the page size can also be set with the pageSize parameter, see next.
+<p class="nb">Note that to use the page parameter you must specify a value for the preceding database parameter, even if left empty.</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//2</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3</a></pre>
+</div>
+</li>
+<li>pageSize
+<div class="toggle">
+Specify the number of database links you wish to retrieve in each page. The default value is 25 when the parameter is not used. The maximum allowable number of database links per page is 1000.
+<p class="nb">Note that to use the pageSize parameter you must specify a value for the database parameter, even if left empty.</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//3/2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//3/2</a><br/><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3/2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3/2</a></pre>
+</div>
+</li>
+<li>format
+<div class="toggle">
+The format can either be <strong><abbr title="Extensible Markup Language">XML</abbr></strong> or <strong><abbr title="JavaScript Object Notation">JSON</abbr></strong>; <span class="emph">the default value is <abbr title="Extensible Markup Language">XML</abbr> if the parameter is unspecified.</span><br /><br />
+<span class="nb">Note that to use the format parameter you must use the preceding database parameter (even if left blank), the page and page size parameters being optional.</span><br /><br />
+For example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//12/json" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//12/json</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3/xml" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3/xml</a></pre>
+</div>
+</li>
+<li>callback
+<div class="toggle">
+Use the callback parameter to make cross-domain requests and retrieve <abbr title="JavaScript Object Notation">JSON</abbr> data. The value is <span class="emph">user specified</span>. The web service wraps its response with the given callback value.<br /><br />
+<span class="nb">Note that to use the callback parameter you must use the preceding database parameter (even if left blank), the page and page size parameters being optional.</span><br /><br />
+For example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//1/json/hello" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks//1/json/hello</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3/5/json/mycallback" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/12368864/databaseLinks/UNIPROT/3/5/json/mycallback</a></pre>
+</div>
+</li>
+</ul>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+Add <code>has_xrefs:y</code> to your search request to quickly find publications for which we have external database links:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20has_xrefs:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20has_xrefs:y</a></pre>
+<p>Or just use <code>query=has_xrefs:y</code> &mdash;</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=has_xrefs:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=has_xrefs:y</a></pre>
+<p>Similarly, you can use <code>has_chebi:y</code>, <code>has_chembl:y</code>, <code>has_embl:y</code>, and so on.
+</div></div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="labsLinks">labsLinks</h3>
+<p>This module gives access to the External Links provided by 3rd parties (to extend Europe PMC content). See the <a href="/LabsLink">Europe PMC External Links Service</a> page for more details.
+Use this module to return the External Links for a given source (src) and identifier (ext_id) combination, or by the external content provider (providerId).</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for labsLinks requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>src</var>/<var>ext_id</var>/labsLinks/[<var>providerId[s]</var>]/[<var>page</var>]/[<var>format</var>]/[<var>callback</var>]</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>src
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the labsLinks module.</span><br /><br />
+The source (src) is a three letter code representing one of our various data sources:
+<ul>
+<li>AGR = AGRICOLA publications from the U.S. National Agricultural Library</li>
+<li>CBA = publications from Chinese Biological Abstracts and the Shanghai Institutes for Biological Sciences</li>
+<li>CTX = CiteXplore publications from the <a href="http://www.ebi.ac.uk/" target="_blank" class="inline">European Bioinformatics Institute</a></li>
+<li>ETH = EthOs PhD theses from the <a href="http://ethos.bl.uk/" target="_blank" class="inline">British Library</a></li>
+<li>HIR = clinical guidelines from the U.K. <a href="http://www.evidence.nhs.uk/" target="_blank" class="inline">National Health Service</a></li>
+<li>MED = publications from <a href="http://www.ncbi.nlm.nih.gov/pubmed/" target="_blank" class="inline">PubMed</a> and <a href="http://www.nlm.nih.gov/pubs/factsheets/medline.html" target="_blank" class="inline">MEDLINE</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+<li>PAT = Biomedical patents from the <a href="http://www.epo.org/" target="_blank" class="inline">European Patent Office</a> and patent offices worldwide</li>
+<li>PMC = publications from <a href="http://www.ncbi.nlm.nih.gov/pmc/" target="_blank" class="inline">PubMed Central</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+</ul><br />
+You can find the src for a publication in the 'source' element returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication's external ID, as follows:
+<pre>http://www.ebi.ac.uk/europepmc/webservices/rest/MED/<var>ext_id</var>/labsLinks<br />http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/<var>ext_id</var>/labsLinks</pre>
+For more information about our data sources, and the total number of publications we currently hold for each source, see our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF).
+</div>
+</li>
+<li>ext_id
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the labsLinks module.</span><br /><br />
+Find the External Links associated with a publication's specified src and ext_id combination. You can find a publication's external ID (ext_id) in the 'pmid' element returned by the search module.
+Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication source, like the following example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24727771/labsLinks" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24727771/labsLinks</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC3986813/labsLinks" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC3986813/labsLinks</a>
+					</pre>
+</div>
+</li>
+<li>providerId<i>[s]</i>
+<div class="toggle">
+List the External Links for a specified providerId (nnnn). You can find a publication's external ID (ext_id) in the 'pmid' element returned by the search module.
+Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication source, like the following example:
+<pre>http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC3936813/labsLinks/nnnn<br />http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC3936813/labsLinks/nnnn OR nnnn</pre>
+</div>
+</li>
+<li>page
+<div class="toggle">
+Specify the page of the external links list you wish to retrieve, where applicable, 10 entities at a time; <span class="emph">default value is 1 (i.e. entities 1-10), if the parameter is unspecified.</span>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24023770/labsLinks//2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24023770/labsLinks//2</a></pre>
+</div>
+</li>
+<li>format
+<div class="toggle">
+The format can either be <strong><abbr title="Extensible Markup Language">XML</abbr></strong> or <strong><abbr title="JavaScript Object Notation">JSON</abbr></strong>; <span class="emph">the default value is <abbr title="Extensible Markup Language">XML</abbr> if the parameter is unspecified.</span>
+<p class="nb">Note that to use the format parameter you must specify a value for the page parameter (>0).</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24727771/labsLinks//1/json" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24727771/labsLinks//1/json</a></pre>
+</div>
+</li>
+<li>callback
+<div class="toggle">
+Use the callback parameter to make cross-domain requests and retrieve <abbr title="JavaScript Object Notation">JSON</abbr> data. The value is <span class="emph">user specified</span>. The web service wraps its response with the given callback value.
+<p class="nb">Note that to use the callback parameter you must specify a value for the page parameter (>0), and the format must be specified as <abbr title="JavaScript Object Notation">JSON</abbr>.</p>
+<p>For example:</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24727771/labsLinks//1/json/hello" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/24727771/labsLinks//1/json/hello</a></pre>
+</div>
+</li>
+</ul>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+Use the <a href="#search">search</a> module to list all citations with External Links.
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=HAS_LABSLINKS:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=HAS_LABSLINKS:y</a></pre>
+</div>
+</div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="tmTerms">textMinedTerms</h3>
+<p>Use this module to retrieve a count and list of terms we have text-mined from full text publications.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for textMinedTerms requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>src</var>/<var>ext_id</var>/textMinedTerms/[<var>semantic_type</var>]/[<var>page</var>]/[<var>pageSize</var>]/[<var>format</var>]/[<var>callback</var>]</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>src
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the textMinedTerms module.</span><br /><br />
+The source (src) is a three letter code representing one of our various data sources. Note that we only text-mine full text articles &mdash; <span class="emph">i.e.</span> from PubMed Central &mdash; but that publications from this source also 'map' to a MEDLINE ID. Therefore the only sources relevant to textMinedTerms are MED and PMC:
+<ul>
+<li>MED = publications from <a href="http://www.ncbi.nlm.nih.gov/pubmed/" target="_blank" class="inline">PubMed</a> and <a href="http://www.nlm.nih.gov/pubs/factsheets/medline.html" target="_blank" class="inline">MEDLINE</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+<li>PMC = publications from <a href="http://www.ncbi.nlm.nih.gov/pmc/" target="_blank" class="inline">PubMed Central</a>, curated by the U.S. National Institutes of Health's National Library of Medicine</li>
+</ul>
+<p>Insert the source into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication's external ID, as follows:</p>
+<pre>http://www.ebi.ac.uk/europepmc/webservices/rest/MED/<var>ext_id</var>/textMinedTerms<br />http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/<var>ext_id</var>/textMinedTerms</pre>
+For more information about our data sources, and the total number of publications we currently hold for each source, see our <a href="/docs/EBI_Europe_PMC_Web_Service_Reference.pdf" target="_blank" class="inline">Reference Guide</a> (downloads PDF).
+</div>
+</li>
+<li>ext_id
+<div class="toggle">
+<span class="nb">This is an obligatory parameter for the textMinedTerms module.</span><br /><br />
+You can find a publication's external ID (ext_id) in the 'pmid' or 'pmcid' elements returned by the search module. Insert this into your <abbr title="Uniform Resource Locator">URL</abbr> along with the publication source, like the following example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC431765/textMinedTerms" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC431765/textMinedTerms</a></pre>
+</div>
+</li>
+<li>semantic_type
+<div class="toggle">
+You can restrict the response to a semantic type from the following list; <span class="emph">default is to return text-mined terms of all semantic types</span>:
+<ul>
+<li>ACCESSION = accession IDs for DNA or protein sequences</li>
+<li>CHEMICAL</li>
+<li>DISEASE</li>
+<li>EFO = <a href="http://www.ebi.ac.uk/efo/" target="_blank" class="inline">Experimental Factor Ontology</a></li>
+<li>GENE_PROTEIN</li>
+<li>GO_TERM = a <a href="http://www.geneontology.org/" target="_blank" class="inline">Gene Ontology</a> term</li>
+<li>ORGANISM</li>
+</ul><br />
+Specify the semantic type you wish to retrieve text-mined terms for <span style="font-weight:600">in upper case</span> as shown above. For example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC431765/textMinedTerms/ORGANISM" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC431765/textMinedTerms/ORGANISM</a><br/><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2234103/textMinedTerms/EFO" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC2234103/textMinedTerms/EFO</a></pre>
+</div>
+</li>
+<li>page
+<div class="toggle">
+Specify the section of the text mined terms list you wish to retrieve, where applicable. Page numbers start at 1; <span class="emph">default value is 1 (if the parameter is unspecified).</span> Note: the page size can also be set with the pageSize parameter, see next. <br /> <br />
+<span class="nb">Note that to use the page parameter you must specify a value for the preceding semantic_type parameter, even if left empty.</span><br /><br />
+For example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms//2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms//2</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/2" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/2</a></pre>
+</div>
+</li>
+<li>pageSize
+<div class="toggle">
+Specify the number of text mined terms you wish to retrieve in each page. The default value is 25 when the parameter is not used. The maximum allowable number of text mined terms per page is 1000.<br/> <br/>
+<span class="nb">Note that to use the pageSize parameter you must specify a value for the semantic_type parameter, even if left empty.</span><br /><br />
+For example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms//2/3" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms//2/3</a><br/><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/3/5" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/3/5</a></pre>
+</div>
+</li>
+<li>format
+<div class="toggle">
+The format can either be <strong><abbr title="Extensible Markup Language">XML</abbr></strong> or <strong><abbr title="JavaScript Object Notation">JSON</abbr></strong>; <span class="emph">the default value is <abbr title="Extensible Markup Language">XML</abbr> if the parameter is unspecified.</span><br /><br />
+<span class="nb">Note that to use the format parameter you must use the preceding semantic_type parameter, even if no value is specified. The page and page size parameters are optional.</span><br /><br />
+For example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms//2/5/xml" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms//2/5/xml</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/2/json" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/2/json</a></pre>
+</div>
+</li>
+<li>callback
+<div class="toggle">
+Use the callback parameter to make cross-domain requests and retrieve <abbr title="JavaScript Object Notation">JSON</abbr> data. The value is <span class="emph">user specified</span>. The web service wraps its response with the given callback value.<br /><br />
+<span class="nb">Note that to use the callback parameter you must also use the semantic_type parameter, even if no value is specified. The page and page size parameters are optional.</span><br /><br />
+For example:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/2/json/hello" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/MED/271968/textMinedTerms/CHEMICAL/2/json/hello</a></pre>
+</div>
+</li>
+</ul>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+Add <code>has_tm:y</code> to your search request to quickly find publications for which we have text-mined terms:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20has_tm:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20has_tm:y</a></pre>
+<p>Or just use <code>query=has_tm:y</code> &mdash;</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=has_tm:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=has_tm:y</a></pre>
+<p>Most publications will have both pmid and pmcid elements in the response. Some publications we haven't yet 'mapped' to each other will only show one of these; in this case please keep checking back to find the mapping complete.</p>
+</div></div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="ftXML">fullTextXML</h3>
+<p>Use this module to retrieve the full text in <abbr title="Extensible Markup Language">XML</abbr> format for the <span style="font-weight:600">Open Access</span> subset of our full text publications.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for fullTextXML requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>ext_id</var>/fullTextXML</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>ext_id
+<div class="toggle">
+<span class="nb">This is the one and only parameter required for the fullTextXML module.</span><br /><br />
+All full text publications have external IDs starting 'PMC___', like the examples below:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3257301/fullTextXML" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3257301/fullTextXML</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3245175/fullTextXML" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3245175/fullTextXML</a></pre>
+</div>
+</li>
+</ul>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+Add <code>open_access:y</code> to the query parameter to restrict your search to open access full text publications:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20open_access:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria%20open_access:y</a></pre>
+<p>Or just use <code>query=open_access:y</code> &mdash;</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=open_access:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=open_access:y</a></pre>
+</div></div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="bookXML">bookXML</h3>
+<p>Use this module to retrieve book <abbr title="Extensible Markup Language">XML</abbr> formatted full text for the <span style="font-weight:600">Open Access</span> subset of the Europe PMC bookshelf.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for bookXML requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>ext_id</var>/bookXML</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>ext_id
+<div class="toggle">
+This method will return book XML that corresponds to either the book's metadata PubMed ID (PMID), or the Europe PMC 'NBK' book number. Examples of URLs with both types of identifier are given below:
+<br/><br/>
+<span class="nb">Note that only Open Access XML can be retrieved. Also note that the PMID and NBK identifiers are displayed on the Europe PMC front-end in a search results list</span><br /><br />
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/10510270/bookXML" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/10510270/bookXML</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/NBK32884/bookXML" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/NBK32884/bookXML</a></pre>
+</div>
+</li>
+</ul>
+<div class="tips">
+<h4 class="tips">Tip!</h4>
+<div class="toggle tips">
+<p>Use the search module to list the contents of the Europe PMC bookshelf.</p>
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=HAS_BOOK:y" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=HAS_BOOK:y</a></pre>
+</div></div>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+<h3 id="suppFiles">supplementaryFiles</h3>
+<p>Use this module to retrieve supplementary files where we have these for our full text. The files will automatically download in zip format. Note that all supplementary files can be retrieved with the exception of non-Open Access images.</p>
+<h4><abbr title="Uniform Resource Locator">URL</abbr> syntax</h4>
+<p>Construct your <abbr title="Uniform Resource Locator">URL</abbr> for supplementaryFiles requests as follows:</p>
+<pre>GET http://www.ebi.ac.uk/europepmc/webservices/rest/<var>ext_id</var>/supplementaryFiles</pre>
+<h4>Request Parameters</h4>
+<ul class="params">
+<li>ext_id
+<div class="toggle">
+<span class="nb">This is the one and only parameter required for the supplementaryFiles module.</span><br /><br />
+All full text publications have external IDs starting 'PMC___', as with the examples below:
+<pre><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3258128/supplementaryFiles" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3258128/supplementaryFiles</a><br /><a href="http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3258132/supplementaryFiles" target="_blank">http://www.ebi.ac.uk/europepmc/webservices/rest/PMC3258132/supplementaryFiles</a></pre>
+</div>
+</li>
+</ul>
+<p class="back_top"><a href="#intro">Back to top</a></p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+$(document).ready(function() {
+var showText='expand';
+var hideText='minimize';
+$('.toggle').before(' (\<a href="#" class="toggleLink">'+hideText+'\</a>)');
+//$('.toggle').hide();
+$('a.toggleLink').click(function() {
+if($(this).text() == showText){
+$(this).text(hideText);
+} else {
+$(this).text(showText);
+}
+$(this).next('.toggle').toggle('slow');
+return false;
+});
+$('a.showHideAll').click(function(){
+if ($('a.showHideAll').text() == "Expand all") {
+$('.toggle').show();
+$('a.toggleLink').text(hideText);
+$('a.showHideAll').text("Minimize all");
+} else {
+$('.toggle').hide();
+$('a.toggleLink').text(showText);
+$('a.showHideAll').text("Expand all");
+}
+});
+});
+$(document).on("scroll", function(e) {
+var scroll = $(document).scrollTop();
+console.log(scroll);
+if(scroll > 558){
+var top = scroll - 265;
+$(".showHideAll").css('top', top +'px');
+} else {
+$(".showHideAll").css('top', '300px');
+}
+});
+
+/*]]>*/
+</script>
+</div>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+$(document).ready(function(){
+var availWidth = $('.secondMenu ul').width();
+if(availWidth > 813) {
+var count = $('.secondMenu a').length;
+var width = availWidth/count;
+$('.secondMenu a').each(function(){
+$(this).css("maxWidth", width + "px");
+});
+}
+});
+$( window ).resize(function() {
+var availWidth = $('.secondMenu ul').width();
+if(availWidth > 813) {
+var count = $('.secondMenu a').length;
+var width = availWidth/count;
+$('.secondMenu a').each(function(){
+$(this).css("maxWidth", width + "px");
+});
+}
+});
+
+/*]]>*/
+</script>
+
+</div>
+
+</div>
+<footer id="epmc_pageFooter">
+<div class="light-gray">
+<div class="container">
+<nav class="epmc_footerNav">
+<ul>
+<li>
+<a href="./About" onclick="return navDrop(this);">
+<span>About</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="/About">
+<span>About Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="/Funders">
+<span>Funders</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="/Joining">
+<span>Joining Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="/Governance">
+<span>Governance</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="./tools" onclick="return navDrop(this);">
+<span>Tools</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="./tools">
+<span>Tools overview</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./orcid/import">
+<span>ORCID article claiming</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./journalList">
+<span>Journal list</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./grantfinder">
+<span>Grant finder</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./LabsLink">
+<span>External links service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./RssFeeds">
+<span>RSS feeds</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./Annotations">
+<span>SciLite annotations</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="./developers" onclick="return navDrop(this);">
+<span>Developers</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="./developers">
+<span>Developer resources</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./RestfulWebService">
+<span>Articles RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./GristAPI">
+<span>Grants RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./SoapWebServices">
+<span>SOAP web service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./OaiService">
+<span>OAI service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./downloads">
+<span>Bulk downloads</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="./Help" onclick="return navDrop(this);">
+<span>Help</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="./Help">
+<span>Help using Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="./ContactUs">
+<span>Contact us</span>
+</a>
+</li>
+</ul>
+</li><li class="contact-us">
+<a href="/ContactUs" onclick="return navDrop(this);">
+<span>Contact us</span>
+</a>
+<ul class="sub_menu">
+<li>
+<a href="/ContactUs">
+<span>Helpdesk</span>
+</a>
+</li>
+<li>
+<a href="./feedback?url=" onclick="var w = window.open(href+window.location, &#039;ukpmc_feedback&#039;, &#039;scrollbars=no,location=no,menuBar=no,resizable=yes,status=no,toolbar=no,width=550,height=810&#039;); try {if (w.blur) w.focus();}catch(ignore){}; return false;"><span>Feedback</span></a>
+</li>
+<li>
+<a href="https://twitter.com/EuropePMC_news">
+<span>Twitter</span>
+</a>
+</li>
+<li>
+<a href="http://blog.europepmc.org">
+<span>Blog</span>
+</a>
+</li>
+</ul>
+</li><li class="last">
+<a href="http://plus.europepmc.org" target="epmcplus" onmouseover="TipAllowed('Submit your manuscripts, manage your grants and publish your research impact using &lt;b&gt;Europe PMC plus&lt;/b&gt;')" onmouseout="UnTipAllowed()">
+<span>Europe PMC plus</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="med-gray">
+<div class="container">
+<p class="epmc_footerText">Europe PMC is a service of the <a href="/Funders/" target="_top" class="link">Europe PMC Funders' Group</a>, in partnership with the <a href="http://www.ebi.ac.uk" target="_blank" class="link">European Bioinformatics Institute</a>; and in cooperation with the <a href="http://www.ncbi.nlm.nih.gov/" target="_blank" class="link">National Center for Biotechnology Information</a> at the <a href="http://www.nlm.nih.gov" target="_blank" class="link">U.S. National Library of Medicine (NCBI/NLM)</a>. It includes content provided to the <a href="http://www.pubmedcentral.nih.gov" target="_blank" class="link">PMC International archive</a> by participating publishers.</p>
+<p class="social-media-icons">
+<a href="/ContactUs"><i class="fa fa-envelope-o"><span>Contact the Helpdesk</span></i></a>
+<a href="http://blog.europepmc.org/"><i class="fa fa-bullhorn"><span>Visit the blog</span></i></a>
+<a href="https://twitter.com/EuropePMC_news"><i class="fa fa-twitter"><span>Follow EuropePMC_news on Twitter</span></i></a>
+<a href="./feedback?url=http://europepmc.org/RestfulWebService" onclick="var w = window.open(href, &#039;ukpmc_feedback&#039;, &#039;scrollbars=no,location=no,menuBar=no,resizable=no,status=no,toolbar=no,width=550,height=810&#039;); try {if (w.blur) w.focus();}catch(ignore){}; return false;"><i class="fa fa-comments"><span>Leave feedback</span></i></a>
+</p>
+<nav class="epmc_footerNav">
+<p><a href="/ContactUs" target="_top">Contact Us</a> | <a href="http://www.ebi.ac.uk/Information/termsofuse.html" target="_blank" class="results2">Terms of Use</a> | <a href="/Copyright" target="_top" class="results2">Copyright</a> | <a href="/Accessibility" target="_top" class="results2">Accessibility</a> | <a href="http://www.ebi.ac.uk/Information/e-directive.html#cookies" target="_blank" class="results2">Cookies</a></p>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="/Scripts/jquery.gchart.min.js?v=60109"></script>
+<script type="text/javascript" src="/Scripts/css_browser_selector.js?v=60109"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery(function(){ jQuery.ajax({
+url: '/twitter.jsp',
+success: function(textResponse){
+//alert('Twitter Loaded');
+jQuery('#twitter_footer').html(textResponse);
+}
+});});
+// alert('Try lo load twitter');
+
+/*]]>*/
+</script>
+</footer>
+<script type="text/javascript" src="/Scripts/wz_tooltip.js?v=60109"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+/**$(document).ready(function(){
+$('#container-1 > ul').tabs();
+});*/
+
+/*]]>*/
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+var height = $(window).height();
+if (height < 700) {
+$('#feedback-container').css('top', 'auto');
+$('#feedback-container').css('position', 'absolute');
+$('#feedback-container').draggable();
+} else {
+$('#feedback-container').css('top', height - 39 + 'px');
+$('#feedback-container').css('position', 'fixed');
+}
+
+/*]]>*/
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery.cachedScript = function( url, options ) {
+// Allow user to set any option except for dataType, cache, and url
+options = jQuery.extend( options || {}, {
+dataType: "script",
+cache: true,
+url: url
+});
+// Use $.ajax() since it is more flexible than $.getScript
+// Return the jqXHR object so we can chain callbacks
+return jQuery.ajax( options );
+};
+jQuery.cachedCss = function( url, options ) {
+// Allow user to set any option except for dataType, cache, and url
+options = jQuery.extend( options || {}, {
+dataType: "text",
+cache: true,
+url: url
+});
+// Use $.ajax() since it is more flexible than $.getScript
+// Return the jqXHR object so we can chain callbacks
+return jQuery.ajax( options );
+};
+
+/*]]>*/
+</script>
+<script type="text/javascript">var piwikIdSite = document.getElementById('piwikIdSite').innerHTML;var _paq = _paq || [];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function() {	var u='/';	_paq.push(['setTrackerUrl', u+'piwik.jsp']);	_paq.push(['setSiteId', piwikIdSite]);	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];	g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);})();</script>
+<noscript><p><img src="/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery(document).ready(function() {
+PiwikAnalyticsTracker.init();
+});
+
+/*]]>*/
+</script>
+</div>
+</body>
+</html>

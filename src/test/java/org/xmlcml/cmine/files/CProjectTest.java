@@ -15,8 +15,11 @@ import org.xmlcml.cmine.CMineFixtures;
 import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
 import org.xmlcml.cmine.util.CMineTestFixtures;
+import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.cmine.util.Utils;
 import org.xmlcml.html.HtmlElement;
+
+import com.google.common.collect.Multimap;
 
 import nu.xom.Element;
 
@@ -72,6 +75,30 @@ public class CProjectTest {
 		Assert.assertEquals("all child file", 1, allChildFileList.size());
 		CTreeList cTreeList = cProject.getResetCTreeList();
 		Assert.assertEquals("trees", 2, cTreeList.size());
+	}
+	
+	@Test
+	public void testGetCTreeListWithPrefixes() {
+		CProject cProject = new CProject(new File(CMineFixtures.TEST_OPEN_DIR, "lic20160201"));
+		CTreeList cTreeList = cProject.getResetCTreeList();
+		Assert.assertEquals("ctrees", 123, cTreeList.size());
+		List<String> doiPrefixes = cProject.getDOIPrefixList();
+		Assert.assertEquals("prefixes", 123, doiPrefixes.size());
+		CTreeList list1063 = cProject.getCTreesWithDOIPrefix("10.1063");
+		Assert.assertEquals("prefixed", 1, list1063.size());
+		CTreeList list1088 = cProject.getCTreesWithDOIPrefix("10.1088");
+		Assert.assertEquals("prefixed", 74, list1088.size());
+	}
+	
+	@Test
+	public void testGetCTreeListsByPrefixes() {
+		CProject cProject = new CProject(new File(CMineFixtures.TEST_OPEN_DIR, "lic20160201"));
+		Multimap<String, CTree> cTreesByPrefix = cProject.getCTreeListsByPrefix();
+		Assert.assertEquals(5, cTreesByPrefix.keySet().size());
+		List<CTreeList> cTreeLists = CTreeList.getCTreeListsSortedByCount(cTreesByPrefix);
+		Assert.assertEquals(5, cTreeLists.size());
+		Assert.assertEquals("first ", 74, cTreeLists.get(0).size());
+		Assert.assertEquals("last ", 1, cTreeLists.get(cTreeLists.size() - 1).size());
 	}
 	
 	@Test
@@ -549,7 +576,7 @@ project2
 		CProject project2 = new CProject(target2Dir);
 		Assert.assertEquals("ctree1", 2, project1.getResetCTreeList().size());
 		Assert.assertEquals("ctree2", 3, project2.getResetCTreeList().size());
-		project1.mergeProjects(project2);
+		project1.mergeProject(project2);
 		project2 = new CProject(target2Dir);
 		Assert.assertEquals("ctree1", 5, project1.getResetCTreeList().size());
 		Assert.assertEquals("ctree2", 3, project2.getResetCTreeList().size());
@@ -579,6 +606,7 @@ project2
 				+ " target/getpapers/doiNames/10.",
 				Utils.truncate(cTreeList.toString(), 0, 200));
 	}
+	
 	
 	
 

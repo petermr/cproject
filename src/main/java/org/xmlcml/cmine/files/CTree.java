@@ -173,6 +173,9 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	public static final String FULLTEXT_DOCX      = FULLTEXT+DOT+DOCX;
 	public static final String FULLTEXT_HTML      = FULLTEXT+DOT+HTML;
 	public static final String FULLTEXT_PDF       = FULLTEXT+DOT+PDF;
+	public static final String FULLTEXT_PDF_HTML  = FULLTEXT+DOT+PDF+DOT+HTML;
+	public static final String FULLTEXT_PDF_PNG   = FULLTEXT+DOT+PDF+DOT+PNG;
+	public static final String FULLTEXT_PDF_SVG   = FULLTEXT+DOT+PDF+DOT+SVG;
 	public static final String FULLTEXT_PDF_TXT   = FULLTEXT+DOT+PDF+DOT+TXT;
 	public static final String FULLTEXT_TEX       = FULLTEXT+DOT+TEX;
 	public static final String FULLTEXT_TEX_HTML  = FULLTEXT+DOT+TEX+DOT+HTML;
@@ -848,6 +851,14 @@ public class CTree extends CContainer implements Comparable<CTree> {
 
 	public File getDirectory() {
 		return directory;
+	}
+
+	/** gets name of directory.
+	 * 
+	 * @return null if no directory
+	 */
+	public String getName() {
+		return directory == null ? null : directory.getName();
 	}
 
 	public List<File> listFiles(boolean recursive) {

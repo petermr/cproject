@@ -13,12 +13,12 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.CProjectArgProcessor;
+import org.xmlcml.cmine.args.DefaultArgProcessor;
 import org.xmlcml.cmine.args.FileXPathSearcher;
 import org.xmlcml.cmine.metadata.AbstractMetadata;
 import org.xmlcml.cmine.metadata.AbstractMetadata.Type;
 import org.xmlcml.cmine.metadata.ProjectAnalyzer;
-import org.xmlcml.cmine.metadata.crossref.CrossrefMD;
-import org.xmlcml.cmine.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cmine.util.CMineGlobber;
 import org.xmlcml.cmine.util.CMineUtil;
 import org.xmlcml.html.HtmlElement;
@@ -28,9 +28,6 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import nu.xom.Element;
@@ -97,8 +94,8 @@ public class CProject extends CContainer {
 	};
 	public static final String OMIT_EMPTY = "omitEmpty";
 	
-	private Element projectTemplateElement;
-	private Element treeTemplateElement;
+//	private Element projectTemplateElement;
+//	private Element treeTemplateElement;
 	private CTreeList cTreeList;
 	private ProjectSnippetsTree projectSnippetsTree;
 	private ProjectFilesTree projectFilesTree;
@@ -106,15 +103,40 @@ public class CProject extends CContainer {
 	private ArrayList<File> scholarlyList;
 	private ProjectAnalyzer projectAnalyzer;
 	private CTreeList duplicateMergeList;
-//	private JsonArray crossrefTreesArray;
-	
+	private DefaultArgProcessor argProcessor;
+
+	public static void main(String[] args) {
+		CProject cProject = new CProject();
+		cProject.run(args);
+	}
+
+	public void run(String[] args) {
+		argProcessor = new CProjectArgProcessor(args);
+		argProcessor.runAndOutput();
+	}
+
+	public void run(String args) {
+		run(args.split("\\s+"));
+	}
+
+	public DefaultArgProcessor getArgProcessor() {
+		return argProcessor;
+	}
+
+	/** mainly served for running commandlines
+	 * 
+	 */
+	public CProject() {
+		super();
+	}
+
 	public CProject(File cProjectDir) {
 		super();
 		this.directory = cProjectDir;
-		projectTemplateElement = readTemplate(PROJECT_TEMPLATE_XML);
-		treeTemplateElement = readTemplate(TREE_TEMPLATE_XML);
+//		projectTemplateElement = readTemplate(PROJECT_TEMPLATE_XML);
+//		treeTemplateElement = readTemplate(TREE_TEMPLATE_XML);
 	}
-
+	
 	@Override
 	protected CManifest createManifest() {
 		manifest = new CProjectManifest(this);
@@ -126,7 +148,6 @@ public class CProject extends CContainer {
 		cTreeList = new CTreeList();
 		int i = 0;
 		for (File directory : allChildDirectoryList) {
-//			if (i++ % 100 == 0) System.out.print(".");
 			if (false) {
 			} else if (
 				(isAllowedFile(directory, ALLOWED_DIR_PATTERNS) ||
@@ -211,6 +232,8 @@ public class CProject extends CContainer {
 		}
 		return cTreeList;
 	}
+	
+	
 
 	public List<File> getResultsXMLFileList() {
 		List<File> resultsXMLList = new ArrayList<File>();
@@ -235,6 +258,16 @@ public class CProject extends CContainer {
 		return resultsXMLList;
 	}
 
+	public CTree getCTreeByName(String name) {
+		CTree cTree = null;
+		if (name != null) {
+			getResetCTreeList();
+			if (cTreeList != null) {
+				cTree = cTreeList.get(name);
+			}
+		}
+		return cTree;
+	}
 	/** outputs filenames relative to project directory.
 	 * 
 	 * normalizes to UNIX separator
@@ -549,15 +582,39 @@ public class CProject extends CContainer {
 	
 	}
 
+	/** get DOIPrefixes.
+	 * 
+	 * (not unique) may be multiple entries 
+	 * @return
+	 */
 	public List<String> getDOIPrefixList() {
 		List<String> doiPrefixList = new ArrayList<String>();
 		CTreeList cTreeList = this.getResetCTreeList();
 		for (CTree cTree : cTreeList) {
-			
 			String doiPrefix = cTree.extractDOIPrefix();
 			doiPrefixList.add(doiPrefix);
 		}
 		return doiPrefixList;
+	}
+
+	/** get CTrees with given DOIPrefixe.
+	 * 
+	 * @return
+	 */
+	public CTreeList getCTreesWithDOIPrefix(String prefix) {
+		CTreeList cTreeList = this.getResetCTreeList();
+		CTreeList treesWithPrefix = new CTreeList();
+		if (prefix != null) {
+			for (CTree cTree : cTreeList) {
+				String doiPrefix = cTree.extractDOIPrefix();
+				if (doiPrefix == null) {
+					LOG.warn("null DOI prefix: "+cTree.getDirectory());
+				} else if (prefix.equals(doiPrefix)) {
+					treesWithPrefix.add(cTree);
+				}
+			}
+		}
+		return treesWithPrefix;
 	}
 
 	public int size() {
@@ -607,9 +664,8 @@ public class CProject extends CContainer {
 	 * @param cProject2
 	 * @throws IOException 
 	 */
-	public void mergeProjects(CProject project2) throws IOException {
+	public void mergeProject(CProject project2) throws IOException {
 		CTreeList cTreeList2 = project2.getResetCTreeList();
-//		crossrefTreesArray = new JsonArray();
 		copyCTrees(cTreeList2);
 		cTreeList = null;
 		copyFiles(project2);
@@ -693,9 +749,27 @@ public class CProject extends CContainer {
 		return duplicateMergeList;
 	}
 
-	public void addCTreeList(CTreeList cTreeList) {
+	public void add(CTree cTree) {
 		getOrCreateCTreeList();
-		this.cTreeList = this.cTreeList.or(cTreeList);
+		cTreeList.add(cTree);
+	}
+	
+	public void addCTreeList(CTreeList cTreeList2) {
+		getOrCreateCTreeList();
+		this.cTreeList = this.cTreeList.or(cTreeList2);
+	}
+
+	public void addCTreeListAndCopyContents(CTreeList cTreeList1) {
+		addCTreeList(cTreeList1);
+		for (int i = 0; i < cTreeList1.size(); i++) {
+			try {
+				File directory1 = cTreeList1.get(i).getDirectory();
+				File thisDirectory = new File(this.getDirectory(), directory1.getName());
+				FileUtils.copyDirectory(directory1, thisDirectory);
+			} catch (IOException e) {
+				LOG.error("Cannot copy Directory: "+cTreeList.get(i).getDirectory()+" "+e);
+			}
+		}
 	}
 
 	public CTreeList getOrCreateCTreeList() {
@@ -705,7 +779,7 @@ public class CProject extends CContainer {
 		return cTreeList;
 	}
 
-	public void write() throws IOException {
+	public void writeProjectAndCTreeList() throws IOException {
 		if (directory != null) {
 			directory.mkdirs();
 			if (cTreeList != null) {
@@ -714,6 +788,20 @@ public class CProject extends CContainer {
 				}
 			}
 		}
+	}
+
+	/** get Multimap of CTrees indexed by DOIPrefix.
+	 * 
+	 * @return 
+	 */
+	public Multimap<String, CTree> getCTreeListsByPrefix() {
+		CTreeList cTreeList = this.getResetCTreeList();
+		Multimap<String, CTree> treeListsbyPrefix = ArrayListMultimap.create();
+		for (CTree cTree : cTreeList) {
+			String doiPrefix = cTree.extractDOIPrefix();
+			treeListsbyPrefix.put(doiPrefix, cTree);
+		}
+		return treeListsbyPrefix;
 	}
 
 }

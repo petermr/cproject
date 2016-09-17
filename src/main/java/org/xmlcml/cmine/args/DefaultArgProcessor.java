@@ -183,7 +183,7 @@ public class DefaultArgProcessor {
 	private String filterExpression;
 	private File outputFile;
 	public String outputDirName;
-	protected CProject cProject;
+	public CProject cProject;
 	
 	private ProjectSnippetsTree projectSnippetsTree;
 	private ProjectFilesTree projectFilesTree;
@@ -194,6 +194,7 @@ public class DefaultArgProcessor {
 	private CTreeFiles cTreeFiles;
 	protected XPathProcessor xPathProcessor;
 	private Multiset<String> documentMultiset;
+	private Level exceptionLevel;
 	
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -321,6 +322,19 @@ public class DefaultArgProcessor {
 	 @Deprecated // old name
 	public void parseCMDir(ArgumentOption option, ArgIterator argIterator) {
 		parseCTree(option, argIterator);
+	}
+
+	public void parseException(ArgumentOption option, ArgIterator argIterator) {
+		String levelS = argIterator.getString(option).toUpperCase();
+		if (levelS.equals(Level.ERROR.toString())) {
+			exceptionLevel = Level.ERROR;
+		} else if (levelS.equals(Level.WARN.toString())) {
+			exceptionLevel = Level.WARN;
+		} else if (levelS.equals(Level.INFO.toString())) {
+			exceptionLevel = Level.INFO;
+		} else {
+			throw new RuntimeException("Bad exception level: "+levelS);
+		}
 	}
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
@@ -1137,7 +1151,6 @@ public class DefaultArgProcessor {
 					continue;
 				}
 				if (i % 10 == 0) System.out.print(".");
-				TREE_LOG().trace(projectLog.toXML());
 			}
 			
 		}
@@ -1150,6 +1163,10 @@ public class DefaultArgProcessor {
 		if (projectLog != null) {
 			projectLog.writeLog();
 		}
+	}
+	
+	public Level getExceptionLevel() {
+		return exceptionLevel;
 	}
 
 	protected void addVariableAndExpandReferences(String name, String value) {

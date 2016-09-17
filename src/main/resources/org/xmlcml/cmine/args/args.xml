@@ -72,6 +72,18 @@
 		</help>
 	</arg>	
 	
+	<arg name="exception" 
+		long="--exception"
+		args="error , warn, info"
+		countRange="{1,1}"
+		parseMethod="parseException"
+		>
+		<help>
+		  <p>determines action on an Exception, e.g. when looping through CTrees. ERROR = rethrow, WARN = detailed message, 
+		  INFO = brief notification.</p>
+		</help>
+	</arg>	
+	
 
 	<arg name="input" 
 		brief="-i"
@@ -135,7 +147,7 @@
 		>
 		<help>
 		  <p class="brief">output Directory (tables, images, supplemental, etc)</p> 
-			<p>Driectory holding files to be analyzed or transformed. The type of the file may be set by the transform 
+			<p>Directory holding files to be analyzed or transformed. The type of the file may be set by the transform 
 			w.g. csv2html or operation
 			</p>	
 		</help>
@@ -155,7 +167,6 @@
 			after wildcard expansion then a filename can be given. If the argument must be a writeable directory; Norma
 			will do her best to create filenames derived from the input names. Directory structures will not be preserved.
 			</p>
-			<p class="note">At present users have to know the </p>
 		</help>
 	</arg>	
 			

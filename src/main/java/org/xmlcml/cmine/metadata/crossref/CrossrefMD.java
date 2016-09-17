@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
@@ -45,6 +46,7 @@ public class CrossrefMD extends AbstractMetadata {
 	public static final String CONTAINER_TITLE = "container-title";
 	public static final String CREATED = "created";
 	public static final String DATE_PARTS = "date-parts";
+	private static final String DATE_TIME = "date-time";
 	public static final String DOI = "DOI";
 	public static final String FUNDER = "funder";
 	public static final String INDEXED = "indexed";
@@ -97,7 +99,7 @@ public class CrossrefMD extends AbstractMetadata {
 	        "article-number",
 	        "assertion",
 	        CLINICAL_TRIAL_NUMBER,
-	        "date-time",
+	        DATE_TIME,
 	        "deposited",
 	        "editor",
 	        "issued",
@@ -165,9 +167,17 @@ public class CrossrefMD extends AbstractMetadata {
 
 	private String dateTime;
 	private Map<String, CRPersonList> personListByKeyMap;
+	private HashSet<String> arrayNames;
+	private HashSet<String> keyNames;
 	
 	public CrossrefMD() {
 		super();
+		init();
+	}
+
+	private void init() {
+		this.arrayNames = new HashSet<String>();
+		this.keyNames = new HashSet<String>();
 	}
 
 	public boolean analyzeSpecificObject(JsonElement value) {
@@ -183,7 +193,6 @@ public class CrossrefMD extends AbstractMetadata {
 			if (dateTime == null) {
 				LOG.warn("bad dateTime");
 			}
-//			LOG.debug("DATE-TIME: "+dateTime);
 		} else if (PERSONS.contains(currentKey)) {
 			getOrCreatePersonListByKeyMap();
 			CRPersonList personListFromValue = CRPersonList.createFrom(value);
@@ -204,7 +213,12 @@ public class CrossrefMD extends AbstractMetadata {
 //			LOG.debug("LINK: "+links);
 			linkList.addAll(links);
 		} else if (CREATED.equals(currentKey)) {
-			dateTime = ((JsonObject)value).get("date-time").getAsString();
+			if (!(value instanceof JsonObject)) {
+				dateTime = null;
+				LOG.warn("bad/null date-time");
+			} else {
+				dateTime = ((JsonObject)value).get(DATE_TIME).getAsString();
+			}
 		} else if (EXCLUDE_KEYS.contains(currentKey)) {
 //			LOG.debug("EXCLUDE "+currentKey+"; "+value);
 			analyzed = true; // because omitted
@@ -219,7 +233,10 @@ public class CrossrefMD extends AbstractMetadata {
 			List<String> strings = JsonUtils.getStringList(value.getAsJsonArray());
 			addStringList(strings);
 		} else if (value.isJsonArray()){
-			LOG.debug("ARRAY "+currentKey+"; "+value);
+			if (!this.arrayNames.contains(currentKey)) {
+				this.arrayNames.add(currentKey);
+				LOG.debug("ARRAY "+currentKey+"; "+value+ "; further messages terminated");
+			}
 		} else if (INCLUDE_KEYS.contains(currentKey) && value.isJsonPrimitive()) {
 			String s = ((JsonPrimitive)value).getAsString();
 			addString(s);
@@ -229,8 +246,12 @@ public class CrossrefMD extends AbstractMetadata {
 			analyzed = false; // because still to be processed
 		} else {
 			analyzed = false;
-//			LOG.warn("Unrecognised key "+currentKey);
-			throw new RuntimeException("Unrecognised key "+currentKey);
+			if (!this.keyNames.contains(currentKey)) {
+				this.keyNames.add(currentKey);
+				LOG.warn("**********Unrecognised key*********** in ARRAY "+currentKey+"; "+value+ "; further messages terminated");
+			}
+
+//			throw new RuntimeException("Unrecognised key "+currentKey);
 		}
 		return analyzed;
 

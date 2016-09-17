@@ -23,6 +23,7 @@ public class CMineFixtures {
 
 	public final static File TEST_CMINE_DIR = new File("src/test/resources/org/xmlcml");
 	public final static File TEST_FILES_DIR = new File("src/test/resources/org/xmlcml/files");
+	public final static File TEST_OPEN_DIR = new File("src/test/resources/org/xmlcml/open");
 	
 	public final static File TEST_DOWNLOAD_DIR = new File(TEST_CMINE_DIR, "download");
 	
@@ -31,11 +32,13 @@ public class CMineFixtures {
 	public final static File TEST_MISC_DIR = new File(TEST_FILES_DIR, "misc");
 	public static final File TEST_CROSSREF_DIR = new File(CMineFixtures.TEST_DOWNLOAD_DIR, "crossref");
 	public static final File TEST_CROSSREF_SAMPLE = new File(CMineFixtures.TEST_CROSSREF_DIR, "sample");
+	public static final File TEST_QUICKSCRAPE_DIR = new File(CMineFixtures.TEST_DOWNLOAD_DIR, "quickscrape");
 	public static final File TEST_SAMPLE = new File(CMineFixtures.TEST_DOWNLOAD_DIR, "sample");
 
 	public static final File GETPAPERS_SRC = new File(TEST_CMINE_DIR, "getpapers");
 	public static final File GETPAPERS_TARGET = new File("target/getpapers");
 	public static final File QUICKSCRAPE20160601_CSV = new File(GETPAPERS_SRC, "20160601quickscrape.csv");
+	public static final File PMR_CLOSED = new File("../closed");
 	public static final File GETPAPERS_OPEN = new File(TEST_CMINE_DIR, "open");
 	
 	public static final File CROSSREF_SRC_20160601_CSV = new File(GETPAPERS_SRC, "20160601crossref_1.csv");

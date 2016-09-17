@@ -4,14 +4,20 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.util.CMineUtil;
+
+import com.google.common.collect.Multimap;
+import com.google.common.collect.Multiset;
 
 /** list of CTree objects.
  * 
@@ -28,6 +34,7 @@ public class CTreeList implements Iterable<CTree> {
 	}
 	
 	private List<CTree> cTreeList;
+	private Map<String, CTree> cTreeByName;
 	
 	public CTreeList() {
 		ensureCTreeList();
@@ -36,7 +43,7 @@ public class CTreeList implements Iterable<CTree> {
 	public CTreeList(List<CTree> cTrees) {
 		ensureCTreeList();
 		for (CTree cTree : cTrees) {
-			cTreeList.add(cTree);
+			add(cTree);
 		}
 		sort();
 	}
@@ -44,6 +51,7 @@ public class CTreeList implements Iterable<CTree> {
 	private void ensureCTreeList() {
 		if (cTreeList == null) {
 			cTreeList = new ArrayList<CTree>();
+			cTreeByName = new HashMap<String, CTree>();
 		}
 	}
 
@@ -62,9 +70,20 @@ public class CTreeList implements Iterable<CTree> {
 		return cTreeList.get(i);
 	}
 	
-	public void add(CTree cmTree) {
+	/** gets CTree by directory name
+	 * 
+	 * @param name
+	 * @return null if not found 
+	 */
+	public CTree get(String name) {
 		ensureCTreeList();
-		cTreeList.add(cmTree);
+		return cTreeByName.get(name);
+	}
+	
+	public void add(CTree cTree) {
+		ensureCTreeList();
+		cTreeList.add(cTree);
+		cTreeByName.put(cTree.getDirectory().getName(), cTree);
 	}
 	
 	public Set<CTree> asSet() {
@@ -167,15 +186,40 @@ public class CTreeList implements Iterable<CTree> {
 	 * @return
 	 */
 	public boolean containsName(String name) {
-		if (name != null) {
-			for (CTree cTree : cTreeList) {
-				if (name.equals(cTree.getDirectory().getName())) {
-					return true;
-				}
+		for (CTree cTree : cTreeList) {
+			if (cTree.getDirectory().getName().equals(name)) {
+				return true;
 			}
 		}
 		return false;
 	}
+	
+	/** does this cTreeList contain a directory of the same name as name
+	 * 
+	 * @param cTree2
+	 * @return
+	 */
+	public int indexOf(String name) {
+		for (int i = 0; i < cTreeList.size(); i++) {
+			CTree cTree  = cTreeList.get(i);
+			if (cTree.getDirectory().getName().equals(name)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	public static List<CTreeList> getCTreeListsSortedByCount(Multimap<String, CTree> map) {
+		List<Multiset.Entry<String>> sortedKeys = CMineUtil.getObjectKeysSortedByCount(map);
+		List<CTreeList> listList = new ArrayList<CTreeList>();
+		for (Multiset.Entry<String> key : sortedKeys) {
+			CTreeList list = new CTreeList(new ArrayList<CTree>(map.get(key.getElement())));
+			listList.add(list);
+		}
+		return listList;
+	}
+
+
 	
 	@Override
 	public String toString() {

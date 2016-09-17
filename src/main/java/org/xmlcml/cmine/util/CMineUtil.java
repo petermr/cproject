@@ -15,12 +15,14 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.cmine.files.CTree;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlHtml;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.ImmutableSortedMultiset;
 import com.google.common.collect.Lists;
+import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multiset.Entry;
 import com.google.common.collect.Multisets;
@@ -37,9 +39,14 @@ import nu.xom.Node;
  */
 public class CMineUtil {
 
+	private static final String HTTP_DX_DOI_ORG2 = "http://dx.doi.org/";
 	private static final String HTML_START = "<";
 	private static final String PDF_START = "%PDF";
 	private static final String URL_PUNCT = "[\\/\\$\\%\\*\\(\\)\\[\\]]";
+	public static final String PUNCT = 
+			"[\\!\\@\\#\\^\\&\\-\\+\\=\\{\\}\\:\\;\\<\\>\\,\\/\\$\\%\\*\\(\\)\\[\\]]";
+	public static final String SPACE_PUNCT = 
+			"[\\s+\\~\\!\\@\\#\\^\\&\\+\\=\\{\\}\\:\\;\\<\\>\\,\\/\\$\\%\\*\\(\\)\\[\\]]";
 	private static final String HTTP_DX_DOI_ORG = "http_dx\\.doi\\.org_?";
 //	                                               http_dx.doi.org
 	private static final Logger LOG = Logger.getLogger(CMineUtil.class);
@@ -68,6 +75,26 @@ public class CMineUtil {
 		return  ImmutableSortedMultiset.copyOf(wordSet).entrySet();
 	}
 	
+	public static List<Multiset.Entry<String>> getKeysSortedByCount(Multimap<String, String> map) {
+		List<Multiset.Entry<String>> sortedKeys = Lists.newArrayList(Multisets.copyHighestCountFirst(map.keys()).entrySet());
+		return sortedKeys;
+	}
+
+	public static List<Multiset.Entry<String>> getObjectKeysSortedByCount(Multimap<String, ? extends Object> map) {
+		List<Multiset.Entry<String>> sortedKeys = Lists.newArrayList(Multisets.copyHighestCountFirst(map.keys()).entrySet());
+		return sortedKeys;
+	}
+
+	public static List<List<String>> getListsSortedByCount(Multimap<String, String> map) {
+		List<Multiset.Entry<String>> sortedKeys = getKeysSortedByCount(map);
+		List<List<String>> listList = new ArrayList<List<String>>();
+		for (Multiset.Entry<String> key : sortedKeys) {
+			List<String> list = new ArrayList<String>(map.get(key.getElement()));
+			listList.add(list);
+		}
+		return listList;
+	}
+
 	/** extracts a list of attribute values.
 	 * 
 	 * @return
@@ -194,7 +221,7 @@ public class CMineUtil {
 		File normalizedFile = null;
 		if (file != null) {
 			String name = file.getName();
-			String name1 = normalizeDOIBasedFilename(name);
+			String name1 = CMineUtil.normalizeDOIBasedFilename(name);
 			normalizedFile = new File(file.getParentFile(), name1);
 		}
 		return normalizedFile;
@@ -209,8 +236,17 @@ public class CMineUtil {
 	 */
 	public final static String normalizeDOIBasedFilename(String doi) {
 		// http_dx.doi.org_10.1002_suco.201500193
-		String doi1 = doi.replaceAll(HTTP_DX_DOI_ORG, "");
+		String doi1 = CMineUtil.removeHttpDxDoiPrefix(doi);
 		doi1 = doi1.replaceAll(URL_PUNCT, "_");
+		return doi1;
+	}
+
+	/**
+	 * removes "http_dx_doi_org_"
+
+	 */
+	public final static String removeHttpDxDoiPrefix(String doi) {
+		String doi1 = doi.replaceAll(HTTP_DX_DOI_ORG, "");
 		return doi1;
 	}
 
@@ -256,4 +292,31 @@ public class CMineUtil {
 		}
 		return contentType;
 	}
+
+	public static String stripChars(String s, String regex, String replace) {
+		return s == null ? null : s.replaceAll(regex, replace);
+	}
+
+	/** removes "http://dx.doi.org/" from start of string.
+	 * 
+	 * @param string
+	 * @return
+	 */
+	public static String stripHttpDOI(String string) {
+		if (string != null) {
+			string = string.trim();
+			if (string.startsWith(HTTP_DX_DOI_ORG2)) {
+				string = string.substring(HTTP_DX_DOI_ORG2.length());
+			}
+		}
+		return string;
+	}
+
+	public static String getDOIPrefix(String url) {
+		String prefix = url.substring(HTTP_DX_DOI_ORG.length()-1);
+		int idx = prefix.indexOf("/");
+		prefix = prefix.substring(0,  idx);
+		return prefix;
+	}
+	
 }
