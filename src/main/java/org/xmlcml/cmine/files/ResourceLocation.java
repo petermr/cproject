@@ -1,5 +1,6 @@
 package org.xmlcml.cmine.files;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -101,6 +102,8 @@ public class ResourceLocation {
 		}
 		if (is == null) {
 			try {
+				File f = new File(name);
+				LOG.debug("FFF "+f.getAbsolutePath());
 				is = new FileInputStream(name);
 			} catch (FileNotFoundException e) {
 				if (ResourceLocation.ResourceType.FILE.equals(resourceType)) {

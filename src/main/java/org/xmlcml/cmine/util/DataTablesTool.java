@@ -29,9 +29,10 @@ public class DataTablesTool {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	public static final String JQUERY_DATA_TABLES_MIN_JS = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js";
-	public static final String JQUERY_1_8_2_MIN_JS = "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js";
-	public static final String JQUERY_DATA_TABLES_CSS = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css";
+	public final static String ASPNET_AJAX = "http://ajax.aspnetcdn.com/ajax/";
+	public static final String JQUERY_DATA_TABLES_MIN_JS = ASPNET_AJAX+"jquery.dataTables/1.9.4/jquery.dataTables.min.js";
+	public static final String JQUERY_1_8_2_MIN_JS = ASPNET_AJAX+"jQuery/jquery-1.8.2.min.js";
+	public static final String JQUERY_DATA_TABLES_CSS = ASPNET_AJAX+"jquery.dataTables/1.9.4/css/jquery.dataTables.css";
 	public final static String DATA_TABLE_FUNCTION0 = ""
 	+ "$(function()  {\n"
 	+ "$(\"#";
@@ -48,6 +49,7 @@ public class DataTablesTool {
 	public static final String TARGET = "target";
 	
 	private static final String RESULTS = "results";
+	public static final String ARTICLES = "articles";
 	private static final String DEFAULTS = 
 			    DataTablesTool.TABLE+
 			" "+DataTablesTool.TABLE_STRIPED+
@@ -68,10 +70,16 @@ public class DataTablesTool {
 	private String localLink1;
 	private List<HtmlTd> footerCells;
 	private HtmlTd footerCaption;
+	private String rowLabelId;
 
-	public DataTablesTool() {
+	private DataTablesTool() {
 		this.setTableId(RESULTS);
 		setDefaults();
+	}
+
+	public DataTablesTool(String rowLabelId) {
+		this();
+		this.setRowLabelId(rowLabelId);
 	}
 
 	private void setDefaults() {
@@ -121,7 +129,7 @@ public class DataTablesTool {
 		HtmlThead htmlThead = new HtmlThead();
 		HtmlTr htmlTr = new HtmlTr();
 		htmlThead.appendChild(htmlTr);
-		htmlTr.appendChild(createColumnHeading(this.getId()));
+		htmlTr.appendChild(createColumnHeading(this.getRowLabelId()));
 		addRemainingColumnHeadings(htmlTr);
 		return htmlThead;
 	}
@@ -328,4 +336,12 @@ public class DataTablesTool {
 		this.footerCells = cells;
 	}
 	
+	public String getRowLabelId() {
+		return rowLabelId;
+	}
+
+	public void setRowLabelId(String rowLabelId) {
+		this.rowLabelId = rowLabelId;
+	}
+
 }

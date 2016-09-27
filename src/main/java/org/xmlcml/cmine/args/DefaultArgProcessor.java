@@ -115,6 +115,7 @@ import nu.xom.Node;
  */
 public class DefaultArgProcessor {
 	
+	private static final String DOT_XML = ".xml";
 	private static final Logger LOG = Logger.getLogger(DefaultArgProcessor.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -703,10 +704,10 @@ public class DefaultArgProcessor {
 		for (String dictionarySource : dictionarySources) {
 			InputStream is = null;
 			String dictionaryResource = AMI_DICTIONARY_RESOURCE+dictionarySource;
-			if (!dictionaryResource.endsWith(".xml")) {
-				dictionaryResource = dictionaryResource+".xml";
+			if (!dictionaryResource.endsWith(DOT_XML)) {
+				dictionaryResource = dictionaryResource+DOT_XML;
 			}
-			LOG.debug(dictionaryResource);
+			LOG.trace(dictionaryResource);
 			is = this.getClass().getResourceAsStream(dictionaryResource);
 			if (is == null) {
 				is = new ResourceLocation().getInputStreamHeuristically(dictionarySource);
