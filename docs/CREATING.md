@@ -9,9 +9,7 @@ see CMDirTest.testCreateCMDir()
 ```
 norma -i src/test/resources/org/xmlcml/files/misc/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --cmdir
 ```
-This will create a new `CMDir` in ```target/testcreate/``` and copy 
-```src/test/resources/org/xmlcml/files/misc/test_pdf_1471-2148-14-70.pdf``` to 
-```target/testcreate/fulltext.pdf```
+This will create a new `CMDir` in ```target/testcreate/``` and copy ```src/test/resources/org/xmlcml/files/misc/test_pdf_1471-2148-14-70.pdf``` to ```target/testcreate/fulltext.pdf```
 
 ## from multiple files
 
