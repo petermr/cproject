@@ -1,0 +1,235 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T08:43:05Z",
+    "timestamp": 1464856985923
+  },
+  "reference-count": 33,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/064006",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T08:14:11Z",
+    "timestamp": 1464768851000
+  },
+  "page": "064006",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Real-time extreme weather event attribution with forecast seasonal SSTs"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Haustein",
+      "given": "K"
+    },
+    {
+      "affiliation": [],
+      "family": "Otto",
+      "given": "F E L"
+    },
+    {
+      "affiliation": [],
+      "family": "Uhe",
+      "given": "P"
+    },
+    {
+      "affiliation": [],
+      "family": "Schaller",
+      "given": "N"
+    },
+    {
+      "affiliation": [],
+      "family": "Allen",
+      "given": "M R"
+    },
+    {
+      "affiliation": [],
+      "family": "Hermanson",
+      "given": "L"
+    },
+    {
+      "affiliation": [],
+      "family": "Christidis",
+      "given": "N"
+    },
+    {
+      "affiliation": [],
+      "family": "McLean",
+      "given": "P"
+    },
+    {
+      "affiliation": [],
+      "family": "Cullen",
+      "given": "H"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064006/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064006?key=crossref.3f0585e9af9b6a8e6e4ab5eaf240b920"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T07:08:30Z",
+    "timestamp": 1464851310000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/064006",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Real-time extreme weather event attribution with forecast seasonal SSTs"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2016-01-18"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-04-28"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-01"
+    }
+  ]
+}

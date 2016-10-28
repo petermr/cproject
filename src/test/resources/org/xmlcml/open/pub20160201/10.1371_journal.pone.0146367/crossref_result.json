@@ -1,0 +1,146 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:00Z",
+    "timestamp": 1454582700499
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0146367",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:50:09Z",
+    "timestamp": 1454352609000
+  },
+  "page": "e0146367",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "The Effect of Weight Loss on the Muscle Proteome in the Damara, Dorper and Australian Merino Ovine Breeds"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Almeida",
+      "given": "André M."
+    },
+    {
+      "affiliation": [],
+      "family": "Palhinhas",
+      "given": "Rui G."
+    },
+    {
+      "affiliation": [],
+      "family": "Kilminster",
+      "given": "Tanya"
+    },
+    {
+      "affiliation": [],
+      "family": "Scanlon",
+      "given": "Timothy"
+    },
+    {
+      "affiliation": [],
+      "family": "van Harten",
+      "given": "Sofia"
+    },
+    {
+      "affiliation": [],
+      "family": "Milton",
+      "given": "John"
+    },
+    {
+      "affiliation": [],
+      "family": "Blache",
+      "given": "Dominique"
+    },
+    {
+      "affiliation": [],
+      "family": "Greeff",
+      "given": "Johan"
+    },
+    {
+      "affiliation": [],
+      "family": "Oldham",
+      "given": "Chris"
+    },
+    {
+      "affiliation": [],
+      "family": "Coelho",
+      "given": "Ana Varela"
+    },
+    {
+      "affiliation": [],
+      "family": "Cardoso",
+      "given": "Luís Alfaro"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:50:11Z",
+    "timestamp": 1454352611000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Hansen",
+      "given": "Peter J."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0146367",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

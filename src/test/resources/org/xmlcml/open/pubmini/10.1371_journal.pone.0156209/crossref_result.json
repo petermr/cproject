@@ -1,0 +1,106 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:23Z",
+    "timestamp": 1464835343945
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "DOI": "10.1371/journal.pone.0156209",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:04Z",
+    "timestamp": 1464828964000
+  },
+  "page": "e0156209",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Sequence Evolution and Expression of the Androgen Receptor and Other Pathway-Related Genes in a Unisexual Fish, the Amazon Molly, Poecilia formosa, and Its Bisexual Ancestors"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Zhu",
+      "given": "Fangjun"
+    },
+    {
+      "affiliation": [],
+      "family": "Schlupp",
+      "given": "Ingo"
+    },
+    {
+      "affiliation": [],
+      "family": "Tiedemann",
+      "given": "Ralph"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:11Z",
+    "timestamp": 1464828971000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Planas",
+      "given": "Josep V."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156209",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

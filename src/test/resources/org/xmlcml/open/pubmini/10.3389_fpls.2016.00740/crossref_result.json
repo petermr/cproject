@@ -1,0 +1,130 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:57Z",
+    "timestamp": 1464756057236
+  },
+  "reference-count": 63,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [
+        "BSC-0107"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Council of Scientific and Industrial Research",
+      "DOI": "10.13039/501100001412"
+    },
+    {
+      "award": [
+        "DST File no. SR/SO/PS/81/2010"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Department of Science and Technology, Ministry of Science and Technology",
+      "DOI": "10.13039/501100001409"
+    }
+  ],
+  "DOI": "10.3389/fpls.2016.00740",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:05:09Z",
+    "timestamp": 1464750309000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Overexpression of Rice Glutaredoxin OsGrx_C7 and OsGrx_C2.1 Reduces Intracellular Arsenic Accumulation and Increases Tolerance in Arabidopsis thaliana"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Verma",
+      "given": "Pankaj K."
+    },
+    {
+      "affiliation": [],
+      "family": "Verma",
+      "given": "Shikha"
+    },
+    {
+      "affiliation": [],
+      "family": "Pande",
+      "given": "Veena"
+    },
+    {
+      "affiliation": [],
+      "family": "Mallick",
+      "given": "Shekhar"
+    },
+    {
+      "affiliation": [],
+      "family": "Deo Tripathi",
+      "given": "Rudra"
+    },
+    {
+      "affiliation": [],
+      "family": "Dhankher",
+      "given": "Om P."
+    },
+    {
+      "affiliation": [],
+      "family": "Chakrabarty",
+      "given": "Debasis"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:05:12Z",
+    "timestamp": 1464750312000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00740",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

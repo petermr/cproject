@@ -1,0 +1,120 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:04Z",
+    "timestamp": 1454582704664
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pcbi.1004475",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:51:49Z",
+    "timestamp": 1454352709000
+  },
+  "page": "e1004475",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "ClassTR: Classifying Within-Host Heterogeneity Based on Tandem Repeats with Application to Mycobacterium tuberculosis Infections"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Chindelevitch",
+      "given": "Leonid"
+    },
+    {
+      "affiliation": [],
+      "family": "Colijn",
+      "given": "Caroline"
+    },
+    {
+      "affiliation": [],
+      "family": "Moodley",
+      "given": "Prashini"
+    },
+    {
+      "affiliation": [],
+      "family": "Wilson",
+      "given": "Douglas"
+    },
+    {
+      "affiliation": [],
+      "family": "Cohen",
+      "given": "Ted"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS Computational Biology",
+    "PLoS Comput Biol"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:51:49Z",
+    "timestamp": 1454352709000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Tanaka",
+      "given": "Mark M."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pcbi.1004475",
+  "ISSN": [
+    "1553-7358"
+  ],
+  "subject": [
+    "Ecology",
+    "Modelling and Simulation",
+    "Computational Theory and Mathematics",
+    "Genetics",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology",
+    "Cellular and Molecular Neuroscience"
+  ]
+}

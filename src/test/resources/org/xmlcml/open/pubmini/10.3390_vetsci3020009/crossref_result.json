@@ -1,0 +1,98 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:42:38Z",
+    "timestamp": 1466264558825
+  },
+  "reference-count": 56,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Austrian Science Fund",
+      "DOI": "10.13039/501100002428"
+    }
+  ],
+  "DOI": "10.3390/vetsci3020009",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "9",
+  "source": "CrossRef",
+  "title": [
+    "Establishment and Characterization of New Canine and Feline Osteosarcoma Primary Cell Lines"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "3",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Meyer",
+      "given": "Florian"
+    },
+    {
+      "affiliation": [],
+      "family": "Walter",
+      "given": "Ingrid"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Veterinary Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:09:53Z",
+    "timestamp": 1466258993000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "vetsci3020009"
+  ],
+  "URL": "http://dx.doi.org/10.3390/vetsci3020009",
+  "ISSN": [
+    "2306-7381"
+  ]
+}

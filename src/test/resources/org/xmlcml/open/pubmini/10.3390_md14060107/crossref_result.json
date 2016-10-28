@@ -1,0 +1,118 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:29Z",
+    "timestamp": 1466264489276
+  },
+  "reference-count": 17,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/md14060107",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "107",
+  "source": "CrossRef",
+  "title": [
+    "Biosynthetic Functional Gene Analysis of Bis-Indole Metabolites from 25D7, a Clone Derived from a Deep-Sea Sediment Metagenomic Library"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "14",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Yan",
+      "given": "Xia"
+    },
+    {
+      "affiliation": [],
+      "family": "Tang",
+      "given": "Xi-Xiang"
+    },
+    {
+      "affiliation": [],
+      "family": "Qin",
+      "given": "Dan"
+    },
+    {
+      "affiliation": [],
+      "family": "Yi",
+      "given": "Zhi-Wei"
+    },
+    {
+      "affiliation": [],
+      "family": "Fang",
+      "given": "Mei-Juan"
+    },
+    {
+      "affiliation": [],
+      "family": "Wu",
+      "given": "Zhen"
+    },
+    {
+      "affiliation": [],
+      "family": "Qiu",
+      "given": "Ying-Kun"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Marine Drugs"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:05:04Z",
+    "timestamp": 1466258704000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "md14060107"
+  ],
+  "URL": "http://dx.doi.org/10.3390/md14060107",
+  "ISSN": [
+    "1660-3397"
+  ],
+  "subject": [
+    "Drug Discovery"
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        11
+      ]
+    ],
+    "date-time": "2016-06-11T08:40:29Z",
+    "timestamp": 1465634429793
+  },
+  "reference-count": 20,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 9,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            10
+          ]
+        ],
+        "date-time": "2016-06-10T00:00:00Z",
+        "timestamp": 1465516800000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 9,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            10
+          ]
+        ],
+        "date-time": "2016-06-10T00:00:00Z",
+        "timestamp": 1465516800000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Office of International Affairs",
+      "DOI": "10.13039/100007783"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/064010",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        10
+      ]
+    ],
+    "date-time": "2016-06-10T13:57:36Z",
+    "timestamp": 1465567056000
+  },
+  "page": "064010",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Cost-effective electric vehicle charging infrastructure siting for Delhi"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Sheppard",
+      "given": "Colin J R"
+    },
+    {
+      "affiliation": [],
+      "family": "Gopal",
+      "given": "Anand R"
+    },
+    {
+      "affiliation": [],
+      "family": "Harris",
+      "given": "Andrew"
+    },
+    {
+      "affiliation": [],
+      "family": "Jacobson",
+      "given": "Arne"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        10
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064010/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064010?key=crossref.2384c60f54bc022d4824560b27e799b0"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        11
+      ]
+    ],
+    "date-time": "2016-06-11T07:16:37Z",
+    "timestamp": 1465629397000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/064010",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Cost-effective electric vehicle charging infrastructure siting for Delhi"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2015-10-13"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-06"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-10"
+    }
+  ]
+}

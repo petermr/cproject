@@ -1,0 +1,116 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:40:47Z",
+    "timestamp": 1464828047051
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "DE-SC0014669"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Office of Science",
+      "DOI": "10.13039/100006132"
+    }
+  ],
+  "DOI": "10.5194/gmd-9-2007-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:01:48Z",
+    "timestamp": 1464822108000
+  },
+  "page": "2007-2029",
+  "source": "CrossRef",
+  "title": [
+    "A high-order staggered finite-element vertical discretization for non-hydrostatic atmospheric models"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "9",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Guerra",
+      "given": "Jorge E."
+    },
+    {
+      "affiliation": [],
+      "family": "Ullrich",
+      "given": "Paul A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Geoscientific Model Development",
+    "Geosci. Model Dev."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:01:51Z",
+    "timestamp": 1464822111000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/gmd-9-2007-2016",
+  "ISSN": [
+    "1991-9603"
+  ]
+}

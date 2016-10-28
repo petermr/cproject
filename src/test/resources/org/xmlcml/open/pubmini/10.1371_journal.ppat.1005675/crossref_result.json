@@ -1,0 +1,148 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:03Z",
+    "timestamp": 1464831663304
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "R01AI063446"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Institute of Allergy and Infectious Diseases",
+      "DOI": "10.13039/100000060"
+    },
+    {
+      "award": [
+        "OPP1024065"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Bill and Melinda Gates Foundation",
+      "DOI": "10.13039/100000865"
+    }
+  ],
+  "DOI": "10.1371/journal.ppat.1005675",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:17Z",
+    "timestamp": 1464828857000
+  },
+  "page": "e1005675",
+  "update-policy": "http://dx.doi.org/10.1371/journal.ppat.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Mycobacterium tuberculosis Thioredoxin Reductase Is Essential for Thiol Redox Homeostasis but Plays a Minor Role in Antioxidant Defense"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lin",
+      "given": "Kan"
+    },
+    {
+      "affiliation": [],
+      "family": "O'Brien",
+      "given": "Kathryn M."
+    },
+    {
+      "affiliation": [],
+      "family": "Trujillo",
+      "given": "Carolina"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Ruojun"
+    },
+    {
+      "affiliation": [],
+      "family": "Wallach",
+      "given": "Joshua B."
+    },
+    {
+      "affiliation": [],
+      "family": "Schnappinger",
+      "given": "Dirk"
+    },
+    {
+      "affiliation": [],
+      "family": "Ehrt",
+      "given": "Sabine",
+      "ORCID": "http://orcid.org/0000-0002-7951-2310"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Pathog",
+    "PLOS Pathogens"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:22Z",
+    "timestamp": 1464828862000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Boshoff",
+      "given": "Helena Ingrid"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.ppat.1005675",
+  "ISSN": [
+    "1553-7374"
+  ],
+  "subject": [
+    "Immunology",
+    "Genetics",
+    "Molecular Biology",
+    "Microbiology",
+    "Parasitology",
+    "Virology"
+  ]
+}

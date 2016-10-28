@@ -1,0 +1,151 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:03Z",
+    "timestamp": 1464831663959
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "DOI": "10.1371/journal.pone.0155492",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:53:02Z",
+    "timestamp": 1464828782000
+  },
+  "page": "e0155492",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "WDR76 Co-Localizes with Heterochromatin Related Proteins and Rapidly Responds to DNA Damage"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Gilmore",
+      "given": "Joshua M."
+    },
+    {
+      "affiliation": [],
+      "family": "Sardiu",
+      "given": "Mihaela E."
+    },
+    {
+      "affiliation": [],
+      "family": "Groppe",
+      "given": "Brad D."
+    },
+    {
+      "affiliation": [],
+      "family": "Thornton",
+      "given": "Janet L."
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Xingyu"
+    },
+    {
+      "affiliation": [],
+      "family": "Dayebgadoh",
+      "given": "Gerald"
+    },
+    {
+      "affiliation": [],
+      "family": "Banks",
+      "given": "Charles A."
+    },
+    {
+      "affiliation": [],
+      "family": "Slaughter",
+      "given": "Brian D."
+    },
+    {
+      "affiliation": [],
+      "family": "Unruh",
+      "given": "Jay R."
+    },
+    {
+      "affiliation": [],
+      "family": "Workman",
+      "given": "Jerry L."
+    },
+    {
+      "affiliation": [],
+      "family": "Florens",
+      "given": "Laurence"
+    },
+    {
+      "affiliation": [],
+      "family": "Washburn",
+      "given": "Michael P."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:53:07Z",
+    "timestamp": 1464828787000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Huen",
+      "given": "Michael Shing-Yan"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0155492",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

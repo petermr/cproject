@@ -1,0 +1,105 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:03Z",
+    "timestamp": 1464756063607
+  },
+  "reference-count": 72,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "DOI": "10.13039/501100001659"
+    }
+  ],
+  "DOI": "10.3389/fmicb.2016.00727",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:10:46Z",
+    "timestamp": 1464750646000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Drying-Rewetting and Flooding Impact Denitrifier Activity Rather than Community Structure in a Moderately Acidic Fen"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Palmer",
+      "given": "Katharina"
+    },
+    {
+      "affiliation": [],
+      "family": "Köpp",
+      "given": "Julia"
+    },
+    {
+      "affiliation": [],
+      "family": "Gebauer",
+      "given": "Gerhard"
+    },
+    {
+      "affiliation": [],
+      "family": "Horn",
+      "given": "Marcus A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Microbiol.",
+    "Frontiers in Microbiology"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:10:49Z",
+    "timestamp": 1464750649000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fmicb.2016.00727",
+  "ISSN": [
+    "1664-302X"
+  ]
+}

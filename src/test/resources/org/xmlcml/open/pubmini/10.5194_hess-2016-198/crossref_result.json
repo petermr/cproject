@@ -1,0 +1,148 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T11:41:34Z",
+    "timestamp": 1464781294447
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/hess-2016-198",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T10:24:09Z",
+    "timestamp": 1464776649000
+  },
+  "page": "1-45",
+  "source": "CrossRef",
+  "title": [
+    "Daily Landsat-scale evapotranspiration estimation over a forested landscape in North Carolina, USA using multi-satellite data fusion"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Yang",
+      "given": "Yun"
+    },
+    {
+      "affiliation": [],
+      "family": "Anderson",
+      "given": "Martha C."
+    },
+    {
+      "affiliation": [],
+      "family": "Gao",
+      "given": "Feng"
+    },
+    {
+      "affiliation": [],
+      "family": "Hain",
+      "given": "Christopher R."
+    },
+    {
+      "affiliation": [],
+      "family": "Semmens",
+      "given": "Kathryn A."
+    },
+    {
+      "affiliation": [],
+      "family": "Kustas",
+      "given": "William P."
+    },
+    {
+      "affiliation": [],
+      "family": "Noormets",
+      "given": "Asko"
+    },
+    {
+      "affiliation": [],
+      "family": "Wynne",
+      "given": "Randolph H."
+    },
+    {
+      "affiliation": [],
+      "family": "Thomas",
+      "given": "Valerie A."
+    },
+    {
+      "affiliation": [],
+      "family": "Sun",
+      "given": "Ge"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Hydrology and Earth System Sciences Discussions",
+    "Hydrol. Earth Syst. Sci. Discuss."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T10:24:09Z",
+    "timestamp": 1464776649000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/hess-2016-198",
+  "ISSN": [
+    "1812-2116"
+  ],
+  "subject": [
+    "Earth-Surface Processes",
+    "Earth and Planetary Sciences (miscellaneous)"
+  ]
+}

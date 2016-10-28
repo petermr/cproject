@@ -1,0 +1,107 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:43:28Z",
+    "timestamp": 1466264608353
+  },
+  "reference-count": 27,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/s16060803",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "803",
+  "source": "CrossRef",
+  "title": [
+    "TripSense: A Trust-Based Vehicular Platoon Crowdsensing Scheme with Privacy Preservation in VANETs"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hu",
+      "given": "Hao"
+    },
+    {
+      "affiliation": [],
+      "family": "Lu",
+      "given": "Rongxing",
+      "ORCID": "http://orcid.org/0000-0001-5720-0941"
+    },
+    {
+      "affiliation": [],
+      "family": "Huang",
+      "given": "Cheng"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Zonghua"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:05:02Z",
+    "timestamp": 1466258702000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "s16060803"
+  ],
+  "URL": "http://dx.doi.org/10.3390/s16060803",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [
+    "Electrical and Electronic Engineering",
+    "Analytical Chemistry",
+    "Atomic and Molecular Physics, and Optics",
+    "Biochemistry"
+  ]
+}

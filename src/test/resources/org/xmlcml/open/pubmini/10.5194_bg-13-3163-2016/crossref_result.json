@@ -1,0 +1,162 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T08:42:01Z",
+    "timestamp": 1464770521091
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "10",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "EURYI Award to F.K."
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "European Science Foundation",
+      "DOI": "10.13039/501100000782"
+    },
+    {
+      "award": [
+        "grant 2010-NEWLOG ADG-267931 HE"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "European Research Council",
+      "DOI": "10.13039/501100000781"
+    },
+    {
+      "award": [
+        "KE 884/2-1",
+        "KE 884/8-1",
+        "KE 884/9-1"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "DOI": "10.13039/501100001659"
+    }
+  ],
+  "DOI": "10.5194/bg-13-3163-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T07:03:45Z",
+    "timestamp": 1464764625000
+  },
+  "page": "3163-3174",
+  "source": "CrossRef",
+  "title": [
+    "Evidence for methane production by the marine algae <i>Emiliania huxleyi</i>"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "13",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lenhart",
+      "given": "Katharina"
+    },
+    {
+      "affiliation": [],
+      "family": "Klintzsch",
+      "given": "Thomas"
+    },
+    {
+      "affiliation": [],
+      "family": "Langer",
+      "given": "Gerald"
+    },
+    {
+      "affiliation": [],
+      "family": "Nehrke",
+      "given": "Gernot"
+    },
+    {
+      "affiliation": [],
+      "family": "Bunge",
+      "given": "Michael"
+    },
+    {
+      "affiliation": [],
+      "family": "Schnell",
+      "given": "Sylvia"
+    },
+    {
+      "affiliation": [],
+      "family": "Keppler",
+      "given": "Frank"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Biogeosciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T07:03:51Z",
+    "timestamp": 1464764631000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/bg-13-3163-2016",
+  "ISSN": [
+    "1726-4189"
+  ],
+  "subject": [
+    "Earth-Surface Processes",
+    "Ecology, Evolution, Behavior and Systematics"
+  ]
+}

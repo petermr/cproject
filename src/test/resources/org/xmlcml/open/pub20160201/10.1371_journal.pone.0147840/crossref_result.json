@@ -1,0 +1,146 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:10Z",
+    "timestamp": 1454582710191
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0147840",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:54:14Z",
+    "timestamp": 1454352854000
+  },
+  "page": "e0147840",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Effect of 3′UTR RET Variants on RET mRNA Secondary Structure and Disease Presentation in Medullary Thyroid Carcinoma"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ceolin",
+      "given": "Lucieli"
+    },
+    {
+      "affiliation": [],
+      "family": "Romitti",
+      "given": "Mirian"
+    },
+    {
+      "affiliation": [],
+      "family": "Rodrigues Siqueira",
+      "given": "Débora"
+    },
+    {
+      "affiliation": [],
+      "family": "Vaz Ferreira",
+      "given": "Carla"
+    },
+    {
+      "affiliation": [],
+      "family": "Oliboni Scapineli",
+      "given": "Jessica"
+    },
+    {
+      "affiliation": [],
+      "family": "Assis-Brazil",
+      "given": "Beatriz"
+    },
+    {
+      "affiliation": [],
+      "family": "Vieira Maximiano",
+      "given": "Rodolfo"
+    },
+    {
+      "affiliation": [],
+      "family": "Dias Amarante",
+      "given": "Tauanne"
+    },
+    {
+      "affiliation": [],
+      "family": "de Souza Nunes",
+      "given": "Miriam Celi"
+    },
+    {
+      "affiliation": [],
+      "family": "Weber",
+      "given": "Gerald"
+    },
+    {
+      "affiliation": [],
+      "family": "Maia",
+      "given": "Ana Luiza"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:54:14Z",
+    "timestamp": 1454352854000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Sun",
+      "given": "H. Sunny"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0147840",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

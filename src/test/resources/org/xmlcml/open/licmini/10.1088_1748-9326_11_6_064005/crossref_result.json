@@ -1,0 +1,223 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T08:42:36Z",
+    "timestamp": 1464856956404
+  },
+  "reference-count": 21,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "content-version": "am",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Division of Atmospheric and Geospace Sciences",
+      "DOI": "10.13039/100000159"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/064005",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T08:14:02Z",
+    "timestamp": 1464768842000
+  },
+  "page": "064005",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Bias present in US federal agency power plant CO2emissions data and implications for the US clean power plan"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Gurney",
+      "given": "K R"
+    },
+    {
+      "affiliation": [],
+      "family": "Huang",
+      "given": "J"
+    },
+    {
+      "affiliation": [],
+      "family": "Coltin",
+      "given": "K"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "syndication",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064005/pdf"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T07:08:51Z",
+    "timestamp": 1464851331000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/064005",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Bias present in US federal agency power plant CO2emissions data and implications for the US clean power plan"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2015-08-17"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-05"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-01"
+    }
+  ]
+}

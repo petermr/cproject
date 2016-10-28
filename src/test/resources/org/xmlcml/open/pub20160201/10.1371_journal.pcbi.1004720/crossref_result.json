@@ -1,0 +1,115 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:44:59Z",
+    "timestamp": 1454582699421
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pcbi.1004720",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:47:53Z",
+    "timestamp": 1454352473000
+  },
+  "page": "e1004720",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Recovery of Dynamics and Function in Spiking Neural Networks with Closed-Loop Control"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Vlachos",
+      "given": "Ioannis"
+    },
+    {
+      "affiliation": [],
+      "family": "Deniz",
+      "given": "Taşkin"
+    },
+    {
+      "affiliation": [],
+      "family": "Aertsen",
+      "given": "Ad"
+    },
+    {
+      "affiliation": [],
+      "family": "Kumar",
+      "given": "Arvind"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS Computational Biology",
+    "PLoS Comput Biol"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:47:53Z",
+    "timestamp": 1454352473000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Sporns",
+      "given": "Olaf"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pcbi.1004720",
+  "ISSN": [
+    "1553-7358"
+  ],
+  "subject": [
+    "Ecology",
+    "Modelling and Simulation",
+    "Computational Theory and Mathematics",
+    "Genetics",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology",
+    "Cellular and Molecular Neuroscience"
+  ]
+}

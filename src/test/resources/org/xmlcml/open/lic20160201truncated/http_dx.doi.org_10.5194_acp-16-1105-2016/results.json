@@ -1,0 +1,64 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://www.atmos-chem-phys.net/16/1105/2016/acp-16-1105-2016.pdf"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "Cloud condensation nuclei activity, droplet growth kinetics, and  hygroscopicity of biogenic and anthropogenic secondary organic aerosol (SOA)"
+    ]
+  },
+  "author": {
+    "value": [
+      "Zhao, D. F.",
+      "Buchholz, A.",
+      "Kortner, B.",
+      "Schlag, P.",
+      "Rubach, F.",
+      "Fuchs, H.",
+      "Kiendler-Scharr, A.",
+      "Tillmann, R.",
+      "Wahner, A.",
+      "Watne, Å. K.",
+      "Hallquist, M.",
+      "Flores, J. M.",
+      "Rudich, Y.",
+      "Kristensen, K.",
+      "Hansen, A. M. K.",
+      "Glasius, M.",
+      "Kourtchev, I.",
+      "Kalberer, M.",
+      "Mentel, Th. F."
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "doi:10.5194/acp-16-1105-2016"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "2"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "1105"
+    ]
+  },
+  "description": {
+    "value": []
+  }
+}

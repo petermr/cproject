@@ -1,0 +1,205 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        9
+      ]
+    ],
+    "date-time": "2016-06-09T08:40:12Z",
+    "timestamp": 1465461612711
+  },
+  "reference-count": 30,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 7,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            8
+          ]
+        ],
+        "date-time": "2016-06-08T00:00:00Z",
+        "timestamp": 1465344000000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 7,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            8
+          ]
+        ],
+        "date-time": "2016-06-08T00:00:00Z",
+        "timestamp": 1465344000000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/065003",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        8
+      ]
+    ],
+    "date-time": "2016-06-08T15:09:50Z",
+    "timestamp": 1465398590000
+  },
+  "page": "065003",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "An investigation into linearity with cumulative emissions of the climate and carbon cycle response in HadCM3LC"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Liddicoat",
+      "given": "S K"
+    },
+    {
+      "affiliation": [],
+      "family": "Booth",
+      "given": "B B B"
+    },
+    {
+      "affiliation": [],
+      "family": "Joshi",
+      "given": "M M"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        8
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=065003/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=065003?key=crossref.e4200e7fcdf6c072dd4440f8911f4e7e"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        9
+      ]
+    ],
+    "date-time": "2016-06-09T07:17:50Z",
+    "timestamp": 1465456670000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/065003",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "paper"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "An investigation into linearity with cumulative emissions of the climate and carbon cycle response in HadCM3LC"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2015-05-15"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-12"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-08"
+    }
+  ]
+}

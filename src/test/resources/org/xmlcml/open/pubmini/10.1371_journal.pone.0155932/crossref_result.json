@@ -1,0 +1,131 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:13Z",
+    "timestamp": 1464831673113
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "DOI": "10.1371/journal.pone.0155932",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:53:57Z",
+    "timestamp": 1464828837000
+  },
+  "page": "e0155932",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Rapid Environmental Change Drives Increased Land Use by an Arctic Marine Predator"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Atwood",
+      "given": "Todd C."
+    },
+    {
+      "affiliation": [],
+      "family": "Peacock",
+      "given": "Elizabeth"
+    },
+    {
+      "affiliation": [],
+      "family": "McKinney",
+      "given": "Melissa A."
+    },
+    {
+      "affiliation": [],
+      "family": "Lillie",
+      "given": "Kate"
+    },
+    {
+      "affiliation": [],
+      "family": "Wilson",
+      "given": "Ryan"
+    },
+    {
+      "affiliation": [],
+      "family": "Douglas",
+      "given": "David C."
+    },
+    {
+      "affiliation": [],
+      "family": "Miller",
+      "given": "Susanne"
+    },
+    {
+      "affiliation": [],
+      "family": "Terletzky",
+      "given": "Pat"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:17Z",
+    "timestamp": 1464828857000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Songhai"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0155932",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:08Z",
+    "timestamp": 1464756068986
+  },
+  "reference-count": 48,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fphar.2016.00148",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:02:53Z",
+    "timestamp": 1464750173000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Gypenoside Protects Cardiomyocytes against Ischemia-Reperfusion Injury via the Inhibition of Mitogen-Activated Protein Kinase Mediated Nuclear Factor Kappa B Pathway In Vitro and In Vivo"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Yu",
+      "given": "Haijie"
+    },
+    {
+      "affiliation": [],
+      "family": "Shi",
+      "given": "Liye"
+    },
+    {
+      "affiliation": [],
+      "family": "Qi",
+      "given": "Guoxian"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Shijie"
+    },
+    {
+      "affiliation": [],
+      "family": "Gao",
+      "given": "Yuan"
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Yuzhe"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Pharmacology",
+    "Front. Pharmacol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:02:53Z",
+    "timestamp": 1464750173000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fphar.2016.00148",
+  "ISSN": [
+    "1663-9812"
+  ]
+}

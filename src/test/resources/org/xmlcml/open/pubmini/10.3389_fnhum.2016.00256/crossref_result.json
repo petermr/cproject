@@ -1,0 +1,89 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:02Z",
+    "timestamp": 1464756062048
+  },
+  "reference-count": 6,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fnhum.2016.00256",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:17:29Z",
+    "timestamp": 1464751049000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Commentary: Behavior analysis and behavioral neuroscience"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kolu",
+      "given": "Teresa C."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Human Neuroscience",
+    "Front. Hum. Neurosci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:17:29Z",
+    "timestamp": 1464751049000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fnhum.2016.00256",
+  "ISSN": [
+    "1662-5161"
+  ],
+  "subject": [
+    "Biological Psychiatry",
+    "Behavioral Neuroscience",
+    "Neuropsychology and Physiological Psychology",
+    "Neurology",
+    "Psychiatry and Mental health"
+  ]
+}

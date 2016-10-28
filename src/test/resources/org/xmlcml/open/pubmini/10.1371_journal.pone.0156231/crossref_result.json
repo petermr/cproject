@@ -1,0 +1,111 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:33Z",
+    "timestamp": 1464835293581
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "DOI": "10.1371/journal.pone.0156231",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:53Z",
+    "timestamp": 1464829013000
+  },
+  "page": "e0156231",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Contextual and Individual Factors Influencing Periodontal Treatment Needs by Elderly Brazilians: A Multilevel Analysis"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Dalazen",
+      "given": "Chaiane Emilia"
+    },
+    {
+      "affiliation": [],
+      "family": "De Carli",
+      "given": "Alessandro Diogo"
+    },
+    {
+      "affiliation": [],
+      "family": "Bomfim",
+      "given": "Rafael Aiello"
+    },
+    {
+      "affiliation": [],
+      "family": "dos Santos",
+      "given": "Mara Lisiane Moraes"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:05Z",
+    "timestamp": 1464829025000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Trackman",
+      "given": "Philip C."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156231",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

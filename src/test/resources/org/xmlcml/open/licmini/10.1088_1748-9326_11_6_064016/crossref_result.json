@@ -1,0 +1,262 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        21
+      ]
+    ],
+    "date-time": "2016-06-21T08:40:31Z",
+    "timestamp": 1466498431258
+  },
+  "reference-count": 71,
+  "publisher": "IOP Publishing",
+  "issue": "6",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 19,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2016-06-20T00:00:00Z",
+        "timestamp": 1466380800000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 19,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2016-06-20T00:00:00Z",
+        "timestamp": 1466380800000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "crossref",
+      "name": "Australian Research Council",
+      "DOI": "10.13039/501100000923"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "University of Queensland",
+      "DOI": "10.13039/501100001794"
+    },
+    {
+      "award": [],
+      "name": "United Nations Environment Program"
+    },
+    {
+      "award": [
+        "G-PGM-1411-1112"
+      ],
+      "name": "The Arcus Foundation"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/6/064016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        20
+      ]
+    ],
+    "date-time": "2016-06-20T14:14:11Z",
+    "timestamp": 1466432051000
+  },
+  "page": "064016",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Rising floodwaters: mapping impacts and perceptions of flooding in Indonesian Borneo"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Wells",
+      "given": "Jessie A",
+      "ORCID": "http://orcid.org/0000-0002-3555-5108"
+    },
+    {
+      "affiliation": [],
+      "family": "Wilson",
+      "given": "Kerrie A"
+    },
+    {
+      "affiliation": [],
+      "family": "Abram",
+      "given": "Nicola K",
+      "ORCID": "http://orcid.org/0000-0003-1886-7297"
+    },
+    {
+      "affiliation": [],
+      "family": "Nunn",
+      "given": "Malcolm"
+    },
+    {
+      "affiliation": [],
+      "family": "Gaveau",
+      "given": "David L A"
+    },
+    {
+      "affiliation": [],
+      "family": "Runting",
+      "given": "Rebecca K",
+      "ORCID": "http://orcid.org/0000-0003-0614-1456"
+    },
+    {
+      "affiliation": [],
+      "family": "Tarniati",
+      "given": "Nina"
+    },
+    {
+      "affiliation": [],
+      "family": "Mengersen",
+      "given": "Kerrie L"
+    },
+    {
+      "affiliation": [],
+      "family": "Meijaard",
+      "given": "Erik"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        20
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064016/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=6/a=064016?key=crossref.dc08a6f51fcad31d9c2fc971be59fa26"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        21
+      ]
+    ],
+    "date-time": "2016-06-21T07:20:37Z",
+    "timestamp": 1466493637000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/6/064016",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Rising floodwaters: mapping impacts and perceptions of flooding in Indonesian Borneo"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2015-11-18"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-06-01"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-20"
+    }
+  ]
+}

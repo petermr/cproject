@@ -1,0 +1,161 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:02Z",
+    "timestamp": 1464831662416
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "NSC100-2314-B-037-016-MY3",
+        "NSC101-2314-B-075-037-MY2"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Ministry of Science and Technology, Taiwan",
+      "DOI": "10.13039/501100004663"
+    },
+    {
+      "award": [
+        "KMUH-100-0R49",
+        "KMUH-103-3R55"
+      ],
+      "name": "Kaohsiung Medical University Hospital, Kaohsiung Medical University, Taiwan"
+    },
+    {
+      "award": [
+        "KMUH-100-0R49",
+        "KMUH-103-3R55"
+      ],
+      "name": "Kaohsiung Medical University Hospital, Kaohsiung Medical University, Taiwan"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156404",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:53:23Z",
+    "timestamp": 1464828803000
+  },
+  "page": "e0156404",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Validation of NINDS-VCI Neuropsychology Protocols for Vascular Cognitive Impairment in Taiwan"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lin",
+      "given": "Hsiu-Fen"
+    },
+    {
+      "affiliation": [],
+      "family": "Chern",
+      "given": "Chang-Ming"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Hui-Mei"
+    },
+    {
+      "affiliation": [],
+      "family": "Yeh",
+      "given": "Yi-Chun"
+    },
+    {
+      "affiliation": [],
+      "family": "Yao",
+      "given": "Shu-Chih"
+    },
+    {
+      "affiliation": [],
+      "family": "Huang",
+      "given": "Mei-Feng"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Shuu-Jiun"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Cheng-Sheng"
+    },
+    {
+      "affiliation": [],
+      "family": "Fuh",
+      "given": "Jong-Ling"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:10Z",
+    "timestamp": 1464828850000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Quinn",
+      "given": "Terence J"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156404",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

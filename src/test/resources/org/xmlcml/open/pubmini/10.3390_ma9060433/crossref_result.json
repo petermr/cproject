@@ -1,0 +1,115 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:43Z",
+    "timestamp": 1466264503925
+  },
+  "reference-count": 32,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/ma9060433",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "433",
+  "source": "CrossRef",
+  "title": [
+    "Effect of Rolling Route on Microstructure and Tensile Properties of Twin-Roll Casting AZ31 Mg Alloy Sheets"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "9",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Luo",
+      "given": "Dan"
+    },
+    {
+      "affiliation": [],
+      "family": "Pan",
+      "given": "Yue"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Hui-Yuan"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Li-Guo"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Guo-Jun"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Yan"
+    },
+    {
+      "affiliation": [],
+      "family": "Jiang",
+      "given": "Qi-Chuan"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Materials"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:03:18Z",
+    "timestamp": 1466258598000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "ma9060433"
+  ],
+  "URL": "http://dx.doi.org/10.3390/ma9060433",
+  "ISSN": [
+    "1996-1944"
+  ]
+}

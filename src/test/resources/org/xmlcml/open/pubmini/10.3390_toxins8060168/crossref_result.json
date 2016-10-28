@@ -1,0 +1,110 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:43:25Z",
+    "timestamp": 1466264605169
+  },
+  "reference-count": 23,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/toxins8060168",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "168",
+  "source": "CrossRef",
+  "title": [
+    "Molecular Characterization of Three Novel Phospholipase A2 Proteins from the Venom of Atheris chlorechis, Atheris nitschei and Atheris squamigera"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "8",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "He"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Xiaole"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhou",
+      "given": "Mei"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Lei"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Tianbao"
+    },
+    {
+      "affiliation": [],
+      "family": "Shaw",
+      "given": "Chris"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Toxins"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:08:20Z",
+    "timestamp": 1466258900000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "toxins8060168"
+  ],
+  "URL": "http://dx.doi.org/10.3390/toxins8060168",
+  "ISSN": [
+    "2072-6651"
+  ]
+}

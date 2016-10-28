@@ -1,0 +1,151 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:34Z",
+    "timestamp": 1464831694394
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "ZR2015CQ017"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Natural Science Foundation of Shandong Province",
+      "DOI": "10.13039/501100007129"
+    },
+    {
+      "award": [
+        "31501651",
+        "31572040"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    },
+    {
+      "award": [
+        "SDAIT-01-02-09"
+      ],
+      "name": "Modern Agricultural Industry Technology System of Shandong Province"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156555",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:52:46Z",
+    "timestamp": 1464828766000
+  },
+  "page": "e0156555",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Effects of Sublethal Concentrations of Cyantraniliprole on the Development, Fecundity and Nutritional Physiology of the Black Cutworm Agrotis ipsilon (Lepidoptera: Noctuidae)"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Xu",
+      "given": "Chunmei"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Zhengqun"
+    },
+    {
+      "affiliation": [],
+      "family": "Cui",
+      "given": "Kaidi"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Yunhe"
+    },
+    {
+      "affiliation": [],
+      "family": "Han",
+      "given": "Jingkun"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Feng"
+    },
+    {
+      "affiliation": [],
+      "family": "Mu",
+      "given": "Wei"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:52:53Z",
+    "timestamp": 1464828773000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Falabella",
+      "given": "Patrizia"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156555",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

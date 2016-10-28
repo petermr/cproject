@@ -1,0 +1,96 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:07Z",
+    "timestamp": 1466264467770
+  },
+  "reference-count": 44,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/s16060807",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "807",
+  "source": "CrossRef",
+  "title": [
+    "An Exact Formula for Calculating Inverse Radial Lens Distortions"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Drap",
+      "given": "Pierre"
+    },
+    {
+      "affiliation": [],
+      "family": "Lefèvre",
+      "given": "Julien"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:05:06Z",
+    "timestamp": 1466258706000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "s16060807"
+  ],
+  "URL": "http://dx.doi.org/10.3390/s16060807",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [
+    "Electrical and Electronic Engineering",
+    "Analytical Chemistry",
+    "Atomic and Molecular Physics, and Optics",
+    "Biochemistry"
+  ]
+}

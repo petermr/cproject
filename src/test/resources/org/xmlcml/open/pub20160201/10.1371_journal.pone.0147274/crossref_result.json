@@ -1,0 +1,106 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:01Z",
+    "timestamp": 1454582701105
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0147274",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:50:53Z",
+    "timestamp": 1454352653000
+  },
+  "page": "e0147274",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Is Knowledge Regarding Tuberculosis Associated with Stigmatising and Discriminating Attitudes of General Population towards Tuberculosis Patients? Findings from a Community Based Survey in 30 Districts of India"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Sagili",
+      "given": "Karuna D."
+    },
+    {
+      "affiliation": [],
+      "family": "Satyanarayana",
+      "given": "Srinath"
+    },
+    {
+      "affiliation": [],
+      "family": "Chadha",
+      "given": "Sarabjit S."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:50:53Z",
+    "timestamp": 1454352653000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Subbian",
+      "given": "Selvakumar"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0147274",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

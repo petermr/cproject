@@ -1,0 +1,120 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:07Z",
+    "timestamp": 1466264467189
+  },
+  "reference-count": 191,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "European Commission",
+      "DOI": "10.13039/501100000780"
+    }
+  ],
+  "DOI": "10.3390/s16060790",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "790",
+  "source": "CrossRef",
+  "title": [
+    "Data-Driven Design of Intelligent Wireless Networks: An Overview and Tutorial"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kulin",
+      "given": "Merima"
+    },
+    {
+      "affiliation": [],
+      "family": "Fortuna",
+      "given": "Carolina"
+    },
+    {
+      "affiliation": [],
+      "family": "De Poorter",
+      "given": "Eli"
+    },
+    {
+      "affiliation": [],
+      "family": "Deschrijver",
+      "given": "Dirk"
+    },
+    {
+      "affiliation": [],
+      "family": "Moerman",
+      "given": "Ingrid",
+      "ORCID": "http://orcid.org/0000-0003-2377-3674"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Sensors"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:04:45Z",
+    "timestamp": 1466258685000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "s16060790"
+  ],
+  "URL": "http://dx.doi.org/10.3390/s16060790",
+  "ISSN": [
+    "1424-8220"
+  ],
+  "subject": [
+    "Electrical and Electronic Engineering",
+    "Analytical Chemistry",
+    "Atomic and Molecular Physics, and Optics",
+    "Biochemistry"
+  ]
+}

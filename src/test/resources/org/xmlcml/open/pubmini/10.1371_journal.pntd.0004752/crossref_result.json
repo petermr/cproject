@@ -1,0 +1,152 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:45Z",
+    "timestamp": 1464835305522
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Fight for Sight UK",
+      "DOI": "10.13039/501100000615"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "crossref",
+      "name": "British Council for Prevention of Blindness",
+      "DOI": "10.13039/501100000367"
+    },
+    {
+      "award": [
+        "098481/Z/12/Z"
+      ],
+      "name": "Wellcome Trust (GB)"
+    }
+  ],
+  "DOI": "10.1371/journal.pntd.0004752",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:11Z",
+    "timestamp": 1464828971000
+  },
+  "page": "e0004752",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pntd.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Increased Epithelial Expression of CTGF and S100A7 with Elevated Subepithelial Expression of IL-1β in Trachomatous Trichiasis"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Derrick",
+      "given": "Tamsyn",
+      "ORCID": "http://orcid.org/0000-0002-1458-6503"
+    },
+    {
+      "affiliation": [],
+      "family": "Luthert",
+      "given": "Philip J."
+    },
+    {
+      "affiliation": [],
+      "family": "Jama",
+      "given": "Hodan"
+    },
+    {
+      "affiliation": [],
+      "family": "Hu",
+      "given": "Victor H."
+    },
+    {
+      "affiliation": [],
+      "family": "Massae",
+      "given": "Patrick"
+    },
+    {
+      "affiliation": [],
+      "family": "Essex",
+      "given": "David"
+    },
+    {
+      "affiliation": [],
+      "family": "Holland",
+      "given": "Martin J."
+    },
+    {
+      "affiliation": [],
+      "family": "Burton",
+      "given": "Matthew J."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Negl Trop Dis",
+    "PLOS Neglected Tropical Diseases"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:56:24Z",
+    "timestamp": 1464828984000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Vinetz",
+      "given": "Joseph M."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pntd.0004752",
+  "ISSN": [
+    "1935-2735"
+  ],
+  "subject": [
+    "Pharmacology, Toxicology and Pharmaceutics(all)",
+    "Public Health, Environmental and Occupational Health",
+    "Infectious Diseases"
+  ]
+}

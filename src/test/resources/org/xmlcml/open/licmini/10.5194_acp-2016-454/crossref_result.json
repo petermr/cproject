@@ -1,0 +1,156 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        5
+      ]
+    ],
+    "date-time": "2016-07-05T15:41:01Z",
+    "timestamp": 1467733261724
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "145147",
+        "1450760",
+        "1450690"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Science Foundation",
+      "DOI": "10.13039/100000001"
+    }
+  ],
+  "DOI": "10.5194/acp-2016-454",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T05:46:54Z",
+    "timestamp": 1464760014000
+  },
+  "page": "1-32",
+  "source": "CrossRef",
+  "title": [
+    "Transport of Pollution to a Remote Coastal Site during Gap Flow from California’s Interior: Impacts on Aerosol Composition, Clouds and Radiative Balance"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Martin",
+      "given": "A. C."
+    },
+    {
+      "affiliation": [],
+      "family": "Cornwell",
+      "given": "G. C."
+    },
+    {
+      "affiliation": [],
+      "family": "Atwood",
+      "given": "S. A."
+    },
+    {
+      "affiliation": [],
+      "family": "Moore",
+      "given": "K. A."
+    },
+    {
+      "affiliation": [],
+      "family": "Rothfuss",
+      "given": "N."
+    },
+    {
+      "affiliation": [],
+      "family": "Taylor",
+      "given": "H."
+    },
+    {
+      "affiliation": [],
+      "family": "DeMott",
+      "given": "P. J."
+    },
+    {
+      "affiliation": [],
+      "family": "Kreidenweis",
+      "given": "S. M."
+    },
+    {
+      "affiliation": [],
+      "family": "Petters",
+      "given": "M. D."
+    },
+    {
+      "affiliation": [],
+      "family": "Prather",
+      "given": "K. A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Atmospheric Chemistry and Physics Discussions",
+    "Atmos. Chem. Phys. Discuss."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        5
+      ]
+    ],
+    "date-time": "2016-07-05T14:06:01Z",
+    "timestamp": 1467727561000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/acp-2016-454",
+  "ISSN": [
+    "1680-7375"
+  ]
+}

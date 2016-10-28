@@ -1,0 +1,131 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:03Z",
+    "timestamp": 1454582703350
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pone.0144260",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:51:02Z",
+    "timestamp": 1454352662000
+  },
+  "page": "e0144260",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Relationship between Blood Pressure and Outcomes in Acute Ischemic Stroke Patients Administered Lytic Medication in the TIMS-China Study"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Wu",
+      "given": "Wei"
+    },
+    {
+      "affiliation": [],
+      "family": "Huo",
+      "given": "Xiaochuan"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Xingquan"
+    },
+    {
+      "affiliation": [],
+      "family": "Liao",
+      "given": "Xiaoling"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Chunjuan"
+    },
+    {
+      "affiliation": [],
+      "family": "Pan",
+      "given": "Yuesong"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Yilong"
+    },
+    {
+      "affiliation": [],
+      "family": "Wang",
+      "given": "Yongjun"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:51:02Z",
+    "timestamp": 1454352662000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Zhao",
+      "given": "Heng"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0144260",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

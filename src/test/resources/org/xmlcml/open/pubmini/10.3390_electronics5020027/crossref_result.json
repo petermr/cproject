@@ -1,0 +1,95 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T06:40:31Z",
+    "timestamp": 1468219231898
+  },
+  "reference-count": 38,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/electronics5020027",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "27",
+  "source": "CrossRef",
+  "title": [
+    "An FPGA Scalable Software Defined Radio Platform Design for Educational and Research Purposes"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hervás",
+      "given": "Marcos"
+    },
+    {
+      "affiliation": [],
+      "family": "Alsina-Pagès",
+      "given": "Rosa"
+    },
+    {
+      "affiliation": [],
+      "family": "Salvador",
+      "given": "Martí"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Electronics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2016-07-11T05:49:59Z",
+    "timestamp": 1468216199000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "electronics5020027"
+  ],
+  "URL": "http://dx.doi.org/10.3390/electronics5020027",
+  "ISSN": [
+    "2079-9292"
+  ]
+}

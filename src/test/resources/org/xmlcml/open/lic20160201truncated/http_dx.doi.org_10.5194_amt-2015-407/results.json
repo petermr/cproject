@@ -1,0 +1,49 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://www.atmos-meas-tech-discuss.net/amt-2015-407/amt-2015-407.pdf"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "Proof of concept for turbulence measurements with the RPAS SUMO during the BLLAST campaign"
+    ]
+  },
+  "author": {
+    "value": [
+      "Båserud, Line",
+      "Reuder, Joachim",
+      "Jonassen, Marius O.",
+      "Kral, Stephan T.",
+      "Paskyabi, Mostafa Bakhoday",
+      "Lothon, Marie"
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "doi:10.5194/amt-2015-407"
+    ]
+  },
+  "volume": {
+    "value": [
+      "0"
+    ]
+  },
+  "issue": {
+    "value": []
+  },
+  "firstpage": {
+    "value": [
+      "1"
+    ]
+  },
+  "description": {
+    "value": []
+  }
+}

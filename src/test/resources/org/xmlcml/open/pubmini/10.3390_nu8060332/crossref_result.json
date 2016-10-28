@@ -1,0 +1,135 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:29Z",
+    "timestamp": 1466264489699
+  },
+  "reference-count": 42,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/nu8060332",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "332",
+  "source": "CrossRef",
+  "title": [
+    "Protein-Pacing and Multi-Component Exercise Training Improves Physical Performance Outcomes in Exercise-Trained Women: The PRISE 3 Study"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "8",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Arciero",
+      "given": "Paul"
+    },
+    {
+      "affiliation": [],
+      "family": "Ives",
+      "given": "Stephen"
+    },
+    {
+      "affiliation": [],
+      "family": "Norton",
+      "given": "Chelsea"
+    },
+    {
+      "affiliation": [],
+      "family": "Escudero",
+      "given": "Daniela"
+    },
+    {
+      "affiliation": [],
+      "family": "Minicucci",
+      "given": "Olivia"
+    },
+    {
+      "affiliation": [],
+      "family": "O’Brien",
+      "given": "Gabe"
+    },
+    {
+      "affiliation": [],
+      "family": "Paul",
+      "given": "Maia"
+    },
+    {
+      "affiliation": [],
+      "family": "Ormsbee",
+      "given": "Michael"
+    },
+    {
+      "affiliation": [],
+      "family": "Miller",
+      "given": "Vincent"
+    },
+    {
+      "affiliation": [],
+      "family": "Sheridan",
+      "given": "Caitlin"
+    },
+    {
+      "affiliation": [],
+      "family": "He",
+      "given": "Feng"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Nutrients"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:08:45Z",
+    "timestamp": 1466258925000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "nu8060332"
+  ],
+  "URL": "http://dx.doi.org/10.3390/nu8060332",
+  "ISSN": [
+    "2072-6643"
+  ]
+}

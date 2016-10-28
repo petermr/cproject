@@ -1,0 +1,148 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:30Z",
+    "timestamp": 1454582730219
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pgen.1005631",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:38:29Z",
+    "timestamp": 1454355509000
+  },
+  "page": "e1005631",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pgen.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "GBStools: A Statistical Method for Estimating Allelic Dropout in Reduced Representation Sequencing Data"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Cooke",
+      "given": "Thomas F."
+    },
+    {
+      "affiliation": [],
+      "family": "Yee",
+      "given": "Muh-Ching"
+    },
+    {
+      "affiliation": [],
+      "family": "Muzzio",
+      "given": "Marina"
+    },
+    {
+      "affiliation": [],
+      "family": "Sockell",
+      "given": "Alexandra"
+    },
+    {
+      "affiliation": [],
+      "family": "Bell",
+      "given": "Ryan"
+    },
+    {
+      "affiliation": [],
+      "family": "Cornejo",
+      "given": "Omar E."
+    },
+    {
+      "affiliation": [],
+      "family": "Kelley",
+      "given": "Joanna L."
+    },
+    {
+      "affiliation": [],
+      "family": "Bailliet",
+      "given": "Graciela"
+    },
+    {
+      "affiliation": [],
+      "family": "Bravi",
+      "given": "Claudio M."
+    },
+    {
+      "affiliation": [],
+      "family": "Bustamante",
+      "given": "Carlos D."
+    },
+    {
+      "affiliation": [],
+      "family": "Kenny",
+      "given": "Eimear E."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Genet",
+    "PLOS Genetics"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:38:29Z",
+    "timestamp": 1454355509000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Cresko",
+      "given": "William A."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pgen.1005631",
+  "ISSN": [
+    "1553-7404"
+  ],
+  "subject": [
+    "Genetics(clinical)",
+    "Genetics",
+    "Cancer Research",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology"
+  ]
+}

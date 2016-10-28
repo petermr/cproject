@@ -1,0 +1,136 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:45Z",
+    "timestamp": 1464756045934
+  },
+  "reference-count": 47,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "name": "Italian MURST"
+    }
+  ],
+  "DOI": "10.3389/fncel.2016.00147",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:08:41Z",
+    "timestamp": 1464750521000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "E2 Regulates Epigenetic Signature on Neuroglobin Enhancer-Promoter in Neuronal Cells"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Guglielmotto",
+      "given": "Michela"
+    },
+    {
+      "affiliation": [],
+      "family": "Reineri",
+      "given": "Stefania"
+    },
+    {
+      "affiliation": [],
+      "family": "Iannello",
+      "given": "Andrea"
+    },
+    {
+      "affiliation": [],
+      "family": "Ferrero",
+      "given": "Giulio"
+    },
+    {
+      "affiliation": [],
+      "family": "Vanzan",
+      "given": "Ludovica"
+    },
+    {
+      "affiliation": [],
+      "family": "Miano",
+      "given": "Valentina"
+    },
+    {
+      "affiliation": [],
+      "family": "Ricci",
+      "given": "Laura"
+    },
+    {
+      "affiliation": [],
+      "family": "Tamagno",
+      "given": "Elena"
+    },
+    {
+      "affiliation": [],
+      "family": "De Bortoli",
+      "given": "Michele"
+    },
+    {
+      "affiliation": [],
+      "family": "Cutrupi",
+      "given": "Santina"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Cellular Neuroscience",
+    "Front. Cell. Neurosci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:08:43Z",
+    "timestamp": 1464750523000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fncel.2016.00147",
+  "ISSN": [
+    "1662-5102"
+  ],
+  "subject": [
+    "Cellular and Molecular Neuroscience"
+  ]
+}

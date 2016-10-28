@@ -1,0 +1,141 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:10Z",
+    "timestamp": 1454582710427
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pntd.0004422",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:54:21Z",
+    "timestamp": 1454352861000
+  },
+  "page": "e0004422",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pntd.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Induction of IL-10 and TGFβ from CD4+CD25+FoxP3+ T Cells Correlates with Parasite Load in Indian Kala-azar Patients Infected with Leishmania donovani"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bhattacharya",
+      "given": "Pradyot"
+    },
+    {
+      "affiliation": [],
+      "family": "Ghosh",
+      "given": "Smriti"
+    },
+    {
+      "affiliation": [],
+      "family": "Ejazi",
+      "given": "Sarfaraz Ahmad"
+    },
+    {
+      "affiliation": [],
+      "family": "Rahaman",
+      "given": "Mehebubar"
+    },
+    {
+      "affiliation": [],
+      "family": "Pandey",
+      "given": "Krishna"
+    },
+    {
+      "affiliation": [],
+      "family": "Ravi Das",
+      "given": "Vidya Nand"
+    },
+    {
+      "affiliation": [],
+      "family": "Das",
+      "given": "Pradeep"
+    },
+    {
+      "affiliation": [],
+      "family": "Goswami",
+      "given": "Rama Prosad"
+    },
+    {
+      "affiliation": [],
+      "family": "Saha",
+      "given": "Bibhuti"
+    },
+    {
+      "affiliation": [],
+      "family": "Ali",
+      "given": "Nahid"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Negl Trop Dis",
+    "PLOS Neglected Tropical Diseases"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T18:54:21Z",
+    "timestamp": 1454352861000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Bates",
+      "given": "Paul Andrew"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pntd.0004422",
+  "ISSN": [
+    "1935-2735"
+  ],
+  "subject": [
+    "Pharmacology, Toxicology and Pharmaceutics(all)",
+    "Public Health, Environmental and Occupational Health",
+    "Infectious Diseases"
+  ]
+}

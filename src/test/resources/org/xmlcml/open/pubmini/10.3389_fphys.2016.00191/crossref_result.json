@@ -1,0 +1,102 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:32Z",
+    "timestamp": 1464756032691
+  },
+  "reference-count": 186,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fphys.2016.00191",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:11:38Z",
+    "timestamp": 1464750698000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Evolving Insights on Metabolism, Autophagy, and Epigenetics in Liver Myofibroblasts"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Nwosu",
+      "given": "Zeribe C."
+    },
+    {
+      "affiliation": [],
+      "family": "Alborzinia",
+      "given": "Hamed"
+    },
+    {
+      "affiliation": [],
+      "family": "Wölfl",
+      "given": "Stefan"
+    },
+    {
+      "affiliation": [],
+      "family": "Dooley",
+      "given": "Steven"
+    },
+    {
+      "affiliation": [],
+      "family": "Liu",
+      "given": "Yan"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Physiology",
+    "Front. Physiol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:11:38Z",
+    "timestamp": 1464750698000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fphys.2016.00191",
+  "ISSN": [
+    "1664-042X"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:40:19Z",
+    "timestamp": 1467474019426
+  },
+  "reference-count": 59,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Engineering and Physical Sciences Research Council",
+      "DOI": "10.13039/501100000266"
+    }
+  ],
+  "DOI": "10.3390/ijms17060853",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "853",
+  "source": "CrossRef",
+  "title": [
+    "Identification of Protein–Excipient Interaction Hotspots Using Computational Approaches"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "17",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Barata",
+      "given": "Teresa"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Cheng"
+    },
+    {
+      "affiliation": [],
+      "family": "Dalby",
+      "given": "Paul",
+      "ORCID": "http://orcid.org/0000-0002-0980-8167"
+    },
+    {
+      "affiliation": [],
+      "family": "Brocchini",
+      "given": "Steve"
+    },
+    {
+      "affiliation": [],
+      "family": "Zloh",
+      "given": "Mire"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "IJMS",
+    "International Journal of Molecular Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:06:07Z",
+    "timestamp": 1467468367000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "ijms17060853"
+  ],
+  "URL": "http://dx.doi.org/10.3390/ijms17060853",
+  "ISSN": [
+    "1422-0067"
+  ],
+  "subject": [
+    "Physical and Theoretical Chemistry",
+    "Inorganic Chemistry",
+    "Organic Chemistry",
+    "Spectroscopy",
+    "Molecular Biology",
+    "Catalysis",
+    "Computer Science Applications"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:40:52Z",
+    "timestamp": 1464831652606
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-17-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:19:34Z",
+    "timestamp": 1464826774000
+  },
+  "page": "17-23",
+  "source": "CrossRef",
+  "title": [
+    "MATCHING AERIAL IMAGES TO 3D BUILDING MODELS BASED ON CONTEXT-BASED GEOMETRIC HASHING"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Jung",
+      "given": "J."
+    },
+    {
+      "affiliation": [],
+      "family": "Bang",
+      "given": "K."
+    },
+    {
+      "affiliation": [],
+      "family": "Sohn",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Armenakis",
+      "given": "C."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:19:34Z",
+    "timestamp": 1464826774000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-17-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:20Z",
+    "timestamp": 1464831680317
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-49-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:26:39Z",
+    "timestamp": 1464827199000
+  },
+  "page": "49-53",
+  "source": "CrossRef",
+  "title": [
+    "KERNEL MAD ALGORITHM FOR RELATIVE RADIOMETRIC NORMALIZATION"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bai",
+      "given": "Yang"
+    },
+    {
+      "affiliation": [],
+      "family": "Tang",
+      "given": "Ping"
+    },
+    {
+      "affiliation": [],
+      "family": "Hu",
+      "given": "Changmiao"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:26:39Z",
+    "timestamp": 1464827199000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-49-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

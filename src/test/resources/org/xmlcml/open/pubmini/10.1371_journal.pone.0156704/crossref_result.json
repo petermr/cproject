@@ -1,0 +1,145 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:40Z",
+    "timestamp": 1464835300575
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "2012KYB171"
+      ],
+      "name": "Zhejiang Medical and Health Science and Technology Project"
+    },
+    {
+      "award": [
+        "2013314"
+      ],
+      "name": "Major Science and Technology Programs of Xiaoshan in Hangzhou"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156704",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:18Z",
+    "timestamp": 1464829158000
+  },
+  "page": "e0156704",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Presence of the Panton-Valentine Leukocidin Genes in Methicillin-Resistant Staphylococcus aureus Is Associated with Severity and Clinical Outcome of Hospital-Acquired Pneumonia in a Single Center Study in China"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Chuanling"
+    },
+    {
+      "affiliation": [],
+      "family": "Guo",
+      "given": "Liang"
+    },
+    {
+      "affiliation": [],
+      "family": "Chu",
+      "given": "Xu"
+    },
+    {
+      "affiliation": [],
+      "family": "Shen",
+      "given": "Limeng"
+    },
+    {
+      "affiliation": [],
+      "family": "Guo",
+      "given": "Yuanyu"
+    },
+    {
+      "affiliation": [],
+      "family": "Dong",
+      "given": "Huali"
+    },
+    {
+      "affiliation": [],
+      "family": "Mao",
+      "given": "Jianfeng"
+    },
+    {
+      "affiliation": [],
+      "family": "van der Veen",
+      "given": "Stijn"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:59Z",
+    "timestamp": 1464829199000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Otto",
+      "given": "Michael"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156704",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

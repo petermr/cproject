@@ -1,0 +1,92 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T09:40:59Z",
+    "timestamp": 1464774059687
+  },
+  "reference-count": 51,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fmicb.2016.00831",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T08:06:34Z",
+    "timestamp": 1464768394000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Design and Performance Testing of a DNA Extraction Assay for Sensitive and Reliable Quantification of Acetic Acid Bacteria Directly in Red Wine Using Real Time PCR"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Longin",
+      "given": "Cédric"
+    },
+    {
+      "affiliation": [],
+      "family": "Guilloux-Benatier",
+      "given": "Michèle"
+    },
+    {
+      "affiliation": [],
+      "family": "Alexandre",
+      "given": "Hervé"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Microbiol.",
+    "Frontiers in Microbiology"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T08:06:35Z",
+    "timestamp": 1464768395000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fmicb.2016.00831",
+  "ISSN": [
+    "1664-302X"
+  ]
+}

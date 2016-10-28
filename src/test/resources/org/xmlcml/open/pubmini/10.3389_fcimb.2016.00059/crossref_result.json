@@ -1,0 +1,154 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:41:32Z",
+    "timestamp": 1464828092427
+  },
+  "reference-count": 42,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [
+        "Proc. #AUXPE-02450/09-7"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+      "DOI": "10.13039/501100002322"
+    },
+    {
+      "award": [
+        "Proc. #APQ-01313-14"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Fundação de Amparo à Pesquisa do Estado de Minas Gerais",
+      "DOI": "10.13039/501100004901"
+    },
+    {
+      "award": [
+        "Proc.# 456650/2013-0",
+        "Proc.# 311787/2013-4"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "DOI": "10.13039/501100003593"
+    }
+  ],
+  "DOI": "10.3389/fcimb.2016.00059",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:07:40Z",
+    "timestamp": 1464822460000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Toxoplasma gondii-Derived Synthetic Peptides Containing B- and T-Cell Epitopes from GRA2 Protein Are Able to Enhance Mice Survival in a Model of Experimental Toxoplasmosis"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bastos",
+      "given": "Luciana M."
+    },
+    {
+      "affiliation": [],
+      "family": "Macêdo",
+      "given": "Arlindo G."
+    },
+    {
+      "affiliation": [],
+      "family": "Silva",
+      "given": "Murilo V."
+    },
+    {
+      "affiliation": [],
+      "family": "Santiago",
+      "given": "Fernanda M."
+    },
+    {
+      "affiliation": [],
+      "family": "Ramos",
+      "given": "Eliezer L. P."
+    },
+    {
+      "affiliation": [],
+      "family": "Santos",
+      "given": "Fabiana A. A."
+    },
+    {
+      "affiliation": [],
+      "family": "Pirovani",
+      "given": "Carlos P."
+    },
+    {
+      "affiliation": [],
+      "family": "Goulart",
+      "given": "Luiz R."
+    },
+    {
+      "affiliation": [],
+      "family": "Mineo",
+      "given": "Tiago W. P."
+    },
+    {
+      "affiliation": [],
+      "family": "Mineo",
+      "given": "José R."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Front. Cell. Infect. Microbiol.",
+    "Frontiers in Cellular and Infection Microbiology"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:07:47Z",
+    "timestamp": 1464822467000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fcimb.2016.00059",
+  "ISSN": [
+    "2235-2988"
+  ]
+}

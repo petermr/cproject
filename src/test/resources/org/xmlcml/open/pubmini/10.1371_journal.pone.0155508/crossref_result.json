@@ -1,0 +1,135 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:30Z",
+    "timestamp": 1464835350285
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Australian Research Council",
+      "DOI": "10.13039/501100000923"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0155508",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:35Z",
+    "timestamp": 1464829055000
+  },
+  "page": "e0155508",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Ancient DNA Analysis Suggests Negligible Impact of the Wari Empire Expansion in Peru’s Central Coast during the Middle Horizon"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Valverde",
+      "given": "Guido",
+      "ORCID": "http://orcid.org/0000-0001-6201-6030"
+    },
+    {
+      "affiliation": [],
+      "family": "Barreto Romero",
+      "given": "María Inés"
+    },
+    {
+      "affiliation": [],
+      "family": "Flores Espinoza",
+      "given": "Isabel"
+    },
+    {
+      "affiliation": [],
+      "family": "Cooper",
+      "given": "Alan"
+    },
+    {
+      "affiliation": [],
+      "family": "Fehren-Schmitz",
+      "given": "Lars"
+    },
+    {
+      "affiliation": [],
+      "family": "Llamas",
+      "given": "Bastien"
+    },
+    {
+      "affiliation": [],
+      "family": "Haak",
+      "given": "Wolfgang"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:59:03Z",
+    "timestamp": 1464829143000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Achilli",
+      "given": "Alessandro"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0155508",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

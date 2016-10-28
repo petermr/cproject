@@ -1,0 +1,77 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:40Z",
+    "timestamp": 1464835300356
+  },
+  "reference-count": 22,
+  "publisher": "Ubiquity Press, Ltd.",
+  "issue": "1",
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.5334/jbr-btr.1090",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:31:34Z",
+    "timestamp": 1464831094000
+  },
+  "source": "CrossRef",
+  "title": [
+    "Juvenile Nasopharyngeal Angiofibroma: Magnetic Resonance Imaging Findings"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5334",
+  "volume": "100",
+  "member": "http://id.crossref.org/member/3285",
+  "container-title": [
+    "Journal of the Belgian Society of Radiology"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:31:34Z",
+    "timestamp": 1464831094000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "10.5334/jbr-btr.1090"
+  ],
+  "URL": "http://dx.doi.org/10.5334/jbr-btr.1090",
+  "ISSN": [
+    "1780-2393"
+  ]
+}

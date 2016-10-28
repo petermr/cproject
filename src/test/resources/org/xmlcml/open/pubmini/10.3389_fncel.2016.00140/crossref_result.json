@@ -1,0 +1,128 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:40:41Z",
+    "timestamp": 1464756041063
+  },
+  "reference-count": 58,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "DOI": "10.13039/501100001659"
+    }
+  ],
+  "DOI": "10.3389/fncel.2016.00140",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:06:06Z",
+    "timestamp": 1464750366000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Simultaneous Complement Response via Lectin Pathway in Retina and Optic Nerve in an Experimental Autoimmune Glaucoma Model"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Reinehr",
+      "given": "Sabrina"
+    },
+    {
+      "affiliation": [],
+      "family": "Reinhard",
+      "given": "Jacqueline"
+    },
+    {
+      "affiliation": [],
+      "family": "Gandej",
+      "given": "Marcel"
+    },
+    {
+      "affiliation": [],
+      "family": "Kuehn",
+      "given": "Sandra"
+    },
+    {
+      "affiliation": [],
+      "family": "Noristani",
+      "given": "Rozina"
+    },
+    {
+      "affiliation": [],
+      "family": "Faissner",
+      "given": "Andreas"
+    },
+    {
+      "affiliation": [],
+      "family": "Burkhard Dick",
+      "given": "H."
+    },
+    {
+      "affiliation": [],
+      "family": "Joachim",
+      "given": "Stephanie C."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Cellular Neuroscience",
+    "Front. Cell. Neurosci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:06:09Z",
+    "timestamp": 1464750369000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fncel.2016.00140",
+  "ISSN": [
+    "1662-5102"
+  ],
+  "subject": [
+    "Cellular and Molecular Neuroscience"
+  ]
+}

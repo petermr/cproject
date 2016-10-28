@@ -1,0 +1,46 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://www.hydrol-earth-syst-sci-discuss.net/hess-2015-544/hess-2015-544.pdf"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "A Bayesian Consistent Dual Ensemble Kalman Filter for State-Parameter Estimation in Subsurface Hydrology"
+    ]
+  },
+  "author": {
+    "value": [
+      "Ait-El-Fquih, B.",
+      "Gharamti, M. E.",
+      "Hoteit, I."
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "doi:10.5194/hess-2015-544"
+    ]
+  },
+  "volume": {
+    "value": [
+      "0"
+    ]
+  },
+  "issue": {
+    "value": []
+  },
+  "firstpage": {
+    "value": [
+      "1"
+    ]
+  },
+  "description": {
+    "value": []
+  }
+}

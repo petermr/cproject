@@ -1,0 +1,121 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T13:10:58Z",
+    "timestamp": 1464786658418
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "2",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/aab-59-243-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T12:12:16Z",
+    "timestamp": 1464783136000
+  },
+  "page": "243-248",
+  "source": "CrossRef",
+  "title": [
+    "Estimation of variance components of milk, fat, and protein yields of Tunisian Holstein dairy cattle using Bayesian and REML methods"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "59",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ben Zaabza",
+      "given": "Hafedh"
+    },
+    {
+      "affiliation": [],
+      "family": "Ben Gara",
+      "given": "Abderrahmen"
+    },
+    {
+      "affiliation": [],
+      "family": "Hammami",
+      "given": "Hedi"
+    },
+    {
+      "affiliation": [],
+      "family": "Amine Ferchichi",
+      "given": "Mohamed"
+    },
+    {
+      "affiliation": [],
+      "family": "Rekik",
+      "given": "Boulbaba"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Arch. Anim. Breed.",
+    "Archives Animal Breeding"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T12:12:16Z",
+    "timestamp": 1464783136000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/aab-59-243-2016",
+  "ISSN": [
+    "2363-9822"
+  ]
+}

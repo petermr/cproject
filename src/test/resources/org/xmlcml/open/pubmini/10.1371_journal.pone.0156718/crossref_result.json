@@ -1,0 +1,193 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:29Z",
+    "timestamp": 1464835349396
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "name": "Program to Disseminate Tenure Tracking System"
+    },
+    {
+      "award": [],
+      "name": "Platform for Drug Discovery, Informatics, and Structural Life Science from the Ministry of Education, Culture, Sports, Science and Technology, Japan"
+    },
+    {
+      "award": [
+        "25117719"
+      ],
+      "name": "a Grant-in-Aid for Scientific Research on Innovative Areas"
+    },
+    {
+      "award": [
+        "26640130",
+        "25290077",
+        "15K18468",
+        "15J03774"
+      ],
+      "name": "JSPS KAKENHI"
+    },
+    {
+      "award": [
+        "26640130",
+        "25290077",
+        "15K18468",
+        "15J03774"
+      ],
+      "name": "JSPS KAKENHI"
+    },
+    {
+      "award": [
+        "26640130",
+        "25290077",
+        "15K18468",
+        "15J03774"
+      ],
+      "name": "JSPS KAKENHI"
+    },
+    {
+      "award": [
+        "26640130",
+        "25290077",
+        "15K18468",
+        "15J03774"
+      ],
+      "name": "JSPS KAKENHI"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156718",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:01Z",
+    "timestamp": 1464829021000
+  },
+  "page": "e0156718",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Establishment of a Wheat Cell-Free Synthesized Protein Array Containing 250 Human and Mouse E3 Ubiquitin Ligases to Identify Novel Interaction between E3 Ligases and Substrate Proteins"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Takahashi",
+      "given": "Hirotaka"
+    },
+    {
+      "affiliation": [],
+      "family": "Uematsu",
+      "given": "Atsushi"
+    },
+    {
+      "affiliation": [],
+      "family": "Yamanaka",
+      "given": "Satoshi"
+    },
+    {
+      "affiliation": [],
+      "family": "Imamura",
+      "given": "Mei"
+    },
+    {
+      "affiliation": [],
+      "family": "Nakajima",
+      "given": "Tatsuro"
+    },
+    {
+      "affiliation": [],
+      "family": "Doi",
+      "given": "Kousuke"
+    },
+    {
+      "affiliation": [],
+      "family": "Yasuoka",
+      "given": "Saki"
+    },
+    {
+      "affiliation": [],
+      "family": "Takahashi",
+      "given": "Chikako"
+    },
+    {
+      "affiliation": [],
+      "family": "Takeda",
+      "given": "Hiroyuki"
+    },
+    {
+      "affiliation": [],
+      "family": "Sawasaki",
+      "given": "Tatsuya"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:20Z",
+    "timestamp": 1464829040000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Yan",
+      "given": "Chunhong"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156718",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

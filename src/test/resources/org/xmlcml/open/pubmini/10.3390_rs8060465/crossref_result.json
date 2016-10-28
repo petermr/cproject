@@ -1,0 +1,111 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:03Z",
+    "timestamp": 1466264463288
+  },
+  "reference-count": 30,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/rs8060465",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "465",
+  "source": "CrossRef",
+  "title": [
+    "Assessing the Accuracy of High Resolution Digital Surface Models Computed by PhotoScan® and MicMac® in Sub-Optimal Survey Conditions"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "8",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Jaud",
+      "given": "Marion",
+      "ORCID": "http://orcid.org/0000-0002-7629-9710"
+    },
+    {
+      "affiliation": [],
+      "family": "Passot",
+      "given": "Sophie"
+    },
+    {
+      "affiliation": [],
+      "family": "Le Bivic",
+      "given": "Réjanne"
+    },
+    {
+      "affiliation": [],
+      "family": "Delacourt",
+      "given": "Christophe"
+    },
+    {
+      "affiliation": [],
+      "family": "Grandjean",
+      "given": "Philippe"
+    },
+    {
+      "affiliation": [],
+      "family": "Le Dantec",
+      "given": "Nicolas"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Remote Sensing"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:03:34Z",
+    "timestamp": 1466258614000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "rs8060465"
+  ],
+  "URL": "http://dx.doi.org/10.3390/rs8060465",
+  "ISSN": [
+    "2072-4292"
+  ]
+}

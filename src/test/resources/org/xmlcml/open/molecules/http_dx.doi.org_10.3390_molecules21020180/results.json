@@ -1,0 +1,85 @@
+{
+  "publisher": {
+    "value": [
+      "Multidisciplinary Digital Publishing Institute"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Molecules"
+    ]
+  },
+  "title": {
+    "value": [
+      "Recent Development of Plasmonic Resonance-Based Photocatalysis and Photovoltaics for Solar Utilization"
+    ]
+  },
+  "authors": {
+    "value": []
+  },
+  "date": {
+    "value": [
+      "2016-02-02"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.3390/molecules21020180"
+    ]
+  },
+  "volume": {
+    "value": [
+      "21"
+    ]
+  },
+  "issue": {
+    "value": [
+      "2"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "180"
+    ]
+  },
+  "description": {
+    "value": [
+      "Increasing utilization of solar energy is an effective strategy to tackle our energy and energy-related environmental issues. Both solar photocatalysis (PC) and solar photovoltaics (PV) have high potential to develop technologies of many practical applications. Substantial research efforts are devoted to enhancing visible light activation of the photoelectrocatalytic reactions by various modifications of nanostructured semiconductors. This review paper emphasizes the recent advancement in material modifications by means of the promising localized surface plasmonic resonance (LSPR) mechanisms. The principles of LSPR and its effects on the photonic efficiency of PV and PC are discussed here. Many research findings reveal the promise of Au and Ag plasmonic nanoparticles (NPs). Continual investigation for increasing the stability of the plasmonic NPs will be fruitful."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Increasing utilization of solar energy is an effective strategy to tackle our energy and energy-related environmental issues. Both solar photocatalysis (PC) and solar photovoltaics (PV) have high potential to develop technologies of many practical applications. Substantial research efforts are devoted to enhancing visible light activation of the photoelectrocatalytic reactions by various modifications of nanostructured semiconductors. This review paper emphasizes the recent advancement in material modifications by means of the promising localized surface plasmonic resonance (LSPR) mechanisms. The principles of LSPR and its effects on the photonic efficiency of PV and PC are discussed here. Many research findings reveal the promise of Au and Ag plasmonic nanoparticles (NPs). Continual investigation for increasing the stability of the plasmonic NPs will be fruitful."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/180/htm"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/180/pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "http://www.mdpi.com/1420-3049/21/2/180/xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": []
+  },
+  "copyright": {
+    "value": []
+  }
+}

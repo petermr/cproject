@@ -1,0 +1,101 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        4
+      ]
+    ],
+    "date-time": "2016-02-04T10:45:33Z",
+    "timestamp": 1454582733279
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "2",
+  "DOI": "10.1371/journal.pntd.0004413",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:39:17Z",
+    "timestamp": 1454355557000
+  },
+  "page": "e0004413",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pntd.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Feeding Behavior Modulates Biofilm-Mediated Transmission of Yersinia pestis by the Cat Flea, Ctenocephalides felis"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bland",
+      "given": "David M."
+    },
+    {
+      "affiliation": [],
+      "family": "Hinnebusch",
+      "given": "B. Joseph"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLoS Negl Trop Dis",
+    "PLOS Neglected Tropical Diseases"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2016-02-01T19:39:17Z",
+    "timestamp": 1454355557000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Vinetz",
+      "given": "Joseph M."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pntd.0004413",
+  "ISSN": [
+    "1935-2735"
+  ],
+  "subject": [
+    "Pharmacology, Toxicology and Pharmaceutics(all)",
+    "Public Health, Environmental and Occupational Health",
+    "Infectious Diseases"
+  ]
+}

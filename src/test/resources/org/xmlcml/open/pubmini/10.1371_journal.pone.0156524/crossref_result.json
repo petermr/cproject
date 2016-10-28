@@ -1,0 +1,146 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:42:06Z",
+    "timestamp": 1464835326672
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "DOI": "10.1371/journal.pone.0156524",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:06Z",
+    "timestamp": 1464829026000
+  },
+  "page": "e0156524",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "GATA3 Expression Is a Poor Prognostic Factor in Soft Tissue Sarcomas"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Haraguchi",
+      "given": "Toshiaki"
+    },
+    {
+      "affiliation": [],
+      "family": "Miyoshi",
+      "given": "Hiroaki"
+    },
+    {
+      "affiliation": [],
+      "family": "Hiraoka",
+      "given": "Koji"
+    },
+    {
+      "affiliation": [],
+      "family": "Yokoyama",
+      "given": "Shintaro"
+    },
+    {
+      "affiliation": [],
+      "family": "Ishibashi",
+      "given": "Yukinao"
+    },
+    {
+      "affiliation": [],
+      "family": "Hashiguchi",
+      "given": "Toshihiro"
+    },
+    {
+      "affiliation": [],
+      "family": "Matsuda",
+      "given": "Koutaro"
+    },
+    {
+      "affiliation": [],
+      "family": "Hamada",
+      "given": "Tetsuya"
+    },
+    {
+      "affiliation": [],
+      "family": "Okawa",
+      "given": "Takahiro"
+    },
+    {
+      "affiliation": [],
+      "family": "Shiba",
+      "given": "Naoto"
+    },
+    {
+      "affiliation": [],
+      "family": "Ohshima",
+      "given": "Koichi"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:29Z",
+    "timestamp": 1464829049000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Aoki",
+      "given": "Ichiro"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156524",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

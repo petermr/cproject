@@ -1,0 +1,123 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:22Z",
+    "timestamp": 1464831682260
+  },
+  "reference-count": 0,
+  "publisher": "UiT The Arctic University of Norway",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.7557/3.3786",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:50:59Z",
+    "timestamp": 1464828659000
+  },
+  "source": "CrossRef",
+  "title": [
+    "Inter-lab comparison of precision and recommended methods for age estimation of Florida manatee (Trichechus manatus latirostris) using growth layer groups in earbones"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.7557",
+  "volume": "10",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Brill",
+      "given": "Katherine"
+    },
+    {
+      "affiliation": [],
+      "family": "Marmontel",
+      "given": "Miriam"
+    },
+    {
+      "affiliation": [],
+      "family": "Bolen-Richardson",
+      "given": "Meghan"
+    },
+    {
+      "affiliation": [],
+      "family": "Stewart",
+      "given": "Robert EA"
+    }
+  ],
+  "member": "http://id.crossref.org/member/4421",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "NAMMCOSP",
+    "NAMMCO Scientific Publications"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://www.ub.uit.no/baser/septentrio/index.php/NAMMCOSP/article/viewFile/3786/3677"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:51:12Z",
+    "timestamp": 1464828672000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.7557/3.3786",
+  "ISSN": [
+    "2309-2491",
+    "1560-2206"
+  ]
+}

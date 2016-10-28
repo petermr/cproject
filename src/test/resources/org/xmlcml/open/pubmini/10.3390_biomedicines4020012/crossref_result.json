@@ -1,0 +1,96 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:42:28Z",
+    "timestamp": 1466264548315
+  },
+  "reference-count": 64,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/biomedicines4020012",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "12",
+  "source": "CrossRef",
+  "title": [
+    "Plant Toxin-Based Immunotoxins for Cancer Therapy: A Short Overview"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Polito",
+      "given": "Letizia",
+      "ORCID": "http://orcid.org/0000-0001-8051-4981"
+    },
+    {
+      "affiliation": [],
+      "family": "Djemil",
+      "given": "Alice"
+    },
+    {
+      "affiliation": [],
+      "family": "Bortolotti",
+      "given": "Massimo"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Biomedicines"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:04:57Z",
+    "timestamp": 1466258697000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "biomedicines4020012"
+  ],
+  "URL": "http://dx.doi.org/10.3390/biomedicines4020012",
+  "ISSN": [
+    "2227-9059"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:09Z",
+    "timestamp": 1464831669074
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-63-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:30:00Z",
+    "timestamp": 1464827400000
+  },
+  "page": "63-68",
+  "source": "CrossRef",
+  "title": [
+    "SATELLITE STEREO BASED DIGITAL SURFACE MODEL GENERATION USING SEMI GLOBAL MATCHING IN OBJECT AND IMAGE SPACE"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Ghuffar",
+      "given": "S."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:30:00Z",
+    "timestamp": 1464827400000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-63-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

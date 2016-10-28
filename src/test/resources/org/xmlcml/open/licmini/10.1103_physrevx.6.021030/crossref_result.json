@@ -1,0 +1,153 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T03:40:42Z",
+    "timestamp": 1464838842842
+  },
+  "reference-count": 35,
+  "publisher": "American Physical Society (APS)",
+  "issue": "2",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Horizon 2020",
+      "DOI": "10.13039/501100007601"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "European Research Council",
+      "DOI": "10.13039/501100000781"
+    }
+  ],
+  "DOI": "10.1103/physrevx.6.021030",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:06:17Z",
+    "timestamp": 1464833177000
+  },
+  "source": "CrossRef",
+  "title": [
+    "Direct Probing of the Mott Crossover in theSU(N)Fermi-Hubbard Model"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1103",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hofrichter",
+      "given": "Christian"
+    },
+    {
+      "affiliation": [],
+      "family": "Riegger",
+      "given": "Luis"
+    },
+    {
+      "affiliation": [],
+      "family": "Scazza",
+      "given": "Francesco"
+    },
+    {
+      "affiliation": [],
+      "family": "Höfer",
+      "given": "Moritz"
+    },
+    {
+      "affiliation": [],
+      "family": "Fernandes",
+      "given": "Diogo Rio"
+    },
+    {
+      "affiliation": [],
+      "family": "Bloch",
+      "given": "Immanuel"
+    },
+    {
+      "affiliation": [],
+      "family": "Fölling",
+      "given": "Simon"
+    }
+  ],
+  "member": "http://id.crossref.org/member/16",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Phys. Rev. X",
+    "Physical Review X"
+  ],
+  "link": [
+    {
+      "intended-application": "syndication",
+      "content-version": "vor",
+      "content-type": "unspecified",
+      "URL": "http://link.aps.org/article/10.1103/PhysRevX.6.021030"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:10:44Z",
+    "timestamp": 1464833444000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1103/physrevx.6.021030",
+  "ISSN": [
+    "2160-3308"
+  ],
+  "article-number": "021030"
+}

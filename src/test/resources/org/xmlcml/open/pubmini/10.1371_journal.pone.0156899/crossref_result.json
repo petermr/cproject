@@ -1,0 +1,165 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:09Z",
+    "timestamp": 1464831669492
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "DFG, grant number AD 125/5-1"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "DOI": "10.13039/501100001659"
+    },
+    {
+      "award": [],
+      "name": "City of Hamburg"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156899",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:52:31Z",
+    "timestamp": 1464828751000
+  },
+  "page": "e0156899",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Magnetic Particle / Magnetic Resonance Imaging: In-Vitro MPI-Guided Real Time Catheter Tracking and 4D Angioplasty Using a Road Map and Blood Pool Tracer Approach"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Salamon",
+      "given": "Johannes"
+    },
+    {
+      "affiliation": [],
+      "family": "Hofmann",
+      "given": "Martin"
+    },
+    {
+      "affiliation": [],
+      "family": "Jung",
+      "given": "Caroline"
+    },
+    {
+      "affiliation": [],
+      "family": "Kaul",
+      "given": "Michael Gerhard"
+    },
+    {
+      "affiliation": [],
+      "family": "Werner",
+      "given": "Franziska"
+    },
+    {
+      "affiliation": [],
+      "family": "Them",
+      "given": "Kolja"
+    },
+    {
+      "affiliation": [],
+      "family": "Reimer",
+      "given": "Rudolph"
+    },
+    {
+      "affiliation": [],
+      "family": "Nielsen",
+      "given": "Peter"
+    },
+    {
+      "affiliation": [],
+      "family": "vom Scheidt",
+      "given": "Annika"
+    },
+    {
+      "affiliation": [],
+      "family": "Adam",
+      "given": "Gerhard"
+    },
+    {
+      "affiliation": [],
+      "family": "Knopp",
+      "given": "Tobias"
+    },
+    {
+      "affiliation": [],
+      "family": "Ittrich",
+      "given": "Harald"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:52:59Z",
+    "timestamp": 1464828779000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Yamamoto",
+      "given": "Masaya"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156899",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

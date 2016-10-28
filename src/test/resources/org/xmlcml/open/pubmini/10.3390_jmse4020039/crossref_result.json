@@ -1,0 +1,106 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:40:20Z",
+    "timestamp": 1467474020606
+  },
+  "reference-count": 56,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/jmse4020039",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "39",
+  "source": "CrossRef",
+  "title": [
+    "Gene Transcript Profiling in Sea Otters Post-Exxon Valdez Oil Spill: A Tool for Marine Ecosystem Health Assessment"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bowen",
+      "given": "Lizabeth"
+    },
+    {
+      "affiliation": [],
+      "family": "Miles",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Ballachey",
+      "given": "Brenda"
+    },
+    {
+      "affiliation": [],
+      "family": "Waters",
+      "given": "Shannon"
+    },
+    {
+      "affiliation": [],
+      "family": "Bodkin",
+      "given": "James"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "JMSE",
+    "Journal of Marine Science and Engineering"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:16:51Z",
+    "timestamp": 1467469011000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "jmse4020039"
+  ],
+  "URL": "http://dx.doi.org/10.3390/jmse4020039",
+  "ISSN": [
+    "2077-1312"
+  ]
+}

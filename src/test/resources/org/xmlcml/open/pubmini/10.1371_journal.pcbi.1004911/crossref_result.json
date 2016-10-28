@@ -1,0 +1,111 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:56Z",
+    "timestamp": 1464835316688
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "name": "U.S. Army Medical Research and Materiel Command (MRMC)"
+    }
+  ],
+  "DOI": "10.1371/journal.pcbi.1004911",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:39Z",
+    "timestamp": 1464828879000
+  },
+  "page": "e1004911",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Validated Predictions of Metabolic Energy Consumption for Submaximal Effort Movement"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Tsianos",
+      "given": "George A."
+    },
+    {
+      "affiliation": [],
+      "family": "MacFadden",
+      "given": "Lisa N."
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS Computational Biology",
+    "PLoS Comput Biol"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:38Z",
+    "timestamp": 1464828938000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "McCulloch",
+      "given": "Andrew D."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pcbi.1004911",
+  "ISSN": [
+    "1553-7358"
+  ],
+  "subject": [
+    "Ecology",
+    "Modelling and Simulation",
+    "Computational Theory and Mathematics",
+    "Genetics",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Molecular Biology",
+    "Cellular and Molecular Neuroscience"
+  ]
+}

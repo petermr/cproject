@@ -1,0 +1,139 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:42Z",
+    "timestamp": 1464835302895
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Herzfelder'sche Familienstiftung",
+      "DOI": "10.13039/501100003494"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156693",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:50Z",
+    "timestamp": 1464828950000
+  },
+  "page": "e0156693",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Cannabinoid Receptors Are Overexpressed in CLL but of Limited Potential for Therapeutic Exploitation"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Freund",
+      "given": "Patricia"
+    },
+    {
+      "affiliation": [],
+      "family": "Porpaczy",
+      "given": "Edit A."
+    },
+    {
+      "affiliation": [],
+      "family": "Le",
+      "given": "Trang"
+    },
+    {
+      "affiliation": [],
+      "family": "Gruber",
+      "given": "Michaela"
+    },
+    {
+      "affiliation": [],
+      "family": "Pausz",
+      "given": "Clemens"
+    },
+    {
+      "affiliation": [],
+      "family": "Staber",
+      "given": "Philipp"
+    },
+    {
+      "affiliation": [],
+      "family": "Jäger",
+      "given": "Ulrich"
+    },
+    {
+      "affiliation": [],
+      "family": "Vanura",
+      "given": "Katrina"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:55:57Z",
+    "timestamp": 1464828957000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Velasco",
+      "given": "Guillermo"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156693",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

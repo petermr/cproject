@@ -1,0 +1,239 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:43Z",
+    "timestamp": 1464835303812
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Medical Research Council",
+      "DOI": "10.13039/501100000265"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Alzheimer’s Research UK",
+      "DOI": "10.13039/501100002283"
+    },
+    {
+      "award": [
+        "WT089698"
+      ],
+      "name": "Wellcome Trust/MRC Joint Call in Neurodegeneration Award"
+    },
+    {
+      "award": [],
+      "name": "National Institute for Health Research Biomedical Research Unit in Dementia at University College London Hospitals"
+    },
+    {
+      "award": [],
+      "name": "the Big Lottery"
+    },
+    {
+      "award": [],
+      "name": "Alzheimer's Research UK"
+    },
+    {
+      "award": [
+        "ZO1 AG000950-10"
+      ],
+      "name": "Intramural Research Programs of the National Institute on Aging and the National Institute of Neurological Disease and Stroke"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0150079",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:09Z",
+    "timestamp": 1464829029000
+  },
+  "page": "e0150079",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Influence of Coding Variability in APP-Aβ Metabolism Genes in Sporadic Alzheimer’s Disease"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Sassi",
+      "given": "Celeste"
+    },
+    {
+      "affiliation": [],
+      "family": "Ridge",
+      "given": "Perry G."
+    },
+    {
+      "affiliation": [],
+      "family": "Nalls",
+      "given": "Michael A."
+    },
+    {
+      "affiliation": [],
+      "family": "Gibbs",
+      "given": "Raphael"
+    },
+    {
+      "affiliation": [],
+      "family": "Ding",
+      "given": "Jinhui"
+    },
+    {
+      "affiliation": [],
+      "family": "Lupton",
+      "given": "Michelle K."
+    },
+    {
+      "affiliation": [],
+      "family": "Troakes",
+      "given": "Claire"
+    },
+    {
+      "affiliation": [],
+      "family": "Lunnon",
+      "given": "Katie"
+    },
+    {
+      "affiliation": [],
+      "family": "Al-Sarraj",
+      "given": "Safa"
+    },
+    {
+      "affiliation": [],
+      "family": "Brown",
+      "given": "Kristelle S."
+    },
+    {
+      "affiliation": [],
+      "family": "Medway",
+      "given": "Christopher"
+    },
+    {
+      "affiliation": [],
+      "family": "Lord",
+      "given": "Jenny"
+    },
+    {
+      "affiliation": [],
+      "family": "Turton",
+      "given": "James"
+    },
+    {
+      "affiliation": [],
+      "family": "Morgan",
+      "given": "Kevin"
+    },
+    {
+      "affiliation": [],
+      "family": "Powell",
+      "given": "John F."
+    },
+    {
+      "affiliation": [],
+      "family": "Kauwe",
+      "given": "John S."
+    },
+    {
+      "affiliation": [],
+      "family": "Cruchaga",
+      "given": "Carlos"
+    },
+    {
+      "affiliation": [],
+      "family": "Bras",
+      "given": "Jose"
+    },
+    {
+      "affiliation": [],
+      "family": "Goate",
+      "given": "Alison M."
+    },
+    {
+      "affiliation": [],
+      "family": "Singleton",
+      "given": "Andrew B."
+    },
+    {
+      "affiliation": [],
+      "family": "Guerreiro",
+      "given": "Rita"
+    },
+    {
+      "affiliation": [],
+      "family": "Hardy",
+      "given": "John"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:58:04Z",
+    "timestamp": 1464829084000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Iijima",
+      "given": "Koichi M"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0150079",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        15
+      ]
+    ],
+    "date-time": "2016-07-15T14:40:51Z",
+    "timestamp": 1468593651520
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/soil-2016-35",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:20:43Z",
+    "timestamp": 1464823243000
+  },
+  "page": "1-31",
+  "source": "CrossRef",
+  "title": [
+    "Can worms be used to produce amendments with reduced CO<sub>2</sub> emissions during co-composting with clay and biochar and after their addition to soil?"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Barthod",
+      "given": "Justine"
+    },
+    {
+      "affiliation": [],
+      "family": "Rumpel",
+      "given": "Cornélia"
+    },
+    {
+      "affiliation": [],
+      "family": "Paradelo",
+      "given": "Remigio"
+    },
+    {
+      "affiliation": [],
+      "family": "Dignac",
+      "given": "Marie-France"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "SOIL Discussions",
+    "SOIL Discuss."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        15
+      ]
+    ],
+    "date-time": "2016-07-15T13:19:00Z",
+    "timestamp": 1468588740000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/soil-2016-35",
+  "ISSN": [
+    "2199-3998"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        9
+      ]
+    ],
+    "date-time": "2016-07-09T15:41:22Z",
+    "timestamp": 1468078882768
+  },
+  "reference-count": 16,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/ijgi5060079",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "79",
+  "source": "CrossRef",
+  "title": [
+    "Evaluation of Different Irrigation Methods for an Apple Orchard Using an Aerial Imaging System"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Bulanon",
+      "given": "Duke"
+    },
+    {
+      "affiliation": [],
+      "family": "Lonai",
+      "given": "John"
+    },
+    {
+      "affiliation": [],
+      "family": "Skovgard",
+      "given": "Heather"
+    },
+    {
+      "affiliation": [],
+      "family": "Fallahi",
+      "given": "Esmaeil"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS International Journal of Geo-Information",
+    "IJGI"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        9
+      ]
+    ],
+    "date-time": "2016-07-09T14:04:04Z",
+    "timestamp": 1468073044000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "ijgi5060079"
+  ],
+  "URL": "http://dx.doi.org/10.3390/ijgi5060079",
+  "ISSN": [
+    "2220-9964"
+  ]
+}

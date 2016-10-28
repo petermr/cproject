@@ -1,0 +1,100 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:29Z",
+    "timestamp": 1464756089000
+  },
+  "reference-count": 63,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Danmarks Grundforskningsfond",
+      "DOI": "10.13039/501100001732"
+    }
+  ],
+  "DOI": "10.3389/feart.2016.00061",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:04:28Z",
+    "timestamp": 1464750268000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "High Sulfur Isotope Fractionation Associated with Anaerobic Oxidation of Methane in a Low-Sulfate, Iron-Rich Environment"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Weber",
+      "given": "Hannah S."
+    },
+    {
+      "affiliation": [],
+      "family": "Thamdrup",
+      "given": "Bo"
+    },
+    {
+      "affiliation": [],
+      "family": "Habicht",
+      "given": "Kirsten S."
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Earth Science",
+    "Front. Earth Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:04:30Z",
+    "timestamp": 1464750270000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/feart.2016.00061",
+  "ISSN": [
+    "2296-6463"
+  ]
+}

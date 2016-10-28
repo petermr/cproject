@@ -1,0 +1,92 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:30Z",
+    "timestamp": 1464756090574
+  },
+  "reference-count": 74,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fpsyg.2016.00831",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:19:35Z",
+    "timestamp": 1464751175000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Dispositional Employability and Online Training Purchase. Evidence from Employees' Behavior in Spain"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Torrent-Sellens",
+      "given": "Joan"
+    },
+    {
+      "affiliation": [],
+      "family": "Ficapal-Cusí",
+      "given": "Pilar"
+    },
+    {
+      "affiliation": [],
+      "family": "Boada-Grau",
+      "given": "Joan"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Psychology",
+    "Front. Psychol."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:19:35Z",
+    "timestamp": 1464751175000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpsyg.2016.00831",
+  "ISSN": [
+    "1664-1078"
+  ]
+}

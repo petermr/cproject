@@ -1,0 +1,1988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">molecules</journal-id>
+      <journal-title>Molecules</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Molecules</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Molecules</abbrev-journal-title>
+      <issn pub-type="epub">1420-3049</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/molecules21020181</article-id>
+      <article-id pub-id-type="publisher-id">molecules-21-00181</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Thiourea-Modified TiO<sub>2</sub> Nanorods with Enhanced Photocatalytic Activity</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Xiaofeng</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fang</surname>
+            <given-names>Shun</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zheng</surname>
+            <given-names>Yang</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sun</surname>
+            <given-names>Jie</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lv</surname>
+            <given-names>Kangle</given-names>
+          </name>
+          <xref rid="c1-molecules-21-00181" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Jimmy C.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Ho</surname>
+            <given-names>Wing-Kei</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-molecules-21-00181">Key Laboratory of Catalysis and Materials Science of the State Ethnic Affairs Commission &amp; Ministry of Education, South-Central University for Nationalities, Wuhan 430074, China; <email>xiaofengwu0501@163.com</email> (X.W.); <email>fangshun888@gmail.com</email> (S.F.); <email>yangzheng87@hotmail.com</email> (Y.Z.); <email>jetsun@mail.scuec.edu.cn</email> (J.S.)</aff>
+      <author-notes>
+        <corresp id="c1-molecules-21-00181"><label>*</label>Correspondence: <email>lvkangle@mail.scuec.edu.cn</email>; Tel.: +86-27-6784-1369; Fax: +86-27-6784-2752</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>02</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>02</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>2</issue>
+      <elocation-id>181</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>12</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>01</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Semiconductor TiO<sub>2</sub> photocatalysis has attracted much attention due to its potential application in solving the problems of environmental pollution. In this paper, thiourea (CH<sub>4</sub>N<sub>2</sub>S) modified anatase TiO<sub>2</sub> nanorods were fabricated by calcination of the mixture of TiO<sub>2</sub> nanorods and thiourea at 600 &#xB0;C for 2 h. It was found that only N element was doped into the lattice of TiO<sub>2</sub> nanorods. With increasing the weight ratio of thiourea to TiO<sub>2</sub> (<italic>R</italic>) from 0 to 8, the light-harvesting ability of the photocatalyst steady increases. Both the crystallization and photocatalytic activity of TiO<sub>2</sub> nanorods increase first and then decrease with increase in <italic>R</italic> value, and R2 sample showed the highest crystallization and photocatalytic activity in degradation of Brilliant Red X3B (X3B) and Rhodamine B (RhB) dyes under visible light irradiation (&#x3BB; &gt; 420 nm). The increased visible-light photocatalytic activity of the prepared N-doped TiO<sub>2</sub> nanorods is due to the synergistic effects of the enhanced crystallization, improved light-harvesting ability and reduced recombination rate of photo-generated electron-hole pairs. Note that the enhanced visible photocatalytic activity of N-doped nanorods is not based on the scarification of their UV photocatalytic activity.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>photocatalytic degradation</kwd>
+        <kwd>TiO<sub>2</sub></kwd>
+        <kwd>nanorods</kwd>
+        <kwd>dope</kwd>
+        <kwd>hydroxyl radicals</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-molecules-21-00181" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>In recent years, intensive studies have been reported to on the preparation of TiO<sub>2</sub> due to its potential application in environmental remediation [<xref ref-type="bibr" rid="B1-molecules-21-00181">1</xref>,<xref ref-type="bibr" rid="B2-molecules-21-00181">2</xref>,<xref ref-type="bibr" rid="B3-molecules-21-00181">3</xref>,<xref ref-type="bibr" rid="B4-molecules-21-00181">4</xref>,<xref ref-type="bibr" rid="B5-molecules-21-00181">5</xref>]. One of the most significant scientific and commercial advances to date has been the development of visible-light active TiO<sub>2</sub> photocatalytic materials [<xref ref-type="bibr" rid="B6-molecules-21-00181">6</xref>]. It is generally recognized that the band gap excitation of TiO<sub>2</sub> results in the generation of conduction band electrons (e<sub>cb</sub><sup>&#x2212;</sup>) and valence band holes (h<sub>vb</sub><sup>+</sup>), which is followed by generation of various reactive oxidative species (ROSs) such as hydroxyl radicals (&#x2022;OH) and superoxide radicals (O<sub>2</sub><sup>&#x2212;</sup>) [<xref ref-type="bibr" rid="B7-molecules-21-00181">7</xref>]. Using O<sub>2</sub> as an oxidant, a variety of organic compounds can be degraded into CO<sub>2</sub> and the corresponding inorganic ions due to the attack of the ROSs in solution. However, the efficiency achieved so far with the TiO<sub>2</sub>-based system is still not high enough to enable practical application due to the quick recombination of photo-genreated e<sub>cb</sub><sup>&#x2212;</sup> and h<sub>vb</sub><sup>+</sup>, without initiating the chemical reactions with surface adsorbates [<xref ref-type="bibr" rid="B8-molecules-21-00181">8</xref>].</p>
+      <p>Recently, great effort has been dedicated to fabrication of 1 dimensional (1D) TiO<sub>2</sub> nanomaterials such as nanotubes [<xref ref-type="bibr" rid="B9-molecules-21-00181">9</xref>,<xref ref-type="bibr" rid="B10-molecules-21-00181">10</xref>,<xref ref-type="bibr" rid="B11-molecules-21-00181">11</xref>], nanorods [<xref ref-type="bibr" rid="B12-molecules-21-00181">12</xref>,<xref ref-type="bibr" rid="B13-molecules-21-00181">13</xref>,<xref ref-type="bibr" rid="B14-molecules-21-00181">14</xref>,<xref ref-type="bibr" rid="B15-molecules-21-00181">15</xref>] nanowires [<xref ref-type="bibr" rid="B16-molecules-21-00181">16</xref>] and nanofibers [<xref ref-type="bibr" rid="B3-molecules-21-00181">3</xref>,<xref ref-type="bibr" rid="B17-molecules-21-00181">17</xref>,<xref ref-type="bibr" rid="B18-molecules-21-00181">18</xref>,<xref ref-type="bibr" rid="B19-molecules-21-00181">19</xref>,<xref ref-type="bibr" rid="B20-molecules-21-00181">20</xref>] due to their unique structures. It is believed that 1D structure can facilitate the quick separation of photo-generated electrons and holes along opposite direction, retarding the recombination of electron-hole pairs, and therefore enhancing the photocatalytic activity of TiO<sub>2</sub> nanomaterials. They, however, can still only be activated by UV light (band gap 3.2 eV). As a result, visible-light driven 1D TiO<sub>2</sub> nanomaterials are highly desired.</p>
+      <p>Doping TiO<sub>2</sub> with metal or nonmetal atoms is an effective way to extend the absorption of TiO<sub>2</sub> from UV to the visible region [<xref ref-type="bibr" rid="B6-molecules-21-00181">6</xref>,<xref ref-type="bibr" rid="B11-molecules-21-00181">11</xref>,<xref ref-type="bibr" rid="B21-molecules-21-00181">21</xref>,<xref ref-type="bibr" rid="B22-molecules-21-00181">22</xref>,<xref ref-type="bibr" rid="B23-molecules-21-00181">23</xref>,<xref ref-type="bibr" rid="B24-molecules-21-00181">24</xref>,<xref ref-type="bibr" rid="B25-molecules-21-00181">25</xref>,<xref ref-type="bibr" rid="B26-molecules-21-00181">26</xref>,<xref ref-type="bibr" rid="B27-molecules-21-00181">27</xref>]. For example, Gang <italic>et al.</italic> [<xref ref-type="bibr" rid="B27-molecules-21-00181">27</xref>] reported the preparation of the visible light responsive N-doped anatase TiO<sub>2</sub> sheets with dominant {001} facets by hydrothermal treatment of TiN-HF mixed solution. The study of Manthina <italic>et al.</italic> [<xref ref-type="bibr" rid="B28-molecules-21-00181">28</xref>] showed that the band edge positions of the TiO<sub>2</sub> and ZnO can been shifted by doping with Zr<sup>4+</sup> and Co<sup>2+</sup>, respectively. Doping moved the conduction band minimum of ZnO to a more positive potential than that of the TiO<sub>2</sub>, enabling electron transfer from dye-sensitized TiO<sub>2</sub> nanoparticles to the underlying ZnO nanorods for efficient charge collection.</p>
+      <p>Recently, we have successfully fabricated Bi, C and N co-doped TiO<sub>2</sub> nanoparticles by a sol-gel method. Although the prepared TiO<sub>2</sub> nanoparticles are visible-light responsive, they showed poor crystallization [<xref ref-type="bibr" rid="B29-molecules-21-00181">29</xref>]. Our group also fabricated C, N and S codoped TiO<sub>2</sub> hollow microspheres (TiO<sub>2</sub>-HMSs) by calcination of the mixture of TiO<sub>2</sub>-HMSs and cysteine at 300 &#xB0;C for 2 h [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>]. According to the study of Zhang <italic>et al.</italic> [<xref ref-type="bibr" rid="B31-molecules-21-00181">31</xref>], the photoreactivity of visible-light responsive C, N and S co-dopd TiO<sub>2</sub> nanoparticles, prepared by calcination the mixture of TiO<sub>2</sub> and thiourea at 300 &#xB0;C, which exhibited stronger photo-absorption in the visible light region and higher dopant content, indicating its potential for higher visible-light photocatalytic activity. However, according to the report of Zhu <italic>et al.</italic> [<xref ref-type="bibr" rid="B32-molecules-21-00181">32</xref>], surface hybridization of TiO<sub>2</sub> particles with graphite-like carbon may be formed during calcination of TiO<sub>2</sub> in the presence of organic materials, where high migration efficiency of photoinduced electrons at the graphite-like carbon/TiO<sub>2</sub> interface is response for the enhanced photocatalytic activity.</p>
+      <p>In this paper, we report the preparation of 1D N-doped TiO<sub>2</sub> nanorods by simply calcining TiO<sub>2</sub> nanorods in the presence of thiourea, which is one of the commonly used TiO<sub>2</sub> dopant precursors [<xref ref-type="bibr" rid="B6-molecules-21-00181">6</xref>]. The effect of weight ratio of thiourea to TiO<sub>2</sub> (<italic>R</italic>) on the structure and photocatalytic activity of TiO<sub>2</sub> nanorods was systematically studied. To exclude the formation of surface hybridized graphite-like carbon, the calcination temperature was set to 600 &#xB0;C, because almost all of the organics can be removed by calcination at high temperature under air.</p>
+    </sec>
+    <sec id="sec2-molecules-21-00181" sec-type="results">
+      <title>2. Results and Discussion</title>
+      <sec id="sec2dot1-molecules-21-00181">
+        <title>2.1. XRD</title>
+        <p>XRD was used to investigate the phase structure and crystallite size of the TiO<sub>2</sub> samples with different dopant levels. <xref ref-type="fig" rid="molecules-21-00181-f001">Figure 1</xref> shows XRD patterns of the TiO<sub>2</sub> samples calcined at 600 &#xB0;C with different mass ratio (<italic>R</italic>) of thiourea to TiO<sub>2</sub> nanorods. It can be seen that all the samples were pure anatase phase with a peak at 2&#x3B8; = 25.3&#xB0; corresponding to the (101) plane diffraction of anatase TiO<sub>2</sub> [<xref ref-type="bibr" rid="B23-molecules-21-00181">23</xref>]. With increasing <italic>R</italic> value from 0 to 2, the peak intensities of anatase increased, indicating an enhancement of crystallization (from 1.0 to 1.69). Meanwhile, the width of the (101) plane diffraction peaks became narrower, showing an increase in anatase crystallite size (from 22.2 to 25.8 nm) (see <xref ref-type="table" rid="molecules-21-00181-t001">Table 1</xref>). Improved crystallization means less deflects, which favors for the enhanced photocatalytic activity of TiO<sub>2</sub>. However, both the crystallization (from 1.69 to 1.21) and crystalline size (from 25.8 to 22.9 nm) of TiO<sub>2</sub> samples were found to decrease with further increase in the <italic>R</italic> value from 2 to 8.</p>
+        <table-wrap id="molecules-21-00181-t001" position="float">
+          <object-id pub-id-type="pii">molecules-21-00181-t001_Table 1</object-id>
+          <label>Table 1</label>
+          <caption>
+            <p>Nitrogen adsorption and XRD characterization results of the photocatalysts.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>R</italic> <sup>a</sup></th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Pore Volume (cm<sup>3</sup>&#xB7;g<sup>&#x2212;1</sup>)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Average Pore Size (nm)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>S</italic><sub>BET</sub> (m<sup>2</sup>&#xB7;g<sup>&#x2212;1</sup>)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Average Crystalline Size (nm)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Relative Crystallinity <sup>b</sup></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">R0</td>
+                <td align="center" valign="middle">0</td>
+                <td align="center" valign="middle">0.095</td>
+                <td align="center" valign="middle">10.6</td>
+                <td align="center" valign="middle">35.9</td>
+                <td align="center" valign="middle">22.2</td>
+                <td align="center" valign="middle">1</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">R1</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">0.082</td>
+                <td align="center" valign="middle">10.5</td>
+                <td align="center" valign="middle">31.5</td>
+                <td align="center" valign="middle">25.0</td>
+                <td align="center" valign="middle">1.37</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">R2</td>
+                <td align="center" valign="middle">2</td>
+                <td align="center" valign="middle">0.114</td>
+                <td align="center" valign="middle">12.7</td>
+                <td align="center" valign="middle">35.8</td>
+                <td align="center" valign="middle">25.8</td>
+                <td align="center" valign="middle">1.69</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">R4</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle">0.107</td>
+                <td align="center" valign="middle">13.4</td>
+                <td align="center" valign="middle">32.0</td>
+                <td align="center" valign="middle">22.9</td>
+                <td align="center" valign="middle">1.17</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">R8</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.097</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">11.4</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">34.2</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">22.9</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.21</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn>
+              <p><sup>a</sup> Weight ratio of thiourea to TiO<sub>2</sub> before calcination; <sup>b</sup> Relative crystallinity: the relative intensity of the diffraction peak from the anatase (101) plane (R0 is used as reference).</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <fig id="molecules-21-00181-f001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>XRD patterns of TiO<sub>2</sub> nanorods prepared in the presence of different <italic>R</italic> (weight ratio of thiourea to TiO<sub>2</sub>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g001.tif"/>
+        </fig>
+      </sec>
+      <sec id="sec2dot2-molecules-21-00181">
+        <title>2.2. Morphology of Titanates</title>
+        <p><xref ref-type="fig" rid="molecules-21-00181-f002">Figure 2</xref> shows the TEM images of sodium titanates (<xref ref-type="fig" rid="molecules-21-00181-f002">Figure 2</xref>a,b) and corresponding hydrogen titanates (<xref ref-type="fig" rid="molecules-21-00181-f002">Figure 2</xref>c,d). Consistent with the reports in the literature [<xref ref-type="bibr" rid="B16-molecules-21-00181">16</xref>], the prepared sodium titanates are nanowires with length of more than 10 um and diameter of about 50 nm. After treatment with H<sub>2</sub>SO<sub>4</sub>, however, the length of hydrogen titanates decreases to less than 10 um. This is due to acid induced transformation from sodium titanates to hydrogen titanates.</p>
+        <fig id="molecules-21-00181-f002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>TEM images of sodium titanates before acid wash (<bold>a</bold>,<bold>b</bold>), and anatase TiO<sub>2</sub> nanorods after hydrothermal treatment by H<sub>2</sub>SO<sub>4</sub> (<bold>c</bold>,<bold>d</bold>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g002.tif"/>
+        </fig>
+      </sec>
+      <sec id="sec2dot3-molecules-21-00181">
+        <title>2.3. Morphology of Thiourea-Modified TiO<sub>2</sub> Nanorods</title>
+        <p><xref ref-type="fig" rid="molecules-21-00181-f003">Figure 3</xref> shows the TEM and SEM images of the thiourea-modified TiO<sub>2</sub> sample (R2). It can be clearly seen that the morphology of thiourea-modified TiO<sub>2</sub> sample is similar to hydrogen titanates nanorods precursor. However, carefully view showed that some nanoparticles were also formed after modification (<xref ref-type="fig" rid="molecules-21-00181-f003">Figure 3</xref>b,d), possibly due to the phase transformation from hydrogen titanates to anatase TiO<sub>2</sub> after calcination at 600 &#xB0;C. High-resolution TEM image (inset of <xref ref-type="fig" rid="molecules-21-00181-f003">Figure 3</xref>b) clearly shows the lattice spacing of 0.35 nm, corresponding to the (001) planes of anatase TiO<sub>2</sub>, further confirming the high crystallization of R2 TiO<sub>2</sub> nanorods. Judging from the clearly boundary of TiO<sub>2</sub> nanocrystals shown in high-resolution TEM image of R2 (inset of <xref ref-type="fig" rid="molecules-21-00181-f003">Figure 3</xref>b), the possibility of the formation of carbon shell (graphitic carbon) can be excluded.</p>
+      </sec>
+      <sec id="sec2dot4-molecules-21-00181">
+        <title>2.4. Diffused Reflectance Spectroscopy</title>
+        <p>Usually, doping obviously influences light absorption characteristics of TiO<sub>2</sub> [<xref ref-type="bibr" rid="B29-molecules-21-00181">29</xref>]. Therefore, the optical property of the pristine and thiourea-modified TiO<sub>2</sub> nanorods were measured by UV-vis diffuse reflectance spectra. As displayed in <xref ref-type="fig" rid="molecules-21-00181-f004">Figure 4</xref>, all of these samples display the typical absorption with an intense transition in the UV region of the spectra, which is assigned to the intrinsic band gap absorption of TiO<sub>2</sub> due to the electron transitions from the valence band to conduction band (O2p &#x2192; Ti3d) [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>]. The pure TiO<sub>2</sub> (R0) shows no absorption above its fundamental absorption edge (around 400 nm). In contrast, the absorption spectra of the thiourea-modified TiO<sub>2</sub> samples show enhanced absorption in the visible region. The inset in <xref ref-type="fig" rid="molecules-21-00181-f004">Figure 4</xref> shows the corresponding photos of pristine and thiourea-modified TiO<sub>2</sub> samples. It can be seen that the color of TiO<sub>2</sub> sample becomes deeper with an increase in <italic>R</italic> value, which is consistent with the diffused reflectance spectroscopy. Undoubtedly, these results reveal that the nonmetal elements are indeed incorporated into the lattice of TiO<sub>2</sub>, forming two phase structures (pristine and doped anatase TiO<sub>2</sub> nanorods). Judging from the orange color of the samples (inset of <xref ref-type="fig" rid="molecules-21-00181-f004">Figure 4</xref>), a black graphitic carbon shell on the surface of TiO<sub>2</sub> nanorods is unlikely to be formed, which is consistent with the high-resolution TEM characterization result (inset of <xref ref-type="fig" rid="molecules-21-00181-f003">Figure 3</xref>b).</p>
+        <fig id="molecules-21-00181-f003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>TEM images (<bold>a</bold>,<bold>b</bold>) and SEM images (<bold>c</bold>,<bold>d</bold>) of thiourea-modified TiO<sub>2</sub> nanorods (R2), Inset of (<bold>b</bold>) showing the high-resolution TEM image of R2 TiO<sub>2</sub> nanorod.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g003.tif"/>
+        </fig>
+        <fig id="molecules-21-00181-f004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Diffused reflectance spectroscopy and the corresponding optical digital images (inset) of the prepared photocatalysts.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g004.tif"/>
+        </fig>
+      </sec>
+      <sec id="sec2dot5-molecules-21-00181">
+        <title>2.5. XPS Analysis</title>
+        <p><xref ref-type="fig" rid="molecules-21-00181-f005">Figure 5</xref> compares the XPS survey spectra of pristine (R0) and thiourea-modified TiO<sub>2</sub> nanorods (R2). As demonstrated by XPS, both samples contain Ti, O and C elements. However, small amounts of N and S elements were also detected for thiourea-modified TiO<sub>2</sub> nanorods.</p>
+        <fig id="molecules-21-00181-f005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>XPS survey spectra of pristine R0 (<bold>a</bold>) and thiourea-modified TiO<sub>2</sub> nanorods of R2 (<bold>b</bold>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g005.tif"/>
+        </fig>
+        <p><xref ref-type="fig" rid="molecules-21-00181-f006">Figure 6</xref> shows the high-resolution XPS spectra of C 1s, N 1s and S 2p regions for thiourea-modified TiO<sub>2</sub> nanorods, respectively. From <xref ref-type="fig" rid="molecules-21-00181-f006">Figure 6</xref>A, it can be seen that the spectrum of C 1s can be deconvoluted into three peaks, one strong peak and two week peaks at binding energies of 284.6, 286.6 and 288.6 eV, implying three different chemical environments of carbon in the R2 sample. The peak around 284.6 eV is usually assigned to carbon adsorbed on the surface of the photocatalyst as a contaminant, namely C-C bonds, which cannot be eliminated. The peak at 286.6 eV can be ascribed to the existence of C-O bonds, as carbonate species. The peak observed at binding energy of 288.6 eV is attributed to O-C=O bonds [<xref ref-type="bibr" rid="B11-molecules-21-00181">11</xref>]. No peak was observed at a binding energy of about 282 eV, corresponding to the incorporation of C atoms in form of Ti-C bond, reflecting that C element was not doped into the lattice of TiO<sub>2</sub> nanorods [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>]. The pertaining peaks in the XPS spectrum may be due to the presence of adventitious carbon species.</p>
+        <p><xref ref-type="fig" rid="molecules-21-00181-f006">Figure 6</xref>B shows the corresponding high-resolution XPS spectrum of the N 1s region taken from R2 sample. The curve of the N 1s region can be deconvoluted into three peaks. The small peak (399.2 eV) is attributed to the Ti-N (at. 11.4%). The other two peaks at about 400.5 and 401.8 eV are assigned to NH<sub>3</sub> (at. 70.8%) and NH<sub>4</sub><sup>+</sup> (at. 18.1%) adsorbed on the surface of TiO<sub>2</sub>, respectively [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>].</p>
+        <p><xref ref-type="fig" rid="molecules-21-00181-f006">Figure 6</xref>C shows the high-resolution XPS spectrum of the S 2p region for R2 sample. It can be seen that the peak of S 2p centers at binding energy of 168.9 eV, which can be attributed to the S (+VI), which is assigned to the SO<sub>4</sub><sup>2&#x2212;</sup> ions adsorbed on the surface of TiO<sub>2</sub> sample. No obvious signal of the doped S element in the form of Ti-S at binding energy of about 165 eV can be found from the high-resolution XPS spectrum [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>]. The failure doping of S element into the lattice of TiO<sub>2</sub> nanorods may be due to the fact that the diameter of S<sup>2&#x2212;</sup> (1.7 &#xC5;) ion is larger than that of O<sup>2&#x2212;</sup> (1.22 &#xC5;) [<xref ref-type="bibr" rid="B33-molecules-21-00181">33</xref>].</p>
+        <p>According to the above XPS results, it can be concluded that only N element was <italic>in situ</italic> doped into the lattice of R2 TiO<sub>2</sub> nanorods during calcination. The composition of the detected elements by XPS for R0 (pristine TiO<sub>2</sub> nanorods), R2 and R8 samples are listed in <xref ref-type="table" rid="molecules-21-00181-t002">Table 2</xref>. It shows that the content of the N and S elements increases with increasing <italic>R</italic> value. However, the content of carbon does increase with increase in <italic>R</italic>, further confirming that the interference of adventitious hydrocarbon is from the XPS instrument itself.</p>
+        <fig id="molecules-21-00181-f006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>High-resolution XPS spectra of the C 1s (<bold>A</bold>); N 1s (<bold>B</bold>) and S 2p (<bold>C</bold>) regions of R2 sample.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g006.tif"/>
+        </fig>
+        <table-wrap id="molecules-21-00181-t002" position="float">
+          <object-id pub-id-type="pii">molecules-21-00181-t002_Table 2</object-id>
+          <label>Table 2</label>
+          <caption>
+            <p>XPS characterization results of the photocatalysts.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample</th>
+                <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Molar Ratio</th>
+              </tr>
+              <tr>
+                <th align="center" valign="middle" style="border-bottom:solid thin">C/Ti</th>
+                <th align="center" valign="middle" style="border-bottom:solid thin">N/Ti</th>
+                <th align="center" valign="middle" style="border-bottom:solid thin">S/Ti</th>
+                <th align="center" valign="middle" style="border-bottom:solid thin">O/Ti</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">R0</td>
+                <td align="center" valign="middle">2.85</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">2.74</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">R2</td>
+                <td align="center" valign="middle">2.02</td>
+                <td align="center" valign="middle">0.079</td>
+                <td align="center" valign="middle">0.106</td>
+                <td align="center" valign="middle">3.28</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">R8</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">3.69</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.103</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.123</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">3.81</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>When compared with our previous reported C, N and S co-doped TiO<sub>2</sub>-HMSs which were prepared by calcination of TiO<sub>2</sub>-HMSs in the presence of cysteine at 300 &#xB0;C [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>], the contents of C, N and S in 600 &#xB0;C-calcined TiO<sub>2</sub> nanorods are much lower. This reflects that it is much harder to dope nonmetal ions into the lattice of TiO<sub>2</sub> at high temperature because C and S elements can be easily oxidized into CO<sub>2</sub> and SO<sub>2</sub> in air atmosphere. In addition, the electronegativity of N (3.04) is larger than that of C (2.55) and S (2.58), which also results in an easier N-doping due to the stronger interaction between Ti and N.</p>
+        <p>It has been reported that anatase titania nanobelts were prepared via hydrothermal processing and subsequent heat treatment in NH<sub>3</sub> [<xref ref-type="bibr" rid="B34-molecules-21-00181">34</xref>]. However, the present method has the merit of being simple and easy to scale up.</p>
+      </sec>
+      <sec id="sec2dot6-molecules-21-00181">
+        <title>2.6. Nitrogen Adsorption</title>
+        <p><xref ref-type="fig" rid="molecules-21-00181-f007">Figure 7</xref> shows the nitrogen sorption isotherms and the corresponding pore size distribution curves of R2 sample. It can be seen that the isotherm is of types IV (BDDT classification) [<xref ref-type="bibr" rid="B35-molecules-21-00181">35</xref>]. At high relative pressure range from 0.8 to 1.0, the isotherm exhibits a hysteresis loop of type H2 associated with the ink bottle pores, indicating that the powders contain mesopores (2&#x2013;50 nm). The corresponding pore size distribution curve of R2 exhibits a wide pore size distribution with the average pore diameters about 12.7 nm.</p>
+        <fig id="molecules-21-00181-f007" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p>Nitrogen adsorption-desorption isotherm and the corresponding pore size distributions (inset) of R2 sample.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g007.tif"/>
+        </fig>
+        <p><xref ref-type="table" rid="molecules-21-00181-t002">Table 2</xref> shows the effects of <italic>R</italic> value on the surface properties of the TiO<sub>2</sub> nanorods. It can be seen that all these samples show similar BET surface areas and pore diameters, reflecting that modification of TiO<sub>2</sub> nanorods by thiourea has not changed their physical structures.</p>
+      </sec>
+      <sec id="sec2dot7-molecules-21-00181">
+        <title>2.7. Photocatalytic Activity</title>
+        <p>To study the effect of thiourea modification on the photocatalytic activity of TiO<sub>2</sub> nanorods, both degradation of X3B (<xref ref-type="fig" rid="molecules-21-00181-f008">Figure 8</xref>A) and RhB (<xref ref-type="fig" rid="molecules-21-00181-f008">Figure 8</xref>B) dye under visible irradiation (<xref ref-type="fig" rid="molecules-21-00181-f008">Figure 8</xref>) and formation of &#x2022;OH radicals in solution (<xref ref-type="fig" rid="molecules-21-00181-f009">Figure 9</xref>) under UV irradiation were performed. From <xref ref-type="fig" rid="molecules-21-00181-f008">Figure 8</xref>A, it can be seen that pristine R0 shows the smallest adsorption to X3B (only 4.12%), while R2 sample shows the highest adsorption (9.13%). It has been well documented that preliminary adsorption of substrate on the catalyst surface is a prerequisite for highly efficient oxidation [<xref ref-type="bibr" rid="B36-molecules-21-00181">36</xref>]. The stronger adsorptive ability of R2 should facilitate the enhancement of its photocatalytic activity. Inset of <xref ref-type="fig" rid="molecules-21-00181-f008">Figure 8</xref> compares the degradation rate constant of X3B in different photocatalysts. It can be clearly seen that R2 sample shows the highest photocatalytic activity (0.017 min<sup>&#x2212;1</sup>), which is two times higher than pristine TiO<sub>2</sub> nanorods (0.0071 min<sup>&#x2212;1</sup> for R0). This is consistent with their adsorption capabilities. Similar results were also obtained in photocatalytic degradation of RhB dye. The R2 sample shows the highest degradation ratio of RhB (80.13%), which is almost two times higher than the R0 sample (only 47.27%).</p>
+        <fig id="molecules-21-00181-f008" position="float">
+          <label>Figure 8</label>
+          <caption>
+            <p>Photocatalytic degradation profiles of X3B (<bold>A</bold>) and RhB (<bold>B</bold>) under visible-light irradiation in the presence of different TiO<sub>2</sub> nanorods photocatalyst (inset: comparison of the corresponding photocatalytic activity).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g008.tif"/>
+        </fig>
+        <fig id="molecules-21-00181-f009" position="float">
+          <label>Figure 9</label>
+          <caption>
+            <p>PL spectral changes (<bold>A</bold>) observed during irradiation of the R2 sample in 5.0 &#xD7; 10<sup>&#x2212;3</sup> mol&#xB7;L<sup>&#x2212;1</sup> solution of coumarin (excitation at 332 nm) under UV irradiation, and the comparison of formation rate constant of hydroxyl radicals in the different photocatalyst (<bold>B</bold>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g009.tif"/>
+        </fig>
+        <p>Recently, it has been proved that several non- or weakly luminescent test molecules, such as terephthalic acid [<xref ref-type="bibr" rid="B37-molecules-21-00181">37</xref>,<xref ref-type="bibr" rid="B38-molecules-21-00181">38</xref>] and coumarin [<xref ref-type="bibr" rid="B39-molecules-21-00181">39</xref>,<xref ref-type="bibr" rid="B40-molecules-21-00181">40</xref>] produce strongly luminescent compounds with &#x2022;OH radical, and these molecules can be applied for evaluation of the relative photocatalytic activity of the photocatalyst. Here coumarin is used as a probe to evaluate the photocatalytic activity of TiO<sub>2</sub> nanorods. <xref ref-type="fig" rid="molecules-21-00181-f009">Figure 9</xref>A shows the typical PL spectral changes observed during illumination of the suspensions of R2 sample. It is observed that the PL intensity of photo-generated 7-hydroxycoumarin at 450 nm (excited at 332 nm) increases with irradiation time, obeying a pseudo-zero order reaction rate equation in kinetics. <xref ref-type="fig" rid="molecules-21-00181-f009">Figure 9</xref>B compares the &#x2022;OH radical formation rate constant in different photocatalyst. It can be seen that thiourea shows little effect on the UV photocatalytic activity of TiO<sub>2</sub> nanorods, confirming that the enhanced visible photocatalytic activity of thiourea-modified TiO<sub>2</sub> nanorods is not based on the sacrifice of their UV photocatalytic activity.</p>
+      </sec>
+      <sec id="sec2dot8-molecules-21-00181">
+        <title>2.8. Photoluminescence Spectrum Analysis</title>
+        <p>Photoluminescence (PL) analysis is commonly used to analyze the recombination rate of photo-generated electron-hole of semiconductor [<xref ref-type="bibr" rid="B41-molecules-21-00181">41</xref>]. Herein, we conduct PL measurement for the pristine (R0) and thiourea-modified TiO<sub>2</sub> sample (R2), respectively. It can be seen that the emission spectra shapes of R0 and R2 are similar (<xref ref-type="fig" rid="molecules-21-00181-f010">Figure 10</xref>). The strong peak at about 397 nm is attributed to the emission of band gap transition [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>]. When compared with pure TiO<sub>2</sub> nanorods (R0), the intensity of PL signal for R2 is much lower. This is due to the reduction of the radiative recombination process, that is, the lower the recombination, the weaker the PL signals are. Consequently, it is understandable that thiourea-modified TiO<sub>2</sub> nanorods show superior photocatalytic activity to that of pristine TiO<sub>2</sub> nanorods (R0).</p>
+        <fig id="molecules-21-00181-f010" position="float">
+          <label>Figure 10</label>
+          <caption>
+            <p>PL spectra of pristine R0 (<bold>a</bold>) and N-doped TiO<sub>2</sub> nanorods R2 (<bold>b</bold>).</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g010.tif"/>
+        </fig>
+      </sec>
+      <sec id="sec2dot9-molecules-21-00181">
+        <title>2.9. Photocurrent Response</title>
+        <p>The value of photocurrent can indirectly reflect the semiconductor&#x2019;s ability to generate and transferr photo-generated charge carriers under irradiation [<xref ref-type="bibr" rid="B30-molecules-21-00181">30</xref>]. The photocurrent responses of pure and thiourea-modified TiO<sub>2</sub> nanorods were tested in several on-off cycles (<xref ref-type="fig" rid="molecules-21-00181-f011">Figure 11</xref>). A prompt generation of photocurrents are observed and with good reproducibility when the ITO/TiO<sub>2</sub> electrodes are illuminated. While the lamp is off, the value of photocurrent for all the ITO/TiO<sub>2</sub> samples are instantaneously close to zero. It can be clearly seen that the photocurrent value increases first and then decreases with increase in the <italic>R</italic> value, and R2 sample shows the highest photocurrent value, which is consistent with the photocatalytic activity of the samples (<xref ref-type="fig" rid="molecules-21-00181-f008">Figure 8</xref>). The photocatalytic activity of TiO<sub>2</sub> is highly related to the number of the separated photo-generated charge carriers. Nonmetal doping, in particular nitrogen doping, can be incorporated as a substitutional or insterstitial state in the TiO<sub>2</sub> lattice, which results in the visible-light activity [<xref ref-type="bibr" rid="B6-molecules-21-00181">6</xref>]. From the photocurrent, it can be seen that high concentrated N-doping can cause the formation of photo-generated electron-hole recombination center, which is detrimental to the photocatalytic activity of TiO<sub>2</sub> nanorods. Therefore, it is understandable that R2 shows superior photocatalytic activity, although R8 possesses the highest visible-light harvesting ability (<xref ref-type="fig" rid="molecules-21-00181-f004">Figure 4</xref>).</p>
+        <fig id="molecules-21-00181-f011" position="float">
+          <label>Figure 11</label>
+          <caption>
+            <p>Comparison of the photocurrent response.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="molecules-21-00181-g011.tif"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="sec3-molecules-21-00181">
+      <title>3. Experimental Section</title>
+      <sec id="sec3dot1-molecules-21-00181">
+        <title>3.1. Preparation</title>
+        <sec id="sec3dot1dot1-molecules-21-00181">
+          <title>3.1.1. Titanates</title>
+          <p>In our experiments, the hydrothermal method was employed for the synthesis of titanate nanostructures, which involved a primary reaction between a concentrated NaOH solution and titanium dioxide [<xref ref-type="bibr" rid="B16-molecules-21-00181">16</xref>,<xref ref-type="bibr" rid="B42-molecules-21-00181">42</xref>]. Briefly, 1.0 g P25 TiO<sub>2</sub> (Degussa, Shanghai Pharm, China) was dispersed in an 80 mL aqueous solution of NaOH (10 mol&#xB7;L<sup>&#x2212;1</sup>), which was then transferred into a 100 mL Teflon-lined autoclave and then oven-heated at 200 &#xB0;C for 24 h. After cooling to room temperature, the white precipitates were filtrated through a membrane filter (pore size, 0.45 &#x3BC;m) and rinsed with distilled water until the pH value of the filtrate is about 7. The obtained white 1-D sodium titanates cake was re-dispersed in 80 mL of HCl solution (0.1 mol&#xB7;L<sup>&#x2212;1</sup>) under magnetic stir. 24 h later, the resulted hydrogen titanates precipitates were washed with deionized water for several times and dried in oven at 80 &#xB0;C for 6 h.</p>
+        </sec>
+        <sec id="sec3dot1dot2-molecules-21-00181">
+          <title>3.1.2. TiO<sub>2</sub> Nanorods Precursors</title>
+          <p>To transformation of the prepared hydrogen titanates to anatase TiO<sub>2</sub> nanorods, the obtained hydrogen titanates powders were re-dispersed into 80 mL of H<sub>2</sub>SO<sub>4</sub> solution (0.2 mol&#xB7;L<sup>&#x2212;1</sup>), which were then heated at 100 &#xB0;C for 12 h. Similarly, the obtained white precipitates were collected and dried at 80 &#xB0;C after wash with deionized water.</p>
+        </sec>
+        <sec id="sec3dot1dot3-molecules-21-00181">
+          <title>3.1.3. N-doped TiO<sub>2</sub> Nanorods</title>
+          <p>Certain amount of thiourea (0&#x2013;3.2 g) was mixed with 0.4 g of the as-prepared TiO<sub>2</sub> nanorods precursors. The mixture was ground and calcined at 600 &#xB0;C for 2 h in a furnace. According to this method, the mass ratio of thiourea to TiO<sub>2</sub> nanorods precursors (<italic>R</italic>) varies from 0 to 8.0. For simplicity, the prepared sample was named as Rx, where x represents <italic>R</italic> value, the mass ratio of thiourea to TiO<sub>2</sub> nanorods precursors. R0 refers to the calcined TiO<sub>2</sub> nanorods in the absence of thiourea (<xref ref-type="table" rid="molecules-21-00181-t001">Table 1</xref>).</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot2-molecules-21-00181">
+        <title>3.2. Characterization</title>
+        <p>The X-ray diffraction (XRD) patterns of the samples were obtained on a D8 advance X-ray diffractometer (Germany Bruker, Madison, WI, USA) using Cu K&#x3B1; radiation at a scan rate (2&#x3B8;) of 0.05 s<sup>&#x2212;1</sup>. The voltage and applied current were 40 kV and 80 mA, respectively. The morphology of the photocatalyst was observed on a transmission electron microscopy (TEM) (Tecnai G20, Hillsboro, OR, USA) using an acceleration voltage of 200 kV and a field emission scanning electron microscope (SEM) (Hitach, Tokyo, Japan) with an acceleration voltage of 20 kV, respectively. Nitrogen adsorption-desorption isotherms were obtained on an ASAP 2020 (Micromeritic Instruments, Atlanta, GA, USA) nitrogen adsorption apparatus. All the samples were degassed at 200 &#xB0;C prior to Brunauer-Emmett-Teller (BET) measurements. The BET specific surface area (<italic>S</italic><sub>BET</sub>) was determined by a multipoint BET method using the adsorption data in the relative pressure <italic>P</italic>/<italic>P</italic><sub>0</sub> range of 0.05&#x2013;0.30. The desorption isotherm was used to determine the pore size distribution by using the Barret-Joyner-Halenda (BJH) method. The nitrogen adsorption volume at <italic>P</italic>/<italic>P</italic><sub>0</sub> = 0.994 was used to determine the pore volume and average pore size. UV-vis diffuse reflectance spectroscopy (DRS) was carried out on a Hitachi U-3010 UV-vis spectrophotometer (Hitachi, Tokyo, Japan). BaSO<sub>4</sub> was the reference sample. X-ray photoelectron spectroscopy (XPS) measurement was done using Multilab 2000 XPS system (ThermoVG Scientific, East Grinstead, West Sussex, UK) with a monochromatic Mg K&#x3B1; source and a charge neutralizer, all the binding energies were referenced to the C 1s peak at 284.6 eV of the surface adventitious carbon. Photoluminescence (PL) spectra were measured at room temperature on a Fluorescence Spectrophotometer (F-7000, Hitachi, Tokyo, Japan). The excitation wavelength was 315 nm, the scanning speed was 1200 nm&#xB7;min<sup>&#x2212;1</sup>, and the PMT voltage was 700 V. The width of excitation slit and emission slit were both 5.0 nm.</p>
+      </sec>
+      <sec id="sec3dot3-molecules-21-00181">
+        <title>3.3. Photocatalytic Activity</title>
+        <sec id="sec3dot3dot1-molecules-21-00181">
+          <title>3.3.1. Visible Photoctalytic Activity</title>
+          <p>A 350-W Xe lamp (Lanshen electronics, Shanghai, China) used as the light source was positioned above a cylindrical Pyrex vessel surrounded by a jacket with circulating water. A cutoff filter was used to remove wavelengths less than 420 nm completely and to ensure irradiation only by visible light. Brilliant Red X-3B (X3B) [<xref ref-type="bibr" rid="B43-molecules-21-00181">43</xref>,<xref ref-type="bibr" rid="B44-molecules-21-00181">44</xref>,<xref ref-type="bibr" rid="B45-molecules-21-00181">45</xref>], an anionic azo dye, is used as a probe molecule. During the photocatalytic reaction, the reactor was mechanically stirred at a constant rate. The concentration of TiO<sub>2</sub> was 1.0 g&#xB7;L<sup>&#x2212;1</sup>, and the initial concentration of X3B was 1.0 &#xD7; 10<sup>&#x2212;4</sup> mol&#xB7;L<sup>&#x2212;1</sup>. Before irradiation, the suspensions were sonicated first for 5 min, and then were shaken overnight in the dark to established the adsorption-desorption equilibrium. At given intervals of irradiation, small aliquots were withdrawn by a syringe, and filtered through a membrane (pore size 0.45 &#x3BC;m). The concentration of X3B remaining in the filtrate was then analyzed by an Agilent 8451 spectrometer (Aglent Technologies, Palo Alto, CA, USA) at 510 nm.</p>
+          <p>Photocatalytic activity degradation of Rhodamine B (RhB) dye was also performed similar to the degradation of X3B. The initial concentration of RhB for degradation is 1.0 &#xD7; 10<sup>&#x2212;5</sup> mol&#xB7;L<sup>&#x2212;1</sup>, and the wavelength for analysis of RhB is 554 nm.</p>
+        </sec>
+        <sec id="sec3dot3dot2-molecules-21-00181">
+          <title>3.3.2. UV Photocatalytic Activity</title>
+          <p>The UV photocatalytic activity of the photocatalyst was evaluated by a photoluminescence (PL) technique using coumarin as a probe molecule, which readily reacted with &#x2022;OH radicals to produce highly fluorescent product, 7-hydroxycoumarin, under UV irradiation [<xref ref-type="bibr" rid="B39-molecules-21-00181">39</xref>]. The suspensions of TiO<sub>2</sub>(1.0 g&#xB7;L<sup>&#x2212;1</sup>) containing coumarin (0.5 mmol&#xB7;L<sup>&#x2212;1</sup>) is mixed under magnetic stirring, and then was shaken overnight. At given intervals of irradiation, small aliquots were withdrawn by a syringe, and filtered through a membrane (pore size 0.45 &#x3BC;m). Solution after filtration was analyzed on a Hitachi F-7000 fluorescence spectrophotometer by the excitation with the wavelength of 332 nm.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot4-molecules-21-00181">
+        <title>3.4. Photocurrent</title>
+        <p>Photocurrent measurements were carried out on an Electrochemical Station (CHI660, Chenhua Instrument, Shanghai, China). The Xe lamp with cutoff filter was used for excitation of the ITO/TiO<sub>2</sub> electrode. These measurements were carried out with a standard three-electrode assembly. An ITO/TiO<sub>2</sub> electrode, Pt plate, and Ag/AgCl electrode were used as the working, counter, and reference electrodes, respectively. The ITO/TiO<sub>2</sub> electrode was prepared using a doctor-blade method. Na<sub>2</sub>SO<sub>4</sub> (0.4 mol&#xB7;L<sup>&#x2212;1</sup>) is used as the electrolyte and is saturated with air.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-molecules-21-00181" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Enhanced visible photocatalytic activity of TiO<sub>2</sub> nanorods were successfully studied through thiourea modification of TiO<sub>2</sub> by calcination the mixture of TiO<sub>2</sub> nanorods and thiourea at 600 &#xB0;C. Only N was doped into the lattice of TiO<sub>2</sub> nanorods due to the greater electronegativity of N (3.04) than that of C (2.55) and S (2.58). The enhanced photocatalytic activity of the R2 sample is due to the synergistic effects of improved crystallization and increased light-harvesting ability, which results in the reduced recombination of photo-generated electron-hole pairs. The enhanced visible photocatalytic activity of thiourea-modified TiO<sub>2</sub> nanorods is not based on the sacrifice of their UV photocatalytic activity.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by the Program for New Century Excellent Talents in University (NCET-12-0668), National Natural Science Foundation of China (21373275 &amp; 20977114).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>The list authors contributed to this work as follows: Kangle Lv conceived and designed the experiments, Xiaofeng Wu and Shun Fang performed the experiments and analyzed the data, Yang Zheng wrote the paper, Jie Sun and Kangle Lv polished the paper. Kangle Lv acquired funding for the research. All authors read and approved the final manuscript.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-molecules-21-00181">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Low</surname>
+              <given-names>J.X.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jaroniec</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhanced photocatalytic CO<sub>2</sub>-reduction activity of anatase TiO<sub>2</sub> by coexposed {001} and {101} facets</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2014</year>
+          <volume>136</volume>
+          <fpage>8839</fpage>
+          <lpage>8842</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja5044787</pub-id>
+          <pub-id pub-id-type="pmid">24918628</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-molecules-21-00181">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneider</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Matsuoka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Takeuchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Horiuchi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Anpo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bahnemann</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding TiO<sub>2</sub> photocatalysis: Mechanisms and materials</article-title>
+          <source>Chem. Rev.</source>
+          <year>2014</year>
+          <volume>114</volume>
+          <fpage>9919</fpage>
+          <lpage>9986</lpage>
+          <pub-id pub-id-type="doi">10.1021/cr5001892</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-molecules-21-00181">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.W.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Z.F.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Waclawik</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Ke</surname>
+              <given-names>X.B.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>An efficient photocatalyst structure: TiO<sub>2</sub>(B) nanofibers with a shell of anatase nanocrystals</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2005</year>
+          <volume>131</volume>
+          <fpage>17885</fpage>
+          <lpage>17893</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja906774k</pub-id>
+          <pub-id pub-id-type="pmid">19911792</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-molecules-21-00181">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.F.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Richards</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>TiO<sub>2</sub> nanoflakes modified with gold nanoparticles as photocatalysts with high activity and durability under near UV irradiation</article-title>
+          <source>J. Phys. Chem. C</source>
+          <year>2010</year>
+          <volume>114</volume>
+          <fpage>1641</fpage>
+          <lpage>1645</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp910500c</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-molecules-21-00181">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorine ions-mediated morphology control of anatase TiO<sub>2</sub> with enhanced photocatalytic activity</article-title>
+          <source>Phys. Chem. Chem. Phys.</source>
+          <year>2012</year>
+          <volume>14</volume>
+          <fpage>5349</fpage>
+          <lpage>5362</lpage>
+          <pub-id pub-id-type="doi">10.1039/c2cp23461k</pub-id>
+          <pub-id pub-id-type="pmid">22422026</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-molecules-21-00181">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pelaez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nolan</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Pillai</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Seery</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Falaras</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kontos</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Dunlop</surname>
+              <given-names>P.S.M.</given-names>
+            </name>
+            <name>
+              <surname>Hamilton</surname>
+              <given-names>J.W.J.</given-names>
+            </name>
+            <name>
+              <surname>Byrne</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Shea</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A review on the visible light active titanium dioxide photocatalysts for environmental applications</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2012</year>
+          <volume>125</volume>
+          <fpage>331</fpage>
+          <lpage>349</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2012.05.036</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-molecules-21-00181">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>Leng</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>W.P.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>X.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rate enhancement and rate inhibition of phenol degradation over irradiated anatase and rutile TiO<sub>2</sub> on the addition of naf: New insight into the mechanism</article-title>
+          <source>J. Phys. Chem. C</source>
+          <year>2007</year>
+          <volume>111</volume>
+          <fpage>19024</fpage>
+          <lpage>19032</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp076364w</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-molecules-21-00181">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluating intrinsic photocatalytic activities of anatase and rutile TiO<sub>2</sub> for organic degradation in water</article-title>
+          <source>J. Phys. Chem. C</source>
+          <year>2010</year>
+          <volume>114</volume>
+          <fpage>18911</fpage>
+          <lpage>18918</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp104762h</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-molecules-21-00181">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.B.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>B.X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Gan</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>W.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation of short, robust and highly ordered TiO<sub>2</sub> nanotube arrays and their applications as electrode</article-title>
+          <source>Appl. Catal. B</source>
+          <year>2009</year>
+          <volume>92</volume>
+          <fpage>326</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2009.08.011</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-molecules-21-00181">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photocatalytic degradation pathway for azo dye in TiO<sub>2</sub>/UV/O<sub>3</sub> system: Hydroxyl radical <italic>versus</italic> hole</article-title>
+          <source>J. Mol. Catal. A</source>
+          <year>2013</year>
+          <volume>367</volume>
+          <fpage>31</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcata.2012.10.020</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-molecules-21-00181">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mollavali</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Falamaki</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Rohani</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation of multiple-doped TiO<sub>2</sub> nanotube arrays with nitrogen, carbon and nickel with enhanced visible light photoelectrochemical activity via single-step anodization</article-title>
+          <source>Int. J. Hydrog. Energy</source>
+          <year>2015</year>
+          <volume>40</volume>
+          <fpage>12239</fpage>
+          <lpage>12252</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijhydene.2015.07.069</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-molecules-21-00181">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tetragonal faceted-nanorods of anatase TiO<sub>2</sub> single crystals with a large percentage of active {100} facets</article-title>
+          <source>Chem. Commun.</source>
+          <year>2010</year>
+          <volume>46</volume>
+          <fpage>2301</fpage>
+          <lpage>2303</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-molecules-21-00181">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis, characterization and photocatalytic activity of mesoporous titania nanorod/titanate nanotube composites</article-title>
+          <source>J. Hazard. Mater.</source>
+          <year>2007</year>
+          <volume>147</volume>
+          <fpage>581</fpage>
+          <lpage>587</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhazmat.2007.01.054</pub-id>
+          <pub-id pub-id-type="pmid">17293035</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-molecules-21-00181">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>Q.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>M.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation, characterization and visible-light-driven photocatalytic activity of Fe-doped titania nanorods and first-principles study for electronic structures</article-title>
+          <source>Appl. Catal. B</source>
+          <year>2009</year>
+          <volume>90</volume>
+          <fpage>595</fpage>
+          <lpage>602</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2009.04.021</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-molecules-21-00181">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Yantara</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Boix</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Kulkarni</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Mhaisalkar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gratzel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>N.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>High efficiency solid-state sensitized solar cell-based on submicrometer rutile TiO<sub>2</sub> Nanorod and CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub> perovskite sensitizer</article-title>
+          <source>Nano Lett.</source>
+          <year>2013</year>
+          <volume>13</volume>
+          <fpage>2412</fpage>
+          <lpage>2417</lpage>
+          <pub-id pub-id-type="doi">10.1021/nl400286w</pub-id>
+          <pub-id pub-id-type="pmid">23672481</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-molecules-21-00181">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mao</surname>
+              <given-names>Y.B.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Size- and Shape-dependent transformation of nanosized titanate into analogous anatase titania nanostructures</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2006</year>
+          <volume>128</volume>
+          <fpage>8217</fpage>
+          <lpage>8226</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja0607483</pub-id>
+          <pub-id pub-id-type="pmid">16787086</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-molecules-21-00181">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuan</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>X.Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Template synthesis of hollow metal oxide fibers with hierarchical architecture</article-title>
+          <source>Chem. Mater.</source>
+          <year>2006</year>
+          <volume>18</volume>
+          <fpage>4700</fpage>
+          <lpage>4705</lpage>
+          <pub-id pub-id-type="doi">10.1021/cm0609911</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-molecules-21-00181">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Chao</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Pt loading order on photocatalytic activity of Pt/TiO<sub>2</sub> nanofiber in generation of H<sub>2</sub> from neat ethanol</article-title>
+          <source>J. Phys. Chem. C</source>
+          <year>2009</year>
+          <volume>113</volume>
+          <fpage>13832</fpage>
+          <lpage>13840</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp9033535</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-molecules-21-00181">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>A facile <italic>in situ</italic> hydrothermal method to SrTiO<sub>3</sub>/TiO<sub>2</sub> nanofiber heterostructures with high photocatalytic activity</article-title>
+          <source>Langmuir</source>
+          <year>2011</year>
+          <volume>27</volume>
+          <fpage>2946</fpage>
+          <lpage>2952</lpage>
+          <pub-id pub-id-type="doi">10.1021/la104195v</pub-id>
+          <pub-id pub-id-type="pmid">21314166</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-molecules-21-00181">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Formo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functionalization of electrospun TiO<sub>2</sub> nanofibers with pt nanoparticles and nanowires for catalytic applications</article-title>
+          <source>Nano Lett.</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>668</fpage>
+          <lpage>672</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-molecules-21-00181">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asahi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Morikawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ohwaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Taga</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Visible-light photocatalysis in nitrogen-doped titanium oxides</article-title>
+          <source>Science</source>
+          <year>2001</year>
+          <volume>293</volume>
+          <fpage>269</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1061051</pub-id>
+          <pub-id pub-id-type="pmid">11452117</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-molecules-21-00181">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>R.Y.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.X.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel thermally stable phosphorus-doped TiO<sub>2</sub> photocatalyst synthesized by hydrolysis of TiCl<sub>4</sub></article-title>
+          <source>J. Mol. Catal. A</source>
+          <year>2010</year>
+          <volume>319</volume>
+          <fpage>46</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcata.2009.11.019</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-molecules-21-00181">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiang</surname>
+              <given-names>Q.J.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Jaroniec</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrogen and sulfur co-doped TiO<sub>2</sub> nanosheets with exposed {001} facets: Synthesis, characterization and visible-light photocatalytic activity</article-title>
+          <source>Phys. Chem. Chem. Phys.</source>
+          <year>2011</year>
+          <volume>13</volume>
+          <fpage>4853</fpage>
+          <lpage>4861</lpage>
+          <pub-id pub-id-type="doi">10.1039/C0CP01459A</pub-id>
+          <pub-id pub-id-type="pmid">21103562</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-molecules-21-00181">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Si</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.A.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Facile preparation of Ti<sup>3+</sup> self-doped TiO<sub>2</sub> nanosheets with dominant {001} facets using zinc powder as reductant</article-title>
+          <source>J. Alloys Compd.</source>
+          <year>2014</year>
+          <volume>601</volume>
+          <fpage>88</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jallcom.2014.02.141</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-molecules-21-00181">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Jaroniec</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ionic-liquid-assisted synthesis of uniform fluorinated B/C-codoped TiO<sub>2</sub> nanocrystals and their enhanced visible-light photocatalytic activity</article-title>
+          <source>Chem. Eur. J.</source>
+          <year>2013</year>
+          <volume>19</volume>
+          <fpage>2433</fpage>
+          <lpage>2441</lpage>
+          <pub-id pub-id-type="doi">10.1002/chem.201202778</pub-id>
+          <pub-id pub-id-type="pmid">23297253</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-molecules-21-00181">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cai</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.A.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ti powder-assisted synthesis of Ti<sup>3+</sup> self-doped TiO<sub>2</sub> nanosheets with enhanced visible-light photoactivity</article-title>
+          <source>RSC Adv.</source>
+          <year>2014</year>
+          <volume>4</volume>
+          <fpage>19588</fpage>
+          <lpage>19593</lpage>
+          <pub-id pub-id-type="doi">10.1039/c4ra01496k</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-molecules-21-00181">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.W.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>G.Q.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Visible light responsive nitrogen doped anatase TiO<sub>2</sub> sheets with dominant {001} facets derived from TiN</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2009</year>
+          <volume>131</volume>
+          <fpage>12868</fpage>
+          <lpage>12869</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja903463q</pub-id>
+          <pub-id pub-id-type="pmid">19697930</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-molecules-21-00181">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Manthina</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Agrios</surname>
+              <given-names>A.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Band edge engineering of composite photoanodes for dye-sensitized solar cells</article-title>
+          <source>Electrochim. Acta</source>
+          <year>2015</year>
+          <volume>169</volume>
+          <fpage>416</fpage>
+          <lpage>423</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.electacta.2015.04.080</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-molecules-21-00181">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Zuo</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>(Bi, C and N) codoped TiO<sub>2</sub> nanoparticles</article-title>
+          <source>J. Hazard. Mater.</source>
+          <year>2009</year>
+          <volume>161</volume>
+          <fpage>396</fpage>
+          <lpage>401</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhazmat.2008.03.111</pub-id>
+          <pub-id pub-id-type="pmid">18457917</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-molecules-21-00181">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cysteine modified anatase TiO<sub>2</sub> hollow microspheres with enhanced visible-light-driven photocatalytic activity</article-title>
+          <source>J. Mol. Catal. A</source>
+          <year>2012</year>
+          <volume>356</volume>
+          <fpage>78</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcata.2011.12.028</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-molecules-21-00181">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+            <name>
+              <surname>Nadagouda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Shea</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>El-Sheikh</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Ismail</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Dionysiou</surname>
+              <given-names>D.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Visible light-sensitized S, N and C co-doped polymorphic TiO<sub>2</sub> forphotocatalytic destruction of microcystin-LR</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2014</year>
+          <volume>144</volume>
+          <fpage>614</fpage>
+          <lpage>621</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2013.07.058</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-molecules-21-00181">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.W.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient TiO<sub>2</sub> photocatalysts from surface hybridization of TiO<sub>2</sub> particles with graphite-like carbon</article-title>
+          <source>Adv. Funct. Mater.</source>
+          <year>2008</year>
+          <volume>18</volume>
+          <fpage>2180</fpage>
+          <lpage>2189</lpage>
+          <pub-id pub-id-type="doi">10.1002/adfm.200701478</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-molecules-21-00181">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Periyat</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pillai</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>McCormack</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Colreavy</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Hinder</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved high-temperature stability and sun-light-driven photocatalytic activity of sulfur-doped anatase TiO<sub>2</sub></article-title>
+          <source>J. Phys. Chem. C</source>
+          <year>2008</year>
+          <volume>112</volume>
+          <fpage>7644</fpage>
+          <lpage>7652</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp0774847</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-molecules-21-00181">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tafen</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>Z.L.</given-names>
+            </name>
+            <name>
+              <surname>Manivannan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhi</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>N.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Origin of photocatalytic activity of nitrogen-doped TiO<sub>2</sub> nanobelts</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2009</year>
+          <volume>131</volume>
+          <fpage>12290</fpage>
+          <lpage>12297</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja903781h</pub-id>
+          <pub-id pub-id-type="pmid">19705915</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-molecules-21-00181">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>Y.R.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Template-free fabrication and enhanced photocatalytic activity of hierarchical macro-/mesoporous titania</article-title>
+          <source>Adv. Funct. Mater.</source>
+          <year>2007</year>
+          <volume>17</volume>
+          <fpage>1984</fpage>
+          <lpage>1990</lpage>
+          <pub-id pub-id-type="doi">10.1002/adfm.200600933</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-molecules-21-00181">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Langford</surname>
+              <given-names>C.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>UV- or visible-light-induced degradation of X3B on TiO<sub>2</sub> nanoparticles: The influence of adsorption</article-title>
+          <source>Langmuir</source>
+          <year>2001</year>
+          <volume>17</volume>
+          <fpage>897</fpage>
+          <lpage>902</lpage>
+          <pub-id pub-id-type="doi">10.1021/la001110m</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-molecules-21-00181">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.-C.</given-names>
+            </name>
+            <name>
+              <surname>Chien</surname>
+              <given-names>T.E.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Chiang</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>TiS<sub>2</sub> transformation into S-doped and N-doped TiO<sub>2</sub> with visible-light catalytic activity</article-title>
+          <source>Appl. Surf. Sci.</source>
+          <year>2015</year>
+          <volume>359</volume>
+          <pub-id pub-id-type="doi">10.1016/j.apsusc.2015.10.004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-molecules-21-00181">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of phase structures on the formation rate of hydroxyl radicals on the surface of TiO<sub>2</sub></article-title>
+          <source>J. Phys. Chem. Solids</source>
+          <year>2010</year>
+          <volume>71</volume>
+          <fpage>519</fpage>
+          <lpage>522</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jpcs.2009.12.026</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-molecules-21-00181">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>D.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on the shape control and photocatalytic activity of high-energy anatase titania</article-title>
+          <source>Appl. Catal. B</source>
+          <year>2010</year>
+          <volume>100</volume>
+          <fpage>378</fpage>
+          <lpage>385</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2010.08.014</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-molecules-21-00181">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.A.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transformation of TiOF2 cube to a hollow nanobox assembly from anatase TiO<sub>2</sub> nanosheets with exposed {001} facets via solvothermal strategy</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>8663</fpage>
+          <lpage>8669</lpage>
+          <pub-id pub-id-type="doi">10.1021/am4023048</pub-id>
+          <pub-id pub-id-type="pmid">23937541</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-molecules-21-00181">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.A.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of contact interface between TiO<sub>2</sub> and g-C<sub>3</sub>N<sub>4</sub> on the photoreactivity of g-C<sub>3</sub>N<sub>4</sub>/TiO<sub>2</sub> photocatalyst: (001) <italic>vs.</italic> (101) facets of TiO<sub>2</sub></article-title>
+          <source>Appl. Catal. B</source>
+          <year>2015</year>
+          <volume>164</volume>
+          <fpage>420</fpage>
+          <lpage>427</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2014.09.043</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-molecules-21-00181">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>X.P.</given-names>
+            </name>
+            <name>
+              <surname>Ringer</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Z.F.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phase transition between nanostructures of titanate and titanium dioxides via simple wet-chemical reactions</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2005</year>
+          <volume>127</volume>
+          <fpage>6730</fpage>
+          <lpage>6736</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja044689+</pub-id>
+          <pub-id pub-id-type="pmid">15869295</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-molecules-21-00181">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of Polyoxometalate and fluoride on adsorption and photocatalytic degradation of organic dye X3B on TiO<sub>2</sub>: The difference in the production of reactive species</article-title>
+          <source>J. Phys. Chem. B</source>
+          <year>2006</year>
+          <volume>110</volume>
+          <fpage>6204</fpage>
+          <lpage>6212</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp055228t</pub-id>
+          <pub-id pub-id-type="pmid">16553435</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-molecules-21-00181">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lan</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Si</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fabrication of TiO<sub>2</sub> hollow microspheres using K<sub>3</sub>PW<sub>12</sub>O<sub>40</sub> as template</article-title>
+          <source>Chin. J. Catal.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>2237</fpage>
+          <lpage>2243</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1872-2067(15)60987-1</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-molecules-21-00181">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>H.P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydrogen peroxide assisted rapid synthesis of TiO<sub>2</sub> hollow microspheres with enhanced photocatalytic activity</article-title>
+          <source>Appl. Catal. B</source>
+          <year>2014</year>
+          <volume>147</volume>
+          <fpage>789</fpage>
+          <lpage>795</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2013.10.011</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Sample Availability:</bold> Samples of the N-doped TiO<sub>2</sub> nanorods are available from the authors.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

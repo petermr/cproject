@@ -1,0 +1,102 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:14Z",
+    "timestamp": 1464831674343
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "DOI": "10.5194/isprs-annals-iii-1-41-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:25:32Z",
+    "timestamp": 1464827132000
+  },
+  "page": "41-47",
+  "source": "CrossRef",
+  "title": [
+    "QUALITY ANALYSIS AND CORRECTION OF MOBILE BACKPACK LASER SCANNING DATA"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "III-1",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Rönnholm",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Liang",
+      "given": "X."
+    },
+    {
+      "affiliation": [],
+      "family": "Kukko",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Jaakkola",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Hyyppä",
+      "given": "J."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.",
+    "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:25:32Z",
+    "timestamp": 1464827132000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/isprs-annals-iii-1-41-2016",
+  "ISSN": [
+    "2194-9050"
+  ]
+}

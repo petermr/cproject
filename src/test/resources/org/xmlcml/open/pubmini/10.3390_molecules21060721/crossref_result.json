@@ -1,0 +1,149 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:23Z",
+    "timestamp": 1466264483744
+  },
+  "reference-count": 52,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Fundación Científica Asociación Española Contra el Cáncer",
+      "DOI": "10.13039/501100002704"
+    },
+    {
+      "award": [
+        "SME Work Placement Grant"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Fundación Banco Santander",
+      "DOI": "10.13039/100008049"
+    },
+    {
+      "award": [
+        "AGL2014-57239-R",
+        "BES-2015-072191",
+        "AGL2010-17779"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Ministerio de Economía y Competitividad",
+      "DOI": "10.13039/501100003329"
+    }
+  ],
+  "DOI": "10.3390/molecules21060721",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "721",
+  "source": "CrossRef",
+  "title": [
+    "Coffee Silverskin Extract Protects against Accelerated Aging Caused by Oxidative Agents"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "21",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Iriondo-DeHond",
+      "given": "Amaia"
+    },
+    {
+      "affiliation": [],
+      "family": "Martorell",
+      "given": "Patricia"
+    },
+    {
+      "affiliation": [],
+      "family": "Genovés",
+      "given": "Salvador"
+    },
+    {
+      "affiliation": [],
+      "family": "Ramón",
+      "given": "Daniel"
+    },
+    {
+      "affiliation": [],
+      "family": "Stamatakis",
+      "given": "Konstantinos"
+    },
+    {
+      "affiliation": [],
+      "family": "Fresno",
+      "given": "Manuel"
+    },
+    {
+      "affiliation": [],
+      "family": "Molina",
+      "given": "Antonio"
+    },
+    {
+      "affiliation": [],
+      "family": "del Castillo",
+      "given": "Maria"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Molecules"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:06:57Z",
+    "timestamp": 1466258817000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "molecules21060721"
+  ],
+  "URL": "http://dx.doi.org/10.3390/molecules21060721",
+  "ISSN": [
+    "1420-3049"
+  ],
+  "subject": [
+    "Organic Chemistry"
+  ]
+}

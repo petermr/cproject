@@ -1,0 +1,118 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:04Z",
+    "timestamp": 1466264464498
+  },
+  "reference-count": 27,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    }
+  ],
+  "DOI": "10.3390/e18060214",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "214",
+  "source": "CrossRef",
+  "title": [
+    "Harmonic Source Localization Approach Based on Fast Kernel Entropy Optimization ICA and Minimum Conditional Entropy"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "18",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Zang",
+      "given": "Tianlei",
+      "ORCID": "http://orcid.org/0000-0002-5995-3442"
+    },
+    {
+      "affiliation": [],
+      "family": "He",
+      "given": "Zhengyou"
+    },
+    {
+      "affiliation": [],
+      "family": "Fu",
+      "given": "Ling"
+    },
+    {
+      "affiliation": [],
+      "family": "Chen",
+      "given": "Jing"
+    },
+    {
+      "affiliation": [],
+      "family": "Qian",
+      "given": "Qingquan"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Entropy"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:08:37Z",
+    "timestamp": 1466258917000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "e18060214"
+  ],
+  "URL": "http://dx.doi.org/10.3390/e18060214",
+  "ISSN": [
+    "1099-4300"
+  ],
+  "subject": [
+    "Physics and Astronomy (miscellaneous)",
+    "Statistical and Nonlinear Physics"
+  ]
+}

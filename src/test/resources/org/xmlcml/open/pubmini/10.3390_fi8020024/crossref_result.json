@@ -1,0 +1,91 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:40:45Z",
+    "timestamp": 1467474045779
+  },
+  "reference-count": 51,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "DOI": "10.3390/fi8020024",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "24",
+  "source": "CrossRef",
+  "title": [
+    "A Service-Oriented Approach for Dynamic Chaining of Virtual Network Functions over Multi-Provider Software-Defined Networks"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "8",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Martini",
+      "given": "Barbara",
+      "ORCID": "http://orcid.org/0000-0002-0413-591X"
+    },
+    {
+      "affiliation": [],
+      "family": "Paganelli",
+      "given": "Federica"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Future Internet"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:08:36Z",
+    "timestamp": 1467468516000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "fi8020024"
+  ],
+  "URL": "http://dx.doi.org/10.3390/fi8020024",
+  "ISSN": [
+    "1999-5903"
+  ]
+}

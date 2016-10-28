@@ -1,0 +1,121 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T02:41:27Z",
+    "timestamp": 1464835287828
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "DOI": "10.1371/journal.pone.0154626",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:00Z",
+    "timestamp": 1464829020000
+  },
+  "page": "e0154626",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Multilocus Phylogeography of the Treefrog Scinax eurydice (Anura, Hylidae) Reveals a Plio-Pleistocene Diversification in the Atlantic Forest"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Menezes",
+      "given": "Lucas"
+    },
+    {
+      "affiliation": [],
+      "family": "Canedo",
+      "given": "Clarissa"
+    },
+    {
+      "affiliation": [],
+      "family": "Batalha-Filho",
+      "given": "Henrique"
+    },
+    {
+      "affiliation": [],
+      "family": "Garda",
+      "given": "Adrian Antonio"
+    },
+    {
+      "affiliation": [],
+      "family": "Gehara",
+      "given": "Marcelo"
+    },
+    {
+      "affiliation": [],
+      "family": "Napoli",
+      "given": "Marcelo Felgueiras"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:57:01Z",
+    "timestamp": 1464829021000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Peng",
+      "given": "Zuogang"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0154626",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

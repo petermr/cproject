@@ -1,0 +1,106 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:41:32Z",
+    "timestamp": 1467474092090
+  },
+  "reference-count": 70,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/ijms17060852",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "852",
+  "source": "CrossRef",
+  "title": [
+    "Changes in the Arabidopsis thaliana Proteome Implicate cAMP in Biotic and Abiotic Stress Responses and Changes in Energy Metabolism"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "17",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Alqurashi",
+      "given": "May"
+    },
+    {
+      "affiliation": [],
+      "family": "Gehring",
+      "given": "Chris"
+    },
+    {
+      "affiliation": [],
+      "family": "Marondedze",
+      "given": "Claudius",
+      "ORCID": "http://orcid.org/0000-0002-2113-904X"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "IJMS",
+    "International Journal of Molecular Sciences"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:06:05Z",
+    "timestamp": 1467468365000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "ijms17060852"
+  ],
+  "URL": "http://dx.doi.org/10.3390/ijms17060852",
+  "ISSN": [
+    "1422-0067"
+  ],
+  "subject": [
+    "Physical and Theoretical Chemistry",
+    "Inorganic Chemistry",
+    "Organic Chemistry",
+    "Spectroscopy",
+    "Molecular Biology",
+    "Catalysis",
+    "Computer Science Applications"
+  ]
+}

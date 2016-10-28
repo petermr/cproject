@@ -13,10 +13,11 @@
 -->
 
 	<groupId>org.xml-cml</groupId>
-	<artifactId>cmine</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<artifactId>cproject</artifactId>
+	<!-- supersedes versions in args.xml -->
+	<version>0.3.1</version>
 	<packaging>jar</packaging>
-	<name>cmine</name>
+	<name>cproject</name>
 	<description>A Java library for processing arguments and managing contentmine directories</description>
 
 	<licenses>
@@ -97,6 +98,91 @@
 					<header>src/main/resources/header.txt</header>
 				</configuration>
 			</plugin>
+			<!-- include version number in manifest -->
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-jar-plugin</artifactId>
+			    <configuration>
+			        <archive>                   
+			            <manifest>
+			                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+			                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+			            </manifest>
+			        </archive>
+			    </configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>appassembler-maven-plugin</artifactId>
+				<version>1.8.1</version>
+				<configuration>
+
+					<programs>
+ 						<program>
+							<mainClass>org.xmlcml.cproject.PMan</mainClass>
+							<id>pman</id>
+						</program>
+					</programs>
+
+					<!-- Prevent long directories -->
+					<repositoryLayout>flat</repositoryLayout>
+
+				</configuration>
+
+				<executions>
+					<execution>
+						<id>assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>assemble</goal>
+						</goals>
+					</execution>
+				</executions>
+
+			</plugin>
+						<!-- giant jar -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+                                <version>2.4</version>
+				<configuration>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>org.xmlcml.cproject.PMan</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+<!--  command  -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>appassembler-maven-plugin</artifactId>
+				<version>1.8.1</version>
+				<configuration>
+					<programs>
+ 						<program>
+							<mainClass>org.xmlcml.cproject.files.CProject</mainClass>
+							<id>cproject</id>
+						</program>
+					</programs>
+				</configuration>
+			</plugin>
+			
+			
 		</plugins>
 	</build>
 

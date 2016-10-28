@@ -1,0 +1,217 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T04:41:03Z",
+    "timestamp": 1464756063775
+  },
+  "reference-count": 85,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Japan Society for the Promotion of Science",
+      "DOI": "10.13039/501100001691"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Suomen Akatemia",
+      "DOI": "10.13039/501100002341"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "European Cooperation in Science and Technology",
+      "DOI": "10.13039/501100000921"
+    }
+  ],
+  "DOI": "10.3389/fpls.2016.00726",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:08Z",
+    "timestamp": 1464750788000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Osmolality and Non-Structural Carbohydrate Composition in the Secondary Phloem of Trees across a Latitudinal Gradient in Europe"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Lintunen",
+      "given": "Anna"
+    },
+    {
+      "affiliation": [],
+      "family": "Paljakka",
+      "given": "Teemu"
+    },
+    {
+      "affiliation": [],
+      "family": "Jyske",
+      "given": "Tuula"
+    },
+    {
+      "affiliation": [],
+      "family": "Peltoniemi",
+      "given": "Mikko"
+    },
+    {
+      "affiliation": [],
+      "family": "Sterck",
+      "given": "Frank"
+    },
+    {
+      "affiliation": [],
+      "family": "von Arx",
+      "given": "Georg"
+    },
+    {
+      "affiliation": [],
+      "family": "Cochard",
+      "given": "Hervé"
+    },
+    {
+      "affiliation": [],
+      "family": "Copini",
+      "given": "Paul"
+    },
+    {
+      "affiliation": [],
+      "family": "Caldeira",
+      "given": "Maria C."
+    },
+    {
+      "affiliation": [],
+      "family": "Delzon",
+      "given": "Sylvain"
+    },
+    {
+      "affiliation": [],
+      "family": "Gebauer",
+      "given": "Roman"
+    },
+    {
+      "affiliation": [],
+      "family": "Grönlund",
+      "given": "Leila"
+    },
+    {
+      "affiliation": [],
+      "family": "Kiorapostolou",
+      "given": "Natasa"
+    },
+    {
+      "affiliation": [],
+      "family": "Lechthaler",
+      "given": "Silvia"
+    },
+    {
+      "affiliation": [],
+      "family": "Lobo-do-Vale",
+      "given": "Raquel"
+    },
+    {
+      "affiliation": [],
+      "family": "Peters",
+      "given": "Richard L."
+    },
+    {
+      "affiliation": [],
+      "family": "Petit",
+      "given": "Giai"
+    },
+    {
+      "affiliation": [],
+      "family": "Prendin",
+      "given": "Angela L."
+    },
+    {
+      "affiliation": [],
+      "family": "Salmon",
+      "given": "Yann"
+    },
+    {
+      "affiliation": [],
+      "family": "Steppe",
+      "given": "Kathy"
+    },
+    {
+      "affiliation": [],
+      "family": "Urban",
+      "given": "Josef"
+    },
+    {
+      "affiliation": [],
+      "family": "Roig Juan",
+      "given": "Sílvia"
+    },
+    {
+      "affiliation": [],
+      "family": "Robert",
+      "given": "Elisabeth M. R."
+    },
+    {
+      "affiliation": [],
+      "family": "Hölttä",
+      "given": "Teemu"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Plant Science",
+    "Front. Plant Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T03:13:14Z",
+    "timestamp": 1464750794000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpls.2016.00726",
+  "ISSN": [
+    "1664-462X"
+  ]
+}

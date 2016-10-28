@@ -1,0 +1,129 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T15:41:07Z",
+    "timestamp": 1466264467809
+  },
+  "reference-count": 24,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/molecules21060707",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "707",
+  "source": "CrossRef",
+  "title": [
+    "Synthesis and Characterization of New 3-(4-Arylpiperazin-1-yl)-2-hydroxypropyl 4-Propoxybenzoates and Their Hydrochloride Salts"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "21",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Marvanova",
+      "given": "Pavlina"
+    },
+    {
+      "affiliation": [],
+      "family": "Padrtova",
+      "given": "Tereza"
+    },
+    {
+      "affiliation": [],
+      "family": "Pekarek",
+      "given": "Tomas"
+    },
+    {
+      "affiliation": [],
+      "family": "Brus",
+      "given": "Jiri"
+    },
+    {
+      "affiliation": [],
+      "family": "Czernek",
+      "given": "Jiri"
+    },
+    {
+      "affiliation": [],
+      "family": "Mokry",
+      "given": "Petr"
+    },
+    {
+      "affiliation": [],
+      "family": "Humpa",
+      "given": "Otakar"
+    },
+    {
+      "affiliation": [],
+      "family": "Oravec",
+      "given": "Michal"
+    },
+    {
+      "affiliation": [],
+      "family": "Jampilek",
+      "given": "Josef",
+      "ORCID": "http://orcid.org/0000-0003-2003-9052"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Molecules"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2016-06-18T14:06:28Z",
+    "timestamp": 1466258788000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "molecules21060707"
+  ],
+  "URL": "http://dx.doi.org/10.3390/molecules21060707",
+  "ISSN": [
+    "1420-3049"
+  ],
+  "subject": [
+    "Organic Chemistry"
+  ]
+}

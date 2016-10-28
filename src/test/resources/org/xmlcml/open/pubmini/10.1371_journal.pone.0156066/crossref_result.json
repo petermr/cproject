@@ -1,0 +1,134 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T01:41:33Z",
+    "timestamp": 1464831693546
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "6",
+  "funder": [
+    {
+      "award": [
+        "FKZ0315673A; 01EO0801; 01GY1144"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Bundesministerium für Bildung und Forschung",
+      "DOI": "10.13039/501100002347"
+    },
+    {
+      "award": [
+        "Fl- 365 379-8/1; 379-10/1; 379-11/1; DFG-Exc-257"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "DOI": "10.13039/501100001659"
+    }
+  ],
+  "DOI": "10.1371/journal.pone.0156066",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:05Z",
+    "timestamp": 1464828845000
+  },
+  "page": "e0156066",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "cSPider – Evaluation of a Free and Open-Source Automated Tool to Analyze Corticomotor Silent Period"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Wilke",
+      "given": "Skadi"
+    },
+    {
+      "affiliation": [],
+      "family": "Groenveld",
+      "given": "Dennis"
+    },
+    {
+      "affiliation": [],
+      "family": "Grittner",
+      "given": "Ulrike"
+    },
+    {
+      "affiliation": [],
+      "family": "List",
+      "given": "Jonathan"
+    },
+    {
+      "affiliation": [],
+      "family": "Flöel",
+      "given": "Agnes"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:54:15Z",
+    "timestamp": 1464828855000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Tremblay",
+      "given": "François"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0156066",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

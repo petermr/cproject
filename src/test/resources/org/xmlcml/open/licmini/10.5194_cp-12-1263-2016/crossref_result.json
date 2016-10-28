@@ -1,0 +1,137 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T12:41:40Z",
+    "timestamp": 1464784900907
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "NE/J500288/1",
+        "NE/J018562/1"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Natural Environment Research Council",
+      "DOI": "10.13039/501100000270"
+    }
+  ],
+  "DOI": "10.5194/cp-12-1263-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T11:29:42Z",
+    "timestamp": 1464780582000
+  },
+  "page": "1263-1280",
+  "source": "CrossRef",
+  "title": [
+    "Inferring late-Holocene climate in the Ecuadorian Andes using a chironomid-based temperature inference model"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "12",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Matthews-Bird",
+      "given": "Frazer"
+    },
+    {
+      "affiliation": [],
+      "family": "Brooks",
+      "given": "Stephen J."
+    },
+    {
+      "affiliation": [],
+      "family": "Holden",
+      "given": "Philip B."
+    },
+    {
+      "affiliation": [],
+      "family": "Montoya",
+      "given": "Encarni"
+    },
+    {
+      "affiliation": [],
+      "family": "Gosling",
+      "given": "William D."
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Climate of the Past",
+    "Clim. Past"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T11:29:45Z",
+    "timestamp": 1464780585000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/cp-12-1263-2016",
+  "ISSN": [
+    "1814-9332"
+  ],
+  "subject": [
+    "Stratigraphy",
+    "Palaeontology",
+    "Global and Planetary Change"
+  ]
+}

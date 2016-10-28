@@ -1,0 +1,93 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T15:40:47Z",
+    "timestamp": 1467474047698
+  },
+  "reference-count": 89,
+  "publisher": "MDPI AG",
+  "issue": "6",
+  "DOI": "10.3390/en9060427",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2016-06-01T23:22:34Z",
+    "timestamp": 1464823354000
+  },
+  "page": "427",
+  "source": "CrossRef",
+  "title": [
+    "A Criterion for Rating the Usability and Accuracy of the One-Diode Models for Photovoltaic Modules"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "9",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Orioli",
+      "given": "Aldo"
+    },
+    {
+      "affiliation": [],
+      "family": "Di Gangi",
+      "given": "Alessandra"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Energies"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2016-07-02T14:02:46Z",
+    "timestamp": 1467468166000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "en9060427"
+  ],
+  "URL": "http://dx.doi.org/10.3390/en9060427",
+  "ISSN": [
+    "1996-1073"
+  ],
+  "subject": [
+    "Computer Science(all)"
+  ]
+}

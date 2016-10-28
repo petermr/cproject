@@ -1,0 +1,222 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T08:42:33Z",
+    "timestamp": 1464856953500
+  },
+  "reference-count": 45,
+  "publisher": "IOP Publishing",
+  "issue": "13",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Engineering and Physical Sciences Research Council",
+      "DOI": "10.13039/501100000266"
+    },
+    {
+      "award": [],
+      "name": "VR"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        14
+      ]
+    ]
+  },
+  "DOI": "10.1088/0953-4075/49/13/134004",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T00:34:36Z",
+    "timestamp": 1464827676000
+  },
+  "page": "134004",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "The role of antihydrogen formation in the radial transport of antiprotons in positron plasmas"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "49",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Jonsell",
+      "given": "S"
+    },
+    {
+      "affiliation": [],
+      "family": "Charlton",
+      "given": "M"
+    },
+    {
+      "affiliation": [],
+      "family": "Werf",
+      "given": "D P van der"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "J. Phys. B: At. Mol. Opt. Phys.",
+    "Journal of Physics B: Atomic, Molecular and Optical Physics"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/0953-4075/49/i=13/a=134004/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/0953-4075/49/i=13/a=134004?key=crossref.46de8b1c973aec8a61c511e085fdc0b1"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2016-06-02T07:44:38Z",
+    "timestamp": 1464853478000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/0953-4075/49/13/134004",
+  "ISSN": [
+    "0953-4075",
+    "1361-6455"
+  ],
+  "subject": [
+    "Atomic and Molecular Physics, and Optics",
+    "Condensed Matter Physics"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Journal of Physics B: Atomic, Molecular and Optical Physics"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "paper"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "The role of antihydrogen formation in the radial transport of antiprotons in positron plasmas"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2016-02-04"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-05-04"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-06-01"
+    }
+  ]
+}
