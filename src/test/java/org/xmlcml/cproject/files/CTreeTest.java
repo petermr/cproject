@@ -201,7 +201,7 @@ public class CTreeTest {
 		Assert.assertTrue(elementXML.startsWith("<snippetsTree> <snippets file=\"target/glob/pmc4417228/fulltext.xml\">  <kwd>Central Europe</kwd>"));
 		/**
 <snippetsList>
- <snippets file="/Users/pm286/workspace/cmine/target/glob/pmc4417228/fulltext.xml">
+ <snippets file="/Users/pm286/workspace/cproject/target/glob/pmc4417228/fulltext.xml">
   <kwd>Central Europe</kwd>
   <kwd>DPSIR framework</kwd>
   <kwd>Ecosystem functions</kwd>

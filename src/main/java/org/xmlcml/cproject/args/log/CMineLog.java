@@ -74,7 +74,7 @@ public class CMineLog extends AbstractLogElement {
 	private static final String LOG_ELEMENT = "log";
 	
 	public static final String LOG_XML = "log.xml";
-	public final static String CMINE_LOG = "cmine.log.xml";
+	public final static String CMINE_LOG = "cproject.log.xml";
 	private List<CMineLogRecord> recordList;
 	private List<String> csvHeaders;
 

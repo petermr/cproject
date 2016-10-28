@@ -26,7 +26,7 @@ import com.google.gson.JsonArray;
 
 import nu.xom.Element;
 
-/** tests commands under the 'cmine' command
+/** tests commands under the 'cproject' command
  * 
  * @author pm286
  *

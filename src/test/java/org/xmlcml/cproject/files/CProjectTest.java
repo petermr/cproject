@@ -402,7 +402,7 @@ public class CProjectTest {
 	}
 
 	/** files for project2 are:
-	 * /Users/pm286/workspace/cmine/src/test/resources/org/xmlcml/files/projects
+	 * /Users/pm286/workspace/cproject/src/test/resources/org/xmlcml/files/projects
 	 * 
 $ tree project2
 project2

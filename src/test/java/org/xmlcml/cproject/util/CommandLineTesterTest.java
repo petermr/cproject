@@ -20,7 +20,7 @@ public class CommandLineTesterTest {
 		tester.setCommand("pwd");
 		tester.run();
 		String output = tester.getOutputString();
-		Assert.assertEquals("pwd", System.getProperty("user.home")+"/workspace/cmine\n", output);
+		Assert.assertEquals("pwd", System.getProperty("user.home")+"/workspace/cproject\n", output);
 	}
 
 	@Test

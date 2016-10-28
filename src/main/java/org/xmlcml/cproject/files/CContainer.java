@@ -24,7 +24,7 @@ public abstract class CContainer {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	public static final String FILES_RESOURCE = "/org/xmlcml/cmine/files";
+	public static final String FILES_RESOURCE = "/org/xmlcml/cproject/files";
 
 	protected static final String MANIFEST_XML = "manifest.xml";
 	protected static final String LOG_XML = "log.xml";
