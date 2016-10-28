@@ -15,7 +15,7 @@
 	<groupId>org.xml-cml</groupId>
 	<artifactId>cproject</artifactId>
 	<!-- supersedes versions in args.xml -->
-	<version>0.3.1</version>
+	<version>0.3.3</version>
 	<packaging>jar</packaging>
 	<name>cproject</name>
 	<description>A Java library for processing arguments and managing contentmine directories</description>
@@ -233,7 +233,9 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.8.2</version>
+			<!-- 
 			<scope>test</scope>
+			-->
 		</dependency>
 		
 		
