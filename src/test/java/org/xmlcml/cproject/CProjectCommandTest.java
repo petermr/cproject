@@ -378,6 +378,7 @@ may become unnecessary as getpapers and quickscrape are reconciled
 	 * @throws IOException
 	 */
 	@Test
+	@Ignore // too many non-open? files
 	public void testInputOutputUrls1() throws IOException {
 		File source1Dir = new File(CMineFixtures.TEST_OPEN_DIR, "truncated");
 		File inUrls = new File(CMineFixtures.TEST_OPEN_DIR, "truncated/urls.txt");
