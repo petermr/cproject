@@ -1,6 +1,7 @@
 package org.xmlcml.cmine.args;
 
 import java.io.ByteArrayOutputStream;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -979,11 +980,13 @@ public class DefaultArgProcessor {
 				if (methodName != null) {
 					instantiateAndRunMethod(option, methodName);
 				}
+			} catch (IllegalArgumentException ee) {
+				throw ee;
 			} catch (Exception e) {
 				LOG.debug("option in exception "+option.toString());
-				e.printStackTrace();
+//				e.printStackTrace();
 				throw new RuntimeException("cannot run ["+methodName+"] in "+option.getVerbose()+
-						" ("+ExceptionUtils.getRootCauseMessage(e)+")");
+						" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
 			}
 		}
 	}
@@ -1081,8 +1084,10 @@ public class DefaultArgProcessor {
 			try {
 				method.setAccessible(true);
  				method.invoke(this, option);
+			} catch (IllegalArgumentException e) {
+				throw e;
 			} catch (Exception ee) {
-				ee.printStackTrace();
+//				ee.printStackTrace();
 				throw new RuntimeException("invoke "+methodName+" fails", ee);
 			}
 		}
@@ -1147,8 +1152,11 @@ public class DefaultArgProcessor {
 					if (cTreeLog != null) {
 						cTreeLog.writeLog();
 					}
+				} catch (IllegalArgumentException e) {
+					throw e;
 				} catch (Exception e) {
 					projectLog.error("error in running, terminated: "+e);
+					System.err.print("ERR!");
 					continue;
 				}
 				if (i % 10 == 0) System.out.print(".");

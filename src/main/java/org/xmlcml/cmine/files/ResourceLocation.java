@@ -103,7 +103,7 @@ public class ResourceLocation {
 		if (is == null) {
 			try {
 				File f = new File(name);
-				LOG.debug("FFF "+f.getAbsolutePath());
+				LOG.trace("FILE "+f.getAbsolutePath());
 				is = new FileInputStream(name);
 			} catch (FileNotFoundException e) {
 				if (ResourceLocation.ResourceType.FILE.equals(resourceType)) {

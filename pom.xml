@@ -14,7 +14,8 @@
 
 	<groupId>org.xml-cml</groupId>
 	<artifactId>cmine</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<!-- supersedes versions in args.xml -->
+	<version>0.3.0</version>
 	<packaging>jar</packaging>
 	<name>cmine</name>
 	<description>A Java library for processing arguments and managing contentmine directories</description>
@@ -97,7 +98,19 @@
 					<header>src/main/resources/header.txt</header>
 				</configuration>
 			</plugin>
-			
+			<!-- include version number in manifest -->
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-jar-plugin</artifactId>
+			    <configuration>
+			        <archive>                   
+			            <manifest>
+			                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+			                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+			            </manifest>
+			        </archive>
+			    </configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>appassembler-maven-plugin</artifactId>

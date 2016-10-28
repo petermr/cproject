@@ -420,14 +420,28 @@ public class CProject extends CContainer {
 		return summaryResultsElementList == null ? null : summaryResultsElementList.getMultisetSortedByCount();
 	}
 
-	public boolean hasScholarlyHTML() {
+	/** requires all cTrees to have scholarlyHtml
+	 * 
+	 * @param fraction of CTrees that need to have scholarly.html
+	 * @return
+	 */
+	public boolean hasScholarlyHTML(double fractionRequired) {
 		CTreeList cTreeList = this.getResetCTreeList();
+		
+		int hasNot = 0;
+		int total = 0;
 		for (CTree cTree : cTreeList) {
 			if (!cTree.hasScholarlyHTML()) {
-				return false;
+				// if require all, then quit immediately
+				if (Math.abs(fractionRequired - 1.0) > 0.001) {
+					return false;
+				}
+				hasNot++;
 			}
+			total++;
 		}
-		return true;
+		double fractionWithout = (double) hasNot / (double) total;
+		return  fractionWithout <=  (1.0 - fractionRequired);  
 	}
 
 	/** heuristic lists all CProjects under projectTop directory.

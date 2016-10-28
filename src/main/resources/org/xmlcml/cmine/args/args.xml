@@ -1,4 +1,7 @@
-<argList name="cmine" version="0.2.31">
+<argList name="cmine" version="0.3">
+
+  <p>20161028: moved to consistent cmine-norma-ami version and fixed bugs</p>
+
 
   <p>20160526: accumulated changes to support pubstyles</p>
   <p>20160509: more args and refactoring of CTree directories to support conversions</p>

@@ -52,4 +52,16 @@ public class VersionManager {
 	protected String getVersionString() {
 		return ""+name + "("+version+")";
 	}
+	
+	/**
+http://stackoverflow.com/questions/2712970/get-maven-artifact-version-at-runtime
+	 * @return
+	 */
+	public String getVersionNumber() {
+		String version = this.getClass().getPackage().getImplementationVersion();
+		if (version != null) {
+			System.err.println("Version: "+version);
+		}
+		return version;
+	}
 }

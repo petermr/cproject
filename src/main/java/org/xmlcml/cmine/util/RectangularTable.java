@@ -56,16 +56,32 @@ public class RectangularTable {
     	this.clearMaps();
 	}
 
+    /** use default CSV format.
+     * 
+     * @param file
+     * @param useHeader
+     * @return
+     * @throws IOException
+     */
     public final static RectangularTable readTable(File file, boolean useHeader) throws IOException {
+    	return readTable(file, useHeader, CSVFormat.DEFAULT);
+    }
+
+    public final static RectangularTable readTable(File file, boolean useHeader, CSVFormat csvFormat) throws IOException {
     	if (file != null) {
         	String s = FileUtils.readFileToString(file);
         	if (s != null) {
         		StringReader reader = new StringReader(s);
-        		return readTable(reader, useHeader);
+        		return readTable(reader, useHeader, csvFormat);
         	}
     	}
     	return null;
     }
+    
+	public static RectangularTable readTable(Reader reader, boolean useHeader) throws IOException {
+		return readTable(reader, useHeader, CSVFormat.DEFAULT);
+	}
+	
     /**
      * 
      * @param reader
@@ -73,14 +89,20 @@ public class RectangularTable {
      * @return
      * @throws IOException
      */
-	public static RectangularTable readTable(Reader reader, boolean useHeader) throws IOException {
+	public static RectangularTable readTable(Reader reader, boolean useHeader, CSVFormat csvFormat) throws IOException {
 		RectangularTable table = null;
+		int maxRowLength = 0;
 		if (reader != null) {
 			table = new RectangularTable();
-			Iterable<CSVRecord> records = CSVFormat.RFC4180.parse(reader);
+			Iterable<CSVRecord> records = csvFormat.parse(reader);
 			table.rows = new ArrayList<List<String>>();
 			for (CSVRecord record : records) {
 				List<String> values = RectangularTable.getValues(record);
+				if (maxRowLength == 0) {
+					maxRowLength = values.size();
+				} else if (values.size() != maxRowLength) {
+					throw new RuntimeException("Bad row (was "+maxRowLength+", found: "+values.size()+"; "+record);
+				}
 				table.rows.add(values);
 			}
 			if (useHeader) {

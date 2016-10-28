@@ -125,4 +125,14 @@ public class DefaultArgProcessorTest {
 		argProcessor.runAndOutput();
 	}
 	
+	@Test
+	@Ignore
+	public void testGetVersionNumber() {
+		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		VersionManager versionManager = argProcessor.getVersionManager();
+		Assert.assertEquals("version",  "xx", versionManager.getVersionNumber());
+		
+		
+	}
+	
 }
