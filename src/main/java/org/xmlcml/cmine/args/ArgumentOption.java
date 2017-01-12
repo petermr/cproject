@@ -26,6 +26,7 @@ import org.xmlcml.xml.XMLUtil;
  * @author pm286
  *
  */
+@Deprecated
 public class ArgumentOption {
 	private static final String BRIEF = "brief";
 	private static final String LONG = "long";
@@ -252,7 +253,6 @@ public class ArgumentOption {
 			throw new RuntimeException("Unknown attribute on <arg name='"+name+"'>: "+namex+"='"+value+"'");
 		}
 	}
-
 	
 
 	private void setCountRange(String value) {

@@ -21,6 +21,7 @@ import org.xmlcml.euclid.RealRange;
  * @author pm286
  *
  */
+@Deprecated
 public class ArgIterator {
 
 	

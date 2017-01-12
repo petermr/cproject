@@ -1,4 +1,6 @@
-<argList name="cmine" version="0.3.1">
+<argList name="cmine" version="0.3.2"
+  main="">
+  
 
 
   <p>20160410 new AMI-runner (emma)</p>
@@ -33,14 +35,120 @@
   <p>20160112: refactoring to transfer some classes such as searchers to AMI</p>
   <p>20150807: added logfile</p>
 
+	<attributes>
+	  <!--  this constraints and describes the attributes on an argument -->
+		<attribute name="brief">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="long" mandatory="true">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="name" mandatory="true">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="args">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="class" default="java.lang.String">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="default">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="countRange" default="{0,*}">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="valueRange" >
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="finalMethod">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="initMethod">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="outputMethod">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="parseMethod">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+		<attribute name="runMethod">
+			<help>
+				<p>help</p>
+			</help>
+		</attribute>
+	</attributes>
 	
+	<elements>
+	  <!--  this constraints and describes the element children on an argument -->
+	  <element name="help" mandatory="true">
+ 		<help>
+			<p>describes the purpose and use of the argument</p>
+		</help>
+	  </element>
+	  <element name="value">
+ 		<help>
+			<p>additional values that an argument may have. These are usually more complex than 
+			attributes and may be regexes, URLs or other pointers to resource.</p>
+		</help>
+		<attribute name="role" mandatory="true">
+			<help>
+				<p>The purpose of the value</p>
+			</help>
+		</attribute>
+		<attribute name="regex">
+			<help>
+				<p>Syntactic constraints on the value</p>
+			</help>
+		</attribute>
+		<attribute name="url">
+			<help>
+				<p>URL describing the value</p>
+			</help>
+		</attribute>
+		<attribute name="lookup">
+			<help>
+				<p>URL for looking up the value</p>
+			</help>
+		</attribute>
+		<attribute name="className">
+			<help>
+				<p>name of class for validating and transforming the value</p>
+			</help>
+		</attribute>
+	  </element>
+	</elements>
 		
 	<arg name="ctree" 
 		brief="-q"
 		long="--ctree"
 		args="director(ies)"
 		class="org.xmlcml.cmine.files.CTree"
-		countRange="{0,*}"
 		parseMethod="parseCTree"
 		>
 		<help>
@@ -145,9 +253,10 @@
 			<p>output help for all options, including superclass DefaultArgProcessor.</p>
 		</help>
 	</arg>
+	<!-- 
 	<arg 
 	  name="include" 
-	  long="--include" 
+	  long="- -include" 
 	  args="??" 
 	  countRange="{1,1}" 
 	  parseMethod="parseInclude">
@@ -155,6 +264,8 @@
 			<p class="brief">only include files whose patterns match this regex</p>
 		</help>
 	</arg>
+	-->
+	
 	<arg 
 	  name="input" 
 	  brief="-i" 
@@ -194,6 +305,7 @@
 				</p>	  
 		</help>
 	</arg>
+	
 	<arg 
   	  name="log" 
   	  long="--log" 
@@ -209,6 +321,7 @@
 	      may also have <code>log.xml</code> files (referenced in the toplevel <code>log.xml</code>)</p>
 	    </help>
     </arg>
+    
     <arg 
       name="makedocs" 
       long="--makedocs" 
@@ -225,6 +338,7 @@
 	    <p>Minimum count for including results. Not Yet Implemented</p>
 	    </help>
 	</arg>
+	
 	<arg name="output"
 		brief="-o"
 		long="--output"
@@ -257,6 +371,7 @@
 			</p>
 		</help>
 	</arg>
+	
 	<arg 
 	  name="rename" 
 	  long="--rename" 
@@ -266,8 +381,11 @@
 		<help>
 			<p class="brief">renames files in ctree</p>
 			<p>pairs of strings for renaming. <code>.*\\.XML fulltext\\.xml</code> will rename *.XML to fulltext.xml.</p>
+			
+			NOT YET FULLY IMPLEMENTED
 		</help>
 	</arg>
+	
 	<arg 
 	  name="summaryfile" 
 	  long="--summaryfile"
@@ -282,6 +400,7 @@
 			<p class="note">Not fully developed. Some functions provided by --search</p>
 		</help>
 	</arg>
+	
 	<arg 
 	  name="unzip" 
 	  long="--unzip" 
@@ -295,6 +414,7 @@
 			<p>The extracted files may need renaming</p>
 		</help>
 	</arg>
+	
 	<arg name="version"
 		brief="-v"
 		long="--version"

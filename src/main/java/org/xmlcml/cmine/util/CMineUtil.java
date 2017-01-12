@@ -24,10 +24,12 @@ public class CMineUtil {
 	 * @param wordSet
 	 * @return
 	 */
+	@Deprecated // use Euclid MultisetUtil
 	public static Iterable<Multiset.Entry<String>> getEntriesSortedByCount(Multiset<String> wordSet) {
 		return Multisets.copyHighestCountFirst(wordSet).entrySet();
 	}
 
+	@Deprecated // use Euclid MultisetUtil
 	public static Iterable<Entry<String>> getEntriesSortedByValue(Multiset<String> wordSet) {
 		return  ImmutableSortedMultiset.copyOf(wordSet).entrySet();
 	}
