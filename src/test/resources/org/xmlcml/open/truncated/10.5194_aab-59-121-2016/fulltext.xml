@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing with OASIS Tables v3.0 20080202//EN" "journalpub-oasis3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table" dtd-version="3.0">
+  <front>
+    <journal-meta>
+<journal-id journal-id-type="publisher">AAB</journal-id>
+<journal-title-group>
+<journal-title>Archives Animal Breeding</journal-title>
+<abbrev-journal-title abbrev-type="publisher">AAB</abbrev-journal-title>
+<abbrev-journal-title abbrev-type="nlm-ta">Arch. Anim. Breed.</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="epub">2363-9822</issn>
+<publisher><publisher-name>Copernicus Publications</publisher-name>
+<publisher-loc>Göttingen, Germany</publisher-loc>
+</publisher>
+</journal-meta>
+
+    <article-meta>
+      <article-id pub-id-type="doi">10.5194/aab-59-121-2016</article-id><title-group><article-title>The effect of feeding system on slaughter-carcass characteristics,
+meat quality, and fatty acid <?xmltex \hack{\break}?>composition of lambs</article-title>
+      </title-group><?xmltex \runningtitle{The effect of feeding system}?><?xmltex \runningauthor{S.~Karaca et al.}?>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes" rid="aff1">
+          <name><surname>Karaca</surname><given-names>Serhat</given-names></name>
+          <email>serhatkaraca@gmail.com</email><email>skaraca@yyu.edu.tr</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" rid="aff2">
+          <name><surname>Yılmaz</surname><given-names>Ayhan</given-names></name>
+          
+        </contrib>
+        <contrib contrib-type="author" corresp="no" rid="aff1">
+          <name><surname>Kor</surname><given-names>Aşkın</given-names></name>
+          
+        </contrib>
+        <contrib contrib-type="author" corresp="no" rid="aff1">
+          <name><surname>Bingöl</surname><given-names>Mehmet</given-names></name>
+          
+        </contrib>
+        <contrib contrib-type="author" corresp="no" rid="aff3">
+          <name><surname>Cavidoğlu</surname><given-names>İsa</given-names></name>
+          
+        </contrib>
+        <contrib contrib-type="author" corresp="no" rid="aff1">
+          <name><surname>Ser</surname><given-names>Gazel</given-names></name>
+          
+        </contrib>
+        <aff id="aff1"><label>1</label><institution>Department of Animal Sciences, Faculty of Agriculture,
+Yuzuncu Yıl University, 65080 Van, Turkey</institution>
+        </aff>
+        <aff id="aff2"><label>2</label><institution>Department of Animal Sciences, Faculty of Agriculture,
+Siirt University, 56100 Siirt, Turkey</institution>
+        </aff>
+        <aff id="aff3"><label>3</label><institution>Department of Food Engineering, Faculty of Engineering
+and Architecture, <?xmltex \hack{\break}?>Yuzuncu Yıl University, 65080 Van, Turkey</institution>
+        </aff>
+      </contrib-group>
+      <author-notes><corresp id="corr1">Serhat Karaca (serhatkaraca@gmail.com, skaraca@yyu.edu.tr)</corresp></author-notes><pub-date><day>1</day><month>March</month><year>2016</year></pub-date>
+      
+      <volume>59</volume>
+      <issue>1</issue>
+      <fpage>121</fpage><lpage>129</lpage>
+      <history>
+        <date date-type="received"><day>29</day><month>October</month><year>2015</year></date>
+           <date date-type="rev-recd"><day>15</day><month>January</month><year>2016</year></date>
+           <date date-type="accepted"><day>19</day><month>February</month><year>2016</year></date>
+      </history>
+      <permissions>
+<license license-type="open-access">
+<license-p>This work is licensed under a Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit <ext-link ext-link-type="uri"  xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link></license-p>
+</license>
+</permissions><self-uri xlink:href="http://www.arch-anim-breed.net/59/121/2016/aab-59-121-2016.html">This article is available from http://www.arch-anim-breed.net/59/121/2016/aab-59-121-2016.html</self-uri>
+<self-uri xlink:href="http://www.arch-anim-breed.net/59/121/2016/aab-59-121-2016.pdf">The full text article is available as a PDF file from http://www.arch-anim-breed.net/59/121/2016/aab-59-121-2016.pdf</self-uri>
+
+
+      <abstract>
+    <p>In this study, we aimed to determine the slaughter-carcass characteristics,
+meat quality, and fatty acid composition in lambs raised under intensive and
+extensive conditions. The animal material consisted of 30 Norduz male lambs, with an average age of 171 days. The lambs were divided
+into two groups: concentrate-fed lambs (CO) and pasture-fed lambs (PS). The
+results showed that the CO lambs had heavier carcasses (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>),
+a higher dressing percentage (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>), and higher intramuscular
+fat (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.01</mml:mn></mml:mrow></mml:math></inline-formula>) than the PS lambs. It was determined that the
+longissimus thoracis muscle of the CO lambs had a lower ultimate pH and higher <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>L</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> and
+water-holding capacity than the PS lambs. In this study, intramuscular fat
+(longissimus thoracis, semimembranosus, triceps brachii),
+subcutaneous and tail fat samples were used to evaluate the effect of feeding
+system on fatty acid composition. The polyunsaturated fatty acid to saturated fatty acid ratio (PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA) of intramuscular fat
+was found to be significantly higher in the CO group than in the PS lambs,
+while similar subcutaneous and tail fat results were found in both groups. Moreover, the
+PS lambs had a lower n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3 ratio and higher percentage of omega-3 than the
+CO lambs in all tissues studied (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>). Overall, the CO lambs
+have heavier and fattier carcasses with better meat quality traits than the
+PS lambs. However, the effects of feeding system have varying results based
+on the fatty acid composition of different types of fat deposits.</p>
+  </abstract>
+    </article-meta>
+  </front>
+<body>
+      
+
+<sec id="Ch1.S1" sec-type="intro">
+  <title>Introduction</title>
+      <p>Carcass and meat quality are dependent on many factors and one of the most
+important environmental factors amongst these is the feeding system.
+Previous studies that predominantly compared pasture vs. grain feeding
+indicated that growth performance and carcass characteristics (Carrasco
+et al., 2009b; Ripoll et al., 2008), meat quality traits, such as color
+(Priolo et al., 2001; Ripoll et al., 2008), water-holding capacity (WHC)
+(Santos-Silva et al., 2002b), sensory characteristics
+(Duckett et al., 2013; Fisher et al., 2000), fatty acid (FA) profile
+(Karaca and Kor, 2015; Nuernberg et al., 2008), and oxidative stability
+(Popova, 2007), can also be affected by feeding systems. In
+general, pasture-fed lambs have leaner carcasses, lower dressing percentage,
+and more beneficial FAs, whereas concentrate-fed lambs have higher growth
+rates, better carcass conformation, a less problematic ultimate pH, and a
+higher n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3 ratio (Wood et al., 2008; Zervas and Tsiplakou, 2011).</p>
+      <p>Although ruminal biohydrogenation is the main factor in modifying dietary
+unsaturated fatty acids, the n-3 FA content differences between
+pasture and concentrate, in particular, make the feeding system important. The quantity and
+structure of FA intake modulates the metabolism, physiology, and immune
+response in humans, and, therefore, changes in the FA intake affect the risk
+of developing some chronic diseases, particularly cardiovascular diseases.
+Thus, increasing n-3 FA content is the common goal of the strategies to
+improve the lipid profile of meat (Bessa et al., 2015).</p>
+      <p>Pastures plays a very important role in small ruminant breeding and in
+extensive animal feeding, which is common practice in Turkey, where
+supplementation of lambs with commercial concentrate is limited. Norduz is a
+fat-tailed sheep breed native to the Eastern Anatolian province of Van, and
+meat quality and lipid contents have not been studied to date. The aim of
+the present study was to determine the effect of the feeding system on
+slaughter-carcass characteristics, meat quality, and FA profile of
+different types of fat deposits in Norduz lambs.</p>
+</sec>
+<sec id="Ch1.S2">
+  <title>Materials and methods</title>
+<sec id="Ch1.S2.SS1">
+  <title>Animals, diets, and experimental design</title>
+      <p>The study group consisted of 30, single-born, male Norduz lambs. The 30
+lambs (age: 160–185 days; mean: 171 days; live weight: 35.01 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.338 kg)
+were assigned to one of the two dietary regimes: 15 lambs grazed
+on pasture (PS) and 15 lambs were fed with concentrate ration in stall (CO). The
+grazing pasture, populated with multiple species of native plants, was
+located at 38<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>18<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>′</mml:mo></mml:msup></mml:math></inline-formula> N and 42<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>49<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>′</mml:mo></mml:msup></mml:math></inline-formula> E and
+2460 m above sea level. The pasture has also been documented by Beyis (2009),
+who stated that 14.3 % <italic>Poaceae</italic> (grasses) and 13.4 %
+<italic>Fabaceae</italic> (legume) taxa contributed to the floristic composition, with 72.3 % taxa from other plant
+families, from which a hay harvest yielded 955 kg ha<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mrow><mml:mo>-</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula>. For the
+nutrient composition of the pasture, given in Table 1, the values determined
+by Karaca (2010) in the following year for the same pasture were used.
+Each lamb on the concentrate diet was fed with 200 g of alfalfa hay and
+ad libitum concentrate (barley 72.5 %, cotton seed pulp 24.0 %, calcium
+carbonate (CaCO<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi/><mml:mn mathvariant="normal">3</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> 2.4 %, salt (NaCl) 0.5 %, vitamin supplement
+0.5 %, and mineral supplement 0.1 %). The chemical compositions of the
+diets of the lambs are given in Table 1.</p>
+</sec>
+<sec id="Ch1.S2.SS2">
+  <title>Sampling procedures and instrumental analyses</title>
+      <p>All lambs were slaughtered after 12 h of fasting at the end of the fattening
+period of 84 days. After slaughter, the carcasses were stored at
+4 <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C for 24 h. The jointing of carcasses was based on the method
+given by Colomer-Rocher et al. (1987). The longissimus thoracis (LT) muscle
+(6th–13th ribs) was removed from the left side of the carcass at 24 h
+postmortem and used for color, water-holding capacity, proximate and FA
+analyses. In addition to this, the semimembranosus (SM) and triceps brachii (TB)
+muscles, tail fat (TF), and subcutaneous (SC) fat samples were removed from
+each carcass for FA profile determination.</p>
+      <p>Carcass pH was measured at 45 min post-slaughter (pH<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi/><mml:mn>45</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and at 24 h
+post-slaughter (pH<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi/><mml:mn>24</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> using a digital pH meter (Hanna HI 99163N,
+Hanna instruments, Romania) equipped with a penetrating electrode and
+thermometer. The pH was directly measured on the LT muscle between the
+12th and 13th thoracic vertebrae. In order to determine meat
+color, each sample had five measurements, from the fat-free areas, using a
+Lovibond RT-300 portable spectrophotometer (The Tintometer Limited, UK)
+(CIELAB-Illuminant D<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi/><mml:mn>65</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mo>∘</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>) at 24 h post-slaughter. The
+measurements were performed on a freshly cut surface of 2.5 cm thick LT
+(12th–13th ribs) after allowing the muscle surface to bloom in
+the chiller for 45 min. Water-holding capacity (WHC) was determined
+according to Wierbicki and Deatherage (1958), where a 0.5 g
+sample of muscle tissue was placed on filter paper and pressed at
+500 psi min<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mrow><mml:mo>-</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula> between two plexiglass plates. The results were expressed as the
+percentage of free water.</p>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T1"><caption><p>Chemical composition of concentrate and pasture hay.</p></caption><oasis:table frame="topbot"><oasis:tgroup cols="3">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="right"/>
+     <oasis:colspec colnum="3" colname="col3" align="right"/>
+     <oasis:thead>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">Composition</oasis:entry>  
+         <oasis:entry colname="col2">Experimental diet</oasis:entry>  
+         <oasis:entry colname="col3">Pasture hay<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula></oasis:entry>
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>  
+         <oasis:entry colname="col1">Crude protein (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">14.71</oasis:entry>  
+         <oasis:entry colname="col3">10.44</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Ether extract (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">2.30</oasis:entry>  
+         <oasis:entry colname="col3">1.87</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Ash (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">9.42</oasis:entry>  
+         <oasis:entry colname="col3">7.26</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">ADF (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">20.24</oasis:entry>  
+         <oasis:entry colname="col3">29.09</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">NDF (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">38.56</oasis:entry>  
+         <oasis:entry colname="col3">50.47</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Crude fiber</oasis:entry>  
+         <oasis:entry colname="col2">14.18</oasis:entry>  
+         <oasis:entry colname="col3">32.27</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Metabolizable energy</oasis:entry>  
+         <oasis:entry colname="col2">10.94</oasis:entry>  
+         <oasis:entry colname="col3">9.93</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">(MJ kg DM<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mrow><mml:mo>-</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula>)</oasis:entry>  
+         <oasis:entry colname="col2"/>  
+         <oasis:entry colname="col3"/>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col3">Fatty acid composition (fatty acids, %) </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C10:0</oasis:entry>  
+         <oasis:entry colname="col2">0.02</oasis:entry>  
+         <oasis:entry colname="col3">0.04</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C12:0</oasis:entry>  
+         <oasis:entry colname="col2">0.13</oasis:entry>  
+         <oasis:entry colname="col3">0.65</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C14:0</oasis:entry>  
+         <oasis:entry colname="col2">0.78</oasis:entry>  
+         <oasis:entry colname="col3">2.01</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C14:1</oasis:entry>  
+         <oasis:entry colname="col2">0.09</oasis:entry>  
+         <oasis:entry colname="col3">0.30</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C15:0</oasis:entry>  
+         <oasis:entry colname="col2">0.04</oasis:entry>  
+         <oasis:entry colname="col3">0.25</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C15:1</oasis:entry>  
+         <oasis:entry colname="col2">0.40</oasis:entry>  
+         <oasis:entry colname="col3">0.23</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C16:0</oasis:entry>  
+         <oasis:entry colname="col2">21.58</oasis:entry>  
+         <oasis:entry colname="col3">23.09</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C16:1</oasis:entry>  
+         <oasis:entry colname="col2">0.37</oasis:entry>  
+         <oasis:entry colname="col3">0.88</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C17:0</oasis:entry>  
+         <oasis:entry colname="col2">0.14</oasis:entry>  
+         <oasis:entry colname="col3">0.77</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:0</oasis:entry>  
+         <oasis:entry colname="col2">2.75</oasis:entry>  
+         <oasis:entry colname="col3">3.91</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:1</oasis:entry>  
+         <oasis:entry colname="col2">18.20</oasis:entry>  
+         <oasis:entry colname="col3">12.29</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:2</oasis:entry>  
+         <oasis:entry colname="col2">46.93</oasis:entry>  
+         <oasis:entry colname="col3">15.73</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:3</oasis:entry>  
+         <oasis:entry colname="col2">6.53</oasis:entry>  
+         <oasis:entry colname="col3">32.71</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C20:0</oasis:entry>  
+         <oasis:entry colname="col2">0.11</oasis:entry>  
+         <oasis:entry colname="col3">0.26</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C20:1</oasis:entry>  
+         <oasis:entry colname="col2">0.58</oasis:entry>  
+         <oasis:entry colname="col3">nd</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Others</oasis:entry>  
+         <oasis:entry colname="col2">1.35</oasis:entry>  
+         <oasis:entry colname="col3">6.88</oasis:entry>
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup></oasis:table><table-wrap-foot><p><inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula> by Karaca (2010); nd: not detected; DM: dry matter.</p></table-wrap-foot></table-wrap>
+
+      <p>Longissimus muscle samples were vacuum-packed and frozen to <inline-formula><mml:math display="inline"><mml:mrow><mml:mo>-</mml:mo><mml:mn>18</mml:mn></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C for use
+in chemical analysis. The samples were then thawed overnight, preceding the
+start of the analysis, and minced and homogenized. The nutrient content was
+analyzed according to AOAC (2000) by homogenizing the samples and
+measuring dry matter, ash, fat, and protein content (moisture: 950.46; ash: 920.153; fat: 960.39 (determined using ether extraction);
+protein: 928.08 (determined using the Kjeldahl method)). Neutral detergent fiber
+(NDF) and acid detergent fiber (ADF) contents of feed samples were
+determined according to Van Soest and Robertson (1979).</p>
+      <p>Fatty acid analysis was performed on samples that had been stored at
+<inline-formula><mml:math display="inline"><mml:mrow><mml:mo>-</mml:mo><mml:mn>18</mml:mn></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C for 1 month and then allowed to thaw overnight at
+4 <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C. Fat samples that were used included SC (from above the
+6th–12th chop) and TF, and intramuscular fat taken from the LT,
+SM, and TB muscle samples. Muscle (25 g) or fat (2 g) were homogenized with
+chloroform–methanol (2 : 1, <inline-formula><mml:math display="inline"><mml:mrow><mml:mi>v</mml:mi><mml:mo>/</mml:mo><mml:mi>v</mml:mi></mml:mrow></mml:math></inline-formula>), and total lipids were extracted according
+to the procedure described by Folch et al. (1957); methylation was performed as described previously by Basturk et al. (2007).
+FA composition was determined by gas chromatography (Agilent 6890 N,
+Agilent Technology, USA) equipped with a flame ionization detector and a
+polar capillary column (DB-23, Agilent Technology, USA; 60 m <inline-formula><mml:math display="inline"><mml:mo>×</mml:mo></mml:math></inline-formula> 0.25 mm I.D.,
+0.25 <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">µ</mml:mi></mml:math></inline-formula>m). Helium was used as the carrier gas (1.5 mL min<inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi/><mml:mrow><mml:mo>-</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula>. The
+oven temperature was programmed at 120 <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C for 5 min, increased to 240 <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C at a rate of 15 <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C min<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mrow><mml:mo>-</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula>
+and held at 240 <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C for 20 min. FA methyl esters
+were identified by matching their retention times with those of their
+relative standards (Supelco 37 component FAME Mix, Sigma-Aldrich Co., USA).
+Moreover, the fatty acid composition of feed samples was determined
+according to the official EEC (1991) method (2568/91).</p>
+</sec>
+<sec id="Ch1.S2.SS3">
+  <title>Indices and sums calculations</title>
+      <p>The saturated fatty acids (SFAs), monounsaturated fatty acids (MUFAs) and
+polyunsaturated fatty acids (PUFAs) were calculated with the following Eqs. (1–3):
+
+                <disp-formula specific-use="align" content-type="numbered"><mml:math display="block"><mml:mtable displaystyle="true"><mml:mlabeledtr id="Ch1.E1"><mml:mtd/><mml:mtd><mml:mrow><mml:mtext>SFA</mml:mtext><mml:mo>=</mml:mo></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>C</mml:mtext><mml:mtext>10:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>12:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>14:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>15:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>16:0</mml:mtext></mml:mrow></mml:mtd></mml:mlabeledtr><mml:mtr><mml:mtd/><mml:mtd><mml:mrow><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>17:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>18:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>20:0</mml:mtext><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+
+                <disp-formula specific-use="align" content-type="numbered"><mml:math display="block"><mml:mtable displaystyle="true"><mml:mlabeledtr id="Ch1.E2"><mml:mtd/><mml:mtd><mml:mrow><mml:mtext>MUFA</mml:mtext><mml:mo>=</mml:mo></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>C</mml:mtext><mml:mtext>14:1</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>15:1</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>16:1</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>17:1</mml:mtext></mml:mrow></mml:mtd></mml:mlabeledtr><mml:mtr><mml:mtd/><mml:mtd><mml:mrow><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>18:1</mml:mtext><mml:mtext>n</mml:mtext><mml:mtext>-9</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>20:1</mml:mtext><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+
+                <disp-formula id="Ch1.E3" content-type="numbered"><mml:math display="block"><mml:mrow><mml:mtext>PUFA</mml:mtext><mml:mo>=</mml:mo></mml:mrow><mml:mrow><mml:mtext>C</mml:mtext><mml:mtext>18:2</mml:mtext><mml:mtext>n</mml:mtext><mml:mtext>-6</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>18:3</mml:mtext><mml:mtext>n</mml:mtext><mml:mtext>-6</mml:mtext><mml:mo>(</mml:mo><mml:mi mathvariant="italic">γ</mml:mi><mml:mo>)</mml:mo><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>18:3</mml:mtext><mml:mtext>n</mml:mtext><mml:mtext>-3</mml:mtext><mml:mo>(</mml:mo><mml:mi mathvariant="italic">α</mml:mi><mml:mo>)</mml:mo><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula></p>
+      <p>The desirable fatty acids (DFAs) were calculating according to Huerta-Leidenz
+et al. (1991) with the following Eq. (4):
+
+                <disp-formula id="Ch1.E4" content-type="numbered"><mml:math display="block"><mml:mrow><mml:mtext>DFA</mml:mtext><mml:mo>=</mml:mo><mml:mtext>Total unsaturated fatty acids</mml:mtext><mml:mspace width="0.25em" linebreak="nobreak"/><mml:mo>(</mml:mo><mml:mtext>TUFA</mml:mtext><mml:mo>)</mml:mo><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>18:0</mml:mtext><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula></p>
+      <p>Activities of desaturase activity indices were calculated according to
+Juárez et al. (2008) with the following Eqs. (5) and (6):
+
+                <disp-formula specific-use="align" content-type="numbered"><mml:math display="block"><mml:mtable displaystyle="true"><mml:mlabeledtr id="Ch1.E5"><mml:mtd/><mml:mtd/><mml:mtd><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mn mathvariant="normal">9</mml:mn><mml:mtext>DS</mml:mtext><mml:mo>(</mml:mo><mml:mtext>C</mml:mtext><mml:mn>16</mml:mn><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mn>100</mml:mn><mml:mo>×</mml:mo><mml:mfenced close="]" open="["><mml:mtext>C</mml:mtext><mml:mtext>16:1</mml:mtext><mml:mo>/</mml:mo><mml:mo>(</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>16:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>16:1</mml:mtext><mml:mo>)</mml:mo></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mlabeledtr><mml:mlabeledtr id="Ch1.E6"><mml:mtd/><mml:mtd/><mml:mtd><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mn mathvariant="normal">9</mml:mn><mml:mtext>DS</mml:mtext><mml:mo>(</mml:mo><mml:mtext>C</mml:mtext><mml:mn>18</mml:mn><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mn>100</mml:mn><mml:mo>×</mml:mo><mml:mfenced close="]" open="["><mml:mtext>C</mml:mtext><mml:mtext>18:1</mml:mtext><mml:mo>/</mml:mo><mml:mo>(</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>18:0</mml:mtext><mml:mo>+</mml:mo><mml:mtext>C</mml:mtext><mml:mtext>18:1</mml:mtext><mml:mo>)</mml:mo></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mlabeledtr></mml:mtable></mml:math></disp-formula></p>
+</sec>
+<sec id="Ch1.S2.SS4">
+  <title>Statistical analyses</title>
+      <p>One-way analysis of variance was performed using the Minitab 13.0 software
+program. Except for FAs, data were analyzed according to the following
+Eq. (7):
+            <disp-formula id="Ch1.E7" content-type="numbered"><mml:math display="block"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="italic">μ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula>
+          <?xmltex \hack{\newpage}?>The FA composition of different anatomical regions, in both PS and CO
+groups, was examined using the Eq. (8):
+            <disp-formula id="Ch1.E8" content-type="numbered"><mml:math display="block"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="italic">μ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mo>(</mml:mo><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:msub><mml:mo>)</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>
+          where <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> is the value of the examined characteristic for the
+<inline-formula><mml:math display="inline"><mml:mi>k</mml:mi></mml:math></inline-formula>th animal in the <inline-formula><mml:math display="inline"><mml:mi>j</mml:mi></mml:math></inline-formula>th anatomical region from the <inline-formula><mml:math display="inline"><mml:mi>i</mml:mi></mml:math></inline-formula>th feeding
+system; <inline-formula><mml:math display="inline"><mml:mi mathvariant="italic">μ</mml:mi></mml:math></inline-formula> is the overall mean; <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula> is the fixed effect of feeding
+system (<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula>: concentrate or pasture); <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>b</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula> is the fixed effect of
+anatomical region (<inline-formula><mml:math display="inline"><mml:mi>j</mml:mi></mml:math></inline-formula>: SC, TF, LT, SM, and TB); <inline-formula><mml:math display="inline"><mml:mrow><mml:mo>(</mml:mo><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:msub><mml:mo>)</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> is the interaction
+of the effects; and <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> is the random error. The principal
+component analysis was performed using the multivariate subsection of
+Minitab 13.0.</p>
+</sec>
+</sec>
+<sec id="Ch1.S3">
+  <title>Results and discussion</title>
+<sec id="Ch1.S3.SS1">
+  <title>Slaughter-carcass traits and meat quality</title>
+      <p>The results of slaughter traits for lambs raised under different feeding
+systems are given in Table 2. It was determined that the CO group had a
+higher slaughter and carcass weight than the PS group at the end of the
+fattening period. The dressing percentages were found to be lower in the PS
+lambs rather than the CO lambs. It has been frequently reported (Karaca and
+Kor, 2015; Priolo et al., 2002) that pasture-fed lambs have lower dressing
+percentages than concentrate-fed lambs, and this is thought to be related to the
+differences in the gastrointestinal content and fattening level of the
+feeding groups. Papi et al. (2011) reported that lambs fed low-energy and
+high-fiber diets had a higher digestive system content than those fed
+high-energy diets. The CO lambs had significantly higher omental–mesenteric
+fat (226.3 vs. 118.49 g; <inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>) and kidney-knob and channel
+fat (175.0 vs. 114.4 g; <inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>) than the PS lambs (data not
+shown in the table), whereas the percentages of fat recorded at the slaughter
+and cold carcass weights were found to be similar between the two groups
+(Table 2). The weights of the non-carcass parts, such as feet, which
+correlate with poor body growth, were greater in the PS lambs than the CO
+lambs and are consistent with those reported by Moron-Fuenmayor and Clavero
+(1999).</p>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T2"><caption><p>Means for slaughter and carcass traits of concentrate (CO) and
+pasture lambs (PS).</p></caption><oasis:table frame="topbot"><?xmltex \begin{scaleboxenv}{0.9}[0.9]?><oasis:tgroup cols="4">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="right"/>
+     <oasis:colspec colnum="3" colname="col3" align="right"/>
+     <oasis:colspec colnum="4" colname="col4" align="right"/>
+     <oasis:thead>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2">CO (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>15</mml:mn></mml:mrow></mml:math></inline-formula>)</oasis:entry>  
+         <oasis:entry colname="col3">PS (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>13</mml:mn></mml:mrow></mml:math></inline-formula>)</oasis:entry>  
+         <oasis:entry colname="col4"><inline-formula><mml:math display="inline"><mml:mi>p</mml:mi></mml:math></inline-formula></oasis:entry>
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>  
+         <oasis:entry colname="col1">Slaughter weight (kg)</oasis:entry>  
+         <oasis:entry colname="col2">54.82 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.438</oasis:entry>  
+         <oasis:entry colname="col3">40.70 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.444</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Hot carcass (kg)</oasis:entry>  
+         <oasis:entry colname="col2">27.18 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.318</oasis:entry>  
+         <oasis:entry colname="col3">17.91 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.447</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">Dressing percentage (%)</oasis:entry>  
+         <oasis:entry colname="col2">49.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.363</oasis:entry>  
+         <oasis:entry colname="col3">43.97 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.779</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col4">Proportions in slaughter weight ( %) </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Head</oasis:entry>  
+         <oasis:entry colname="col2">5.61 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.099</oasis:entry>  
+         <oasis:entry colname="col3">5.87 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.193</oasis:entry>  
+         <oasis:entry colname="col4">0.197</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Four feet</oasis:entry>  
+         <oasis:entry colname="col2">2.03 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.035</oasis:entry>  
+         <oasis:entry colname="col3">2.34 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.024</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Skin</oasis:entry>  
+         <oasis:entry colname="col2">12.62 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.258</oasis:entry>  
+         <oasis:entry colname="col3">12.15 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.322</oasis:entry>  
+         <oasis:entry colname="col4">0.259</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Omental–mesenteric fat</oasis:entry>  
+         <oasis:entry colname="col2">0.38 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.077</oasis:entry>  
+         <oasis:entry colname="col3">0.29 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.032</oasis:entry>  
+         <oasis:entry colname="col4">0.336</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Heart–lung–liver</oasis:entry>  
+         <oasis:entry colname="col2">4.02 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.058</oasis:entry>  
+         <oasis:entry colname="col3">4.07 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.079</oasis:entry>  
+         <oasis:entry colname="col4">0.576</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Spleen</oasis:entry>  
+         <oasis:entry colname="col2">0.24 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.016</oasis:entry>  
+         <oasis:entry colname="col3">0.28 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.040</oasis:entry>  
+         <oasis:entry colname="col4">0.324</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Cold carcass (kg)</oasis:entry>  
+         <oasis:entry colname="col2">26.68 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.304</oasis:entry>  
+         <oasis:entry colname="col3">17.55 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.434</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">Chilling loss (%)</oasis:entry>  
+         <oasis:entry colname="col2">1.85 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.217</oasis:entry>  
+         <oasis:entry colname="col3">2.00 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.216</oasis:entry>  
+         <oasis:entry colname="col4">0.638</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col4">Proportions in cold carcass ( %) </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Testes</oasis:entry>  
+         <oasis:entry colname="col2">1.56 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.103</oasis:entry>  
+         <oasis:entry colname="col3">1.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.158</oasis:entry>  
+         <oasis:entry colname="col4">0.971</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Kidneys</oasis:entry>  
+         <oasis:entry colname="col2">0.52 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.016</oasis:entry>  
+         <oasis:entry colname="col3">0.64 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.024</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Kidney-knob channel fat</oasis:entry>  
+         <oasis:entry colname="col2">0.65 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.069</oasis:entry>  
+         <oasis:entry colname="col3">0.65 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.071</oasis:entry>  
+         <oasis:entry colname="col4">0.985</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Tail fat</oasis:entry>  
+         <oasis:entry colname="col2">16.04 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.941</oasis:entry>  
+         <oasis:entry colname="col3">13.15 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.728</oasis:entry>  
+         <oasis:entry colname="col4">0.037</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">Left half carcass (kg)</oasis:entry>  
+         <oasis:entry colname="col2">11.12 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.183</oasis:entry>  
+         <oasis:entry colname="col3">7.86 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.110</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col4">Proportions in left half carcass (%) </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Foreleg</oasis:entry>  
+         <oasis:entry colname="col2">17.72 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.217</oasis:entry>  
+         <oasis:entry colname="col3">19.35 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.329</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Hind leg</oasis:entry>  
+         <oasis:entry colname="col2">33.11 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.549</oasis:entry>  
+         <oasis:entry colname="col3">34.41 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.401</oasis:entry>  
+         <oasis:entry colname="col4">0.098</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Neck</oasis:entry>  
+         <oasis:entry colname="col2">8.60 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.374</oasis:entry>  
+         <oasis:entry colname="col3">8.13 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.479</oasis:entry>  
+         <oasis:entry colname="col4">0.448</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Flank</oasis:entry>  
+         <oasis:entry colname="col2">13.29 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.443</oasis:entry>  
+         <oasis:entry colname="col3">12.67 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.422</oasis:entry>  
+         <oasis:entry colname="col4">0.347</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Back loin</oasis:entry>  
+         <oasis:entry colname="col2">20.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.735</oasis:entry>  
+         <oasis:entry colname="col3">19.62 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.601</oasis:entry>  
+         <oasis:entry colname="col4">0.233</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">Shoulder</oasis:entry>  
+         <oasis:entry colname="col2">5.98 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.263</oasis:entry>  
+         <oasis:entry colname="col3">5.79 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.280</oasis:entry>  
+         <oasis:entry colname="col4">0.635</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col4">Commercial categories (%) </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">First quality</oasis:entry>  
+         <oasis:entry colname="col2">59.99 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.693</oasis:entry>  
+         <oasis:entry colname="col3">59.83 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.849</oasis:entry>  
+         <oasis:entry colname="col4">0.887</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Second quality</oasis:entry>  
+         <oasis:entry colname="col2">17.72 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.217</oasis:entry>  
+         <oasis:entry colname="col3">19.35 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.329</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Third quality</oasis:entry>  
+         <oasis:entry colname="col2">21.90 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.554</oasis:entry>  
+         <oasis:entry colname="col3">20.82 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.679</oasis:entry>  
+         <oasis:entry colname="col4">0.228</oasis:entry>
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup><?xmltex \end{scaleboxenv}?></oasis:table><?xmltex \begin{scaleboxenv}{0.9}[0.9]?><table-wrap-foot><p>First quality: hind leg, back loin and shoulder; second quality: foreleg; third quality: neck and flank.</p></table-wrap-foot><?xmltex \end{scaleboxenv}?></table-wrap>
+
+      <p>Meat quality traits of CO and PS lambs are presented in Table 3. Although
+pH<inline-formula><mml:math display="inline"><mml:msub><mml:mi/><mml:mrow><mml:mn>45</mml:mn><mml:mspace width="0.125em" linebreak="nobreak"/><mml:mi mathvariant="normal">min</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> results were similar between groups, PS lambs had
+significantly higher pH<inline-formula><mml:math display="inline"><mml:msub><mml:mi/><mml:mrow><mml:mn>24</mml:mn><mml:mspace linebreak="nobreak" width="0.125em"/><mml:mi mathvariant="normal">h</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> than CO lambs. The ultimate high pH in PS
+lambs can be related to higher muscle activity and a low-energy diet in
+these lambs compared to CO lambs. Some studies have also shown that
+increases in metabolic energy of the diet result in parallel increases in
+the muscle glycogen content (Immonen et al., 2000).
+Further results (Duckett et al., 2013; Karaca and Kor, 2015) also support
+the abovementioned findings, and the ultimate pH was higher in the lambs
+fed on pasture than lambs fed with a high-energy diet. However, it was
+reported by different researchers that the different feeding systems had limited effects,
+particularly on pH, as well as on the WHC and tenderness of the meat (Diaz et al., 2002; Sanudo et al., 2007).</p>
+      <p>The ultimate pH of meat has a determining role in the meat color, and high
+ultimate pH results in a darker color compared to a lower pH
+(Sanudo et al., 2007). Comparable to these reports, PS lambs
+in our study, with a high ultimate pH, had lower luminosity (<inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>L</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>) (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>) compared to CO lambs. Similar to our findings,
+research has shown that the meat color in PS lambs is darker than that in
+CO lambs (Diaz et al., 2002; Karaca and Kor, 2015; Priolo et al., 2002). In
+addition, Minchin et al. (2009) reported that
+the brighter appearance of meat from cows fed with high-energy diets can be
+due to the changes caused in reflectance values by increased fat deposition.
+However, Priolo et al. (2001) reported that the meat color
+was darker in pasture-fed lambs, even in conditions where fat deposition was
+high, when compared to concentrate-fed lambs.</p>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T3"><caption><p>Means for meat quality traits of concentrate (CO) and pasture lambs
+(PS).</p></caption><oasis:table frame="topbot"><?xmltex \begin{scaleboxenv}{0.85}[0.85]?><oasis:tgroup cols="4">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="right"/>
+     <oasis:colspec colnum="3" colname="col3" align="right"/>
+     <oasis:colspec colnum="4" colname="col4" align="right"/>
+     <oasis:thead>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2">CO (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>15</mml:mn></mml:mrow></mml:math></inline-formula>)</oasis:entry>  
+         <oasis:entry colname="col3">PS (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>13</mml:mn></mml:mrow></mml:math></inline-formula>)</oasis:entry>  
+         <oasis:entry colname="col4"><inline-formula><mml:math display="inline"><mml:mi>p</mml:mi></mml:math></inline-formula></oasis:entry>
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>  
+         <oasis:entry colname="col1">pH<inline-formula><mml:math display="inline"><mml:msub><mml:mi/><mml:mrow><mml:mn>45</mml:mn><mml:mspace width="0.125em" linebreak="nobreak"/><mml:mi mathvariant="normal">min</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">6.42 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.044</oasis:entry>  
+         <oasis:entry colname="col3">6.44 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.047</oasis:entry>  
+         <oasis:entry colname="col4">0.778</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">pH <inline-formula><mml:math display="inline"><mml:msub><mml:mi/><mml:mrow><mml:mn>24</mml:mn><mml:mspace linebreak="nobreak" width="0.125em"/><mml:mi mathvariant="normal">h</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">5.94 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.061</oasis:entry>  
+         <oasis:entry colname="col3">6.15 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.020</oasis:entry>  
+         <oasis:entry colname="col4">0.002</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>L</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">38.07 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.315</oasis:entry>  
+         <oasis:entry colname="col3">34.53 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.685</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>a</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">21.53 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.365</oasis:entry>  
+         <oasis:entry colname="col3">20.36 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.653</oasis:entry>  
+         <oasis:entry colname="col4">0.107</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>b</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">6.71 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.320</oasis:entry>  
+         <oasis:entry colname="col3">5.33 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.390</oasis:entry>  
+         <oasis:entry colname="col4">0.012</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>C</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">22.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.415</oasis:entry>  
+         <oasis:entry colname="col3">21.06 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.717</oasis:entry>  
+         <oasis:entry colname="col4">0.063</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>h</mml:mi><mml:mo>∘</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">17.24 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.646</oasis:entry>  
+         <oasis:entry colname="col3">14.56 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.680</oasis:entry>  
+         <oasis:entry colname="col4">0.011</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">WHC (percentage of free water)</oasis:entry>  
+         <oasis:entry colname="col2">34.91 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.616</oasis:entry>  
+         <oasis:entry colname="col3">37.39 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.962</oasis:entry>  
+         <oasis:entry colname="col4">0.250</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">Nutrient matter (%)</oasis:entry>  
+         <oasis:entry colname="col2"/>  
+         <oasis:entry colname="col3"/>  
+         <oasis:entry colname="col4"/>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Moisture</oasis:entry>  
+         <oasis:entry colname="col2">74.98 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.219</oasis:entry>  
+         <oasis:entry colname="col3">78.54 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.271</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Protein</oasis:entry>  
+         <oasis:entry colname="col2">20.97 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.274</oasis:entry>  
+         <oasis:entry colname="col3">18.92 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.308</oasis:entry>  
+         <oasis:entry colname="col4">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"> (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">83.86 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.961</oasis:entry>  
+         <oasis:entry colname="col3">88.18 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.745</oasis:entry>  
+         <oasis:entry colname="col4">0.004</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Ether extract</oasis:entry>  
+         <oasis:entry colname="col2">3.16 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.324</oasis:entry>  
+         <oasis:entry colname="col3">1.68 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.208</oasis:entry>  
+         <oasis:entry colname="col4">0.002</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"> (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">12.58 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.238</oasis:entry>  
+         <oasis:entry colname="col3">7.80 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.949</oasis:entry>  
+         <oasis:entry colname="col4">0.010</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Ash</oasis:entry>  
+         <oasis:entry colname="col2">0.87 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.022</oasis:entry>  
+         <oasis:entry colname="col3">0.84 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.021</oasis:entry>  
+         <oasis:entry colname="col4">0.445</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"> (% DM)</oasis:entry>  
+         <oasis:entry colname="col2">3.50 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.092</oasis:entry>  
+         <oasis:entry colname="col3">3.96 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.116</oasis:entry>  
+         <oasis:entry colname="col4">0.005</oasis:entry>
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup><?xmltex \end{scaleboxenv}?></oasis:table><?xmltex \begin{scaleboxenv}{0.85}[0.85]?><table-wrap-foot><p>DM: dry matter; <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>L</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>: lightness,
+<inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>a</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>: redness, <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>b</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>: yellowness, <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>C</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>: chroma, <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>h</mml:mi><mml:mo>∘</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>: hue
+angle.</p></table-wrap-foot><?xmltex \end{scaleboxenv}?></table-wrap>
+
+      <p>Another important consideration in the pasture-fed lambs is the redness of
+meat or the <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>a</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> value. It was reported that the <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>a</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> value was higher in
+pasture-fed lambs than in concentrate-fed lambs (Carrasco et al.,
+2009a; Ripoll et al., 2008). The high <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>a</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> value is associated with raised
+pigmentation depending on increased muscle activity and live weight of the
+lambs (Ripoll et al., 2008; Sanudo et al., 2007; Carrasco et al., 2009a).
+In our study, no significant difference with respect to the <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>a</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> value could
+be found between the CO and PS lambs. Thus, it can be suggested that
+increases in the <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>a</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> values due to high slaughter weight of CO lambs may lead
+to similar results in these groups. In addition to this, meat yellowness
+(<inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>b</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>) and saturation (<inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>h</mml:mi><mml:mo>∘</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula>) values were significantly higher in CO
+lambs than in PS lambs (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>) (Table 3). The high ultimate pH of
+PS lambs had a negative effect on meat color parameters and plays an
+important role in the variance between <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>b</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math display="inline"><mml:mrow><mml:msup><mml:mi>h</mml:mi><mml:mo>∘</mml:mo></mml:msup></mml:mrow></mml:math></inline-formula> values.</p>
+      <p>It was determined that the percentage of free water was lower and WHC was better
+in the CO lambs than in the PS lambs (Table 3).
+Santos-Silva et al. (2002b) reported similar results.
+However, Diaz et al. (2002) found no difference in WHC
+in concentrate- and pasture-fed lambs. It is also known that in meats with a
+higher ultimate pH, the WHC increases (Sanudo et al., 2007).
+However, in our study, the PS lambs had a higher ultimate pH than the CO
+lambs, which had a lower WHC. It seems that the higher fat deposition
+recorded in the CO group affected the results of WHC.</p>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T4" specific-use="star"><caption><p>Least square means for percentage of fatty acids in depot fat
+(subcutaneous (SC) and tail fat (TF)) of concentrate (CO) and pasture lambs (PS).</p></caption><oasis:table frame="topbot"><oasis:tgroup cols="8">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="center"/>
+     <oasis:colspec colnum="3" colname="col3" align="center" colsep="1"/>
+     <oasis:colspec colnum="4" colname="col4" align="center"/>
+     <oasis:colspec colnum="5" colname="col5" align="center" colsep="1"/>
+     <oasis:colspec colnum="6" colname="col6" align="right"/>
+     <oasis:colspec colnum="7" colname="col7" align="right"/>
+     <oasis:colspec colnum="8" colname="col8" align="right"/>
+     <oasis:thead>
+       <oasis:row>  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry rowsep="1" namest="col2" nameend="col3">SC </oasis:entry>  
+         <oasis:entry rowsep="1" namest="col4" nameend="col5">TF </oasis:entry>  
+         <oasis:entry rowsep="1" namest="col6" nameend="col8" align="center"><inline-formula><mml:math display="inline"><mml:mi>p</mml:mi></mml:math></inline-formula></oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2">CO</oasis:entry>  
+         <oasis:entry colname="col3">PS</oasis:entry>  
+         <oasis:entry colname="col4">CO</oasis:entry>  
+         <oasis:entry colname="col5">PS</oasis:entry>  
+         <oasis:entry colname="col6">Feeding</oasis:entry>  
+         <oasis:entry colname="col7">Anatomical</oasis:entry>  
+         <oasis:entry colname="col8">FS <inline-formula><mml:math display="inline"><mml:mo>×</mml:mo></mml:math></inline-formula> AL</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2"/>  
+         <oasis:entry colname="col3"/>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6">system (FS)</oasis:entry>  
+         <oasis:entry colname="col7">location (AL)</oasis:entry>  
+         <oasis:entry colname="col8"/>
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>  
+         <oasis:entry colname="col1">C10:0</oasis:entry>  
+         <oasis:entry colname="col2">0.30 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.063</oasis:entry>  
+         <oasis:entry colname="col3">0.22 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.078</oasis:entry>  
+         <oasis:entry colname="col4">0.33 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.063</oasis:entry>  
+         <oasis:entry colname="col5">0.45 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.078</oasis:entry>  
+         <oasis:entry colname="col6">0.800</oasis:entry>  
+         <oasis:entry colname="col7">0.078</oasis:entry>  
+         <oasis:entry colname="col8">0.196</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C12:0</oasis:entry>  
+         <oasis:entry colname="col2">0.16 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.027</oasis:entry>  
+         <oasis:entry colname="col3">0.18 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.034</oasis:entry>  
+         <oasis:entry colname="col4">0.25 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.027</oasis:entry>  
+         <oasis:entry colname="col5">0.29 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.034</oasis:entry>  
+         <oasis:entry colname="col6">0.384</oasis:entry>  
+         <oasis:entry colname="col7">0.004</oasis:entry>  
+         <oasis:entry colname="col8">0.812</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C14:0</oasis:entry>  
+         <oasis:entry colname="col2">3.29 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.187</oasis:entry>  
+         <oasis:entry colname="col3">3.03 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.230</oasis:entry>  
+         <oasis:entry colname="col4">3.72 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.187</oasis:entry>  
+         <oasis:entry colname="col5">3.90 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.230</oasis:entry>  
+         <oasis:entry colname="col6">0.839</oasis:entry>  
+         <oasis:entry colname="col7">0.003</oasis:entry>  
+         <oasis:entry colname="col8">0.304</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C14:1</oasis:entry>  
+         <oasis:entry colname="col2">2.75 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.165</oasis:entry>  
+         <oasis:entry colname="col3">1.67 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.202</oasis:entry>  
+         <oasis:entry colname="col4">2.81 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.165</oasis:entry>  
+         <oasis:entry colname="col5">2.53 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.202</oasis:entry>  
+         <oasis:entry colname="col6">0.001</oasis:entry>  
+         <oasis:entry colname="col7">0.016</oasis:entry>  
+         <oasis:entry colname="col8">0.037</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C15:0</oasis:entry>  
+         <oasis:entry colname="col2">1.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.090</oasis:entry>  
+         <oasis:entry colname="col3">1.07 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.110</oasis:entry>  
+         <oasis:entry colname="col4">1.86 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.090</oasis:entry>  
+         <oasis:entry colname="col5">1.43 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.110</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">0.105</oasis:entry>  
+         <oasis:entry colname="col8">0.063</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C15:1</oasis:entry>  
+         <oasis:entry colname="col2">1.19 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.099</oasis:entry>  
+         <oasis:entry colname="col3">0.66 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.121</oasis:entry>  
+         <oasis:entry colname="col4">1.11 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.099</oasis:entry>  
+         <oasis:entry colname="col5">1.31 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.121</oasis:entry>  
+         <oasis:entry colname="col6">0.143</oasis:entry>  
+         <oasis:entry colname="col7">0.013</oasis:entry>  
+         <oasis:entry colname="col8">0.002</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C16:0</oasis:entry>  
+         <oasis:entry colname="col2">24.42 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.584</oasis:entry>  
+         <oasis:entry colname="col3">20.77 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.716</oasis:entry>  
+         <oasis:entry colname="col4">22.81 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.584</oasis:entry>  
+         <oasis:entry colname="col5">18.06 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.716</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">0.002</oasis:entry>  
+         <oasis:entry colname="col8">0.407</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C16:1</oasis:entry>  
+         <oasis:entry colname="col2">5.24 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.231</oasis:entry>  
+         <oasis:entry colname="col3">3.58 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.283</oasis:entry>  
+         <oasis:entry colname="col4">5.86 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.231</oasis:entry>  
+         <oasis:entry colname="col5">5.27 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.283</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.044</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C17:0</oasis:entry>  
+         <oasis:entry colname="col2">3.52 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.157</oasis:entry>  
+         <oasis:entry colname="col3">2.74 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.193</oasis:entry>  
+         <oasis:entry colname="col4">2.79 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.157</oasis:entry>  
+         <oasis:entry colname="col5">2.55 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.193</oasis:entry>  
+         <oasis:entry colname="col6">0.006</oasis:entry>  
+         <oasis:entry colname="col7">0.012</oasis:entry>  
+         <oasis:entry colname="col8">0.125</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C17:1</oasis:entry>  
+         <oasis:entry colname="col2">2.51 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.174</oasis:entry>  
+         <oasis:entry colname="col3">1.53 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.214</oasis:entry>  
+         <oasis:entry colname="col4">2.92 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.174</oasis:entry>  
+         <oasis:entry colname="col5">2.80 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.214</oasis:entry>  
+         <oasis:entry colname="col6">0.007</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.032</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:0</oasis:entry>  
+         <oasis:entry colname="col2">12.78 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.673</oasis:entry>  
+         <oasis:entry colname="col3">21.21 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.825</oasis:entry>  
+         <oasis:entry colname="col4">8.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.673</oasis:entry>  
+         <oasis:entry colname="col5">11.25 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.825</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:1n9<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">35.60 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.581</oasis:entry>  
+         <oasis:entry colname="col3">35.90 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.711</oasis:entry>  
+         <oasis:entry colname="col4">38.95 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.581</oasis:entry>  
+         <oasis:entry colname="col5">40.89 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.711</oasis:entry>  
+         <oasis:entry colname="col6">0.092</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.214</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:2n6<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">4.44 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.209</oasis:entry>  
+         <oasis:entry colname="col3">3.59 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.256</oasis:entry>  
+         <oasis:entry colname="col4">4.89 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.209</oasis:entry>  
+         <oasis:entry colname="col5">4.68 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.256</oasis:entry>  
+         <oasis:entry colname="col6">0.029</oasis:entry>  
+         <oasis:entry colname="col7">0.002</oasis:entry>  
+         <oasis:entry colname="col8">0.175</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:3n6 (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="italic">γ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">0.12 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.018</oasis:entry>  
+         <oasis:entry colname="col3">0.17 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.022</oasis:entry>  
+         <oasis:entry colname="col4">0.09 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.018</oasis:entry>  
+         <oasis:entry colname="col5">0.19 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.022</oasis:entry>  
+         <oasis:entry colname="col6">0.001</oasis:entry>  
+         <oasis:entry colname="col7">0.826</oasis:entry>  
+         <oasis:entry colname="col8">0.197</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:3n3 (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="italic">α</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">0.68 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.074</oasis:entry>  
+         <oasis:entry colname="col3">1.64 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.091</oasis:entry>  
+         <oasis:entry colname="col4">0.98 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.074</oasis:entry>  
+         <oasis:entry colname="col5">1.63 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.091</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">0.077</oasis:entry>  
+         <oasis:entry colname="col8">0.074</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C20:0</oasis:entry>  
+         <oasis:entry colname="col2">0.39 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.059</oasis:entry>  
+         <oasis:entry colname="col3">0.65 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.072</oasis:entry>  
+         <oasis:entry colname="col4">0.51 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.059</oasis:entry>  
+         <oasis:entry colname="col5">0.67 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.072</oasis:entry>  
+         <oasis:entry colname="col6">0.003</oasis:entry>  
+         <oasis:entry colname="col7">0.300</oasis:entry>  
+         <oasis:entry colname="col8">0.450</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">C20:1</oasis:entry>  
+         <oasis:entry colname="col2">0.64 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.073</oasis:entry>  
+         <oasis:entry colname="col3">1.33 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.090</oasis:entry>  
+         <oasis:entry colname="col4">1.16 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.073</oasis:entry>  
+         <oasis:entry colname="col5">2.04 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.090</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.250</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col8">Sums </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">SFA</oasis:entry>  
+         <oasis:entry colname="col2">46.79 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.998</oasis:entry>  
+         <oasis:entry colname="col3">49.90 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.223</oasis:entry>  
+         <oasis:entry colname="col4">41.19 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.998</oasis:entry>  
+         <oasis:entry colname="col5">38.63 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.223</oasis:entry>  
+         <oasis:entry colname="col6">0.806</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.014</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">MUFA</oasis:entry>  
+         <oasis:entry colname="col2">47.95 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.855</oasis:entry>  
+         <oasis:entry colname="col3">44.69 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.047</oasis:entry>  
+         <oasis:entry colname="col4">52.83 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.855</oasis:entry>  
+         <oasis:entry colname="col5">54.86 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.047</oasis:entry>  
+         <oasis:entry colname="col6">0.520</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.008</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">PUFA</oasis:entry>  
+         <oasis:entry colname="col2">5.25 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.250</oasis:entry>  
+         <oasis:entry colname="col3">5.40 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.306</oasis:entry>  
+         <oasis:entry colname="col4">5.97 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.250</oasis:entry>  
+         <oasis:entry colname="col5">6.51 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.306</oasis:entry>  
+         <oasis:entry colname="col6">0.224</oasis:entry>  
+         <oasis:entry colname="col7">0.002</oasis:entry>  
+         <oasis:entry colname="col8">0.485</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">DFA</oasis:entry>  
+         <oasis:entry colname="col2">66.00 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.678</oasis:entry>  
+         <oasis:entry colname="col3">71.31 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.830</oasis:entry>  
+         <oasis:entry colname="col4">67.70 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.678</oasis:entry>  
+         <oasis:entry colname="col5">72.63 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.830</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">0.053</oasis:entry>  
+         <oasis:entry colname="col8">0.805</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col8">Indexes </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mn mathvariant="normal">9</mml:mn></mml:mrow></mml:math></inline-formula>DS(C16)</oasis:entry>  
+         <oasis:entry colname="col2">17.68 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.889</oasis:entry>  
+         <oasis:entry colname="col3">14.75 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.089</oasis:entry>  
+         <oasis:entry colname="col4">20.55 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.889</oasis:entry>  
+         <oasis:entry colname="col5">22.80 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.089</oasis:entry>  
+         <oasis:entry colname="col6">0.731</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.012</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mn mathvariant="normal">9</mml:mn></mml:mrow></mml:math></inline-formula>DS(C18)</oasis:entry>  
+         <oasis:entry colname="col2">73.67 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.090</oasis:entry>  
+         <oasis:entry colname="col3">63.02 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.335</oasis:entry>  
+         <oasis:entry colname="col4">81.51 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.090</oasis:entry>  
+         <oasis:entry colname="col5">78.44 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.335</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.003</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col8">Ratios </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA</oasis:entry>  
+         <oasis:entry colname="col2">0.11 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.008</oasis:entry>  
+         <oasis:entry colname="col3">0.10 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.010</oasis:entry>  
+         <oasis:entry colname="col4">0.14 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.008</oasis:entry>  
+         <oasis:entry colname="col5">0.17 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.010</oasis:entry>  
+         <oasis:entry colname="col6">0.272</oasis:entry>  
+         <oasis:entry colname="col7">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col8">0.121</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3</oasis:entry>  
+         <oasis:entry colname="col2">7.82 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.414</oasis:entry>  
+         <oasis:entry colname="col3">2.35 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.507</oasis:entry>  
+         <oasis:entry colname="col4">5.09 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.414</oasis:entry>  
+         <oasis:entry colname="col5">3.00 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.507</oasis:entry>  
+         <oasis:entry colname="col6">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col7">0.030</oasis:entry>  
+         <oasis:entry colname="col8">0.001</oasis:entry>
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup></oasis:table><table-wrap-foot><p><inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula> Sum of the cis and trans isomers. SFA: saturated fatty acids; MUFA: monounsaturated fatty acids; PUFA:
+polyunsaturated fatty acids; <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9DS(18): <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9-desaturase (C18)
+index; <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9DS(16): <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9-desaturase (C16) index.</p></table-wrap-foot></table-wrap>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T5" specific-use="star"><caption><p>Least square means for percentage of fatty acids in intramuscular
+fat (longissimus thoracis, LT; semimembranosus, SM; triceps brachii, TB) of concentrate (CO) and pasture lambs (PS).</p></caption><oasis:table frame="topbot"><?xmltex \begin{scaleboxenv}{0.85}[0.85]?><oasis:tgroup cols="10">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="center"/>
+     <oasis:colspec colnum="3" colname="col3" align="center" colsep="1"/>
+     <oasis:colspec colnum="4" colname="col4" align="center"/>
+     <oasis:colspec colnum="5" colname="col5" align="center" colsep="1"/>
+     <oasis:colspec colnum="6" colname="col6" align="center"/>
+     <oasis:colspec colnum="7" colname="col7" align="center" colsep="1"/>
+     <oasis:colspec colnum="8" colname="col8" align="right"/>
+     <oasis:colspec colnum="9" colname="col9" align="right"/>
+     <oasis:colspec colnum="10" colname="col10" align="right"/>
+     <oasis:thead>
+       <oasis:row>  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry rowsep="1" namest="col2" nameend="col3">LT </oasis:entry>  
+         <oasis:entry rowsep="1" namest="col4" nameend="col5">SM </oasis:entry>  
+         <oasis:entry rowsep="1" namest="col6" nameend="col7">TB </oasis:entry>  
+         <oasis:entry rowsep="1" namest="col8" nameend="col10" align="center"><inline-formula><mml:math display="inline"><mml:mi>P</mml:mi></mml:math></inline-formula></oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2">CO</oasis:entry>  
+         <oasis:entry colname="col3">PS</oasis:entry>  
+         <oasis:entry colname="col4">CO</oasis:entry>  
+         <oasis:entry colname="col5">PS</oasis:entry>  
+         <oasis:entry colname="col6">CO</oasis:entry>  
+         <oasis:entry colname="col7">PS</oasis:entry>  
+         <oasis:entry colname="col8">Feeding</oasis:entry>  
+         <oasis:entry colname="col9">Anatomical</oasis:entry>  
+         <oasis:entry colname="col10">FS <inline-formula><mml:math display="inline"><mml:mo>×</mml:mo></mml:math></inline-formula> AL</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2"/>  
+         <oasis:entry colname="col3"/>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6"/>  
+         <oasis:entry colname="col7"/>  
+         <oasis:entry colname="col8">system (FS)</oasis:entry>  
+         <oasis:entry colname="col9">location (AL)</oasis:entry>  
+         <oasis:entry colname="col10"/>
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>  
+         <oasis:entry colname="col1">Fat (%)</oasis:entry>  
+         <oasis:entry colname="col2">3.22 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.283</oasis:entry>  
+         <oasis:entry colname="col3">1.68 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.335</oasis:entry>  
+         <oasis:entry colname="col4">3.03 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.305</oasis:entry>  
+         <oasis:entry colname="col5">2.13 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.432</oasis:entry>  
+         <oasis:entry colname="col6">3.60 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.305</oasis:entry>  
+         <oasis:entry colname="col7">2.87 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.353</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.044</oasis:entry>  
+         <oasis:entry colname="col10">0.411</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C10:0</oasis:entry>  
+         <oasis:entry colname="col2">1.18 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.320</oasis:entry>  
+         <oasis:entry colname="col3">0.20 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.378</oasis:entry>  
+         <oasis:entry colname="col4">1.13 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.332</oasis:entry>  
+         <oasis:entry colname="col5">0.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.488</oasis:entry>  
+         <oasis:entry colname="col6">1.17 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.332</oasis:entry>  
+         <oasis:entry colname="col7">1.09 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.399</oasis:entry>  
+         <oasis:entry colname="col8">0.164</oasis:entry>  
+         <oasis:entry colname="col9">0.458</oasis:entry>  
+         <oasis:entry colname="col10">0.419</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C12:0</oasis:entry>  
+         <oasis:entry colname="col2">0.11 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.037</oasis:entry>  
+         <oasis:entry colname="col3">0.19 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.044</oasis:entry>  
+         <oasis:entry colname="col4">0.16 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.039</oasis:entry>  
+         <oasis:entry colname="col5">0.34 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.057</oasis:entry>  
+         <oasis:entry colname="col6">0.17 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.039</oasis:entry>  
+         <oasis:entry colname="col7">0.31 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.047</oasis:entry>  
+         <oasis:entry colname="col8">0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.038</oasis:entry>  
+         <oasis:entry colname="col10">0.550</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C14:0</oasis:entry>  
+         <oasis:entry colname="col2">2.03 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.237</oasis:entry>  
+         <oasis:entry colname="col3">2.76 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.280</oasis:entry>  
+         <oasis:entry colname="col4">2.16 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.246</oasis:entry>  
+         <oasis:entry colname="col5">2.61 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.362</oasis:entry>  
+         <oasis:entry colname="col6">2.97 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.246</oasis:entry>  
+         <oasis:entry colname="col7">2.95 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.295</oasis:entry>  
+         <oasis:entry colname="col8">0.096</oasis:entry>  
+         <oasis:entry colname="col9">0.066</oasis:entry>  
+         <oasis:entry colname="col10">0.365</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C14:1</oasis:entry>  
+         <oasis:entry colname="col2">0.40 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.109</oasis:entry>  
+         <oasis:entry colname="col3">0.41 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.130</oasis:entry>  
+         <oasis:entry colname="col4">0.30 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.114</oasis:entry>  
+         <oasis:entry colname="col5">0.87 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.167</oasis:entry>  
+         <oasis:entry colname="col6">0.56 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.114</oasis:entry>  
+         <oasis:entry colname="col7">0.91 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.137</oasis:entry>  
+         <oasis:entry colname="col8">0.005</oasis:entry>  
+         <oasis:entry colname="col9">0.033</oasis:entry>  
+         <oasis:entry colname="col10">0.100</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C15:0</oasis:entry>  
+         <oasis:entry colname="col2">0.35 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.062</oasis:entry>  
+         <oasis:entry colname="col3">0.63 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.073</oasis:entry>  
+         <oasis:entry colname="col4">0.40 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.064</oasis:entry>  
+         <oasis:entry colname="col5">0.44 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.095</oasis:entry>  
+         <oasis:entry colname="col6">0.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.064</oasis:entry>  
+         <oasis:entry colname="col7">0.69 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.077</oasis:entry>  
+         <oasis:entry colname="col8">0.019</oasis:entry>  
+         <oasis:entry colname="col9">0.023</oasis:entry>  
+         <oasis:entry colname="col10">0.261</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C15:1</oasis:entry>  
+         <oasis:entry colname="col2">0.15 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.032</oasis:entry>  
+         <oasis:entry colname="col3">0.23 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.038</oasis:entry>  
+         <oasis:entry colname="col4">0.13 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.033</oasis:entry>  
+         <oasis:entry colname="col5">0.21 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.049</oasis:entry>  
+         <oasis:entry colname="col6">0.24 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.033</oasis:entry>  
+         <oasis:entry colname="col7">0.34 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.040</oasis:entry>  
+         <oasis:entry colname="col8">0.010</oasis:entry>  
+         <oasis:entry colname="col9">0.007</oasis:entry>  
+         <oasis:entry colname="col10">0.926</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C16:0</oasis:entry>  
+         <oasis:entry colname="col2">20.48 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.553</oasis:entry>  
+         <oasis:entry colname="col3">19.95 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.655</oasis:entry>  
+         <oasis:entry colname="col4">17.73 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.574</oasis:entry>  
+         <oasis:entry colname="col5">18.78 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.845</oasis:entry>  
+         <oasis:entry colname="col6">19.80 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.574</oasis:entry>  
+         <oasis:entry colname="col7">19.36 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.690</oasis:entry>  
+         <oasis:entry colname="col8">0.960</oasis:entry>  
+         <oasis:entry colname="col9">0.017</oasis:entry>  
+         <oasis:entry colname="col10">0.438</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C16:1</oasis:entry>  
+         <oasis:entry colname="col2">1.71 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.177</oasis:entry>  
+         <oasis:entry colname="col3">2.05 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.209</oasis:entry>  
+         <oasis:entry colname="col4">2.06 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.183</oasis:entry>  
+         <oasis:entry colname="col5">1.37 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.270</oasis:entry>  
+         <oasis:entry colname="col6">2.38 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.183</oasis:entry>  
+         <oasis:entry colname="col7">1.92 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.221</oasis:entry>  
+         <oasis:entry colname="col8">0118</oasis:entry>  
+         <oasis:entry colname="col9">0.128</oasis:entry>  
+         <oasis:entry colname="col10">0.038</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C17:0</oasis:entry>  
+         <oasis:entry colname="col2">1.29 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.138</oasis:entry>  
+         <oasis:entry colname="col3">1.92 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.163</oasis:entry>  
+         <oasis:entry colname="col4">1.63 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.143</oasis:entry>  
+         <oasis:entry colname="col5">2.39 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.211</oasis:entry>  
+         <oasis:entry colname="col6">1.28 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.143</oasis:entry>  
+         <oasis:entry colname="col7">2.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.172</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.035</oasis:entry>  
+         <oasis:entry colname="col10">0.095</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C17:1</oasis:entry>  
+         <oasis:entry colname="col2">0.51 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.081</oasis:entry>  
+         <oasis:entry colname="col3">0.75 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.096</oasis:entry>  
+         <oasis:entry colname="col4">0.67 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.084</oasis:entry>  
+         <oasis:entry colname="col5">0.89 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.124</oasis:entry>  
+         <oasis:entry colname="col6">0.71 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.084</oasis:entry>  
+         <oasis:entry colname="col7">0.70 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.101</oasis:entry>  
+         <oasis:entry colname="col8">0.060</oasis:entry>  
+         <oasis:entry colname="col9">0.337</oasis:entry>  
+         <oasis:entry colname="col10">0.368</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:0</oasis:entry>  
+         <oasis:entry colname="col2">22.05 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.905</oasis:entry>  
+         <oasis:entry colname="col3">25.40 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.071</oasis:entry>  
+         <oasis:entry colname="col4">20.63 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.939</oasis:entry>  
+         <oasis:entry colname="col5">26.83 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.383</oasis:entry>  
+         <oasis:entry colname="col6">19.42 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.939</oasis:entry>  
+         <oasis:entry colname="col7">25.50 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.129</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.387</oasis:entry>  
+         <oasis:entry colname="col10">0.302</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:1n9<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">37.50 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.802</oasis:entry>  
+         <oasis:entry colname="col3">35.87 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.949</oasis:entry>  
+         <oasis:entry colname="col4">39.46 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.832</oasis:entry>  
+         <oasis:entry colname="col5">30.34 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.225</oasis:entry>  
+         <oasis:entry colname="col6">38.74 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.832</oasis:entry>  
+         <oasis:entry colname="col7">31.15 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.998</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.092</oasis:entry>  
+         <oasis:entry colname="col10">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:2n6<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">7.18 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.401</oasis:entry>  
+         <oasis:entry colname="col3">5.83 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.475</oasis:entry>  
+         <oasis:entry colname="col4">8.32 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.417</oasis:entry>  
+         <oasis:entry colname="col5">5.48 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.614</oasis:entry>  
+         <oasis:entry colname="col6">7.40 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.417</oasis:entry>  
+         <oasis:entry colname="col7">5.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.501</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.714</oasis:entry>  
+         <oasis:entry colname="col10">0.267</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:3n6(<inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="italic">γ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">0.72 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.129</oasis:entry>  
+         <oasis:entry colname="col3">0.16 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.153</oasis:entry>  
+         <oasis:entry colname="col4">0.61 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.134</oasis:entry>  
+         <oasis:entry colname="col5">0.94 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.197</oasis:entry>  
+         <oasis:entry colname="col6">0.64 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.134</oasis:entry>  
+         <oasis:entry colname="col7">0.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.161</oasis:entry>  
+         <oasis:entry colname="col8">0.422</oasis:entry>  
+         <oasis:entry colname="col9">0.100</oasis:entry>  
+         <oasis:entry colname="col10">0.020</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C18:3n3(<inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="italic">α</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">2.39 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.261</oasis:entry>  
+         <oasis:entry colname="col3">1.99 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.308</oasis:entry>  
+         <oasis:entry colname="col4">2.91 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.270</oasis:entry>  
+         <oasis:entry colname="col5">5.19 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.398</oasis:entry>  
+         <oasis:entry colname="col6">2.02 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.270</oasis:entry>  
+         <oasis:entry colname="col7">3.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.325</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">&lt; 0.031</oasis:entry>  
+         <oasis:entry colname="col10">&lt; 0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">C20:0</oasis:entry>  
+         <oasis:entry colname="col2">0.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.123</oasis:entry>  
+         <oasis:entry colname="col3">0.71 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.146</oasis:entry>  
+         <oasis:entry colname="col4">0.64 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.128</oasis:entry>  
+         <oasis:entry colname="col5">1.08 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.189</oasis:entry>  
+         <oasis:entry colname="col6">0.54 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.128</oasis:entry>  
+         <oasis:entry colname="col7">0.81 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.154</oasis:entry>  
+         <oasis:entry colname="col8">0.023</oasis:entry>  
+         <oasis:entry colname="col9">0.310</oasis:entry>  
+         <oasis:entry colname="col10">0.606</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">C20:1</oasis:entry>  
+         <oasis:entry colname="col2">1.29 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.214</oasis:entry>  
+         <oasis:entry colname="col3">0.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.253</oasis:entry>  
+         <oasis:entry colname="col4">0.98 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.222</oasis:entry>  
+         <oasis:entry colname="col5">1.29 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.327</oasis:entry>  
+         <oasis:entry colname="col6">1.30 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.222</oasis:entry>  
+         <oasis:entry colname="col7">1.30 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.267</oasis:entry>  
+         <oasis:entry colname="col8">0.885</oasis:entry>  
+         <oasis:entry colname="col9">0.659</oasis:entry>  
+         <oasis:entry colname="col10">0.369</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col10">Sums </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">SFA</oasis:entry>  
+         <oasis:entry colname="col2">48.10 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.028</oasis:entry>  
+         <oasis:entry colname="col3">51.79 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.216</oasis:entry>  
+         <oasis:entry colname="col4">44.51 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.066</oasis:entry>  
+         <oasis:entry colname="col5">53.38 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.570</oasis:entry>  
+         <oasis:entry colname="col6">45.97 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.066</oasis:entry>  
+         <oasis:entry colname="col7">53.32 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.282</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.719</oasis:entry>  
+         <oasis:entry colname="col10">0.095</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">MUFA</oasis:entry>  
+         <oasis:entry colname="col2">41.59 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.855</oasis:entry>  
+         <oasis:entry colname="col3">40.21 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.011</oasis:entry>  
+         <oasis:entry colname="col4">43.63 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.887</oasis:entry>  
+         <oasis:entry colname="col5">35.00 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.306</oasis:entry>  
+         <oasis:entry colname="col6">43.95 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.887</oasis:entry>  
+         <oasis:entry colname="col7">36.34 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.066</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.308</oasis:entry>  
+         <oasis:entry colname="col10">0.001</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">PUFA</oasis:entry>  
+         <oasis:entry colname="col2">10.30 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.550</oasis:entry>  
+         <oasis:entry colname="col3">7.99 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.651</oasis:entry>  
+         <oasis:entry colname="col4">11.86 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.571</oasis:entry>  
+         <oasis:entry colname="col5">11.62 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.840</oasis:entry>  
+         <oasis:entry colname="col6">10.07 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.571</oasis:entry>  
+         <oasis:entry colname="col7">10.33 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.686</oasis:entry>  
+         <oasis:entry colname="col8">0.158</oasis:entry>  
+         <oasis:entry colname="col9">0.001</oasis:entry>  
+         <oasis:entry colname="col10">0.098</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">DFA</oasis:entry>  
+         <oasis:entry colname="col2">73.95 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.713</oasis:entry>  
+         <oasis:entry colname="col3">73.60 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.843</oasis:entry>  
+         <oasis:entry colname="col4">76.12 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.740</oasis:entry>  
+         <oasis:entry colname="col5">73.45 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.089</oasis:entry>  
+         <oasis:entry colname="col6">73.46 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.740</oasis:entry>  
+         <oasis:entry colname="col7">72.18 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.889</oasis:entry>  
+         <oasis:entry colname="col8">0.043</oasis:entry>  
+         <oasis:entry colname="col9">0.089</oasis:entry>  
+         <oasis:entry colname="col10">0.407</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col10">Indexes </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mn mathvariant="normal">9</mml:mn></mml:mrow></mml:math></inline-formula>DS(C16)</oasis:entry>  
+         <oasis:entry colname="col2">7.64 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.681</oasis:entry>  
+         <oasis:entry colname="col3">9.21 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.806</oasis:entry>  
+         <oasis:entry colname="col4">10.36 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.707</oasis:entry>  
+         <oasis:entry colname="col5">6.42 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.040</oasis:entry>  
+         <oasis:entry colname="col6">10.74 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.707</oasis:entry>  
+         <oasis:entry colname="col7">8.85 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.849</oasis:entry>  
+         <oasis:entry colname="col8">0.036</oasis:entry>  
+         <oasis:entry colname="col9">0.138</oasis:entry>  
+         <oasis:entry colname="col10">0.004</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"><inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mn mathvariant="normal">9</mml:mn></mml:mrow></mml:math></inline-formula>DS(C18)</oasis:entry>  
+         <oasis:entry colname="col2">63.00 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.306</oasis:entry>  
+         <oasis:entry colname="col3">58.57 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.546</oasis:entry>  
+         <oasis:entry colname="col4">65.75 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.356</oasis:entry>  
+         <oasis:entry colname="col5">53.16 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.995</oasis:entry>  
+         <oasis:entry colname="col6">66.72 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.356</oasis:entry>  
+         <oasis:entry colname="col7">54.98 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 1.629</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.628</oasis:entry>  
+         <oasis:entry colname="col10">0.015</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col10">Ratios </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA</oasis:entry>  
+         <oasis:entry colname="col2">0.22 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.015</oasis:entry>  
+         <oasis:entry colname="col3">0.15 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.018</oasis:entry>  
+         <oasis:entry colname="col4">0.26 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.016</oasis:entry>  
+         <oasis:entry colname="col5">0.21 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.024</oasis:entry>  
+         <oasis:entry colname="col6">0.22 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.016</oasis:entry>  
+         <oasis:entry colname="col7">0.19 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.019</oasis:entry>  
+         <oasis:entry colname="col8">0.003</oasis:entry>  
+         <oasis:entry colname="col9">0.019</oasis:entry>  
+         <oasis:entry colname="col10">0.545</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3</oasis:entry>  
+         <oasis:entry colname="col2">3.88 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.357</oasis:entry>  
+         <oasis:entry colname="col3">3.34 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.423</oasis:entry>  
+         <oasis:entry colname="col4">3.24 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.371</oasis:entry>  
+         <oasis:entry colname="col5">1.31 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.546</oasis:entry>  
+         <oasis:entry colname="col6">4.34 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.371</oasis:entry>  
+         <oasis:entry colname="col7">1.87 <inline-formula><mml:math display="inline"><mml:mo>±</mml:mo></mml:math></inline-formula> 0.446</oasis:entry>  
+         <oasis:entry colname="col8">&lt; 0.001</oasis:entry>  
+         <oasis:entry colname="col9">0.012</oasis:entry>  
+         <oasis:entry colname="col10">0.054</oasis:entry>
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup><?xmltex \end{scaleboxenv}?></oasis:table><?xmltex \begin{scaleboxenv}{0.85}[0.85]?><table-wrap-foot><p><inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>*</mml:mo></mml:msup></mml:math></inline-formula> Sum of the cis and trans isomers. SFA: saturated fatty acids; MUFA: monounsaturated fatty acids; PUFA:
+polyunsaturated fatty acids; <?xmltex \hack{\newline}?><inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9DS(18): <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9-desaturase (C18)
+index; <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9DS(16): <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9-desaturase (C16) index.</p></table-wrap-foot><?xmltex \end{scaleboxenv}?></table-wrap>
+
+      <p>The production system was also found to have an important effect on the
+nutritional content of the meat in the present study (Table 3). The moisture
+content in meat was found to be higher in PS lambs than in CO lambs (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>), while the protein and fat content was higher in CO lambs.
+It should be noted that the dry matter content also varied between the
+groups due to differences in the moisture content of the nutrients. When
+these results were evaluated on the basis of dry matter (DM %), protein and ash were found to be higher in the PS lambs. In similar studies, it was
+determined that the moisture content was higher in the pasture-fed lambs
+than in the concentrate-fed lambs, while the fat content was lower
+(Karaca and Kor, 2015; Rowe et al., 1999).</p>
+</sec>
+<sec id="Ch1.S3.SS2">
+  <title>FA composition of adipose tissue</title>
+      <p>In ruminants, most dietary unsaturated FAs are hydrolyzed and then form saturated FAs, and this process varies significantly depending on the
+biohydrogenation activity (Wood et al., 2008; Zervas and Tsiplakou, 2011).
+Comparing the effects of the feeding system in terms of the percentages of
+C16:0 and C18:0 FA in depot fats, it can be observed that the percentage of
+C16:0 was higher in the CO lambs, whereas the percentage of C18:0 was higher
+in the PS lambs (Table 4). In terms of the intramuscular fat in CO and PS
+lambs, the percentage of C18:0 was found to be higher in the PS lambs (Table 5).
+Similar results were also obtained in some previous studies (Diaz et
+al., 2002; Guler et al., 2011; Rowe et al., 1999). The amount of C12:0, C14:0,
+and C16:0 found in meat is important due to the hypercholesterolemic
+effects, which may increase the risk of atherosclerosis and thus have adverse effects on human health (Zock et al., 1994). The
+amount of C18:0, which is one of the primary FAs in ruminant meats, depends
+on the biohydrogenation of unsaturated C18 FAs. The biohydrogenation
+activity of polyionic FAs decreased due to the concentrate diet reducing
+rumen pH levels and the time spent by the concentrate in the rumen when
+compared to that of forage (Jenkins et al., 2008; Wood et al., 2008; Diaz
+et al., 2002). However, it was reported that there were similarities in the
+percentages of C16:0 and C18:0 in SC and TF (Nuernberg et al.,
+2008; Velasco et al., 2001) and intramuscular fats (Cividini et al.,
+2014; Popova, 2007) from pasture and concentrate lambs. In the present study,
+no significant difference in the percentage of saturated FAs (SFA) in depot
+fats was determined. However, the percentage of the SFA in intramuscular
+fats was higher in PS lambs than in CO lambs (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>).</p>
+      <p>The percentages of some of the monounsaturated fatty acids (MUFAs) in depot
+fats, such as C14:1, C16:1, and C17:1, was found to be higher in CO lambs
+than in PS lambs (Table 4). Regarding intramuscular fats, CO lambs were
+found to have a higher C18:1n9 level than PS lambs (Table 5). These results
+may be associated with the differences in dietary FA profile and rumen
+biohydrogenation activity. In a concentrate-based diet, the percentage of
+the C18:2n6 is quite high compared to that in pasture (Table 1). There is
+also an observed increase in the synthesis of oleic acid from stearic acid,
+depending on an increasing level of Sterol-CoA desaturase (<inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9
+desaturation) enzyme activity combined with an increased fat deposition
+(Velasco et al., 2001; Cividini et al., 2014). The <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9 desaturation
+(C18) index, both in depot and intramuscular fats, was found to be higher in
+CO lambs than in PS lambs (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>; Tables 4 and 5). In similar
+studies, the C16:1 and/or C18:1 content was high in the concentrate-fed
+lambs (Cividini et al., 2014; Fisher et al., 2000; Santos-Silva et al.,
+2002a; Nuernberg et al., 2008), but these results were not found to be significant in other studies (Diaz et al., 2002; Popova, 2007). Moreover,
+the effect of feeding system on C16:1, C18:1n9 and C18:3n3 varied depending
+on muscle type, and significant interactions were present for these FAs (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>). The percentages of C18:1n9 and C18:3n3 were similar
+in CO and PS lambs for LT, while PS lambs had a lower percentage of C18:1n9 and a higher percentage of C18:3n3 than CO lambs for SM and TB (Table 5). The
+differences in muscle type in terms of activity and low intramuscular fat
+deposition in these muscles might cause LT to have different profile for
+these fatty acids than SM and TB in PS lambs. Hence, Moreno et al. (2006)
+suggested that low intramuscular fat deposition could alter the FA profile of
+calves fed on pasture and concentrate. In addition to this,
+Rogowski et al. (2013) reported that increasing <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9-desaturase activity of muscle increases triglyceride PUFA content.</p>
+      <p>The results obtained in this study were similar to those of previous studies
+(Diaz et al., 2002; Popova, 2007; Rowe et al., 1999), and the percentage of linoleic acid (LA, C18:2n6) was found to be higher in depot and
+intramuscular fats of CO lambs than of PS lambs, whereas
+alpha-linolenic acid (ALA, C18:3n3) levels were higher in the PS lambs
+except for in LT (Tables 4 and 5). ALA is elongated and desaturated into longer-chain omega-3 FAs, such as C20:5n3 (EPA) and C22:6n-3 (DHA), and therefore,
+the availability of ALA is highly important (Bessa et al.,
+2015). In general terms, the effect of the feeding system on polyunsaturated
+FAs (PUFA) in tissues can be associated with the high amount of LA found in
+concentrate feed and of ALA in pasture (Table 1).</p>
+      <p>The results of the principal component analysis (PCA) are presented in
+Fig. 1a. The first component (PC1) explained 52.7 % of the total
+variation. SC and TF were located on the opposite side of PC1 and were
+clearly separated from each other. It can be seen that SFA and SC were
+located on the left side of the PC1 and were associated with each other,
+whereas PUFA, MUFA, <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9 DS <inline-formula><mml:math display="inline"><mml:mrow><mml:mn>16</mml:mn><mml:mo>/</mml:mo><mml:mn>18</mml:mn></mml:mrow></mml:math></inline-formula>, n6, and TF were located on the
+right side. The results confirmed the differences between TF and SC and were
+in agreement with Table 4. The second component (PC2) explained 27.3 % of
+variability and was characterized by CO, PS, and n3. CO was located on the
+opposite side of PS and n3, in PC2, and the relationship between PS and
+n3 FAs can be clearly seen. This relationship is in agreement with results
+reported by other researchers (Fisher et al., 2000; Özcan et al.,
+2015).</p>
+      <p>The results of PCA analysis in intramuscular FA composition were presented
+in Fig. 1b. PC1 and PC2 explained 41.7 and 21.1 % of the
+total variation, respectively. Unlike fat depots, PS was associated with SFA
+and located on the left side of the first component, opposite to CO, which
+was related to MUFA and <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9 DS <inline-formula><mml:math display="inline"><mml:mrow><mml:mn>16</mml:mn><mml:mo>/</mml:mo><mml:mn>18</mml:mn></mml:mrow></mml:math></inline-formula> on the right side of the PC1, in
+the intramuscular fat. PC2 was characterized by n3 and PUFA and closer to SM
+than LT and TB, which were located opposite to PC2.</p>
+
+      <?xmltex \floatpos{t}?><fig id="Ch1.F1"><caption><p>Principal component analysis for some fatty acid groups and
+indexes (<inline-formula><mml:math display="inline"><mml:mo>•</mml:mo></mml:math></inline-formula>) of fat depots <bold>(a)</bold> and intramuscular fat <bold>(b)</bold> (<inline-formula><mml:math display="inline"><mml:mi mathvariant="italic">▴</mml:mi></mml:math></inline-formula>) in different
+feeding systems (<inline-formula><mml:math display="inline"><mml:mi mathvariant="italic">⧫</mml:mi></mml:math></inline-formula>). CO: concentrate lambs; PS: pasture
+lambs; SC: subcutaneous; TF: tail fat; LT: longissimus thoracis; SM: semimembranosus; TB: triceps brachii; SFA: saturated fatty
+acids; MUFA: monounsaturated fatty acids; PUFA: polyunsaturated fatty acids;
+<inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9DS(18): <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9-desaturase (C18) index; <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9DS(16):
+<inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9-desaturase (C16) index.</p></caption>
+          <?xmltex \igopts{width=236.157874pt}?><graphic xlink:href="http://www.arch-anim-breed.net/59/121/2016/aab-59-121-2016-f01.pdf"/>
+
+        </fig>
+
+      <p>Some of the total FAs found in depot and intramuscular fats and their
+ratios, which are used as criteria in healthy nutrition have been shown in
+Tables 4 and 5. Although there was no significant difference regarding the
+percentages of the SFA, MUFA, and PUFA in depot fats, both higher SFA (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>) and lower MUFA (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>) levels were found in the
+intramuscular fats of PS lambs than in that of CO lambs. Similar results were
+also reported in some previous studies (Diaz et al., 2002; Guler et al.,
+2011; Özcan et al., 2015; Popova, 2007). The British Department of Health (1994)
+has recommended the PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA ratio to be above 0.45 and the n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3
+ratio to be below 4.00. Despite a similar PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA ratio in depot fats
+for both groups (Table 4), the ratio was found to be higher in the
+intramuscular fats of CO lambs than in that of PS lambs (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.01</mml:mn></mml:mrow></mml:math></inline-formula>)
+(Table 5). Moreover, the n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3 ratio in both depot and intramuscular fats
+was found to be lower in PS lambs than in CO lambs (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>)
+except for LT.</p>
+      <p>With the results associated with FA composition in SC and TF, it was
+determined that the percentage of the SFA was higher in SC, whereas MUFA and
+PUFA were determined to be higher (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.01</mml:mn></mml:mrow></mml:math></inline-formula>) in TF (Table 4). It
+must be noted that the effect of the feeding system on some FAs varies
+according to individual SC and TF and that interactions related to these FAs
+were found to be significant (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>). Despite the fact that the
+percentages of the C14:1, C15:1, C16:1, and C17:1 MUFA as well as <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>9
+desaturation (C16) index in SC and TF of CO lambs showed similarities, the
+same FAs in the SC of PS lambs were found to be significantly lower when
+compared to the TF values (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>). In accordance with these
+results, Gallardo et al. (2014) reported that FA composition,
+in both SC and TF in lambs, varied according to pasture type. The
+researchers noted that the tissue-specific response, depending on the
+pasture type, may be associated with gene and protein expression or
+lipogenic enzyme activity (stearoyl-CoA desaturase; SCD). Moreover, TF had a
+higher PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA ratio than SC (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.001</mml:mn></mml:mrow></mml:math></inline-formula>), and the n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3 ratio of TF
+was found to be lower than that of SC (<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>). It can be
+suggested that TF has more beneficial FAs than SC.</p>
+      <p>Ruminants tend toward storing essential FAs in intramuscular fats instead of
+depot fats (Wood et al., 2008). Alpha-linoleic
+acid was found to be the most important source of diversity in intramuscular
+fats (SM &gt; TB &gt; LT; <inline-formula><mml:math display="inline"><mml:mrow><mml:mi>p</mml:mi><mml:mi mathvariant="italic">&lt;</mml:mi><mml:mn> 0.05</mml:mn></mml:mrow></mml:math></inline-formula>), and SM was the
+muscle tissue with the highest PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA and lowest n6 <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> n3 ratios (Table 5).
+Similar results were reported by Coutinho et al. (2014), and SM and TB had
+higher PUFA <inline-formula><mml:math display="inline"><mml:mo>/</mml:mo></mml:math></inline-formula> SFA ratios than LT.</p>
+</sec>
+</sec>
+<sec id="Ch1.S4" sec-type="conclusions">
+  <title>Conclusions</title>
+      <p>The results of this study showed that the feeding system had an important
+effect in terms of the many characteristics examined. Compared to the lambs
+raised on pasture, more fattened carcasses with higher dressing percentages
+were obtained from the CO lambs. Moreover, it was determined that the
+feeding system significantly changed the major meat quality characteristics; the PS lambs had meat with a higher pH, darker color, and lower WHC than
+CO lambs. CO has better index values related with FAs, whereas the
+percentage of the ALA of PS was found to be higher than CO in all tissues. On the
+other hand, it must be noted that the effects of the feeding system have varying
+results based on different types of fat deposits.</p>
+</sec>
+
+      
+      </body>
+    <back><ack><title>Acknowledgements</title><p>The present study received support from the Yuzuncu Yıl University
+Scientific Research Project Fund (Project no: 2008-ZF-B070).
+<?xmltex \hack{\newline}?><?xmltex \hack{\newline}?>
+Edited by: S. Maak<?xmltex \hack{\newline}?>
+Reviewed by: two anonymous referees</p></ack><ref-list>
+    <title>References</title>
+
+      <ref id="bib1.bib1"><label>1</label><mixed-citation>
+AOAC: Official Methods of Analysis, Association of Official Analytical
+Chemists, Maryland, USA, 2000.</mixed-citation></ref>
+      <ref id="bib1.bib2"><label>2</label><mixed-citation>Basturk, A., Javidipour, I., and Boyaci, I. H.: Oxidative stability of
+natural and chemically interesterified cottonseed, palm and soybean oils,
+J. Food Lipids, 14, 170–188, <ext-link xlink:href="http://dx.doi.org/10.1111/j.1745-4522.2007.00078.x" ext-link-type="DOI">10.1111/j.1745-4522.2007.00078.x</ext-link>, 2007.</mixed-citation></ref>
+      <ref id="bib1.bib3"><label>3</label><mixed-citation>Bessa, R. J. B., Alves, S. P., and Santos-Silva, J.: Constraints and
+potentials for the nutritional modulation of the fatty acid composition of
+ruminant meat, Eur. J. Lipid Sci. Tech., 117,
+1325–1344, <ext-link xlink:href="http://dx.doi.org/10.1002/ejlt.201400468" ext-link-type="DOI">10.1002/ejlt.201400468</ext-link>, 2015.</mixed-citation></ref>
+      <ref id="bib1.bib4"><label>4</label><mixed-citation>
+Beyis, M. E.: A Study on Botanical Composition and Hay Yield of Pastures in
+Gevaş District of Van, MSc, Field Crops, Yuzuncu Yıl University,
+Graduate School of Natural and Applied Science Van, Turkey, 30 pp., 2009.</mixed-citation></ref>
+      <ref id="bib1.bib5"><label>5</label><mixed-citation>
+British Department of Health: Nutritional Aspects of Cardiovascular Disease,
+HSMO, London, 1994.</mixed-citation></ref>
+      <ref id="bib1.bib6"><label>6</label><mixed-citation>Carrasco, S., Panea, B., Ripoll, G., Sanz, A., and Joy, M.: Influence of
+feeding systems on cortisol levels, fat colour and instrumental meat quality
+in light lambs, Meat Science, 83, 50–56, <ext-link xlink:href="http://dx.doi.org/10.1016/j.meatsci.2009.03.014" ext-link-type="DOI">10.1016/j.meatsci.2009.03.014</ext-link>, 2009a.</mixed-citation></ref>
+      <ref id="bib1.bib7"><label>7</label><mixed-citation>Carrasco, S., Ripoll, G., Sanz, A., Álvarez-Rodríguez, J., Panea,
+B., Revilla, R., and Joy, M.: Effect of feeding system on growth and carcass
+characteristics of Churra Tensina light lambs, Livest. Sci., 121,
+56–63, <ext-link xlink:href="http://dx.doi.org/10.1016/j.livsci.2008.05.017" ext-link-type="DOI">10.1016/j.livsci.2008.05.017</ext-link>, 2009b.</mixed-citation></ref>
+      <ref id="bib1.bib8"><label>8</label><mixed-citation>Cividini, A., Levart, A., Žgur, S., and Kompan, D.: Fatty acid
+composition of lamb meat from the autochthonous Jezersko–Solčava breed
+reared in different production systems, Meat Science, 97, 480–485,
+<ext-link xlink:href="http://dx.doi.org/10.1016/j.meatsci.2013.12.012" ext-link-type="DOI">10.1016/j.meatsci.2013.12.012</ext-link>, 2014.</mixed-citation></ref>
+      <ref id="bib1.bib9"><label>9</label><mixed-citation>Colomer-Rocher, F., Morand-Fehr, P., and Kirton, A. H.: Standard methods and
+procedures for goat carcass evaluation, jointing and tissue separation,
+Livest. Prod. Sci., 17, 149–159,
+<ext-link xlink:href="http://dx.doi.org/10.1016/0301-6226(87)90060-1" ext-link-type="DOI">10.1016/0301-6226(87)90060-1</ext-link>, 1987.</mixed-citation></ref>
+      <ref id="bib1.bib10"><label>10</label><mixed-citation>Coutinho, M. A. D. S., Morais, M. D. G., Coelho, R. G., Alves, F. V.,
+Fernandes, H. J., Ítavo, C. C. B. F., Comparin, M. A. S., and Ribeiro,
+C. B.: Lipid profile and cholesterol in meat cuts of ewe lambs fed different
+levels of concentrate, Semina: Ciências Agrárias, 35, 3355–3366,
+<ext-link xlink:href="http://dx.doi.org/10.5433/1679-0359.2014v35n6p3355" ext-link-type="DOI">10.5433/1679-0359.2014v35n6p3355</ext-link>, 2014.</mixed-citation></ref>
+      <ref id="bib1.bib11"><label>11</label><mixed-citation>Diaz, M. T., Velasco, S., Cañeque, V., Lauzurica, S., Ruiz de Huidobro,
+F., Pérez, C., González, J., and Manzanares, C.: Use of concentrate
+or pasture for fattening lambs and its effect on carcass and meat quality,
+Small Ruminant Res., 43, 257–268, <ext-link xlink:href="http://dx.doi.org/10.1016/S0921-4488(02)00016-0" ext-link-type="DOI">10.1016/S0921-4488(02)00016-0</ext-link>, 2002.</mixed-citation></ref>
+      <ref id="bib1.bib12"><label>12</label><mixed-citation>Duckett, S. K., Neel, J. P., Lewis, R. M., Fontenot, J. P., and Clapham, W.
+M.: Effects of forage species or concentrate finishing on animal
+performance, carcass and meat quality, J. Animal Sci., 91,
+1454–1467, <ext-link xlink:href="http://dx.doi.org/10.2527/jas.2012-5914" ext-link-type="DOI">10.2527/jas.2012-5914</ext-link>, 2013.</mixed-citation></ref>
+      <ref id="bib1.bib13"><label>13</label><mixed-citation>
+EEC: No. 2568/91 of 11 July 1991 on the characteristics of olive oil and
+olive-residue oil and on the relevant methods of analysis, Official Journal
+of the European Communities, L248, 1–82, 1991.</mixed-citation></ref>
+      <ref id="bib1.bib14"><label>14</label><mixed-citation>Fisher, A. V., Enser, M., Richardson, R. I., Wood, J. D., Nute, G. R., Kurt,
+E., Sinclair, L. A., and Wilkinson, R. G.: Fatty acid composition and eating
+quality of lamb types derived from four diverse breed <inline-formula><mml:math display="inline"><mml:mo>×</mml:mo></mml:math></inline-formula> production
+systems, Meat Science, 55, 141–147, <ext-link xlink:href="http://dx.doi.org/10.1016/S0309-1740(99)00136-9" ext-link-type="DOI">10.1016/S0309-1740(99)00136-9</ext-link>, 2000.</mixed-citation></ref>
+      <ref id="bib1.bib15"><label>15</label><mixed-citation>
+Folch, J., Lees, M., and Sloane Stanley, G. H.: A simple method for the
+isolation and purification of total lipides from animal tissues, J. Biol. Chem.,
+226, 497–509, 1957.</mixed-citation></ref>
+      <ref id="bib1.bib16"><label>16</label><mixed-citation>Gallardo, M. A., Dannenberger, D., Rivero, J., Pulido, R., and Nuernberg,
+K.: Fatty acid profile of plasma, muscle and adipose tissues in Chilota
+lambs grazing on two different low quality pasture types in Chiloé
+Archipelago (Chile), Anim. Sci. J., 85, 935–941, <ext-link xlink:href="http://dx.doi.org/10.1111/asj.12227" ext-link-type="DOI">10.1111/asj.12227</ext-link>, 2014.</mixed-citation></ref>
+      <ref id="bib1.bib17"><label>17</label><mixed-citation>Guler, G. O., Aktumsek, A., and Karabacak, A.: Effect of Feeding Regime on
+Fatty Acid Composition of Longissimus dorsi Muscle and Subcutaneous Adipose
+Tissue of Akkaraman Lambs, Kafkas Universitesi Veteriner Fakultesi Dergisi,
+17, 885–892, <ext-link xlink:href="http://dx.doi.org/10.9775/kvfd.2011.4495" ext-link-type="DOI">10.9775/kvfd.2011.4495</ext-link>, 2011.</mixed-citation></ref>
+      <ref id="bib1.bib18"><label>18</label><mixed-citation>Huerta-Leidenz, N. O., Cross, H. R., Lunt, D. K., Pelton, L. S., Savell, J.
+W., and Smith, S. B.: Growth, carcass traits, and fatty acid profiles of
+adipose tissues from steers fed whole cottonseed, J. Animal Sci.,
+69, 3665–3672, <ext-link xlink:href="http://dx.doi.org/1991.6993665x" ext-link-type="DOI">1991.6993665x</ext-link>, 1991.</mixed-citation></ref>
+      <ref id="bib1.bib19"><label>19</label><mixed-citation>Immonen, K., Ruusunen, M., Hissa, K., and Puolanne, E.: Bovine muscle
+glycogen concentration in relation to finishing diet, slaughter and ultimate
+pH, Meat Science, 55, 25–31, <ext-link xlink:href="http://dx.doi.org/10.1016/S0309-1740(99)00121-7" ext-link-type="DOI">10.1016/S0309-1740(99)00121-7</ext-link>, 2000.</mixed-citation></ref>
+      <ref id="bib1.bib20"><label>20</label><mixed-citation>Jenkins, T. C., Wallace, R. J., Moate, P. J., and Mosley, E. E.:
+Board-invited review: Recent advances in biohydrogenation of unsaturated
+fatty acids within the rumen microbial ecosystem, J. Animal Sci.,
+86, 397–412, <ext-link xlink:href="http://dx.doi.org/10.2527/jas.2007-0588" ext-link-type="DOI">10.2527/jas.2007-0588</ext-link>, 2008.</mixed-citation></ref>
+      <ref id="bib1.bib21"><label>21</label><mixed-citation>Juárez, M., Horcada, A., Alcalde, M. J., Valera, M., Mullen, A. M., and
+Molina, A.: Estimation of factors influencing fatty acid profiles in light
+lambs, Meat Science, 79, 203–210, <ext-link xlink:href="http://dx.doi.org/10.1016/j.meatsci.2007.08.014" ext-link-type="DOI">10.1016/j.meatsci.2007.08.014</ext-link>, 2008.</mixed-citation></ref>
+      <ref id="bib1.bib22"><label>22</label><mixed-citation>
+Karaca, S.: Fattenıng performance, slaughter and carcass characteristics,
+meat quality and fatty acid composition of Karakaş lambs and Hair goat
+kids on intensive and extensive conditions, PhD, Animal Science, Yuzuncu
+Yıl University, Graduate School of Natural and Applied Science Van, Turkey,
+145 pp., 2010.</mixed-citation></ref>
+      <ref id="bib1.bib23"><label>23</label><mixed-citation>
+Karaca, S. and Kor, A.: Effect of feeding system on meat quality and fatty
+acid profile of lambs slaughtered at the same age or live weight, VII:
+Balkan Conference on Animal Science, Ilidza-Sarajevo, Bosnia and
+Herzegovina, 3–6 June, 2015.</mixed-citation></ref>
+      <ref id="bib1.bib24"><label>24</label><mixed-citation>Minchin, W., Buckley, F., Kenny, D. A., Monahan, F. J., Shalloo, L., and
+O'Donovan, M.: Effect of grass silage and concentrate based finishing
+strategies on cull dairy cow performance, carcass and meat quality
+characteristics, Meat Science, 81, 93–101, <ext-link xlink:href="http://dx.doi.org/10.1016/j.meatsci.2008.07.001" ext-link-type="DOI">10.1016/j.meatsci.2008.07.001</ext-link>, 2009.</mixed-citation></ref>
+      <ref id="bib1.bib25"><label>25</label><mixed-citation>
+Moreno, T., Franco, D., Bispo, E., Perez, N., and Monserrat, L.: Effect of
+the finishing diets on beef nutritional composition of six commercial
+muscles, edited by: Declan, T., Rachel, P., Briege, B., and Joseph, K.,
+52th International Congress of Meat Science and Technology, Wageningen Academic
+Publishers, the Netherlands, 119–121, 2006.</mixed-citation></ref>
+      <ref id="bib1.bib26"><label>26</label><mixed-citation>Moron-Fuenmayor, O. E. and Clavero, T.: The effect of feeding system on
+carcass characteristics, non-carcass components and retail cut percentages
+of lambs, Small Ruminant Res., 34, 57–64, <ext-link xlink:href="http://dx.doi.org/10.1016/S0921-4488(99)00038-3" ext-link-type="DOI">10.1016/S0921-4488(99)00038-3</ext-link>, 1999.</mixed-citation></ref>
+      <ref id="bib1.bib27"><label>27</label><mixed-citation>Nuernberg, K., Fischer, A., Nuernberg, G., Ender, K., and Dannenberger, D.:
+Meat quality and fatty acid composition of lipids in muscle and fatty tissue
+of Skudde lambs fed grass versus concentrate, Small Ruminant Res., 74,
+279–283, <ext-link xlink:href="http://dx.doi.org/10.1016/j.smallrumres.2007.07.009" ext-link-type="DOI">10.1016/j.smallrumres.2007.07.009</ext-link>, 2008.</mixed-citation></ref>
+      <ref id="bib1.bib28"><label>28</label><mixed-citation>Özcan, M., Demirel, G., Yakan, A., Ekiz, B., Tölü, C., and
+Savaş, T.: Genotype, production system and sex effects on fatty acid
+composition of meat from goat kids, Anim. Sci. J., 86, 200–206,
+<ext-link xlink:href="http://dx.doi.org/10.1111/asj.12273" ext-link-type="DOI">10.1111/asj.12273</ext-link>, 2015.</mixed-citation></ref>
+      <ref id="bib1.bib29"><label>29</label><mixed-citation>Papi, N., Mostafa-Tehrani, A., Amanlou, H., and Memarian, M.: Effects of
+dietary forage-to-concentrate ratios on performance and carcass
+characteristics of growing fat-tailed lambs, Anim. Feed Sci. Tech.,
+163, 93–98, <ext-link xlink:href="http://dx.doi.org/10.1016/j.anifeedsci.2010.10.010" ext-link-type="DOI">10.1016/j.anifeedsci.2010.10.010</ext-link>, 2011.</mixed-citation></ref>
+      <ref id="bib1.bib30"><label>30</label><mixed-citation>Popova, T.: Effect of the rearing system on the fatty acid composition and
+oxidative stability of the M. longissimus lumborum and M. semimembranosus in
+lambs, Small Ruminant Res., 71, 150–157, <ext-link xlink:href="http://dx.doi.org/10.1016/j.smallrumres.2006.06.001" ext-link-type="DOI">10.1016/j.smallrumres.2006.06.001</ext-link>, 2007.</mixed-citation></ref>
+      <ref id="bib1.bib31"><label>31</label><mixed-citation>Priolo, A., Micol, D., and Agabriel, J.: Effects of grass feeding systems on
+ruminant meat colour and flavour. A review, Animal Res., 50, 185–200,
+<ext-link xlink:href="http://dx.doi.org/10.1051/animres:2001125" ext-link-type="DOI">10.1051/animres:2001125</ext-link>, 2001.
+</mixed-citation></ref><?xmltex \hack{\newpage}?>
+      <ref id="bib1.bib32"><label>32</label><mixed-citation>Priolo, A., Micol, D., Agabriel, J., Prache, S., and Dransfield, E.: Effect
+of grass or concentrate feeding systems on lamb carcass and meat quality,
+Meat Science, 62, 179–185, <ext-link xlink:href="http://dx.doi.org/10.1016/S0309-1740(01)00244-3" ext-link-type="DOI">10.1016/S0309-1740(01)00244-3</ext-link>, 2002.</mixed-citation></ref>
+      <ref id="bib1.bib33"><label>33</label><mixed-citation>Ripoll, G., Joy, M., Muñoz, F., and Albertí, P.: Meat and fat
+colour as a tool to trace grass-feeding systems in light lamb production,
+Meat Science, 80, 239–248, <ext-link xlink:href="http://dx.doi.org/10.1016/j.meatsci.2007.11.025" ext-link-type="DOI">10.1016/j.meatsci.2007.11.025</ext-link>, 2008.</mixed-citation></ref>
+      <ref id="bib1.bib34"><label>34</label><mixed-citation>Rogowski, M. P., Flowers, M. T., Stamatikos, A. D., Ntambi, J. M., and
+Paton, C. M.: SCD1 activity in muscle increases triglyceride PUFA content,
+exercise capacity, and PPAR<inline-formula><mml:math display="inline"><mml:mi mathvariant="italic">δ</mml:mi></mml:math></inline-formula> expression in mice, J. Lipid
+Res., 54, 2636–2646, <ext-link xlink:href="http://dx.doi.org/10.1194/jlr.M035865" ext-link-type="DOI">10.1194/jlr.M035865</ext-link>,
+2013.</mixed-citation></ref>
+      <ref id="bib1.bib35"><label>35</label><mixed-citation>Rowe, A., Macedo, F. A. F., Visentainer, J. V., Souza, N. E., and
+Matsushita, M.: Muscle composition and fatty acid profile in lambs fattened
+in drylot or pasture, Meat Science, 51, 283–288, <ext-link xlink:href="http://dx.doi.org/10.1016/S0309-1740(98)00063-1" ext-link-type="DOI">10.1016/S0309-1740(98)00063-1</ext-link>, 1999.</mixed-citation></ref>
+      <ref id="bib1.bib36"><label>36</label><mixed-citation>Santos-Silva, J., Bessa, R. J. B., and Santos-Silva, F.: Effect of genotype,
+feeding system and slaughter weight on the quality of light lambs: 2. Fatty
+acid composition of meat, Livest. Prod. Sci., 77, 187–194,
+<ext-link xlink:href="http://dx.doi.org/10.1016/S0301-6226(02)00059-3" ext-link-type="DOI">10.1016/S0301-6226(02)00059-3</ext-link>, 2002a.</mixed-citation></ref>
+      <ref id="bib1.bib37"><label>37</label><mixed-citation>Santos-Silva, J., Mendes, I. A., and Bessa, R. J. B.: The effect of
+genotype, feeding system and slaughter weight on the quality of light lambs:
+1. Growth, carcass composition and meat quality, Livest. Prod. Sci.,
+76, 17–25, <ext-link xlink:href="http://dx.doi.org/10.1016/S0301-6226(01)00334-7" ext-link-type="DOI">10.1016/S0301-6226(01)00334-7</ext-link>, 2002b.</mixed-citation></ref>
+      <ref id="bib1.bib38"><label>38</label><mixed-citation>
+Sanudo, C., Campo, M., Olleta, J. L., Joy, M., and Delfa, R.: Methodologies
+to Evaluate Meat Quality in Small Ruminants, in: Evaluation of Carcass and
+Meat Quality in Cattle and Sheep edited by: Sanudo, C., Gigli, S., and
+Gabina, D., Wageningen Academic, the Netherlands, 81–105, 2007.</mixed-citation></ref>
+      <ref id="bib1.bib39"><label>39</label><mixed-citation>
+Van Soest, P. J. and Robertson, J. B.: Systems of analyses for evaluation
+of fibrous feed, in: Proc. Int. Workshop on Standardization of Analytical
+Methodology for Feeds, edited by: Pigden, W. J., Balch, C. C., and Graham,
+M., Ottowa, Canada, 49–60, 1979.</mixed-citation></ref>
+      <ref id="bib1.bib40"><label>40</label><mixed-citation>Velasco, S., Cañeque, V., Pérez, C., Lauzurica, S., Dıaz, M. T.,
+Huidobro, F., Manzanares, C., and González, J.: Fatty acid composition
+of adipose depots of suckling lambs raised under different production
+systems, Meat Science, 59, 325–333, <ext-link xlink:href="http://dx.doi.org/10.1016/S0309-1740(01)00135-8" ext-link-type="DOI">10.1016/S0309-1740(01)00135-8</ext-link>, 2001.</mixed-citation></ref>
+      <ref id="bib1.bib41"><label>41</label><mixed-citation>Wierbicki, E. and Deatherage, F. E.: Water Content of Meats, Determination
+of Water-Holding Capacity of Fresh Meats, J. Agr. Food Chem.,
+6, 387–392, <ext-link xlink:href="http://dx.doi.org/10.1021/jf60087a011" ext-link-type="DOI">10.1021/jf60087a011</ext-link>, 1958.</mixed-citation></ref>
+      <ref id="bib1.bib42"><label>42</label><mixed-citation>Wood, J. D., Enser, M., Fisher, A. V., Nute, G. R., Sheard, P. R.,
+Richardson, R. I., Hughes, S. I., and Whittington, F. M.: Fat deposition,
+fatty acid composition and meat quality: A review, Meat science, 78,
+343–358, <ext-link xlink:href="http://dx.doi.org/10.1016/j.meatsci.2007.07.019" ext-link-type="DOI">10.1016/j.meatsci.2007.07.019</ext-link>, 2008.</mixed-citation></ref>
+      <ref id="bib1.bib43"><label>43</label><mixed-citation>Zervas, G. and Tsiplakou, E.: The effect of feeding systems on the
+characteristics of products from small ruminants, Small Ruminant Res.,
+101, 140–149, <ext-link xlink:href="http://dx.doi.org/10.1016/j.smallrumres.2011.09.034" ext-link-type="DOI">10.1016/j.smallrumres.2011.09.034</ext-link>, 2011.</mixed-citation></ref>
+      <ref id="bib1.bib44"><label>44</label><mixed-citation>Zock, P. L., de Vries, J. H., and Katan, M. B.: Impact of myristic acid
+versus palmitic acid on serum lipid and lipoprotein levels in healthy women
+and men, Arterioscl. Throm. Vas., 14, 567–575,
+<ext-link xlink:href="http://dx.doi.org/10.1161/01.atv.14.4.567" ext-link-type="DOI">10.1161/01.atv.14.4.567</ext-link>, 1994.</mixed-citation></ref>
+
+  </ref-list><app-group content-type="float"><app><title/>
+
+    </app></app-group></back>
+    <!--<article-title-html>The effect of feeding system on slaughter-carcass characteristics,
+meat quality, and fatty acid composition of lambs</article-title-html>
+<abstract-html><p class="p">In this study, we aimed to determine the slaughter-carcass characteristics,
+meat quality, and fatty acid composition in lambs raised under intensive and
+extensive conditions. The animal material consisted of 30 Norduz male lambs, with an average age of 171 days. The lambs were divided
+into two groups: concentrate-fed lambs (CO) and pasture-fed lambs (PS). The
+results showed that the CO lambs had heavier carcasses (<i>p</i><i>&lt;</i> 0.001),
+a higher dressing percentage (<i>p</i><i>&lt;</i> 0.001), and higher intramuscular
+fat (<i>p</i><i>&lt;</i> 0.01) than the PS lambs. It was determined that the
+longissimus thoracis muscle of the CO lambs had a lower ultimate pH and higher <i>L</i>* and
+water-holding capacity than the PS lambs. In this study, intramuscular fat
+(longissimus thoracis, semimembranosus, triceps brachii),
+subcutaneous and tail fat samples were used to evaluate the effect of feeding
+system on fatty acid composition. The polyunsaturated fatty acid to saturated fatty acid ratio (PUFA ∕ SFA) of intramuscular fat
+was found to be significantly higher in the CO group than in the PS lambs,
+while similar subcutaneous and tail fat results were found in both groups. Moreover, the
+PS lambs had a lower n6 ∕ n3 ratio and higher percentage of omega-3 than the
+CO lambs in all tissues studied (<i>p</i><i>&lt;</i> 0.05). Overall, the CO lambs
+have heavier and fattier carcasses with better meat quality traits than the
+PS lambs. However, the effects of feeding system have varying results based
+on the fatty acid composition of different types of fat deposits.</p></abstract-html>
+<ref-html id="bib1.bib1"><label>1</label><mixed-citation>
+AOAC: Official Methods of Analysis, Association of Official Analytical
+Chemists, Maryland, USA, 2000.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib2"><label>2</label><mixed-citation>
+Basturk, A., Javidipour, I., and Boyaci, I. H.: Oxidative stability of
+natural and chemically interesterified cottonseed, palm and soybean oils,
+J. Food Lipids, 14, 170–188, <a href="http://dx.doi.org/10.1111/j.1745-4522.2007.00078.x" target="_blank">doi:10.1111/j.1745-4522.2007.00078.x</a>, 2007.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib3"><label>3</label><mixed-citation>
+Bessa, R. J. B., Alves, S. P., and Santos-Silva, J.: Constraints and
+potentials for the nutritional modulation of the fatty acid composition of
+ruminant meat, Eur. J. Lipid Sci. Tech., 117,
+1325–1344, <a href="http://dx.doi.org/10.1002/ejlt.201400468" target="_blank">doi:10.1002/ejlt.201400468</a>, 2015.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib4"><label>4</label><mixed-citation>
+Beyis, M. E.: A Study on Botanical Composition and Hay Yield of Pastures in
+Gevaş District of Van, MSc, Field Crops, Yuzuncu Yıl University,
+Graduate School of Natural and Applied Science Van, Turkey, 30 pp., 2009.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib5"><label>5</label><mixed-citation>
+British Department of Health: Nutritional Aspects of Cardiovascular Disease,
+HSMO, London, 1994.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib6"><label>6</label><mixed-citation>
+Carrasco, S., Panea, B., Ripoll, G., Sanz, A., and Joy, M.: Influence of
+feeding systems on cortisol levels, fat colour and instrumental meat quality
+in light lambs, Meat Science, 83, 50–56, <a href="http://dx.doi.org/10.1016/j.meatsci.2009.03.014" target="_blank">doi:10.1016/j.meatsci.2009.03.014</a>, 2009a.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib7"><label>7</label><mixed-citation>
+Carrasco, S., Ripoll, G., Sanz, A., Álvarez-Rodríguez, J., Panea,
+B., Revilla, R., and Joy, M.: Effect of feeding system on growth and carcass
+characteristics of Churra Tensina light lambs, Livest. Sci., 121,
+56–63, <a href="http://dx.doi.org/10.1016/j.livsci.2008.05.017" target="_blank">doi:10.1016/j.livsci.2008.05.017</a>, 2009b.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib8"><label>8</label><mixed-citation>
+Cividini, A., Levart, A., Žgur, S., and Kompan, D.: Fatty acid
+composition of lamb meat from the autochthonous Jezersko–Solčava breed
+reared in different production systems, Meat Science, 97, 480–485,
+<a href="http://dx.doi.org/10.1016/j.meatsci.2013.12.012" target="_blank">doi:10.1016/j.meatsci.2013.12.012</a>, 2014.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib9"><label>9</label><mixed-citation>
+Colomer-Rocher, F., Morand-Fehr, P., and Kirton, A. H.: Standard methods and
+procedures for goat carcass evaluation, jointing and tissue separation,
+Livest. Prod. Sci., 17, 149–159,
+<a href="http://dx.doi.org/10.1016/0301-6226(87)90060-1" target="_blank">doi:10.1016/0301-6226(87)90060-1</a>, 1987.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib10"><label>10</label><mixed-citation>
+Coutinho, M. A. D. S., Morais, M. D. G., Coelho, R. G., Alves, F. V.,
+Fernandes, H. J., Ítavo, C. C. B. F., Comparin, M. A. S., and Ribeiro,
+C. B.: Lipid profile and cholesterol in meat cuts of ewe lambs fed different
+levels of concentrate, Semina: Ciências Agrárias, 35, 3355–3366,
+<a href="http://dx.doi.org/10.5433/1679-0359.2014v35n6p3355" target="_blank">doi:10.5433/1679-0359.2014v35n6p3355</a>, 2014.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib11"><label>11</label><mixed-citation>
+Diaz, M. T., Velasco, S., Cañeque, V., Lauzurica, S., Ruiz de Huidobro,
+F., Pérez, C., González, J., and Manzanares, C.: Use of concentrate
+or pasture for fattening lambs and its effect on carcass and meat quality,
+Small Ruminant Res., 43, 257–268, <a href="http://dx.doi.org/10.1016/S0921-4488(02)00016-0" target="_blank">doi:10.1016/S0921-4488(02)00016-0</a>, 2002.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib12"><label>12</label><mixed-citation>
+Duckett, S. K., Neel, J. P., Lewis, R. M., Fontenot, J. P., and Clapham, W.
+M.: Effects of forage species or concentrate finishing on animal
+performance, carcass and meat quality, J. Animal Sci., 91,
+1454–1467, <a href="http://dx.doi.org/10.2527/jas.2012-5914" target="_blank">doi:10.2527/jas.2012-5914</a>, 2013.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib13"><label>13</label><mixed-citation>
+EEC: No. 2568/91 of 11 July 1991 on the characteristics of olive oil and
+olive-residue oil and on the relevant methods of analysis, Official Journal
+of the European Communities, L248, 1–82, 1991.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib14"><label>14</label><mixed-citation>
+Fisher, A. V., Enser, M., Richardson, R. I., Wood, J. D., Nute, G. R., Kurt,
+E., Sinclair, L. A., and Wilkinson, R. G.: Fatty acid composition and eating
+quality of lamb types derived from four diverse breed  ×  production
+systems, Meat Science, 55, 141–147, <a href="http://dx.doi.org/10.1016/S0309-1740(99)00136-9" target="_blank">doi:10.1016/S0309-1740(99)00136-9</a>, 2000.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib15"><label>15</label><mixed-citation>
+Folch, J., Lees, M., and Sloane Stanley, G. H.: A simple method for the
+isolation and purification of total lipides from animal tissues, J. Biol. Chem.,
+226, 497–509, 1957.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib16"><label>16</label><mixed-citation>
+Gallardo, M. A., Dannenberger, D., Rivero, J., Pulido, R., and Nuernberg,
+K.: Fatty acid profile of plasma, muscle and adipose tissues in Chilota
+lambs grazing on two different low quality pasture types in Chiloé
+Archipelago (Chile), Anim. Sci. J., 85, 935–941, <a href="http://dx.doi.org/10.1111/asj.12227" target="_blank">doi:10.1111/asj.12227</a>, 2014.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib17"><label>17</label><mixed-citation>
+Guler, G. O., Aktumsek, A., and Karabacak, A.: Effect of Feeding Regime on
+Fatty Acid Composition of Longissimus dorsi Muscle and Subcutaneous Adipose
+Tissue of Akkaraman Lambs, Kafkas Universitesi Veteriner Fakultesi Dergisi,
+17, 885–892, <a href="http://dx.doi.org/10.9775/kvfd.2011.4495" target="_blank">doi:10.9775/kvfd.2011.4495</a>, 2011.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib18"><label>18</label><mixed-citation>
+Huerta-Leidenz, N. O., Cross, H. R., Lunt, D. K., Pelton, L. S., Savell, J.
+W., and Smith, S. B.: Growth, carcass traits, and fatty acid profiles of
+adipose tissues from steers fed whole cottonseed, J. Animal Sci.,
+69, 3665–3672, <a href="http://dx.doi.org/1991.6993665x" target="_blank">doi:1991.6993665x</a>, 1991.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib19"><label>19</label><mixed-citation>
+Immonen, K., Ruusunen, M., Hissa, K., and Puolanne, E.: Bovine muscle
+glycogen concentration in relation to finishing diet, slaughter and ultimate
+pH, Meat Science, 55, 25–31, <a href="http://dx.doi.org/10.1016/S0309-1740(99)00121-7" target="_blank">doi:10.1016/S0309-1740(99)00121-7</a>, 2000.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib20"><label>20</label><mixed-citation>
+Jenkins, T. C., Wallace, R. J., Moate, P. J., and Mosley, E. E.:
+Board-invited review: Recent advances in biohydrogenation of unsaturated
+fatty acids within the rumen microbial ecosystem, J. Animal Sci.,
+86, 397–412, <a href="http://dx.doi.org/10.2527/jas.2007-0588" target="_blank">doi:10.2527/jas.2007-0588</a>, 2008.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib21"><label>21</label><mixed-citation>
+Juárez, M., Horcada, A., Alcalde, M. J., Valera, M., Mullen, A. M., and
+Molina, A.: Estimation of factors influencing fatty acid profiles in light
+lambs, Meat Science, 79, 203–210, <a href="http://dx.doi.org/10.1016/j.meatsci.2007.08.014" target="_blank">doi:10.1016/j.meatsci.2007.08.014</a>, 2008.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib22"><label>22</label><mixed-citation>
+Karaca, S.: Fattenıng performance, slaughter and carcass characteristics,
+meat quality and fatty acid composition of Karakaş lambs and Hair goat
+kids on intensive and extensive conditions, PhD, Animal Science, Yuzuncu
+Yıl University, Graduate School of Natural and Applied Science Van, Turkey,
+145 pp., 2010.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib23"><label>23</label><mixed-citation>
+Karaca, S. and Kor, A.: Effect of feeding system on meat quality and fatty
+acid profile of lambs slaughtered at the same age or live weight, VII:
+Balkan Conference on Animal Science, Ilidza-Sarajevo, Bosnia and
+Herzegovina, 3–6 June, 2015.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib24"><label>24</label><mixed-citation>
+Minchin, W., Buckley, F., Kenny, D. A., Monahan, F. J., Shalloo, L., and
+O'Donovan, M.: Effect of grass silage and concentrate based finishing
+strategies on cull dairy cow performance, carcass and meat quality
+characteristics, Meat Science, 81, 93–101, <a href="http://dx.doi.org/10.1016/j.meatsci.2008.07.001" target="_blank">doi:10.1016/j.meatsci.2008.07.001</a>, 2009.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib25"><label>25</label><mixed-citation>
+Moreno, T., Franco, D., Bispo, E., Perez, N., and Monserrat, L.: Effect of
+the finishing diets on beef nutritional composition of six commercial
+muscles, edited by: Declan, T., Rachel, P., Briege, B., and Joseph, K.,
+52th International Congress of Meat Science and Technology, Wageningen Academic
+Publishers, the Netherlands, 119–121, 2006.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib26"><label>26</label><mixed-citation>
+Moron-Fuenmayor, O. E. and Clavero, T.: The effect of feeding system on
+carcass characteristics, non-carcass components and retail cut percentages
+of lambs, Small Ruminant Res., 34, 57–64, <a href="http://dx.doi.org/10.1016/S0921-4488(99)00038-3" target="_blank">doi:10.1016/S0921-4488(99)00038-3</a>, 1999.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib27"><label>27</label><mixed-citation>
+Nuernberg, K., Fischer, A., Nuernberg, G., Ender, K., and Dannenberger, D.:
+Meat quality and fatty acid composition of lipids in muscle and fatty tissue
+of Skudde lambs fed grass versus concentrate, Small Ruminant Res., 74,
+279–283, <a href="http://dx.doi.org/10.1016/j.smallrumres.2007.07.009" target="_blank">doi:10.1016/j.smallrumres.2007.07.009</a>, 2008.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib28"><label>28</label><mixed-citation>
+Özcan, M., Demirel, G., Yakan, A., Ekiz, B., Tölü, C., and
+Savaş, T.: Genotype, production system and sex effects on fatty acid
+composition of meat from goat kids, Anim. Sci. J., 86, 200–206,
+<a href="http://dx.doi.org/10.1111/asj.12273" target="_blank">doi:10.1111/asj.12273</a>, 2015.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib29"><label>29</label><mixed-citation>
+Papi, N., Mostafa-Tehrani, A., Amanlou, H., and Memarian, M.: Effects of
+dietary forage-to-concentrate ratios on performance and carcass
+characteristics of growing fat-tailed lambs, Anim. Feed Sci. Tech.,
+163, 93–98, <a href="http://dx.doi.org/10.1016/j.anifeedsci.2010.10.010" target="_blank">doi:10.1016/j.anifeedsci.2010.10.010</a>, 2011.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib30"><label>30</label><mixed-citation>
+Popova, T.: Effect of the rearing system on the fatty acid composition and
+oxidative stability of the M. longissimus lumborum and M. semimembranosus in
+lambs, Small Ruminant Res., 71, 150–157, <a href="http://dx.doi.org/10.1016/j.smallrumres.2006.06.001" target="_blank">doi:10.1016/j.smallrumres.2006.06.001</a>, 2007.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib31"><label>31</label><mixed-citation>
+Priolo, A., Micol, D., and Agabriel, J.: Effects of grass feeding systems on
+ruminant meat colour and flavour. A review, Animal Res., 50, 185–200,
+<a href="http://dx.doi.org/10.1051/animres:2001125" target="_blank">doi:10.1051/animres:2001125</a>, 2001.
+
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib32"><label>32</label><mixed-citation>
+Priolo, A., Micol, D., Agabriel, J., Prache, S., and Dransfield, E.: Effect
+of grass or concentrate feeding systems on lamb carcass and meat quality,
+Meat Science, 62, 179–185, <a href="http://dx.doi.org/10.1016/S0309-1740(01)00244-3" target="_blank">doi:10.1016/S0309-1740(01)00244-3</a>, 2002.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib33"><label>33</label><mixed-citation>
+Ripoll, G., Joy, M., Muñoz, F., and Albertí, P.: Meat and fat
+colour as a tool to trace grass-feeding systems in light lamb production,
+Meat Science, 80, 239–248, <a href="http://dx.doi.org/10.1016/j.meatsci.2007.11.025" target="_blank">doi:10.1016/j.meatsci.2007.11.025</a>, 2008.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib34"><label>34</label><mixed-citation>
+Rogowski, M. P., Flowers, M. T., Stamatikos, A. D., Ntambi, J. M., and
+Paton, C. M.: SCD1 activity in muscle increases triglyceride PUFA content,
+exercise capacity, and PPAR<i>δ</i> expression in mice, J. Lipid
+Res., 54, 2636–2646, <a href="http://dx.doi.org/10.1194/jlr.M035865" target="_blank">doi:10.1194/jlr.M035865</a>,
+2013.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib35"><label>35</label><mixed-citation>
+Rowe, A., Macedo, F. A. F., Visentainer, J. V., Souza, N. E., and
+Matsushita, M.: Muscle composition and fatty acid profile in lambs fattened
+in drylot or pasture, Meat Science, 51, 283–288, <a href="http://dx.doi.org/10.1016/S0309-1740(98)00063-1" target="_blank">doi:10.1016/S0309-1740(98)00063-1</a>, 1999.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib36"><label>36</label><mixed-citation>
+Santos-Silva, J., Bessa, R. J. B., and Santos-Silva, F.: Effect of genotype,
+feeding system and slaughter weight on the quality of light lambs: 2. Fatty
+acid composition of meat, Livest. Prod. Sci., 77, 187–194,
+<a href="http://dx.doi.org/10.1016/S0301-6226(02)00059-3" target="_blank">doi:10.1016/S0301-6226(02)00059-3</a>, 2002a.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib37"><label>37</label><mixed-citation>
+Santos-Silva, J., Mendes, I. A., and Bessa, R. J. B.: The effect of
+genotype, feeding system and slaughter weight on the quality of light lambs:
+1. Growth, carcass composition and meat quality, Livest. Prod. Sci.,
+76, 17–25, <a href="http://dx.doi.org/10.1016/S0301-6226(01)00334-7" target="_blank">doi:10.1016/S0301-6226(01)00334-7</a>, 2002b.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib38"><label>38</label><mixed-citation>
+Sanudo, C., Campo, M., Olleta, J. L., Joy, M., and Delfa, R.: Methodologies
+to Evaluate Meat Quality in Small Ruminants, in: Evaluation of Carcass and
+Meat Quality in Cattle and Sheep edited by: Sanudo, C., Gigli, S., and
+Gabina, D., Wageningen Academic, the Netherlands, 81–105, 2007.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib39"><label>39</label><mixed-citation>
+Van Soest, P. J. and Robertson, J. B.: Systems of analyses for evaluation
+of fibrous feed, in: Proc. Int. Workshop on Standardization of Analytical
+Methodology for Feeds, edited by: Pigden, W. J., Balch, C. C., and Graham,
+M., Ottowa, Canada, 49–60, 1979.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib40"><label>40</label><mixed-citation>
+Velasco, S., Cañeque, V., Pérez, C., Lauzurica, S., Dıaz, M. T.,
+Huidobro, F., Manzanares, C., and González, J.: Fatty acid composition
+of adipose depots of suckling lambs raised under different production
+systems, Meat Science, 59, 325–333, <a href="http://dx.doi.org/10.1016/S0309-1740(01)00135-8" target="_blank">doi:10.1016/S0309-1740(01)00135-8</a>, 2001.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib41"><label>41</label><mixed-citation>
+Wierbicki, E. and Deatherage, F. E.: Water Content of Meats, Determination
+of Water-Holding Capacity of Fresh Meats, J. Agr. Food Chem.,
+6, 387–392, <a href="http://dx.doi.org/10.1021/jf60087a011" target="_blank">doi:10.1021/jf60087a011</a>, 1958.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib42"><label>42</label><mixed-citation>
+Wood, J. D., Enser, M., Fisher, A. V., Nute, G. R., Sheard, P. R.,
+Richardson, R. I., Hughes, S. I., and Whittington, F. M.: Fat deposition,
+fatty acid composition and meat quality: A review, Meat science, 78,
+343–358, <a href="http://dx.doi.org/10.1016/j.meatsci.2007.07.019" target="_blank">doi:10.1016/j.meatsci.2007.07.019</a>, 2008.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib43"><label>43</label><mixed-citation>
+Zervas, G. and Tsiplakou, E.: The effect of feeding systems on the
+characteristics of products from small ruminants, Small Ruminant Res.,
+101, 140–149, <a href="http://dx.doi.org/10.1016/j.smallrumres.2011.09.034" target="_blank">doi:10.1016/j.smallrumres.2011.09.034</a>, 2011.
+</mixed-citation></ref-html>
+<ref-html id="bib1.bib44"><label>44</label><mixed-citation>
+Zock, P. L., de Vries, J. H., and Katan, M. B.: Impact of myristic acid
+versus palmitic acid on serum lipid and lipoprotein levels in healthy women
+and men, Arterioscl. Throm. Vas., 14, 567–575,
+<a href="http://dx.doi.org/10.1161/01.atv.14.4.567" target="_blank">doi:10.1161/01.atv.14.4.567</a>, 1994.
+</mixed-citation></ref-html>--></article>

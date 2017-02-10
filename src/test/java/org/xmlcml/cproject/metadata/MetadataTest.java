@@ -87,7 +87,7 @@ public class MetadataTest {
 		Multiset<String> keySet = cProject.getOrCreateHtmlBiblioKeys();
 		List<Multiset.Entry<String>> entries = CMineUtil.getEntryListSortedByCount(keySet);
 		writeSet(keySet, new File(CMineFixtures.GETPAPERS_TARGET, "htmlKeys.csv"));
-		LOG.debug(entries);
+		LOG.trace(entries);
 	}
 
 	@Test
@@ -117,7 +117,6 @@ public class MetadataTest {
 			}
 			count++;
 		}
-		LOG.debug(count);
 		writeSet(publisherSet, new File(CMineFixtures.GETPAPERS_TARGET, "publisherAll.csv"));
 		writeSet(typeSet, new File(CMineFixtures.GETPAPERS_TARGET, "quickscrape/types.csv"));
 	}
@@ -128,7 +127,7 @@ public class MetadataTest {
 		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC_20160602);
 		Set<String> publisherSet = cProject.extractMetadataItemSet(
 				AbstractMetadata.Type.CROSSREF, CrossrefMD.PUBLISHER_PATH);
-		LOG.debug(publisherSet.size());
+		LOG.trace(publisherSet.size());
 	}
 
 	
@@ -169,7 +168,7 @@ public class MetadataTest {
 		try {
 			element = (JsonObject) new JsonParser().parse(new FileReader(resultsJson));
 		} catch (Exception e) {
-			LOG.debug("cannot read file: "+resultsJson, e);
+			LOG.error("cannot read file: "+resultsJson, e);
 		}
 		for (String metadata : metadataList) {
 			String value = "";

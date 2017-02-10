@@ -13,6 +13,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cproject.files.CProject;
+import org.xmlcml.cproject.files.CTreeList;
 import org.xmlcml.cproject.metadata.crossref.CrossrefMD;
 import org.xmlcml.cproject.metadata.quickscrape.QSRecord;
 import org.xmlcml.cproject.metadata.quickscrape.QuickscrapeLog;
@@ -202,29 +203,29 @@ public class CProjectCommandTest {
 	 * @throws IOException
 	 */
 	@Test
-	@Ignore //fails on test ordering
 
 	public void testRenameDOIBasedNames() throws IOException {
 		File source1Dir = new File(CMineFixtures.GETPAPERS_OPEN, "httpUrls");
 		File target1Dir = new File(CMineFixtures.GETPAPERS_TARGET, "httpUrls");
 		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
 		CProject project1 = new CProject(target1Dir);
-		Assert.assertEquals("project1", 6, project1.getResetCTreeList().size());
-		Assert.assertEquals("pre normalize", "["
-				+ "target/getpapers/httpUrls/http_dx.doi.org_10.1063_1.4941232,"
-				+ " target/getpapers/httpUrls/http_dx.doi.org_10.1088_0022-3727_49_9_095001,"
-				+ " target/getpapers/httpUrls/http_dx.doi.org_10.1088_0031-8949_t167_", 
-				Utils.truncate(project1.getResetCTreeList().toString(), 0, 200));
+		CTreeList cTreeList = project1.getResetCTreeList();
+		Assert.assertEquals("project1", 6, cTreeList.size());
+		Assert.assertTrue("urls", cTreeList.toString().contains(
+				"target/getpapers/httpUrls/http_dx.doi.org_10.1063_1.4941232"));
+		Assert.assertTrue("urls", cTreeList.toString().contains(
+				"target/getpapers/httpUrls/http_dx.doi.org_10.1103_physrevb.93.075101"));
+
 		String cmd = "--project "+target1Dir.toString()+" --renameCTree noHttp";
 		new CProject().run(cmd);
 		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
-		Assert.assertEquals("project1", 11, project1.getResetCTreeList().size());
-		Assert.assertEquals("post normalize", "["
-				+ "target/getpapers/httpUrls/10.1063_1.4941232,"
-				+ " target/getpapers/httpUrls/10.1088_0022-3727_49_9_095001,"
-				+ " target/getpapers/httpUrls/10.1088_0031-8949_t167_1_014076,"
-				+ " target/getpapers/httpUrls/10.1088_0953"
-				, Utils.truncate(project1.getResetCTreeList().toString(), 0, 200));
+		cTreeList = project1.getResetCTreeList();
+		LOG.trace(cTreeList);
+		Assert.assertEquals("project1", 6, cTreeList.size());
+		Assert.assertTrue("post normalize", cTreeList.toString().contains(
+				"target/getpapers/httpUrls/10.1063_1.4941232"));
+		Assert.assertTrue("urls", cTreeList.toString().contains(
+				"target/getpapers/httpUrls/10.1103_physrevb.93.075101"));
 	}
 
 	
@@ -347,7 +348,6 @@ may become unnecessary as getpapers and quickscrape are reconciled
 	 * @throws IOException
 	 */
 	@Test
-	@Ignore // fails on test ordering
 	public void testInputOutputUrls() throws IOException {
 		File source1Dir = new File(CMineFixtures.GETPAPERS_OPEN, "lic20160201truncated");
 		
@@ -362,15 +362,15 @@ may become unnecessary as getpapers and quickscrape are reconciled
 		String cmd = "--project "+target1Dir.toString()+" --inUrls "+" urls.txt" +" markEmpty --outUrls outUrls.txt";
 		new CProject().run(cmd);
 		project1 = new CProject(target1Dir); // because we haven't cleared the counts in the project
-//		Assert.assertEquals("project1", 70, project1.getCTreeList().size());
-		Assert.assertEquals("urls", "["
-				+ "target/getpapers/lic20160201truncated/http_dx.doi.org_10.1088_1757-899x_106_1_012014,"
-				+ " target/getpapers/lic20160201truncated/http_dx.doi.org_10.1088_1757-899x_106_1_012015,"
-				+ " target/getpapers/lic2016020"
-				, Utils.truncate(project1.getResetCTreeList().toString(), 0, 200));
-
+		CTreeList cTreeList = project1.getResetCTreeList();
+		Assert.assertEquals("project1", 43, cTreeList.size());
+		Assert.assertTrue("urls", cTreeList.toString().contains(
+				"target/getpapers/lic20160201truncated/http_dx.doi.org_10.1088_1757-899x_106_1_012030"));
+		Assert.assertTrue("urls", cTreeList.toString().contains(
+				"target/getpapers/lic20160201truncated/http_dx.doi.org_10.1103_physrevb.93.075101"));
 		Assert.assertTrue(outUrls.getAbsolutePath()+" exists", outUrls.exists());
-		Assert.assertTrue("urls", FileUtils.readLines(outUrls).size() > 50);
+		int nout = FileUtils.readLines(outUrls).size();
+		Assert.assertTrue("urls "+nout, nout > 120);
 	}
 	
 	/** INPUT AND OUTPUT URLS
@@ -378,7 +378,6 @@ may become unnecessary as getpapers and quickscrape are reconciled
 	 * @throws IOException
 	 */
 	@Test
-	@Ignore // too many non-open? files
 	public void testInputOutputUrls1() throws IOException {
 		File source1Dir = new File(CMineFixtures.TEST_OPEN_DIR, "truncated");
 		File inUrls = new File(CMineFixtures.TEST_OPEN_DIR, "truncated/urls.txt");
@@ -388,13 +387,12 @@ may become unnecessary as getpapers and quickscrape are reconciled
 		CMineTestFixtures.cleanAndCopyDir(source1Dir, target1Dir);
 		File outUrls = new File(target1Dir, "outUrls.txt");
 		Assert.assertFalse(outUrls.getAbsolutePath()+" exists", outUrls.exists());
-//		String cmd = "--project "+target1Dir.toString()+" --inUrls "+" urls.txt" +" markEmpty --outUrls outUrls.txt";
 		String cmd = "--project "+target1Dir.toString()+" --inUrls "+" urls.txt" +" --outUrls outUrls.txt";
 		new CProject().run(cmd);
 		Assert.assertTrue(outUrls.getAbsolutePath()+" exists", outUrls.exists());
 		List<String> lines = FileUtils.readLines(outUrls);
 		Collections.sort(lines);
-		Assert.assertEquals("out urls ", 81, lines.size());
+		Assert.assertEquals("out urls ", 15, lines.size());
 		Assert.assertEquals("url ",  "http://dx.doi.org/10.1063/1.4943235", lines.get(0));
 		
 	}
@@ -602,7 +600,7 @@ may become unnecessary as getpapers and quickscrape are reconciled
 		Multimap<String, String> doisByPrefix = quickscrapeLog.getUrlsByPrefix(records);
 		List<List<String>> sortedKeys = CMineUtil.getListsSortedByCount(doisByPrefix);
 		for (List<String> key : sortedKeys) {
-			LOG.debug(key.size()+": "+key);
+			LOG.trace(key.size()+": "+key);
 		}
 	}
 	
@@ -629,7 +627,7 @@ may become unnecessary as getpapers and quickscrape are reconciled
 		Multimap<String, String> doisByPrefix = quickscrapeLog.getUrlsByPrefix(records);
 		List<List<String>> sortedKeys = CMineUtil.getListsSortedByCount(doisByPrefix);
 		for (List<String> key : sortedKeys) {
-			LOG.debug(key.size()+": "+key);
+			LOG.trace(key.size()+": "+key);
 		}
 	}
 	

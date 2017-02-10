@@ -50,7 +50,6 @@ public class ProjectMetadataAnalyzerTest {
 
 	public void testExtractKeys() throws IOException {
 		File cProjectDir = new File(CMineFixtures.GETPAPERS_SRC, "20160601");
-		LOG.debug(cProjectDir);
 		CProject cProject = new CProject(cProjectDir);
 		ProjectAnalyzer projectAnalyzer = cProject.getOrCreateProjectAnalyzer();
 		projectAnalyzer.setMetadataType(AbstractMetadata.Type.CROSSREF);
@@ -105,7 +104,7 @@ public class ProjectMetadataAnalyzerTest {
 				+ " http://dx.doi.org/10.1002/ab.21660,"
 				+ " http://dx.doi.org/10.1002/adma.201601115"
 				+ "]", urls.toString());
-		LOG.debug(urls);
+		LOG.trace(urls);
 	}
 
 	/** EXTRACTS SHUFFLED URLS FROM GETPAPERS / CROSSREF directory to FILE.

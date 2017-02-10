@@ -208,7 +208,7 @@ public class AbstractMDAnalyzer {
 	private void addToMultiset(String header) {
 		currentMetadata = metadataByCTreeMap.get(currentCTree);
 		if (currentMetadata == null) {
-			LOG.debug("null metadata");
+			LOG.warn("null metadata");
 			return;
 		}
 		String value = "";

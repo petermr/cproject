@@ -6,11 +6,11 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
 import org.xmlcml.cproject.files.CProject;
 import org.xmlcml.cproject.files.CTree;
-import org.xmlcml.cproject.metadata.MetadataManager;
 import org.xmlcml.cproject.util.RectangularTable;
 
 public class MetadataManagerTest {
@@ -28,17 +28,19 @@ public class MetadataManagerTest {
 	 */
 	@Test
 	public void testGetDOIColumnAsCSV() throws IOException {
-		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
-		int i = 1;
-		CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
+		
+		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC);
 		File inputCsvFile = new File(cProject.getDirectory(), "crossref_common.csv");
-		File outputCsvFile = new File(cProject.getDirectory(), "dois.txt");
 		RectangularTable table = RectangularTable.readTable(inputCsvFile, true);
-		table.writeColumn(outputCsvFile, MetadataManager.DOI);
+		List<String> col2 = table.getColumn(MetadataManager.DOI);
+		Assert.assertEquals(12141, col2.size());
+		Assert.assertEquals("col02", "10.1002/1873-3468.12075", col2.get(0));
+
 	}
 
 	/** NOT FINISHED? */
 	@Test
+	// FIXME
 	public void testGetFreshQuickscrapeDirectories() throws IOException {
 		if (!CMineFixtures.exist(CMineFixtures.GETPAPERS_NEW)) return;
 		int i = 1;

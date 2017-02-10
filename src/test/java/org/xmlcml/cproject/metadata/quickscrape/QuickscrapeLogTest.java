@@ -44,7 +44,7 @@ public class QuickscrapeLogTest {
 		QuickscrapeLog quickscrapeLog = QuickscrapeLog.readLog(new File(CMineFixtures.TEST_QUICKSCRAPE_DIR, QUICKSCRAPE_2016_08_26_09_44_LOG));
 		List<QSRecord> records = quickscrapeLog.getQSURLRecords();
 		for (QSRecord record : records) {
-			LOG.debug("R "+record);
+			LOG.trace("R "+record);
 		}
 	}
 
@@ -61,7 +61,7 @@ public class QuickscrapeLogTest {
 		List<QSRecord> records = quickscrapeLog.getNo200s();
 		Assert.assertEquals(66, records.size());
 		Multimap<String, String> doisByPrefix = quickscrapeLog.getUrlsByPrefix(records);
-		LOG.debug(doisByPrefix);
+		LOG.trace(doisByPrefix);
 	}
 
 	@Test
@@ -74,7 +74,7 @@ public class QuickscrapeLogTest {
 		Multimap<String, String> doisByPrefix = quickscrapeLog.getUrlsByPrefix(records);
 		List<List<String>> sortedKeys = CMineUtil.getListsSortedByCount(doisByPrefix);
 		for (List<String> key : sortedKeys) {
-			LOG.debug(key.size()+": "+key);
+			LOG.trace(key.size()+": "+key);
 		}
 	}
 

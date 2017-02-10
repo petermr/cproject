@@ -1,0 +1,134 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:46:09Z",
+    "timestamp": 1457088369878
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "4",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "RGPIN-2014-04656"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Natural Sciences and Engineering Research Council of Canada",
+      "DOI": "10.13039/501100000038"
+    }
+  ],
+  "DOI": "10.5194/acp-16-2435-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T06:51:53Z",
+    "timestamp": 1456815113000
+  },
+  "page": "2435-2457",
+  "source": "CrossRef",
+  "title": [
+    "Evaluation and application of multi-decadal visibility data for trend analysis of atmospheric haze"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "Chi"
+    },
+    {
+      "affiliation": [],
+      "family": "Martin",
+      "given": "Randall V."
+    },
+    {
+      "affiliation": [],
+      "family": "Boys",
+      "given": "Brian L."
+    },
+    {
+      "affiliation": [],
+      "family": "van Donkelaar",
+      "given": "Aaron"
+    },
+    {
+      "affiliation": [],
+      "family": "Ruzzante",
+      "given": "Sacha"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Atmospheric Chemistry and Physics",
+    "Atmos. Chem. Phys."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T06:51:57Z",
+    "timestamp": 1456815117000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/acp-16-2435-2016",
+  "ISSN": [
+    "1680-7324"
+  ],
+  "subject": [
+    "Atmospheric Science"
+  ]
+}

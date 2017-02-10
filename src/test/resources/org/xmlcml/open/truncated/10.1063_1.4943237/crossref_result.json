@@ -1,0 +1,213 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:51:39Z",
+    "timestamp": 1457088699569
+  },
+  "reference-count": 21,
+  "publisher": "AIP Publishing",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "NRF-CRP9-2013-01"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National Research Foundation Singapore",
+      "DOI": "10.13039/501100001381"
+    },
+    {
+      "award": [
+        "R-263-000-B10-112"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "National University of Singapore",
+      "DOI": "10.13039/501100001352"
+    },
+    {
+      "award": [
+        "MOE2013-T2-2-125"
+      ],
+      "name": "MOE Tier II"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1063/1.4943237",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T18:00:27Z",
+    "timestamp": 1456855227000
+  },
+  "page": "056303",
+  "update-policy": "http://dx.doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "CrossRef",
+  "title": [
+    "Perfect valley filter in strained graphene with single barrier region"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1063",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [
+        {
+          "name": "Electrical and Computer Engineering, National University of Singapore, Singapore 117576, Republic of Singapore"
+        }
+      ],
+      "family": "Yesilyurt",
+      "given": "Can"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Electrical and Computer Engineering, National University of Singapore, Singapore 117576, Republic of Singapore"
+        },
+        {
+          "name": "Data Storage Institute, Agency of Science, Technology and Research (A* Star), Singapore 138634, Republic of Singapore"
+        }
+      ],
+      "family": "Ghee Tan",
+      "given": "Seng"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Electrical and Computer Engineering, National University of Singapore, Singapore 117576, Republic of Singapore"
+        }
+      ],
+      "family": "Liang",
+      "given": "Gengchiau"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Electrical and Computer Engineering, National University of Singapore, Singapore 117576, Republic of Singapore"
+        }
+      ],
+      "family": "Jalil",
+      "given": "Mansoor B. A."
+    }
+  ],
+  "member": "http://id.crossref.org/member/317",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "AIP Advances"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ],
+    "date-time": "2016-03-02T01:32:29Z",
+    "timestamp": 1456882349000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1063/1.4943237",
+  "archive": [
+    "CLOCKSS",
+    "Portico"
+  ],
+  "ISSN": [
+    "2158-3226"
+  ],
+  "assertion": [
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "presented",
+      "name": "presented",
+      "order": 5,
+      "value": "2016-01-14"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "received",
+      "name": "received",
+      "order": 0,
+      "value": "2015-11-05"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "accepted",
+      "name": "accepted",
+      "order": 2,
+      "value": "2015-12-14"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "published",
+      "name": "published",
+      "order": 6,
+      "value": "2016-03-01"
+    }
+  ]
+}

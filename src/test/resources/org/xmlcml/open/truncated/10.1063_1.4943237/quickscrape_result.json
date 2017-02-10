@@ -1,0 +1,54 @@
+{
+  "fulltext_pdf": {
+    "value": []
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "Perfect valley filter in strained graphene with single barrier region"
+    ]
+  },
+  "author": {
+    "value": [
+      "Can Yesilyurt",
+      "Seng Ghee Tan",
+      "Gengchiau Liang",
+      "Mansoor B. A. Jalil"
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "10.1063/1.4943237"
+    ]
+  },
+  "volume": {
+    "value": [
+      "6"
+    ]
+  },
+  "issue": {
+    "value": [
+      "5"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "056303"
+    ]
+  },
+  "abstract_html": {
+    "value": [
+      ""
+    ]
+  },
+  "description": {
+    "value": [
+      "We present a single barrier system to generate pure valley-polarized current in monolayergraphene. A uniaxial strain is applied within the barrier region, which is delineated by localized magnetic field created by ferromagnetic stripes at the region’s boundaries. We show that under the condition of matching magnetic field strength, strain potential, and Fermi energy, the transmitted current is composed of only one valley contribution. The desired valley current can transmit with zero reflection while the electrons from the other valley are totally reflected. Thus, the system generates pure valley-polarized current with maximum conductance. The chosen parameters of uniaxial strain and magnetic field are in the range of experimental feasibility, which suggests that the proposed scheme can be realized with current technology."
+    ]
+  }
+}

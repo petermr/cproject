@@ -1,0 +1,136 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:52:17Z",
+    "timestamp": 1457088737523
+  },
+  "reference-count": 0,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "3",
+  "DOI": "10.1371/journal.pone.0145288",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T18:47:13Z",
+    "timestamp": 1456858033000
+  },
+  "page": "e0145288",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "CrossRef",
+  "title": [
+    "Desynchronization of Theta-Phase Gamma-Amplitude Coupling during a Mental Arithmetic Task in Children with Attention Deficit/Hyperactivity Disorder"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1371",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Jun Won"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Bung-Nyun"
+    },
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Jaewon"
+    },
+    {
+      "affiliation": [],
+      "family": "Na",
+      "given": "Chul"
+    },
+    {
+      "affiliation": [],
+      "family": "Kee",
+      "given": "Baik Seok"
+    },
+    {
+      "affiliation": [],
+      "family": "Min",
+      "given": "Kyung Joon"
+    },
+    {
+      "affiliation": [],
+      "family": "Han",
+      "given": "Doug Hyun"
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Johanna Inhyang"
+    },
+    {
+      "affiliation": [],
+      "family": "Lee",
+      "given": "Young Sik"
+    }
+  ],
+  "member": "http://id.crossref.org/member/340",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "PLOS ONE",
+    "PLoS ONE"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T18:47:13Z",
+    "timestamp": 1456858033000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "WANG",
+      "given": "Qiang"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0145288",
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [
+    "Biochemistry, Genetics and Molecular Biology(all)",
+    "Agricultural and Biological Sciences(all)",
+    "Medicine(all)"
+  ]
+}

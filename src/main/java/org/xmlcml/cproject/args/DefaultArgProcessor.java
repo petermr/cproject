@@ -476,7 +476,7 @@ public class DefaultArgProcessor {
 			} else if (currentCTree.getCTreeFiles() != null) {
 				outputCTreeFiles(outputFile);
 			} else {
-				LOG.debug("Analysis: No snippets or files to output");
+				LOG.warn("Analysis: No snippets or files to output");
 			}
 		}
 	}

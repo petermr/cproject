@@ -1,0 +1,96 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        22
+      ]
+    ],
+    "date-time": "2016-03-22T09:20:44Z",
+    "timestamp": 1458638444073
+  },
+  "reference-count": 18,
+  "publisher": "MDPI AG",
+  "issue": "1",
+  "DOI": "10.3390/atoms4010009",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T16:07:19Z",
+    "timestamp": 1456848439000
+  },
+  "page": "9",
+  "source": "CrossRef",
+  "title": [
+    "Merkuriev Cut-off in e+ − H Multichannel Scattering Calculations"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Gradusov",
+      "given": "Vitaly",
+      "ORCID": "http://orcid.org/0000-0003-0133-8233"
+    },
+    {
+      "affiliation": [],
+      "family": "Roudnev",
+      "given": "Vladimir"
+    },
+    {
+      "affiliation": [],
+      "family": "Yakovlev",
+      "given": "Sergey"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Atoms"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        19
+      ]
+    ],
+    "date-time": "2016-03-19T15:03:13Z",
+    "timestamp": 1458399793000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "atoms4010009"
+  ],
+  "URL": "http://dx.doi.org/10.3390/atoms4010009",
+  "ISSN": [
+    "2218-2004"
+  ]
+}

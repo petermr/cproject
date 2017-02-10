@@ -1,0 +1,215 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:51:46Z",
+    "timestamp": 1457088706486
+  },
+  "reference-count": 20,
+  "publisher": "AIP Publishing",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "National Natural Science Foundation of China",
+      "DOI": "10.13039/501100001809"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1063/1.4943241",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T18:00:27Z",
+    "timestamp": 1456855227000
+  },
+  "page": "056108",
+  "update-policy": "http://dx.doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "CrossRef",
+  "title": [
+    "Fabrication and physical properties of [Fe/Fe4N]N multilayers with high saturation magnetization"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1063",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [
+        {
+          "name": "Department of Optical Science and Engineering, Fudan University, Shanghai 200433, P. R. China"
+        }
+      ],
+      "family": "Yu",
+      "given": "B."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Optical Science and Engineering, Fudan University, Shanghai 200433, P. R. China"
+        }
+      ],
+      "family": "Lin",
+      "given": "L."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Optical Science and Engineering, Fudan University, Shanghai 200433, P. R. China"
+        },
+        {
+          "name": "Department of Electrical and Computer Engineering, University of Minnesota, Minneapolis, MN 55455, USA"
+        }
+      ],
+      "family": "Ma",
+      "given": "B."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Optical Science and Engineering, Fudan University, Shanghai 200433, P. R. China"
+        }
+      ],
+      "family": "Zhang",
+      "given": "Z. Z."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Optical Science and Engineering, Fudan University, Shanghai 200433, P. R. China"
+        }
+      ],
+      "family": "Jin",
+      "given": "Q. Y."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Computer Engineering, University of Minnesota, Minneapolis, MN 55455, USA"
+        }
+      ],
+      "family": "Wang",
+      "given": "J. P."
+    }
+  ],
+  "member": "http://id.crossref.org/member/317",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "AIP Advances"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ],
+    "date-time": "2016-03-02T01:42:07Z",
+    "timestamp": 1456882927000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1063/1.4943241",
+  "archive": [
+    "CLOCKSS",
+    "Portico"
+  ],
+  "ISSN": [
+    "2158-3226"
+  ],
+  "assertion": [
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "presented",
+      "name": "presented",
+      "order": 5,
+      "value": "2016-01-12"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "received",
+      "name": "received",
+      "order": 0,
+      "value": "2015-11-06"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "accepted",
+      "name": "accepted",
+      "order": 2,
+      "value": "2015-12-15"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "published",
+      "name": "published",
+      "order": 6,
+      "value": "2016-03-01"
+    }
+  ]
+}

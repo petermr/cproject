@@ -1,0 +1,103 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        22
+      ]
+    ],
+    "date-time": "2016-03-22T09:20:44Z",
+    "timestamp": 1458638444035
+  },
+  "reference-count": 53,
+  "publisher": "MDPI AG",
+  "issue": "1",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+      "DOI": "10.13039/501100001711"
+    }
+  ],
+  "DOI": "10.3390/agronomy6010017",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T16:07:19Z",
+    "timestamp": 1456848439000
+  },
+  "page": "17",
+  "source": "CrossRef",
+  "title": [
+    "Temporal Dynamics in Rhizosphere Bacterial Communities of Three Perennial Grassland Species"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Murphy",
+      "given": "Cheryl"
+    },
+    {
+      "affiliation": [],
+      "family": "Foster",
+      "given": "Bryan"
+    },
+    {
+      "affiliation": [],
+      "family": "Gao",
+      "given": "Cuilan"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Agronomy"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        19
+      ]
+    ],
+    "date-time": "2016-03-19T15:01:58Z",
+    "timestamp": 1458399718000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "agronomy6010017"
+  ],
+  "URL": "http://dx.doi.org/10.3390/agronomy6010017",
+  "ISSN": [
+    "2073-4395"
+  ]
+}

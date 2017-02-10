@@ -38,6 +38,10 @@ import nu.xom.Node;
  *
  */
 public class CMineUtil {
+	private static final Logger LOG = Logger.getLogger(CMineUtil.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
 
 	private static final String HTTP_DX_DOI_ORG2 = "http://dx.doi.org/";
 	private static final String HTML_START = "<";
@@ -49,10 +53,6 @@ public class CMineUtil {
 			"[\\s+\\~\\!\\@\\#\\^\\&\\+\\=\\{\\}\\:\\;\\<\\>\\,\\/\\$\\%\\*\\(\\)\\[\\]]";
 	private static final String HTTP_DX_DOI_ORG = "http_dx\\.doi\\.org_?";
 //	                                               http_dx.doi.org
-	private static final Logger LOG = Logger.getLogger(CMineUtil.class);
-	static {
-		LOG.setLevel(Level.DEBUG);
-	}
 
 	private static final String NEW_LINE_SEPARATOR = "\n";
 	public static final String HTML_TYPE = "text/html";
@@ -128,13 +128,13 @@ public class CMineUtil {
 	public static Process runProcess(String[] args, InputStream inputStream) throws IOException {
 	    List<String> argList = Arrays.asList(args);
 		String program = argList.get(0);
-		LOG.debug("ff "+new File(program).exists());
+		LOG.trace("ff "+new File(program).exists());
 	    ProcessBuilder postBuilder = new ProcessBuilder(argList);
 	    postBuilder.redirectError(ProcessBuilder.Redirect.INHERIT);
 	    Process proc = null;        
 	    try {
 	        proc = postBuilder.start();
-	        LOG.debug("Processing input with "+program);
+	        LOG.trace("Processing input with "+program);
 	    } catch (IOException e) {
 	    	CMineUtil.catchUninstalledProgram(e, program);
 	    	return null;
@@ -188,7 +188,7 @@ public class CMineUtil {
 		try {
 			result = ctx.read(jsonPath);
 		} catch (Exception e) {
-			LOG.trace("bad path: "+jsonPath);
+			LOG.error("bad path: "+jsonPath);
 		}
 		return result;
 	}

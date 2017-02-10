@@ -1,0 +1,210 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:51:40Z",
+    "timestamp": 1457088700246
+  },
+  "reference-count": 7,
+  "publisher": "AIP Publishing",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Advanced Research Projects Agency - Energy",
+      "DOI": "10.13039/100006133"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1063/1.4943236",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T18:00:27Z",
+    "timestamp": 1456855227000
+  },
+  "page": "056203",
+  "update-policy": "http://dx.doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "CrossRef",
+  "title": [
+    "High Ms Fe16N2 thin film with Ag under layer on GaAs substrate"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1063",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [
+        {
+          "name": "The Center for Micromagnetics and Information Technologies (MINT) & Electrical and Computer Engineering Department, University of Minnesota, Minneapolis, Minnesota 55455, USA"
+        },
+        {
+          "name": "School of Physics and Astronomy, University of Minnesota, Minneapolis, Minnesota 55455, USA"
+        }
+      ],
+      "family": "Zhang",
+      "given": "Xiaowei"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "The Center for Micromagnetics and Information Technologies (MINT) & Electrical and Computer Engineering Department, University of Minnesota, Minneapolis, Minnesota 55455, USA"
+        }
+      ],
+      "family": "Jiang",
+      "given": "Yanfeng"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "The Center for Micromagnetics and Information Technologies (MINT) & Electrical and Computer Engineering Department, University of Minnesota, Minneapolis, Minnesota 55455, USA"
+        }
+      ],
+      "family": "Yang",
+      "given": "Meiyin"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "High Temperature Materials Laboratory, Materials Science and Technology Division, Oak Ridge National Laboratory, Tennessee 37831, USA"
+        }
+      ],
+      "family": "Allard",
+      "given": "Lawrence F.",
+      "ORCID": "http://orcid.org/0000-0002-4552-8277"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "The Center for Micromagnetics and Information Technologies (MINT) & Electrical and Computer Engineering Department, University of Minnesota, Minneapolis, Minnesota 55455, USA"
+        },
+        {
+          "name": "School of Physics and Astronomy, University of Minnesota, Minneapolis, Minnesota 55455, USA"
+        }
+      ],
+      "family": "Wang",
+      "given": "Jian-Ping"
+    }
+  ],
+  "member": "http://id.crossref.org/member/317",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "AIP Advances"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ],
+    "date-time": "2016-03-02T01:33:29Z",
+    "timestamp": 1456882409000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1063/1.4943236",
+  "archive": [
+    "CLOCKSS",
+    "Portico"
+  ],
+  "ISSN": [
+    "2158-3226"
+  ],
+  "assertion": [
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "presented",
+      "name": "presented",
+      "order": 5,
+      "value": "2016-01-13"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "received",
+      "name": "received",
+      "order": 0,
+      "value": "2015-11-06"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "accepted",
+      "name": "accepted",
+      "order": 2,
+      "value": "2015-12-16"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "published",
+      "name": "published",
+      "order": 6,
+      "value": "2016-03-01"
+    }
+  ]
+}

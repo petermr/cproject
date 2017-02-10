@@ -1,0 +1,855 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        5
+      ]
+    ],
+    "date-time": "2016-03-05T11:01:17Z",
+    "timestamp": 1457175677896
+  },
+  "reference-count": 41,
+  "publisher": "IOP Publishing",
+  "issue": "03",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.1088/1748-0221/11/03/p03001",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T17:13:50Z",
+    "timestamp": 1456852430000
+  },
+  "page": "P03001-P03001",
+  "source": "CrossRef",
+  "title": [
+    "Pion contamination in the MICE muon beam"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Adams",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Alekou",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Apollonio",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Asfandiyarov",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Barber",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Barclay",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "de Bari",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Bayes",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Bayliss",
+      "given": "V."
+    },
+    {
+      "affiliation": [],
+      "family": "Bertoni",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Blackmore",
+      "given": "V.J."
+    },
+    {
+      "affiliation": [],
+      "family": "Blondel",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Blot",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Bogomilov",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Bonesini",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Booth",
+      "given": "C.N."
+    },
+    {
+      "affiliation": [],
+      "family": "Bowring",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Boyd",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Brashaw",
+      "given": "T.W."
+    },
+    {
+      "affiliation": [],
+      "family": "Bravar",
+      "given": "U."
+    },
+    {
+      "affiliation": [],
+      "family": "Bross",
+      "given": "A.D."
+    },
+    {
+      "affiliation": [],
+      "family": "Capponi",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Carlisle",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Cecchet",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Charnley",
+      "given": "C."
+    },
+    {
+      "affiliation": [],
+      "family": "Chignoli",
+      "given": "F."
+    },
+    {
+      "affiliation": [],
+      "family": "Cline",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Cobb",
+      "given": "J.H."
+    },
+    {
+      "affiliation": [],
+      "family": "Colling",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Collomb",
+      "given": "N."
+    },
+    {
+      "affiliation": [],
+      "family": "Coney",
+      "given": "L."
+    },
+    {
+      "affiliation": [],
+      "family": "Cooke",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Courthold",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Cremaldi",
+      "given": "L.M."
+    },
+    {
+      "affiliation": [],
+      "family": "DeMello",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Dick",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Dobbs",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Dornan",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Drews",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Drielsma",
+      "given": "F."
+    },
+    {
+      "affiliation": [],
+      "family": "Filthaut",
+      "given": "F."
+    },
+    {
+      "affiliation": [],
+      "family": "Fitzpatrick",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Franchini",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Francis",
+      "given": "V."
+    },
+    {
+      "affiliation": [],
+      "family": "Fry",
+      "given": "L."
+    },
+    {
+      "affiliation": [],
+      "family": "Gallagher",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Gamet",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Gardener",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Gourlay",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Grant",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Greis",
+      "given": "J.R."
+    },
+    {
+      "affiliation": [],
+      "family": "Griffiths",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Hanlet",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Hansen",
+      "given": "O.M."
+    },
+    {
+      "affiliation": [],
+      "family": "Hanson",
+      "given": "G.G."
+    },
+    {
+      "affiliation": [],
+      "family": "Hart",
+      "given": "T.L."
+    },
+    {
+      "affiliation": [],
+      "family": "Hartnett",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Hayler",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Heidt",
+      "given": "C."
+    },
+    {
+      "affiliation": [],
+      "family": "Hills",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Hodgson",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Hunt",
+      "given": "C."
+    },
+    {
+      "affiliation": [],
+      "family": "Iaciofano",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Ishimoto",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Kafka",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Kaplan",
+      "given": "D.M."
+    },
+    {
+      "affiliation": [],
+      "family": "Karadzhov",
+      "given": "Y."
+    },
+    {
+      "affiliation": [],
+      "family": "Kim",
+      "given": "Y.K."
+    },
+    {
+      "affiliation": [],
+      "family": "Kuno",
+      "given": "Y."
+    },
+    {
+      "affiliation": [],
+      "family": "Kyberd",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Lagrange",
+      "given": "J.-B."
+    },
+    {
+      "affiliation": [],
+      "family": "Langlands",
+      "given": "J."
+    },
+    {
+      "affiliation": [],
+      "family": "Lau",
+      "given": "W."
+    },
+    {
+      "affiliation": [],
+      "family": "Leonova",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Li",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Lintern",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Littlefield",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Long",
+      "given": "K."
+    },
+    {
+      "affiliation": [],
+      "family": "Luo",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Macwaters",
+      "given": "C."
+    },
+    {
+      "affiliation": [],
+      "family": "Martlew",
+      "given": "B."
+    },
+    {
+      "affiliation": [],
+      "family": "Martyniak",
+      "given": "J."
+    },
+    {
+      "affiliation": [],
+      "family": "Mazza",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Middleton",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Moretti",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Moss",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Muir",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Mullacrane",
+      "given": "I."
+    },
+    {
+      "affiliation": [],
+      "family": "Nebrensky",
+      "given": "J.J."
+    },
+    {
+      "affiliation": [],
+      "family": "Neuffer",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Nichols",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Nicholson",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Nugent",
+      "given": "J.C."
+    },
+    {
+      "affiliation": [],
+      "family": "Oates",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Onel",
+      "given": "Y."
+    },
+    {
+      "affiliation": [],
+      "family": "Orestano",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Overton",
+      "given": "E."
+    },
+    {
+      "affiliation": [],
+      "family": "Owens",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Palladino",
+      "given": "V."
+    },
+    {
+      "affiliation": [],
+      "family": "Pasternak",
+      "given": "J."
+    },
+    {
+      "affiliation": [],
+      "family": "Pastore",
+      "given": "F."
+    },
+    {
+      "affiliation": [],
+      "family": "Pidcott",
+      "given": "C."
+    },
+    {
+      "affiliation": [],
+      "family": "Popovic",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Preece",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Prestemon",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Rajaram",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Ramberger",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Rayner",
+      "given": "M.A."
+    },
+    {
+      "affiliation": [],
+      "family": "Ricciardi",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Roberts",
+      "given": "T.J."
+    },
+    {
+      "affiliation": [],
+      "family": "Robinson",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Rogers",
+      "given": "C."
+    },
+    {
+      "affiliation": [],
+      "family": "Ronald",
+      "given": "K."
+    },
+    {
+      "affiliation": [],
+      "family": "Rubinov",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Rucinski",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Sakamato",
+      "given": "H."
+    },
+    {
+      "affiliation": [],
+      "family": "Sanders",
+      "given": "D.A."
+    },
+    {
+      "affiliation": [],
+      "family": "Santos",
+      "given": "E."
+    },
+    {
+      "affiliation": [],
+      "family": "Savidge",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Smith",
+      "given": "P.J."
+    },
+    {
+      "affiliation": [],
+      "family": "Snopok",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Soler",
+      "given": "F.J.P."
+    },
+    {
+      "affiliation": [],
+      "family": "Speirs",
+      "given": "D."
+    },
+    {
+      "affiliation": [],
+      "family": "Stanley",
+      "given": "T."
+    },
+    {
+      "affiliation": [],
+      "family": "Stokes",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Summers",
+      "given": "D.J."
+    },
+    {
+      "affiliation": [],
+      "family": "Tarrant",
+      "given": "J."
+    },
+    {
+      "affiliation": [],
+      "family": "Taylor",
+      "given": "I."
+    },
+    {
+      "affiliation": [],
+      "family": "Tortora",
+      "given": "L."
+    },
+    {
+      "affiliation": [],
+      "family": "Torun",
+      "given": "Y."
+    },
+    {
+      "affiliation": [],
+      "family": "Tsenov",
+      "given": "R."
+    },
+    {
+      "affiliation": [],
+      "family": "Tunnell",
+      "given": "C.D."
+    },
+    {
+      "affiliation": [],
+      "family": "Uchida",
+      "given": "M.A."
+    },
+    {
+      "affiliation": [],
+      "family": "Vankova-Kirilova",
+      "given": "G."
+    },
+    {
+      "affiliation": [],
+      "family": "Virostek",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "Vretenar",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Warburton",
+      "given": "P."
+    },
+    {
+      "affiliation": [],
+      "family": "Watson",
+      "given": "S."
+    },
+    {
+      "affiliation": [],
+      "family": "White",
+      "given": "C."
+    },
+    {
+      "affiliation": [],
+      "family": "Whyte",
+      "given": "C.G."
+    },
+    {
+      "affiliation": [],
+      "family": "Wilson",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Winter",
+      "given": "M."
+    },
+    {
+      "affiliation": [],
+      "family": "Yang",
+      "given": "X."
+    },
+    {
+      "affiliation": [],
+      "family": "Young",
+      "given": "A."
+    },
+    {
+      "affiliation": [],
+      "family": "Zisman",
+      "given": "M."
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "J. Inst.",
+    "Journal of Instrumentation"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-0221/11/i=03/a=P03001/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-0221/11/i=03/a=P03001?key=crossref.b43dd67be3f357ab0c20c04bfb555954"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ],
+    "date-time": "2016-03-02T07:28:28Z",
+    "timestamp": 1456903708000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-0221/11/03/p03001",
+  "ISSN": [
+    "1748-0221"
+  ],
+  "subject": [
+    "Instrumentation",
+    "Mathematical Physics"
+  ]
+}

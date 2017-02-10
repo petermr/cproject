@@ -1,0 +1,85 @@
+{
+  "publisher": {
+    "value": [
+      "Multidisciplinary Digital Publishing Institute"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Agronomy"
+    ]
+  },
+  "title": {
+    "value": [
+      "Temporal Dynamics in Rhizosphere Bacterial Communities of Three Perennial Grassland Species"
+    ]
+  },
+  "authors": {
+    "value": []
+  },
+  "date": {
+    "value": [
+      "2016-03-01"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.3390/agronomy6010017"
+    ]
+  },
+  "volume": {
+    "value": [
+      "6"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "17"
+    ]
+  },
+  "description": {
+    "value": [
+      "Rhizodeposition is considered a primary reason for the plant identity effect. However, the detection of distinct rhizosphere bacterial communities (RBC) with different plant species has been variable. The aim of this study was to examine the potential explanations for this variability using three perennial grassland species. In a Kansas field experiment, over two growing seasons, we sampled RBC during the active growth and flowering stages of Agrostis gigantea, Andropogon gerardii and Helianthus maximiliani to: (1) determine the extent of the plant identity effect among these species and if the effect was maintained over time; (2) assess if RBC showed seasonal patterns, corresponding to plant phenology; and (3) examine if soil properties were important for structuring these communities. We found that Helianthus RBC were distinct from those of Agrostis and Andropogon only when Helianthus was flowering. Further, Helianthus RBC exhibited seasonal shifts corresponding to plant phenology. In contrast, Agrostis and Andropogon RBC were similar over time and exhibited gradual non-seasonal changes in compositions. Similar results were observed when accounting for soil properties. Overall, the observance of a plant identity effect depended on the plant species and when RBC were sampled. The seasonality of RBC also depended on the plant species examined."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Rhizodeposition is considered a primary reason for the plant identity effect. However, the detection of distinct rhizosphere bacterial communities (RBC) with different plant species has been variable. The aim of this study was to examine the potential explanations for this variability using three perennial grassland species. In a Kansas field experiment, over two growing seasons, we sampled RBC during the active growth and flowering stages of Agrostis gigantea, Andropogon gerardii and Helianthus maximiliani to: (1) determine the extent of the plant identity effect among these species and if the effect was maintained over time; (2) assess if RBC showed seasonal patterns, corresponding to plant phenology; and (3) examine if soil properties were important for structuring these communities. We found that Helianthus RBC were distinct from those of Agrostis and Andropogon only when Helianthus was flowering. Further, Helianthus RBC exhibited seasonal shifts corresponding to plant phenology. In contrast, Agrostis and Andropogon RBC were similar over time and exhibited gradual non-seasonal changes in compositions. Similar results were observed when accounting for soil properties. Overall, the observance of a plant identity effect depended on the plant species and when RBC were sampled. The seasonality of RBC also depended on the plant species examined."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.mdpi.com/2073-4395/6/1/17/htm"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.mdpi.com/2073-4395/6/1/17/pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "http://www.mdpi.com/2073-4395/6/1/17/xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": []
+  },
+  "copyright": {
+    "value": []
+  }
+}

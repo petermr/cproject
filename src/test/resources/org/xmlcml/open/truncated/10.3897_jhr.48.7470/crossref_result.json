@@ -1,0 +1,139 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:45:39Z",
+    "timestamp": 1457088339913
+  },
+  "reference-count": 12,
+  "publisher": "Pensoft Publishers",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "DOI": "10.3897/jhr.48.7470",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        29
+      ]
+    ],
+    "date-time": "2016-02-29T15:40:54Z",
+    "timestamp": 1456760454000
+  },
+  "page": "1-18",
+  "source": "CrossRef",
+  "title": [
+    "Systematics, biology and distribution of Microdontomerus iridis (Picard, 1930), comb. n. (Hymenoptera, Torymidae, Toryminae, Microdontomerini), a parasitoid of Mantodea oothecae"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3897",
+  "volume": "48",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Jansta",
+      "given": "Petr"
+    },
+    {
+      "affiliation": [],
+      "family": "Delvare",
+      "given": "Gérard"
+    },
+    {
+      "affiliation": [],
+      "family": "Krogmann",
+      "given": "Lars"
+    },
+    {
+      "affiliation": [],
+      "family": "Schütte",
+      "given": "Kai"
+    },
+    {
+      "affiliation": [],
+      "family": "Peters",
+      "given": "Ralph"
+    }
+  ],
+  "member": "http://id.crossref.org/member/2258",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "JHR",
+    "Journal of Hymenoptera Research"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=7470"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/xml",
+      "URL": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=7470"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T08:04:25Z",
+    "timestamp": 1456819465000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3897/jhr.48.7470",
+  "ISSN": [
+    "1314-2607",
+    "1070-9428"
+  ],
+  "subject": [
+    "Insect Science",
+    "Ecology, Evolution, Behavior and Systematics"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        22
+      ]
+    ],
+    "date-time": "2016-03-22T09:20:43Z",
+    "timestamp": 1458638443952
+  },
+  "reference-count": 82,
+  "publisher": "MDPI AG",
+  "issue": "1",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+      "DOI": "10.13039/501100001711"
+    }
+  ],
+  "DOI": "10.3390/act5010008",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T16:07:19Z",
+    "timestamp": 1456848439000
+  },
+  "page": "8",
+  "source": "CrossRef",
+  "title": [
+    "Base Metal Co-Fired Multilayer Piezoelectrics"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Gao",
+      "given": "Lisheng"
+    },
+    {
+      "affiliation": [],
+      "family": "Guo",
+      "given": "Hanzheng"
+    },
+    {
+      "affiliation": [],
+      "family": "Zhang",
+      "given": "Shujun"
+    },
+    {
+      "affiliation": [],
+      "family": "Randall",
+      "given": "Clive"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Actuators"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        19
+      ]
+    ],
+    "date-time": "2016-03-19T15:01:52Z",
+    "timestamp": 1458399712000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "act5010008"
+  ],
+  "URL": "http://dx.doi.org/10.3390/act5010008",
+  "ISSN": [
+    "2076-0825"
+  ]
+}
