@@ -6,16 +6,12 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
-import org.xmlcml.cproject.metadata.quickscrape.QSRecord;
-import org.xmlcml.cproject.metadata.quickscrape.QuickscrapeLog;
 import org.xmlcml.cproject.util.CMineUtil;
 
 import com.google.common.collect.Multimap;
-import com.google.common.collect.Multiset;
-
-import junit.framework.Assert;
 
 public class QuickscrapeLogTest {
 

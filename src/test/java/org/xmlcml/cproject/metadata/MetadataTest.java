@@ -183,7 +183,7 @@ public class MetadataTest {
 					JsonArray array = ((JsonObject) elem).getAsJsonArray("value");
 					value = array.size() == 0 ? "" : array.get(0).getAsString();
 				} else {
-					LOG.debug(elem.getClass());
+					LOG.trace(elem.getClass());
 				}
 				value = value.substring(0, Math.min(100, value.length()));
 			}

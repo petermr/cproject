@@ -1156,7 +1156,7 @@ public class DefaultArgProcessor {
 					throw e;
 				} catch (Exception e) {
 					projectLog.error("error in running, terminated: "+e);
-					System.err.print("ERR!");
+					LOG.error("ERR!");
 					continue;
 				}
 				if (i % 10 == 0) System.out.print(".");

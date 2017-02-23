@@ -4,11 +4,9 @@ import java.io.File;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
-import org.xmlcml.cproject.files.CTree;
-import org.xmlcml.cproject.files.CTreeFiles;
 
-import junit.framework.Assert;
 
 /**
  * 

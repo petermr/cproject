@@ -43,7 +43,7 @@ public class MetadataLongTest {
 		CProject cProject = new CProject(new File(CMineFixtures.GETPAPERS_NEW, "2016020"+i+"-articles"));
 		File shuffledUrlsOutFilename = new File(cProject.getDirectory(), MetadataManager.SHUFFLED_URLS_TXT);
 		Assert.assertEquals("filename ", 
-				"/Users/pm286/workspace/cmdev/cmine-dev/../getpapersNew/20160201-articles/shuffledUrls.txt",
+				"/Users/pm286/workspace/cmdev/cproject/../getpapersNew/20160201-articles/shuffledUrls.txt",
 				shuffledUrlsOutFilename.getAbsolutePath());
 		cProject.extractShuffledUrlsFromCrossrefToFile(shuffledUrlsOutFilename);
 		Assert.assertTrue("shuffled: ", shuffledUrlsOutFilename.exists());

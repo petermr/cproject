@@ -4,11 +4,18 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
+    <properties>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+       <cproject.version>0.3.5</cproject.version>
+       <!--  upstream -->
+       <svg2xml.version>2.0.5</svg2xml.version>
+    </properties>
+
 
 	<groupId>org.contentmine</groupId>
 	<artifactId>cproject</artifactId>
 	<!-- supersedes versions in args.xml -->
-	<version>0.3.4</version>
+	<version>${cproject.version}</version>
 	<packaging>jar</packaging>
 	<name>cproject</name>
 	<description>A Java library for processing arguments and managing contentmine directories</description>
@@ -137,7 +144,7 @@
 		<dependency>
 			<groupId>org.contentmine </groupId>
 			<artifactId>svg2xml</artifactId>
-			<version>2.0.1</version>
+			<version>${svg2xml.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>

@@ -5,12 +5,9 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.cproject.args.DefaultArgProcessor;
-import org.xmlcml.cproject.args.VersionManager;
-
-import junit.framework.Assert;
 
 public class DefaultArgProcessorTest {
 	
