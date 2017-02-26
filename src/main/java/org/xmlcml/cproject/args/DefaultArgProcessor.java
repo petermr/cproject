@@ -1,7 +1,6 @@
 package org.xmlcml.cproject.args;
 
 import java.io.ByteArrayOutputStream;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,6 +14,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
@@ -22,12 +22,13 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.IOFileFilter;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cproject.args.log.AbstractLogElement;
-import org.xmlcml.cproject.args.log.CMineLog;
 import org.xmlcml.cproject.args.log.AbstractLogElement.LogLevel;
+import org.xmlcml.cproject.args.log.CMineLog;
 import org.xmlcml.cproject.files.AbstractSearcher;
 import org.xmlcml.cproject.files.CProject;
 import org.xmlcml.cproject.files.CTree;
@@ -35,6 +36,7 @@ import org.xmlcml.cproject.files.CTreeFiles;
 import org.xmlcml.cproject.files.CTreeList;
 import org.xmlcml.cproject.files.ProjectFilesTree;
 import org.xmlcml.cproject.files.ProjectSnippetsTree;
+import org.xmlcml.cproject.files.RegexPathFilter;
 import org.xmlcml.cproject.files.ResourceLocation;
 import org.xmlcml.cproject.files.ResultElement;
 import org.xmlcml.cproject.files.ResultsElement;
@@ -197,7 +199,8 @@ public class DefaultArgProcessor {
 	protected XPathProcessor xPathProcessor;
 	private Multiset<String> documentMultiset;
 	private Level exceptionLevel;
-	
+	private IOFileFilter ioFileFilter;
+
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
 	}
@@ -218,6 +221,7 @@ public class DefaultArgProcessor {
 	}
 
 	public final static  AbstractLogElement CM_LOG = new CMineLog(new File("target/defaultLog.xml"));
+	private Pattern fileFilterPattern;
 	
 	public AbstractLogElement PROJECT_LOG() {
 		if (projectLog == null) {
@@ -337,6 +341,15 @@ public class DefaultArgProcessor {
 		} else {
 			throw new RuntimeException("Bad exception level: "+levelS);
 		}
+	}
+
+	public void parseFileFilter(ArgumentOption option, ArgIterator argIterator) {
+		String fileFilterS = argIterator.getString(option);
+		fileFilterPattern = Pattern.compile(fileFilterS);
+		ioFileFilter = new RegexPathFilter(fileFilterPattern);
+//		LOG.debug("FFS "+fileFilterS+" FFP "+fileFilterPattern+" FF "+ioFileFilter);
+		
+//		throw new RuntimeException("DUMMY // FIXME");
 	}
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
@@ -792,6 +805,10 @@ public class DefaultArgProcessor {
 		return inputList;
 	}
 
+	public IOFileFilter getIOFileFilter() {
+		return ioFileFilter;
+	}
+
 	public String getInputDirName() {
 		return inputDirName;
 	}
@@ -846,7 +863,7 @@ public class DefaultArgProcessor {
 		} else {
 			String[] totalArgs = addDefaultsAndParsedArgs(commandLineArgs);
 			ArgIterator argIterator = new ArgIterator(totalArgs);
-			LOG.trace("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
+			LOG.debug("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
 			while (argIterator.hasNext()) {
 				String arg = argIterator.next();
 				LOG.trace("arg> "+arg);
@@ -1156,7 +1173,8 @@ public class DefaultArgProcessor {
 					throw e;
 				} catch (Exception e) {
 					projectLog.error("error in running, terminated: "+e);
-					LOG.error("ERR!");
+					e.printStackTrace();
+					LOG.error("ERR! "+e);
 					continue;
 				}
 				if (i % 10 == 0) System.out.print(".");

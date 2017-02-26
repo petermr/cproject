@@ -104,6 +104,7 @@ public class CrossrefTest {
 	 * @throws Exception
 	 */
 	@Test
+	@Ignore // requires net
 	public void testResolveDOI() throws Exception {
 		String crossRefDOI = "http://dx.doi.org/10.3389/fpsyg.2016.00565";
 		String s = new DOIResolver().resolveDOI(crossRefDOI);
