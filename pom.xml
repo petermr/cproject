@@ -6,9 +6,9 @@
 
     <properties>
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-       <cproject.version>0.3.6</cproject.version>
+       <cproject.version>0.3.7</cproject.version>
        <!--  upstream -->
-       <svg2xml.version>2.0.6</svg2xml.version>
+       <svg2xml.version>2.0.7</svg2xml.version>
     </properties>
 
 
