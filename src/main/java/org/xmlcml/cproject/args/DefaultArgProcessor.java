@@ -347,9 +347,6 @@ public class DefaultArgProcessor {
 		String fileFilterS = argIterator.getString(option);
 		fileFilterPattern = Pattern.compile(fileFilterS);
 		ioFileFilter = new RegexPathFilter(fileFilterPattern);
-//		LOG.debug("FFS "+fileFilterS+" FFP "+fileFilterPattern+" FF "+ioFileFilter);
-		
-//		throw new RuntimeException("DUMMY // FIXME");
 	}
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
@@ -1104,7 +1101,7 @@ public class DefaultArgProcessor {
 			} catch (IllegalArgumentException e) {
 				throw e;
 			} catch (Exception ee) {
-//				ee.printStackTrace();
+				ee.printStackTrace();
 				throw new RuntimeException("invoke "+methodName+" fails", ee);
 			}
 		}

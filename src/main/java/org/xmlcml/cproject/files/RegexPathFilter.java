@@ -19,6 +19,11 @@ public class RegexPathFilter implements IOFileFilter {
 	public RegexPathFilter(Pattern pattern) {
 		this.pattern = pattern;
 	}
+	
+	public RegexPathFilter(String filePatternString) {
+		pattern = Pattern.compile(filePatternString);
+	}
+	
 	/** this one is  called by FileUtils.listFiles
 	 * 
 	 */
@@ -37,6 +42,10 @@ public class RegexPathFilter implements IOFileFilter {
 	
 	public Pattern getPattern() {
 		return pattern;
+	}
+	
+	public String toString() {
+		return pattern == null ? null : pattern.toString();
 	}
 
 }

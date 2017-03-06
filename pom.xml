@@ -5,7 +5,6 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <properties>
-       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        <cproject.version>0.3.8</cproject.version>
        <!--  upstream -->
        <svg2xml.version>2.0.8</svg2xml.version>
@@ -20,19 +19,6 @@
 	<name>cproject</name>
 	<description>A Java library for processing arguments and managing contentmine directories</description>
 
-	<licenses>
-		<license>
-			<name>Apache License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
-	<scm>
-		<url>https://bitbucket.org/wwmm/html/src</url>
-		<connection>scm:hg:http://bitbucket.org/wwmm/args</connection>
-		<developerConnection>scm:hg:https://bitbucket.org/wwmm/args</developerConnection>
-	</scm>
-
 	<developers>
 		<developer>
 			<id>pm286</id>
@@ -42,10 +28,6 @@
 
 	<inceptionYear>2015</inceptionYear>
 
-	<organization>
-		<name>Peter Murray-Rust</name>
-		<url>http://blogs.ch.cam.ac.uk/pmr</url>
-	</organization>
 	<build>
 		<plugins>
 			<!-- include version number in manifest -->
