@@ -199,6 +199,7 @@ public class DefaultArgProcessor {
 	protected XPathProcessor xPathProcessor;
 	private Multiset<String> documentMultiset;
 	private Level exceptionLevel;
+	protected Pattern fileFilterPattern;
 	private IOFileFilter ioFileFilter;
 
 	protected List<ArgumentOption> getArgumentOptionList() {
@@ -221,7 +222,6 @@ public class DefaultArgProcessor {
 	}
 
 	public final static  AbstractLogElement CM_LOG = new CMineLog(new File("target/defaultLog.xml"));
-	private Pattern fileFilterPattern;
 	
 	public AbstractLogElement PROJECT_LOG() {
 		if (projectLog == null) {
