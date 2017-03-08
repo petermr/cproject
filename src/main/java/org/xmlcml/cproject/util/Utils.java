@@ -29,8 +29,7 @@ public class Utils {
 	 * @return
 	 */
 	public static File[] getFilesWithFilter(File dir, IOFileFilter ioFileFilter) {
-		Collection<File> fileCollection = FileUtils.listFiles(dir, 
-				ioFileFilter, TrueFileFilter.INSTANCE);
+		Collection<File> fileCollection = FileUtils.listFiles(dir, ioFileFilter, TrueFileFilter.INSTANCE);
 		return fileCollection.toArray(new File[0]);
 	}
 
