@@ -8,11 +8,9 @@ import org.apache.commons.math.distribution.ZipfDistribution;
 import org.apache.commons.math.distribution.ZipfDistributionImpl;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.junit.Test
-;
-import org.xmlcml.cproject.util.URLShuffler;
+import org.junit.Assert;
+import org.junit.Test;
 
-import junit.framework.Assert;
 public class URLShuffleTest {
 
 	public static final Logger LOG = Logger.getLogger(URLShuffleTest.class);

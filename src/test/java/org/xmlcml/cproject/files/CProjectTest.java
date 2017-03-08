@@ -431,11 +431,11 @@ project2
 		Assert.assertNotNull("files", cTreeFiles);
 		Assert.assertEquals("b", 2,  cTreeFiles.size());
 		// fails on unsorted lists
+		Assert.assertTrue("urls", cTreeFiles.toString().contains(
+				"src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.pdf"));
+		Assert.assertTrue("urls", cTreeFiles.toString().contains(
+				"src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.xml"));
 		
-//		Assert.assertEquals("c", "src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.pdf",  
-//				fileListList.get(0).get(0).toString());
-//		Assert.assertEquals("d", "src/test/resources/org/xmlcml/files/projects/project2/PMC4417228/fulltext.xml",  
-//				fileListList.get(0).get(1).toString());
 	}
 
 	@Test
@@ -585,7 +585,6 @@ project2
 	 * 
 	 * @throws IOException
 	 */
-	@Ignore //fails on test ordering
 	@Test 
 	public void testNormalizeDOIBasedNames() {
 		File project1Dir = new File(CMineFixtures.TEST_PROJECTS_DIR, "doiNames/");
@@ -593,18 +592,19 @@ project2
 		CMineTestFixtures.cleanAndCopyDir(project1Dir, target1Dir);
 		CProject project1 = new CProject(target1Dir);
 		CTreeList cTreeList = project1.getResetCTreeList();
-		Assert.assertEquals("unnormalized ", "["
-				+ "target/getpapers/doiNames/http_dx.doi.org_10.1088_1757-899x_106_1_012037,"
-				+ " target/getpapers/doiNames/http_dx.doi.org_10.1088_1757-899x_106_1_012038,"
-				+ " target/getpapers/doiNames/http_dx.doi.org_10.1103_p", 
-				Utils.truncate(cTreeList.toString(), 0, 200));
+		Assert.assertEquals("size", 4, cTreeList.size());
+		Assert.assertTrue("unnormalized", cTreeList.toString().contains(
+				"target/getpapers/doiNames/http_dx.doi.org_10.1103_physrevb.93.075101"));
+		Assert.assertTrue("unnormalized", cTreeList.toString().contains(
+				"target/getpapers/doiNames/http_dx.doi.org_10.1103_physreve.93.022402"));
+		
 		project1.normalizeDOIBasedDirectoryCTrees();
-		Assert.assertEquals("normalized ", "["
-				+ "target/getpapers/doiNames/10.1088_1757-899x_106_1_012037,"
-				+ " target/getpapers/doiNames/10.1088_1757-899x_106_1_012038,"
-				+ " target/getpapers/doiNames/10.1103_physrevb.93.075101,"
-				+ " target/getpapers/doiNames/10.",
-				Utils.truncate(cTreeList.toString(), 0, 200));
+		cTreeList = project1.getResetCTreeList();
+		LOG.debug(cTreeList.toString());
+		Assert.assertTrue("unnormalized", cTreeList.toString().contains(
+				"target/getpapers/doiNames/10.1103_physrevb.93.075101"));
+		Assert.assertTrue("unnormalized", cTreeList.toString().contains(
+				"target/getpapers/doiNames/10.1103_physreve.93.022402"));
 	}
 	
 	

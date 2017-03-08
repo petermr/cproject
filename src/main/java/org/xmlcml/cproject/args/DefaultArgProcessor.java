@@ -1,7 +1,6 @@
 package org.xmlcml.cproject.args;
 
 import java.io.ByteArrayOutputStream;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,6 +14,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
@@ -22,12 +22,13 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.IOFileFilter;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cproject.args.log.AbstractLogElement;
-import org.xmlcml.cproject.args.log.CMineLog;
 import org.xmlcml.cproject.args.log.AbstractLogElement.LogLevel;
+import org.xmlcml.cproject.args.log.CMineLog;
 import org.xmlcml.cproject.files.AbstractSearcher;
 import org.xmlcml.cproject.files.CProject;
 import org.xmlcml.cproject.files.CTree;
@@ -35,6 +36,7 @@ import org.xmlcml.cproject.files.CTreeFiles;
 import org.xmlcml.cproject.files.CTreeList;
 import org.xmlcml.cproject.files.ProjectFilesTree;
 import org.xmlcml.cproject.files.ProjectSnippetsTree;
+import org.xmlcml.cproject.files.RegexPathFilter;
 import org.xmlcml.cproject.files.ResourceLocation;
 import org.xmlcml.cproject.files.ResultElement;
 import org.xmlcml.cproject.files.ResultsElement;
@@ -197,7 +199,9 @@ public class DefaultArgProcessor {
 	protected XPathProcessor xPathProcessor;
 	private Multiset<String> documentMultiset;
 	private Level exceptionLevel;
-	
+	protected Pattern fileFilterPattern;
+	private IOFileFilter ioFileFilter;
+
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
 	}
@@ -339,6 +343,12 @@ public class DefaultArgProcessor {
 		}
 	}
 
+	public void parseFileFilter(ArgumentOption option, ArgIterator argIterator) {
+		String fileFilterS = argIterator.getString(option);
+		fileFilterPattern = Pattern.compile(fileFilterS);
+		ioFileFilter = new RegexPathFilter(fileFilterPattern);
+	}
+
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		inputList = ensureArgumentExpander().expandAllWildcards(inputs);
@@ -476,7 +486,7 @@ public class DefaultArgProcessor {
 			} else if (currentCTree.getCTreeFiles() != null) {
 				outputCTreeFiles(outputFile);
 			} else {
-				LOG.debug("Analysis: No snippets or files to output");
+				LOG.warn("Analysis: No snippets or files to output");
 			}
 		}
 	}
@@ -792,6 +802,10 @@ public class DefaultArgProcessor {
 		return inputList;
 	}
 
+	public IOFileFilter getIOFileFilter() {
+		return ioFileFilter;
+	}
+
 	public String getInputDirName() {
 		return inputDirName;
 	}
@@ -846,7 +860,7 @@ public class DefaultArgProcessor {
 		} else {
 			String[] totalArgs = addDefaultsAndParsedArgs(commandLineArgs);
 			ArgIterator argIterator = new ArgIterator(totalArgs);
-			LOG.trace("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
+			LOG.debug("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
 			while (argIterator.hasNext()) {
 				String arg = argIterator.next();
 				LOG.trace("arg> "+arg);
@@ -1087,7 +1101,7 @@ public class DefaultArgProcessor {
 			} catch (IllegalArgumentException e) {
 				throw e;
 			} catch (Exception ee) {
-//				ee.printStackTrace();
+				ee.printStackTrace();
 				throw new RuntimeException("invoke "+methodName+" fails", ee);
 			}
 		}
@@ -1156,7 +1170,8 @@ public class DefaultArgProcessor {
 					throw e;
 				} catch (Exception e) {
 					projectLog.error("error in running, terminated: "+e);
-					System.err.print("ERR!");
+					e.printStackTrace();
+					LOG.error("ERR! "+e);
 					continue;
 				}
 				if (i % 10 == 0) System.out.print(".");

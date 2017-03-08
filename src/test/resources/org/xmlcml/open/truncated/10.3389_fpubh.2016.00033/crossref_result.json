@@ -1,0 +1,97 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        3
+      ]
+    ],
+    "date-time": "2016-03-03T11:15:36Z",
+    "timestamp": 1457003736908
+  },
+  "reference-count": 17,
+  "publisher": "Frontiers Media SA",
+  "DOI": "10.3389/fpubh.2016.00033",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T04:10:51Z",
+    "timestamp": 1456805451000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Editorial: Public Health Nutrition in the Middle East"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hwalla",
+      "given": "Nahla"
+    },
+    {
+      "affiliation": [],
+      "family": "Weaver",
+      "given": "Connie M."
+    },
+    {
+      "affiliation": [],
+      "family": "Mekary",
+      "given": "Rania A."
+    },
+    {
+      "affiliation": [],
+      "family": "El Labban",
+      "given": "Sibelle"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Public Health",
+    "Front. Public Health"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T04:10:52Z",
+    "timestamp": 1456805452000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/fpubh.2016.00033",
+  "ISSN": [
+    "2296-2565"
+  ]
+}

@@ -4,34 +4,20 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-<!--  
-	<parent>
-		<groupId>uk.ac.cam.ch.wwmm</groupId>
-		<artifactId>wwmm-parent</artifactId>
-		<version>4</version>
-	</parent>
--->
+    <properties>
+       <cproject.version>0.3.8</cproject.version>
+       <!--  upstream -->
+       <svg2xml.version>2.0.8</svg2xml.version>
+    </properties>
 
-	<groupId>org.xml-cml</groupId>
+
+	<groupId>org.contentmine</groupId>
 	<artifactId>cproject</artifactId>
 	<!-- supersedes versions in args.xml -->
-	<version>0.3.1</version>
+	<version>${cproject.version}</version>
 	<packaging>jar</packaging>
 	<name>cproject</name>
 	<description>A Java library for processing arguments and managing contentmine directories</description>
-
-	<licenses>
-		<license>
-			<name>Apache License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
-	<scm>
-		<url>https://bitbucket.org/wwmm/html/src</url>
-		<connection>scm:hg:http://bitbucket.org/wwmm/args</connection>
-		<developerConnection>scm:hg:https://bitbucket.org/wwmm/args</developerConnection>
-	</scm>
 
 	<developers>
 		<developer>
@@ -41,92 +27,35 @@
 	</developers>
 
 	<inceptionYear>2015</inceptionYear>
-	<ciManagement>
-		<system>jenkins</system>
-		<url>http://jenkins.ch.cam.ac.uk/job/args</url>
-	</ciManagement>
 
-	<organization>
-		<name>Peter Murray-Rust</name>
-		<url>http://blogs.ch.cam.ac.uk/pmr</url>
-	</organization>
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>cobertura-maven-plugin</artifactId>
-				<configuration>
-					<check>
-						<haltOnFailure>false</haltOnFailure>
-						<regexes>
-							<regex>
-								<pattern>org.xmlcml.cml.*</pattern>
-								<branchRate>80</branchRate>
-								<lineRate>80</lineRate>
-							</regex>
-						</regexes>
-					</check>
-					<instrumentation>
-						<includes>
-							<include>org/xmlcml/cml/**/*.class</include>
-						</includes>
-					</instrumentation>
-				</configuration>
-				<executions>
-					<execution>
-						<id>clean</id>
-						<phase>pre-site</phase>
-						<goals>
-							<goal>clean</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>instrument</id>
-						<phase>site</phase>
-						<goals>
-							<goal>instrument</goal>
-							<goal>cobertura</goal>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>com.mycila.maven-license-plugin</groupId>
-				<artifactId>maven-license-plugin</artifactId>
-				<configuration>
-					<header>src/main/resources/header.txt</header>
-				</configuration>
-			</plugin>
 			<!-- include version number in manifest -->
 			<plugin>
-			    <groupId>org.apache.maven.plugins</groupId>
-			    <artifactId>maven-jar-plugin</artifactId>
-			    <configuration>
-			        <archive>                   
-			            <manifest>
-			                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-			                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-			            </manifest>
-			        </archive>
-			    </configuration>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+						</manifest>
+					</archive>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>appassembler-maven-plugin</artifactId>
 				<version>1.8.1</version>
 				<configuration>
-
 					<programs>
- 						<program>
+						<program>
 							<mainClass>org.xmlcml.cproject.PMan</mainClass>
 							<id>pman</id>
 						</program>
 					</programs>
-
 					<!-- Prevent long directories -->
 					<repositoryLayout>flat</repositoryLayout>
-
 				</configuration>
 
 				<executions>
@@ -140,11 +69,11 @@
 				</executions>
 
 			</plugin>
-						<!-- giant jar -->
+			<!-- giant jar -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
-                                <version>2.4</version>
+				<version>2.4</version>
 				<configuration>
 					<descriptorRefs>
 						<descriptorRef>jar-with-dependencies</descriptorRef>
@@ -167,48 +96,37 @@
 				</executions>
 			</plugin>
 
-<!--  command  -->
+			<!-- command -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>appassembler-maven-plugin</artifactId>
 				<version>1.8.1</version>
 				<configuration>
 					<programs>
- 						<program>
+						<program>
 							<mainClass>org.xmlcml.cproject.files.CProject</mainClass>
 							<id>cproject</id>
 						</program>
 					</programs>
 				</configuration>
 			</plugin>
-			
-			
+
+
 		</plugins>
 	</build>
 
-	<!-- remove <repositories> for release to maven central -->
-	<repositories>
-		<repository>
-			<id>ucc-repo</id>
-			<name>UCC Maven Repository</name>
-			<url>https://maven.ch.cam.ac.uk/m2repo</url>
-		</repository>
-	</repositories>
- 
 	<dependencies>
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
- 			<version>18.0</version>
+			<version>18.0</version>
 		</dependency>
-		<!--  this should not be necessary 
-		There seems to be a rogue version of guava somewhere
-		(http://stackoverflow.com/questions/28978277/guava-multisets-copyhighestcountfirst-method-suddenly-not-working)
-		 -->
+		<!-- this should not be necessary There seems to be a rogue version of 
+			guava somewhere (http://stackoverflow.com/questions/28978277/guava-multisets-copyhighestcountfirst-method-suddenly-not-working) -->
 		<dependency>
-			<groupId>org.xml-cml</groupId>
-			<artifactId>html</artifactId>
-			<version>0.2-SNAPSHOT</version>
+			<groupId>org.contentmine </groupId>
+			<artifactId>svg2xml</artifactId>
+			<version>${svg2xml.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -217,90 +135,15 @@
 		</dependency>
 		<!-- https://github.com/jayway/JsonPath/blob/master/README.md -->
 		<dependency>
-		    <groupId>com.jayway.jsonpath</groupId>
-		    <artifactId>json-path</artifactId>
-		    <version>2.0.0</version>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<version>2.0.0</version>
 		</dependency>
 		<dependency>
-		    <groupId>org.apache.commons</groupId>
-		    <artifactId>commons-csv</artifactId>
-		    <version>1.2</version>
-		</dependency>		
-		
-		
-		
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.8.2</version>
-			<scope>test</scope>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-csv</artifactId>
+			<version>1.2</version>
 		</dependency>
-		
-		
+
 	</dependencies>
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<reportSets>
-					<reportSet>
-						<reports>
-							<report>index</report>
-							<report>summary</report>
-							<report>dependencies</report>
-							<report>project-team</report>
-							<report>license</report>
-							<report>cim</report>
-							<report>scm</report>
-						</reports>
-					</reportSet>
-				</reportSets>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-report-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jxr-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-pmd-plugin</artifactId>
-				<configuration>
-					<targetJdk>1.5</targetJdk>
-					<linkXRef>true</linkXRef>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<configuration>
-					<configLocation>src/test/resources/checkstyle.xml</configLocation>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>cobertura-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>apt-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5</version>
-				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</reporting>
 </project>

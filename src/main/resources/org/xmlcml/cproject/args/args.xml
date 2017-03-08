@@ -125,6 +125,27 @@
 				these implicit. The mechanisms for creating <em><code>ctree</code></em>s from isolated files will
 				probably be altered. 
 				</p>	  
+				<p> see also --filefilter which operates on existing files</p>
+		</help>
+	</arg>	
+	
+	<arg name="fileFilter" 
+		long="--fileFilter"
+		args="[regex for allowed files]"
+		countRange="{1,1}"
+		parseMethod="parseFileFilter"
+		>
+		<help>
+		  <p class="brief">Filter allowing list of files to be processed</p> 
+			<p>Regex for allowed files. rooted in `CTree` directory. Can include directory tree; example
+			<pre>
+			tables/table(\\d+)/table(_\\d+)?\\.svg
+			</pre>
+			would list 
+			<pre>	
+			tables/table2/table_1.svg
+			</pre>
+			</p>	
 		</help>
 	</arg>	
 	

@@ -1,0 +1,58 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=7905"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "title": {
+    "value": [
+      "Case series of 23 deaths from Hymenoptera stings among United States Air Force populations"
+    ]
+  },
+  "author": {
+    "value": [
+      "Jameson D. Voss",
+      " Richard Kugblenu",
+      " Khabira Salter",
+      " Lucas Johnson",
+      " Will К. Reeves"
+    ]
+  },
+  "date": {
+    "value": [
+      "01/03/2016 10:11:30"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.3897/JHR.48.7905"
+    ]
+  },
+  "volume": {
+    "value": [
+      "48",
+      "48"
+    ]
+  },
+  "issue": {
+    "value": [
+      ""
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "95"
+    ]
+  },
+  "abstract_html": {
+    "value": []
+  },
+  "description": {
+    "value": [
+      "Medical conditions arising from hymenopteran sting allergy or mass envenomation are a serious health concern, particularly in austere environments. Both practicing allergists and entomological pest control personnel should consider the relevance of stinging insects when responding to problems with Hymenoptera. Recent occupational reviews of civilian deaths from insect bites and stings prompted our review of the US Air Force Mortality Registry to determine the relevance of insect stings and bites as a cause of death in the US Air Force. After reviewing over 40 years of death records we identified 23 death records, among US Air Force Active duty, guard, or retirees that arose directly from hymenopteran stings."
+    ]
+  }
+}

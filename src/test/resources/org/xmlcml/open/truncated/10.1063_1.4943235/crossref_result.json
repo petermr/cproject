@@ -1,0 +1,254 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:51:41Z",
+    "timestamp": 1457088701275
+  },
+  "reference-count": 14,
+  "publisher": "AIP Publishing",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [
+        "DE-FG02-07ER46420"
+      ],
+      "doi-asserted-by": "publisher",
+      "name": "Office of Science",
+      "DOI": "10.13039/100006132"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Engineering and Physical Sciences Research Council",
+      "DOI": "10.13039/501100000266"
+    },
+    {
+      "award": [
+        "283883"
+      ],
+      "name": "European Union's Seventh Framework Programme for Research"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1063/1.4943235",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T18:00:27Z",
+    "timestamp": 1456855227000
+  },
+  "page": "055705",
+  "update-policy": "http://dx.doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "CrossRef",
+  "title": [
+    "An exploration of some magnetic fundamentals in EuSe using μSR"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1063",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [
+        {
+          "name": "Physics, Durham University, Durham, DH1 3LE, United Kingdom"
+        }
+      ],
+      "family": "Terry",
+      "given": "I."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Physics and Astronomy, Louisiana State University, Baton Rouge, LA,70803-4001, USA"
+        }
+      ],
+      "family": "Adams",
+      "given": "P. W."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Physics, Temple University, Philadelphia, PA, 19122-6082, USA"
+        }
+      ],
+      "family": "Bykovetz",
+      "given": "N."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Physics and Astronomy, Cardiff University, Cardiff,Cf24-6457, United Kingdom"
+        }
+      ],
+      "family": "Giblin",
+      "given": "S. R."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Laboratory for Muon-Spin Spectroscopy, Paul Scherrer Institute, Villigen-PSI, Switzerland"
+        }
+      ],
+      "family": "Guguchi",
+      "given": "Z."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Laboratory for Muon-Spin Spectroscopy, Paul Scherrer Institute, Villigen-PSI, Switzerland"
+        }
+      ],
+      "family": "Khasanov",
+      "given": "R."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Physics and Astronomy, University of Pennsylvania, Philadelphia, PA 19104-6396, USA"
+        }
+      ],
+      "family": "Klein",
+      "given": "J.",
+      "ORCID": "http://orcid.org/0000-0001-9605-0181"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Physics, Temple University, Philadelphia, PA, 19122-6082, USA"
+        }
+      ],
+      "family": "Lin",
+      "given": "C. L."
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Physics and Astronomy, Louisiana State University, Baton Rouge, LA,70803-4001, USA"
+        }
+      ],
+      "family": "Liu",
+      "given": "T. J."
+    }
+  ],
+  "member": "http://id.crossref.org/member/317",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "AIP Advances"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ],
+    "date-time": "2016-03-02T01:37:40Z",
+    "timestamp": 1456882660000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1063/1.4943235",
+  "archive": [
+    "CLOCKSS",
+    "Portico"
+  ],
+  "ISSN": [
+    "2158-3226"
+  ],
+  "assertion": [
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "presented",
+      "name": "presented",
+      "order": 5,
+      "value": "2016-01-13"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "received",
+      "name": "received",
+      "order": 0,
+      "value": "2015-11-06"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "accepted",
+      "name": "accepted",
+      "order": 2,
+      "value": "2015-12-14"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "published",
+      "name": "published",
+      "order": 6,
+      "value": "2016-03-01"
+    }
+  ]
+}

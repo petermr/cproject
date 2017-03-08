@@ -1,0 +1,126 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:49:33Z",
+    "timestamp": 1457088573363
+  },
+  "reference-count": 0,
+  "publisher": "Copernicus GmbH",
+  "issue": "1",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "DOI": "10.5194/aab-59-121-2016",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T12:52:21Z",
+    "timestamp": 1456836741000
+  },
+  "page": "121-129",
+  "source": "CrossRef",
+  "title": [
+    "The effect of feeding system on slaughter-carcass characteristics, meat quality, and fatty acid composition of lambs"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.5194",
+  "volume": "59",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Karaca",
+      "given": "Serhat"
+    },
+    {
+      "affiliation": [],
+      "family": "Yılmaz",
+      "given": "Ayhan"
+    },
+    {
+      "affiliation": [],
+      "family": "Kor",
+      "given": "Aşkın"
+    },
+    {
+      "affiliation": [],
+      "family": "Bingöl",
+      "given": "Mehmet"
+    },
+    {
+      "affiliation": [],
+      "family": "Cavidoğlu",
+      "given": "İsa"
+    },
+    {
+      "affiliation": [],
+      "family": "Ser",
+      "given": "Gazel"
+    }
+  ],
+  "member": "http://id.crossref.org/member/3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Arch. Anim. Breed.",
+    "Archives Animal Breeding"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T12:52:21Z",
+    "timestamp": 1456836741000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.5194/aab-59-121-2016",
+  "ISSN": [
+    "2363-9822"
+  ]
+}

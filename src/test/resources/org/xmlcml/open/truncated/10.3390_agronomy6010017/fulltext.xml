@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">agronomy</journal-id>
+      <journal-title>Agronomy</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Agronomy</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Agronomy</abbrev-journal-title>
+      <issn pub-type="epub">2073-4395</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/agronomy6010017</article-id>
+      <article-id pub-id-type="publisher-id">agronomy-06-00017</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Temporal Dynamics in Rhizosphere Bacterial Communities of Three Perennial Grassland Species</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Murphy</surname>
+            <given-names>Cheryl A.</given-names>
+          </name>
+          <xref rid="af1-agronomy-06-00017" ref-type="aff">1</xref>
+          <xref rid="c1-agronomy-06-00017" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Foster</surname>
+            <given-names>Bryan L.</given-names>
+          </name>
+          <xref rid="af2-agronomy-06-00017" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gao</surname>
+            <given-names>Cuilan</given-names>
+          </name>
+          <xref rid="af3-agronomy-06-00017" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Weston</surname>
+            <given-names>Leslie A.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Zhu</surname>
+            <given-names>Xiaocheng</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-agronomy-06-00017"><label>1</label>Department of Biology, Geology and Environmental Science, 615 McCallie Ave., Dept. 2653, University of Tennessee at Chattanooga, Chattanooga, TN 37403, USA</aff>
+      <aff id="af2-agronomy-06-00017"><label>2</label>Department of Ecology and Evolutionary Biology and Kansas Biological Survey, 142 Higuchi Hall, 2101 Constant Ave., University of Kansas, Lawrence, KS 66047, USA; <email>bfoster@ku.edu</email></aff>
+      <aff id="af3-agronomy-06-00017"><label>3</label>Department of Mathematics, 615 McCallie Ave., Dept. 6956, University of Tennessee at Chattanooga, Chattanooga, TN 37403, USA; <email>Cuilan-Gao@utc.edu</email></aff>
+      <author-notes>
+        <corresp id="c1-agronomy-06-00017"><label>*</label>Correspondence: <email>Cheryl-Murphy@utc.edu</email>; Tel.: +1-423-425-5440; Fax: +1-423-425-2285</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>03</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>03</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>1</issue>
+      <elocation-id>17</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>11</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>02</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Rhizodeposition is considered a primary reason for the plant identity effect. However, the detection of distinct rhizosphere bacterial communities (RBC) with different plant species has been variable. The aim of this study was to examine the potential explanations for this variability using three perennial grassland species. In a Kansas field experiment, over two growing seasons, we sampled RBC during the active growth and flowering stages of <italic>Agrostis gigantea</italic>, <italic>Andropogon gerardii</italic> and <italic>Helianthus maximiliani</italic> to: (1) determine the extent of the plant identity effect among these species and if the effect was maintained over time; (2) assess if RBC showed seasonal patterns, corresponding to plant phenology; and (3) examine if soil properties were important for structuring these communities. We found that <italic>Helianthus</italic> RBC were distinct from those of <italic>Agrostis</italic> and <italic>Andropogon</italic> only when <italic>Helianthus</italic> was flowering. Further, <italic>Helianthus</italic> RBC exhibited seasonal shifts corresponding to plant phenology. In contrast, <italic>Agrostis</italic> and <italic>Andropogon</italic> RBC were similar over time and exhibited gradual non-seasonal changes in compositions. Similar results were observed when accounting for soil properties. Overall, the observance of a plant identity effect depended on the plant species and when RBC were sampled. The seasonality of RBC also depended on the plant species examined.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>edaphic soil properties</kwd>
+        <kwd>plant functional groups</kwd>
+        <kwd>plant identity effects</kwd>
+        <kwd>plant-soil (belowground) interactions</kwd>
+        <kwd>plant phenology</kwd>
+        <kwd>soil bacteria</kwd>
+        <kwd>tallgrass prairie</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-agronomy-06-00017" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The rhizosphere is typically defined as the soil fraction influenced by the root system [<xref ref-type="bibr" rid="B1-agronomy-06-00017">1</xref>]. Although the actual physical extent of the rhizosphere can vary both spatially and temporally, at any given time, the rhizosphere is presumed to extend 2&#x2013;10 mm from the root surface [<xref ref-type="bibr" rid="B2-agronomy-06-00017">2</xref>,<xref ref-type="bibr" rid="B3-agronomy-06-00017">3</xref>,<xref ref-type="bibr" rid="B4-agronomy-06-00017">4</xref>]. Within this region, abiotic and biotic factors, such as rhizodeposition (including water-soluble exudates, sloughed cells and mucilage), water uptake, soil pH and competition for nutrients, create a unique environment for soil microbes compared to bulk soil [<xref ref-type="bibr" rid="B5-agronomy-06-00017">5</xref>,<xref ref-type="bibr" rid="B6-agronomy-06-00017">6</xref>,<xref ref-type="bibr" rid="B7-agronomy-06-00017">7</xref>,<xref ref-type="bibr" rid="B8-agronomy-06-00017">8</xref>]. The rhizosphere habitat commonly displays increased microbial biomass and activity, decreased diversity and microbial compositions that are distinct from those of the bulk soil [<xref ref-type="bibr" rid="B9-agronomy-06-00017">9</xref>,<xref ref-type="bibr" rid="B10-agronomy-06-00017">10</xref>,<xref ref-type="bibr" rid="B11-agronomy-06-00017">11</xref>,<xref ref-type="bibr" rid="B12-agronomy-06-00017">12</xref>]. This phenomenon is commonly referred to as the &#x201C;rhizosphere effect&#x201D; [<xref ref-type="bibr" rid="B1-agronomy-06-00017">1</xref>,<xref ref-type="bibr" rid="B3-agronomy-06-00017">3</xref>,<xref ref-type="bibr" rid="B13-agronomy-06-00017">13</xref>].</p>
+      <p>In addition to this effect of plant presence, individual plant species can influence microbial diversities and compositions within the rhizosphere [<xref ref-type="bibr" rid="B2-agronomy-06-00017">2</xref>,<xref ref-type="bibr" rid="B14-agronomy-06-00017">14</xref>]. The amounts and types of rhizodeposits can vary among plant species, selecting for or against particular soil microbes within the region of the root [<xref ref-type="bibr" rid="B1-agronomy-06-00017">1</xref>,<xref ref-type="bibr" rid="B13-agronomy-06-00017">13</xref>,<xref ref-type="bibr" rid="B15-agronomy-06-00017">15</xref>]. This can potentially lead to rhizosphere microbial communities that are unique for each plant species [<xref ref-type="bibr" rid="B1-agronomy-06-00017">1</xref>,<xref ref-type="bibr" rid="B11-agronomy-06-00017">11</xref>,<xref ref-type="bibr" rid="B16-agronomy-06-00017">16</xref>]. Over the long term, this &#x201C;plant identity effect&#x201D; could have important implications for plant growth, vegetation succession and nutrient cycling through the beneficial (e.g., nitrogen fixation, production of plant growth hormones) and adverse (e.g., pathogens) effects that the microorganisms may have on their associated plant species [<xref ref-type="bibr" rid="B14-agronomy-06-00017">14</xref>,<xref ref-type="bibr" rid="B17-agronomy-06-00017">17</xref>,<xref ref-type="bibr" rid="B18-agronomy-06-00017">18</xref>,<xref ref-type="bibr" rid="B19-agronomy-06-00017">19</xref>,<xref ref-type="bibr" rid="B20-agronomy-06-00017">20</xref>]. However, because most of our knowledge about plant identity effects comes from economically important annual plant species or bioremediation studies, we have a limited understanding of the impacts that native perennial plant species have on their associated rhizosphere communities [<xref ref-type="bibr" rid="B1-agronomy-06-00017">1</xref>,<xref ref-type="bibr" rid="B21-agronomy-06-00017">21</xref>].</p>
+      <p>Although a number of studies do show plant-specific rhizosphere microbial communities, unique associations are not consistently found within the literature [<xref ref-type="bibr" rid="B18-agronomy-06-00017">18</xref>,<xref ref-type="bibr" rid="B22-agronomy-06-00017">22</xref>]. For instance, denaturing gradient gel electrophoresis showed that rhizosphere bacterial communities of strawberry were different from those of both potato and oilseed rape, which were similar to each other [<xref ref-type="bibr" rid="B23-agronomy-06-00017">23</xref>]. Differing degrees of the plant identity effect could arise for various reasons, including edaphic soil properties, soil type, the release of secondary compounds, differing methodologies used to assess rhizosphere communities and management practices (e.g., tillage, crop rotation) [<xref ref-type="bibr" rid="B14-agronomy-06-00017">14</xref>,<xref ref-type="bibr" rid="B18-agronomy-06-00017">18</xref>,<xref ref-type="bibr" rid="B22-agronomy-06-00017">22</xref>,<xref ref-type="bibr" rid="B23-agronomy-06-00017">23</xref>,<xref ref-type="bibr" rid="B24-agronomy-06-00017">24</xref>,<xref ref-type="bibr" rid="B25-agronomy-06-00017">25</xref>,<xref ref-type="bibr" rid="B26-agronomy-06-00017">26</xref>,<xref ref-type="bibr" rid="B27-agronomy-06-00017">27</xref>].</p>
+      <p>Detecting a plant identity effect within the rhizosphere could also depend on when sampling occurred [<xref ref-type="bibr" rid="B1-agronomy-06-00017">1</xref>]. For example, patterns of root exudation can vary due to plant phenology [<xref ref-type="bibr" rid="B9-agronomy-06-00017">9</xref>,<xref ref-type="bibr" rid="B26-agronomy-06-00017">26</xref>]. In general, when compared to the flowering stage, higher concentrations of root exudates have been found during the initial growth phase of younger plants [<xref ref-type="bibr" rid="B28-agronomy-06-00017">28</xref>]. This is most likely because plants allocate less carbon belowground when flowering [<xref ref-type="bibr" rid="B29-agronomy-06-00017">29</xref>,<xref ref-type="bibr" rid="B30-agronomy-06-00017">30</xref>]. If rhizosphere microbial communities change in response to differences in root exudation patterns driven by plant phenology, as some evidence indicates, it is possible that the extent of the plant identity effect could also differ temporally [<xref ref-type="bibr" rid="B10-agronomy-06-00017">10</xref>,<xref ref-type="bibr" rid="B23-agronomy-06-00017">23</xref>]. However, very little is known about the permanence of the plant identity effect over time.</p>
+      <p>Moreover, if the rhizosphere microbial community structure is associated with plant phenology, the rhizosphere communities could exhibit seasonal patterns [<xref ref-type="bibr" rid="B31-agronomy-06-00017">31</xref>]. For instance, when examining the rhizosphere of <italic>Spartina alterniflora</italic>, Gamble <italic>et al.</italic> [<xref ref-type="bibr" rid="B32-agronomy-06-00017">32</xref>] found that Gammaproteobacteria dominated rhizosphere communities, and diazotrophic bacterial activity increased during periods of plant growth compared to flowering. This was attributed to increased root exudation and organic matter availability during plant growth [<xref ref-type="bibr" rid="B3-agronomy-06-00017">3</xref>]. However, the aforementioned study, and most examining the temporal dynamics of rhizosphere communities, sampled only one year [<xref ref-type="bibr" rid="B11-agronomy-06-00017">11</xref>,<xref ref-type="bibr" rid="B33-agronomy-06-00017">33</xref>]. Determining if any observed changes in rhizosphere microbial communities are seasonal in nature is, therefore, confounded by the possibility that rhizosphere biota is responding to seasonal differences in temperature and precipitation, rather than plant phenology. In addition, by sampling over a single year, one cannot dismiss the probability that stochastic events are the reason for any observed patterns [<xref ref-type="bibr" rid="B34-agronomy-06-00017">34</xref>,<xref ref-type="bibr" rid="B35-agronomy-06-00017">35</xref>]. Thus, sampling rhizosphere microbial communities several times over multiple years could provide insight as to whether changes in rhizosphere communities are seasonal in nature.</p>
+      <p>The following field experiment is unique in that after one year of plant establishment, rhizosphere bacterial communities were sampled twice in each of two growing seasons, corresponding to the active growth and flowering stages of three perennial plant species. We examined the rhizosphere communities of three native tallgrass perennial prairie plant species: <italic>Koeleria macrantha</italic> (Ledeb.) Schult (C<sub>3</sub> grass), <italic>Andropogon gerardii</italic> Vitman (C<sub>4</sub> grass) and <italic>Helianthus maximiliani</italic> Schrad. (non-legume forb). We chose these species because all are common throughout the North American tallgrass prairie, have extensive ranges, are important in both grazing land and prairie restorations and are commonly used in Conservation Reserve Program seed mixes [<xref ref-type="bibr" rid="B14-agronomy-06-00017">14</xref>,<xref ref-type="bibr" rid="B36-agronomy-06-00017">36</xref>]. Further, the flowering times of these species allowed us to examine rhizosphere communities among plants with different phenologies: <italic>K. macrantha</italic> flowers in June with active growth periods in August; <italic>A. gerardii</italic> and <italic>H. maximiliani</italic> have active growth stages in June and flower in August. Due to seed contamination of <italic>K. macrantha</italic> by <italic>Agrostis gigantea</italic> Roth (non-native perennial C<sub>3</sub> grass) at the time of treatment application (described in the Experimental Section), all monocultures targeting <italic>K. macrantha</italic> were ultimately monocultures of <italic>A. gigantea</italic> due to competitive exclusion. Therefore, <italic>A. gigantea</italic> was used as a target species.</p>
+      <p>The main goal of this study was to explore the temporal changes in rhizosphere bacterial diversities and the compositions of these three plant species. Encompassed within this goal were two hypotheses. First, we hypothesized that the three plant species would exhibit unique rhizosphere bacterial communities over the two growing seasons. In this way, we tested for a plant identity effect among the plant species and if a plant identity effect was maintained over time. Second, we hypothesized that rhizosphere bacterial diversities and compositions would exhibit seasonal patterns corresponding to each plant&#x2019;s phenology. A secondary goal was to test the hypothesis that unique rhizosphere communities would be observed independent of the soil edaphic properties of moisture and available nitrogen.</p>
+    </sec>
+    <sec id="sec2-agronomy-06-00017" sec-type="results">
+      <title>2. Results</title>
+      <p>Repeated measure ANOVA results of bacterial operational taxonomic unit (OTU) richness, Shannon diversity and community compositions showed significant treatment, sampling date and treatment &#xD7; sampling date effects for all three variables, indicating that the plant identity effect changed over time (<italic>OTU richness</italic>: block: <italic>F</italic><sub>9,22</sub> = 2.26, <italic>p</italic> = 0.058; treatment: <italic>F</italic><sub>4,22</sub> = 5.22, <italic>p</italic> = 0.004; sampling date: <italic>F</italic><sub>3,66</sub> = 4.32, <italic>p</italic> = 0.008; treatment &#xD7; sampling date: <italic>F</italic><sub>12,66</sub> = 1.92, <italic>p</italic> = 0.048) (<italic>OTU H&#x2032;</italic>: block: <italic>F</italic><sub>9,22</sub> = 1.56, <italic>p</italic> = 0.188; treatment: <italic>F</italic><sub>4,22</sub> = 8.26, <italic>p</italic> = 0.001; sampling date: <italic>F</italic><sub>3,66</sub> = 4.22, <italic>p</italic> = 0.009; treatment &#xD7; sampling date: <italic>F</italic><sub>12,66</sub> = 2.93, <italic>p</italic> = 0.003) (<italic>OTU community composition</italic>: block: <italic>F</italic><sub>9,22</sub> = 7.00, <italic>p</italic> = 0.001; treatment: <italic>F</italic><sub>4,22</sub> = 5.62, <italic>p</italic> = 0.001; sampling date: <italic>F</italic><sub>3,66</sub> = 11.11, <italic>p</italic> = 0.001; treatment &#xD7; sampling date: <italic>F</italic><sub>12,66</sub> = 1.58, <italic>p</italic> = 0.001). See <xref ref-type="app" rid="app1-agronomy-06-00017">Figure S1</xref> in the <xref ref-type="app" rid="app1-agronomy-06-00017">Supplementary Materials</xref> for repeated measures ANOVA results of soil moisture and inorganic N data.</p>
+      <sec id="sec2dot1-agronomy-06-00017">
+        <title>2.1. Plant Identity Effects</title>
+        <p>In June 2007, rhizosphere OTU richness was similar among all treatments (<xref ref-type="fig" rid="agronomy-06-00017-f001">Figure 1</xref>a). However, in August 2007, <italic>Helianthus</italic> rhizosphere bacteria had significantly lower OTU richness than all other treatments. In June 2008, bacterial OTU richness associated with <italic>Agrostis</italic> was significantly lower than the no plant (NP) control. Once again, in August 2008, the rhizosphere of <italic>Helianthus</italic> had significantly lower bacterial OTU richness than all other treatments. Bacterial OTU Shannon diversity exhibited a comparable pattern to that of OTU richness (<xref ref-type="fig" rid="agronomy-06-00017-f001">Figure 1</xref>b). In June 2007 and 2008, there were no significant differences among treatments, while in August of both years, <italic>Helianthus</italic> rhizosphere bacteria had significantly lower Shannon diversities compared to all other treatments.</p>
+        <p>All three target plant species had similar rhizosphere bacterial compositions on the first sampling date (June 2007) (<xref ref-type="table" rid="agronomy-06-00017-t001">Table 1</xref>a; <xref ref-type="fig" rid="agronomy-06-00017-f002">Figure 2</xref>a). In August 2007, <italic>Agrostis</italic> and <italic>Helianthus</italic> rhizosphere bacterial compositions were significantly different, but both were not significantly different from <italic>Andropogon</italic> rhizosphere bacterial compositions (<xref ref-type="table" rid="agronomy-06-00017-t001">Table 1</xref>b; <xref ref-type="fig" rid="agronomy-06-00017-f002">Figure 2</xref>b). Thus, bacterial community compositions associated with <italic>Andropogon</italic> were intermediate between those of <italic>Agrostis</italic> and <italic>Helianthus</italic>. The following June (2008), rhizosphere bacterial compositions of <italic>Helianthus</italic> were intermediate between compositions of <italic>Agrostis</italic> and <italic>Andropogon</italic>, which were significantly different (<xref ref-type="table" rid="agronomy-06-00017-t001">Table 1</xref>c; <xref ref-type="fig" rid="agronomy-06-00017-f002">Figure 2</xref>c). Finally, in August 2008, the rhizosphere bacterial communities of both grass species had similar compositions and were both significantly different from <italic>Helianthus</italic> bacterial compositions (<xref ref-type="table" rid="agronomy-06-00017-t001">Table 1</xref>d; <xref ref-type="fig" rid="agronomy-06-00017-f002">Figure 2</xref>d). In fact, <italic>Helianthus</italic> rhizosphere bacterial community compositions were significantly different from all other treatments in August 2008. The NP control had soil bacterial compositions that were either significantly different or nearly so (June 2007; June 2008) from all other treatments for each season, indicating that there was a rhizosphere effect for most of the duration of the experiment. In contrast, the seed bank (SB) control rhizosphere bacterial communities were similar to those of each target plant species for each season, with two exceptions. The SB control had significantly different rhizosphere bacterial compositions from <italic>Agrostis</italic> and <italic>Helianthus</italic> treatments in June 2008 and August 2008, respectively.</p>
+        <p>Repeated measures ANCOVA results for rhizosphere bacterial OTU richness, Shannon diversity and composition showed significant effects for soil moisture and inorganic N (OTU communities only), treatment (all three variables), sampling date (OTU richness and communities) and treatment &#xD7; sampling date (all three variables) (<italic>OTU richness</italic>: soil moisture: <italic>F</italic><sub>1,82</sub> = 1.26, <italic>p</italic> = 0.266; inorganic N: factor not included in model; block: factor not included in model; treatment: <italic>F</italic><sub>4,82</sub> = 3.59, <italic>p</italic> = 0.001; sampling date: <italic>F</italic><sub>1,82</sub> = 4.38, <italic>p</italic> = 0.039; treatment &#xD7; sampling date: <italic>F</italic><sub>4,82</sub> = 4.21, <italic>p</italic> = 0.004) (<italic>OTU H'</italic>: soil moisture: <italic>F</italic><sub>1,81</sub> = 1.95, <italic>p</italic> = 0.166; inorganic N: <italic>F</italic><sub>1,81</sub> = 0.05, <italic>p</italic> = 0.824; block: factor not included in model; treatment: <italic>F</italic><sub>4,81</sub> = 2.86, <italic>p</italic> = 0.029; sampling date: <italic>F</italic><sub>1,81</sub> = 1.26, <italic>p</italic> = 0.264; treatment &#xD7; sampling date: <italic>F</italic><sub>4,81</sub> = 3.02, <italic>p</italic> = 0.022) (<italic>OTU community composition</italic>: soil moisture: <italic>F</italic><sub>1,74</sub> = 4.53, <italic>p</italic> = 0.002; inorganic N: <italic>F</italic><sub>1,74</sub>=3.68, <italic>p</italic> = 0.008; block: <italic>F</italic><sub>9,74</sub> = 8.61, <italic>p</italic> = 0.001; treatment: <italic>F</italic><sub>4,74</sub> = 2.85, <italic>p</italic> = 0.001; sampling date: <italic>F</italic><sub>1,74</sub> = 8.20, <italic>p</italic> = 0.001; treatment &#xD7; sampling date: <italic>F</italic><sub>4,74</sub> = 1.66, <italic>p</italic> = 0.033).</p>
+        <p>Results of OTU alpha diversity ANCOVA analyses were very similar to our previous results. In June 2008, there were no treatment differences for both OTU richness and Shannon diversity (<xref ref-type="table" rid="agronomy-06-00017-t002">Table 2</xref>). However, in August 2008, <italic>Helianthus</italic> rhizosphere bacterial OTU richness was significantly lower than all other treatments. <italic>Helianthus</italic> rhizosphere OTU Shannon diversity was significantly lower than the SB control in August 2008.</p>
+        <p>After accounting for soil moisture and inorganic N, we found that <italic>Agrostis</italic> rhizosphere bacterial compositions were still significantly different from the NP control and <italic>Andropogon</italic> treatments in June 2008 (<xref ref-type="table" rid="agronomy-06-00017-t001">Table 1</xref>e). All other pair-wise comparisons were not significant. In August 2008, we did not find any significant differences among the OTU bacterial compositions (<xref ref-type="table" rid="agronomy-06-00017-t001">Table 1</xref>f).</p>
+      </sec>
+      <sec id="sec2dot2-agronomy-06-00017">
+        <title>2.2. Seasonal Patterns</title>
+        <p>When examining alpha diversity over time for each treatment, we found that rhizosphere bacterial OTU richness and Shannon diversities did not change significantly over the two growing seasons for any treatment, except <italic>Helianthus</italic> (<xref ref-type="fig" rid="agronomy-06-00017-f003">Figure 3</xref>). OTU richness and Shannon diversities from the forb species were similar in June of both years, as were those in August of both years. However, OTU alpha diversities significantly decreased in August compared to June, suggesting a seasonal pattern for <italic>Helianthus</italic> rhizosphere bacterial communities.</p>
+        <p>When assessing rhizosphere bacterial community compositions over time for each treatment, we found that the bacterial communities of the NP control, representing bulk soil, did not change significantly over the two growing seasons, except for one sampling date: August 2007 (<xref ref-type="table" rid="agronomy-06-00017-t003">Table 3</xref>a; <xref ref-type="fig" rid="agronomy-06-00017-f004">Figure 4</xref>a). The SB control and <italic>Andropogon</italic> treatments exhibited gradual changes in rhizosphere bacterial community compositions, but these changes were not significant until June 2008 (June 2008 &#x2260; August 2008) (<xref ref-type="table" rid="agronomy-06-00017-t003">Table 3</xref>b,d; <xref ref-type="fig" rid="agronomy-06-00017-f004">Figure 4</xref>b,d). <italic>Agrostis</italic> rhizosphere bacterial community compositions were similar between June 2007 and August 2007, but changed significantly thereafter with each season (August 2007 &#x2260; June 2008 &#x2260; August 2008) (<xref ref-type="table" rid="agronomy-06-00017-t003">Table 3</xref>c; <xref ref-type="fig" rid="agronomy-06-00017-f004">Figure 4</xref>c). We found that only the <italic>Helianthus</italic> treatment displayed a seasonal pattern (<xref ref-type="table" rid="agronomy-06-00017-t003">Table 3</xref>e; <xref ref-type="fig" rid="agronomy-06-00017-f004">Figure 4</xref>e). This plant species had bacterial compositions that were similar in June of both years. Likewise, in August of both years, rhizosphere compositions were similar. However, rhizosphere compositions between June and August were significantly different.</p>
+        <p>ANCOVA analyses for OTU alpha diversities were again similar to our previous analyses. <italic>Helianthus</italic> OTU richness was significantly higher in June 2008 compared to August 2008 (<xref ref-type="table" rid="agronomy-06-00017-t004">Table 4</xref>). All other pair-wise comparisons were not significant.</p>
+        <p>We found that both <italic>Agrostis</italic> and <italic>Helianthus</italic> treatments had significantly different rhizosphere bacterial communities between June and August 2008, independent of soil moisture and inorganic N (<xref ref-type="table" rid="agronomy-06-00017-t004">Table 4</xref>). The NP control still had similar bacterial communities during the two sampling times. Rhizosphere communities associated with the SB control and <italic>Andropogon</italic> showed a trend towards differing communities between June and August 2008, but the results were not significant.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-agronomy-06-00017" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>By sampling rhizosphere bacterial communities multiple times over two growing seasons, we were able to examine the persistence of the plant identity effect among three perennial plant species. We were also able to evaluate if these species had rhizosphere bacterial communities exhibiting seasonal patterns potentially corresponding to plant phenology. Our results indicated that the observance of a plant identity effect depended on the plant species examined and when rhizosphere bacterial communities were sampled. <italic>Helianthus</italic> had unique rhizosphere bacterial diversities and compositions in August, but the effect grew stronger during the second year. Further, <italic>Helianthus</italic> rhizosphere bacterial communities displayed seasonal patterns, whereas both <italic>Agrostis</italic> and <italic>Andropogon</italic> had similar rhizosphere bacterial communities and both showed gradual changes in compositions over the two growing seasons. In addition, most of these results were observed even after accounting for soil edaphic properties, suggesting that rhizosphere bacterial communities could be responding to the individual plant species.</p>
+      <p>Seasonal patterns were observed for <italic>Helianthus</italic> rhizosphere bacterial diversities and compositions, independent of soil moisture and available nitrogen, suggesting that phenology could be important in determining the rhizosphere communities of this forb species. <italic>Helianthus</italic> rhizosphere bacterial communities also exhibited a plant identity effect. However, this effect was observed only in August of both years with the effects being stronger during the second year as <italic>Helianthus</italic> bacterial communities were different from the SB control, <italic>Agrostis</italic> and <italic>Andropogon</italic> treatments in August 2008. These results suggest that observing a plant identity effect could depend on the time of year (or year) soils are sampled and could require time to develop. Smalla <italic>et al.</italic> [<xref ref-type="bibr" rid="B23-agronomy-06-00017">23</xref>] also observed a delay in plant identity effects when examining bacterial communities in the rhizosphere of strawberry, oilseed rape and potato. One month after planting, all rhizosphere communities were similar. Thereafter, strawberry and oilseed rape rhizosphere communities differed over two growing seasons. Furthermore, during year two, strawberry and potato rhizosphere communities became distinct. These findings were partially attributed to the fact that strawberry is a perennial, while oilseed rape and potato are annual species. Because all target species within this study were perennials, this life history trait is most likely not a reason why differences were observed. The stronger plant identity effect in August 2008 potentially could be attributed to the concurrent temporal changes that were occurring within the SB control, <italic>Agrostis</italic> and <italic>Andropogon</italic> treatments.</p>
+      <p>Even so, after considering soil properties, <italic>Helianthus</italic> bacterial community compositions were no longer significantly different from the other treatments in August 2008. This provides some evidence that the <italic>Helianthus</italic> rhizosphere communities could have also been responding to differences in soil moisture and available nitrogen during that season.</p>
+      <p>In contrast to the <italic>Helianthus</italic> rhizospheres, both <italic>Agrostis</italic> and <italic>Andropogon</italic> had similar rhizosphere bacterial diversities and compositions throughout most sampling dates and did not display seasonal patterns over time. Instead, the rhizosphere bacterial community composition of these two grasses progressively changed over time in a similar manner, and these patterns were still observed after considering the soil edaphic properties. This suggests that any rhizodeposition patterns potentially associated with the differing plant phenologies might not be influencing the rhizosphere bacterial communities. It is conceivable that <italic>Agrostis</italic> and <italic>Andropogon</italic> rhizosphere bacterial compositions were responding to rhizodeposition patterns corresponding to a plant trait common to both grass species. For instance, as plants age, root exudation quantities can decrease and change in quality [<xref ref-type="bibr" rid="B2-agronomy-06-00017">2</xref>,<xref ref-type="bibr" rid="B15-agronomy-06-00017">15</xref>,<xref ref-type="bibr" rid="B28-agronomy-06-00017">28</xref>]. Further, rhizosphere microbial communities can initially be dominated by r-strategists, such as Proteobacteria. As plants age, rhizosphere communities can be dominated by K-strategists, such as mutualistic bacteria and fungi, suggesting a succession of the rhizosphere communities [<xref ref-type="bibr" rid="B9-agronomy-06-00017">9</xref>,<xref ref-type="bibr" rid="B10-agronomy-06-00017">10</xref>,<xref ref-type="bibr" rid="B23-agronomy-06-00017">23</xref>,<xref ref-type="bibr" rid="B30-agronomy-06-00017">30</xref>,<xref ref-type="bibr" rid="B33-agronomy-06-00017">33</xref>,<xref ref-type="bibr" rid="B37-agronomy-06-00017">37</xref>,<xref ref-type="bibr" rid="B38-agronomy-06-00017">38</xref>]. Assessing rhizodeposition patterns and the specific bacterial populations within the rhizosphere were beyond the scope of this study, so it is unknown if <italic>Agrostis</italic> and <italic>Andropogon</italic> rhizospheres were responding to plant age-root exudation and/or undergoing succession, but these remain potential explanations for the observed patterns.</p>
+      <p>It is possible that rhizosphere bacterial communities could respond in accordance to plant functional groups (e.g., grasses <italic>vs.</italic> forbs) [<xref ref-type="bibr" rid="B26-agronomy-06-00017">26</xref>]. Some studies have shown that non-legume forbs can invest more long-term carbon storage into roots, reducing the amount of root exudation and potentially exerting a stronger selective force on rhizosphere communities compared to grass species [<xref ref-type="bibr" rid="B11-agronomy-06-00017">11</xref>,<xref ref-type="bibr" rid="B30-agronomy-06-00017">30</xref>,<xref ref-type="bibr" rid="B39-agronomy-06-00017">39</xref>]. Further grasses and forbs have distinct root architectures (fibrous <italic>vs.</italic> taproot, respectively), which can influence rhizosphere microbial communities [<xref ref-type="bibr" rid="B3-agronomy-06-00017">3</xref>]. Functional group traits could have given rise to the differences found between <italic>Helianthus</italic> and the two grass species in August, but do not explain the similarities found in June 2007 and the different communities between <italic>Agrostis</italic> and <italic>Andropogon</italic> in June 2008. Therefore, functional group traits may play a role, but probably do not fully explain the relationships among the rhizosphere bacterial communities of the three target plant species. In addition, the two grass species exhibited rhizosphere communities and temporal patterns similar to the SB control. The grass species&#x2019; rhizospheres could be selecting for a more general bacterial community, reflecting that of an entire plant community developed from the existing seed bank and not necessarily functional group traits.</p>
+      <p>We also found evidence of a rhizosphere effect: bacterial community compositions within the bulk soil (NP control) were significantly different from all rhizosphere soils for most sampling dates. Although the types of bacterial populations inhabiting the bulk and rhizosphere soils are not known for this study, others have found that soils without plant inputs can favor spore-forming bacteria, such as Firmicutes [<xref ref-type="bibr" rid="B26-agronomy-06-00017">26</xref>]. In contrast, the presence of roots can prompt an immediate shift in the bacterial community towards Proteobacteria, which typically show fast growth rates and responses to the easily degradable C that are released by roots [<xref ref-type="bibr" rid="B22-agronomy-06-00017">22</xref>,<xref ref-type="bibr" rid="B40-agronomy-06-00017">40</xref>,<xref ref-type="bibr" rid="B41-agronomy-06-00017">41</xref>].</p>
+      <p>In June 2007, the NP control had bacterial community compositions similar to the SB control and <italic>Andropogon</italic> treatment, indicating that the rhizosphere effect might not yet have emerged for these rhizosphere soils. Despite its common reference throughout the literature, there is some evidence that the rhizosphere effect could require time to develop and strengthen [<xref ref-type="bibr" rid="B10-agronomy-06-00017">10</xref>,<xref ref-type="bibr" rid="B23-agronomy-06-00017">23</xref>]. For instance, distinct microbial communities between bulk and rhizosphere soils only became apparent 90 days after planting <italic>Agrostis stolonifera</italic> [<xref ref-type="bibr" rid="B9-agronomy-06-00017">9</xref>]. It has been suggested that the general pool of microbial populations already inhabiting the bulk soil is the primary source of rhizosphere microbial communities [<xref ref-type="bibr" rid="B25-agronomy-06-00017">25</xref>,<xref ref-type="bibr" rid="B26-agronomy-06-00017">26</xref>,<xref ref-type="bibr" rid="B42-agronomy-06-00017">42</xref>]. Therefore, a time lag for the rhizo-competent populations to become dominant within the rhizosphere seems plausible. Because we did not sample rhizosphere soils during the first year of plant establishment, we do not know when the rhizosphere effect first occurred for <italic>Agrostis</italic> and <italic>Helianthus</italic> treatments. However, our results show that the rhizosphere effect was still developing into the second year of plant establishment for the SB control and <italic>Andropogon</italic> treatments.</p>
+      <p>Soil bacterial community compositions of the NP control generally did not change significantly over time. This is in contrast to several studies reporting temporal dynamics of biota within the bulk soil [<xref ref-type="bibr" rid="B12-agronomy-06-00017">12</xref>]. For example, within alpine environments, fungi can dominate the microbial community during winter, corresponding to high levels of biomass and litter decomposition [<xref ref-type="bibr" rid="B31-agronomy-06-00017">31</xref>]. Then, fueled by rhizodeposition, bacteria can dominate the microbial community in the summer months. It is not fully known why the bulk soil within this experiment did not display temporal changes in bacterial compositions, but it could be because only a few months out of each year were sampled and the full range of shifts in bacterial communities were not detected. A lack of temporal change in soil bacterial communities could also be due to an absence of plant litter inputs to support such changes [<xref ref-type="bibr" rid="B16-agronomy-06-00017">16</xref>].</p>
+    </sec>
+    <sec id="sec4-agronomy-06-00017">
+      <title>4. Experimental Section</title>
+      <sec id="sec4dot1-agronomy-06-00017">
+        <title>4.1. Study Site</title>
+        <p>The study site is located within a former pasture/hay field at the University of Kansas Field Station (KUFS) (latitude 39&#xB0;03&#x2032; N, longitude 95&#xB0;12&#x2032; W). Located along the eastern deciduous forest-tallgrass prairie ecotone of northeastern Kansas, the area consists of undulating, ridge-to-swale topography. Soils are Pawnee clay loams (montmorillonitic, mesic Aquic Argiudolls) formed under glacial deposits of till and loess with weathering of interbedded limestones and shales [<xref ref-type="bibr" rid="B43-agronomy-06-00017">43</xref>]. The mean annual temperature is 12.9 &#xB0;C, and the mean annual precipitation is 930 mm [<xref ref-type="bibr" rid="B44-agronomy-06-00017">44</xref>].</p>
+        <p>The experiment was located on an old-field upland ridgetop within a 25 m &#xD7; 55 m enclosure (3 m high fence), which was used to exclude deer and other large vertebrate herbivores. Between 1997 and 2000, the enclosed area was used to study changes in the frequency of crop-specific genetic markers of wild sunflower (<italic>Helianthus annuus</italic>) [<xref ref-type="bibr" rid="B45-agronomy-06-00017">45</xref>]. After the wild sunflower experiment, the field site had been periodically mown. Before setting up the current experiment, a survey showed that the plant community was dominated by <italic>Bromus inermis</italic> Leyss. (cool-season introduced grass). Also prevalent were saplings of <italic>Ulmus rubra</italic> Muhl., perennial native warm-season grasses and forbs (<italic>Andropogon virginicus</italic> L., <italic>Sporobolus</italic> sp. and <italic>Solidago canadensis</italic> L.) and the shrub <italic>Rubus occidentalis</italic> L.</p>
+      </sec>
+      <sec id="sec4dot2-agronomy-06-00017">
+        <title>4.2. Experiment Design</title>
+        <p>In May 2006, soil within the enclosure was plowed, tilled and roto-tilled to diminish potential impacts of prior vegetation on the soil bacterial community. The experiment was set up as a randomized complete block design with ten blocks of nine treatments. Plots were 1.5 m &#xD7; 1.5 m with alleyways between each. Two treatments were considered controls. One control did not contain any plants, was continually hand-weeded and used to measure bulk soil and the effect of no plant inputs (NP) on soil bacterial communities. The other control treatment consisted of allowing plants to germinate from the seed bank and to grow unchecked (SB). This treatment allowed us to measure rhizosphere soil from plant species growing naturally within the area and served as a comparison for the three target plant species. Overall, weedy annual forbs (<italic>Lactuca serriola</italic> L<italic>.</italic>, <italic>Ambrosia artemisiifolia</italic> L<italic>.</italic>, <italic>Ambrosia trifida</italic> L<italic>.</italic>), annual grasses (<italic>Setaria faberi</italic> Herm<italic>.</italic>), the perennial forb <italic>Solidago canadensis</italic> and the shrub <italic>Rubus occidentalis</italic> dominated the SB control plots. Average plant species richness within these plots was 23.5 (&#xB1;0.93) over the two growing seasons. The other seven treatments were monocultures and mixtures (2-species; 3-species) of the three target plant species. For the purpose of this study, only the NP and SB controls and target species monoculture treatments were analyzed.</p>
+        <p>The target species were <italic>Agrostis gigantea</italic> Roth (C<sub>3</sub> grass), <italic>Andropogon gerardii</italic> Vitman (C<sub>4</sub> grass) and <italic>Helianthus maximiliani</italic> Schrad. (non-legume forb). The original intent of this experiment was to use native tallgrass perennial prairie plants as the target species. Initially, <italic>Koeleria macrantha</italic> (Ledeb.) Schult. was chosen as the cool-season grass. However, after treatment application (described below), we observed that <italic>K. macrantha</italic> seed were contaminated with seeds of <italic>A. gigantea</italic>, a non-native perennial C<sub>3</sub> grass. All monocultures targeting <italic>K. macrantha</italic> were ultimately monocultures of <italic>A. gigantea</italic> due to competitive exclusion. Therefore, <italic>A. gigantea</italic> was used as a target species.</p>
+        <p>Seeds of the target species were sown on 6 June 2006. For each plot, the amount sown was based on the percent of germination of each species and a goal of 1000 seedlings per plot. Seeds were broadcast, and the soil was raked to scrape the surface and cover the seeds. Alleyways and plots were hand-weeded throughout the duration of the experiment.</p>
+      </sec>
+      <sec id="sec4dot3-agronomy-06-00017">
+        <title>4.3. Rhizosphere Bacterial Community Structure</title>
+        <p>To assess rhizosphere bacterial communities, soils from each plot were sampled in both June and August of 2007 and 2008 (four seasons total). These sampling times coincided with the active growth and peak flowering stages of the target species: <italic>A. gigantea</italic> flowers in June with active growth periods in August; <italic>A. gerardii</italic> and <italic>H. maximiliani</italic> have active growth stages in June and flower in August. For each sampling period, three locations were randomly chosen in each plot, and the soil beneath the plant closest to that location was sampled (2.5 cm &#xD7; 15 cm) and pooled. Soils were frozen at &#x2212;80 &#xB0;C until further processing could occur. To collect rhizosphere soil, soil cores were carefully broken apart to expose the roots. Any soil still attached to the root was considered rhizosphere soil, brushed into a collection tray and stored at &#x2212;80 &#xB0;C until DNA analyses.</p>
+        <sec id="sec4dot3dot1-agronomy-06-00017">
+          <title>4.3.1. T-RFLP Procedure</title>
+          <p>Terminal-restriction fragment length polymorphism (T-RFLP) was used to assess rhizosphere bacterial communities. Rhizosphere soil DNA was extracted in duplicate for each plot using the MoBio PowerSoil DNA extraction kit (MoBio Laboratories, Carlsbad, CA, USA) as recommended by the manufacturer. The duplicate extractions were pooled, and DNA was quantified by gel electrophoresis. Extractions were brought to a final concentration of 10 ng DNA/&#xB5;L extract.</p>
+          <p>16S rDNA from the extracted DNA samples was PCR-amplified using the universal eubacterial primers 6-FAM 8-27F, a fluorescently labeled forward primer (5&#x2032;-AGRGTTTGATCMTGGCTCAG-3&#x2032;), and 1389R, a non-labeled reverse primer (5&#x2032;-ACGGGCGGTGTGTACAAG-3&#x2032;) [<xref ref-type="bibr" rid="B46-agronomy-06-00017">46</xref>]. For each plot, PCR reactions were performed in triplicate. Each 50-&#x3BC;L PCR reaction contained 50 ng DNA, 0.5 &#xB5;M of each primer and 1&#xD7; HotStar Taq Master Mix Kit (Qiagen, Valencia, CA, USA), which included a final concentration of 2.5 units HotStarTaq DNA Polymerase, 1.5 nM MgCl<sub>2</sub> and 200 &#xB5;M of each dNTP. Reaction mixtures were held for 15 minutes at 95 &#xB0;C for activation. Reactions were cycled 32 times through three steps: 45 s of denaturation at 94 &#xB0;C, 45 s of annealing at 58 &#xB0;C and 90 s for primer extension at 72 &#xB0;C. The final extension lasted 10 minutes at 72 &#xB0;C. The triplicate PCR reactions were pooled, purified using the MoBio UltraClean PCR Clean-Up Kit (MoBio Laboratories, Carlsbad, CA, USA) and yields quantified using gel electrophoresis.</p>
+          <p>Initially, both <italic>Rsa</italic>I and <italic>Msp</italic>I restriction enzymes (New England Biolabs, Ipswich, MA, USA) were used to digest PCR products. However, only <italic>Rsa</italic>I completely digested PCR product. Therefore, analyses of rhizosphere bacterial communities only included digestions using <italic>Rsa</italic>I. Each 20-&#x3BC;L reaction contained 100 ng of purified PCR product, 10 units of restriction enzyme and 2 &#x3BC;L of buffer. Each reaction was digested for three hours at 37 &#xB0;C with an inactivation period of 20 minutes at 65 &#xB0;C. The fluorescently-labeled fragments were analyzed using an Applied Biosystems Instrument 3730 genetic analyzer. Terminal restriction fragments (TRFs) sized between 25 and 1000 bp, with peak heights &gt;25 fluorescent units were measured using Peak Scanner 1.0 analytical software (Applied Biosystems).</p>
+        </sec>
+        <sec id="sec4dot3dot2-agronomy-06-00017">
+          <title>4.3.2. T-RFLP Profile Alignment</title>
+          <p>All rhizosphere bacterial community profiles, from the four sampling periods, were analyzed simultaneously using the program T-REX [<xref ref-type="bibr" rid="B47-agronomy-06-00017">47</xref>]. T-REX is a free, online-based tool that was developed to aid in the alignment and analysis of T-RFLP datasets. Within T-REX, TRFs were first filtered to find &#x201C;true peaks&#x201D; within the profiles, using peak area. TRFs were aligned such that fragment sizes differing by &#x2264;0.5 bp were considered identical and clustered. To avoid clustering &#x201C;distinct close peaks&#x201D;, the maximum number of fragments assigned to a cluster was limited to the number of profiles being aligned. Once the maximum number was reached, a new cluster was created. For each cluster of TRFs, the average size was calculated and used to distinguish TRFs.</p>
+          <p>After the data matrix was exported, TRFs were standardized as described by Fierer <italic>et al.</italic> [<xref ref-type="bibr" rid="B46-agronomy-06-00017">46</xref>]. For each community profile, total peak area was calculated. For each TRF within the community profile, the proportion of total peak area was calculated (individual peak area/total peak area). Peak areas with a proportion &lt;0.5% were removed [<xref ref-type="bibr" rid="B46-agronomy-06-00017">46</xref>].</p>
+          <p>In order to compare rhizosphere bacterial community structures, both the proportional peak area (abundance) and TRF size were used. Because multiple organisms can produce TRFs of a similar size, TRFs of different lengths were assumed to represent different operational taxonomic units (OTUs) and not necessarily distinct bacterial species.</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot4-agronomy-06-00017">
+        <title>4.4. Soil Moisture and Inorganic Nitrogen</title>
+        <p>There is evidence that soil characteristics, rather than plant species, can be an important factor acting upon rhizosphere bacterial community diversity and composition. Therefore, soil properties were measured two times during the course of the experiment. First, prior to incorporating treatments (June 2006), baseline soil measurements were taken that included total soil carbon (C), total soil nitrogen (N), available phosphorus, soil pH, mineralizable C and N and soil moisture [<xref ref-type="bibr" rid="B48-agronomy-06-00017">48</xref>,<xref ref-type="bibr" rid="B49-agronomy-06-00017">49</xref>]. There were no treatment differences found among any of these variables. A detailed description of these results can be found within the Supporting Materials (see <xref ref-type="app" rid="app1-agronomy-06-00017">Supplementary section 2, Figure S3 and Table S1</xref>). Second, during the 2008 growing season, inorganic N and soil moisture were measured concurrently with the sampling of rhizosphere bacterial soils. Inorganic N was measured using resin strip extractions according to Qian and Schoenau [<xref ref-type="bibr" rid="B50-agronomy-06-00017">50</xref>]. This was an integrative measure of available N spanning two weeks and overlapped with the soil rhizosphere sampling. The day before soil sampling in 2008, the percent of soil moisture was measured from the center of each plot using a Trime-FM TDR instrument (Mesa Systems Co., Stonington, CT, USA).</p>
+      </sec>
+      <sec id="sec4dot5-agronomy-06-00017">
+        <title>4.5. Data Analyses</title>
+        <p>Bacterial alpha diversity (richness (total number of TRFs) and Shannon diversity (H&#x2032;)) was calculated in PC-Ord 4.14 [<xref ref-type="bibr" rid="B51-agronomy-06-00017">51</xref>] and analyzed using repeated measures ANOVA in SPSS 19. Bacterial Shannon diversity data were not normally distributed (left-skewed); the data were square transformed prior to analyses. To graphically display rhizosphere bacterial communities, scores from non-metric multidimensional scaling (NMS) analyses were averaged (&#xB1;SE) by treatment and sampling date. Repeated measures ANOVA was used to analyze rhizosphere bacterial community compositions using the program Permutational Multivariate Analysis of Variance (PERMANOVA) within PERMANOVA+ for Primer, Primer v6 software [<xref ref-type="bibr" rid="B52-agronomy-06-00017">52</xref>,<xref ref-type="bibr" rid="B53-agronomy-06-00017">53</xref>]. PERMANOVA tests for differences among community matrices using ANOVA designs and calculating <italic>p</italic>-values through permutations of observations. The software also performs <italic>a posteriori</italic> pair-wise comparisons among factor levels. All PERMANOVA analyses used relativized abundance matrices, 9999 permutations and the Bray&#x2013;Curtis similarity distance measure. Within PERMANOVA+ for Primer, rarefaction curves were calculated for each treatment (<xref ref-type="app" rid="app1-agronomy-06-00017">Supplementary Materials: Figure S4</xref>).</p>
+        <p>A significant treatment &#xD7; sampling date interaction was found for both bacterial alpha diversity and community compositions. Therefore, pair-wise comparisons (alpha diversity = Tukey HSD; bacterial compositions = PERMANOVA) among treatments for each sampling date were calculated to assess the extent of the plant identity effect over time. Pair-wise comparisons were also calculated among sampling dates for each treatment separately to evaluate if rhizosphere bacterial community diversities and compositions exhibited seasonal patterns.</p>
+        <p>To evaluate the importance of plant species for structuring rhizosphere bacterial diversities and communities independent of soil moisture and inorganic N in 2008, we performed a repeated measure ANCOVA (alpha bacterial diversity in R Version 3.1.2; bacterial compositions in PERMANOVA). Both soil moisture and inorganic N were covariates, except for the OTU richness analyses. For this test, inorganic N was not included in the model, because it was not significantly correlated with OTU richness initially (<italic>p</italic> = 0.196). Pair-wise comparisons were calculated as stated previously.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-agronomy-06-00017" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In conclusion, the observance of a plant identity effect can depend on both the plant species and when rhizosphere bacterial communities are sampled. <italic>Helianthus</italic> exhibited lower rhizosphere diversities and unique compositions in August, whereas the two grass species had similar rhizosphere communities throughout the experiment. We also found that the seasonality of the rhizosphere communities depended on the plant species and potentially soil properties. <italic>Helianthus</italic> communities displayed seasonal patterns until soil properties were accounted for, whereas both the grass species had gradual changes in their rhizosphere communities. This suggests that taxonomic differences between <italic>Helianthus</italic> and the two grass species appears to be important over time, in contrast to any taxonomic differences between the grass species upon rhizosphere communities. In all likelihood, temporal patterns of rhizosphere communities from different perennial plant species reflect complex interactions of numerous factors, such as plant phenology, plant age, functional group, root morphology and soil properties. This study shows the necessity of taking multiple samples over the course of a year (and over several years) to capture the essence of the entire rhizosphere microbial community [<xref ref-type="bibr" rid="B31-agronomy-06-00017">31</xref>]. Further understanding of the temporal dynamics of rhizosphere microbial communities is important if we are to gain greater insight into the nature and significance of above- and below-ground relationships [<xref ref-type="bibr" rid="B12-agronomy-06-00017">12</xref>].</p>
+    </sec>
+  </body>
+  <back>
+   <app-group>
+    <app id="app1-agronomy-06-00017">
+      <title>Supplementary Materials</title>
+	  <supplementary-material id="agronomy-06-00017-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="agronomy-06-00017-s001.zip">
+	  </supplementary-material>
+	  <p>The following are available online at <uri>www.mdpi.com/2073-4395/6/1/17/s1</uri>. Figure S1 and S2: Repeated measures ANOVA Results for soil moisture and available nitrogen. Supplementary Section 2: Methods for baseline soil measurements. Figure S3: Net mineralization results (CO<sub>2</sub>, available N). Table S1: Results of baseline soil measurements. Figure S4: Rarefaction curves for each treatment.</p>
+     </app>
+  </app-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank the undergraduate research assistants who helped to collect these data (Grant Adams, Alex Bittel, Paul Crangle, Ariana Jones, Dan Lygisse, Omar Malik, Becky Peters, Sara Pittman, Diane Slocum, Lynn Swafford, Jackie Wilson and Andrea Wolfe) and Jennifer Roberts and David Fowle for making their space and equipment available in their laboratories for the bacterial DNA analyses. Support for this research was provided by the University of Kansas General Research Fund and the National Science Foundation (DEB-1021158 and DEB-0950100) (Bryan L. Foster).</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Cheryl A. Murphy and Bryan L. Foster conceived of and designed the experiment. Cheryl A. Murphy performed the experiments. Cheryl A. Murphy and Cuilan Gao analyzed the data. Bryan L. Foster contributed reagents/materials/analysis tools. Cheryl A. Murphy wrote the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-agronomy-06-00017">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berg</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Smalla</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plant species and soil type cooperatively shape the structure and function of microbial communities in the rhizosphere</article-title>
+          <source>FEMS Microbiol. Ecol.</source>
+          <year>2009</year>
+          <volume>68</volume>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6941.2009.00654.x</pub-id>
+          <pub-id pub-id-type="pmid">19243436</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-agronomy-06-00017">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bertin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Weston</surname>
+              <given-names>L.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of root exudates and alleochemicals in the rhizosphere</article-title>
+          <source>Plant Soil</source>
+          <year>2003</year>
+          <volume>256</volume>
+          <fpage>67</fpage>
+          <lpage>83</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1026290508166</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-agronomy-06-00017">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gregory</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Roots, rhizosphere and soil: The route to a better understanding of soil science?</article-title>
+          <source>Eur. J. Soil Sci.</source>
+          <year>2006</year>
+          <volume>57</volume>
+          <fpage>2</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2389.2005.00778.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-agronomy-06-00017">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sauer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kuzyakov</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Stahr</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial distribution of root exudates of five plant species as assessed by <sup>14</sup>C labeling</article-title>
+          <source>J. Plant Nutr. Soil Sci.</source>
+          <year>2006</year>
+          <volume>169</volume>
+          <fpage>360</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="doi">10.1002/jpln.200621974</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-agronomy-06-00017">
+        <label>5.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Gershenson</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon fluxes in the rhizosphere</article-title>
+          <source>The Rhizosphere: An Ecological Perspective</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Cardon</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>Whitbeck</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Elsevier Academic Press</publisher-name>
+          <publisher-loc>Boston, MA, USA</publisher-loc>
+          <year>2007</year>
+        </citation>
+      </ref>
+      <ref id="B6-agronomy-06-00017">
+        <label>6.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Curl</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Truelove</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <source>The Rhizosphere</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1986</year>
+          <fpage>288</fpage>
+        </citation>
+      </ref>
+      <ref id="B7-agronomy-06-00017">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hinsinger</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gobran</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Gregory</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Wenzel</surname>
+              <given-names>W.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhizosphere geometry and heterogeneity arising from root-mediated physical and chemical processes</article-title>
+          <source>New Phytol.</source>
+          <year>2005</year>
+          <volume>168</volume>
+          <fpage>293</fpage>
+          <lpage>303</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-8137.2005.01512.x</pub-id>
+          <pub-id pub-id-type="pmid">16219069</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-agronomy-06-00017">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baptist</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Aranjuelo</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Legay</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Sangil</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Molero</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Rovira</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nogues</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhizodeposition oforganic carbon by plants with contrasting traits for resource acquisition: Responses to different fertility regimes</article-title>
+          <source>Plant Soil</source>
+          <year>2015</year>
+          <volume>394</volume>
+          <fpage>391</fpage>
+          <lpage>406</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11104-015-2531-4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-agronomy-06-00017">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Steer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shifts in the microbial community in rhizosphere and non-rhizosphere soils during the growth of <italic>Agrostis stolonifera</italic></article-title>
+          <source>Soil Biol. Biochem.</source>
+          <year>2000</year>
+          <volume>32</volume>
+          <fpage>869</fpage>
+          <lpage>878</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0038-0717(99)00219-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-agronomy-06-00017">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baudoin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Benizri</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Guckert</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of growth stage on the bacterial community structure along maize roots, as determined by metabolic and genetic fingerprinting</article-title>
+          <source>Appl. Soil Ecol.</source>
+          <year>2002</year>
+          <volume>19</volume>
+          <fpage>135</fpage>
+          <lpage>145</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0929-1393(01)00185-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-agronomy-06-00017">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kowalchuk</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Buma</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>de Boer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Klinkhamer</surname>
+              <given-names>P.G.L.</given-names>
+            </name>
+            <name>
+              <surname>van Veen</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of aboveground plant species composition and diversity on the diversity of soil-borne microorganisms</article-title>
+          <source>Antonie Leeuwenhoek</source>
+          <year>2002</year>
+          <volume>81</volume>
+          <fpage>509</fpage>
+          <lpage>520</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1020565523615</pub-id>
+          <pub-id pub-id-type="pmid">12448746</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-agronomy-06-00017">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bardgett</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Bowman</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <name>
+              <surname>Kaufmann</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A temporal approach to linking aboveground and belowground ecology</article-title>
+          <source>Trends Ecol. Evol.</source>
+          <year>2005</year>
+          <volume>20</volume>
+          <fpage>634</fpage>
+          <lpage>641</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2005.08.005</pub-id>
+          <pub-id pub-id-type="pmid">16701447</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-agronomy-06-00017">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raaijmakers</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Paulitz</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Steinberg</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Alabouvette</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Moenne-Loccoz</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The rhizosphere: A playground and battlefield for soilborne pathogens and beneficial microorganisms</article-title>
+          <source>Plant Soil</source>
+          <year>2009</year>
+          <volume>321</volume>
+          <fpage>341</fpage>
+          <lpage>361</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11104-008-9568-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-agronomy-06-00017">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rosenzweig</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bradeen</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Tu</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+            <name>
+              <surname>McKay</surname>
+              <given-names>S.J.</given-names>
+            </name>
+			<name>
+              <surname>Kinkel</surname>
+              <given-names>L.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhizosphere bacterial communities associated with long-lived perennial prairie plants vary in diversity, composition and structure</article-title>
+          <source>Can. J. Microbiol.</source>
+          <year>2013</year>
+          <volume>59</volume>
+          <fpage>494</fpage>
+          <lpage>502</lpage>
+          <pub-id pub-id-type="doi">10.1139/cjm-2012-0661</pub-id>
+          <pub-id pub-id-type="pmid">23826959</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-agronomy-06-00017">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhizodeposition of organic C by plants: Mechanisms and controls</article-title>
+          <source>Agronomie</source>
+          <year>2003</year>
+          <volume>23</volume>
+          <fpage>375</fpage>
+          <lpage>396</lpage>
+          <pub-id pub-id-type="doi">10.1051/agro:2003011</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-agronomy-06-00017">
+        <label>16.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bardgett</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Wardle</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <source>Aboveground-Belowground Linkages: Biotic Interactions, Ecosystems Processes, and Global Change</source>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2010</year>
+        </citation>
+      </ref>
+      <ref id="B17-agronomy-06-00017">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westover</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Kelley</surname>
+              <given-names>S.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Patterns of rhizosphere microbial community structure associated with co-occurring plant species</article-title>
+          <source>J. Ecol.</source>
+          <year>1997</year>
+          <volume>85</volume>
+          <fpage>863</fpage>
+          <lpage>873</lpage>
+          <pub-id pub-id-type="doi">10.2307/2960607</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-agronomy-06-00017">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nunan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Daniell</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Papert</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>McNicol</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Prosser</surname>
+              <given-names>J.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Links between plant and rhizosphere bacterial communities in grassland soils, characterized using molecular techniques</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2005</year>
+          <volume>71</volume>
+          <fpage>6784</fpage>
+          <lpage>6792</lpage>
+          <pub-id pub-id-type="pmid">16269710</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-agronomy-06-00017">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bever</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Dickie</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Facelli</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Facelli</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Klironomos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Moora</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rillig</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Stock</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <name>
+              <surname>Tibbett</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zobel</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rooting theories of plant community ecology in microbial interactions</article-title>
+          <source>Trends Ecol. Evol.</source>
+          <year>2010</year>
+          <volume>25</volume>
+          <fpage>468</fpage>
+          <lpage>478</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2010.05.004</pub-id>
+          <pub-id pub-id-type="pmid">20557974</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-agronomy-06-00017">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Milcu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Thebault</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Scheu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Eisenhauer</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plant diversity enhances the reliability of belowground processes</article-title>
+          <source>Soil Biol. Biochem.</source>
+          <year>2010</year>
+          <volume>42</volume>
+          <fpage>2102</fpage>
+          <lpage>2110</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.soilbio.2010.08.005</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-agronomy-06-00017">
+        <label>21.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hawkes</surname>
+              <given-names>C.V.</given-names>
+            </name>
+            <name>
+              <surname>DeAngelis</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Firestone</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Root interactions with soil microbial communities and processes</article-title>
+          <source>The Rhizosphere: An Ecological Perspective</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Cardon</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>Whitbeck</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Elsevier Academic Press</publisher-name>
+          <publisher-loc>Boston, MA, USA</publisher-loc>
+          <year>2007</year>
+        </citation>
+      </ref>
+      <ref id="B22-agronomy-06-00017">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kielak</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pijl</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>van Veen</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Kowalchuk</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differences in vegetation composition and plant species identity lead to only minor changes in soil-borne microbial communities in a former arable field</article-title>
+          <source>FEMS Microbiol. Ecol.</source>
+          <year>2008</year>
+          <volume>63</volume>
+          <fpage>372</fpage>
+          <lpage>382</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6941.2007.00428.x</pub-id>
+          <pub-id pub-id-type="pmid">18205817</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-agronomy-06-00017">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smalla</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wieland</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Buchner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zock</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Parzy</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kaiser</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Roskot</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Heuer</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Berg</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bulk and rhizosphere soil bacterial communities studies by denaturing gradient gel electrophoresis: Plant-dependence enrichment and seasonal shifts revealed</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2001</year>
+          <volume>67</volume>
+          <fpage>4742</fpage>
+          <lpage>4751</lpage>
+          <pub-id pub-id-type="doi">10.1128/AEM.67.10.4742-4751.2001</pub-id>
+          <pub-id pub-id-type="pmid">11571180</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-agronomy-06-00017">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Innes</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hobbs</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Bardgett</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The impacts of individual plant species on rhizosphere microbial communities in soils of different fertility</article-title>
+          <source>Biol. Fertil. Soils</source>
+          <year>2004</year>
+          <volume>40</volume>
+          <fpage>7</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00374-004-0748-0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-agronomy-06-00017">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Ridder-Duine</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Kowalchuk</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Klein Gunnewiek</surname>
+              <given-names>P.J.A.</given-names>
+            </name>
+            <name>
+              <surname>Smant</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>van Veen</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>de Boer</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhizosphere bacterial community composition in natural stands of <italic>Carex arenaria</italic> (sand sedge) is determined by bulk soil community composition</article-title>
+          <source>Soil Biol. Biochem.</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <fpage>349</fpage>
+          <lpage>357</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.soilbio.2004.08.005</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-agronomy-06-00017">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Munro</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Potts</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Millard</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of grass species and soil type on rhizosphere microbial structure in grassland soils</article-title>
+          <source>Appl. Soil Ecol.</source>
+          <year>2007</year>
+          <volume>36</volume>
+          <fpage>147</fpage>
+          <lpage>155</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apsoil.2007.01.004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-agronomy-06-00017">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lupwayi</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Rice</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Clayton</surname>
+              <given-names>G.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Soil microbial diversity and community structure under wheat as influenced by tillage and crop rotation</article-title>
+          <source>Soil Biol. Biochem.</source>
+          <year>1998</year>
+          <volume>30</volume>
+          <fpage>1733</fpage>
+          <lpage>1741</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0038-0717(98)00025-X</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-agronomy-06-00017">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hamlen</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Lukezic</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Bloom</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of age and stage of development on the neutral carbohydrate components in root exudates from alfalfa plants grown in a gnotobiotic environment</article-title>
+          <source>Can. J. Plant Sci.</source>
+          <year>1972</year>
+          <volume>52</volume>
+          <fpage>633</fpage>
+          <lpage>642</lpage>
+          <pub-id pub-id-type="doi">10.4141/cjps72-097</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-agronomy-06-00017">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rovira</surname>
+              <given-names>A.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Root excretions in relation to the rhizosphere effect. IV. Influence of plant species, age of plants, light, temperature and calcium nutrition on exudation</article-title>
+          <source>Plant Soil</source>
+          <year>1959</year>
+          <volume>321</volume>
+          <fpage>341</fpage>
+          <lpage>361</lpage>
+        </citation>
+      </ref>
+      <ref id="B30-agronomy-06-00017">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marschner</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Neumann</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kania</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weiskopf</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lieberei</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial and temporal dynamics of the microbial community structure in the rhizosphere of cluster roots of white lupin (<italic>Lupinus albus</italic> L.)</article-title>
+          <source>Plant Soil</source>
+          <year>2002</year>
+          <volume>246</volume>
+          <fpage>167</fpage>
+          <lpage>174</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1020663909890</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-agronomy-06-00017">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Costello</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Nemergut</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Cleveland</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Reed</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Weintraub</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biogeochemical consequences of rapid microbial turnover and seasonal succession in soil</article-title>
+          <source>Ecology</source>
+          <year>2007</year>
+          <volume>88</volume>
+          <fpage>1379</fpage>
+          <lpage>1385</lpage>
+          <pub-id pub-id-type="doi">10.1890/06-0164</pub-id>
+          <pub-id pub-id-type="pmid">17601130</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-agronomy-06-00017">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gamble</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Bagwell</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>LaRocque</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bergholz</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Lovell</surname>
+              <given-names>C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Season variability of diazotroph assemblages associated with the rhizosphere of the salt marsh cordgrass, <italic>Spartina alterniflora</italic></article-title>
+          <source>Microb. Ecol.</source>
+          <year>2010</year>
+          <volume>59</volume>
+          <fpage>253</fpage>
+          <lpage>265</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00248-009-9558-0</pub-id>
+          <pub-id pub-id-type="pmid">19626265</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-agronomy-06-00017">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiarini</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bevivino</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dalmastri</surname>
+              <given-names>C.</given-names>
+            </name>
+			<name>
+              <surname>Nacamulli</surname>
+              <given-names>C.</given-names>
+            </name>
+			<name>
+              <surname>Tabachioni</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of plant development, cultivar and soil type on microbial colonization of maize roots</article-title>
+          <source>Appl. Soil Ecol.</source>
+          <year>1998</year>
+          <volume>8</volume>
+          <fpage>11</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0929-1393(97)00071-1</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-agronomy-06-00017">
+        <label>34.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hubbell</surname>
+              <given-names>S.P.</given-names>
+            </name>
+          </person-group>
+          <source>The Unified Neutral Theory of Biodiversity and Biogeography, Monographs in Population Biology</source>
+          <publisher-name>Princeton University Press</publisher-name>
+          <publisher-loc>Princeton, NJ, USA</publisher-loc>
+          <year>2001</year>
+        </citation>
+      </ref>
+      <ref id="B35-agronomy-06-00017">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bell</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Acosta-Martinez</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>McIntyre</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tissue</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zak</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Linking microbial community structure and function to seasonal differences in soil moisture and temperature in a Chihuahuan Desert grassland</article-title>
+          <source>Microb. Ecol.</source>
+          <year>2009</year>
+          <volume>58</volume>
+          <fpage>827</fpage>
+          <lpage>842</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00248-009-9529-5</pub-id>
+          <pub-id pub-id-type="pmid">19466479</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-agronomy-06-00017">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murphy</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Foster</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Ramspott</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>K.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of cultivation history and current grassland management on soil quality in northeastern Kansas</article-title>
+          <source>J. Soil Water Conserv.</source>
+          <year>2006</year>
+          <volume>61</volume>
+          <fpage>75</fpage>
+          <lpage>84</lpage>
+        </citation>
+      </ref>
+      <ref id="B37-agronomy-06-00017">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Leij</surname>
+              <given-names>F.A.A.M.</given-names>
+            </name>
+            <name>
+              <surname>Whipps</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Lynch</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The use of colony development for the charactization of bacterial communities in soil and on roots</article-title>
+          <source>Microb. Ecol.</source>
+          <year>1993</year>
+          <volume>27</volume>
+          <fpage>81</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00170116</pub-id>
+          <pub-id pub-id-type="pmid">24190170</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38-agronomy-06-00017">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thirup</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Johansen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Winding</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbial succession in the rhizosphere of live and decomposing barley roots as affected by the antagonistic strain <italic>Pseudomonas fluorescens</italic> DR54-BN14 or the fungicide imazalil</article-title>
+          <source>FEMS Microbiol. Ecol.</source>
+          <year>2003</year>
+          <volume>43</volume>
+          <fpage>383</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6941.2003.tb01079.x</pub-id>
+          <pub-id pub-id-type="pmid">19719670</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-agronomy-06-00017">
+        <label>39.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Warembourg</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Roumet</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lafont</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differences in rhizosphere carbon-partitioning among plant species of different families</article-title>
+          <source>Plant Soil</source>
+          <year>2003</year>
+          <volume>256</volume>
+          <fpage>347</fpage>
+          <lpage>357</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1026147622800</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40-agronomy-06-00017">
+        <label>40.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grayston</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selective influence of plant species on microbial diversity in the rhizosphere</article-title>
+          <source>Soil Biol. Biochem.</source>
+          <year>1998</year>
+          <volume>30</volume>
+          <fpage>369</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0038-0717(97)00124-7</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41-agronomy-06-00017">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gros</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Jocteur Monrozier</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Faivre</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does disturbance and restoration of alpine grassland soils affect the genetic structure and diversity of bacterial and N<sub>2</sub>-fixing populations?</article-title>
+          <source>Environ. Microbiol.</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>1889</fpage>
+          <lpage>1901</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1462-2920.2006.01106.x</pub-id>
+          <pub-id pub-id-type="pmid">17014489</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42-agronomy-06-00017">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Boer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Kowalchuk</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>van Veen</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x2018;Root-food&#x2019; and the rhizosphere microbial community composition</article-title>
+          <source>New Phytol.</source>
+          <year>2006</year>
+          <volume>170</volume>
+          <fpage>3</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-8137.2006.01674.x</pub-id>
+          <pub-id pub-id-type="pmid">16539597</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-agronomy-06-00017">
+        <label>43.</label>
+        <citation citation-type="gov">
+		  <person-group person-group-type="author">
+           <collab>U.S. Department of Agriculture Soil Conservation Service</collab>
+          </person-group>
+          <source>Soil Survey of Douglas County, Kansas</source>
+          <publisher-name>U.S. Department of Agriculture and the Kansas Agriculture Experiment Station</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>1977</year>
+        </citation>
+      </ref>
+      <ref id="B44-agronomy-06-00017">
+        <label>44.</label>
+        <citation citation-type="book">
+		  <person-group person-group-type="author">
+           <collab>Atmospheric Science Library</collab>
+          </person-group>
+          <source>United States Centennial Cooperative Weather Station</source>
+		  <comment>Lawrence, KS, USA, 1957&#x2013;1990</comment>
+          <publisher-name>University of Kansas</publisher-name>
+          <publisher-loc>Lawrence, KS, USA</publisher-loc>
+          <year>1990</year>
+          <fpage>4</fpage>
+        </citation>
+      </ref>
+      <ref id="B45-agronomy-06-00017">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cummings</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Snow</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Riesebert</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Culley</surname>
+              <given-names>T.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fecundity selection in a sunflower crop-wild study: Can ecological data predict crop allele changes?</article-title>
+          <source>Ecol. Appl.</source>
+          <year>2002</year>
+          <volume>12</volume>
+          <fpage>1661</fpage>
+          <lpage>1671</lpage>
+        </citation>
+      </ref>
+      <ref id="B46-agronomy-06-00017">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fierer</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Schimel</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Holden</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of drying-rewetting frequency on soil bacterial community structure</article-title>
+          <source>Microb. Ecol.</source>
+          <year>2003</year>
+          <volume>45</volume>
+          <fpage>63</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00248-002-1007-2</pub-id>
+          <pub-id pub-id-type="pmid">12469245</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-agronomy-06-00017">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Culman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bukowski</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gauch</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Cadillo-Quiroz</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Buckley</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>T-REX: Software for the processing and analysis of T-RFLP data</article-title>
+          <source>BMC Bioinform.</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <elocation-id>171</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-10-171</pub-id>
+          <pub-id pub-id-type="pmid">19500385</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48-agronomy-06-00017">
+        <label>48.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jarrell</surname>
+              <given-names>W.M.</given-names>
+            </name>
+            <name>
+              <surname>Armstrong</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Grigal</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>E.F.</given-names>
+            </name>
+            <name>
+              <surname>Monger</surname>
+              <given-names>H.C.</given-names>
+            </name>
+            <name>
+              <surname>Wedin</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Soil water and temperature status</article-title>
+          <source>Standard Soil Methods for Long-Term Ecological Research</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Robertson</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Coleman</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Bledsoe</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Sollins</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1999</year>
+        </citation>
+      </ref>
+      <ref id="B49-agronomy-06-00017">
+        <label>49.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schaeffer</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Billings</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Evan</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Laboratory incubations reveal potential responses of soil nitrogen cycling to changes in soil C and N availability in Mojave Desert soils exposed to elevated atmospheric CO<sub>2</sub></article-title>
+          <source>Glob. Chang. Biol.</source>
+          <year>2007</year>
+          <volume>13</volume>
+          <fpage>854</fpage>
+          <lpage>865</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2486.2007.01324.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50-agronomy-06-00017">
+        <label>50.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qian</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Schoenau</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ion exchange resin membrane (IERM): A new approach for <italic>in situ</italic> measurement of nutrient availability in soil</article-title>
+          <source>Plant Nutr. Fertil. Sci.</source>
+          <year>1996</year>
+          <volume>2</volume>
+          <fpage>322</fpage>
+          <lpage>330</lpage>
+        </citation>
+      </ref>
+      <ref id="B51-agronomy-06-00017">
+        <label>51.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCune</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mefford</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <source>PC-ORD for Windows</source>
+		  <comment>Multivariate Analysis of Ecological Data Version 4.14</comment>
+          <publisher-name>MjM Software</publisher-name>
+          <publisher-loc>Gleneden Beach, OR, USA</publisher-loc>
+          <year>1999</year>
+        </citation>
+      </ref>
+      <ref id="B52-agronomy-06-00017">
+        <label>52.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anderson</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new method for non-parametric multivariate analysis of variance</article-title>
+          <source>Austral Ecol.</source>
+          <year>2001</year>
+          <volume>26</volume>
+          <fpage>32</fpage>
+          <lpage>46</lpage>
+        </citation>
+      </ref>
+      <ref id="B53-agronomy-06-00017">
+        <label>53.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clarke</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Gorley</surname>
+              <given-names>R.N.</given-names>
+            </name>
+          </person-group>
+          <source>PRIMER v6: User Manual/Tutorial</source>
+          <publisher-name>PRIMER-E Ltd.</publisher-name>
+          <publisher-loc>Plymouth, UK</publisher-loc>
+          <year>2006</year>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="agronomy-06-00017-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Rhizosphere bacterial operational taxonomic unit (OTU) (<bold>a</bold>) richness and (<bold>b</bold>) Shannon diversity by sampling date. Means and SE are displayed. Differing letters denote significant differences among treatments for a particular sampling date: &#x3B1; = 0.05.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="agronomy-06-00017-g001.tif"/>
+      </fig>
+      <fig id="agronomy-06-00017-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Non-metric multidimensional scaling (NMS) plots of rhizosphere bacterial OTU community compositions comparing treatments for each sampling date separately. (<bold>a</bold>) June 2007; (<bold>b</bold>) August 2007; (<bold>c</bold>) June 2008; (<bold>d</bold>) August 2008. Symbols represent the average NMS score; error bars represent the SE of the NMS scores.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="agronomy-06-00017-g002.tif"/>
+      </fig>
+      <fig id="agronomy-06-00017-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Rhizosphere bacterial OTU (<bold>a</bold>) richness and (<bold>b</bold>) Shannon diversity by treatment. Means and SE are displayed. Differing letters denote significant differences among sampling dates for a particular treatment: &#x3B1; = 0.05.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="agronomy-06-00017-g003.tif"/>
+      </fig>
+      <fig id="agronomy-06-00017-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>NMS plots of rhizosphere bacterial OTU community compositions comparing sampling dates for each treatment separately. (<bold>a</bold>) NP; (<bold>b</bold>) SB; (<bold>c</bold>) <italic>Agrostis</italic>; (<bold>d</bold>) <italic>Andropogon</italic>; and (<bold>e</bold>) <italic>Helianthus</italic>. Symbols represent the average NMS score; error bars represent SE of the NMS scores. J07 = June 2007; A07 = August 2007; J08 = June 2008; A08 = August 2008.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="agronomy-06-00017-g004.tif"/>
+      </fig>
+      <table-wrap id="agronomy-06-00017-t001" position="float">
+        <object-id pub-id-type="pii">agronomy-06-00017-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p><italic>p</italic>-values from pair-wise comparisons of the rhizosphere bacterial OTU community compositions among treatments for each sampling date separately. NP = no plant control; SB = seed bank control. Comparisons were analyzed within PERMANOVA. a&#x2013;d = ANOVA analyses; e&#x2013;f = ANCOVA analyses. Significance level &#x3B1; = 0.05.</p>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>a. June 2007</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>NP</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>SB</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold><italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold><italic>Andropogon</italic></bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">0.058</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle"><bold>0.007</bold></td>
+              <td align="center" valign="middle">0.071</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">0.083</td>
+              <td align="center" valign="middle">0.262</td>
+              <td align="center" valign="middle">0.466</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.018</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.076</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.246</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.217</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>b. August 2007</bold></td>
+              <td align="center" valign="middle"><bold>NP</bold></td>
+              <td align="center" valign="middle"><bold>SB</bold></td>
+              <td align="center" valign="middle"><bold><italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle"><bold><italic>Andropogon</italic></bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle"><bold>0.033</bold></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle"><bold>0.004</bold></td>
+              <td align="center" valign="middle">0.526</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle"><bold>0.005</bold></td>
+              <td align="center" valign="middle">0.267</td>
+              <td align="center" valign="middle">0.406</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.019</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.108</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.018</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.081</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>c. June 2008</bold></td>
+              <td align="center" valign="middle"><bold>NP</bold></td>
+              <td align="center" valign="middle"><bold>SB</bold></td>
+              <td align="center" valign="middle"><bold><italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle"><bold><italic>Andropogon</italic></bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle"><bold>0.002</bold></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle"><bold>0.001</bold></td>
+              <td align="center" valign="middle"><bold>0.010</bold></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">0.062</td>
+              <td align="center" valign="middle">0.267</td>
+              <td align="center" valign="middle"><bold>0.011</bold></td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.037</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.072</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.119</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.190</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>d. August 2008</bold></td>
+              <td align="center" valign="middle"><bold>NP</bold></td>
+              <td align="center" valign="middle"><bold>SB</bold></td>
+              <td align="center" valign="middle"><bold><italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle"><bold><italic>Andropogon</italic></bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle"><bold>0.003</bold></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle"><bold>0.012</bold></td>
+              <td align="center" valign="middle">0.301</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle"><bold>0.030</bold></td>
+              <td align="center" valign="middle">0.287</td>
+              <td align="center" valign="middle">0.366</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.001</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.001</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.003</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.003</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>e. June 2008 ANCOVA</bold></td>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">0.103</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle"><bold>0.017</bold></td>
+              <td align="center" valign="middle">0.104</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">0.569</td>
+              <td align="center" valign="middle">0.355</td>
+              <td align="center" valign="middle"><bold>0.035</bold></td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.444</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.142</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.167</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.415</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>f. August 2008 ANCOVA</bold></td>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">0.527</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle">0.341</td>
+              <td align="center" valign="middle">0.183</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">0.095</td>
+              <td align="center" valign="middle">0.070</td>
+              <td align="center" valign="middle">0.406</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.142</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.063</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.443</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.718</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="agronomy-06-00017-t002" position="float">
+        <object-id pub-id-type="pii">agronomy-06-00017-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p><italic>p</italic>-values from pair-wise comparisons (ANCOVA) of rhizosphere bacterial OTU richness and Shannon diversity among treatments for June and August 2008. a&#x2013;b = OTU richness; c&#x2013;d = OTU Shannon diversity. Significance level &#x3B1; = 0.05.</p>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>a. OTU Richness June 2008</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>NP</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>SB</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic><bold>Agrostis</bold></italic></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic><bold>Andropogon</bold></italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle">0.993</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.997</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>b. OTU Richness August 2008</bold></td>
+              <td align="center" valign="middle"><bold>NP</bold></td>
+              <td align="center" valign="middle"><bold>SB</bold></td>
+              <td align="center" valign="middle"><bold><italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle"><bold><italic>Andropogon</italic></bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">0.981</td>
+              <td align="center" valign="middle">0.997</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.002</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.001</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.001</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.017</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>c. OTU H&#x2032; June 2008</bold></td>
+              <td align="center" valign="middle"><bold>NP</bold></td>
+              <td align="center" valign="middle"><bold>SB</bold></td>
+              <td align="center" valign="middle"><bold><italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle"><bold><italic>Andropogon</italic></bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle">0.805</td>
+              <td align="center" valign="middle">0.948</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">0.880</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.998</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.997</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>d. OTU H&#x2032; August 2008</bold></td>
+              <td align="center" valign="middle"><bold>NP</bold></td>
+              <td align="center" valign="middle"><bold>SB</bold></td>
+              <td align="center" valign="middle"><bold><italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle"><bold><italic>Andropogon</italic></bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">0.974</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">0.992</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">0.850</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.167</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.006</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.108</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.369</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="agronomy-06-00017-t003" position="float">
+        <object-id pub-id-type="pii">agronomy-06-00017-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p><italic>p</italic>-values for pair-wise comparisons of rhizosphere bacterial OTU community compositions among sampling dates for each treatment separately. Comparisons were analyzed within PERMANOVA. Significance level at &#x3B1; = 0.05.</p>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>a. NP</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>June 2007</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>August 2007</bold></td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><bold>June 2008</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2007</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">August 2007</td>
+              <td align="center" valign="middle"><bold>0.031</bold></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2008</td>
+              <td align="center" valign="middle">0.085</td>
+              <td align="center" valign="middle"><bold>0.029</bold></td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">August 2008</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.078</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.009</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.075</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>b. SB</bold></td>
+              <td align="center" valign="middle"><bold>June 2007</bold></td>
+              <td align="center" valign="middle"><bold>August 2007</bold></td>
+              <td align="center" valign="middle"><bold>June 2008</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2007</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">August 2007</td>
+              <td align="center" valign="middle">0.179</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2008</td>
+              <td align="center" valign="middle"><bold>0.044</bold></td>
+              <td align="center" valign="middle">0.427</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">August 2008</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.068</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.105</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.025</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>c. <italic>Agrostis</italic></bold></td>
+              <td align="center" valign="middle"><bold>June 2007</bold></td>
+              <td align="center" valign="middle"><bold>August 2007</bold></td>
+              <td align="center" valign="middle"><bold>June 2008</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2007</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">August 2007</td>
+              <td align="center" valign="middle">0.082</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2008</td>
+              <td align="center" valign="middle"><bold>0.033</bold></td>
+              <td align="center" valign="middle"><bold>0.024</bold></td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">August 2008</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.009</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.023</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.003</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>d. <italic>Andropogon</italic></bold></td>
+              <td align="center" valign="middle"><bold>June 2007</bold></td>
+              <td align="center" valign="middle"><bold>August 2007</bold></td>
+              <td align="center" valign="middle"><bold>June 2008</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2007</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">August 2007</td>
+              <td align="center" valign="middle">0.181</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2008</td>
+              <td align="center" valign="middle">0.294</td>
+              <td align="center" valign="middle">0.063</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">August 2008</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.147</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.027</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.035</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>e. <italic>Helianthus</italic></bold></td>
+              <td align="center" valign="middle"><bold>June 2007</bold></td>
+              <td align="center" valign="middle"><bold>August 2007</bold></td>
+              <td align="center" valign="middle"><bold>June 2008</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2007</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">August 2007</td>
+              <td align="center" valign="middle"><bold>0.028</bold></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">June 2008</td>
+              <td align="center" valign="middle">0.170</td>
+              <td align="center" valign="middle"><bold>0.030</bold></td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">August 2008</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.002</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.160</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.001</bold></td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="agronomy-06-00017-t004" position="float">
+        <object-id pub-id-type="pii">agronomy-06-00017-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p><italic>p</italic>-values for pair-wise comparisons (ANCOVA) of the rhizosphere bacterial OTU richness, Shannon diversity and community compositions between June and August 2008, each treatment separately. Significance level at &#x3B1; = 0.05.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Treatment</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">OTU Richness</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">OTU H&#x2032;</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">OTU Community Composition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">NP</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">0.265</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SB</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">0.967</td>
+              <td align="center" valign="middle">0.065</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Agrostis</italic></td>
+              <td align="center" valign="middle">0.997</td>
+              <td align="center" valign="middle">0.870</td>
+              <td align="center" valign="middle"><bold>0.029</bold></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><italic>Andropogon</italic></td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">0.069</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Helianthus</italic></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.012</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.428</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>0.050</bold></td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

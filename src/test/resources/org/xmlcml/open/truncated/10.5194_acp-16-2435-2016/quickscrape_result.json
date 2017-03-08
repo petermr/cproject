@@ -1,0 +1,58 @@
+{
+  "fulltext_pdf": {
+    "value": [
+      "http://www.atmos-chem-phys.net/16/2435/2016/acp-16-2435-2016.pdf"
+    ]
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "fulltext_xml": {
+    "value": [
+      "http://www.atmos-chem-phys.net/16/2435/2016/acp-16-2435-2016.xml"
+    ]
+  },
+  "title": {
+    "value": [
+      "Evaluation and application of multi-decadal visibility data for trend  analysis of atmospheric haze"
+    ]
+  },
+  "author": {
+    "value": [
+      "Li, Chi",
+      "Martin, Randall V.",
+      "Boys, Brian L.",
+      "van Donkelaar, Aaron",
+      "Ruzzante, Sacha"
+    ]
+  },
+  "date": {
+    "value": []
+  },
+  "doi": {
+    "value": [
+      "doi:10.5194/acp-16-2435-2016"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "4"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "2435"
+    ]
+  },
+  "abstract_html": {
+    "value": []
+  },
+  "description": {
+    "value": []
+  }
+}

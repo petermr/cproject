@@ -1,0 +1,85 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        4,
+        9
+      ]
+    ],
+    "date-time": "2016-04-09T15:40:44Z",
+    "timestamp": 1460216444388
+  },
+  "reference-count": 28,
+  "publisher": "MDPI AG",
+  "issue": "1",
+  "DOI": "10.3390/arts5010001",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        3
+      ]
+    ],
+    "date-time": "2016-03-03T15:30:47Z",
+    "timestamp": 1457019047000
+  },
+  "page": "1",
+  "source": "CrossRef",
+  "title": [
+    "Participative Mindscapes"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3390",
+  "volume": "5",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Katan",
+      "given": "Roger"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Arts"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        4,
+        9
+      ]
+    ],
+    "date-time": "2016-04-09T14:01:16Z",
+    "timestamp": 1460210476000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "alternative-id": [
+    "arts5010001"
+  ],
+  "URL": "http://dx.doi.org/10.3390/arts5010001",
+  "ISSN": [
+    "2076-0752"
+  ]
+}

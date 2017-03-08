@@ -653,7 +653,6 @@ public class CProject extends CContainer {
 
 	public File getExistingMetadataFile(AbstractMetadata.Type type) {
 		File resultsJson = getMetadataFile(type);
-		LOG.debug("results: "+resultsJson);
 		return (resultsJson == null || !resultsJson.exists()) ? null : resultsJson;
 	}
 

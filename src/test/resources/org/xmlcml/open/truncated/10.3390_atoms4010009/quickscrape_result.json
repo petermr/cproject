@@ -1,0 +1,85 @@
+{
+  "publisher": {
+    "value": [
+      "Multidisciplinary Digital Publishing Institute"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Atoms"
+    ]
+  },
+  "title": {
+    "value": [
+      "Merkuriev Cut-off in e+ − H Multichannel Scattering Calculations"
+    ]
+  },
+  "authors": {
+    "value": []
+  },
+  "date": {
+    "value": [
+      "2016-03-01"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.3390/atoms4010009"
+    ]
+  },
+  "volume": {
+    "value": [
+      "4"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "9"
+    ]
+  },
+  "description": {
+    "value": [
+      "We present the results of positron-Hydrogen multichannel scattering calculations performed on the base of Faddeev-Merkuriev equations. We discuss an optimal choice of the Merkuriev’s Coulomb splitting parameters. Splitting the Coulomb potential in two-body configuration space is applicable for a limited energy range. Splitting the potential in three-body configuration space makes it possible to perform calculations in a broader range of energies and to optimize the numerical convergence. Scattering cross sections for zero total angular momentum for all processes between the positronium formation threshold and the third excitation threshold of the Hydrogen atom are reported."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "We present the results of positron-Hydrogen multichannel scattering calculations performed on the base of Faddeev-Merkuriev equations. We discuss an optimal choice of the Merkuriev’s Coulomb splitting parameters. Splitting the Coulomb potential in two-body configuration space is applicable for a limited energy range. Splitting the potential in three-body configuration space makes it possible to perform calculations in a broader range of energies and to optimize the numerical convergence. Scattering cross sections for zero total angular momentum for all processes between the positronium formation threshold and the third excitation threshold of the Hydrogen atom are reported."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.mdpi.com/2218-2004/4/1/9/htm"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.mdpi.com/2218-2004/4/1/9/pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "http://www.mdpi.com/2218-2004/4/1/9/xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": []
+  },
+  "copyright": {
+    "value": []
+  }
+}

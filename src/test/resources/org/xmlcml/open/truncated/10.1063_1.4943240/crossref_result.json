@@ -1,0 +1,242 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:51:50Z",
+    "timestamp": 1457088710858
+  },
+  "reference-count": 12,
+  "publisher": "AIP Publishing",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Division of Civil, Mechanical and Manufacturing Innovation",
+      "DOI": "10.13039/100000147"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1063/1.4943240",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T18:00:27Z",
+    "timestamp": 1456855227000
+  },
+  "page": "055911",
+  "update-policy": "http://dx.doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "CrossRef",
+  "title": [
+    "Electronic structures of MnB soft magnet"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1063",
+  "volume": "6",
+  "author": [
+    {
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Computer Engineering and MINT Center, The University of Alabama, Tuscaloosa, Alabama 35487, USA"
+        }
+      ],
+      "family": "Park",
+      "given": "Jihoon",
+      "ORCID": "http://orcid.org/0000-0001-6901-1099"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Computer Engineering and MINT Center, The University of Alabama, Tuscaloosa, Alabama 35487, USA"
+        }
+      ],
+      "family": "Hong",
+      "given": "Yang-Ki"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Computer Engineering and MINT Center, The University of Alabama, Tuscaloosa, Alabama 35487, USA"
+        }
+      ],
+      "family": "Kim",
+      "given": "Hyun-Kyu"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Computer Engineering and MINT Center, The University of Alabama, Tuscaloosa, Alabama 35487, USA"
+        }
+      ],
+      "family": "Lee",
+      "given": "Woncheol",
+      "ORCID": "http://orcid.org/0000-0001-9088-7124"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Texas Tech University, Lubbock, TX 79409, USA"
+        }
+      ],
+      "family": "Yeo",
+      "given": "Chang-Dong"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Physics & Astronomy and Center for Computational Sciences, Mississippi State University, Mississippi State, Mississippi 39792, USA"
+        }
+      ],
+      "family": "Kim",
+      "given": "Seong-Gon",
+      "ORCID": "http://orcid.org/0000-0002-1629-0319"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Physics, Sogang University, Seoul 121-742, South Korea"
+        }
+      ],
+      "family": "Jung",
+      "given": "Myung-Hwa"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Korea Institute of Materials Science, Changwon, Kyung-Nam, South Korea"
+        }
+      ],
+      "family": "Choi",
+      "given": "Chul-Jin"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Department of Physics and Astronomy and MINT Center, The University of Alabama, Tuscaloosa, Alabama 35487, USA"
+        }
+      ],
+      "family": "Mryasov",
+      "given": "Oleg N."
+    }
+  ],
+  "member": "http://id.crossref.org/member/317",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "AIP Advances"
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ],
+    "date-time": "2016-03-02T01:49:10Z",
+    "timestamp": 1456883350000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1063/1.4943240",
+  "archive": [
+    "CLOCKSS",
+    "Portico"
+  ],
+  "ISSN": [
+    "2158-3226"
+  ],
+  "assertion": [
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "presented",
+      "name": "presented",
+      "order": 5,
+      "value": "2016-01-15"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "received",
+      "name": "received",
+      "order": 0,
+      "value": "2015-11-09"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "accepted",
+      "name": "accepted",
+      "order": 2,
+      "value": "2015-12-15"
+    },
+    {
+      "group": {
+        "label": "Publication History",
+        "name": "publication_history"
+      },
+      "label": "published",
+      "name": "published",
+      "order": 6,
+      "value": "2016-03-01"
+    }
+  ]
+}

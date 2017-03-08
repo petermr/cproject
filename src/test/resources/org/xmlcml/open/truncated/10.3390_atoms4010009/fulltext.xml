@@ -1,0 +1,2482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" dtd-version="2.3" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">atoms</journal-id>
+      <journal-title>Atoms</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Atoms</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Atoms</abbrev-journal-title>
+      <issn pub-type="epub">2218-2004</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/atoms4010009</article-id>
+      <article-id pub-id-type="publisher-id">atoms-04-00009</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Merkuriev Cut-off in <italic>e</italic><sup>+</sup> <italic>&#x2212;</italic> H Multichannel Scattering Calculations</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gradusov</surname>
+            <given-names>Vitaly A.</given-names>
+          </name>
+          <xref rid="fn1-atoms-04-00009" ref-type="fn">&#x2020;</xref>
+          <xref rid="c1-atoms-04-00009" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Roudnev</surname>
+            <given-names>Vladimir A.</given-names>
+          </name>
+          <xref rid="fn1-atoms-04-00009" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yakovlev</surname>
+            <given-names>Sergey L.</given-names>
+          </name>
+          <xref rid="fn1-atoms-04-00009" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Chi Yu</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Bhatia</surname>
+            <given-names>Anand K.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-atoms-04-00009">Saint Petersburg State University, 1 Ulyanovskaya str., Petrodvorets, Saint Petersburg 198504, Russia; <email>v.rudnev@spbu.ru</email> (V.A.R); <email>s.yakovlev@spbu.ru</email> (S.L.Y.)</aff>
+      <author-notes>
+        <corresp id="c1-atoms-04-00009"><label>*</label>Correspondence: <email>v.gradusov@spbu.ru</email></corresp>
+        <fn id="fn1-atoms-04-00009">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>03</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>03</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>1</issue>
+      <elocation-id>9</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>09</day>
+          <month>12</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>02</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>We present the results of positron-Hydrogen multichannel scattering calculations performed on the base of Faddeev-Merkuriev equations. We discuss an optimal choice of the Merkuriev&#x2019;s Coulomb splitting parameters. Splitting the Coulomb potential in two-body configuration space is applicable for a limited energy range. Splitting the potential in three-body configuration space makes it possible to perform calculations in a broader range of energies and to optimize the numerical convergence. Scattering cross sections for zero total angular momentum for all processes between the positronium formation threshold and the third excitation threshold of the Hydrogen atom are reported.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>multichannel quantum scattering theory</kwd>
+        <kwd>Faddeev-Merkuriev equations</kwd>
+        <kwd>positron</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec1-atoms-04-00009">
+      <title>1. Introduction</title>
+      <p>Reactive scattering in three-body Coulomb systems is one of the most important problems for many fields of quantum physics. In particular, positron scattering on atoms and ions is fundamentally important for understanding annihilation processes as well as for imaging applications in medicine and material science. For these studies, precise calculations of electrons and positrons scattering on simple targets like atomic Hydrogen, Helium ion and molecular Hydrogen play an important role. This is due to the fact that existing methods for solving scattering problem in few-body systems allow one to obtain reliable results that can later be used to test methods and models for calculating positron scattering on complex targets [<xref ref-type="bibr" rid="B1-atoms-04-00009">1</xref>]. Although high energy scattering can be successfully treated with semiclassical models, the low energy scattering is computationally more difficult. Non-variational approaches, that are critical for studying annihilation, are reduced to two basic types: Merkuriev-Faddeev equations formalism [<xref ref-type="bibr" rid="B2-atoms-04-00009">2</xref>] and hyperspherical close coupling equations [<xref ref-type="bibr" rid="B3-atoms-04-00009">3</xref>] or adiabatic hyperspherical close coupling equations formalism [<xref ref-type="bibr" rid="B4-atoms-04-00009">4</xref>,<xref ref-type="bibr" rid="B5-atoms-04-00009">5</xref>,<xref ref-type="bibr" rid="B6-atoms-04-00009">6</xref>]. Being very suitable for bound state calculations, the adiabatic hyperspherical approach has certain technical difficulties when applied to Coulomb particle scattering. The Merkuriev-Faddeev equations have demonstrated their efficiency as a tool for Coulomb bound state, elastic and reactive scattering calculations. Although these equations are strictly equivalent to the Schrodinger equation, they contain an artificial functional parameter-the Merkuriev cut-off function-which is used for splitting of the Coulomb potentials into the short-range and the long-rage parts. Even though the Merkuriev formalism implies considerable freedom in an actual choice of this splitting function, deeper understanding of this splitting can help to produce more accurate results with smaller computational efforts.</p>
+      <p>In this article we discuss practical choices for the Merkuriev cut-off function and stability of the results using positron-hydrogen multichannel scattering above the Ps formation threshold as a testground. Even though this system has been studied previously, it still provides a good example of a computationally challenging problem.</p>
+    </sec>
+    <sec id="sec2-atoms-04-00009">
+      <title>2. Faddeev-Merkuriev Equations in Configuration Space</title>
+      <p>In this section we will bring a very short and qualitative introduction to the formalism of Faddeev-Merkuriev equations. Interested readers can find more information and mathematically sound statements in the original paper of Merkuriev [<xref ref-type="bibr" rid="B2-atoms-04-00009">2</xref>] and articles of other authors who used this approach to solving the Schr&#xF6;dinger equation for three Coulomb particles [<xref ref-type="bibr" rid="B7-atoms-04-00009">7</xref>,<xref ref-type="bibr" rid="B8-atoms-04-00009">8</xref>,<xref ref-type="bibr" rid="B9-atoms-04-00009">9</xref>,<xref ref-type="bibr" rid="B10-atoms-04-00009">10</xref>,<xref ref-type="bibr" rid="B11-atoms-04-00009">11</xref>,<xref ref-type="bibr" rid="B12-atoms-04-00009">12</xref>,<xref ref-type="bibr" rid="B13-atoms-04-00009">13</xref>]. In our discussion we shall assume that the energy of the three-body system is sufficiently low, so that the three-body break-up channel (&#x201C;ionization&#x201D;) is closed, and only the elastic scattering and a finite number of excitation/relaxation and charge-exchange channels contribute to the system asymptotic state. In this case the virtual ionization channel only contributes to the short-range dynamic of the system in the region of three-body collisions and its contribution to the long-range dynamics of the system is exponentially small.</p>
+      <p>Let us first remind our readers the Faddeev scheme for solving quantum three-body problems for particles with short-range interactions. Assume that the three-body Hamiltonian has the form
+      <disp-formula>
+        <mml:math id="mm1" display="block">
+          <mml:mrow>
+            <mml:mi>H</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mi>T</mml:mi>
+            <mml:mo>+</mml:mo>
+            <mml:munderover>
+              <mml:mo>&#x2211;</mml:mo>
+              <mml:mrow>
+                <mml:mi>&#x3B1;</mml:mi>
+                <mml:mo>=</mml:mo>
+                <mml:mn>1</mml:mn>
+              </mml:mrow>
+              <mml:mn>3</mml:mn>
+            </mml:munderover>
+            <mml:msub>
+              <mml:mi>V</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mspace width="4pt"/>
+            <mml:mo>,</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      where <italic>T</italic> is the kinetic energy operator of the three particles and <inline-formula>
+        <mml:math id="mm2" display="block">
+          <mml:msub>
+            <mml:mi>V</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> are the pairwise short-range interaction potentials. The index <italic>&#x3B1;</italic> enumerates the possible pairings of the particles. The solution &#x3A8; of the Schr&#xF6;dinger equation
+      <disp-formula>
+        <mml:math id="mm3" display="block">
+          <mml:mrow>
+            <mml:mo stretchy="false">(</mml:mo>
+            <mml:mi>H</mml:mi>
+            <mml:mo>&#x2212;</mml:mo>
+            <mml:mi>E</mml:mi>
+            <mml:mo stretchy="false">)</mml:mo>
+            <mml:mi mathvariant="sans-serif">&#x3A8;</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>0</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      can be represented as a sum of three components according to the clusterings of the particles in the initial and final states
+      <disp-formula>
+        <mml:math id="mm4" display="block">
+          <mml:mrow>
+            <mml:mi mathvariant="sans-serif">&#x3A8;</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:munderover>
+              <mml:mo>&#x2211;</mml:mo>
+              <mml:mrow>
+                <mml:mi>&#x3B1;</mml:mi>
+                <mml:mo>=</mml:mo>
+                <mml:mn>1</mml:mn>
+              </mml:mrow>
+              <mml:mn>3</mml:mn>
+            </mml:munderover>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mspace width="4pt"/>
+            <mml:mo>.</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      Each of the components <inline-formula>
+        <mml:math id="mm5" display="block">
+          <mml:msub>
+            <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> corresponds to the particular pairing <italic>&#x3B1;</italic>. It is natural to represent each component in the corresponding set of Jacobi coordinates (<xref ref-type="fig" rid="atoms-04-00009-f001">Figure 1</xref>). The components satisfy a set of three equations - the Faddeev equations
+      <disp-formula id="FD1-atoms-04-00009">
+        <label>(1)</label>
+        <mml:math id="mm6" display="block">
+          <mml:mtable>
+            <mml:mtr>
+              <mml:mtd columnalign="left">
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo stretchy="false">(</mml:mo>
+                    <mml:mi>T</mml:mi>
+                    <mml:mo>+</mml:mo>
+                    <mml:msub>
+                      <mml:mi>V</mml:mi>
+                      <mml:mi>&#x3B1;</mml:mi>
+                    </mml:msub>
+                    <mml:mo>&#x2212;</mml:mo>
+                    <mml:mi>E</mml:mi>
+                    <mml:mo stretchy="false">)</mml:mo>
+                  </mml:mrow>
+                  <mml:msub>
+                    <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+                    <mml:mi>&#x3B1;</mml:mi>
+                  </mml:msub>
+                  <mml:mo>=</mml:mo>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:msub>
+                    <mml:mi>V</mml:mi>
+                    <mml:mi>&#x3B1;</mml:mi>
+                  </mml:msub>
+                  <mml:munder>
+                    <mml:mo>&#x2211;</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>&#x3B1;</mml:mi>
+                      <mml:mo>&#x2260;</mml:mo>
+                      <mml:mi>&#x3B2;</mml:mi>
+                    </mml:mrow>
+                  </mml:munder>
+                  <mml:msub>
+                    <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+                    <mml:mi>&#x3B2;</mml:mi>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:mtd>
+            </mml:mtr>
+            <mml:mtr>
+              <mml:mtd columnalign="left">
+                <mml:mrow>
+                  <mml:mi>&#x3B1;</mml:mi>
+                  <mml:mo>=</mml:mo>
+                  <mml:mn>1</mml:mn>
+                  <mml:mo>,</mml:mo>
+                  <mml:mn>2</mml:mn>
+                  <mml:mo>,</mml:mo>
+                  <mml:mn>3</mml:mn>
+                  <mml:mo>.</mml:mo>
+                </mml:mrow>
+              </mml:mtd>
+            </mml:mtr>
+          </mml:mtable>
+        </mml:math>
+      </disp-formula>
+      It is easy to see that the sum of the components satisfies the Schr&#xF6;dinger equation. Indeed, if we sum up the three equations over <italic>&#x3B1;</italic> we obtain the equivalent Schr&#xF6;dinger equation
+      <disp-formula>
+        <mml:math id="mm7" display="block">
+          <mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>T</mml:mi>
+              <mml:mo>+</mml:mo>
+              <mml:munder>
+                <mml:mo>&#x2211;</mml:mo>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:munder>
+              <mml:msub>
+                <mml:mi>V</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mi>E</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:munder>
+              <mml:mo>&#x2211;</mml:mo>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:munder>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mn>0</mml:mn>
+            <mml:mo>.</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      The asymptotic behavior of these components is given by the following equations, assuming that the index <italic>&#x3B1;</italic> corresponds to the initial state of the system
+      <disp-formula id="FD2-atoms-04-00009">
+        <label>(2)</label>
+        <mml:math id="mm8" display="block">
+          <mml:mrow>
+            <mml:mtable>
+              <mml:mtr>
+                <mml:mtd columnalign="left">
+                  <mml:mstyle scriptlevel="0" displaystyle="true">
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+                        <mml:mi>&#x3B1;</mml:mi>
+                      </mml:msub>
+                      <mml:mo>&#x2192;</mml:mo>
+                      <mml:msub>
+                        <mml:mi>&#x3C6;</mml:mi>
+                        <mml:mrow>
+                          <mml:mi>&#x3B1;</mml:mi>
+                          <mml:msub>
+                            <mml:mi>n</mml:mi>
+                            <mml:mn>0</mml:mn>
+                          </mml:msub>
+                          <mml:msub>
+                            <mml:mi>l</mml:mi>
+                            <mml:mn>0</mml:mn>
+                          </mml:msub>
+                        </mml:mrow>
+                      </mml:msub>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:msub>
+                          <mml:mi mathvariant="bold-italic">x</mml:mi>
+                          <mml:mi>&#x3B1;</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                      <mml:msup>
+                        <mml:mi>e</mml:mi>
+                        <mml:mrow>
+                          <mml:mi>i</mml:mi>
+                          <mml:mo stretchy="false">(</mml:mo>
+                          <mml:mi mathvariant="bold-italic">k</mml:mi>
+                          <mml:mo>,</mml:mo>
+                          <mml:msub>
+                            <mml:mi mathvariant="bold-italic">y</mml:mi>
+                            <mml:mi>&#x3B1;</mml:mi>
+                          </mml:msub>
+                          <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                      </mml:msup>
+                      <mml:mo>+</mml:mo>
+                      <mml:munder>
+                        <mml:mo>&#x2211;</mml:mo>
+                        <mml:mrow>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>l</mml:mi>
+                        </mml:mrow>
+                      </mml:munder>
+                      <mml:msub>
+                        <mml:mi>&#x3C6;</mml:mi>
+                        <mml:mrow>
+                          <mml:mi>&#x3B1;</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>l</mml:mi>
+                        </mml:mrow>
+                      </mml:msub>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:msub>
+                          <mml:mi mathvariant="bold-italic">x</mml:mi>
+                          <mml:mi>&#x3B1;</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                      <mml:msub>
+                        <mml:mi>f</mml:mi>
+                        <mml:mrow>
+                          <mml:mi>&#x3B1;</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>l</mml:mi>
+                        </mml:mrow>
+                      </mml:msub>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mover accent="true">
+                          <mml:mi>k</mml:mi>
+                          <mml:mo stretchy="false">^</mml:mo>
+                        </mml:mover>
+                        <mml:mo>,</mml:mo>
+                        <mml:msub>
+                          <mml:mover accent="true">
+                            <mml:mi>y</mml:mi>
+                            <mml:mo stretchy="false">^</mml:mo>
+                          </mml:mover>
+                          <mml:mi>&#x3B1;</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                      <mml:mfrac>
+                        <mml:msup>
+                          <mml:mi>e</mml:mi>
+                          <mml:mrow>
+                            <mml:mrow>
+                              <mml:mi>i</mml:mi>
+                              <mml:mo>|</mml:mo>
+                            </mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">k</mml:mi>
+                              <mml:mrow>
+                                <mml:mi>&#x3B1;</mml:mi>
+                                <mml:mi>n</mml:mi>
+                                <mml:mi>l</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                            <mml:mrow>
+                              <mml:mo>|</mml:mo>
+                              <mml:mo>|</mml:mo>
+                            </mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">y</mml:mi>
+                              <mml:mi>&#x3B1;</mml:mi>
+                            </mml:msub>
+                            <mml:mrow>
+                              <mml:mo>|</mml:mo>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:mrow>
+                          <mml:mrow>
+                            <mml:mo>|</mml:mo>
+                          </mml:mrow>
+                          <mml:msub>
+                            <mml:mi mathvariant="bold-italic">y</mml:mi>
+                            <mml:mi>&#x3B1;</mml:mi>
+                          </mml:msub>
+                          <mml:mrow>
+                            <mml:mo>|</mml:mo>
+                          </mml:mrow>
+                        </mml:mrow>
+                      </mml:mfrac>
+                    </mml:mrow>
+                  </mml:mstyle>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd columnalign="left">
+                  <mml:mstyle scriptlevel="0" displaystyle="true">
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+                        <mml:mi>&#x3B2;</mml:mi>
+                      </mml:msub>
+                      <mml:mo>&#x2192;</mml:mo>
+                      <mml:munder>
+                        <mml:mo>&#x2211;</mml:mo>
+                        <mml:mrow>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>l</mml:mi>
+                        </mml:mrow>
+                      </mml:munder>
+                      <mml:msub>
+                        <mml:mi>&#x3C6;</mml:mi>
+                        <mml:mrow>
+                          <mml:mi>&#x3B2;</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>l</mml:mi>
+                        </mml:mrow>
+                      </mml:msub>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:msub>
+                          <mml:mi mathvariant="bold-italic">x</mml:mi>
+                          <mml:mi>&#x3B2;</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                      <mml:msub>
+                        <mml:mi>f</mml:mi>
+                        <mml:mrow>
+                          <mml:mi>&#x3B2;</mml:mi>
+                          <mml:mi>n</mml:mi>
+                          <mml:mi>l</mml:mi>
+                        </mml:mrow>
+                      </mml:msub>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mover accent="true">
+                          <mml:mi>k</mml:mi>
+                          <mml:mo stretchy="false">^</mml:mo>
+                        </mml:mover>
+                        <mml:mo>,</mml:mo>
+                        <mml:msub>
+                          <mml:mover accent="true">
+                            <mml:mi>y</mml:mi>
+                            <mml:mo stretchy="false">^</mml:mo>
+                          </mml:mover>
+                          <mml:mi>&#x3B2;</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                      <mml:mfrac>
+                        <mml:msup>
+                          <mml:mi>e</mml:mi>
+                          <mml:mrow>
+                            <mml:mrow>
+                              <mml:mi>i</mml:mi>
+                              <mml:mo>|</mml:mo>
+                            </mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">k</mml:mi>
+                              <mml:mrow>
+                                <mml:mi>&#x3B2;</mml:mi>
+                                <mml:mi>n</mml:mi>
+                                <mml:mi>l</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                            <mml:mrow>
+                              <mml:mo>|</mml:mo>
+                              <mml:mo>|</mml:mo>
+                            </mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">y</mml:mi>
+                              <mml:mi>&#x3B2;</mml:mi>
+                            </mml:msub>
+                            <mml:mrow>
+                              <mml:mo>|</mml:mo>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:mrow>
+                          <mml:mrow>
+                            <mml:mo>|</mml:mo>
+                          </mml:mrow>
+                          <mml:msub>
+                            <mml:mi mathvariant="bold-italic">y</mml:mi>
+                            <mml:mi>&#x3B2;</mml:mi>
+                          </mml:msub>
+                          <mml:mrow>
+                            <mml:mo>|</mml:mo>
+                          </mml:mrow>
+                        </mml:mrow>
+                      </mml:mfrac>
+                    </mml:mrow>
+                  </mml:mstyle>
+                </mml:mtd>
+              </mml:mtr>
+            </mml:mtable>
+            <mml:mo>,</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      where <inline-formula>
+        <mml:math id="mm9" display="block">
+          <mml:mi mathvariant="bold-italic">k</mml:mi>
+        </mml:math>
+      </inline-formula> is the momentum of the incident particle, <inline-formula>
+        <mml:math id="mm10" display="block">
+          <mml:msub>
+            <mml:mi mathvariant="bold-italic">k</mml:mi>
+            <mml:mrow>
+              <mml:mi>&#x3B2;</mml:mi>
+              <mml:mi>n</mml:mi>
+              <mml:mi>&#x2113;</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> is the momentum of the outgoing particle, <inline-formula>
+        <mml:math id="mm11" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>&#x3C6;</mml:mi>
+              <mml:mrow>
+                <mml:mi>&#x3B2;</mml:mi>
+                <mml:mi>n</mml:mi>
+                <mml:mi>&#x2113;</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:msub>
+                <mml:mi mathvariant="bold-italic">x</mml:mi>
+                <mml:mi>&#x3B2;</mml:mi>
+              </mml:msub>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> is the 2-body bound state wave function of the pair <italic>&#x3B2;</italic>, <italic>n</italic> and <italic>&#x2113;</italic> are the corresponding main and orbital quantum numbers and <inline-formula>
+        <mml:math id="mm12" display="block">
+          <mml:mrow>
+            <mml:mover accent="true">
+              <mml:mi>k</mml:mi>
+              <mml:mo stretchy="false">^</mml:mo>
+            </mml:mover>
+            <mml:mo>&#x2261;</mml:mo>
+            <mml:mi mathvariant="bold-italic">k</mml:mi>
+            <mml:mo>/</mml:mo>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+              <mml:mi mathvariant="bold-italic">k</mml:mi>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> stands for the unit vector collinear with the vector <inline-formula>
+        <mml:math id="mm13" display="block">
+          <mml:mi mathvariant="bold-italic">k</mml:mi>
+        </mml:math>
+      </inline-formula>.</p>
+      <p>From a theorist&#x2019;s point of view, the Faddeev equations have a very simple physically meaningful structure. Assume that the solution <inline-formula>
+        <mml:math id="mm14" display="block">
+          <mml:mrow>
+            <mml:mo stretchy="false">(</mml:mo>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>,</mml:mo>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B2;</mml:mi>
+            </mml:msub>
+            <mml:mo>,</mml:mo>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B3;</mml:mi>
+            </mml:msub>
+            <mml:mo stretchy="false">)</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> is known. Than we can treat the right-hand sides of the equations as the &#x201C;source&#x201D; term which is a square integrable function, as for different <italic>&#x3B1;</italic> and <italic>&#x3B2;</italic> the product <inline-formula>
+        <mml:math id="mm15" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>V</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B2;</mml:mi>
+            </mml:msub>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> is well localized in the region of three-body collisions [<xref ref-type="bibr" rid="B14-atoms-04-00009">14</xref>]. Then the asymptote of the components is determined by the Green&#x2019;s function <inline-formula>
+        <mml:math id="mm16" display="block">
+          <mml:msup>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:msub>
+                <mml:mi>H</mml:mi>
+                <mml:mn>0</mml:mn>
+              </mml:msub>
+              <mml:mo>+</mml:mo>
+              <mml:msub>
+                <mml:mi>V</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mi>E</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mn>1</mml:mn>
+            </mml:mrow>
+          </mml:msup>
+        </mml:math>
+      </inline-formula>, which is the inverse of the channel Hamiltonian written at the left-hand side of the Faddeev equations. It results in the asymptotic uncoupling of the components, so that the asymptotic channels corresponding to the clustering <italic>&#x3B1;</italic> are present only in the component <inline-formula>
+        <mml:math id="mm17" display="block">
+          <mml:msub>
+            <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula>. From a computational scientist&#x2019;s point of view, the advantage of solving the Faddeev equations for the components <inline-formula>
+        <mml:math id="mm18" display="block">
+          <mml:msub>
+            <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> over solving the Schr&#xF6;dinger equation for the wave function &#x3A8; directly is the simplicity of the component asymptotic behavior, which makes it easier to impose the appropriate boundary conditions. Moreover, the discretized channel Hamiltonians admit a simple and efficient way of inversion [<xref ref-type="bibr" rid="B15-atoms-04-00009">15</xref>,<xref ref-type="bibr" rid="B16-atoms-04-00009">16</xref>,<xref ref-type="bibr" rid="B17-atoms-04-00009">17</xref>], which leads to a natural way of preconditioning the equations and, therefore, very efficient iterative schemes.</p>
+      <p>In the case of Coulomb interactions, however, the simple Faddeev decomposition is not sufficient to produce a rigorous and stable base for scattering calculations even for binary collisions. Indeed, in this case the right-hand side of an Equation (<xref ref-type="disp-formula" rid="FD1-atoms-04-00009">1</xref>) with Coulomb potential does not produce a square-integrable source. As a result, the channels corresponding to alternative pairings remain coupled in the component <inline-formula>
+        <mml:math id="mm19" display="block">
+          <mml:msub>
+            <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> at all distances. So, the equations need further modification. Such a modification was proposed by Merkuriev in [<xref ref-type="bibr" rid="B2-atoms-04-00009">2</xref>]. He had suggested to split the potential <inline-formula>
+        <mml:math id="mm20" display="block">
+          <mml:msub>
+            <mml:mi>V</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> into short-range and long-range parts <inline-formula>
+        <mml:math id="mm21" display="block">
+          <mml:msubsup>
+            <mml:mi>V</mml:mi>
+            <mml:mrow>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>s</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:msubsup>
+        </mml:math>
+      </inline-formula> and <inline-formula>
+        <mml:math id="mm22" display="block">
+          <mml:msubsup>
+            <mml:mi>V</mml:mi>
+            <mml:mrow>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>l</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:msubsup>
+        </mml:math>
+      </inline-formula>, so that <inline-formula>
+        <mml:math id="mm23" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>V</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:msubsup>
+              <mml:mi>V</mml:mi>
+              <mml:mrow>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>s</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+              </mml:mrow>
+            </mml:msubsup>
+            <mml:mo>+</mml:mo>
+            <mml:msubsup>
+              <mml:mi>V</mml:mi>
+              <mml:mrow>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>l</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+              </mml:mrow>
+            </mml:msubsup>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. In this notation the Merkuriev-Faddeev equations read
+      <disp-formula id="FD3-atoms-04-00009">
+        <label>(3)</label>
+        <mml:math id="mm24" display="block">
+          <mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>T</mml:mi>
+              <mml:mo>+</mml:mo>
+              <mml:msub>
+                <mml:mi>V</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mo>+</mml:mo>
+              <mml:munder>
+                <mml:mo>&#x2211;</mml:mo>
+                <mml:mrow>
+                  <mml:mi>&#x3B2;</mml:mi>
+                  <mml:mo>&#x2260;</mml:mo>
+                  <mml:mi>&#x3B1;</mml:mi>
+                </mml:mrow>
+              </mml:munder>
+              <mml:msubsup>
+                <mml:mi>V</mml:mi>
+                <mml:mrow>
+                  <mml:mi>&#x3B2;</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>l</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                </mml:mrow>
+              </mml:msubsup>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mi>E</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mo>&#x2212;</mml:mo>
+            <mml:msubsup>
+              <mml:mi>V</mml:mi>
+              <mml:mrow>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>s</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+              </mml:mrow>
+            </mml:msubsup>
+            <mml:munder>
+              <mml:mo>&#x2211;</mml:mo>
+              <mml:mrow>
+                <mml:mi>&#x3B2;</mml:mi>
+                <mml:mo>&#x2260;</mml:mo>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:mrow>
+            </mml:munder>
+            <mml:msub>
+              <mml:mi mathvariant="sans-serif">&#x3A6;</mml:mi>
+              <mml:mi>&#x3B2;</mml:mi>
+            </mml:msub>
+            <mml:mspace width="4pt"/>
+            <mml:mspace width="4pt"/>
+            <mml:mo>.</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      The short-range part in the &#x201C;source&#x201D; term should ensure asymptotic uncoupling of the components corresponding to different pairings. On the other hand, the long range parts, which are included into all channel Hamiltonians in order to reproduce the interaction between the charged fragments (also including polarization interaction) must satisfy an important condition: they should not hold any asymptotic bound states that correspond to the improper pairings in any channel Hamiltonian. This way Merkuriev-Faddeev equations have as simple asymptotic properties of the solutions for Coulomb interactions as the original Faddeev equations had for short-range potentials. For instance, for the components that describe a neutral cluster in the final state the same simple asymptote as for short-range interaction holds. For charged particle states the plane waves and the spherical waves should be replaced by their Coulomb counterparts.</p>
+      <p>Merkuriev had demonstrated that the compromise between the two requirements&#x2014;minimizing the interchannel coupling and reproducing the physically correct asymptotic behavior of the solution&#x2014;can be achieved by splitting the Coulomb potential into short-range and long-range parts in the three-body space by making the splitting dependent on the distance between the third particle and the selected pair center of mass <inline-formula>
+        <mml:math id="mm25" display="block">
+          <mml:mrow>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+            <mml:msub>
+              <mml:mi mathvariant="bold-italic">y</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. Namely, one can introduce a cutoff function <inline-formula>
+        <mml:math id="mm26" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3C7;</mml:mi>
+            <mml:mo stretchy="false">(</mml:mo>
+            <mml:mo>|</mml:mo>
+            <mml:mi mathvariant="bold-italic">x</mml:mi>
+            <mml:mo>|</mml:mo>
+            <mml:mo>,</mml:mo>
+            <mml:mo>|</mml:mo>
+            <mml:mi mathvariant="bold-italic">y</mml:mi>
+            <mml:mo>|</mml:mo>
+            <mml:mo stretchy="false">)</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> such that
+      <disp-formula>
+        <mml:math id="mm27" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3C7;</mml:mi>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>x</mml:mi>
+              <mml:mo>,</mml:mo>
+              <mml:mi>y</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:mo>=</mml:mo>
+            <mml:mfenced open="{" close="">
+              <mml:mtable>
+                <mml:mtr>
+                  <mml:mtd columnalign="left">
+                    <mml:mtable>
+                      <mml:mtr>
+                        <mml:mtd columnalign="left">
+                          <mml:mrow>
+                            <mml:mn>1</mml:mn>
+                            <mml:mo>,</mml:mo>
+                          </mml:mrow>
+                        </mml:mtd>
+                        <mml:mtd columnalign="right">
+                          <mml:mrow>
+                            <mml:mi>x</mml:mi>
+                            <mml:mo>&lt;</mml:mo>
+                            <mml:msub>
+                              <mml:mi>x</mml:mi>
+                              <mml:mn>0</mml:mn>
+                            </mml:msub>
+                            <mml:mrow>
+                              <mml:mo stretchy="false">(</mml:mo>
+                              <mml:mi>y</mml:mi>
+                              <mml:mo stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:mtd>
+                      </mml:mtr>
+                      <mml:mtr>
+                        <mml:mtd columnalign="left">
+                          <mml:mrow>
+                            <mml:mn>0</mml:mn>
+                            <mml:mo>,</mml:mo>
+                          </mml:mrow>
+                        </mml:mtd>
+                        <mml:mtd columnalign="right">
+                          <mml:mrow>
+                            <mml:mi>x</mml:mi>
+                            <mml:mo>&gt;</mml:mo>
+                            <mml:msub>
+                              <mml:mi>x</mml:mi>
+                              <mml:mn>0</mml:mn>
+                            </mml:msub>
+                            <mml:mrow>
+                              <mml:mo stretchy="false">(</mml:mo>
+                              <mml:mi>y</mml:mi>
+                              <mml:mo stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                            <mml:mo>+</mml:mo>
+                            <mml:mo>&#x394;</mml:mo>
+                            <mml:mi>x</mml:mi>
+                            <mml:mrow>
+                              <mml:mo stretchy="false">(</mml:mo>
+                              <mml:mi>y</mml:mi>
+                              <mml:mo stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:mtd>
+                      </mml:mtr>
+                    </mml:mtable>
+                  </mml:mtd>
+                  <mml:mtd columnalign="left">
+                    <mml:mo>,</mml:mo>
+                  </mml:mtd>
+                </mml:mtr>
+              </mml:mtable>
+            </mml:mfenced>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      where
+      <disp-formula>
+        <mml:math id="mm28" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>x</mml:mi>
+              <mml:mn>0</mml:mn>
+            </mml:msub>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>y</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:mo>&#x223C;</mml:mo>
+            <mml:msup>
+              <mml:mrow>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mn>1</mml:mn>
+                <mml:mo>+</mml:mo>
+                <mml:mi>y</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:mn>1</mml:mn>
+                <mml:mo>/</mml:mo>
+                <mml:mi>&#x3BD;</mml:mi>
+              </mml:mrow>
+            </mml:msup>
+            <mml:mo>,</mml:mo>
+            <mml:mspace width="1.em"/>
+            <mml:mi>&#x3BD;</mml:mi>
+            <mml:mo>&gt;</mml:mo>
+            <mml:mn>2</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      and <inline-formula>
+        <mml:math id="mm29" display="block">
+          <mml:mrow>
+            <mml:mo>&#x394;</mml:mo>
+            <mml:mi>x</mml:mi>
+            <mml:mo stretchy="false">(</mml:mo>
+            <mml:mi>y</mml:mi>
+            <mml:mo stretchy="false">)</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> is some fall-off distance such that <inline-formula>
+        <mml:math id="mm30" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>x</mml:mi>
+              <mml:mn>0</mml:mn>
+            </mml:msub>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>y</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:mo>+</mml:mo>
+            <mml:mo>&#x394;</mml:mo>
+            <mml:mi>x</mml:mi>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>y</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:mo>&#x223C;</mml:mo>
+            <mml:msup>
+              <mml:mrow>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mn>1</mml:mn>
+                <mml:mo>+</mml:mo>
+                <mml:mi>y</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+              </mml:mrow>
+              <mml:mrow>
+                <mml:mn>1</mml:mn>
+                <mml:mo>/</mml:mo>
+                <mml:msup>
+                  <mml:mi>&#x3BD;</mml:mi>
+                  <mml:mo>&#x2032;</mml:mo>
+                </mml:msup>
+              </mml:mrow>
+            </mml:msup>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> with some <inline-formula>
+        <mml:math id="mm31" display="block">
+          <mml:msup>
+            <mml:mi>&#x3BD;</mml:mi>
+            <mml:mo>&#x2032;</mml:mo>
+          </mml:msup>
+        </mml:math>
+      </inline-formula> satisfying <inline-formula>
+        <mml:math id="mm32" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3BD;</mml:mi>
+            <mml:mo>&gt;</mml:mo>
+            <mml:msup>
+              <mml:mi>&#x3BD;</mml:mi>
+              <mml:mo>&#x2032;</mml:mo>
+            </mml:msup>
+            <mml:mo>&gt;</mml:mo>
+            <mml:mn>2</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. Assuming now that the potentials <inline-formula>
+        <mml:math id="mm33" display="block">
+          <mml:msub>
+            <mml:mi>V</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> are Coulomb potentials <inline-formula>
+        <mml:math id="mm34" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>V</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>q</mml:mi>
+                <mml:mi>&#x3B2;</mml:mi>
+              </mml:msub>
+              <mml:msub>
+                <mml:mi>q</mml:mi>
+                <mml:mi>&#x3B3;</mml:mi>
+              </mml:msub>
+            </mml:mrow>
+            <mml:mo>/</mml:mo>
+            <mml:mrow>
+              <mml:mrow>
+                <mml:mo>|</mml:mo>
+              </mml:mrow>
+              <mml:msub>
+                <mml:mi mathvariant="bold-italic">x</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mrow>
+                <mml:mo>|</mml:mo>
+              </mml:mrow>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>, we introduce the corresponding short-range and long-range parts
+      <disp-formula>
+        <mml:math id="mm35" display="block">
+          <mml:mrow>
+            <mml:mtable>
+              <mml:mtr>
+                <mml:mtd columnalign="left">
+                  <mml:mrow>
+                    <mml:msubsup>
+                      <mml:mi>V</mml:mi>
+                      <mml:mrow>
+                        <mml:mi>&#x3B1;</mml:mi>
+                      </mml:mrow>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>s</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                    </mml:msubsup>
+                    <mml:mo>=</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>&#x3C7;</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mo>|</mml:mo>
+                    </mml:mrow>
+                    <mml:msub>
+                      <mml:mi mathvariant="bold-italic">x</mml:mi>
+                      <mml:mi>&#x3B1;</mml:mi>
+                    </mml:msub>
+                    <mml:mrow>
+                      <mml:mo>|</mml:mo>
+                      <mml:mo>,</mml:mo>
+                      <mml:mo>|</mml:mo>
+                    </mml:mrow>
+                    <mml:msub>
+                      <mml:mi mathvariant="bold-italic">y</mml:mi>
+                      <mml:mi>&#x3B1;</mml:mi>
+                    </mml:msub>
+                    <mml:mrow>
+                      <mml:mo>|</mml:mo>
+                      <mml:mo stretchy="false">)</mml:mo>
+                    </mml:mrow>
+                    <mml:msub>
+                      <mml:mi>V</mml:mi>
+                      <mml:mi>&#x3B1;</mml:mi>
+                    </mml:msub>
+                  </mml:mrow>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd columnalign="left">
+                  <mml:mrow>
+                    <mml:msubsup>
+                      <mml:mi>V</mml:mi>
+                      <mml:mrow>
+                        <mml:mi>&#x3B1;</mml:mi>
+                      </mml:mrow>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>l</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                    </mml:msubsup>
+                    <mml:mo>=</mml:mo>
+                    <mml:mrow>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mn>1</mml:mn>
+                      <mml:mo>&#x2212;</mml:mo>
+                      <mml:mi>&#x3C7;</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mo>|</mml:mo>
+                    </mml:mrow>
+                    <mml:msub>
+                      <mml:mi mathvariant="bold-italic">x</mml:mi>
+                      <mml:mi>&#x3B1;</mml:mi>
+                    </mml:msub>
+                    <mml:mrow>
+                      <mml:mo>|</mml:mo>
+                      <mml:mo>,</mml:mo>
+                      <mml:mo>|</mml:mo>
+                    </mml:mrow>
+                    <mml:msub>
+                      <mml:mi mathvariant="bold-italic">y</mml:mi>
+                      <mml:mi>&#x3B1;</mml:mi>
+                    </mml:msub>
+                    <mml:mrow>
+                      <mml:mo>|</mml:mo>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mo stretchy="false">)</mml:mo>
+                    </mml:mrow>
+                    <mml:msub>
+                      <mml:mi>V</mml:mi>
+                      <mml:mi>&#x3B1;</mml:mi>
+                    </mml:msub>
+                  </mml:mrow>
+                </mml:mtd>
+              </mml:mtr>
+            </mml:mtable>
+            <mml:mo>.</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      Asymptotically, as <inline-formula>
+        <mml:math id="mm36" display="block">
+          <mml:mrow>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+            <mml:msub>
+              <mml:mi mathvariant="bold-italic">y</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+              <mml:mo>&#x2192;</mml:mo>
+              <mml:mi>&#x221E;</mml:mi>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>, the potentials <inline-formula>
+        <mml:math id="mm37" display="block">
+          <mml:msubsup>
+            <mml:mi>V</mml:mi>
+            <mml:mrow>
+              <mml:mi>&#x3B2;</mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>l</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:msubsup>
+        </mml:math>
+      </inline-formula> do not support pair bound states, and therefore do not contribute to the asymptotic behavior of the components.</p>
+      <p>Although, in principle, the particular choice of the cut-off function <inline-formula>
+        <mml:math id="mm38" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3C7;</mml:mi>
+            <mml:mo stretchy="false">(</mml:mo>
+            <mml:mi>x</mml:mi>
+            <mml:mo>,</mml:mo>
+            <mml:mi>y</mml:mi>
+            <mml:mo stretchy="false">)</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> is not important and the Equation (<xref ref-type="disp-formula" rid="FD3-atoms-04-00009">3</xref>) are equivalent to the Schr&#xF6;dinger equation while having better structure of the asymptotic solutions, in practical calculations the cut-off function should satisfy several simple conditions. When constructing a numerical solution of the equation the finite size of the region where we solve the corresponding boundary value problem should be taken into account. For instance, consider the case of a simple two-body cut-off, which corresponds to <inline-formula>
+        <mml:math id="mm39" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3BD;</mml:mi>
+            <mml:mo>&#x2192;</mml:mo>
+            <mml:mi>&#x221E;</mml:mi>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. The potential <inline-formula>
+        <mml:math id="mm40" display="block">
+          <mml:msubsup>
+            <mml:mi>V</mml:mi>
+            <mml:mrow>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>s</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:msubsup>
+        </mml:math>
+      </inline-formula> changes from <inline-formula>
+        <mml:math id="mm41" display="block">
+          <mml:msub>
+            <mml:mi>V</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> to zero in the small vicinity of some point <inline-formula>
+        <mml:math id="mm42" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>x</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mi>R</mml:mi>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. If the point <italic>R</italic> is very close to the origin, the potential <inline-formula>
+        <mml:math id="mm43" display="block">
+          <mml:msubsup>
+            <mml:mi>V</mml:mi>
+            <mml:mrow>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>l</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:msubsup>
+        </mml:math>
+      </inline-formula> can support a pair bound state within the energy range of interest. Thus, the lower bound on the <italic>R</italic> values arises. On the other hand, the point <italic>R</italic> should be separated from the border of the region where we solve the problem to make the potential <inline-formula>
+        <mml:math id="mm44" display="block">
+          <mml:msubsup>
+            <mml:mi>V</mml:mi>
+            <mml:mrow>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>s</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:msubsup>
+        </mml:math>
+      </inline-formula> localized enough to ensure asymptotic uncoupling of the components. The bigger the value of <italic>R</italic> is, the larger region is to be taken, and the latter is not preferable from the computational point of view. In the case of a three-body cut-off function the picture is a little more complicated since the both coordinates <italic>x</italic> and <italic>y</italic> are involved. We shall discuss the practical choice of the cut-off function in more detail in the next section while presenting the numerical results.</p>
+    </sec>
+    <sec sec-type="results" id="sec3-atoms-04-00009">
+      <title>3. Results and Discussion</title>
+      <p>We solve the Faddeev-Merkuriev equations in total angular momentum representation for <inline-formula>
+        <mml:math id="mm45" display="block">
+          <mml:mrow>
+            <mml:mi>L</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>0</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. Our numerical approach is in line with the one of rare gas atom scattering calculations [<xref ref-type="bibr" rid="B18-atoms-04-00009">18</xref>]. Here we, however, use a more elaborated scheme of imposing boundary conditions for multichannel scattering. We introduce the internal coordinates <inline-formula>
+        <mml:math id="mm46" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>x</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+              <mml:msub>
+                <mml:mi mathvariant="bold-italic">x</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math id="mm47" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>y</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+              <mml:msub>
+                <mml:mi mathvariant="bold-italic">y</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math id="mm48" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>z</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:msub>
+                <mml:mi mathvariant="bold-italic">x</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mo>,</mml:mo>
+              <mml:msub>
+                <mml:mi mathvariant="bold-italic">y</mml:mi>
+                <mml:mi>&#x3B1;</mml:mi>
+              </mml:msub>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:mo>/</mml:mo>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+            <mml:msub>
+              <mml:mi mathvariant="bold-italic">x</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+              <mml:mo>|</mml:mo>
+            </mml:mrow>
+            <mml:msub>
+              <mml:mi mathvariant="bold-italic">y</mml:mi>
+              <mml:mi>&#x3B1;</mml:mi>
+            </mml:msub>
+            <mml:mrow>
+              <mml:mo>|</mml:mo>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> and solve the equations in a box <inline-formula>
+        <mml:math id="mm49" display="block">
+          <mml:mrow>
+            <mml:mrow>
+              <mml:mo>[</mml:mo>
+              <mml:mn>0</mml:mn>
+              <mml:mo>,</mml:mo>
+              <mml:msub>
+                <mml:mi>R</mml:mi>
+                <mml:mi>x</mml:mi>
+              </mml:msub>
+              <mml:mo>]</mml:mo>
+            </mml:mrow>
+            <mml:mo>&#xD7;</mml:mo>
+            <mml:mrow>
+              <mml:mo>[</mml:mo>
+              <mml:mn>0</mml:mn>
+              <mml:mo>,</mml:mo>
+              <mml:msub>
+                <mml:mi>R</mml:mi>
+                <mml:mi>y</mml:mi>
+              </mml:msub>
+              <mml:mo>]</mml:mo>
+            </mml:mrow>
+            <mml:mo>&#xD7;</mml:mo>
+            <mml:mrow>
+              <mml:mo>[</mml:mo>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mn>1</mml:mn>
+              <mml:mo>,</mml:mo>
+              <mml:mn>1</mml:mn>
+              <mml:mo>]</mml:mo>
+            </mml:mrow>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> for each component.</p>
+      <p>In our calculations we use the following cut-off function
+      <disp-formula id="FD4-atoms-04-00009">
+        <label>(4)</label>
+        <mml:math id="mm50" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3C7;</mml:mi>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>x</mml:mi>
+              <mml:mo>,</mml:mo>
+              <mml:mi>y</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+            <mml:mo>=</mml:mo>
+            <mml:mfrac>
+              <mml:mn>1</mml:mn>
+              <mml:mn>2</mml:mn>
+            </mml:mfrac>
+            <mml:mfenced separators="" open="(" close=")">
+              <mml:mo form="prefix">tanh</mml:mo>
+              <mml:mfrac>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>x</mml:mi>
+                    <mml:mrow>
+                      <mml:mi>c</mml:mi>
+                      <mml:mi>u</mml:mi>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mi>x</mml:mi>
+                  <mml:mo>+</mml:mo>
+                  <mml:msub>
+                    <mml:mi>y</mml:mi>
+                    <mml:mn>0</mml:mn>
+                  </mml:msub>
+                  <mml:msup>
+                    <mml:mrow>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mfrac>
+                        <mml:mi>y</mml:mi>
+                        <mml:msub>
+                          <mml:mi>y</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>s</mml:mi>
+                            <mml:mi>c</mml:mi>
+                            <mml:mi>a</mml:mi>
+                            <mml:mi>l</mml:mi>
+                            <mml:mi>e</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mfrac>
+                      <mml:mo stretchy="false">)</mml:mo>
+                    </mml:mrow>
+                    <mml:mfrac>
+                      <mml:mn>1</mml:mn>
+                      <mml:mi>&#x3BD;</mml:mi>
+                    </mml:mfrac>
+                  </mml:msup>
+                </mml:mrow>
+                <mml:msub>
+                  <mml:mi>x</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>s</mml:mi>
+                    <mml:mi>c</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>l</mml:mi>
+                    <mml:mi>e</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+              </mml:mfrac>
+              <mml:mo>+</mml:mo>
+              <mml:mn>1</mml:mn>
+            </mml:mfenced>
+            <mml:mspace width="4pt"/>
+            <mml:mspace width="4pt"/>
+            <mml:mo>.</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      This function has 5 parameters. We use <inline-formula>
+        <mml:math id="mm51" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>y</mml:mi>
+              <mml:mn>0</mml:mn>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mn>1</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> and <inline-formula>
+        <mml:math id="mm52" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3BD;</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>2</mml:mn>
+            <mml:mo>.</mml:mo>
+            <mml:mn>01</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> which is slightly above the critical value <inline-formula>
+        <mml:math id="mm53" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3BD;</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>2</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. <inline-formula>
+        <mml:math id="mm54" display="block">
+          <mml:msub>
+            <mml:mi>x</mml:mi>
+            <mml:mrow>
+              <mml:mi>c</mml:mi>
+              <mml:mi>u</mml:mi>
+              <mml:mi>t</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> shifts the cut-off function along the <italic>x</italic> axis, <inline-formula>
+        <mml:math id="mm55" display="block">
+          <mml:msub>
+            <mml:mi>x</mml:mi>
+            <mml:mrow>
+              <mml:mi>s</mml:mi>
+              <mml:mi>c</mml:mi>
+              <mml:mi>a</mml:mi>
+              <mml:mi>l</mml:mi>
+              <mml:mi>e</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> regulates the fall-off rate along the axis <italic>x</italic>, and <inline-formula>
+        <mml:math id="mm56" display="block">
+          <mml:msub>
+            <mml:mi>y</mml:mi>
+            <mml:mrow>
+              <mml:mi>s</mml:mi>
+              <mml:mi>c</mml:mi>
+              <mml:mi>a</mml:mi>
+              <mml:mi>l</mml:mi>
+              <mml:mi>e</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> allows us to vary the shape of the cut-off function in three-body configuration space. For <inline-formula>
+        <mml:math id="mm57" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>y</mml:mi>
+              <mml:mrow>
+                <mml:mi>s</mml:mi>
+                <mml:mi>c</mml:mi>
+                <mml:mi>a</mml:mi>
+                <mml:mi>l</mml:mi>
+                <mml:mi>e</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mo>&#x2192;</mml:mo>
+            <mml:mi>&#x221E;</mml:mi>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> (or <inline-formula>
+        <mml:math id="mm58" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3BD;</mml:mi>
+            <mml:mo>&#x2192;</mml:mo>
+            <mml:mi>&#x221E;</mml:mi>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>) the cutting function becomes <italic>y</italic>-independent and turns into a simple two-body cut-off because in this limit it depends only on the distance between the particles in the interacting pair <inline-formula>
+        <mml:math id="mm59" display="block">
+          <mml:msub>
+            <mml:mi>x</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula>. For smaller <inline-formula>
+        <mml:math id="mm60" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>y</mml:mi>
+              <mml:mrow>
+                <mml:mi>s</mml:mi>
+                <mml:mi>c</mml:mi>
+                <mml:mi>a</mml:mi>
+                <mml:mi>l</mml:mi>
+                <mml:mi>e</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mo>&#x223C;</mml:mo>
+            <mml:mn>1</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> the cutting function defines the three-body configuration space cut-off, when the cut-off radius increases with the distance between the free particle and the bound state <inline-formula>
+        <mml:math id="mm61" display="block">
+          <mml:msub>
+            <mml:mi>y</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> (<xref ref-type="fig" rid="atoms-04-00009-f002">Figure 2</xref>). Our cut-off function differs from the original function that was introduced by Merkuriev. The difference is that the width of the region where it falls off from unity to zero is constant, that is <inline-formula>
+        <mml:math id="mm62" display="block">
+          <mml:mrow>
+            <mml:mo>&#x394;</mml:mo>
+            <mml:mi>x</mml:mi>
+            <mml:mo stretchy="false">(</mml:mo>
+            <mml:mi>y</mml:mi>
+            <mml:mo stretchy="false">)</mml:mo>
+            <mml:mo>=</mml:mo>
+            <mml:mo>&#x394;</mml:mo>
+            <mml:mi>x</mml:mi>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. We have found that this choice works good in our calculations.</p>
+      <p>We shall compare the results of positron-hydrogen scattering calculations performed with the cut-off functions that we show in <xref ref-type="fig" rid="atoms-04-00009-f002">Figure 2</xref>. First, consider the simple <italic>y</italic>-independent (&#x201C;two-body&#x201D;) cut-off. Let us take a look at the results of the elastic cross section calculations for the energy range between the Ps formation threshold and the Hydrogen first excitation threshold. In <xref ref-type="fig" rid="atoms-04-00009-f003">Figure 3</xref> we show the elastic cross section as a function of
+      <disp-formula>
+        <mml:math id="mm63" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>E</mml:mi>
+              <mml:mrow>
+                <mml:mi>r</mml:mi>
+                <mml:mi>e</mml:mi>
+                <mml:mi>l</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mi>E</mml:mi>
+            <mml:mo>&#x2212;</mml:mo>
+            <mml:msub>
+              <mml:mi>E</mml:mi>
+              <mml:msub>
+                <mml:mi>H</mml:mi>
+                <mml:mi>g</mml:mi>
+              </mml:msub>
+            </mml:msub>
+            <mml:mspace width="4pt"/>
+            <mml:mo>,</mml:mo>
+          </mml:mrow>
+        </mml:math>
+      </disp-formula>
+      where <inline-formula>
+        <mml:math id="mm64" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>E</mml:mi>
+              <mml:msub>
+                <mml:mi>H</mml:mi>
+                <mml:mi>g</mml:mi>
+              </mml:msub>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mo>&#x2212;</mml:mo>
+            <mml:mn>0</mml:mn>
+            <mml:mo>.</mml:mo>
+            <mml:mn>4997278</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> a.u. is the Hydrogen ground state energy. The most obvious feature that we observe is a strong instability of the calculated cross section above certain energy <inline-formula>
+        <mml:math id="mm65" display="block">
+          <mml:mrow>
+            <mml:mi>E</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:msubsup>
+              <mml:mi>E</mml:mi>
+              <mml:mrow>
+                <mml:mi>r</mml:mi>
+                <mml:mi>e</mml:mi>
+                <mml:mi>l</mml:mi>
+              </mml:mrow>
+              <mml:mo>*</mml:mo>
+            </mml:msubsup>
+            <mml:mo>+</mml:mo>
+            <mml:msub>
+              <mml:mi>E</mml:mi>
+              <mml:msub>
+                <mml:mi>H</mml:mi>
+                <mml:mi>g</mml:mi>
+              </mml:msub>
+            </mml:msub>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. What happens when we reach this energy? Why the calculations become unstable?</p>
+      <p>Consider the properties of the long-range part of the Coulomb potential. In <xref ref-type="fig" rid="atoms-04-00009-f004">Figure 4</xref> we show several lowest bound state energies supported by the long-range part of the Coulomb potential as a function of the cut-off parameter <inline-formula>
+        <mml:math id="mm66" display="block">
+          <mml:msub>
+            <mml:mi>x</mml:mi>
+            <mml:mrow>
+              <mml:mi>c</mml:mi>
+              <mml:mi>u</mml:mi>
+              <mml:mi>t</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula>. For a fixed <inline-formula>
+        <mml:math id="mm67" display="block">
+          <mml:msub>
+            <mml:mi>x</mml:mi>
+            <mml:mrow>
+              <mml:mi>c</mml:mi>
+              <mml:mi>u</mml:mi>
+              <mml:mi>t</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula>, as in the case of splitting the Coulomb potential in two-body configuration space, these long-range parts of the potential generate some unphysical channels that start opening above some critical energy of the system. This critical energy is determined by the lowest bound state supported by the long-range parts of the potentials (see <xref ref-type="fig" rid="atoms-04-00009-f004">Figure 4</xref> for the case <inline-formula>
+        <mml:math id="mm68" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>x</mml:mi>
+              <mml:mrow>
+                <mml:mi>c</mml:mi>
+                <mml:mi>u</mml:mi>
+                <mml:mi>t</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mn>5</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> a.u.). In our case it is the long-range part of the electron-proton interaction. For the energies above this threshold, the behavior of the Faddeev component changes: besides the two-body wave corresponding to the physical binary scattering process for the appropriate particle pairing, a second wave in the direction corresponding to the alternative pairings shows up.</p>
+      <p>We can identify two major effects of this &#x201C;unphysical&#x201D; wave on the numerical solution. It influences the asymptotic properties of the wave function component and, consequently, inscreases the coupling between the components. We illustrate this in <xref ref-type="fig" rid="atoms-04-00009-f005">Figure 5</xref>a, where a cut of the Faddeev components corresponding to aligned particles is shown. In addition to the physical outgoing channel (the outgoing wave along the <italic>y</italic> axis), the long-range part of the potential supports an unphysical outgoing channel (the outgoing wave along the rotated Jacobi coordinate <inline-formula>
+        <mml:math id="mm69" display="block">
+          <mml:msup>
+            <mml:mi>y</mml:mi>
+            <mml:mo>&#x2032;</mml:mo>
+          </mml:msup>
+        </mml:math>
+      </inline-formula> going from bottom left to top right). In order to overcome this unpleasant effect we can increase the cut-off distance and, thus, extend the energy range where the calculations are stable. This extension, however, comes at a price: in order to obtain results with an acceptable numerical precision we also have to increase <inline-formula>
+        <mml:math id="mm70" display="block">
+          <mml:msub>
+            <mml:mi>R</mml:mi>
+            <mml:mi>x</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> and the number of grid points quite substantially.</p>
+      <p>The threshold energy can be moved to the region of higher energies in a more efficient way without increasing <inline-formula>
+        <mml:math id="mm71" display="block">
+          <mml:msub>
+            <mml:mi>R</mml:mi>
+            <mml:mi>x</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> by using the Merkuriev cut-off in three-body space which is scaled according to the distances between different clusters. As a result, the unphysical energy threshold created by the long-range part of the potential moves up with the distance between the bounded pair and the scattered particle, and the asymptotic structure of the Faddeev component is secured, as all the unphysical channels (<xref ref-type="fig" rid="atoms-04-00009-f004">Figure 4</xref>) are closed in the asymptotic region. This can be seen explicitly in <xref ref-type="fig" rid="atoms-04-00009-f005">Figure 5</xref>b. We see that for an appropriately chosen three-body splitting of the Coulomb potential the wave function component asymptotically behaves as the appropriate two-body wave.</p>
+      <p>The question remains: to what extent the cut-off parameters influence the numerical results? We shall see, on the one hand, that practically the converged results do not depend on the parameters of the cut-off function. On the other hand, a careful choice of the cut-off parameters may improve the convergence so that accurate results can be obtained faster on sparser grids. To illustrate that, we include several plots of the elastic positron hydrogen cross section computed with different angular basis sets and varying parameters of the cut-off function <inline-formula>
+        <mml:math id="mm72" display="block">
+          <mml:msub>
+            <mml:mi>y</mml:mi>
+            <mml:mrow>
+              <mml:mi>s</mml:mi>
+              <mml:mi>c</mml:mi>
+              <mml:mi>a</mml:mi>
+              <mml:mi>l</mml:mi>
+              <mml:mi>e</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> and <inline-formula>
+        <mml:math id="mm73" display="block">
+          <mml:msub>
+            <mml:mi>x</mml:mi>
+            <mml:mrow>
+              <mml:mi>c</mml:mi>
+              <mml:mi>u</mml:mi>
+              <mml:mi>t</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula>. These parameters govern the shape of the parabola which splits the Coulomb potential in three-body configuration space. The bigger the <inline-formula>
+        <mml:math id="mm74" display="block">
+          <mml:msub>
+            <mml:mi>y</mml:mi>
+            <mml:mrow>
+              <mml:mi>s</mml:mi>
+              <mml:mi>c</mml:mi>
+              <mml:mi>a</mml:mi>
+              <mml:mi>l</mml:mi>
+              <mml:mi>e</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> parameter is, the more the parabola reshapes to a straight line parallel to the <italic>y</italic> axis, thus making the cut-off function <italic>y</italic>-independent and the area where the short-range part is nonzero decreases accordingly. Conversely, increasing <inline-formula>
+        <mml:math id="mm75" display="block">
+          <mml:msub>
+            <mml:mi>x</mml:mi>
+            <mml:mrow>
+              <mml:mi>c</mml:mi>
+              <mml:mi>u</mml:mi>
+              <mml:mi>t</mml:mi>
+            </mml:mrow>
+          </mml:msub>
+        </mml:math>
+      </inline-formula> parameter shifts the parabola along the <italic>x</italic> axis and extends the area of nonzero short range part. <xref ref-type="fig" rid="atoms-04-00009-f006">Figure 6</xref> show the dependences for two values of the total energy <inline-formula>
+        <mml:math id="mm76" display="block">
+          <mml:mrow>
+            <mml:mi>E</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>0</mml:mn>
+            <mml:mo>.</mml:mo>
+            <mml:mn>2451329</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> a.u. and <inline-formula>
+        <mml:math id="mm77" display="block">
+          <mml:mrow>
+            <mml:mi>E</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>0</mml:mn>
+            <mml:mo>.</mml:mo>
+            <mml:mn>4401609</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> a.u., corresponding to the cases when only elastic channel is open and when six channels are open. All plots show that adding more functions to the angular basis extends the area of stability for the cross section suggesting that the converged result does not depend on the splitting function parameters as far as the proper asymptotic behavior of the wave function component is ensured. We see, however, that some choices of the cut-off parameters lead to faster numerical convergence than others, and, therefore, an appropriate choice of the Merkuriev cut-off can simplify numerical calculations considerably.</p>
+      <p>Finally, in <xref ref-type="fig" rid="atoms-04-00009-f007">Figure 7</xref> we report the results of our multichannel scattering calculations performed with an optimized set of splitting parameters <inline-formula>
+        <mml:math id="mm78" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>x</mml:mi>
+              <mml:mrow>
+                <mml:mi>c</mml:mi>
+                <mml:mi>u</mml:mi>
+                <mml:mi>t</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mn>5</mml:mn>
+            <mml:mo>.</mml:mo>
+            <mml:mn>5</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math id="mm79" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>x</mml:mi>
+              <mml:mrow>
+                <mml:mi>s</mml:mi>
+                <mml:mi>c</mml:mi>
+                <mml:mi>a</mml:mi>
+                <mml:mi>l</mml:mi>
+                <mml:mi>e</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mn>2</mml:mn>
+            <mml:mo>.</mml:mo>
+            <mml:mn>0</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math id="mm80" display="block">
+          <mml:mrow>
+            <mml:msub>
+              <mml:mi>y</mml:mi>
+              <mml:mrow>
+                <mml:mi>s</mml:mi>
+                <mml:mi>c</mml:mi>
+                <mml:mi>a</mml:mi>
+                <mml:mi>l</mml:mi>
+                <mml:mi>e</mml:mi>
+              </mml:mrow>
+            </mml:msub>
+            <mml:mo>=</mml:mo>
+            <mml:mn>0</mml:mn>
+            <mml:mo>.</mml:mo>
+            <mml:mn>5</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>. There we show the cross sections for all the open channels. We have left several channels unmarked in order to facilitate the figure comprehension. The results are converged within 1% and all the known resonances are well reproduced.</p>
+    </sec>
+    <sec sec-type="conclusions" id="sec4-atoms-04-00009">
+      <title>4. Conclusions</title>
+      <p>We have shown that the stability of the calculations in solving the Merkuriev-Faddeev equations can be achieved in the energy region which is bounded from above by the lowest eigenvalue of the two-body Hamiltonians with the long-range parts <inline-formula>
+        <mml:math id="mm81" display="block">
+          <mml:msubsup>
+            <mml:mi>V</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+            <mml:mrow>
+              <mml:mo stretchy="false">(</mml:mo>
+              <mml:mi>l</mml:mi>
+              <mml:mo stretchy="false">)</mml:mo>
+            </mml:mrow>
+          </mml:msubsup>
+        </mml:math>
+      </inline-formula> of the Coulomb potentials <inline-formula>
+        <mml:math id="mm82" display="block">
+          <mml:msub>
+            <mml:mi>V</mml:mi>
+            <mml:mi>&#x3B1;</mml:mi>
+          </mml:msub>
+        </mml:math>
+      </inline-formula>, <inline-formula>
+        <mml:math id="mm83" display="block">
+          <mml:mrow>
+            <mml:mi>&#x3B1;</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>1</mml:mn>
+            <mml:mo>,</mml:mo>
+            <mml:mn>2</mml:mn>
+            <mml:mo>,</mml:mo>
+            <mml:mn>3</mml:mn>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula>.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by Russian Foundation for Basic Research grants No 14-02-00326 and No 16-32-00047 and by St Petersburg State University within the project No. 11.38.241.2015. All calculations were performed using the facilities of the &#x201C;Computational Center of SPbSU&#x201D;.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Vladimir A. Roudnev has conceived the ideas, developed the major part of the computer codes and supervised the project. Vitaly A. Gradusov conducted analytical calculations, contributed to the code development and performed numerical simulations. Sergey L. Yakovlev provided guidance and expertise. All authors contributed to the writing of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-atoms-04-00009">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ivanov</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Mitroy</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optical model theory for positron annihilation during scattering</article-title>
+          <source>J. Phys. B</source>
+          <year>2000</year>
+          <volume>33</volume>
+          <fpage>L831</fpage>
+          <lpage>L837</lpage>
+          <pub-id pub-id-type="doi">10.1088/0953-4075/33/21/106</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-atoms-04-00009">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merkuriev</surname>
+              <given-names>S.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>On the three-body Coulomb scattering problem</article-title>
+          <source>Ann. Phys.</source>
+          <year>1980</year>
+          <volume>130</volume>
+          <fpage>395</fpage>
+          <lpage>426</lpage>
+          <pub-id pub-id-type="doi">10.1016/0003-4916(80)90344-9</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-atoms-04-00009">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Igarashi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shimamura</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Toshima</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inseparable positron annihilation and positronium formation in positron-atom collisions: Description in terms of an absorption potential</article-title>
+          <source>Phys. Rev. A</source>
+          <year>2003</year>
+          <volume>68</volume>
+          <elocation-id>042716</elocation-id>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.68.042716</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-atoms-04-00009">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Macek</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Properties of autoionizing states of He</article-title>
+          <source>J. Phys. B At. Mol. Phys.</source>
+          <year>1968</year>
+          <volume>1</volume>
+          <fpage>831</fpage>
+          <lpage>843</lpage>
+          <pub-id pub-id-type="doi">10.1088/0022-3700/1/5/309</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-atoms-04-00009">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gusev</surname>
+              <given-names>V.V.</given-names>
+            </name>
+            <name>
+              <surname>Puzynin</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Kostrykin</surname>
+              <given-names>V.V.</given-names>
+            </name>
+            <name>
+              <surname>Kvitsinsky</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Merkuriev</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Ponomarev</surname>
+              <given-names>L.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adiabatic hyperspherical approach to the Coulomb three-body problem: Theory and numerical method</article-title>
+          <source>Few-Body Syst.</source>
+          <year>1990</year>
+          <volume>9</volume>
+          <fpage>137</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF01091703</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-atoms-04-00009">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Decker</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sandhas</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Belyaev</surname>
+              <given-names>V.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Muonic three-body Coulomb systems in the hyperspherical approach</article-title>
+          <source>Phys. Rev. A</source>
+          <year>1996</year>
+          <volume>53</volume>
+          <fpage>726</fpage>
+          <lpage>736</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.53.726</pub-id>
+          <pub-id pub-id-type="pmid">9912944</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-atoms-04-00009">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kvitsinsky</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Merkuriev</surname>
+              <given-names>S.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct solution of the Faddeev equations for the three-body Coulomb problem with <italic>L</italic>=0</article-title>
+          <source>Phys. Rev. A</source>
+          <year>1992</year>
+          <volume>45</volume>
+          <fpage>2723</fpage>
+          <lpage>2726</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.45.2723</pub-id>
+          <pub-id pub-id-type="pmid">9907300</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-atoms-04-00009">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kvitsinsky</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Faddeev calculations of muonic-atom collisions: Scattering and fusion in flight</article-title>
+          <source>Phys. Rev. A</source>
+          <year>1996</year>
+          <volume>53</volume>
+          <fpage>255</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.53.255</pub-id>
+          <pub-id pub-id-type="pmid">9912882</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-atoms-04-00009">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The modified Faddeev equation and multichannel positron-hydrogen scattering calculation</article-title>
+          <source>J. Phys. B At. Mol. Opt. Phys.</source>
+          <year>1999</year>
+          <volume>32</volume>
+          <fpage>3077</fpage>
+          <lpage>3090</lpage>
+          <pub-id pub-id-type="doi">10.1088/0953-4075/32/12/323</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-atoms-04-00009">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multichannel <italic>e</italic><sup>+</sup> + H calculations via the modified Faddeev equations</article-title>
+          <source>Phys. Rev. A</source>
+          <year>1999</year>
+          <volume>59</volume>
+          <fpage>4813</fpage>
+          <lpage>4816</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.59.4813</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-atoms-04-00009">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kvitsinsky</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Carbonell</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gignoux</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>s</italic>-wave positron-hydrogen scattering via Faddeev equations: Elastic scattering and positronium formation</article-title>
+          <source>Phys. Rev. A</source>
+          <year>1995</year>
+          <volume>51</volume>
+          <fpage>2997</fpage>
+          <lpage>3004</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.51.2997</pub-id>
+          <pub-id pub-id-type="pmid">9911934</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-atoms-04-00009">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Papp</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electron-hydrogen scattering in the Faddeev-Merkuriev integral-equation approach</article-title>
+          <source>Phys. Rev. A</source>
+          <year>2002</year>
+          <volume>66</volume>
+          <elocation-id>052714</elocation-id>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.66.052714</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-atoms-04-00009">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yakovlev</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Caballero</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multichannel formalism for positron-hydrogen scattering and annihilation</article-title>
+          <source>J. Phys. B</source>
+          <year>2007</year>
+          <volume>40</volume>
+          <fpage>1675</fpage>
+          <lpage>1693</lpage>
+          <pub-id pub-id-type="doi">10.1088/0953-4075/40/10/003</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-atoms-04-00009">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yakovlev</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Papp</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>The three-body Coulomb scattering problem in a discrete Hilbert-space basis representation</article-title>
+          <source>Theor. Math. Phys.</source>
+          <year>2010</year>
+          <volume>163</volume>
+          <fpage>666</fpage>
+          <lpage>676</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11232-010-0049-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-atoms-04-00009">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roudnev</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Yakovlev</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Sofianos</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bound-state calculations for three atoms without explicit partial wave decomposition</article-title>
+          <source>Few-Body Syst.</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <fpage>179</fpage>
+          <lpage>196</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00601-005-0114-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-atoms-04-00009">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schellingerhout</surname>
+              <given-names>N.W.</given-names>
+            </name>
+            <name>
+              <surname>Kok</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Bosveld</surname>
+              <given-names>G.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Configuration-space Faddeev calculations: Supercomputer accuracy on a personal computer</article-title>
+          <source>Phys. Rev. A</source>
+          <year>1989</year>
+          <volume>40</volume>
+          <fpage>5568</fpage>
+          <lpage>5576</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRevA.40.5568</pub-id>
+          <pub-id pub-id-type="pmid">9901938</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-atoms-04-00009">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kok</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Schellingerhout</surname>
+              <given-names>N.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Configuration-space Faddeev calculations for bound states of three identical particles using the tensor method</article-title>
+          <source>Few-Body Syst.</source>
+          <year>1991</year>
+          <volume>11</volume>
+          <fpage>99</fpage>
+          <lpage>109</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF01318555</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18-atoms-04-00009">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roudnev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Cavagnero</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Benchmark helium dimer and trimer calculations with a public few-body code</article-title>
+          <source>J. Phys. B</source>
+          <year>2012</year>
+          <volume>45</volume>
+          <elocation-id>025101</elocation-id>
+          <pub-id pub-id-type="doi">10.1088/0953-4075/45/2/025101</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="atoms-04-00009-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Jacobi coordinates for three particles.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="atoms-04-00009-g001.tif"/>
+      </fig>
+      <fig id="atoms-04-00009-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Contour plots of Merkuriev cut-off functions: (<bold>a</bold>) cut in 2-body configuration space; (<bold>b</bold>) cut in three-body configuration space.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="atoms-04-00009-g002.tif"/>
+      </fig>
+      <fig id="atoms-04-00009-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p><inline-formula>
+            <mml:math id="mm87" display="block">
+              <mml:mrow>
+                <mml:msup>
+                  <mml:mi>e</mml:mi>
+                  <mml:mo>+</mml:mo>
+                </mml:msup>
+                <mml:mo>&#x2212;</mml:mo>
+              </mml:mrow>
+            </mml:math>
+          </inline-formula>H elastic scattering cross section calculated with different types of splitting. <inline-formula>
+            <mml:math id="mm88" display="block">
+              <mml:msub>
+                <mml:mi>E</mml:mi>
+                <mml:mrow>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>l</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:math>
+          </inline-formula> is the energy of the system measured relative to the ground state of Hydrogen.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="atoms-04-00009-g003.tif"/>
+      </fig>
+      <fig id="atoms-04-00009-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Energies of the bound states supported by a long-range part of the two-body Coulomb potential as a function of the cut-off parameter <inline-formula>
+            <mml:math id="mm89" display="block">
+              <mml:msub>
+                <mml:mi>x</mml:mi>
+                <mml:mrow>
+                  <mml:mi>c</mml:mi>
+                  <mml:mi>u</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:math>
+          </inline-formula>, Equation (<xref ref-type="disp-formula" rid="FD4-atoms-04-00009">4</xref>). The proper asymptote of the Faddeev component for the &#x201C;two-body&#x201D; splitting of the Coulomb potential is only secured for the energies below the lowest unphysical bound state.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="atoms-04-00009-g004.tif"/>
+      </fig>
+      <fig id="atoms-04-00009-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Faddeev components of the wave function (contours) drawn over the long-range part of the Coulomb potential (background density plot). The numbers in the columns at the right hand side of each plot indicate the component values along the contour lines. (<bold>a</bold>) The component corresponding to the instability at higher energies as the solution starts to leak out along the long-range part of the potential corresponding to the second pairing; (<bold>b</bold>) The proper asymptotic behavior at higher energy is ensured by splitting the potential in the three-body configuration space.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="atoms-04-00009-g005.tif"/>
+      </fig>
+      <fig id="atoms-04-00009-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Stability of the calculated elastic cross section with respect to the parameters of the splitting function.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="atoms-04-00009-g006.tif"/>
+      </fig>
+      <fig id="atoms-04-00009-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Energy dependence of the cross sections for several allowed processes in the positron-Hydrogen system. Several channels are left unmarked for simplicity. <inline-formula>
+            <mml:math id="mm90" display="block">
+              <mml:msub>
+                <mml:mi>E</mml:mi>
+                <mml:mrow>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>e</mml:mi>
+                  <mml:mi>l</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+            </mml:math>
+          </inline-formula> is the energy of the system measured relative to the ground state of Hydrogen.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="atoms-04-00009-g007.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

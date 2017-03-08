@@ -1,0 +1,131 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        4
+      ]
+    ],
+    "date-time": "2016-03-04T10:50:05Z",
+    "timestamp": 1457088605709
+  },
+  "reference-count": 87,
+  "publisher": "Frontiers Media SA",
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Fonds Wetenschappelijk Onderzoek",
+      "DOI": "10.13039/501100003130"
+    },
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "Natural Environment Research Council",
+      "DOI": "10.13039/501100000270"
+    }
+  ],
+  "DOI": "10.3389/feart.2016.00015",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T13:51:53Z",
+    "timestamp": 1456840313000
+  },
+  "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Seasonal Changes in Fe along a Glaciated Greenlandic Fjord"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.3389",
+  "volume": "4",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hopwood",
+      "given": "Mark J."
+    },
+    {
+      "affiliation": [],
+      "family": "Connelly",
+      "given": "Douglas P."
+    },
+    {
+      "affiliation": [],
+      "family": "Arendt",
+      "given": "Kristine E."
+    },
+    {
+      "affiliation": [],
+      "family": "Juul-Pedersen",
+      "given": "Thomas"
+    },
+    {
+      "affiliation": [],
+      "family": "Stinchcombe",
+      "given": "Mark C."
+    },
+    {
+      "affiliation": [],
+      "family": "Meire",
+      "given": "Lorenz"
+    },
+    {
+      "affiliation": [],
+      "family": "Esposito",
+      "given": "Mario"
+    },
+    {
+      "affiliation": [],
+      "family": "Krishna",
+      "given": "Ram"
+    }
+  ],
+  "member": "http://id.crossref.org/member/1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Frontiers in Earth Science",
+    "Front. Earth Sci."
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T13:51:56Z",
+    "timestamp": 1456840316000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.3389/feart.2016.00015",
+  "ISSN": [
+    "2296-6463"
+  ]
+}

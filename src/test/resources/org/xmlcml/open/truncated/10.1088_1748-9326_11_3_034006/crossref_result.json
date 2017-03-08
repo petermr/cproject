@@ -1,0 +1,208 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        5
+      ]
+    ],
+    "date-time": "2016-03-05T11:01:13Z",
+    "timestamp": 1457175673862
+  },
+  "reference-count": 28,
+  "publisher": "IOP Publishing",
+  "issue": "3",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://iopscience.iop.org/info/page/text-and-data-mining"
+    },
+    {
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2016-03-01T00:00:00Z",
+        "timestamp": 1456790400000
+      },
+      "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "funder": [
+    {
+      "award": [],
+      "doi-asserted-by": "publisher",
+      "name": "General Secretariat for Research and Technology",
+      "DOI": "10.13039/501100003448"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1088/1748-9326/11/3/034006",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ],
+    "date-time": "2016-03-01T14:25:34Z",
+    "timestamp": 1456842334000
+  },
+  "page": "034006",
+  "update-policy": "http://dx.doi.org/10.1088/crossmark-policy",
+  "source": "CrossRef",
+  "title": [
+    "Lightning in the Mediterranean and its relation with sea-surface temperature"
+  ],
+  "prefix": "http://id.crossref.org/prefix/10.1088",
+  "volume": "11",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Kotroni",
+      "given": "V"
+    },
+    {
+      "affiliation": [],
+      "family": "Lagouvardos",
+      "given": "K"
+    }
+  ],
+  "member": "http://id.crossref.org/member/266",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "container-title": [
+    "Environ. Res. Lett.",
+    "Environmental Research Letters"
+  ],
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=3/a=034006/pdf"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/html",
+      "URL": "http://stacks.iop.org/1748-9326/11/i=3/a=034006?key=crossref.78a17d44960d5ab2b77b0373ae2cd41f"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ],
+    "date-time": "2016-03-02T07:18:21Z",
+    "timestamp": 1456903101000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1088/1748-9326/11/3/034006",
+  "ISSN": [
+    "1748-9326"
+  ],
+  "assertion": [
+    {
+      "label": "Journal title",
+      "name": "journal_title",
+      "value": "Environmental Research Letters"
+    },
+    {
+      "label": "Article type",
+      "name": "article_type",
+      "value": "lett"
+    },
+    {
+      "label": "Article title",
+      "name": "article_title",
+      "value": "Lightning in the Mediterranean and its relation with sea-surface temperature"
+    },
+    {
+      "label": "Copyright information",
+      "name": "copyright_information",
+      "value": "© 2016 IOP Publishing Ltd"
+    },
+    {
+      "label": "License information",
+      "name": "license_information",
+      "value": "cc-by Original content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI."
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date received",
+      "name": "date_received",
+      "value": "2015-06-13"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Date accepted",
+      "name": "date_accepted",
+      "value": "2016-02-10"
+    },
+    {
+      "group": {
+        "label": "Publication dates",
+        "name": "publication_dates"
+      },
+      "label": "Online publication date",
+      "name": "date_epub",
+      "value": "2016-03-01"
+    }
+  ]
+}

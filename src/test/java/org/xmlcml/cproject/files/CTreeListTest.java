@@ -2,12 +2,10 @@ package org.xmlcml.cproject.files;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
-import org.xmlcml.cproject.files.CProject;
-import org.xmlcml.cproject.files.CTreeList;
 
-import junit.framework.Assert;
 
 public class CTreeListTest {
 

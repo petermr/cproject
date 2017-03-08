@@ -1,10 +1,8 @@
 package org.xmlcml.cproject.util;
 
+import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.cproject.util.CommandLineTester;
-
-import junit.framework.Assert;
 
 /** tests CommandLineTester.
  * 

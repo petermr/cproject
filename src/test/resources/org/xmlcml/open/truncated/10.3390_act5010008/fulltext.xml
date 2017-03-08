@@ -1,0 +1,3350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="review-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">actuators</journal-id>
+      <journal-title>Actuators</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Actuators</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Actuators</abbrev-journal-title>
+      <issn pub-type="epub">2076-0825</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/act5010008</article-id>
+      <article-id pub-id-type="publisher-id">actuators-05-00008</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Base Metal Co-Fired Multilayer Piezoelectrics</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gao</surname>
+            <given-names>Lisheng</given-names>
+          </name>
+          <xref rid="c1-actuators-05-00008" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guo</surname>
+            <given-names>Hanzheng</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Shujun</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Randall</surname>
+            <given-names>Clive A.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Tesar</surname>
+            <given-names>Delbert</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-actuators-05-00008">Department of Materials Science and Engineering, Materials Research Institute, The Pennsylvania State University, University Park, PA 16802, USA; <email>hug17@psu.edu</email> (H.G.); <email>soz1@psu.edu</email> (S.Z.); <email>car4@psu.edu</email> (C.A.R.)</aff>
+      <author-notes>
+        <corresp id="c1-actuators-05-00008"><label>*</label>Correspondence: <email>lig5167@psu.edu</email>; Tel.: +1-814-441-5190</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>03</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection"><month>03</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>1</issue>
+      <elocation-id>8</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>01</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>02</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Piezoelectrics have been widely used in different kinds of applications, from the automobile industry to consumer electronics. The novel multilayer piezoelectrics, which are inspired by multilayer ceramic capacitors, not only minimize the size of the functional parts, but also maximize energy efficiency. Development of multilayer piezoelectric devices is at a significant crossroads on the way to achieving low costs, high efficiency, and excellent reliability. Concerning the costs of manufacturing multilayer piezoelectrics, the trend is to replace the costly noble metal internal electrodes with base metal materials. This paper discusses the materials development of metal co-firing and the progress of integrating current base metal chemistries. There are some significant considerations in metal co-firing multilayer piezoelectrics: retaining stoichiometry with volatile Pb and alkaline elements in ceramics, the selection of appropriate sintering agents to lower the sintering temperature with minimum impact on piezoelectric performance, and designing effective binder formulation for low pO<sub>2</sub> burnout to prevent oxidation of Ni and Cu base metal.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>multilayer actuator</kwd>
+        <kwd>base-metal cofiring</kwd>
+        <kwd>piezoelectrics</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-actuators-05-00008" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Piezoelectric applications are trending towards miniaturization, better performance, lower energy consumption, being more eco-friendly, higher reliability, and lower cost [<xref ref-type="bibr" rid="B1-actuators-05-00008">1</xref>]. The demand for piezoelectric components has been increasing over the years [<xref ref-type="bibr" rid="B2-actuators-05-00008">2</xref>,<xref ref-type="bibr" rid="B3-actuators-05-00008">3</xref>]. With continued technology development, the piezoelectric business is rapidly expanding in the number and diversity of commercial products. It is estimated that the industrial and consumer piezoelectric business will reach a total of 36 billion USD in 2017, to which actuators would contribute roughly 14 billion USD [<xref ref-type="bibr" rid="B4-actuators-05-00008">4</xref>]. Piezoelectric ceramics are becoming popular because of the ease of fabricating devices into different geometries and sizes. Piezoelectrics are experiencing growth in areas such as industrial automation, home automation, and consumer electronics. Currently, the global markets for conventional piezoelectric products are quite mature. There are market predictions of a two-orders-of-magnitude growth of the new piezoelectric products over the next five years [<xref ref-type="bibr" rid="B4-actuators-05-00008">4</xref>]. The growth rates of piezoelectric actuators and motors are being driven primarily by automobiles (especially the piezoelectric fuel engine injectors, which are mostly diesel but with recent growth into gasoline injectors), information technology, and biomedical engineering. With the recent scandals regarding diesel emissions, though, there are further opportunities for piezoelectrics, as piezoelectric actuators can provide more sophisticated injection algorithms than the solenoid injectors and provide superior emission control. This is a very complex decision for companies, and those with joint development strategies may be technologically better-positioned to take advantage of the post-scandal era. In view of the global map of piezoelectric products, the robust, growing civilian piezoelectric products have continually diluted the market share of military applications, which were mostly sonar based. Despite the performance, reliability, and market demands, the piezoelectric industry has been continually suffering from the high costs of precious metal electrodes. Additionally, manufacturing multilayer actuators is different from that of multilayer ceramic capacitors (MLCC), which have industrial standards for size and performance providing a focus for large-scale mass production. Multilayer ceramic actuators do not have standards for production; business relationships and cooperative development in the supply change, so this diversity creates a more customer-based product. Furthermore, the economic crisis in major palladium producer Russia back in the 1990s drastically increased the market price of palladium, resulting in cost issues to manufacturers for using this metal electrode material [<xref ref-type="bibr" rid="B5-actuators-05-00008">5</xref>]. Collectively, an effective strategy to decreasing the costs is to switch the widely used precious metal electrodes to base metal electrodes. Therefore, a reliable base metal co-firing technology would set up a solid foundation for the continually robust market growth in the future through further lowering the manufacturing costs. </p>
+    </sec>
+    <sec id="sec2-actuators-05-00008">
+      <title>2. Applications of Multilayer Piezoelectrics</title>
+      <p>Multilayer piezoelectrics are widely used in actuators/motors, transformers, and sensors. The multilayer actuators can be utilized in a diesel engine to replace the electromagnetic solenoid valves. A carefully designed multilayer piezoelectric actuator injector and control system can provide a number of attractive advantages over the solenoid system, including, but not limited to, easy starting, high fuel efficiency, and rapid response speed. The response time of the nozzle needle is less than 10<sup>&#x2212;4</sup> s. This fast response reduces the fuel delivery rate, thus cutting the energy consumption of the fuel pump. A more sophisticated design of the fuel injector will also increase the efficiency of the diesel combustion engine. For this kind of application, piezoelectric material is required that is elastically stiffer and can charge-discharge quickly. The delicate designs of both injectors and the integrated actuators vary with each case. Specifically, geometry, capacitance, and electromechanical performance all change. All these variations cause the manufacturer to tend to be original equipment manufacturer (OEM) orientated. Other than injectors, the multilayer piezoelectrics are used for haptic applications, airbag sensors, keyless entry systems, and tire pressure monitors. Compared to the traditional electromagnetic-driven actuators/motors or transformers, the energy efficiency of multilayer piezoelectric actuators/motors is independent of the size and geometry. This independence is important because most home or office automation equipment requires tiny driven motors. Meanwhile, such advantages in controlling size offer opportunities to perfectly integrate a multilayer piezoelectric transformer into thin LCDs (liquid crystal displays) to increase the voltage for quick ignition and operation of the fluorescent backlight. Multilayer transformers are also being considered for step-up and step-down transformers in power electronic packages, and also in voltage sensors [<xref ref-type="bibr" rid="B6-actuators-05-00008">6</xref>].</p>
+    </sec>
+    <sec id="sec3-actuators-05-00008">
+      <title>3. Multilayer Co-Firing</title>
+      <p>The conventional single layer disk design and glued stacking design were preliminarily used over an extended period. Those have very limited performance, due to not only the relatively thick ceramic layers and higher drive voltage, but also to the time-consuming polishing step in manufacturing to reach the requirement for applications. However, by using the metal co-fired multilayer structures, the performance of the piezoelectrics is improved through lowering the driving voltage and increasing the overall displacement. As shown in Equation (1), the piezoelectric displacement (&#x394;L) can be expressed by the number of stacked layers (n) times the normalized strain coefficient (<inline-formula>
+        <mml:math id="mm1" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>d</mml:mi>
+                <mml:mrow>
+                  <mml:mn>33</mml:mn>
+                </mml:mrow>
+                <mml:mo>*</mml:mo>
+              </mml:msubsup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>) and electric field (E).
+      <disp-formula id="FD1-actuators-05-00008">
+        <label>(1)</label>
+        <mml:math id="mm2" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi mathvariant="normal">&#x394;</mml:mi>
+              <mml:mi>L</mml:mi>
+              <mml:mo>=</mml:mo>
+              <mml:mi>n</mml:mi>
+              <mml:mo>&#xB7;</mml:mo>
+              <mml:msubsup>
+                <mml:mi>d</mml:mi>
+                <mml:mrow>
+                  <mml:mn>33</mml:mn>
+                </mml:mrow>
+                <mml:mo>*</mml:mo>
+              </mml:msubsup>
+              <mml:mo>&#xB7;</mml:mo>
+              <mml:mi>E</mml:mi>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula></p>
+      <p>The piezoelectric actuators convert electrical energy into mechanical energy so that it can develop usable force. Blocking force is a maximum force that a piezoelectric actuator can generate under electrical load. It is represented in the form of force required to push back an electric field&#x2013;loaded actuator to its original length. Equation (2) illustrates the relationship between blocking force (F<sub>max</sub>) and displacement (&#x394;L); k is the actuator stiffness. The enhanced maximum displacement of a multilayer actuator raises the blocking force, and that improves the mechanical performance.
+      <disp-formula id="FD2-actuators-05-00008">
+        <label>(2)</label>
+        <mml:math id="mm3" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>F</mml:mi>
+                <mml:mrow>
+                  <mml:mi>m</mml:mi>
+                  <mml:mi>a</mml:mi>
+                  <mml:mi>x</mml:mi>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:mi>k</mml:mi>
+              <mml:mo>&#xB7;</mml:mo>
+              <mml:mi mathvariant="normal">&#x394;</mml:mi>
+              <mml:mi>L</mml:mi>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula></p>
+      <p>The multilayer co-fired actuators (MLA) have thinner electrodes, requiring a relatively small driving voltage to obtain the equivalent strain. Despite the performance of the piezoelectric materials, a comprehensive understanding of material processing for multilayer co-fired actuators must address the complexity of co-firing, including optimizing each step of processing to obtain desired microstructures, density, and interaction-free interfaces simultaneously to achieve reliable electromechanical performance. The ceramic powders are dispersed and mixed with binder solution; these solutions contain constituents such as solvents, dispersants, binder polymers, and plasticizers. Various primary binder polymer systems used include materials such as poly(vinyl butyl) (PVB), poly(acrylic alcohol) (PVA), as well as, rarely, poly(propylene carbonate) (PPC). As shown in <xref ref-type="fig" rid="actuators-05-00008-f001">Figure 1</xref>, once a homogeneous ceramic slurry is prepared, it is then fabricated into the ceramic tapes, and metal electrodes are printed. The printed tapes are aligned and stacked together to build up multilayer actuators. The thick-film metal particle electrodes are designed with ceramic fillers to match the thermal profiles of the ceramic tapes to minimize differential shrinkage between the electrode and the tapes. The multilayer structures are binder burned-out and sintered with delicately designed profiles. There are multiple issues to consider for the process engineers, including the formulation of the binder systems, solvent attack resilience of the binder material, thermal expansion mismatch between electrodes and ceramics, sintering environments, and residual carbon after binder removal. Co-firing ceramics with metal electrodes has been challenging for decades. The noble metal electrode multilayer structures are then sintered under ambient air conditions. However, when base metal electrodes are applied, sintering conditions have to be converted from ambient air to reducing atmosphere to protect the metal electrode from oxidation. One of the common methods to obtain low pO<sub>2</sub> atmosphere is mixing H<sub>2</sub> and H<sub>2</sub>O [<xref ref-type="bibr" rid="B7-actuators-05-00008">7</xref>]. For the reaction <inline-formula>
+        <mml:math id="mm4" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>H</mml:mi>
+                <mml:mrow>
+                  <mml:mn>2</mml:mn>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>g</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>+</mml:mo>
+              <mml:mfrac>
+                <mml:mn>1</mml:mn>
+                <mml:mn>2</mml:mn>
+              </mml:mfrac>
+              <mml:msub>
+                <mml:mi>O</mml:mi>
+                <mml:mrow>
+                  <mml:mn>2</mml:mn>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>g</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:msub>
+                <mml:mi>H</mml:mi>
+                <mml:mn>2</mml:mn>
+              </mml:msub>
+              <mml:msub>
+                <mml:mi>O</mml:mi>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>g</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:msub>
+              <mml:mo>,</mml:mo>
+              <mml:mo>&#xA0;</mml:mo>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula>the standard Gibbs formation energy is expressed in Equation (3) [<xref ref-type="bibr" rid="B8-actuators-05-00008">8</xref>].
+      <disp-formula id="FD3-actuators-05-00008">
+        <label>(3)</label>
+        <mml:math id="mm5" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi mathvariant="normal">&#x394;</mml:mi>
+              <mml:msup>
+                <mml:mi mathvariant="normal">G</mml:mi>
+                <mml:mn>0</mml:mn>
+              </mml:msup>
+              <mml:mo>=</mml:mo>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mn>247</mml:mn>
+              <mml:mo>,</mml:mo>
+              <mml:mn>500</mml:mn>
+              <mml:mo>+</mml:mo>
+              <mml:mn>55.85</mml:mn>
+              <mml:mi mathvariant="normal">T</mml:mi>
+              <mml:mo>,</mml:mo>
+              <mml:mrow>
+                <mml:mo>(</mml:mo>
+                <mml:mrow>
+                  <mml:mn>298</mml:mn>
+                  <mml:mi mathvariant="normal">K</mml:mi>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mn>2000</mml:mn>
+                  <mml:mi mathvariant="normal">K</mml:mi>
+                </mml:mrow>
+                <mml:mo>)</mml:mo>
+              </mml:mrow>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula></p>
+      <p>At the same time, the Gibbs standard formation energy can also be expressed in the form of Equation (4), where the R is the gas constant, T is the temperature, and K<sub>p</sub> is the equilibrium constant. 
+      <disp-formula id="FD4-actuators-05-00008">
+        <label>(4)</label>
+        <mml:math id="mm6" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:mi mathvariant="normal">&#x394;</mml:mi>
+              <mml:msup>
+                <mml:mi>G</mml:mi>
+                <mml:mn>0</mml:mn>
+              </mml:msup>
+              <mml:mo>=</mml:mo>
+              <mml:mo>&#x2212;</mml:mo>
+              <mml:mi>R</mml:mi>
+              <mml:mi>T</mml:mi>
+              <mml:mi>l</mml:mi>
+              <mml:mi>n</mml:mi>
+              <mml:msub>
+                <mml:mi>K</mml:mi>
+                <mml:mi>p</mml:mi>
+              </mml:msub>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula></p>
+      <p>The K<sub>p</sub> can relate to the partial pressure of the H<sub>2</sub>O, H<sub>2</sub>, and O<sub>2</sub> as the relation expressed in Equation (5).
+      <disp-formula id="FD5-actuators-05-00008">
+        <label>(5)</label>
+        <mml:math id="mm7" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msub>
+                <mml:mi>K</mml:mi>
+                <mml:mi>p</mml:mi>
+              </mml:msub>
+              <mml:mo>=</mml:mo>
+              <mml:mfrac>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>P</mml:mi>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi>H</mml:mi>
+                        <mml:mn>2</mml:mn>
+                      </mml:msub>
+                      <mml:mi>O</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                </mml:mrow>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>P</mml:mi>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mi>H</mml:mi>
+                        <mml:mn>2</mml:mn>
+                      </mml:msub>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo>&#xB7;</mml:mo>
+                  <mml:msup>
+                    <mml:mrow>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:msub>
+                        <mml:mi>P</mml:mi>
+                        <mml:mrow>
+                          <mml:msub>
+                            <mml:mi>O</mml:mi>
+                            <mml:mn>2</mml:mn>
+                          </mml:msub>
+                        </mml:mrow>
+                      </mml:msub>
+                      <mml:mo stretchy="false">)</mml:mo>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mfrac>
+                        <mml:mn>1</mml:mn>
+                        <mml:mn>2</mml:mn>
+                      </mml:mfrac>
+                    </mml:mrow>
+                  </mml:msup>
+                </mml:mrow>
+              </mml:mfrac>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </disp-formula></p>
+      <p>Based on this method, almost any oxygen partial pressure can be obtained in a reducing atmosphere that necessary for controlling oxidation of copper or nickel electrodes.</p>
+    </sec>
+    <sec id="sec4-actuators-05-00008">
+      <title>4. Trends of Metal Electrodes</title>
+      <p>Conventionally, sintering piezoceramics requires very high temperatures, over 1200 &#xB0;C. At such high temperature, technically, a chemically and physically stable metal, such as Pt, is needed to co-fire with the ceramics. Costs aside, Pt is, of course, an ideal option for co-firing with ceramics; however, commercial applications mean the cost of Pt is too high. On the other hand, with the increased number of stacking layers of the actuators, the cost of electrodes dominates the total cost of the component [<xref ref-type="bibr" rid="B9-actuators-05-00008">9</xref>]. Therefore, reduction of the costs of the electrodes would drastically lower the manufacturing costs of multilayer actuators.</p>
+      <p>Currently, there are two major electrode systems that are widely used commercially: (1) using silver (Ag) and Palladium (Pd) alloy electrodes to sinter in ambient air and (2) using base metal internal electrodes, such as nickel (Ni) or copper (Cu), to co-fire with those non-reducible piezoelectric ceramic materials in a reducing atmosphere. The related properties and price ratio of four common metals are listed in <xref ref-type="table" rid="actuators-05-00008-t001">Table 1</xref>. Comparing these two systems, the later one can significantly cut the costs of the metal electrode. The Ag/Pd alloy is now widely used in multilayer actuators as internal electrodes, and these are co-fired under an air-sintering condition. Since Ag and Pd form a complete solid solution [<xref ref-type="bibr" rid="B10-actuators-05-00008">10</xref>,<xref ref-type="bibr" rid="B11-actuators-05-00008">11</xref>], the melting temperature can be varied by altering the composition of the alloy. The Ag-rich alloy is preferred to maintain the high conductivity and control the costs. In contrast, base metal Ni is widely used in BaTiO<sub>3</sub> MLCCs [<xref ref-type="bibr" rid="B9-actuators-05-00008">9</xref>]; however, Cu, as an internal electrode material, is still under investigation because of the technical challenges with material processing [<xref ref-type="bibr" rid="B12-actuators-05-00008">12</xref>,<xref ref-type="bibr" rid="B13-actuators-05-00008">13</xref>,<xref ref-type="bibr" rid="B14-actuators-05-00008">14</xref>]. In this paper, we will review the development of the co-firing technology of three major piezoelectric material systems and demonstrate the recent progress in the base metal co-firing technology of lead-free piezoelectric materials.</p>
+    </sec>
+    <sec id="sec5-actuators-05-00008">
+      <title>5. Pb(Zr, Ti)O<sub>3</sub></title>
+      <p>Pb(Zr, Ti)O<sub>3</sub> (PZT) was discovered in the 1950s by Shirane <italic>et al.</italic> [<xref ref-type="bibr" rid="B15-actuators-05-00008">15</xref>,<xref ref-type="bibr" rid="B16-actuators-05-00008">16</xref>] at the Tokyo Institute of Technology and soon largely replaced BaTiO<sub>3</sub> as a piezoelectric material. Afterward, the Morphotropic Phase Boundary (MPB) was discovered, separating the tetragonal phase and rhombohedral phase, where it is the basic solid solution composition with the highest piezoelectric properties [<xref ref-type="bibr" rid="B16-actuators-05-00008">16</xref>]. A more accurate MPB composition was determined at the composition with ~48 mol% of PbTiO<sub>3</sub> and ~52 mol% of PbZrO<sub>3</sub>. Due to the arising equivalent energy state, it allows the optimum domain orientation during the poling process [<xref ref-type="bibr" rid="B17-actuators-05-00008">17</xref>] for a PZT material with MPB composition, above the ferroelectric transition temperature (T<sub>C</sub>) at ~350 &#xB0;C. </p>
+      <p>The PZT was initially sintered above 1200 &#xB0;C to achieve high density. However, it was reported that adding an extra 1 to 2% of excess (over stoichiometry) PbO would lower the sintering temperature. Generation of the PbO liquid phase enables a lower sintering temperature [<xref ref-type="bibr" rid="B18-actuators-05-00008">18</xref>,<xref ref-type="bibr" rid="B19-actuators-05-00008">19</xref>]. The sintering temperature of PZT was decreased to as low as 900 &#xB0;C by adding PbO combined with Li<sub>2</sub>CO<sub>3</sub> as sintering agents [<xref ref-type="bibr" rid="B20-actuators-05-00008">20</xref>,<xref ref-type="bibr" rid="B21-actuators-05-00008">21</xref>]. Various sintering agents for lead-based piezoelectric materials, sintering temperatures, and the associated properties are listed in <xref ref-type="table" rid="actuators-05-00008-t002">Table 2</xref>. </p>
+      <sec id="sec5dot1-actuators-05-00008">
+        <title>5.1. Volatility of Pb</title>
+        <p>As is well known, lead oxide undergoes a volatilization during heat treatments. When exposed to high temperatures, lead oxide volatilizes into the surrounding atmosphere. The properties of the PZT material can be strongly influenced by the Pb vacancies in the materials. Donnelly <italic>et al.</italic> [<xref ref-type="bibr" rid="B27-actuators-05-00008">27</xref>] reported Pb loss while annealing the PZT-0.75%Nb material in ambient air at 700 &#xB0;C. During the heat treatment, lead (Pb) vacancies and oxygen (O) vacancies were generated at the same time as written in Kr&#xF6;ger-Vink notation, which is shown in Equation (6).
+        <disp-formula id="FD6-actuators-05-00008">
+          <label>(6)</label>
+          <mml:math id="mm9" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:mi>P</mml:mi>
+                <mml:msubsup>
+                  <mml:mi>b</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>P</mml:mi>
+                    <mml:mi>b</mml:mi>
+                  </mml:mrow>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>O</mml:mi>
+                  <mml:mi>o</mml:mi>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+                <mml:mo>&#x2192;</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>P</mml:mi>
+                    <mml:mi>b</mml:mi>
+                  </mml:mrow>
+                  <mml:mo>"</mml:mo>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>&#xB7;</mml:mo>
+                    <mml:mo>&#xB7;</mml:mo>
+                  </mml:mrow>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:mi>P</mml:mi>
+                <mml:mi>b</mml:mi>
+                <mml:mi>O</mml:mi>
+                <mml:mo>&#x2191;</mml:mo>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </disp-formula>
+        <disp-formula id="FD7-actuators-05-00008">
+          <label>(7)</label>
+          <mml:math id="mm10" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:mfrac>
+                  <mml:mn>1</mml:mn>
+                  <mml:mn>2</mml:mn>
+                </mml:mfrac>
+                <mml:msub>
+                  <mml:mi>O</mml:mi>
+                  <mml:mn>2</mml:mn>
+                </mml:msub>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>&#xB7;</mml:mo>
+                    <mml:mo>&#xB7;</mml:mo>
+                  </mml:mrow>
+                </mml:msubsup>
+                <mml:mo>&#x2194;</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>O</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:mn>2</mml:mn>
+                <mml:msup>
+                  <mml:mi>h</mml:mi>
+                  <mml:mo>&#xB7;</mml:mo>
+                </mml:msup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </disp-formula></p>
+        <p>The controlling kinetics of the generation of oxygen vacancies and lead vacancies were different. The generation of oxygen vacancies was a bulk diffusion rate&#x2013;dominated process. The dominating path of Pb volatilization was a result of Pb coupling with the oxygen adsorbed on the surface of the materials [<xref ref-type="bibr" rid="B28-actuators-05-00008">28</xref>]. This reaction rate&#x2013;limited process kinetically controlled the Pb-losing rate of the material. The generation of oxygen vacancies reached equilibrium with the oxygen in the atmosphere, as shown in Equation (7). As a consequence of the high volatilization, the PZT was often sintered with excess PbO or lead sources (PZ) to compensate for the loss of volatile PbO [<xref ref-type="bibr" rid="B23-actuators-05-00008">23</xref>,<xref ref-type="bibr" rid="B29-actuators-05-00008">29</xref>,<xref ref-type="bibr" rid="B30-actuators-05-00008">30</xref>]. <xref ref-type="fig" rid="actuators-05-00008-f002">Figure 2</xref> shows the ionic conductivity change over time; the gentle slope in the N<sub>2</sub> zone means that the Pb-losing rate is low. This evidence suggested that when air was switched to N<sub>2</sub> with pO<sub>2</sub> &lt; 10<sup>&#x2212;5</sup> atm, the decreased low pO<sub>2</sub> atmosphere suppressed the volatility of Pb through reducing the contacting chance between environmental O<sub>2</sub> and the materials [<xref ref-type="bibr" rid="B28-actuators-05-00008">28</xref>,<xref ref-type="bibr" rid="B31-actuators-05-00008">31</xref>], with the losing rate kinetics being controlled from the surface interaction of lead with oxygen at the intermediate temperature ranges of 700 &#xB0;C to 1000 &#xB0;C [<xref ref-type="bibr" rid="B27-actuators-05-00008">27</xref>].</p>
+      </sec>
+      <sec id="sec5dot2-actuators-05-00008">
+        <title>5.2. Low-Temperature Noble Metal Co-Firing</title>
+        <p>Co-firing PZT with the relatively cheaper metal electrodes is usually limited by the low melting temperatures of the metals. Compared with Pt, the cheaper Ag/Pd alloy has a lower melting temperature and thus is not able to undergo the high sintering temperature [<xref ref-type="bibr" rid="B10-actuators-05-00008">10</xref>]. Various studies on PZT co-firing with different metal electrodes were reported, including the kinetics of sintering and explanations on how co-firing electrodes influence the microstructures, as well as the dielectric and piezoelectric performances. PZT has been successfully co-fired with Ag<sub>1-x</sub>Pd<sub>x</sub> (0 &lt; x &lt; 0.3) electrodes into an interdigitated multilayer PZT piezoelectric structure [<xref ref-type="bibr" rid="B32-actuators-05-00008">32</xref>]. Wersing <italic>et al.</italic> [<xref ref-type="bibr" rid="B33-actuators-05-00008">33</xref>] reported their work on co-firing PZT with Ag/Pd internal electrodes. Both Pb(Zr<sub>0.53</sub>Ti<sub>0.47</sub>)O<sub>3</sub> (PZT) and Pb(Ni<sub>1/3</sub>Nb<sub>2/3</sub>)O<sub>3</sub>-PZT (PNN-PZT) multilayer samples were prepared with Ag/Pd (75/25) alloy electrodes. The multilayer samples were sintered at various temperatures. Moreover, the methodology of lowering the sintering temperatures was engineered through various methods, including optimizing particle sizes, adding various contents of V<sub>2</sub>O<sub>3</sub> as a sintering agent, and optimizing the heating rate. It was mentioned that the co-firing temperature had to be lower than 1130 &#xB0;C to prevent interdiffusion and chemical reactions on the metal-ceramic interfaces. More recently, a study by Caballero <italic>et al.</italic> [<xref ref-type="bibr" rid="B34-actuators-05-00008">34</xref>] on Ag/Pd (70/30) co-fired PZT and PNN-PZT further demonstrated the result from Wersing <italic>et al.</italic> [<xref ref-type="bibr" rid="B34-actuators-05-00008">34</xref>] by using advanced electron microscopy. Under scanning electron microscopy (SEM), clear electrode-ceramic interfaces were observed, and energy dispersive spectroscopy (EDS) confirmed that there was no Ag/Pd or Pb interdiffusion. In Ag/Pd co-fired multilayer samples, both the EDS data and further transmission electron spectroscopy (TEM) analysis confirmed no interdiffusion of Ag and Pb. The finely controlled sintering work might not induce the Ag or Pb diffusion, but when applied with an electric field, ionized Ag would undergo electromigration along grain boundaries. Electromigration of Ag<sup>+</sup> ions in PZT ceramics causes catastrophic reliability issues in applications. Donnelly <italic>et al.</italic> [<xref ref-type="bibr" rid="B35-actuators-05-00008">35</xref>] examined the Ag<sup>+</sup> electromigration in a PZT ceramic applied with high <italic>dc</italic> bias under extreme humidity. After a certain period, the samples exhibited metallic-like conductivity. It revealed that humidities absorbed into the grain boundaries led to the migration of Ag<sup>+</sup> ions under electric fields, where very small amounts of Ag ions evaporate from the electrodes and are distributed into the grain boundaries with excess PbO or other glassy phases associated with the sintering aids. The partial water solubility from the humidity into the glassy phases expedites the migration of Ag<sup>+</sup> ions along the grain boundaries. </p>
+      </sec>
+      <sec id="sec5dot3-actuators-05-00008">
+        <title>5.3. Base Metal Co-Firing</title>
+        <p>Despite Ni being the major base metal electrode choice in BaTiO<sub>3</sub>, paradoxically, PZT is simply not compatible with Ni co-firing because the pO<sub>2</sub> required to retain the metallic Ni electrodes can easily reduce PbO in PZT. As shown in <xref ref-type="fig" rid="actuators-05-00008-f003">Figure 3</xref>, the Ellingham diagram indicates that the NiO is less stable than PbO. Jacob and Saji [<xref ref-type="bibr" rid="B36-actuators-05-00008">36</xref>] have conducted experiments on the interaction between Ni/NiO and PbTiO<sub>3</sub>, which was part of the solid solution of the PZT. Their work displayed that direct contact between NiO and PZT did not result in chemical reactions. However, when metallic Ni had direct contact with PbTiO<sub>3</sub> while sintering in either ambient or reducing environments, it reacted with PbTiO<sub>3</sub> and generated a NiTiO<sub>3</sub> phase and a Pb-rich alloy phase, respectively. Further thermodynamic calculations on studying the coexistence between Ni and PbZrO<sub>3</sub> showed similar results. Since the change of Gibbs potential energy of oxidizing Ni to NiO is lower than that of forming PbO, the direct contact of metallic Ni and PbZrO<sub>3</sub> would also result in the generation of a Pb-rich alloy. These fatal reactions excluded metallic Ni as an appropriate electrode to co-fire with PZT.</p>
+        <p>Co-firing the kinetically more readily oxidized copper with PZT is thermodynamically feasible within a narrow pO<sub>2</sub> window. There were published works on co-firing a Cu electrode [<xref ref-type="bibr" rid="B37-actuators-05-00008">37</xref>] with PZT-based materials. Takayama <italic>et al.</italic> [<xref ref-type="bibr" rid="B38-actuators-05-00008">38</xref>] reported the work on fabricating Cu co-fired PZT-SKN (PZT-Sr(K<sub>0.25</sub>Nb<sub>0.75</sub>)O<sub>3</sub>) [<xref ref-type="bibr" rid="B20-actuators-05-00008">20</xref>,<xref ref-type="bibr" rid="B21-actuators-05-00008">21</xref>,<xref ref-type="bibr" rid="B23-actuators-05-00008">23</xref>] multilayer actuators. An acrylic binder system was used to lower the burnout temperature, instead of the more widely used PVB; however, this acrylic binder was difficult to handle. The PZT-SKN multilayer actuators with internal glass-coated copper electrodes were burned out in the ambient air at 350 &#xB0;C. The function of the glass coating on the Cu particles was to prevent the oxidation of Cu during binder burnout in ambient air. Through adding excess PbO (3 wt% and 4 wt%) to the material, the actuators were sintered between 900 &#xB0;C to 1000 &#xB0;C under pO<sub>2</sub> of 10<sup>&#x2212;12</sup> atm. As a consequence of low pO<sub>2</sub> sintering, reduced piezoelectric constants (both intrinsic and extrinsic) were obtained compared with the air-sintered PZT-SKN. As shown in <xref ref-type="fig" rid="actuators-05-00008-f004">Figure 4</xref>, both gentle slopes and low y-intercepts are obtained from the low pO<sub>2</sub>&#x2013;sintered PZT samples. The Rayleigh analysis indicates that this special sintering process suppressed both extrinsic and intrinsic piezoelectric properties of the PZT slightly. The SEM micrographs of the cross-section of the multilayer actuators are shown in <xref ref-type="fig" rid="actuators-05-00008-f005">Figure 5</xref>. The results were promising, since there was no Cu diffusion detected under the EDS. A transmission electron microscopy (TEM) micrograph is presented in <xref ref-type="fig" rid="actuators-05-00008-f006">Figure 6</xref>. <xref ref-type="fig" rid="actuators-05-00008-f006">Figure 6</xref>a displays the interface between the Cu electrode and PZT ceramic. <xref ref-type="fig" rid="actuators-05-00008-f006">Figure 6</xref>b shows the vicinity triple points of PZT near the interface. The Cu-free vicinity triple points and grain boundaries verify that there was no Cu diffusion. However, in the Ag or Ag/Pd electrode cases, electrode materials were often observable in these places. Regarding commercial applications, the Cu co-fired PZT had been patented and mass produced by EPCOS, a TDK Group Company [<xref ref-type="bibr" rid="B39-actuators-05-00008">39</xref>]. In this EPCOS/TDK product, the Cu co-fired PZT actuators presented a superior performance with a billion switching operations at 170 &#xB0;C without failures. In contrast, under the same testing conditions, the Ag/Pd co-fired actuators already displayed 50% failures with only 145 million switching operations [<xref ref-type="bibr" rid="B40-actuators-05-00008">40</xref>]. </p>
+      </sec>
+    </sec>
+    <sec id="sec6-actuators-05-00008">
+      <title>6. BaTiO<sub>3</sub> and Base Metal Co-Firing</title>
+      <p>As a widely used material for base metal co-fired multilayer capacitors, BaTiO<sub>3</sub> has been intensively studied for use in the base metal co-fired multilayer ceramic capacitors (MLCC) with ultra-thin ceramic layers [<xref ref-type="bibr" rid="B9-actuators-05-00008">9</xref>,<xref ref-type="bibr" rid="B12-actuators-05-00008">12</xref>,<xref ref-type="bibr" rid="B41-actuators-05-00008">41</xref>,<xref ref-type="bibr" rid="B42-actuators-05-00008">42</xref>,<xref ref-type="bibr" rid="B43-actuators-05-00008">43</xref>,<xref ref-type="bibr" rid="B44-actuators-05-00008">44</xref>,<xref ref-type="bibr" rid="B45-actuators-05-00008">45</xref>,<xref ref-type="bibr" rid="B46-actuators-05-00008">46</xref>,<xref ref-type="bibr" rid="B47-actuators-05-00008">47</xref>]. The robust success of materials processing led to tremendous work on studying Ni co-fired BaTiO<sub>3</sub>, accumulating a rich theoretical and technical basis for future co-firing work toward base metal co-fired multilayer piezoelectrics. Yang <italic>et al.</italic> [<xref ref-type="bibr" rid="B48-actuators-05-00008">48</xref>] reported the interaction between Ni electrodes and the dielectric BaTiO<sub>3</sub> during sintering. Carbonization of binder polymers during burnout generated carbon residues, which dramatically changed the sintering condition through modifying the internal oxygen activity locally on the electrode-ceramic interfaces. The Ni-catalyzed oxidation of residual carbon resulted in the reduction reaction of BaTiO<sub>3</sub> on the interfaces. The reduced Ba and Ti dissolved into the liquid metal phase to form a metal alloy along the ceramic-electrode interface. At the same time, one of the Cu co-fired X7R multilayer capacitors was successfully fabricated by using an acrylic binder system [<xref ref-type="bibr" rid="B12-actuators-05-00008">12</xref>]. Utilization of oxide-coated Cu as internal electrodes improved the oxygen resistivity by shielding the atmospheric oxygen from contacting the metallic Cu. Concerning the residual carbon and metal-ceramic interactions, no major issues were noticed. Base metal co-fired BaTiO<sub>3</sub>-based dielectric materials have been successfully demonstrated during the past decades, but we still have to face problems from the perspective of ceramic processing, especially in designing an effective binder system that is easy to handle and free of residual carbon.</p>
+    </sec>
+    <sec id="sec7-actuators-05-00008">
+      <title>7. (Na, K)NbO<sub>3</sub></title>
+      <p>Lead-based Pb(Zr, Ti)O<sub>3</sub> (PZT) and Pb(Mg<sub>1/3</sub>Nb<sub>2/3</sub>)O<sub>3</sub>: PbTiO<sub>3</sub> (PMN-PT) are widely used in commercial applications due to their superior piezoelectric properties. However, concerning the toxicity of lead to both the environment and human beings, the European Union has set a cap on the maximum amount of usage of lead in electronics to 1000 ppm by 2006 and 2011 [<xref ref-type="bibr" rid="B49-actuators-05-00008">49</xref>,<xref ref-type="bibr" rid="B50-actuators-05-00008">50</xref>]. Though the piezoelectric industries have been continually exempt from the Restriction of Hazardous Substances Directive (RoHS), tremendous effort has been put into studying the lead-free piezoelectric materials to replace the lead-based materials. The perovskite (Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub> (NKN) was first reported in 1959 by Egerton and Dillon [<xref ref-type="bibr" rid="B51-actuators-05-00008">51</xref>]. Lately, the NKN-based materials have been considered as a potential substitution for PZT, although their performance is still inferior to PZT-based materials. Saito <italic>et al.</italic> [<xref ref-type="bibr" rid="B52-actuators-05-00008">52</xref>] reported that textured (Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub>-based piezoelectric ceramic materials possess comparable piezoelectric properties to PZT. NKN-based materials gained a large spotlight over the other lead-free piezoelectric materials. A series of studies have been conducted by modifying the composition of NKN for better piezoelectric performance and base metal electrode (BME) co-firing. Properties of different modified NKN-based piezoelectric ceramics are presented in <xref ref-type="table" rid="actuators-05-00008-t003">Table 3</xref>. </p>
+      <sec id="sec7dot1-actuators-05-00008">
+        <title>7.1. Volatility of Alkaline Elements</title>
+        <p>Similar to the Pb, alkaline elements in NKN are highly volatile. The NKN materials are haunted by densification and microstructural grain morphology and bimodal grain size issues [<xref ref-type="bibr" rid="B64-actuators-05-00008">64</xref>,<xref ref-type="bibr" rid="B65-actuators-05-00008">65</xref>]. During the air sintering, the volatile alkaline elements could proceed a volatilization process, as described in the Equation (8), where M represents the alkaline elements. 
+        <disp-formula id="FD8-actuators-05-00008">
+          <label>(8)</label>
+          <mml:math id="mm12" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>M</mml:mi>
+                  <mml:mi>M</mml:mi>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>O</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+                <mml:mo>&#x2194;</mml:mo>
+                <mml:msub>
+                  <mml:mi>M</mml:mi>
+                  <mml:mn>2</mml:mn>
+                </mml:msub>
+                <mml:mi>O</mml:mi>
+                <mml:mo>+</mml:mo>
+                <mml:mn>2</mml:mn>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mi>M</mml:mi>
+                  <mml:mo>&#x2032;</mml:mo>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>&#xB7;</mml:mo>
+                    <mml:mo>&#xB7;</mml:mo>
+                  </mml:mrow>
+                </mml:msubsup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </disp-formula></p>
+        <p>It is similar to the volatilization path of Pb; the alkaline elements go into the atmosphere via combining with adsorbed atmospheric oxygen at the surface of particles and grains. With the effective zero atmospheric partial pressure of M<sub>2</sub>O, vaporization of M<sub>2</sub>O would continually proceed until no alkaline elements are left in the material. Generation of oxygen vacancies, though, is coupling with the loss of alkaline elements; such a reaction would reach equilibrium with the atmospheric O<sub>2</sub> following the path as illustrated in Equation (9), which is similar to the case of Pb. 
+        <disp-formula id="FD9-actuators-05-00008">
+          <label>(9)</label>
+          <mml:math id="mm13" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:mfrac>
+                  <mml:mn>1</mml:mn>
+                  <mml:mn>2</mml:mn>
+                </mml:mfrac>
+                <mml:msub>
+                  <mml:mi>O</mml:mi>
+                  <mml:mn>2</mml:mn>
+                </mml:msub>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>&#xB7;</mml:mo>
+                    <mml:mo>&#xB7;</mml:mo>
+                  </mml:mrow>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mi>M</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>&#x2033;</mml:mo>
+                  </mml:mrow>
+                </mml:msubsup>
+                <mml:mo>&#x2194;</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>O</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:msubsup>
+                  <mml:mi>V</mml:mi>
+                  <mml:mi>M</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>&#x2033;</mml:mo>
+                  </mml:mrow>
+                </mml:msubsup>
+                <mml:mo>+</mml:mo>
+                <mml:mn>2</mml:mn>
+                <mml:msup>
+                  <mml:mi>h</mml:mi>
+                  <mml:mo>&#xB7;</mml:mo>
+                </mml:msup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </disp-formula></p>
+        <p>Kobayashi <italic>et al.</italic> [<xref ref-type="bibr" rid="B58-actuators-05-00008">58</xref>,<xref ref-type="bibr" rid="B66-actuators-05-00008">66</xref>] have demonstrated the work on studying how varying sintering atmosphere affects the microstructures and properties of NKN. The results indicated that once the NKN materials were sintered in the low pO<sub>2</sub> atmosphere, which reduced the possibility of oxygen adsorption onto the surface of the materials, the volatility of alkaline elements decreased. When compared with the air-sintered NKN, the low pO<sub>2</sub>&#x2013;sintered NKN samples obtained higher electrical resistivity, which further indicated that a higher amount of alkaline elements was retained in the NKN. Similarly, advantages were also noted in the sintering of the end member NaNbO<sub>3</sub> [<xref ref-type="bibr" rid="B67-actuators-05-00008">67</xref>]. These results were consistent with the first principle calculation that was conducted by Shigemi and Wada [<xref ref-type="bibr" rid="B68-actuators-05-00008">68</xref>,<xref ref-type="bibr" rid="B69-actuators-05-00008">69</xref>], showing that the formation energy of alkaline vacancies increased when the atmosphere changed from air to low pO<sub>2</sub>. </p>
+      </sec>
+      <sec id="sec7dot2-actuators-05-00008">
+        <title>7.2. Material Modification</title>
+        <p>Guo <italic>et al.</italic> [<xref ref-type="bibr" rid="B53-actuators-05-00008">53</xref>,<xref ref-type="bibr" rid="B54-actuators-05-00008">54</xref>] reported the work of (Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub> materials by developing the dopant system. They doped the SrTiO<sub>3</sub> into the NKN system to study how SrTiO<sub>3</sub> would influence the piezoelectric properties of NKN [<xref ref-type="bibr" rid="B53-actuators-05-00008">53</xref>]. With the highest d<sub>33</sub> achieved in a non-doped system, the increasing doping amount of SrTiO<sub>3</sub> not only caused a drop of d<sub>33</sub>, but also induced dielectric relaxor behavior. The 4 mol% SrTiO<sub>3</sub> has become a critical point separating the orthorhombic phase and tetragonal phase. Such a donor (SrO) and acceptor (TiO<sub>2</sub>)&#x2013;combined doping system solved the poor densification and deliquescence issues of NKN. Following this study, a LiTaO<sub>3</sub>-doped NKN system was investigated [<xref ref-type="bibr" rid="B54-actuators-05-00008">54</xref>]. The LaTiO<sub>3</sub>-doped system gave better piezoelectric properties than that of the SrTiO<sub>3</sub>-doped system. The piezoelectric coefficient d<sub>33</sub>~200 pC/N was obtained with 5 mol% dopant. The ferroelectric measurement was carried out with remnant the polarization P<sub>r</sub>~9 &#x3BC;C/cm<sup>2</sup> and coercive field ~12.5 kV/cm. The Li- and Ta-modified NKN ceramic was further studied by Hollenstein <italic>et al</italic>. [<xref ref-type="bibr" rid="B55-actuators-05-00008">55</xref>] through varying the amount of Li and Ta dopant in the composition. The piezoelectric properties were compared between the only Li&#x2013;doped NKN and both the Li- and Ta-modified NKN system. The 3 mol% Li&#x2013; and 20 mol% Ta&#x2013;modified NKN ceramic displayed the best piezoelectric properties of <inline-formula>
+          <mml:math id="mm14" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>d</mml:mi>
+                  <mml:mrow>
+                    <mml:mn>33</mml:mn>
+                  </mml:mrow>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </inline-formula>~310 pm/V but possessed a lower Curie temperature of about 310 &#xB0;C. </p>
+      </sec>
+      <sec id="sec7dot3-actuators-05-00008">
+        <title>7.3. Low-Temperature Co-Firing with Noble Metal</title>
+        <p>Kim <italic>et al.</italic> [<xref ref-type="bibr" rid="B56-actuators-05-00008">56</xref>,<xref ref-type="bibr" rid="B57-actuators-05-00008">57</xref>] focused on the Li- and Ta-modified system with just the 5 mol% LiTaO<sub>3</sub>-doped NKN material, due to the coupling coefficient reaching its highest value at this composition. A Li<sub>2</sub>O sintering agent was used to lower the sintering temperature, in order to meet the temperature requirement of co-firing with the Ag/Pd (70/30) electrode and decrease the volatility of alkaline elements. The sintering temperature was reduced to 1000 &#xB0;C. Well-densified samples were achieved with a relative density of 95%. However, this 1 mol% additional sintering aid caused abnormal grain growth because of the change in the critical driving force of grain growth on the faceted interface and grain boundaries. Although adding more than 1 mol% Li<sub>2</sub>O, up to 7 mol%, impeded the abnormal grain growth, the considerable sacrifice of d<sub>33</sub> was observed. The sintered disk bulk samples presented a piezoelectric coefficient of 250 pC/N. A normalized strain coefficient d<sub>33</sub><sup>*</sup> reached as high as 292 pm/V with Ag/Pd co-fired multilayer samples. The Ag electrode diffused into the ceramic and <italic>vice versa</italic>, forming a thin transition layer, though the Pd could have had some effect on impeding the diffusion slightly [<xref ref-type="bibr" rid="B70-actuators-05-00008">70</xref>]. </p>
+      </sec>
+      <sec id="sec7dot4-actuators-05-00008">
+        <title>7.4. Low-Temperature Co-Firing with Base Metal</title>
+        <p>NKN has relatively poor performance compared with PZT-based materials. In order to compete with the PZT-based materials, NKN actuators have to be cheap enough to compensate for their inferior performance. Precious metal electrodes such as the Ag/Pd alloy are not reasonable in view of the costs; at the same time, the diffusion and electromigration issues of Ag could lower the reliability of the devices. Therefore, the spotlight moved to the base metal electrode in seeking low-cost substitutions, as well as looking at the reliability of base metal co-fired NKN piezoelectrics. Kawada <italic>et al.</italic> [<xref ref-type="bibr" rid="B59-actuators-05-00008">59</xref>] fabricated the Ni co-fired NKN ceramic (0.96(K<sub>0.5</sub>Na<sub>0.5</sub>)NbO<sub>3</sub>-0.04CaZrO<sub>3</sub>+0.03Zr) actuators and displayed a <inline-formula>
+          <mml:math id="mm15" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>d</mml:mi>
+                  <mml:mrow>
+                    <mml:mn>33</mml:mn>
+                  </mml:mrow>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </inline-formula> as high as ~360 pm/V. <xref ref-type="fig" rid="actuators-05-00008-f007">Figure 7</xref> shows the strain-electric field behavior of the Ni co-fired multilayer actuators. The ceramic tape was fabricated with a poly(vinyl acetate) binder system. The binder was burned out at 400 &#xB0;C for five hours. Samples were sintered at 1080 &#xB0;C under pO<sub>2</sub> between 10<sup>&#x2212;11</sup> to 10<sup>&#x2212;10</sup> atm for two hours. It was reported that the Ni electrodes have a higher resistivity to electromigration than the Ag/Pd electrode, which is widely used in PZT multilayer actuators [<xref ref-type="bibr" rid="B60-actuators-05-00008">60</xref>].</p>
+        <p>Kobayashi <italic>et al.</italic> [<xref ref-type="bibr" rid="B71-actuators-05-00008">71</xref>] conducted parallel experiments on sintering NKN ceramics in both air and low pO<sub>2</sub> atmosphere to understand the differences that low pO<sub>2</sub> sintering made to the properties of NKN. The (Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub> with a 5 mol% LiF sintering aid was studied. The results showed that the piezoelectric coefficient of NKN was independent of the sintering atmosphere. As shown in <xref ref-type="fig" rid="actuators-05-00008-f008">Figure 8</xref>, no significant changes in Rayleigh coefficients were observed. The Rayleigh equation is shown in Equation (10), where <italic>d<sub>initial</sub></italic> is the intrinsic piezoelectric coefficient, <italic>d</italic> is the normalized strain coefficient, and <italic>&#x3B1;<sub>d</sub></italic> is the Rayleigh coefficient. This phenomenon was quite different from the case of PZT materials [<xref ref-type="bibr" rid="B38-actuators-05-00008">38</xref>].
+        <disp-formula id="FD10-actuators-05-00008">
+          <label>(10)</label>
+          <mml:math id="mm16" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:mi>d</mml:mi>
+                <mml:mo>=</mml:mo>
+                <mml:msub>
+                  <mml:mi>d</mml:mi>
+                  <mml:mrow>
+                    <mml:mi>i</mml:mi>
+                    <mml:mi>n</mml:mi>
+                    <mml:mi>i</mml:mi>
+                    <mml:mi>t</mml:mi>
+                    <mml:mi>i</mml:mi>
+                    <mml:mi>a</mml:mi>
+                    <mml:mi>l</mml:mi>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mo>+</mml:mo>
+                <mml:msub>
+                  <mml:mi>&#x3B1;</mml:mi>
+                  <mml:mi>d</mml:mi>
+                </mml:msub>
+                <mml:msub>
+                  <mml:mi>E</mml:mi>
+                  <mml:mn>0</mml:mn>
+                </mml:msub>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </disp-formula></p>
+        <p>As mentioned, the low pO<sub>2</sub>&#x2013;sintered NKN had higher resistivity than those that were air-sintered, due to the suppressed volatility of alkaline elements in low pO<sub>2</sub>. Another advantage was that the NKN ceramic sintered in the low pO<sub>2</sub> atmosphere obtained higher density (95% of theoretical density) than those sintered in the air (91% dense) at the same temperature with the same dwelling time. Afterward, further study on fabricating Ni co-fired multilayer NKN actuators was done.</p>
+        <p>Kobayashi <italic>et al.</italic> [<xref ref-type="bibr" rid="B58-actuators-05-00008">58</xref>,<xref ref-type="bibr" rid="B66-actuators-05-00008">66</xref>] used the same NKN [<xref ref-type="bibr" rid="B71-actuators-05-00008">71</xref>], then fabricated prototype multilayer actuators with Ni internal electrodes. The PVB-formed tapes were printed with a layer of Ni electrodes to prepare the multilayer actuators. The multilayer actuators were burned out at 270 &#xB0;C for 12 h in N<sub>2</sub> atmosphere. There were no observable macroscopic defects, pores, or delaminations, which were common issues causing low reliability in multilayer actuators. Furthermore, no Ni interdiffusion was detected along the interfaces. Moreover, the Ni electrode did not affect the microstructure of NKN, unlike the alloy formation in the Ni co-fired BaTiO<sub>3</sub> system due to the reduction of BaTiO<sub>3</sub> by residual carbon. The alloy-free electrode-ceramic interfaces in Ni co-fired NKN multilayer actuators suggested the feature of working against the reduction of NKN. The following year, a NaF-Nb<sub>2</sub>O<sub>5</sub> flux-doped NKN was reported by Liu <italic>et al.</italic> [<xref ref-type="bibr" rid="B61-actuators-05-00008">61</xref>,<xref ref-type="bibr" rid="B72-actuators-05-00008">72</xref>] for multilayer actuator applications. The 0.02(NaF<sub>0.5</sub>Nb<sub>2</sub>O<sub>5</sub>)-(0.98)[(Na<sub>0.5</sub>K<sub>0.5</sub>)(Nb<sub>0.8</sub>Ta<sub>0.2</sub>)O<sub>3</sub>] was synthesized and then used to fabricate Ni co-fired multilayer actuators. Similar to the majority of the reported work, a PVB binder was used. The binder burnout was performed at 270 &#xB0;C for 12 h in the air. The multilayer actuators were sintered in a low pO<sub>2</sub> of 10<sup>&#x2212;10</sup> atm at 1150 &#xB0;C for 2 h, and then further reoxidized at 850 &#xB0;C in a pO<sub>2</sub> of 10<sup>&#x2212;7</sup> atm for eight hours. The piezoelectric performance was excellent compared with other lead-free piezoelectric materials; up to 385 pm/V of <inline-formula>
+          <mml:math id="mm17" display="block">
+            <mml:semantics>
+              <mml:mrow>
+                <mml:msubsup>
+                  <mml:mi>d</mml:mi>
+                  <mml:mrow>
+                    <mml:mn>33</mml:mn>
+                  </mml:mrow>
+                  <mml:mo>*</mml:mo>
+                </mml:msubsup>
+              </mml:mrow>
+            </mml:semantics>
+          </mml:math>
+        </inline-formula> was achieved. As a lead-free piezoelectric ceramic, NKN is promising for the future exploration of BME co-firing.</p>
+      </sec>
+    </sec>
+    <sec id="sec8-actuators-05-00008">
+      <title>8. Bi<sub>0.5</sub>Na<sub>0.5</sub>TiO<sub>3</sub></title>
+      <p>Bi<sub>0.5</sub>Na<sub>0.5</sub>TiO<sub>3</sub> (NBT)-based lead-free piezoelectric materials drew attention because of their moderate piezoelectric properties. The Ag/Pd co-fired NBT has already been fabricated and reported with reasonable performance and reliability by Sapper <italic>et al</italic>. [<xref ref-type="bibr" rid="B73-actuators-05-00008">73</xref>]. Due to the increasing interest in base metal co-firing, recently Safari and his coworkers reported on co-firing 0.88(Bi<sub>0.5</sub>Na<sub>0.5</sub>TiO<sub>3</sub>)-0.08(Bi<sub>0.5</sub>K<sub>0.5</sub>TiO<sub>3</sub>)-0.04(BaTiO<sub>3</sub>) (BNT-BKT-BT) with metallic Cu [<xref ref-type="bibr" rid="B74-actuators-05-00008">74</xref>]. The NBT-based piezoelectric ceramic disks were sintered in both air and low pO<sub>2</sub> atmosphere. The comparison has been made on samples sintered under different conditions. Neither sintering agents nor sintering atmospheres had significant influence on piezoelectric properties; similar piezoelectric properties were obtained. The Cu electrode was pressed between two already burned-out ceramic powder disks. The co-fired samples showed a d<sub>33</sub> of 77 pC/N, which was lower than the simple disk sample, having a d<sub>33</sub> of ~160 pC/N. Collectively, the study presented that this NBT material was compatible for Cu co-firing; further exploration on microstructures and the interdiffusion process is needed.</p>
+    </sec>
+    <sec id="sec9-actuators-05-00008">
+      <title>9. Binder Materials</title>
+      <p>In view of the work we summarized here, we only saw a couple of works on co-firing Cu with piezoelectric ceramics. Those foreseeable challenges became roadblocks when co-firing involved metallic Cu; Cu is more readily oxidized and has a low melting temperature. Although the glass-coated copper can prevent Cu from oxidation, the influence of the glass coating on Cu particles may introduce contamination and sacrifice of the dielectric and piezoelectric performances. Therefore, a direct solution is to provide a binder system that can be cleanly burned off at low temperature and in a protective atmosphere. The traditional PVB has been widely used in both Ag/Pd and Ni co-fired multilayer actuators, due to the relatively higher oxidation temperature of these metals. Collectively, the binder system in the previous study was usually burned off in ambient air up to 400 &#xB0;C. This temperature already exceeds the maximum temperature of retaining the metallic state of both Ni and Cu, though Ni electrodes are relatively feasible for burnout up to 300 &#xB0;C. To effectively prevent Ni and Cu from oxidation, clean burnout has to be achieved at either a reasonably low temperature or in a low pO<sub>2</sub> atmosphere. With the conventional PVB binder system, although well developed, clean burnout of PVB has never been reported at low temperatures. Masia <italic>et al.</italic> [<xref ref-type="bibr" rid="B75-actuators-05-00008">75</xref>] reported that the amount of carbon residues of PVB varied with different ceramics. It was revealed, as a matter of fact, that usually at least 500 &#xB0;C was needed for burnout due to the high activation energy of degradation [<xref ref-type="bibr" rid="B76-actuators-05-00008">76</xref>,<xref ref-type="bibr" rid="B77-actuators-05-00008">77</xref>]. Salam <italic>et al.</italic> [<xref ref-type="bibr" rid="B78-actuators-05-00008">78</xref>] have studied the burnout behavior of PVB, serving as a binder of thermoelectric green tapes, in different kinds of atmosphere up to 450 &#xB0;C. The results showed that PVB left residues in all conditions. A burnout conducted in ambient air at 450 &#xB0;C showed that 19.3% of PVB was not removed. In this work, the fraction percentage of PVB left was estimated to be 2% at 600 &#xB0;C and 1% between 700 &#xB0;C to 800 &#xB0;C. While burning out in N<sub>2</sub>, the pyrolysis could take place and convert the PVB into carbonaceous char. Breakdown char usually requires higher temperatures than breakdown polymer. It was realized that even at 1000 &#xB0;C, an appreciable amount of residual carbon could still exist under the N<sub>2</sub> condition [<xref ref-type="bibr" rid="B79-actuators-05-00008">79</xref>]. </p>
+      <p>Poly(propylene carbonate) (PPC) has been also studied as a potential binder polymer [<xref ref-type="bibr" rid="B80-actuators-05-00008">80</xref>]. It was found that PPC can be cleanly burned out in both air and N<sub>2</sub> at relatively low temperatures. There was no detectable residue left after burnout. Unlike the PVB system, the burnout of PPC followed the depolymerization path to form a propylene carbonate monomer rather than pyrolysis of the polymer into char. The propylene carbonate vaporized without leaving residual carbon. The authors considered that lack of successful formulation of the PPC binder system hindered the utilization of PPC as a successful binder for ceramics.</p>
+    </sec>
+    <sec id="sec10-actuators-05-00008">
+      <title>10. Recent Progress on Cu Co-Fired NKN</title>
+      <p>Recently, our group successfully fabricated prototype multilayer actuators through co-firing Cu metal electrodes with NKN ceramic [<xref ref-type="bibr" rid="B81-actuators-05-00008">81</xref>]. We used the Li- and Ta-modified NKN, which was kindly provided by PI Ceramic. A new poly(propylene carbonate) (PPC) binder was used. The advantage of PPC is that it can be cleanly burned off in reducing atmosphere. The prototype samples were sintered at 1050 &#xB0;C under a pO<sub>2</sub> of 10<sup>&#x2212;12</sup> atm for one hour, then further annealed at 1000 &#xB0;C for another hour to allow grain growth. After that, the samples were reoxidized at 850 &#xB0;C under a pO<sub>2</sub> of 10<sup>&#x2212;5</sup> atm for 12 h. Microstructures were compared between the low pO<sub>2</sub>&#x2013;sintered, and air-sintered pellets. The SEM surface micrographs are shown in <xref ref-type="fig" rid="actuators-05-00008-f009">Figure 9</xref>. Both samples were sintered at 1050 &#xB0;C for 1 h. The samples sintered in low pO<sub>2</sub> showed a higher homogeneity of grain size with minimized abnormal growth (<xref ref-type="fig" rid="actuators-05-00008-f009">Figure 9</xref>a). However, lower homogeneity (<xref ref-type="fig" rid="actuators-05-00008-f009">Figure 9</xref>b) was obtained in air-sintered NKN ceramic with a certain amount of abnormal grain growth. Both of them have well-faceted grains.</p>
+      <p>A 96% dense NKN ceramic was achieved from sintering plain tapes. The surface SEM micrograph (<xref ref-type="fig" rid="actuators-05-00008-f010">Figure 10</xref>) displayed well-faceted grains (<xref ref-type="fig" rid="actuators-05-00008-f010">Figure 10</xref>a) on the surface of the multilayer co-fired samples. The cross-section is shown in <xref ref-type="fig" rid="actuators-05-00008-f010">Figure 10</xref>b. The internal Cu electrode was continuous and unoxidized. EDS line scan data (<xref ref-type="fig" rid="actuators-05-00008-f010">Figure 10</xref>c) indicated that there was no residual carbon and Cu interdiffusion between Cu electrodes and the NKN ceramic. The microstructure was further studied by TEM (<xref ref-type="fig" rid="actuators-05-00008-f011">Figure 11</xref>a,b); the micrographs were taken along the &lt;001&gt; direction. An atomistically sharp interface between the Cu electrode and ceramic was observed (<xref ref-type="fig" rid="actuators-05-00008-f011">Figure 11</xref>c,d). There was no residual carbon, alloy formation, or CuO in the co-fired multilayer samples under TEM. The dielectric constant was 830, with a low dielectric loss of 3.6%. The co-fired multilayer actuators displayed a Curie temperature (T<sub>c</sub>) of ~330 &#xB0;C. The classic ferroelectric switching (<xref ref-type="fig" rid="actuators-05-00008-f012">Figure 12</xref>) was induced with minimal contribution from space charge and conduction [<xref ref-type="bibr" rid="B82-actuators-05-00008">82</xref>], and a coercive field (E<sub>c</sub>) of 10.9 kV/cm with a remanent polarization of 22.1 &#x3BC;C/cm<sup>2</sup> was obtained. The normalized strain <inline-formula>
+        <mml:math id="mm18" display="block">
+          <mml:semantics>
+            <mml:mrow>
+              <mml:msubsup>
+                <mml:mi>d</mml:mi>
+                <mml:mrow>
+                  <mml:mn>33</mml:mn>
+                </mml:mrow>
+                <mml:mo>*</mml:mo>
+              </mml:msubsup>
+            </mml:mrow>
+          </mml:semantics>
+        </mml:math>
+      </inline-formula> was 220 pm/V (<xref ref-type="fig" rid="actuators-05-00008-f013">Figure 13</xref>), due to the fact that the interdigitated electrodes would have some clamping effect on the piezoelectric performance. The results are summarized in <xref ref-type="table" rid="actuators-05-00008-t004">Table 4</xref>. Collectively, the data indicated that the Cu electrode is suitable and attractive for co-firing with NKN.</p>
+    </sec>
+    <sec id="sec11-actuators-05-00008">
+      <title>11. Summary</title>
+      <p>Recent progress on co-firing Ag/Pd, Ni, and Cu metal electrodes with both PZT and lead-free piezoelectric ceramics was presented. The sinterability of the piezoelectric ceramics was successfully improved via using sintering agents. The effects and mechanisms of adding sintering agents were carefully investigated. It was found that liquid phase sintering significantly lowered the sintering temperatures, thus widening the choices of metal electrode materials.</p>
+      <p>The volatility of Pb and alkaline elements can be suppressed through sintering in a reduced atmosphere. It was confirmed that the low pO<sub>2</sub>&#x2013;sintered samples showed higher resistivity than the air-sintered ones. The dominating path of losing volatile elements underwent coupling with surface-adsorbed oxygen. Therefore, reducing the pO<sub>2</sub> in the atmosphere consequently cut the chances of contact between the volatile elements and atmospheric oxygen, thereby retaining the volatile elements while sintering.</p>
+      <p>Interdiffusion of metal electrodes was investigated. The Ag/Pd internal electrode faced both diffusion during sintering and electromigration under electrical load; both resulted in the drop of reliability and lifespan of the piezoelectric applications. Both experimental and calculated results showed that PZT was intrinsically incompatible with metallic Ni electrodes, yet was eligible to co-fire with Cu internal electrodes. The Cu co-fired PZT displayed higher reliability than the Ag/Pd co-fired PZT. The Ni co-fired NKN displayed under-detectable interdiffusion along the electrode-ceramic interfaces and good electromigration resistivity.</p>
+      <p>The major roadblock toward base metal co-firing was the binder system. While burning out in the low pO<sub>2</sub> condition, the PVB binder could undergo a pyrolysis process, thus leaving carbon residues. However, burning out PPC polymer in the low pO<sub>2</sub> atmosphere follows depolymerization, generating monomers. Such a feature made it a better binder polymer for low pO<sub>2</sub> burnout.</p>
+      <p>Until very recently, our group utilized the PPC binder and successfully fabricated Cu co-fired prototyped NKN multilayer actuators. The whole heat treatment was conducted under low pO<sub>2</sub> atmosphere. There was no detectable residual carbon, interdiffusion, or alloy formation. Such success could give a general direction for future base metal co-firing investigations. Collectively, base metal (especially Cu) co-firing is largely unexplored; further deep investigations of the binder formulations, burnout conditions, and sintering profiles to realize highly reliable multilayer piezoelectrics are required. Some important information and facts are summarized in <xref ref-type="table" rid="actuators-05-00008-t005">Table 5</xref> shown below.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors want to thank Amanda Baker, Steve Perini, and Jeff Long for their dedicated work on managing the lab affairs. Thanks to the Materials Chraracterization Laboratory (MCL) and Ke Wang for his assistance on TEM. The authors also want to thank PI Ceramics for providing the high-quality NKN ceramic powders. This material is based upon work supported in part by the National Science Foundation, as part of the Center of Dielectrics and Piezoelectrics under Grant No. IIP-1361571. </p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>C.A.R. and S.Z. conceived and designed the experiments; H.G. provided TEM micrographs; L.G. integrated information and wrote the paper. </p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-actuators-05-00008">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Kelnberger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>G.Y.</given-names>
+            </name>
+            <name>
+              <surname>Eitel</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Shrout</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>High Strain Piezoelectric Multilayer Actuators&#x2014;A Material Science and Engineering Challenge</article-title>
+          <source>J. Electroceramics</source>
+          <year>2005</year>
+          <volume>14</volume>
+          <fpage>177</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10832-005-0956-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-actuators-05-00008">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uchino</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multilayer Ceramic Actuators</article-title>
+          <source>Curr. Opin. Solid State Mater. Sci.</source>
+          <year>1996</year>
+          <volume>1</volume>
+          <fpage>698</fpage>
+          <lpage>705</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1359-0286(96)80054-4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-actuators-05-00008">
+        <label>3.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uchino</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <source>Ferroelectric Devices</source>
+          <edition>2nd ed.</edition>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>Boca Raton, FL, USA</publisher-loc>
+          <year>2009</year>
+        </citation>
+      </ref>
+      <ref id="B4-actuators-05-00008">
+        <label>4.</label>
+        <citation citation-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abraham</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expanding Markets for Piezoelectrics</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.ceramicindustry.com/articles/93845-expanding-markets-for-piezoelectrics" ext-link-type="uri">http://www.ceramicindustry.com/articles/93845-expanding-markets-for-piezoelectrics</ext-link></comment>
+          <access-date>(accessed on 22 October 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B5-actuators-05-00008">
+        <label>5.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uchino</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <source>Entrepreneurship for Engineers</source>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>Boca Raton, FL, USA</publisher-loc>
+          <year>2009</year>
+        </citation>
+      </ref>
+      <ref id="B6-actuators-05-00008">
+        <label>6.</label>
+        <citation citation-type="patent">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knowles</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Bradley</surname>
+              <given-names>W.M.</given-names>
+            </name>
+            <name>
+              <surname>Bird</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Galvanic Isolated Ceramic Based Voltage Sensors</article-title>
+          <patent>WO2015,153,798 A1</patent>
+		  <day>8</day>
+		  <month>October</month>
+          <year>2015</year>
+        </citation>
+      </ref>
+      <ref id="B7-actuators-05-00008">
+        <label>7.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Imanaka</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <source>Multilayered Low Temperature Cofired Ceramics (LTCC) Technology</source>
+          <publisher-name>Springer Science &amp; Business Media</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2005</year>
+        </citation>
+      </ref>
+      <ref id="B8-actuators-05-00008">
+        <label>8.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gaskell</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <source>Introduction to the Thermodynamics of Materials</source>
+          <edition>5th ed.</edition>
+          <publisher-name>CRC Taylor &amp; Francis Group, LLC</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2008</year>
+        </citation>
+      </ref>
+      <ref id="B9-actuators-05-00008">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kishi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mizuno</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chazono</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Base-Metal Electrode-Multilayer Ceramic Capacitors: Past, Present and Future Perspectives</article-title>
+          <source>Jpn. J. Appl. Phys.</source>
+          <year>2003</year>
+          <volume>42</volume>
+          <fpage>1</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1143/JJAP.42.1</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-actuators-05-00008">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karakaya</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>W.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Ag-Pd (Silver-Palladium) System</article-title>
+          <source>Bull. Alloy Phase Diagrams</source>
+          <year>1988</year>
+          <volume>9</volume>
+          <fpage>237</fpage>
+          <lpage>243</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02881271</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-actuators-05-00008">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Dougherty</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Huebner</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Pepin</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Silver-Palladium Thick-Film Conductors</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>1994</year>
+          <volume>77</volume>
+          <fpage>3051</fpage>
+          <pub-id pub-id-type="doi">10.1111/j.1151-2916.1994.tb04549.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-actuators-05-00008">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Copper Cofire X7R Dielectrics and Multilayer Capacitors Based on Zinc Borate Fluxed Barium Titanate Ceramic</article-title>
+          <source>J. Electroceramics</source>
+          <year>2003</year>
+          <volume>10</volume>
+          <fpage>39</fpage>
+          <lpage>46</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1024028024779</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13-actuators-05-00008">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yonezawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takeoka</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kishi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tomonari</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Preparation of Copper Fine Particle Paste and its Application as the Inner Electrode Material of a Multilayered Ceramic Capacitor</article-title>
+          <source>Nanotechnology</source>
+          <year>2008</year>
+          <volume>19</volume>
+          <fpage>145706</fpage>
+          <pub-id pub-id-type="doi">10.1088/0957-4484/19/14/145706</pub-id>
+          <pub-id pub-id-type="pmid">21817772</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14-actuators-05-00008">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takeoka</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mizuno</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Internal Electrode Materials in Multilayer Ceramic Capacitors on Electrical Properties</article-title>
+          <source>Jpn. J. Appl. Phys.</source>
+          <year>2011</year>
+          <volume>50</volume>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1143/JJAP.50.09NC06</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15-actuators-05-00008">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shirane</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phase Transitions in Solid Solutions of PbZrO<sub>3</sub> and PbTiO<sub>3</sub> (I) Small Concentrations of PbTiO<sub>3</sub></article-title>
+          <source>J. Phys. Soc. Jpn</source>
+          <year>1952</year>
+          <volume>7</volume>
+          <fpage>5</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1143/JPSJ.7.5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16-actuators-05-00008">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shirane</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phase Transitions in Solid Solutions of PbZrO<sub>3</sub> and PbTiO<sub>3</sub> (II) X-ray Study</article-title>
+          <source>J. Phys. Soc. Jpn.</source>
+          <year>1952</year>
+          <volume>7</volume>
+          <fpage>12</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1143/JPSJ.7.12</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17-actuators-05-00008">
+        <label>17.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jaffe</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cook</surname>
+              <given-names>W.R.</given-names>
+            </name>
+          </person-group>
+          <source>Piezoelectric Ceramic</source>
+          <edition>1st ed.</edition>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1971</year>
+        </citation>
+      </ref>
+      <ref id="B18-actuators-05-00008">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kingon</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sintering of PZT Ceramics: II, Effect of PbO Content on Densification Kinetics</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>1983</year>
+          <volume>66</volume>
+          <fpage>256</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1151-2916.1983.tb15709.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19-actuators-05-00008">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holman</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Fulrath</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intrinsic Nonstoichiometry in Single-Phase Pb(Zr<sub>0.5</sub>Ti<sub>0.5</sub>)O<sub>3</sub></article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>1972</year>
+          <volume>55</volume>
+          <fpage>192</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1151-2916.1972.tb11256.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20-actuators-05-00008">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Shrout</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Properties of (1-x)PZT-xSKN Ceramics Sintered at Low Temperature Using Li<sub>2</sub>CO<sub>3</sub></article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2008</year>
+          <volume>91</volume>
+          <fpage>2182</fpage>
+          <lpage>2188</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1551-2916.2008.02403.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21-actuators-05-00008">
+        <label>21.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Shrout</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Role of Li<sub>2</sub>CO<sub>3</sub> and PbO in the Low-Temperature Sintering of Sr, K, Nb (SKN)-Doped PZT</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2009</year>
+          <volume>92</volume>
+          <fpage>1203</fpage>
+          <lpage>1207</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1551-2916.2009.03073.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22-actuators-05-00008">
+        <label>22.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.X.</given-names>
+            </name>
+            <name>
+              <surname>Murakami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Kaneko</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Piezoelectric Properties, Densification Behavior and Microstructural Evolution of Low Temperature Sintered PZT Ceramics with Sintering Aids</article-title>
+          <source>J. Eur. Ceram. Soc.</source>
+          <year>2001</year>
+          <volume>21</volume>
+          <fpage>1367</fpage>
+          <lpage>1370</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0955-2219(01)00020-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23-actuators-05-00008">
+        <label>23.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Shrout</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Addition of a Sr, K, Nb (SKN) Combination to PZT(53/47) for High Strain Applications</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2007</year>
+          <volume>90</volume>
+          <fpage>490</fpage>
+          <lpage>495</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1551-2916.2006.01450.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24-actuators-05-00008">
+        <label>24.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaneko</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Murakami</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Simultaneous Addition of BiFeO<sub>3</sub> and Ba(Cu<sub>0.5</sub>W<sub>0.5</sub>)O<sub>3</sub> on Lowering of Sintering Temperature of Pb(Zr,Ti)O<sub>3</sub> Ceramics</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>1998</year>
+          <volume>81</volume>
+          <fpage>1013</fpage>
+          <lpage>1018</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1151-2916.1998.tb02439.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25-actuators-05-00008">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahn</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Nahm</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ryu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Uchino</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of CuO and ZnO Additives on Sintering Temperature and Piezoelectric Properties of 0.41Pb(Ni<sub>1/3</sub>Nb<sub>2/3</sub>)O<sub>3</sub>-0.36PbTiO<sub>3</sub>-0.23PbZrO<sub>3</sub> Ceramics</article-title>
+          <source>Jpn. J. Appl. Phys.</source>
+          <year>2004</year>
+          <volume>43</volume>
+          <fpage>205</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="doi">10.1143/JJAP.43.205</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26-actuators-05-00008">
+        <label>26.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hasegawa</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Piezoelectric Properties of Low-temperature Sintered Pb<sub>0.95</sub>Ba<sub>0.05</sub>[(Mg<sub>1/3</sub>Nb<sub>2/3</sub>)<sub>0.125</sub>Zr<sub>0.445</sub>Ti<sub>0.43</sub>]O<sub>3</sub> Ceramics with Chemically-added LiBiO<sub>2</sub> Sintering Aid</article-title>
+          <source>J. Eur. Ceram. Soc.</source>
+          <year>2005</year>
+          <volume>25</volume>
+          <fpage>2437</fpage>
+          <lpage>2441</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jeurceramsoc.2005.03.078</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27-actuators-05-00008">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impedance Spectroscopy of PZT Ceramics&#x2014;Measuring Diffusion Coefficients, Mixed Conduction, and Pb Loss</article-title>
+          <source>IEEE Trans. Ultrason. Ferroelectr. Freq. Control</source>
+          <year>2012</year>
+          <volume>59</volume>
+          <fpage>1883</fpage>
+          <lpage>1887</lpage>
+          <pub-id pub-id-type="doi">10.1109/TUFFC.2012.2401</pub-id>
+          <pub-id pub-id-type="pmid">23007755</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28-actuators-05-00008">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nagasaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hino</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Oxygen on the Evaporation Rate of Lead from Liquid Copper under Reduced Pressure</article-title>
+          <source>ISIJ Int.</source>
+          <year>2001</year>
+          <volume>41</volume>
+          <fpage>706</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="doi">10.2355/isijinternational.41.706</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29-actuators-05-00008">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Helke</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Seifert</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>S.-J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenomenological and Structural Properties of Piezoelectric Ceramics Based on xPb(Zr,Ti)O<sub>3</sub>-(1-x)Sr(K<sub>0&#xB7;25</sub>Nb<sub>0&#xB7;75</sub>)O<sub>3</sub> (PZT/SKN) Solid Solutions</article-title>
+          <source>J. Eur. Ceram. Soc.</source>
+          <year>1999</year>
+          <volume>19</volume>
+          <fpage>1265</fpage>
+          <lpage>1268</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0955-2219(98)00417-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30-actuators-05-00008">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atkin</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Fulrath</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Point Defects and Sintering of Lead Zirconate-Titanate</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>1971</year>
+          <volume>54</volume>
+          <fpage>265</fpage>
+          <lpage>270</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1151-2916.1971.tb12286.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31-actuators-05-00008">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pb Loss in Pb(Zr,Ti)O<sub>3</sub> Ceramics Observed by <italic>in Situ</italic> Ionic Conductivity Measurements</article-title>
+          <source>J. Appl. Phys.</source>
+          <year>2011</year>
+          <volume>109</volume>
+          <fpage>104107</fpage>
+          <pub-id pub-id-type="doi">10.1063/1.3585831</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32-actuators-05-00008">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uchino</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nomura</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cross</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Newnham</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Jang</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrostrictive Effect in Perovskites and Its Transducer Applications</article-title>
+          <source>J. Mater. Sci.</source>
+          <year>1981</year>
+          <volume>16</volume>
+          <fpage>569</fpage>
+          <lpage>578</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02402772</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33-actuators-05-00008">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wersing</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wahl</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schn&#xF6;ller</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>PZT-based Multilayer Piezoelectric Ceramics with AgPd-Internal Electrodes</article-title>
+          <source>Ferroelectrics</source>
+          <year>1988</year>
+          <volume>87</volume>
+          <fpage>271</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1080/00150198808201390</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34-actuators-05-00008">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caballero</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Nieto</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Duran</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Moure</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kosec</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Samardzija</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Drazig</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceramic-Electrode Interaction in PZT and PNN-PZT Multilayer Piezoelectric Ceramics with AG/PD 70/30 Inner Electrode</article-title>
+          <source>J. Mater. Sci.</source>
+          <year>1997</year>
+          <volume>32</volume>
+          <fpage>3257</fpage>
+          <lpage>3262</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1018675423174</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35-actuators-05-00008">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Refined Model of Electromigration of Ag/Pd Electrodes in Multilayer PZT Ceramics Under Extreme Humidity</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2009</year>
+          <volume>92</volume>
+          <fpage>405</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1551-2916.2008.02891.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-actuators-05-00008">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jacob</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Saji</surname>
+              <given-names>V.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction between Ni/NiO and PbTiO<sub>3</sub>: Phase Reversal with Redox Switching</article-title>
+          <source>J. Phase Equilibria Diffus.</source>
+          <year>2006</year>
+          <volume>27</volume>
+          <fpage>456</fpage>
+          <lpage>461</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02736443</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37-actuators-05-00008">
+        <label>37.</label>
+        <citation citation-type="patent">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Florian</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Reichmann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kainz</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Piezoactuator and method for the production thereof</article-title>
+          <source>US Patent</source>
+          <patent>US7,304,414</patent>
+          <day>4</day>
+          <month>December</month>
+          <year>2007</year>
+        </citation>
+      </ref>
+      <ref id="B38-actuators-05-00008">
+        <label>38.</label>
+        <citation citation-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takayama</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Piezoelectric Actuators with Cu Inner Electrode</article-title>
+          <source>Proceedings of the 13th US-Japan Seminar on Dielectric and Piezoelectric Ceramics</source>
+          <conf-loc>Hyogo, Japan</conf-loc>
+          <conf-date>4&#x2013;7 November 2007</conf-date>
+          <fpage>113</fpage>
+          <lpage>116</lpage>
+        </citation>
+      </ref>
+      <ref id="B39-actuators-05-00008">
+        <label>39.</label>
+        <citation citation-type="patent">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Florian</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ottlinger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sedlmaier</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Method for Producing a Multilayer Ceramic Component</article-title>
+          <source>US patent</source>
+          <patent>US8,776,364 B2</patent>
+          <day>15</day>
+          <month>July</month>
+          <year>2014</year>
+        </citation>
+      </ref>
+      <ref id="B40-actuators-05-00008">
+        <label>40.</label>
+        <citation citation-type="web">
+          <article-title>Piezo Actuators for Fuel Injection Systems&#x2014;Most Reliable and Cost-efficient</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://en.tdk.eu/tdk-en/373562/tech-library/articles/applications---cases/applications---cases/most-reliable-and-cost-efficient/1039300" ext-link-type="uri">http://en.tdk.eu/tdk-en/373562/tech-library/articles/applications---cases/applications---cases/most-reliable-and-cost-efficient/1039300</ext-link></comment>
+          <access-date>(accessed on 21 November 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B41-actuators-05-00008">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Polotai</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>G.Y.</given-names>
+            </name>
+            <name>
+              <surname>Dickey</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Utilization of Multiple-Stage Sintering to Control Ni Electrode Continuity in Ultrathin Ni-BaTiO<sub>3</sub> Multilayer Capacitors</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2007</year>
+          <volume>90</volume>
+          <fpage>3811</fpage>
+          <lpage>3817</lpage>
+        </citation>
+      </ref>
+      <ref id="B42-actuators-05-00008">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Opitz</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Albertsen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Beeson</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Hennings</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Routbort</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic Process of Reoxidation of Base Metal Technology BaTiO<sub>3</sub>-based Multilayer Capacitors</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2003</year>
+          <volume>86</volume>
+          <fpage>1879</fpage>
+          <lpage>1884</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1151-2916.2003.tb03576.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43-actuators-05-00008">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pithan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hennings</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Waser</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Progress in the Synthesis of Nanocrystalline BaTiO<sub>3</sub> Powders for MLCC</article-title>
+          <source>Int. J. Appl. Ceram. Technol.</source>
+          <year>2005</year>
+          <volume>2</volume>
+          <fpage>1</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1744-7402.2005.02008.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44-actuators-05-00008">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gui</surname>
+              <given-names>Z.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on the Interdiffusion in Base-Metal-Electrode MLCCs</article-title>
+          <source>Ceram. Int.</source>
+          <year>2004</year>
+          <volume>30</volume>
+          <fpage>1275</fpage>
+          <lpage>1278</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceramint.2003.12.038</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45-actuators-05-00008">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tsai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on (Ba, Ca)(Ti, Zr)O<sub>3</sub> Dielectric Cofired with Copper Electrode</article-title>
+          <source>Jpn. J. Appl. Phys.</source>
+          <year>2014</year>
+          <volume>53</volume>
+          <fpage>061501</fpage>
+          <pub-id pub-id-type="doi">10.7567/JJAP.53.061501</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46-actuators-05-00008">
+        <label>46.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamatsu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kawano</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Arashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nomura</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reliability of Multilayer Ceramic Capacitors with Nickel Electrodes</article-title>
+          <source>J. Power Sources</source>
+          <year>1996</year>
+          <volume>60</volume>
+          <fpage>199</fpage>
+          <lpage>203</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0378-7753(96)80011-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47-actuators-05-00008">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Scientific and Engineering Issues of the State-of-the-Art and Future Multilayer Capacitors</article-title>
+          <source>J. Ceram. Soc. Jpn.</source>
+          <year>2001</year>
+          <volume>109</volume>
+          <fpage>S2</fpage>
+          <lpage>S6</lpage>
+          <pub-id pub-id-type="doi">10.2109/jcersj.109.S2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48-actuators-05-00008">
+        <label>48.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>G.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.I.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+            <name>
+              <surname>Anthony</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Dickey</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.K.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Local Oxygen Activity on Ni-BaTiO<sub>3</sub> Interfacial Reactions</article-title>
+          <source>Acta Mater.</source>
+          <year>2006</year>
+          <volume>54</volume>
+          <fpage>3513</fpage>
+          <lpage>3523</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actamat.2006.03.025</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49-actuators-05-00008">
+        <label>49.</label>
+        <citation citation-type="web">
+          <article-title>RoHS Compliance Guide: Regulations, 6 Substances, Exemptions, WEEE</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.rohsguide.com/" ext-link-type="uri">http://www.rohsguide.com/</ext-link></comment>
+          <access-date>(accessed on 11 October 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B50-actuators-05-00008">
+        <label>50.</label>
+        <citation citation-type="web">
+          <article-title>Directive 2011/65/Eu of the European Parliament and of the Council of 8 June 2011 on the Restriction of the Use of Certain Hazardous Substances in Electrical and Electronic Equipment</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0065&amp;from=EN" ext-link-type="uri">http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0065&amp;from=EN</ext-link></comment>
+          <access-date>(accessed on 25 October 2015)</access-date>
+        </citation>
+      </ref>
+      <ref id="B51-actuators-05-00008">
+        <label>51.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Egerton</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Dillon</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Piezoelectric and Dielectric Properties of Ceramics in the System Potassium-Sodium Niobate</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>1959</year>
+          <volume>42</volume>
+          <fpage>438</fpage>
+          <lpage>442</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1151-2916.1959.tb12971.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B52-actuators-05-00008">
+        <label>52.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saito</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Takao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tani</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nonoyama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takatori</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Homma</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nagaya</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lead-free Piezoceramics</article-title>
+          <source>Nature</source>
+          <year>2004</year>
+          <volume>432</volume>
+          <fpage>84</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature03028</pub-id>
+          <pub-id pub-id-type="pmid">15516921</pub-id>
+        </citation>
+      </ref>
+      <ref id="B53-actuators-05-00008">
+        <label>53.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kakimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ohsato</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dielectric and Piezoelectric Properties of Lead-free (Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub>-SrTiO<sub>3</sub> Ceramics</article-title>
+          <source>Solid State Commun.</source>
+          <year>2004</year>
+          <volume>129</volume>
+          <fpage>279</fpage>
+          <lpage>284</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ssc.2003.10.026</pub-id>
+        </citation>
+      </ref>
+      <ref id="B54-actuators-05-00008">
+        <label>54.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kakimoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ohsato</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>(Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub>-LiTaO<sub>3</sub> Lead-free Piezoelectric Ceramics</article-title>
+          <source>Mater. Lett.</source>
+          <year>2005</year>
+          <volume>59</volume>
+          <fpage>241</fpage>
+          <lpage>244</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matlet.2004.07.057</pub-id>
+        </citation>
+      </ref>
+      <ref id="B55-actuators-05-00008">
+        <label>55.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hollenstein</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Damjanovic</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Setter</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Piezoelectric Properties of Li- and Ta-modified (K<sub>0.5</sub>Na<sub>0.5</sub>)NbO<sub>3</sub> Ceramics</article-title>
+          <source>Appl. Phys. Lett.</source>
+          <year>2005</year>
+          <volume>87</volume>
+          <fpage>182905</fpage>
+          <pub-id pub-id-type="doi">10.1063/1.2123387</pub-id>
+        </citation>
+      </ref>
+      <ref id="B56-actuators-05-00008">
+        <label>56.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electromechanical Properties of NKN-5LT Multilayer Actuator</article-title>
+          <source>Adv. Mater. Res.</source>
+          <year>2007</year>
+          <volume>26&#x2013;28</volume>
+          <fpage>263</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/AMR.26-28.263</pub-id>
+        </citation>
+      </ref>
+      <ref id="B57-actuators-05-00008">
+        <label>57.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Jeon</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lead-free NKN-5LT Piezoelectric Materials for Multilayer Ceramic Actuator</article-title>
+          <source>J. Electroceramics</source>
+          <year>2009</year>
+          <volume>23</volume>
+          <fpage>372</fpage>
+          <lpage>375</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10832-008-9470-x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B58-actuators-05-00008">
+        <label>58.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Doshida</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mizuno</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Possibility of Cofiring a Nickel Inner Electrode in a (Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub>&#x2013;LiF Piezoelectric Actuator</article-title>
+          <source>Jpn. J. Appl. Phys.</source>
+          <year>2013</year>
+          <volume>52</volume>
+          <fpage>1</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="doi">10.7567/JJAP.52.09KD07</pub-id>
+        </citation>
+      </ref>
+      <ref id="B59-actuators-05-00008">
+        <label>59.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawada</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Higuchi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Takagi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>(K,Na)NbO<sub>3</sub>-Based Multilayer Piezoelectric Ceramics with Nickel Inner Electrodes</article-title>
+          <source>Appl. Phys. Express</source>
+          <year>2009</year>
+          <volume>2</volume>
+          <fpage>111401</fpage>
+          <pub-id pub-id-type="doi">10.1143/APEX.2.111401</pub-id>
+        </citation>
+      </ref>
+      <ref id="B60-actuators-05-00008">
+        <label>60.</label>
+        <citation citation-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawada</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ogiso</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Konoike</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takagi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of Nickel Inner Electrode Lead-free Piezoelectric Ceramics</article-title>
+          <source>Proceedings of the 2011 International Symposium on Applications of Ferroelectrics and 2011 International Symposium on Piezoresponse Force Microscopy and Nanoscale Phenomena in Polar Materials (ISAF/PFM)</source>
+          <conf-loc>Vancouver, BC, Canada</conf-loc>
+          <conf-date>24&#x2013;27 July 2011</conf-date>
+        </citation>
+      </ref>
+      <ref id="B61-actuators-05-00008">
+        <label>61.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancement of Piezoelectric Performance of Lead-Free NKN-Based Ceramics via A High-Performance Flux-NaF-Nb<sub>2</sub>O<sub>5</sub></article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2013</year>
+          <volume>96</volume>
+          <fpage>3120</fpage>
+          <lpage>3126</lpage>
+          <pub-id pub-id-type="doi">10.1111/jace.12461</pub-id>
+        </citation>
+      </ref>
+      <ref id="B62-actuators-05-00008">
+        <label>62.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Giant Piezoelectricity in Potassium-Sodium Niobate Lead-free Ceramics</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2014</year>
+          <volume>136</volume>
+          <fpage>2905</fpage>
+          <lpage>2910</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja500076h</pub-id>
+          <pub-id pub-id-type="pmid">24499419</pub-id>
+        </citation>
+      </ref>
+      <ref id="B63-actuators-05-00008">
+        <label>63.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Shrout</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Zang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of Lead Free (K<sub>0.5</sub>Na<sub>0.5</sub>)NbO<sub>3</sub>-LiSbO<sub>3</sub> Piezoceramic</article-title>
+          <source>Solid State Commun.</source>
+          <year>2007</year>
+          <volume>141</volume>
+          <fpage>675</fpage>
+          <lpage>679</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ssc.2007.01.007</pub-id>
+        </citation>
+      </ref>
+      <ref id="B64-actuators-05-00008">
+        <label>64.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>L&#xE9;v&#xEA;que</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Marchet</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Levassort</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tran-Huu-Hue</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Duclere</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lead Free (Li,Na,K)(Nb,Ta,Sb)O<sub>3</sub> Piezoelectric Ceramics: Influence of Sintering Atmosphere and ZrO<sub>2</sub> Doping on Densification, Microstructure and Piezoelectric Properties</article-title>
+          <source>J. Eur. Ceram. Soc.</source>
+          <year>2011</year>
+          <volume>31</volume>
+          <fpage>577</fpage>
+          <lpage>588</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jeurceramsoc.2010.10.031</pub-id>
+        </citation>
+      </ref>
+      <ref id="B65-actuators-05-00008">
+        <label>65.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matsubara</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sakamoto</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Kikuta</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yogo</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hirano</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Processing and Piezoelectric Properties of Lead-Free (K,Na) (Nb,Ta)O<sub>3</sub> Ceramics</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2005</year>
+          <volume>88</volume>
+          <fpage>1190</fpage>
+          <lpage>1196</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1551-2916.2005.00229.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B66-actuators-05-00008">
+        <label>66.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Doshida</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mizuno</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Route Forwards to Narrow the Performance Gap between PZT and Lead-free Piezoelectric Ceramic with Low Oxygen Partial Pressure Processed (Na<sub>0.5</sub>K<sub>0.5</sub>) NbO<sub>3</sub></article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2012</year>
+          <volume>95</volume>
+          <fpage>2928</fpage>
+          <lpage>2933</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1551-2916.2012.05266.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B67-actuators-05-00008">
+        <label>67.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mizuno</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Advantages of Low Partial Pressure of Oxygen Processing of Alkali Niobate: NaNbO<sub>3</sub></article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2014</year>
+          <volume>97</volume>
+          <fpage>1791</fpage>
+          <lpage>1796</lpage>
+          <pub-id pub-id-type="doi">10.1111/jace.12815</pub-id>
+        </citation>
+      </ref>
+      <ref id="B68-actuators-05-00008">
+        <label>68.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shigemi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wada</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enthalpy of Formation of Various Phases and Formation Energy of Point Defects in Perovskite-type NaNbO<sub>3</sub> by First-principles Calculation</article-title>
+          <source>Jpn. J. Appl. Phys.</source>
+          <year>2004</year>
+          <volume>43</volume>
+          <fpage>6793</fpage>
+          <lpage>6798</lpage>
+          <pub-id pub-id-type="doi">10.1143/JJAP.43.6793</pub-id>
+        </citation>
+      </ref>
+      <ref id="B69-actuators-05-00008">
+        <label>69.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shigemi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wada</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluations of Phases and Vacancy Formation Energies in KNbO<sub>3</sub> by First-Principles Calculation</article-title>
+          <source>Jpn. J. Appl. Physics</source>
+          <year>2005</year>
+          <volume>44</volume>
+          <fpage>8048</fpage>
+          <lpage>8054</lpage>
+          <pub-id pub-id-type="doi">10.1143/JJAP.44.8048</pub-id>
+        </citation>
+      </ref>
+      <ref id="B70-actuators-05-00008">
+        <label>70.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Huan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ceramic-Electrode inter-Diffusion of (K, Na)NbO<sub>3</sub>-Based Multilayer Ceramics with Ag<sub>0.7</sub>Pd<sub>0.3</sub> Electrode</article-title>
+          <source>J. Eur. Ceram. Soc.</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <fpage>389</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jeurceramsoc.2014.07.034</pub-id>
+        </citation>
+      </ref>
+      <ref id="B71-actuators-05-00008">
+        <label>71.</label>
+        <citation citation-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>New Opportunity in Alkali Niobate Ceramics Processed in Low Oxygen Partial Pressure</article-title>
+          <source>Proceedings of the Applications of Ferroelectrics held jointly with 2012 European Conference on the Applications of Polar Dielectrics and 2012 International Symp Piezoresponse Force Microscopy and Nanoscale Phenomena in Polar Materials (ISAF/ECAPD/PFM)</source>
+          <conf-loc>Aveiro, Portugal</conf-loc>
+          <conf-date>9&#x2013;13 July 2012</conf-date>
+        </citation>
+      </ref>
+      <ref id="B72-actuators-05-00008">
+        <label>72.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Base Metal Co-fired (Na, K)NbO<sub>3</sub> Structures with Enhanced Piezoelectric Performance</article-title>
+          <source>J. Electroceramics</source>
+          <year>2014</year>
+          <volume>32</volume>
+          <fpage>301</fpage>
+          <lpage>306</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10832-014-9899-z</pub-id>
+        </citation>
+      </ref>
+      <ref id="B73-actuators-05-00008">
+        <label>73.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sapper</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gassmann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gj&#xF8;dvad</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Granzow</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>R&#xF6;del</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cycling Stability of Lead-free BNT&#x2013;8BT and BNT&#x2013;6BT&#x2013;3KNN Multilayer Actuators and Bulk Ceramics</article-title>
+          <source>J. Eur. Ceram. Soc.</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <fpage>653</fpage>
+          <lpage>661</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jeurceramsoc.2013.09.006</pub-id>
+        </citation>
+      </ref>
+      <ref id="B74-actuators-05-00008">
+        <label>74.</label>
+        <citation citation-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yesner</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kuciej</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Safari</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Low Temperature Sintering of Bi<sub>0.5</sub>Na<sub>0.5</sub>TiO<sub>3</sub> Based Ceramics</article-title>
+          <source>Proceedings of the 2015 Joint IEEE International Symposium on the Applications of Ferroelectric, International Symposium on Integrated Functionalities and Piezoelectric Force Microscopy Workshop (ISAF/ISIF/PFM)</source>
+          <conf-loc>Singapore</conf-loc>
+          <conf-date>24&#x2013;27 May 2015</conf-date>
+          <fpage>21</fpage>
+          <lpage>23</lpage>
+        </citation>
+      </ref>
+      <ref id="B75-actuators-05-00008">
+        <label>75.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Calvert</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rhine</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Bowen</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Oxides on Binder Burnout during Ceramics Processing</article-title>
+          <source>J. Mater. Sci.</source>
+          <year>1989</year>
+          <volume>24</volume>
+          <fpage>1907</fpage>
+          <lpage>1912</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02385397</pub-id>
+        </citation>
+      </ref>
+      <ref id="B76-actuators-05-00008">
+        <label>76.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liau</surname>
+              <given-names>L.C.K.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>T.C.K.</given-names>
+            </name>
+            <name>
+              <surname>Viswanath</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanism of Degradation of Poly(Vinyl Butyral) Using Thermogravimetry/Fourier Transform Infrared Spectrometry</article-title>
+          <source>Polym. Eng. Sci.</source>
+          <year>1996</year>
+          <volume>36</volume>
+          <fpage>2589</fpage>
+          <lpage>2600</lpage>
+          <pub-id pub-id-type="doi">10.1002/pen.10659</pub-id>
+        </citation>
+      </ref>
+      <ref id="B77-actuators-05-00008">
+        <label>77.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liau</surname>
+              <given-names>L.C.K.</given-names>
+            </name>
+            <name>
+              <surname>Viswanath</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal Degradation of Poly (Vinyl Butyral)/ Ceramic Composites: A Kinetic Approach</article-title>
+          <source>Ind. Eng. Chem. Res.</source>
+          <year>1998</year>
+          <volume>37</volume>
+          <fpage>49</fpage>
+          <lpage>57</lpage>
+          <pub-id pub-id-type="doi">10.1021/ie970434b</pub-id>
+        </citation>
+      </ref>
+      <ref id="B78-actuators-05-00008">
+        <label>78.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salam</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Matthews</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Robertson</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pyrolysis of Polyvinyl Butyral (PVB) Binder in Thermoelectric Green Tapes</article-title>
+          <source>J. Eur. Ceram. Soc.</source>
+          <year>2000</year>
+          <volume>20</volume>
+          <fpage>1375</fpage>
+          <lpage>1383</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0955-2219(99)00236-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B79-actuators-05-00008">
+        <label>79.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Cannon</surname>
+              <given-names>W.R.</given-names>
+            </name>
+            <name>
+              <surname>Shanefield</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly(Vinyl Butyral) Pyrolysis: Interactions with Plasticizer and AIN Ceramic Powder</article-title>
+          <source>MRS Proc.</source>
+          <year>1991</year>
+          <volume>249</volume>
+          <fpage>377</fpage>
+          <lpage>382</lpage>
+          <pub-id pub-id-type="doi">10.1557/PROC-249-377</pub-id>
+        </citation>
+      </ref>
+      <ref id="B80-actuators-05-00008">
+        <label>80.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Cannon</surname>
+              <given-names>W.R.</given-names>
+            </name>
+            <name>
+              <surname>Shanefield</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal Decomposition Behaviour of Poly(Propylene Carbonate)</article-title>
+          <source>Ceram. Int.</source>
+          <year>1998</year>
+          <volume>24</volume>
+          <fpage>433</fpage>
+          <lpage>439</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0272-8842(97)00032-1</pub-id>
+        </citation>
+      </ref>
+      <ref id="B81-actuators-05-00008">
+        <label>81.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>S.-W.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hennig</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Demonstration of Copper Co-fired (Na, K)NbO<sub>3</sub> Multilayer Structures for Piezoelectric Applications</article-title>
+          <source>J. Am. Ceram. Soc.</source>
+          <year>2016</year>
+          <comment>in press</comment>
+        </citation>
+      </ref>
+      <ref id="B82-actuators-05-00008">
+        <label>82.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scott</surname>
+              <given-names>J.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ferroelectrics Go Bananas</article-title>
+          <source>J. Phys. Condens. Matter</source>
+          <year>2008</year>
+          <volume>20</volume>
+          <fpage>021001</fpage>
+          <pub-id pub-id-type="doi">10.1088/0953-8984/20/02/021001</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="actuators-05-00008-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>A schematic of processing steps toward multilayer piezoelectrics.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g001.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Ionic conductivity in a PZT-0.75%Nb buried capacitor measured over several days at 700 &#xB0;C. Loss of PbO causes the increasing conductivity over time. The increasing oxygen vacancies are due to PbO evaporation: Redrawn from [<xref ref-type="bibr" rid="B27-actuators-05-00008">27</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g002.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Standard Gibbs formation energy of oxides of Cu, Ni, and Pb, redrawn from [<xref ref-type="bibr" rid="B8-actuators-05-00008">8</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g003.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Real piezoelectric coefficients of the sintered PZT-SKN, redrawn from [<xref ref-type="bibr" rid="B38-actuators-05-00008">38</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g004.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>SEM image of multilayer sample with 3 wt% excess PbO [<xref ref-type="bibr" rid="B38-actuators-05-00008">38</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g005.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>TEM micrograph of (<bold>a</bold>) Cu-PZT interface, (<bold>b</bold>) triple points and grain boundaries near electrode [<xref ref-type="bibr" rid="B38-actuators-05-00008">38</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g006.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Strain-electric field curve of 0.96(K<sub>0.5</sub>Na<sub>0.5</sub>)NbO<sub>3</sub>-0.04CaZrO<sub>3</sub>+0.03Zr multilayer sample with nickel internal electrode, redrawn from [<xref ref-type="bibr" rid="B59-actuators-05-00008">59</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g007.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Piezoelectric coefficient d<sub>33</sub> of a NKN system as a function of applied <italic>ac</italic> field, and linear fitting with the Rayleigh equation, redrawn from [<xref ref-type="bibr" rid="B71-actuators-05-00008">71</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g008.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Surface micrograph of (<bold>a</bold>) low pO<sub>2</sub>&#x2013;sintered and (<bold>b</bold>) air-sintered pellets at 1050 &#xB0;C for 1 h.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g009.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>SEM Micrograph on (<bold>a</bold>) surface, (<bold>b</bold>) cross-section of Cu co-fired actuator, (<bold>c</bold>) EDS line scan on the cross-section of Cu co-fired actuator.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g010.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Cu-NKN MLCC (sintered at 1050 &#xB0;C). (<bold>a</bold>) The typical TEM micrograph of the grains; (<bold>b</bold>,<bold>c</bold>,<bold>d</bold>) Atomistic STEM images of the grain boundary and Cu/NKN interface, respectively.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g011.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>Ferroelectric hysteresis loop of Cu co-fired NKN actuator.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g012.tif"/>
+      </fig>
+      <fig id="actuators-05-00008-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>Unipolar electric field&#x2013;induced strain of Cu Co-fired NKN sample.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="actuators-05-00008-g013.tif"/>
+      </fig>
+      <table-wrap id="actuators-05-00008-t001" position="float">
+        <object-id pub-id-type="pii">actuators-05-00008-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Important properties of common metal electrode materials.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Metals</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Melting Point (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Resistivity (&#xD7;10<sup>&#x2212;8</sup> &#x3A9;&#xB7;m)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Young&#x2019;s Modulus (GPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Firing Atmosphere</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Price Ratio*</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Pt</td>
+              <td align="center" valign="middle">1768</td>
+              <td align="center" valign="middle">10.5</td>
+              <td align="center" valign="middle">168</td>
+              <td align="center" valign="middle">Air</td>
+              <td align="center" valign="middle">16390</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Ag</td>
+              <td align="center" valign="middle">961</td>
+              <td align="center" valign="middle">1.6</td>
+              <td align="center" valign="middle">83</td>
+              <td align="center" valign="middle">Air</td>
+              <td align="center" valign="middle">133</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cu</td>
+              <td align="center" valign="middle">1084</td>
+              <td align="center" valign="middle">1.7</td>
+              <td align="center" valign="middle">110</td>
+              <td align="center" valign="middle">Reducing</td>
+              <td align="center" valign="middle">1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Ni</td>
+              <td align="center" valign="middle">1453</td>
+              <td align="center" valign="middle">6.9</td>
+              <td align="center" valign="middle">200</td>
+              <td align="center" valign="middle">Reducing</td>
+              <td align="center" valign="middle">2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pd</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1552</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">121</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Air</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5930</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>* The price ratio is based on the price of the investment market, and is also normalized by the factor of mass density due to the consumption amount, based on volume in real applications. </p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="actuators-05-00008-t002" position="float">
+        <object-id pub-id-type="pii">actuators-05-00008-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Sintering aids, sintering temperatures, and properties of several lead-based piezoelectric materials.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sintering Aids (% Addition)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ceramic</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sintering Temperature (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>c</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B5;<sub>r</sub>/&#x3B5;<sub>0</sub> (RT)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">d<sub>33</sub> (pC/N)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                <mml:math id="mm8" display="block">
+                  <mml:semantics>
+                    <mml:mrow>
+                      <mml:msubsup>
+                        <mml:mi mathvariant="bold-italic">d</mml:mi>
+                        <mml:mrow>
+                          <mml:mn mathvariant="bold-italic">33</mml:mn>
+                        </mml:mrow>
+                        <mml:mo>*</mml:mo>
+                      </mml:msubsup>
+                    </mml:mrow>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula> (pm/V)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reference</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">LiBiO<sub>2</sub> (1 wt%) + CuO (0.06 wt%)</td>
+              <td align="center" valign="middle">PZT</td>
+              <td align="center" valign="middle">880</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">~1200</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Wang <italic>et al.</italic> [<xref ref-type="bibr" rid="B22-actuators-05-00008">22</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Li<sub>2</sub>CO<sub>3</sub> (0.2 wt%) + PbO (2 wt%)</td>
+              <td align="center" valign="middle">PZT with Sr, K, Nb</td>
+              <td align="center" valign="middle">900</td>
+              <td align="center" valign="middle">360</td>
+              <td align="center" valign="middle">1200</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">779</td>
+              <td align="center" valign="middle">Donnelly <italic>et al.</italic> [<xref ref-type="bibr" rid="B20-actuators-05-00008">20</xref>,<xref ref-type="bibr" rid="B21-actuators-05-00008">21</xref>,<xref ref-type="bibr" rid="B23-actuators-05-00008">23</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">BiFeO<sub>3</sub> (5 wt%) + Ba(Cu<sub>0.5</sub>W<sub>0.5</sub>)O<sub>3</sub> (3 wt%)</td>
+              <td align="center" valign="middle">PZT with 0.5 wt% MnO<sub>2</sub></td>
+              <td align="center" valign="middle">935</td>
+              <td align="center" valign="middle">290</td>
+              <td align="center" valign="middle">847</td>
+              <td align="center" valign="middle">201</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Kaneko <italic>et al.</italic> [<xref ref-type="bibr" rid="B24-actuators-05-00008">24</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3ZnO-CuO (3 wt%)</td>
+              <td align="center" valign="middle">PNN-PZT</td>
+              <td align="center" valign="middle">900</td>
+              <td align="center" valign="middle">200</td>
+              <td align="center" valign="middle">3900</td>
+              <td align="center" valign="middle">575</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Ahn <italic>et al.</italic> [<xref ref-type="bibr" rid="B25-actuators-05-00008">25</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LiBiO<sub>2</sub> (0.7 wt%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PMN-PZT and 5% Ba</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">950</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">290</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">~1000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">467</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hayashi <italic>et al.</italic> [<xref ref-type="bibr" rid="B26-actuators-05-00008">26</xref>]</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="actuators-05-00008-t003" position="float">
+        <object-id pub-id-type="pii">actuators-05-00008-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Properties, additives, and sintering temperatures of several NKN-based piezoelectric ceramics.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ceramics</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sintering Aid (mol%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sintering Temperature (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>c</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B5;<sub>r/&#x3B5;0</sub> (RT)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">d<sub>33</sub> (pC/N)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                <mml:math id="mm11" display="block">
+                  <mml:semantics>
+                    <mml:mrow>
+                      <mml:msubsup>
+                        <mml:mi mathvariant="bold-italic">d</mml:mi>
+                        <mml:mrow>
+                          <mml:mn mathvariant="bold">33</mml:mn>
+                        </mml:mrow>
+                        <mml:mo>*</mml:mo>
+                      </mml:msubsup>
+                    </mml:mrow>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula> pm/V</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reference</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">0.99((Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub>)-0.01(SrTiO<sub>3</sub>)</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1100</td>
+              <td align="center" valign="middle">344</td>
+              <td align="center" valign="middle">649</td>
+              <td align="center" valign="middle">90</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Guo <italic>et al.</italic> [<xref ref-type="bibr" rid="B53-actuators-05-00008">53</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">0.95((Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub>)-0.05LiTaO<sub>3</sub></td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1110</td>
+              <td align="center" valign="middle">420</td>
+              <td align="center" valign="middle">570</td>
+              <td align="center" valign="middle">200</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Guo <italic>et al.</italic> [<xref ref-type="bibr" rid="B54-actuators-05-00008">54</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">(Na<sub>0.47</sub>K<sub>0.47</sub>Li<sub>0.03</sub>)(Nb<sub>0.8</sub>Ta<sub>0.2</sub>)O<sub>3</sub></td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">~1100</td>
+              <td align="center" valign="middle">~310</td>
+              <td align="center" valign="middle">~1000</td>
+              <td align="center" valign="middle">190</td>
+              <td align="center" valign="middle">310 </td>
+              <td align="center" valign="middle">E. Hollenstein <italic>et al.</italic> [<xref ref-type="bibr" rid="B55-actuators-05-00008">55</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">0.95[(Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub>]-0.05LiTaO<sub>3</sub></td>
+              <td align="center" valign="middle">Li<sub>2</sub>O 1 mol%</td>
+              <td align="center" valign="middle">1000</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">~450</td>
+              <td align="center" valign="middle">250</td>
+              <td align="center" valign="middle">267</td>
+              <td align="center" valign="middle">Kim <italic>et al.</italic> [<xref ref-type="bibr" rid="B56-actuators-05-00008">56</xref>,<xref ref-type="bibr" rid="B57-actuators-05-00008">57</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">(Na<sub>0.5</sub>K<sub>0.5</sub>)NbO<sub>3</sub></td>
+              <td align="center" valign="middle">LiF 5 mol%</td>
+              <td align="center" valign="middle">1000</td>
+              <td align="center" valign="middle">456</td>
+              <td align="center" valign="middle">415</td>
+              <td align="center" valign="middle">138</td>
+              <td align="center" valign="middle">210 </td>
+              <td align="center" valign="middle">Kobayashi <italic>et al.</italic> [<xref ref-type="bibr" rid="B58-actuators-05-00008">58</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">0.96(K<sub>0.5</sub>Na<sub>0.5</sub>)NbO<sub>3</sub>-0.04CaZrO<sub>3</sub>+0.03Zr</td>
+              <td align="center" valign="middle">MnCO<sub>3</sub>5 mol%</td>
+              <td align="center" valign="middle">1080</td>
+              <td align="center" valign="middle">260</td>
+              <td align="center" valign="middle">1180</td>
+              <td align="center" valign="middle">160</td>
+              <td align="center" valign="middle">360</td>
+              <td align="center" valign="middle">Kawada <italic>et al.</italic> [<xref ref-type="bibr" rid="B59-actuators-05-00008">59</xref>,<xref ref-type="bibr" rid="B60-actuators-05-00008">60</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">0.02(NaF&#x2013;0.5Nb<sub>2</sub>O<sub>5</sub>)-0.98 [(Na<sub>0.5</sub>K<sub>0.5</sub>)(Nb<sub>0.8</sub>Ta<sub>0.2</sub>)O<sub>3</sub>]</td>
+              <td align="center" valign="middle">NaF</td>
+              <td align="center" valign="middle">1200</td>
+              <td align="center" valign="middle">296</td>
+              <td align="center" valign="middle">900</td>
+              <td align="center" valign="middle">140</td>
+              <td align="center" valign="middle">149</td>
+              <td align="center" valign="middle">Liu <italic>et al.</italic> [<xref ref-type="bibr" rid="B61-actuators-05-00008">61</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">0.96(K<sub>0.48</sub>Na<sub>0.52</sub>)(Nb<sub>0.96</sub>Sb<sub>0.05</sub>)O<sub>3</sub>-0.04Bi<sub>0.5</sub>(Na<sub>0.82</sub>K<sub>0.18</sub>)ZrO<sub>3</sub></td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1060&#x2013;1120</td>
+              <td align="center" valign="middle">227</td>
+              <td align="center" valign="middle">~2200</td>
+              <td align="center" valign="middle">490</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Wang <italic>et al</italic>. [<xref ref-type="bibr" rid="B62-actuators-05-00008">62</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(K<sub>0.5</sub>Na<sub>0.5</sub>)NbO<sub>3</sub>-LiSbO<sub>3</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1160</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">368</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1380</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">265</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Zhang <italic>et al.</italic> [<xref ref-type="bibr" rid="B63-actuators-05-00008">63</xref>]</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="actuators-05-00008-t004" position="float">
+        <object-id pub-id-type="pii">actuators-05-00008-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Values of electrical properties of Cu co-sintered NKN ceramics.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>c</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B5;<sub>r</sub> (1 kHz)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula>
+                <mml:math id="mm19" display="block">
+                  <mml:semantics>
+                    <mml:mrow>
+                      <mml:msubsup>
+                        <mml:mi mathvariant="bold-italic">d</mml:mi>
+                        <mml:mrow>
+                          <mml:mn mathvariant="bold-italic">33</mml:mn>
+                        </mml:mrow>
+                        <mml:mo>*</mml:mo>
+                      </mml:msubsup>
+                    </mml:mrow>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula> (pm/V) @ 20 kV/cm</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tan&#x3B4; (1 kHz)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E<sub>c</sub> (kV/cm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">P<sub>r</sub> (&#x3BC;C/cm<sup>2</sup>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">330</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">830</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">220</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.036</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.1</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="actuators-05-00008-t005" position="float">
+        <object-id pub-id-type="pii">actuators-05-00008-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Summary of important findings and progress on base metal co-firing for major piezoelectrics.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Materials</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Incompatible Metal Electrode</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Future Trend of Metal Electrodes</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Challenges</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Progress on Base-Metal Co-Firing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">PZT</td>
+              <td align="center" valign="middle">Ni</td>
+              <td align="center" valign="middle">Cu</td>
+              <td align="center" valign="middle">Binder, pO<sub>2</sub> control</td>
+              <td align="center" valign="middle">Production in EPCOS/TDK [<xref ref-type="bibr" rid="B40-actuators-05-00008">40</xref>] </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NBT</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Cu</td>
+              <td align="center" valign="middle">Binder burnout</td>
+              <td align="center" valign="middle">Pressed Cu with ceramic pellets [<xref ref-type="bibr" rid="B74-actuators-05-00008">74</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NKN</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cu</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Binder burnout</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cu co-fired prototyped multilayer actuators [<xref ref-type="bibr" rid="B81-actuators-05-00008">81</xref>]</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>
