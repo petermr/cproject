@@ -6,13 +6,10 @@ import java.util.Collections;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.filefilter.DirectoryFileFilter;
-import org.apache.commons.io.filefilter.FalseFileFilter;
-import org.apache.commons.io.filefilter.FileFilterUtils;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.eclipse.jetty.util.log.Log;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
 
