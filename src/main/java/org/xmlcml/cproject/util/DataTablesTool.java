@@ -99,7 +99,7 @@ public class DataTablesTool {
 	}
 
 	public void makeDataTableHead(HtmlHtml html) {
-		HtmlHead head = html.ensureHead();
+		HtmlHead head = html.getOrCreateHead();
 		head.addTitle(title);
 		head.addCSSStylesheetLink(JQUERY_DATA_TABLES_CSS);
 		head.addJavascriptLink(JQUERY_1_8_2_MIN_JS);
@@ -262,7 +262,7 @@ public class DataTablesTool {
 		makeDataTableHead(html);
 		HtmlDiv htmlDiv = new HtmlDiv();
 		htmlDiv.setClassAttribute(BS_EXAMPLE_TABLE_RESPONSIVE);
-		html.ensureBody().appendChild(htmlDiv);
+		html.getOrCreateBody().appendChild(htmlDiv);
 		htmlDiv.appendChild(table);
 		return html;
 	}
