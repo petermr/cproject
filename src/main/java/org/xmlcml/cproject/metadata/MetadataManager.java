@@ -57,7 +57,7 @@ public class MetadataManager  {
 	}
 
 	public RectangularTable readMetadataTable(File file, String key) throws IOException {
-		RectangularTable metadataTable = RectangularTable.readTable(file, true);
+		RectangularTable metadataTable = RectangularTable.readCSVTable(file, true);
 		ensureMetadataTableByType();
 		metadataTableByKey.put(key, metadataTable);
 		return metadataTable;

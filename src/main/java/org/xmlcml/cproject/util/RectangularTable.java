@@ -1,11 +1,11 @@
 package org.xmlcml.cproject.util;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -20,7 +20,9 @@ import org.apache.commons.csv.CSVRecord;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.cproject.metadata.MetadataManager;
+import org.xmlcml.html.HtmlTable;
+import org.xmlcml.html.HtmlTh;
+import org.xmlcml.html.HtmlTr;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
@@ -45,6 +47,10 @@ public class RectangularTable {
 	public RectangularTable() {
 	}
 	
+	public RectangularTable(List<String> header) {
+		this.header = header;
+	}
+	
     public RectangularTable(RectangularTable csvTable) {
     	this.header = new ArrayList<String>(csvTable.header);
     	this.rows = new ArrayList<List<String>>();
@@ -63,23 +69,23 @@ public class RectangularTable {
      * @return
      * @throws IOException
      */
-    public final static RectangularTable readTable(File file, boolean useHeader) throws IOException {
-    	return readTable(file, useHeader, CSVFormat.DEFAULT);
+    public final static RectangularTable readCSVTable(File file, boolean useHeader) throws IOException {
+    	return readCSVTable(file, useHeader, CSVFormat.DEFAULT);
     }
 
-    public final static RectangularTable readTable(File file, boolean useHeader, CSVFormat csvFormat) throws IOException {
+    public final static RectangularTable readCSVTable(File file, boolean useHeader, CSVFormat csvFormat) throws IOException {
     	if (file != null) {
         	String s = FileUtils.readFileToString(file);
         	if (s != null) {
         		StringReader reader = new StringReader(s);
-        		return readTable(reader, useHeader, csvFormat);
+        		return readCSVTable(reader, useHeader, csvFormat);
         	}
     	}
     	return null;
     }
     
-	public static RectangularTable readTable(Reader reader, boolean useHeader) throws IOException {
-		return readTable(reader, useHeader, CSVFormat.DEFAULT);
+	public static RectangularTable readCSVTable(Reader reader, boolean useHeader) throws IOException {
+		return readCSVTable(reader, useHeader, CSVFormat.DEFAULT);
 	}
 	
     /**
@@ -89,7 +95,7 @@ public class RectangularTable {
      * @return
      * @throws IOException
      */
-	public static RectangularTable readTable(Reader reader, boolean useHeader, CSVFormat csvFormat) throws IOException {
+	public static RectangularTable readCSVTable(Reader reader, boolean useHeader, CSVFormat csvFormat) throws IOException {
 		RectangularTable table = null;
 		int maxRowLength = 0;
 		if (reader != null) {
@@ -135,15 +141,12 @@ public class RectangularTable {
 
 	public void writeCsvFile(String filename) throws IOException {
 		if (filename != null) {
-		    File file = new File(filename);
-		    file.getParentFile().mkdirs();
-		    FileWriter fileWriter = new FileWriter(file);
-		    write(fileWriter);
-		    try {
-				fileWriter.flush();
-				fileWriter.close();
-		    } catch (Exception e) {
-		    	// 
+			try {
+			    File file = new File(filename);
+				String s = writeCSVString();
+			    FileUtils.writeStringToFile(file, s);
+		    } catch (IOException ee) {
+		    	LOG.debug("Could not write to: "+filename, ee);
 		    }
 		}
 	}
@@ -159,23 +162,70 @@ public class RectangularTable {
 	}
     
 
-	public void write(Appendable writer) throws IOException {
-		CSVPrinter csvFilePrinter = 
-				new CSVPrinter(writer, CSVFormat.DEFAULT.withRecordSeparator(NEW_LINE_SEPARATOR));
-		if (header != null) {
-			csvFilePrinter.printRecord(header);
-		}
-		if (rows != null) {
-		    for (int i = 0; i < rows.size(); i++) {
-		        List<String> row = rows.get(i);
-		        if (row == null) {
-		        	row = new ArrayList<String>();
-		        }
-		        csvFilePrinter.printRecord(row);
-		    }
-		}
-		csvFilePrinter.close();
-	}
+	public CSVPrinter write(Writer writer) throws IOException {
+		CSVPrinter csvFilePrinter = null;
+		try {
+			csvFilePrinter = 
+					new CSVPrinter(writer, CSVFormat.DEFAULT.withRecordSeparator(NEW_LINE_SEPARATOR).withQuote('\"'));
+			if (header != null) {
+				csvFilePrinter.printRecord(header);
+			}
+			if (rows != null) {
+			    for (int i = 0; i < rows.size(); i++) {
+			        List<String> row = rows.get(i);
+			        if (row == null) {
+			        	row = new ArrayList<String>();
+			        }
+			        csvFilePrinter.printRecord(row);
+			    }
+			}
+          writer.flush();
+          writer.close();
+        } catch (Exception e) {
+            throw new RuntimeException("failed to write CSV", e);
+        } finally {
+//            try {
+//                writer.flush();
+//                writer.close();
+//                if (csvFilePrinter != null) csvFilePrinter.close();
+//            } catch (IOException e) {
+//                throw new RuntimeException("failed to close/flush CSV", e);
+//            }
+        }
+		return csvFilePrinter;
+    }
+
+
+	public CSVPrinter write(Appendable writer) throws IOException {
+		CSVPrinter csvFilePrinter = null;
+		try {
+			csvFilePrinter = 
+					new CSVPrinter(writer, CSVFormat.DEFAULT.withRecordSeparator(NEW_LINE_SEPARATOR));
+			if (header != null) {
+				csvFilePrinter.printRecord(header);
+			}
+			if (rows != null) {
+			    for (int i = 0; i < rows.size(); i++) {
+			        List<String> row = rows.get(i);
+			        if (row == null) {
+			        	row = new ArrayList<String>();
+			        }
+			        csvFilePrinter.printRecord(row);
+			    }
+			}
+        } catch (Exception e) {
+            throw new RuntimeException("failed to write CSV", e);
+        } finally {
+            try {
+//                writer.flush();
+//                writer.close();
+                if (csvFilePrinter != null) csvFilePrinter.close();
+            } catch (IOException e) {
+                throw new RuntimeException("failed to close/flush CSV", e);
+            }
+        }
+		return csvFilePrinter;
+    }
 
 	public void createMultisetAndOutputRowsWithCounts(List<String> values, String filename) throws IOException {
 		Multiset<String> set = HashMultiset.create();
@@ -665,5 +715,28 @@ public class RectangularTable {
 		List<String> lines = getColumn(columnHeading);
 		FileUtils.writeLines(outputCsvFile, lines, "\n");
 	}
+	
+	public static RectangularTable createRectangularTable(HtmlTable table) {
+		HtmlTr tr = table.getSingleLeadingTrThChild();
+		List<String> header = tr == null ? null : tr.getThCellValues();
+		RectangularTable rectangularTable = new RectangularTable(header);
+		List<HtmlTr> trTdList = table.getTrTdRows();
+		for (HtmlTr trTd : trTdList) {
+			List<String> strings = trTd.getTdCellValues();
+			rectangularTable.addRow(strings);
+		}
+		return rectangularTable;
+	}
+
+	public static RectangularTable createRectangularTable(HtmlTable table, List<String> headers) {
+		RectangularTable rectangularTable = new RectangularTable(headers);
+		List<HtmlTr> trTdList = table.getTrTdRows();
+		for (HtmlTr trTd : trTdList) {
+			List<String> strings = trTd.getTdCellValues();
+			rectangularTable.addRow(strings);
+		}
+		return rectangularTable;
+	}
+
 
 }

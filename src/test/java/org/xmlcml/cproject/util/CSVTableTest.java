@@ -299,11 +299,11 @@ public class CSVTableTest {
 				"a5,d5,e5,,\n"+
 				"a1,d1,e1,b1,c1\n";
 		boolean useHeader = true;
-		RectangularTable table = RectangularTable.readTable(new StringReader(s), useHeader);
+		RectangularTable table = RectangularTable.readCSVTable(new StringReader(s), useHeader);
 		Assert.assertEquals(5, table.size());
 		Assert.assertEquals("[A, D, E, B, C]", table.getHeader().toString());
 		useHeader = false;
-		table = RectangularTable.readTable(new StringReader(s), useHeader);
+		table = RectangularTable.readCSVTable(new StringReader(s), useHeader);
 		Assert.assertEquals(6, table.size());
 		Assert.assertNull(table.getHeader());
 
@@ -318,7 +318,7 @@ public class CSVTableTest {
 				"a5,d5,e5,,\n"+
 				"a1,d1,e1,b1,c1\n";
 		boolean useHeader = true;
-		RectangularTable table = RectangularTable.readTable(new StringReader(s), useHeader);
+		RectangularTable table = RectangularTable.readCSVTable(new StringReader(s), useHeader);
 		List<String> oldNames = new ArrayList<String>(Arrays.asList(new String[]{"C", "A", "E"}));
 		List<String> newNames = new ArrayList<String>(Arrays.asList(new String[]{"c1", "a1", "e1"}));
 		boolean renamed = table.renameHeader(oldNames, newNames);
@@ -335,7 +335,7 @@ public class CSVTableTest {
 				"a5,d5,e5,,\n"+
 				"a1,d1,e1,b1,c1\n";
 		boolean useHeader = true;
-		RectangularTable table = RectangularTable.readTable(new StringReader(s), useHeader);
+		RectangularTable table = RectangularTable.readCSVTable(new StringReader(s), useHeader);
 		RectangularTable newTable = table.extractTable(new ArrayList<String>(Arrays.asList(new String[]{"D", "C", "A"})));
 		Assert.assertEquals("extracted", ""
 				+ "[D, C, A]\n"

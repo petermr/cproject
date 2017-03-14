@@ -31,7 +31,7 @@ public class MetadataManagerTest {
 		
 		CProject cProject = new CProject(CMineFixtures.GETPAPERS_SRC);
 		File inputCsvFile = new File(cProject.getDirectory(), "crossref_common.csv");
-		RectangularTable table = RectangularTable.readTable(inputCsvFile, true);
+		RectangularTable table = RectangularTable.readCSVTable(inputCsvFile, true);
 		List<String> col2 = table.getColumn(MetadataManager.DOI);
 		Assert.assertEquals(12141, col2.size());
 		Assert.assertEquals("col02", "10.1002/1873-3468.12075", col2.get(0));

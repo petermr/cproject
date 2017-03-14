@@ -183,7 +183,7 @@ public class CrossrefLongTest {
 		crossrefAnalyzer.writeCsvFile(csvFile);
 		Assert.assertTrue(csvFile.exists());
 		// check file
-		RectangularTable table = RectangularTable.readTable(csvFile, true);
+		RectangularTable table = RectangularTable.readCSVTable(csvFile, true);
 		Assert.assertEquals(12141, table.size());
 	}
 	
@@ -198,7 +198,7 @@ public class CrossrefLongTest {
 		Multiset<String> allDois = HashMultiset.create();
 		int i = 1;
 		File file = new File(CMineFixtures.GETPAPERS_NEW, "crossref_a_"+i+".csv");
-		RectangularTable table = RectangularTable.readTable(file, true);
+		RectangularTable table = RectangularTable.readCSVTable(file, true);
 		List<String> dois = table.getColumn(MetadataManager.DOI);
 		allDois.addAll(dois);
 		String doisS = CMineUtil.getEntriesSortedByCount(allDois).toString();

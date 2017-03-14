@@ -34,7 +34,7 @@ public class CrossrefCSVTest {
 	 */
 	@Test
 	public void testGetpapers() throws IOException {
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readCSVTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		Assert.assertEquals(12141, table.size());
 		Assert.assertEquals("[License, Title, DOI, Publisher, Prefix, Date, Keywords]", table.getHeader().toString());
 	}
@@ -46,7 +46,7 @@ public class CrossrefCSVTest {
 	@Test
 	public void testAnalyzeDOIColumn() throws IOException {
 		String colHead = "DOI";
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readCSVTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		List<String> columnValues = table.getColumn(table.getIndexOfColumn(colHead));
 		Assert.assertEquals(12141, columnValues.size());
 		List<Multiset.Entry<String>> multisetList = table.extractSortedMultisetList(colHead);
@@ -67,7 +67,7 @@ public class CrossrefCSVTest {
 
 	public void testAnalyzeLicenseColumn() throws IOException {
 		String colHead = "License";
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readCSVTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		List<String> columnValues = table.getColumn(table.getIndexOfColumn(colHead));
 		Assert.assertEquals(12141, columnValues.size());
 		List<Multiset.Entry<String>> multisetList = table.extractSortedMultisetList(colHead);
@@ -126,7 +126,7 @@ public class CrossrefCSVTest {
 	@Ignore //fails on test ordering
 	public void testAnalyzePublishers() throws IOException {
 		String colHead = "Publisher";
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
+		RectangularTable table = RectangularTable.readCSVTable(CMineFixtures.CROSSREF_SRC_A_1_CSV, true);
 		List<String> columnValues = table.getColumn(table.getIndexOfColumn(colHead));
 		Assert.assertEquals(12141, columnValues.size());
 		List<Multiset.Entry<String>> multisetList = table.extractSortedMultisetList(colHead);

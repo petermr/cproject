@@ -37,14 +37,14 @@ public class CrossrefQuickscrapeTest {
 
 	@Test
 	public void testMergeCrossrefQuickscrape() throws IOException {
-		RectangularTable tableQS = RectangularTable.readTable(CMineFixtures.QUICKSCRAPE20160601_CSV, true);
+		RectangularTable tableQS = RectangularTable.readCSVTable(CMineFixtures.QUICKSCRAPE20160601_CSV, true);
 		Assert.assertEquals(451, tableQS.size());
 		Assert.assertEquals("[filename_Q, URL_Q, Title_Q, Date_Q, PDFURL_Q, PDFfile_Q, HTMLURL_Q,"
 				+ " HTMLfile_Q, XMLURL_Q, XMLfile_Q, DOI, Publisher_Q, Volume_Q, AuthorList_Q, Issue_Q,"
 				+ " FirstPage_Q, Description_Q, Abstract_Q, Journal_Q, License_Q, Copyright_Q, ISSN_Q,"
 				+ " QuickscrapeMD_Q]", tableQS.getHeader().toString());
 
-		RectangularTable tableCR = RectangularTable.readTable(CMineFixtures.CROSSREF_SRC_20160601_CSV, true);
+		RectangularTable tableCR = RectangularTable.readCSVTable(CMineFixtures.CROSSREF_SRC_20160601_CSV, true);
 		Assert.assertEquals(18556, tableCR.size());
 		Assert.assertEquals("[URL, Title, Date, PDFURL, DownloadedPDF, HTMLURL, DownloadedHTML, XMLURL,"
 				+ " DownloadedXML, DOI, Publisher, Volume, AuthorList, Issue, FirstPage, Description,"

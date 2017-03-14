@@ -275,7 +275,7 @@ public class QuickscrapeMDTest {
 	
 	@Test
 	public void testAnalyzeCSV() throws IOException {
-		RectangularTable table = RectangularTable.readTable(CMineFixtures.QUICKSCRAPE20160601_CSV, true);
+		RectangularTable table = RectangularTable.readCSVTable(CMineFixtures.QUICKSCRAPE20160601_CSV, true);
 		Assert.assertEquals(451, table.size());
 		Assert.assertEquals("["
 				+ "filename_Q, URL_Q, Title_Q, Date_Q, PDFURL_Q, PDFfile_Q, HTMLURL_Q, HTMLfile_Q,"
