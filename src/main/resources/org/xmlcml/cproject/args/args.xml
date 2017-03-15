@@ -207,6 +207,26 @@
 		</help>
 	</arg>	
 			
+	<arg name="makeProject"
+		long="--makeProject"
+		args="fileFilter"
+		countRange="{1,1}"
+		parseMethod="parseMakeProject"
+		finalMethod="finalMakeProject"
+		>
+		<help>
+		Create a CProject from a set of files. Normally these will all be of the same type.
+		Example
+		<pre>
+		norma --project foo --fileFilter (.*).pdf --makeProject (\1)/fulltext.pdf 
+		</pre>
+		will take all child files of foo/ (e.g. a123.pdf, b345.pdf) and restructure as:
+		foo/a123/fulltext.pdf
+		foo/b123/fulltext.pdf
+		requires a --fileFilter to aggregate the files. Should only be used for homogeneous collection of files, i.i. not mixed types.
+		</help>
+	</arg>	
+			
 	<arg name="recursive"			
 		brief="-r"
 		long="--recursive"

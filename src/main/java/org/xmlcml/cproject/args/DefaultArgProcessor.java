@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import javax.xml.transform.Transformer;
@@ -207,6 +208,7 @@ public class DefaultArgProcessor {
 	private Level exceptionLevel;
 	protected Pattern fileFilterPattern;
 	private IOFileFilter ioFileFilter;
+	public String outputFileRegex;
 
 	protected List<ArgumentOption> getArgumentOptionList() {
 		return argumentOptionList;
@@ -370,6 +372,10 @@ public class DefaultArgProcessor {
 		LOG.trace("log file: "+logfileName);
 	}
 
+	public void parseMakeProject(ArgumentOption option, ArgIterator argIterator) {
+		outputFileRegex = argIterator.getString(option);
+	}
+
 	public void parseOutput(ArgumentOption option, ArgIterator argIterator) {
 		output = argIterator.getString(option);
 	}
@@ -481,6 +487,10 @@ public class DefaultArgProcessor {
 		finalFilterRoutine();
 	}
 
+	public void finalMakeProject(ArgumentOption option) {
+		finalMakeProject();
+	}
+
 	public void finalSummaryFile(ArgumentOption option) {
 		finalFilterRoutine();
 	}
@@ -527,6 +537,15 @@ public class DefaultArgProcessor {
 			outputDFCounts();
 		}
 	}
+	
+	private void finalMakeProject() {
+		if (fileFilterPattern == null) {
+			throw new RuntimeException("must have --fileFilter for makeProject");
+		}
+		moveFilesIntoMatchedFieldPattern(cProject.getDirectory(), fileFilterPattern, outputFileRegex);		
+	}
+
+
 
 	private void outputDFCounts() {
 		ResultsElement resultsElement = ResultsElement.getResultsElementSortedByCount(documentMultiset);
@@ -1339,5 +1358,58 @@ public class DefaultArgProcessor {
 				xPathProcessor = new XPathProcessor(tokens.get(0));
 			}
 		}
+
+	protected void moveFilesIntoMatchedFieldPattern(File directory, Pattern fileFilterPattern, String outputFileRegex) {
+		Pattern matchField = Pattern.compile("\\(\\\\\\d+\\)");
+		List<File> files = new RegexPathFilter(fileFilterPattern).listNonDirectoriesRecursively(directory);
+		for (File file : files) {
+			String inputPath;
+			try {
+				inputPath = file.getCanonicalPath();
+			} catch (IOException e) {
+				throw new RuntimeException("cannot canonicalize "+file, e);
+			}
+			Matcher inputMatcher = fileFilterPattern.matcher(inputPath);
+			if (!inputMatcher.matches()) {
+				throw new RuntimeException("BUG: "+fileFilterPattern+ "  should match "+inputPath);
+			}
+			String newFileName = replaceMatchingGroups(matchField, inputPath, inputMatcher, fileFilterPattern, outputFileRegex);
+			File newFile = new File(directory, newFileName);
+			LOG.trace(file+" ==> "+newFile);
+			if (!newFile.exists()) {
+				try {
+					FileUtils.moveFile(file, newFile);
+				} catch (IOException e) {
+					throw new RuntimeException("cannot moveFile "+file, e);
+				}
+			} else {
+				LOG.debug("skipped: "+file);
+			}
+		}
+	}
+
+	private String replaceMatchingGroups(Pattern matchField, String inputPath, Matcher inputMatcher, Pattern fileFilterPattern, String template) {
+		int idx = 0;
+		StringBuilder sb = new StringBuilder();
+		Matcher fieldMatcher = matchField.matcher(template);
+		LOG.trace(inputPath+"; "+fileFilterPattern+"; "+template);
+		while (fieldMatcher.find(idx)) {
+			int start = fieldMatcher.start();
+			String chunk = template.substring(idx, start);
+			LOG.trace("chunk "+chunk);
+			sb.append(chunk);
+			int end = fieldMatcher.end();
+			String groupS = template.substring(start + 2, end - 1);
+			LOG.trace("group "+groupS);
+			Integer group = Integer.parseInt(groupS);
+			if (group > inputMatcher.groupCount()) {
+				throw new RuntimeException("bad group match; cannot find "+groupS+" in "+inputPath);
+			}
+			sb.append(inputMatcher.group(group));
+			idx = end;
+		}
+		sb.append(template.substring(idx));
+		return sb.toString();
+	}
 
 }

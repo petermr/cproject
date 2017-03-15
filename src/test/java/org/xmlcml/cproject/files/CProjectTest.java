@@ -2,10 +2,12 @@ package org.xmlcml.cproject.files;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -15,7 +17,6 @@ import org.xmlcml.cproject.CMineFixtures;
 import org.xmlcml.cproject.args.DefaultArgProcessor;
 import org.xmlcml.cproject.metadata.AbstractMetadata;
 import org.xmlcml.cproject.util.CMineTestFixtures;
-import org.xmlcml.cproject.util.Utils;
 import org.xmlcml.html.HtmlElement;
 
 import com.google.common.collect.Multimap;
@@ -607,7 +608,19 @@ project2
 				"target/getpapers/doiNames/10.1103_physreve.93.022402"));
 	}
 	
-	
+	@Test
+	public void testMakeProject() {
+		File pdfDir = new File(CMineFixtures.TEST_FILES_DIR, "misc/pdfDir");
+		File targetDir = new File("target/makeproj/");
+		CMineTestFixtures.cleanAndCopyDir(pdfDir, targetDir);
+		List<File> files = new ArrayList<File>(FileUtils.listFiles(targetDir, new String[] {"pdf"}, false));
+		LOG.trace(files);
+		Assert.assertEquals(5, files.size());
+		Assert.assertTrue(files.toString().contains("target/makeproj/10.1007_s00213-016-4471-y.pdf"));
+		String cmd = "--project "+targetDir+" --makeProject (\\1)/fulltext.pdf --fileFilter .*/(.*)\\.pdf";
+		new CProject().run(cmd);
+		files = new ArrayList<File>(FileUtils.listFiles(targetDir, new String[] {"pdf"}, false));
+	}
 	
 
 	//==================================
