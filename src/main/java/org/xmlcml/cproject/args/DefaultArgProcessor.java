@@ -42,8 +42,14 @@ import org.xmlcml.cproject.files.ResultElement;
 import org.xmlcml.cproject.files.ResultsElement;
 import org.xmlcml.cproject.files.SnippetsTree;
 import org.xmlcml.cproject.lookup.DefaultStringDictionary;
+import org.xmlcml.euclid.Util;
+import org.xmlcml.html.HtmlA;
+import org.xmlcml.html.HtmlBody;
+import org.xmlcml.html.HtmlBr;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
+import org.xmlcml.html.HtmlH1;
+import org.xmlcml.html.HtmlHtml;
 import org.xmlcml.html.HtmlP;
 import org.xmlcml.xml.XMLUtil;
 
@@ -378,6 +384,10 @@ public class DefaultArgProcessor {
 		ensureProjectAndTreeFactory().createCTreeListFromProject();
 	}
 
+	public void parseProjectMenu(ArgumentOption option, ArgIterator argIterator) {
+		fileFilterPattern = Pattern.compile(argIterator.getString(option));
+	}
+
 	public void parseRecursive(ArgumentOption option, ArgIterator argIterator) {
 		recursive = argIterator.getBoolean(option);
 	}
@@ -429,6 +439,10 @@ public class DefaultArgProcessor {
 
 	public void runFilter(ArgumentOption option) {
 		filterCTree();
+	}
+
+	public void runProjectMenu(ArgumentOption option) {
+		createProjectMenu();
 	}
 
 	public void runSummaryFile(ArgumentOption option) {
@@ -538,6 +552,33 @@ public class DefaultArgProcessor {
 			cProject.outputProjectFilesTree(outputFile);
 		}
 	}
+	
+	private void createProjectMenu() {
+		File pDirectory = cProject.getDirectory();
+		List<File> files = new RegexPathFilter(fileFilterPattern).listNonDirectoriesRecursively(pDirectory);
+		HtmlHtml html = new HtmlHtml();
+		HtmlH1 h1 = new HtmlH1();
+		html.appendChild(h1);
+		h1.appendChild(pDirectory.toString());
+		HtmlBody body = html.getOrCreateBody();
+		for (File file : files) {
+//			String relative = Util.getRelativeFilename(file, pDirectory, null);
+			String relative = Util.getRelativeFilename(pDirectory, file, null);
+			HtmlA a = new HtmlA();
+			a.setHref(relative);
+			a.setContent(relative);
+			body.appendChild(a);
+			body.appendChild(new HtmlBr());
+		}
+		File outFile = new File(pDirectory, output);
+		try {
+			XMLUtil.debug(html, outFile, 1);
+		} catch (IOException e) {
+			throw new RuntimeException("cannot write menu", e);
+		}
+	}
+
+
 	
 	private void runSummaryModule() {
 		ensureDocumentMutiset();

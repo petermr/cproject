@@ -194,6 +194,19 @@
 		</help>
 	</arg>	
 			
+	<arg name="projectMenu"
+		long="--projectMenu"
+		args="fileFilter"
+		countRange="{1,1}"
+		parseMethod="parseProjectMenu"
+		runMethod="runProjectMenu"
+		>
+		<help>
+		Create a menu of files expended by fileFilter. Menu is of form
+		&lt;a href="file">file&lt;/a>
+		</help>
+	</arg>	
+			
 	<arg name="recursive"			
 		brief="-r"
 		long="--recursive"
