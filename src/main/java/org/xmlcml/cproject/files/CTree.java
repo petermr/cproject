@@ -147,6 +147,7 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	public static final String PPT      = "ppt";
 	public static final String PPTX     = "pptx";
 	public static final String SVG      = "svg";
+	public static final String TEI      = "tei";
 	public static final String TEX      = "tex";
 	public static final String TIF      = "tif";
 	public static final String TSV      = "tsv";
@@ -177,6 +178,8 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	public static final String FULLTEXT_PDF_PNG   = FULLTEXT+DOT+PDF+DOT+PNG;
 	public static final String FULLTEXT_PDF_SVG   = FULLTEXT+DOT+PDF+DOT+SVG;
 	public static final String FULLTEXT_PDF_TXT   = FULLTEXT+DOT+PDF+DOT+TXT;
+	public static final String FULLTEXT_TEI_HTML  = FULLTEXT+DOT+TEI+DOT+HTML;
+	public static final String FULLTEXT_TEI_XML   = FULLTEXT+DOT+TEI+DOT+XML;
 	public static final String FULLTEXT_TEX       = FULLTEXT+DOT+TEX;
 	public static final String FULLTEXT_TEX_HTML  = FULLTEXT+DOT+TEX+DOT+HTML;
 	public static final String FULLTEXT_TXT       = FULLTEXT+DOT+TXT;
@@ -278,6 +281,7 @@ public class CTree extends CContainer implements Comparable<CTree> {
 	public final static String EXPECTED = "expected";
 	public final static String IMAGES = "images";
 	public final static String SUPP_DATA = "suppData";
+	public final static String TABLES = "tables";
 	
 	public final static Pattern FULLTEXT_STAR = Pattern.compile("fulltext.*");
 	// messy
@@ -302,6 +306,8 @@ public class CTree extends CContainer implements Comparable<CTree> {
 		IMAGES,
 		RESULTS,
 		SUPP_DATA,
+		SVG,
+		TABLES,
 	};
 	
 	protected static final Pattern[] ALLOWED_DIR_PATTERNS = new Pattern[] {

@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
+import org.xmlcml.cproject.CProjectArgProcessor;
 import org.xmlcml.cproject.args.DefaultArgProcessor;
 
 public class CProjectUnzipTest {
@@ -26,7 +27,7 @@ public class CProjectUnzipTest {
 		copyToAndCleanOutDir(new File(CMineFixtures.TEST_MISC_DIR, "zips"));
 		String args = "-i fulltext.xml -o scholarly.html --project "+targetZips;
 		LOG.trace(args);
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 	}
@@ -36,7 +37,7 @@ public class CProjectUnzipTest {
 		copyToAndCleanOutDir(new File(CMineFixtures.TEST_MISC_DIR, "zips"));
 		String args = "-i fulltext.xml --unzip --include .*\\.XML --rename .*\\.XML fulltext.xml --project "+targetZips;
 		LOG.trace(args);
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 	}
@@ -46,7 +47,7 @@ public class CProjectUnzipTest {
 	public void testUnzipLarge() throws IOException {
 		copyToAndCleanOutDir(new File("../patents/I20150317/UTIL08979"));
 		String args = "-i fulltext.xml --unzip --include .*\\.XML --rename .*\\.XML fulltext.xml --project "+targetZips;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 	}

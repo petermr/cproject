@@ -2,12 +2,16 @@ package org.xmlcml.cproject.args;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.xmlcml.cproject.CProjectArgProcessor;
+import org.xmlcml.cproject.files.RegexPathFilter;
+import org.xmlcml.pom.PomList;
 
 public class DefaultArgProcessorTest {
 	
@@ -23,7 +27,7 @@ public class DefaultArgProcessorTest {
 			"-i", "foo", "bar",
 			"-o", "plugh",
 		};
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		Assert.assertEquals("input", 2, argProcessor.getInputList().size());
 		Assert.assertEquals("input", "foo", argProcessor.getInputList().get(0));
@@ -36,7 +40,7 @@ public class DefaultArgProcessorTest {
 		String[] args = {
 			"-i", "foo{1:3}bof", "bar{a|b|zzz}plugh", 
 		};
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		// correct
 		Assert.assertEquals("input", 2, argProcessor.getInputList().size());
@@ -60,7 +64,7 @@ public class DefaultArgProcessorTest {
 		String[] args = {
 			"-i", "foo{1:3}bof{3:6}plugh",
 		};
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		Assert.assertEquals("input", 1, argProcessor.getInputList().size());
 		Assert.assertEquals("input", "foo{1:3}bof{3:6}plugh", argProcessor.getInputList().get(0));
@@ -72,10 +76,10 @@ public class DefaultArgProcessorTest {
 	@Test
 	public void testArgCounts() {
 		String[] args = {"-o", "foo"};
-		new DefaultArgProcessor().parseArgs(args);
+		new CProjectArgProcessor().parseArgs(args);
 		try {
 			args = new String[]{"-o", "foo", "bar"};
-			new DefaultArgProcessor().parseArgs(args);
+			new CProjectArgProcessor().parseArgs(args);
 		} catch (Exception e) {
 			Assert.assertEquals("too many arguments", 
 					"cannot process argument: -o (IllegalArgumentException: --output; argument count (2) is not compatible with {1,1})",
@@ -87,20 +91,20 @@ public class DefaultArgProcessorTest {
 	@Ignore // too much debug output
 	public void testMakeDocs() {
 		String args = "--makedocs";
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 	}
 	
 	@Test
 	public void testVersion() {
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs("--version");
 	}
 	
 	@Test
 	public void testProject() {
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		try {
 			argProcessor.parseArgs("--project");
 			Assert.fail("should trap zero arguments");
@@ -108,14 +112,14 @@ public class DefaultArgProcessorTest {
 			// OK
 		}
 		
-		argProcessor = new DefaultArgProcessor();
+		argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs("--project foo");
 	}
 	
 	
 	@Test
 	public void testLog() throws IOException {
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		File targetFile = new File("target/test/log/");
 		targetFile.mkdirs();
 		// dummy file
@@ -127,11 +131,25 @@ public class DefaultArgProcessorTest {
 	@Test
 	@Ignore
 	public void testGetVersionNumber() {
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		VersionManager versionManager = argProcessor.getVersionManager();
 		Assert.assertEquals("version",  "xx", versionManager.getVersionNumber());
 		
 		
 	}
 	
+	@Test
+	public void testDependency() throws IOException {
+		File topDir = new File("../euclid/src/test/resources/org/xmlcml/pom") ;
+		if (!topDir.exists()) {
+			LOG.error("no file: " + topDir);
+			return;
+		}
+		LOG.debug(topDir.getCanonicalFile());
+		List<File> pomFiles = new RegexPathFilter(".*/pom\\.xml").listNonDirectoriesRecursively(topDir);
+		PomList pomList = new PomList(pomFiles);
+		LOG.debug(pomList.size());
+		String dottyString = pomList.createDottyString("cmpom");
+		FileUtils.write(new File("target/dotty/poms1.dot"), dottyString);
+	}
 }

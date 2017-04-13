@@ -408,7 +408,8 @@ public class ArgumentOption {
 				Method method = argProcessorClass.getMethod(parseMethodName, ArgumentOption.class, ArgIterator.class);
 				this.parseMethodName = parseMethodName;
 			} catch (NoSuchMethodException e) {
-				throw new RuntimeException("Non-existent method "+argProcessorClass+"; "+parseMethodName+" (edit ArgProcessor)", e);
+				LOG.error("methods: "+Arrays.asList(argProcessorClass.getMethods()));
+				throw new RuntimeException("Non-existent method "+argProcessorClass+"; "+parseMethodName+" (ArgumentOption.class, ArgIterator); please edit ArgProcessor)", e);
 			}
 		}
 	}

@@ -9,6 +9,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
+import org.xmlcml.cproject.CProjectArgProcessor;
 import org.xmlcml.cproject.lookup.DefaultStringDictionary;
 
 public class DictionaryTest {
@@ -20,7 +21,7 @@ public class DictionaryTest {
 
 	@Test
 	public void testDictionaries() throws IOException {
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		File targetFile = new File("target/test/log/");
 		targetFile.mkdirs();
 		// dummy file

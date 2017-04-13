@@ -11,14 +11,8 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
+import org.xmlcml.cproject.CProjectArgProcessor;
 import org.xmlcml.cproject.args.DefaultArgProcessor;
-import org.xmlcml.cproject.files.CProject;
-import org.xmlcml.cproject.files.CTree;
-import org.xmlcml.cproject.files.CTreeExplorer;
-import org.xmlcml.cproject.files.CTreeFiles;
-import org.xmlcml.cproject.files.CTreeList;
-import org.xmlcml.cproject.files.SnippetsTree;
-import org.xmlcml.cproject.files.XMLSnippets;
 import org.xmlcml.cproject.metadata.AbstractMetadata.Type;
 import org.xmlcml.cproject.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cproject.util.CMineTestFixtures;
@@ -57,7 +51,7 @@ public class CTreeTest {
 		File cTreeDirectory = new File(TEST_CREATE+"/test_pdf_1471_2148_14_70_pdf");
 		if (cTreeDirectory.exists()) FileUtils.forceDelete(cTreeDirectory);
 		String args = "-i "+CMineFixtures.TEST_MISC_DIR+"/test_pdf_1471-2148-14-70.pdf  -o target/testcreate/ --ctree";
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		Assert.assertTrue(cTreeDirectory.exists());
@@ -72,7 +66,7 @@ public class CTreeTest {
 		File targetProject1 = new File("target/projects/project1");
 		FileUtils.copyDirectory(project1, targetProject1);
 		String args = " --project "+targetProject1;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		CTreeList cTreeList = argProcessor.getCTreeList();
 		Assert.assertEquals("ctrees", 2, cTreeList.size());
@@ -94,7 +88,7 @@ public class CTreeTest {
 		Assert.assertFalse(outputDir.exists());
 		
 		String args = "-i "+inputDir+" -e pdf -o "+outputDir+" --ctree";
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		Assert.assertTrue(outputDir.exists());
 		File[] files = outputDir.listFiles();
@@ -124,7 +118,7 @@ public class CTreeTest {
 		Assert.assertFalse(projectDir.exists());
 		
 		String args = "-i "+inputDir+" -e pdf --project "+projectDir;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		Assert.assertTrue(projectDir.exists());
 		File[] files = projectDir.listFiles();
@@ -190,7 +184,7 @@ public class CTreeTest {
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/PMC4417228"), targetDir);
 		String output = "snippets.xml";
 		String args = " -q " + targetDir+" --filter file(**/fulltext.xml)xpath(//kwd) -o "+output;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		File snippetsFile = argProcessor.getOutputFile();
@@ -232,7 +226,7 @@ public class CTreeTest {
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project3/ctree1"), targetDir);
 		String output = "snippets.xml";
 		String args = " -q " + targetDir+" --filter file(**/results.xml)xpath(//result) -o "+output;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		CTree cTree = argProcessor.getCTree();
@@ -248,7 +242,7 @@ public class CTreeTest {
 		File targetDir = new File("target/patents/US08979/US08979000-20150317/");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_MISC_DIR, "patents/US08979/US08979000-20150317/"), targetDir);
 		String args = "-i scholarly.html --filter file(**/*) --ctree "+targetDir+" -o files.xml";
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		CTree cTree = argProcessor.getCTree();

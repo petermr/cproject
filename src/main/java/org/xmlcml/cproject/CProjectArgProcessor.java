@@ -69,7 +69,7 @@ public class CProjectArgProcessor extends DefaultArgProcessor {
 	private String cProject2Name;
 	private List<String> renameTreeOptions;
 	private String outUrlFilename;
-	private CTreeList cTreeList;
+//	private CTreeList cTreeList;
 	private boolean markEmpty;
 	private List<String> inUrls;
 	private boolean renamePDF;

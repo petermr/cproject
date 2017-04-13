@@ -14,6 +14,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
+import org.xmlcml.cproject.CProjectArgProcessor;
 import org.xmlcml.cproject.args.DefaultArgProcessor;
 import org.xmlcml.cproject.metadata.AbstractMetadata;
 import org.xmlcml.cproject.util.CMineTestFixtures;
@@ -245,7 +246,7 @@ public class CProjectTest {
 		File targetDir = new File("target/patents/US08979");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_MISC_DIR, "patents/US08979"), targetDir);
 		String args = "-i scholarly.html --project "+targetDir;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		CProject cProject = argProcessor.getCProject();
@@ -284,7 +285,7 @@ public class CProjectTest {
 		File targetDir = new File("target/patents/US08979");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_MISC_DIR, "patents/US08979"), targetDir);
 		String args = "--filter file(**/fulltext.xml)xpath(//description[heading[.='BACKGROUND']]/p[contains(.,'polymer')]) --project "+targetDir+" -o background.xml";
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 	}
@@ -295,7 +296,7 @@ public class CProjectTest {
 		File targetDir = new File("target/patents/US08979small");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_MISC_DIR, "patents/US08979small"), targetDir);
 		String args = "-i scholarly.html --filter file(**/*) --project "+targetDir+" --output cTreeList.xml";
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		CProject cProject = argProcessor.getCProject();
@@ -331,7 +332,7 @@ public class CProjectTest {
 		File targetDir = new File("target/patents/US08979small");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_MISC_DIR, "patents/US08979small"), targetDir);
 		String args = "--filter file(**/fulltext.xml)xpath(//country) --project "+targetDir+" --output country.xml";
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		File outputFile = new File(targetDir, "country.xml");
@@ -356,7 +357,7 @@ public class CProjectTest {
 		File targetDir = new File("target/patents/US08979");
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_MISC_DIR, "patents/US08979"), targetDir);
 		String args = "--filter file(**/*) --project "+targetDir;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		CProject cProject = argProcessor.getCProject();
@@ -485,7 +486,7 @@ project2
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/"), targetDir);
 		String output = "snippets.xml";
 		String args = " --project " + targetDir+" --filter file(**/fulltext.xml)xpath(//title[starts-with(.,'Data')]) -o "+output;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		
@@ -537,7 +538,7 @@ project2
 		CMineTestFixtures.cleanAndCopyDir(new File(CMineFixtures.TEST_PROJECTS_DIR, "project2/"), targetDir);
 		String output = "snippets.xml";
 		String args = " --project " + targetDir+" --filter file(**/results.xml)xpath(//result) -o "+output;
-		DefaultArgProcessor argProcessor = new DefaultArgProcessor();
+		DefaultArgProcessor argProcessor = new CProjectArgProcessor();
 		argProcessor.parseArgs(args);
 		argProcessor.runAndOutput();
 		Assert.assertEquals("trees", 3,  argProcessor.getCTreeList().size());

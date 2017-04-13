@@ -138,6 +138,7 @@ public class DefaultArgProcessor {
 	public final static String H = "-h";
 	public final static String HELP = "--help";
 	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cproject/args";
+//	private static String RESOURCE_NAME_TOP = "/org/xmlcml/cproject";
 	private static String AMI_DICTIONARY_RESOURCE = "/org/xmlcml/ami2/plugins/dictionary/";
 	protected static final String ARGS_XML = "args.xml";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+ARGS_XML;
@@ -478,9 +479,20 @@ public class DefaultArgProcessor {
 		outputFilterRoutine();
 	}
 
+	// ============= FINAL =============
+	
+
 	public void finalAnalysis(ArgumentOption option) {
 		LOG.warn("DEPRECATED: use --filter");
 		finalFilterRoutine();
+	}
+
+	public void finalDependency(ArgumentOption option) {
+		finalDependency();
+	}
+
+	public void finalDFFile(ArgumentOption option) {
+		finalDFRoutine();
 	}
 
 	public void finalFilter(ArgumentOption option) {
@@ -493,10 +505,6 @@ public class DefaultArgProcessor {
 
 	public void finalSummaryFile(ArgumentOption option) {
 		finalFilterRoutine();
-	}
-
-	public void finalDFFile(ArgumentOption option) {
-		finalDFRoutine();
 	}
 
 	// =====================================
@@ -532,6 +540,15 @@ public class DefaultArgProcessor {
 		}
 	}
 
+	private void finalDependency() {
+		if (inputDirName == null) {
+			LOG.error("dependencyGraph requires --inputDir");
+		} else {
+			LOG.debug("dependemcies in: "+inputDirName);
+			LOG.error("NYI");
+		}
+	}
+	
 	private void finalDFRoutine() {
 		if (dfFileName != null) {
 			outputDFCounts();
@@ -1281,6 +1298,9 @@ public class DefaultArgProcessor {
 	}
 
 	public List<DefaultStringDictionary> getDictionaryList() {
+		if (dictionaryList == null) {
+			dictionaryList = new ArrayList<DefaultStringDictionary>();
+		}
 		return dictionaryList;
 	}
 
@@ -1410,6 +1430,25 @@ public class DefaultArgProcessor {
 		}
 		sb.append(template.substring(idx));
 		return sb.toString();
+	}
+
+	/** messy - refactor - creates directory.
+	 * 
+	 * @return
+	 */
+	protected File getOrCreateOutputDirectory() {
+		File outputDir = null;
+		if (output != null) {
+			outputDir = new File(output);
+			if (outputDir.exists()) {
+				if (!outputDir.isDirectory()) {
+					throw new RuntimeException("cTreeRoot "+outputDir+" must be a directory");
+				}
+			} else {
+				outputDir.mkdirs();
+			}
+		}
+		return outputDir;
 	}
 
 }

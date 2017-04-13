@@ -72,7 +72,7 @@ public class DataTablesTool {
 	private HtmlTd footerCaption;
 	private String rowLabelId;
 
-	private DataTablesTool() {
+	public DataTablesTool() {
 		this.setTableId(RESULTS);
 		setDefaults();
 	}

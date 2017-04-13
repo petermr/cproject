@@ -5,9 +5,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <properties>
-       <cproject.version>0.3.8</cproject.version>
+       <cproject.version>0.4.0</cproject.version>
        <!--  upstream -->
-       <svg2xml.version>2.0.8</svg2xml.version>
+       <svg2xml.version>2.1.0</svg2xml.version>
     </properties>
 
 
