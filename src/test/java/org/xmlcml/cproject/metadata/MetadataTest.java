@@ -16,7 +16,6 @@ import org.xmlcml.cproject.CMineFixtures;
 import org.xmlcml.cproject.files.CProject;
 import org.xmlcml.cproject.files.CTree;
 import org.xmlcml.cproject.files.CTreeList;
-import org.xmlcml.cproject.metadata.AbstractMetadata;
 import org.xmlcml.cproject.metadata.AbstractMetadata.Type;
 import org.xmlcml.cproject.metadata.crossref.CrossrefMD;
 import org.xmlcml.cproject.metadata.quickscrape.QuickscrapeMD;
@@ -24,7 +23,6 @@ import org.xmlcml.cproject.util.CMineUtil;
 import org.xmlcml.cproject.util.RectangularTable;
 
 import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

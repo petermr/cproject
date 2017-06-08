@@ -2,7 +2,6 @@ package org.xmlcml.cproject.metadata.quickscrape;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.cproject.metadata.crossref.CrossrefAnalyzer;
 
 /** this is not an actual downloader as we can't call Node from Java.
  * 

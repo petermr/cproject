@@ -1,6 +1,5 @@
 package org.xmlcml.cproject.metadata;
 
-import org.xmlcml.cproject.metadata.AbstractMetadata.Type;
 import org.xmlcml.cproject.metadata.crossref.CrossrefDownloader;
 
 public class DownloadFilter {

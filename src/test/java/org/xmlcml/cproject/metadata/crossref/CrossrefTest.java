@@ -23,8 +23,6 @@ import org.xmlcml.cproject.metadata.AbstractCM;
 import org.xmlcml.cproject.metadata.CMDOI;
 import org.xmlcml.cproject.metadata.CMURL;
 import org.xmlcml.cproject.metadata.DOIResolver;
-import org.xmlcml.cproject.metadata.crossref.CrossrefDownloader;
-import org.xmlcml.cproject.metadata.crossref.CrossrefMD;
 import org.xmlcml.cproject.util.CMineUtil;
 import org.xmlcml.cproject.util.RectangularTable;
 

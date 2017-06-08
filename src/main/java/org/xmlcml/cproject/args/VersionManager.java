@@ -1,8 +1,8 @@
 package org.xmlcml.cproject.args;
 
-import nu.xom.Element;
-
 import org.apache.log4j.Logger;
+
+import nu.xom.Element;
 
 /** this isn't working properly.
  * The class hierarchy and containment hierarchy are muddled, so

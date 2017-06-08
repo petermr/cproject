@@ -2,7 +2,6 @@ package org.xmlcml.cproject.util;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.sql.PseudoColumnUsage;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

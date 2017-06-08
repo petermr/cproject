@@ -6,11 +6,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
@@ -26,8 +23,6 @@ import org.xmlcml.cproject.metadata.AbstractMDAnalyzer;
 import org.xmlcml.cproject.metadata.AbstractMetadata;
 import org.xmlcml.cproject.metadata.MetadataManager;
 import org.xmlcml.cproject.metadata.MetadataObjects;
-import org.xmlcml.cproject.metadata.crossref.CrossrefAnalyzer;
-import org.xmlcml.cproject.metadata.crossref.CrossrefDownloader;
 import org.xmlcml.cproject.util.CMineUtil;
 import org.xmlcml.cproject.util.RectangularTable;
 

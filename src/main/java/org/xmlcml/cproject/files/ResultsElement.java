@@ -7,12 +7,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import nu.xom.Attribute;
-import nu.xom.Document;
-import nu.xom.Element;
-import nu.xom.Node;
-import nu.xom.Text;
-
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cproject.lookup.AbstractLookup;
@@ -20,6 +14,12 @@ import org.xmlcml.cproject.util.CMineUtil;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.Multiset;
+
+import nu.xom.Attribute;
+import nu.xom.Document;
+import nu.xom.Element;
+import nu.xom.Node;
+import nu.xom.Text;
 
 /** a container for ResultElement's.
  * 

@@ -1,7 +1,6 @@
 package org.xmlcml.cproject.args;
 
 import java.lang.reflect.Method;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -12,14 +11,14 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import nu.xom.Attribute;
-import nu.xom.Element;
-
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.IntRange;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Attribute;
+import nu.xom.Element;
 
 /** simple option for controlling arguments.
  * 
@@ -368,8 +367,15 @@ public class ArgumentOption {
 
 	public String getHelp() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("\n"+brief);
-		sb.append(" or "+verbose+" ");
+		boolean isBrief = !("".equals(brief.trim()));
+		boolean isVerbose = !("".equals(verbose.trim()));
+		sb.append("\n");
+//		if (isBrief) sb.append(SysoutStyle.wrap(brief, SysoutStyle.BOLD));
+//		if (isBrief && isVerbose) sb.append(" or ");
+//		if (isVerbose) sb.append(SysoutStyle.wrap(verbose, SysoutStyle.BOLD));
+		if (isBrief) sb.append(brief);
+		if (isBrief && isVerbose) sb.append(" or ");
+		if (isVerbose) sb.append(verbose);
 	    if (args.trim().length() > 0) {
 	    	sb.append(" "+args);
 	    }

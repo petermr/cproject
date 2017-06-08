@@ -12,8 +12,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
 import org.xmlcml.cproject.files.CProject;
-import org.xmlcml.cproject.metadata.AbstractMetadata;
-import org.xmlcml.cproject.metadata.ProjectAnalyzer;
 
 import com.google.common.collect.Multiset;
 

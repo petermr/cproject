@@ -13,7 +13,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
-import org.xmlcml.cproject.files.CTree;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

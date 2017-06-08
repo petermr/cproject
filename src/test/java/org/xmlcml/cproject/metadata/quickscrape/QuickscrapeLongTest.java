@@ -20,7 +20,6 @@ import org.xmlcml.cproject.files.CTree;
 import org.xmlcml.cproject.metadata.AbstractMDAnalyzer;
 import org.xmlcml.cproject.metadata.AbstractMetadata;
 import org.xmlcml.cproject.metadata.crossref.CrossrefMD;
-import org.xmlcml.cproject.metadata.quickscrape.QuickscrapeAnalyzer;
 import org.xmlcml.cproject.util.CMineUtil;
 import org.xmlcml.cproject.util.RectangularTable;
 

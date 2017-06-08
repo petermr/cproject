@@ -1,15 +1,10 @@
 package org.xmlcml.cproject.args.log;
 
 import java.io.ByteArrayOutputStream;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.List;
-
-import nu.xom.Attribute;
-import nu.xom.Element;
-import nu.xom.Node;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
@@ -17,6 +12,10 @@ import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.joda.time.Interval;
 import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Attribute;
+import nu.xom.Element;
+import nu.xom.Node;
 
 
 public class AbstractLogElement extends Element {

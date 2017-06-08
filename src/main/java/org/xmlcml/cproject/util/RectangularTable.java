@@ -21,7 +21,6 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.html.HtmlTable;
-import org.xmlcml.html.HtmlTh;
 import org.xmlcml.html.HtmlTr;
 
 import com.google.common.collect.HashMultiset;

@@ -11,7 +11,6 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
-import org.xmlcml.cproject.metadata.MetadataManager;
 import org.xmlcml.cproject.util.RectangularTable;
 
 /** combines Crossref and Quickscrape metadata

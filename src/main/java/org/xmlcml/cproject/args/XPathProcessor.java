@@ -1,10 +1,10 @@
 package org.xmlcml.cproject.args;
 
-import nu.xom.Element;
-
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Element;
 
 public class XPathProcessor {
 

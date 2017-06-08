@@ -6,7 +6,6 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
-import org.xmlcml.cproject.metadata.bibjson.BibJSON;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;

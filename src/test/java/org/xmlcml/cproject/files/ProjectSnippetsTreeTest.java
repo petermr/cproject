@@ -8,8 +8,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
-import org.xmlcml.cproject.files.ProjectSnippetsTree;
-import org.xmlcml.cproject.files.SnippetsTree;
 import org.xmlcml.cproject.util.CMineTestFixtures;
 
 public class ProjectSnippetsTreeTest {

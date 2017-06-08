@@ -7,8 +7,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
-import org.xmlcml.cproject.files.CContainer;
-import org.xmlcml.cproject.files.CProject;
 import org.xmlcml.cproject.metadata.AbstractMetadata.Type;
 
 public class CContainerTest {

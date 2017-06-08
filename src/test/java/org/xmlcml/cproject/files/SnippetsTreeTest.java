@@ -10,7 +10,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.cproject.CMineFixtures;
-import org.xmlcml.cproject.files.SnippetsTree;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;

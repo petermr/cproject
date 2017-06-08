@@ -6,13 +6,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.cproject.files.CTree;
 import org.xmlcml.cproject.metadata.crossref.CRPerson;
 import org.xmlcml.cproject.util.CMineUtil;
 import org.xmlcml.cproject.util.RectangularTable;

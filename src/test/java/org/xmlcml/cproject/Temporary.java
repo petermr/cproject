@@ -1,15 +1,5 @@
 package org.xmlcml.cproject;
 
-import java.io.File;
-import java.io.IOException;
-
-import org.junit.Assert;
-import org.junit.Ignore;
-import org.junit.Test;
-import org.xmlcml.cproject.files.CProject;
-import org.xmlcml.cproject.util.CMineTestFixtures;
-import org.xmlcml.cproject.util.Utils;
-
 public class Temporary {
 
 	/** RENAME rename directory 

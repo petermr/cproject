@@ -15,8 +15,6 @@ import org.xmlcml.cproject.CMineFixtures;
 import org.xmlcml.cproject.files.CProject;
 import org.xmlcml.cproject.files.CTree;
 import org.xmlcml.cproject.files.CTreeList;
-import org.xmlcml.cproject.metadata.AbstractMetadata;
-import org.xmlcml.cproject.metadata.MetadataManager;
 import org.xmlcml.cproject.metadata.crossref.CrossrefMD;
 import org.xmlcml.cproject.util.RectangularTable;
 
