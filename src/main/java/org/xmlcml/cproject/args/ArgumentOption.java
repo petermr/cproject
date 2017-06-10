@@ -15,6 +15,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.IntRange;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.euclid.util.StyledText.SysoutStyle;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Attribute;
@@ -371,8 +372,10 @@ public class ArgumentOption {
 		boolean isVerbose = !("".equals(verbose.trim()));
 		sb.append("\n");
 //		if (isBrief) sb.append(SysoutStyle.wrap(brief, SysoutStyle.BOLD));
-//		if (isBrief && isVerbose) sb.append(" or ");
+		if (isBrief) sb.append(brief);
+		if (isBrief && isVerbose) sb.append(" or ");
 //		if (isVerbose) sb.append(SysoutStyle.wrap(verbose, SysoutStyle.BOLD));
+		if (isVerbose) sb.append(verbose);
 		if (isBrief) sb.append(brief);
 		if (isBrief && isVerbose) sb.append(" or ");
 		if (isVerbose) sb.append(verbose);
