@@ -1074,7 +1074,7 @@ public class DefaultArgProcessor {
 			} catch (IllegalArgumentException ee) {
 				throw ee;
 			} catch (Exception e) {
-				LOG.debug("option in exception "+option.toString());
+				LOG.debug(" exception in option: "+option.toString());
 //				e.printStackTrace();
 				throw new RuntimeException("cannot run ["+methodName+"] in "+option.getVerbose()+
 						" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
