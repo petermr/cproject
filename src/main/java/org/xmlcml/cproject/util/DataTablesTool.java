@@ -5,22 +5,22 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.html.HtmlA;
-import org.xmlcml.html.HtmlBody;
-import org.xmlcml.html.HtmlButton;
-import org.xmlcml.html.HtmlDiv;
-import org.xmlcml.html.HtmlElement;
-import org.xmlcml.html.HtmlElement.Target;
-import org.xmlcml.html.HtmlHead;
-import org.xmlcml.html.HtmlHtml;
-import org.xmlcml.html.HtmlScript;
-import org.xmlcml.html.HtmlTable;
-import org.xmlcml.html.HtmlTbody;
-import org.xmlcml.html.HtmlTd;
-import org.xmlcml.html.HtmlTfoot;
-import org.xmlcml.html.HtmlTh;
-import org.xmlcml.html.HtmlThead;
-import org.xmlcml.html.HtmlTr;
+import org.xmlcml.graphics.html.HtmlA;
+import org.xmlcml.graphics.html.HtmlBody;
+import org.xmlcml.graphics.html.HtmlButton;
+import org.xmlcml.graphics.html.HtmlDiv;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlElement.Target;
+import org.xmlcml.graphics.html.HtmlHead;
+import org.xmlcml.graphics.html.HtmlHtml;
+import org.xmlcml.graphics.html.HtmlScript;
+import org.xmlcml.graphics.html.HtmlTable;
+import org.xmlcml.graphics.html.HtmlTbody;
+import org.xmlcml.graphics.html.HtmlTd;
+import org.xmlcml.graphics.html.HtmlTfoot;
+import org.xmlcml.graphics.html.HtmlTh;
+import org.xmlcml.graphics.html.HtmlThead;
+import org.xmlcml.graphics.html.HtmlTr;
 
 public class DataTablesTool {
 

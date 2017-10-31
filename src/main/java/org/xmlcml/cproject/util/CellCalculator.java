@@ -2,8 +2,8 @@ package org.xmlcml.cproject.util;
 
 import java.util.List;
 
-import org.xmlcml.html.HtmlElement;
-import org.xmlcml.html.HtmlTr;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlTr;
 
 public interface CellCalculator {
 

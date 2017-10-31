@@ -26,9 +26,9 @@ import org.xmlcml.cproject.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cproject.util.CMineGlobber;
 import org.xmlcml.cproject.util.CMineUtil;
 import org.xmlcml.cproject.util.XMLUtils;
-import org.xmlcml.html.HtmlElement;
-import org.xmlcml.html.HtmlFactory;
-import org.xmlcml.html.HtmlHtml;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlFactory;
+import org.xmlcml.graphics.html.HtmlHtml;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultimap;

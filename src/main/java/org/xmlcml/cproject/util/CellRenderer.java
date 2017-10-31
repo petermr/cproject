@@ -1,12 +1,13 @@
 package org.xmlcml.cproject.util;
 
+
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.cproject.files.PluginOption;
-import org.xmlcml.html.HtmlA;
-import org.xmlcml.html.HtmlElement;
-import org.xmlcml.html.HtmlElement.Target;
-import org.xmlcml.html.HtmlSpan;
+import org.xmlcml.graphics.html.HtmlA;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlElement.Target;
+import org.xmlcml.graphics.html.HtmlSpan;
 
 import nu.xom.Attribute;
 

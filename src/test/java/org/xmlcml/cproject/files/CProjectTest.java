@@ -18,7 +18,7 @@ import org.xmlcml.cproject.CProjectArgProcessor;
 import org.xmlcml.cproject.args.DefaultArgProcessor;
 import org.xmlcml.cproject.metadata.AbstractMetadata;
 import org.xmlcml.cproject.util.CMineTestFixtures;
-import org.xmlcml.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlElement;
 
 import com.google.common.collect.Multimap;
 

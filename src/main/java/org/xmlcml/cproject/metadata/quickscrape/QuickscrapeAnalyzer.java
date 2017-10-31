@@ -9,7 +9,7 @@ import org.xmlcml.cproject.files.CProject;
 import org.xmlcml.cproject.files.CTree;
 import org.xmlcml.cproject.files.CTreeList;
 import org.xmlcml.cproject.metadata.AbstractMDAnalyzer;
-import org.xmlcml.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.HashMultiset;

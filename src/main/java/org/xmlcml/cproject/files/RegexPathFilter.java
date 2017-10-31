@@ -63,6 +63,7 @@ public class RegexPathFilter implements IOFileFilter {
 	 * (I cannot get FileUtils, etc to process this consistently)
 	 */
 	public List<File> listFilesAndDirsRecursively(File directory, boolean includeFiles, boolean includeDirs) {
+//		Iterator<File> iterator = FileUtils.list
 		Iterator<File> iterator = FileUtils.listFilesAndDirs(directory, TrueFileFilter.TRUE, TrueFileFilter.TRUE).iterator();
 		List<File> files = new ArrayList<File>();
 		while (iterator.hasNext()) {

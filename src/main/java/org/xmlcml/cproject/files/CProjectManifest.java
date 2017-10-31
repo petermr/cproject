@@ -1,6 +1,6 @@
 package org.xmlcml.cproject.files;
 
-import org.xmlcml.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlElement;
 
 public class CProjectManifest extends CManifest {
 

@@ -18,7 +18,7 @@ import org.xmlcml.cproject.metadata.crossref.CrossrefMD;
 import org.xmlcml.cproject.metadata.epmc.EpmcMD;
 import org.xmlcml.cproject.metadata.quickscrape.QuickscrapeMD;
 import org.xmlcml.cproject.util.CMineUtil;
-import org.xmlcml.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.ArrayListMultimap;

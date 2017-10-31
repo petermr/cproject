@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Assert;
-import org.xmlcml.html.HtmlElement;
-import org.xmlcml.html.HtmlTable;
-import org.xmlcml.html.HtmlTh;
-import org.xmlcml.html.HtmlTr;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlTable;
+import org.xmlcml.graphics.html.HtmlTh;
+import org.xmlcml.graphics.html.HtmlTr;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
