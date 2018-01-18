@@ -351,12 +351,19 @@ public class DefaultArgProcessor {
 			throw new RuntimeException("Bad exception level: "+levelS);
 		}
 	}
-
-	public void parseFileFilter(ArgumentOption option, ArgIterator argIterator) {
-		String fileFilterS = argIterator.getString(option);
-		fileFilterPattern = Pattern.compile(fileFilterS);
-		ioFileFilter = new RegexPathFilter(fileFilterPattern);
-	}
+        
+        public void parseFileFilter(ArgumentOption option, ArgIterator argIterator) {
+                String fileFilterS = argIterator.getString(option);
+                // Handle platform-specific paths
+                String sep = File.separator;
+                if (sep.equalsIgnoreCase("\\")) { 
+                    String replS = "\\" + sep + "\\" + sep;
+                    LOG.debug("Platform sep subs /:"+replS);
+                    fileFilterS = fileFilterS.replaceAll("/", replS);
+                }
+                fileFilterPattern = Pattern.compile(fileFilterS);
+                ioFileFilter = new RegexPathFilter(fileFilterPattern);
+        }
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextNonDigitMinus(option);
