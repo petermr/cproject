@@ -1214,6 +1214,7 @@ public class DefaultArgProcessor {
 	 * 
 	 */
 	public void runAndOutput() {
+		LOG.trace("MAIN LOOP "+cTreeList);
 		ensureCTreeList();
 		if (cTreeList.size() == 0) {
 			if (projectDirString != null) {

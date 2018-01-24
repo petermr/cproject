@@ -42,6 +42,7 @@ public class ProjectAndTreeFactory {
 	}
 	
 	void createCTreeListFrom(List<String> cTreeNames) {
+		LOG.trace("createCTreeListFrom");
 		if (cTreeNames.size() == 0) {
 			if (argProcessor.getInputList() == null || argProcessor.getInputList().size() == 0) {
 				LOG.error("Must give inputList before --CTree or --ctree");
@@ -147,6 +148,7 @@ public class ProjectAndTreeFactory {
 	}
 
 	private void createProjectAndCTreesFromInputFiles() {
+		LOG.trace("createProjectAndCTreesFromInputFiles");
 		List<String> inputList = argProcessor.getInputList();
 		if (inputList == null || inputList.size() == 0 ) {
 			LOG.error("no input files to create under project");
@@ -183,6 +185,7 @@ public class ProjectAndTreeFactory {
 	 *    
 	 */
 	void createCTreeListFromProject() {
+		LOG.trace("createCTreeListFromProject");
 		if (false) {
 		} else if (!projectFile.exists() || createdProjectDir) {
 			createProjectAndCTreesFromInputFiles();
@@ -230,6 +233,7 @@ public class ProjectAndTreeFactory {
 			CTree cTree = new CTree(subDirectory);
 			argProcessor.cTreeList.add(cTree);
 		}
+		return;
 	}
 
 	private void extractZipFilesToCTrees() {
@@ -246,6 +250,7 @@ public class ProjectAndTreeFactory {
 	}
 
 	private void createCTreesFromDirectories() {
+		LOG.trace("createCTreesFromDirectories");
 		argProcessor.cTreeList = new CTreeList();
 		extractDirectoriesToCTrees();
 		extractZipFilesToCTrees();
