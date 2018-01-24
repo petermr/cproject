@@ -17,6 +17,7 @@ import org.xmlcml.cproject.CMineFixtures;
 import org.xmlcml.cproject.CProjectArgProcessor;
 import org.xmlcml.cproject.args.DefaultArgProcessor;
 import org.xmlcml.cproject.metadata.AbstractMetadata;
+import org.xmlcml.cproject.util.CMineGlobber;
 import org.xmlcml.cproject.util.CMineTestFixtures;
 import org.xmlcml.graphics.html.HtmlElement;
 
@@ -610,17 +611,26 @@ project2
 	}
 	
 	@Test
-	public void testMakeProject() {
+	/** makes a project from a number of PDF files
+	 * 
+	 */
+	public void testMakeProject() throws IOException {
 		File pdfDir = new File(CMineFixtures.TEST_FILES_DIR, "misc/pdfDir");
 		File targetDir = new File("target/makeproj/");
 		CMineTestFixtures.cleanAndCopyDir(pdfDir, targetDir);
 		List<File> files = new ArrayList<File>(FileUtils.listFiles(targetDir, new String[] {"pdf"}, false));
-		LOG.trace(files);
 		Assert.assertEquals(5, files.size());
 		Assert.assertTrue(files.toString().contains("target/makeproj/10.1007_s00213-016-4471-y.pdf"));
 		String cmd = "--project "+targetDir+" --makeProject (\\1)/fulltext.pdf --fileFilter .*/(.*)\\.pdf";
 		new CProject().run(cmd);
-		files = new ArrayList<File>(FileUtils.listFiles(targetDir, new String[] {"pdf"}, false));
+		// assert mechanism by globbing files
+		CMineGlobber globber = new CMineGlobber();
+		globber.setLocation(targetDir.toString());
+		globber.setGlob("glob:**/fulltext.pdf");
+		List<File> fulltextFiles = globber.listFiles();
+		Assert.assertEquals(5,  fulltextFiles.size());
+		Assert.assertTrue("filename", fulltextFiles.toString().contains("target/makeproj/10.1007_s00213-016-4471-y/fulltext.pdf"));
+		Assert.assertTrue("filename", fulltextFiles.toString().contains("target/makeproj/10.1007_s00213-016-4477-5/fulltext.pdf"));
 	}
 	
 

@@ -106,6 +106,15 @@ public class CMineGlobber {
 		this.setLocation(directory.toString());
 	}
 
+	/** matches files against glob or regex.
+	 * Note matches whole path, so regexes probably need .* at start
+	 * Typical example (that works) 
+	 * globber.setRegex(".*\\/fulltext\\-page.*\\.svg");"
+	 * 
+	 * @param pathString
+	 * @param location
+	 * @throws IOException
+	 */
 	public void match(String pathString, String location) throws IOException {
 		ensureFileList();
 		final PathMatcher pathMatcher = FileSystems.getDefault().getPathMatcher(pathString);
