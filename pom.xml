@@ -6,6 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <properties>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        <!--  upstream -->
        <!--  this is may be included in pdfsvg transitively but include anyway during development -->
        <svghtml.version>1.0.0-SNAPSHOT</svghtml.version> <!--  transcluded -->
