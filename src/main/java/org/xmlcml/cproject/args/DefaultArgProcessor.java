@@ -942,6 +942,7 @@ public class DefaultArgProcessor {
 		if (commandLineArgs == null || commandLineArgs.length == 0) {
 			printHelp();
 		} else {
+                    try {
 			String[] totalArgs = addDefaultsAndParsedArgs(commandLineArgs);
 			ArgIterator argIterator = new ArgIterator(totalArgs);
 			LOG.trace("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
@@ -951,10 +952,14 @@ public class DefaultArgProcessor {
 				try {
 					addArgumentOptionsAndRunParseMethods(argIterator, arg);
 				} catch (Exception e) {
-					throw new RuntimeException("cannot process argument: "+arg+" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
+					throw new RuntimeException("Cannot process argument: "+arg+" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
 				}
 			}
 			finalizeArgs();
+                    } catch (RuntimeException ex) {
+                        System.err.println(ex.getMessage());
+                        LOG.error(ex.getMessage(), ex);
+                    }
 		}
 	}
 	
