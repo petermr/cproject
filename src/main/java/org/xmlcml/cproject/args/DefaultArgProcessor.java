@@ -1232,10 +1232,12 @@ public class DefaultArgProcessor {
 			if (projectDirString != null) {
 				output = projectDirString;
 			} else if (output != null) {
-				LOG.warn("no --project given; using --output");
+				LOG.warn("No --project given; using --output");
+                                System.err.println("No --project given; using --output");
 				projectDirString = output;
 			} else {
 				LOG.warn("No --project or --output; ");
+                                System.err.println("No --project or --output");
 //				printHelp();
 				return;
 			}
