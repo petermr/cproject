@@ -141,31 +141,51 @@ public class CMineGlobber {
 		}
 	}
 
-	public void setLocation(String location) {
-		if (location.startsWith("/")) {
-			LOG.warn("might delete system files: BE careful: "+location);			
+	public CMineGlobber setLocation(File location) {
+		if (location == null) {
+			LOG.warn("null location");
+		} else {
+			setLocation(location.toString());
 		}
-		this.location = location;
+		return this;
 	}
 
-	public void setGlob(String pathString) {
-		if (pathString.startsWith(REGEX)) {
+	public CMineGlobber setLocation(String location) {
+		if (location == null) {
+			LOG.warn("null location");
+		} else {
+			if (location.startsWith("/")) {
+				LOG.warn("matches against whole file system; might delete system files: BE careful: "+location);			
+			}
+			this.location = location;
+		}
+		return this;
+	}
+
+	public CMineGlobber setGlob(String pathString) {
+		if (pathString == null) {
+			LOG.warn("null pathString");
+		} else if (pathString.startsWith(REGEX)) {
 			setRegex(pathString);
 		} else if (!pathString.startsWith(GLOB)) {
 			this.pathString = GLOB + pathString;
 		} else {
 			this.pathString = pathString;
 		}
+		return this;
 	}
 
-	public void setRegex(String pathString) {
-		if (pathString.startsWith(GLOB)) {
+	public CMineGlobber setRegex(String pathString) {
+		if (pathString == null) {
+			LOG.warn("null pathString");
+		} else if (pathString.startsWith(GLOB)) {
 			setGlob(pathString);
 		} else if (!pathString.startsWith(REGEX)) {
 			this.pathString = REGEX + pathString;
 		} else {
 			this.pathString = pathString;
 		}
+		return this;
 	}
 
 	public List<File> listFiles() throws IOException {
