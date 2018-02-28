@@ -62,6 +62,7 @@ import nu.xom.Builder;
 import nu.xom.Document;
 import nu.xom.Element;
 import nu.xom.Node;
+import org.xmlcml.cproject.util.Utils;
 
 
 /** base class for all arg processing. Also contains the workflow logic:
@@ -355,12 +356,7 @@ public class DefaultArgProcessor {
         public void parseFileFilter(ArgumentOption option, ArgIterator argIterator) {
                 String fileFilterS = argIterator.getString(option);
                 // Handle platform-specific paths
-                String sep = File.separator;
-                if (sep.equalsIgnoreCase("\\")) { 
-                    String replS = "\\" + sep + "\\" + sep;
-                    LOG.debug("Platform sep subs /:"+replS);
-                    fileFilterS = fileFilterS.replaceAll("/", replS);
-                }
+                fileFilterS = Utils.convertPathRegexToCurrentPlatform(fileFilterS);
                 fileFilterPattern = Pattern.compile(fileFilterS);
                 ioFileFilter = new RegexPathFilter(fileFilterPattern);
         }
