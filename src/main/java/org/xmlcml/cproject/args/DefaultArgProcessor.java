@@ -62,6 +62,7 @@ import nu.xom.Builder;
 import nu.xom.Document;
 import nu.xom.Element;
 import nu.xom.Node;
+import org.xmlcml.cproject.util.Utils;
 
 
 /** base class for all arg processing. Also contains the workflow logic:
@@ -351,12 +352,14 @@ public class DefaultArgProcessor {
 			throw new RuntimeException("Bad exception level: "+levelS);
 		}
 	}
-
-	public void parseFileFilter(ArgumentOption option, ArgIterator argIterator) {
-		String fileFilterS = argIterator.getString(option);
-		fileFilterPattern = Pattern.compile(fileFilterS);
-		ioFileFilter = new RegexPathFilter(fileFilterPattern);
-	}
+        
+        public void parseFileFilter(ArgumentOption option, ArgIterator argIterator) {
+                String fileFilterS = argIterator.getString(option);
+                // Handle platform-specific paths
+                fileFilterS = Utils.convertPathRegexToCurrentPlatform(fileFilterS);
+                fileFilterPattern = Pattern.compile(fileFilterS);
+                ioFileFilter = new RegexPathFilter(fileFilterPattern);
+        }
 
 	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextNonDigitMinus(option);
@@ -935,6 +938,7 @@ public class DefaultArgProcessor {
 		if (commandLineArgs == null || commandLineArgs.length == 0) {
 			printHelp();
 		} else {
+                    try {
 			String[] totalArgs = addDefaultsAndParsedArgs(commandLineArgs);
 			ArgIterator argIterator = new ArgIterator(totalArgs);
 			LOG.trace("args with defaults is: "+new ArrayList<String>(Arrays.asList(totalArgs)));
@@ -944,10 +948,14 @@ public class DefaultArgProcessor {
 				try {
 					addArgumentOptionsAndRunParseMethods(argIterator, arg);
 				} catch (Exception e) {
-					throw new RuntimeException("cannot process argument: "+arg+" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
+					throw new RuntimeException("Cannot process argument: "+arg+" ("+ExceptionUtils.getRootCauseMessage(e)+")", e);
 				}
 			}
 			finalizeArgs();
+                    } catch (RuntimeException ex) {
+                        System.err.println(ex.getMessage());
+                        LOG.error(ex.getMessage(), ex);
+                    }
 		}
 	}
 	
@@ -1220,10 +1228,12 @@ public class DefaultArgProcessor {
 			if (projectDirString != null) {
 				output = projectDirString;
 			} else if (output != null) {
-				LOG.warn("no --project given; using --output");
+				LOG.warn("No --project given; using --output");
+                                System.err.println("No --project given; using --output");
 				projectDirString = output;
 			} else {
 				LOG.warn("No --project or --output; ");
+                                System.err.println("No --project or --output");
 //				printHelp();
 				return;
 			}

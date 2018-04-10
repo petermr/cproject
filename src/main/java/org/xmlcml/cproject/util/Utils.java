@@ -33,4 +33,19 @@ public class Utils {
 		return fileCollection.toArray(new File[0]);
 	}
 
+        /**
+         * Ensure path in generic (UNIX-style) format can be used to match paths on current platform. 
+         * 
+         * @param genericPathRegexString Path regex expressed in UNIX style using (forward) slashes
+         * @return The input path regex with path separators replaced with current platform equivalent if necessary.
+         */
+        public static String convertPathRegexToCurrentPlatform(String genericPathRegexString) {
+            String sep = File.separator;
+            String result = genericPathRegexString;
+            if (sep.equalsIgnoreCase("\\")) { 
+                String replS = "\\" + sep + "\\" + sep;
+                result = genericPathRegexString.replaceAll("/", replS);
+            }
+            return result;
+        }
 }
